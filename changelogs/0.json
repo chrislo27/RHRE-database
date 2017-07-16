@@ -1,6 +1,5 @@
 {
   "version": 0,
   "experimental": false,
-  "minimumEditorVersion": "v3.0.0",
   "description": "The first database version, copied from v2.17.0."
 }
