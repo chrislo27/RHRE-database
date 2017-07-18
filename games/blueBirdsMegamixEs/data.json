@@ -1,67 +1,88 @@
 {
-  "gameID": "blueBirdsMegamixEs",
-  "gameName": "Blue Birds (Megamix) (Spanish)",
-  "series": "megamix",
-  "cues": [
+  "id": "blueBirdsMegamixEs",
+  "deprecatedIDs": [],
+  "name": "Blue Birds (Megamix) (Spanish)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "blueBirdsMegamixEs/peckyourbeak1",
-      "duration": 0.5,
-      "name": "peck your beak - peck"
+      "deprecatedIDs": [],
+      "name": "peck your beak - peck",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "blueBirdsMegamixEs/peckyourbeak2",
-      "duration": 0.5,
-      "name": "peck your beak - your"
+      "deprecatedIDs": [],
+      "name": "peck your beak - your",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "blueBirdsMegamixEs/peckyourbeak3",
-      "duration": 0.5,
-      "name": "peck your beak - beak"
+      "deprecatedIDs": [],
+      "name": "peck your beak - beak",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "blueBirdsMegamixEs/peck",
-      "duration": 0.5,
-      "name": "peck"
+      "deprecatedIDs": [],
+      "name": "peck",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "blueBirdsMegamixEs/stretchoutyourneck1",
-      "duration": 0.75,
-      "name": "stretch out your neck - stretch"
+      "deprecatedIDs": [],
+      "name": "stretch out your neck - stretch",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "blueBirdsMegamixEs/stretchoutyourneck2",
-      "duration": 0.75,
-      "name": "stretch out your neck - out"
+      "deprecatedIDs": [],
+      "name": "stretch out your neck - out",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "blueBirdsMegamixEs/stretchoutyourneck3",
-      "duration": 0.5,
-      "name": "stretch out your neck - your"
+      "deprecatedIDs": [],
+      "name": "stretch out your neck - your",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "blueBirdsMegamixEs/stretchoutyourneck4",
-      "duration": 1,
-      "name": "stretch out your neck - neck"
+      "deprecatedIDs": [],
+      "name": "stretch out your neck - neck",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "blueBirdsMegamixEs/stretch1",
-      "duration": 1,
-      "name": "stretch1"
+      "deprecatedIDs": [],
+      "name": "stretch1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "blueBirdsMegamixEs/stretch2",
-      "duration": 0.5,
-      "name": "stretch2"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "stretch2",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "blueBirdsMegamixEs_peckyourbeak",
+      "deprecatedIDs": [],
       "name": "peck your beak",
       "cues": [
         {
           "id": "blueBirdsMegamixEs/peckyourbeak1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "blueBirdsMegamixEs/peckyourbeak2",
@@ -69,11 +90,11 @@
         },
         {
           "id": "blueBirdsMegamixEs/peckyourbeak3",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "blueBirdsMegamixEs/peck",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "blueBirdsMegamixEs/peck",
@@ -81,17 +102,19 @@
         },
         {
           "id": "blueBirdsMegamixEs/peck",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "blueBirdsMegamixEs_stretchoutyourneck",
+      "deprecatedIDs": [],
       "name": "stretch out your neck",
       "cues": [
         {
           "id": "blueBirdsMegamixEs/stretchoutyourneck1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "blueBirdsMegamixEs/stretchoutyourneck2",
@@ -103,15 +126,15 @@
         },
         {
           "id": "blueBirdsMegamixEs/stretchoutyourneck4",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "blueBirdsMegamixEs/stretch1",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "blueBirdsMegamixEs/stretch2",
-          "beat": 4
+          "beat": 4.0
         }
       ]
     }

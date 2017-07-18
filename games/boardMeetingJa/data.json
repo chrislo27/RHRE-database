@@ -1,110 +1,137 @@
 {
-  "gameID": "boardMeetingJa",
-  "gameName": "Board Meeting (Japanese)",
-  "series": "fever",
-  "cues": [
+  "id": "boardMeetingJa",
+  "deprecatedIDs": [],
+  "name": "Board Meeting (Japanese)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "boardMeetingJa/startPrepare",
-      "duration": 1.0,
-      "name": "start - prepare"
+      "deprecatedIDs": [],
+      "name": "start - prepare",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "boardMeetingJa/start1",
-      "duration": 1.0,
-      "name": "start - single"
+      "deprecatedIDs": [],
+      "name": "start - single",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "boardMeetingJa/spin1Loop",
-      "canAlterDuration": true,
-      "introSound": "boardMeetingJa/start1",
+      "deprecatedIDs": [],
+      "name": "spinning - start - 1",
       "duration": 1.0,
-      "loops": true,
-      "name": "spinning - start - 1"
+      "stretchable": true
     },
     {
+      "type": "cue",
       "id": "boardMeetingJa/start2",
-      "duration": 1.0,
-      "name": "start - 2"
+      "deprecatedIDs": [],
+      "name": "start - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "boardMeetingJa/spin2Loop",
-      "canAlterDuration": true,
-      "introSound": "boardMeetingJa/start2",
+      "deprecatedIDs": [],
+      "name": "spinning - start - 2",
       "duration": 1.0,
-      "loops": true,
-      "name": "spinning - start - 2"
+      "stretchable": true
     },
     {
+      "type": "cue",
       "id": "boardMeetingJa/start3",
-      "duration": 1.0,
-      "name": "start - 3"
+      "deprecatedIDs": [],
+      "name": "start - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "boardMeetingJa/spin3Loop",
-      "canAlterDuration": true,
-      "introSound": "boardMeetingJa/start3",
+      "deprecatedIDs": [],
+      "name": "spinning - start - 3",
       "duration": 1.0,
-      "loops": true,
-      "name": "spinning - start - 3"
+      "stretchable": true
     },
     {
+      "type": "cue",
       "id": "boardMeetingJa/start4",
-      "duration": 1.0,
-      "name": "start - 4"
+      "deprecatedIDs": [],
+      "name": "start - 4",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "boardMeetingJa/spin4Loop",
-      "canAlterDuration": true,
-      "introSound": "boardMeetingJa/start4",
+      "deprecatedIDs": [],
+      "name": "spinning - start - 4",
       "duration": 1.0,
-      "loops": true,
-      "name": "spinning - start - 4"
+      "stretchable": true
     },
     {
+      "type": "cue",
       "id": "boardMeetingJa/stop",
-      "duration": 0.5,
-      "name": "stop"
+      "deprecatedIDs": [],
+      "name": "stop",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "boardMeetingJa/stopPlayer",
-      "duration": 0.5,
-      "name": "stop - player"
+      "deprecatedIDs": [],
+      "name": "stop - player",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "boardMeetingJa/startTogether",
-      "duration": 1.0,
-      "name": "start - together"
+      "deprecatedIDs": [],
+      "name": "start - together",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "boardMeetingJa/spinTogether",
+      "deprecatedIDs": [],
+      "name": "spinning - start - together",
       "duration": 1.0,
-      "canAlterDuration": true,
-      "name": "spinning - start - together"
+      "stretchable": true
     },
     {
+      "type": "cue",
       "id": "boardMeetingJa/abStop1",
-      "duration": 0.66666,
-      "name": "assistant - ish"
+      "deprecatedIDs": [],
+      "name": "assistant - ish",
+      "duration": 0.66666
     },
     {
+      "type": "cue",
       "id": "boardMeetingJa/abStop2",
-      "duration": 0.33333,
-      "name": "assistant - o"
+      "deprecatedIDs": [],
+      "name": "assistant - o",
+      "duration": 0.33333
     },
     {
+      "type": "cue",
       "id": "boardMeetingJa/abStop3",
-      "duration": 0.5,
-      "name": "assistant - ni"
+      "deprecatedIDs": [],
+      "name": "assistant - ni",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "boardMeetingJa/abStop4",
-      "duration": 1.0,
-      "name": "stop - together"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "stop - together",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "boardMeetingJa_assistant",
+      "deprecatedIDs": [],
       "name": "assistant - stop",
       "cues": [
         {

@@ -1,52 +1,69 @@
 {
-  "gameID": "packingPestsJa",
-  "gameName": "Packing Pests (Japanese)",
-  "series": "fever",
-  "cues": [
+  "id": "packingPestsJa",
+  "deprecatedIDs": [],
+  "name": "Packing Pests (Japanese)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "packingPestsJa/candy1",
-      "duration": 0.5,
-      "name": "candy - throw"
+      "deprecatedIDs": [],
+      "name": "candy - throw",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "packingPestsJa/candy2",
-      "duration": 0.5,
-      "name": "candy - grab"
+      "deprecatedIDs": [],
+      "name": "candy - grab",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "packingPestsJa/spider1",
-      "duration": 0.5,
-      "name": "spider - throw"
+      "deprecatedIDs": [],
+      "name": "spider - throw",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "packingPestsJa/spider2",
-      "duration": 0.5,
-      "name": "spider - slap"
+      "deprecatedIDs": [],
+      "name": "spider - slap",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "packingPestsJa/ikuze1",
-      "duration": 0.45833,
-      "name": "iku-"
+      "deprecatedIDs": [],
+      "name": "iku-",
+      "duration": 0.45833
     },
     {
+      "type": "cue",
       "id": "packingPestsJa/ikuze2",
-      "duration": 0.25,
-      "name": "-ze"
+      "deprecatedIDs": [],
+      "name": "-ze",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "packingPestsJa/ding",
-      "duration": 0.5,
-      "name": "ding"
+      "deprecatedIDs": [],
+      "name": "ding",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "packingPestsJa/dingHm",
-      "duration": 0.5,
-      "name": "ding - hm"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "ding - hm",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "packingPestsJa_pattern",
+      "deprecatedIDs": [],
       "name": "pattern",
       "cues": [
         {
@@ -68,7 +85,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "packingPestsJa_ikuze",
+      "deprecatedIDs": [],
       "name": "double up!",
       "cues": [
         {
@@ -110,7 +129,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "packingPestsJa_pattern2",
+      "deprecatedIDs": [],
       "name": "offbeat pattern",
       "cues": [
         {
@@ -132,7 +153,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "packingPestsJa_dingpattern",
+      "deprecatedIDs": [],
       "name": "ding pattern",
       "cues": [
         {

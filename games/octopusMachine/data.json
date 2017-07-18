@@ -1,23 +1,29 @@
 {
-  "gameID": "octopusMachine",
-  "gameName": "Octopus Machine",
-  "series": "side",
-  "cues": [
+  "id": "octopusMachine",
+  "deprecatedIDs": [],
+  "name": "Octopus Machine",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "octopusMachine/squeeze",
-      "duration": 0.5,
-      "name": "squeeze"
+      "deprecatedIDs": [],
+      "name": "squeeze",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "octopusMachine/release",
-      "duration": 0.5,
-      "name": "release"
+      "deprecatedIDs": [],
+      "name": "release",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "octopusMachine/pop",
-      "duration": 0.5,
-      "name": "pop"
+      "deprecatedIDs": [],
+      "name": "pop",
+      "duration": 0.5
     }
-  ],
-  "patterns": []
+  ]
 }

@@ -1,24 +1,28 @@
 {
-  "gameID": "clappyTrioGba",
-  "gameName": "Clappy Trio (GBA)",
-  "series": "tengoku",
-  "cues": [
+  "id": "clappyTrioGba",
+  "deprecatedIDs": [],
+  "name": "Clappy Trio (GBA)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "clappyTrioGba/clap",
-      "duration": 0.25,
-      "name": "clap"
+      "deprecatedIDs": [],
+      "name": "clap",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "clappyTrioGba/ready",
-      "duration": 0.25,
-      "name": "ready"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "ready",
+      "duration": 0.25
+    },
     {
+      "type": "pattern",
       "id": "clappyTrioGba_triotiming",
+      "deprecatedIDs": [],
       "name": "trio timing!",
-      "isStretchable": true,
       "cues": [
         {
           "id": "clappyTrioGba/clap",
@@ -36,9 +40,10 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "clappyTrioGba_fouronthefloor",
+      "deprecatedIDs": [],
       "name": "four on the floor!",
-      "isStretchable": true,
       "cues": [
         {
           "id": "clappyTrioGba/clap",

@@ -1,96 +1,108 @@
 {
-  "gameID": "karateManDSEn",
-  "gameName": "Karate Man (DS) (English)",
-  "series": "ds",
-  "cues": [
+  "id": "karateManDSEn",
+  "deprecatedIDs": [],
+  "name": "Karate Man (DS) (English)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "karateManDSEn/potout",
       "deprecatedIDs": [
         "karateManDS/potout"
       ],
-      "duration": 1,
-      "name": "pot - out"
+      "name": "pot - out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "karateManDSEn/offbeatpotout",
       "deprecatedIDs": [
         "karateManDS/offbeatpotout"
       ],
-      "duration": 1,
-      "name": "pot - offbeat out"
+      "name": "pot - offbeat out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "karateManDSEn/pothit",
       "deprecatedIDs": [
         "karateManDS/pothit"
       ],
-      "duration": 1,
-      "name": "pot - hit"
+      "name": "pot - hit",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "karateManDSEn/hit3cue1",
       "deprecatedIDs": [
         "karateManDS/hit3cue1"
       ],
-      "duration": 0.5,
-      "name": "hit"
+      "name": "hit",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "karateManDSEn/hit3cue2",
       "deprecatedIDs": [
         "karateManDS/hit3cue2"
       ],
-      "duration": 0.5,
-      "name": "3!"
+      "name": "3!",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "karateManDSEn/bulbout",
       "deprecatedIDs": [
         "karateManDS/bulbout"
       ],
-      "duration": 1,
-      "name": "lightbulb - out"
+      "name": "lightbulb - out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "karateManDSEn/bulbhit",
       "deprecatedIDs": [
         "karateManDS/bulbhit"
       ],
-      "duration": 1,
-      "name": "lightbulb - hit"
+      "name": "lightbulb - hit",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "karateManDSEn/barrelout",
       "deprecatedIDs": [
         "karateManDS/barrelout"
       ],
-      "duration": 1,
-      "name": "barrel - out"
+      "name": "barrel - out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "karateManDSEn/punchkick1",
       "deprecatedIDs": [
         "karateManDS/punchkick1"
       ],
-      "duration": 0.5,
-      "name": "kick - pun"
+      "name": "kick - pun",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "karateManDSEn/punchkick2",
       "deprecatedIDs": [
         "karateManDS/punchkick2"
       ],
-      "duration": 0.25,
-      "name": "kick - ch"
+      "name": "kick - ch",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "karateManDSEn/punchkick3",
-      "duration": 0.75,
-      "name": "kick - kick!"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "kick - kick!",
+      "duration": 0.75
+    },
     {
+      "type": "pattern",
       "id": "karateManDSEn_pot",
       "deprecatedIDs": [
         "karateManDS_pot"
@@ -99,15 +111,16 @@
       "cues": [
         {
           "id": "karateManDSEn/potout",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "karateManDSEn/pothit",
-          "beat": 1
+          "beat": 1.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "karateManDSEn_offbeatpot",
       "deprecatedIDs": [
         "karateManDS_offbeatpot"
@@ -116,15 +129,16 @@
       "cues": [
         {
           "id": "karateManDSEn/offbeatpotout",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "karateManDSEn/pothit",
-          "beat": 1
+          "beat": 1.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "karateManDSEn_hit3",
       "deprecatedIDs": [
         "karateManDS_hit3"
@@ -133,7 +147,7 @@
       "cues": [
         {
           "id": "karateManDSEn/hit3cue1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "karateManDSEn/hit3cue2",
@@ -168,6 +182,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "karateManDSEn_kick",
       "deprecatedIDs": [
         "karateManDS_kick"
@@ -176,19 +191,19 @@
       "cues": [
         {
           "id": "karateManDSEn/bulbout",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "karateManDSEn/bulbhit",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "karateManDSEn/barrelout",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "karateManDSEn/punchkick1",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "karateManDSEn/punchkick2",

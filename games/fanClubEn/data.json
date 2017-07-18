@@ -1,129 +1,144 @@
 {
-  "gameID": "fanClubEn",
-  "gameName": "Fan Club (DS) (English)",
-  "series": "ds",
-  "cues": [
+  "id": "fanClubEn",
+  "deprecatedIDs": [],
+  "name": "Fan Club (DS) (English)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "fanClubEn/singerYeah1",
       "deprecatedIDs": [
         "fanClub/singerYeah1"
       ],
-      "duration": 1,
-      "name": "singer - yeah - 1"
+      "name": "singer - yeah - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fanClubEn/singerYeah2",
       "deprecatedIDs": [
         "fanClub/singerYeah2"
       ],
-      "duration": 1,
-      "name": "singer - yeah - 2"
+      "name": "singer - yeah - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fanClubEn/singerYeah3",
       "deprecatedIDs": [
         "fanClub/singerYeah3"
       ],
-      "duration": 1,
-      "name": "singer - yeah - 3"
+      "name": "singer - yeah - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fanClubEn/audienceYeah",
       "deprecatedIDs": [
         "fanClub/audienceYeah"
       ],
-      "duration": 1,
-      "name": "audience - yeah"
+      "name": "audience - yeah",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fanClubEn/singerISuppose1",
       "deprecatedIDs": [
         "fanClub/singerISuppose1"
       ],
-      "duration": 0.5,
-      "name": "singer - I suppose - 1"
+      "name": "singer - I suppose - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "fanClubEn/singerISuppose2",
       "deprecatedIDs": [
         "fanClub/singerISuppose2"
       ],
-      "duration": 0.5,
-      "name": "singer - I suppose - 1"
+      "name": "singer - I suppose - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "fanClubEn/singerISuppose3",
       "deprecatedIDs": [
         "fanClub/singerISuppose3"
       ],
-      "duration": 1,
-      "name": "singer - I suppose - 1"
+      "name": "singer - I suppose - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fanClubEn/audienceISuppose1",
       "deprecatedIDs": [
         "fanClub/audienceISuppose1"
       ],
-      "duration": 1.25,
-      "name": "audience - I suppose - 1"
+      "name": "audience - I suppose - 1",
+      "duration": 1.25
     },
     {
+      "type": "cue",
       "id": "fanClubEn/audienceISuppose2",
       "deprecatedIDs": [
         "fanClub/audienceISuppose2"
       ],
-      "duration": 0.75,
-      "name": "audience - I suppose - 2"
+      "name": "audience - I suppose - 2",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "fanClubEn/audienceISuppose3",
       "deprecatedIDs": [
         "fanClub/audienceISuppose3"
       ],
-      "duration": 1,
-      "name": "audience - I suppose - 3"
+      "name": "audience - I suppose - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fanClubEn/audienceISuppose4",
       "deprecatedIDs": [
         "fanClub/audienceISuppose4"
       ],
-      "duration": 1,
-      "name": "audience - I suppose - 4"
+      "name": "audience - I suppose - 4",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fanClubEn/landing",
-      "duration": 1,
-      "name": "audience - I suppose - landing"
+      "deprecatedIDs": [],
+      "name": "audience - I suppose - landing",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fanClubEn/ohh1",
       "deprecatedIDs": [
         "fanClub/ohh1"
       ],
-      "duration": 2.5,
-      "baseBPM": 143,
-      "name": "ohh - 1"
+      "name": "ohh - 1",
+      "duration": 2.5
     },
     {
+      "type": "cue",
       "id": "fanClubEn/ohh2",
       "deprecatedIDs": [
         "fanClub/ohh2"
       ],
-      "duration": 0.5,
-      "name": "ohh - 2"
+      "name": "ohh - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "fanClubEn/ohh3",
       "deprecatedIDs": [
         "fanClub/ohh3"
       ],
-      "duration": 1,
-      "name": "ohh - 3"
-    }
-  ],
-  "patterns": [
+      "name": "ohh - 3",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "fanClubEn_yeahYeahYeah",
       "deprecatedIDs": [
         "fanClub_yeahYeahYeah"
@@ -132,35 +147,36 @@
       "cues": [
         {
           "id": "fanClubEn/singerYeah1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "fanClubEn/singerYeah2",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "fanClubEn/singerYeah3",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "fanClubEn/audienceYeah",
-          "beat": 4
+          "beat": 4.0
         },
         {
           "id": "fanClubEn/audienceYeah",
-          "beat": 5
+          "beat": 5.0
         },
         {
           "id": "fanClubEn/audienceYeah",
-          "beat": 6
+          "beat": 6.0
         },
         {
           "id": "fanClubEn/audienceYeah",
-          "beat": 7
+          "beat": 7.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "fanClubEn_iSuppose",
       "deprecatedIDs": [
         "fanClub_iSuppose"
@@ -169,7 +185,7 @@
       "cues": [
         {
           "id": "fanClubEn/singerISuppose1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "fanClubEn/singerISuppose2",
@@ -177,11 +193,11 @@
         },
         {
           "id": "fanClubEn/singerISuppose3",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "fanClubEn/audienceISuppose1",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "fanClubEn/audienceISuppose2",
@@ -189,21 +205,23 @@
         },
         {
           "id": "fanClubEn/audienceISuppose3",
-          "beat": 4
+          "beat": 4.0
         },
         {
           "id": "fanClubEn/audienceISuppose4",
-          "beat": 5
+          "beat": 5.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "fanClubEn_iSupposeLanding",
+      "deprecatedIDs": [],
       "name": "I suppose! - with landing",
       "cues": [
         {
           "id": "fanClubEn/singerISuppose1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "fanClubEn/singerISuppose2",
@@ -211,11 +229,11 @@
         },
         {
           "id": "fanClubEn/singerISuppose3",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "fanClubEn/audienceISuppose1",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "fanClubEn/audienceISuppose2",
@@ -223,19 +241,20 @@
         },
         {
           "id": "fanClubEn/audienceISuppose3",
-          "beat": 4
+          "beat": 4.0
         },
         {
           "id": "fanClubEn/audienceISuppose4",
-          "beat": 5
+          "beat": 5.0
         },
         {
           "id": "fanClubEn/landing",
-          "beat": 6
+          "beat": 6.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "fanClubEn_ohh",
       "deprecatedIDs": [
         "fanClub_ohh"
@@ -244,7 +263,7 @@
       "cues": [
         {
           "id": "fanClubEn/ohh1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "fanClubEn/ohh2",
@@ -252,7 +271,7 @@
         },
         {
           "id": "fanClubEn/ohh3",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     }

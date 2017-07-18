@@ -1,61 +1,64 @@
 {
-  "gameID": "catchyTune",
-  "gameName": "Catchy Tune",
-  "series": "megamix",
-  "cues": [
+  "id": "catchyTune",
+  "deprecatedIDs": [],
+  "name": "Catchy Tune",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "catchyTune/leftCatch",
-      "duration": 1,
-      "name": "left - catch",
       "deprecatedIDs": [
         "catchyTune/clap"
       ],
-      "pan": 0.75
+      "name": "left - catch",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "catchyTune/leftOrange",
-      "duration": 1,
-      "name": "left - orange",
       "deprecatedIDs": [
         "catchyTune/orange"
       ],
-      "pan": 0.75
+      "name": "left - orange",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "catchyTune/leftPineapple",
-      "duration": 2,
-      "name": "left - pineapple",
       "deprecatedIDs": [
         "catchyTune/melon"
       ],
-      "pan": 0.75
+      "name": "left - pineapple",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "catchyTune/rightCatch",
-      "duration": 1,
+      "deprecatedIDs": [],
       "name": "right - catch",
-      "pan": -0.75
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "catchyTune/rightOrange",
-      "duration": 1,
+      "deprecatedIDs": [],
       "name": "right - orange",
-      "pan": -0.75
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "catchyTune/rightPineapple",
-      "duration": 2,
+      "deprecatedIDs": [],
       "name": "right - pineapple",
-      "pan": -0.75
-    }
-  ],
-  "patterns": [
+      "duration": 2.0
+    },
     {
+      "type": "pattern",
       "id": "catchyTune_leftOrange",
-      "name": "left - orange",
       "deprecatedIDs": [
         "catchyTune_orange"
       ],
+      "name": "left - orange",
       "cues": [
         {
           "id": "catchyTune/leftOrange",
@@ -76,7 +79,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "catchyTune_rightOrange",
+      "deprecatedIDs": [],
       "name": "right - orange",
       "cues": [
         {
@@ -98,11 +103,12 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "catchyTune_leftPineapple",
-      "name": "left - pineapple",
       "deprecatedIDs": [
         "catchyTune_pineapple"
       ],
+      "name": "left - pineapple",
       "cues": [
         {
           "id": "catchyTune/leftPineapple",
@@ -123,7 +129,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "catchyTune_rightPineapple",
+      "deprecatedIDs": [],
       "name": "right - pineapple",
       "cues": [
         {

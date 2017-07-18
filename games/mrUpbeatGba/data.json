@@ -1,62 +1,83 @@
 {
-  "gameID": "mrUpbeatGba",
-  "gameName": "Mr. Upbeat (GBA)",
-  "series": "side",
-  "cues": [
+  "id": "mrUpbeatGba",
+  "deprecatedIDs": [],
+  "name": "Mr. Upbeat (GBA)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "mrUpbeatGba/bip",
-      "duration": 0.5,
-      "name": "count in - bip"
+      "deprecatedIDs": [],
+      "name": "count in - bip",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "mrUpbeatGba/one",
-      "duration": 0.5,
-      "name": "count in - one"
+      "deprecatedIDs": [],
+      "name": "count in - one",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "mrUpbeatGba/two",
-      "duration": 0.5,
-      "name": "count in - two"
+      "deprecatedIDs": [],
+      "name": "count in - two",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "mrUpbeatGba/a",
-      "duration": 0.5,
-      "name": "count in - a"
+      "deprecatedIDs": [],
+      "name": "count in - a",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "mrUpbeatGba/three",
-      "duration": 0.5,
-      "name": "count in - three"
+      "deprecatedIDs": [],
+      "name": "count in - three",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "mrUpbeatGba/four",
-      "duration": 0.5,
-      "name": "count in - four"
+      "deprecatedIDs": [],
+      "name": "count in - four",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "mrUpbeatGba/metroL",
-      "duration": 0.5,
-      "name": "metronome - left"
+      "deprecatedIDs": [],
+      "name": "metronome - left",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "mrUpbeatGba/metroR",
-      "duration": 0.5,
-      "name": "metronome - right"
+      "deprecatedIDs": [],
+      "name": "metronome - right",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "mrUpbeatGba/step",
-      "duration": 0.5,
-      "name": "upbeat - step"
+      "deprecatedIDs": [],
+      "name": "upbeat - step",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "mrUpbeatGba/ding",
-      "duration": 0.5,
-      "name": "ding"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "ding",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "mrUpbeatGba_countIn",
+      "deprecatedIDs": [],
       "name": "count in",
       "cues": [
         {
@@ -118,7 +139,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "mrUpbeatGba_pattern",
+      "deprecatedIDs": [],
       "name": "stepping",
       "cues": [
         {

@@ -1,28 +1,36 @@
 {
-  "gameID": "workingDough",
-  "gameName": "Working Dough",
-  "series": "fever",
-  "cues": [
+  "id": "workingDough",
+  "deprecatedIDs": [],
+  "name": "Working Dough",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "workingDough/leftSmall",
-      "duration": 0.25,
-      "name": "left - small"
+      "deprecatedIDs": [],
+      "name": "left - small",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "workingDough/leftBig",
-      "duration": 0.25,
-      "name": "left - big"
+      "deprecatedIDs": [],
+      "name": "left - big",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "workingDough/rightSmall",
-      "duration": 0.25,
-      "name": "right - small"
+      "deprecatedIDs": [],
+      "name": "right - small",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "workingDough/rightBig",
-      "duration": 0.25,
-      "name": "right - big"
+      "deprecatedIDs": [],
+      "name": "right - big",
+      "duration": 0.25
     }
-  ],
-  "patterns": []
+  ]
 }

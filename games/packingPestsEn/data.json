@@ -1,76 +1,84 @@
 {
-  "gameID": "packingPestsEn",
-  "gameName": "Packing Pests (English)",
-  "series": "fever",
-  "cues": [
+  "id": "packingPestsEn",
+  "deprecatedIDs": [],
+  "name": "Packing Pests (English)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "packingPestsEn/candy1",
       "deprecatedIDs": [
         "packingPests/candy1"
       ],
-      "duration": 0.5,
-      "name": "candy - throw"
+      "name": "candy - throw",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "packingPestsEn/candy2",
       "deprecatedIDs": [
         "packingPests/candy2"
       ],
-      "duration": 0.5,
-      "name": "candy - grab"
+      "name": "candy - grab",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "packingPestsEn/spider1",
       "deprecatedIDs": [
         "packingPests/spider1"
       ],
-      "duration": 0.5,
-      "name": "spider - throw"
+      "name": "spider - throw",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "packingPestsEn/spider2",
       "deprecatedIDs": [
         "packingPests/spider2"
       ],
-      "duration": 0.5,
-      "name": "spider - slap"
+      "name": "spider - slap",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "packingPestsEn/doubleup1",
       "deprecatedIDs": [
         "packingPests/doubleup1"
       ],
-      "duration": 0.45833,
-      "name": "double-"
+      "name": "double-",
+      "duration": 0.45833
     },
     {
+      "type": "cue",
       "id": "packingPestsEn/doubleup2",
       "deprecatedIDs": [
         "packingPests/doubleup2"
       ],
-      "duration": 0.25,
-      "name": "-up"
+      "name": "-up",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "packingPestsEn/ding",
       "deprecatedIDs": [
         "packingPests/ding"
       ],
-      "duration": 0.5,
-      "name": "ding"
+      "name": "ding",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "packingPestsEn/dingHm",
       "deprecatedIDs": [
         "packingPests/dingcandy",
         "packingPests/dingHm"
       ],
-      "duration": 0.5,
-      "name": "ding - hm"
-    }
-  ],
-  "patterns": [
+      "name": "ding - hm",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "packingPestsEn_pattern",
       "deprecatedIDs": [
         "packingPests_pattern"
@@ -96,6 +104,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "packingPestsEn_double",
       "deprecatedIDs": [
         "packingPests_double"
@@ -141,6 +150,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "packingPestsEn_pattern2",
       "deprecatedIDs": [
         "packingPests_pattern2"
@@ -166,6 +176,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "packingPestsEn_dingpattern",
       "deprecatedIDs": [
         "packingPests_dingpattern"

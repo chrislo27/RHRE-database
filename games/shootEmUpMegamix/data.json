@@ -1,28 +1,36 @@
 {
-  "gameID": "shootEmUpMegamix",
-  "gameName": "Shoot-'em-Up (Megamix)",
-  "series": "megamix",
-  "cues": [
+  "id": "shootEmUpMegamix",
+  "deprecatedIDs": [],
+  "name": "Shoot-'em-Up (Megamix)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "shootEmUpMegamix/spawn",
-      "duration": 0.5,
-      "name": "spawn"
+      "deprecatedIDs": [],
+      "name": "spawn",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "shootEmUpMegamix/shoot",
-      "duration": 0.5,
-      "name": "shoot"
+      "deprecatedIDs": [],
+      "name": "shoot",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "shootEmUpMegamix/commStart",
-      "duration": 0.5,
-      "name": "comms start"
+      "deprecatedIDs": [],
+      "name": "comms start",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "shootEmUpMegamix/commEnd",
-      "duration": 0.5,
-      "name": "comms end"
+      "deprecatedIDs": [],
+      "name": "comms end",
+      "duration": 0.5
     }
-  ],
-  "patterns": []
+  ]
 }

@@ -1,27 +1,34 @@
 {
-  "gameID": "tunnelJa",
-  "gameName": "Tunnel (Japanese)",
-  "series": "side",
-  "cues": [
+  "id": "tunnelJa",
+  "deprecatedIDs": [],
+  "name": "Tunnel (Japanese)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "tunnelJa/one",
-      "duration": 1,
-      "name": "count in - one"
+      "deprecatedIDs": [],
+      "name": "count in - one",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "tunnelJa/two",
-      "duration": 1,
-      "name": "count in - two"
+      "deprecatedIDs": [],
+      "name": "count in - two",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "tunnelJa/cowbell",
-      "duration": 1,
-      "name": "cowbell"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "cowbell",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "tunnelJa_onetwo",
+      "deprecatedIDs": [],
       "name": "one, two!",
       "cues": [
         {
@@ -35,7 +42,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "tunnelJa_cowbell",
+      "deprecatedIDs": [],
       "name": "cowbell",
       "cues": [
         {

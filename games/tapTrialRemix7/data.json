@@ -1,62 +1,83 @@
 {
-  "gameID": "tapTrialRemix7",
-  "gameName": "Tap Trial (GBA Remix 7)",
-  "series": "tengoku",
-  "cues": [
+  "id": "tapTrialRemix7",
+  "deprecatedIDs": [],
+  "name": "Tap Trial (GBA Remix 7)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "tapTrialRemix7/tap",
-      "duration": 0.5,
-      "name": "tap"
+      "deprecatedIDs": [],
+      "name": "tap",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "tapTrialRemix7/ook",
-      "duration": 1,
-      "name": "moo"
+      "deprecatedIDs": [],
+      "name": "moo",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "tapTrialRemix7/ookook1",
-      "duration": 0.5,
-      "name": "moo-moo - 1"
+      "deprecatedIDs": [],
+      "name": "moo-moo - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "tapTrialRemix7/ookook2",
-      "duration": 0.5,
-      "name": "moo-moo - 2"
+      "deprecatedIDs": [],
+      "name": "moo-moo - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "tapTrialRemix7/ooki1",
-      "duration": 0.5,
-      "name": "bohi - 1"
+      "deprecatedIDs": [],
+      "name": "bohi - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "tapTrialRemix7/ooki2",
-      "duration": 1.5,
-      "name": "bohi - 2"
+      "deprecatedIDs": [],
+      "name": "bohi - 2",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "tapTrialRemix7/jumptap1",
-      "duration": 1,
-      "name": "jump - normal - jump"
+      "deprecatedIDs": [],
+      "name": "jump - normal - jump",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "tapTrialRemix7/jumptap1_tap",
-      "duration": 1,
-      "name": "jump - normal - land"
+      "deprecatedIDs": [],
+      "name": "jump - normal - land",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "tapTrialRemix7/jumptap2",
-      "duration": 1,
-      "name": "jump - final - jump"
+      "deprecatedIDs": [],
+      "name": "jump - final - jump",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "tapTrialRemix7/jumptap2_tap",
-      "duration": 1,
-      "name": "jump - final - land"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "jump - final - land",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "tapTrialRemix7_tap",
+      "deprecatedIDs": [],
       "name": "tap",
       "cues": [
         {
@@ -70,7 +91,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "tapTrialRemix7_doubletap",
+      "deprecatedIDs": [],
       "name": "double tap",
       "cues": [
         {
@@ -92,7 +115,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "tapTrialRemix7_tripletap",
+      "deprecatedIDs": [],
       "name": "triple tap",
       "cues": [
         {
@@ -118,7 +143,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "tapTrialRemix7_jumptap",
+      "deprecatedIDs": [],
       "name": "jump tap",
       "cues": [
         {
@@ -132,7 +159,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "tapTrialRemix7_finaljumptap",
+      "deprecatedIDs": [],
       "name": "final jump tap",
       "cues": [
         {

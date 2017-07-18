@@ -1,109 +1,121 @@
 {
-  "gameID": "bigRockFinishEn",
-  "gameName": "Big Rock Finish (DS) (English)",
-  "series": "ds",
-  "cues": [
+  "id": "bigRockFinishEn",
+  "deprecatedIDs": [],
+  "name": "Big Rock Finish (DS) (English)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "bigRockFinishEn/thankYou",
       "deprecatedIDs": [
         "bigRockFinish/thankYou"
       ],
-      "duration": 1.0,
-      "name": "ghost - thank you!"
+      "name": "ghost - thank you!",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishEn/one",
       "deprecatedIDs": [
         "bigRockFinish/one"
       ],
-      "duration": 1.0,
-      "name": "count in - one"
+      "name": "count in - one",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishEn/two",
       "deprecatedIDs": [
         "bigRockFinish/two"
       ],
-      "duration": 1.0,
-      "name": "count in - two"
+      "name": "count in - two",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishEn/three",
       "deprecatedIDs": [
         "bigRockFinish/three"
       ],
-      "duration": 1.0,
-      "name": "count in - three"
+      "name": "count in - three",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishEn/ooh",
       "deprecatedIDs": [
         "bigRockFinish/ooh"
       ],
-      "duration": 1.0,
-      "name": "count in - ooh"
+      "name": "count in - ooh",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishEn/oneFast",
       "deprecatedIDs": [
         "bigRockFinish/oneFast"
       ],
-      "duration": 1.0,
-      "name": "count in - one - fast"
+      "name": "count in - one - fast",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishEn/twoFast",
       "deprecatedIDs": [
         "bigRockFinish/twoFast"
       ],
-      "duration": 1.0,
-      "name": "count in - two - fast"
+      "name": "count in - two - fast",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishEn/threeFast",
       "deprecatedIDs": [
         "bigRockFinish/threeFast"
       ],
-      "duration": 1.0,
-      "name": "count in - three - fast"
+      "name": "count in - three - fast",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishEn/comeOn1",
       "deprecatedIDs": [
         "bigRockFinish/comeOn1"
       ],
-      "duration": 0.5,
-      "name": "count in - come on - 1"
+      "name": "count in - come on - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "bigRockFinishEn/comeOn2",
       "deprecatedIDs": [
         "bigRockFinish/comeOn2"
       ],
-      "duration": 0.5,
-      "name": "count in - come on - 2"
+      "name": "count in - come on - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "bigRockFinishEn/strum",
       "deprecatedIDs": [
         "bigRockFinish/strum"
       ],
+      "name": "ghost - strum",
       "duration": 1.0,
-      "canAlterPitch": true,
-      "name": "ghost - strum"
+      "repitchable": true
     },
     {
+      "type": "cue",
       "id": "bigRockFinishEn/strumFinal",
       "deprecatedIDs": [
         "bigRockFinish/strumFinal"
       ],
+      "name": "ghost - last strum",
       "duration": 2.0,
-      "canAlterPitch": true,
-      "name": "ghost - last strum"
-    }
-  ],
-  "patterns": [
+      "repitchable": true
+    },
     {
+      "type": "pattern",
       "id": "bigRockFinishEn_countIn8",
       "deprecatedIDs": [
         "bigRockFinish_countIn8"
@@ -137,6 +149,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "bigRockFinishEn_countIn8Fast",
       "deprecatedIDs": [
         "bigRockFinish_countIn8Fast"
@@ -174,6 +187,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "bigRockFinishEn_countIn4",
       "deprecatedIDs": [
         "bigRockFinish_countIn4"
@@ -199,6 +213,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "bigRockFinishEn_countIn4Fast",
       "deprecatedIDs": [
         "bigRockFinish_countIn4Fast"
@@ -228,12 +243,12 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "bigRockFinishEn_strum",
       "deprecatedIDs": [
         "bigRockFinish_strum"
       ],
       "name": "strum",
-      "isStretchable": true,
       "cues": [
         {
           "id": "bigRockFinishEn/strum",

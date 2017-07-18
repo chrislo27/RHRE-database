@@ -1,58 +1,78 @@
 {
-  "gameID": "quizShowGba",
-  "gameName": "Quiz Show (GBA)",
-  "series": "tengoku",
-  "cues": [
+  "id": "quizShowGba",
+  "deprecatedIDs": [],
+  "name": "Quiz Show (GBA)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "quizShowGba/contestantA",
-      "duration": 0.25,
-      "name": "contestant - A"
+      "deprecatedIDs": [],
+      "name": "contestant - A",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "quizShowGba/contestantDPad",
-      "duration": 0.25,
-      "name": "contestant - +"
+      "deprecatedIDs": [],
+      "name": "contestant - +",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "quizShowGba/hostA",
-      "duration": 0.25,
-      "name": "host - A"
+      "deprecatedIDs": [],
+      "name": "host - A",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "quizShowGba/hostDPad",
-      "duration": 0.25,
-      "name": "host - +"
+      "deprecatedIDs": [],
+      "name": "host - +",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "quizShowGba/timerStart",
-      "duration": 1,
-      "name": "timer start"
+      "deprecatedIDs": [],
+      "name": "timer start",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "quizShowGba/timerStop",
-      "duration": 1,
-      "name": "timer stop"
+      "deprecatedIDs": [],
+      "name": "timer stop",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "quizShowGba/timeUp",
-      "duration": 2,
-      "name": "time's up!"
+      "deprecatedIDs": [],
+      "name": "time's up!",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "quizShowGba/answerReveal",
-      "duration": 1,
-      "name": "answer reveal"
+      "deprecatedIDs": [],
+      "name": "answer reveal",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "quizShowGba/correct",
-      "duration": 2,
-      "name": "correct answer"
+      "deprecatedIDs": [],
+      "name": "correct answer",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "quizShowGba/correctNoMusic",
-      "duration": 2,
-      "name": "correct answer - no music"
+      "deprecatedIDs": [],
+      "name": "correct answer - no music",
+      "duration": 2.0
     }
-  ],
-  "patterns": []
+  ]
 }

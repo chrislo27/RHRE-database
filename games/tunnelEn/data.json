@@ -1,27 +1,34 @@
 {
-  "gameID": "tunnelEn",
-  "gameName": "Tunnel (English)",
-  "series": "side",
-  "cues": [
+  "id": "tunnelEn",
+  "deprecatedIDs": [],
+  "name": "Tunnel (English)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "tunnelEn/one",
-      "duration": 1,
-      "name": "count in - one"
+      "deprecatedIDs": [],
+      "name": "count in - one",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "tunnelEn/two",
-      "duration": 1,
-      "name": "count in - two"
+      "deprecatedIDs": [],
+      "name": "count in - two",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "tunnelEn/cowbell",
-      "duration": 1,
-      "name": "cowbell"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "cowbell",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "tunnelEn_onetwo",
+      "deprecatedIDs": [],
       "name": "one, two!",
       "cues": [
         {
@@ -35,7 +42,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "tunnelEn_cowbell",
+      "deprecatedIDs": [],
       "name": "cowbell",
       "cues": [
         {

@@ -1,38 +1,50 @@
 {
-  "gameID": "mochiPounding",
-  "gameName": "Mochi Pounding",
-  "series": "side",
-  "cues": [
+  "id": "mochiPounding",
+  "deprecatedIDs": [],
+  "name": "Mochi Pounding",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "mochiPounding/redMochi1",
-      "duration": 0.5,
-      "name": "red - mochi pounding - 1"
+      "deprecatedIDs": [],
+      "name": "red - mochi pounding - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "mochiPounding/redMochi2",
-      "duration": 0.5,
-      "name": "red - mochi pounding - 2"
+      "deprecatedIDs": [],
+      "name": "red - mochi pounding - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "mochiPounding/redMochiEnd",
-      "duration": 3.0,
-      "name": "red - ending pounding mochi"
+      "deprecatedIDs": [],
+      "name": "red - ending pounding mochi",
+      "duration": 3.0
     },
     {
+      "type": "cue",
       "id": "mochiPounding/blueMochi1",
-      "duration": 0.5,
-      "name": "blue - mochi pounding - 1"
+      "deprecatedIDs": [],
+      "name": "blue - mochi pounding - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "mochiPounding/blueMochi2",
-      "duration": 0.5,
-      "name": "blue - mochi pounding - 2"
+      "deprecatedIDs": [],
+      "name": "blue - mochi pounding - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "mochiPounding/blueMochiEnd",
-      "duration": 3.0,
-      "name": "blue - ending pounding mochi"
+      "deprecatedIDs": [],
+      "name": "blue - ending pounding mochi",
+      "duration": 3.0
     }
-  ],
-  "patterns": []
+  ]
 }

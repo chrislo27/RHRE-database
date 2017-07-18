@@ -1,50 +1,59 @@
 {
-  "gameID": "spaceball",
-  "gameName": "Spaceball (GBA)",
-  "series": "tengoku",
-  "cues": [
+  "id": "spaceball",
+  "deprecatedIDs": [],
+  "name": "Spaceball (GBA)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "spaceball/shoot",
-      "duration": 1,
-      "name": "shoot"
+      "deprecatedIDs": [],
+      "name": "shoot",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "spaceball/longShoot",
-      "duration": 1,
-      "name": "high shot"
+      "deprecatedIDs": [],
+      "name": "high shot",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "spaceball/hit",
-      "duration": 1,
-      "name": "hit"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "hit",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "spaceball_ball",
+      "deprecatedIDs": [],
       "name": "ball",
       "cues": [
         {
           "id": "spaceball/shoot",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "spaceball/hit",
-          "beat": 1
+          "beat": 1.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "spaceball_highball",
+      "deprecatedIDs": [],
       "name": "high ball",
       "cues": [
         {
           "id": "spaceball/longShoot",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "spaceball/hit",
-          "beat": 2
+          "beat": 2.0
         }
       ]
     }

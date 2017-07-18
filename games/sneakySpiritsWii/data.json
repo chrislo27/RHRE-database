@@ -1,46 +1,57 @@
 {
-  "gameID": "sneakySpiritsWii",
-  "gameName": "Sneaky Spirits (Fever)",
-  "series": "fever",
-  "cues": [
+  "id": "sneakySpiritsWii",
+  "deprecatedIDs": [],
+  "name": "Sneaky Spirits (Fever)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "sneakySpiritsWii/moving",
-      "duration": 0.5,
-      "name": "moving"
+      "deprecatedIDs": [],
+      "name": "moving",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "sneakySpiritsWii/fading1",
-      "duration": 0.5,
-      "name": "fading - 1"
+      "deprecatedIDs": [],
+      "name": "fading - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "sneakySpiritsWii/fading2",
-      "duration": 0.5,
-      "name": "fading - 2"
+      "deprecatedIDs": [],
+      "name": "fading - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "sneakySpiritsWii/fading3",
-      "duration": 0.5,
-      "name": "fading - 3"
+      "deprecatedIDs": [],
+      "name": "fading - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "sneakySpiritsWii/rainLoop",
-      "canAlterDuration": true,
-      "loops": true,
+      "deprecatedIDs": [],
+      "name": "no ghost - raining",
       "duration": 3.0,
-      "name": "no ghost - raining"
+      "stretchable": true
     },
     {
+      "type": "cue",
       "id": "sneakySpiritsWii/hit",
-      "duration": 0.5,
-      "name": "hit"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "hit",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "sneakySpiritsWii_sevenBeats",
+      "deprecatedIDs": [],
       "name": "7 beats",
-      "isStretchable": true,
       "cues": [
         {
           "id": "sneakySpiritsWii/moving",
@@ -73,9 +84,10 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "sneakySpiritsWii_eightBeats",
+      "deprecatedIDs": [],
       "name": "8 beats",
-      "isStretchable": true,
       "cues": [
         {
           "id": "sneakySpiritsWii/moving",

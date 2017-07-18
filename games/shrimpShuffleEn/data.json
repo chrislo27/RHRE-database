@@ -1,150 +1,169 @@
 {
-  "gameID": "shrimpShuffleEn",
-  "gameName": "Shrimp Shuffle (English)",
-  "series": "fever",
-  "cues": [
+  "id": "shrimpShuffleEn",
+  "deprecatedIDs": [],
+  "name": "Shrimp Shuffle (English)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "shrimpShuffleEn/allDone",
-      "duration": 1,
-      "name": "all done!"
+      "deprecatedIDs": [],
+      "name": "all done!",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "shrimpShuffleEn/to",
       "deprecatedIDs": [
         "shrimpShuffle/to"
       ],
-      "duration": 0.3333,
-      "name": "together - to"
+      "name": "together - to",
+      "duration": 0.3333
     },
     {
+      "type": "cue",
       "id": "shrimpShuffleEn/ge",
       "deprecatedIDs": [
         "shrimpShuffle/ge"
       ],
-      "duration": 0.6666,
-      "name": "together - ge"
+      "name": "together - ge",
+      "duration": 0.6666
     },
     {
+      "type": "cue",
       "id": "shrimpShuffleEn/ther",
       "deprecatedIDs": [
         "shrimpShuffle/ther"
       ],
-      "duration": 0.3333,
-      "name": "together - ther"
+      "name": "together - ther",
+      "duration": 0.3333
     },
     {
+      "type": "cue",
       "id": "shrimpShuffleEn/one1",
       "deprecatedIDs": [
         "shrimpShuffle/one1"
       ],
-      "duration": 1,
-      "name": "1 - first"
+      "name": "1 - first",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "shrimpShuffleEn/two1",
       "deprecatedIDs": [
         "shrimpShuffle/two1"
       ],
-      "duration": 1,
-      "name": "2 - first"
+      "name": "2 - first",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "shrimpShuffleEn/three1",
       "deprecatedIDs": [
         "shrimpShuffle/three1"
       ],
-      "duration": 1,
-      "name": "3 - first"
+      "name": "3 - first",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "shrimpShuffleEn/three2",
       "deprecatedIDs": [
         "shrimpShuffle/three2"
       ],
-      "duration": 1,
-      "name": "1 - second"
+      "name": "1 - second",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "shrimpShuffleEn/two2",
       "deprecatedIDs": [
         "shrimpShuffle/two2"
       ],
-      "duration": 1,
-      "name": "2 - second"
+      "name": "2 - second",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "shrimpShuffleEn/one2",
       "deprecatedIDs": [
         "shrimpShuffle/one2"
       ],
-      "duration": 0.6666,
-      "name": "3 - second"
+      "name": "3 - second",
+      "duration": 0.6666
     },
     {
+      "type": "cue",
       "id": "shrimpShuffleEn/ah",
       "deprecatedIDs": [
         "shrimpShuffle/ah"
       ],
-      "duration": 0.3333,
-      "name": "pause - 1"
+      "name": "pause - 1",
+      "duration": 0.3333
     },
     {
+      "type": "cue",
       "id": "shrimpShuffleEn/wa",
       "deprecatedIDs": [
         "shrimpShuffle/wa"
       ],
-      "duration": 0.6666,
-      "name": "pause - 2"
+      "name": "pause - 2",
+      "duration": 0.6666
     },
     {
+      "type": "cue",
       "id": "shrimpShuffleEn/ha",
       "deprecatedIDs": [
         "shrimpShuffle/ha"
       ],
-      "duration": 0.3333,
-      "name": "pause - 3"
+      "name": "pause - 3",
+      "duration": 0.3333
     },
     {
+      "type": "cue",
       "id": "shrimpShuffleEn/uhn",
       "deprecatedIDs": [
         "shrimpShuffle/uhn"
       ],
-      "duration": 1,
-      "name": "pause - 4"
+      "name": "pause - 4",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "shrimpShuffleEn/a",
       "deprecatedIDs": [
         "shrimpShuffle/a"
       ],
-      "duration": 1,
-      "name": "a"
+      "name": "a",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "shrimpShuffleEn/b",
       "deprecatedIDs": [
         "shrimpShuffle/b"
       ],
-      "duration": 1,
-      "name": "b"
+      "name": "b",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "shrimpShuffleEn/c",
       "deprecatedIDs": [
         "shrimpShuffle/c"
       ],
-      "duration": 0.6666,
-      "name": "c"
-    }
-  ],
-  "patterns": [
+      "name": "c",
+      "duration": 0.6666
+    },
     {
+      "type": "pattern",
       "id": "shrimpShuffleEn_together",
+      "deprecatedIDs": [],
       "name": "together",
       "cues": [
         {
           "id": "shrimpShuffleEn/to",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "shrimpShuffleEn/ge",
@@ -152,7 +171,7 @@
         },
         {
           "id": "shrimpShuffleEn/ther",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "shrimpShuffleEn/one1",
@@ -168,11 +187,11 @@
         },
         {
           "id": "shrimpShuffleEn/three2",
-          "beat": 5
+          "beat": 5.0
         },
         {
           "id": "shrimpShuffleEn/two2",
-          "beat": 6
+          "beat": 6.0
         },
         {
           "id": "shrimpShuffleEn/one2",
@@ -181,6 +200,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "shrimpShuffleEn_ABC",
       "deprecatedIDs": [
         "shrimpShuffle_ABC"
@@ -189,7 +209,7 @@
       "cues": [
         {
           "id": "shrimpShuffleEn/to",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "shrimpShuffleEn/ge",
@@ -197,7 +217,7 @@
         },
         {
           "id": "shrimpShuffleEn/ther",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "shrimpShuffleEn/one1",
@@ -213,11 +233,11 @@
         },
         {
           "id": "shrimpShuffleEn/a",
-          "beat": 5
+          "beat": 5.0
         },
         {
           "id": "shrimpShuffleEn/b",
-          "beat": 6
+          "beat": 6.0
         },
         {
           "id": "shrimpShuffleEn/c",
@@ -226,6 +246,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "shrimpShuffleEn_paused",
       "deprecatedIDs": [
         "shrimpShuffle_paused"
@@ -234,7 +255,7 @@
       "cues": [
         {
           "id": "shrimpShuffleEn/ah",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "shrimpShuffleEn/wa",
@@ -242,7 +263,7 @@
         },
         {
           "id": "shrimpShuffleEn/ha",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "shrimpShuffleEn/uhn",
@@ -275,6 +296,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "shrimpShuffleEn_pausedABC",
       "deprecatedIDs": [
         "shrimpShuffle_pausedABC"
@@ -283,7 +305,7 @@
       "cues": [
         {
           "id": "shrimpShuffleEn/ah",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "shrimpShuffleEn/wa",
@@ -291,7 +313,7 @@
         },
         {
           "id": "shrimpShuffleEn/ha",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "shrimpShuffleEn/uhn",

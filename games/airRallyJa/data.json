@@ -1,182 +1,251 @@
 {
-  "gameID": "airRallyJa",
-  "gameName": "Air Rally (Fever) (Japanese)",
-  "series": "fever",
-  "cues": [
+  "id": "airRallyJa",
+  "deprecatedIDs": [],
+  "name": "Air Rally (Fever) (Japanese)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "airRallyJa/birdieCatch",
-      "duration": 0.5,
-      "name": "forthington - catch birdie"
+      "deprecatedIDs": [],
+      "name": "forthington - catch birdie",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/countIn1",
-      "duration": 0.5,
-      "name": "forthington - count in - one"
+      "deprecatedIDs": [],
+      "name": "forthington - count in - one",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/countIn2",
-      "duration": 0.5,
-      "name": "forthington - count in - two"
+      "deprecatedIDs": [],
+      "name": "forthington - count in - two",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/countIn3",
-      "duration": 0.5,
-      "name": "forthington - count in - three"
+      "deprecatedIDs": [],
+      "name": "forthington - count in - three",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/countIn4",
-      "duration": 0.5,
-      "name": "forthington - count in - four"
+      "deprecatedIDs": [],
+      "name": "forthington - count in - four",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/hitBaxter",
-      "duration": 0.5,
-      "name": "baxter - hit"
+      "deprecatedIDs": [],
+      "name": "baxter - hit",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/hitForth",
-      "duration": 0.5,
-      "name": "forthington - hit"
+      "deprecatedIDs": [],
+      "name": "forthington - hit",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/hitBaxterFarther",
-      "duration": 0.5,
-      "name": "baxter - hit - farther"
+      "deprecatedIDs": [],
+      "name": "baxter - hit - farther",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/hitForthFarther",
-      "duration": 0.5,
-      "name": "forthington - hit - farther"
+      "deprecatedIDs": [],
+      "name": "forthington - hit - farther",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/hitBaxterFar",
-      "duration": 0.5,
-      "name": "baxter - hit - far"
+      "deprecatedIDs": [],
+      "name": "baxter - hit - far",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/hitForthFar",
-      "duration": 0.5,
-      "name": "forthington - hit - far"
+      "deprecatedIDs": [],
+      "name": "forthington - hit - far",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/hitBaxterFurther",
-      "duration": 0.5,
-      "name": "baxter - hit - further"
+      "deprecatedIDs": [],
+      "name": "baxter - hit - further",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/hitForthFurther",
-      "duration": 0.5,
-      "name": "forthington - hit - further"
+      "deprecatedIDs": [],
+      "name": "forthington - hit - further",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBum1",
-      "duration": 0.5,
-      "name": "ba bum bum bum - 1"
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBum2",
-      "duration": 0.5,
-      "name": "ba bum bum bum - 2"
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBum3",
-      "duration": 0.5,
-      "name": "ba bum bum bum - 3"
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBum2Sub",
-      "duration": 0.5,
-      "name": "ba bum bum bum - 2 - subsequent"
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - 2 - subsequent",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBum3Sub",
-      "duration": 0.5,
-      "name": "ba bum bum bum - 3 - subsequent"
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - 3 - subsequent",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBum4",
-      "duration": 0.5,
-      "name": "ba bum bum bum - 4"
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - 4",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBumFarther1",
-      "duration": 0.5,
-      "name": "ba bum bum bum - farther - 1"
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - farther - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBumFarther2",
-      "duration": 0.5,
-      "name": "ba bum bum bum - farther - 2"
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - farther - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBumFarther3",
-      "duration": 0.5,
-      "name": "ba bum bum bum - farther - 3"
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - farther - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBumFarther4",
-      "duration": 0.75,
-      "name": "ba bum bum bum - farther - 4"
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - farther - 4",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBumFartherHit",
-      "duration": 0.5,
-      "name": "ba bum bum bum - farther - hit"
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - farther - hit",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBumFar1",
-      "duration": 0.5,
-      "name": "ba bum bum bum - far - 1"
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - far - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBumFar2",
-      "duration": 0.5,
-      "name": "ba bum bum bum - far - 2"
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - far - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBumFar3",
-      "duration": 0.5,
-      "name": "ba bum bum bum - far - 3"
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - far - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBumFar4",
-      "duration": 0.75,
-      "name": "ba bum bum bum - far - 4"
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - far - 4",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBumFarHit",
-      "duration": 0.5,
-      "name": "ba bum bum bum - far - hit"
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - far - hit",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBumFurther1",
-      "duration": 0.5,
-      "name": "ba bum bum bum - further - 1"
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - further - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBumFurther2",
-      "duration": 0.5,
-      "name": "ba bum bum bum - further - 2"
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - further - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBumFurther3",
-      "duration": 0.5,
-      "name": "ba bum bum bum - further - 3"
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - further - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBumFurther4",
-      "duration": 0.75,
-      "name": "ba bum bum bum - further - 4"
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - further - 4",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "airRallyJa/baBumBumBumFurtherHit",
-      "duration": 0.5,
-      "name": "ba bum bum bum - further - hit"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - further - hit",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "airRallyJa_countIn4",
+      "deprecatedIDs": [],
       "name": "count in - 4 beats",
       "cues": [
         {
@@ -198,7 +267,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "airRallyJa_countIn2",
+      "deprecatedIDs": [],
       "name": "count in - 2 beats",
       "cues": [
         {
@@ -212,7 +283,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "airRallyJa_rally",
+      "deprecatedIDs": [],
       "name": "rally",
       "cues": [
         {
@@ -234,7 +307,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "airRallyJa_rallyFarther",
+      "deprecatedIDs": [],
       "name": "rally - farther",
       "cues": [
         {
@@ -256,7 +331,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "airRallyJa_rallyFar",
+      "deprecatedIDs": [],
       "name": "rally - far",
       "cues": [
         {
@@ -278,7 +355,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "airRallyJa_rallyFurther",
+      "deprecatedIDs": [],
       "name": "rally - farthest",
       "cues": [
         {
@@ -300,7 +379,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "airRallyJa_baBumBumBum",
+      "deprecatedIDs": [],
       "name": "ba bum bum bum - first",
       "cues": [
         {
@@ -326,7 +407,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "airRallyJa_baBumBumBumSub",
+      "deprecatedIDs": [],
       "name": "ba bum bum bum",
       "cues": [
         {
@@ -352,7 +435,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "airRallyJa_countIn3",
+      "deprecatedIDs": [],
       "name": "ba bum bum bum - count in",
       "cues": [
         {
@@ -370,7 +455,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "airRallyJa_baBumBumBumFarther",
+      "deprecatedIDs": [],
       "name": "ba bum bum bum - farther",
       "cues": [
         {
@@ -396,7 +483,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "airRallyJa_baBumBumBumFar",
+      "deprecatedIDs": [],
       "name": "ba bum bum bum - far",
       "cues": [
         {
@@ -422,7 +511,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "airRallyJa_baBumBumBumFurther",
+      "deprecatedIDs": [],
       "name": "ba bum bum bum - further",
       "cues": [
         {

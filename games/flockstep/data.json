@@ -1,122 +1,167 @@
 {
-  "gameID": "flockstep",
-  "gameName": "Flockstep",
-  "series": "fever",
-  "cues": [
+  "id": "flockstep",
+  "deprecatedIDs": [],
+  "name": "Flockstep",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "flockstep/step1",
-      "duration": 0.5,
-      "name": "step - 1"
+      "deprecatedIDs": [],
+      "name": "step - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "flockstep/step2",
-      "duration": 0.5,
-      "name": "step - 2"
+      "deprecatedIDs": [],
+      "name": "step - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "flockstep/step3",
-      "duration": 0.5,
-      "name": "step - 3"
+      "deprecatedIDs": [],
+      "name": "step - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "flockstep/step4",
-      "duration": 0.5,
-      "name": "step - 4"
+      "deprecatedIDs": [],
+      "name": "step - 4",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "flockstep/stepMigration1",
-      "duration": 0.5,
-      "name": "step - 1 - migration"
+      "deprecatedIDs": [],
+      "name": "step - 1 - migration",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "flockstep/stepMigration2",
-      "duration": 0.5,
-      "name": "step - 2 - migration"
+      "deprecatedIDs": [],
+      "name": "step - 2 - migration",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "flockstep/stepMigration3",
-      "duration": 0.5,
-      "name": "step - 3 - migration"
+      "deprecatedIDs": [],
+      "name": "step - 3 - migration",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "flockstep/stepMigration4",
-      "duration": 0.5,
-      "name": "step - 4 - migration"
+      "deprecatedIDs": [],
+      "name": "step - 4 - migration",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "flockstep/jump1",
-      "duration": 0.5,
-      "name": "jump - 1"
+      "deprecatedIDs": [],
+      "name": "jump - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "flockstep/jump2",
-      "duration": 0.25,
-      "name": "jump - 2"
+      "deprecatedIDs": [],
+      "name": "jump - 2",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "flockstep/jump3",
-      "duration": 0.25,
-      "name": "jump - 3"
+      "deprecatedIDs": [],
+      "name": "jump - 3",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "flockstep/jump4",
-      "duration": 0.5,
-      "name": "jump - 4"
+      "deprecatedIDs": [],
+      "name": "jump - 4",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "flockstep/jump5",
-      "duration": 0.5,
-      "name": "jump - 5"
+      "deprecatedIDs": [],
+      "name": "jump - 5",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "flockstep/jump6",
-      "duration": 1.0,
-      "name": "jump - 6"
+      "deprecatedIDs": [],
+      "name": "jump - 6",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "flockstep/jump7",
-      "duration": 1.0,
-      "name": "jump - 7"
+      "deprecatedIDs": [],
+      "name": "jump - 7",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "flockstep/jumpMigration1",
-      "duration": 0.5,
-      "name": "jump - 1 - migration"
+      "deprecatedIDs": [],
+      "name": "jump - 1 - migration",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "flockstep/jumpMigration2",
-      "duration": 0.25,
-      "name": "jump - 2 - migration"
+      "deprecatedIDs": [],
+      "name": "jump - 2 - migration",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "flockstep/jumpMigration3",
-      "duration": 0.25,
-      "name": "jump - 3 - migration"
+      "deprecatedIDs": [],
+      "name": "jump - 3 - migration",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "flockstep/jumpMigration4",
-      "duration": 0.5,
-      "name": "jump - 4 - migration"
+      "deprecatedIDs": [],
+      "name": "jump - 4 - migration",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "flockstep/jumpMigration5",
-      "duration": 0.5,
-      "name": "jump - 5 - migration"
+      "deprecatedIDs": [],
+      "name": "jump - 5 - migration",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "flockstep/jumpMigration6",
-      "duration": 1.0,
-      "name": "jump - 6 - migration"
+      "deprecatedIDs": [],
+      "name": "jump - 6 - migration",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "flockstep/jumpMigration7",
-      "duration": 1.0,
-      "name": "jump - 7 - migration"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "jump - 7 - migration",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "flockstep_march",
+      "deprecatedIDs": [],
       "name": "march",
       "cues": [
         {
@@ -154,7 +199,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "flockstep_marchMigration",
+      "deprecatedIDs": [],
       "name": "march (migration)",
       "cues": [
         {
@@ -192,7 +239,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "flockstep_jump",
+      "deprecatedIDs": [],
       "name": "jump",
       "cues": [
         {
@@ -226,7 +275,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "flockstep_jumpMigration",
+      "deprecatedIDs": [],
       "name": "jump (migration)",
       "cues": [
         {

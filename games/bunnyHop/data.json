@@ -1,50 +1,64 @@
 {
-  "gameID": "bunnyHop",
-  "gameName": "Bunny Hop (Megamix)",
-  "series": "megamix",
-  "cues": [
+  "id": "bunnyHop",
+  "deprecatedIDs": [],
+  "name": "Bunny Hop (Megamix)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "bunnyHop/start",
-      "duration": 1,
-      "name": "start"
+      "deprecatedIDs": [],
+      "name": "start",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bunnyHop/hop1",
-      "duration": 1,
-      "name": "hop1"
+      "deprecatedIDs": [],
+      "name": "hop1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bunnyHop/hop2",
-      "duration": 1,
-      "name": "hop2"
+      "deprecatedIDs": [],
+      "name": "hop2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bunnyHop/longJump",
-      "duration": 5,
-      "name": "long jump"
+      "deprecatedIDs": [],
+      "name": "long jump",
+      "duration": 5.0
     },
     {
+      "type": "cue",
       "id": "bunnyHop/longJumpShort",
-      "duration": 2.5,
-      "name": "long jump (short)"
+      "deprecatedIDs": [],
+      "name": "long jump (short)",
+      "duration": 2.5
     },
     {
+      "type": "cue",
       "id": "bunnyHop/longJumpLong",
       "deprecatedIDs": [
         "bunnyHop/moonJump"
       ],
-      "duration": 9,
-      "name": "long jump (long)"
+      "name": "long jump (long)",
+      "duration": 9.0
     },
     {
+      "type": "cue",
       "id": "bunnyHop/moon",
-      "duration": 1,
-      "name": "moon"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "moon",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "bunnyHop_start",
+      "deprecatedIDs": [],
       "name": "start",
       "cues": [
         {
@@ -66,7 +80,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "bunnyHop_hopping",
+      "deprecatedIDs": [],
       "name": "hopping",
       "cues": [
         {
@@ -88,7 +104,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "bunnyHop_longJump4",
+      "deprecatedIDs": [],
       "name": "long jump 4 count",
       "cues": [
         {
@@ -97,16 +115,18 @@
         },
         {
           "id": "bunnyHop/hop1",
-          "beat": 5
+          "beat": 5.0
         },
         {
           "id": "bunnyHop/hop2",
-          "beat": 6
+          "beat": 6.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "bunnyHop_longJump8",
+      "deprecatedIDs": [],
       "name": "long jump 8 count",
       "cues": [
         {
@@ -115,16 +135,18 @@
         },
         {
           "id": "bunnyHop/hop1",
-          "beat": 9
+          "beat": 9.0
         },
         {
           "id": "bunnyHop/hop2",
-          "beat": 10
+          "beat": 10.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "bunnyHop_longJump2",
+      "deprecatedIDs": [],
       "name": "long jump 2 count",
       "cues": [
         {
@@ -142,7 +164,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "bunnyHop_moon",
+      "deprecatedIDs": [],
       "name": "moon",
       "cues": [
         {
@@ -151,7 +175,7 @@
         },
         {
           "id": "bunnyHop/moon",
-          "beat": 10
+          "beat": 10.0
         }
       ]
     }

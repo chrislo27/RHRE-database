@@ -1,27 +1,31 @@
 {
-  "gameID": "glassTappers",
-  "gameName": "Glass Tappers",
-  "series": "side",
-  "cues": [
+  "id": "glassTappers",
+  "deprecatedIDs": [],
+  "name": "Glass Tappers",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "glassTappers/short",
-      "duration": 0.5,
-      "name": "short"
+      "deprecatedIDs": [],
+      "name": "short",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "glassTappers/long",
-      "duration": 1,
+      "deprecatedIDs": [],
       "name": "long",
-      "canAlterDuration": true,
-      "loops": false
+      "duration": 1.0,
+      "stretchable": true
     },
     {
+      "type": "cue",
       "id": "glassTappers/highlong",
-      "duration": 1,
+      "deprecatedIDs": [],
       "name": "high-pitched long",
-      "canAlterDuration": true,
-      "loops": false
+      "duration": 1.0,
+      "stretchable": true
     }
-  ],
-  "patterns": []
+  ]
 }

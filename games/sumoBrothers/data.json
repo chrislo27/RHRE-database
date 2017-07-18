@@ -1,52 +1,64 @@
 {
-  "gameID": "sumoBrothers",
-  "gameName": "Sumo Brothers",
-  "series": "megamix",
-  "cues": [
+  "id": "sumoBrothers",
+  "deprecatedIDs": [],
+  "name": "Sumo Brothers",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "sumoBrothers/slapsignal",
-      "duration": 1.0,
-      "name": "slap signal"
+      "deprecatedIDs": [],
+      "name": "slap signal",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "sumoBrothers/slap",
-      "duration": 1.0,
-      "name": "slap"
+      "deprecatedIDs": [],
+      "name": "slap",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "sumoBrothers/stompsignal",
-      "duration": 1.0,
-      "name": "stomp signal"
+      "deprecatedIDs": [],
+      "name": "stomp signal",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "sumoBrothers/stomp",
-      "duration": 1.0,
-      "name": "stomp"
+      "deprecatedIDs": [],
+      "name": "stomp",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "sumoBrothers/posesignalBegin",
-      "duration": 0.0001
+      "deprecatedIDs": [],
+      "name": "sumoBrothers/posesignalBegin",
+      "duration": 1.0E-4
     },
     {
+      "type": "cue",
       "id": "sumoBrothers/posesignalLoop",
-      "duration": 3.0,
-      "name": "pose signal",
-      "introSound": "sumoBrothers/posesignalBegin",
-      "loops": true,
-      "isStretchable": false,
       "deprecatedIDs": [
         "sumoBrothers/posesignal"
-      ]
+      ],
+      "name": "pose signal",
+      "duration": 3.0
     },
     {
+      "type": "cue",
       "id": "sumoBrothers/pose",
-      "duration": 1.0,
-      "name": "pose"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "pose",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "sumoBrothers_stompsignal",
+      "deprecatedIDs": [],
       "name": "stomp signal",
       "cues": [
         {
@@ -60,7 +72,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "sumoBrothers_stomp",
+      "deprecatedIDs": [],
       "name": "stomping",
       "cues": [
         {
@@ -74,7 +88,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "sumoBrothers_slapsignal",
+      "deprecatedIDs": [],
       "name": "slap signal",
       "cues": [
         {
@@ -96,7 +112,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "sumoBrothers_slap",
+      "deprecatedIDs": [],
       "name": "slapping",
       "cues": [
         {
@@ -118,7 +136,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "sumoBrothers_pose",
+      "deprecatedIDs": [],
       "name": "pose",
       "cues": [
         {

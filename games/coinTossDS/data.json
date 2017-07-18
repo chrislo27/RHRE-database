@@ -1,85 +1,96 @@
 {
-  "gameID": "coinTossDS",
-  "gameName": "Coin Toss (DS)",
-  "series": "side",
-  "cues": [
+  "id": "coinTossDS",
+  "deprecatedIDs": [],
+  "name": "Coin Toss (DS)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "coinTossDS/flick",
-      "duration": 0.5,
-      "name": "flick"
+      "deprecatedIDs": [],
+      "name": "flick",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "coinTossDS/cowbell1",
-      "duration": 0.5,
-      "name": "cowbell - 1"
+      "deprecatedIDs": [],
+      "name": "cowbell - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "coinTossDS/cowbell2",
-      "duration": 0.5,
-      "name": "cowbell - 2"
+      "deprecatedIDs": [],
+      "name": "cowbell - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "coinTossDS/catch",
-      "duration": 0.5,
-      "name": "catch"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "catch",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "coinTossDS_catch",
+      "deprecatedIDs": [],
       "name": "catch",
       "cues": [
         {
           "id": "coinTossDS/flick",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "coinTossDS/catch",
-          "beat": 6
+          "beat": 6.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "coinTossDS_catchCowbell",
+      "deprecatedIDs": [],
       "name": "catch - cowbell",
       "cues": [
         {
           "id": "coinTossDS/flick",
-          "beat": 0,
+          "beat": 0.0,
           "track": 1
         },
         {
           "id": "coinTossDS/cowbell1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "coinTossDS/cowbell2",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "coinTossDS/cowbell1",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "coinTossDS/cowbell2",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "coinTossDS/cowbell1",
-          "beat": 4
+          "beat": 4.0
         },
         {
           "id": "coinTossDS/cowbell2",
-          "beat": 5
+          "beat": 5.0
         },
         {
           "id": "coinTossDS/catch",
-          "beat": 6,
+          "beat": 6.0,
           "track": 1
         },
         {
           "id": "coinTossDS/cowbell1",
-          "beat": 6
+          "beat": 6.0
         }
       ]
     }

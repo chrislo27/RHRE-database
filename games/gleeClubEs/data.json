@@ -1,78 +1,100 @@
 {
-  "gameID": "gleeClubEs",
-  "gameName": "Glee Club (Spanish)",
-  "series": "ds",
-  "cues": [
+  "id": "gleeClubEs",
+  "deprecatedIDs": [],
+  "name": "Glee Club (Spanish)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "gleeClubEs/singBegin",
-      "duration": 0.000001
+      "deprecatedIDs": [],
+      "name": "gleeClubEs/singBegin",
+      "duration": 1.0E-6
     },
     {
+      "type": "cue",
       "id": "gleeClubEs/singLoop",
-      "canAlterDuration": true,
-      "introSound": "gleeClubEs/singBegin",
-      "canAlterPitch": true,
-      "duration": 1,
-      "name": "sing"
+      "deprecatedIDs": [],
+      "name": "sing",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true
     },
     {
+      "type": "cue",
       "id": "gleeClubEs/singEnd",
-      "duration": 0.5,
-      "name": "stop"
+      "deprecatedIDs": [],
+      "name": "stop",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "gleeClubEs/a",
-      "duration": 0.3333,
-      "name": "aralabe - a"
+      "deprecatedIDs": [],
+      "name": "aralabe - a",
+      "duration": 0.3333
     },
     {
+      "type": "cue",
       "id": "gleeClubEs/ra",
-      "duration": 0.6666,
-      "name": "aralabe - ra"
+      "deprecatedIDs": [],
+      "name": "aralabe - ra",
+      "duration": 0.6666
     },
     {
+      "type": "cue",
       "id": "gleeClubEs/la",
-      "duration": 0.3333,
-      "name": "aralabe - la"
+      "deprecatedIDs": [],
+      "name": "aralabe - la",
+      "duration": 0.3333
     },
     {
+      "type": "cue",
       "id": "gleeClubEs/be",
-      "duration": 0.6666,
-      "name": "aralabe - be"
+      "deprecatedIDs": [],
+      "name": "aralabe - be",
+      "duration": 0.6666
     },
     {
+      "type": "cue",
       "id": "gleeClubEs/screamBegin",
-      "duration": 0.000001,
-      "canAlterPitch": true
+      "deprecatedIDs": [],
+      "name": "gleeClubEs/screamBegin",
+      "duration": 1.0E-6,
+      "repitchable": true
     },
     {
+      "type": "cue",
       "id": "gleeClubEs/screamLoop",
-      "duration": 1,
-      "loops": true,
-      "introSound": "gleeClubEs/screamBegin",
-      "canAlterPitch": true,
-      "name": "scream"
+      "deprecatedIDs": [],
+      "name": "scream",
+      "duration": 1.0,
+      "repitchable": true
     },
     {
+      "type": "cue",
       "id": "gleeClubEs/baton",
-      "duration": 1,
+      "deprecatedIDs": [],
       "name": "baton - lift",
-      "canAlterPitch": true
+      "duration": 1.0,
+      "repitchable": true
     },
     {
+      "type": "cue",
       "id": "gleeClubEs/batonStop",
-      "duration": 1,
-      "name": "baton - stop"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "baton - stop",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "gleeClubEs_aralabe",
+      "deprecatedIDs": [],
       "name": "together now!",
       "cues": [
         {
           "id": "gleeClubEs/a",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "gleeClubEs/ra",
@@ -80,7 +102,7 @@
         },
         {
           "id": "gleeClubEs/la",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "gleeClubEs/be",
@@ -88,25 +110,27 @@
         },
         {
           "id": "gleeClubEs/screamLoop",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "gleeClubEs/singEnd",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "gleeClubEs_baton",
+      "deprecatedIDs": [],
       "name": "baton",
       "cues": [
         {
           "id": "gleeClubEs/baton",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "gleeClubEs/batonStop",
-          "beat": 1
+          "beat": 1.0
         }
       ]
     }

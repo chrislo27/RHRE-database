@@ -1,32 +1,41 @@
 {
-  "gameID": "spaceSoccerEs",
-  "gameName": "Space Soccer (Spanish)",
-  "series": "ds",
-  "cues": [
+  "id": "spaceSoccerEs",
+  "deprecatedIDs": [],
+  "name": "Space Soccer (Spanish)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "spaceSoccerEs/hey",
-      "duration": 1,
-      "name": "hey"
+      "deprecatedIDs": [],
+      "name": "hey",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "spaceSoccerEs/pieheypie1",
-      "duration": 1,
-      "name": "highkick - pie"
+      "deprecatedIDs": [],
+      "name": "highkick - pie",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "spaceSoccerEs/pieheypie2",
-      "duration": 0.5,
-      "name": "highkick - hey"
+      "deprecatedIDs": [],
+      "name": "highkick - hey",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "spaceSoccerEs/pieheypie3",
-      "duration": 1.5,
-      "name": "highkick - pie!"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "highkick - pie!",
+      "duration": 1.5
+    },
     {
+      "type": "pattern",
       "id": "spaceSoccerEs_keepup",
+      "deprecatedIDs": [],
       "name": "keep-up",
       "cues": [
         {
@@ -48,7 +57,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "spaceSoccerEs_pieheypie",
+      "deprecatedIDs": [],
       "name": "high kick-toe!",
       "cues": [
         {

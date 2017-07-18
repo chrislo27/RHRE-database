@@ -1,116 +1,145 @@
 {
-  "gameID": "fanClubEs",
-  "gameName": "Fan Club (DS) (Spanish)",
-  "series": "ds",
-  "cues": [
+  "id": "fanClubEs",
+  "deprecatedIDs": [],
+  "name": "Fan Club (DS) (Spanish)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "fanClubEs/hey1",
-      "duration": 1,
-      "name": "singer - hey - 1"
+      "deprecatedIDs": [],
+      "name": "singer - hey - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fanClubEs/hey2",
-      "duration": 1,
-      "name": "singer - hey - 2"
+      "deprecatedIDs": [],
+      "name": "singer - hey - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fanClubEs/hey3",
-      "duration": 1,
-      "name": "singer - hey - 3"
+      "deprecatedIDs": [],
+      "name": "singer - hey - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fanClubEs/heyClap",
-      "duration": 1,
-      "name": "audience - hey"
+      "deprecatedIDs": [],
+      "name": "audience - hey",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fanClubEs/yalose1",
-      "duration": 0.5,
-      "name": "singer - ¡ya lo sé! - 1"
+      "deprecatedIDs": [],
+      "name": "singer - ¡ya lo sé! - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "fanClubEs/yalose2",
-      "duration": 0.5,
-      "name": "singer - ¡ya lo sé! - 2"
+      "deprecatedIDs": [],
+      "name": "singer - ¡ya lo sé! - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "fanClubEs/yalose3",
-      "duration": 1,
-      "name": "singer - ¡ya lo sé! - 3"
+      "deprecatedIDs": [],
+      "name": "singer - ¡ya lo sé! - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fanClubEs/yaloseClap1",
-      "duration": 1.5,
-      "name": "audience - ¡ya lo sé! - 1"
+      "deprecatedIDs": [],
+      "name": "audience - ¡ya lo sé! - 1",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "fanClubEs/yaloseClap2",
-      "duration": 0.5,
-      "name": "audience - ¡ya lo sé! - 2"
+      "deprecatedIDs": [],
+      "name": "audience - ¡ya lo sé! - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "fanClubEs/yaloseClap3",
-      "duration": 0.5,
-      "name": "audience - ¡ya lo sé! - 3"
+      "deprecatedIDs": [],
+      "name": "audience - ¡ya lo sé! - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "fanClubEs/yaloseClap4",
-      "duration": 1,
-      "name": "audience - ¡ya lo sé! - 4"
+      "deprecatedIDs": [],
+      "name": "audience - ¡ya lo sé! - 4",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fanClubEs/yaloseJump",
-      "duration": 1,
-      "name": "audience - ¡ya lo sé! - 4b"
+      "deprecatedIDs": [],
+      "name": "audience - ¡ya lo sé! - 4b",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fanClubEs/landing",
-      "duration": 1,
-      "name": "audience - ¡ya lo sé! - landing"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "audience - ¡ya lo sé! - landing",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "fanClubEs_heyHeyHey",
+      "deprecatedIDs": [],
       "name": "yeah yeah yeah!",
       "cues": [
         {
           "id": "fanClubEs/hey1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "fanClubEs/hey2",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "fanClubEs/hey3",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "fanClubEs/heyClap",
-          "beat": 4
+          "beat": 4.0
         },
         {
           "id": "fanClubEs/heyClap",
-          "beat": 5
+          "beat": 5.0
         },
         {
           "id": "fanClubEs/heyClap",
-          "beat": 6
+          "beat": 6.0
         },
         {
           "id": "fanClubEs/heyClap",
-          "beat": 7
+          "beat": 7.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "fanClubEs_yalose",
+      "deprecatedIDs": [],
       "name": "I suppose!",
       "cues": [
         {
           "id": "fanClubEs/yalose1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "fanClubEs/yalose2",
@@ -118,11 +147,11 @@
         },
         {
           "id": "fanClubEs/yalose3",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "fanClubEs/yaloseClap1",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "fanClubEs/yaloseClap2",
@@ -130,21 +159,23 @@
         },
         {
           "id": "fanClubEs/yaloseClap3",
-          "beat": 4
+          "beat": 4.0
         },
         {
           "id": "fanClubEs/yaloseClap4",
-          "beat": 5
+          "beat": 5.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "fanClubEs_yaloseLanding",
+      "deprecatedIDs": [],
       "name": "I suppose! - with landing",
       "cues": [
         {
           "id": "fanClubEs/yalose1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "fanClubEs/yalose2",
@@ -152,11 +183,11 @@
         },
         {
           "id": "fanClubEs/yalose3",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "fanClubEs/yaloseClap1",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "fanClubEs/yaloseClap2",
@@ -164,15 +195,15 @@
         },
         {
           "id": "fanClubEs/yaloseClap3",
-          "beat": 4
+          "beat": 4.0
         },
         {
           "id": "fanClubEs/yaloseClap4",
-          "beat": 5
+          "beat": 5.0
         },
         {
           "id": "fanClubEs/landing",
-          "beat": 6
+          "beat": 6.0
         }
       ]
     }

@@ -1,85 +1,97 @@
 {
-  "gameID": "seesawEn",
-  "gameName": "See-Saw (English)",
-  "series": "fever",
-  "cues": [
+  "id": "seesawEn",
+  "deprecatedIDs": [],
+  "name": "See-Saw (English)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "seesawEn/seeLong1",
       "deprecatedIDs": [
         "seesaw/seeLong1"
       ],
-      "duration": 1.0,
-      "name": "see - long - 1"
+      "name": "see - long - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "seesawEn/seeLong2",
       "deprecatedIDs": [
         "seesaw/seeLong2"
       ],
-      "duration": 1.0,
-      "name": "see - long - 2"
+      "name": "see - long - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "seesawEn/seeShort1",
       "deprecatedIDs": [
         "seesaw/seeShort1"
       ],
-      "duration": 0.5,
-      "name": "see - short - 1"
+      "name": "see - short - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "seesawEn/seeShort2",
       "deprecatedIDs": [
         "seesaw/seeShort2"
       ],
-      "duration": 0.5,
-      "name": "see - short - 2"
+      "name": "see - short - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "seesawEn/sawLong1",
       "deprecatedIDs": [
         "seesaw/sawLong1"
       ],
-      "duration": 1.0,
-      "name": "saw - long - 1"
+      "name": "saw - long - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "seesawEn/sawLong2",
       "deprecatedIDs": [
         "seesaw/sawLong2"
       ],
-      "duration": 1.0,
-      "name": "saw - long - 2"
+      "name": "saw - long - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "seesawEn/sawShort1",
       "deprecatedIDs": [
         "seesaw/sawShort1"
       ],
-      "duration": 0.5,
-      "name": "saw - short - 1"
+      "name": "saw - short - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "seesawEn/sawShort2",
       "deprecatedIDs": [
         "seesaw/sawShort2"
       ],
-      "duration": 0.5,
-      "name": "saw - short - 2"
+      "name": "saw - short - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "seesawEn/beginning",
-      "duration": 0.5,
-      "name": "beginning jump"
+      "deprecatedIDs": [],
+      "name": "beginning jump",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "seesawEn/explosionEnd",
-      "duration": 2,
-      "name": "explosion end"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "explosion end",
+      "duration": 2.0
+    },
     {
+      "type": "pattern",
       "id": "seesawEn_longLong",
       "deprecatedIDs": [
         "seesaw_longLong"
@@ -105,6 +117,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "seesawEn_shortShort",
       "deprecatedIDs": [
         "seesaw_shortShort"
@@ -130,6 +143,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "seesawEn_longShort",
       "deprecatedIDs": [
         "seesaw_longShort"
@@ -155,6 +169,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "seesawEn_shortLong",
       "deprecatedIDs": [
         "seesaw_shortLong"

@@ -1,114 +1,131 @@
 {
-  "gameID": "donkDonkEn",
-  "gameName": "Donk-Donk (English)",
-  "series": "fever",
-  "cues": [
+  "id": "donkDonkEn",
+  "deprecatedIDs": [],
+  "name": "Donk-Donk (English)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "donkDonkEn/donk1",
       "deprecatedIDs": [
         "donkDonk/donk1"
       ],
-      "duration": 0.666666,
-      "name": "donk-donk - 1"
+      "name": "donk-donk - 1",
+      "duration": 0.666666
     },
     {
+      "type": "cue",
       "id": "donkDonkEn/donk2",
       "deprecatedIDs": [
         "donkDonk/donk2"
       ],
-      "duration": 0.666666,
-      "name": "donk-donk - 2"
+      "name": "donk-donk - 2",
+      "duration": 0.666666
     },
     {
+      "type": "cue",
       "id": "donkDonkEn/dwonk1",
       "deprecatedIDs": [
         "donkDonk/dwonk1"
       ],
-      "duration": 0.666666,
-      "name": "donk-dwonk - 1"
+      "name": "donk-dwonk - 1",
+      "duration": 0.666666
     },
     {
+      "type": "cue",
       "id": "donkDonkEn/dwonk2",
       "deprecatedIDs": [
         "donkDonk/dwonk2"
       ],
-      "duration": 0.666666,
-      "name": "donk-dwonk - 2"
+      "name": "donk-dwonk - 2",
+      "duration": 0.666666
     },
     {
+      "type": "cue",
       "id": "donkDonkEn/deetdeetduh1",
       "deprecatedIDs": [
         "donkDonk/deetdeetduh1"
       ],
-      "duration": 0.666666,
-      "name": "deet-deet-duh - 1"
+      "name": "deet-deet-duh - 1",
+      "duration": 0.666666
     },
     {
+      "type": "cue",
       "id": "donkDonkEn/deetdeetduh2",
       "deprecatedIDs": [
         "donkDonk/deetdeetduh2"
       ],
-      "duration": 0.666666,
-      "name": "deet-deet-duh - 2"
+      "name": "deet-deet-duh - 2",
+      "duration": 0.666666
     },
     {
+      "type": "cue",
       "id": "donkDonkEn/deetdeetduh3",
       "deprecatedIDs": [
         "donkDonk/deetdeetduh3"
       ],
-      "duration": 0.666666,
-      "name": "deet-deet-duh - 3"
+      "name": "deet-deet-duh - 3",
+      "duration": 0.666666
     },
     {
+      "type": "cue",
       "id": "donkDonkEn/deetdeetdoot1",
       "deprecatedIDs": [
         "donkDonk/deetdeetdoot1"
       ],
-      "duration": 0.666666,
-      "name": "deet-deet-doot - 1"
+      "name": "deet-deet-doot - 1",
+      "duration": 0.666666
     },
     {
+      "type": "cue",
       "id": "donkDonkEn/deetdeetdoot2",
       "deprecatedIDs": [
         "donkDonk/deetdeetdoot2"
       ],
-      "duration": 0.666666,
-      "name": "deet-deet-doot - 2"
+      "name": "deet-deet-doot - 2",
+      "duration": 0.666666
     },
     {
+      "type": "cue",
       "id": "donkDonkEn/deetdeetdoot3",
       "deprecatedIDs": [
         "donkDonk/deetdeetdoot3"
       ],
-      "duration": 0.666666,
-      "name": "deet-deet-doot - 3"
+      "name": "deet-deet-doot - 3",
+      "duration": 0.666666
     },
     {
+      "type": "cue",
       "id": "donkDonkEn/deetdeetdootNoBlast1",
-      "duration": 0.666666,
-      "name": "deet-deet-doot (no blast) - 1"
+      "deprecatedIDs": [],
+      "name": "deet-deet-doot (no blast) - 1",
+      "duration": 0.666666
     },
     {
+      "type": "cue",
       "id": "donkDonkEn/deetdeetdootNoBlast2",
-      "duration": 0.666666,
-      "name": "deet-deet-doot (no blast) - 2"
+      "deprecatedIDs": [],
+      "name": "deet-deet-doot (no blast) - 2",
+      "duration": 0.666666
     },
     {
+      "type": "cue",
       "id": "donkDonkEn/deetdeetdootNoBlast3",
-      "duration": 0.666666,
-      "name": "deet-deet-doot (no blast) - 3"
+      "deprecatedIDs": [],
+      "name": "deet-deet-doot (no blast) - 3",
+      "duration": 0.666666
     },
     {
+      "type": "cue",
       "id": "donkDonkEn/blastoff",
       "deprecatedIDs": [
         "donkDonk/blastoff"
       ],
-      "duration": 1,
-      "name": "blastoff"
-    }
-  ],
-  "patterns": [
+      "name": "blastoff",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "donkDonkEn_donkdonk",
       "deprecatedIDs": [
         "donkDonk_donkdonk"
@@ -126,6 +143,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "donkDonkEn_donkdwonk",
       "deprecatedIDs": [
         "donkDonk_donkdwonk"
@@ -143,6 +161,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "donkDonkEn_deetdeetduh",
       "deprecatedIDs": [
         "donkDonk_deetdeetduh"
@@ -164,6 +183,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "donkDonkEn_deetdeetdoot",
       "deprecatedIDs": [
         "donkDonk_deetdeetdoot"
@@ -185,7 +205,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "donkDonkEn_deetdeetdootNoBlast",
+      "deprecatedIDs": [],
       "name": "deet-deet-doot (no blast)",
       "cues": [
         {
@@ -203,6 +225,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "donkDonkEn_toastsaot",
       "deprecatedIDs": [
         "donkDonk_toastsaot"
@@ -211,8 +234,7 @@
       "cues": [
         {
           "id": "donkDonkEn/dwonk2",
-          "beat": 0.0,
-          "track": 0
+          "beat": 0.0
         },
         {
           "id": "donkDonkEn/dwonk2",

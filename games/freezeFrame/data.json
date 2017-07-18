@@ -1,156 +1,159 @@
 {
-  "gameID": "freezeFrame",
-  "gameName": "Freeze Frame",
-  "series": "ds",
-  "cues": [
+  "id": "freezeFrame",
+  "deprecatedIDs": [],
+  "name": "Freeze Frame",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "freezeFrame/beginningSignal1",
-      "duration": 1.0,
-      "name": "start signal 1"
+      "deprecatedIDs": [],
+      "name": "start signal 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "freezeFrame/beginningSignal2",
-      "duration": 1.0,
-      "name": "start signal 2"
+      "deprecatedIDs": [],
+      "name": "start signal 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "freezeFrame/success",
-      "duration": 4.0,
-      "name": "success"
+      "deprecatedIDs": [],
+      "name": "success",
+      "duration": 4.0
     },
     {
+      "type": "cue",
       "id": "freezeFrame/fastCarZoom",
-      "duration": 2.0,
-      "name": "fast car zoom"
+      "deprecatedIDs": [],
+      "name": "fast car zoom",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "freezeFrame/fastCarClick",
-      "duration": 2.0,
-      "name": "fast car click"
+      "deprecatedIDs": [],
+      "name": "fast car click",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "freezeFrame/smallCarZoom",
-      "duration": 0.5,
-      "name": "small car zoom"
+      "deprecatedIDs": [],
+      "name": "small car zoom",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "freezeFrame/smallCarClick",
-      "duration": 0.5,
-      "name": "small car click"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "small car click",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "freezeFrame_start",
+      "deprecatedIDs": [],
       "name": "race start",
       "cues": [
         {
           "id": "freezeFrame/beginningSignal1",
-          "beat": 0.0,
-          "track": 0
+          "beat": 0.0
         },
         {
           "id": "freezeFrame/beginningSignal1",
-          "beat": 1.0,
-          "track": 0
+          "beat": 1.0
         },
         {
           "id": "freezeFrame/beginningSignal2",
-          "beat": 2.0,
-          "track": 0
+          "beat": 2.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "freezeFrame_tripleSmallCars",
+      "deprecatedIDs": [],
       "name": "triple small cars",
       "cues": [
         {
           "id": "freezeFrame/smallCarZoom",
-          "beat": 0.0,
-          "track": 0
+          "beat": 0.0
         },
         {
           "id": "freezeFrame/smallCarZoom",
-          "beat": 1.0,
-          "track": 0
+          "beat": 1.0
         },
         {
           "id": "freezeFrame/smallCarZoom",
-          "beat": 0.5,
-          "track": 0
+          "beat": 0.5
         },
         {
           "id": "freezeFrame/smallCarClick",
-          "beat": 2.0,
-          "track": 0
+          "beat": 2.0
         },
         {
           "id": "freezeFrame/smallCarClick",
-          "beat": 3.0,
-          "track": 0
+          "beat": 3.0
         },
         {
           "id": "freezeFrame/smallCarClick",
-          "beat": 2.5,
-          "track": 0
+          "beat": 2.5
         },
         {
           "id": "freezeFrame/success",
-          "beat": 4.5,
-          "track": 0
+          "beat": 4.5
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "freezeFrame_doubleSmallCars",
+      "deprecatedIDs": [],
       "name": "double small cars",
       "cues": [
         {
           "id": "freezeFrame/smallCarZoom",
-          "beat": 0.0,
-          "track": 0
+          "beat": 0.0
         },
         {
           "id": "freezeFrame/smallCarZoom",
-          "beat": 0.5,
-          "track": 0
+          "beat": 0.5
         },
         {
           "id": "freezeFrame/smallCarClick",
-          "beat": 2.0,
-          "track": 0
+          "beat": 2.0
         },
         {
           "id": "freezeFrame/smallCarClick",
-          "beat": 2.5,
-          "track": 0
+          "beat": 2.5
         },
         {
           "id": "freezeFrame/success",
-          "beat": 3.5,
-          "track": 0
+          "beat": 3.5
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "freezeFrame_fastCar",
+      "deprecatedIDs": [],
       "name": "fast car",
       "cues": [
         {
           "id": "freezeFrame/fastCarZoom",
-          "beat": 0.0,
-          "track": 0
+          "beat": 0.0
         },
         {
           "id": "freezeFrame/fastCarClick",
-          "beat": 2.0,
-          "track": 0
+          "beat": 2.0
         },
         {
           "id": "freezeFrame/success",
-          "beat": 4.0,
-          "track": 0
+          "beat": 4.0
         }
       ]
     }

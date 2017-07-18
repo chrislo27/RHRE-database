@@ -1,81 +1,104 @@
 {
-  "gameID": "munchyMonkEs",
-  "gameName": "Munchy Monk (Spanish)",
-  "series": "ds",
-  "cues": [
+  "id": "munchyMonkEs",
+  "deprecatedIDs": [],
+  "name": "Munchy Monk (Spanish)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "munchyMonkEs/gulp",
-      "duration": 0.5,
-      "name": "gulp"
+      "deprecatedIDs": [],
+      "name": "gulp",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "munchyMonkEs/one",
-      "duration": 1,
-      "name": "one"
+      "deprecatedIDs": [],
+      "name": "one",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "munchyMonkEs/try",
-      "duration": 0.5,
-      "name": "two - try"
+      "deprecatedIDs": [],
+      "name": "two - try",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "munchyMonkEs/two",
-      "duration": 0.5,
-      "name": "two - two!"
+      "deprecatedIDs": [],
+      "name": "two - two!",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "munchyMonkEs/three",
-      "duration": 1,
-      "name": "three - three"
+      "deprecatedIDs": [],
+      "name": "three - three",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "munchyMonkEs/gulp3-1",
-      "duration": 1,
-      "name": "three - go - 1"
+      "deprecatedIDs": [],
+      "name": "three - go - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "munchyMonkEs/gulp3-2",
-      "duration": 1,
-      "name": "three - go - 2"
+      "deprecatedIDs": [],
+      "name": "three - go - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "munchyMonkEs/gulp3-3",
-      "duration": 1,
-      "name": "three - go - 3"
+      "deprecatedIDs": [],
+      "name": "three - go - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "munchyMonkEs/gulp2-1",
-      "duration": 0.5,
-      "name": "try two - go - 1"
+      "deprecatedIDs": [],
+      "name": "try two - go - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "munchyMonkEs/gulp2-2",
-      "duration": 1,
-      "name": "try two - go - 2"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "try two - go - 2",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "munchyMonkEs_one",
+      "deprecatedIDs": [],
       "name": "one",
       "cues": [
         {
           "id": "munchyMonkEs/one",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "munchyMonkEs/gulp",
-          "beat": 1
+          "beat": 1.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "munchyMonkEs_trytwo",
+      "deprecatedIDs": [],
       "name": "try two",
       "cues": [
         {
           "id": "munchyMonkEs/try",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "munchyMonkEs/two",
@@ -87,29 +110,31 @@
         },
         {
           "id": "munchyMonkEs/gulp2-2",
-          "beat": 2
+          "beat": 2.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "munchyMonkEs_three",
+      "deprecatedIDs": [],
       "name": "three",
       "cues": [
         {
           "id": "munchyMonkEs/three",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "munchyMonkEs/gulp3-1",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "munchyMonkEs/gulp3-2",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "munchyMonkEs/gulp3-3",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     }

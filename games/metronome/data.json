@@ -1,27 +1,34 @@
 {
-  "gameID": "metronome",
-  "gameName": "Metronome (Unused GBA Rhythm Test)",
-  "series": "side",
-  "cues": [
+  "id": "metronome",
+  "deprecatedIDs": [],
+  "name": "Metronome (Unused GBA Rhythm Test)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "metronome/ok",
-      "duration": 1,
-      "name": "OK!"
+      "deprecatedIDs": [],
+      "name": "OK!",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "metronome/okLastFour",
-      "duration": 1,
-      "name": "OK! (last four)"
+      "deprecatedIDs": [],
+      "name": "OK! (last four)",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "metronome/clear",
-      "duration": 1,
-      "name": "clear"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "clear",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "metronome_ok",
+      "deprecatedIDs": [],
       "name": "OK!",
       "cues": [
         {
@@ -43,7 +50,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "metronome_okLastFour",
+      "deprecatedIDs": [],
       "name": "OK! (last four)",
       "cues": [
         {

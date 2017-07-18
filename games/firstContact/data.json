@@ -1,118 +1,155 @@
 {
-  "gameID": "firstContact",
-  "gameName": "First Contact",
-  "series": "megamix",
-  "cues": [
+  "id": "firstContact",
+  "deprecatedIDs": [],
+  "name": "First Contact",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "firstContact/passover",
-      "duration": 0.5,
-      "name": "turn passover"
+      "deprecatedIDs": [],
+      "name": "turn passover",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "firstContact/success1",
-      "duration": 0.5,
-      "name": "turn success 1"
+      "deprecatedIDs": [],
+      "name": "turn success 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "firstContact/success2",
-      "duration": 2,
-      "name": "turn success 2"
+      "deprecatedIDs": [],
+      "name": "turn success 2",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "firstContact/alien1",
-      "duration": 0.5,
-      "name": "alien - 1"
+      "deprecatedIDs": [],
+      "name": "alien - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "firstContact/alien2",
-      "duration": 0.5,
-      "name": "alien - 2"
+      "deprecatedIDs": [],
+      "name": "alien - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "firstContact/alien3",
-      "duration": 0.5,
-      "name": "alien - 3"
+      "deprecatedIDs": [],
+      "name": "alien - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "firstContact/alien4",
-      "duration": 0.5,
-      "name": "alien - 4"
+      "deprecatedIDs": [],
+      "name": "alien - 4",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "firstContact/alien5",
-      "duration": 0.5,
-      "name": "alien - 5"
+      "deprecatedIDs": [],
+      "name": "alien - 5",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "firstContact/alien6",
-      "duration": 0.5,
-      "name": "alien - 6"
+      "deprecatedIDs": [],
+      "name": "alien - 6",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "firstContact/translator1",
-      "duration": 0.5,
-      "name": "translator - 1"
+      "deprecatedIDs": [],
+      "name": "translator - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "firstContact/translator2",
-      "duration": 0.5,
-      "name": "translator - 2"
+      "deprecatedIDs": [],
+      "name": "translator - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "firstContact/translator3",
-      "duration": 0.5,
-      "name": "translator - 3"
+      "deprecatedIDs": [],
+      "name": "translator - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "firstContact/translator4",
-      "duration": 0.5,
-      "name": "translator - 4"
+      "deprecatedIDs": [],
+      "name": "translator - 4",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "firstContact/translator5",
-      "duration": 0.5,
-      "name": "translator - 5"
+      "deprecatedIDs": [],
+      "name": "translator - 5",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "firstContact/translator6",
-      "duration": 0.5,
-      "name": "translator - 6"
+      "deprecatedIDs": [],
+      "name": "translator - 6",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "firstContact/translator7",
-      "duration": 0.5,
-      "name": "translator - 7"
+      "deprecatedIDs": [],
+      "name": "translator - 7",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "firstContact/translator8",
-      "duration": 0.5,
-      "name": "translator - 8"
+      "deprecatedIDs": [],
+      "name": "translator - 8",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "firstContact/translator9",
-      "duration": 0.5,
-      "name": "translator - 9"
+      "deprecatedIDs": [],
+      "name": "translator - 9",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "firstContact/translator10",
-      "duration": 0.5,
-      "name": "translator - 10"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "translator - 10",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "firstContact_success",
+      "deprecatedIDs": [],
       "name": "success",
       "cues": [
         {
           "id": "firstContact/success1",
-          "beat": 0.0,
-          "track": 0
+          "beat": 0.0
         },
         {
           "id": "firstContact/success2",
-          "beat": 0.5,
-          "track": 0
+          "beat": 0.5
         }
       ]
     }

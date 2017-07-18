@@ -1,54 +1,71 @@
 {
-  "gameID": "bigRockFinishEs",
-  "gameName": "Big Rock Finish (DS) (Spanish)",
-  "series": "ds",
-  "cues": [
+  "id": "bigRockFinishEs",
+  "deprecatedIDs": [],
+  "name": "Big Rock Finish (DS) (Spanish)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "bigRockFinishEs/uno",
-      "duration": 1.0,
-      "name": "count in - uno"
+      "deprecatedIDs": [],
+      "name": "count in - uno",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishEs/dos",
-      "duration": 1.0,
-      "name": "count in - dos"
+      "deprecatedIDs": [],
+      "name": "count in - dos",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishEs/tres",
-      "duration": 1.0,
-      "name": "count in - tres"
+      "deprecatedIDs": [],
+      "name": "count in - tres",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishEs/y",
-      "duration": 1.0,
-      "name": "count in - y"
+      "deprecatedIDs": [],
+      "name": "count in - y",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishEs/strum",
+      "deprecatedIDs": [],
+      "name": "ghost - strum",
       "duration": 1.0,
-      "canAlterPitch": true,
-      "name": "ghost - strum"
+      "repitchable": true
     },
     {
+      "type": "cue",
       "id": "bigRockFinishEs/strumFinal",
+      "deprecatedIDs": [],
+      "name": "ghost - last strum",
       "duration": 2.0,
-      "canAlterPitch": true,
-      "name": "ghost - last strum"
+      "repitchable": true
     },
     {
+      "type": "cue",
       "id": "bigRockFinishEs/yeah",
-      "duration": 1.0,
-      "name": "yeah"
+      "deprecatedIDs": [],
+      "name": "yeah",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishEs/yeahFinal",
-      "duration": 2.0,
-      "name": "last yeah"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "last yeah",
+      "duration": 2.0
+    },
     {
+      "type": "pattern",
       "id": "bigRockFinishEs_countIn8",
+      "deprecatedIDs": [],
       "name": "count in - 8 beats",
       "cues": [
         {
@@ -78,7 +95,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "bigRockFinishEs_countIn4",
+      "deprecatedIDs": [],
       "name": "count in - 4 beats",
       "cues": [
         {
@@ -100,9 +119,10 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "bigRockFinishEs_strum",
+      "deprecatedIDs": [],
       "name": "strum",
-      "isStretchable": true,
       "cues": [
         {
           "id": "bigRockFinishEs/strum",
@@ -110,8 +130,8 @@
         },
         {
           "id": "bigRockFinishEs/yeah",
-          "track": 1,
-          "beat": 0.0
+          "beat": 0.0,
+          "track": 1
         },
         {
           "id": "bigRockFinishEs/strum",
@@ -119,8 +139,8 @@
         },
         {
           "id": "bigRockFinishEs/yeah",
-          "track": 1,
-          "beat": 1.5
+          "beat": 1.5,
+          "track": 1
         },
         {
           "id": "bigRockFinishEs/strum",
@@ -128,8 +148,8 @@
         },
         {
           "id": "bigRockFinishEs/yeah",
-          "track": 1,
-          "beat": 3.0
+          "beat": 3.0,
+          "track": 1
         },
         {
           "id": "bigRockFinishEs/strumFinal",
@@ -137,8 +157,8 @@
         },
         {
           "id": "bigRockFinishEs/yeahFinal",
-          "track": 1,
-          "beat": 4.0
+          "beat": 4.0,
+          "track": 1
         }
       ]
     }

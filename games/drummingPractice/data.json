@@ -1,22 +1,27 @@
 {
-  "gameID": "drummingPractice",
-  "gameName": "Drumming Practice",
-  "series": "side",
-  "cues": [
+  "id": "drummingPractice",
+  "deprecatedIDs": [],
+  "name": "Drumming Practice",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "drummingPractice/raisearm",
-      "duration": 1.0,
-      "name": "raise arm"
+      "deprecatedIDs": [],
+      "name": "raise arm",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "drummingPractice/hitdrum",
-      "duration": 1.0,
-      "name": "hit drum"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "hit drum",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "drummingPractice_hitdrum",
+      "deprecatedIDs": [],
       "name": "hit drum",
       "cues": [
         {

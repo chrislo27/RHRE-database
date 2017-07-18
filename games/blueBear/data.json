@@ -1,32 +1,41 @@
 {
-  "gameID": "blueBear",
-  "gameName": "Blue Bear",
-  "series": "megamix",
-  "cues": [
+  "id": "blueBear",
+  "deprecatedIDs": [],
+  "name": "Blue Bear",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "blueBear/donutOut",
-      "duration": 1,
-      "name": "donut - out"
+      "deprecatedIDs": [],
+      "name": "donut - out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "blueBear/donutChomp",
-      "duration": 1,
-      "name": "donut - chomp"
+      "deprecatedIDs": [],
+      "name": "donut - chomp",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "blueBear/cakeOut",
-      "duration": 2,
-      "name": "cake - out"
+      "deprecatedIDs": [],
+      "name": "cake - out",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "blueBear/cakeChomp",
-      "duration": 1,
-      "name": "cake - chomp"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "cake - chomp",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "blueBear_donut",
+      "deprecatedIDs": [],
       "name": "donut",
       "cues": [
         {
@@ -40,7 +49,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "blueBear_cake",
+      "deprecatedIDs": [],
       "name": "cake",
       "cues": [
         {

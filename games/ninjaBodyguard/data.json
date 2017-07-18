@@ -1,23 +1,29 @@
 {
-  "gameID": "ninjaBodyguard",
-  "gameName": "Ninja Bodyguard (GBA)",
-  "series": "tengoku",
-  "cues": [
+  "id": "ninjaBodyguard",
+  "deprecatedIDs": [],
+  "name": "Ninja Bodyguard (GBA)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "ninjaBodyguard/shoot",
-      "duration": 0.25,
-      "name": "shoot"
+      "deprecatedIDs": [],
+      "name": "shoot",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "ninjaBodyguard/cut",
-      "duration": 0.25,
-      "name": "cut"
+      "deprecatedIDs": [],
+      "name": "cut",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "ninjaBodyguard/ninjaIntro",
-      "duration": 35,
-      "name": "introduction"
+      "deprecatedIDs": [],
+      "name": "introduction",
+      "duration": 35.0
     }
-  ],
-  "patterns": []
+  ]
 }

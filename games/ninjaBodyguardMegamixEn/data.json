@@ -1,32 +1,35 @@
 {
-  "gameID": "ninjaBodyguardMegamixEn",
-  "gameName": "Ninja Bodyguard (Megamix) (English)",
-  "series": "megamix",
-  "cues": [
+  "id": "ninjaBodyguardMegamixEn",
+  "deprecatedIDs": [],
+  "name": "Ninja Bodyguard (Megamix) (English)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "ninjaBodyguardMegamixEn/shoot",
       "deprecatedIDs": [
         "ninjaBodyguardMegamix/shoot"
       ],
-      "duration": 0.25,
-      "name": "shoot"
+      "name": "shoot",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "ninjaBodyguardMegamixEn/cut",
       "deprecatedIDs": [
         "ninjaBodyguardMegamix/cut"
       ],
-      "duration": 0.25,
-      "name": "cut"
+      "name": "cut",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "ninjaBodyguardMegamixEn/ninjaIntro",
       "deprecatedIDs": [
         "ninjaBodyguardMegamix/ninjaIntro"
       ],
-      "duration": 35,
-      "name": "introduction"
+      "name": "introduction",
+      "duration": 35.0
     }
-  ],
-  "patterns": []
+  ]
 }

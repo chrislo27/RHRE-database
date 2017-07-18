@@ -1,89 +1,120 @@
 {
-  "gameID": "bigRockFinishMegamix",
-  "gameName": "Big Rock Finish (Megamix)",
-  "series": "megamix",
-  "cues": [
+  "id": "bigRockFinishMegamix",
+  "deprecatedIDs": [],
+  "name": "Big Rock Finish (Megamix)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "bigRockFinishMegamix/thankYou1",
-      "duration": 1.0,
-      "name": "ghost - thank you! - first"
+      "deprecatedIDs": [],
+      "name": "ghost - thank you! - first",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishMegamix/thankYou2",
-      "duration": 1.0,
-      "name": "ghost - thank you! - second"
+      "deprecatedIDs": [],
+      "name": "ghost - thank you! - second",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishMegamix/one",
-      "duration": 1.0,
-      "name": "count in - one"
+      "deprecatedIDs": [],
+      "name": "count in - one",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishMegamix/two",
-      "duration": 1.0,
-      "name": "count in - two"
+      "deprecatedIDs": [],
+      "name": "count in - two",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishMegamix/three",
-      "duration": 1.0,
-      "name": "count in - three"
+      "deprecatedIDs": [],
+      "name": "count in - three",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishMegamix/ooh",
-      "duration": 1.0,
-      "name": "count in - ooh"
+      "deprecatedIDs": [],
+      "name": "count in - ooh",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishMegamix/oneFast",
-      "duration": 1.0,
-      "name": "count in - one - fast"
+      "deprecatedIDs": [],
+      "name": "count in - one - fast",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishMegamix/twoFast",
-      "duration": 1.0,
-      "name": "count in - two - fast"
+      "deprecatedIDs": [],
+      "name": "count in - two - fast",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishMegamix/threeFast",
-      "duration": 1.0,
-      "name": "count in - three - fast"
+      "deprecatedIDs": [],
+      "name": "count in - three - fast",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishMegamix/comeOn1",
-      "duration": 0.5,
-      "name": "count in - come on - 1"
+      "deprecatedIDs": [],
+      "name": "count in - come on - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "bigRockFinishMegamix/comeOn2",
-      "duration": 0.5,
-      "name": "count in - come on - 2"
+      "deprecatedIDs": [],
+      "name": "count in - come on - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "bigRockFinishMegamix/drums",
-      "duration": 1.0,
-      "name": "ghost - drumming"
+      "deprecatedIDs": [],
+      "name": "ghost - drumming",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishMegamix/victoryCrowd",
-      "duration": 1.0,
-      "name": "crowd - applause"
+      "deprecatedIDs": [],
+      "name": "crowd - applause",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "bigRockFinishMegamix/strum",
+      "deprecatedIDs": [],
+      "name": "ghost - strum",
       "duration": 1.0,
-      "canAlterPitch": true,
-      "name": "ghost - strum"
+      "repitchable": true
     },
     {
+      "type": "cue",
       "id": "bigRockFinishMegamix/strumFinal",
+      "deprecatedIDs": [],
+      "name": "ghost - last strum",
       "duration": 2.0,
-      "canAlterPitch": true,
-      "name": "ghost - last strum"
-    }
-  ],
-  "patterns": [
+      "repitchable": true
+    },
     {
+      "type": "pattern",
       "id": "bigRockFinishMegamix_countIn8",
+      "deprecatedIDs": [],
       "name": "count in - 8 beats",
       "cues": [
         {
@@ -113,7 +144,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "bigRockFinishMegamix_countIn8Fast",
+      "deprecatedIDs": [],
       "name": "count in - 8 beats - fast",
       "cues": [
         {
@@ -147,7 +180,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "bigRockFinishMegamix_countIn4",
+      "deprecatedIDs": [],
       "name": "count in - 4 beats",
       "cues": [
         {
@@ -169,7 +204,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "bigRockFinishMegamix_countIn4Fast",
+      "deprecatedIDs": [],
       "name": "count in - 4 beats - fast",
       "cues": [
         {
@@ -195,9 +232,10 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "bigRockFinishMegamix_strum",
+      "deprecatedIDs": [],
       "name": "strum",
-      "isStretchable": true,
       "cues": [
         {
           "id": "bigRockFinishMegamix/strum",
@@ -206,8 +244,7 @@
         },
         {
           "id": "bigRockFinishMegamix/drums",
-          "beat": 0.0,
-          "track": 0
+          "beat": 0.0
         },
         {
           "id": "bigRockFinishMegamix/strum",
@@ -216,8 +253,7 @@
         },
         {
           "id": "bigRockFinishMegamix/drums",
-          "beat": 1.5,
-          "track": 0
+          "beat": 1.5
         },
         {
           "id": "bigRockFinishMegamix/strum",
@@ -226,8 +262,7 @@
         },
         {
           "id": "bigRockFinishMegamix/drums",
-          "beat": 3.0,
-          "track": 0
+          "beat": 3.0
         },
         {
           "id": "bigRockFinishMegamix/strumFinal",
@@ -236,13 +271,11 @@
         },
         {
           "id": "bigRockFinishMegamix/drums",
-          "beat": 4.0,
-          "track": 0
+          "beat": 4.0
         },
         {
           "id": "bigRockFinishMegamix/victoryCrowd",
-          "beat": 5.0,
-          "track": 0
+          "beat": 5.0
         }
       ]
     }

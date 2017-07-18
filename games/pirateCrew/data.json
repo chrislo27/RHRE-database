@@ -1,127 +1,174 @@
 {
-  "gameID": "pirateCrew",
-  "gameName": "Pirate Crew",
-  "series": "side",
-  "cues": [
+  "id": "pirateCrew",
+  "deprecatedIDs": [],
+  "name": "Pirate Crew",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "pirateCrew/row",
-      "duration": 1.0,
-      "name": "rowing"
+      "deprecatedIDs": [],
+      "name": "rowing",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "pirateCrew/leftRow1",
-      "duration": 1.0,
-      "name": "rowing - left turn - 1"
+      "deprecatedIDs": [],
+      "name": "rowing - left turn - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "pirateCrew/leftRow2",
-      "duration": 1.0,
-      "name": "rowing - left turn - 2"
+      "deprecatedIDs": [],
+      "name": "rowing - left turn - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "pirateCrew/rightRow1",
-      "duration": 1.0,
-      "name": "rowing - right turn - 1"
+      "deprecatedIDs": [],
+      "name": "rowing - right turn - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "pirateCrew/rightRow2",
-      "duration": 1.0,
-      "name": "rowing - left turn - 2"
+      "deprecatedIDs": [],
+      "name": "rowing - left turn - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "pirateCrew/rowPower",
-      "duration": 0.5,
-      "name": "rowing with power"
+      "deprecatedIDs": [],
+      "name": "rowing with power",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "pirateCrew/leftRowPower",
-      "duration": 1.0,
-      "name": "rowing with power - left"
+      "deprecatedIDs": [],
+      "name": "rowing with power - left",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "pirateCrew/rightRowPower",
-      "duration": 1.0,
-      "name": "rowing with power - right"
+      "deprecatedIDs": [],
+      "name": "rowing with power - right",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "pirateCrew/everybodyRow1",
-      "duration": 0.75,
-      "name": "everybody row - 1"
+      "deprecatedIDs": [],
+      "name": "everybody row - 1",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "pirateCrew/everybodyRow2",
-      "duration": 0.25,
-      "name": "everybody row - 2"
+      "deprecatedIDs": [],
+      "name": "everybody row - 2",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "pirateCrew/everybodyRow3",
-      "duration": 0.25,
-      "name": "everybody row - 3"
+      "deprecatedIDs": [],
+      "name": "everybody row - 3",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "pirateCrew/everybodyRow4",
-      "duration": 0.25,
-      "name": "everybody row - 4"
+      "deprecatedIDs": [],
+      "name": "everybody row - 4",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "pirateCrew/everybodyRow5",
-      "duration": 1.5,
-      "name": "everybody row - 5"
+      "deprecatedIDs": [],
+      "name": "everybody row - 5",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "pirateCrew/andLeftTurn1",
-      "duration": 0.850,
-      "name": "and left turn - 1"
+      "deprecatedIDs": [],
+      "name": "and left turn - 1",
+      "duration": 0.85
     },
     {
+      "type": "cue",
       "id": "pirateCrew/andLeftTurn2",
-      "duration": 0.5,
-      "name": "and left turn - 2"
+      "deprecatedIDs": [],
+      "name": "and left turn - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "pirateCrew/andLeftTurn3",
-      "duration": 1.650,
-      "name": "and left turn - 3"
+      "deprecatedIDs": [],
+      "name": "and left turn - 3",
+      "duration": 1.65
     },
     {
+      "type": "cue",
       "id": "pirateCrew/okRightTurn1",
-      "duration": 0.5,
-      "name": "ok right turn - 1"
+      "deprecatedIDs": [],
+      "name": "ok right turn - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "pirateCrew/okRightTurn2",
-      "duration": 0.5,
-      "name": "ok right turn - 2"
+      "deprecatedIDs": [],
+      "name": "ok right turn - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "pirateCrew/okRightTurn3",
-      "duration": 0.5,
-      "name": "ok right turn - 3"
+      "deprecatedIDs": [],
+      "name": "ok right turn - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "pirateCrew/okRightTurn4",
-      "duration": 1.5,
-      "name": "ok right turn - 4"
+      "deprecatedIDs": [],
+      "name": "ok right turn - 4",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "pirateCrew/pirateYeah",
-      "duration": 1.5,
-      "name": "pirates - yeah"
+      "deprecatedIDs": [],
+      "name": "pirates - yeah",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "pirateCrew/pirateYeahLeft",
-      "duration": 1.5,
-      "name": "pirates - yeah - second player"
+      "deprecatedIDs": [],
+      "name": "pirates - yeah - second player",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "pirateCrew/pirateYeahRight",
-      "duration": 1.5,
-      "name": "pirates - yeah - first player"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "pirates - yeah - first player",
+      "duration": 1.5
+    },
     {
+      "type": "pattern",
       "id": "pirateCrew_jackieRow",
+      "deprecatedIDs": [],
       "name": "everybody row!",
       "cues": [
         {
@@ -151,7 +198,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "pirateCrew_jackieLeftTurn",
+      "deprecatedIDs": [],
       "name": "and left turn!",
       "cues": [
         {
@@ -173,7 +222,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "pirateCrew_jackieRightTurn",
+      "deprecatedIDs": [],
       "name": "ok, right turn!",
       "cues": [
         {
@@ -199,7 +250,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "pirateCrew_rowingTogether",
+      "deprecatedIDs": [],
       "name": "row and row (together)",
       "cues": [
         {
@@ -221,7 +274,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "pirateCrew_rowingPower",
+      "deprecatedIDs": [],
       "name": "row and ace (together)",
       "cues": [
         {
@@ -263,7 +318,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "pirateCrew_rowingLeft",
+      "deprecatedIDs": [],
       "name": "row left and left (player 1)",
       "cues": [
         {
@@ -285,7 +342,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "pirateCrew_rowingLeftPower",
+      "deprecatedIDs": [],
       "name": "row left and ace (player 1)",
       "cues": [
         {
@@ -307,7 +366,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "pirateCrew_rowingRight",
+      "deprecatedIDs": [],
       "name": "row right and right (player 2)",
       "cues": [
         {
@@ -329,7 +390,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "pirateCrew_rowingRightPower",
+      "deprecatedIDs": [],
       "name": "row right and ace (player 2)",
       "cues": [
         {

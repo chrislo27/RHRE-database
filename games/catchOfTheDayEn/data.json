@@ -1,107 +1,119 @@
 {
-  "gameID": "catchOfTheDayEn",
-  "gameName": "Catch of the Day (English)",
-  "series": "fever",
-  "cues": [
+  "id": "catchOfTheDayEn",
+  "deprecatedIDs": [],
+  "name": "Catch of the Day (English)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "catchOfTheDayEn/quick1",
       "deprecatedIDs": [
         "catchOfTheDay/quick1"
       ],
-      "duration": 1.0,
-      "name": "quicknibble - 1"
+      "name": "quicknibble - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "catchOfTheDayEn/quick2",
       "deprecatedIDs": [
         "catchOfTheDay/quick2"
       ],
-      "duration": 1.0,
-      "name": "quicknibble - 2"
+      "name": "quicknibble - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "catchOfTheDayEn/quick3",
       "deprecatedIDs": [
         "catchOfTheDay/quick3"
       ],
-      "duration": 1.5,
-      "name": "quicknibble - 3"
+      "name": "quicknibble - 3",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "catchOfTheDayEn/pausegill1",
       "deprecatedIDs": [
         "catchOfTheDay/pausegill1"
       ],
-      "duration": 0.5,
-      "name": "pausegill - 1"
+      "name": "pausegill - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "catchOfTheDayEn/pausegill2",
       "deprecatedIDs": [
         "catchOfTheDay/pausegill2"
       ],
-      "duration": 0.5,
-      "name": "pausegill - 2"
+      "name": "pausegill - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "catchOfTheDayEn/pausegill3",
       "deprecatedIDs": [
         "catchOfTheDay/pausegill3"
       ],
-      "duration": 1.0,
-      "name": "pausegill - 3"
+      "name": "pausegill - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "catchOfTheDayEn/pausegill4",
       "deprecatedIDs": [
         "catchOfTheDay/pausegill4"
       ],
-      "duration": 1.5,
-      "name": "pausegill - 4"
+      "name": "pausegill - 4",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "catchOfTheDayEn/threefish1",
       "deprecatedIDs": [
         "catchOfTheDay/threefish1"
       ],
-      "duration": 0.25,
-      "name": "threefish - 1"
+      "name": "threefish - 1",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "catchOfTheDayEn/threefish2",
       "deprecatedIDs": [
         "catchOfTheDay/threefish2"
       ],
-      "duration": 0.25,
-      "name": "threefish - 2"
+      "name": "threefish - 2",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "catchOfTheDayEn/threefish3",
       "deprecatedIDs": [
         "catchOfTheDay/threefish3"
       ],
-      "duration": 0.5,
-      "name": "threefish - 3"
+      "name": "threefish - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "catchOfTheDayEn/threefish4",
       "deprecatedIDs": [
         "catchOfTheDay/threefish4"
       ],
-      "duration": 1.0,
-      "name": "threefish - 4"
+      "name": "threefish - 4",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "catchOfTheDayEn/threefish5",
       "deprecatedIDs": [
         "catchOfTheDay/threefish5"
       ],
-      "duration": 1.5,
-      "name": "threefish - 5"
-    }
-  ],
-  "patterns": [
+      "name": "threefish - 5",
+      "duration": 1.5
+    },
     {
+      "type": "pattern",
       "id": "catchOfTheDayEn_quicknibble",
       "deprecatedIDs": [
         "catchOfTheDay_quicknibble"
@@ -123,6 +135,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "catchOfTheDayEn_pausegill",
       "deprecatedIDs": [
         "catchOfTheDay_pausegill"
@@ -148,6 +161,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "catchOfTheDayEn_threefish",
       "deprecatedIDs": [
         "catchOfTheDay_threefish"

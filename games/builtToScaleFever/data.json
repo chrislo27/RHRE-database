@@ -1,147 +1,159 @@
 {
-  "gameID": "builtToScaleFever",
-  "gameName": "Built to Scale (Fever)",
-  "series": "fever",
-  "cues": [
+  "id": "builtToScaleFever",
+  "deprecatedIDs": [],
+  "name": "Built to Scale (Fever)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "builtToScaleFever/right",
       "deprecatedIDs": [
         "builtToScaleFever/1"
       ],
-      "duration": 1,
-      "name": "rightmost"
+      "name": "rightmost",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "builtToScaleFever/middleRight",
       "deprecatedIDs": [
         "builtToScaleFever/2"
       ],
-      "duration": 1,
-      "name": "middle-right (player)"
+      "name": "middle-right (player)",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "builtToScaleFever/middleLeft",
       "deprecatedIDs": [
         "builtToScaleFever/3"
       ],
-      "duration": 1,
-      "name": "middle-left"
+      "name": "middle-left",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "builtToScaleFever/left",
       "deprecatedIDs": [
         "builtToScaleFever/4"
       ],
-      "duration": 1,
-      "name": "leftmost"
+      "name": "leftmost",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "builtToScaleFever/prepare",
-      "duration": 2.25,
+      "deprecatedIDs": [],
       "name": "prepare",
-      "baseBpm": 120.0
+      "duration": 2.25
     },
     {
+      "type": "cue",
       "id": "builtToScaleFever/shoot",
-      "duration": 1,
-      "name": "shoot"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "shoot",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "builtToScaleFever_8bounces",
+      "deprecatedIDs": [],
       "name": "8 bounces",
       "cues": [
         {
           "id": "builtToScaleFever/right",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "builtToScaleFever/middleRight",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "builtToScaleFever/middleLeft",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "builtToScaleFever/left",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "builtToScaleFever/middleLeft",
-          "beat": 4
+          "beat": 4.0
         },
         {
           "id": "builtToScaleFever/middleRight",
-          "beat": 5
+          "beat": 5.0
         },
         {
           "id": "builtToScaleFever/right",
-          "beat": 6
+          "beat": 6.0
         },
         {
           "id": "builtToScaleFever/prepare",
-          "beat": 5,
+          "beat": 5.0,
           "track": 1
         },
         {
           "id": "builtToScaleFever/shoot",
-          "beat": 7
+          "beat": 7.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "builtToScaleFever_5bounces",
+      "deprecatedIDs": [],
       "name": "5 bounces",
       "cues": [
         {
           "id": "builtToScaleFever/left",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "builtToScaleFever/middleLeft",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "builtToScaleFever/middleRight",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "builtToScaleFever/right",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "builtToScaleFever/prepare",
-          "beat": 2,
+          "beat": 2.0,
           "track": 1
         },
         {
           "id": "builtToScaleFever/shoot",
-          "beat": 4
+          "beat": 4.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "builtToScaleFever_3bounces",
+      "deprecatedIDs": [],
       "name": "3 bounces",
       "cues": [
         {
           "id": "builtToScaleFever/left",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "builtToScaleFever/middleLeft",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "builtToScaleFever/prepare",
-          "beat": 0,
+          "beat": 0.0,
           "track": 1
         },
         {
           "id": "builtToScaleFever/shoot",
-          "beat": 2
+          "beat": 2.0
         }
       ]
     }

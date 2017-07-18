@@ -1,37 +1,48 @@
 {
-  "gameID": "ratRaceGba",
-  "gameName": "Rat Race (GBA)",
-  "series": "tengoku",
-  "cues": [
+  "id": "ratRaceGba",
+  "deprecatedIDs": [],
+  "name": "Rat Race (GBA)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "ratRaceGba/trafficlight",
-      "duration": 0.5,
-      "name": "traffic light"
+      "deprecatedIDs": [],
+      "name": "traffic light",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "ratRaceGba/stop1",
-      "duration": 1.0,
-      "name": "stop - 1"
+      "deprecatedIDs": [],
+      "name": "stop - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "ratRaceGba/stop2",
-      "duration": 1.0,
-      "name": "stop - 2"
+      "deprecatedIDs": [],
+      "name": "stop - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "ratRaceGba/start",
-      "duration": 1.5,
-      "name": "start - 1"
+      "deprecatedIDs": [],
+      "name": "start - 1",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "ratRaceGba/victoryCheese",
-      "duration": 9.5,
-      "name": "cheese found"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "cheese found",
+      "duration": 9.5
+    },
     {
+      "type": "pattern",
       "id": "ratRaceGba_stopnolight",
+      "deprecatedIDs": [],
       "name": "stop - no light",
       "cues": [
         {
@@ -45,7 +56,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "ratRaceGba_stop",
+      "deprecatedIDs": [],
       "name": "stop - traffic light",
       "cues": [
         {
@@ -65,18 +78,18 @@
         },
         {
           "id": "ratRaceGba/stop1",
-          "beat": 2.0,
-          "track": 0
+          "beat": 2.0
         },
         {
           "id": "ratRaceGba/stop2",
-          "beat": 3.0,
-          "track": 0
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "ratRaceGba_startnolight",
+      "deprecatedIDs": [],
       "name": "start - no light",
       "cues": [
         {
@@ -86,7 +99,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "ratRaceGba_start",
+      "deprecatedIDs": [],
       "name": "start - traffic light",
       "cues": [
         {

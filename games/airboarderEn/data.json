@@ -1,56 +1,69 @@
 {
-  "gameID": "airboarderEn",
-  "gameName": "Airboarder (English)",
-  "series": "ds",
-  "cues": [
+  "id": "airboarderEn",
+  "deprecatedIDs": [],
+  "name": "Airboarder (English)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "airboarderEn/letsGo1",
-      "duration": 6.5,
-      "baseBpm": 160,
-      "name": "yeah... let's go! - 1"
+      "deprecatedIDs": [],
+      "name": "yeah... let's go! - 1",
+      "duration": 6.5
     },
     {
+      "type": "cue",
       "id": "airboarderEn/letsGo2",
-      "duration": 0.5,
-      "name": "yeah... let's go! - 2"
+      "deprecatedIDs": [],
+      "name": "yeah... let's go! - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airboarderEn/letsGo3",
-      "duration": 0.5,
-      "name": "yeah... let's go! - 3"
+      "deprecatedIDs": [],
+      "name": "yeah... let's go! - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "airboarderEn/hup",
-      "duration": 1,
-      "name": "ready"
+      "deprecatedIDs": [],
+      "name": "ready",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "airboarderEn/crouch",
-      "duration": 1,
-      "name": "crouch"
+      "deprecatedIDs": [],
+      "name": "crouch",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "airboarderEn/glow",
       "deprecatedIDs": [
         "airboarder/glow"
       ],
-      "duration": 1,
-      "name": "glow"
+      "name": "glow",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "airboarderEn/jump",
-      "duration": 1,
-      "name": "jump"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "jump",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "airboarderEn_letsGo",
+      "deprecatedIDs": [],
       "name": "yeah... let's go!",
       "cues": [
         {
           "id": "airboarderEn/letsGo1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "airboarderEn/letsGo2",
@@ -58,33 +71,36 @@
         },
         {
           "id": "airboarderEn/letsGo3",
-          "beat": 7
+          "beat": 7.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "airboarderEn_crouch",
+      "deprecatedIDs": [],
       "name": "crouch",
       "cues": [
         {
           "id": "airboarderEn/hup",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "airboarderEn/crouch",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "airboarderEn/crouch",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "airboarderEn/crouch",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "airboarderEn_chargeCrouch",
       "deprecatedIDs": [
         "airboarder_chargeCrouch"
@@ -93,37 +109,39 @@
       "cues": [
         {
           "id": "airboarderEn/hup",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "airboarderEn/glow",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "airboarderEn/glow",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "airboarderEn/glow",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "airboarderEn_jump",
+      "deprecatedIDs": [],
       "name": "jump",
       "cues": [
         {
           "id": "airboarderEn/jump",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "airboarderEn/jump",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "airboarderEn/jump",
-          "beat": 2
+          "beat": 2.0
         }
       ]
     }

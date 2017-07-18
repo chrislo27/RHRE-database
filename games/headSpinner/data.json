@@ -1,77 +1,102 @@
 {
-  "gameID": "headSpinner",
-  "gameName": "Head Spinner",
-  "series": "side",
-  "cues": [
+  "id": "headSpinner",
+  "deprecatedIDs": [],
+  "name": "Head Spinner",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "headSpinner/drum",
-      "duration": 0.25,
-      "name": "drum"
+      "deprecatedIDs": [],
+      "name": "drum",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "headSpinner/drumroll1",
-      "duration": 0.167,
-      "name": "drumroll - 1"
+      "deprecatedIDs": [],
+      "name": "drumroll - 1",
+      "duration": 0.167
     },
     {
+      "type": "cue",
       "id": "headSpinner/drumroll2",
-      "duration": 0.167,
-      "name": "drumroll - 2"
+      "deprecatedIDs": [],
+      "name": "drumroll - 2",
+      "duration": 0.167
     },
     {
+      "type": "cue",
       "id": "headSpinner/drumroll3",
-      "duration": 0.167,
-      "name": "drumroll - 3"
+      "deprecatedIDs": [],
+      "name": "drumroll - 3",
+      "duration": 0.167
     },
     {
+      "type": "cue",
       "id": "headSpinner/drumroll4",
-      "duration": 0.167,
-      "name": "drumroll - 4"
+      "deprecatedIDs": [],
+      "name": "drumroll - 4",
+      "duration": 0.167
     },
     {
+      "type": "cue",
       "id": "headSpinner/drumroll5",
-      "duration": 0.167,
-      "name": "drumroll - 5"
+      "deprecatedIDs": [],
+      "name": "drumroll - 5",
+      "duration": 0.167
     },
     {
+      "type": "cue",
       "id": "headSpinner/drumroll6",
-      "duration": 0.167,
-      "name": "drumroll - 6"
+      "deprecatedIDs": [],
+      "name": "drumroll - 6",
+      "duration": 0.167
     },
     {
+      "type": "cue",
       "id": "headSpinner/drumroll7",
-      "duration": 1,
-      "name": "drumroll - 7"
+      "deprecatedIDs": [],
+      "name": "drumroll - 7",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "headSpinner/slap",
-      "duration": 2,
-      "name": "slap"
+      "deprecatedIDs": [],
+      "name": "slap",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "headSpinner/eyes",
-      "duration": 1,
-      "name": "eyes"
+      "deprecatedIDs": [],
+      "name": "eyes",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "headSpinner/claw1",
-      "duration": 0.5,
-      "name": "claw - 1"
+      "deprecatedIDs": [],
+      "name": "claw - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "headSpinner/claw2",
-      "duration": 0.5,
-      "name": "claw - 2"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "claw - 2",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "headSpinner_eyesOnly",
+      "deprecatedIDs": [],
       "name": "mannequin - eyes only",
       "cues": [
         {
           "id": "headSpinner/drum",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "headSpinner/drum",
@@ -83,11 +108,11 @@
         },
         {
           "id": "headSpinner/drum",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "headSpinner/drumroll1",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "headSpinner/drumroll2",
@@ -111,15 +136,15 @@
         },
         {
           "id": "headSpinner/drumroll7",
-          "beat": 4
+          "beat": 4.0
         },
         {
           "id": "headSpinner/eyes",
-          "beat": 5
+          "beat": 5.0
         },
         {
           "id": "headSpinner/claw1",
-          "beat": 6
+          "beat": 6.0
         },
         {
           "id": "headSpinner/claw2",
@@ -128,12 +153,14 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "headSpinner_slapAndEyes",
+      "deprecatedIDs": [],
       "name": "mannequin - slap and eyes",
       "cues": [
         {
           "id": "headSpinner/drum",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "headSpinner/drum",
@@ -145,7 +172,7 @@
         },
         {
           "id": "headSpinner/drum",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "headSpinner/drum",
@@ -153,19 +180,19 @@
         },
         {
           "id": "headSpinner/drum",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "headSpinner/slap",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "headSpinner/eyes",
-          "beat": 5
+          "beat": 5.0
         },
         {
           "id": "headSpinner/claw1",
-          "beat": 6
+          "beat": 6.0
         },
         {
           "id": "headSpinner/claw2",

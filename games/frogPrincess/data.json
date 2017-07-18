@@ -1,27 +1,34 @@
 {
-  "gameID": "frogPrincess",
-  "gameName": "Frog Princess",
-  "series": "side",
-  "cues": [
+  "id": "frogPrincess",
+  "deprecatedIDs": [],
+  "name": "Frog Princess",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "frogPrincess/donk",
-      "duration": 0.5,
-      "name": "donk"
+      "deprecatedIDs": [],
+      "name": "donk",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogPrincess/prepare",
-      "duration": 1.0,
-      "name": "prepare"
+      "deprecatedIDs": [],
+      "name": "prepare",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "frogPrincess/jump",
-      "duration": 1.0,
-      "name": "jump"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "jump",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "frogPrincess_jump",
+      "deprecatedIDs": [],
       "name": "jump",
       "cues": [
         {

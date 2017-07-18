@@ -1,69 +1,88 @@
 {
-  "gameID": "rockers",
-  "gameName": "Rockers",
-  "series": "ds",
-  "cues": [
+  "id": "rockers",
+  "deprecatedIDs": [],
+  "name": "Rockers",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "rockers/strumLoop",
-      "duration": 1,
+      "deprecatedIDs": [],
       "name": "strum loop",
-      "canAlterDuration": true,
-      "canAlterPitch": true,
-      "loops": true,
-      "introSound": "rockers/strumStart"
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true
     },
     {
+      "type": "cue",
       "id": "rockers/strumStart",
-      "duration": 0.25,
+      "deprecatedIDs": [],
       "name": "strum start",
-      "canAlterPitch": true
-    },
-    {
-      "id": "rockers/hold",
       "duration": 0.25,
-      "name": "hold"
+      "repitchable": true
     },
     {
+      "type": "cue",
+      "id": "rockers/hold",
+      "deprecatedIDs": [],
+      "name": "hold",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
       "id": "rockers/cmon",
-      "duration": 0.5,
-      "name": "c'mon"
+      "deprecatedIDs": [],
+      "name": "c'mon",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "rockers/lastone",
-      "duration": 1,
-      "name": "last one!"
+      "deprecatedIDs": [],
+      "name": "last one!",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "rockers/group1",
-      "duration": 0.5,
+      "deprecatedIDs": [],
       "name": "together - start",
-      "canAlterPitch": true
+      "duration": 0.5,
+      "repitchable": true
     },
     {
+      "type": "cue",
       "id": "rockers/group2",
-      "duration": 1.5,
+      "deprecatedIDs": [],
       "name": "together - last",
-      "canAlterPitch": true
+      "duration": 1.5,
+      "repitchable": true
     },
     {
+      "type": "cue",
       "id": "rockers/one",
-      "duration": 1,
-      "name": "count - 1"
+      "deprecatedIDs": [],
+      "name": "count - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "rockers/two",
-      "duration": 1,
-      "name": "count - 2"
+      "deprecatedIDs": [],
+      "name": "count - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "rockers/three",
-      "duration": 1,
-      "name": "count - 3"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "count - 3",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "rockers_together",
+      "deprecatedIDs": [],
       "name": "strum together",
       "cues": [
         {
@@ -76,11 +95,11 @@
         },
         {
           "id": "rockers/group1",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "rockers/group2",
-          "beat": 4
+          "beat": 4.0
         }
       ]
     }

@@ -1,114 +1,136 @@
 {
-  "gameID": "clapTrap",
-  "gameName": "Clap Trap",
-  "series": "side",
-  "cues": [
+  "id": "clapTrap",
+  "deprecatedIDs": [],
+  "name": "Clap Trap",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "clapTrap/donk",
-      "duration": 0.5,
-      "name": "clap - cowbell"
+      "deprecatedIDs": [],
+      "name": "clap - cowbell",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "clapTrap/hand",
-      "duration": 0.5,
-      "name": "clap - hand swoosh"
+      "deprecatedIDs": [],
+      "name": "clap - hand swoosh",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "clapTrap/goodClap1",
-      "duration": 2,
-      "name": "clap - successful clap 1"
+      "deprecatedIDs": [],
+      "name": "clap - successful clap 1",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "clapTrap/goodClap2",
-      "duration": 2,
-      "name": "clap - successful clap 2"
+      "deprecatedIDs": [],
+      "name": "clap - successful clap 2",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "clapTrap/goodClap3",
-      "duration": 2,
-      "name": "clap - successful clap 3"
+      "deprecatedIDs": [],
+      "name": "clap - successful clap 3",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "clapTrap/goodClap4",
-      "duration": 3,
-      "name": "clap - clap and sigh"
+      "deprecatedIDs": [],
+      "name": "clap - clap and sigh",
+      "duration": 3.0
     },
     {
+      "type": "cue",
       "id": "clapTrap/sigh1",
-      "duration": 2,
-      "name": "yes!"
+      "deprecatedIDs": [],
+      "name": "yes!",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "clapTrap/sigh2",
-      "duration": 2,
-      "name": "phew!"
+      "deprecatedIDs": [],
+      "name": "phew!",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "clapTrap/sigh3",
-      "duration": 2,
-      "name": "whew!"
+      "deprecatedIDs": [],
+      "name": "whew!",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "clapTrap/barely1",
-      "duration": 2,
-      "name": "near miss clap 1"
+      "deprecatedIDs": [],
+      "name": "near miss clap 1",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "clapTrap/barely2",
-      "duration": 2,
-      "name": "near miss clap 2"
+      "deprecatedIDs": [],
+      "name": "near miss clap 2",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "clapTrap/miss",
-      "duration": 1,
-      "name": "chopped"
+      "deprecatedIDs": [],
+      "name": "chopped",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "clapTrap/deepBreath",
-      "duration": 4,
-      "name": "deep breath"
+      "deprecatedIDs": [],
+      "name": "deep breath",
+      "duration": 4.0
     },
     {
+      "type": "cue",
       "id": "clapTrap/clap",
-      "duration": 1,
-      "name": "clap without hand"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "clap without hand",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "clapTrap_clap",
+      "deprecatedIDs": [],
       "name": "clap",
-      "isStretchable": true,
       "cues": [
         {
           "id": "clapTrap/donk",
-          "beat": 0.0,
-          "track": 0
+          "beat": 0.0
         },
         {
           "id": "clapTrap/donk",
-          "beat": 1.0,
-          "track": 0
+          "beat": 1.0
         },
         {
           "id": "clapTrap/donk",
-          "beat": 2.0,
-          "track": 0
+          "beat": 2.0
         },
         {
           "id": "clapTrap/hand",
-          "beat": 3.5,
-          "track": 0
+          "beat": 3.5
         },
         {
           "id": "clapTrap/goodClap1",
-          "beat": 4.0,
-          "track": 0
+          "beat": 4.0
         },
         {
           "id": "clapTrap/sigh1",
-          "beat": 6.0,
-          "track": 0
+          "beat": 6.0
         }
       ]
     }

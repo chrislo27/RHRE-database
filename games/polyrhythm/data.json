@@ -1,57 +1,70 @@
 {
-  "gameID": "polyrhythm",
-  "gameName": "Polyrhythm",
-  "series": "tengoku",
-  "cues": [
+  "id": "polyrhythm",
+  "deprecatedIDs": [],
+  "name": "Polyrhythm",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "polyrhythm/aSpring",
       "deprecatedIDs": [
         "polyrhythm/side_a"
       ],
-      "duration": 0.5,
-      "name": "spring - A"
+      "name": "spring - A",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "polyrhythm/dPadSpring",
       "deprecatedIDs": [
         "polyrhythm/side_d"
       ],
-      "duration": 0.5,
-      "name": "spring - +"
+      "name": "spring - +",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "polyrhythm/aWidget",
-      "duration": 0.5,
-      "name": "widget - A"
+      "deprecatedIDs": [],
+      "name": "widget - A",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "polyrhythm/dPadWidget",
-      "duration": 0.5,
-      "name": "widget - +"
+      "deprecatedIDs": [],
+      "name": "widget - +",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "polyrhythm/retract",
       "deprecatedIDs": [
         "polyrhythm/enter"
       ],
-      "duration": 0.5,
-      "name": "springs - retracting"
+      "name": "springs - retracting",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "polyrhythm/land",
-      "duration": 0.5,
-      "name": "cylinder - landing"
+      "deprecatedIDs": [],
+      "name": "cylinder - landing",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "polyrhythm/disappear",
-      "duration": 0.5,
-      "name": "springs - disappearing"
+      "deprecatedIDs": [],
+      "name": "springs - disappearing",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "polyrhythm/clear",
-      "duration": 4,
-      "name": "clear"
+      "deprecatedIDs": [],
+      "name": "clear",
+      "duration": 4.0
     }
-  ],
-  "patterns": []
+  ]
 }

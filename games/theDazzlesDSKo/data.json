@@ -1,52 +1,69 @@
 {
-  "gameID": "theDazzlesDSKo",
-  "gameName": "The Dazzles (DS) (Korean)",
-  "series": "ds",
-  "cues": [
+  "id": "theDazzlesDSKo",
+  "deprecatedIDs": [],
+  "name": "The Dazzles (DS) (Korean)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "theDazzlesDSKo/hold4",
-      "duration": 0.5,
-      "name": "hold - three"
+      "deprecatedIDs": [],
+      "name": "hold - three",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "theDazzlesDSKo/hold3",
-      "duration": 0.5,
-      "name": "hold - two"
+      "deprecatedIDs": [],
+      "name": "hold - two",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "theDazzlesDSKo/hold2",
-      "duration": 0.5,
-      "name": "hold - 1"
+      "deprecatedIDs": [],
+      "name": "hold - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "theDazzlesDSKo/hold1",
-      "duration": 1.0,
-      "name": "hold - crouch"
+      "deprecatedIDs": [],
+      "name": "hold - crouch",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "theDazzlesDSKo/posePartner",
-      "duration": 0.5,
-      "name": "partner pose"
+      "deprecatedIDs": [],
+      "name": "partner pose",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "theDazzlesDSKo/posePartnerLong",
-      "duration": 1.0,
-      "name": "partner pose - long"
+      "deprecatedIDs": [],
+      "name": "partner pose - long",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "theDazzlesDSKo/posePlayer",
-      "duration": 1.0,
-      "name": "player pose"
+      "deprecatedIDs": [],
+      "name": "player pose",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "theDazzlesDSKo/posePlayerStars",
-      "duration": 2.0,
-      "name": "player pose - stars"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "player pose - stars",
+      "duration": 2.0
+    },
     {
+      "type": "pattern",
       "id": "theDazzlesDSKo_hold",
+      "deprecatedIDs": [],
       "name": "hold count in",
       "cues": [
         {
@@ -66,13 +83,14 @@
         },
         {
           "id": "theDazzlesDSKo/hold1",
-          "beat": 2.0,
-          "track": 0
+          "beat": 2.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "theDazzlesDSKo_holdCrouch",
+      "deprecatedIDs": [],
       "name": "hold count in and crouch",
       "cues": [
         {
@@ -94,7 +112,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "theDazzlesDSKo_poseThree",
+      "deprecatedIDs": [],
       "name": "pose - three",
       "cues": [
         {
@@ -112,7 +132,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "theDazzlesDSKo_poseTwo",
+      "deprecatedIDs": [],
       "name": "pose - two",
       "cues": [
         {
@@ -126,7 +148,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "theDazzlesDSKo_poseSix1",
+      "deprecatedIDs": [],
       "name": "pose - six - diagonal",
       "cues": [
         {
@@ -156,7 +180,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "theDazzlesDSKo_poseSix2",
+      "deprecatedIDs": [],
       "name": "pose - six - columns",
       "cues": [
         {
@@ -186,7 +212,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "theDazzlesDSKo_poseSix3",
+      "deprecatedIDs": [],
       "name": "pose - six",
       "cues": [
         {

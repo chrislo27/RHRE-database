@@ -1,47 +1,62 @@
 {
-  "gameID": "forkLifter",
-  "gameName": "Fork Lifter",
-  "series": "fever",
-  "cues": [
+  "id": "forkLifter",
+  "deprecatedIDs": [],
+  "name": "Fork Lifter",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "forkLifter/flickPrepare",
-      "duration": 0.5,
-      "name": "pea - prepare flick"
+      "deprecatedIDs": [],
+      "name": "pea - prepare flick",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "forkLifter/flick",
-      "duration": 0.5,
-      "name": "pea - flick"
+      "deprecatedIDs": [],
+      "name": "pea - flick",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "forkLifter/zoom",
-      "duration": 0.5,
-      "name": "pea - zoom"
+      "deprecatedIDs": [],
+      "name": "pea - zoom",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "forkLifter/stab",
-      "duration": 0.5,
-      "name": "pea - stab"
+      "deprecatedIDs": [],
+      "name": "pea - stab",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "forkLifter/gulp",
-      "duration": 1.0,
-      "name": "gulp"
+      "deprecatedIDs": [],
+      "name": "gulp",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "forkLifter/burger",
-      "duration": 1.0,
-      "name": "burger"
+      "deprecatedIDs": [],
+      "name": "burger",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "forkLifter/sigh",
-      "duration": 2.0,
-      "name": "sigh"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "sigh",
+      "duration": 2.0
+    },
     {
+      "type": "pattern",
       "id": "forkLifter_onePea",
+      "deprecatedIDs": [],
       "name": "single pea",
       "cues": [
         {
@@ -59,7 +74,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "forkLifter_twoPeas",
+      "deprecatedIDs": [],
       "name": "two peas",
       "cues": [
         {
@@ -89,7 +106,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "forkLifter_twoPeasFast",
+      "deprecatedIDs": [],
       "name": "two peas (faster)",
       "cues": [
         {
@@ -120,7 +139,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "forkLifter_threePeas",
+      "deprecatedIDs": [],
       "name": "three peas",
       "cues": [
         {

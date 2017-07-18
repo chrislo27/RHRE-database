@@ -1,142 +1,195 @@
 {
-  "gameID": "figureFighterJa",
-  "gameName": "Figure Fighter (Japanese)",
-  "series": "fever",
-  "cues": [
+  "id": "figureFighterJa",
+  "deprecatedIDs": [],
+  "name": "Figure Fighter (Japanese)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "figureFighterJa/and",
-      "duration": 0.5,
-      "name": "hai"
+      "deprecatedIDs": [],
+      "name": "hai",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/and2",
-      "duration": 0.5,
-      "name": "hai2"
+      "deprecatedIDs": [],
+      "name": "hai2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/jab",
-      "duration": 0.5,
-      "name": "jab"
+      "deprecatedIDs": [],
+      "name": "jab",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/jabHit",
-      "duration": 0.5,
-      "name": "jab - hit"
+      "deprecatedIDs": [],
+      "name": "jab - hit",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/jabCrowd1",
-      "duration": 0.5,
-      "name": "jab - hit with crowd - first"
+      "deprecatedIDs": [],
+      "name": "jab - hit with crowd - first",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/jabCrowd2",
-      "duration": 0.5,
-      "name": "jab - hit with crowd - second"
+      "deprecatedIDs": [],
+      "name": "jab - hit with crowd - second",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/oneTwo1",
-      "duration": 1.0,
-      "name": "one two - one!"
+      "deprecatedIDs": [],
+      "name": "one two - one!",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/oneTwo2",
-      "duration": 1.0,
-      "name": "one two - two!"
+      "deprecatedIDs": [],
+      "name": "one two - two!",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/oneTwoHit1",
-      "duration": 0.5,
-      "name": "one two - hit - 1"
+      "deprecatedIDs": [],
+      "name": "one two - hit - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/oneTwoHit2",
-      "duration": 0.5,
-      "name": "one two - hit - 2"
+      "deprecatedIDs": [],
+      "name": "one two - hit - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/go1",
-      "duration": 0.5,
-      "name": "do do don - 1"
+      "deprecatedIDs": [],
+      "name": "do do don - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/go2",
-      "duration": 0.5,
-      "name": "do do don - 2"
+      "deprecatedIDs": [],
+      "name": "do do don - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/go3",
-      "duration": 1.0,
-      "name": "do do don - 3"
+      "deprecatedIDs": [],
+      "name": "do do don - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/goHit1",
-      "duration": 0.5,
-      "name": "do do don - hit - 1"
+      "deprecatedIDs": [],
+      "name": "do do don - hit - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/goHit2",
-      "duration": 0.5,
-      "name": "do do don - hit - 2"
+      "deprecatedIDs": [],
+      "name": "do do don - hit - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/goHit3",
-      "duration": 1.0,
-      "name": "do do don - hit - 3"
+      "deprecatedIDs": [],
+      "name": "do do don - hit - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/goHitCrowd1",
-      "duration": 0.5,
-      "name": "do do don - hit with crowd - 1"
+      "deprecatedIDs": [],
+      "name": "do do don - hit with crowd - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/goHitCrowd2",
-      "duration": 0.5,
-      "name": "do do don - hit with crowd - 2"
+      "deprecatedIDs": [],
+      "name": "do do don - hit with crowd - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/jabHitpower",
-      "duration": 1.0,
-      "name": "jab hit - power"
+      "deprecatedIDs": [],
+      "name": "jab hit - power",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/applauseHit",
-      "duration": 1.0,
-      "name": "crowd - falling pieces"
+      "deprecatedIDs": [],
+      "name": "crowd - falling pieces",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/fastOneTwo1",
-      "duration": 0.5,
-      "name": "fast one two - one!"
+      "deprecatedIDs": [],
+      "name": "fast one two - one!",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/fastOneTwo2",
-      "duration": 0.5,
-      "name": "fast one two - two!"
+      "deprecatedIDs": [],
+      "name": "fast one two - two!",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/fastOneTwoHit1",
-      "duration": 0.5,
-      "name": "fast one two - hit - 1"
+      "deprecatedIDs": [],
+      "name": "fast one two - hit - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/fastOneTwoHit2",
-      "duration": 0.5,
-      "name": "fast one two - hit - 2"
+      "deprecatedIDs": [],
+      "name": "fast one two - hit - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/fastOneTwoHitCrowd1",
-      "duration": 0.5,
-      "name": "fast one two - hit with crowd - 1"
+      "deprecatedIDs": [],
+      "name": "fast one two - hit with crowd - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "figureFighterJa/fastOneTwoHitCrowd2",
-      "duration": 0.5,
-      "name": "fast one two - hit with crowd - 2"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "fast one two - hit with crowd - 2",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "figureFighterJa_jab",
+      "deprecatedIDs": [],
       "name": "jab",
       "cues": [
         {
@@ -150,7 +203,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "figureFighterJa_jabCrowd",
+      "deprecatedIDs": [],
       "name": "jab with crowd",
       "cues": [
         {
@@ -164,7 +219,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "figureFighterJa_oneTwo",
+      "deprecatedIDs": [],
       "name": "one two",
       "cues": [
         {
@@ -186,7 +243,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "figureFighterJa_oneTwoCrowd",
+      "deprecatedIDs": [],
       "name": "one two with crowd",
       "cues": [
         {
@@ -208,7 +267,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "figureFighterJa_dododon",
+      "deprecatedIDs": [],
       "name": "go go go!",
       "cues": [
         {
@@ -238,7 +299,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "figureFighterJa_dododonApplause",
+      "deprecatedIDs": [],
       "name": "go go go! applause",
       "cues": [
         {
@@ -272,7 +335,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "figureFighterJa_oneTwoFast",
+      "deprecatedIDs": [],
       "name": "fast one two",
       "cues": [
         {
@@ -294,7 +359,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "figureFighterJa_oneTwoFastCrowd",
+      "deprecatedIDs": [],
       "name": "fast one two with crowd",
       "cues": [
         {

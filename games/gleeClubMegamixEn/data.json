@@ -1,78 +1,100 @@
 {
-  "gameID": "gleeClubMegamixEn",
-  "gameName": "Glee Club (Megamix)",
-  "series": "megamix",
-  "cues": [
+  "id": "gleeClubMegamixEn",
+  "deprecatedIDs": [],
+  "name": "Glee Club (Megamix)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "gleeClubMegamixEn/singBegin",
-      "duration": 0.000001
+      "deprecatedIDs": [],
+      "name": "gleeClubMegamixEn/singBegin",
+      "duration": 1.0E-6
     },
     {
+      "type": "cue",
       "id": "gleeClubMegamixEn/singLoop",
-      "canAlterDuration": true,
-      "introSound": "gleeClubMegamixEn/singBegin",
-      "canAlterPitch": true,
-      "duration": 1,
-      "name": "sing"
+      "deprecatedIDs": [],
+      "name": "sing",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true
     },
     {
+      "type": "cue",
       "id": "gleeClubMegamixEn/singEnd",
-      "duration": 0.5,
-      "name": "stop"
+      "deprecatedIDs": [],
+      "name": "stop",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "gleeClubMegamixEn/to",
-      "duration": 0.3333,
-      "name": "together now - to"
+      "deprecatedIDs": [],
+      "name": "together now - to",
+      "duration": 0.3333
     },
     {
+      "type": "cue",
       "id": "gleeClubMegamixEn/ge",
-      "duration": 0.6666,
-      "name": "together now - ge"
+      "deprecatedIDs": [],
+      "name": "together now - ge",
+      "duration": 0.6666
     },
     {
+      "type": "cue",
       "id": "gleeClubMegamixEn/ther",
-      "duration": 0.3333,
-      "name": "together now - ther"
+      "deprecatedIDs": [],
+      "name": "together now - ther",
+      "duration": 0.3333
     },
     {
+      "type": "cue",
       "id": "gleeClubMegamixEn/now",
-      "duration": 0.6666,
-      "name": "together now - now"
+      "deprecatedIDs": [],
+      "name": "together now - now",
+      "duration": 0.6666
     },
     {
+      "type": "cue",
       "id": "gleeClubMegamixEn/screamBegin",
-      "duration": 0.000001,
-      "canAlterPitch": true
+      "deprecatedIDs": [],
+      "name": "gleeClubMegamixEn/screamBegin",
+      "duration": 1.0E-6,
+      "repitchable": true
     },
     {
+      "type": "cue",
       "id": "gleeClubMegamixEn/screamLoop",
-      "duration": 1,
-      "loops": true,
-      "introSound": "gleeClubMegamixEn/screamBegin",
-      "canAlterPitch": true,
-      "name": "scream"
+      "deprecatedIDs": [],
+      "name": "scream",
+      "duration": 1.0,
+      "repitchable": true
     },
     {
+      "type": "cue",
       "id": "gleeClubMegamixEn/baton",
-      "duration": 1,
+      "deprecatedIDs": [],
       "name": "baton - lift",
-      "canAlterPitch": true
+      "duration": 1.0,
+      "repitchable": true
     },
     {
+      "type": "cue",
       "id": "gleeClubMegamixEn/batonStop",
-      "duration": 1,
-      "name": "baton - stop"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "baton - stop",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "gleeClubMegamixEn_togetherNow",
+      "deprecatedIDs": [],
       "name": "together now!",
       "cues": [
         {
           "id": "gleeClubMegamixEn/to",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "gleeClubMegamixEn/ge",
@@ -80,7 +102,7 @@
         },
         {
           "id": "gleeClubMegamixEn/ther",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "gleeClubMegamixEn/now",
@@ -88,25 +110,27 @@
         },
         {
           "id": "gleeClubMegamixEn/screamLoop",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "gleeClubMegamixEn/singEnd",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "gleeClubMegamixEn_baton",
+      "deprecatedIDs": [],
       "name": "baton",
       "cues": [
         {
           "id": "gleeClubMegamixEn/baton",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "gleeClubMegamixEn/batonStop",
-          "beat": 1
+          "beat": 1.0
         }
       ]
     }

@@ -1,123 +1,137 @@
 {
-  "gameID": "spaceDanceEn",
-  "gameName": "Space Dance (Megamix) (English)",
-  "series": "megamix",
-  "cues": [
+  "id": "spaceDanceEn",
+  "deprecatedIDs": [],
+  "name": "Space Dance (Megamix) (English)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "spaceDanceEn/and1",
       "deprecatedIDs": [
         "spaceDanceEng/and1"
       ],
-      "duration": 1,
-      "name": "dancers - and pose - and"
+      "name": "dancers - and pose - and",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "spaceDanceEn/pose1",
       "deprecatedIDs": [
         "spaceDanceEng/pose1"
       ],
-      "duration": 1,
-      "name": "dancers - and pose - pose"
+      "name": "dancers - and pose - pose",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "spaceDanceEn/and2",
       "deprecatedIDs": [
         "spaceDanceEng/and2"
       ],
-      "duration": 1,
-      "name": "gramps - and pose - and"
+      "name": "gramps - and pose - and",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "spaceDanceEn/pose2",
       "deprecatedIDs": [
         "spaceDanceEng/pose2"
       ],
-      "duration": 1,
-      "name": "gramps - and pose - pose"
+      "name": "gramps - and pose - pose",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "spaceDanceEn/lets1",
       "deprecatedIDs": [
         "spaceDanceEng/lets1"
       ],
-      "duration": 0.5,
-      "name": "dancers - let's sit down - let's"
+      "name": "dancers - let's sit down - let's",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "spaceDanceEn/sit1",
       "deprecatedIDs": [
         "spaceDanceEng/sit1"
       ],
-      "duration": 0.333,
-      "name": "dancers - let's sit down - sit"
+      "name": "dancers - let's sit down - sit",
+      "duration": 0.333
     },
     {
+      "type": "cue",
       "id": "spaceDanceEn/down1",
       "deprecatedIDs": [
         "spaceDanceEng/down1"
       ],
-      "duration": 0.5,
-      "name": "dancers - let's sit down - down"
+      "name": "dancers - let's sit down - down",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "spaceDanceEn/lets2",
       "deprecatedIDs": [
         "spaceDanceEng/lets2"
       ],
-      "duration": 0.5,
-      "name": "gramps - let's sit down - let's"
+      "name": "gramps - let's sit down - let's",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "spaceDanceEn/sit2",
       "deprecatedIDs": [
         "spaceDanceEng/sit2"
       ],
-      "duration": 0.333,
-      "name": "gramps - let's sit down - sit"
+      "name": "gramps - let's sit down - sit",
+      "duration": 0.333
     },
     {
+      "type": "cue",
       "id": "spaceDanceEn/down2",
       "deprecatedIDs": [
         "spaceDanceEng/down2"
       ],
-      "duration": 0.5,
-      "name": "gramps - let's sit down - down"
+      "name": "gramps - let's sit down - down",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "spaceDanceEn/pa1",
       "deprecatedIDs": [
         "spaceDanceEng/pa1"
       ],
-      "duration": 0.333,
-      "name": "dancers - pu-pu-pu-punch - pu-"
+      "name": "dancers - pu-pu-pu-punch - pu-",
+      "duration": 0.333
     },
     {
+      "type": "cue",
       "id": "spaceDanceEn/punch1",
       "deprecatedIDs": [
         "spaceDanceEng/punch1"
       ],
-      "duration": 0.333,
-      "name": "dancers - pu-pu-pu-punch - punch"
+      "name": "dancers - pu-pu-pu-punch - punch",
+      "duration": 0.333
     },
     {
+      "type": "cue",
       "id": "spaceDanceEn/pa2",
       "deprecatedIDs": [
         "spaceDanceEng/pa2"
       ],
-      "duration": 0.333,
-      "name": "gramps - pu-pu-pu-punch - pu-"
+      "name": "gramps - pu-pu-pu-punch - pu-",
+      "duration": 0.333
     },
     {
+      "type": "cue",
       "id": "spaceDanceEn/punch2",
       "deprecatedIDs": [
         "spaceDanceEng/punch2"
       ],
-      "duration": 0.333,
-      "name": "gramps - pu-pu-pu-punch - punch"
-    }
-  ],
-  "patterns": [
+      "name": "gramps - pu-pu-pu-punch - punch",
+      "duration": 0.333
+    },
     {
+      "type": "pattern",
       "id": "spaceDanceEn_andpose1",
       "deprecatedIDs": [
         "spaceDanceEng_andpose1"
@@ -135,6 +149,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "spaceDanceEn_letssitdown1",
       "deprecatedIDs": [
         "spaceDanceEng_letssitdown1"
@@ -156,6 +171,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "spaceDanceEn_pupupupunch1",
       "deprecatedIDs": [
         "spaceDanceEng_pupupupunch1"
@@ -181,6 +197,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "spaceDanceEn_andpose2",
       "deprecatedIDs": [
         "spaceDanceEng_andpose2"
@@ -198,6 +215,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "spaceDanceEn_letssitdown2",
       "deprecatedIDs": [
         "spaceDanceEng_letssitdown2"
@@ -219,6 +237,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "spaceDanceEn_pupupupunch2",
       "deprecatedIDs": [
         "spaceDanceEng_pupupupunch2"
@@ -244,7 +263,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "spaceDanceEn_letssitdown1cosmic",
+      "deprecatedIDs": [],
       "name": "dancers - let's sit down (cosmic)",
       "cues": [
         {
@@ -262,7 +283,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "spaceDanceEn_letssitdown2cosmic",
+      "deprecatedIDs": [],
       "name": "gramps - let's sit down (cosmic)",
       "cues": [
         {
@@ -280,7 +303,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "spaceDanceEn_pupupupunch1cosmic",
+      "deprecatedIDs": [],
       "name": "dancers - pu-pu-pu-punch (cosmic)",
       "cues": [
         {
@@ -302,7 +327,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "spaceDanceEn_pupupupunch2cosmic",
+      "deprecatedIDs": [],
       "name": "gramps - pu-pu-pu-punch (cosmic)",
       "cues": [
         {

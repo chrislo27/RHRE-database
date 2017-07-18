@@ -1,38 +1,50 @@
 {
-  "gameID": "drummerDuelKo",
-  "gameName": "Drummer Duel (Korean)",
-  "series": "ds",
-  "cues": [
+  "id": "drummerDuelKo",
+  "deprecatedIDs": [],
+  "name": "Drummer Duel (Korean)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "drummerDuelKo/redOnbeat",
-      "duration": 0.5,
-      "name": "red - onbeat drum"
+      "deprecatedIDs": [],
+      "name": "red - onbeat drum",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "drummerDuelKo/redOffbeat",
-      "duration": 0.5,
-      "name": "red - offbeat drum"
+      "deprecatedIDs": [],
+      "name": "red - offbeat drum",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "drummerDuelKo/redPass",
-      "duration": 1.0,
-      "name": "red - turn pass"
+      "deprecatedIDs": [],
+      "name": "red - turn pass",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "drummerDuelKo/blueOnbeat",
-      "duration": 0.5,
-      "name": "blue - onbeat drum"
+      "deprecatedIDs": [],
+      "name": "blue - onbeat drum",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "drummerDuelKo/blueOffbeat",
-      "duration": 0.5,
-      "name": "blue - offbeat drum"
+      "deprecatedIDs": [],
+      "name": "blue - offbeat drum",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "drummerDuelKo/bluePass",
-      "duration": 1.0,
-      "name": "blue - turn pass"
+      "deprecatedIDs": [],
+      "name": "blue - turn pass",
+      "duration": 1.0
     }
-  ],
-  "patterns": []
+  ]
 }

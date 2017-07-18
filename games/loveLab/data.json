@@ -1,43 +1,57 @@
 {
-  "gameID": "loveLab",
-  "gameName": "Love Lab",
-  "series": "ds",
-  "cues": [
+  "id": "loveLab",
+  "deprecatedIDs": [],
+  "name": "Love Lab",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "loveLab/leftCatch",
-      "duration": 0.5,
-      "name": "left - catch"
+      "deprecatedIDs": [],
+      "name": "left - catch",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "loveLab/leftThrow",
-      "duration": 0.5,
-      "name": "left - throw"
+      "deprecatedIDs": [],
+      "name": "left - throw",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "loveLab/shake1",
-      "duration": 0.25,
-      "name": "shake - 1"
+      "deprecatedIDs": [],
+      "name": "shake - 1",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "loveLab/shake2",
-      "duration": 0.25,
-      "name": "shake - 2"
+      "deprecatedIDs": [],
+      "name": "shake - 2",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "loveLab/rightCatch",
-      "duration": 0.5,
-      "name": "right - catch"
+      "deprecatedIDs": [],
+      "name": "right - catch",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "loveLab/rightThrow",
-      "duration": 0.5,
-      "name": "right - throw"
+      "deprecatedIDs": [],
+      "name": "right - throw",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "loveLab/clear",
-      "duration": 2,
-      "name": "pour"
+      "deprecatedIDs": [],
+      "name": "pour",
+      "duration": 2.0
     }
-  ],
-  "patterns": []
+  ]
 }

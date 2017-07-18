@@ -1,78 +1,96 @@
 {
-  "gameID": "animalAcrobat",
-  "gameName": "Animal Acrobat",
-  "series": "megamix",
-  "cues": [
+  "id": "animalAcrobat",
+  "deprecatedIDs": [],
+  "name": "Animal Acrobat",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "animalAcrobat/beginningLeap",
-      "duration": 1.0,
-      "name": "leap"
+      "deprecatedIDs": [],
+      "name": "leap",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "animalAcrobat/eek!",
-      "duration": 1.0,
-      "name": "eek"
+      "deprecatedIDs": [],
+      "name": "eek",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "animalAcrobat/flip",
-      "duration": 1.0,
-      "name": "flip"
+      "deprecatedIDs": [],
+      "name": "flip",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "animalAcrobat/giraffeRelease",
-      "duration": 2.0,
-      "name": "giraffe release"
+      "deprecatedIDs": [],
+      "name": "giraffe release",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "animalAcrobat/grab",
-      "duration": 2.0,
-      "name": "grab"
+      "deprecatedIDs": [],
+      "name": "grab",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "animalAcrobat/release",
-      "duration": 1.0,
-      "name": "release"
+      "deprecatedIDs": [],
+      "name": "release",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "animalAcrobat/ringOfFireCymbal",
-      "duration": 1.0,
-      "name": "ring of fire"
+      "deprecatedIDs": [],
+      "name": "ring of fire",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "animalAcrobat/ringOfFireCymbalGorilla",
-      "duration": 2.0,
-      "name": "ring of fire - gorilla"
+      "deprecatedIDs": [],
+      "name": "ring of fire - gorilla",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "animalAcrobat/ringOfFireCymbalRemix",
-      "duration": 2.0,
-      "name": "ring of fire - stomping"
+      "deprecatedIDs": [],
+      "name": "ring of fire - stomping",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "animalAcrobat/cymbal",
-      "duration": 1.0,
-      "name": "cymbal"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "cymbal",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "animalAcrobat_elephant",
+      "deprecatedIDs": [],
       "name": "elephant",
       "cues": [
         {
           "id": "animalAcrobat/grab",
-          "beat": 0.0,
-          "track": 0
+          "beat": 0.0
         },
         {
           "id": "animalAcrobat/release",
-          "beat": 2.0,
-          "track": 0
+          "beat": 2.0
         },
         {
           "id": "animalAcrobat/flip",
-          "beat": 3.0,
-          "track": 0
+          "beat": 3.0
         },
         {
           "id": "animalAcrobat/eek!",
@@ -87,147 +105,134 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "animalAcrobat_giraffe",
+      "deprecatedIDs": [],
       "name": "giraffe",
       "cues": [
         {
           "id": "animalAcrobat/grab",
-          "beat": 0.0,
-          "track": 0
+          "beat": 0.0
         },
         {
           "id": "animalAcrobat/eek!",
-          "beat": 2.0,
-          "track": 0
+          "beat": 2.0
         },
         {
           "id": "animalAcrobat/eek!",
-          "beat": 3.0,
-          "track": 0
+          "beat": 3.0
         },
         {
           "id": "animalAcrobat/giraffeRelease",
-          "beat": 4.0,
-          "track": 0
+          "beat": 4.0
         },
         {
           "id": "animalAcrobat/ringOfFireCymbal",
-          "beat": 6.0,
-          "track": 0
+          "beat": 6.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "animalAcrobat_giraffeGorilla",
+      "deprecatedIDs": [],
       "name": "giraffe - to gorilla",
       "cues": [
         {
           "id": "animalAcrobat/grab",
-          "beat": 0.0,
-          "track": 0
+          "beat": 0.0
         },
         {
           "id": "animalAcrobat/eek!",
-          "beat": 2.0,
-          "track": 0
+          "beat": 2.0
         },
         {
           "id": "animalAcrobat/eek!",
-          "beat": 3.0,
-          "track": 0
+          "beat": 3.0
         },
         {
           "id": "animalAcrobat/giraffeRelease",
-          "beat": 4.0,
-          "track": 0
+          "beat": 4.0
         },
         {
           "id": "animalAcrobat/ringOfFireCymbalGorilla",
-          "beat": 6.0,
-          "track": 0
+          "beat": 6.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "animalAcrobat_giraffeLanding",
+      "deprecatedIDs": [],
       "name": "giraffe - landing",
       "cues": [
         {
           "id": "animalAcrobat/grab",
-          "beat": 0.0,
-          "track": 0
+          "beat": 0.0
         },
         {
           "id": "animalAcrobat/eek!",
-          "beat": 2.0,
-          "track": 0
+          "beat": 2.0
         },
         {
           "id": "animalAcrobat/eek!",
-          "beat": 3.0,
-          "track": 0
+          "beat": 3.0
         },
         {
           "id": "animalAcrobat/giraffeRelease",
-          "beat": 4.0,
-          "track": 0
+          "beat": 4.0
         },
         {
           "id": "animalAcrobat/ringOfFireCymbalRemix",
-          "beat": 6.0,
-          "track": 0
+          "beat": 6.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "animalAcrobat_giraffeCymbal",
+      "deprecatedIDs": [],
       "name": "giraffe - next animal",
       "cues": [
         {
           "id": "animalAcrobat/grab",
-          "beat": 0.0,
-          "track": 0
+          "beat": 0.0
         },
         {
           "id": "animalAcrobat/eek!",
-          "beat": 2.0,
-          "track": 0
+          "beat": 2.0
         },
         {
           "id": "animalAcrobat/eek!",
-          "beat": 3.0,
-          "track": 0
+          "beat": 3.0
         },
         {
           "id": "animalAcrobat/giraffeRelease",
-          "beat": 4.0,
-          "track": 0
+          "beat": 4.0
         },
         {
           "id": "animalAcrobat/ringOfFireCymbal",
-          "beat": 6.0,
-          "track": 0
+          "beat": 6.0
         },
         {
           "id": "animalAcrobat/flip",
-          "beat": 7.0,
-          "track": 0
+          "beat": 7.0
         },
         {
           "id": "animalAcrobat/cymbal",
-          "beat": 8.0,
-          "track": 0
+          "beat": 8.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "animalAcrobat_monkeys",
+      "deprecatedIDs": [],
       "name": "monkeys",
       "cues": [
         {
           "id": "animalAcrobat/grab",
-          "beat": 0.0,
-          "track": 0
+          "beat": 0.0
         },
         {
           "id": "animalAcrobat/eek!",
@@ -236,23 +241,19 @@
         },
         {
           "id": "animalAcrobat/eek!",
-          "beat": 2.0,
-          "track": 0
+          "beat": 2.0
         },
         {
           "id": "animalAcrobat/release",
-          "beat": 3.0,
-          "track": 0
+          "beat": 3.0
         },
         {
           "id": "animalAcrobat/flip",
-          "beat": 4.0,
-          "track": 0
+          "beat": 4.0
         },
         {
           "id": "animalAcrobat/grab",
-          "beat": 5.0,
-          "track": 0
+          "beat": 5.0
         },
         {
           "id": "animalAcrobat/release",
@@ -261,8 +262,7 @@
         },
         {
           "id": "animalAcrobat/flip",
-          "beat": 7.0,
-          "track": 0
+          "beat": 7.0
         },
         {
           "id": "animalAcrobat/eek!",

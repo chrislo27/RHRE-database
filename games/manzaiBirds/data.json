@@ -1,51 +1,57 @@
 {
-  "gameID": "manzaiBirds",
-  "gameName": "Manzai Birds",
-  "series": "side",
-  "usesGeneratorHelper": true,
-  "cues": [
+  "id": "manzaiBirds",
+  "deprecatedIDs": [],
+  "name": "Manzai Birds",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "manzaiBirds/boing",
-      "duration": 1,
+      "deprecatedIDs": [],
       "name": "BOING!",
-      "baseBpm": 95
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "manzaiBirds/donaiyanen",
-      "duration": 1.5,
+      "deprecatedIDs": [],
       "name": "donaiyanen!",
-      "baseBpm": 95
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "manzaiBirds/haihai1",
-      "duration": 0.5,
+      "deprecatedIDs": [],
       "name": "hai-",
-      "baseBpm": 95
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "manzaiBirds/haihai2",
-      "duration": 0.5,
+      "deprecatedIDs": [],
       "name": "-hai!",
-      "baseBpm": 95
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "manzaiBirds/applause1",
-      "duration": 1,
+      "deprecatedIDs": [],
       "name": "audience - 1",
-      "baseBpm": 95
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "manzaiBirds/applause2",
-      "duration": 1,
+      "deprecatedIDs": [],
       "name": "audience - 2",
-      "baseBpm": 95
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "manzaiBirds/gameover",
-      "duration": 1,
-      "name": "trapdoor opening"
+      "deprecatedIDs": [],
+      "name": "trapdoor opening",
+      "duration": 1.0
     }
-  ],
-  "patterns": [
   ]
 }

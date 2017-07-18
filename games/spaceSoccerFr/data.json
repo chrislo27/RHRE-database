@@ -1,32 +1,41 @@
 {
-  "gameID": "spaceSoccerFr",
-  "gameName": "Space Soccer (French)",
-  "series": "ds",
-  "cues": [
+  "id": "spaceSoccerFr",
+  "deprecatedIDs": [],
+  "name": "Space Soccer (French)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "spaceSoccerFr/hup",
-      "duration": 1,
-      "name": "hup"
+      "deprecatedIDs": [],
+      "name": "hup",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "spaceSoccerFr/leshuptich1",
-      "duration": 1,
-      "name": "high"
+      "deprecatedIDs": [],
+      "name": "high",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "spaceSoccerFr/leshuptich2",
-      "duration": 0.5,
-      "name": "kick"
+      "deprecatedIDs": [],
+      "name": "kick",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "spaceSoccerFr/leshuptich3",
-      "duration": 1.5,
-      "name": "toe"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "toe",
+      "duration": 1.5
+    },
     {
+      "type": "pattern",
       "id": "spaceSoccerFr_keepup",
+      "deprecatedIDs": [],
       "name": "keep-up",
       "cues": [
         {
@@ -48,7 +57,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "spaceSoccerFr_leshuptich",
+      "deprecatedIDs": [],
       "name": "high kick-toe!",
       "cues": [
         {

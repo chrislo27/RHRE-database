@@ -1,65 +1,61 @@
 {
-  "gameID": "mountainManuever",
-  "gameName": "Mountain Manuever",
-  "priority": -1,
-  "cues": [
+  "id": "mountainManuever",
+  "deprecatedIDs": [],
+  "name": "Mountain Manuever",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "mountainManuever/toot",
-      "duration": 1.0,
+      "deprecatedIDs": [],
       "name": "toot",
-      "canAlterPitch": true
+      "duration": 1.0,
+      "repitchable": true
     },
     {
+      "type": "cue",
       "id": "mountainManuever/cowbell",
-      "duration": 1.0,
-      "name": "cowbell"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "cowbell",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "mountainManuever_twoToots",
+      "deprecatedIDs": [],
       "name": "two toots",
-      "isStretchable": false,
       "cues": [
         {
           "id": "mountainManuever/cowbell",
-          "beat": 0.0,
-          "track": 0
+          "beat": 0.0
         },
         {
           "id": "mountainManuever/cowbell",
-          "beat": 1.0,
-          "track": 0
+          "beat": 1.0
         },
         {
           "id": "mountainManuever/toot",
-          "beat": 2.0,
-          "track": 0,
-          "semitone": 0
+          "beat": 2.0
         },
         {
           "id": "mountainManuever/toot",
-          "beat": 3.0,
-          "track": 0,
-          "semitone": 0
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "mountainManuever_oneToot",
+      "deprecatedIDs": [],
       "name": "one toot",
-      "isStretchable": false,
       "cues": [
         {
           "id": "mountainManuever/cowbell",
-          "beat": 0.0,
-          "track": 0
+          "beat": 0.0
         },
         {
           "id": "mountainManuever/toot",
-          "beat": 1.0,
-          "track": 0,
-          "semitone": 0
+          "beat": 1.0
         }
       ]
     }

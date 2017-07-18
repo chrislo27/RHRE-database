@@ -1,91 +1,101 @@
 {
-  "gameID": "blueBirdsEn",
-  "gameName": "Blue Birds (DS) (English)",
-  "series": "ds",
-  "cues": [
+  "id": "blueBirdsEn",
+  "deprecatedIDs": [],
+  "name": "Blue Birds (DS) (English)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "blueBirdsEn/peckyourbeak1",
       "deprecatedIDs": [
         "blueBirds/peckyourbeak1"
       ],
-      "duration": 0.5,
-      "name": "peck your beak - peck"
+      "name": "peck your beak - peck",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "blueBirdsEn/peckyourbeak2",
       "deprecatedIDs": [
         "blueBirds/peckyourbeak2"
       ],
-      "duration": 0.5,
-      "name": "peck your beak - your"
+      "name": "peck your beak - your",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "blueBirdsEn/peckyourbeak3",
       "deprecatedIDs": [
         "blueBirds/peckyourbeak3"
       ],
-      "duration": 0.5,
-      "name": "peck your beak - beak"
+      "name": "peck your beak - beak",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "blueBirdsEn/peck",
       "deprecatedIDs": [
         "blueBirds/peck"
       ],
-      "duration": 0.5,
-      "name": "peck"
+      "name": "peck",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "blueBirdsEn/stretchoutyourneck1",
       "deprecatedIDs": [
         "blueBirds/stretchoutyourneck1"
       ],
-      "duration": 0.75,
-      "name": "stretch out your neck - stretch"
+      "name": "stretch out your neck - stretch",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "blueBirdsEn/stretchoutyourneck2",
       "deprecatedIDs": [
         "blueBirds/stretchoutyourneck2"
       ],
-      "duration": 0.75,
-      "name": "stretch out your neck - out"
+      "name": "stretch out your neck - out",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "blueBirdsEn/stretchoutyourneck3",
       "deprecatedIDs": [
         "blueBirds/stretchoutyourneck3"
       ],
-      "duration": 0.5,
-      "name": "stretch out your neck - your"
+      "name": "stretch out your neck - your",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "blueBirdsEn/stretchoutyourneck4",
       "deprecatedIDs": [
         "blueBirds/stretchoutyourneck4"
       ],
-      "duration": 1,
-      "name": "stretch out your neck - neck!"
+      "name": "stretch out your neck - neck!",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "blueBirdsEn/stretch1",
       "deprecatedIDs": [
         "blueBirds/stretch1"
       ],
-      "duration": 1,
-      "name": "stretch1"
+      "name": "stretch1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "blueBirdsEn/stretch2",
       "deprecatedIDs": [
         "blueBirds/stretch2"
       ],
-      "duration": 0.5,
-      "name": "stretch2"
-    }
-  ],
-  "patterns": [
+      "name": "stretch2",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "blueBirdsEn_peckyourbeak",
       "deprecatedIDs": [
         "blueBirds_peckyourbeak"
@@ -94,7 +104,7 @@
       "cues": [
         {
           "id": "blueBirdsEn/peckyourbeak1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "blueBirdsEn/peckyourbeak2",
@@ -102,11 +112,11 @@
         },
         {
           "id": "blueBirdsEn/peckyourbeak3",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "blueBirdsEn/peck",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "blueBirdsEn/peck",
@@ -114,11 +124,12 @@
         },
         {
           "id": "blueBirdsEn/peck",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "blueBirdsEn_stretchoutyourneck",
       "deprecatedIDs": [
         "blueBirds_stretchoutyourneck"
@@ -127,7 +138,7 @@
       "cues": [
         {
           "id": "blueBirdsEn/stretchoutyourneck1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "blueBirdsEn/stretchoutyourneck2",
@@ -139,15 +150,15 @@
         },
         {
           "id": "blueBirdsEn/stretchoutyourneck4",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "blueBirdsEn/stretch1",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "blueBirdsEn/stretch2",
-          "beat": 4
+          "beat": 4.0
         }
       ]
     }

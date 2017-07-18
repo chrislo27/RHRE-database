@@ -1,27 +1,34 @@
 {
-  "gameID": "tunnelEs",
-  "gameName": "Tunnel (Spanish)",
-  "series": "side",
-  "cues": [
+  "id": "tunnelEs",
+  "deprecatedIDs": [],
+  "name": "Tunnel (Spanish)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "tunnelEs/uno",
-      "duration": 1,
-      "name": "count in - uno"
+      "deprecatedIDs": [],
+      "name": "count in - uno",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "tunnelEs/dos",
-      "duration": 1,
-      "name": "count in - dos"
+      "deprecatedIDs": [],
+      "name": "count in - dos",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "tunnelEs/cowbell",
-      "duration": 1,
-      "name": "cowbell"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "cowbell",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "tunnelEs_undos",
+      "deprecatedIDs": [],
       "name": "one, two!",
       "cues": [
         {
@@ -35,7 +42,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "tunnelEs_cowbell",
+      "deprecatedIDs": [],
       "name": "cowbell",
       "cues": [
         {

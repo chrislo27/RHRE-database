@@ -1,82 +1,111 @@
 {
-  "gameID": "seesawJa",
-  "gameName": "See-Saw (Japanese)",
-  "series": "fever",
-  "cues": [
+  "id": "seesawJa",
+  "deprecatedIDs": [],
+  "name": "See-Saw (Japanese)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "seesawJa/seeLong1",
-      "duration": 1.0,
-      "name": "see - long - 1"
+      "deprecatedIDs": [],
+      "name": "see - long - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "seesawJa/seeLong2",
-      "duration": 1.0,
-      "name": "see - long - 2"
+      "deprecatedIDs": [],
+      "name": "see - long - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "seesawJa/seeLong2b",
-      "duration": 1.0,
-      "name": "see - long - 2b"
+      "deprecatedIDs": [],
+      "name": "see - long - 2b",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "seesawJa/seeShort1",
-      "duration": 0.5,
-      "name": "see - short - 1"
+      "deprecatedIDs": [],
+      "name": "see - short - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "seesawJa/seeShort2",
-      "duration": 0.5,
-      "name": "see - short - 2"
+      "deprecatedIDs": [],
+      "name": "see - short - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "seesawJa/seeShort2b",
-      "duration": 0.5,
-      "name": "see - short - 2b"
+      "deprecatedIDs": [],
+      "name": "see - short - 2b",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "seesawJa/sawLong1",
-      "duration": 1.0,
-      "name": "saw - long - 1"
+      "deprecatedIDs": [],
+      "name": "saw - long - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "seesawJa/sawLong2",
-      "duration": 1.0,
-      "name": "saw - long - 2a"
+      "deprecatedIDs": [],
+      "name": "saw - long - 2a",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "seesawJa/sawLong2b",
-      "duration": 1.0,
-      "name": "saw - long - 2b"
+      "deprecatedIDs": [],
+      "name": "saw - long - 2b",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "seesawJa/sawShort1",
-      "duration": 0.5,
-      "name": "saw - short - 1"
+      "deprecatedIDs": [],
+      "name": "saw - short - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "seesawJa/sawShort2",
-      "duration": 0.5,
-      "name": "saw - short - 2"
+      "deprecatedIDs": [],
+      "name": "saw - short - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "seesawJa/sawShort2b",
-      "duration": 0.5,
-      "name": "saw - short - 2b"
+      "deprecatedIDs": [],
+      "name": "saw - short - 2b",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "seesawJa/beginning",
-      "duration": 0.5,
-      "name": "beginning jump"
+      "deprecatedIDs": [],
+      "name": "beginning jump",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "seesawJa/explosionEnd",
-      "duration": 2,
-      "name": "explosion end"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "explosion end",
+      "duration": 2.0
+    },
     {
+      "type": "pattern",
       "id": "seesawJa_longLong",
+      "deprecatedIDs": [],
       "name": "long long",
       "cues": [
         {
@@ -98,7 +127,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "seesawJa_longLong2",
+      "deprecatedIDs": [],
       "name": "long long (alternate)",
       "cues": [
         {
@@ -120,7 +151,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "seesawJa_shortShort",
+      "deprecatedIDs": [],
       "name": "short short",
       "cues": [
         {
@@ -142,7 +175,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "seesawJa_shortShort2",
+      "deprecatedIDs": [],
       "name": "short short (alternate)",
       "cues": [
         {
@@ -164,7 +199,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "seesawJa_longShort",
+      "deprecatedIDs": [],
       "name": "long short",
       "cues": [
         {
@@ -186,7 +223,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "seesawJa_longShort2",
+      "deprecatedIDs": [],
       "name": "long short (alternate)",
       "cues": [
         {
@@ -208,7 +247,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "seesawJa_shortLong",
+      "deprecatedIDs": [],
       "name": "short long",
       "cues": [
         {
@@ -230,7 +271,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "seesawJa_shortLong2",
+      "deprecatedIDs": [],
       "name": "short long (alternate)",
       "cues": [
         {

@@ -1,93 +1,106 @@
 {
-  "gameID": "spaceSoccerEn",
-  "gameName": "Space Soccer (English)",
-  "series": "ds",
-  "cues": [
+  "id": "spaceSoccerEn",
+  "deprecatedIDs": [],
+  "name": "Space Soccer (English)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "spaceSoccerEn/thruster",
-      "duration": 1,
-      "name": "thruster"
+      "deprecatedIDs": [],
+      "name": "thruster",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "spaceSoccerEn/blastoff",
-      "duration": 1,
-      "name": "blastoff"
+      "deprecatedIDs": [],
+      "name": "blastoff",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "spaceSoccerEn/kick",
       "deprecatedIDs": [
         "spaceSoccer/kick"
       ],
-      "duration": 1,
-      "name": "kick"
+      "name": "kick",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "spaceSoccerEn/highkicktoe1",
       "deprecatedIDs": [
         "spaceSoccer/highkicklow1"
       ],
-      "duration": 1,
-      "name": "highkick - high"
+      "name": "highkick - high",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "spaceSoccerEn/highkicktoe2",
       "deprecatedIDs": [
         "spaceSoccer/highkicklow2"
       ],
-      "duration": 0.5,
-      "name": "highkick - kick"
+      "name": "highkick - kick",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "spaceSoccerEn/highkicktoe3",
       "deprecatedIDs": [
         "spaceSoccer/highkicklow3"
       ],
-      "duration": 1.5,
-      "name": "highkick - toe"
+      "name": "highkick - toe",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "spaceSoccerEn/dispense1",
       "deprecatedIDs": [
         "spaceSoccer/dispense1"
       ],
-      "duration": 0.75,
-      "name": "dispense - 1"
+      "name": "dispense - 1",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "spaceSoccerEn/dispense2",
       "deprecatedIDs": [
         "spaceSoccer/dispense2"
       ],
-      "duration": 0.25,
-      "name": "dispense - 2"
+      "name": "dispense - 2",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "spaceSoccerEn/dispense3",
       "deprecatedIDs": [
         "spaceSoccer/dispense3"
       ],
-      "duration": 0.25,
-      "name": "dispense - 3"
+      "name": "dispense - 3",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "spaceSoccerEn/dispense4",
       "deprecatedIDs": [
         "spaceSoccer/dispense4"
       ],
-      "duration": 0.25,
-      "name": "dispense - 4"
+      "name": "dispense - 4",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "spaceSoccerEn/dispense5",
       "deprecatedIDs": [
         "spaceSoccer/dispense5"
       ],
-      "duration": 0.5,
-      "name": "dispense - 5"
-    }
-  ],
-  "patterns": [
+      "name": "dispense - 5",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "spaceSoccerEn_dispense",
       "deprecatedIDs": [
         "spaceSoccer_dispense"
@@ -104,7 +117,7 @@
         },
         {
           "id": "spaceSoccerEn/dispense3",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "spaceSoccerEn/dispense4",
@@ -117,6 +130,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "spaceSoccerEn_keepup",
       "deprecatedIDs": [
         "spaceSoccer_keepup"
@@ -142,6 +156,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "spaceSoccerEn_highkicktoe",
       "deprecatedIDs": [
         "spaceSoccer_highkicktoe"

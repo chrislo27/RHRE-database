@@ -1,58 +1,68 @@
 {
-  "gameID": "spaceballMegamix",
-  "gameName": "Spaceball (Megamix)",
-  "series": "megamix",
-  "cues": [
+  "id": "spaceballMegamix",
+  "deprecatedIDs": [],
+  "name": "Spaceball (Megamix)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "spaceballMegamix/alien",
       "deprecatedIDs": [
         "spaceball/alien"
       ],
-      "duration": 5,
-      "name": "AAAAHHHHHH"
+      "name": "AAAAHHHHHH",
+      "duration": 5.0
     },
     {
+      "type": "cue",
       "id": "spaceballMegamix/shoot",
-      "duration": 1,
-      "name": "shoot"
+      "deprecatedIDs": [],
+      "name": "shoot",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "spaceballMegamix/longShoot",
-      "duration": 1,
-      "name": "high shot"
+      "deprecatedIDs": [],
+      "name": "high shot",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "spaceballMegamix/hit",
-      "duration": 1,
-      "name": "hit"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "hit",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "spaceballMegamix_ball",
+      "deprecatedIDs": [],
       "name": "ball",
       "cues": [
         {
           "id": "spaceballMegamix/shoot",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "spaceballMegamix/hit",
-          "beat": 1
+          "beat": 1.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "spaceballMegamix_highball",
+      "deprecatedIDs": [],
       "name": "high ball",
       "cues": [
         {
           "id": "spaceballMegamix/longShoot",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "spaceballMegamix/hit",
-          "beat": 2
+          "beat": 2.0
         }
       ]
     }

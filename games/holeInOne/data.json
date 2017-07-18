@@ -1,72 +1,97 @@
 {
-  "gameID": "holeInOne",
-  "gameName": "Hole in One",
-  "series": "fever",
-  "cues": [
+  "id": "holeInOne",
+  "deprecatedIDs": [],
+  "name": "Hole in One",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "holeInOne/hole1",
-      "duration": 1.0,
-      "name": "hole - 1"
+      "deprecatedIDs": [],
+      "name": "hole - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "holeInOne/hole2",
-      "duration": 1.0,
-      "name": "hole - 2"
+      "deprecatedIDs": [],
+      "name": "hole - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "holeInOne/hole3",
-      "duration": 1.0,
-      "name": "hole - 3"
+      "deprecatedIDs": [],
+      "name": "hole - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "holeInOne/hole4",
-      "duration": 1.0,
-      "name": "hole - 4"
+      "deprecatedIDs": [],
+      "name": "hole - 4",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "holeInOne/whale",
-      "duration": 1.0,
-      "name": "whale - practice"
+      "deprecatedIDs": [],
+      "name": "whale - practice",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "holeInOne/monkey1",
-      "duration": 1.0,
-      "name": "monkey - 1"
+      "deprecatedIDs": [],
+      "name": "monkey - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "holeInOne/monkey2",
-      "duration": 1.0,
-      "name": "monkey - 2"
+      "deprecatedIDs": [],
+      "name": "monkey - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "holeInOne/monkey3",
-      "duration": 1.0,
-      "name": "monkey - 3"
+      "deprecatedIDs": [],
+      "name": "monkey - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "holeInOne/mandrill1",
-      "duration": 1.0,
-      "name": "mandrill - 1"
+      "deprecatedIDs": [],
+      "name": "mandrill - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "holeInOne/mandrill2",
-      "duration": 1.0,
-      "name": "mandrill - 2"
+      "deprecatedIDs": [],
+      "name": "mandrill - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "holeInOne/mandrill3",
-      "duration": 1.0,
-      "name": "mandrill - 3"
+      "deprecatedIDs": [],
+      "name": "mandrill - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "holeInOne/mandrill4",
-      "duration": 2.0,
-      "name": "mandrill - 4"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "mandrill - 4",
+      "duration": 2.0
+    },
     {
+      "type": "pattern",
       "id": "holeInOne_monkey",
+      "deprecatedIDs": [],
       "name": "monkey",
       "cues": [
         {
@@ -84,7 +109,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "holeInOne_mandrill",
+      "deprecatedIDs": [],
       "name": "mandrill",
       "cues": [
         {
@@ -106,7 +133,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "holeInOne_monkeyShort",
+      "deprecatedIDs": [],
       "name": "monkey - short",
       "cues": [
         {
@@ -120,7 +149,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "holeInOne_mandrillShort",
+      "deprecatedIDs": [],
       "name": "mandrill - short",
       "cues": [
         {

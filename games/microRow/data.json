@@ -1,47 +1,62 @@
 {
-  "gameID": "microRow",
-  "gameName": "Micro-Row",
-  "series": "fever",
-  "cues": [
+  "id": "microRow",
+  "deprecatedIDs": [],
+  "name": "Micro-Row",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "microRow/go",
-      "duration": 0.5,
-      "name": "go"
+      "deprecatedIDs": [],
+      "name": "go",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "microRow/ding",
-      "duration": 1,
-      "name": "ding"
+      "deprecatedIDs": [],
+      "name": "ding",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "microRow/triple1",
-      "duration": 1,
-      "name": "triple - 1"
+      "deprecatedIDs": [],
+      "name": "triple - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "microRow/triple2",
-      "duration": 1,
-      "name": "triple - 2"
+      "deprecatedIDs": [],
+      "name": "triple - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "microRow/triple3",
-      "duration": 1,
-      "name": "triple - 3"
+      "deprecatedIDs": [],
+      "name": "triple - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "microRow/dash1",
-      "duration": 0.5,
-      "name": "double - 1"
+      "deprecatedIDs": [],
+      "name": "double - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "microRow/dash2",
-      "duration": 0.5,
-      "name": "double - 2"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "double - 2",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "microRow_go",
+      "deprecatedIDs": [],
       "name": "go",
       "cues": [
         {
@@ -55,7 +70,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "microRow_triple",
+      "deprecatedIDs": [],
       "name": "triple",
       "cues": [
         {
@@ -77,7 +94,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "microRow_double",
+      "deprecatedIDs": [],
       "name": "double",
       "cues": [
         {
@@ -94,7 +113,7 @@
         },
         {
           "id": "microRow/go",
-          "beat": 2
+          "beat": 2.0
         }
       ]
     }

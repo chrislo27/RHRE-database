@@ -1,470 +1,624 @@
 {
-  "gameID": "cheerReaders",
-  "gameName": "Cheer Readers",
-  "series": "fever",
-  "cues": [
+  "id": "cheerReaders",
+  "deprecatedIDs": [],
+  "name": "Cheer Readers",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "cheerReaders/yay",
-      "duration": 1,
-      "name": "yay!"
+      "deprecatedIDs": [],
+      "name": "yay!",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/yayS",
-      "duration": 1,
-      "name": "yay! - solo"
+      "deprecatedIDs": [],
+      "name": "yay! - solo",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/oneTwoThree1",
-      "duration": 1,
-      "name": "one two three - 1"
+      "deprecatedIDs": [],
+      "name": "one two three - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/oneTwoThree2",
-      "duration": 1,
-      "name": "one two three - 2"
+      "deprecatedIDs": [],
+      "name": "one two three - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/oneTwoThree3",
-      "duration": 1,
-      "name": "one two three - 3"
+      "deprecatedIDs": [],
+      "name": "one two three - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/oneTwoThreeS1",
-      "duration": 1,
-      "name": "one two three - solo - 1"
+      "deprecatedIDs": [],
+      "name": "one two three - solo - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/oneTwoThreeS2",
-      "duration": 1,
-      "name": "one two three - solo - 2"
+      "deprecatedIDs": [],
+      "name": "one two three - solo - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/oneTwoThreeS3",
-      "duration": 1,
-      "name": "one two three - solo - 3"
+      "deprecatedIDs": [],
+      "name": "one two three - solo - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/itsUpToYou1",
-      "duration": 0.75,
-      "name": "it's up to you - 1"
+      "deprecatedIDs": [],
+      "name": "it's up to you - 1",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "cheerReaders/itsUpToYou2",
-      "duration": 0.75,
-      "name": "it's up to you - 2"
+      "deprecatedIDs": [],
+      "name": "it's up to you - 2",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "cheerReaders/itsUpToYou3",
-      "duration": 0.5,
-      "name": "it's up to you - 3"
+      "deprecatedIDs": [],
+      "name": "it's up to you - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "cheerReaders/itsUpToYou4",
-      "duration": 1,
-      "name": "it's up to you - 4"
+      "deprecatedIDs": [],
+      "name": "it's up to you - 4",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/itsUpToYouS1",
-      "duration": 0.75,
-      "name": "it's up to you - solo -  1"
+      "deprecatedIDs": [],
+      "name": "it's up to you - solo -  1",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "cheerReaders/itsUpToYouS2",
-      "duration": 0.75,
-      "name": "it's up to you - solo - 2"
+      "deprecatedIDs": [],
+      "name": "it's up to you - solo - 2",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "cheerReaders/itsUpToYouS3",
-      "duration": 0.5,
-      "name": "it's up to you - solo - 3"
+      "deprecatedIDs": [],
+      "name": "it's up to you - solo - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "cheerReaders/itsUpToYouS4",
-      "duration": 1,
-      "name": "it's up to you - solo - 4"
+      "deprecatedIDs": [],
+      "name": "it's up to you - solo - 4",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/rahRahSisBoomBaBoom1",
-      "duration": 0.5,
-      "name": "rah rah sis boom ba boom - 1"
+      "deprecatedIDs": [],
+      "name": "rah rah sis boom ba boom - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "cheerReaders/rahRahSisBoomBaBoom2",
-      "duration": 0.375,
-      "name": "rah rah sis boom ba boom - 2"
+      "deprecatedIDs": [],
+      "name": "rah rah sis boom ba boom - 2",
+      "duration": 0.375
     },
     {
+      "type": "cue",
       "id": "cheerReaders/rahRahSisBoomBaBoom3",
-      "duration": 0.5,
-      "name": "rah rah sis boom ba boom - 3"
+      "deprecatedIDs": [],
+      "name": "rah rah sis boom ba boom - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "cheerReaders/rahRahSisBoomBaBoom4",
-      "duration": 0.375,
-      "name": "rah rah sis boom ba boom - 4"
+      "deprecatedIDs": [],
+      "name": "rah rah sis boom ba boom - 4",
+      "duration": 0.375
     },
     {
+      "type": "cue",
       "id": "cheerReaders/rahRahSisBoomBaBoom5",
-      "duration": 0.5,
-      "name": "rah rah sis boom ba boom - 5"
+      "deprecatedIDs": [],
+      "name": "rah rah sis boom ba boom - 5",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "cheerReaders/rahRahSisBoomBaBoom6",
-      "duration": 1.5,
-      "name": "rah rah sis boom ba boom - 6"
+      "deprecatedIDs": [],
+      "name": "rah rah sis boom ba boom - 6",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "cheerReaders/rahRahSisBoomBaBoomS1",
-      "duration": 0.5,
-      "name": "rah rah sis boom ba boom - solo - 1"
+      "deprecatedIDs": [],
+      "name": "rah rah sis boom ba boom - solo - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "cheerReaders/rahRahSisBoomBaBoomS2",
-      "duration": 0.375,
-      "name": "rah rah sis boom ba boom - solo - 2"
+      "deprecatedIDs": [],
+      "name": "rah rah sis boom ba boom - solo - 2",
+      "duration": 0.375
     },
     {
+      "type": "cue",
       "id": "cheerReaders/rahRahSisBoomBaBoomS3",
-      "duration": 0.5,
-      "name": "rah rah sis boom ba boom - solo - 3"
+      "deprecatedIDs": [],
+      "name": "rah rah sis boom ba boom - solo - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "cheerReaders/rahRahSisBoomBaBoomS4",
-      "duration": 0.375,
-      "name": "rah rah sis boom ba boom - solo - 4"
+      "deprecatedIDs": [],
+      "name": "rah rah sis boom ba boom - solo - 4",
+      "duration": 0.375
     },
     {
+      "type": "cue",
       "id": "cheerReaders/rahRahSisBoomBaBoomS5",
-      "duration": 0.5,
-      "name": "rah rah sis boom ba boom - solo - 5"
+      "deprecatedIDs": [],
+      "name": "rah rah sis boom ba boom - solo - 5",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "cheerReaders/rahRahSisBoomBaBoomS6",
-      "duration": 1.5,
-      "name": "rah rah sis boom ba boom - solo - 6"
+      "deprecatedIDs": [],
+      "name": "rah rah sis boom ba boom - solo - 6",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "cheerReaders/rahRahSisBoomBaBoomgirls1",
-      "duration": 0.5,
-      "name": "rah rah sis boom ba boom - girls - 1"
+      "deprecatedIDs": [],
+      "name": "rah rah sis boom ba boom - girls - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "cheerReaders/rahRahSisBoomBaBoomgirls2",
-      "duration": 0.375,
-      "name": "rah rah sis boom ba boom - girls - 2"
+      "deprecatedIDs": [],
+      "name": "rah rah sis boom ba boom - girls - 2",
+      "duration": 0.375
     },
     {
+      "type": "cue",
       "id": "cheerReaders/rahRahSisBoomBaBoomgirls3",
-      "duration": 0.5,
-      "name": "rah rah sis boom ba boom - girls - 3"
+      "deprecatedIDs": [],
+      "name": "rah rah sis boom ba boom - girls - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "cheerReaders/rahRahSisBoomBaBoomgirls4",
-      "duration": 0.375,
-      "name": "rah rah sis boom ba boom - girls - 4"
+      "deprecatedIDs": [],
+      "name": "rah rah sis boom ba boom - girls - 4",
+      "duration": 0.375
     },
     {
+      "type": "cue",
       "id": "cheerReaders/rahRahSisBoomBaBoomgirls5",
-      "duration": 0.5,
-      "name": "rah rah sis boom ba boom - girls - 5"
+      "deprecatedIDs": [],
+      "name": "rah rah sis boom ba boom - girls - 5",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "cheerReaders/rahRahSisBoomBaBoomgirls6",
-      "duration": 1.5,
-      "name": "rah rah sis boom ba boom - girls - 6"
+      "deprecatedIDs": [],
+      "name": "rah rah sis boom ba boom - girls - 6",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "cheerReaders/okItsOn1",
-      "duration": 1,
-      "name": "ok it's on! - 1"
+      "deprecatedIDs": [],
+      "name": "ok it's on! - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/okItsOn2",
-      "duration": 1,
-      "name": "ok it's on! - 2"
+      "deprecatedIDs": [],
+      "name": "ok it's on! - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/okItsOn3",
-      "duration": 0.000001
+      "deprecatedIDs": [],
+      "name": "cheerReaders/okItsOn3",
+      "duration": 1.0E-6
     },
     {
+      "type": "cue",
       "id": "cheerReaders/okItsOn3Loop",
-      "duration": 1,
+      "deprecatedIDs": [],
       "name": "ok it's on! - 3",
-      "introSound": "cheerReaders/okItsOn3",
-      "canAlterDuration": false,
-      "loops": true
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/okItsOn3LoopL",
-      "duration": 4,
+      "deprecatedIDs": [],
       "name": "ok it's on! - 3 - long",
-      "introSound": "cheerReaders/okItsOn3",
-      "canAlterDuration": false,
-      "loops": true
+      "duration": 4.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/okItsOn4",
-      "duration": 1,
-      "name": "ok it's on! - 4"
+      "deprecatedIDs": [],
+      "name": "ok it's on! - 4",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/okItsOnS1",
-      "duration": 1,
-      "name": "ok it's on! - solo - 1"
+      "deprecatedIDs": [],
+      "name": "ok it's on! - solo - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/okItsOnS2",
-      "duration": 1,
-      "name": "ok it's on! - solo - 2"
+      "deprecatedIDs": [],
+      "name": "ok it's on! - solo - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/okItsOnS3",
-      "duration": 0.000001
+      "deprecatedIDs": [],
+      "name": "cheerReaders/okItsOnS3",
+      "duration": 1.0E-6
     },
     {
+      "type": "cue",
       "id": "cheerReaders/okItsOnS3Loop",
-      "duration": 1,
+      "deprecatedIDs": [],
       "name": "ok it's on! - solo - 3",
-      "introSound": "cheerReaders/okItsOn3",
-      "canAlterDuration": false,
-      "loops": true
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/okItsOnS4",
-      "duration": 1,
-      "name": "ok it's on! - solo - 4"
+      "deprecatedIDs": [],
+      "name": "ok it's on! - solo - 4",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/okItsOngirls1",
-      "duration": 1,
-      "name": "ok it's on! - girls - 1"
+      "deprecatedIDs": [],
+      "name": "ok it's on! - girls - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/okItsOngirls2",
-      "duration": 1,
-      "name": "ok it's on! - girls - 2"
+      "deprecatedIDs": [],
+      "name": "ok it's on! - girls - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/okItsOngirls3",
-      "duration": 0.000001
+      "deprecatedIDs": [],
+      "name": "cheerReaders/okItsOngirls3",
+      "duration": 1.0E-6
     },
     {
+      "type": "cue",
       "id": "cheerReaders/okItsOngirls3Loop",
-      "duration": 1,
+      "deprecatedIDs": [],
       "name": "ok it's on! - girls - 3",
-      "introSound": "cheerReaders/okItsOn3",
-      "canAlterDuration": false,
-      "loops": true
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/okItsOngirls4",
-      "duration": 1,
-      "name": "ok it's on! - girls - 4"
+      "deprecatedIDs": [],
+      "name": "ok it's on! - girls - 4",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooks1",
-      "duration": 0.75,
-      "name": "let's go read a buncha books - 1"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - 1",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooks2",
-      "duration": 0.25,
-      "name": "let's go read a buncha books - 2"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - 2",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooks3",
-      "duration": 0.25,
-      "name": "let's go read a buncha books - 3"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - 3",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooks4",
-      "duration": 0.25,
-      "name": "let's go read a buncha books - 4"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - 4",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooks5",
-      "duration": 0.25,
-      "name": "let's go read a buncha books - 5"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - 5",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooks6",
-      "duration": 0.25,
-      "name": "let's go read a buncha books - 6"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - 6",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooks7",
-      "duration": 1,
-      "name": "let's go read a buncha books - 7"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - 7",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooksS1",
-      "duration": 0.75,
-      "name": "let's go read a buncha books - solo - 1"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - solo - 1",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooksS2",
-      "duration": 0.25,
-      "name": "let's go read a buncha books - solo - 2"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - solo - 2",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooksS3",
-      "duration": 0.25,
-      "name": "let's go read a buncha books - solo - 3"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - solo - 3",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooksS4",
-      "duration": 0.25,
-      "name": "let's go read a buncha books - solo - 4"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - solo - 4",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooksS5",
-      "duration": 0.25,
-      "name": "let's go read a buncha books - solo - 5"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - solo - 5",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooksS6",
-      "duration": 0.25,
-      "name": "let's go read a buncha books - solo - 6"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - solo - 6",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooksS7",
-      "duration": 1,
-      "name": "let's go read a buncha books - solo - 7"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - solo - 7",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooksgirls1",
-      "duration": 0.75,
-      "name": "let's go read a buncha books - girls - 1"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - girls - 1",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooksgirls2",
-      "duration": 0.25,
-      "name": "let's go read a buncha books - girls - 2"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - girls - 2",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooksgirls3",
-      "duration": 0.25,
-      "name": "let's go read a buncha books - girls - 3"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - girls - 3",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooksgirls4",
-      "duration": 0.25,
-      "name": "let's go read a buncha books - girls - 4"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - girls - 4",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooksgirls5",
-      "duration": 0.25,
-      "name": "let's go read a buncha books - girls - 5"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - girls - 5",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooksgirls6",
-      "duration": 0.25,
-      "name": "let's go read a buncha books - girls - 6"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - girls - 6",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "cheerReaders/bunchaBooksgirls7",
-      "duration": 1,
-      "name": "let's go read a buncha books - girls - 7"
+      "deprecatedIDs": [],
+      "name": "let's go read a buncha books - girls - 7",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/onegirls",
-      "duration": 1,
-      "name": "one two three (girls) - 1"
+      "deprecatedIDs": [],
+      "name": "one two three (girls) - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/twogirls",
-      "duration": 1,
-      "name": "one two three (girls) - 2"
+      "deprecatedIDs": [],
+      "name": "one two three (girls) - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/threegirls",
-      "duration": 1,
-      "name": "one two three (girls) - 3"
+      "deprecatedIDs": [],
+      "name": "one two three (girls) - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cheerReaders/itsgirls",
-      "duration": 0.75,
-      "name": "it's up to you! (girls) - it's"
+      "deprecatedIDs": [],
+      "name": "it's up to you! (girls) - it's",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "cheerReaders/upgirls",
-      "duration": 0.75,
-      "name": "it's up to you! (girls) - up"
+      "deprecatedIDs": [],
+      "name": "it's up to you! (girls) - up",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "cheerReaders/togirls",
-      "duration": 0.5,
-      "name": "it's up to you! (girls) - to"
+      "deprecatedIDs": [],
+      "name": "it's up to you! (girls) - to",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "cheerReaders/yougirls",
-      "duration": 1,
-      "name": "it's up to you! (girls) - you!"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "it's up to you! (girls) - you!",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "cheerReaders_oneTwoThree",
+      "deprecatedIDs": [],
       "name": "one two three!",
       "cues": [
         {
           "id": "cheerReaders/oneTwoThree1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "cheerReaders/oneTwoThree2",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "cheerReaders/oneTwoThree3",
-          "beat": 2
+          "beat": 2.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "cheerReaders_oneTwoThreeS",
+      "deprecatedIDs": [],
       "name": "one two three! - solo",
       "cues": [
         {
           "id": "cheerReaders/oneTwoThreeS1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "cheerReaders/oneTwoThreeS2",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "cheerReaders/oneTwoThreeS3",
-          "beat": 2
+          "beat": 2.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "cheerReaders_oneTwoThreeGirls",
+      "deprecatedIDs": [],
       "name": "one two three! - girls",
       "cues": [
         {
           "id": "cheerReaders/onegirls",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "cheerReaders/twogirls",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "cheerReaders/threegirls",
-          "beat": 2
+          "beat": 2.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "cheerReaders_itsUpToYou",
+      "deprecatedIDs": [],
       "name": "it's up to you!",
       "cues": [
         {
           "id": "cheerReaders/itsUpToYou1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "cheerReaders/itsUpToYou2",
@@ -476,17 +630,19 @@
         },
         {
           "id": "cheerReaders/itsUpToYou4",
-          "beat": 2
+          "beat": 2.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "cheerReaders_itsUpToYouS",
+      "deprecatedIDs": [],
       "name": "it's up to you! - solo",
       "cues": [
         {
           "id": "cheerReaders/itsUpToYouS1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "cheerReaders/itsUpToYouS2",
@@ -498,17 +654,19 @@
         },
         {
           "id": "cheerReaders/itsUpToYouS4",
-          "beat": 2
+          "beat": 2.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "cheerReaders_itsUpToYouGirls",
+      "deprecatedIDs": [],
       "name": "it's up to you! - girls",
       "cues": [
         {
           "id": "cheerReaders/itsgirls",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "cheerReaders/upgirls",
@@ -520,17 +678,19 @@
         },
         {
           "id": "cheerReaders/yougirls",
-          "beat": 2
+          "beat": 2.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "cheerReaders_rahRahSisBoomBaBoom",
+      "deprecatedIDs": [],
       "name": "rah rah sis boom ba boom!",
       "cues": [
         {
           "id": "cheerReaders/rahRahSisBoomBaBoom1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoom2",
@@ -538,7 +698,7 @@
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoom3",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoom4",
@@ -546,7 +706,7 @@
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoom5",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoom6",
@@ -555,12 +715,14 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "cheerReaders_rahRahSisBoomBaBoomS",
+      "deprecatedIDs": [],
       "name": "rah rah sis boom ba boom! - solo",
       "cues": [
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomS1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomS2",
@@ -568,7 +730,7 @@
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomS3",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomS4",
@@ -576,7 +738,7 @@
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomS5",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomS6",
@@ -585,12 +747,14 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "cheerReaders_rahRahSisBoomBaBoomgirls",
+      "deprecatedIDs": [],
       "name": "rah rah sis boom ba boom! - girls",
       "cues": [
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomgirls1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomgirls2",
@@ -598,7 +762,7 @@
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomgirls3",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomgirls4",
@@ -606,7 +770,7 @@
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomgirls5",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomgirls6",
@@ -615,12 +779,14 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "cheerReaders_rahRahSisBoomBaBoomSwing",
+      "deprecatedIDs": [],
       "name": "rah rah sis boom ba boom! (swing)",
       "cues": [
         {
           "id": "cheerReaders/rahRahSisBoomBaBoom1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoom2",
@@ -628,7 +794,7 @@
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoom3",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoom4",
@@ -636,7 +802,7 @@
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoom5",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoom6",
@@ -645,12 +811,14 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "cheerReaders_rahRahSisBoomBaBoomSSwing",
+      "deprecatedIDs": [],
       "name": "rah rah sis boom ba boom! - solo (swing)",
       "cues": [
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomS1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomS2",
@@ -658,7 +826,7 @@
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomS3",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomS4",
@@ -666,7 +834,7 @@
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomS5",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomS6",
@@ -675,12 +843,14 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "cheerReaders_rahRahSisBoomBaBoomgirlsSwing",
+      "deprecatedIDs": [],
       "name": "rah rah sis boom ba boom! - girls (swing)",
       "cues": [
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomgirls1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomgirls2",
@@ -688,7 +858,7 @@
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomgirls3",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomgirls4",
@@ -696,7 +866,7 @@
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomgirls5",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "cheerReaders/rahRahSisBoomBaBoomgirls6",
@@ -705,100 +875,110 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "cheerReaders_okItsOn",
+      "deprecatedIDs": [],
       "name": "ok it's on!",
       "cues": [
         {
           "id": "cheerReaders/okItsOn1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "cheerReaders/okItsOn2",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "cheerReaders/okItsOn3Loop",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "cheerReaders/okItsOn4",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "cheerReaders_okItsOnS",
+      "deprecatedIDs": [],
       "name": "ok it's on! - solo",
       "cues": [
         {
           "id": "cheerReaders/okItsOnS1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "cheerReaders/okItsOnS2",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "cheerReaders/okItsOnS3Loop",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "cheerReaders/okItsOnS4",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "cheerReaders_okItsOnGirls",
+      "deprecatedIDs": [],
       "name": "ok it's on! - girls",
       "cues": [
         {
           "id": "cheerReaders/okItsOngirls1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "cheerReaders/okItsOngirls2",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "cheerReaders/okItsOngirls3Loop",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "cheerReaders/okItsOngirls4",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "cheerReaders_okItsOnLong",
+      "deprecatedIDs": [],
       "name": "ok it's on! - long",
       "cues": [
         {
           "id": "cheerReaders/okItsOn1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "cheerReaders/okItsOn2",
-          "beat": 4
+          "beat": 4.0
         },
         {
           "id": "cheerReaders/okItsOn3LoopL",
-          "beat": 8
+          "beat": 8.0
         },
         {
           "id": "cheerReaders/okItsOn4",
-          "beat": 12
+          "beat": 12.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "cheerReaders_bunchaBooks",
+      "deprecatedIDs": [],
       "name": "let's go read a buncha books!",
       "cues": [
         {
           "id": "cheerReaders/bunchaBooks1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "cheerReaders/bunchaBooks2",
@@ -806,7 +986,7 @@
         },
         {
           "id": "cheerReaders/bunchaBooks3",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "cheerReaders/bunchaBooks4",
@@ -822,17 +1002,19 @@
         },
         {
           "id": "cheerReaders/bunchaBooks7",
-          "beat": 2
+          "beat": 2.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "cheerReaders_bunchaBooksS",
+      "deprecatedIDs": [],
       "name": "let's go read a buncha books! - solo",
       "cues": [
         {
           "id": "cheerReaders/bunchaBooksS1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "cheerReaders/bunchaBooksS2",
@@ -840,7 +1022,7 @@
         },
         {
           "id": "cheerReaders/bunchaBooksS3",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "cheerReaders/bunchaBooksS4",
@@ -856,17 +1038,19 @@
         },
         {
           "id": "cheerReaders/bunchaBooksS7",
-          "beat": 2
+          "beat": 2.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "cheerReaders_bunchaBooksGirls",
+      "deprecatedIDs": [],
       "name": "let's go read a buncha books! - girls",
       "cues": [
         {
           "id": "cheerReaders/bunchaBooksgirls1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "cheerReaders/bunchaBooksgirls2",
@@ -874,7 +1058,7 @@
         },
         {
           "id": "cheerReaders/bunchaBooksgirls3",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "cheerReaders/bunchaBooksgirls4",
@@ -890,7 +1074,7 @@
         },
         {
           "id": "cheerReaders/bunchaBooksgirls7",
-          "beat": 2
+          "beat": 2.0
         }
       ]
     }

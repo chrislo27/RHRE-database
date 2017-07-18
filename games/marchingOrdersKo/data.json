@@ -1,102 +1,139 @@
 {
-  "gameID": "marchingOrdersKo",
-  "gameName": "Marching Orders (Megamix) (Korean)",
-  "series": "megamix",
-  "cues": [
+  "id": "marchingOrdersKo",
+  "deprecatedIDs": [],
+  "name": "Marching Orders (Megamix) (Korean)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "marchingOrdersKo/attention1",
-      "duration": 0.5,
-      "name": "general - attention 1"
+      "deprecatedIDs": [],
+      "name": "general - attention 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "marchingOrdersKo/attention2",
-      "duration": 1.5,
-      "name": "general - attention 2"
+      "deprecatedIDs": [],
+      "name": "general - attention 2",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "marchingOrdersKo/march1",
-      "duration": 0.5,
-      "name": "general - march 1"
+      "deprecatedIDs": [],
+      "name": "general - march 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "marchingOrdersKo/march2",
-      "duration": 0.5,
-      "name": "general - march 2"
+      "deprecatedIDs": [],
+      "name": "general - march 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "marchingOrdersKo/march3",
-      "duration": 1,
-      "name": "cadets - start marching"
+      "deprecatedIDs": [],
+      "name": "cadets - start marching",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "marchingOrdersKo/step1",
-      "duration": 1,
-      "name": "cadets - left step"
+      "deprecatedIDs": [],
+      "name": "cadets - left step",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "marchingOrdersKo/step2",
-      "duration": 1,
-      "name": "cadets - right step"
+      "deprecatedIDs": [],
+      "name": "cadets - right step",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "marchingOrdersKo/halt1",
-      "duration": 0.25,
-      "name": "general - halt 1"
+      "deprecatedIDs": [],
+      "name": "general - halt 1",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "marchingOrdersKo/halt2",
-      "duration": 0.75,
-      "name": "general - halt 2"
+      "deprecatedIDs": [],
+      "name": "general - halt 2",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "marchingOrdersKo/halt3",
-      "duration": 1,
-      "name": "cadets - stop marching"
+      "deprecatedIDs": [],
+      "name": "cadets - stop marching",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "marchingOrdersKo/leftFaceTurn1",
-      "duration": 0.5,
-      "name": "general - left face turn 1"
+      "deprecatedIDs": [],
+      "name": "general - left face turn 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "marchingOrdersKo/leftFaceTurn2",
-      "duration": 1.5,
-      "name": "general - left face turn 2"
+      "deprecatedIDs": [],
+      "name": "general - left face turn 2",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "marchingOrdersKo/leftFaceTurn3",
-      "duration": 1,
-      "name": "general - left face turn 3"
+      "deprecatedIDs": [],
+      "name": "general - left face turn 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "marchingOrdersKo/leftFaceTurn4",
-      "duration": 1,
-      "name": "cadets - left face turn"
+      "deprecatedIDs": [],
+      "name": "cadets - left face turn",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "marchingOrdersKo/rightFaceTurn1",
-      "duration": 0.5,
-      "name": "general - right face turn 1"
+      "deprecatedIDs": [],
+      "name": "general - right face turn 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "marchingOrdersKo/rightFaceTurn2",
-      "duration": 1.5,
-      "name": "general - right face turn 2"
+      "deprecatedIDs": [],
+      "name": "general - right face turn 2",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "marchingOrdersKo/rightFaceTurn3",
-      "duration": 1,
-      "name": "general - right face turn 3"
+      "deprecatedIDs": [],
+      "name": "general - right face turn 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "marchingOrdersKo/rightFaceTurn4",
-      "duration": 1,
-      "name": "cadets - right face turn"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "cadets - right face turn",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "marchingOrdersKo_attentionMarch",
+      "deprecatedIDs": [],
       "name": "attention... march!",
       "cues": [
         {
@@ -122,7 +159,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "marchingOrdersKo_marching",
+      "deprecatedIDs": [],
       "name": "marching",
       "cues": [
         {
@@ -144,7 +183,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "marchingOrdersKo_attentionHalt",
+      "deprecatedIDs": [],
       "name": "attention... halt!",
       "cues": [
         {
@@ -170,7 +211,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "marchingOrdersKo_leftFaceTurn",
+      "deprecatedIDs": [],
       "name": "left face turn",
       "cues": [
         {
@@ -192,7 +235,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "marchingOrdersKo_rightFaceTurn",
+      "deprecatedIDs": [],
       "name": "right face turn",
       "cues": [
         {

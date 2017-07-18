@@ -1,51 +1,56 @@
 {
-  "gameID": "mrUpbeatWii",
-  "gameName": "Mr. Upbeat (Fever)",
-  "series": "side",
-  "cues": [
+  "id": "mrUpbeatWii",
+  "deprecatedIDs": [],
+  "name": "Mr. Upbeat (Fever)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "mrUpbeatWii/bip",
       "deprecatedIDs": [
         "mrUpbeat/bip"
       ],
-      "duration": 0.5,
-      "name": "count in - bip"
+      "name": "count in - bip",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "mrUpbeatWii/metroL",
       "deprecatedIDs": [
         "mrUpbeat/metroL"
       ],
-      "duration": 0.5,
-      "name": "metronome - left"
+      "name": "metronome - left",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "mrUpbeatWii/metroR",
       "deprecatedIDs": [
         "mrUpbeat/metroR"
       ],
-      "duration": 0.5,
-      "name": "metronome - right"
+      "name": "metronome - right",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "mrUpbeatWii/step",
       "deprecatedIDs": [
         "mrUpbeat/step"
       ],
-      "duration": 0.5,
-      "name": "upbeat - step"
+      "name": "upbeat - step",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "mrUpbeatWii/applause",
       "deprecatedIDs": [
         "mrUpbeat/applause"
       ],
-      "duration": 0.5,
-      "name": "ding and applause"
-    }
-  ],
-  "patterns": [
+      "name": "ding and applause",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "mrUpbeatWii_countIn",
       "deprecatedIDs": [
         "mrUpbeat_countIn"
@@ -71,6 +76,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "mrUpbeatWii_pattern",
       "deprecatedIDs": [
         "mrUpbeat_pattern"

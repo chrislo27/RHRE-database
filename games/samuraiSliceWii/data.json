@@ -1,112 +1,153 @@
 {
-  "gameID": "samuraiSliceWii",
-  "gameName": "Samurai Slice (Fever)",
-  "series": "fever",
-  "cues": [
+  "id": "samuraiSliceWii",
+  "deprecatedIDs": [],
+  "name": "Samurai Slice (Fever)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "samuraiSliceWii/slice",
-      "duration": 0.5,
-      "name": "samurai - slice"
+      "deprecatedIDs": [],
+      "name": "samurai - slice",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "samuraiSliceWii/sliceDouble",
-      "duration": 0.5,
-      "name": "samurai - second slice"
+      "deprecatedIDs": [],
+      "name": "samurai - second slice",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "samuraiSliceWii/demonSmall1",
-      "duration": 0.5,
-      "name": "demon - small - 1"
+      "deprecatedIDs": [],
+      "name": "demon - small - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "samuraiSliceWii/demonSmall2",
-      "duration": 0.5,
-      "name": "demon - small - 2"
+      "deprecatedIDs": [],
+      "name": "demon - small - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "samuraiSliceWii/demonSmall3",
-      "duration": 0.5,
-      "name": "demon - small - 3"
+      "deprecatedIDs": [],
+      "name": "demon - small - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "samuraiSliceWii/demonMedium1",
-      "duration": 0.5,
-      "name": "demon - medium - 1"
+      "deprecatedIDs": [],
+      "name": "demon - medium - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "samuraiSliceWii/demonMedium2",
-      "duration": 0.5,
-      "name": "demon - medium - 2"
+      "deprecatedIDs": [],
+      "name": "demon - medium - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "samuraiSliceWii/demonMedium3",
-      "duration": 0.5,
-      "name": "demon - medium - 3"
+      "deprecatedIDs": [],
+      "name": "demon - medium - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "samuraiSliceWii/demonBig1",
-      "duration": 0.5,
-      "name": "demon - big - 1"
+      "deprecatedIDs": [],
+      "name": "demon - big - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "samuraiSliceWii/demonBig2",
-      "duration": 0.5,
-      "name": "demon - big - 2"
+      "deprecatedIDs": [],
+      "name": "demon - big - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "samuraiSliceWii/demonBig3",
-      "duration": 0.5,
-      "name": "demon - big - 3"
+      "deprecatedIDs": [],
+      "name": "demon - big - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "samuraiSliceWii/demonHuge1",
-      "duration": 0.5,
-      "name": "demon - huge - 1"
+      "deprecatedIDs": [],
+      "name": "demon - huge - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "samuraiSliceWii/demonHuge2",
-      "duration": 0.5,
-      "name": "demon - huge - 2"
+      "deprecatedIDs": [],
+      "name": "demon - huge - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "samuraiSliceWii/demonHuge3",
-      "duration": 0.5,
-      "name": "demon - huge - 3"
+      "deprecatedIDs": [],
+      "name": "demon - huge - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "samuraiSliceWii/horde1",
-      "duration": 0.33333,
-      "name": "demon - horde - 1"
+      "deprecatedIDs": [],
+      "name": "demon - horde - 1",
+      "duration": 0.33333
     },
     {
+      "type": "cue",
       "id": "samuraiSliceWii/horde2",
-      "duration": 0.33333,
-      "name": "demon - horde - 2"
+      "deprecatedIDs": [],
+      "name": "demon - horde - 2",
+      "duration": 0.33333
     },
     {
+      "type": "cue",
       "id": "samuraiSliceWii/horde3",
-      "duration": 0.33333,
-      "name": "demon - horde - 3"
+      "deprecatedIDs": [],
+      "name": "demon - horde - 3",
+      "duration": 0.33333
     },
     {
+      "type": "cue",
       "id": "samuraiSliceWii/horde4",
-      "duration": 0.33333,
-      "name": "demon - horde - 4"
+      "deprecatedIDs": [],
+      "name": "demon - horde - 4",
+      "duration": 0.33333
     },
     {
+      "type": "cue",
       "id": "samuraiSliceWii/whirl1",
-      "duration": 1.0,
-      "name": "samurai - whirl - 1"
+      "deprecatedIDs": [],
+      "name": "samurai - whirl - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "samuraiSliceWii/whirl2",
-      "duration": 1.0,
-      "name": "samurai - whirl - 2"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "samurai - whirl - 2",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "samuraiSliceWii_demonSmall",
+      "deprecatedIDs": [],
       "name": "small demon",
       "cues": [
         {
@@ -128,23 +169,22 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "samuraiSliceWii_doubleDemonSmall",
+      "deprecatedIDs": [],
       "name": "double small demon",
       "cues": [
         {
           "id": "samuraiSliceWii/demonSmall1",
-          "beat": 0.0,
-          "track": 0
+          "beat": 0.0
         },
         {
           "id": "samuraiSliceWii/demonSmall2",
-          "beat": 0.5,
-          "track": 0
+          "beat": 0.5
         },
         {
           "id": "samuraiSliceWii/demonSmall3",
-          "beat": 1.0,
-          "track": 0
+          "beat": 1.0
         },
         {
           "id": "samuraiSliceWii/demonSmall1",
@@ -163,8 +203,7 @@
         },
         {
           "id": "samuraiSliceWii/slice",
-          "beat": 2.0,
-          "track": 0
+          "beat": 2.0
         },
         {
           "id": "samuraiSliceWii/sliceDouble",
@@ -174,7 +213,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "samuraiSliceWii_demonMedium",
+      "deprecatedIDs": [],
       "name": "medium demon",
       "cues": [
         {
@@ -196,7 +237,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "samuraiSliceWii_demonBig",
+      "deprecatedIDs": [],
       "name": "big demon",
       "cues": [
         {
@@ -218,7 +261,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "samuraiSliceWii_demonHuge",
+      "deprecatedIDs": [],
       "name": "huge demon",
       "cues": [
         {
@@ -240,7 +285,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "samuraiSliceWii_demonHorde",
+      "deprecatedIDs": [],
       "name": "horde of demons",
       "cues": [
         {

@@ -1,302 +1,419 @@
 {
-  "gameID": "rapWomen",
-  "gameName": "Rap Women",
-  "series": "tengoku",
-  "cues": [
+  "id": "rapWomen",
+  "deprecatedIDs": [],
+  "name": "Rap Women",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "rapWomen/yeah",
-      "duration": 1,
-      "name": "yeah"
+      "deprecatedIDs": [],
+      "name": "yeah",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "rapWomen/desu",
-      "duration": 0.5,
-      "name": "desu-"
+      "deprecatedIDs": [],
+      "name": "desu-",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "rapWomen/ka",
-      "duration": 1,
-      "name": "-ka?"
+      "deprecatedIDs": [],
+      "name": "-ka?",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "rapWomen/yo",
-      "duration": 0.75,
-      "name": "yo,"
+      "deprecatedIDs": [],
+      "name": "yo,",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "rapWomen/juji1",
-      "duration": 0.5,
-      "name": "ju-"
+      "deprecatedIDs": [],
+      "name": "ju-",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "rapWomen/juji2",
-      "duration": 0.25,
-      "name": "ji"
+      "deprecatedIDs": [],
+      "name": "ji",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/oyatsudesuka1",
-      "duration": 0.125,
-      "name": "oyatsu desu ka - o"
+      "deprecatedIDs": [],
+      "name": "oyatsu desu ka - o",
+      "duration": 0.125
     },
     {
+      "type": "cue",
       "id": "rapWomen/oyatsudesuka2",
-      "duration": 0.5,
-      "name": "oyatsu desu ka - yatsu"
+      "deprecatedIDs": [],
+      "name": "oyatsu desu ka - yatsu",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "rapWomen/naishodesuka1",
-      "duration": 0.375,
-      "name": "naisho desu ka - nai"
+      "deprecatedIDs": [],
+      "name": "naisho desu ka - nai",
+      "duration": 0.375
     },
     {
+      "type": "cue",
       "id": "rapWomen/naishodesuka2",
-      "duration": 0.125,
-      "name": "naisho desu ka - sho"
+      "deprecatedIDs": [],
+      "name": "naisho desu ka - sho",
+      "duration": 0.125
     },
     {
+      "type": "cue",
       "id": "rapWomen/naishodesuka3",
-      "duration": 0.25,
-      "name": "naisho desu ka - desu"
+      "deprecatedIDs": [],
+      "name": "naisho desu ka - desu",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/naishodesuka4",
-      "duration": 0.25,
-      "name": "naisho desu ka - ka?"
+      "deprecatedIDs": [],
+      "name": "naisho desu ka - ka?",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/kamone1",
-      "duration": 0.25,
-      "name": "kamone - ka"
+      "deprecatedIDs": [],
+      "name": "kamone - ka",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/kamone2",
-      "duration": 0.25,
-      "name": "kamone - mo"
+      "deprecatedIDs": [],
+      "name": "kamone - mo",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/kamone3",
-      "duration": 0.75,
-      "name": "kamone - ne?"
+      "deprecatedIDs": [],
+      "name": "kamone - ne?",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "rapWomen/kare1",
-      "duration": 0.313,
-      "name": "kare no oyatsu dane - ka"
+      "deprecatedIDs": [],
+      "name": "kare no oyatsu dane - ka",
+      "duration": 0.313
     },
     {
+      "type": "cue",
       "id": "rapWomen/kare2",
-      "duration": 0.188,
-      "name": "kare no oyatsu dane - re"
+      "deprecatedIDs": [],
+      "name": "kare no oyatsu dane - re",
+      "duration": 0.188
     },
     {
+      "type": "cue",
       "id": "rapWomen/kare3",
-      "duration": 0.25,
-      "name": "kare no oyatsu dane - no"
+      "deprecatedIDs": [],
+      "name": "kare no oyatsu dane - no",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/kare4",
-      "duration": 0.25,
-      "name": "kare no oyatsu dane - o"
+      "deprecatedIDs": [],
+      "name": "kare no oyatsu dane - o",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/kare5",
-      "duration": 0.25,
-      "name": "kare no oyatsu dane - yat"
+      "deprecatedIDs": [],
+      "name": "kare no oyatsu dane - yat",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/kare6",
-      "duration": 0.188,
-      "name": "kare no oyatsu dane - su"
+      "deprecatedIDs": [],
+      "name": "kare no oyatsu dane - su",
+      "duration": 0.188
     },
     {
+      "type": "cue",
       "id": "rapWomen/dane1",
-      "duration": 0.313,
-      "name": "kare no oyatsu dane - da-"
+      "deprecatedIDs": [],
+      "name": "kare no oyatsu dane - da-",
+      "duration": 0.313
     },
     {
+      "type": "cue",
       "id": "rapWomen/dane2",
-      "duration": 0.25,
-      "name": "kare no oyatsu dane - ne"
+      "deprecatedIDs": [],
+      "name": "kare no oyatsu dane - ne",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/tabete1",
-      "duration": 0.25,
-      "name": "tabete ii - ta-"
+      "deprecatedIDs": [],
+      "name": "tabete ii - ta-",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/tabete2",
-      "duration": 0.25,
-      "name": "tabete ii - be-"
+      "deprecatedIDs": [],
+      "name": "tabete ii - be-",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/tabete3",
-      "duration": 0.25,
-      "name": "tabete ii - te"
+      "deprecatedIDs": [],
+      "name": "tabete ii - te",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/tabete4",
-      "duration": 0.5,
-      "name": "tabete ii - ii"
+      "deprecatedIDs": [],
+      "name": "tabete ii - ii",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "rapWomen/akete1",
-      "duration": 0.25,
-      "name": "akete ii - a-"
+      "deprecatedIDs": [],
+      "name": "akete ii - a-",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/akete2",
-      "duration": 0.25,
-      "name": "akete ii - ke-"
+      "deprecatedIDs": [],
+      "name": "akete ii - ke-",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/akete3",
-      "duration": 0.25,
-      "name": "akete ii - te"
+      "deprecatedIDs": [],
+      "name": "akete ii - te",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/akete4",
-      "duration": 0.5,
-      "name": "akete ii - ii"
+      "deprecatedIDs": [],
+      "name": "akete ii - ii",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "rapWomen/saiko1",
-      "duration": 0.5,
-      "name": "saiko - sai"
+      "deprecatedIDs": [],
+      "name": "saiko - sai",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "rapWomen/saiko2",
-      "duration": 0.5,
-      "name": "saiko - ko!"
+      "deprecatedIDs": [],
+      "name": "saiko - ko!",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "rapWomen/oyatsusaiko1",
-      "duration": 0.188,
-      "name": "oyatsu saiko - o"
+      "deprecatedIDs": [],
+      "name": "oyatsu saiko - o",
+      "duration": 0.188
     },
     {
+      "type": "cue",
       "id": "rapWomen/oyatsusaiko2",
-      "duration": 0.313,
-      "name": "oyatsu saiko - ya"
+      "deprecatedIDs": [],
+      "name": "oyatsu saiko - ya",
+      "duration": 0.313
     },
     {
+      "type": "cue",
       "id": "rapWomen/oyatsusaiko3",
-      "duration": 0.313,
-      "name": "oyatsu saiko - tsu"
+      "deprecatedIDs": [],
+      "name": "oyatsu saiko - tsu",
+      "duration": 0.313
     },
     {
+      "type": "cue",
       "id": "rapWomen/oyatsusaiko4",
-      "duration": 0.188,
-      "name": "oyatsu saiko - wa"
+      "deprecatedIDs": [],
+      "name": "oyatsu saiko - wa",
+      "duration": 0.188
     },
     {
+      "type": "cue",
       "id": "rapWomen/amakute1",
-      "duration": 0.25,
-      "name": "amakute - a"
+      "deprecatedIDs": [],
+      "name": "amakute - a",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/amakute2",
-      "duration": 0.25,
-      "name": "amakute - ma"
+      "deprecatedIDs": [],
+      "name": "amakute - ma",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/amakute3",
-      "duration": 0.25,
-      "name": "amakute - ku"
+      "deprecatedIDs": [],
+      "name": "amakute - ku",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/amakute4",
-      "duration": 0.25,
-      "name": "amakute - te"
+      "deprecatedIDs": [],
+      "name": "amakute - te",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/naisho1",
-      "duration": 0.375,
-      "name": "naisho - nai"
+      "deprecatedIDs": [],
+      "name": "naisho - nai",
+      "duration": 0.375
     },
     {
+      "type": "cue",
       "id": "rapWomen/naisho2",
-      "duration": 0.625,
-      "name": "naisho - sho!"
+      "deprecatedIDs": [],
+      "name": "naisho - sho!",
+      "duration": 0.625
     },
     {
+      "type": "cue",
       "id": "rapWomen/betsubara1",
-      "duration": 0.438,
-      "name": "betsubara - betsu"
+      "deprecatedIDs": [],
+      "name": "betsubara - betsu",
+      "duration": 0.438
     },
     {
+      "type": "cue",
       "id": "rapWomen/betsubara2",
-      "duration": 0.563,
-      "name": "betsubara - bara"
+      "deprecatedIDs": [],
+      "name": "betsubara - bara",
+      "duration": 0.563
     },
     {
+      "type": "cue",
       "id": "rapWomen/kibun1",
-      "duration": 0.313,
-      "name": "kibun - ki"
+      "deprecatedIDs": [],
+      "name": "kibun - ki",
+      "duration": 0.313
     },
     {
+      "type": "cue",
       "id": "rapWomen/kibun2",
-      "duration": 0.563,
-      "name": "kibun - bun"
+      "deprecatedIDs": [],
+      "name": "kibun - bun",
+      "duration": 0.563
     },
     {
+      "type": "cue",
       "id": "rapWomen/kibun3",
-      "duration": 0.125,
-      "name": "kibun - wa"
+      "deprecatedIDs": [],
+      "name": "kibun - wa",
+      "duration": 0.125
     },
     {
+      "type": "cue",
       "id": "rapWomen/darenimo1",
-      "duration": 0.25,
-      "name": "dare ni mo - da"
+      "deprecatedIDs": [],
+      "name": "dare ni mo - da",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/darenimo2",
-      "duration": 0.188,
-      "name": "dare ni mo - re"
+      "deprecatedIDs": [],
+      "name": "dare ni mo - re",
+      "duration": 0.188
     },
     {
+      "type": "cue",
       "id": "rapWomen/darenimo3",
-      "duration": 0.25,
-      "name": "dare ni mo - ni"
+      "deprecatedIDs": [],
+      "name": "dare ni mo - ni",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/darenimo4",
-      "duration": 0.313,
-      "name": "dare ni mo - mo"
+      "deprecatedIDs": [],
+      "name": "dare ni mo - mo",
+      "duration": 0.313
     },
     {
+      "type": "cue",
       "id": "rapWomen/kareniwa1",
-      "duration": 0.188,
-      "name": "kare ni wa - ka"
+      "deprecatedIDs": [],
+      "name": "kare ni wa - ka",
+      "duration": 0.188
     },
     {
+      "type": "cue",
       "id": "rapWomen/kareniwa2",
-      "duration": 0.25,
-      "name": "kare ni wa- re"
+      "deprecatedIDs": [],
+      "name": "kare ni wa- re",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/kareniwa3",
-      "duration": 0.25,
-      "name": "kare ni wa - ni"
+      "deprecatedIDs": [],
+      "name": "kare ni wa - ni",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rapWomen/kareniwa4",
-      "duration": 0.313,
-      "name": "kare ni wa - was"
+      "deprecatedIDs": [],
+      "name": "kare ni wa - was",
+      "duration": 0.313
     },
     {
+      "type": "cue",
       "id": "rapWomen/uh",
-      "duration": 0.5,
-      "name": "uh"
+      "deprecatedIDs": [],
+      "name": "uh",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "rapWomen/uhn",
-      "duration": 0.5,
-      "name": "-UHN!"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "-UHN!",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "rapWomen_jujidesuka",
+      "deprecatedIDs": [],
       "name": "yo, juji [CYAN]desu ka?[]",
       "cues": [
         {
@@ -326,9 +443,10 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "rapWomen_oyatsudesuka",
+      "deprecatedIDs": [],
       "name": "yo, oyatsu [CYAN]desu ka?[]",
-      "isStretchable": false,
       "cues": [
         {
           "id": "rapWomen/yo",
@@ -352,14 +470,15 @@
         },
         {
           "id": "rapWomen/uh",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "rapWomen_naishodesuka",
+      "deprecatedIDs": [],
       "name": "naisho [CYAN]desu ka?[]",
-      "isStretchable": false,
       "cues": [
         {
           "id": "rapWomen/naishodesuka1",
@@ -384,9 +503,10 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "rapWomen_karenooaytsudane",
+      "deprecatedIDs": [],
       "name": "kare no oyatsu [PINK]dane?[]",
-      "isStretchable": false,
       "cues": [
         {
           "id": "rapWomen/kare1",
@@ -431,9 +551,10 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "rapWomen_aketeiikamone",
+      "deprecatedIDs": [],
       "name": "akete ii [PINK]kamone?[]",
-      "isStretchable": false,
       "cues": [
         {
           "id": "rapWomen/akete1",
@@ -474,9 +595,10 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "rapWomen_tabetekamone",
+      "deprecatedIDs": [],
       "name": "tabete ii [PINK]kamone?[]",
-      "isStretchable": false,
       "cues": [
         {
           "id": "rapWomen/tabete1",
@@ -517,9 +639,10 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "rapWomen_oyatsusaiko",
+      "deprecatedIDs": [],
       "name": "oyatsu wa [YELLOW]saiko!![]",
-      "isStretchable": false,
       "cues": [
         {
           "id": "rapWomen/oyatsusaiko1",
@@ -556,9 +679,10 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "rapWomen_kibunsaiko",
+      "deprecatedIDs": [],
       "name": "kibun wa [YELLOW]saiko!![]",
-      "isStretchable": false,
       "cues": [
         {
           "id": "rapWomen/kibun1",
@@ -591,7 +715,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "rapWomen_betsubarasaiko",
+      "deprecatedIDs": [],
       "name": "betsubara [YELLOW]saiko!![]",
       "cues": [
         {
@@ -621,9 +747,10 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "rapWomen_amakutesaiko",
+      "deprecatedIDs": [],
       "name": "amakute [YELLOW]saiko!![]",
-      "isStretchable": false,
       "cues": [
         {
           "id": "rapWomen/amakute1",
@@ -651,7 +778,7 @@
         },
         {
           "id": "rapWomen/uh",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "rapWomen/uhn",
@@ -660,7 +787,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "rapWomen_kareniwanaisho",
+      "deprecatedIDs": [],
       "name": "kare ni wa [YELLOW]naisho!![]",
       "cues": [
         {
@@ -681,7 +810,7 @@
         },
         {
           "id": "rapWomen/naisho1",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "rapWomen/naisho2",
@@ -689,17 +818,18 @@
         },
         {
           "id": "rapWomen/uh",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "rapWomen/uhn",
-          "beat": 2.5,
-          "track": 0
+          "beat": 2.5
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "rapWomen_darenimonaisho",
+      "deprecatedIDs": [],
       "name": "dare ni mo [YELLOW]naisho!![]",
       "cues": [
         {
@@ -720,7 +850,7 @@
         },
         {
           "id": "rapWomen/naisho1",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "rapWomen/naisho2",
@@ -728,7 +858,7 @@
         },
         {
           "id": "rapWomen/uh",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "rapWomen/uhn",

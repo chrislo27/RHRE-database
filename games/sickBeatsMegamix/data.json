@@ -1,75 +1,92 @@
 {
-  "gameID": "sickBeatsMegamix",
-  "gameName": "Sick Beats (Megamix)",
-  "series": "megamix",
-  "cues": [
+  "id": "sickBeatsMegamix",
+  "deprecatedIDs": [],
+  "name": "Sick Beats (Megamix)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "sickBeatsMegamix/appear1",
-      "duration": 1,
-      "name": "appear - 1"
+      "deprecatedIDs": [],
+      "name": "appear - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "sickBeatsMegamix/appear2",
-      "duration": 1,
-      "name": "appear - 2"
+      "deprecatedIDs": [],
+      "name": "appear - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "sickBeatsMegamix/resist",
-      "duration": 1,
-      "name": "damage"
+      "deprecatedIDs": [],
+      "name": "damage",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "sickBeatsMegamix/stab1",
-      "duration": 1,
-      "name": "kill - 1"
+      "deprecatedIDs": [],
+      "name": "kill - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "sickBeatsMegamix/stab2",
-      "duration": 1,
-      "name": "kill - 2"
+      "deprecatedIDs": [],
+      "name": "kill - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "sickBeatsMegamix/whoosh",
-      "duration": 0.1875,
-      "name": "dash"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "dash",
+      "duration": 0.1875
+    },
     {
+      "type": "pattern",
       "id": "sickBeatsMegamix_blueVirus1",
+      "deprecatedIDs": [],
       "name": "blue virus 1",
       "cues": [
         {
           "id": "sickBeatsMegamix/appear2",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "sickBeatsMegamix/stab1",
-          "beat": 1
+          "beat": 1.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "sickBeatsMegamix_blueVirus2",
+      "deprecatedIDs": [],
       "name": "blue virus 2",
       "cues": [
         {
           "id": "sickBeatsMegamix/appear1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "sickBeatsMegamix/stab2",
-          "beat": 1
+          "beat": 1.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "sickBeatsMegamix_quickBlueVirus",
+      "deprecatedIDs": [],
       "name": "quick blue virus",
       "cues": [
         {
           "id": "sickBeatsMegamix/whoosh",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "sickBeatsMegamix/whoosh",
@@ -90,56 +107,62 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "sickBeatsMegamix_pinkVirus1",
+      "deprecatedIDs": [],
       "name": "pink virus 1",
       "cues": [
         {
           "id": "sickBeatsMegamix/appear2",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "sickBeatsMegamix/resist",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "sickBeatsMegamix/appear1",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "sickBeatsMegamix/stab2",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "sickBeatsMegamix_pinkVirus2",
+      "deprecatedIDs": [],
       "name": "pink virus 2",
       "cues": [
         {
           "id": "sickBeatsMegamix/appear1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "sickBeatsMegamix/resist",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "sickBeatsMegamix/appear2",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "sickBeatsMegamix/stab1",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "sickBeatsMegamix_quickPinkVirus",
+      "deprecatedIDs": [],
       "name": "quick pink virus",
       "cues": [
         {
           "id": "sickBeatsMegamix/whoosh",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "sickBeatsMegamix/whoosh",
@@ -164,96 +187,102 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "sickBeatsMegamix_blackVirus1",
+      "deprecatedIDs": [],
       "name": "black virus 1",
       "cues": [
         {
           "id": "sickBeatsMegamix/appear2",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "sickBeatsMegamix/resist",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "sickBeatsMegamix/appear2",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "sickBeatsMegamix/resist",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "sickBeatsMegamix/appear1",
-          "beat": 4
+          "beat": 4.0
         },
         {
           "id": "sickBeatsMegamix/stab1",
-          "beat": 5
+          "beat": 5.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "sickBeatsMegamix_blackVirus2",
+      "deprecatedIDs": [],
       "name": "black virus 2",
       "cues": [
         {
           "id": "sickBeatsMegamix/appear1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "sickBeatsMegamix/resist",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "sickBeatsMegamix/appear2",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "sickBeatsMegamix/resist",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "sickBeatsMegamix/appear2",
-          "beat": 4
+          "beat": 4.0
         },
         {
           "id": "sickBeatsMegamix/stab2",
-          "beat": 5
+          "beat": 5.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "sickBeatsMegamix_quickBlackVirus",
+      "deprecatedIDs": [],
       "name": "quick black virus",
       "cues": [
         {
           "id": "sickBeatsMegamix/whoosh",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "sickBeatsMegamix/appear1",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "sickBeatsMegamix/resist",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "sickBeatsMegamix/appear1",
-          "beat": 4
+          "beat": 4.0
         },
         {
           "id": "sickBeatsMegamix/resist",
-          "beat": 5
+          "beat": 5.0
         },
         {
           "id": "sickBeatsMegamix/appear2",
-          "beat": 6
+          "beat": 6.0
         },
         {
           "id": "sickBeatsMegamix/stab2",
-          "beat": 7
+          "beat": 7.0
         }
       ]
     }

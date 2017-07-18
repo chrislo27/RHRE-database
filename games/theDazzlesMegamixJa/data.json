@@ -1,57 +1,76 @@
 {
-  "gameID": "theDazzlesMegamixJa",
-  "gameName": "The Dazzles (Megamix) (Japanese)",
-  "series": "megamix",
-  "cues": [
+  "id": "theDazzlesMegamixJa",
+  "deprecatedIDs": [],
+  "name": "The Dazzles (Megamix) (Japanese)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "theDazzlesMegamixJa/hold3",
-      "duration": 0.5,
-      "name": "hold - three"
+      "deprecatedIDs": [],
+      "name": "hold - three",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "theDazzlesMegamixJa/hold2",
-      "duration": 0.5,
-      "name": "hold - two"
+      "deprecatedIDs": [],
+      "name": "hold - two",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "theDazzlesMegamixJa/hold1",
-      "duration": 0.5,
-      "name": "hold - 1"
+      "deprecatedIDs": [],
+      "name": "hold - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "theDazzlesMegamixJa/holdCrouch",
-      "duration": 1.0,
-      "name": "hold - crouch"
+      "deprecatedIDs": [],
+      "name": "hold - crouch",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "theDazzlesMegamixJa/crouch",
-      "duration": 1.0,
-      "name": "hold - crouch"
+      "deprecatedIDs": [],
+      "name": "hold - crouch",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "theDazzlesMegamixJa/posePartner",
-      "duration": 0.5,
-      "name": "partner pose"
+      "deprecatedIDs": [],
+      "name": "partner pose",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "theDazzlesMegamixJa/posePartnerLong",
-      "duration": 1.0,
-      "name": "partner pose - long"
+      "deprecatedIDs": [],
+      "name": "partner pose - long",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "theDazzlesMegamixJa/posePlayer",
-      "duration": 1.0,
-      "name": "player pose"
+      "deprecatedIDs": [],
+      "name": "player pose",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "theDazzlesMegamixJa/posePlayerStars",
-      "duration": 2.0,
-      "name": "player pose - stars"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "player pose - stars",
+      "duration": 2.0
+    },
     {
+      "type": "pattern",
       "id": "theDazzlesMegamixJa_hold",
+      "deprecatedIDs": [],
       "name": "hold count in",
       "cues": [
         {
@@ -73,7 +92,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "theDazzlesMegamixJa_holdCrouch",
+      "deprecatedIDs": [],
       "name": "crouching",
       "cues": [
         {
@@ -91,7 +112,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "theDazzlesMegamixJa_poseThree",
+      "deprecatedIDs": [],
       "name": "pose - three",
       "cues": [
         {
@@ -109,7 +132,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "theDazzlesMegamixJa_poseTwo",
+      "deprecatedIDs": [],
       "name": "pose - two",
       "cues": [
         {
@@ -123,7 +148,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "theDazzlesMegamixJa_poseSix1",
+      "deprecatedIDs": [],
       "name": "pose - six - diagonal",
       "cues": [
         {
@@ -153,7 +180,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "theDazzlesMegamixJa_poseSix2",
+      "deprecatedIDs": [],
       "name": "pose - six - columns",
       "cues": [
         {
@@ -183,7 +212,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "theDazzlesMegamixJa_poseSix3",
+      "deprecatedIDs": [],
       "name": "pose - six",
       "cues": [
         {

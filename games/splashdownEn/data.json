@@ -1,123 +1,143 @@
 {
-  "gameID": "splashdownEn",
-  "gameName": "Splashdown (English)",
-  "series": "ds",
-  "cues": [
+  "id": "splashdownEn",
+  "deprecatedIDs": [],
+  "name": "Splashdown (English)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "splashdownEn/start",
       "deprecatedIDs": [
         "splashdown/start"
       ],
-      "duration": 1,
-      "name": "start"
+      "name": "start",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "splashdownEn/descend1",
       "deprecatedIDs": [
         "splashdown/descend"
       ],
-      "duration": 0.25,
-      "name": "descend - others"
+      "name": "descend - others",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "splashdownEn/descend2",
-      "duration": 0.75,
-      "name": "descend - player"
+      "deprecatedIDs": [],
+      "name": "descend - player",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "splashdownEn/ascend1",
       "deprecatedIDs": [
         "splashdown/ascend"
       ],
-      "duration": 0.25,
-      "name": "ascend"
+      "name": "ascend",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "splashdownEn/ascend2",
-      "duration": 0.75,
-      "name": "ascend - player"
+      "deprecatedIDs": [],
+      "name": "ascend - player",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "splashdownEn/yeah1",
       "deprecatedIDs": [
         "splashdown/yeah1"
       ],
-      "duration": 1,
-      "name": "jump - others"
+      "name": "jump - others",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "splashdownEn/yeah2",
       "deprecatedIDs": [
         "splashdown/yeah2"
       ],
-      "duration": 1,
-      "name": "jump - player"
+      "name": "jump - player",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "splashdownEn/jumpSimultaneous",
-      "duration": 0.5,
-      "name": "jump - simultaneous"
+      "deprecatedIDs": [],
+      "name": "jump - simultaneous",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "splashdownEn/spin1",
       "deprecatedIDs": [
         "splashdown/spin1"
       ],
-      "duration": 1,
-      "name": "spin - others"
+      "name": "spin - others",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "splashdownEn/spin2",
       "deprecatedIDs": [
         "splashdown/spin2"
       ],
-      "duration": 1,
-      "name": "spin - player"
+      "name": "spin - player",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "splashdownEn/splash",
-      "duration": 1,
-      "name": "splash"
+      "deprecatedIDs": [],
+      "name": "splash",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "splashdownEn/oooh",
       "deprecatedIDs": [
         "splashdown/oooh"
       ],
-      "duration": 2,
-      "name": "ohhhhh"
+      "name": "ohhhhh",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "splashdownEn/alleyoop1",
       "deprecatedIDs": [
         "splashdown/alleyoop"
       ],
-      "duration": 0.25,
-      "name": "alley-oop - 1"
+      "name": "alley-oop - 1",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "splashdownEn/alleyoop2",
-      "duration": 0.25,
-      "name": "alley-oop - 2"
+      "deprecatedIDs": [],
+      "name": "alley-oop - 2",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "splashdownEn/alleyoop3",
-      "duration": 1,
-      "name": "alley-oop - 3"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "alley-oop - 3",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "splashdownEn_descend",
-      "name": "descend",
       "deprecatedIDs": [
         "splashdown_descend"
       ],
-      "isStretchable": true,
+      "name": "descend",
       "cues": [
         {
           "id": "splashdownEn/descend1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "splashdownEn/descend1",
@@ -130,16 +150,16 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "splashdownEn_ascend",
       "deprecatedIDs": [
         "splashdown_ascend"
       ],
       "name": "ascend",
-      "isStretchable": true,
       "cues": [
         {
           "id": "splashdownEn/ascend1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "splashdownEn/ascend1",
@@ -152,55 +172,60 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "splashdownEn_jumpOthers",
-      "name": "jump - others",
       "deprecatedIDs": [
         "splashdown_sealJump"
       ],
+      "name": "jump - others",
       "cues": [
         {
           "id": "splashdownEn/yeah1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "splashdownEn/spin1",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "splashdownEn/splash",
-          "beat": 2
+          "beat": 2.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "splashdownEn_jumpPlayer",
+      "deprecatedIDs": [],
       "name": "jump - player",
       "cues": [
         {
           "id": "splashdownEn/yeah2",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "splashdownEn/spin2",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "splashdownEn/splash",
-          "beat": 2
+          "beat": 2.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "splashdownEn_simultaneousJump",
+      "deprecatedIDs": [],
       "name": "simultaneous jump",
       "cues": [
         {
           "id": "splashdownEn/oooh",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "splashdownEn/jumpSimultaneous",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "splashdownEn/spin2",
@@ -213,19 +238,20 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "splashdownEn_alleyoop",
-      "name": "alley-oop!",
       "deprecatedIDs": [
         "splashdown_alleyoop"
       ],
+      "name": "alley-oop!",
       "cues": [
         {
           "id": "splashdownEn/oooh",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "splashdownEn/jumpSimultaneous",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "splashdownEn/alleyoop1",
@@ -237,11 +263,11 @@
         },
         {
           "id": "splashdownEn/alleyoop3",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "splashdownEn/splash",
-          "beat": 4
+          "beat": 4.0
         }
       ]
     }

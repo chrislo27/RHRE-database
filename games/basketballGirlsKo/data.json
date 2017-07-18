@@ -1,57 +1,76 @@
 {
-  "gameID": "basketballGirlsKo",
-  "gameName": "Basketball Girls (Korean)",
-  "series": "side",
-  "cues": [
+  "id": "basketballGirlsKo",
+  "deprecatedIDs": [],
+  "name": "Basketball Girls (Korean)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "basketballGirlsKo/bounce1",
-      "duration": 0.5,
-      "name": "bounce - 1"
+      "deprecatedIDs": [],
+      "name": "bounce - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "basketballGirlsKo/bounce2",
-      "duration": 0.5,
-      "name": "bounce - 2"
+      "deprecatedIDs": [],
+      "name": "bounce - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "basketballGirlsKo/bounce3",
-      "duration": 0.5,
-      "name": "bounce - 3"
+      "deprecatedIDs": [],
+      "name": "bounce - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "basketballGirlsKo/hoi",
-      "duration": 0.5,
-      "name": "hoi"
+      "deprecatedIDs": [],
+      "name": "hoi",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "basketballGirlsKo/dunk1",
-      "duration": 0.5,
-      "name": "dunk - 1"
+      "deprecatedIDs": [],
+      "name": "dunk - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "basketballGirlsKo/dunk2",
-      "duration": 0.5,
-      "name": "dunk - 2"
+      "deprecatedIDs": [],
+      "name": "dunk - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "basketballGirlsKo/dunk3",
-      "duration": 0.5,
-      "name": "dunk - 3"
+      "deprecatedIDs": [],
+      "name": "dunk - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "basketballGirlsKo/dunk4",
-      "duration": 0.5,
-      "name": "dunk - 4"
+      "deprecatedIDs": [],
+      "name": "dunk - 4",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "basketballGirlsKo/dunk5",
-      "duration": 1.0,
-      "name": "dunk - 5"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "dunk - 5",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "basketballGirlsKo_bounce",
+      "deprecatedIDs": [],
       "name": "bounce",
       "cues": [
         {
@@ -73,7 +92,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "basketballGirlsKo_dunk",
+      "deprecatedIDs": [],
       "name": "dunk",
       "cues": [
         {

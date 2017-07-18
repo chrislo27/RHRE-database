@@ -1,67 +1,90 @@
 {
-  "gameID": "dogNinjaMegamix",
-  "gameName": "Dog Ninja (Megamix)",
-  "series": "megamix",
-  "cues": [
+  "id": "dogNinjaMegamix",
+  "deprecatedIDs": [],
+  "name": "Dog Ninja (Megamix)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "dogNinjaMegamix/fruit1",
-      "duration": 1,
-      "name": "fruit - out"
+      "deprecatedIDs": [],
+      "name": "fruit - out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "dogNinjaMegamix/fruit2",
-      "duration": 1,
-      "name": "fruit - slice"
+      "deprecatedIDs": [],
+      "name": "fruit - slice",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "dogNinjaMegamix/bone1",
-      "duration": 1,
-      "name": "bone - out"
+      "deprecatedIDs": [],
+      "name": "bone - out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "dogNinjaMegamix/bone2",
-      "duration": 1,
-      "name": "bone - slice"
+      "deprecatedIDs": [],
+      "name": "bone - slice",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "dogNinjaMegamix/tire1",
-      "duration": 1,
-      "name": "tire - out"
+      "deprecatedIDs": [],
+      "name": "tire - out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "dogNinjaMegamix/tire2",
-      "duration": 1,
-      "name": "tire - slice"
+      "deprecatedIDs": [],
+      "name": "tire - slice",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "dogNinjaMegamix/pan1",
-      "duration": 1,
-      "name": "pan - out"
+      "deprecatedIDs": [],
+      "name": "pan - out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "dogNinjaMegamix/pan2",
-      "duration": 1,
-      "name": "pan - slice"
+      "deprecatedIDs": [],
+      "name": "pan - slice",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "dogNinjaMegamix/dokkoisho1",
-      "duration": 0.5,
-      "name": "dokkoisho - 1"
+      "deprecatedIDs": [],
+      "name": "dokkoisho - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "dogNinjaMegamix/dokkoisho2",
-      "duration": 0.5,
-      "name": "dokkoisho - 2"
+      "deprecatedIDs": [],
+      "name": "dokkoisho - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "dogNinjaMegamix/dokkoisho3",
-      "duration": 1,
-      "name": "dokkoisho - 3"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "dokkoisho - 3",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "dogNinjaMegamix_fruit",
+      "deprecatedIDs": [],
       "name": "fruit",
       "cues": [
         {
@@ -75,7 +98,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "dogNinjaMegamix_bone",
+      "deprecatedIDs": [],
       "name": "bone",
       "cues": [
         {
@@ -89,7 +114,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "dogNinjaMegamix_tire",
+      "deprecatedIDs": [],
       "name": "tire",
       "cues": [
         {
@@ -103,7 +130,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "dogNinjaMegamix_pan",
+      "deprecatedIDs": [],
       "name": "pan",
       "cues": [
         {
@@ -117,7 +146,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "dogNinjaMegamix_dokkoisho",
+      "deprecatedIDs": [],
       "name": "dokkoisho",
       "cues": [
         {

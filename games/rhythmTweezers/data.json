@@ -1,48 +1,64 @@
 {
-  "gameID": "rhythmTweezers",
-  "gameName": "Rhythm Tweezers (Megamix)",
-  "series": "megamix",
-  "cues": [
+  "id": "rhythmTweezers",
+  "deprecatedIDs": [],
+  "name": "Rhythm Tweezers (Megamix)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "rhythmTweezers/appear",
-      "duration": 0.25,
-      "name": "hair - appear"
+      "deprecatedIDs": [],
+      "name": "hair - appear",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rhythmTweezers/longAppear",
-      "duration": 1,
-      "name": "long hair - appear"
+      "deprecatedIDs": [],
+      "name": "long hair - appear",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "rhythmTweezers/pluck",
-      "duration": 0.25,
-      "name": "hair - pluck 1"
+      "deprecatedIDs": [],
+      "name": "hair - pluck 1",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rhythmTweezers/pluck2",
-      "duration": 0.25,
-      "name": "hair - pluck 2"
+      "deprecatedIDs": [],
+      "name": "hair - pluck 2",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rhythmTweezers/gr",
-      "duration": 0.000001
+      "deprecatedIDs": [],
+      "name": "rhythmTweezers/gr",
+      "duration": 1.0E-6
     },
     {
+      "type": "cue",
       "id": "rhythmTweezers/aaa",
-      "duration": 0.5,
-      "introSound": "rhythmTweezers/gr",
-      "name": "long hair - pluck - 1"
+      "deprecatedIDs": [],
+      "name": "long hair - pluck - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "rhythmTweezers/b",
-      "duration": 0.25,
-      "name": "long hair - pluck - 2"
+      "deprecatedIDs": [],
+      "name": "long hair - pluck - 2",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "rhythmTweezers/cashier",
-      "duration": 1,
-      "name": "cashier"
+      "deprecatedIDs": [],
+      "name": "cashier",
+      "duration": 1.0
     }
-  ],
-  "patterns": []
+  ]
 }

@@ -1,85 +1,109 @@
 {
-  "gameID": "tangotronic3000",
-  "gameName": "Tangotronic 3000",
-  "series": "megamix",
-  "cues": [
+  "id": "tangotronic3000",
+  "deprecatedIDs": [],
+  "name": "Tangotronic 3000",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "tangotronic3000/whistle1",
-      "duration": 0.5,
-      "name": "whistle - 1"
+      "deprecatedIDs": [],
+      "name": "whistle - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "tangotronic3000/whistle2",
-      "duration": 0.5,
-      "name": "whistle - 2"
+      "deprecatedIDs": [],
+      "name": "whistle - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "tangotronic3000/2step1",
-      "duration": 0.5,
-      "name": "2-step - 1"
+      "deprecatedIDs": [],
+      "name": "2-step - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "tangotronic3000/2step2",
-      "duration": 0.5,
-      "name": "2-step - 2"
+      "deprecatedIDs": [],
+      "name": "2-step - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "tangotronic3000/2step3",
-      "duration": 0.5,
-      "name": "2-step - 2 (whistle)"
+      "deprecatedIDs": [],
+      "name": "2-step - 2 (whistle)",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "tangotronic3000/tock",
-      "duration": 0.5,
-      "name": "3-step - signal"
+      "deprecatedIDs": [],
+      "name": "3-step - signal",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "tangotronic3000/3step1",
-      "duration": 0.5,
-      "name": "3-step - 1"
+      "deprecatedIDs": [],
+      "name": "3-step - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "tangotronic3000/3step2",
-      "duration": 0.5,
-      "name": "3-step - 2"
+      "deprecatedIDs": [],
+      "name": "3-step - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "tangotronic3000/3step3",
-      "duration": 0.5,
-      "name": "3-step - 3"
+      "deprecatedIDs": [],
+      "name": "3-step - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "tangotronic3000/ready1",
-      "duration": 1,
+      "deprecatedIDs": [],
       "name": "ready - 1",
-      "fileExtension": "wav"
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "tangotronic3000/ready2",
-      "duration": 1,
+      "deprecatedIDs": [],
       "name": "ready - 2",
-      "fileExtension": "wav"
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "tangotronic3000/twirlStart",
-      "duration": 0.000001
+      "deprecatedIDs": [],
+      "name": "tangotronic3000/twirlStart",
+      "duration": 1.0E-6
     },
     {
+      "type": "cue",
       "id": "tangotronic3000/twirlLoop",
-      "duration": 1,
+      "deprecatedIDs": [],
       "name": "twirl - start",
-      "introSound": "tangotronic3000/twirlStart",
-      "canAlterDuration": false,
-      "loops": true
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "tangotronic3000/twirlStop",
-      "duration": 1,
-      "name": "twirl - stop"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "twirl - stop",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "tangotronic3000_2StepCorte1",
       "deprecatedIDs": [
         "tangotronic3000_2StepCorte"
@@ -88,7 +112,7 @@
       "cues": [
         {
           "id": "tangotronic3000/whistle1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "tangotronic3000/whistle2",
@@ -96,7 +120,7 @@
         },
         {
           "id": "tangotronic3000/2step1",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "tangotronic3000/2step2",
@@ -105,12 +129,14 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "tangotronic3000_2StepCorte2",
+      "deprecatedIDs": [],
       "name": "2-step corte (alternative)",
       "cues": [
         {
           "id": "tangotronic3000/whistle1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "tangotronic3000/whistle2",
@@ -118,7 +144,7 @@
         },
         {
           "id": "tangotronic3000/2step1",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "tangotronic3000/2step3",
@@ -127,12 +153,14 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "tangotronic3000_3StepColgada",
+      "deprecatedIDs": [],
       "name": "3-step colgada",
       "cues": [
         {
           "id": "tangotronic3000/tock",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "tangotronic3000/tock",
@@ -140,11 +168,11 @@
         },
         {
           "id": "tangotronic3000/tock",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "tangotronic3000/3step1",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "tangotronic3000/3step2",
@@ -152,29 +180,31 @@
         },
         {
           "id": "tangotronic3000/3step3",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "tangotronic3000_twirl",
+      "deprecatedIDs": [],
       "name": "twirl",
       "cues": [
         {
           "id": "tangotronic3000/ready1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "tangotronic3000/ready2",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "tangotronic3000/twirlLoop",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "tangotronic3000/twirlStop",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     }

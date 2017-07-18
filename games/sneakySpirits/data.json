@@ -1,46 +1,57 @@
 {
-  "gameID": "sneakySpirits",
-  "gameName": "Sneaky Spirits (GBA)",
-  "series": "tengoku",
-  "cues": [
+  "id": "sneakySpirits",
+  "deprecatedIDs": [],
+  "name": "Sneaky Spirits (GBA)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "sneakySpirits/moving",
-      "duration": 0.5,
-      "name": "moving"
+      "deprecatedIDs": [],
+      "name": "moving",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "sneakySpirits/fading1",
-      "duration": 0.5,
-      "name": "fading - 1"
+      "deprecatedIDs": [],
+      "name": "fading - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "sneakySpirits/fading2",
-      "duration": 0.5,
-      "name": "fading - 2"
+      "deprecatedIDs": [],
+      "name": "fading - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "sneakySpirits/fading3",
-      "duration": 0.5,
-      "name": "fading - 3"
+      "deprecatedIDs": [],
+      "name": "fading - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "sneakySpirits/rain",
+      "deprecatedIDs": [],
+      "name": "no ghost - raining",
       "duration": 3.0,
-      "canAlterDuration": true,
-      "loops": true,
-      "name": "no ghost - raining"
+      "stretchable": true
     },
     {
+      "type": "cue",
       "id": "sneakySpirits/hit",
-      "duration": 0.5,
-      "name": "hit"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "hit",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "sneakySpirits_sevenBeats",
+      "deprecatedIDs": [],
       "name": "7 beats",
-      "isStretchable": true,
       "cues": [
         {
           "id": "sneakySpirits/moving",
@@ -73,9 +84,10 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "sneakySpirits_eightBeats",
+      "deprecatedIDs": [],
       "name": "8 beats",
-      "isStretchable": true,
       "cues": [
         {
           "id": "sneakySpirits/moving",

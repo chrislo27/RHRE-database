@@ -1,46 +1,60 @@
 {
-  "gameID": "monkeyWatch",
-  "gameName": "Monkey Watch",
-  "series": "fever",
-  "cues": [
+  "id": "monkeyWatch",
+  "deprecatedIDs": [],
+  "name": "Monkey Watch",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "monkeyWatch/clap1",
-      "duration": 1.0,
-      "name": "clap - 1"
+      "deprecatedIDs": [],
+      "name": "clap - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "monkeyWatch/clap2",
-      "duration": 1.0,
-      "name": "clap - 2"
+      "deprecatedIDs": [],
+      "name": "clap - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "monkeyWatch/offbeat1",
-      "duration": 1.0,
-      "name": "offbeat - ook"
+      "deprecatedIDs": [],
+      "name": "offbeat - ook",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "monkeyWatch/offbeat2",
-      "duration": 1.0,
-      "name": "offbeat - ki"
+      "deprecatedIDs": [],
+      "name": "offbeat - ki",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "monkeyWatch/offbeat3",
-      "duration": 0.5,
-      "name": "offbeat - ok"
+      "deprecatedIDs": [],
+      "name": "offbeat - ok",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "monkeyWatch/offbeat4",
-      "duration": 1.0,
-      "name": "offbeat - clap - 1"
+      "deprecatedIDs": [],
+      "name": "offbeat - clap - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "monkeyWatch/offbeat5",
-      "duration": 1.0,
-      "name": "offbeat - clap - 2"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "offbeat - clap - 2",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "monkeyWatch_clap",
       "deprecatedIDs": [
         "clap"
@@ -58,6 +72,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "monkeyWatch_offbeat",
       "deprecatedIDs": [
         "offbeat"

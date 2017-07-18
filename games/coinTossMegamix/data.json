@@ -1,50 +1,59 @@
 {
-  "gameID": "coinTossMegamix",
-  "gameName": "Coin Toss (Megamix)",
-  "series": "side",
-  "cues": [
+  "id": "coinTossMegamix",
+  "deprecatedIDs": [],
+  "name": "Coin Toss (Megamix)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "coinTossMegamix/flick",
       "deprecatedIDs": [
         "coinToss/flick"
       ],
-      "duration": 0.5,
-      "name": "flick"
+      "name": "flick",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "coinTossMegamix/catch",
       "deprecatedIDs": [
         "coinToss/catch"
       ],
-      "duration": 0.5,
-      "name": "catch"
+      "name": "catch",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "coinTossMegamix/cowbell1",
-      "duration": 0.5,
-      "name": "cowbell - 1"
+      "deprecatedIDs": [],
+      "name": "cowbell - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "coinTossMegamix/cowbell2",
-      "duration": 0.5,
-      "name": "cowbell - 2"
+      "deprecatedIDs": [],
+      "name": "cowbell - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "coinTossMegamix/thankYou1",
       "deprecatedIDs": [
         "coinToss/thankYou"
       ],
-      "duration": 0.5,
-      "name": "thank you! - 1"
+      "name": "thank you! - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "coinTossMegamix/thankYou2",
-      "duration": 1.5,
-      "name": "thank you! - 2"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "thank you! - 2",
+      "duration": 1.5
+    },
     {
+      "type": "pattern",
       "id": "coinTossMegamix_catch",
       "deprecatedIDs": [
         "coinToss_catchNoThankYou"
@@ -53,59 +62,62 @@
       "cues": [
         {
           "id": "coinTossMegamix/flick",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "coinTossMegamix/catch",
-          "beat": 6
+          "beat": 6.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "coinTossMegamix_catchCowbell",
+      "deprecatedIDs": [],
       "name": "catch - cowbell",
       "cues": [
         {
           "id": "coinTossMegamix/flick",
-          "beat": 0,
+          "beat": 0.0,
           "track": 1
         },
         {
           "id": "coinTossMegamix/cowbell1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "coinTossMegamix/cowbell2",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "coinTossMegamix/cowbell1",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "coinTossMegamix/cowbell2",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "coinTossMegamix/cowbell1",
-          "beat": 4
+          "beat": 4.0
         },
         {
           "id": "coinTossMegamix/cowbell2",
-          "beat": 5
+          "beat": 5.0
         },
         {
           "id": "coinTossMegamix/catch",
-          "beat": 6,
+          "beat": 6.0,
           "track": 1
         },
         {
           "id": "coinTossMegamix/cowbell1",
-          "beat": 6
+          "beat": 6.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "coinTossMegamix_thankYou",
       "deprecatedIDs": [
         "coinToss_catchThankYou"
@@ -114,7 +126,7 @@
       "cues": [
         {
           "id": "coinTossMegamix/thankYou1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "coinTossMegamix/thankYou2",

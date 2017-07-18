@@ -1,127 +1,161 @@
 {
-  "gameID": "citrusContact",
-  "gameName": "Second Contact (Citrus Remix)",
-  "series": "megamix",
-  "cues": [
+  "id": "citrusContact",
+  "deprecatedIDs": [],
+  "name": "Second Contact (Citrus Remix)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "citrusContact/passover",
-      "duration": 0.5,
-      "name": "turn passover"
+      "deprecatedIDs": [],
+      "name": "turn passover",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "citrusContact/success1",
-      "duration": 0.5,
-      "name": "turn success 1"
+      "deprecatedIDs": [],
+      "name": "turn success 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "citrusContact/success2",
-      "duration": 2,
-      "name": "turn success 2"
+      "deprecatedIDs": [],
+      "name": "turn success 2",
+      "duration": 2.0
     },
     {
+      "type": "cue",
       "id": "citrusContact/alien1",
-      "duration": 0.5,
-      "name": "alien - 1"
+      "deprecatedIDs": [],
+      "name": "alien - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "citrusContact/alien2",
-      "duration": 0.5,
-      "name": "alien - 2"
+      "deprecatedIDs": [],
+      "name": "alien - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "citrusContact/alien3",
-      "duration": 0.5,
-      "name": "alien - 3"
+      "deprecatedIDs": [],
+      "name": "alien - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "citrusContact/alien4",
-      "duration": 0.5,
-      "name": "alien - 4"
+      "deprecatedIDs": [],
+      "name": "alien - 4",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "citrusContact/alien5",
-      "duration": 0.5,
-      "name": "alien - 5"
+      "deprecatedIDs": [],
+      "name": "alien - 5",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "citrusContact/alien6",
-      "duration": 0.5,
-      "name": "alien - 6"
+      "deprecatedIDs": [],
+      "name": "alien - 6",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "citrusContact/reporter1",
       "deprecatedIDs": [
         "secondContact/reporter1"
       ],
-      "duration": 0.5,
-      "name": "reporter - 1"
+      "name": "reporter - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "citrusContact/reporter2",
       "deprecatedIDs": [
         "secondContact/reporter2"
       ],
-      "duration": 0.5,
-      "name": "reporter - 2"
+      "name": "reporter - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "citrusContact/reporter3",
       "deprecatedIDs": [
         "secondContact/reporter3"
       ],
-      "duration": 0.5,
-      "name": "reporter - 3"
+      "name": "reporter - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "citrusContact/reporter4",
-      "duration": 0.5,
-      "name": "reporter - 4"
+      "deprecatedIDs": [],
+      "name": "reporter - 4",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "citrusContact/reporter5",
-      "duration": 0.5,
-      "name": "reporter - 5"
+      "deprecatedIDs": [],
+      "name": "reporter - 5",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "citrusContact/reporter6",
-      "duration": 0.5,
-      "name": "reporter - 6"
+      "deprecatedIDs": [],
+      "name": "reporter - 6",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "citrusContact/reporter7",
-      "duration": 0.5,
-      "name": "reporter - 7"
+      "deprecatedIDs": [],
+      "name": "reporter - 7",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "citrusContact/reporter8",
-      "duration": 0.5,
-      "name": "reporter - 8"
+      "deprecatedIDs": [],
+      "name": "reporter - 8",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "citrusContact/reporter9",
-      "duration": 0.5,
-      "name": "reporter - 9"
+      "deprecatedIDs": [],
+      "name": "reporter - 9",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "citrusContact/reporter10",
-      "duration": 0.5,
-      "name": "reporter - 10"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "reporter - 10",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "citrusContact_success",
+      "deprecatedIDs": [],
       "name": "success",
       "cues": [
         {
           "id": "citrusContact/success1",
-          "beat": 0.0,
-          "track": 0
+          "beat": 0.0
         },
         {
           "id": "citrusContact/success2",
-          "beat": 0.5,
-          "track": 0
+          "beat": 0.5
         }
       ]
     }

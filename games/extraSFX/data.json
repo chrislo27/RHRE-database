@@ -1,19 +1,22 @@
 {
-  "gameID": "extraSFX",
-  "gameName": "Extra Sound Effects",
-  "notRealGame": true,
-  "cues": [
+  "id": "extraSFX",
+  "deprecatedIDs": [],
+  "name": "Extra Sound Effects",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "extraSFX/star",
-      "duration": 1,
-      "name": "skill star"
+      "deprecatedIDs": [],
+      "name": "skill star",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "extraSFX/textAdvance",
-      "duration": 1,
-      "name": "text advance"
+      "deprecatedIDs": [],
+      "name": "text advance",
+      "duration": 1.0
     }
-  ],
-  "patterns": [
   ]
 }

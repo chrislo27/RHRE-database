@@ -1,32 +1,41 @@
 {
-  "gameID": "spaceSoccerJa",
-  "gameName": "Space Soccer (Japanese)",
-  "series": "ds",
-  "cues": [
+  "id": "spaceSoccerJa",
+  "deprecatedIDs": [],
+  "name": "Space Soccer (Japanese)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "spaceSoccerJa/kick",
-      "duration": 1,
-      "name": "kick"
+      "deprecatedIDs": [],
+      "name": "kick",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "spaceSoccerJa/highkicktoe1",
-      "duration": 1,
-      "name": "highkick - high"
+      "deprecatedIDs": [],
+      "name": "highkick - high",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "spaceSoccerJa/highkicktoe2",
-      "duration": 0.5,
-      "name": "highkick - kick"
+      "deprecatedIDs": [],
+      "name": "highkick - kick",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "spaceSoccerJa/highkicktoe3",
-      "duration": 1.5,
-      "name": "highkick - toe"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "highkick - toe",
+      "duration": 1.5
+    },
     {
+      "type": "pattern",
       "id": "spaceSoccerJa_keepup",
+      "deprecatedIDs": [],
       "name": "keep-up",
       "cues": [
         {
@@ -48,7 +57,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "spaceSoccerJa_highkicktoe",
+      "deprecatedIDs": [],
       "name": "high kick-toe!",
       "cues": [
         {

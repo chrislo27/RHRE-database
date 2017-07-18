@@ -1,31 +1,36 @@
 {
-  "gameID": "cannery",
-  "gameName": "Cannery",
-  "priority": -1,
-  "cues": [
+  "id": "cannery",
+  "deprecatedIDs": [],
+  "name": "Cannery",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "cannery/ding",
-      "duration": 1,
-      "name": "tink"
+      "deprecatedIDs": [],
+      "name": "tink",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "cannery/steam",
-      "duration": 1,
-      "name": "steam"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "steam",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "cannery_can",
+      "deprecatedIDs": [],
       "name": "can",
       "cues": [
         {
           "id": "cannery/ding",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "cannery/steam",
-          "beat": 1
+          "beat": 1.0
         }
       ]
     }

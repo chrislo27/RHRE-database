@@ -1,62 +1,83 @@
 {
-  "gameID": "samuraiSliceGba",
-  "gameName": "Samurai Slice (GBA)",
-  "series": "tengoku",
-  "cues": [
+  "id": "samuraiSliceGba",
+  "deprecatedIDs": [],
+  "name": "Samurai Slice (GBA)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "samuraiSliceGba/jump",
-      "duration": 1,
-      "name": "jump"
+      "deprecatedIDs": [],
+      "name": "jump",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "samuraiSliceGba/sliceLow",
-      "duration": 1,
-      "name": "weak slice"
+      "deprecatedIDs": [],
+      "name": "weak slice",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "samuraiSliceGba/sliceLowDouble",
-      "duration": 1,
-      "name": "weak slice double"
+      "deprecatedIDs": [],
+      "name": "weak slice double",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "samuraiSliceGba/sliceMiddle",
-      "duration": 1,
-      "name": "medium slice"
+      "deprecatedIDs": [],
+      "name": "medium slice",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "samuraiSliceGba/sliceMiddleDouble",
-      "duration": 1,
-      "name": "medium slice double"
+      "deprecatedIDs": [],
+      "name": "medium slice double",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "samuraiSliceGba/sliceHigh",
-      "duration": 1,
-      "name": "strong slice"
+      "deprecatedIDs": [],
+      "name": "strong slice",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "samuraiSliceGba/sliceHighDouble",
-      "duration": 1,
-      "name": "strong slice double"
+      "deprecatedIDs": [],
+      "name": "strong slice double",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "samuraiSliceGba/bigSliceLow",
-      "duration": 1,
-      "name": "big demon weak slice"
+      "deprecatedIDs": [],
+      "name": "big demon weak slice",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "samuraiSliceGba/bigSliceMiddle",
-      "duration": 1,
-      "name": "big demon medium slice"
+      "deprecatedIDs": [],
+      "name": "big demon medium slice",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "samuraiSliceGba/bigSliceHigh",
-      "duration": 1,
-      "name": "big demon strong slice"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "big demon strong slice",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "samuraiSliceGba_weakSlice",
+      "deprecatedIDs": [],
       "name": "weak slice",
       "cues": [
         {
@@ -70,7 +91,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "samuraiSliceGba_weakSliceDouble",
+      "deprecatedIDs": [],
       "name": "weak slice double",
       "cues": [
         {
@@ -84,7 +107,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "samuraiSliceGba_mediumSlice",
+      "deprecatedIDs": [],
       "name": "medium slice",
       "cues": [
         {
@@ -98,7 +123,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "samuraiSliceGba_mediumSliceDouble",
+      "deprecatedIDs": [],
       "name": "medium slice double",
       "cues": [
         {
@@ -112,7 +139,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "samuraiSliceGba_strongSlice",
+      "deprecatedIDs": [],
       "name": "strong slice",
       "cues": [
         {
@@ -126,7 +155,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "samuraiSliceGba_strongSliceDouble",
+      "deprecatedIDs": [],
       "name": "strong slice double",
       "cues": [
         {
@@ -140,7 +171,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "samuraiSliceGba_bigWeakSlice",
+      "deprecatedIDs": [],
       "name": "big demon weak slice",
       "cues": [
         {
@@ -154,7 +187,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "samuraiSliceGba_bigMediumSlice",
+      "deprecatedIDs": [],
       "name": "big demon medium slice",
       "cues": [
         {
@@ -168,7 +203,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "samuraiSliceGba_bigStrongSlice",
+      "deprecatedIDs": [],
       "name": "big demon strong slice",
       "cues": [
         {

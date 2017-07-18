@@ -1,79 +1,98 @@
 {
-  "gameID": "wakeUpCaller",
-  "gameName": "Wake-Up Caller",
-  "series": "side",
-  "cues": [
+  "id": "wakeUpCaller",
+  "deprecatedIDs": [],
+  "name": "Wake-Up Caller",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "wakeUpCaller/tickTockOn1",
-      "duration": 0.5,
-      "name": "tick tock - onbeat - 1"
+      "deprecatedIDs": [],
+      "name": "tick tock - onbeat - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "wakeUpCaller/tickTockOn2",
-      "duration": 0.5,
-      "name": "tick tock - onbeat - 2"
+      "deprecatedIDs": [],
+      "name": "tick tock - onbeat - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "wakeUpCaller/tickTockOff1",
-      "duration": 0.5,
-      "name": "tick tock - offbeat - 1"
+      "deprecatedIDs": [],
+      "name": "tick tock - offbeat - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "wakeUpCaller/tickTockOff2",
-      "duration": 0.5,
-      "name": "tick tock - offbeat - 2"
+      "deprecatedIDs": [],
+      "name": "tick tock - offbeat - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "wakeUpCaller/alarmStop",
-      "duration": 7.0,
-      "name": "alarm - waking up"
+      "deprecatedIDs": [],
+      "name": "alarm - waking up",
+      "duration": 7.0
     },
     {
+      "type": "cue",
       "id": "wakeUpCaller/verdictTime",
-      "duration": 9,
-      "name": "what time is it?"
+      "deprecatedIDs": [],
+      "name": "what time is it?",
+      "duration": 9.0
     },
     {
+      "type": "cue",
       "id": "wakeUpCaller/victorySeed",
-      "duration": 7.0,
-      "name": "happy grandpa - one flower"
+      "deprecatedIDs": [],
+      "name": "happy grandpa - one flower",
+      "duration": 7.0
     },
     {
+      "type": "cue",
       "id": "wakeUpCaller/nextNight",
-      "duration": 14,
-      "name": "that night..."
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "that night...",
+      "duration": 14.0
+    },
     {
+      "type": "pattern",
       "id": "wakeUpCaller_onBeatTicking",
+      "deprecatedIDs": [],
       "name": "tick-tock onbeat",
       "cues": [
         {
           "id": "wakeUpCaller/tickTockOn1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "wakeUpCaller/tickTockOn2",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "wakeUpCaller/tickTockOn1",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "wakeUpCaller/tickTockOn2",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "wakeUpCaller_offBeatTicking",
+      "deprecatedIDs": [],
       "name": "tick-tock offbeat",
       "cues": [
         {
           "id": "wakeUpCaller/tickTockOn1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "wakeUpCaller/tickTockOff1",
@@ -81,7 +100,7 @@
         },
         {
           "id": "wakeUpCaller/tickTockOn2",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "wakeUpCaller/tickTockOff2",
@@ -89,7 +108,7 @@
         },
         {
           "id": "wakeUpCaller/tickTockOn1",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "wakeUpCaller/tickTockOff1",
@@ -97,7 +116,7 @@
         },
         {
           "id": "wakeUpCaller/tickTockOn2",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "wakeUpCaller/tickTockOff2",

@@ -1,25 +1,29 @@
 {
-  "gameID": "karateManFeverEn",
-  "gameName": "Karate Man (Fever) (English)",
-  "series": "fever",
-  "cues": [
+  "id": "karateManFeverEn",
+  "deprecatedIDs": [],
+  "name": "Karate Man (Fever) (English)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "karateManFeverEn/potOut",
       "deprecatedIDs": [
         "karateMan/potout"
       ],
-      "duration": 1,
-      "name": "pot - out"
+      "name": "pot - out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "karateManFeverEn/offbeatPotOut",
       "deprecatedIDs": [
         "karateMan/offbeatpotout"
       ],
-      "duration": 1,
-      "name": "pot - offbeat out"
+      "name": "pot - offbeat out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "karateManFeverEn/potHit",
       "deprecatedIDs": [
         "karateMan/roaster",
@@ -27,126 +31,139 @@
         "karateMan/alienhit",
         "karateMan/pothit"
       ],
-      "duration": 1,
-      "name": "pot - hit"
+      "name": "pot - hit",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "karateManFeverEn/soccerHit",
       "deprecatedIDs": [
         "karateMan/soccerHit"
       ],
-      "duration": 1,
-      "name": "soccer ball - hit"
+      "name": "soccer ball - hit",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "karateManFeverEn/hit3cue1",
       "deprecatedIDs": [
         "karateMan/hit3cue1"
       ],
-      "duration": 0.5,
-      "name": "hit"
+      "name": "hit",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "karateManFeverEn/hit3cue2",
       "deprecatedIDs": [
         "karateMan/hit3cue2"
       ],
-      "duration": 0.5,
-      "name": "3!"
+      "name": "3!",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "karateManFeverEn/hit4",
       "deprecatedIDs": [
         "karateMan/hit4"
       ],
-      "duration": 0.5,
-      "name": "4!"
+      "name": "4!",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "karateManFeverEn/rock",
       "deprecatedIDs": [
         "karateMan/rock"
       ],
-      "duration": 1,
-      "name": "rock - hit"
+      "name": "rock - hit",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "karateManFeverEn/bulbOut",
       "deprecatedIDs": [
         "karateMan/bulbout"
       ],
-      "duration": 1,
-      "name": "lightbulb - out"
+      "name": "lightbulb - out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "karateManFeverEn/bulbHit",
       "deprecatedIDs": [
         "karateMan/bulbhit"
       ],
-      "duration": 1,
-      "name": "lightbulb - hit"
+      "name": "lightbulb - hit",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "karateManFeverEn/barrelOut",
       "deprecatedIDs": [
         "karateMan/barreloutCombos",
         "karateMan/barreloutKicks",
         "karateMan/barrelout"
       ],
-      "duration": 1,
-      "name": "barrel - out"
+      "name": "barrel - out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "karateManFeverEn/punchy1",
       "deprecatedIDs": [
         "karateMan/punchy1"
       ],
-      "duration": 0.25,
-      "name": "combo - 1"
+      "name": "combo - 1",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "karateManFeverEn/punchy2",
       "deprecatedIDs": [
         "karateMan/punchy2"
       ],
-      "duration": 0.25,
-      "name": "combo - 2"
+      "name": "combo - 2",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "karateManFeverEn/punchy3",
       "deprecatedIDs": [
         "karateMan/punchy3"
       ],
-      "duration": 0.25,
-      "name": "combo - 3"
+      "name": "combo - 3",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "karateManFeverEn/punchy4",
       "deprecatedIDs": [
         "karateMan/punchy4"
       ],
-      "duration": 0.25,
-      "name": "combo - 4"
+      "name": "combo - 4",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "karateManFeverEn/ko",
       "deprecatedIDs": [
         "karateMan/ko"
       ],
-      "duration": 0.5,
-      "name": "combo - 5"
+      "name": "combo - 5",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "karateManFeverEn/pow",
       "deprecatedIDs": [
         "karateMan/pow"
       ],
-      "duration": 1.5,
-      "name": "combo - 6"
-    }
-  ],
-  "patterns": [
+      "name": "combo - 6",
+      "duration": 1.5
+    },
     {
+      "type": "pattern",
       "id": "karateManFeverEn_pot",
       "deprecatedIDs": [
         "karateMan/alien",
@@ -156,15 +173,16 @@
       "cues": [
         {
           "id": "karateManFeverEn/potOut",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "karateManFeverEn/potHit",
-          "beat": 1
+          "beat": 1.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "karateManFeverEn_offbeatPot",
       "deprecatedIDs": [
         "karateMan_offbeatpot"
@@ -173,15 +191,16 @@
       "cues": [
         {
           "id": "karateManFeverEn/offbeatPotOut",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "karateManFeverEn/potHit",
-          "beat": 1
+          "beat": 1.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "karateManFeverEn_soccerBall",
       "deprecatedIDs": [
         "karateMan_soccer ball"
@@ -190,15 +209,16 @@
       "cues": [
         {
           "id": "karateManFeverEn/potOut",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "karateManFeverEn/soccerHit",
-          "beat": 1
+          "beat": 1.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "karateManFeverEn_hit3",
       "deprecatedIDs": [
         "karateMan_hit3"
@@ -207,7 +227,7 @@
       "cues": [
         {
           "id": "karateManFeverEn/hit3cue1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "karateManFeverEn/hit3cue2",
@@ -242,6 +262,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "karateManFeverEn_hit4",
       "deprecatedIDs": [
         "karateMan_hit4"
@@ -250,7 +271,7 @@
       "cues": [
         {
           "id": "karateManFeverEn/hit3cue1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "karateManFeverEn/hit4",
@@ -295,6 +316,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "karateManFeverEn_lightbulb",
       "deprecatedIDs": [
         "karateMan/lightbulbUnused",
@@ -304,15 +326,16 @@
       "cues": [
         {
           "id": "karateManFeverEn/bulbOut",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "karateManFeverEn/bulbHit",
-          "beat": 1
+          "beat": 1.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "karateManFeverEn_comboSolo",
       "deprecatedIDs": [
         "karateMan_comboSolo"
@@ -321,11 +344,11 @@
       "cues": [
         {
           "id": "karateManFeverEn/barrelOut",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "karateManFeverEn/punchy1",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "karateManFeverEn/punchy2",
@@ -341,7 +364,7 @@
         },
         {
           "id": "karateManFeverEn/ko",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "karateManFeverEn/pow",
@@ -350,6 +373,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "karateManFeverEn_combo",
       "deprecatedIDs": [
         "karateMan_combo",
@@ -359,19 +383,19 @@
       "cues": [
         {
           "id": "karateManFeverEn/bulbOut",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "karateManFeverEn/bulbHit",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "karateManFeverEn/barrelOut",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "karateManFeverEn/punchy1",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "karateManFeverEn/punchy2",
@@ -387,7 +411,7 @@
         },
         {
           "id": "karateManFeverEn/ko",
-          "beat": 4
+          "beat": 4.0
         },
         {
           "id": "karateManFeverEn/pow",

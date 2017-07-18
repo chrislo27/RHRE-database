@@ -1,156 +1,173 @@
 {
-  "gameID": "frogHopEn",
-  "gameName": "Frog Hop (English) (DS)",
-  "series": "ds",
-  "cues": [
+  "id": "frogHopEn",
+  "deprecatedIDs": [],
+  "name": "Frog Hop (English) (DS)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "frogHopEn/one",
       "deprecatedIDs": [
         "frogHop/one"
       ],
-      "duration": 1,
-      "name": "countin - 1"
+      "name": "countin - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "frogHopEn/two",
       "deprecatedIDs": [
         "frogHop/two"
       ],
-      "duration": 1,
-      "name": "countin - 2"
+      "name": "countin - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "frogHopEn/three",
       "deprecatedIDs": [
         "frogHop/three"
       ],
-      "duration": 1,
-      "name": "countin - 3"
+      "name": "countin - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "frogHopEn/four",
       "deprecatedIDs": [
         "frogHop/four"
       ],
-      "duration": 1,
-      "name": "countin - 4"
+      "name": "countin - 4",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "frogHopEn/shake",
       "deprecatedIDs": [
         "frogHop/shake"
       ],
-      "duration": 1,
-      "name": "shake"
+      "name": "shake",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "frogHopEn/yahoo1",
       "deprecatedIDs": [
         "frogHop/yahoo1"
       ],
-      "duration": 0.5,
-      "name": "yahoo - lead - ya-"
+      "name": "yahoo - lead - ya-",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopEn/yahoo2",
       "deprecatedIDs": [
         "frogHop/yahoo2"
       ],
-      "duration": 0.5,
-      "name": "yahoo - lead - -hoo!"
+      "name": "yahoo - lead - -hoo!",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopEn/yahoo3",
       "deprecatedIDs": [
         "frogHop/yahoo3"
       ],
-      "duration": 0.5,
-      "name": "yahoo - backup - ya-"
+      "name": "yahoo - backup - ya-",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopEn/yahoo4",
       "deprecatedIDs": [
         "frogHop/yahoo4"
       ],
-      "duration": 0.5,
-      "name": "yahoo - backup - -hoo!"
+      "name": "yahoo - backup - -hoo!",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopEn/yeah1",
       "deprecatedIDs": [
         "frogHop/yeah1"
       ],
-      "duration": 0.5,
-      "name": "yeah yeah yeah - lead - yeah"
+      "name": "yeah yeah yeah - lead - yeah",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopEn/yeah2",
       "deprecatedIDs": [
         "frogHop/yeah2"
       ],
-      "duration": 0.5,
-      "name": "yeah yeah yeah - backup - yeah"
+      "name": "yeah yeah yeah - backup - yeah",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopEn/spinitboys1",
       "deprecatedIDs": [
         "frogHop/spinitboys1"
       ],
-      "duration": 0.5,
-      "name": "spin it boys - lead - spin"
+      "name": "spin it boys - lead - spin",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopEn/spinitboys2",
       "deprecatedIDs": [
         "frogHop/spinitboys2"
       ],
-      "duration": 0.5,
-      "name": "spin it boys - lead - it"
+      "name": "spin it boys - lead - it",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopEn/spinitboys3",
       "deprecatedIDs": [
         "frogHop/spinitboys3"
       ],
-      "duration": 0.5,
-      "name": "spin it boys - lead - boys"
+      "name": "spin it boys - lead - boys",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopEn/spinitboys4",
       "deprecatedIDs": [
         "frogHop/spinitboys4"
       ],
-      "duration": 0.5,
-      "name": "spin it boys - backup - spin"
+      "name": "spin it boys - backup - spin",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopEn/spinitboys5",
       "deprecatedIDs": [
         "frogHop/spinitboys5"
       ],
-      "duration": 0.5,
-      "name": "spin it boys - backup - it"
+      "name": "spin it boys - backup - it",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopEn/spinitboys6",
       "deprecatedIDs": [
         "frogHop/spinitboys6"
       ],
-      "duration": 0.5,
-      "name": "spin it boys - backup - boys"
+      "name": "spin it boys - backup - boys",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopEn/wakame",
       "deprecatedIDs": [
         "frogHop/wakame"
       ],
-      "duration": 1,
       "name": "WAAAAAKAAAAAME",
-      "fileExtension": "ogg"
-    }
-  ],
-  "patterns": [
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "frogHopEn_shake",
       "deprecatedIDs": [
         "frogHop_shake"
@@ -176,6 +193,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "frogHopEn_yahoo",
       "deprecatedIDs": [
         "frogHop_yahoo"
@@ -211,6 +229,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "frogHopEn_yeahyeahyeah",
       "deprecatedIDs": [
         "frogHop_yeahyeahyeah"
@@ -254,6 +273,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "frogHopEn_spinitboys",
       "deprecatedIDs": [
         "frogHop_spinitboys"
@@ -297,6 +317,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "frogHopEn_2BeatCountIn",
       "deprecatedIDs": [
         "frogHop_2BeatCountIn"
@@ -314,6 +335,7 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "frogHopEn_4BeatCountIn",
       "deprecatedIDs": [
         "frogHop_4BeatCountIn"

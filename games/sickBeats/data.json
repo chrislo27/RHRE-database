@@ -1,52 +1,64 @@
 {
-  "gameID": "sickBeats",
-  "gameName": "Sick Beats (GBA)",
-  "series": "tengoku",
-  "cues": [
+  "id": "sickBeats",
+  "deprecatedIDs": [],
+  "name": "Sick Beats (GBA)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "sickBeats/appear1",
       "deprecatedIDs": [
         "sickBeats/appear"
       ],
-      "duration": 1,
-      "name": "appear - 1"
+      "name": "appear - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "sickBeats/appear2",
-      "duration": 1,
-      "name": "appear - 2"
+      "deprecatedIDs": [],
+      "name": "appear - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "sickBeats/appear3",
-      "duration": 1,
-      "name": "appear - 3"
+      "deprecatedIDs": [],
+      "name": "appear - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "sickBeats/resist",
-      "duration": 1,
-      "name": "damage"
+      "deprecatedIDs": [],
+      "name": "damage",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "sickBeats/stab1",
       "deprecatedIDs": [
         "sickBeats/stab"
       ],
-      "duration": 1,
-      "name": "kill - 1"
+      "name": "kill - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "sickBeats/stab2",
-      "duration": 1,
-      "name": "kill - 2"
+      "deprecatedIDs": [],
+      "name": "kill - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "sickBeats/whoosh",
-      "duration": 0.1875,
-      "name": "dash"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "dash",
+      "duration": 0.1875
+    },
     {
+      "type": "pattern",
       "id": "sickBeats_blueVirus1",
       "deprecatedIDs": [
         "sickBeats_blueVirus"
@@ -55,49 +67,55 @@
       "cues": [
         {
           "id": "sickBeats/appear2",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "sickBeats/stab1",
-          "beat": 1
+          "beat": 1.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "sickBeats_blueVirus2",
+      "deprecatedIDs": [],
       "name": "blue virus 2",
       "cues": [
         {
           "id": "sickBeats/appear1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "sickBeats/stab2",
-          "beat": 1
+          "beat": 1.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "sickBeats_blueVirus3",
+      "deprecatedIDs": [],
       "name": "blue virus 3",
       "cues": [
         {
           "id": "sickBeats/appear3",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "sickBeats/stab2",
-          "beat": 1
+          "beat": 1.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "sickBeats_quickBlueVirus",
+      "deprecatedIDs": [],
       "name": "quick blue virus",
       "cues": [
         {
           "id": "sickBeats/whoosh",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "sickBeats/whoosh",
@@ -118,56 +136,62 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "sickBeats_pinkVirus1",
+      "deprecatedIDs": [],
       "name": "pink virus 1",
       "cues": [
         {
           "id": "sickBeats/appear2",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "sickBeats/resist",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "sickBeats/appear3",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "sickBeats/stab2",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "sickBeats_pinkVirus",
+      "deprecatedIDs": [],
       "name": "pink virus 2",
       "cues": [
         {
           "id": "sickBeats/appear3",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "sickBeats/resist",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "sickBeats/appear1",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "sickBeats/stab1",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "sickBeats_quickPinkVirus",
+      "deprecatedIDs": [],
       "name": "quick pink virus",
       "cues": [
         {
           "id": "sickBeats/whoosh",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "sickBeats/whoosh",
@@ -192,96 +216,102 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "sickBeats_blackVirus1",
+      "deprecatedIDs": [],
       "name": "black virus 1",
       "cues": [
         {
           "id": "sickBeats/appear2",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "sickBeats/resist",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "sickBeats/appear3",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "sickBeats/resist",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "sickBeats/appear1",
-          "beat": 4
+          "beat": 4.0
         },
         {
           "id": "sickBeats/stab1",
-          "beat": 5
+          "beat": 5.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "sickBeats_blackVirus2",
+      "deprecatedIDs": [],
       "name": "black virus 2",
       "cues": [
         {
           "id": "sickBeats/appear1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "sickBeats/resist",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "sickBeats/appear2",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "sickBeats/resist",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "sickBeats/appear3",
-          "beat": 4
+          "beat": 4.0
         },
         {
           "id": "sickBeats/stab2",
-          "beat": 5
+          "beat": 5.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "sickBeats_quickBlackVirus",
+      "deprecatedIDs": [],
       "name": "quick black virus",
       "cues": [
         {
           "id": "sickBeats/whoosh",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "sickBeats/appear1",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "sickBeats/resist",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "sickBeats/appear3",
-          "beat": 4
+          "beat": 4.0
         },
         {
           "id": "sickBeats/resist",
-          "beat": 5
+          "beat": 5.0
         },
         {
           "id": "sickBeats/appear3",
-          "beat": 6
+          "beat": 6.0
         },
         {
           "id": "sickBeats/stab2",
-          "beat": 7
+          "beat": 7.0
         }
       ]
     }

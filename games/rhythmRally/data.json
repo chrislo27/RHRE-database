@@ -1,46 +1,58 @@
 {
-  "gameID": "rhythmRally",
-  "gameName": "Rhythm Rally (DS)",
-  "series": "ds",
-  "cues": [
+  "id": "rhythmRally",
+  "deprecatedIDs": [],
+  "name": "Rhythm Rally (DS)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "rhythmRally/whistle",
-      "duration": 1,
-      "name": "whistle"
+      "deprecatedIDs": [],
+      "name": "whistle",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "rhythmRally/hit1",
-      "duration": 0.5,
-      "name": "bounce - opponent"
+      "deprecatedIDs": [],
+      "name": "bounce - opponent",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "rhythmRally/hit2",
-      "duration": 0.5,
-      "name": "bounce - table"
+      "deprecatedIDs": [],
+      "name": "bounce - table",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "rhythmRally/hit3",
-      "duration": 0.5,
-      "name": "bounce - player"
+      "deprecatedIDs": [],
+      "name": "bounce - player",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "rhythmRally/tonk",
-      "duration": 0.5,
-      "name": "tonk"
+      "deprecatedIDs": [],
+      "name": "tonk",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "rhythmRally/tink",
-      "duration": 0.5,
-      "name": "tink"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "tink",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "rhythmRally_slowrally",
-      "name": "slow rally",
       "deprecatedIDs": [
         "rhythmrally_slowrally"
       ],
+      "name": "slow rally",
       "cues": [
         {
           "id": "rhythmRally/hit1",
@@ -61,11 +73,12 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "rhythmRally_normalrally",
-      "name": "normal rally",
       "deprecatedIDs": [
         "rhythmrally_normalrally"
       ],
+      "name": "normal rally",
       "cues": [
         {
           "id": "rhythmRally/hit1",
@@ -86,11 +99,12 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "rhythmRally_fastrally",
-      "name": "fast rally",
       "deprecatedIDs": [
         "rhythmrally_fastrally"
       ],
+      "name": "fast rally",
       "cues": [
         {
           "id": "rhythmRally/tonk",
@@ -123,11 +137,12 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "rhythmRally_turborally",
-      "name": "turbo rally",
       "deprecatedIDs": [
         "rhythmrally_turborally"
       ],
+      "name": "turbo rally",
       "cues": [
         {
           "id": "rhythmRally/tonk",

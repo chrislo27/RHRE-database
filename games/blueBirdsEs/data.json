@@ -1,67 +1,88 @@
 {
-  "gameID": "blueBirdsEs",
-  "gameName": "Blue Birds (DS) (Spanish)",
-  "series": "ds",
-  "cues": [
+  "id": "blueBirdsEs",
+  "deprecatedIDs": [],
+  "name": "Blue Birds (DS) (Spanish)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "blueBirdsEs/peckyourbeak1",
-      "duration": 0.5,
-      "name": "peck your beak - peck"
+      "deprecatedIDs": [],
+      "name": "peck your beak - peck",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "blueBirdsEs/peckyourbeak2",
-      "duration": 0.5,
-      "name": "peck your beak - your"
+      "deprecatedIDs": [],
+      "name": "peck your beak - your",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "blueBirdsEs/peckyourbeak3",
-      "duration": 0.5,
-      "name": "peck your beak - beak"
+      "deprecatedIDs": [],
+      "name": "peck your beak - beak",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "blueBirdsEs/peck",
-      "duration": 0.5,
-      "name": "peck"
+      "deprecatedIDs": [],
+      "name": "peck",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "blueBirdsEs/stretchoutyourneck1",
-      "duration": 0.75,
-      "name": "stretch out your neck - stretch"
+      "deprecatedIDs": [],
+      "name": "stretch out your neck - stretch",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "blueBirdsEs/stretchoutyourneck2",
-      "duration": 0.75,
-      "name": "stretch out your neck - out"
+      "deprecatedIDs": [],
+      "name": "stretch out your neck - out",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "blueBirdsEs/stretchoutyourneck3",
-      "duration": 0.5,
-      "name": "stretch out your neck - your"
+      "deprecatedIDs": [],
+      "name": "stretch out your neck - your",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "blueBirdsEs/stretchoutyourneck4",
-      "duration": 1,
-      "name": "stretch out your neck - neck!"
+      "deprecatedIDs": [],
+      "name": "stretch out your neck - neck!",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "blueBirdsEs/stretch1",
-      "duration": 1,
-      "name": "stretch1"
+      "deprecatedIDs": [],
+      "name": "stretch1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "blueBirdsEs/stretch2",
-      "duration": 0.5,
-      "name": "stretch2"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "stretch2",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "blueBirdsEs_peckyourbeak",
+      "deprecatedIDs": [],
       "name": "peck your beak",
       "cues": [
         {
           "id": "blueBirdsEs/peckyourbeak1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "blueBirdsEs/peckyourbeak2",
@@ -69,11 +90,11 @@
         },
         {
           "id": "blueBirdsEs/peckyourbeak3",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "blueBirdsEs/peck",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "blueBirdsEs/peck",
@@ -81,17 +102,19 @@
         },
         {
           "id": "blueBirdsEs/peck",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "blueBirdsEs_stretchoutyourneck",
+      "deprecatedIDs": [],
       "name": "stretch out your neck",
       "cues": [
         {
           "id": "blueBirdsEs/stretchoutyourneck1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "blueBirdsEs/stretchoutyourneck2",
@@ -103,15 +126,15 @@
         },
         {
           "id": "blueBirdsEs/stretchoutyourneck4",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "blueBirdsEs/stretch1",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "blueBirdsEs/stretch2",
-          "beat": 4
+          "beat": 4.0
         }
       ]
     }

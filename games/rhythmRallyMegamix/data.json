@@ -1,56 +1,72 @@
 {
-  "gameID": "rhythmRallyMegamix",
-  "gameName": "Rhythm Rally (Megamix)",
-  "series": "megamix",
-  "cues": [
+  "id": "rhythmRallyMegamix",
+  "deprecatedIDs": [],
+  "name": "Rhythm Rally (Megamix)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "rhythmRallyMegamix/whistle",
-      "duration": 1,
-      "name": "whistle"
+      "deprecatedIDs": [],
+      "name": "whistle",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "rhythmRallyMegamix/flowerStart",
-      "duration": 10,
-      "name": "big flower - beginning (story)"
+      "deprecatedIDs": [],
+      "name": "big flower - beginning (story)",
+      "duration": 10.0
     },
     {
+      "type": "cue",
       "id": "rhythmRallyMegamix/cakeStart",
-      "duration": 12,
-      "name": "big cake - beginning (sequel)"
+      "deprecatedIDs": [],
+      "name": "big cake - beginning (sequel)",
+      "duration": 12.0
     },
     {
+      "type": "cue",
       "id": "rhythmRallyMegamix/hit1",
-      "duration": 0.5,
-      "name": "bounce - opponent"
+      "deprecatedIDs": [],
+      "name": "bounce - opponent",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "rhythmRallyMegamix/hit2",
-      "duration": 0.5,
-      "name": "bounce - table"
+      "deprecatedIDs": [],
+      "name": "bounce - table",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "rhythmRallyMegamix/hit3",
-      "duration": 0.5,
-      "name": "bounce - player"
+      "deprecatedIDs": [],
+      "name": "bounce - player",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "rhythmRallyMegamix/tonk",
-      "duration": 0.5,
-      "name": "tonk"
+      "deprecatedIDs": [],
+      "name": "tonk",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "rhythmRallyMegamix/tink",
-      "duration": 0.5,
-      "name": "tink"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "tink",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "rhythmRallyMegamix_slowrally",
-      "name": "slow rally",
       "deprecatedIDs": [
         "rhythmrallymegamix_slowrally"
       ],
+      "name": "slow rally",
       "cues": [
         {
           "id": "rhythmRallyMegamix/hit1",
@@ -71,11 +87,12 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "rhythmRallyMegamix_normalrally",
-      "name": "normal rally",
       "deprecatedIDs": [
         "rhythmrallymegamix_normalrally"
       ],
+      "name": "normal rally",
       "cues": [
         {
           "id": "rhythmRallyMegamix/hit1",
@@ -96,11 +113,12 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "rhythmRallyMegamix_fastrally",
-      "name": "fast rally",
       "deprecatedIDs": [
         "rhythmrallymegamix_fastrally"
       ],
+      "name": "fast rally",
       "cues": [
         {
           "id": "rhythmRallyMegamix/tonk",
@@ -133,11 +151,12 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "rhythmRallyMegamix_turborally",
-      "name": "turbo rally",
       "deprecatedIDs": [
         "rhythmrallymegamix_turborally"
       ],
+      "name": "turbo rally",
       "cues": [
         {
           "id": "rhythmRallyMegamix/tonk",

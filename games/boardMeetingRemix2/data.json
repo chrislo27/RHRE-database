@@ -1,129 +1,151 @@
 {
-  "gameID": "boardMeetingRemix2",
-  "gameName": "Board Meeting (Remix 2)",
-  "series": "fever",
-  "cues": [
+  "id": "boardMeetingRemix2",
+  "deprecatedIDs": [],
+  "name": "Board Meeting (Remix 2)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "boardMeetingRemix2/startPrepare",
-      "duration": 1.0,
-      "name": "start - prepare"
+      "deprecatedIDs": [],
+      "name": "start - prepare",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "boardMeetingRemix2/start1",
-      "duration": 1.0,
-      "name": "start - single"
+      "deprecatedIDs": [],
+      "name": "start - single",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "boardMeetingRemix2/spin1Loop",
-      "canAlterDuration": true,
-      "introSound": "boardMeetingRemix2/start1",
+      "deprecatedIDs": [],
+      "name": "spinning - start - 1",
       "duration": 1.0,
-      "loops": true,
-      "name": "spinning - start - 1"
+      "stretchable": true
     },
     {
+      "type": "cue",
       "id": "boardMeetingRemix2/start2",
-      "duration": 1.0,
-      "name": "start - 2"
+      "deprecatedIDs": [],
+      "name": "start - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "boardMeetingRemix2/spin2Loop",
-      "canAlterDuration": true,
-      "introSound": "boardMeetingRemix2/start2",
+      "deprecatedIDs": [],
+      "name": "spinning - start - 2",
       "duration": 1.0,
-      "loops": true,
-      "name": "spinning - start - 2"
+      "stretchable": true
     },
     {
+      "type": "cue",
       "id": "boardMeetingRemix2/start3",
-      "duration": 1.0,
-      "name": "start - 3"
+      "deprecatedIDs": [],
+      "name": "start - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "boardMeetingRemix2/spin3Loop",
-      "canAlterDuration": true,
-      "introSound": "boardMeetingRemix2/start3",
+      "deprecatedIDs": [],
+      "name": "spinning - start - 3",
       "duration": 1.0,
-      "loops": true,
-      "name": "spinning - start - 3"
+      "stretchable": true
     },
     {
+      "type": "cue",
       "id": "boardMeetingRemix2/start4",
-      "duration": 1.0,
-      "name": "start - 4"
+      "deprecatedIDs": [],
+      "name": "start - 4",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "boardMeetingRemix2/spin4Loop",
-      "canAlterDuration": true,
-      "introSound": "boardMeetingRemix2/start4",
+      "deprecatedIDs": [],
+      "name": "spinning - start - 4",
       "duration": 1.0,
-      "loops": true,
-      "name": "spinning - start - 4"
+      "stretchable": true
     },
     {
+      "type": "cue",
       "id": "boardMeetingRemix2/stop",
-      "duration": 0.5,
-      "name": "stop"
+      "deprecatedIDs": [],
+      "name": "stop",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "boardMeetingRemix2/stopPlayer",
-      "duration": 0.5,
-      "name": "stop - player"
+      "deprecatedIDs": [],
+      "name": "stop - player",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "boardMeetingRemix2/startTogether",
-      "duration": 1.0,
-      "name": "start - together"
+      "deprecatedIDs": [],
+      "name": "start - together",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "boardMeetingRemix2/spinTogether",
+      "deprecatedIDs": [],
+      "name": "spinning - start - together",
       "duration": 1.0,
-      "canAlterDuration": true,
-      "name": "spinning - start - together"
+      "stretchable": true
     },
     {
+      "type": "cue",
       "id": "boardMeetingRemix2/abStop1",
       "deprecatedIDs": [
         "boardMeeting/abStopM1",
         "boardMeetingEn/abStopM1",
         "boardMeetingJa/abStopM1"
       ],
-      "duration": 0.5,
-      "name": "assistant - one"
+      "name": "assistant - one",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "boardMeetingRemix2/abStop2",
       "deprecatedIDs": [
         "boardMeeting/abStopM2",
         "boardMeetingEn/abStopM2",
         "boardMeetingJa/abStopM2"
       ],
-      "duration": 0.25,
-      "name": "assistant - two"
+      "name": "assistant - two",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "boardMeetingRemix2/abStop3",
       "deprecatedIDs": [
         "boardMeeting/abStopM3",
         "boardMeetingEn/abStopM3",
         "boardMeetingJa/abStopM3"
       ],
-      "duration": 0.75,
-      "name": "assistant - three"
+      "name": "assistant - three",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "boardMeetingRemix2/abStop4",
       "deprecatedIDs": [
         "boardMeeting/abStopM4",
         "boardMeetingEn/abStopM4",
         "boardMeetingJa/abStopM4"
       ],
-      "duration": 1.0,
-      "name": "stop - together"
-    }
-  ],
-  "patterns": [
+      "name": "stop - together",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "boardMeetingRemix2_assistant",
       "deprecatedIDs": [
         "boardMeeting_monkey",

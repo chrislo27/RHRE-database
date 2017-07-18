@@ -1,56 +1,62 @@
 {
-  "gameID": "drummerDuelEn",
-  "gameName": "Drummer Duel (English)",
-  "series": "ds",
-  "cues": [
+  "id": "drummerDuelEn",
+  "deprecatedIDs": [],
+  "name": "Drummer Duel (English)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "drummerDuelEn/redOnbeat",
       "deprecatedIDs": [
         "drummerDuel/redOnbeat"
       ],
-      "duration": 0.5,
-      "name": "red - onbeat drum"
+      "name": "red - onbeat drum",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "drummerDuelEn/redOffbeat",
       "deprecatedIDs": [
         "drummerDuel/redOffbeat"
       ],
-      "duration": 0.5,
-      "name": "red - offbeat drum"
+      "name": "red - offbeat drum",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "drummerDuelEn/redPass",
       "deprecatedIDs": [
         "drummerDuel/redPass"
       ],
-      "duration": 1.0,
-      "name": "red - turn pass"
+      "name": "red - turn pass",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "drummerDuelEn/blueOnbeat",
       "deprecatedIDs": [
         "drummerDuel/blueOnbeat"
       ],
-      "duration": 0.5,
-      "name": "blue - onbeat drum"
+      "name": "blue - onbeat drum",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "drummerDuelEn/blueOffbeat",
       "deprecatedIDs": [
         "drummerDuel/blueOffbeat"
       ],
-      "duration": 0.5,
-      "name": "blue - offbeat drum"
+      "name": "blue - offbeat drum",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "drummerDuelEn/bluePass",
       "deprecatedIDs": [
         "drummerDuel/bluePass"
       ],
-      "duration": 1.0,
-      "name": "blue - turn pass"
+      "name": "blue - turn pass",
+      "duration": 1.0
     }
-  ],
-  "patterns": []
+  ]
 }

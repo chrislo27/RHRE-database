@@ -1,57 +1,76 @@
 {
-  "gameID": "nightWalkFever",
-  "gameName": "Night Walk (Fever)",
-  "series": "fever",
-  "cues": [
+  "id": "nightWalkFever",
+  "deprecatedIDs": [],
+  "name": "Night Walk (Fever)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "nightWalkFever/jump1",
-      "duration": 1,
-      "name": "jump1"
+      "deprecatedIDs": [],
+      "name": "jump1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "nightWalkFever/jump2",
-      "duration": 1,
-      "name": "jump2"
+      "deprecatedIDs": [],
+      "name": "jump2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "nightWalkFever/roll1",
-      "duration": 0.25,
-      "name": "roll1"
+      "deprecatedIDs": [],
+      "name": "roll1",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "nightWalkFever/roll2",
-      "duration": 0.25,
-      "name": "roll2"
+      "deprecatedIDs": [],
+      "name": "roll2",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "nightWalkFever/roll3",
-      "duration": 0.25,
-      "name": "roll3"
+      "deprecatedIDs": [],
+      "name": "roll3",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "nightWalkFever/roll4",
-      "duration": 0.25,
-      "name": "roll4"
+      "deprecatedIDs": [],
+      "name": "roll4",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "nightWalkFever/roll5",
-      "duration": 0.25,
-      "name": "roll5"
+      "deprecatedIDs": [],
+      "name": "roll5",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "nightWalkFever/roll6",
-      "duration": 0.25,
-      "name": "roll6"
+      "deprecatedIDs": [],
+      "name": "roll6",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "nightWalkFever/roll7",
-      "duration": 1.5,
-      "name": "roll7"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "roll7",
+      "duration": 1.5
+    },
     {
+      "type": "pattern",
       "id": "nightWalkFever_jumping",
+      "deprecatedIDs": [],
       "name": "jumping",
       "cues": [
         {
@@ -73,7 +92,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "nightWalkFever_rollJump",
+      "deprecatedIDs": [],
       "name": "roll jump",
       "cues": [
         {

@@ -1,103 +1,139 @@
 {
-  "gameID": "frogHopMegamixEs",
-  "gameName": "Frog Hop (Megamix) (Spanish)",
-  "series": "megamix",
-  "cues": [
+  "id": "frogHopMegamixEs",
+  "deprecatedIDs": [],
+  "name": "Frog Hop (Megamix) (Spanish)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "frogHopMegamixEs/un",
-      "duration": 1,
-      "name": "countin - 1"
+      "deprecatedIDs": [],
+      "name": "countin - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "frogHopMegamixEs/dos",
-      "duration": 1,
-      "name": "countin - 2"
+      "deprecatedIDs": [],
+      "name": "countin - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "frogHopMegamixEs/tres",
-      "duration": 1,
-      "name": "countin - 3"
+      "deprecatedIDs": [],
+      "name": "countin - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "frogHopMegamixEs/y",
-      "duration": 1,
-      "name": "countin - 4"
+      "deprecatedIDs": [],
+      "name": "countin - 4",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "frogHopMegamixEs/shake",
-      "duration": 1,
-      "name": "shake"
+      "deprecatedIDs": [],
+      "name": "shake",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "frogHopMegamixEs/menear1",
-      "duration": 0.5,
-      "name": "menear - lead - me-"
+      "deprecatedIDs": [],
+      "name": "menear - lead - me-",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopMegamixEs/menear2",
-      "duration": 0.5,
-      "name": "menear - lead - -near!"
+      "deprecatedIDs": [],
+      "name": "menear - lead - -near!",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopMegamixEs/menear3",
-      "duration": 0.5,
-      "name": "menear - backup - me-"
+      "deprecatedIDs": [],
+      "name": "menear - backup - me-",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopMegamixEs/menear4",
-      "duration": 0.5,
-      "name": "menear - backup - -near!"
+      "deprecatedIDs": [],
+      "name": "menear - backup - -near!",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopMegamixEs/ye1",
-      "duration": 0.5,
-      "name": "ye ye ye - lead - ye"
+      "deprecatedIDs": [],
+      "name": "ye ye ye - lead - ye",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopMegamixEs/ye2",
-      "duration": 0.5,
-      "name": "ye ye ye - backup - ye"
+      "deprecatedIDs": [],
+      "name": "ye ye ye - backup - ye",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopMegamixEs/aGirar1",
-      "duration": 0.5,
-      "name": "a girar - lead - a"
+      "deprecatedIDs": [],
+      "name": "a girar - lead - a",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopMegamixEs/aGirar2",
-      "duration": 0.5,
-      "name": "a girar - lead - gi-"
+      "deprecatedIDs": [],
+      "name": "a girar - lead - gi-",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopMegamixEs/aGirar3",
-      "duration": 0.5,
-      "name": "a girar - lead - rar"
+      "deprecatedIDs": [],
+      "name": "a girar - lead - rar",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopMegamixEs/aGirar4",
-      "duration": 0.5,
-      "name": "a girar - backup - a"
+      "deprecatedIDs": [],
+      "name": "a girar - backup - a",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopMegamixEs/aGirar5",
-      "duration": 0.5,
-      "name": "a girar - backup - gi-"
+      "deprecatedIDs": [],
+      "name": "a girar - backup - gi-",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopMegamixEs/aGirar6",
-      "duration": 0.5,
-      "name": "a girar - backup - rar"
+      "deprecatedIDs": [],
+      "name": "a girar - backup - rar",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "frogHopMegamixEs/gracias",
-      "duration": 1,
+      "deprecatedIDs": [],
       "name": "gracias, muuuuuchas gracias",
-      "fileExtension": "ogg"
-    }
-  ],
-  "patterns": [
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "frogHopMegamixEs_shake",
+      "deprecatedIDs": [],
       "name": "shake",
       "cues": [
         {
@@ -119,7 +155,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "frogHopMegamixEs_menear",
+      "deprecatedIDs": [],
       "name": "yahoo",
       "cues": [
         {
@@ -151,7 +189,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "frogHopMegamixEs_yeyeye",
+      "deprecatedIDs": [],
       "name": "yeah yeah yeah",
       "cues": [
         {
@@ -191,7 +231,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "frogHopMegamixEs_aGirar",
+      "deprecatedIDs": [],
       "name": "spin it boys!",
       "cues": [
         {
@@ -231,7 +273,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "frogHopMegamixEs_2BeatCountIn",
+      "deprecatedIDs": [],
       "name": "2-beat count-in",
       "cues": [
         {
@@ -245,7 +289,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "frogHopMegamixEs_4BeatCountIn",
+      "deprecatedIDs": [],
       "name": "4-beat count-in",
       "cues": [
         {

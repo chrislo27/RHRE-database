@@ -1,10 +1,7 @@
 {
-  "gameID": "bossaNovaEn",
-  "gameName": "Bossa Nova",
-  "series": "fever",
-  "usesGeneratorHelper": true,
-  "cues": [
-  ],
-  "patterns": [
-  ]
+  "id": "bossaNovaEn",
+  "deprecatedIDs": [],
+  "name": "Bossa Nova",
+  "requiresVersion": "v3.0.0",
+  "objects": []
 }

@@ -1,86 +1,101 @@
 {
-  "gameID": "kickingGuy",
-  "gameName": "Kicking Guy",
-  "priority": -1,
-  "cues": [
+  "id": "kickingGuy",
+  "deprecatedIDs": [],
+  "name": "Kicking Guy",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "kickingGuy/cowbell",
-      "duration": 1,
-      "name": "cowbell"
+      "deprecatedIDs": [],
+      "name": "cowbell",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "kickingGuy/hit",
-      "duration": 0.5,
-      "name": "hit"
+      "deprecatedIDs": [],
+      "name": "hit",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "kickingGuy/hereWeGo1",
-      "duration": 0.5,
-      "name": "here we go - 1"
+      "deprecatedIDs": [],
+      "name": "here we go - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "kickingGuy/hereWeGo2",
-      "duration": 0.5,
-      "name": "here we go - 2"
+      "deprecatedIDs": [],
+      "name": "here we go - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "kickingGuy/hereWeGo3",
-      "duration": 0.5,
-      "name": "here we go - 3"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "here we go - 3",
+      "duration": 0.5
+    },
     {
+      "type": "pattern",
       "id": "kickingGuy_cowbell",
+      "deprecatedIDs": [],
       "name": "cowbell",
       "cues": [
         {
           "id": "kickingGuy/cowbell",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "kickingGuy/cowbell",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "kickingGuy/cowbell",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "kickingGuy/cowbell",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "kickingGuy_hit",
+      "deprecatedIDs": [],
       "name": "kicking",
       "cues": [
         {
           "id": "kickingGuy/hit",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "kickingGuy/hit",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "kickingGuy/hit",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "kickingGuy/hit",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "kickingGuy_triple",
+      "deprecatedIDs": [],
       "name": "here we go!",
       "cues": [
         {
           "id": "kickingGuy/hereWeGo1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "kickingGuy/hereWeGo2",
@@ -88,11 +103,11 @@
         },
         {
           "id": "kickingGuy/hereWeGo3",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "kickingGuy/hit",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "kickingGuy/hit",
@@ -100,7 +115,7 @@
         },
         {
           "id": "kickingGuy/hit",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     }

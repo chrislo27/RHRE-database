@@ -1,28 +1,36 @@
 {
-  "gameID": "shootEmUp",
-  "gameName": "Shoot-'em-Up (DS)",
-  "series": "ds",
-  "cues": [
+  "id": "shootEmUp",
+  "deprecatedIDs": [],
+  "name": "Shoot-'em-Up (DS)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "shootEmUp/spawn",
-      "duration": 0.5,
-      "name": "spawn"
+      "deprecatedIDs": [],
+      "name": "spawn",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "shootEmUp/shoot",
-      "duration": 0.5,
-      "name": "shoot"
+      "deprecatedIDs": [],
+      "name": "shoot",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "shootEmUp/commStart",
-      "duration": 0.5,
-      "name": "comms start"
+      "deprecatedIDs": [],
+      "name": "comms start",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "shootEmUp/commEnd",
-      "duration": 0.5,
-      "name": "comms end"
+      "deprecatedIDs": [],
+      "name": "comms end",
+      "duration": 0.5
     }
-  ],
-  "patterns": []
+  ]
 }

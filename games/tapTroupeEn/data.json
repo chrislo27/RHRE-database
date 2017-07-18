@@ -1,129 +1,152 @@
 {
-  "gameID": "tapTroupeEn",
-  "gameName": "Tap Troupe (English)",
-  "series": "fever",
-  "cues": [
+  "id": "tapTroupeEn",
+  "deprecatedIDs": [],
+  "name": "Tap Troupe (English)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "tapTroupeEn/step1",
       "deprecatedIDs": [
         "tapTroupe/step1"
       ],
-      "duration": 1,
-      "name": "step - 1"
+      "name": "step - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "tapTroupeEn/step2",
       "deprecatedIDs": [
         "tapTroupe/step2"
       ],
-      "duration": 1,
-      "name": "step - 2"
+      "name": "step - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "tapTroupeEn/ready1",
       "deprecatedIDs": [
         "tapTroupe/ready1"
       ],
-      "duration": 1,
-      "name": "read-"
+      "name": "read-",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "tapTroupeEn/ready2",
       "deprecatedIDs": [
         "tapTroupe/ready2"
       ],
-      "duration": 1,
-      "name": "-y!"
+      "name": "-y!",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "tapTroupeEn/popper",
       "deprecatedIDs": [
         "tapTroupe/popper"
       ],
-      "duration": 1,
-      "name": "popper"
+      "name": "popper",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "tapTroupeEn/and",
       "deprecatedIDs": [
         "tapTroupe/and"
       ],
-      "duration": 0.5,
-      "name": "and"
+      "name": "and",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "tapTroupeEn/bombom1",
       "deprecatedIDs": [
         "tapTroupe/bombom1"
       ],
-      "duration": 0.75,
-      "name": "bom - 1"
+      "name": "bom - 1",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "tapTroupeEn/bombom2",
       "deprecatedIDs": [
         "tapTroupe/bombom2"
       ],
-      "duration": 0.75,
-      "name": "bom - 2"
+      "name": "bom - 2",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "tapTroupeEn/taptaptap1",
       "deprecatedIDs": [
         "tapTroupe/taptaptap1"
       ],
-      "duration": 0.75,
-      "name": "tap - 1"
+      "name": "tap - 1",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "tapTroupeEn/taptaptap2",
       "deprecatedIDs": [
         "tapTroupe/taptaptap2"
       ],
-      "duration": 0.5,
-      "name": "tap - 2"
+      "name": "tap - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "tapTroupeEn/taptaptap3",
       "deprecatedIDs": [
         "tapTroupe/taptaptap3"
       ],
-      "duration": 1,
-      "name": "tap - 3"
+      "name": "tap - 3",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "tapTroupeEn/okay1a",
-      "duration": 0.5,
-      "name": "okay 1 - o"
+      "deprecatedIDs": [],
+      "name": "okay 1 - o",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "tapTroupeEn/okay1b",
-      "duration": 1.5,
-      "name": "okay 1 - kay"
+      "deprecatedIDs": [],
+      "name": "okay 1 - kay",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "tapTroupeEn/okay2a",
-      "duration": 0.5,
-      "name": "okay 2 - o"
+      "deprecatedIDs": [],
+      "name": "okay 2 - o",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "tapTroupeEn/okay2b",
-      "duration": 1.5,
-      "name": "okay 2 - kay"
+      "deprecatedIDs": [],
+      "name": "okay 2 - kay",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "tapTroupeEn/okay3a",
-      "duration": 0.5,
-      "name": "okay 3 - o"
+      "deprecatedIDs": [],
+      "name": "okay 3 - o",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "tapTroupeEn/okay3b",
-      "duration": 1.5,
-      "name": "okay 3 - kay"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "okay 3 - kay",
+      "duration": 1.5
+    },
     {
+      "type": "pattern",
       "id": "tapTroupeEn_step",
       "deprecatedIDs": [
         "tapTroupe_step"
@@ -132,23 +155,24 @@
       "cues": [
         {
           "id": "tapTroupeEn/step1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "tapTroupeEn/step2",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "tapTroupeEn/step1",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "tapTroupeEn/step2",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "tapTroupeEn_tap0bom",
       "deprecatedIDs": [
         "tapTroupe_tap0bom"
@@ -157,15 +181,15 @@
       "cues": [
         {
           "id": "tapTroupeEn/ready1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "tapTroupeEn/ready2",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "tapTroupeEn/and",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "tapTroupeEn/taptaptap1",
@@ -177,11 +201,12 @@
         },
         {
           "id": "tapTroupeEn/taptaptap3",
-          "beat": 4
+          "beat": 4.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "tapTroupeEn_tap3boms",
       "deprecatedIDs": [
         "tapTroupe_tap3boms"
@@ -190,15 +215,15 @@
       "cues": [
         {
           "id": "tapTroupeEn/ready1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "tapTroupeEn/ready2",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "tapTroupeEn/and",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "tapTroupeEn/bombom1",
@@ -210,7 +235,7 @@
         },
         {
           "id": "tapTroupeEn/bombom1",
-          "beat": 4
+          "beat": 4.0
         },
         {
           "id": "tapTroupeEn/taptaptap1",
@@ -222,11 +247,12 @@
         },
         {
           "id": "tapTroupeEn/taptaptap3",
-          "beat": 6
+          "beat": 6.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "tapTroupeEn_tap8boms",
       "deprecatedIDs": [
         "tapTroupe_tap8boms"
@@ -235,15 +261,15 @@
       "cues": [
         {
           "id": "tapTroupeEn/ready1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "tapTroupeEn/ready2",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "tapTroupeEn/and",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "tapTroupeEn/bombom1",
@@ -255,7 +281,7 @@
         },
         {
           "id": "tapTroupeEn/bombom1",
-          "beat": 4
+          "beat": 4.0
         },
         {
           "id": "tapTroupeEn/bombom2",
@@ -271,7 +297,7 @@
         },
         {
           "id": "tapTroupeEn/bombom1",
-          "beat": 7
+          "beat": 7.0
         },
         {
           "id": "tapTroupeEn/bombom2",
@@ -287,17 +313,19 @@
         },
         {
           "id": "tapTroupeEn/taptaptap3",
-          "beat": 10
+          "beat": 10.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "tapTroupeEn_okay1",
+      "deprecatedIDs": [],
       "name": "okay 1",
       "cues": [
         {
           "id": "tapTroupeEn/okay1a",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "tapTroupeEn/okay1b",
@@ -306,12 +334,14 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "tapTroupeEn_okay2",
+      "deprecatedIDs": [],
       "name": "okay 2",
       "cues": [
         {
           "id": "tapTroupeEn/okay2a",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "tapTroupeEn/okay2b",
@@ -320,12 +350,14 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "tapTroupeEn_okay3",
+      "deprecatedIDs": [],
       "name": "okay 3",
       "cues": [
         {
           "id": "tapTroupeEn/okay3a",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "tapTroupeEn/okay3b",

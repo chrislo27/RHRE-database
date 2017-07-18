@@ -1,18 +1,22 @@
 {
-  "gameID": "wizardWaltz",
-  "gameName": "Wizard Waltz",
-  "series": "tengoku",
-  "cues": [
+  "id": "wizardWaltz",
+  "deprecatedIDs": [],
+  "name": "Wizard Waltz",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "wizardWaltz/plant",
-      "duration": 0.5,
-      "name": "plant"
+      "deprecatedIDs": [],
+      "name": "plant",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "wizardWaltz/grow",
-      "duration": 0.5,
-      "name": "grow"
+      "deprecatedIDs": [],
+      "name": "grow",
+      "duration": 0.5
     }
-  ],
-  "patterns": []
+  ]
 }

@@ -1,87 +1,118 @@
 {
-  "gameID": "kitties",
-  "gameName": "Kitties!",
-  "series": "megamix",
-  "cues": [
+  "id": "kitties",
+  "deprecatedIDs": [],
+  "name": "Kitties!",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "kitties/nya1",
-      "duration": 0.5,
-      "name": "nya - 1"
+      "deprecatedIDs": [],
+      "name": "nya - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "kitties/nya2",
-      "duration": 0.5,
-      "name": "nya - 2"
+      "deprecatedIDs": [],
+      "name": "nya - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "kitties/nya3",
-      "duration": 0.5,
-      "name": "nya - 3"
+      "deprecatedIDs": [],
+      "name": "nya - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "kitties/clap1",
-      "duration": 0.5,
-      "name": "clap - 1"
+      "deprecatedIDs": [],
+      "name": "clap - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "kitties/clap2",
-      "duration": 0.5,
-      "name": "clap - 2"
+      "deprecatedIDs": [],
+      "name": "clap - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "kitties/fish1",
-      "duration": 0.33333,
-      "name": "fish - 1"
+      "deprecatedIDs": [],
+      "name": "fish - 1",
+      "duration": 0.33333
     },
     {
+      "type": "cue",
       "id": "kitties/fish2",
-      "duration": 0.16666,
-      "name": "fish - 2"
+      "deprecatedIDs": [],
+      "name": "fish - 2",
+      "duration": 0.16666
     },
     {
+      "type": "cue",
       "id": "kitties/fish3",
-      "duration": 0.33333,
-      "name": "fish - 3"
+      "deprecatedIDs": [],
+      "name": "fish - 3",
+      "duration": 0.33333
     },
     {
+      "type": "cue",
       "id": "kitties/fish4",
-      "duration": 1.16666,
-      "name": "fish - 4"
+      "deprecatedIDs": [],
+      "name": "fish - 4",
+      "duration": 1.16666
     },
     {
+      "type": "cue",
       "id": "kitties/roll1",
-      "duration": 0.5,
-      "name": "roll - 1"
+      "deprecatedIDs": [],
+      "name": "roll - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "kitties/roll2",
-      "duration": 0.5,
-      "name": "roll - 2"
+      "deprecatedIDs": [],
+      "name": "roll - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "kitties/roll3",
-      "duration": 0.5,
-      "name": "roll - 3"
+      "deprecatedIDs": [],
+      "name": "roll - 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "kitties/roll4",
-      "duration": 0.5,
-      "name": "roll - 4"
+      "deprecatedIDs": [],
+      "name": "roll - 4",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "kitties/roll5",
-      "duration": 0.83333,
-      "name": "roll - 5"
+      "deprecatedIDs": [],
+      "name": "roll - 5",
+      "duration": 0.83333
     },
     {
+      "type": "cue",
       "id": "kitties/roll6",
-      "duration": 0.66666,
-      "name": "roll - 6"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "roll - 6",
+      "duration": 0.66666
+    },
     {
+      "type": "pattern",
       "id": "kitties_clapclap",
+      "deprecatedIDs": [],
       "name": "clap clap",
       "cues": [
         {
@@ -107,7 +138,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "kitties_clapClapSwing",
+      "deprecatedIDs": [],
       "name": "clap clap - swing",
       "cues": [
         {
@@ -133,7 +166,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "kitties_roll",
+      "deprecatedIDs": [],
       "name": "roll",
       "cues": [
         {
@@ -163,7 +198,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "kitties_fish",
+      "deprecatedIDs": [],
       "name": "fish",
       "cues": [
         {

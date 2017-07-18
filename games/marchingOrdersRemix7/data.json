@@ -1,162 +1,223 @@
 {
-  "gameID": "marchingOrdersRemix7",
-  "gameName": "Marching Orders (Remix 7/8)",
-  "series": "tengoku",
-  "cues": [
+  "id": "marchingOrdersRemix7",
+  "deprecatedIDs": [],
+  "name": "Marching Orders (Remix 7/8)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/attention1",
-      "duration": 0.5,
-      "name": "general - attention 1"
+      "deprecatedIDs": [],
+      "name": "general - attention 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/attention2",
-      "duration": 1.5,
-      "name": "general - attention 2"
+      "deprecatedIDs": [],
+      "name": "general - attention 2",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/march1",
-      "duration": 0.25,
-      "name": "general - march 1"
+      "deprecatedIDs": [],
+      "name": "general - march 1",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/march2",
-      "duration": 0.25,
-      "name": "general - march 2"
+      "deprecatedIDs": [],
+      "name": "general - march 2",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/march3",
-      "duration": 0.5,
-      "name": "general - march 3"
+      "deprecatedIDs": [],
+      "name": "general - march 3",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/march4",
-      "duration": 1,
-      "name": "cadets - start marching"
+      "deprecatedIDs": [],
+      "name": "cadets - start marching",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/step1",
-      "duration": 1,
-      "name": "cadets - left step"
+      "deprecatedIDs": [],
+      "name": "cadets - left step",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/step2",
-      "duration": 1,
-      "name": "cadets - right step"
+      "deprecatedIDs": [],
+      "name": "cadets - right step",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/halt1",
-      "duration": 0.25,
-      "name": "general - halt 1"
+      "deprecatedIDs": [],
+      "name": "general - halt 1",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/halt2",
-      "duration": 0.083,
-      "name": "general - halt 2"
+      "deprecatedIDs": [],
+      "name": "general - halt 2",
+      "duration": 0.083
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/halt3",
-      "duration": 0.667,
-      "name": "general - halt 3"
+      "deprecatedIDs": [],
+      "name": "general - halt 3",
+      "duration": 0.667
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/halt4",
-      "duration": 1,
-      "name": "cadets - halt"
+      "deprecatedIDs": [],
+      "name": "cadets - halt",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/leftFaceTurn1",
-      "duration": 0.25,
-      "name": "general - left face turn 1"
+      "deprecatedIDs": [],
+      "name": "general - left face turn 1",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/leftFaceTurn2",
-      "duration": 0.25,
-      "name": "general - left face turn 2"
+      "deprecatedIDs": [],
+      "name": "general - left face turn 2",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/leftFaceTurn3",
-      "duration": 1.5,
-      "name": "general - left face turn 3"
+      "deprecatedIDs": [],
+      "name": "general - left face turn 3",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/leftFaceTurn4",
-      "duration": 1,
-      "name": "general - left face turn 4"
+      "deprecatedIDs": [],
+      "name": "general - left face turn 4",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/leftFaceTurn5",
-      "duration": 1,
-      "name": "cadets - left face turn"
+      "deprecatedIDs": [],
+      "name": "cadets - left face turn",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/rightFaceTurn1",
-      "duration": 0.25,
-      "name": "general - right face turn 1"
+      "deprecatedIDs": [],
+      "name": "general - right face turn 1",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/rightFaceTurn2",
-      "duration": 0.25,
-      "name": "general - right face turn 2"
+      "deprecatedIDs": [],
+      "name": "general - right face turn 2",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/rightFaceTurn3",
-      "duration": 1.5,
-      "name": "general - right face turn 3"
+      "deprecatedIDs": [],
+      "name": "general - right face turn 3",
+      "duration": 1.5
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/rightFaceTurn4",
-      "duration": 1,
-      "name": "general - right face turn 4"
+      "deprecatedIDs": [],
+      "name": "general - right face turn 4",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/rightFaceTurn5",
-      "duration": 1,
-      "name": "cadets - right face turn"
+      "deprecatedIDs": [],
+      "name": "cadets - right face turn",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/fastLeftFaceTurn1",
-      "duration": 0.5,
-      "name": "general - fast left face turn 1"
+      "deprecatedIDs": [],
+      "name": "general - fast left face turn 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/fastLeftFaceTurn2",
-      "duration": 0.25,
-      "name": "general - fast left face turn 2"
+      "deprecatedIDs": [],
+      "name": "general - fast left face turn 2",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/fastLeftFaceTurn3",
-      "duration": 0.25,
-      "name": "general - fast left face turn 3"
+      "deprecatedIDs": [],
+      "name": "general - fast left face turn 3",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/fastLeftFaceTurn4",
-      "duration": 1,
-      "name": "general - fast left face turn 4"
+      "deprecatedIDs": [],
+      "name": "general - fast left face turn 4",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/fastRightFaceTurn1",
-      "duration": 0.5,
-      "name": "general - fast right face turn 1"
+      "deprecatedIDs": [],
+      "name": "general - fast right face turn 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/fastRightFaceTurn2",
-      "duration": 0.25,
-      "name": "general - fast right face turn 2"
+      "deprecatedIDs": [],
+      "name": "general - fast right face turn 2",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/fastRightFaceTurn3",
-      "duration": 0.25,
-      "name": "general - fast right face turn 3"
+      "deprecatedIDs": [],
+      "name": "general - fast right face turn 3",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "marchingOrdersRemix7/fastRightFaceTurn4",
-      "duration": 1,
-      "name": "general - fast right face turn 4"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "general - fast right face turn 4",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "marchingOrdersRemix7_attentionMarch",
+      "deprecatedIDs": [],
       "name": "attention... march!",
       "cues": [
         {
@@ -181,12 +242,14 @@
         },
         {
           "id": "marchingOrdersRemix7/march4",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "marchingOrdersRemix7_marching",
+      "deprecatedIDs": [],
       "name": "marching",
       "cues": [
         {
@@ -208,7 +271,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "marchingOrdersRemix7_attentionHalt",
+      "deprecatedIDs": [],
       "name": "attention... halt!",
       "cues": [
         {
@@ -233,12 +298,14 @@
         },
         {
           "id": "marchingOrdersRemix7/halt4",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "marchingOrdersRemix7_leftFaceTurn",
+      "deprecatedIDs": [],
       "name": "left face turn",
       "cues": [
         {
@@ -264,7 +331,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "marchingOrdersRemix7_rightFaceTurn",
+      "deprecatedIDs": [],
       "name": "right face turn",
       "cues": [
         {
@@ -290,7 +359,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "marchingOrdersRemix7_fastLeftFaceTurn",
+      "deprecatedIDs": [],
       "name": "fast left face turn",
       "cues": [
         {
@@ -316,7 +387,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "marchingOrdersRemix7_fastRightFaceTurn",
+      "deprecatedIDs": [],
       "name": "fast right face turn",
       "cues": [
         {

@@ -1,62 +1,83 @@
 {
-  "gameID": "fruitBasket",
-  "gameName": "Fruit Basket",
-  "series": "megamix",
-  "cues": [
+  "id": "fruitBasket",
+  "deprecatedIDs": [],
+  "name": "Fruit Basket",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "fruitBasket/apple",
-      "duration": 1.0,
-      "name": "apple out"
+      "deprecatedIDs": [],
+      "name": "apple out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fruitBasket/dunk",
-      "duration": 1.0,
-      "name": "dunk"
+      "deprecatedIDs": [],
+      "name": "dunk",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fruitBasket/basket",
-      "duration": 1.0,
-      "name": "basket"
+      "deprecatedIDs": [],
+      "name": "basket",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fruitBasket/lemon",
-      "duration": 1.0,
-      "name": "lemon out"
+      "deprecatedIDs": [],
+      "name": "lemon out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fruitBasket/melon1",
-      "duration": 1.0,
-      "name": "melon - 1"
+      "deprecatedIDs": [],
+      "name": "melon - 1",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fruitBasket/melon2",
-      "duration": 1.0,
-      "name": "melon - 2"
+      "deprecatedIDs": [],
+      "name": "melon - 2",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "fruitBasket/melon3",
-      "duration": 0.75,
-      "name": "melon - 3"
+      "deprecatedIDs": [],
+      "name": "melon - 3",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "fruitBasket/melon4",
-      "duration": 0.75,
-      "name": "melon - 4"
+      "deprecatedIDs": [],
+      "name": "melon - 4",
+      "duration": 0.75
     },
     {
+      "type": "cue",
       "id": "fruitBasket/melon5",
-      "duration": 0.5,
-      "name": "melon - 5"
+      "deprecatedIDs": [],
+      "name": "melon - 5",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "fruitBasket/melon6",
-      "duration": 1.0,
-      "name": "melon - 6"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "melon - 6",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "fruitBasket_apple",
+      "deprecatedIDs": [],
       "name": "apple",
       "cues": [
         {
@@ -74,7 +95,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "fruitBasket_lemon",
+      "deprecatedIDs": [],
       "name": "lemon",
       "cues": [
         {
@@ -92,7 +115,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "fruitBasket_melon",
+      "deprecatedIDs": [],
       "name": "melon",
       "cues": [
         {

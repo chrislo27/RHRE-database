@@ -1,73 +1,93 @@
 {
-  "gameID": "gleeClubKo",
-  "gameName": "Glee Club (Korean)",
-  "series": "ds",
-  "cues": [
+  "id": "gleeClubKo",
+  "deprecatedIDs": [],
+  "name": "Glee Club (Korean)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "gleeClubKo/singBegin",
-      "duration": 0.000001
+      "deprecatedIDs": [],
+      "name": "gleeClubKo/singBegin",
+      "duration": 1.0E-6
     },
     {
+      "type": "cue",
       "id": "gleeClubKo/singLoop",
-      "canAlterDuration": true,
-      "introSound": "gleeClubKo/singBegin",
-      "canAlterPitch": true,
-      "duration": 1,
-      "name": "sing"
-    },
-    {
-      "id": "gleeClubKo/singEnd",
-      "duration": 0.5,
-      "name": "stop"
-    },
-    {
-      "id": "gleeClubKo/cha",
-      "duration": 0.3333,
-      "name": "chadange - cha"
-    },
-    {
-      "id": "gleeClubKo/dan",
+      "deprecatedIDs": [],
+      "name": "sing",
       "duration": 1.0,
-      "name": "chadange - dan"
+      "stretchable": true,
+      "repitchable": true
     },
     {
+      "type": "cue",
+      "id": "gleeClubKo/singEnd",
+      "deprecatedIDs": [],
+      "name": "stop",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "gleeClubKo/cha",
+      "deprecatedIDs": [],
+      "name": "chadange - cha",
+      "duration": 0.3333
+    },
+    {
+      "type": "cue",
+      "id": "gleeClubKo/dan",
+      "deprecatedIDs": [],
+      "name": "chadange - dan",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
       "id": "gleeClubKo/ge",
-      "duration": 0.6666,
-      "name": "chadange - ge"
+      "deprecatedIDs": [],
+      "name": "chadange - ge",
+      "duration": 0.6666
     },
     {
+      "type": "cue",
       "id": "gleeClubKo/screamBegin",
-      "duration": 0.000001,
-      "canAlterPitch": true
+      "deprecatedIDs": [],
+      "name": "gleeClubKo/screamBegin",
+      "duration": 1.0E-6,
+      "repitchable": true
     },
     {
+      "type": "cue",
       "id": "gleeClubKo/screamLoop",
-      "duration": 1,
-      "loops": true,
-      "introSound": "gleeClubKo/screamBegin",
-      "canAlterPitch": true,
-      "name": "scream"
+      "deprecatedIDs": [],
+      "name": "scream",
+      "duration": 1.0,
+      "repitchable": true
     },
     {
+      "type": "cue",
       "id": "gleeClubKo/baton",
-      "duration": 1,
-      "canAlterPitch": true,
-      "name": "baton - lift"
+      "deprecatedIDs": [],
+      "name": "baton - lift",
+      "duration": 1.0,
+      "repitchable": true
     },
     {
+      "type": "cue",
       "id": "gleeClubKo/batonStop",
-      "duration": 1,
-      "name": "baton - stop"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "baton - stop",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "gleeClubKo_chadange",
+      "deprecatedIDs": [],
       "name": "together now!",
       "cues": [
         {
           "id": "gleeClubKo/cha",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "gleeClubKo/dan",
@@ -79,25 +99,27 @@
         },
         {
           "id": "gleeClubKo/screamLoop",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "gleeClubKo/singEnd",
-          "beat": 3
+          "beat": 3.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "gleeClubKo_baton",
+      "deprecatedIDs": [],
       "name": "baton",
       "cues": [
         {
           "id": "gleeClubKo/baton",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "gleeClubKo/batonStop",
-          "beat": 1
+          "beat": 1.0
         }
       ]
     }

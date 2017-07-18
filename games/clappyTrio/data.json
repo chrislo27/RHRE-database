@@ -1,29 +1,35 @@
 {
-  "gameID": "clappyTrio",
-  "gameName": "Clappy Trio (Fever)",
-  "series": "fever",
-  "cues": [
+  "id": "clappyTrio",
+  "deprecatedIDs": [],
+  "name": "Clappy Trio (Fever)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "clappyTrio/start",
-      "duration": 1,
-      "name": "start"
+      "deprecatedIDs": [],
+      "name": "start",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "clappyTrio/clap",
-      "duration": 0.25,
-      "name": "clap"
+      "deprecatedIDs": [],
+      "name": "clap",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "clappyTrio/ready",
-      "duration": 0.25,
-      "name": "ready"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "ready",
+      "duration": 0.25
+    },
     {
+      "type": "pattern",
       "id": "clappyTrio_triotiming",
+      "deprecatedIDs": [],
       "name": "trio timing!",
-      "isStretchable": true,
       "cues": [
         {
           "id": "clappyTrio/clap",
@@ -41,9 +47,10 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "clappyTrio_fouronthefloor",
+      "deprecatedIDs": [],
       "name": "four on the floor!",
-      "isStretchable": true,
       "cues": [
         {
           "id": "clappyTrio/clap",

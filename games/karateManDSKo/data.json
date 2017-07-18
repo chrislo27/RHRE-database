@@ -1,100 +1,127 @@
 {
-  "gameID": "karateManDSKo",
-  "gameName": "Karate Man (DS) (Korean)",
-  "series": "ds",
-  "cues": [
+  "id": "karateManDSKo",
+  "deprecatedIDs": [],
+  "name": "Karate Man (DS) (Korean)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "karateManDSKo/potOut",
-      "duration": 1,
-      "name": "pot - out"
+      "deprecatedIDs": [],
+      "name": "pot - out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "karateManDSKo/offbeatPotOut",
-      "duration": 1,
-      "name": "pot - offbeat out"
+      "deprecatedIDs": [],
+      "name": "pot - offbeat out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "karateManDSKo/potHit",
-      "duration": 1,
-      "name": "pot - hit"
+      "deprecatedIDs": [],
+      "name": "pot - hit",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "karateManDSKo/hit3cue1",
-      "duration": 0.5,
-      "name": "hit"
+      "deprecatedIDs": [],
+      "name": "hit",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "karateManDSKo/hit3cue2",
-      "duration": 0.5,
-      "name": "3!"
+      "deprecatedIDs": [],
+      "name": "3!",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "karateManDSKo/bulbOut",
-      "duration": 1,
-      "name": "lightbulb - out"
+      "deprecatedIDs": [],
+      "name": "lightbulb - out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "karateManDSKo/bulbHit",
-      "duration": 1,
-      "name": "lightbulb - hit"
+      "deprecatedIDs": [],
+      "name": "lightbulb - hit",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "karateManDSKo/barrelOut",
-      "duration": 1,
-      "name": "barrel - out"
+      "deprecatedIDs": [],
+      "name": "barrel - out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "karateManDSKo/punchKick1",
-      "duration": 0.5,
-      "name": "kick - pun"
+      "deprecatedIDs": [],
+      "name": "kick - pun",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "karateManDSKo/punchKick2",
-      "duration": 0.25,
-      "name": "kick - ch"
+      "deprecatedIDs": [],
+      "name": "kick - ch",
+      "duration": 0.25
     },
     {
+      "type": "cue",
       "id": "karateManDSKo/punchKick3",
-      "duration": 0.75,
-      "name": "kick - kick"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "kick - kick",
+      "duration": 0.75
+    },
     {
+      "type": "pattern",
       "id": "karateManDSKo_pot",
+      "deprecatedIDs": [],
       "name": "pot",
       "cues": [
         {
           "id": "karateManDSKo/potOut",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "karateManDSKo/potHit",
-          "beat": 1
+          "beat": 1.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "karateManDSKo_offbeatpot",
+      "deprecatedIDs": [],
       "name": "offbeat pot",
       "cues": [
         {
           "id": "karateManDSKo/offbeatPotOut",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "karateManDSKo/potHit",
-          "beat": 1
+          "beat": 1.0
         }
       ]
     },
     {
+      "type": "pattern",
       "id": "karateManDSKo_hit3",
+      "deprecatedIDs": [],
       "name": "hit 3!",
       "cues": [
         {
           "id": "karateManDSKo/hit3cue1",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "karateManDSKo/hit3cue2",
@@ -129,24 +156,26 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "karateManDSKo_kick",
+      "deprecatedIDs": [],
       "name": "kick",
       "cues": [
         {
           "id": "karateManDSKo/bulbOut",
-          "beat": 0
+          "beat": 0.0
         },
         {
           "id": "karateManDSKo/bulbHit",
-          "beat": 1
+          "beat": 1.0
         },
         {
           "id": "karateManDSKo/barrelOut",
-          "beat": 2
+          "beat": 2.0
         },
         {
           "id": "karateManDSKo/punchKick1",
-          "beat": 3
+          "beat": 3.0
         },
         {
           "id": "karateManDSKo/punchKick2",

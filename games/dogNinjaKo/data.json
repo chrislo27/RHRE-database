@@ -1,72 +1,97 @@
 {
-  "gameID": "dogNinjaKo",
-  "gameName": "Dog Ninja (DS) (Korean)",
-  "series": "ds",
-  "cues": [
+  "id": "dogNinjaKo",
+  "deprecatedIDs": [],
+  "name": "Dog Ninja (DS) (Korean)",
+  "requiresVersion": "v3.0.0",
+  "objects": [
     {
+      "type": "cue",
       "id": "dogNinjaKo/fruit1",
-      "duration": 1,
-      "name": "fruit - out"
+      "deprecatedIDs": [],
+      "name": "fruit - out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "dogNinjaKo/fruit2",
-      "duration": 1,
-      "name": "fruit - slice"
+      "deprecatedIDs": [],
+      "name": "fruit - slice",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "dogNinjaKo/bone1",
-      "duration": 1,
-      "name": "bone - out"
+      "deprecatedIDs": [],
+      "name": "bone - out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "dogNinjaKo/bone2",
-      "duration": 1,
-      "name": "bone - slice"
+      "deprecatedIDs": [],
+      "name": "bone - slice",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "dogNinjaKo/tire1",
-      "duration": 1,
-      "name": "tire - out"
+      "deprecatedIDs": [],
+      "name": "tire - out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "dogNinjaKo/tire2",
-      "duration": 1,
-      "name": "tire - slice"
+      "deprecatedIDs": [],
+      "name": "tire - slice",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "dogNinjaKo/pan1",
-      "duration": 1,
-      "name": "pan - out"
+      "deprecatedIDs": [],
+      "name": "pan - out",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "dogNinjaKo/pan2",
-      "duration": 1,
-      "name": "pan - slice"
+      "deprecatedIDs": [],
+      "name": "pan - slice",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "dogNinjaKo/sign",
-      "duration": 1,
-      "name": "\"Cut everything!\""
+      "deprecatedIDs": [],
+      "name": "\"Cut everything!\"",
+      "duration": 1.0
     },
     {
+      "type": "cue",
       "id": "dogNinjaKo/padara1",
-      "duration": 0.5,
-      "name": "padara - 1"
+      "deprecatedIDs": [],
+      "name": "padara - 1",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "dogNinjaKo/padara2",
-      "duration": 0.5,
-      "name": "padara - 2"
+      "deprecatedIDs": [],
+      "name": "padara - 2",
+      "duration": 0.5
     },
     {
+      "type": "cue",
       "id": "dogNinjaKo/padara3",
-      "duration": 1,
-      "name": "padara - 3"
-    }
-  ],
-  "patterns": [
+      "deprecatedIDs": [],
+      "name": "padara - 3",
+      "duration": 1.0
+    },
     {
+      "type": "pattern",
       "id": "dogNinjaKo_fruit",
+      "deprecatedIDs": [],
       "name": "fruit",
       "cues": [
         {
@@ -80,7 +105,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "dogNinjaKo_bone",
+      "deprecatedIDs": [],
       "name": "bone",
       "cues": [
         {
@@ -94,7 +121,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "dogNinjaKo_tire",
+      "deprecatedIDs": [],
       "name": "tire",
       "cues": [
         {
@@ -108,7 +137,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "dogNinjaKo_pan",
+      "deprecatedIDs": [],
       "name": "pan",
       "cues": [
         {
@@ -122,7 +153,9 @@
       ]
     },
     {
+      "type": "pattern",
       "id": "dogNinjaKo_padara",
+      "deprecatedIDs": [],
       "name": "here we go!",
       "cues": [
         {
