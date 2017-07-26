@@ -3,6 +3,7 @@
   "deprecatedIDs": [],
   "name": "Toss Boys (Original L/R Balance)",
   "requiresVersion": "v3.0.0",
+  "group": "Toss Boys",
   "objects": [
     {
       "type": "cue",

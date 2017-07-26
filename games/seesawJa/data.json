@@ -3,6 +3,7 @@
   "deprecatedIDs": [],
   "name": "See-Saw (Japanese)",
   "requiresVersion": "v3.0.0",
+  "group": "See-Saw",
   "objects": [
     {
       "type": "cue",

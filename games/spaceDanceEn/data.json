@@ -2,6 +2,7 @@
   "id": "spaceDanceEn",
   "deprecatedIDs": [],
   "name": "Space Dance (Megamix) (English)",
+  "group": "Space Dance (Megamix)",
   "requiresVersion": "v3.0.0",
   "objects": [
     {

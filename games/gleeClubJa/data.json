@@ -1,8 +1,9 @@
 {
   "id": "gleeClubJa",
   "deprecatedIDs": [],
-  "name": "Glee Club (Japanese)",
+  "name": "Glee Club (DS) (Japanese)",
   "requiresVersion": "v3.0.0",
+  "group": "Glee Club (DS)",
   "objects": [
     {
       "type": "cue",

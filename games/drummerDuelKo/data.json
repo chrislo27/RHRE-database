@@ -3,6 +3,7 @@
   "deprecatedIDs": [],
   "name": "Drummer Duel (Korean)",
   "requiresVersion": "v3.0.0",
+  "group": "Drummer Duel",
   "objects": [
     {
       "type": "cue",

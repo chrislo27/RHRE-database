@@ -3,6 +3,7 @@
   "deprecatedIDs": [],
   "name": "Karate Man (DS) (English)",
   "requiresVersion": "v3.0.0",
+  "group": "Karate Man (DS)",
   "objects": [
     {
       "type": "cue",

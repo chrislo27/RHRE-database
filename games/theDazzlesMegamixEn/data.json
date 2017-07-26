@@ -3,6 +3,7 @@
   "deprecatedIDs": [],
   "name": "The Dazzles (Megamix) (English)",
   "requiresVersion": "v3.0.0",
+  "group": "The Dazzles (Megamix)",
   "objects": [
     {
       "type": "cue",

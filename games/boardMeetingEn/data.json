@@ -2,6 +2,7 @@
   "id": "boardMeetingEn",
   "deprecatedIDs": [],
   "name": "Board Meeting (English)",
+  "group": "Board Meeting",
   "requiresVersion": "v3.0.0",
   "objects": [
     {

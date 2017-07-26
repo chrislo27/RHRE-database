@@ -2,6 +2,7 @@
   "id": "tapTrialGba",
   "deprecatedIDs": [],
   "name": "Tap Trial (GBA)",
+  "group": "Tap Trial (GBA)",
   "requiresVersion": "v3.0.0",
   "objects": [
     {

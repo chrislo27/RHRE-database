@@ -1,8 +1,9 @@
 {
   "id": "frogHopMegamixEn",
   "deprecatedIDs": [],
-  "name": "Frog Hop (English) (Megamix)",
+  "name": "Frog Hop (Megamix) (English)",
   "requiresVersion": "v3.0.0",
+  "group": "Frog Hop (Megamix)",
   "objects": [
     {
       "type": "cue",

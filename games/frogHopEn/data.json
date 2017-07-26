@@ -1,8 +1,9 @@
 {
   "id": "frogHopEn",
   "deprecatedIDs": [],
-  "name": "Frog Hop (English) (DS)",
+  "name": "Frog Hop (DS) (English)",
   "requiresVersion": "v3.0.0",
+  "group": "Frog Hop (DS)",
   "objects": [
     {
       "type": "cue",

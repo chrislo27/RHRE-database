@@ -3,6 +3,7 @@
   "deprecatedIDs": [],
   "name": "Frog Hop (Megamix) (Japanese)",
   "requiresVersion": "v3.0.0",
+  "group": "Frog Hop (Megamix)",
   "objects": [
     {
       "type": "cue",

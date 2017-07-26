@@ -3,6 +3,7 @@
   "deprecatedIDs": [],
   "name": "Big Rock Finish (DS) (Spanish)",
   "requiresVersion": "v3.0.0",
+  "group": "Big Rock Finish (DS)",
   "objects": [
     {
       "type": "cue",

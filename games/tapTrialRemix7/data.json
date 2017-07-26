@@ -3,6 +3,7 @@
   "deprecatedIDs": [],
   "name": "Tap Trial (GBA Remix 7)",
   "requiresVersion": "v3.0.0",
+  "group": "Tap Trial (GBA)",
   "objects": [
     {
       "type": "cue",

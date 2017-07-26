@@ -3,6 +3,7 @@
   "deprecatedIDs": [],
   "name": "Karate Man (Megamix) (Korean)",
   "requiresVersion": "v3.0.0",
+  "group": "Karate Man (Megamix)",
   "objects": [
     {
       "type": "cue",
