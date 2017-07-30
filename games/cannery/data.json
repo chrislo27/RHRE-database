@@ -3,6 +3,7 @@
   "deprecatedIDs": [],
   "name": "Cannery",
   "requiresVersion": "v3.0.0",
+  "priority": -1,
   "objects": [
     {
       "type": "cue",

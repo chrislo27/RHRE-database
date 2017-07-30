@@ -4,6 +4,7 @@
   "name": "Count-Ins (English)",
   "requiresVersion": "v3.0.0",
   "group": "Count-Ins",
+  "priority": 1,
   "objects": [
     {
       "type": "cue",
