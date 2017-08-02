@@ -1,4 +1,5 @@
-{"series": "ds",
+{
+  "series": "ds",
   "id": "freezeFrame",
   "deprecatedIDs": [],
   "name": "Freeze Frame",

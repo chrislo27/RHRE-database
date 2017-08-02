@@ -1,4 +1,5 @@
-{"series": "side",
+{
+  "series": "side",
   "id": "metronome",
   "deprecatedIDs": [],
   "name": "Metronome (Unused GBA Rhythm Test)",

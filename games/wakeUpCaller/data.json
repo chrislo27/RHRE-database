@@ -1,4 +1,5 @@
-{"series": "side",
+{
+  "series": "side",
   "id": "wakeUpCaller",
   "deprecatedIDs": [],
   "name": "Wake-Up Caller",
