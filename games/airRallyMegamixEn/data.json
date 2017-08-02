@@ -5,6 +5,7 @@
   "name": "Air Rally (Megamix) (English)",
   "requiresVersion": "v3.0.0",
   "group": "Air Rally (Megamix)",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",

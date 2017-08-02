@@ -5,6 +5,7 @@
   "name": "Packing Pests (English)",
   "requiresVersion": "v3.0.0",
   "group": "Packing Pests",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",

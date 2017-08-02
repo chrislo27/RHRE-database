@@ -5,6 +5,7 @@
   "name": "Air Rally (Fever) (English)",
   "requiresVersion": "v3.0.0",
   "group": "Air Rally (Fever)",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",

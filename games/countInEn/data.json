@@ -4,6 +4,7 @@
   "name": "Count-Ins (English)",
   "requiresVersion": "v3.0.0",
   "group": "Count-Ins",
+  "groupDefault": true,
   "priority": 1,
   "objects": [
     {

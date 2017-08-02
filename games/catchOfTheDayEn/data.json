@@ -5,6 +5,7 @@
   "name": "Catch of the Day (English)",
   "requiresVersion": "v3.0.0",
   "group": "Catch of the Day",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",

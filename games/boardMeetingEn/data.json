@@ -5,6 +5,7 @@
   "name": "Board Meeting (English)",
   "group": "Board Meeting",
   "requiresVersion": "v3.0.0",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",

@@ -5,6 +5,7 @@
   "name": "Drummer Duel (English)",
   "requiresVersion": "v3.0.0",
   "group": "Drummer Duel",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",

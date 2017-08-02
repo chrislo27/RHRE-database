@@ -5,6 +5,7 @@
   "name": "Munchy Monk (Fever) (English)",
   "requiresVersion": "v3.0.0",
   "group": "Munchy Monk (Fever)",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",

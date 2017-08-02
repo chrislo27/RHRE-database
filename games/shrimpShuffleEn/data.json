@@ -5,6 +5,7 @@
   "name": "Shrimp Shuffle (English)",
   "requiresVersion": "v3.0.0",
   "group": "Shrimp Shuffle",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",

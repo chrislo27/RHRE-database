@@ -4,5 +4,7 @@
   "deprecatedIDs": [],
   "name": "Bossa Nova",
   "requiresVersion": "v3.0.0",
+  "group": "Bossa Nova",
+  "groupDefault": true,
   "objects": []
 }

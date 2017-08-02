@@ -5,6 +5,7 @@
   "name": "Basketball Girls (English)",
   "requiresVersion": "v3.0.0",
   "group": "Basketball Girls",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",

@@ -5,6 +5,7 @@
   "name": "Frog Hop (DS) (English)",
   "requiresVersion": "v3.0.0",
   "group": "Frog Hop (DS)",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",

@@ -5,6 +5,7 @@
   "name": "Blue Birds (Megamix) (English)",
   "requiresVersion": "v3.0.0",
   "group": "Blue Birds (Megamix)",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",

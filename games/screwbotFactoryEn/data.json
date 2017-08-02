@@ -5,6 +5,7 @@
   "name": "Screwbot Factory (English)",
   "requiresVersion": "v3.0.0",
   "group": "Screwbot Factory",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",

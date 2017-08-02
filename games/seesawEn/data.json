@@ -5,6 +5,7 @@
   "name": "See-Saw (English)",
   "requiresVersion": "v3.0.0",
   "group": "See-Saw",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",

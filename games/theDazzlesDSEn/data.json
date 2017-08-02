@@ -5,6 +5,7 @@
   "name": "The Dazzles (DS) (English)",
   "requiresVersion": "v3.0.0",
   "group": "The Dazzles (DS)",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",

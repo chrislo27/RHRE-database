@@ -5,6 +5,7 @@
   "name": "Dog Ninja (DS) (English)",
   "requiresVersion": "v3.0.0",
   "group": "Dog Ninja (DS)",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",

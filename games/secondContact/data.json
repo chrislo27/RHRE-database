@@ -4,6 +4,7 @@
   "deprecatedIDs": [],
   "name": "Second Contact",
   "requiresVersion": "v3.0.0",
+  "group": "First Contact",
   "objects": [
     {
       "type": "cue",

@@ -5,6 +5,7 @@
   "name": "Pajama Party (English)",
   "requiresVersion": "v3.0.0",
   "group": "Pajama Party",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",

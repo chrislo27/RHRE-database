@@ -5,6 +5,7 @@
   "name": "Tunnel (English)",
   "requiresVersion": "v3.0.0",
   "group": "Tunnel",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",
