@@ -1,8 +1,8 @@
 {
-  "series": "ds",
+  "series": "megamix",
   "id": "dogNinjaMegamix",
   "deprecatedIDs": [],
-  "name": "Dog Ninja (DS)",
+  "name": "Dog Ninja (Megamix)",
   "requiresVersion": "v3.0.0",
   "objects": [
     {
