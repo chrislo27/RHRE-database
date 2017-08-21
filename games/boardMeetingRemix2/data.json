@@ -26,6 +26,7 @@
       "deprecatedIDs": [],
       "name": "spinning - start - 1",
       "duration": 1.0,
+      "introSound": "boardMeetingRemix2/start1",
       "loops": true,
       "stretchable": true
     },
@@ -42,6 +43,7 @@
       "deprecatedIDs": [],
       "name": "spinning - start - 2",
       "duration": 1.0,
+      "introSound": "boardMeetingRemix2/start2",
       "loops": true,
       "stretchable": true
     },
@@ -58,6 +60,7 @@
       "deprecatedIDs": [],
       "name": "spinning - start - 3",
       "duration": 1.0,
+      "introSound": "boardMeetingRemix2/start3",
       "loops": true,
       "stretchable": true
     },
@@ -74,6 +77,7 @@
       "deprecatedIDs": [],
       "name": "spinning - start - 4",
       "duration": 1.0,
+      "introSound": "boardMeetingRemix2/start4",
       "loops": true,
       "stretchable": true
     },

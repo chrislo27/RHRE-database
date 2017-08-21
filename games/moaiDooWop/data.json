@@ -25,7 +25,8 @@
       "deprecatedIDs": [],
       "name": "left - doo",
       "duration": 1.0,
-      "stretchable": true
+      "stretchable": true,
+      "introSound": "moaiDooWop/d1"
     },
     {
       "type": "cue",
@@ -54,7 +55,8 @@
       "deprecatedIDs": [],
       "name": "right - doo",
       "duration": 1.0,
-      "stretchable": true
+      "stretchable": true,
+      "introSound": "moaiDooWop/d2"
     },
     {
       "type": "cue",
@@ -83,7 +85,8 @@
       "deprecatedIDs": [],
       "name": "middle (unused) - doo",
       "duration": 1.0,
-      "stretchable": true
+      "stretchable": true,
+      "introSound": "moaiDooWop/d3"
     },
     {
       "type": "cue",

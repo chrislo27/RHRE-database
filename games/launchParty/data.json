@@ -91,6 +91,7 @@
       "deprecatedIDs": [],
       "name": "gray - start",
       "duration": 2.0,
+      "introSound": "launchParty/grayStart",
       "loops": true,
       "repitchable": true
     },

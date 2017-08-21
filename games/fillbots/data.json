@@ -95,7 +95,8 @@
       "deprecatedIDs": [],
       "name": "filling sound",
       "duration": 1.0,
-      "stretchable": true
+      "stretchable": true,
+      "introSound": "fillbots/armExtension"
     },
     {
       "type": "cue",

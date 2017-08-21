@@ -19,6 +19,7 @@
       "deprecatedIDs": [],
       "name": "sing",
       "duration": 1.0,
+      "introSound": "gleeClubKo/singBegin",
       "loops": true,
       "stretchable": true,
       "repitchable": true
@@ -56,6 +57,7 @@
       "id": "gleeClubKo/screamBegin",
       "deprecatedIDs": [],
       "name": "gleeClubKo/screamBegin",
+      "introSound": "gleeClubKo/screamBegin",
       "duration": 1.0E-6,
       "repitchable": true
     },

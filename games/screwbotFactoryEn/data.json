@@ -50,6 +50,7 @@
         "screwbotFactory/screwingOhYeah"
       ],
       "name": "black - screw",
+      "introSound": "screwbotFactoryEn/ohyeahStart",
       "duration": 2.0,
       "loops": true
     },
@@ -114,6 +115,7 @@
         "screwbotFactory/screwingLetsGo"
       ],
       "name": "white - screw",
+      "introSound": "screwbotFactoryEn/letsgoStart",
       "duration": 1.0,
       "loops": true
     },

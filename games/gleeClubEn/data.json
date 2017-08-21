@@ -24,6 +24,7 @@
       ],
       "name": "sing",
       "duration": 1.0,
+      "introSound": "gleeClubEn/singBegin",
       "loops": true,
       "stretchable": true,
       "repitchable": true
@@ -90,6 +91,7 @@
         "gleeClub/screamLoop"
       ],
       "name": "scream",
+      "introSound": "gleeClubEn/screamBegin",
       "duration": 1.0,
       "repitchable": true
     },

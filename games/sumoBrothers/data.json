@@ -47,6 +47,7 @@
         "sumoBrothers/posesignal"
       ],
       "name": "pose signal",
+      "introSound": "sumoBrothers/posesignalBegin",
       "loops": true,
       "duration": 3.0
     },

@@ -45,6 +45,7 @@
       "id": "rhythmTweezers/aaa",
       "deprecatedIDs": [],
       "name": "long hair - pluck - 1",
+      "introSound": "rhythmTweezers/gr",
       "duration": 0.5
     },
     {

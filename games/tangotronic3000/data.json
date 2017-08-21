@@ -94,6 +94,7 @@
       "id": "tangotronic3000/twirlLoop",
       "deprecatedIDs": [],
       "name": "twirl - start",
+      "introSound": "tangotronic3000/twirlStart",
       "duration": 1.0,
       "loops": true
     },

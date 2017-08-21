@@ -13,7 +13,8 @@
       "duration": 1.0,
       "loops": true,
       "stretchable": true,
-      "repitchable": true
+      "repitchable": true,
+      "introSound": "rockers/strumStart"
     },
     {
       "type": "cue",

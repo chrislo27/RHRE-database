@@ -95,7 +95,8 @@
       "deprecatedIDs": [],
       "name": "filling sound",
       "duration": 1.0,
-      "stretchable": true
+      "stretchable": true,
+      "introSound": "fillbotsMegamix/armExtension"
     },
     {
       "type": "cue",
