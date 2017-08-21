@@ -78,7 +78,7 @@
       "deprecatedIDs": [],
       "name": "turn passover",
       "duration": 0.5,
-      "responseIDs": ["frstContact_success"]
+      "responseIDs": ["firstContact_success"]
     },
     {
       "type": "cue",
