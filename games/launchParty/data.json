@@ -67,7 +67,8 @@
       "deprecatedIDs": [],
       "name": "green - middle",
       "duration": 0.166666,
-      "repitchable": true
+      "repitchable": true,
+      "loops": true
     },
     {
       "type": "cue",
@@ -90,6 +91,7 @@
       "deprecatedIDs": [],
       "name": "gray - start",
       "duration": 2.0,
+      "loops": true,
       "repitchable": true
     },
     {

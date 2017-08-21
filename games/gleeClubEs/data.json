@@ -19,6 +19,7 @@
       "deprecatedIDs": [],
       "name": "sing",
       "duration": 1.0,
+      "loops": true,
       "stretchable": true,
       "repitchable": true
     },

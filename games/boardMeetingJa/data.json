@@ -26,6 +26,7 @@
       "deprecatedIDs": [],
       "name": "spinning - start - 1",
       "duration": 1.0,
+      "loops": true,
       "stretchable": true
     },
     {
@@ -41,6 +42,7 @@
       "deprecatedIDs": [],
       "name": "spinning - start - 2",
       "duration": 1.0,
+      "loops": true,
       "stretchable": true
     },
     {
@@ -56,6 +58,7 @@
       "deprecatedIDs": [],
       "name": "spinning - start - 3",
       "duration": 1.0,
+      "loops": true,
       "stretchable": true
     },
     {
@@ -71,6 +74,7 @@
       "deprecatedIDs": [],
       "name": "spinning - start - 4",
       "duration": 1.0,
+      "loops": true,
       "stretchable": true
     },
     {

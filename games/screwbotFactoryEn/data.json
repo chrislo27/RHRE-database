@@ -50,7 +50,8 @@
         "screwbotFactory/screwingOhYeah"
       ],
       "name": "black - screw",
-      "duration": 2.0
+      "duration": 2.0,
+      "loops": true
     },
     {
       "type": "cue",
@@ -113,7 +114,8 @@
         "screwbotFactory/screwingLetsGo"
       ],
       "name": "white - screw",
-      "duration": 1.0
+      "duration": 1.0,
+      "loops": true
     },
     {
       "type": "cue",

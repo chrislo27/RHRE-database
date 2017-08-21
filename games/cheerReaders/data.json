@@ -269,14 +269,16 @@
       "id": "cheerReaders/okItsOn3Loop",
       "deprecatedIDs": [],
       "name": "ok it's on! - 3",
-      "duration": 1.0
+      "duration": 1.0,
+      "loops": true
     },
     {
       "type": "cue",
       "id": "cheerReaders/okItsOn3LoopL",
       "deprecatedIDs": [],
       "name": "ok it's on! - 3 - long",
-      "duration": 4.0
+      "duration": 4.0,
+      "loops": true
     },
     {
       "type": "cue",
@@ -311,7 +313,8 @@
       "id": "cheerReaders/okItsOnS3Loop",
       "deprecatedIDs": [],
       "name": "ok it's on! - solo - 3",
-      "duration": 1.0
+      "duration": 1.0,
+      "loops": true
     },
     {
       "type": "cue",
@@ -346,7 +349,8 @@
       "id": "cheerReaders/okItsOngirls3Loop",
       "deprecatedIDs": [],
       "name": "ok it's on! - girls - 3",
-      "duration": 1.0
+      "duration": 1.0,
+      "loops": true
     },
     {
       "type": "cue",

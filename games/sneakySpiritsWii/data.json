@@ -39,6 +39,7 @@
       "deprecatedIDs": [],
       "name": "no ghost - raining",
       "duration": 3.0,
+      "loops": true,
       "stretchable": true
     },
     {

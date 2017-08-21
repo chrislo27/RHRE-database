@@ -39,6 +39,7 @@
       "id": "screwbotFactoryJa/screwingYaTta",
       "deprecatedIDs": [],
       "name": "black - screw",
+      "loops": true,
       "duration": 2.0
     },
     {
@@ -88,6 +89,7 @@
       "id": "screwbotFactoryJa/screwingYoSha",
       "deprecatedIDs": [],
       "name": "white - screw",
+      "loops": true,
       "duration": 1.0
     },
     {

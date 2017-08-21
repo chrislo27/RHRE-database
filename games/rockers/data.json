@@ -11,6 +11,7 @@
       "deprecatedIDs": [],
       "name": "strum loop",
       "duration": 1.0,
+      "loops": true,
       "stretchable": true,
       "repitchable": true
     },
