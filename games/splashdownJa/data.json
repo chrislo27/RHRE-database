@@ -112,42 +112,40 @@
       "duration": 1.0
     },
     {
-      "type": "pattern",
+      "type": "equidistant",
       "id": "splashdownJa_descend",
       "deprecatedIDs": [],
       "name": "descend",
+      "distance": 0.75,
+      "stretchable": true,
       "cues": [
         {
-          "id": "splashdownJa/descend1",
-          "beat": 0.0
+          "id": "splashdownJa/descend1"
         },
         {
-          "id": "splashdownJa/descend1",
-          "beat": 0.75
+          "id": "splashdownJa/descend1"
         },
         {
-          "id": "splashdownJa/descend2",
-          "beat": 1.5
+          "id": "splashdownJa/descend2"
         }
       ]
     },
     {
-      "type": "pattern",
+      "type": "equidistant",
       "id": "splashdownJa_ascend",
       "deprecatedIDs": [],
       "name": "ascend",
+      "distance": 0.75,
+      "stretchable": true,
       "cues": [
         {
-          "id": "splashdownJa/ascend1",
-          "beat": 0.0
+          "id": "splashdownJa/ascend1"
         },
         {
-          "id": "splashdownJa/ascend1",
-          "beat": 0.75
+          "id": "splashdownJa/ascend1"
         },
         {
-          "id": "splashdownJa/ascend2",
-          "beat": 1.5
+          "id": "splashdownJa/ascend2"
         }
       ]
     },
