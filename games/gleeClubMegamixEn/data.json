@@ -63,7 +63,6 @@
       "id": "gleeClubMegamixEn/screamBegin",
       "deprecatedIDs": [],
       "name": "gleeClubMegamixEn/screamBegin",
-      "introSound": "gleeClubMegamixEn/screamBegin",
       "duration": 1.0E-6,
       "repitchable": true
     },
@@ -72,6 +71,7 @@
       "id": "gleeClubMegamixEn/screamLoop",
       "deprecatedIDs": [],
       "name": "scream",
+      "introSound": "gleeClubMegamixEn/screamBegin",
       "duration": 1.0,
       "repitchable": true
     },
