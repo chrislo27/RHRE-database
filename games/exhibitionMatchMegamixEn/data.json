@@ -61,9 +61,12 @@
     },
     {
       "type": "pattern",
-      "id": "exhibitionMatchMegamixEn_pitch1",
+      "id": "exhibitionMatchMegamixEn_pitch",
       "deprecatedIDs": [
-        "exhibitionMatchMegamix_pitch1"
+        "exhibitionMatchMegamix_pitch1",
+        "exhibitionMatchMegamixEn_pitch1",
+        "exhibitionMatchMegamixEn_pitch2",
+        "exhibitionMatchMegamixEn_pitch3"
       ],
       "name": "pitch 1",
       "cues": [
@@ -76,51 +79,7 @@
           "beat": 2.0
         },
         {
-          "id": "exhibitionMatchMegamixEn/hit1",
-          "beat": 6.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "exhibitionMatchMegamixEn_pitch2",
-      "deprecatedIDs": [
-        "exhibitionMatchMegamix_pitch2"
-      ],
-      "name": "pitch 2",
-      "cues": [
-        {
-          "id": "exhibitionMatchMegamixEn/stance",
-          "beat": 0.0
-        },
-        {
-          "id": "exhibitionMatchMegamixEn/throw",
-          "beat": 2.0
-        },
-        {
-          "id": "exhibitionMatchMegamixEn/hit2",
-          "beat": 6.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "exhibitionMatchMegamixEn_pitch3",
-      "deprecatedIDs": [
-        "exhibitionMatchMegamix_pitch3"
-      ],
-      "name": "pitch 3",
-      "cues": [
-        {
-          "id": "exhibitionMatchMegamixEn/stance",
-          "beat": 0.0
-        },
-        {
-          "id": "exhibitionMatchMegamixEn/throw",
-          "beat": 2.0
-        },
-        {
-          "id": "exhibitionMatchMegamixEn/hit3",
+          "id": "exhibitionMatchMegamixEn_randomHit",
           "beat": 6.0
         }
       ]
@@ -144,6 +103,23 @@
         {
           "id": "exhibitionMatchMegamixEn/hitHomerun",
           "beat": 6.0
+        }
+      ]
+    },
+    {
+      "type": "randomCue",
+      "id": "exhibitionMatchMegamixEn_randomHit",
+      "deprecatedIDs": [],
+      "name": "random hit",
+      "cues": [
+        {
+          "id": "exhibitionMatchMegamixEn/hit1"
+        },
+        {
+          "id": "exhibitionMatchMegamixEn/hit2"
+        },
+        {
+          "id": "exhibitionMatchMegamixEn/hit3"
         }
       ]
     }

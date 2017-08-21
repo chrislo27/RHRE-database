@@ -350,6 +350,57 @@
       "duration": 1.0
     },
     {
+      "type": "randomCue",
+      "id": "ringsideJa_isThatTrueRandom",
+      "deprecatedIDs": [],
+      "name": "is that true?",
+      "cues": [
+        {
+          "id": "ringsideJa_isThatTrueA"
+        },
+        {
+          "id": "ringsideJa_isThatTrueB"
+        },
+        {
+          "id": "ringsideJa_isThatTrueC"
+        }
+      ]
+    },
+    {
+      "type": "randomCue",
+      "id": "ringsideJa_youGoBigGuyRandom",
+      "deprecatedIDs": [],
+      "name": "woah, you go big guy!",
+      "cues": [
+        {
+          "id": "ringsideJa_youGoBigGuyA"
+        },
+        {
+          "id": "ringsideJa_youGoBigGuyB"
+        },
+        {
+          "id": "ringsideJa_youGoBigGuyC"
+        }
+      ]
+    },
+    {
+      "type": "randomCue",
+      "id": "ringsideJa_poseForTheFansRandom",
+      "deprecatedIDs": [],
+      "name": "pose for the fans!",
+      "cues": [
+        {
+          "id": "ringsideJa_poseForTheFansA"
+        },
+        {
+          "id": "ringsideJa_poseForTheFansB"
+        },
+        {
+          "id": "ringsideJa_poseForTheFansC"
+        }
+      ]
+    },
+    {
       "type": "pattern",
       "id": "ringsideJa_isThatTrueA",
       "deprecatedIDs": [],

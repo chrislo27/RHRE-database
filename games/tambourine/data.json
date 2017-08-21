@@ -6,32 +6,71 @@
   "requiresVersion": "v3.0.0",
   "objects": [
     {
-      "type": "cue",
-      "id": "tambourine/monkeyA",
+      "type": "randomCue",
+      "id": "tambourine_monkeyShake",
       "deprecatedIDs": [],
-      "name": "monkey - shake - 1",
-      "duration": 0.25
+      "name": "monkey - shake",
+      "cues": [
+        {
+          "id": "tambourine/playerA1"
+        },
+        {
+          "id": "tambourine/playerA2"
+        }
+      ]
     },
     {
-      "type": "cue",
-      "id": "tambourine/monkeyA2",
+      "type": "randomCue",
+      "id": "tambourine_playerShake",
       "deprecatedIDs": [],
-      "name": "monkey - shake - 2",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "tambourine/monkeyB",
-      "deprecatedIDs": [],
-      "name": "monkey - hit",
-      "duration": 0.25
+      "name": "player - shake",
+      "cues": [
+        {
+          "id": "tambourine/playerA1"
+        },
+        {
+          "id": "tambourine/playerA2"
+        }
+      ]
     },
     {
       "type": "cue",
       "id": "tambourine/monkeyEnd",
       "deprecatedIDs": [],
       "name": "monkey - end turn",
+      "duration": 1.0,
+      "responseIDs": ["tambourine/playerEnd"]
+    },
+    {
+      "type": "cue",
+      "id": "tambourine/playerEnd",
+      "deprecatedIDs": [],
+      "name": "player - end turn",
       "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "tambourine/monkeyA",
+      "deprecatedIDs": [],
+      "name": "monkey - shake - 1",
+      "duration": 0.25,
+      "responseIDs": ["tambourine/playerA1", "tambourine/playerA2"]
+    },
+    {
+      "type": "cue",
+      "id": "tambourine/monkeyA2",
+      "deprecatedIDs": [],
+      "name": "monkey - shake - 2",
+      "duration": 0.25,
+      "responseIDs": ["tambourine/playerA1", "tambourine/playerA2"]
+    },
+    {
+      "type": "cue",
+      "id": "tambourine/monkeyB",
+      "deprecatedIDs": [],
+      "name": "monkey - hit",
+      "duration": 0.25,
+      "responseIDs": ["tambourine/playerB"]
     },
     {
       "type": "cue",
@@ -53,13 +92,6 @@
       "deprecatedIDs": [],
       "name": "player - hit",
       "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "tambourine/playerEnd",
-      "deprecatedIDs": [],
-      "name": "player - end turn",
-      "duration": 1.0
     }
   ]
 }

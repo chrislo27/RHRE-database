@@ -7,6 +7,58 @@
   "group": "First Contact",
   "objects": [
     {
+      "type": "randomCue",
+      "id": "secondContact_alien",
+      "deprecatedIDs": [],
+      "name": "alien speech",
+      "cues": [
+        {
+          "id": "secondContact/alien1"
+        },
+        {
+          "id": "secondContact/alien2"
+        }
+      ]
+    },
+    {
+      "type": "randomCue",
+      "id": "secondContact_farmer",
+      "deprecatedIDs": [],
+      "name": "farmer speech",
+      "cues": [
+        {
+          "id": "secondContact/farmer1"
+        },
+        {
+          "id": "secondContact/farmer2"
+        },
+        {
+          "id": "secondContact/farmer3"
+        },
+        {
+          "id": "secondContact/farmer4"
+        },
+        {
+          "id": "secondContact/farmer5"
+        },
+        {
+          "id": "secondContact/farmer6"
+        },
+        {
+          "id": "secondContact/farmer7"
+        },
+        {
+          "id": "secondContact/farmer8"
+        },
+        {
+          "id": "secondContact/farmer9"
+        },
+        {
+          "id": "secondContact/farmer10"
+        }
+      ]
+    },
+    {
       "type": "cue",
       "id": "secondContact/passover",
       "deprecatedIDs": [],

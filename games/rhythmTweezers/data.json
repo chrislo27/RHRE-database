@@ -11,7 +11,7 @@
       "deprecatedIDs": [],
       "name": "hair - appear",
       "duration": 0.25,
-      "responseIDs": ["rhythmTweezers/pluck", "rhythmTweezers/pluck2"]
+      "responseIDs": ["rhythmTweezers_randomPluck"]
     },
     {
       "type": "cue",
@@ -23,8 +23,8 @@
     },
     {
       "type": "cue",
-      "id": "rhythmTweezers/pluck",
-      "deprecatedIDs": [],
+      "id": "rhythmTweezers/pluck2",
+      "deprecatedIDs": ["rhythmTweezers/pluck"],
       "name": "hair - pluck 1",
       "duration": 0.25
     },
@@ -64,6 +64,20 @@
       "deprecatedIDs": [],
       "name": "cashier",
       "duration": 1.0
+    },
+    {
+      "type": "randomCue",
+      "id": "rhythmTweezers_randomPluck",
+      "deprecatedIDs": [],
+      "name": "random pluck",
+      "cues": [
+        {
+          "id": "rhythmTweezers/pluck1"
+        },
+        {
+          "id": "rhythmTweezers/pluck2"
+        }
+      ]
     }
   ]
 }

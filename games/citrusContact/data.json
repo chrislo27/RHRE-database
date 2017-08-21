@@ -7,6 +7,70 @@
   "group": "First Contact",
   "objects": [
     {
+      "type": "randomCue",
+      "id": "citrusContact_alien",
+      "deprecatedIDs": [],
+      "name": "alien speech",
+      "cues": [
+        {
+          "id": "citrusContact/alien1"
+        },
+        {
+          "id": "citrusContact/alien2"
+        },
+        {
+          "id": "citrusContact/alien3"
+        },
+        {
+          "id": "citrusContact/alien4"
+        },
+        {
+          "id": "citrusContact/alien5"
+        },
+        {
+          "id": "citrusContact/alien6"
+        }
+      ]
+    },
+    {
+      "type": "randomCue",
+      "id": "citrusContact_reporter",
+      "deprecatedIDs": [],
+      "name": "reporter speech",
+      "cues": [
+        {
+          "id": "citrusContact/reporter1"
+        },
+        {
+          "id": "citrusContact/reporter2"
+        },
+        {
+          "id": "citrusContact/reporter3"
+        },
+        {
+          "id": "citrusContact/reporter4"
+        },
+        {
+          "id": "citrusContact/reporter5"
+        },
+        {
+          "id": "citrusContact/reporter6"
+        },
+        {
+          "id": "citrusContact/reporter7"
+        },
+        {
+          "id": "citrusContact/reporter8"
+        },
+        {
+          "id": "citrusContact/reporter9"
+        },
+        {
+          "id": "citrusContact/reporter10"
+        }
+      ]
+    },
+    {
       "type": "cue",
       "id": "citrusContact/passover",
       "deprecatedIDs": [],

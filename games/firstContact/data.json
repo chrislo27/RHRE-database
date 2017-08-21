@@ -8,6 +8,70 @@
   "groupDefault": true,
   "objects": [
     {
+      "type": "randomCue",
+      "id": "firstContact_alien",
+      "deprecatedIDs": [],
+      "name": "alien speech",
+      "cues": [
+        {
+          "id": "firstContact/alien1"
+        },
+        {
+          "id": "firstContact/alien2"
+        },
+        {
+          "id": "firstContact/alien3"
+        },
+        {
+          "id": "firstContact/alien4"
+        },
+        {
+          "id": "firstContact/alien5"
+        },
+        {
+          "id": "firstContact/alien6"
+        }
+      ]
+    },
+    {
+      "type": "randomCue",
+      "id": "firstContact_translator",
+      "deprecatedIDs": [],
+      "name": "translator speech",
+      "cues": [
+        {
+          "id": "firstContact/translator1"
+        },
+        {
+          "id": "firstContact/translator2"
+        },
+        {
+          "id": "firstContact/translator3"
+        },
+        {
+          "id": "firstContact/translator4"
+        },
+        {
+          "id": "firstContact/translator5"
+        },
+        {
+          "id": "firstContact/translator6"
+        },
+        {
+          "id": "firstContact/translator7"
+        },
+        {
+          "id": "firstContact/translator8"
+        },
+        {
+          "id": "firstContact/translator9"
+        },
+        {
+          "id": "firstContact/translator10"
+        }
+      ]
+    },
+    {
       "type": "cue",
       "id": "firstContact/passover",
       "deprecatedIDs": [],
