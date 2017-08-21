@@ -27,6 +27,7 @@
       "deprecatedIDs": [],
       "name": "15 bounces",
       "distance": 0.5,
+      "stretchable": true,
       "cues": [
         {
           "id": "bouncyRoadMegamix/tink"

@@ -26,6 +26,7 @@
       "deprecatedIDs": [],
       "name": "widget",
       "duration": 1.0,
+      "stretchable": true,
       "cues": [
         {
           "id": "builtToScaleDS/c"
