@@ -21,46 +21,38 @@
       "duration": 1.0
     },
     {
-      "type": "pattern",
+      "type": "equidistant",
       "id": "builtToScaleDS_widget",
       "deprecatedIDs": [],
       "name": "widget",
+      "duration": 1.0,
       "cues": [
         {
-          "id": "builtToScaleDS/c",
-          "beat": 0.0
+          "id": "builtToScaleDS/c"
         },
         {
           "id": "builtToScaleDS/c",
-          "beat": 1.0,
           "semitone": 2
         },
         {
           "id": "builtToScaleDS/c",
-          "beat": 2.0,
           "semitone": 4
         },
         {
           "id": "builtToScaleDS/c",
-          "beat": 3.0,
           "semitone": 5
         },
         {
           "id": "builtToScaleDS/c",
-          "beat": 4.0,
-          "duration": 1.0,
           "semitone": 7
         },
         {
           "id": "builtToScaleDS/c",
-          "beat": 4.0,
-          "duration": 1.0,
           "semitone": 12,
           "track": 1
         },
         {
           "id": "builtToScaleDS/pew",
-          "beat": 4.0,
           "track": 2
         }
       ]
