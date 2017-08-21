@@ -10,14 +10,16 @@
       "id": "workingDough/leftSmall",
       "deprecatedIDs": [],
       "name": "left - small",
-      "duration": 0.25
+      "duration": 0.25,
+      "responseIDs": ["workingDough/rightSmall"]
     },
     {
       "type": "cue",
       "id": "workingDough/leftBig",
       "deprecatedIDs": [],
       "name": "left - big",
-      "duration": 0.25
+      "duration": 0.25,
+      "responseIDs": ["workingDough/rightBig"]
     },
     {
       "type": "cue",

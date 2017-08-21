@@ -10,28 +10,32 @@
       "id": "loveLab/leftCatch",
       "deprecatedIDs": [],
       "name": "left - catch",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": ["loveLab/rightCatch"]
     },
     {
       "type": "cue",
       "id": "loveLab/leftThrow",
       "deprecatedIDs": [],
       "name": "left - throw",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": ["loveLab/rightThrow"]
     },
     {
       "type": "cue",
       "id": "loveLab/shake1",
       "deprecatedIDs": [],
       "name": "shake - 1",
-      "duration": 0.25
+      "duration": 0.25,
+      "responseIDs": ["loveLab/shake1"]
     },
     {
       "type": "cue",
       "id": "loveLab/shake2",
       "deprecatedIDs": [],
       "name": "shake - 2",
-      "duration": 0.25
+      "duration": 0.25,
+      "responseIDs": ["loveLab/shake2"]
     },
     {
       "type": "cue",

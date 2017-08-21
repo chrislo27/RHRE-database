@@ -33,42 +33,114 @@
       "id": "firstContact/alien1",
       "deprecatedIDs": [],
       "name": "alien - 1",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": [
+        "firstContact/translator1",
+        "firstContact/translator2",
+        "firstContact/translator3",
+        "firstContact/translator4",
+        "firstContact/translator5",
+        "firstContact/translator6",
+        "firstContact/translator7",
+        "firstContact/translator8",
+        "firstContact/translator9",
+        "firstContact/translator10"
+      ]
     },
     {
       "type": "cue",
       "id": "firstContact/alien2",
       "deprecatedIDs": [],
       "name": "alien - 2",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": [
+        "firstContact/translator1",
+        "firstContact/translator2",
+        "firstContact/translator3",
+        "firstContact/translator4",
+        "firstContact/translator5",
+        "firstContact/translator6",
+        "firstContact/translator7",
+        "firstContact/translator8",
+        "firstContact/translator9",
+        "firstContact/translator10"
+      ]
     },
     {
       "type": "cue",
       "id": "firstContact/alien3",
       "deprecatedIDs": [],
       "name": "alien - 3",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": [
+        "firstContact/translator1",
+        "firstContact/translator2",
+        "firstContact/translator3",
+        "firstContact/translator4",
+        "firstContact/translator5",
+        "firstContact/translator6",
+        "firstContact/translator7",
+        "firstContact/translator8",
+        "firstContact/translator9",
+        "firstContact/translator10"
+      ]
     },
     {
       "type": "cue",
       "id": "firstContact/alien4",
       "deprecatedIDs": [],
       "name": "alien - 4",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": [
+        "firstContact/translator1",
+        "firstContact/translator2",
+        "firstContact/translator3",
+        "firstContact/translator4",
+        "firstContact/translator5",
+        "firstContact/translator6",
+        "firstContact/translator7",
+        "firstContact/translator8",
+        "firstContact/translator9",
+        "firstContact/translator10"
+      ]
     },
     {
       "type": "cue",
       "id": "firstContact/alien5",
       "deprecatedIDs": [],
       "name": "alien - 5",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": [
+        "firstContact/translator1",
+        "firstContact/translator2",
+        "firstContact/translator3",
+        "firstContact/translator4",
+        "firstContact/translator5",
+        "firstContact/translator6",
+        "firstContact/translator7",
+        "firstContact/translator8",
+        "firstContact/translator9",
+        "firstContact/translator10"
+      ]
     },
     {
       "type": "cue",
       "id": "firstContact/alien6",
       "deprecatedIDs": [],
       "name": "alien - 6",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": [
+        "firstContact/translator1",
+        "firstContact/translator2",
+        "firstContact/translator3",
+        "firstContact/translator4",
+        "firstContact/translator5",
+        "firstContact/translator6",
+        "firstContact/translator7",
+        "firstContact/translator8",
+        "firstContact/translator9",
+        "firstContact/translator10"
+      ]
     },
     {
       "type": "cue",

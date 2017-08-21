@@ -11,21 +11,24 @@
       "id": "drummerDuelKo/redOnbeat",
       "deprecatedIDs": [],
       "name": "red - onbeat drum",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": ["drummerDuelKo/blueOnbeat"]
     },
     {
       "type": "cue",
       "id": "drummerDuelKo/redOffbeat",
       "deprecatedIDs": [],
       "name": "red - offbeat drum",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": ["drummerDuelKo/blueOffbeat"]
     },
     {
       "type": "cue",
       "id": "drummerDuelKo/redPass",
       "deprecatedIDs": [],
       "name": "red - turn pass",
-      "duration": 1.0
+      "duration": 1.0,
+      "responseIDs": ["drummerDuelKo/bluePass"]
     },
     {
       "type": "cue",

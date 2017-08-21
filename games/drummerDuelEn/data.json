@@ -14,7 +14,8 @@
         "drummerDuel/redOnbeat"
       ],
       "name": "red - onbeat drum",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": ["drummerDuelEn/blueOnbeat"]
     },
     {
       "type": "cue",
@@ -23,7 +24,8 @@
         "drummerDuel/redOffbeat"
       ],
       "name": "red - offbeat drum",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": ["drummerDuelEn/blueOffbeat"]
     },
     {
       "type": "cue",
@@ -32,7 +34,8 @@
         "drummerDuel/redPass"
       ],
       "name": "red - turn pass",
-      "duration": 1.0
+      "duration": 1.0,
+      "responseIDs": ["drummerDuelEn/bluePass"]
     },
     {
       "type": "cue",

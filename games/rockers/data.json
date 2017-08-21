@@ -14,7 +14,8 @@
       "loops": true,
       "stretchable": true,
       "repitchable": true,
-      "introSound": "rockers/strumStart"
+      "introSound": "rockers/strumStart",
+      "responseIDs": ["rockers/strumLoop"]
     },
     {
       "type": "cue",
@@ -29,7 +30,8 @@
       "id": "rockers/hold",
       "deprecatedIDs": [],
       "name": "hold",
-      "duration": 0.25
+      "duration": 0.25,
+      "responseIDs": ["rockers/hold"]
     },
     {
       "type": "cue",

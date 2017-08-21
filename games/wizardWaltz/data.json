@@ -10,7 +10,8 @@
       "id": "wizardWaltz/plant",
       "deprecatedIDs": [],
       "name": "plant",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": ["wizardWaltz/grow"]
     },
     {
       "type": "cue",

@@ -23,10 +23,12 @@
       "type": "cue",
       "id": "moaiDooWop/ooo1",
       "deprecatedIDs": [],
-      "name": "left - doo",
+      "name": "left - doo-wop",
       "duration": 1.0,
       "stretchable": true,
-      "introSound": "moaiDooWop/d1"
+      "introSound": "moaiDooWop/d1",
+      "endingSound": "moaiDooWop/wop1",
+      "responseIDs": ["moaiDooWop/ooo2"]
     },
     {
       "type": "cue",
@@ -40,7 +42,8 @@
       "id": "moaiDooWop/pah1",
       "deprecatedIDs": [],
       "name": "left - pah",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": ["moaiDooWop/pah2"]
     },
     {
       "type": "cue",
@@ -53,10 +56,11 @@
       "type": "cue",
       "id": "moaiDooWop/ooo2",
       "deprecatedIDs": [],
-      "name": "right - doo",
+      "name": "right - doo-wop",
       "duration": 1.0,
       "stretchable": true,
-      "introSound": "moaiDooWop/d2"
+      "introSound": "moaiDooWop/d2",
+      "endingSound": "moaiDooWop/wop2"
     },
     {
       "type": "cue",
@@ -83,10 +87,11 @@
       "type": "cue",
       "id": "moaiDooWop/ooo3",
       "deprecatedIDs": [],
-      "name": "middle (unused) - doo",
+      "name": "middle (unused) - doo-wop",
       "duration": 1.0,
       "stretchable": true,
-      "introSound": "moaiDooWop/d3"
+      "introSound": "moaiDooWop/d3",
+      "endingSound": "moaiDooWop/wop3"
     },
     {
       "type": "cue",

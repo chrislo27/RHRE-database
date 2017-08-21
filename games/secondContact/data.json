@@ -34,14 +34,38 @@
       "id": "secondContact/alien1",
       "deprecatedIDs": [],
       "name": "alien - 1",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": [
+        "secondContact/farmer1",
+        "secondContact/farmer2",
+        "secondContact/farmer3",
+        "secondContact/farmer4",
+        "secondContact/farmer5",
+        "secondContact/farmer6",
+        "secondContact/farmer7",
+        "secondContact/farmer8",
+        "secondContact/farmer9",
+        "secondContact/farmer10"
+      ]
     },
     {
       "type": "cue",
       "id": "secondContact/alien2",
       "deprecatedIDs": [],
       "name": "alien - 2",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": [
+        "secondContact/farmer1",
+        "secondContact/farmer2",
+        "secondContact/farmer3",
+        "secondContact/farmer4",
+        "secondContact/farmer5",
+        "secondContact/farmer6",
+        "secondContact/farmer7",
+        "secondContact/farmer8",
+        "secondContact/farmer9",
+        "secondContact/farmer10"
+      ]
     },
     {
       "type": "cue",

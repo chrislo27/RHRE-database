@@ -10,7 +10,8 @@
       "id": "shootEmUpMegamix/spawn",
       "deprecatedIDs": [],
       "name": "spawn",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": ["shootEmUpMegamix/shoot"]
     },
     {
       "type": "cue",
@@ -24,7 +25,8 @@
       "id": "shootEmUpMegamix/commStart",
       "deprecatedIDs": [],
       "name": "comms start",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": ["shootEmUpMegamix/commEnd"]
     },
     {
       "type": "cue",
