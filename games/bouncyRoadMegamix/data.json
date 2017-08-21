@@ -22,72 +22,58 @@
       "repitchable": true
     },
     {
-      "type": "pattern",
+      "type": "equidistant",
       "id": "bouncyRoadMegamix_15bounces",
       "deprecatedIDs": [],
       "name": "15 bounces",
+      "distance": 0.5,
       "cues": [
         {
-          "id": "bouncyRoadMegamix/tink",
-          "beat": 0.0
+          "id": "bouncyRoadMegamix/tink"
+        },
+        {
+          "id": "bouncyRoadMegamix/tink"
+        },
+        {
+          "id": "bouncyRoadMegamix/tink"
+        },
+        {
+          "id": "bouncyRoadMegamix/tink"
+        },
+        {
+          "id": "bouncyRoadMegamix/tink"
+        },
+        {
+          "id": "bouncyRoadMegamix/tink"
+        },
+        {
+          "id": "bouncyRoadMegamix/tink"
+        },
+        {
+          "id": "bouncyRoadMegamix/tink"
+        },
+        {
+          "id": "bouncyRoadMegamix/tink"
+        },
+        {
+          "id": "bouncyRoadMegamix/tink"
+        },
+        {
+          "id": "bouncyRoadMegamix/tink"
+        },
+        {
+          "id": "bouncyRoadMegamix/tink"
         },
         {
           "id": "bouncyRoadMegamix/tink",
-          "beat": 0.5
-        },
-        {
-          "id": "bouncyRoadMegamix/tink",
-          "beat": 1.0
-        },
-        {
-          "id": "bouncyRoadMegamix/tink",
-          "beat": 1.5
-        },
-        {
-          "id": "bouncyRoadMegamix/tink",
-          "beat": 2.0
-        },
-        {
-          "id": "bouncyRoadMegamix/tink",
-          "beat": 2.5
-        },
-        {
-          "id": "bouncyRoadMegamix/tink",
-          "beat": 3.0
-        },
-        {
-          "id": "bouncyRoadMegamix/tink",
-          "beat": 3.5
-        },
-        {
-          "id": "bouncyRoadMegamix/tink",
-          "beat": 4.0
-        },
-        {
-          "id": "bouncyRoadMegamix/tink",
-          "beat": 4.5
-        },
-        {
-          "id": "bouncyRoadMegamix/tink",
-          "beat": 5.0
-        },
-        {
-          "id": "bouncyRoadMegamix/tink",
-          "beat": 5.5
-        },
-        {
-          "id": "bouncyRoadMegamix/tink",
-          "beat": 6.0,
           "semitone": -4
         },
         {
           "id": "bouncyRoadMegamix/tink",
-          "beat": 6.5,
           "semitone": 3
         },
         {
-          "id": "bouncyRoadMegamix/cymbal",
-          "beat": 7.0
+          "id": "bouncyRoadMegamix/cymbal"
         }
       ]
     }
