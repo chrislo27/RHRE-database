@@ -50,78 +50,67 @@
       "duration": 0.5
     },
     {
-      "type": "pattern",
+      "type": "equidistant",
       "id": "sneakySpirits_sevenBeats",
       "deprecatedIDs": [],
       "name": "7 beats",
+      "distance": 1.0,
+      "stretchable": true,
       "cues": [
         {
-          "id": "sneakySpirits/moving",
-          "beat": 0.0
+          "id": "sneakySpirits/moving"
         },
         {
-          "id": "sneakySpirits/moving",
-          "beat": 0.5
+          "id": "sneakySpirits/moving"
         },
         {
-          "id": "sneakySpirits/moving",
-          "beat": 1.0
+          "id": "sneakySpirits/moving"
         },
         {
-          "id": "sneakySpirits/moving",
-          "beat": 1.5
+          "id": "sneakySpirits/moving"
         },
         {
-          "id": "sneakySpirits/moving",
-          "beat": 2.0
+          "id": "sneakySpirits/moving"
         },
         {
-          "id": "sneakySpirits/moving",
-          "beat": 2.5
+          "id": "sneakySpirits/moving"
         },
         {
-          "id": "sneakySpirits/hit",
-          "beat": 3.0
+          "id": "sneakySpirits/hit"
         }
       ]
     },
     {
-      "type": "pattern",
+      "type": "equidistant",
       "id": "sneakySpirits_eightBeats",
       "deprecatedIDs": [],
       "name": "8 beats",
+      "distance": 1.0,
+      "stretchable": true,
       "cues": [
         {
-          "id": "sneakySpirits/moving",
-          "beat": 0.0
+          "id": "sneakySpirits/moving"
         },
         {
-          "id": "sneakySpirits/moving",
-          "beat": 0.5
+          "id": "sneakySpirits/moving"
         },
         {
-          "id": "sneakySpirits/moving",
-          "beat": 1.0
+          "id": "sneakySpirits/moving"
         },
         {
-          "id": "sneakySpirits/moving",
-          "beat": 1.5
+          "id": "sneakySpirits/moving"
         },
         {
-          "id": "sneakySpirits/moving",
-          "beat": 2.0
+          "id": "sneakySpirits/moving"
         },
         {
-          "id": "sneakySpirits/moving",
-          "beat": 2.5
+          "id": "sneakySpirits/moving"
         },
         {
-          "id": "sneakySpirits/moving",
-          "beat": 3.0
+          "id": "sneakySpirits/moving"
         },
         {
-          "id": "sneakySpirits/hit",
-          "beat": 3.5
+          "id": "sneakySpirits/hit"
         }
       ]
     }

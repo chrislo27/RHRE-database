@@ -20,48 +20,43 @@
       "duration": 0.25
     },
     {
-      "type": "pattern",
+      "type": "equidistant",
       "id": "clappyTrioGba_triotiming",
       "deprecatedIDs": [],
       "name": "trio timing!",
+      "distance": 1.0,
+      "stretchable": true,
       "cues": [
         {
-          "id": "clappyTrioGba/clap",
-          "beat": 0.0
+          "id": "clappyTrioGba/clap"
         },
         {
-          "id": "clappyTrioGba/clap",
-          "beat": 1.0
+          "id": "clappyTrioGba/clap"
         },
         {
-          "id": "clappyTrioGba/clap",
-          "beat": 2.0,
-          "duration": 1.0
+          "id": "clappyTrioGba/clap"
         }
       ]
     },
     {
-      "type": "pattern",
+      "type": "equidistant",
       "id": "clappyTrioGba_fouronthefloor",
       "deprecatedIDs": [],
       "name": "four on the floor!",
+      "distance": 1.0,
+      "stretchable": true,
       "cues": [
         {
-          "id": "clappyTrioGba/clap",
-          "beat": 0.0
+          "id": "clappyTrioGba/clap"
         },
         {
-          "id": "clappyTrioGba/clap",
-          "beat": 1.0
+          "id": "clappyTrioGba/clap"
         },
         {
-          "id": "clappyTrioGba/clap",
-          "beat": 2.0
+          "id": "clappyTrioGba/clap"
         },
         {
-          "id": "clappyTrioGba/clap",
-          "beat": 3.0,
-          "duration": 1.0
+          "id": "clappyTrioGba/clap"
         }
       ]
     }
