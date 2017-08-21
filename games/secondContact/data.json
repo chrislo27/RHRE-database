@@ -64,7 +64,8 @@
       "id": "secondContact/passover",
       "deprecatedIDs": [],
       "name": "turn passover",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": ["secondContact_success"]
     },
     {
       "type": "cue",

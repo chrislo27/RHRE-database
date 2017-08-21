@@ -76,7 +76,8 @@
       "id": "citrusContact/passover",
       "deprecatedIDs": [],
       "name": "turn passover",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": ["citrusContact_success"]
     },
     {
       "type": "cue",
