@@ -24,14 +24,16 @@
       "id": "quizShow/hostA",
       "deprecatedIDs": [],
       "name": "host - A",
-      "duration": 0.25
+      "duration": 0.25,
+      "responseIDs": ["quizShow/contestantA"]
     },
     {
       "type": "cue",
       "id": "quizShow/hostDPad",
       "deprecatedIDs": [],
       "name": "host - +",
-      "duration": 0.25
+      "duration": 0.25,
+      "responseIDs": ["quizShow/contestantDPad"]
     },
     {
       "type": "cue",

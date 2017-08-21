@@ -10,7 +10,8 @@
       "id": "ninjaBodyguard/shoot",
       "deprecatedIDs": [],
       "name": "shoot",
-      "duration": 0.25
+      "duration": 0.25,
+      "responseIDs": ["ninjaBodyguard/cut"]
     },
     {
       "type": "cue",

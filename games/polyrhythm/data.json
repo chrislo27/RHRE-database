@@ -12,7 +12,8 @@
         "polyrhythm/side_a"
       ],
       "name": "spring - A",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": ["polyrhythm/aWidget"]
     },
     {
       "type": "cue",
@@ -21,7 +22,8 @@
         "polyrhythm/side_d"
       ],
       "name": "spring - +",
-      "duration": 0.5
+      "duration": 0.5,
+      "responseIDs": ["polyrhythm/dPadWidget"]
     },
     {
       "type": "cue",

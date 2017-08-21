@@ -10,14 +10,16 @@
       "id": "rhythmTweezersGba/appear",
       "deprecatedIDs": [],
       "name": "hair - appear",
-      "duration": 0.25
+      "duration": 0.25,
+      "responseIDs": ["rhythmTweezersGba/pluck"]
     },
     {
       "type": "cue",
       "id": "rhythmTweezersGba/longAppear",
       "deprecatedIDs": [],
       "name": "long hair - appear",
-      "duration": 1.0
+      "duration": 1.0,
+      "responseIDs": ["rhythmTweezersGba/aaa"]
     },
     {
       "type": "cue",
@@ -37,8 +39,9 @@
       "type": "cue",
       "id": "rhythmTweezersGba/aaa",
       "deprecatedIDs": [],
-      "name": "long hair - pluck - 1",
+      "name": "long hair - pluck",
       "introSound": "rhythmTweezersGba/gr",
+      "endingSound": "rhythmTweezersGba/b",
       "duration": 0.5
     },
     {

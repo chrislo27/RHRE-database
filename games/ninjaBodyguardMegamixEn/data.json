@@ -12,7 +12,8 @@
         "ninjaBodyguardMegamix/shoot"
       ],
       "name": "shoot",
-      "duration": 0.25
+      "duration": 0.25,
+      "responseIDs": ["ninjaBodyguardMegamix/cut"]
     },
     {
       "type": "cue",
