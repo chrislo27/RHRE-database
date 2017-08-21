@@ -10,6 +10,7 @@
       "id": "rhythmoveDungeon/cycle",
       "deprecatedIDs": [],
       "name": "cycle",
+      "baseBpm": 121,
       "duration": 2.0
     },
     {

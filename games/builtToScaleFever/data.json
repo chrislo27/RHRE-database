@@ -46,7 +46,8 @@
       "id": "builtToScaleFever/prepare",
       "deprecatedIDs": [],
       "name": "prepare",
-      "duration": 2.25
+      "duration": 2.25,
+      "baseBpm": 120.0
     },
     {
       "type": "cue",

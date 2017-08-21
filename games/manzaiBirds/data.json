@@ -10,42 +10,48 @@
       "id": "manzaiBirds/boing",
       "deprecatedIDs": [],
       "name": "BOING!",
-      "duration": 1.0
+      "duration": 1.0,
+      "baseBpm": 95
     },
     {
       "type": "cue",
       "id": "manzaiBirds/donaiyanen",
       "deprecatedIDs": [],
       "name": "donaiyanen!",
-      "duration": 1.5
+      "duration": 1.5,
+      "baseBpm": 95
     },
     {
       "type": "cue",
       "id": "manzaiBirds/haihai1",
       "deprecatedIDs": [],
       "name": "hai-",
-      "duration": 0.5
+      "duration": 0.5,
+      "baseBpm": 95
     },
     {
       "type": "cue",
       "id": "manzaiBirds/haihai2",
       "deprecatedIDs": [],
       "name": "-hai!",
-      "duration": 0.5
+      "duration": 0.5,
+      "baseBpm": 95
     },
     {
       "type": "cue",
       "id": "manzaiBirds/applause1",
       "deprecatedIDs": [],
       "name": "audience - 1",
-      "duration": 1.0
+      "duration": 1.0,
+      "baseBpm": 95
     },
     {
       "type": "cue",
       "id": "manzaiBirds/applause2",
       "deprecatedIDs": [],
       "name": "audience - 2",
-      "duration": 1.0
+      "duration": 1.0,
+      "baseBpm": 95
     },
     {
       "type": "cue",
