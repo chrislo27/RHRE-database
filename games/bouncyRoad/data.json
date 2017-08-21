@@ -35,6 +35,7 @@
       "deprecatedIDs": [],
       "name": "15 bounces",
       "distance": 0.5,
+      "stretchable": true,
       "cues": [
         {
           "id": "bouncyRoad/tink"
@@ -91,6 +92,7 @@
       "deprecatedIDs": [],
       "name": "15 snorts",
       "distance": 0.5,
+      "stretchable": true,
       "cues": [
         {
           "id": "bouncyRoad/spySnort"
