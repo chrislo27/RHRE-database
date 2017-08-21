@@ -31,7 +31,8 @@
         {
           "id": "firstContact/alien6"
         }
-      ]
+      ],
+      "responseIDs": ["firstContact_translator"]
     },
     {
       "type": "randomCue",

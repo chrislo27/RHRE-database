@@ -8,20 +8,6 @@
   "objects": [
     {
       "type": "randomCue",
-      "id": "secondContact_alien",
-      "deprecatedIDs": [],
-      "name": "alien speech",
-      "cues": [
-        {
-          "id": "secondContact/alien1"
-        },
-        {
-          "id": "secondContact/alien2"
-        }
-      ]
-    },
-    {
-      "type": "randomCue",
       "id": "secondContact_farmer",
       "deprecatedIDs": [],
       "name": "farmer speech",
@@ -55,6 +41,21 @@
         },
         {
           "id": "secondContact/farmer10"
+        }
+      ],
+      "responseIDs": ["secondContact_alien"]
+    },
+    {
+      "type": "randomCue",
+      "id": "secondContact_alien",
+      "deprecatedIDs": [],
+      "name": "alien speech",
+      "cues": [
+        {
+          "id": "secondContact/alien1"
+        },
+        {
+          "id": "secondContact/alien2"
         }
       ]
     },

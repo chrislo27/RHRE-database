@@ -30,7 +30,8 @@
         {
           "id": "citrusContact/alien6"
         }
-      ]
+      ],
+      "responseIDs": ["citrusContact_reporter"]
     },
     {
       "type": "randomCue",
