@@ -161,10 +161,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "marchingOrdersKo_marching",
       "deprecatedIDs": [],
       "name": "marching",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "marchingOrdersKo/step1",

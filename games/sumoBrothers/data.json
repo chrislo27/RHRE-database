@@ -75,10 +75,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "sumoBrothers_stomp",
       "deprecatedIDs": [],
       "name": "stomping",
+      "defaultDuration": 3.0,
       "cues": [
         {
           "id": "sumoBrothers/stomp",
@@ -115,10 +116,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "sumoBrothers_slap",
       "deprecatedIDs": [],
       "name": "slapping",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "sumoBrothers/slap",

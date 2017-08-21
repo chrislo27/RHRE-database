@@ -311,12 +311,13 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "marchingOrdersJa_marching",
       "deprecatedIDs": [
         "marchingOrders_marching"
       ],
       "name": "marching",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "marchingOrdersJa/step1",

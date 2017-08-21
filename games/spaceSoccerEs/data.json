@@ -35,10 +35,11 @@
       "duration": 1.5
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "spaceSoccerEs_keepup",
       "deprecatedIDs": [],
       "name": "keep-up",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "spaceSoccerEs/hey",

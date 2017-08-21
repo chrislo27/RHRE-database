@@ -41,10 +41,11 @@
       "duration": 1.0
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "rhythmTest_pressToBeat",
       "deprecatedIDs": [],
       "name": "pressing to the beat",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "rhythmTest/pressToBeat",
@@ -89,10 +90,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "rhythmTest_waitFour",
       "deprecatedIDs": [],
       "name": "wait (four)",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "rhythmTest/wait",
@@ -113,10 +115,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "rhythmTest_waitEight",
       "deprecatedIDs": [],
       "name": "wait (eight)",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "rhythmTest/wait",

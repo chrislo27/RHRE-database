@@ -249,10 +249,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "marchingOrdersRemix7_marching",
       "deprecatedIDs": [],
       "name": "marching",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "marchingOrdersRemix7/step1",

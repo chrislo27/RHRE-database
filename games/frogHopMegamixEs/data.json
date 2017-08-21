@@ -133,10 +133,11 @@
       "duration": 1.0
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "frogHopMegamixEs_shake",
       "deprecatedIDs": [],
       "name": "shake",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "frogHopMegamixEs/shake",

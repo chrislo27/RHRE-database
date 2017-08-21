@@ -170,12 +170,13 @@
       "duration": 1.0
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "frogHopMegamixEn_shake",
       "deprecatedIDs": [
         "frogHopMegamix_shake"
       ],
       "name": "shake",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "frogHopMegamixEn/shake",

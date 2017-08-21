@@ -133,12 +133,13 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "spaceSoccerEn_keepup",
       "deprecatedIDs": [
         "spaceSoccer_keepup"
       ],
       "name": "keep-up",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "spaceSoccerEn/kick",

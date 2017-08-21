@@ -149,12 +149,13 @@
       "duration": 1.5
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "tapTroupeEn_step",
       "deprecatedIDs": [
         "tapTroupe_step"
       ],
       "name": "step",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "tapTroupeEn/step1",

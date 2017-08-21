@@ -48,10 +48,11 @@
       "duration": 1.0
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "rhythmTestWii_pressToBeat",
       "deprecatedIDs": [],
       "name": "pressing to the beat",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "rhythmTestWii/pressToBeat",
@@ -72,10 +73,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "rhythmTestWii_waitFour",
       "deprecatedIDs": [],
       "name": "wait (four)",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "rhythmTestWii/wait",
@@ -96,10 +98,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "rhythmTestWii_waitEight",
       "deprecatedIDs": [],
       "name": "wait (eight)",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "rhythmTestWii/wait",

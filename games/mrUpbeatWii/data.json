@@ -77,12 +77,13 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "mrUpbeatWii_pattern",
       "deprecatedIDs": [
         "mrUpbeat_pattern"
       ],
       "name": "stepping",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "mrUpbeatWii/metroR",

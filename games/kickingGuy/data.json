@@ -41,10 +41,11 @@
       "duration": 0.5
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "kickingGuy_cowbell",
       "deprecatedIDs": [],
       "name": "cowbell",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "kickingGuy/cowbell",
@@ -65,10 +66,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "kickingGuy_hit",
       "deprecatedIDs": [],
       "name": "kicking",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "kickingGuy/hit",

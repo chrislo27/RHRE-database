@@ -71,10 +71,11 @@
       "duration": 1.0
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "nightWalk_walk",
       "deprecatedIDs": [],
       "name": "walking",
+      "defaultDuration": 2.0,
       "cues": [
         {
           "id": "nightWalk/walk2",
@@ -95,10 +96,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "nightWalk_jump1",
       "deprecatedIDs": [],
       "name": "four flowers",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "nightWalk/jump1",
@@ -119,10 +121,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "nightWalk_jump2",
       "deprecatedIDs": [],
       "name": "three flowers, one lollipop",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "nightWalk/jump1",
@@ -143,12 +146,13 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "nightWalk_jump3",
       "deprecatedIDs": [
         "nightWalk_jump"
       ],
       "name": "two flowers, two lollipops",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "nightWalk/jump1",
@@ -169,10 +173,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "nightWalk_jumpUmbrella1",
       "deprecatedIDs": [],
       "name": "three flowers, one umbrella - same level",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "nightWalk/jump1",
@@ -193,10 +198,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "nightWalk_jumpUmbrella2",
       "deprecatedIDs": [],
       "name": "three flowers, one umbrella - up a level",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "nightWalk/jump1",
@@ -225,10 +231,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "nightWalk_disappear",
       "deprecatedIDs": [],
       "name": "boxes disappearing",
+      "defaultDuration": 5.0,
       "cues": [
         {
           "id": "nightWalk/disappear",

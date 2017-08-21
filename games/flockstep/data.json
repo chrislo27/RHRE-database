@@ -160,10 +160,11 @@
       "duration": 1.0
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "flockstep_march",
       "deprecatedIDs": [],
       "name": "march",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "flockstep/step1",
@@ -200,10 +201,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "flockstep_marchMigration",
       "deprecatedIDs": [],
       "name": "march (migration)",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "flockstep/stepMigration1",

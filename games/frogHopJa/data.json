@@ -126,10 +126,11 @@
       "duration": 0.5
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "frogHopJa_shake",
       "deprecatedIDs": [],
       "name": "shake",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "frogHopJa/shake",

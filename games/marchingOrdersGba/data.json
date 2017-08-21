@@ -250,10 +250,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "marchingOrdersGba_marching",
       "deprecatedIDs": [],
       "name": "marching",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "marchingOrdersGba/step1",

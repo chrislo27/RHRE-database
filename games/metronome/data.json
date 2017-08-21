@@ -27,10 +27,11 @@
       "duration": 1.0
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "metronome_ok",
       "deprecatedIDs": [],
       "name": "OK!",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "metronome/ok",

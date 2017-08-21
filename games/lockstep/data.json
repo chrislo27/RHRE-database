@@ -90,10 +90,11 @@
       "duration": 0.375
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "lockstep_onbeat",
       "deprecatedIDs": [],
       "name": "onbeat",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "lockstep/march1",
@@ -114,10 +115,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "lockstep_offbeat",
       "deprecatedIDs": [],
       "name": "offbeat",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "lockstep/march1_bkbt",

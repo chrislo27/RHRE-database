@@ -55,10 +55,11 @@
       "duration": 1.0
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "bunnyHopGba_start",
       "deprecatedIDs": [],
       "name": "start",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "bunnyHopGba/start",
@@ -79,10 +80,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "bunnyHopGba_hopping",
       "deprecatedIDs": [],
       "name": "hopping",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "bunnyHopGba/hop1",

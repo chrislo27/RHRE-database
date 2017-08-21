@@ -140,10 +140,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "mrUpbeatGba_pattern",
       "deprecatedIDs": [],
       "name": "stepping",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "mrUpbeatGba/metroR",

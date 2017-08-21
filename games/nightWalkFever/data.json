@@ -69,10 +69,11 @@
       "duration": 1.5
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "nightWalkFever_jumping",
       "deprecatedIDs": [],
       "name": "jumping",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "nightWalkFever/jump1",
