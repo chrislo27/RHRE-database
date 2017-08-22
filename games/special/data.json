@@ -1,0 +1,27 @@
+{
+  "series": "other",
+  "id": "special",
+  "deprecatedIDs": [],
+  "name": "Special Entities",
+  "requiresVersion": "v3.0.0",
+  "priority": 2,
+  "objects": [
+    {
+      "type": "endEntity",
+      "id": "special_endEntity",
+      "deprecatedIDs": [],
+      "name": "End Remix"
+    },
+    {
+      "type": "cue",
+      "id": "special/silence",
+      "deprecatedIDs": [
+        "countIn/silence",
+        "countInEn/silence"
+      ],
+      "name": "silence",
+      "duration": 1.0,
+      "stretchable": true
+    }
+  ]
+}
