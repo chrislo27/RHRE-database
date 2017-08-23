@@ -15,6 +15,12 @@
       "name": "End Remix"
     },
     {
+      "type": "subtitleEntity",
+      "id": "special_subtitleEntity",
+      "deprecatedIDs": [],
+      "name": "Subtitle"
+    },
+    {
       "type": "cue",
       "id": "special/silence",
       "deprecatedIDs": [
