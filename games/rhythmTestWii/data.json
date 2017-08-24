@@ -3,7 +3,6 @@
   "id": "rhythmTestWii",
   "deprecatedIDs": [],
   "name": "Rhythm Test (Fever)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

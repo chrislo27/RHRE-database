@@ -3,7 +3,6 @@
   "id": "shootEmUp",
   "deprecatedIDs": [],
   "name": "Shoot-'em-Up (DS)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",
@@ -11,7 +10,9 @@
       "deprecatedIDs": [],
       "name": "spawn",
       "duration": 0.5,
-      "responseIDs": ["shootEmUp/shoot"]
+      "responseIDs": [
+        "shootEmUp/shoot"
+      ]
     },
     {
       "type": "cue",
@@ -26,7 +27,9 @@
       "deprecatedIDs": [],
       "name": "comms start",
       "duration": 0.5,
-      "responseIDs": ["shootEmUp/commEnd"]
+      "responseIDs": [
+        "shootEmUp/commEnd"
+      ]
     },
     {
       "type": "cue",

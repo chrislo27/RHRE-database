@@ -3,7 +3,6 @@
   "id": "quizShow",
   "deprecatedIDs": [],
   "name": "Quiz Show (Megamix)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",
@@ -25,7 +24,9 @@
       "deprecatedIDs": [],
       "name": "host - A",
       "duration": 0.25,
-      "responseIDs": ["quizShow/contestantA"]
+      "responseIDs": [
+        "quizShow/contestantA"
+      ]
     },
     {
       "type": "cue",
@@ -33,7 +34,9 @@
       "deprecatedIDs": [],
       "name": "host - +",
       "duration": 0.25,
-      "responseIDs": ["quizShow/contestantDPad"]
+      "responseIDs": [
+        "quizShow/contestantDPad"
+      ]
     },
     {
       "type": "cue",

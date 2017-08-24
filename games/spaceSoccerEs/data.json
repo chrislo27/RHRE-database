@@ -3,7 +3,6 @@
   "id": "spaceSoccerEs",
   "deprecatedIDs": [],
   "name": "Space Soccer (Spanish)",
-  "requiresVersion": "v3.0.0",
   "group": "Space Soccer",
   "objects": [
     {

@@ -3,7 +3,6 @@
   "id": "nightWalkFever",
   "deprecatedIDs": [],
   "name": "Night Walk (Fever)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

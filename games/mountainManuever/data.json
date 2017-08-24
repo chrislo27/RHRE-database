@@ -2,7 +2,6 @@
   "id": "mountainManuever",
   "deprecatedIDs": [],
   "name": "Mountain Manuever",
-  "requiresVersion": "v3.0.0",
   "priority": -1,
   "objects": [
     {

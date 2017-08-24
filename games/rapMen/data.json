@@ -3,7 +3,6 @@
   "id": "rapMen",
   "deprecatedIDs": [],
   "name": "Rap Men",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

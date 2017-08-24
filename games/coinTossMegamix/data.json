@@ -3,7 +3,6 @@
   "id": "coinTossMegamix",
   "deprecatedIDs": [],
   "name": "Coin Toss (Megamix)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

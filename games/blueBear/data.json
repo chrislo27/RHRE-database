@@ -3,7 +3,6 @@
   "id": "blueBear",
   "deprecatedIDs": [],
   "name": "Blue Bear",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

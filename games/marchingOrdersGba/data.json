@@ -3,7 +3,6 @@
   "id": "marchingOrdersGba",
   "deprecatedIDs": [],
   "name": "Marching Orders (GBA)",
-  "requiresVersion": "v3.0.0",
   "group": "Marching Orders (GBA)",
   "groupDefault": true,
   "objects": [

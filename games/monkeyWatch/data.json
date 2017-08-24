@@ -3,7 +3,6 @@
   "id": "monkeyWatch",
   "deprecatedIDs": [],
   "name": "Monkey Watch",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

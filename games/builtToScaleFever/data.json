@@ -3,7 +3,6 @@
   "id": "builtToScaleFever",
   "deprecatedIDs": [],
   "name": "Built to Scale (Fever)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

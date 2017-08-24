@@ -3,7 +3,6 @@
   "id": "fanClubEn",
   "deprecatedIDs": [],
   "name": "Fan Club (DS) (English)",
-  "requiresVersion": "v3.0.0",
   "group": "Fan Club (DS)",
   "groupDefault": true,
   "objects": [

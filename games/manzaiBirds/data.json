@@ -3,7 +3,6 @@
   "id": "manzaiBirds",
   "deprecatedIDs": [],
   "name": "Manzai Birds",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

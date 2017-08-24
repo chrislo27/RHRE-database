@@ -3,7 +3,6 @@
   "id": "spaceDanceGba",
   "deprecatedIDs": [],
   "name": "Space Dance (GBA)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

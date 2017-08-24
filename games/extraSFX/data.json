@@ -2,7 +2,6 @@
   "id": "extraSFX",
   "deprecatedIDs": [],
   "name": "Extra Sound Effects",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

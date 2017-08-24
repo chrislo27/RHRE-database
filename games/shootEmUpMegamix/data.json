@@ -3,7 +3,6 @@
   "id": "shootEmUpMegamix",
   "deprecatedIDs": [],
   "name": "Shoot-'em-Up (Megamix)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",
@@ -11,7 +10,9 @@
       "deprecatedIDs": [],
       "name": "spawn",
       "duration": 0.5,
-      "responseIDs": ["shootEmUpMegamix/shoot"]
+      "responseIDs": [
+        "shootEmUpMegamix/shoot"
+      ]
     },
     {
       "type": "cue",
@@ -26,7 +27,9 @@
       "deprecatedIDs": [],
       "name": "comms start",
       "duration": 0.5,
-      "responseIDs": ["shootEmUpMegamix/commEnd"]
+      "responseIDs": [
+        "shootEmUpMegamix/commEnd"
+      ]
     },
     {
       "type": "cue",

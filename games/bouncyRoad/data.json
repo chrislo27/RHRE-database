@@ -3,7 +3,6 @@
   "id": "bouncyRoad",
   "deprecatedIDs": [],
   "name": "Bouncy Road (GBA)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

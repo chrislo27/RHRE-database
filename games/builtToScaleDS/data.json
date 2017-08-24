@@ -3,7 +3,6 @@
   "id": "builtToScaleDS",
   "deprecatedIDs": [],
   "name": "Built to Scale (DS)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

@@ -3,7 +3,6 @@
   "id": "tramAndPauline",
   "deprecatedIDs": [],
   "name": "Tram and Pauline",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

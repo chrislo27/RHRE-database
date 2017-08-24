@@ -3,7 +3,6 @@
   "id": "ratRaceGba",
   "deprecatedIDs": [],
   "name": "Rat Race (GBA)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

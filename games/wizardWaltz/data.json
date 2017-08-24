@@ -3,7 +3,6 @@
   "id": "wizardWaltz",
   "deprecatedIDs": [],
   "name": "Wizard Waltz",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",
@@ -11,7 +10,9 @@
       "deprecatedIDs": [],
       "name": "plant",
       "duration": 0.5,
-      "responseIDs": ["wizardWaltz/grow"]
+      "responseIDs": [
+        "wizardWaltz/grow"
+      ]
     },
     {
       "type": "cue",

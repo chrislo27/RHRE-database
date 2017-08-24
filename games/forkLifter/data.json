@@ -3,7 +3,6 @@
   "id": "forkLifter",
   "deprecatedIDs": [],
   "name": "Fork Lifter",
-  "requiresVersion": "v3.0.0",
   "group": "Fork Lifter",
   "groupDefault": true,
   "objects": [

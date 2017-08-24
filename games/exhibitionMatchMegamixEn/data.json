@@ -3,7 +3,6 @@
   "id": "exhibitionMatchMegamixEn",
   "deprecatedIDs": [],
   "name": "Exhibition Match (Megamix) (English)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

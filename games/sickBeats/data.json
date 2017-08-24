@@ -3,7 +3,6 @@
   "id": "sickBeats",
   "deprecatedIDs": [],
   "name": "Sick Beats (GBA)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",
@@ -62,7 +61,9 @@
       "type": "pattern",
       "id": "sickBeats_blueVirus",
       "deprecatedIDs": [
-        "sickBeats_blueVirus1", "sickBeats_blueVirus2", "sickBeats_blueVirus3"
+        "sickBeats_blueVirus1",
+        "sickBeats_blueVirus2",
+        "sickBeats_blueVirus3"
       ],
       "name": "blue virus",
       "cues": [
@@ -107,7 +108,9 @@
     {
       "type": "pattern",
       "id": "sickBeats_pinkVirus1",
-      "deprecatedIDs": ["sickBeats_pinkVirus1"],
+      "deprecatedIDs": [
+        "sickBeats_pinkVirus1"
+      ],
       "name": "pink virus",
       "cues": [
         {
@@ -163,7 +166,10 @@
     {
       "type": "pattern",
       "id": "sickBeats_blackVirus2",
-      "deprecatedIDs": ["sickBeats_blackVirus1", "sickBeats_blackVirus2"],
+      "deprecatedIDs": [
+        "sickBeats_blackVirus1",
+        "sickBeats_blackVirus2"
+      ],
       "name": "black virus",
       "cues": [
         {
@@ -244,7 +250,9 @@
           "id": "sickBeats/appear3"
         }
       ],
-      "responseIDs": ["sickBeats_randomStab"]
+      "responseIDs": [
+        "sickBeats_randomStab"
+      ]
     },
     {
       "type": "randomCue",

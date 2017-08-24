@@ -3,7 +3,6 @@
   "id": "splashdownEn",
   "deprecatedIDs": [],
   "name": "Splashdown (English)",
-  "requiresVersion": "v3.0.0",
   "group": "Splashdown",
   "groupDefault": true,
   "objects": [

@@ -3,7 +3,6 @@
   "id": "nightWalkMegamix",
   "deprecatedIDs": [],
   "name": "Night Walk (Megamix)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

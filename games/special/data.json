@@ -5,7 +5,6 @@
   "id": "special",
   "deprecatedIDs": [],
   "name": "Special Entities",
-  "requiresVersion": "v3.0.0",
   "priority": 2,
   "objects": [
     {

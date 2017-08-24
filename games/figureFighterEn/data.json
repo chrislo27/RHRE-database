@@ -3,7 +3,6 @@
   "id": "figureFighterEn",
   "deprecatedIDs": [],
   "name": "Figure Fighter (English)",
-  "requiresVersion": "v3.0.0",
   "group": "Figure Fighter",
   "groupDefault": true,
   "objects": [

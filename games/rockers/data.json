@@ -3,7 +3,6 @@
   "id": "rockers",
   "deprecatedIDs": [],
   "name": "Rockers",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",
@@ -15,7 +14,9 @@
       "stretchable": true,
       "repitchable": true,
       "introSound": "rockers/strumStart",
-      "responseIDs": ["rockers/strumLoop"]
+      "responseIDs": [
+        "rockers/strumLoop"
+      ]
     },
     {
       "type": "cue",
@@ -31,7 +32,9 @@
       "deprecatedIDs": [],
       "name": "hold",
       "duration": 0.25,
-      "responseIDs": ["rockers/hold"]
+      "responseIDs": [
+        "rockers/hold"
+      ]
     },
     {
       "type": "cue",

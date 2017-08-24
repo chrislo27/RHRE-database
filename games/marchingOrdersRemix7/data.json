@@ -3,7 +3,6 @@
   "id": "marchingOrdersRemix7",
   "deprecatedIDs": [],
   "name": "Marching Orders (Remix 7/8)",
-  "requiresVersion": "v3.0.0",
   "group": "Marching Orders (GBA)",
   "objects": [
     {

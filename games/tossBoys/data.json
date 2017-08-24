@@ -3,7 +3,6 @@
   "id": "tossBoys",
   "deprecatedIDs": [],
   "name": "Toss Boys",
-  "requiresVersion": "v3.0.0",
   "group": "Toss Boys",
   "groupDefault": true,
   "objects": [

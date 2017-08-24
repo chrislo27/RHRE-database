@@ -3,7 +3,6 @@
   "id": "gleeClubMegamixEn",
   "deprecatedIDs": [],
   "name": "Glee Club (Megamix)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

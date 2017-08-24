@@ -3,7 +3,6 @@
   "id": "pirateCrew",
   "deprecatedIDs": [],
   "name": "Pirate Crew",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

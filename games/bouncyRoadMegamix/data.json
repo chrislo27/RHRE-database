@@ -3,7 +3,6 @@
   "id": "bouncyRoadMegamix",
   "deprecatedIDs": [],
   "name": "Bouncy Road (Megamix)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

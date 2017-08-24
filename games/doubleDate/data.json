@@ -3,7 +3,6 @@
   "id": "doubleDate",
   "deprecatedIDs": [],
   "name": "Double Date",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

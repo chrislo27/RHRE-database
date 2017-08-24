@@ -3,7 +3,6 @@
   "id": "rhythmRally",
   "deprecatedIDs": [],
   "name": "Rhythm Rally (DS)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

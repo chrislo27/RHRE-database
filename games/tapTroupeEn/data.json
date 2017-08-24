@@ -3,7 +3,6 @@
   "id": "tapTroupeEn",
   "deprecatedIDs": [],
   "name": "Tap Troupe (English)",
-  "requiresVersion": "v3.0.0",
   "group": "Tap Troupe",
   "groupDefault": true,
   "objects": [

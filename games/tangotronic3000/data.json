@@ -3,7 +3,6 @@
   "id": "tangotronic3000",
   "deprecatedIDs": [],
   "name": "Tangotronic 3000",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

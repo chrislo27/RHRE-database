@@ -3,7 +3,6 @@
   "id": "ratRace",
   "deprecatedIDs": [],
   "name": "Rat Race (Megamix)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

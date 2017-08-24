@@ -3,7 +3,6 @@
   "id": "polyrhythm",
   "deprecatedIDs": [],
   "name": "Polyrhythm",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",
@@ -13,7 +12,9 @@
       ],
       "name": "spring - A",
       "duration": 0.5,
-      "responseIDs": ["polyrhythm/aWidget"]
+      "responseIDs": [
+        "polyrhythm/aWidget"
+      ]
     },
     {
       "type": "cue",
@@ -23,7 +24,9 @@
       ],
       "name": "spring - +",
       "duration": 0.5,
-      "responseIDs": ["polyrhythm/dPadWidget"]
+      "responseIDs": [
+        "polyrhythm/dPadWidget"
+      ]
     },
     {
       "type": "cue",

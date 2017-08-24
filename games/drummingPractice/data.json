@@ -3,7 +3,6 @@
   "id": "drummingPractice",
   "deprecatedIDs": [],
   "name": "Drumming Practice",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

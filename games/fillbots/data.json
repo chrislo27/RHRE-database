@@ -3,7 +3,6 @@
   "id": "fillbots",
   "deprecatedIDs": [],
   "name": "Fillbots (DS)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

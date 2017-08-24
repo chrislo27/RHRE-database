@@ -3,7 +3,6 @@
   "id": "boardMeetingRemix2",
   "deprecatedIDs": [],
   "name": "Board Meeting (Remix 2)",
-  "requiresVersion": "v3.0.0",
   "group": "Board Meeting",
   "objects": [
     {

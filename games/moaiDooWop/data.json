@@ -3,7 +3,6 @@
   "id": "moaiDooWop",
   "deprecatedIDs": [],
   "name": "Moai Doo-Wop",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",
@@ -28,7 +27,9 @@
       "stretchable": true,
       "introSound": "moaiDooWop/d1",
       "endingSound": "moaiDooWop/wop1",
-      "responseIDs": ["moaiDooWop/ooo2"]
+      "responseIDs": [
+        "moaiDooWop/ooo2"
+      ]
     },
     {
       "type": "cue",
@@ -43,7 +44,9 @@
       "deprecatedIDs": [],
       "name": "left - pah",
       "duration": 0.5,
-      "responseIDs": ["moaiDooWop/pah2"]
+      "responseIDs": [
+        "moaiDooWop/pah2"
+      ]
     },
     {
       "type": "cue",

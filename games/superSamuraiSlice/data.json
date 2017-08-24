@@ -3,7 +3,6 @@
   "id": "superSamuraiSlice",
   "deprecatedIDs": [],
   "name": "Super Samurai Slice",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

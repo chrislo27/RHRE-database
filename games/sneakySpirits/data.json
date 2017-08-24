@@ -3,7 +3,6 @@
   "id": "sneakySpirits",
   "deprecatedIDs": [],
   "name": "Sneaky Spirits (GBA)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

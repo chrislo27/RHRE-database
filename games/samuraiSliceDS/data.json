@@ -3,7 +3,6 @@
   "id": "samuraiSliceDS",
   "deprecatedIDs": [],
   "name": "Samurai Slice (DS)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

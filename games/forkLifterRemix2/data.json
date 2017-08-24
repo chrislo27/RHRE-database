@@ -3,7 +3,6 @@
   "id": "forkLifterRemix2",
   "deprecatedIDs": [],
   "name": "Fork Lifter (Fever Remix 2)",
-  "requiresVersion": "v3.0.0",
   "group": "Fork Lifter",
   "objects": [
     {

@@ -3,7 +3,6 @@
   "id": "ladyCupid",
   "deprecatedIDs": [],
   "name": "Lady Cupid",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

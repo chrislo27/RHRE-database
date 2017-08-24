@@ -5,7 +5,6 @@
   "name": "Space Dance (Megamix) (English)",
   "group": "Space Dance (Megamix)",
   "groupDefault": true,
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

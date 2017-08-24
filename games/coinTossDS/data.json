@@ -3,7 +3,6 @@
   "id": "coinTossDS",
   "deprecatedIDs": [],
   "name": "Coin Toss (DS)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

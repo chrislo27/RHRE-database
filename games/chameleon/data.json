@@ -3,7 +3,6 @@
   "id": "chameleon",
   "deprecatedIDs": [],
   "name": "Chameleon",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

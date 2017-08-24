@@ -3,7 +3,6 @@
   "id": "catchyTune",
   "deprecatedIDs": [],
   "name": "Catchy Tune",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

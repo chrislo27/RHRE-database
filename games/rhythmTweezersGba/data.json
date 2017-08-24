@@ -3,7 +3,6 @@
   "id": "rhythmTweezersGba",
   "deprecatedIDs": [],
   "name": "Rhythm Tweezers (GBA)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",
@@ -11,7 +10,9 @@
       "deprecatedIDs": [],
       "name": "hair - appear",
       "duration": 0.25,
-      "responseIDs": ["rhythmTweezersGba/pluck"]
+      "responseIDs": [
+        "rhythmTweezersGba/pluck"
+      ]
     },
     {
       "type": "cue",
@@ -19,7 +20,9 @@
       "deprecatedIDs": [],
       "name": "long hair - appear",
       "duration": 1.0,
-      "responseIDs": ["rhythmTweezersGba/aaa"]
+      "responseIDs": [
+        "rhythmTweezersGba/aaa"
+      ]
     },
     {
       "type": "cue",

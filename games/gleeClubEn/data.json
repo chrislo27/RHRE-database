@@ -3,7 +3,6 @@
   "id": "gleeClubEn",
   "deprecatedIDs": [],
   "name": "Glee Club (DS) (English)",
-  "requiresVersion": "v3.0.0",
   "group": "Glee Club (DS)",
   "groupDefault": true,
   "objects": [

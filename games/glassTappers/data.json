@@ -3,7 +3,6 @@
   "id": "glassTappers",
   "deprecatedIDs": [],
   "name": "Glass Tappers",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

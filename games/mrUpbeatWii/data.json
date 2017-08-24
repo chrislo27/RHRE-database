@@ -3,7 +3,6 @@
   "id": "mrUpbeatWii",
   "deprecatedIDs": [],
   "name": "Mr. Upbeat (Fever)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

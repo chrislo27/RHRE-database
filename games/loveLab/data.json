@@ -3,7 +3,6 @@
   "id": "loveLab",
   "deprecatedIDs": [],
   "name": "Love Lab",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",
@@ -11,7 +10,9 @@
       "deprecatedIDs": [],
       "name": "left - catch",
       "duration": 0.5,
-      "responseIDs": ["loveLab/rightCatch"]
+      "responseIDs": [
+        "loveLab/rightCatch"
+      ]
     },
     {
       "type": "cue",
@@ -19,7 +20,9 @@
       "deprecatedIDs": [],
       "name": "left - throw",
       "duration": 0.5,
-      "responseIDs": ["loveLab/rightThrow"]
+      "responseIDs": [
+        "loveLab/rightThrow"
+      ]
     },
     {
       "type": "cue",
@@ -27,7 +30,9 @@
       "deprecatedIDs": [],
       "name": "shake - 1",
       "duration": 0.25,
-      "responseIDs": ["loveLab/shake1"]
+      "responseIDs": [
+        "loveLab/shake1"
+      ]
     },
     {
       "type": "cue",
@@ -35,7 +40,9 @@
       "deprecatedIDs": [],
       "name": "shake - 2",
       "duration": 0.25,
-      "responseIDs": ["loveLab/shake2"]
+      "responseIDs": [
+        "loveLab/shake2"
+      ]
     },
     {
       "type": "cue",

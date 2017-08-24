@@ -3,7 +3,6 @@
   "id": "tunnelJa",
   "deprecatedIDs": [],
   "name": "Tunnel (Japanese)",
-  "requiresVersion": "v3.0.0",
   "group": "Tunnel",
   "objects": [
     {

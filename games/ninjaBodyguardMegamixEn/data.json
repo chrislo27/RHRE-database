@@ -3,7 +3,6 @@
   "id": "ninjaBodyguardMegamixEn",
   "deprecatedIDs": [],
   "name": "Ninja Bodyguard (Megamix) (English)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",
@@ -13,7 +12,9 @@
       ],
       "name": "shoot",
       "duration": 0.25,
-      "responseIDs": ["ninjaBodyguardMegamix/cut"]
+      "responseIDs": [
+        "ninjaBodyguardMegamix/cut"
+      ]
     },
     {
       "type": "cue",

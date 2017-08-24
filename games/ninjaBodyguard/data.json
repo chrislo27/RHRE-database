@@ -3,7 +3,6 @@
   "id": "ninjaBodyguard",
   "deprecatedIDs": [],
   "name": "Ninja Bodyguard (GBA)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",
@@ -11,7 +10,9 @@
       "deprecatedIDs": [],
       "name": "shoot",
       "duration": 0.25,
-      "responseIDs": ["ninjaBodyguard/cut"]
+      "responseIDs": [
+        "ninjaBodyguard/cut"
+      ]
     },
     {
       "type": "cue",

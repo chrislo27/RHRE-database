@@ -3,7 +3,6 @@
   "id": "drummerDuelKo",
   "deprecatedIDs": [],
   "name": "Drummer Duel (Korean)",
-  "requiresVersion": "v3.0.0",
   "group": "Drummer Duel",
   "objects": [
     {
@@ -12,7 +11,9 @@
       "deprecatedIDs": [],
       "name": "red - onbeat drum",
       "duration": 0.5,
-      "responseIDs": ["drummerDuelKo/blueOnbeat"]
+      "responseIDs": [
+        "drummerDuelKo/blueOnbeat"
+      ]
     },
     {
       "type": "cue",
@@ -20,7 +21,9 @@
       "deprecatedIDs": [],
       "name": "red - offbeat drum",
       "duration": 0.5,
-      "responseIDs": ["drummerDuelKo/blueOffbeat"]
+      "responseIDs": [
+        "drummerDuelKo/blueOffbeat"
+      ]
     },
     {
       "type": "cue",
@@ -28,7 +31,9 @@
       "deprecatedIDs": [],
       "name": "red - turn pass",
       "duration": 1.0,
-      "responseIDs": ["drummerDuelKo/bluePass"]
+      "responseIDs": [
+        "drummerDuelKo/bluePass"
+      ]
     },
     {
       "type": "cue",

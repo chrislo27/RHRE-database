@@ -3,7 +3,6 @@
   "id": "boardMeetingJa",
   "deprecatedIDs": [],
   "name": "Board Meeting (Japanese)",
-  "requiresVersion": "v3.0.0",
   "group": "Board Meeting",
   "objects": [
     {

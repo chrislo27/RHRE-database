@@ -3,7 +3,6 @@
   "id": "frogPrincess",
   "deprecatedIDs": [],
   "name": "Frog Princess",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

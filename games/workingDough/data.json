@@ -3,7 +3,6 @@
   "id": "workingDough",
   "deprecatedIDs": [],
   "name": "Working Dough",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",
@@ -11,7 +10,9 @@
       "deprecatedIDs": [],
       "name": "left - small",
       "duration": 0.25,
-      "responseIDs": ["workingDough/rightSmall"]
+      "responseIDs": [
+        "workingDough/rightSmall"
+      ]
     },
     {
       "type": "cue",
@@ -19,7 +20,9 @@
       "deprecatedIDs": [],
       "name": "left - big",
       "duration": 0.25,
-      "responseIDs": ["workingDough/rightBig"]
+      "responseIDs": [
+        "workingDough/rightBig"
+      ]
     },
     {
       "type": "cue",

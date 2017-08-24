@@ -3,7 +3,6 @@
   "id": "tambourine",
   "deprecatedIDs": [],
   "name": "Tambourine",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "randomCue",
@@ -39,7 +38,9 @@
       "deprecatedIDs": [],
       "name": "monkey - end turn",
       "duration": 1.0,
-      "responseIDs": ["tambourine/playerEnd"]
+      "responseIDs": [
+        "tambourine/playerEnd"
+      ]
     },
     {
       "type": "cue",
@@ -54,7 +55,10 @@
       "deprecatedIDs": [],
       "name": "monkey - shake - 1",
       "duration": 0.25,
-      "responseIDs": ["tambourine/playerA1", "tambourine/playerA2"]
+      "responseIDs": [
+        "tambourine/playerA1",
+        "tambourine/playerA2"
+      ]
     },
     {
       "type": "cue",
@@ -62,7 +66,10 @@
       "deprecatedIDs": [],
       "name": "monkey - shake - 2",
       "duration": 0.25,
-      "responseIDs": ["tambourine/playerA1", "tambourine/playerA2"]
+      "responseIDs": [
+        "tambourine/playerA1",
+        "tambourine/playerA2"
+      ]
     },
     {
       "type": "cue",
@@ -70,7 +77,9 @@
       "deprecatedIDs": [],
       "name": "monkey - hit",
       "duration": 0.25,
-      "responseIDs": ["tambourine/playerB"]
+      "responseIDs": [
+        "tambourine/playerB"
+      ]
     },
     {
       "type": "cue",

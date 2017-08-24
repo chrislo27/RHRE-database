@@ -3,7 +3,6 @@
   "id": "meowMixer",
   "deprecatedIDs": [],
   "name": "Meow Mixer",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

@@ -3,7 +3,6 @@
   "id": "holeInOne",
   "deprecatedIDs": [],
   "name": "Hole in One",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",

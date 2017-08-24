@@ -3,7 +3,6 @@
   "id": "marchingOrdersEn",
   "deprecatedIDs": [],
   "name": "Marching Orders (Megamix) (English)",
-  "requiresVersion": "v3.0.0",
   "group": "Marching Orders (Megamix)",
   "groupDefault": true,
   "objects": [

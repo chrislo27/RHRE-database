@@ -3,7 +3,6 @@
   "id": "quizShowGba",
   "deprecatedIDs": [],
   "name": "Quiz Show (GBA)",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",
@@ -25,7 +24,9 @@
       "deprecatedIDs": [],
       "name": "host - A",
       "duration": 0.25,
-      "responseIDs": ["quizShowGba/contestantA"]
+      "responseIDs": [
+        "quizShowGba/contestantA"
+      ]
     },
     {
       "type": "cue",
@@ -33,7 +34,9 @@
       "deprecatedIDs": [],
       "name": "host - +",
       "duration": 0.25,
-      "responseIDs": ["quizShowGba/contestantDPad"]
+      "responseIDs": [
+        "quizShowGba/contestantDPad"
+      ]
     },
     {
       "type": "cue",

@@ -3,7 +3,6 @@
   "id": "showtime",
   "deprecatedIDs": [],
   "name": "Showtime",
-  "requiresVersion": "v3.0.0",
   "objects": [
     {
       "type": "cue",
