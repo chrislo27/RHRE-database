@@ -89,6 +89,26 @@
       "duration": 2.0
     },
     {
+      "type": "randomCue",
+      "id": "holeInOne_randomBall",
+      "deprecatedIDs": [],
+      "name": "random score clink",
+      "cues": [
+        {
+          "id": "holeInOne/hole1"
+        },
+        {
+          "id": "holeInOne/hole2"
+        },
+        {
+          "id": "holeInOne/hole3"
+        },
+        {
+          "id": "holeInOne/hole4"
+        }
+      ]
+    },
+    {
       "type": "pattern",
       "id": "holeInOne_monkey",
       "deprecatedIDs": [],
