@@ -61,7 +61,7 @@
       "duration": 0.5
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "rhythmRallyMegamix_slowrally",
       "deprecatedIDs": [
         "rhythmrallymegamix_slowrally"
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "rhythmRallyMegamix_normalrally",
       "deprecatedIDs": [
         "rhythmrallymegamix_normalrally"
