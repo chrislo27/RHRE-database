@@ -105,7 +105,8 @@
         },
         {
           "id": "lockstep/march1",
-          "beat": 2.0
+          "beat": 2.0,
+          "track": 1
         },
         {
           "id": "lockstep/march2",
