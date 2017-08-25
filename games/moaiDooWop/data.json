@@ -25,6 +25,7 @@
       "name": "left - doo-wop",
       "duration": 1.0,
       "stretchable": true,
+      "loops": true,
       "introSound": "moaiDooWop/d1",
       "endingSound": "moaiDooWop/wop1",
       "responseIDs": [
@@ -62,6 +63,7 @@
       "name": "right - doo-wop",
       "duration": 1.0,
       "stretchable": true,
+      "loops": true,
       "introSound": "moaiDooWop/d2",
       "endingSound": "moaiDooWop/wop2"
     },
@@ -93,6 +95,7 @@
       "name": "middle (unused) - doo-wop",
       "duration": 1.0,
       "stretchable": true,
+      "loops": true,
       "introSound": "moaiDooWop/d3",
       "endingSound": "moaiDooWop/wop3"
     },
