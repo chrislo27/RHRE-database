@@ -5,6 +5,57 @@
   "name": "Clap Trap",
   "objects": [
     {
+      "type": "randomCue",
+      "id": "clapTrap_randomClap",
+      "deprecatedIDs": [],
+      "name": "random clap",
+      "cues": [
+        {
+          "id": "clapTrap/goodClap1"
+        },
+        {
+          "id": "clapTrap/goodClap2"
+        },
+        {
+          "id": "clapTrap/goodClap3"
+        },
+        {
+          "id": "clapTrap/goodClap4"
+        }
+      ]
+    },
+    {
+      "type": "randomCue",
+      "id": "clapTrap_randomSigh",
+      "deprecatedIDs": [],
+      "name": "random sigh",
+      "cues": [
+        {
+          "id": "clapTrap/sigh1"
+        },
+        {
+          "id": "clapTrap/sigh2"
+        },
+        {
+          "id": "clapTrap/sigh3"
+        }
+      ]
+    },
+    {
+      "type": "randomCue",
+      "id": "clapTrap_randomBarely",
+      "deprecatedIDs": [],
+      "name": "random barely",
+      "cues": [
+        {
+          "id": "clapTrap/barely1"
+        },
+        {
+          "id": "clapTrap/barely2"
+        }
+      ]
+    },
+    {
       "type": "cue",
       "id": "clapTrap/donk",
       "deprecatedIDs": [],
@@ -125,11 +176,11 @@
           "beat": 3.5
         },
         {
-          "id": "clapTrap/goodClap1",
+          "id": "clapTrap_randomClap",
           "beat": 4.0
         },
         {
-          "id": "clapTrap/sigh1",
+          "id": "clapTrap_randomSigh",
           "beat": 6.0
         }
       ]
