@@ -67,6 +67,7 @@
         "rhythmrallymegamix_slowrally"
       ],
       "name": "slow rally",
+      "defaultDuration": 8.0,
       "cues": [
         {
           "id": "rhythmRallyMegamix/hit1",
@@ -94,6 +95,7 @@
         "rhythmrallymegamix_normalrally"
       ],
       "name": "normal rally",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "rhythmRallyMegamix/hit1",
