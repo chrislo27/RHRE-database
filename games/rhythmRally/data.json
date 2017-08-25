@@ -68,7 +68,8 @@
         },
         {
           "id": "rhythmRally/hit2",
-          "beat": 6.0
+          "beat": 6.0,
+          "duration": 2.0
         }
       ]
     },
@@ -94,7 +95,8 @@
         },
         {
           "id": "rhythmRally/hit2",
-          "beat": 3.0
+          "beat": 3.0,
+          "duration": 1.0
         }
       ]
     },
