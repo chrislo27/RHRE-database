@@ -11,7 +11,7 @@
       "name": "monkey - shake",
       "cues": [
         {
-          "id": "tambourine/playerA1"
+          "id": "tambourine/playerA"
         },
         {
           "id": "tambourine/playerA2"
@@ -25,7 +25,7 @@
       "name": "player - shake",
       "cues": [
         {
-          "id": "tambourine/playerA1"
+          "id": "tambourine/playerA"
         },
         {
           "id": "tambourine/playerA2"
