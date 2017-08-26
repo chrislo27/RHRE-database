@@ -5,6 +5,7 @@
   "group": "Count-Ins",
   "groupDefault": true,
   "priority": 1,
+  "noDisplay": true,
   "objects": [
     {
       "type": "cue",

@@ -6,6 +6,7 @@
   "deprecatedIDs": [],
   "name": "Special Entities",
   "priority": 2,
+  "noDisplay": true,
   "objects": [
     {
       "type": "endEntity",
