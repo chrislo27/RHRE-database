@@ -2,7 +2,7 @@
   "series": "side",
   "id": "rhythmTest",
   "deprecatedIDs": [],
-  "name": "Rhythm Test",
+  "name": "Rhythm Test (GBA)",
   "objects": [
     {
       "type": "cue",
