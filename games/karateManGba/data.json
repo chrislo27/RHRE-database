@@ -209,6 +209,106 @@
     },
     {
       "type": "pattern",
+      "id": "karateManGba_hit2",
+      "deprecatedIDs": [],
+      "name": "2!",
+      "cues": [
+        {
+          "id": "karateManGba/potOut",
+          "beat": 0
+        },
+        {
+          "id": "karateManGba/lightbulbHit",
+          "beat": 1
+        },
+        {
+          "id": "karateManGba/potOut",
+          "beat": 1
+        },
+        {
+          "id": "karateManGba/bombHit",
+          "beat": 2
+        },
+        {
+          "id": "karateManGba/bombBreak",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "karateManGba_hit3",
+      "deprecatedIDs": [],
+      "name": "3!",
+      "cues": [
+        {
+          "id": "karateManGba/potOut",
+          "beat": 0
+        },
+        {
+          "id": "karateManGba/lightbulbHit",
+          "beat": 1
+        },
+        {
+          "id": "karateManGba/potOut",
+          "beat": 1
+        },
+        {
+          "id": "karateManGba/lightbulbHit",
+          "beat": 2
+        },
+        {
+          "id": "karateManGba/potOut",
+          "beat": 2
+        },
+        {
+          "id": "karateManGba/rockHit",
+          "beat": 3
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "karateManGba_hit4",
+      "deprecatedIDs": [],
+      "name": "4!",
+      "cues": [
+        {
+          "id": "karateManGba/potOut",
+          "beat": 0
+        },
+        {
+          "id": "karateManGba/potHit",
+          "beat": 1
+        },
+        {
+          "id": "karateManGba/potOut",
+          "beat": 1
+        },
+        {
+          "id": "karateManGba/potHit",
+          "beat": 2
+        },
+        {
+          "id": "karateManGba/potOut",
+          "beat": 2
+        },
+        {
+          "id": "karateManGba/lightbulbHit",
+          "beat": 3
+        },
+        {
+          "id": "karateManGba/potOut",
+          "beat": 3
+        },
+        {
+          "id": "karateManGba/rockHit",
+          "beat": 4
+        }
+      ]
+    },
+    {
+      "type": "pattern",
       "id": "karateManGba_remix8",
       "deprecatedIDs": [],
       "name": "gong - serious mode",
