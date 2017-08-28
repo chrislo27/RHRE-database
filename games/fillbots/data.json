@@ -143,21 +143,21 @@
       "type": "cue",
       "id": "fillbots/aGenDar1",
       "deprecatedIDs": [],
-      "name": "practice - agendar! - 1",
+      "name": "practice - a llenar! - 1",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "fillbots/aGenDar2",
       "deprecatedIDs": [],
-      "name": "practice - agendar! - 2",
+      "name": "practice - a llenar! - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "fillbots/aGenDar3",
       "deprecatedIDs": [],
-      "name": "practice - agendar! - 3",
+      "name": "practice - a llenar! - 3",
       "duration": 0.5
     },
     {
@@ -350,7 +350,7 @@
       "type": "pattern",
       "id": "fillbots_aGenDar",
       "deprecatedIDs": [],
-      "name": "agendar! (practice - Spanish)",
+      "name": "a llenar! (practice - Spanish)",
       "cues": [
         {
           "id": "fillbots/aGenDar1",
