@@ -1,0 +1,79 @@
+{
+  "series": "side",
+  "id": "flickingPractice",
+  "deprecatedIDs": [],
+  "name": "Flicking Practice",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "flickingPractice/cointap",
+      "deprecatedIDs": [],
+      "name": "coin - tap",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "flickingPractice/cointap",
+      "deprecatedIDs": [],
+      "name": "coin - release",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "flickingPractice/frog_hit",
+      "deprecatedIDs": [],
+      "name": "frog - hit",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "flickingPractice/frog_igive",
+      "deprecatedIDs": [],
+      "name": "frog - i give!",
+      "duration": 1.0
+    },
+	{
+      "type": "cue",
+      "id": "flickingPractice/toycar_normal_intro",
+      "deprecatedIDs": [],
+      "name": "flickingPractice/toycar_normal_intro",
+      "duration": 1.0E-6
+    },
+	{
+      "type": "cue",
+      "id": "flickingPractice/toycar_fast_intro",
+      "deprecatedIDs": [],
+      "name": "flickingPractice/toycar_fast_intro",
+      "duration": 1.0E-6
+    },
+    {
+      "type": "cue",
+      "id": "flickingPractice/toycar_normal",
+      "deprecatedIDs": [],
+      "name": "toy car - normal",
+      "duration": 1.0,
+      "stretchable": true,
+      "loops": true,
+      "introSound": "flickingPractice/toycar_normal_intro",
+      "endingSound": "flickingPractice/toycar_hit"
+    },
+    {
+      "type": "cue",
+      "id": "flickingPractice/toycar_fast",
+      "deprecatedIDs": [],
+      "name": "toy car - fast",
+      "duration": 1.0,
+      "stretchable": true,
+      "loops": true,
+      "introSound": "flickingPractice/toycar_fast_intro",
+      "endingSound": "flickingPractice/toycar_hit"
+    },
+	{
+      "type": "cue",
+      "id": "flickingPractice/tap",
+      "deprecatedIDs": [],
+      "name": "text advance",
+      "duration": 1.0
+    }
+  ]
+}
