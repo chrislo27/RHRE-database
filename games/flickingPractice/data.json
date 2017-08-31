@@ -13,7 +13,7 @@
     },
     {
       "type": "cue",
-      "id": "flickingPractice/cointap",
+      "id": "flickingPractice/coinrelease",
       "deprecatedIDs": [],
       "name": "coin - release",
       "duration": 0.5
@@ -67,6 +67,13 @@
       "loops": true,
       "introSound": "flickingPractice/toycar_fast_intro",
       "endingSound": "flickingPractice/toycar_hit"
+    },
+	{
+      "type": "cue",
+      "id": "flickingPractice/toycar_hit",
+      "deprecatedIDs": [],
+      "name": "toy car - hit",
+      "duration": 1.0
     },
 	{
       "type": "cue",
