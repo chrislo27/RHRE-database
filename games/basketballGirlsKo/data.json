@@ -69,10 +69,11 @@
       "duration": 1.0
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "basketballGirlsKo_bounce",
       "deprecatedIDs": [],
       "name": "bounce",
+      "defaultDuration": 2.0,
       "cues": [
         {
           "id": "basketballGirlsKo/bounce1",
