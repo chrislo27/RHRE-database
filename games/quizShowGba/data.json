@@ -6,20 +6,6 @@
   "objects": [
     {
       "type": "cue",
-      "id": "quizShowGba/contestantA",
-      "deprecatedIDs": [],
-      "name": "contestant - A",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "quizShowGba/contestantDPad",
-      "deprecatedIDs": [],
-      "name": "contestant - +",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
       "id": "quizShowGba/hostA",
       "deprecatedIDs": [],
       "name": "host - A",
@@ -37,6 +23,20 @@
       "responseIDs": [
         "quizShowGba/contestantDPad"
       ]
+    },
+    {
+      "type": "cue",
+      "id": "quizShowGba/contestantA",
+      "deprecatedIDs": [],
+      "name": "contestant - A",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "quizShowGba/contestantDPad",
+      "deprecatedIDs": [],
+      "name": "contestant - +",
+      "duration": 0.25
     },
     {
       "type": "cue",
