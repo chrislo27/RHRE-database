@@ -78,7 +78,7 @@
       "id": "sumoBrothers_stomp",
       "deprecatedIDs": [],
       "name": "stomping",
-      "defaultDuration": 3.0,
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "sumoBrothers/stomp",
