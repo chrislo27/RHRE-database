@@ -48,32 +48,19 @@
     },
     {
       "type": "pattern",
-      "id": "sickBeatsMegamix_blueVirus1",
-      "deprecatedIDs": [],
-      "name": "blue virus 1",
+      "id": "sickBeatsMegamix_blueVirus",
+      "deprecatedIDs": [
+        "sickBeatsMegamix_blueVirus1",
+        "sickBeatsMegamix_blueVirus2"
+      ],
+      "name": "blue virus",
       "cues": [
         {
-          "id": "sickBeatsMegamix/appear2",
+          "id": "sickBeatsMegamix_randomAppear",
           "beat": 0.0
         },
         {
-          "id": "sickBeatsMegamix/stab1",
-          "beat": 1.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "sickBeatsMegamix_blueVirus2",
-      "deprecatedIDs": [],
-      "name": "blue virus 2",
-      "cues": [
-        {
-          "id": "sickBeatsMegamix/appear1",
-          "beat": 0.0
-        },
-        {
-          "id": "sickBeatsMegamix/stab2",
+          "id": "sickBeatsMegamix_randomStab",
           "beat": 1.0
         }
       ]
@@ -97,23 +84,26 @@
           "beat": 0.375
         },
         {
-          "id": "sickBeatsMegamix/appear2",
+          "id": "sickBeatsMegamix_randomAppear",
           "beat": 2.375
         },
         {
-          "id": "sickBeatsMegamix/stab2",
+          "id": "sickBeatsMegamix_randomStab",
           "beat": 3.375
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "sickBeatsMegamix_pinkVirus1",
-      "deprecatedIDs": [],
-      "name": "pink virus 1",
+      "id": "sickBeatsMegamix_pinkVirus",
+      "deprecatedIDs": [
+        "sickBeatsMegamix_pinkVirus1",
+        "sickBeatsMegamix_pinkVirus2"
+      ],
+      "name": "pink virus",
       "cues": [
         {
-          "id": "sickBeatsMegamix/appear2",
+          "id": "sickBeatsMegamix_randomAppear",
           "beat": 0.0
         },
         {
@@ -121,35 +111,11 @@
           "beat": 1.0
         },
         {
-          "id": "sickBeatsMegamix/appear1",
+          "id": "sickBeatsMegamix_randomAppear",
           "beat": 2.0
         },
         {
-          "id": "sickBeatsMegamix/stab2",
-          "beat": 3.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "sickBeatsMegamix_pinkVirus2",
-      "deprecatedIDs": [],
-      "name": "pink virus 2",
-      "cues": [
-        {
-          "id": "sickBeatsMegamix/appear1",
-          "beat": 0.0
-        },
-        {
-          "id": "sickBeatsMegamix/resist",
-          "beat": 1.0
-        },
-        {
-          "id": "sickBeatsMegamix/appear2",
-          "beat": 2.0
-        },
-        {
-          "id": "sickBeatsMegamix/stab1",
+          "id": "sickBeatsMegamix_randomStab",
           "beat": 3.0
         }
       ]
@@ -169,7 +135,7 @@
           "beat": 0.1875
         },
         {
-          "id": "sickBeatsMegamix/appear2",
+          "id": "sickBeatsMegamix_randomAppear",
           "beat": 1.1875
         },
         {
@@ -177,23 +143,26 @@
           "beat": 2.1875
         },
         {
-          "id": "sickBeatsMegamix/appear2",
+          "id": "sickBeatsMegamix_randomAppear",
           "beat": 3.1875
         },
         {
-          "id": "sickBeatsMegamix/stab1",
+          "id": "sickBeatsMegamix_randomStab",
           "beat": 4.1875
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "sickBeatsMegamix_blackVirus1",
-      "deprecatedIDs": [],
+      "id": "sickBeatsMegamix_blackVirus",
+      "deprecatedIDs": [
+        "sickBeatsMegamix_blackVirus1",
+        "sickBeatsMegamix_blackVirus2"
+      ],
       "name": "black virus 1",
       "cues": [
         {
-          "id": "sickBeatsMegamix/appear2",
+          "id": "sickBeatsMegamix_randomAppear",
           "beat": 0.0
         },
         {
@@ -201,7 +170,7 @@
           "beat": 1.0
         },
         {
-          "id": "sickBeatsMegamix/appear2",
+          "id": "sickBeatsMegamix_randomAppear",
           "beat": 2.0
         },
         {
@@ -209,43 +178,11 @@
           "beat": 3.0
         },
         {
-          "id": "sickBeatsMegamix/appear1",
+          "id": "sickBeatsMegamix_randomAppear",
           "beat": 4.0
         },
         {
-          "id": "sickBeatsMegamix/stab1",
-          "beat": 5.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "sickBeatsMegamix_blackVirus2",
-      "deprecatedIDs": [],
-      "name": "black virus 2",
-      "cues": [
-        {
-          "id": "sickBeatsMegamix/appear1",
-          "beat": 0.0
-        },
-        {
-          "id": "sickBeatsMegamix/resist",
-          "beat": 1.0
-        },
-        {
-          "id": "sickBeatsMegamix/appear2",
-          "beat": 2.0
-        },
-        {
-          "id": "sickBeatsMegamix/resist",
-          "beat": 3.0
-        },
-        {
-          "id": "sickBeatsMegamix/appear2",
-          "beat": 4.0
-        },
-        {
-          "id": "sickBeatsMegamix/stab2",
+          "id": "sickBeatsMegamix_randomStab",
           "beat": 5.0
         }
       ]
@@ -261,7 +198,7 @@
           "beat": 0.0
         },
         {
-          "id": "sickBeatsMegamix/appear1",
+          "id": "sickBeatsMegamix_randomAppear",
           "beat": 2.0
         },
         {
@@ -269,7 +206,7 @@
           "beat": 3.0
         },
         {
-          "id": "sickBeatsMegamix/appear1",
+          "id": "sickBeatsMegamix_randomAppear",
           "beat": 4.0
         },
         {
@@ -277,12 +214,43 @@
           "beat": 5.0
         },
         {
-          "id": "sickBeatsMegamix/appear2",
+          "id": "sickBeatsMegamix_randomAppear",
           "beat": 6.0
         },
         {
-          "id": "sickBeatsMegamix/stab2",
+          "id": "sickBeatsMegamix_randomStab",
           "beat": 7.0
+        }
+      ]
+    },
+    {
+      "type": "randomCue",
+      "id": "sickBeatsMegamix_randomAppear",
+      "deprecatedIDs": [],
+      "name": "random appear",
+      "cues": [
+        {
+          "id": "sickBeatsMegamix/appear1"
+        },
+        {
+          "id": "sickBeatsMegamix/appear2"
+        }
+      ],
+      "responseIDs": [
+        "sickBeatsMegamix_randomStab"
+      ]
+    },
+    {
+      "type": "randomCue",
+      "id": "sickBeatsMegamix_randomStab",
+      "deprecatedIDs": [],
+      "name": "random stab",
+      "cues": [
+        {
+          "id": "sickBeatsMegamix/stab1"
+        },
+        {
+          "id": "sickBeatsMegamix/stab2"
         }
       ]
     }
