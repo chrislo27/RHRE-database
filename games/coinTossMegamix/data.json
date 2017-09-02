@@ -1,7 +1,6 @@
 {
   "series": "side",
   "id": "coinTossMegamix",
-  "deprecatedIDs": [],
   "name": "Coin Toss (Megamix)",
   "objects": [
     {

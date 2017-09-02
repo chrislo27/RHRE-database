@@ -1,7 +1,6 @@
 {
   "series": "tengoku",
   "id": "marchingOrdersGba",
-  "deprecatedIDs": [],
   "name": "Marching Orders (GBA)",
   "group": "Marching Orders (GBA)",
   "groupDefault": true,

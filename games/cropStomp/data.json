@@ -1,7 +1,6 @@
 {
   "series": "ds",
   "id": "cropStomp",
-  "deprecatedIDs": [],
   "name": "Crop Stomp",
   "objects": [
     {

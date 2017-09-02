@@ -1,7 +1,6 @@
 {
   "series": "megamix",
   "id": "firstContact",
-  "deprecatedIDs": [],
   "name": "First Contact",
   "group": "First Contact",
   "groupDefault": true,

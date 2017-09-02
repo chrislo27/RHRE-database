@@ -1,7 +1,6 @@
 {
   "series": "ds",
   "id": "freezeFrame",
-  "deprecatedIDs": [],
   "name": "Freeze Frame",
   "group": "Freeze Frame",
   "groupDefault": true,

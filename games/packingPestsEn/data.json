@@ -1,7 +1,6 @@
 {
   "series": "fever",
   "id": "packingPestsEn",
-  "deprecatedIDs": [],
   "name": "Packing Pests (English)",
   "group": "Packing Pests",
   "groupDefault": true,

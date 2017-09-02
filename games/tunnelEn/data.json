@@ -1,7 +1,6 @@
 {
   "series": "side",
   "id": "tunnelEn",
-  "deprecatedIDs": [],
   "name": "Tunnel (English)",
   "group": "Tunnel",
   "groupDefault": true,

@@ -1,7 +1,6 @@
 {
   "series": "fever",
   "id": "figureFighterEn",
-  "deprecatedIDs": [],
   "name": "Figure Fighter (English)",
   "group": "Figure Fighter",
   "groupDefault": true,

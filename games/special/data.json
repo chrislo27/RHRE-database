@@ -3,7 +3,6 @@
 {
   "series": "other",
   "id": "special",
-  "deprecatedIDs": [],
   "name": "Special Entities",
   "priority": 2,
   "noDisplay": true,

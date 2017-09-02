@@ -1,7 +1,6 @@
 {
   "series": "tengoku",
   "id": "quizShowGba",
-  "deprecatedIDs": [],
   "name": "Quiz Show (GBA)",
   "objects": [
     {

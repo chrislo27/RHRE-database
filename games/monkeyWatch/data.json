@@ -1,7 +1,6 @@
 {
   "series": "fever",
   "id": "monkeyWatch",
-  "deprecatedIDs": [],
   "name": "Monkey Watch",
   "objects": [
     {

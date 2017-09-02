@@ -1,7 +1,6 @@
 {
   "series": "ds",
   "id": "fillbots",
-  "deprecatedIDs": [],
   "name": "Fillbots (DS)",
   "objects": [
     {

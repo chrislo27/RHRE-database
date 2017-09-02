@@ -1,7 +1,6 @@
 {
   "series": "tengoku",
   "id": "tapTrialGba",
-  "deprecatedIDs": [],
   "name": "Tap Trial (GBA)",
   "group": "Tap Trial (GBA)",
   "groupDefault": true,

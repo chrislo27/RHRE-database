@@ -1,7 +1,6 @@
 {
   "series": "fever",
   "id": "boardMeetingEn",
-  "deprecatedIDs": [],
   "name": "Board Meeting (English)",
   "group": "Board Meeting",
   "groupDefault": true,

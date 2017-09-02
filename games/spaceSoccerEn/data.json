@@ -1,7 +1,6 @@
 {
   "series": "ds",
   "id": "spaceSoccerEn",
-  "deprecatedIDs": [],
   "name": "Space Soccer (English)",
   "group": "Space Soccer",
   "groupDefault": true,

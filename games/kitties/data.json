@@ -1,7 +1,6 @@
 {
   "series": "megamix",
   "id": "kitties",
-  "deprecatedIDs": [],
   "name": "Kitties!",
   "objects": [
     {

@@ -1,7 +1,6 @@
 {
   "series": "fever",
   "id": "doubleDate",
-  "deprecatedIDs": [],
   "name": "Double Date",
   "objects": [
     {
