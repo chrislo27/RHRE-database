@@ -1,8 +1,8 @@
 {
   "series": "ds",
   "id": "airboarderEs",
-  "name": "Airboarder (Spanish)",
-  "group": "Airboarder",
+  "name": "Airboarder (DS) (Spanish)",
+  "group": "Airboarder (DS)",
   "objects": [
     {
       "type": "cue",
