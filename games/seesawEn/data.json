@@ -5,6 +5,24 @@
   "group": "See-Saw",
   "groupDefault": true,
   "objects": [
+     {
+      "type": "cue",
+      "id": "seesawEn/seeHigh1",
+      "deprecatedIDs": [
+        "seesaw/seeHigh1"
+      ],
+      "name": "see - high - 1",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "seesawEn/seeHigh2",
+      "deprecatedIDs": [
+        "seesaw/seeHigh2"
+      ],
+      "name": "see - high - 2",
+      "duration": 1.0
+    },
     {
       "type": "cue",
       "id": "seesawEn/seeLong1",
@@ -79,9 +97,34 @@
     },
     {
       "type": "cue",
+      "id": "seesawEn/sawHigh1",
+      "deprecatedIDs": [
+        "seesaw/sawHigh1"
+      ],
+      "name": "saw - high - 1",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "seesawEn/sawHigh2",
+      "deprecatedIDs": [
+        "seesaw/sawHigh2"
+      ],
+      "name": "saw - high - 2",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
       "id": "seesawEn/beginning",
       "deprecatedIDs": [],
       "name": "beginning jump",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "seesawEn/endLanding",
+      "deprecatedIDs": [],
+      "name": "landing",
       "duration": 0.5
     },
     {
@@ -90,6 +133,13 @@
       "deprecatedIDs": [],
       "name": "explosion end",
       "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "seesawEn/explosionStomp",
+      "deprecatedIDs": [],
+      "name": "explosion landing",
+      "duration": 1.0
     },
     {
       "type": "pattern",
@@ -192,6 +242,64 @@
         {
           "id": "seesawEn/sawLong2",
           "beat": 2.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "seesawEn_highShort",
+      "deprecatedIDs": [
+        "seesaw_highShort"
+      ],
+      "name": "high short",
+      "cues": [
+        {
+          "id": "seesawEn/seeHigh1",
+          "beat": 0.0
+        },
+        {
+          "id": "seesawEn/seeHigh2",
+          "beat": 1.0
+        },
+        {
+          "id": "seesawEn/sawShort1",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "seesawEn/explosionStomp",
+          "beat": 2.0
+        },
+        {
+          "id": "seesawEn/sawShort2",
+          "beat": 2.5,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "seesawEn_highHigh",
+      "deprecatedIDs": [
+        "seesaw_highHigh"
+      ],
+      "name": "high high",
+      "cues": [
+        {
+          "id": "seesawEn/seeHigh1",
+          "beat": 0.0
+        },
+        {
+          "id": "seesawEn/seeHigh2",
+          "beat": 1.0
+        },
+        {
+          "id": "seesawEn/sawHigh1",
+          "beat": 2.0
+        },
+        {
+          "id": "seesawEn/sawHigh2",
+          "beat": 3.0
         }
       ]
     }
