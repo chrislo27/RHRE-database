@@ -124,20 +124,20 @@
     },
     {
       "type": "pattern",
-      "id": "airboarderEs_jump",
+      "id": "airboarderMegamixEs_jump",
       "deprecatedIDs": [],
       "name": "jump",
       "cues": [
         {
-          "id": "airboarderEs/jump",
+          "id": "airboarderMegamixEs/jump",
           "beat": 0.0
         },
         {
-          "id": "airboarderEs/jump",
+          "id": "airboarderMegamixEs/jump",
           "beat": 1.0
         },
         {
-          "id": "airboarderEs/jump",
+          "id": "airboarderMegamixEs/jump",
           "beat": 2.0
         }
       ]
