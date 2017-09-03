@@ -1,0 +1,204 @@
+{
+  "series": "megamix",
+  "id": "fanClubMegamixKo",
+  "name": "Fan Club (Megamix) (Korean)",
+  "group": "Fan Club (Megamix)",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "fanClubMegamixKo/hoi1",
+      "deprecatedIDs": [],
+      "name": "singer - hoi - 1",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "fanClubMegamixKo/hoi2",
+      "deprecatedIDs": [],
+      "name": "singer - hoi - 2",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "fanClubMegamixKo/hoi3",
+      "deprecatedIDs": [],
+      "name": "singer - hoi - 3",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "fanClubMegamixKo/hoiClap",
+      "deprecatedIDs": [],
+      "name": "audience - hai",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "fanClubMegamixKo/otoke1",
+      "deprecatedIDs": [],
+      "name": "singer - otoke! - 1",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "fanClubMegamixKo/otoke2",
+      "deprecatedIDs": [],
+      "name": "singer - otoke! - 2",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "fanClubMegamixKo/otoke3",
+      "deprecatedIDs": [],
+      "name": "singer - otoke! - 3",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "fanClubMegamixKo/otokeClap1",
+      "deprecatedIDs": [],
+      "name": "audience - otoke - 1",
+      "duration": 1.5
+    },
+    {
+      "type": "cue",
+      "id": "fanClubMegamixKo/otokeClap2",
+      "deprecatedIDs": [],
+      "name": "audience - otoke - 2",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "fanClubMegamixKo/otokeClap3",
+      "deprecatedIDs": [],
+      "name": "audience - otoke - 3",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "fanClubMegamixKo/otokeClap4",
+      "deprecatedIDs": [],
+      "name": "audience - otoke - 4",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "fanClubMegamixKo/otokeJump",
+      "deprecatedIDs": [],
+      "name": "audience - landing",
+      "duration": 1.0
+    },
+    {
+      "type": "pattern",
+      "id": "fanClubMegamixKo_hoiHoiHoi",
+      "deprecatedIDs": [],
+      "name": "yeah yeah yeah!",
+      "cues": [
+        {
+          "id": "fanClubMegamixKo/hoi1",
+          "beat": 0.0
+        },
+        {
+          "id": "fanClubMegamixKo/hoi2",
+          "beat": 1.0
+        },
+        {
+          "id": "fanClubMegamixKo/hoi3",
+          "beat": 2.0
+        },
+        {
+          "id": "fanClubMegamixKo/hoiClap",
+          "beat": 4.0
+        },
+        {
+          "id": "fanClubMegamixKo/hoiClap",
+          "beat": 5.0
+        },
+        {
+          "id": "fanClubMegamixKo/hoiClap",
+          "beat": 6.0
+        },
+        {
+          "id": "fanClubMegamixKo/hoiClap",
+          "beat": 7.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "fanClubMegamixKo_otoke",
+      "deprecatedIDs": [],
+      "name": "I suppose!",
+      "cues": [
+        {
+          "id": "fanClubMegamixKo/otoke1",
+          "beat": 0.0
+        },
+        {
+          "id": "fanClubMegamixKo/otoke2",
+          "beat": 0.5
+        },
+        {
+          "id": "fanClubMegamixKo/otoke3",
+          "beat": 1.0
+        },
+        {
+          "id": "fanClubMegamixKo/otokeClap1",
+          "beat": 2.0
+        },
+        {
+          "id": "fanClubMegamixKo/otokeClap2",
+          "beat": 3.5
+        },
+        {
+          "id": "fanClubMegamixKo/otokeClap3",
+          "beat": 4.0
+        },
+        {
+          "id": "fanClubMegamixKo/otokeClap4",
+          "beat": 5.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "fanClubMegamixKo_otokeLanding",
+      "deprecatedIDs": [],
+      "name": "I suppose! - with landing",
+      "cues": [
+        {
+          "id": "fanClubMegamixKo/otoke1",
+          "beat": 0.0
+        },
+        {
+          "id": "fanClubMegamixKo/otoke2",
+          "beat": 0.5
+        },
+        {
+          "id": "fanClubMegamixKo/otoke3",
+          "beat": 1.0
+        },
+        {
+          "id": "fanClubMegamixKo/otokeClap1",
+          "beat": 2.0
+        },
+        {
+          "id": "fanClubMegamixKo/otokeClap2",
+          "beat": 3.5
+        },
+        {
+          "id": "fanClubMegamixKo/otokeClap3",
+          "beat": 4.0
+        },
+        {
+          "id": "fanClubMegamixKo/otokeClap4",
+          "beat": 5.0
+        },
+        {
+          "id": "fanClubMegamixKo/otokeJump",
+          "beat": 6.0
+        }
+      ]
+    }
+  ]
+}
