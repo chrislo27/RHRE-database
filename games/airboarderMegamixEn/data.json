@@ -1,0 +1,147 @@
+{
+  "series": "megamix",
+  "id": "airboarderMegamixEn",
+  "name": "Airboarder (Megamix) (English)",
+  "group": "Airboarder (Megamix)",
+  "groupDefault": true,
+  "objects": [
+    {
+      "type": "cue",
+      "id": "airboarderMegamixEn/letsGo1",
+      "deprecatedIDs": [],
+      "name": "yeah... let's go! - 1",
+      "baseBpm": 160,
+      "duration": 6.5
+    },
+    {
+      "type": "cue",
+      "id": "airboarderMegamixEn/letsGo2",
+      "deprecatedIDs": [],
+      "name": "yeah... let's go! - 2",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "airboarderMegamixEn/letsGo3",
+      "deprecatedIDs": [],
+      "name": "yeah... let's go! - 3",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "airboarderMegamixEn/hup",
+      "deprecatedIDs": [],
+      "name": "ready",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "airboarderMegamixEn/crouch",
+      "deprecatedIDs": [],
+      "name": "crouch",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "airboarderMegamixEn/glow",
+      "deprecatedIDs": [],
+      "name": "glow",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "airboarderMegamixEn/jump",
+      "deprecatedIDs": [],
+      "name": "jump",
+      "duration": 1.0
+    },
+    {
+      "type": "pattern",
+      "id": "airboarderMegamixEn_letsGo",
+      "deprecatedIDs": [],
+      "name": "yeah... let's go!",
+      "cues": [
+        {
+          "id": "airboarderMegamixEn/letsGo1",
+          "beat": 0.0
+        },
+        {
+          "id": "airboarderMegamixEn/letsGo2",
+          "beat": 6.5
+        },
+        {
+          "id": "airboarderMegamixEn/letsGo3",
+          "beat": 7.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "airboarderMegamixEn_crouch",
+      "deprecatedIDs": [],
+      "name": "crouch",
+      "cues": [
+        {
+          "id": "airboarderMegamixEn/hup",
+          "beat": 0.0
+        },
+        {
+          "id": "airboarderMegamixEn/crouch",
+          "beat": 1.0
+        },
+        {
+          "id": "airboarderMegamixEn/crouch",
+          "beat": 2.0
+        },
+        {
+          "id": "airboarderMegamixEn/crouch",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "airboarderMegamixEn_chargeCrouch",
+      "deprecatedIDs": [],
+      "name": "charge crouch",
+      "cues": [
+        {
+          "id": "airboarderMegamixEn/hup",
+          "beat": 0.0
+        },
+        {
+          "id": "airboarderMegamixEn/glow",
+          "beat": 1.0
+        },
+        {
+          "id": "airboarderMegamixEn/glow",
+          "beat": 2.0
+        },
+        {
+          "id": "airboarderMegamixEn/glow",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "airboarderMegamixEn_jump",
+      "deprecatedIDs": [],
+      "name": "jump",
+      "cues": [
+        {
+          "id": "airboarderMegamixEn/jump",
+          "beat": 0.0
+        },
+        {
+          "id": "airboarderMegamixEn/jump",
+          "beat": 1.0
+        },
+        {
+          "id": "airboarderMegamixEn/jump",
+          "beat": 2.0
+        }
+      ]
+    }
+  ]
+}
