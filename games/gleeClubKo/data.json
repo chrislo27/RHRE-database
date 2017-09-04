@@ -18,7 +18,6 @@
       "name": "sing",
       "duration": 1.0,
       "introSound": "gleeClubKo/singBegin",
-      "endingSound": "gleeClubKo/singEnd",
       "loops": true,
       "stretchable": true,
       "repitchable": true
