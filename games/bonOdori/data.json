@@ -150,8 +150,18 @@
           "beat": 2.0
         },
         {
+          "id": "bonOdori/clap",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
           "id": "bonOdori/pan2",
           "beat": 3.0
+        },
+        {
+          "id": "bonOdori/clap",
+          "beat": 3.0,
+          "track": 1
         }
       ]
     },
@@ -174,8 +184,18 @@
           "beat": 1.0
         },
         {
+          "id": "bonOdori/clap",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
           "id": "bonOdori/pan3",
           "beat": 2.0
+        },
+        {
+          "id": "bonOdori/clap",
+          "beat": 2.0,
+          "track": 1
         }
       ]
     },
@@ -198,8 +218,18 @@
           "beat": 1.0
         },
         {
+          "id": "bonOdori/clap",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
           "id": "bonOdori/pa",
           "beat": 1.667
+        },
+        {
+          "id": "bonOdori/clap",
+          "beat": 1.667,
+          "track": 1
         }
       ]
     },
@@ -218,8 +248,18 @@
           "beat": 1.0
         },
         {
+          "id": "bonOdori/clap",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
           "id": "bonOdori/pan4",
           "beat": 2.0
+        },
+        {
+          "id": "bonOdori/clap",
+          "beat": 2.0,
+          "track": 1
         }
       ]
     },
@@ -238,8 +278,18 @@
           "beat": 1.0
         },
         {
+          "id": "bonOdori/clap",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
           "id": "bonOdori/pan3",
           "beat": 2.0
+        },
+        {
+          "id": "bonOdori/clap",
+          "beat": 2.0,
+          "track": 1
         }
       ]
     }
