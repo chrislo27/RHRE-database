@@ -157,6 +157,7 @@
       "id": "clapTrap_clap",
       "deprecatedIDs": [],
       "name": "clap",
+      "stretchable": true,
       "cues": [
         {
           "id": "clapTrap/donk",
