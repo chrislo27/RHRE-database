@@ -134,7 +134,8 @@
       ],
       "name": "spinning - start - together",
       "duration": 1.0,
-      "stretchable": true
+      "stretchable": true,
+      "loops": true
     },
     {
       "type": "cue",
