@@ -123,6 +123,7 @@
       "id": "bigRockFinishEs_strum",
       "deprecatedIDs": [],
       "name": "strum",
+      "stretchable": true,
       "cues": [
         {
           "id": "bigRockFinishEs/strum",

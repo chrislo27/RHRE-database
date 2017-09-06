@@ -236,6 +236,7 @@
       "id": "bigRockFinishMegamix_strum",
       "deprecatedIDs": [],
       "name": "strum",
+      "stretchable": true,
       "cues": [
         {
           "id": "bigRockFinishMegamix/strum",

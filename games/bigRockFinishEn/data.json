@@ -250,6 +250,7 @@
         "bigRockFinish_strum"
       ],
       "name": "strum",
+      "stretchable": true,
       "cues": [
         {
           "id": "bigRockFinishEn/strum",
