@@ -8,7 +8,8 @@
       "id": "chameleon/flyA1",
       "deprecatedIDs": [],
       "name": "fly - near - 1",
-      "duration": 2.5
+      "duration": 2.5,
+      "loops": true
     },
     {
       "type": "cue",
@@ -43,7 +44,8 @@
       "id": "chameleon/flyAB1",
       "deprecatedIDs": [],
       "name": "fly - far - 1",
-      "duration": 4.0
+      "duration": 4.0,
+      "loops": true
     },
     {
       "type": "cue",
