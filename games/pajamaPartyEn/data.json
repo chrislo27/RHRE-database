@@ -4,6 +4,7 @@
   "name": "Pajama Party (English)",
   "group": "Pajama Party",
   "groupDefault": true,
+  "priority": 1,
   "objects": [
     {
       "type": "cue",

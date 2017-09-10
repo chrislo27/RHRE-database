@@ -3,6 +3,7 @@
   "id": "secondContact",
   "name": "Second Contact",
   "group": "First Contact",
+  "priority": 1,
   "objects": [
     {
       "type": "randomCue",

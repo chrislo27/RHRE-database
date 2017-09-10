@@ -2,6 +2,7 @@
   "series": "megamix",
   "id": "sumoBrothers",
   "name": "Sumo Brothers",
+  "priority": 1,
   "objects": [
     {
       "type": "cue",

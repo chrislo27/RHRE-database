@@ -2,6 +2,7 @@
   "series": "megamix",
   "id": "blueBear",
   "name": "Blue Bear",
+  "priority": 1,
   "objects": [
     {
       "type": "cue",

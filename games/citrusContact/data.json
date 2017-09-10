@@ -3,6 +3,7 @@
   "id": "citrusContact",
   "name": "Second Contact (Citrus Remix)",
   "group": "First Contact",
+  "priority": 1,
   "objects": [
     {
       "type": "randomCue",

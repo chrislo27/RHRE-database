@@ -2,6 +2,7 @@
   "series": "megamix",
   "id": "catchyTune",
   "name": "Catchy Tune",
+  "priority": 1,
   "objects": [
     {
       "type": "cue",

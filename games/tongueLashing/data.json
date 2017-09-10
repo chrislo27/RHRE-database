@@ -2,6 +2,7 @@
   "series": "megamix",
   "id": "tongueLashing",
   "name": "Tongue Lashing",
+  "priority": 1,
   "objects": [
     {
       "type": "cue",

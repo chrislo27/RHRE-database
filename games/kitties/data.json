@@ -2,6 +2,7 @@
   "series": "megamix",
   "id": "kitties",
   "name": "Kitties!",
+  "priority": 1,
   "objects": [
     {
       "type": "cue",

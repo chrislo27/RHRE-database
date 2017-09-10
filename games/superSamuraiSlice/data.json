@@ -2,6 +2,7 @@
   "series": "megamix",
   "id": "superSamuraiSlice",
   "name": "Super Samurai Slice",
+  "priority": 1,
   "objects": [
     {
       "type": "cue",

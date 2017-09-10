@@ -2,6 +2,7 @@
   "series": "megamix",
   "id": "tangotronic3000",
   "name": "Tangotronic 3000",
+  "priority": 1,
   "objects": [
     {
       "type": "cue",

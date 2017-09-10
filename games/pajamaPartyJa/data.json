@@ -3,6 +3,7 @@
   "id": "pajamaPartyJa",
   "name": "Pajama Party (Japanese)",
   "group": "Pajama Party",
+  "priority": 1,
   "objects": [
     {
       "type": "cue",

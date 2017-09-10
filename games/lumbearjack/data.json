@@ -2,6 +2,7 @@
   "series": "megamix",
   "id": "lumbearjack",
   "name": "LumBEARjack",
+  "priority": 1,
   "objects": [
     {
       "type": "cue",

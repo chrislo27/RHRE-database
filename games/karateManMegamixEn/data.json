@@ -4,6 +4,7 @@
   "name": "Karate Man (Megamix) (English)",
   "group": "Karate Man (Megamix)",
   "groupDefault": true,
+  "priority": 1,
   "objects": [
     {
       "type": "cue",

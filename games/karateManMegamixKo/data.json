@@ -3,6 +3,7 @@
   "id": "karateManMegamixKo",
   "name": "Karate Man (Megamix) (Korean)",
   "group": "Karate Man (Megamix)",
+  "priority": 1,
   "objects": [
     {
       "type": "cue",

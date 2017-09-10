@@ -2,6 +2,7 @@
   "series": "megamix",
   "id": "fruitBasket",
   "name": "Fruit Basket",
+  "priority": 1,
   "objects": [
     {
       "type": "cue",

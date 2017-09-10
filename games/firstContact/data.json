@@ -4,6 +4,7 @@
   "name": "First Contact",
   "group": "First Contact",
   "groupDefault": true,
+  "priority": 1,
   "objects": [
     {
       "type": "randomCue",
