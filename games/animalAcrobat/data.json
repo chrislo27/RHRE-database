@@ -2,6 +2,7 @@
   "series": "megamix",
   "id": "animalAcrobat",
   "name": "Animal Acrobat",
+  "priority": 1,
   "objects": [
     {
       "type": "cue",
