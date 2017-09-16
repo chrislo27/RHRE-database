@@ -20,6 +20,12 @@
       "name": "Subtitle"
     },
     {
+      "type": "shakeEntity",
+      "id": "special_shakeEntity",
+      "deprecatedIDs": [],
+      "name": "Shake"
+    },
+    {
       "type": "cue",
       "id": "special/silence",
       "deprecatedIDs": [
