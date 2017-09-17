@@ -1,0 +1,564 @@
+{
+  "id": "kungFuBall",
+  "name": "Kung Fu Ball",
+  "series": "side",
+  "objects": [
+{
+  "type": "cue",
+  "id": "kungFuBall/land",
+  "deprecatedIDs": [],
+  "name": "land",
+  "duration": 0.5
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/begin/gong",
+  "deprecatedIDs": [
+"kungFuBall/gong"
+],
+  "name": "begin - gong",
+  "duration": 4.0
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/begin/surface",
+  "deprecatedIDs": [
+"kungFuBall/surface"
+],
+  "name": "begin - kappa surface",
+  "duration": 1.0
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/begin/donk",
+  "deprecatedIDs": [
+"kungFuBall/start1"
+],
+  "name": "begin - donk",
+  "duration": 1.0
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/begin/whistleLoop",
+  "deprecatedIDs": [
+"kungFuBall/start2Loop"
+],
+  "name": "begin - whistle",
+  "duration": 1.0,
+  "stretchable": true,
+  "introSound": "kungFuBall/begin/whistleStart"
+
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/begin/go",
+  "deprecatedIDs": [
+"kungFuBall/start3"
+],
+  "name": "begin - go!",
+  "duration": 1.0
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/left1",
+  "deprecatedIDs": [],
+  "name": "left - punch 1",
+  "duration": 0.5
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/left2",
+  "deprecatedIDs": [],
+  "name": "left - punch 2",
+  "duration": 0.5
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/leftPunchShimmer",
+  "deprecatedIDs": [],
+  "name": "left - kick effect",
+  "duration": 1.5,
+  "baseBpm": 135
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/right1",
+  "deprecatedIDs": [],
+  "name": "right - punch 1",
+  "duration": 0.5
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/right2",
+  "deprecatedIDs": [],
+  "name": "right - punch 2",
+  "duration": 0.5
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/right3",
+  "deprecatedIDs": [],
+  "name": "right - punch 3",
+  "duration": 0.5
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/rightPunchShimmer",
+  "deprecatedIDs": [],
+  "name": "right - kick effect",
+  "duration": 1.5,
+  "baseBpm": 135
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/heat/heat",
+  "deprecatedIDs": [
+"kungFuBall/heatFu1"
+],
+  "name": "heat fu - heat",
+  "duration": 1.0
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/heat/fu",
+  "deprecatedIDs": [
+"kungFuBall/heatFu2"
+],
+  "name": "heat fu - fu",
+  "duration": 1.0
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/heat/blast",
+  "deprecatedIDs": [
+"kungFuBall/heatFu3"
+],
+  "name": "heat fu - explosion",
+  "duration": 1.0
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/spike/leftGreat",
+  "deprecatedIDs": [
+"kungFuBall/leftSpike1"
+],
+  "name": "great bird claw spike - great (left hit)",
+  "duration": 1.0
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/spike/rightGreat",
+  "deprecatedIDs": [
+"kungFuBall/rightSpike1"
+],
+  "name": "great bird claw spike - great (right hit)",
+  "duration": 1.0
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/spike/bird",
+  "deprecatedIDs": [
+"kungFuBall/spike2"
+],
+  "name": "great bird claw spike - bird",
+  "duration": 1.0
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/spike/claw",
+  "deprecatedIDs": [
+"kungFuBall/spike3"
+],
+  "name": "great bird claw spike - claw",
+  "duration": 1.0
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/spike/spike",
+  "deprecatedIDs": [
+"kungFuBall/spike4"
+],
+  "name": "great bird claw spike - spike",
+  "duration": 1.0
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/spike/leftPow",
+  "deprecatedIDs": [
+"kungFuBall/leftSpike5"
+],
+  "name": "great bird claw spike - pow! (left hit)",
+  "duration": 1.0
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/spike/rightPow",
+  "deprecatedIDs": [
+"kungFuBall/rightSpike5"
+],
+  "name": "great bird claw spike - pow! (right hit)",
+  "duration": 1.0
+},
+{
+  "type": "cue",
+  "id": "kungFuBall/spike/return",
+  "deprecatedIDs": [
+"kungFuBall/spike6"
+],
+  "name": "great bird claw spike - landing",
+  "duration": 1.0
+},
+{
+  "type": "pattern",
+  "id": "kungFuBall_countIn",
+  "deprecatedIDs": [
+"kungFuBall_countin"
+],
+  "name": "count in",
+  "cues": [
+  {
+  "id": "kungFuBall/begin/surface",
+  "beat": 0.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+  {
+  "id": "kungFuBall/begin/donk",
+  "beat": 1.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+  {
+  "id": "kungFuBall/begin/donk",
+  "beat": 2.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+  {
+  "id": "kungFuBall/begin/whistleLoop",
+  "beat": 3.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+  {
+  "id": "kungFuBall/begin/go",
+  "beat": 4.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+}
+  ]
+},
+{
+  "type": "keepTheBeat",
+  "id": "kungFuBall_kickRandom",
+  "deprecatedIDs": [],
+  "name": "randomized kick",
+  "defaultDuration": 4.0,
+  "cues": [
+  {
+  "id": "kungFuBall_randomLeftPunch",
+  "beat": 0.0,
+  "duration": 0.5,
+  "semitone": 0,
+  "track": 0
+},
+  {
+  "id": "kungFuBall/leftPunchShimmer",
+  "beat": 0.5,
+  "duration": 1.5,
+  "semitone": 0,
+  "track": 0
+},
+  {
+  "id": "kungFuBall_randomRightPunch",
+  "beat": 2.0,
+  "duration": 0.5,
+  "semitone": 0,
+  "track": 0
+},
+  {
+  "id": "kungFuBall/rightPunchShimmer",
+  "beat": 2.5,
+  "duration": 1.5,
+  "semitone": 0,
+  "track": 0
+}
+  ]
+},
+{
+  "type": "keepTheBeat",
+  "id": "kungFuBall_punchRandom",
+  "deprecatedIDs": [],
+  "name": "randomized punch",
+  "defaultDuration": 2.0,
+  "cues": [
+  {
+  "id": "kungFuBall_randomLeftPunch",
+  "beat": 0.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+  {
+  "id": "kungFuBall_randomRightPunch",
+  "beat": 1.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+}
+  ]
+},
+{
+  "type": "pattern",
+  "id": "kungFuBall_heatFu",
+  "deprecatedIDs": [],
+  "name": "heat fu",
+  "cues": [
+      {
+  "id": "kungFuBall/heat/heat",
+  "beat": 0.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+{
+  "id": "kungFuBall/heat/fu",
+  "beat": 1.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+{
+  "id": "kungFuBall/heat/blast",
+  "beat": 2.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+{
+  "id": "kungFuBall/land",
+  "beat": 3.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+}
+  ]
+},
+{
+  "type": "pattern",
+  "id": "kungFuBall_spikeLeft",
+  "deprecatedIDs": [],
+  "name": "great bird claw spike (left start)",
+  "cues": [
+      {
+  "id": "kungFuBall/spike/leftGreat",
+  "beat": 0.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+      {
+  "id": "kungFuBall/spike/bird",
+  "beat": 1.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+      {
+  "id": "kungFuBall/spike/claw",
+  "beat": 2.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+      {
+  "id": "kungFuBall/spike/spike",
+  "beat": 3.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+      {
+  "id": "kungFuBall/spike/leftPow",
+  "beat": 4.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+      {
+  "id": "kungFuBall/spike/return",
+  "beat": 5.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+}
+  ]
+},
+{
+  "type": "pattern",
+  "id": "kungFuBall_spikeRight",
+  "deprecatedIDs": [],
+  "name": "great bird claw spike (right start)",
+  "cues": [
+    {
+  "id": "kungFuBall/spike/rightGreat",
+  "beat": 0.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+      {
+  "id": "kungFuBall/spike/bird",
+  "beat": 1.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+      {
+  "id": "kungFuBall/spike/claw",
+  "beat": 2.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+      {
+  "id": "kungFuBall/spike/spike",
+  "beat": 3.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+      {
+  "id": "kungFuBall/spike/rightPow",
+  "beat": 4.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+      {
+  "id": "kungFuBall/spike/return",
+  "beat": 5.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+}
+  ]
+   },
+{
+  "type": "keepTheBeat",
+  "id": "kungFuBall_kick",
+  "deprecatedIDs": [],
+  "name": "kick",
+  "defaultDuration": 4.0,
+  "cues": [
+  {
+  "id": "kungFuBall/left1",
+  "beat": 0.0,
+  "duration": 0.5,
+  "semitone": 0,
+  "track": 0
+},
+  {
+  "id": "kungFuBall/leftPunchShimmer",
+  "beat": 0.5,
+  "duration": 1.5,
+  "semitone": 0,
+  "track": 0
+},
+  {
+  "id": "kungFuBall/right1",
+  "beat": 2.0,
+  "duration": 0.5,
+  "semitone": 0,
+  "track": 0
+},
+  {
+  "id": "kungFuBall/rightPunchShimmer",
+  "beat": 2.5,
+  "duration": 1.5,
+  "semitone": 0,
+  "track": 0
+}
+  ]
+},
+{
+  "type": "keepTheBeat",
+  "id": "kungFuBall_punch",
+  "deprecatedIDs": [],
+  "name": "punch",
+  "defaultDuration": 2.0,
+  "cues": [
+  {
+  "id": "kungFuBall/left1",
+  "beat": 0.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+  {
+  "id": "kungFuBall/right1",
+  "beat": 1.0,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+}
+  ]
+},
+{
+  "type": "randomCue",
+  "id": "kungFuBall_randomLeftPunch",
+  "deprecatedIDs": [],
+  "name": "random left punch",
+  "cues": [ 
+    {
+  "id": "kungFuBall/left1",
+  "beat": 0.5,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+{
+  "id": "kungFuBall/left2",
+  "beat": 0.5,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+}
+  ]
+},
+{
+  "type": "randomCue",
+  "id": "kungFuBall_randomRightPunch",
+  "deprecatedIDs": [],
+  "name": "random right punch",
+  "cues": [ 
+      {
+  "id": "kungFuBall/right1",
+  "beat": 0.5,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+{
+  "id": "kungFuBall/right2",
+  "beat": 0.5,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+},
+{
+  "id": "kungFuBall/right3",
+  "beat": 0.5,
+  "duration": 1.0,
+  "semitone": 0,
+  "track": 0
+}
+  ]
+}
+  ]
+}
