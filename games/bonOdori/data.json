@@ -229,6 +229,7 @@
         {
           "id": "bonOdori/clap",
           "beat": 1.667,
+          "duration": 0.333,
           "track": 1
         }
       ]
