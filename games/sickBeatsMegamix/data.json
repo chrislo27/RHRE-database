@@ -158,7 +158,7 @@
         "sickBeatsMegamix_blackVirus1",
         "sickBeatsMegamix_blackVirus2"
       ],
-      "name": "black virus 1",
+      "name": "black virus",
       "cues": [
         {
           "id": "sickBeatsMegamix_randomAppear",
@@ -234,9 +234,6 @@
         {
           "id": "sickBeatsMegamix/appear2"
         }
-      ],
-      "responseIDs": [
-        "sickBeatsMegamix_randomStab"
       ]
     },
     {
