@@ -17,7 +17,28 @@
       "type": "subtitleEntity",
       "id": "special_subtitleEntity",
       "deprecatedIDs": [],
-      "name": "Subtitle"
+      "name": "Subtitle",
+      "metadata": {
+        "type": "subtitle"
+      }
+    },
+    {
+      "type": "subtitleEntity",
+      "id": "special_songTitleEntity",
+      "deprecatedIDs": [],
+      "name": "Song Title",
+      "metadata": {
+        "type": "songTitle"
+      }
+    },
+    {
+      "type": "subtitleEntity",
+      "id": "special_songArtistEntity",
+      "deprecatedIDs": [],
+      "name": "Song Artist",
+      "metadata": {
+        "type": "songArtist"
+      }
     },
     {
       "type": "shakeEntity",
