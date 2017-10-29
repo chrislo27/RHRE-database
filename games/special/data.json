@@ -18,9 +18,7 @@
       "id": "special_subtitleEntity",
       "deprecatedIDs": [],
       "name": "Subtitle",
-      "metadata": {
-        "type": "subtitle"
-      }
+      "subtitleType": "subtitle"
     },
     {
       "type": "subtitleEntity",
