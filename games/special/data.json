@@ -27,18 +27,14 @@
       "id": "special_songTitleEntity",
       "deprecatedIDs": [],
       "name": "Song Title",
-      "metadata": {
-        "type": "songTitle"
-      }
+      "subtitleType": "songTitle"
     },
     {
       "type": "subtitleEntity",
       "id": "special_songArtistEntity",
       "deprecatedIDs": [],
       "name": "Song Artist",
-      "metadata": {
-        "type": "songArtist"
-      }
+      "subtitleType": "songArtist"
     },
     {
       "type": "shakeEntity",
