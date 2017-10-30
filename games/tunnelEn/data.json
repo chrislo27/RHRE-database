@@ -27,10 +27,11 @@
       "duration": 1.0
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "tunnelEn_onetwo",
       "deprecatedIDs": [],
       "name": "one, two!",
+      "defaultDuration": 2.0,
       "cues": [
         {
           "id": "tunnelEn/one",
@@ -43,10 +44,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "tunnelEn_cowbell",
       "deprecatedIDs": [],
       "name": "cowbell",
+      "defaultDuration": 2.0,
       "cues": [
         {
           "id": "tunnelEn/cowbell",
