@@ -114,20 +114,20 @@
         },
         {
           "id": "forkLifterRemix2/zoom",
-          "beat": 1.25
+          "beat": 1.5
         },
         {
           "id": "forkLifterRemix2/stab",
-          "beat": 1.75
+          "beat": 2
         },
         {
           "id": "forkLifterRemix2/zoom",
-          "beat": 1.75,
+          "beat": 2,
           "track": 1
         },
         {
           "id": "forkLifterRemix2/stab",
-          "beat": 2.25
+          "beat": 2.5
         }
       ]
     },
