@@ -15,6 +15,9 @@
         {
           "id": "tambourine/playerA2"
         }
+      ],
+      "responseIDs": [
+        "tambourine_playerShake"
       ]
     },
     {
