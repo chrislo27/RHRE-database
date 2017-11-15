@@ -1,0 +1,123 @@
+{
+  "series": "megamix",
+  "id": "sneakySpiritsMegamix",
+  "name": "Sneaky Spirits (Megamix)",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "sneakySpiritsMegamix/moving",
+      "deprecatedIDs": [],
+      "name": "moving",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "sneakySpiritsMegamix/fading1",
+      "deprecatedIDs": [],
+      "name": "fading - 1",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "sneakySpiritsMegamix/fading2",
+      "deprecatedIDs": [],
+      "name": "fading - 2",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "sneakySpiritsMegamix/fading3",
+      "deprecatedIDs": [],
+      "name": "fading - 3",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "sneakySpiritsMegamix/rainLoop",
+      "deprecatedIDs": [],
+      "name": "no ghost - raining",
+      "duration": 3.0,
+      "loops": true,
+      "stretchable": true
+    },
+    {
+      "type": "cue",
+      "id": "sneakySpiritsMegamix/hit",
+      "deprecatedIDs": [],
+      "name": "hit",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "sneakySpiritsMegamix/now",
+      "deprecatedIDs": [],
+      "name": "now! (practice)",
+      "duration": 0.5
+    },
+    {
+      "type": "equidistant",
+      "id": "sneakySpiritsMegamix_sevenBeats",
+      "deprecatedIDs": [],
+      "name": "7 beats",
+      "distance": 1.0,
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "sneakySpiritsMegamix/moving"
+        },
+        {
+          "id": "sneakySpiritsMegamix/moving"
+        },
+        {
+          "id": "sneakySpiritsMegamix/moving"
+        },
+        {
+          "id": "sneakySpiritsMegamix/moving"
+        },
+        {
+          "id": "sneakySpiritsMegamix/moving"
+        },
+        {
+          "id": "sneakySpiritsMegamix/moving"
+        },
+        {
+          "id": "sneakySpiritsMegamix/hit"
+        }
+      ]
+    },
+    {
+      "type": "equidistant",
+      "id": "sneakySpiritsMegamix_eightBeats",
+      "deprecatedIDs": [],
+      "name": "8 beats",
+      "distance": 1.0,
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "sneakySpiritsMegamix/moving"
+        },
+        {
+          "id": "sneakySpiritsMegamix/moving"
+        },
+        {
+          "id": "sneakySpiritsMegamix/moving"
+        },
+        {
+          "id": "sneakySpiritsMegamix/moving"
+        },
+        {
+          "id": "sneakySpiritsMegamix/moving"
+        },
+        {
+          "id": "sneakySpiritsMegamix/moving"
+        },
+        {
+          "id": "sneakySpiritsMegamix/moving"
+        },
+        {
+          "id": "sneakySpiritsMegamix/hit"
+        }
+      ]
+    }
+  ]
+}
