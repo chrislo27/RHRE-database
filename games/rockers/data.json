@@ -315,7 +315,7 @@
       "type": "cue",
       "id": "rockers/chordBend",
       "deprecatedIDs": [],
-      "name": "chord 1",
+      "name": "chord bend",
       "duration": 1.0,
       "loops": true,
       "stretchable": true,
