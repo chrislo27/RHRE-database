@@ -5,26 +5,357 @@
   "objects": [
     {
       "type": "cue",
-      "id": "rockers/strumLoop",
-      "deprecatedIDs": [],
-      "name": "strum loop",
+      "id": "rockers/chord1",
+      "deprecatedIDs": ["rockers/strumLoop"],
+      "name": "chord 1",
       "duration": 1.0,
       "loops": true,
       "stretchable": true,
       "repitchable": true,
-      "introSound": "rockers/strumStart",
+      "introSound": "rockers/chordStart1",
       "responseIDs": [
-        "rockers/strumLoop"
+        "rockers/chord1"
       ]
     },
     {
       "type": "cue",
-      "id": "rockers/strumStart",
-      "deprecatedIDs": [],
-      "name": "strum start",
+      "id": "rockers/chordStart1",
+      "deprecatedIDs": ["rockers/strumStart"],
+      "name": "chord 1 - start",
       "duration": 0.25,
       "repitchable": true
     },
+    {
+      "type": "cue",
+      "id": "rockers/chord2",
+      "deprecatedIDs": [],
+      "name": "chord 1",
+      "duration": 1.0,
+      "loops": true,
+      "stretchable": true,
+      "repitchable": true,
+      "introSound": "rockers/chordStart2",
+      "responseIDs": [
+        "rockers/chord2"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chordStart2",
+      "deprecatedIDs": [],
+      "name": "chord 2 - start",
+      "duration": 0.25,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chord3",
+      "deprecatedIDs": [],
+      "name": "chord 3",
+      "duration": 1.0,
+      "loops": true,
+      "stretchable": true,
+      "repitchable": true,
+      "introSound": "rockers/chordStart3",
+      "responseIDs": [
+        "rockers/chord3"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chordStart3",
+      "deprecatedIDs": [],
+      "name": "chord 3 - start",
+      "duration": 0.25,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chord4",
+      "deprecatedIDs": [],
+      "name": "chord 4",
+      "duration": 1.0,
+      "loops": true,
+      "stretchable": true,
+      "repitchable": true,
+      "introSound": "rockers/chordStart4",
+      "responseIDs": [
+        "rockers/chord4"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chordStart4",
+      "deprecatedIDs": [],
+      "name": "chord 4 - start",
+      "duration": 0.25,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chord5",
+      "deprecatedIDs": [],
+      "name": "chord 5",
+      "duration": 1.0,
+      "loops": true,
+      "stretchable": true,
+      "repitchable": true,
+      "introSound": "rockers/chordStart5",
+      "responseIDs": [
+        "rockers/chord5"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chordStart5",
+      "deprecatedIDs": [],
+      "name": "chord 5 - start",
+      "duration": 0.25,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chord6",
+      "deprecatedIDs": [],
+      "name": "chord 6",
+      "duration": 1.0,
+      "loops": true,
+      "stretchable": true,
+      "repitchable": true,
+      "introSound": "rockers/chordStart6",
+      "responseIDs": [
+        "rockers/chord6"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chordStart6",
+      "deprecatedIDs": [],
+      "name": "chord 6 - start",
+      "duration": 0.25,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chord7",
+      "deprecatedIDs": [],
+      "name": "chord 7",
+      "duration": 1.0,
+      "loops": true,
+      "stretchable": true,
+      "repitchable": true,
+      "introSound": "rockers/chordStart7",
+      "responseIDs": [
+        "rockers/chord7"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chordStart7",
+      "deprecatedIDs": [],
+      "name": "chord 7 - start",
+      "duration": 0.25,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chord8",
+      "deprecatedIDs": [],
+      "name": "chord 8",
+      "duration": 1.0,
+      "loops": true,
+      "stretchable": true,
+      "repitchable": true,
+      "introSound": "rockers/chordStart8",
+      "responseIDs": [
+        "rockers/chord8"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chordStart8",
+      "deprecatedIDs": [],
+      "name": "chord 8 - start",
+      "duration": 0.25,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chord9",
+      "deprecatedIDs": [],
+      "name": "chord 9",
+      "duration": 1.0,
+      "loops": true,
+      "stretchable": true,
+      "repitchable": true,
+      "introSound": "rockers/chordStart9",
+      "responseIDs": [
+        "rockers/chord9"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chordStart9",
+      "deprecatedIDs": [],
+      "name": "chord 9 - start",
+      "duration": 0.25,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chord10",
+      "deprecatedIDs": [],
+      "name": "chord 10",
+      "duration": 1.0,
+      "loops": true,
+      "stretchable": true,
+      "repitchable": true,
+      "introSound": "rockers/chordStart10",
+      "responseIDs": [
+        "rockers/chord10"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chordStart10",
+      "deprecatedIDs": [],
+      "name": "chord 10 - start",
+      "duration": 0.25,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chord11",
+      "deprecatedIDs": [],
+      "name": "chord 11",
+      "duration": 1.0,
+      "loops": true,
+      "stretchable": true,
+      "repitchable": true,
+      "introSound": "rockers/chordStart11",
+      "responseIDs": [
+        "rockers/chord11"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chordStart11",
+      "deprecatedIDs": [],
+      "name": "chord 11 - start",
+      "duration": 0.25,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chord12",
+      "deprecatedIDs": [],
+      "name": "chord 12",
+      "duration": 1.0,
+      "loops": true,
+      "stretchable": true,
+      "repitchable": true,
+      "introSound": "rockers/chordStart12",
+      "responseIDs": [
+        "rockers/chord12"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chordStart12",
+      "deprecatedIDs": [],
+      "name": "chord 12 - start",
+      "duration": 0.25,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chord1Remix10",
+      "deprecatedIDs": [],
+      "name": "chord 1 - Remix 10",
+      "duration": 1.0,
+      "loops": true,
+      "stretchable": true,
+      "repitchable": true,
+      "introSound": "rockers/chordStart1Remix10",
+      "responseIDs": [
+        "rockers/chord1Remix10"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chordStart1Remix10",
+      "deprecatedIDs": [],
+      "name": "chord 1 - Remix 10 - start",
+      "duration": 0.25,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chord2Remix10",
+      "deprecatedIDs": [],
+      "name": "chord 2 - Remix 10",
+      "duration": 1.0,
+      "loops": true,
+      "stretchable": true,
+      "repitchable": true,
+      "introSound": "rockers/chordStart2Remix10",
+      "responseIDs": [
+        "rockers/chord2Remix10"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chordStart2Remix10",
+      "deprecatedIDs": [],
+      "name": "chord 2 - Remix 10 - start",
+      "duration": 0.25,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chordBend",
+      "deprecatedIDs": [],
+      "name": "chord 1",
+      "duration": 1.0,
+      "loops": true,
+      "stretchable": true,
+      "repitchable": true,
+      "introSound": "rockers/chordStartBend",
+      "responseIDs": [
+        "rockers/chordBend"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chordStartBend",
+      "deprecatedIDs": [],
+      "name": "chord bend - start",
+      "duration": 0.25,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chordRemix6",
+      "deprecatedIDs": [],
+      "name": "chord - Remix 6",
+      "duration": 1.0,
+      "loops": true,
+      "stretchable": true,
+      "repitchable": true,
+      "introSound": "rockers/chordStartRemix6",
+      "responseIDs": [
+        "rockers/chordRemix6"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chordStartRemix6",
+      "deprecatedIDs": [],
+      "name": "chord - Remix 6 - start",
+      "duration": 0.25,
+      "repitchable": true
+    },
+
     {
       "type": "cue",
       "id": "rockers/hold",
