@@ -313,6 +313,28 @@
     },
     {
       "type": "cue",
+      "id": "rockers/chordRemix6",
+      "deprecatedIDs": [],
+      "name": "chord - Remix 6",
+      "duration": 1.0,
+      "loops": true,
+      "stretchable": true,
+      "repitchable": true,
+      "introSound": "rockers/chordStartRemix6",
+      "responseIDs": [
+        "rockers/chordRemix6"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "rockers/chordStartRemix6",
+      "deprecatedIDs": [],
+      "name": "chord - Remix 6 - start",
+      "duration": 0.25,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
       "id": "rockers/chordBend",
       "deprecatedIDs": [],
       "name": "chord bend",
@@ -335,27 +357,17 @@
     },
     {
       "type": "cue",
-      "id": "rockers/chordRemix6",
+      "id": "rockers/chordBendNoStart",
       "deprecatedIDs": [],
-      "name": "chord - Remix 6",
+      "name": "chord bend (no strum)",
       "duration": 1.0,
       "loops": true,
       "stretchable": true,
       "repitchable": true,
-      "introSound": "rockers/chordStartRemix6",
       "responseIDs": [
-        "rockers/chordRemix6"
+        "rockers/chordBendNoStart"
       ]
     },
-    {
-      "type": "cue",
-      "id": "rockers/chordStartRemix6",
-      "deprecatedIDs": [],
-      "name": "chord - Remix 6 - start",
-      "duration": 0.25,
-      "repitchable": true
-    },
-
     {
       "type": "cue",
       "id": "rockers/hold",
