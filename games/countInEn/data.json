@@ -338,6 +338,38 @@
           "beat": 7.0
         }
       ]
+    },
+    {
+      "type": "pattern",
+      "id": "countInEn_2BeatCountInGo",
+      "deprecatedIDs": [],
+      "name": "2-beat count-in go",
+      "cues": [
+        {
+          "id": "countInEn/and",
+          "beat": 0.0
+        },
+        {
+          "id": "countInEn/go1",
+          "beat": 1.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "countInEn_2BeatCountInGo2",
+      "deprecatedIDs": [],
+      "name": "2-beat count-in go 2",
+      "cues": [
+        {
+          "id": "countInEn/and",
+          "beat": 0.0
+        },
+        {
+          "id": "countInEn/go2",
+          "beat": 1.0
+        }
+      ]
     }
   ]
 }
