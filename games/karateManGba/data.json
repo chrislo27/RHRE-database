@@ -98,7 +98,7 @@
       "type": "pattern",
       "id": "karateManGba_pot",
       "deprecatedIDs": [],
-      "name": "hit - low nori",
+      "name": "hit - low flow",
       "cues": [
         {
           "id": "karateManGba/potOut",
