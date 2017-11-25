@@ -36,6 +36,47 @@
       "deprecatedIDs": [],
       "name": "comms end",
       "duration": 0.5
+    },
+	{
+      "type": "cue",
+      "id": "shootEmUpMegamix/gate1",
+      "deprecatedIDs": [],
+      "name": "intro - 1",
+      "duration": 1.0
+    },
+	{
+      "type": "cue",
+      "id": "shootEmUpMegamix/gate2",
+      "deprecatedIDs": [],
+      "name": "intro - 2",
+      "duration": 1.0
+    },
+	{
+      "type": "cue",
+      "id": "shootEmUpMegamix/gate3",
+      "deprecatedIDs": [],
+      "name": "intro - 3",
+      "duration": 1.0
+    },
+    {
+      "type": "pattern",
+      "id": "shootEmUpMegamix_intro",
+      "deprecatedIDs": [],
+      "name": "intro",
+      "cues": [
+        {
+          "id": "shootEmUpMegamix/gate1",
+          "beat": 0.0
+        },
+        {
+          "id": "shootEmUpMegamix/gate2",
+          "beat": 1.0
+        },
+        {
+          "id": "shootEmUpMegamix/gate3",
+          "beat": 2.0
+        },
+      ]
     }
   ]
 }
