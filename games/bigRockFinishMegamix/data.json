@@ -83,13 +83,6 @@
     },
     {
       "type": "cue",
-      "id": "bigRockFinishMegamix/drums",
-      "deprecatedIDs": [],
-      "name": "ghost - drumming",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
       "id": "bigRockFinishMegamix/victoryCrowd",
       "deprecatedIDs": [],
       "name": "crowd - applause",
@@ -240,38 +233,18 @@
       "cues": [
         {
           "id": "bigRockFinishMegamix/strum",
-          "beat": 0.0,
-          "track": 1
-        },
-        {
-          "id": "bigRockFinishMegamix/drums",
           "beat": 0.0
         },
         {
           "id": "bigRockFinishMegamix/strum",
-          "beat": 1.5,
-          "track": 1
-        },
-        {
-          "id": "bigRockFinishMegamix/drums",
           "beat": 1.5
         },
         {
           "id": "bigRockFinishMegamix/strum",
-          "beat": 3.0,
-          "track": 1
-        },
-        {
-          "id": "bigRockFinishMegamix/drums",
           "beat": 3.0
         },
         {
           "id": "bigRockFinishMegamix/strumFinal",
-          "beat": 4.0,
-          "track": 1
-        },
-        {
-          "id": "bigRockFinishMegamix/drums",
           "beat": 4.0
         },
         {
