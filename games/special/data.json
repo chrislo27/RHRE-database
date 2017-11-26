@@ -39,6 +39,14 @@
       "id": "special_shakeEntity",
       "deprecatedIDs": [],
       "name": "Shake"
+    },,
+    {
+      "type": "cue",
+      "id": "special/gameChange",
+      "deprecatedIDs": [],
+      "name": "Game Change",
+      "duration": 0.5,
+      "stretchable": true
     },
     {
       "type": "cue",
