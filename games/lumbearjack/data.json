@@ -190,6 +190,26 @@
     },
     {
       "type": "pattern",
+      "id": "lumbearjack_randomSmall",
+      "deprecatedIDs": [],
+      "name": "random small log",
+      "cues": [
+        {
+          "id": "lumbearjack/nya",
+          "beat": 0.0
+        },
+        {
+          "id": "lumbearjack/small1",
+          "beat": 1.0
+        },
+        {
+          "id": "lumbearjack_randomSmallCut",
+          "beat": 2.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
       "id": "lumbearjack_small1",
       "deprecatedIDs": [
         "lumbearjack_small"
@@ -387,6 +407,20 @@
         {
           "id": "lumbearjack/huh",
           "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "randomCue",
+      "id": "lumbearjack_randomSmallCut",
+      "deprecatedIDs": [],
+      "name": "random small log",
+      "cues": [
+        {
+          "id": "lumbearjack/small2"
+        },
+        {
+          "id": "lumbearjack/small2b"
         }
       ]
     }
