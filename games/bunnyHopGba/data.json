@@ -29,14 +29,14 @@
       "id": "bunnyHopGba/longJump",
       "deprecatedIDs": [],
       "name": "long jump",
-      "duration": 5.0
+      "duration": 4.0
     },
     {
       "type": "cue",
       "id": "bunnyHopGba/longJumpShort",
       "deprecatedIDs": [],
       "name": "long jump (short)",
-      "duration": 2.5
+      "duration": 2.0
     },
     {
       "type": "cue",
@@ -114,11 +114,11 @@
         },
         {
           "id": "bunnyHopGba/hop1",
-          "beat": 5.0
+          "beat": 4.0
         },
         {
           "id": "bunnyHopGba/hop2",
-          "beat": 6.0
+          "beat": 5.0
         }
       ]
     },
@@ -134,11 +134,11 @@
         },
         {
           "id": "bunnyHopGba/hop1",
-          "beat": 9.0
+          "beat": 8.0
         },
         {
           "id": "bunnyHopGba/hop2",
-          "beat": 10.0
+          "beat": 9.0
         }
       ]
     },
@@ -154,11 +154,11 @@
         },
         {
           "id": "bunnyHopGba/hop1",
-          "beat": 2.5
+          "beat": 2.0
         },
         {
           "id": "bunnyHopGba/hop2",
-          "beat": 3.5
+          "beat": 3.0
         }
       ]
     },
