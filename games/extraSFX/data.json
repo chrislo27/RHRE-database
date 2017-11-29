@@ -16,6 +16,15 @@
       "deprecatedIDs": [],
       "name": "text advance",
       "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "extraSFX/textAdvanceGBA",
+      "deprecatedIDs": [
+        "extraSFX/textAdvance"
+      ],
+      "name": "text advance (Tengoku)",
+      "duration": 1.0
     }
   ]
 }
