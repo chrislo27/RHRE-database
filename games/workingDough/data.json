@@ -36,6 +36,15 @@
       "deprecatedIDs": [],
       "name": "right - big",
       "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "workingDough/natureNoise",
+      "deprecatedIDs": [],
+      "name": "nature ambience (Working Dough 2)",
+      "duration": 3.0,
+      "loops": true,
+      "stretchable": true
     }
   ]
 }
