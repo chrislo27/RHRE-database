@@ -1,0 +1,340 @@
+{
+  "series": "fever",
+  "id": "tapTroupeKo",
+  "name": "Tap Troupe (Korean)",
+  "group": "Tap Troupe",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "tapTroupeKo/step1",
+      "deprecatedIDs": [],
+      "name": "step - 1",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "tapTroupeKo/step2",
+      "deprecatedIDs": [],
+      "name": "step - 2",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "tapTroupeKo/ready1",
+      "deprecatedIDs": [],
+      "name": "read-",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "tapTroupeKo/ready2",
+      "deprecatedIDs": [],
+      "name": "-y!",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "tapTroupeKo/popper",
+      "deprecatedIDs": [],
+      "name": "popper",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "tapTroupeKo/and",
+      "deprecatedIDs": [],
+      "name": "and",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "tapTroupeKo/bombom1",
+      "deprecatedIDs": [],
+      "name": "bom - 1",
+      "duration": 0.75
+    },
+    {
+      "type": "cue",
+      "id": "tapTroupeKo/bombom2",
+      "deprecatedIDs": [],
+      "name": "bom - 2",
+      "duration": 0.75
+    },
+    {
+      "type": "cue",
+      "id": "tapTroupeKo/taptaptap1",
+      "deprecatedIDs": [],
+      "name": "tap - 1",
+      "duration": 0.75
+    },
+    {
+      "type": "cue",
+      "id": "tapTroupeKo/taptaptap2",
+      "deprecatedIDs": [],
+      "name": "tap - 2",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "tapTroupeKo/taptaptap3",
+      "deprecatedIDs": [],
+      "name": "tap - 3",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "tapTroupeKo/okay1a",
+      "deprecatedIDs": [],
+      "name": "okay 1 - o",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "tapTroupeKo/okay1b",
+      "deprecatedIDs": [],
+      "name": "okay 1 - kay",
+      "duration": 1.5
+    },
+    {
+      "type": "cue",
+      "id": "tapTroupeKo/okay2a",
+      "deprecatedIDs": [],
+      "name": "okay 2 - o",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "tapTroupeKo/okay2b",
+      "deprecatedIDs": [],
+      "name": "okay 2 - kay",
+      "duration": 1.5
+    },
+    {
+      "type": "cue",
+      "id": "tapTroupeKo/okay3a",
+      "deprecatedIDs": [],
+      "name": "okay 3 - o",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "tapTroupeKo/okay3b",
+      "deprecatedIDs": [],
+      "name": "okay 3 - kay",
+      "duration": 1.5
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "tapTroupeKo_step",
+      "deprecatedIDs": [],
+      "name": "step",
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "tapTroupeKo/step1",
+          "beat": 0.0
+        },
+        {
+          "id": "tapTroupeKo/step2",
+          "beat": 1.0
+        },
+        {
+          "id": "tapTroupeKo/step1",
+          "beat": 2.0
+        },
+        {
+          "id": "tapTroupeKo/step2",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "tapTroupeKo_tap0bom",
+      "deprecatedIDs": [],
+      "name": "tap - 0 boms",
+      "cues": [
+        {
+          "id": "tapTroupeKo/ready1",
+          "beat": 0.0
+        },
+        {
+          "id": "tapTroupeKo/ready2",
+          "beat": 1.0
+        },
+        {
+          "id": "tapTroupeKo/and",
+          "beat": 2.0
+        },
+        {
+          "id": "tapTroupeKo/taptaptap1",
+          "beat": 2.5
+        },
+        {
+          "id": "tapTroupeKo/taptaptap2",
+          "beat": 3.25
+        },
+        {
+          "id": "tapTroupeKo/taptaptap3",
+          "beat": 4.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "tapTroupeKo_tap3boms",
+      "deprecatedIDs": [],
+      "name": "tap - 3 boms",
+      "cues": [
+        {
+          "id": "tapTroupeKo/ready1",
+          "beat": 0.0
+        },
+        {
+          "id": "tapTroupeKo/ready2",
+          "beat": 1.0
+        },
+        {
+          "id": "tapTroupeKo/and",
+          "beat": 2.0
+        },
+        {
+          "id": "tapTroupeKo/bombom1",
+          "beat": 2.5
+        },
+        {
+          "id": "tapTroupeKo/bombom2",
+          "beat": 3.25
+        },
+        {
+          "id": "tapTroupeKo/bombom1",
+          "beat": 4.0
+        },
+        {
+          "id": "tapTroupeKo/taptaptap1",
+          "beat": 4.75
+        },
+        {
+          "id": "tapTroupeKo/taptaptap2",
+          "beat": 5.5
+        },
+        {
+          "id": "tapTroupeKo/taptaptap3",
+          "beat": 6.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "tapTroupeKo_tap8boms",
+      "deprecatedIDs": [],
+      "name": "tap - 8 boms",
+      "cues": [
+        {
+          "id": "tapTroupeKo/ready1",
+          "beat": 0.0
+        },
+        {
+          "id": "tapTroupeKo/ready2",
+          "beat": 1.0
+        },
+        {
+          "id": "tapTroupeKo/and",
+          "beat": 2.0
+        },
+        {
+          "id": "tapTroupeKo/bombom1",
+          "beat": 2.5
+        },
+        {
+          "id": "tapTroupeJa/bombom2",
+          "beat": 3.25
+        },
+        {
+          "id": "tapTroupeKo/bombom1",
+          "beat": 4.0
+        },
+        {
+          "id": "tapTroupeKo/bombom2",
+          "beat": 4.75
+        },
+        {
+          "id": "tapTroupeKo/bombom1",
+          "beat": 5.5
+        },
+        {
+          "id": "tapTroupeKo/bombom2",
+          "beat": 6.25
+        },
+        {
+          "id": "tapTroupeKo/bombom1",
+          "beat": 7.0
+        },
+        {
+          "id": "tapTroupeKo/bombom2",
+          "beat": 7.75
+        },
+        {
+          "id": "tapTroupeKo/taptaptap1",
+          "beat": 8.5
+        },
+        {
+          "id": "tapTroupeKo/taptaptap2",
+          "beat": 9.25
+        },
+        {
+          "id": "tapTroupeKo/taptaptap3",
+          "beat": 10.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "tapTroupeKo_okay1",
+      "deprecatedIDs": [],
+      "name": "okay 1",
+      "cues": [
+        {
+          "id": "tapTroupeKo/okay1a",
+          "beat": 0.0
+        },
+        {
+          "id": "tapTroupeKo/okay1b",
+          "beat": 0.5
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "tapTroupeKo_okay2",
+      "deprecatedIDs": [],
+      "name": "okay 2",
+      "cues": [
+        {
+          "id": "tapTroupeKo/okay2a",
+          "beat": 0.0
+        },
+        {
+          "id": "tapTroupeKo/okay2b",
+          "beat": 0.5
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "tapTroupeKo_okay3",
+      "deprecatedIDs": [],
+      "name": "okay 3",
+      "cues": [
+        {
+          "id": "tapTroupeKo/okay3a",
+          "beat": 0.0
+        },
+        {
+          "id": "tapTroupeKo/okay3b",
+          "beat": 0.5
+        }
+      ]
+    }
+  ]
+}

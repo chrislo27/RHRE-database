@@ -1,159 +1,177 @@
 {
-  "series": "ds",
-  "id": "freezeFrame",
-  "name": "Freeze Frame (DS)",
-  "group": "Freeze Frame (DS)",
-  "groupDefault": true,
+  "series": "megamix",
+  "id": "freezeFrameMegamix",
+  "name": "Freeze Frame (Megamix)",
   "objects": [
     {
       "type": "cue",
-      "id": "freezeFrame/beginningSignal1",
+      "id": "freezeFrameMegamix/beginningSignal1",
       "deprecatedIDs": [],
       "name": "start signal 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "freezeFrame/beginningSignal2",
+      "id": "freezeFrameMegamix/beginningSignal2",
       "deprecatedIDs": [],
       "name": "start signal 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "freezeFrame/success",
+      "id": "freezeFrameMegamix/success",
       "deprecatedIDs": [],
       "name": "success",
       "duration": 4.0
     },
     {
       "type": "cue",
-      "id": "freezeFrame/fastCarZoom",
+      "id": "freezeFrameMegamix/fastCarZoom",
       "deprecatedIDs": [],
       "name": "fast car zoom",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "freezeFrame/fastCarClick",
+      "id": "freezeFrameMegamix/fastCarClick",
       "deprecatedIDs": [],
       "name": "fast car click",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "freezeFrame/smallCarZoom",
+      "id": "freezeFrameMegamix/smallCarZoom",
       "deprecatedIDs": [],
       "name": "small car zoom",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "freezeFrame/smallCarClick",
+      "id": "freezeFrameMegamix/smallCarClick",
       "deprecatedIDs": [],
       "name": "small car click",
       "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "freezeFrame_start",
+      "id": "freezeFrameMegamix_start",
       "deprecatedIDs": [],
       "name": "race start",
       "cues": [
         {
-          "id": "freezeFrame/beginningSignal1",
+          "id": "freezeFrameMegamix/beginningSignal1",
           "beat": 0.0
         },
         {
-          "id": "freezeFrame/beginningSignal1",
+          "id": "freezeFrameMegamix/beginningSignal1",
           "beat": 1.0
         },
         {
-          "id": "freezeFrame/beginningSignal2",
+          "id": "freezeFrameMegamix/beginningSignal2",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "freezeFrame_tripleSmallCars",
+      "id": "freezeFrameMegamix_tripleSmallCars",
       "deprecatedIDs": [],
       "name": "triple small cars",
       "cues": [
         {
-          "id": "freezeFrame/smallCarZoom",
+          "id": "freezeFrameMegamix/smallCarZoom",
           "beat": 0.0
         },
         {
-          "id": "freezeFrame/smallCarZoom",
+          "id": "freezeFrameMegamix/smallCarZoom",
           "beat": 1.0
         },
         {
-          "id": "freezeFrame/smallCarZoom",
+          "id": "freezeFrameMegamix/smallCarZoom",
           "beat": 0.5
         },
         {
-          "id": "freezeFrame/smallCarClick",
+          "id": "freezeFrameMegamix/smallCarClick",
           "beat": 2.0
         },
         {
-          "id": "freezeFrame/smallCarClick",
+          "id": "freezeFrameMegamix/smallCarClick",
           "beat": 3.0
         },
         {
-          "id": "freezeFrame/smallCarClick",
+          "id": "freezeFrameMegamix/smallCarClick",
           "beat": 2.5
         },
         {
-          "id": "freezeFrame/success",
+          "id": "freezeFrameMegamix/success",
           "beat": 4.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "freezeFrame_doubleSmallCars",
+      "id": "freezeFrameMegamix_doubleSmallCars",
       "deprecatedIDs": [],
       "name": "double small cars",
       "cues": [
         {
-          "id": "freezeFrame/smallCarZoom",
+          "id": "freezeFrameMegamix/smallCarZoom",
           "beat": 0.0
         },
         {
-          "id": "freezeFrame/smallCarZoom",
+          "id": "freezeFrameMegamix/smallCarZoom",
           "beat": 0.5
         },
         {
-          "id": "freezeFrame/smallCarClick",
+          "id": "freezeFrameMegamix/smallCarClick",
           "beat": 2.0
         },
         {
-          "id": "freezeFrame/smallCarClick",
+          "id": "freezeFrameMegamix/smallCarClick",
           "beat": 2.5
         },
         {
-          "id": "freezeFrame/success",
+          "id": "freezeFrameMegamix/success",
           "beat": 3.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "freezeFrame_fastCar",
+      "id": "freezeFrameMegamix_singleSmallCar",
+      "deprecatedIDs": [],
+      "name": "single small car (practice)",
+      "cues": [
+        {
+          "id": "freezeFrameMegamix/smallCarZoom",
+          "beat": 0.0
+        },
+        {
+          "id": "freezeFrameMegamix/smallCarClick",
+          "beat": 2.0
+        },
+        {
+          "id": "freezeFrameMegamix/success",
+          "beat": 4.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "freezeFrameMegamix_fastCar",
       "deprecatedIDs": [],
       "name": "fast car",
       "cues": [
         {
-          "id": "freezeFrame/fastCarZoom",
+          "id": "freezeFrameMegamix/fastCarZoom",
           "beat": 0.0
         },
         {
-          "id": "freezeFrame/fastCarClick",
+          "id": "freezeFrameMegamix/fastCarClick",
           "beat": 2.0
         },
         {
-          "id": "freezeFrame/success",
+          "id": "freezeFrameMegamix/success",
           "beat": 4.0
         }
       ]
