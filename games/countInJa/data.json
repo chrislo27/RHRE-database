@@ -98,6 +98,22 @@
     },
     {
       "type": "pattern",
+      "id": "countInJa_readyCounting",
+      "deprecatedIDs": [],
+      "name": "ready!",
+      "cues": [
+        {
+          "id": "countInJa/seno1",
+          "beat": 0.0
+        },
+        {
+          "id": "countInJa/seno2",
+          "beat": 1.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
       "id": "countInJa_2BeatCountIn",
       "deprecatedIDs": [],
       "name": "2-beat count-in",
@@ -242,22 +258,6 @@
     },
     {
       "type": "pattern",
-      "id": "countInJa_readyCounting",
-      "deprecatedIDs": [],
-      "name": "ready!",
-      "cues": [
-        {
-          "id": "countInJa/seno1",
-          "beat": 0.0
-        },
-        {
-          "id": "countInJa/seno2",
-          "beat": 1.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
       "id": "countInJa_2BeatCountInGo",
       "deprecatedIDs": [],
       "name": "2-beat count-in go",
@@ -276,7 +276,7 @@
       "type": "pattern",
       "id": "countInJa_2BeatCountInGo2",
       "deprecatedIDs": [],
-      "name": "2-beat count-in go 2",
+      "name": "2-beat count-in go (alt.)",
       "cues": [
         {
           "id": "countInJa/san",

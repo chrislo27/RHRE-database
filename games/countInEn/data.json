@@ -119,6 +119,36 @@
       "duration": 0.5
     },
     {
+      "type": "cue",
+      "id": "countInEn/ready1",
+      "deprecatedIDs": [],
+      "name": "read-",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "countInEn/ready2",
+      "deprecatedIDs": [],
+      "name": "-dy!",
+      "duration": 0.5
+    },
+    {
+      "type": "pattern",
+      "id": "countInEn_readyCounting",
+      "deprecatedIDs": [],
+      "name": "ready!",
+      "cues": [
+        {
+          "id": "countInEn/ready1",
+          "beat": 0.0
+        },
+        {
+          "id": "countInEn/ready2",
+          "beat": 1.0
+        }
+      ]
+    },
+    {
       "type": "pattern",
       "id": "countInEn_2BeatCountIn",
       "deprecatedIDs": [
