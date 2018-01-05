@@ -110,6 +110,15 @@
       "duration": 0.66666
     },
     {
+      "type": "cue",
+      "id": "kitties/rollLoop",
+      "deprecatedIDs": [],
+      "name": "roll - loop",
+      "duration": 0.83333,
+      "stretchable": true,
+      "loops": true
+    },
+    {
       "type": "pattern",
       "id": "kitties_clapclap",
       "deprecatedIDs": [],
@@ -189,7 +198,13 @@
         },
         {
           "id": "kitties/roll5",
-          "beat": 2.0
+          "beat": 2.0,
+          "track": 0
+        },
+        {
+          "id": "kitties/rollLoop",
+          "beat": 2.0,
+          "track": 1
         },
         {
           "id": "kitties/roll6",
