@@ -25,6 +25,27 @@
       ],
       "name": "text advance (Tengoku)",
       "duration": 1.0
+    },
+	{
+      "type": "cue",
+      "id": "extraSFX/audienceApplause",
+      "deprecatedIDs": [],
+      "name": "audience applause",
+      "duration": 1.0
+    },
+	{
+      "type": "cue",
+      "id": "extraSFX/miss1",
+      "deprecatedIDs": [],
+      "name": "miss 1 - doink!",
+      "duration": 0.5
+    },
+	{
+      "type": "cue",
+      "id": "extraSFX/miss2",
+      "deprecatedIDs": [],
+      "name": "miss 2 - doingoinging!",
+      "duration": 0.5
     }
   ]
 }
