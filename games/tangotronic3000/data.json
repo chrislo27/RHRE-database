@@ -32,7 +32,8 @@
       "type": "cue",
       "id": "tangotronic3000/2step1end",
       "deprecatedIDs": [],
-      "duration": 0.05
+      "duration": 0.05,
+      "name": "2step1end"
     },
     {
       "type": "cue",
