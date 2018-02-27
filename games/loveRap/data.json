@@ -5,23 +5,23 @@
   "objects": [
     {
       "type": "cue",
-      "id": "loveRap/mcamoreintoyou1",
-      "deprecatedIDs": [],
-      "name": "mc amore - into you - 1",
+      "id": "loveRap/mcadoreintoyou1",
+"deprecatedIDs": ["loveRap/mcamoreintoyou1"],
+      "name": "mc adore - into you - 1",
       "duration": 0.4375
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamoreintoyou2",
-      "deprecatedIDs": [],
-      "name": "mc amore - into you - 2",
+      "id": "loveRap/mcadoreintoyou2",
+"deprecatedIDs": ["loveRap/mcamoreintoyou2"],
+      "name": "mc adore - into you - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamoreintoyou3",
-      "deprecatedIDs": [],
-      "name": "mc amore - into you - 3",
+      "id": "loveRap/mcadoreintoyou3",
+"deprecatedIDs": ["loveRap/mcamoreintoyou3"],
+      "name": "mc adore - into you - 3",
       "duration": 0.3125
     },
     {
@@ -68,37 +68,37 @@
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamorecrazyintoyou1",
-      "deprecatedIDs": [],
-      "name": "mc amore - crazy into you - 1",
+      "id": "loveRap/mcadorecrazyintoyou1",
+"deprecatedIDs": ["loveRap/mcamorecrazyintoyou1"],
+      "name": "mc adore - crazy into you - 1",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamorecrazyintoyou2",
-      "deprecatedIDs": [],
-      "name": "mc amore - crazy into you - 2",
+      "id": "loveRap/mcadorecrazyintoyou2",
+"deprecatedIDs": ["loveRap/mcamorecrazyintoyou2"],
+      "name": "mc adore - crazy into you - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamorecrazyintoyou3",
-      "deprecatedIDs": [],
-      "name": "mc amore - crazy into you - 3",
+      "id": "loveRap/mcadorecrazyintoyou3",
+"deprecatedIDs": ["loveRap/mcamorecrazyintoyou3"],
+      "name": "mc adore - crazy into you - 3",
       "duration": 0.4375
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamorecrazyintoyou4",
-      "deprecatedIDs": [],
-      "name": "mc amore - crazy into you - 4",
+      "id": "loveRap/mcadorecrazyintoyou4",
+"deprecatedIDs": ["loveRap/mcamorecrazyintoyou4"],
+      "name": "mc adore - crazy into you - 4",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamorecrazyintoyou5",
-      "deprecatedIDs": [],
-      "name": "mc amore - crazy into you - 5",
+      "id": "loveRap/mcadorecrazyintoyou5",
+"deprecatedIDs": ["loveRap/mcamorecrazyintoyou5"],
+      "name": "mc adore - crazy into you - 5",
       "duration": 0.3125
     },
     {
@@ -173,37 +173,37 @@
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamorecrazyintoyouswing1",
-      "deprecatedIDs": [],
-      "name": "mc amore - crazy into you - swing - 1",
+      "id": "loveRap/mcadorecrazyintoyouswing1",
+"deprecatedIDs": ["loveRap/mcamorecrazyintoyouswing1"],
+      "name": "mc adore - crazy into you - swing - 1",
       "duration": 0.125
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamorecrazyintoyouswing2",
-      "deprecatedIDs": [],
-      "name": "mc amore - crazy into you - swing - 2",
+      "id": "loveRap/mcadorecrazyintoyouswing2",
+"deprecatedIDs": ["loveRap/mcamorecrazyintoyouswing2"],
+      "name": "mc adore - crazy into you - swing - 2",
       "duration": 0.375
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamorecrazyintoyouswing3",
-      "deprecatedIDs": [],
-      "name": "mc amore - crazy into you - swing - 3",
+      "id": "loveRap/mcadorecrazyintoyouswing3",
+"deprecatedIDs": ["loveRap/mcamorecrazyintoyouswing3"],
+      "name": "mc adore - crazy into you - swing - 3",
       "duration": 0.125
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamorecrazyintoyouswing4",
-      "deprecatedIDs": [],
-      "name": "mc amore - crazy into you - swing - 4",
+      "id": "loveRap/mcadorecrazyintoyouswing4",
+"deprecatedIDs": ["loveRap/mcamorecrazyintoyouswing4"],
+      "name": "mc adore - crazy into you - swing - 4",
       "duration": 0.375
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamorecrazyintoyouswing5",
-      "deprecatedIDs": [],
-      "name": "mc amore - crazy into you - swing - 5",
+      "id": "loveRap/mcadorecrazyintoyouswing5",
+"deprecatedIDs": ["loveRap/mcamorecrazyintoyouswing5"],
+      "name": "mc adore - crazy into you - swing - 5",
       "duration": 0.5
     },
     {
@@ -278,16 +278,16 @@
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamorefosho1",
-      "deprecatedIDs": [],
-      "name": "mc amore - fo' sho' - a - 1",
+      "id": "loveRap/mcadorefosho1",
+"deprecatedIDs": ["loveRap/mcamorefosho1"],
+      "name": "mc adore - fo' sho' - a - 1",
       "duration": 0.375
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamorefosho2",
-      "deprecatedIDs": [],
-      "name": "mc amore - fo' sho' - a - 2",
+      "id": "loveRap/mcadorefosho2",
+"deprecatedIDs": ["loveRap/mcamorefosho2"],
+      "name": "mc adore - fo' sho' - a - 2",
       "duration": 0.375
     },
     {
@@ -334,23 +334,23 @@
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamorefosholong1",
-      "deprecatedIDs": [],
-      "name": "mc amore - fo' sho' - b - 1",
+      "id": "loveRap/mcadorefosholong1",
+"deprecatedIDs": ["loveRap/mcamorefosholong1"],
+      "name": "mc adore - fo' sho' - b - 1",
       "duration": 0.1875
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamorefosholong2",
-      "deprecatedIDs": [],
-      "name": "mc amore - fo' sho' - b - 2",
+      "id": "loveRap/mcadorefosholong2",
+"deprecatedIDs": ["loveRap/mcamorefosholong2"],
+      "name": "mc adore - fo' sho' - b - 2",
       "duration": 0.1875
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamorefosholong3",
-      "deprecatedIDs": [],
-      "name": "mc amore - fo' sho' - b - 3",
+      "id": "loveRap/mcadorefosholong3",
+"deprecatedIDs": ["loveRap/mcamorefosholong3"],
+      "name": "mc adore - fo' sho' - b - 3",
       "duration": 0.375
     },
     {
@@ -383,30 +383,30 @@
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamoreallaboutyou1",
-      "deprecatedIDs": [],
-      "name": "mc amore - all about you - 1",
+      "id": "loveRap/mcadoreallaboutyou1",
+"deprecatedIDs": ["loveRap/mcamoreallaboutyou1"],
+      "name": "mc adore - all about you - 1",
       "duration": 0.1875
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamoreallaboutyou2",
-      "deprecatedIDs": [],
-      "name": "mc amore - all about you - 2",
+      "id": "loveRap/mcadoreallaboutyou2",
+"deprecatedIDs": ["loveRap/mcamoreallaboutyou2"],
+      "name": "mc adore - all about you - 2",
       "duration": 0.3125
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamoreallaboutyou3",
-      "deprecatedIDs": [],
-      "name": "mc amore - all about you - 3",
+      "id": "loveRap/mcadoreallaboutyou3",
+"deprecatedIDs": ["loveRap/mcamoreallaboutyou3"],
+      "name": "mc adore - all about you - 3",
       "duration": 0.375
     },
     {
       "type": "cue",
-      "id": "loveRap/mcamoreallaboutyou4",
-      "deprecatedIDs": [],
-      "name": "mc amore - all about you - 4",
+      "id": "loveRap/mcadoreallaboutyou4",
+"deprecatedIDs": ["loveRap/mcamoreallaboutyou4"],
+      "name": "mc adore - all about you - 4",
       "duration": 0.375
     },
     {
@@ -472,15 +472,15 @@
       "name": "into you",
       "cues": [
         {
-          "id": "loveRap/mcamoreintoyou1",
+          "id": "loveRap/mcadoreintoyou1",
           "beat": 0.0
         },
         {
-          "id": "loveRap/mcamoreintoyou2",
+          "id": "loveRap/mcadoreintoyou2",
           "beat": 0.4375
         },
         {
-          "id": "loveRap/mcamoreintoyou3",
+          "id": "loveRap/mcadoreintoyou3",
           "beat": 0.6875
         },
         {
@@ -519,23 +519,23 @@
       "name": "crazy into you",
       "cues": [
         {
-          "id": "loveRap/mcamorecrazyintoyou1",
+          "id": "loveRap/mcadorecrazyintoyou1",
           "beat": 0.0
         },
         {
-          "id": "loveRap/mcamorecrazyintoyou2",
+          "id": "loveRap/mcadorecrazyintoyou2",
           "beat": 0.25
         },
         {
-          "id": "loveRap/mcamorecrazyintoyou3",
+          "id": "loveRap/mcadorecrazyintoyou3",
           "beat": 0.5
         },
         {
-          "id": "loveRap/mcamorecrazyintoyou4",
+          "id": "loveRap/mcadorecrazyintoyou4",
           "beat": 0.9375
         },
         {
-          "id": "loveRap/mcamorecrazyintoyou5",
+          "id": "loveRap/mcadorecrazyintoyou5",
           "beat": 1.1875
         },
         {
@@ -592,23 +592,23 @@
       "name": "crazy into you - swing",
       "cues": [
         {
-          "id": "loveRap/mcamorecrazyintoyouswing1",
+          "id": "loveRap/mcadorecrazyintoyouswing1",
           "beat": 0.0
         },
         {
-          "id": "loveRap/mcamorecrazyintoyouswing2",
+          "id": "loveRap/mcadorecrazyintoyouswing2",
           "beat": 0.125
         },
         {
-          "id": "loveRap/mcamorecrazyintoyouswing3",
+          "id": "loveRap/mcadorecrazyintoyouswing3",
           "beat": 0.5
         },
         {
-          "id": "loveRap/mcamorecrazyintoyouswing4",
+          "id": "loveRap/mcadorecrazyintoyouswing4",
           "beat": 0.625
         },
         {
-          "id": "loveRap/mcamorecrazyintoyouswing5",
+          "id": "loveRap/mcadorecrazyintoyouswing5",
           "beat": 1.0
         },
         {
@@ -662,14 +662,14 @@
       "type": "pattern",
       "id": "loveRap_fosho",
       "deprecatedIDs": [],
-      "name": "fo' sho' - a",
+      "name": "fo' sho' - A",
       "cues": [
         {
-          "id": "loveRap/mcamorefosho1",
+          "id": "loveRap/mcadorefosho1",
           "beat": 0.0
         },
         {
-          "id": "loveRap/mcamorefosho2",
+          "id": "loveRap/mcadorefosho2",
           "beat": 0.375
         },
         {
@@ -705,18 +705,18 @@
       "type": "pattern",
       "id": "loveRap_fosholong",
       "deprecatedIDs": [],
-      "name": "fo' sho' - b",
+      "name": "fo' sho' - B",
       "cues": [
         {
-          "id": "loveRap/mcamorefosholong1",
+          "id": "loveRap/mcadorefosholong1",
           "beat": 0.0
         },
         {
-          "id": "loveRap/mcamorefosholong2",
+          "id": "loveRap/mcadorefosholong2",
           "beat": 0.1875
         },
         {
-          "id": "loveRap/mcamorefosholong3",
+          "id": "loveRap/mcadorefosholong3",
           "beat": 0.375
         },
         {
@@ -746,19 +746,19 @@
       "name": "all about you",
       "cues": [
         {
-          "id": "loveRap/mcamoreallaboutyou1",
+          "id": "loveRap/mcadoreallaboutyou1",
           "beat": 0.0
         },
         {
-          "id": "loveRap/mcamoreallaboutyou2",
+          "id": "loveRap/mcadoreallaboutyou2",
           "beat": 0.1875
         },
         {
-          "id": "loveRap/mcamoreallaboutyou3",
+          "id": "loveRap/mcadoreallaboutyou3",
           "beat": 0.5
         },
         {
-          "id": "loveRap/mcamoreallaboutyou4",
+          "id": "loveRap/mcadoreallaboutyou4",
           "beat": 0.875
         },
         {
