@@ -2,6 +2,7 @@
   "series": "fever",
   "id": "tapTrial",
   "name": "Tap Trial (Fever)",
+  "priority": -1,
   "objects": [
     {
       "type": "cue",

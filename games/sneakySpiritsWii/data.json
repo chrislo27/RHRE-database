@@ -2,6 +2,7 @@
   "series": "fever",
   "id": "sneakySpiritsWii",
   "name": "Sneaky Spirits (Fever)",
+  "priority": -1,
   "objects": [
     {
       "type": "cue",
