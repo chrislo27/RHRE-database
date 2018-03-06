@@ -58,6 +58,16 @@
       "name": "silence",
       "duration": 1.0,
       "stretchable": true
+    },
+    {
+      "type": "cue",
+      "id": "special/testProperties",
+      "deprecatedIDs": [],
+      "name": "(DEBUG) properties test",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "responseIDs": ["special/testProperties"]
     }
   ]
 }
