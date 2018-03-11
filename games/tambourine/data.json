@@ -21,6 +21,26 @@
       ]
     },
     {
+      "type": "cue",
+      "id": "tambourine/monkeyB",
+      "deprecatedIDs": [],
+      "name": "monkey - hit",
+      "duration": 0.25,
+      "responseIDs": [
+        "tambourine/playerB"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "tambourine/monkeyEnd",
+      "deprecatedIDs": [],
+      "name": "monkey - end turn",
+      "duration": 1.0,
+      "responseIDs": [
+        "tambourine/playerEnd"
+      ]
+    },
+    {
       "type": "randomCue",
       "id": "tambourine_playerShake",
       "deprecatedIDs": [],
@@ -36,20 +56,17 @@
     },
     {
       "type": "cue",
-      "id": "tambourine/monkeyEnd",
-      "deprecatedIDs": [],
-      "name": "monkey - end turn",
-      "duration": 1.0,
-      "responseIDs": [
-        "tambourine/playerEnd"
-      ]
-    },
-    {
-      "type": "cue",
       "id": "tambourine/playerEnd",
       "deprecatedIDs": [],
       "name": "player - end turn",
       "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "tambourine/playerB",
+      "deprecatedIDs": [],
+      "name": "player - hit",
+      "duration": 0.25
     },
     {
       "type": "cue",
@@ -75,16 +92,6 @@
     },
     {
       "type": "cue",
-      "id": "tambourine/monkeyB",
-      "deprecatedIDs": [],
-      "name": "monkey - hit",
-      "duration": 0.25,
-      "responseIDs": [
-        "tambourine/playerB"
-      ]
-    },
-    {
-      "type": "cue",
       "id": "tambourine/playerA",
       "deprecatedIDs": [],
       "name": "player - shake - 1",
@@ -95,13 +102,6 @@
       "id": "tambourine/playerA2",
       "deprecatedIDs": [],
       "name": "player - shake - 2",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "tambourine/playerB",
-      "deprecatedIDs": [],
-      "name": "player - hit",
       "duration": 0.25
     }
   ]
