@@ -2,6 +2,7 @@
   "series": "fever",
   "id": "clappyTrio",
   "name": "Clappy Trio (Fever)",
+  "priority": -1,
   "objects": [
     {
       "type": "cue",
