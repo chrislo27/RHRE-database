@@ -1,0 +1,58 @@
+{
+  "id": "parappa2",
+  "name": "PaRappa the Rapper 2",
+  "priority": 9001,
+  "objects": [
+    {
+      "type": "cue",
+      "id": "parappa2/chinese",
+      "deprecatedIDs": [],
+      "name": "chinese",
+      "duration": 1.0,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "parappa2/chineseLooping",
+      "deprecatedIDs": [],
+      "name": "chinese (looping)",
+      "duration": 1.0,
+      "repitchable": true,
+      "stretchable": true,
+      "loops": true
+    },
+//  ,
+//    {
+//      "type": "cue",
+//      "id": "parappa2/anything",
+//      "deprecatedIDs": [],
+//      "name": "anything",
+//      "duration": 1.0,
+//      "repitchable": true
+//    },
+//    {
+//      "type": "cue",
+//      "id": "parappa2/even",
+//      "deprecatedIDs": [],
+//      "name": "even",
+//      "duration": 0.5,
+//      "repitchable": true
+//    },
+    {
+      "type": "cue",
+      "id": "parappa2/italian",
+      "deprecatedIDs": [],
+      "name": "italian",
+      "duration": 1.0,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "parappa2/korean",
+      "deprecatedIDs": [],
+      "name": "korean",
+      "duration": 1.0,
+      "repitchable": true
+    }
+  ]
+}
