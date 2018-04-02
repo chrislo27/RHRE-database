@@ -1,7 +1,7 @@
 {
   "id": "parappa2",
   "name": "PaRappa the Rapper 2",
-  "priority": 9001,
+  "priority": -1,
   "objects": [
     {
       "type": "cue",
