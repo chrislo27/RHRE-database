@@ -43,6 +43,20 @@
     },
     {
       "type": "cue",
+      "id": "tapTroupeEn/readynostep1",
+      "deprecatedIDs": [],
+      "name": "read- (no step)",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "tapTroupeEn/readynostep2",
+      "deprecatedIDs": [],
+      "name": "-y! (no step)",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
       "id": "tapTroupeEn/popper",
       "deprecatedIDs": [
         "tapTroupe/popper"
@@ -170,6 +184,22 @@
         {
           "id": "tapTroupeEn/step2",
           "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "tapTroupeEn_readyNoStep",
+      "deprecatedIDs": [],
+      "name": "ready! (no step)",
+      "cues": [
+        {
+          "id": "tapTroupeEn/readynostep1",
+          "beat": 0.0
+        },
+        {
+          "id": "tapTroupeEn/readynostep2",
+          "beat": 1.0
         }
       ]
     },
