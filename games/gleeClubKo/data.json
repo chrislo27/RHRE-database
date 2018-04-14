@@ -18,6 +18,7 @@
       "name": "sing",
       "duration": 1.0,
       "introSound": "gleeClubKo/singBegin",
+      "endingSound": "gleeClubKo/singEnd",
       "loops": true,
       "stretchable": true,
       "repitchable": true
@@ -28,6 +29,15 @@
       "deprecatedIDs": [],
       "name": "stop",
       "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "gleeClubKo/screamLoop",
+      "deprecatedIDs": [],
+      "name": "scream",
+      "introSound": "gleeClubKo/screamBegin",
+      "duration": 1.0,
+      "repitchable": true
     },
     {
       "type": "cue",
@@ -56,15 +66,6 @@
       "deprecatedIDs": [],
       "name": "gleeClubKo/screamBegin",
       "duration": 1.0E-6,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "gleeClubKo/screamLoop",
-      "deprecatedIDs": [],
-      "name": "scream",
-      "introSound": "gleeClubKo/screamBegin",
-      "duration": 1.0,
       "repitchable": true
     },
     {
