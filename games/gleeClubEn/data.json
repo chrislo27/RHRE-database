@@ -23,7 +23,7 @@
       "name": "sing",
       "duration": 1.0,
       "introSound": "gleeClubEn/singBegin",
-      "endingSound": "gleeClubEn/singEnd",
+//      "endingSound": "gleeClubEn/singEnd",
       "loops": true,
       "stretchable": true,
       "repitchable": true

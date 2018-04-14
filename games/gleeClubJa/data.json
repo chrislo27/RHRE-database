@@ -18,7 +18,7 @@
       "name": "sing",
       "duration": 1.0,
       "introSound": "gleeClubJa/singBegin",
-      "endingSound": "gleeClubJa/singEnd",
+//      "endingSound": "gleeClubJa/singEnd",
       "loops": true,
       "stretchable": true,
       "repitchable": true
