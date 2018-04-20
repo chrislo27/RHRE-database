@@ -17,7 +17,14 @@
       "id": "airboarderMegamixJa/ikuze2",
       "deprecatedIDs": [],
       "name": "yooooshi... ikuze! - 2",
-      "duration": 1.0
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "airboarderMegamixJa/ikuze3",
+      "deprecatedIDs": [],
+      "name": "yooooshi... ikuze! - 3",
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -60,6 +67,10 @@
         {
           "id": "airboarderMegamixJa/ikuze2",
           "beat": 6.5
+        },
+        {
+          "id": "airboarderMegamixJa/ikuze3",
+          "beat": 7.0
         }
       ]
     },
@@ -89,25 +100,65 @@
     },
     {
       "type": "pattern",
-      "id": "airboarderMegamixJa_chargeCrouch",
+      "id": "airboarderEn_crouchRemix10",
+      "deprecatedIDs": [],
+      "name": "crouch - Remix 10 DS",
+      "cues": [
+        {
+          "id": "airboarderEn/crouch",
+          "beat": 0.0
+        },
+        {
+          "id": "airboarderEn/crouch",
+          "beat": 1.0
+        },
+        {
+          "id": "airboarderEn/crouch",
+          "beat": 2.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "airboarderEn_chargeCrouch",
       "deprecatedIDs": [],
       "name": "charge crouch",
       "cues": [
         {
-          "id": "airboarderMegamixJa/hup",
+          "id": "airboarderEn/hup",
           "beat": 0.0
         },
         {
-          "id": "airboarderMegamixJa/glow",
+          "id": "airboarderEn/glow",
           "beat": 1.0
         },
         {
-          "id": "airboarderMegamixJa/glow",
+          "id": "airboarderEn/glow",
           "beat": 2.0
         },
         {
-          "id": "airboarderMegamixJa/glow",
+          "id": "airboarderEn/glow",
           "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "airboarderEn_chargeCrouchRemix10",
+      "deprecatedIDs": [],
+      "name": "charge crouch - Remix 10 DS",
+      "cues": [
+        {
+          "id": "airboarderEn/glow",
+          "beat": 0.0
+        },
+        {
+          "id": "airboarderEn/glow",
+          "beat": 1.0
+        },
+        {
+          "id": "airboarderEn/glow",
+          "beat": 2.0
         }
       ]
     },

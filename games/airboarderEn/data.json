@@ -18,13 +18,20 @@
       "id": "airboarderEn/letsGo2",
       "deprecatedIDs": [],
       "name": "yeah... let's go! - 2",
-      "duration": 0.5
+      "duration": 0.25
     },
     {
       "type": "cue",
       "id": "airboarderEn/letsGo3",
       "deprecatedIDs": [],
       "name": "yeah... let's go! - 3",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "airboarderEn/letsGo4",
+      "deprecatedIDs": [],
+      "name": "yeah... let's go! - 4",
       "duration": 0.5
     },
     {
@@ -73,6 +80,10 @@
         },
         {
           "id": "airboarderEn/letsGo3",
+          "beat": 6.75
+        },
+        {
+          "id": "airboarderEn/letsGo4",
           "beat": 7.0
         }
       ]
@@ -103,6 +114,26 @@
     },
     {
       "type": "pattern",
+      "id": "airboarderEn_crouchRemix10",
+      "deprecatedIDs": [],
+      "name": "crouch - Remix 10 DS",
+      "cues": [
+        {
+          "id": "airboarderEn/crouch",
+          "beat": 0.0
+        },
+        {
+          "id": "airboarderEn/crouch",
+          "beat": 1.0
+        },
+        {
+          "id": "airboarderEn/crouch",
+          "beat": 2.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
       "id": "airboarderEn_chargeCrouch",
       "deprecatedIDs": [
         "airboarder_chargeCrouch"
@@ -124,6 +155,26 @@
         {
           "id": "airboarderEn/glow",
           "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "airboarderEn_chargeCrouchRemix10",
+      "deprecatedIDs": [],
+      "name": "charge crouch - Remix 10 DS",
+      "cues": [
+        {
+          "id": "airboarderEn/glow",
+          "beat": 0.0
+        },
+        {
+          "id": "airboarderEn/glow",
+          "beat": 1.0
+        },
+        {
+          "id": "airboarderEn/glow",
+          "beat": 2.0
         }
       ]
     },
