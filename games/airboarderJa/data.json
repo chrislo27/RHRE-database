@@ -17,7 +17,14 @@
       "id": "airboarderJa/ikuze2",
       "deprecatedIDs": [],
       "name": "awww... ikuze! - 2",
-      "duration": 1.0
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "airboarderJa/ikuze3",
+      "deprecatedIDs": [],
+      "name": "awww... ikuze! - 3",
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -66,6 +73,10 @@
         {
           "id": "airboarderJa/ikuze2",
           "beat": 6.5
+        },
+        {
+          "id": "airboarderJa/ikuze3",
+          "beat": 7.0
         }
       ]
     },
@@ -97,6 +108,26 @@
     },
     {
       "type": "pattern",
+      "id": "airboarderJa_crouchNoReady",
+      "deprecatedIDs": [],
+      "name": "crouch - no ready cue",
+      "cues": [
+        {
+          "id": "airboarderJa/crouch",
+          "beat": 0.0
+        },
+        {
+          "id": "airboarderJa/crouch",
+          "beat": 1.0
+        },
+        {
+          "id": "airboarderJa/crouch",
+          "beat": 2.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
       "id": "airboarderJa_chargeCrouch",
       "deprecatedIDs": [],
       "name": "charge crouch",
@@ -121,11 +152,55 @@
     },
     {
       "type": "pattern",
+      "id": "airboarderJa_chargeCrouchNoReady",
+      "deprecatedIDs": [],
+      "name": "charge crouch - no ready cue",
+      "cues": [
+        {
+          "id": "airboarderJa/glow",
+          "beat": 0.0
+        },
+        {
+          "id": "airboarderJa/glow",
+          "beat": 1.0
+        },
+        {
+          "id": "airboarderJa/glow",
+          "beat": 2.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "airboarderJa_jumpReady",
+      "deprecatedIDs": [],
+      "name": "jump",
+      "cues": [
+        {
+          "id": "airboarderJa/hup",
+          "beat": 0.0
+        },
+        {
+          "id": "airboarderJa/jump",
+          "beat": 1.0
+        },
+        {
+          "id": "airboarderJa/jump",
+          "beat": 2.0
+        },
+        {
+          "id": "airboarderJa/jump",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
       "id": "airboarderJa_jump",
       "deprecatedIDs": [
         "airboarder_jump"
       ],
-      "name": "jump",
+      "name": "jump - no ready cue",
       "cues": [
         {
           "id": "airboarderJa/jump",

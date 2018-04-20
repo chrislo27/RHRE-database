@@ -17,13 +17,27 @@
       "id": "airboarderEs/adelante2",
       "deprecatedIDs": [],
       "name": "yeah... adelante! - 2",
-      "duration": 0.75
+      "duration": 0.25
     },
     {
       "type": "cue",
       "id": "airboarderEs/adelante3",
       "deprecatedIDs": [],
       "name": "yeah... adelante! - 3",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "airboarderEs/adelante4",
+      "deprecatedIDs": [],
+      "name": "yeah... adelante! - 4",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "airboarderEs/adelante5",
+      "deprecatedIDs": [],
+      "name": "yeah... adelante! - 5",
       "duration": 0.5
     },
     {
@@ -70,7 +84,15 @@
         },
         {
           "id": "airboarderEs/adelante3",
-          "beat": 7.25
+          "beat": 6.75
+        },
+        {
+          "id": "airboarderEs/adelante4",
+          "beat": 7.00
+        },
+        {
+          "id": "airboarderEs/adelante5",
+          "beat": 7.5
         }
       ]
     },
@@ -100,6 +122,26 @@
     },
     {
       "type": "pattern",
+      "id": "airboarderEs_crouchNoReady",
+      "deprecatedIDs": [],
+      "name": "crouch - no ready cue",
+      "cues": [
+        {
+          "id": "airboarderEs/crouch",
+          "beat": 0.0
+        },
+        {
+          "id": "airboarderEs/crouch",
+          "beat": 1.0
+        },
+        {
+          "id": "airboarderEs/crouch",
+          "beat": 2.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
       "id": "airboarderEs_chargeCrouch",
       "deprecatedIDs": [],
       "name": "charge crouch",
@@ -124,9 +166,53 @@
     },
     {
       "type": "pattern",
-      "id": "airboarderEs_jump",
+      "id": "airboarderEs_chargeCrouchNoReady",
+      "deprecatedIDs": [],
+      "name": "charge crouch - no ready cue",
+      "cues": [
+        {
+          "id": "airboarderEs/glow",
+          "beat": 0.0
+        },
+        {
+          "id": "airboarderEs/glow",
+          "beat": 1.0
+        },
+        {
+          "id": "airboarderEs/glow",
+          "beat": 2.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "airboarderEs_jumpReady",
       "deprecatedIDs": [],
       "name": "jump",
+      "cues": [
+        {
+          "id": "airboarderEs/hup",
+          "beat": 0.0
+        },
+        {
+          "id": "airboarderEs/jump",
+          "beat": 1.0
+        },
+        {
+          "id": "airboarderEs/jump",
+          "beat": 2.0
+        },
+        {
+          "id": "airboarderEs/jump",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "airboarderEs_jump",
+      "deprecatedIDs": [],
+      "name": "jump - no ready cue",
       "cues": [
         {
           "id": "airboarderEs/jump",

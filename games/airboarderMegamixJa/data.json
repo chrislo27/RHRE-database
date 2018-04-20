@@ -17,7 +17,14 @@
       "id": "airboarderMegamixJa/ikuze2",
       "deprecatedIDs": [],
       "name": "yooooshi... ikuze! - 2",
-      "duration": 1.0
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "airboarderMegamixJa/ikuze3",
+      "deprecatedIDs": [],
+      "name": "yooooshi... ikuze! - 3",
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -60,6 +67,10 @@
         {
           "id": "airboarderMegamixJa/ikuze2",
           "beat": 6.5
+        },
+        {
+          "id": "airboarderMegamixJa/ikuze3",
+          "beat": 7.0
         }
       ]
     },
@@ -89,6 +100,26 @@
     },
     {
       "type": "pattern",
+      "id": "airboarderMegamixJa_crouchNoReady",
+      "deprecatedIDs": [],
+      "name": "crouch - no ready cue",
+      "cues": [
+        {
+          "id": "airboarderMegamixJa/crouch",
+          "beat": 0.0
+        },
+        {
+          "id": "airboarderMegamixJa/crouch",
+          "beat": 1.0
+        },
+        {
+          "id": "airboarderMegamixJa/crouch",
+          "beat": 2.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
       "id": "airboarderMegamixJa_chargeCrouch",
       "deprecatedIDs": [],
       "name": "charge crouch",
@@ -113,9 +144,53 @@
     },
     {
       "type": "pattern",
-      "id": "airboarderMegamixJa_jump",
+      "id": "airboarderMegamixJa_chargeCrouchNoReady",
+      "deprecatedIDs": [],
+      "name": "charge crouch - no ready cue",
+      "cues": [
+        {
+          "id": "airboarderMegamixJa/glow",
+          "beat": 0.0
+        },
+        {
+          "id": "airboarderMegamixJa/glow",
+          "beat": 1.0
+        },
+        {
+          "id": "airboarderMegamixJa/glow",
+          "beat": 2.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "airboarderMegamixJa_jumpReady",
       "deprecatedIDs": [],
       "name": "jump",
+      "cues": [
+        {
+          "id": "airboarderMegamixJa/hup",
+          "beat": 0.0
+        },
+        {
+          "id": "airboarderMegamixJa/jump",
+          "beat": 1.0
+        },
+        {
+          "id": "airboarderMegamixJa/jump",
+          "beat": 2.0
+        },
+        {
+          "id": "airboarderMegamixJa/jump",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "airboarderMegamixJa_jump",
+      "deprecatedIDs": [],
+      "name": "jump - no ready cue",
       "cues": [
         {
           "id": "airboarderMegamixJa/jump",
