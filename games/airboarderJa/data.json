@@ -108,9 +108,9 @@
     },
     {
       "type": "pattern",
-      "id": "airboarderJa_crouchRemix10",
+      "id": "airboarderJa_crouchNoReady",
       "deprecatedIDs": [],
-      "name": "crouch - Remix 10 DS",
+      "name": "crouch - no ready cue",
       "cues": [
         {
           "id": "airboarderJa/crouch",
@@ -152,9 +152,9 @@
     },
     {
       "type": "pattern",
-      "id": "airboarderJa_chargeCrouchRemix10",
+      "id": "airboarderJa_chargeCrouchNoReady",
       "deprecatedIDs": [],
-      "name": "charge crouch - Remix 10 DS",
+      "name": "charge crouch - no ready cue",
       "cues": [
         {
           "id": "airboarderJa/glow",
@@ -172,11 +172,35 @@
     },
     {
       "type": "pattern",
+      "id": "airboarderJa_jumpReady",
+      "deprecatedIDs": [],
+      "name": "jump",
+      "cues": [
+        {
+          "id": "airboarderJa/hup",
+          "beat": 0.0
+        },
+        {
+          "id": "airboarderJa/jump",
+          "beat": 1.0
+        },
+        {
+          "id": "airboarderJa/jump",
+          "beat": 2.0
+        },
+        {
+          "id": "airboarderJa/jump",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
       "id": "airboarderJa_jump",
       "deprecatedIDs": [
         "airboarder_jump"
       ],
-      "name": "jump",
+      "name": "jump - no ready cue",
       "cues": [
         {
           "id": "airboarderJa/jump",
