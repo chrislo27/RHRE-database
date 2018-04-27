@@ -53,12 +53,13 @@
       "duration": 1.0
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "monkeyWatch_clap",
       "deprecatedIDs": [
         "clap"
       ],
       "name": "clap",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "monkeyWatch/clap1",
