@@ -284,10 +284,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "airRallyMegamixEn_rally",
       "deprecatedIDs": [],
       "name": "rally",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "airRallyMegamixEn/hitForth",
@@ -308,10 +309,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "airRallyMegamixEn_rallyFarther",
       "deprecatedIDs": [],
       "name": "rally - farther",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "airRallyMegamixEn/hitForthFarther",
@@ -332,10 +334,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "airRallyMegamixEn_rallyFar",
       "deprecatedIDs": [],
       "name": "rally - far",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "airRallyMegamixEn/hitForthFar",
@@ -356,10 +359,11 @@
       ]
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "airRallyMegamixEn_rallyFurther",
       "deprecatedIDs": [],
       "name": "rally - farthest",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "airRallyMegamixEn/hitForthFurther",
