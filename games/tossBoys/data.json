@@ -796,24 +796,8 @@
     },
     {
       "type": "pattern",
-      "id": "tossBoys_kiiyanUnusedSuperStart",
-      "deprecatedIDs": [],
-      "name": "[#FFFF00]yellow[] blur toss (unused) - start",
-      "cues": [
-        {
-          "id": "tossBoys/superYellowStart",
-          "beat": 0.0
-        },
-        {
-          "id": "tossBoys/superYellowFinish",
-          "beat": 1.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
       "id": "tossBoys_kiiyanUnusedSuperTwoHits",
-      "deprecatedIDs": [],
+      "deprecatedIDs": ["tossBoys_kiiyanUnusedSuperStart"],
       "name": "[#FFFF00]yellow[] blur toss (unused) - two hits",
       "cues": [
         {
