@@ -1,0 +1,157 @@
+{
+  "series": "side",
+  "id": "chargingChicken",
+  "name": "Charging Chicken",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "chargingChicken/platformSet",
+      "deprecatedIDs": [],
+      "name": "platform set",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "chargingChicken/cowbell",
+      "deprecatedIDs": [],
+      "name": "cowbell",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "chargingChicken/blastoff",
+      "deprecatedIDs": [],
+      "name": "blastoff",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "chargingChicken/platformFall",
+      "deprecatedIDs": [],
+      "name": "platform fall",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "chargingChicken/platformSplash",
+      "deprecatedIDs": [],
+      "name": "platform splash",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "chargingChicken/complete",
+      "deprecatedIDs": [],
+      "name": "you made it!",
+      "duration": 1.0
+    },
+    {
+      "type": "pattern",
+      "id": "chargingChicken_fourYards",
+      "deprecatedIDs": [],
+      "name": "four yards",
+      "cues": [
+        {
+          "id": "chargingChicken/platformSet",
+          "beat": 0.0
+        },
+        {
+          "id": "chargingChicken/cowbell",
+          "beat": 2.0
+        },
+        {
+		  "id": "chargingChicken/cowbell",
+          "beat": 3.0
+        },
+        {
+		  "id": "chargingChicken/cowbell",
+          "beat": 4.0
+        },
+        {
+		  "id": "chargingChicken/cowbell",
+          "beat": 5.0
+        },
+        {
+          "id": "chargingChicken/blastoff",
+          "beat": 10.0
+        },
+        {
+          "id": "chargingChicken/complete",
+          "beat": 18.0
+        }
+	  ]
+	  },
+	{
+      "type": "pattern",
+      "id": "chargingChicken_eightYards",
+      "deprecatedIDs": [],
+      "name": "eight yards",
+      "cues": [
+        {
+          "id": "chargingChicken/platformSet",
+          "beat": 0.0
+        },
+        {
+          "id": "chargingChicken/cowbell",
+          "beat": 2.0
+        },
+        {
+		  "id": "chargingChicken/cowbell",
+          "beat": 3.0
+        },
+        {
+		  "id": "chargingChicken/cowbell",
+          "beat": 4.0
+        },
+        {
+		  "id": "chargingChicken/cowbell",
+          "beat": 5.0
+        },
+        {
+          "id": "chargingChicken/blastoff",
+          "beat": 14.0
+        },
+        {
+          "id": "chargingChicken/complete",
+          "beat": 30.0
+        }
+      ]
+	},
+	{
+	  "type": "pattern",
+      "id": "chargingChicken_sixteenYards",
+      "deprecatedIDs": [],
+      "name": "sixteen yards",
+      "cues": [
+        {
+          "id": "chargingChicken/platformSet",
+          "beat": 0.0
+        },
+        {
+          "id": "chargingChicken/cowbell",
+          "beat": 2.0
+        },
+        {
+		  "id": "chargingChicken/cowbell",
+          "beat": 3.0
+        },
+        {
+		  "id": "chargingChicken/cowbell",
+          "beat": 4.0
+        },
+        {
+		  "id": "chargingChicken/cowbell",
+          "beat": 5.0
+        },
+        {
+          "id": "chargingChicken/blastoff",
+          "beat": 22.0
+        },
+        {
+          "id": "chargingChicken/complete",
+          "beat": 54.0
+        }
+      ]
+    }
+  ]
+}
