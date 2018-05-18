@@ -29,14 +29,14 @@
       "id": "chargingChicken/platformFall",
       "deprecatedIDs": [],
       "name": "platform fall",
-      "duration": 1.0
+      "duration": 0.25
     },
     {
       "type": "cue",
       "id": "chargingChicken/platformSplash",
       "deprecatedIDs": [],
       "name": "platform splash",
-      "duration": 1.0
+      "duration": 0.25
     },
     {
       "type": "cue",
@@ -60,15 +60,15 @@
           "beat": 2.0
         },
         {
-		  "id": "chargingChicken/cowbell",
+          "id": "chargingChicken/cowbell",
           "beat": 3.0
         },
         {
-		  "id": "chargingChicken/cowbell",
+          "id": "chargingChicken/cowbell",
           "beat": 4.0
         },
         {
-		  "id": "chargingChicken/cowbell",
+          "id": "chargingChicken/cowbell",
           "beat": 5.0
         },
         {
@@ -79,9 +79,9 @@
           "id": "chargingChicken/complete",
           "beat": 18.0
         }
-	  ]
-	  },
-	{
+      ]
+    },
+    {
       "type": "pattern",
       "id": "chargingChicken_eightYards",
       "deprecatedIDs": [],
@@ -96,15 +96,15 @@
           "beat": 2.0
         },
         {
-		  "id": "chargingChicken/cowbell",
+          "id": "chargingChicken/cowbell",
           "beat": 3.0
         },
         {
-		  "id": "chargingChicken/cowbell",
+          "id": "chargingChicken/cowbell",
           "beat": 4.0
         },
         {
-		  "id": "chargingChicken/cowbell",
+          "id": "chargingChicken/cowbell",
           "beat": 5.0
         },
         {
@@ -116,9 +116,9 @@
           "beat": 30.0
         }
       ]
-	},
-	{
-	  "type": "pattern",
+    },
+    {
+      "type": "pattern",
       "id": "chargingChicken_sixteenYards",
       "deprecatedIDs": [],
       "name": "sixteen yards",
@@ -132,15 +132,15 @@
           "beat": 2.0
         },
         {
-		  "id": "chargingChicken/cowbell",
+          "id": "chargingChicken/cowbell",
           "beat": 3.0
         },
         {
-		  "id": "chargingChicken/cowbell",
+          "id": "chargingChicken/cowbell",
           "beat": 4.0
         },
         {
-		  "id": "chargingChicken/cowbell",
+          "id": "chargingChicken/cowbell",
           "beat": 5.0
         },
         {
