@@ -1,0 +1,28 @@
+{
+  "series": "side",
+  "id": "beatBag",
+  "name": "Beat Bag",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "beatBag/jab",
+      "deprecatedIDs": [],
+      "name": "jab",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "beatBag/uppercut",
+      "deprecatedIDs": [],
+      "name": "uppercut",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "beatBag/punch",
+      "deprecatedIDs": [],
+      "name": "punch",
+      "duration": 0.5
+    }
+  ]
+}

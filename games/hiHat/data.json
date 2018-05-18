@@ -1,0 +1,272 @@
+{
+  "id": "hiHat",
+  "name": "Hi-Hat",
+  "series": "side",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "hiHat/close",
+      "deprecatedIDs": [],
+      "name": "close",
+      "duration": 0.25
+    },
+	{
+      "type": "cue",
+      "id": "hiHat/bounce",
+      "deprecatedIDs": [],
+      "name": "normal bounce",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "hiHat/bounce2",
+      "deprecatedIDs": [],
+      "name": "normal bounce (half beat)",
+      "duration": 0.5
+    },
+	{
+      "type": "cue",
+      "id": "hiHat/bounce3",
+      "deprecatedIDs": [],
+      "name": "big bounce",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "hiHat/bounce4",
+      "deprecatedIDs": [],
+      "name": "big bounce (half beat)",
+      "duration": 0.5
+    },
+	{	
+	  "type": "keepTheBeat",
+	  "id": "hiHat_fourbeat",
+      "deprecatedIDs": [],
+      "name": "four beat pattern",
+	  "defaultDuration": 4.0,
+      "cues": [
+       {
+         "id": "hiHat/bounce",
+		 "track": 1.0,
+         "beat": 0.0
+       },
+	   {
+         "id": "hiHat/close",
+         "beat": 0.0
+       },
+       {
+         "id": "hiHat/bounce",
+		 "track": 1.0,
+         "beat": 1.0
+       },
+	   {
+         "id": "hiHat/bounce",
+		 "track": 1.0,
+         "beat": 2.0
+       },
+	   {
+         "id": "hiHat/bounce3",
+		 "track": 1.0,
+         "beat": 3.0
+       }
+      ]
+    },
+    {	
+	  "type": "keepTheBeat",
+	  "id": "hiHat_eightbeat",
+      "deprecatedIDs": [],
+      "name": "eight beat pattern",
+	  "defaultDuration": 4.0,
+      "cues": [
+       {
+         "id": "hiHat/bounce2",
+		 "track": 1.0,
+         "beat": 0.0
+       },
+	   {
+         "id": "hiHat/close",
+         "beat": 0.0
+       },
+	   {
+         "id": "hiHat/bounce2",
+		 "track": 1.0,
+         "beat": 0.5
+       },
+       {
+         "id": "hiHat/bounce2",
+		 "track": 1.0,
+         "beat": 1.0
+       },
+	   {
+         "id": "hiHat/bounce2",
+		 "track": 1.0,
+         "beat": 1.5
+       },
+	   {
+         "id": "hiHat/bounce2",
+		 "track": 1.0,
+         "beat": 2.0
+       },
+	   {
+         "id": "hiHat/bounce2",
+		 "track": 1.0,
+         "beat": 2.5
+       },
+	   {
+         "id": "hiHat/bounce2",
+		 "track": 1.0,
+         "beat": 3.0
+       },
+	   {
+         "id": "hiHat/bounce4",
+		 "track": 1.0,
+         "beat": 3.5
+       }
+      ]
+    },
+	{	
+	  "type": "keepTheBeat",
+	  "id": "hiHat_sixteenbeat",
+      "deprecatedIDs": [],
+      "name": "sixteen beat pattern",
+	  "defaultDuration": 4.0,
+      "cues": [
+       {
+         "id": "hiHat/bounce2",
+		 "track": 1.0,
+         "beat": 0.0
+       },
+	   {
+         "id": "hiHat/close",
+         "beat": 0.0
+       },
+	   {
+         "id": "hiHat/bounce2",
+         "beat": 0.25
+       },
+       {
+         "id": "hiHat/bounce2",
+		 "track": 1.0,
+         "beat": 0.5
+       },
+	   {
+         "id": "hiHat/bounce2",
+         "beat": 0.75
+       },
+	   {
+         "id": "hiHat/bounce2",
+		 "track": 1.0,
+         "beat": 1.0
+       },
+	   {
+         "id": "hiHat/bounce2",
+         "beat": 1.25
+       },
+       {
+         "id": "hiHat/bounce2",
+		 "track": 1.0,
+         "beat": 1.5
+       },
+	   {
+         "id": "hiHat/bounce2",
+         "beat": 1.75
+       },
+	   {
+         "id": "hiHat/bounce2",
+		 "track": 1.0,
+         "beat": 2.0
+       },
+	   {
+         "id": "hiHat/bounce2",
+         "beat": 2.25
+       },
+       {
+         "id": "hiHat/bounce2",
+		 "track": 1.0,
+         "beat": 2.5
+       },
+	   {
+         "id": "hiHat/bounce2",
+         "beat": 2.75
+       },
+	   {
+         "id": "hiHat/bounce4",
+		 "track": 1.0,
+         "beat": 3.0
+       }
+      ]
+	},
+	{	
+	  "type": "keepTheBeat",
+	  "id": "hiHat_sixteenbeatswing",
+      "deprecatedIDs": [],
+      "name": "swing sixteen beat pattern",
+	  "defaultDuration": 4.0,
+      "cues": [
+       {
+         "id": "hiHat/bounce2",
+		 "track": 1.0,
+         "beat": 0.0
+       },
+	   {
+         "id": "hiHat/close",
+         "beat": 0.0
+       },
+	   {
+         "id": "hiHat/bounce2",
+         "beat": 0.33
+       },
+       {
+         "id": "hiHat/bounce2",
+		 "track": 1.0,
+         "beat": 0.5
+       },
+	   {
+         "id": "hiHat/bounce2",
+         "beat": 0.83
+       },
+	   {
+         "id": "hiHat/bounce2",
+		 "track": 1.0,
+         "beat": 1.0
+       },
+	   {
+         "id": "hiHat/bounce2",
+         "beat": 1.33
+       },
+       {
+         "id": "hiHat/bounce2",
+		 "track": 1.0,
+         "beat": 1.5
+       },
+	   {
+         "id": "hiHat/bounce2",
+         "beat": 1.83
+       },
+	   {
+         "id": "hiHat/bounce2",
+		 "track": 1.0,
+         "beat": 2.0
+       },
+	   {
+         "id": "hiHat/bounce2",
+         "beat": 2.33
+       },
+       {
+         "id": "hiHat/bounce2",
+		 "track": 1.0,
+         "beat": 2.5
+       },
+	   {
+         "id": "hiHat/bounce2",
+         "beat": 2.83
+       },
+	   {
+         "id": "hiHat/bounce4",
+		 "track": 1.0,
+         "beat": 3.0
+       }
+      ]
+	}
+  ]
+}
