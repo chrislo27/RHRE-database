@@ -10,10 +10,10 @@
       "name": "monkey - shake",
       "cues": [
         {
-          "id": "tambourine/playerA"
+          "id": "tambourine/monkeyA"
         },
         {
-          "id": "tambourine/playerA2"
+          "id": "tambourine/monkeyA2"
         }
       ],
       "responseIDs": [
