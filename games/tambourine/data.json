@@ -75,7 +75,7 @@
       "name": "monkey - shake - 1",
       "duration": 0.25,
       "responseIDs": [
-        "tambourine/playerA1",
+        "tambourine/playerA",
         "tambourine/playerA2"
       ]
     },
@@ -86,7 +86,7 @@
       "name": "monkey - shake - 2",
       "duration": 0.25,
       "responseIDs": [
-        "tambourine/playerA1",
+        "tambourine/playerA",
         "tambourine/playerA2"
       ]
     },
