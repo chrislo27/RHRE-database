@@ -1,0 +1,971 @@
+{
+  "series": "fever",
+  "id": "loveRapEn",
+  "name": "Love Rap (EN)",
+  "group": "Love Rap",
+  "groupDefault": true,
+  "objects": [
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadoreintoyou1",
+      "deprecatedIDs": [
+        "loveRap/mcamoreintoyou1",
+        "loveRap/mcadoreintoyou1"
+      ],
+      "name": "mc adore - into you - 1",
+      "duration": 0.4375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadoreintoyou2",
+      "deprecatedIDs": [
+        "loveRap/mcamoreintoyou2",
+        "loveRap/mcadoreintoyou2"
+      ],
+      "name": "mc adore - into you - 2",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadoreintoyou3",
+      "deprecatedIDs": [
+        "loveRap/mcamoreintoyou3",
+        "loveRap/mcadoreintoyou3"
+      ],
+      "name": "mc adore - into you - 3",
+      "duration": 0.3125
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1intoyou1",
+      "deprecatedIDs": [
+        "loveRap/rapper1intoyou1"
+      ],
+      "name": "rapper 1 - into you - 1",
+      "duration": 0.4375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1intoyou2",
+      "deprecatedIDs": [
+        "loveRap/rapper1intoyou2"
+      ],
+      "name": "rapper 1 - into you - 2",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1intoyou3",
+      "deprecatedIDs": [
+        "loveRap/rapper1intoyou3"
+      ],
+      "name": "rapper 1 - into you - 3",
+      "duration": 0.4375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2intoyou1",
+      "deprecatedIDs": [
+        "loveRap/rapper2intoyou1"
+      ],
+      "name": "rapper 2 - into you - 1",
+      "duration": 0.4375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2intoyou2",
+      "deprecatedIDs": [
+        "loveRap/rapper2intoyou2"
+      ],
+      "name": "rapper 2 - into you - 2",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2intoyou3",
+      "deprecatedIDs": [
+        "loveRap/rapper2intoyou3"
+      ],
+      "name": "rapper 2 - into you - 3",
+      "duration": 0.4375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadorecrazyintoyou1",
+      "deprecatedIDs": [
+        "loveRap/mcamorecrazyintoyou1",
+        "loveRap/mcadorecrazyintoyou1"
+      ],
+      "name": "mc adore - crazy into you - 1",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadorecrazyintoyou2",
+      "deprecatedIDs": [
+        "loveRap/mcamorecrazyintoyou2",
+        "loveRap/mcadorecrazyintoyou2"
+      ],
+      "name": "mc adore - crazy into you - 2",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadorecrazyintoyou3",
+      "deprecatedIDs": [
+        "loveRap/mcamorecrazyintoyou3",
+        "loveRap/mcadorecrazyintoyou3"
+      ],
+      "name": "mc adore - crazy into you - 3",
+      "duration": 0.4375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadorecrazyintoyou4",
+      "deprecatedIDs": [
+        "loveRap/mcamorecrazyintoyou4",
+        "loveRap/mcadorecrazyintoyou4"
+      ],
+      "name": "mc adore - crazy into you - 4",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadorecrazyintoyou5",
+      "deprecatedIDs": [
+        "loveRap/mcamorecrazyintoyou5",
+        "loveRap/mcadorecrazyintoyou5"
+      ],
+      "name": "mc adore - crazy into you - 5",
+      "duration": 0.3125
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1crazyintoyou1",
+      "deprecatedIDs": [
+        "loveRap/rapper1crazyintoyou1"
+      ],
+      "name": "rapper 1 - crazy into you - 1",
+      "duration": 0.3125
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1crazyintoyou2",
+      "deprecatedIDs": [
+        "loveRap/rapper1crazyintoyou2"
+      ],
+      "name": "rapper 1 - crazy into you - 2",
+      "duration": 0.1875
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1crazyintoyou3",
+      "deprecatedIDs": [
+        "loveRap/rapper1crazyintoyou3"
+      ],
+      "name": "rapper 1 - crazy into you - 3",
+      "duration": 0.4375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1crazyintoyou4",
+      "deprecatedIDs": [
+        "loveRap/rapper1crazyintoyou4"
+      ],
+      "name": "rapper 1 - crazy into you - 4",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1crazyintoyou5",
+      "deprecatedIDs": [
+        "loveRap/rapper1crazyintoyou5"
+      ],
+      "name": "rapper 1 - crazy into you - 5",
+      "duration": 0.4375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2crazyintoyou1",
+      "deprecatedIDs": [
+        "loveRap/rapper2crazyintoyou1"
+      ],
+      "name": "rapper 2 - crazy into you - 1",
+      "duration": 0.3125
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2crazyintoyou2",
+      "deprecatedIDs": [
+        "loveRap/rapper2crazyintoyou2"
+      ],
+      "name": "rapper 2 - crazy into you - 2",
+      "duration": 0.1875
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2crazyintoyou3",
+      "deprecatedIDs": [
+        "loveRap/rapper2crazyintoyou3"
+      ],
+      "name": "rapper 2 - crazy into you - 3",
+      "duration": 0.4375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2crazyintoyou4",
+      "deprecatedIDs": [
+        "loveRap/rapper2crazyintoyou4"
+      ],
+      "name": "rapper 2 - crazy into you - 4",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2crazyintoyou5",
+      "deprecatedIDs": [
+        "loveRap/rapper2crazyintoyou5"
+      ],
+      "name": "rapper 2 - crazy into you - 5",
+      "duration": 0.4375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadorecrazyintoyouswing1",
+      "deprecatedIDs": [
+        "loveRap/mcamorecrazyintoyouswing1",
+        "loveRap/mcadorecrazyintoyouswing1"
+      ],
+      "name": "mc adore - crazy into you - swing - 1",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadorecrazyintoyouswing2",
+      "deprecatedIDs": [
+        "loveRap/mcamorecrazyintoyouswing2",
+        "loveRap/mcadorecrazyintoyouswing2"
+      ],
+      "name": "mc adore - crazy into you - swing - 2",
+      "duration": 0.375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadorecrazyintoyouswing3",
+      "deprecatedIDs": [
+        "loveRap/mcamorecrazyintoyouswing3",
+        "loveRap/mcadorecrazyintoyouswing3"
+      ],
+      "name": "mc adore - crazy into you - swing - 3",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadorecrazyintoyouswing4",
+      "deprecatedIDs": [
+        "loveRap/mcamorecrazyintoyouswing4",
+        "loveRap/mcadorecrazyintoyouswing4"
+      ],
+      "name": "mc adore - crazy into you - swing - 4",
+      "duration": 0.375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadorecrazyintoyouswing5",
+      "deprecatedIDs": [
+        "loveRap/mcamorecrazyintoyouswing5",
+        "loveRap/mcadorecrazyintoyouswing5"
+      ],
+      "name": "mc adore - crazy into you - swing - 5",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1crazyintoyouswing1",
+      "deprecatedIDs": [
+        "loveRap/rapper1crazyintoyouswing1"
+      ],
+      "name": "rapper 1 - crazy into you - swing - 1",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1crazyintoyouswing2",
+      "deprecatedIDs": [
+        "loveRap/rapper1crazyintoyouswing2"
+      ],
+      "name": "rapper 1 - crazy into you - swing - 2",
+      "duration": 0.375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1crazyintoyouswing3",
+      "deprecatedIDs": [
+        "loveRap/rapper1crazyintoyouswing3"
+      ],
+      "name": "rapper 1 - crazy into you - swing - 3",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1crazyintoyouswing4",
+      "deprecatedIDs": [
+        "loveRap/rapper1crazyintoyouswing4"
+      ],
+      "name": "rapper 1 - crazy into you - swing - 4",
+      "duration": 0.375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1crazyintoyouswing5",
+      "deprecatedIDs": [
+        "loveRap/rapper1crazyintoyouswing5"
+      ],
+      "name": "rapper 1 - crazy into you - swing - 5",
+      "duration": 0.625
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2crazyintoyouswing1",
+      "deprecatedIDs": [
+        "loveRap/rapper2crazyintoyouswing1"
+      ],
+      "name": "rapper 2 - crazy into you - swing - 1",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2crazyintoyouswing2",
+      "deprecatedIDs": [
+        "loveRap/rapper2crazyintoyouswing2"
+      ],
+      "name": "rapper 2 - crazy into you - swing - 2",
+      "duration": 0.375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2crazyintoyouswing3",
+      "deprecatedIDs": [
+        "loveRap/rapper2crazyintoyouswing3"
+      ],
+      "name": "rapper 2 - crazy into you - swing - 3",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2crazyintoyouswing4",
+      "deprecatedIDs": [
+        "loveRap/rapper2crazyintoyouswing4"
+      ],
+      "name": "rapper 2 - crazy into you - swing - 4",
+      "duration": 0.375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2crazyintoyouswing5",
+      "deprecatedIDs": [
+        "loveRap/rapper2crazyintoyouswing5"
+      ],
+      "name": "rapper 2 - crazy into you - swing - 5",
+      "duration": 0.625
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadorefosho1",
+      "deprecatedIDs": [
+        "loveRap/mcamorefosho1",
+        "loveRap/mcadorefosho1"
+      ],
+      "name": "mc adore - fo' sho' - a - 1",
+      "duration": 0.375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadorefosho2",
+      "deprecatedIDs": [
+        "loveRap/mcamorefosho2",
+        "loveRap/mcadorefosho2"
+      ],
+      "name": "mc adore - fo' sho' - a - 2",
+      "duration": 0.375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1fosholong1",
+      "deprecatedIDs": [
+        "loveRap/rapper1fosholong1"
+      ],
+      "name": "rapper 1 - fo' sho' - a - 1",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1fosholong2",
+      "deprecatedIDs": [
+        "loveRap/rapper1fosholong2"
+      ],
+      "name": "rapper 1 - fo' sho' - a - 2",
+      "duration": 0.3125
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1fosholong3",
+      "deprecatedIDs": [
+        "loveRap/rapper1fosholong3"
+      ],
+      "name": "rapper 1 - fo' sho' - a - 3",
+      "duration": 0.4375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2fosholong1",
+      "deprecatedIDs": [
+        "loveRap/rapper2fosholong1"
+      ],
+      "name": "rapper 2 - fo' sho' - a - 1",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2fosholong2",
+      "deprecatedIDs": [
+        "loveRap/rapper2fosholong2"
+      ],
+      "name": "rapper 2 - fo' sho' - a - 2",
+      "duration": 0.3125
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2fosholong3",
+      "deprecatedIDs": [
+        "loveRap/rapper2fosholong3"
+      ],
+      "name": "rapper 2 - fo' sho' - a - 3",
+      "duration": 0.4375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadorefosholong1",
+      "deprecatedIDs": [
+        "loveRap/mcamorefosholong1",
+        "loveRap/mcadorefosholong1"
+      ],
+      "name": "mc adore - fo' sho' - b - 1",
+      "duration": 0.1875
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadorefosholong2",
+      "deprecatedIDs": [
+        "loveRap/mcamorefosholong2",
+        "loveRap/mcadorefosholong2"
+      ],
+      "name": "mc adore - fo' sho' - b - 2",
+      "duration": 0.1875
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadorefosholong3",
+      "deprecatedIDs": [
+        "loveRap/mcamorefosholong3",
+        "loveRap/mcadorefosholong3"
+      ],
+      "name": "mc adore - fo' sho' - b - 3",
+      "duration": 0.375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1fosho1",
+      "deprecatedIDs": [
+        "loveRap/rapper1fosho1"
+      ],
+      "name": "rapper 1 - fo' sho' - b - 1",
+      "duration": 0.375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1fosho2",
+      "deprecatedIDs": [
+        "loveRap/rapper1fosho2"
+      ],
+      "name": "rapper 1 - fo' sho' - b - 2",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2fosho1",
+      "deprecatedIDs": [
+        "loveRap/rapper2fosho1"
+      ],
+      "name": "rapper 2 - fo' sho' - b - 1",
+      "duration": 0.375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2fosho2",
+      "deprecatedIDs": [
+        "loveRap/rapper2fosho2"
+      ],
+      "name": "rapper 2 - fo' sho' - b - 2",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadoreallaboutyou1",
+      "deprecatedIDs": [
+        "loveRap/mcamoreallaboutyou1",
+        "loveRap/mcadoreallaboutyou1"
+      ],
+      "name": "mc adore - all about you - 1",
+      "duration": 0.1875
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadoreallaboutyou2",
+      "deprecatedIDs": [
+        "loveRap/mcamoreallaboutyou2",
+        "loveRap/mcadoreallaboutyou2"
+      ],
+      "name": "mc adore - all about you - 2",
+      "duration": 0.3125
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadoreallaboutyou3",
+      "deprecatedIDs": [
+        "loveRap/mcamoreallaboutyou3",
+        "loveRap/mcadoreallaboutyou3"
+      ],
+      "name": "mc adore - all about you - 3",
+      "duration": 0.375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/mcadoreallaboutyou4",
+      "deprecatedIDs": [
+        "loveRap/mcamoreallaboutyou4",
+        "loveRap/mcadoreallaboutyou4"
+      ],
+      "name": "mc adore - all about you - 4",
+      "duration": 0.375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1allaboutyou1",
+      "deprecatedIDs": [
+        "loveRap/rapper1allaboutyou1"
+      ],
+      "name": "rapper 1 - all about you - 1",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1allaboutyou2",
+      "deprecatedIDs": [
+        "loveRap/rapper1allaboutyou2"
+      ],
+      "name": "rapper 1 - all about you - 2",
+      "duration": 0.1875
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1allaboutyou3",
+      "deprecatedIDs": [
+        "loveRap/rapper1allaboutyou3"
+      ],
+      "name": "rapper 1 - all about you - 3",
+      "duration": 0.375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper1allaboutyou4",
+      "deprecatedIDs": [
+        "loveRap/rapper1allaboutyou4"
+      ],
+      "name": "rapper 1 - all about you - 4",
+      "duration": 0.4375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2allaboutyou1",
+      "deprecatedIDs": [
+        "loveRap/rapper2allaboutyou1"
+      ],
+      "name": "rapper 2 - all about you - 1",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2allaboutyou2",
+      "deprecatedIDs": [
+        "loveRap/rapper2allaboutyou2"
+      ],
+      "name": "rapper 2 - all about you - 2",
+      "duration": 0.1875
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2allaboutyou3",
+      "deprecatedIDs": [
+        "loveRap/rapper2allaboutyou3"
+      ],
+      "name": "rapper 2 - all about you - 3",
+      "duration": 0.375
+    },
+    {
+      "type": "cue",
+      "id": "loveRapEn/rapper2allaboutyou4",
+      "deprecatedIDs": [
+        "loveRap/rapper2allaboutyou4"
+      ],
+      "name": "rapper 2 - all about you - 4",
+      "duration": 0.4375
+    },
+    {
+      "type": "pattern",
+      "id": "loveRapEn_intoyou",
+      "deprecatedIDs": [
+        "loveRap_intoyou"
+      ],
+      "name": "into you",
+      "cues": [
+        {
+          "id": "loveRapEn/mcadoreintoyou1",
+          "beat": 0.0
+        },
+        {
+          "id": "loveRapEn/mcadoreintoyou2",
+          "beat": 0.4375
+        },
+        {
+          "id": "loveRapEn/mcadoreintoyou3",
+          "beat": 0.6875
+        },
+        {
+          "id": "loveRapEn/rapper1intoyou1",
+          "beat": 1.0
+        },
+        {
+          "id": "loveRapEn/rapper1intoyou2",
+          "beat": 1.4375
+        },
+        {
+          "id": "loveRapEn/rapper1intoyou3",
+          "beat": 1.6875
+        },
+        {
+          "id": "loveRapEn/rapper2intoyou1",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "loveRapEn/rapper2intoyou2",
+          "beat": 1.4375,
+          "track": 1
+        },
+        {
+          "id": "loveRapEn/rapper2intoyou3",
+          "beat": 1.6875,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "loveRapEn_crazyintoyou",
+      "deprecatedIDs": [
+        "loveRap_crazyintoyou"
+      ],
+      "name": "crazy into you",
+      "cues": [
+        {
+          "id": "loveRapEn/mcadorecrazyintoyou1",
+          "beat": 0.0
+        },
+        {
+          "id": "loveRapEn/mcadorecrazyintoyou2",
+          "beat": 0.25
+        },
+        {
+          "id": "loveRapEn/mcadorecrazyintoyou3",
+          "beat": 0.5
+        },
+        {
+          "id": "loveRapEn/mcadorecrazyintoyou4",
+          "beat": 0.9375
+        },
+        {
+          "id": "loveRapEn/mcadorecrazyintoyou5",
+          "beat": 1.1875
+        },
+        {
+          "id": "loveRapEn/rapper1crazyintoyou1",
+          "beat": 1.5
+        },
+        {
+          "id": "loveRapEn/rapper1crazyintoyou2",
+          "beat": 1.8125
+        },
+        {
+          "id": "loveRapEn/rapper1crazyintoyou3",
+          "beat": 2.0
+        },
+        {
+          "id": "loveRapEn/rapper1crazyintoyou4",
+          "beat": 2.4375
+        },
+        {
+          "id": "loveRapEn/rapper1crazyintoyou5",
+          "beat": 2.6875
+        },
+        {
+          "id": "loveRapEn/rapper2crazyintoyou1",
+          "beat": 1.5,
+          "track": 1
+        },
+        {
+          "id": "loveRapEn/rapper2crazyintoyou2",
+          "beat": 1.8125,
+          "track": 1
+        },
+        {
+          "id": "loveRapEn/rapper2crazyintoyou3",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "loveRapEn/rapper2crazyintoyou4",
+          "beat": 2.4375,
+          "track": 1
+        },
+        {
+          "id": "loveRapEn/rapper2crazyintoyou5",
+          "beat": 2.6875,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "loveRapEn_crazyintoyouswing",
+      "deprecatedIDs": [
+        "loveRap_crazyintoyouswing"
+      ],
+      "name": "crazy into you - swing",
+      "cues": [
+        {
+          "id": "loveRapEn/mcadorecrazyintoyouswing1",
+          "beat": 0.0
+        },
+        {
+          "id": "loveRapEn/mcadorecrazyintoyouswing2",
+          "beat": 0.125
+        },
+        {
+          "id": "loveRapEn/mcadorecrazyintoyouswing3",
+          "beat": 0.5
+        },
+        {
+          "id": "loveRapEn/mcadorecrazyintoyouswing4",
+          "beat": 0.625
+        },
+        {
+          "id": "loveRapEn/mcadorecrazyintoyouswing5",
+          "beat": 1.0
+        },
+        {
+          "id": "loveRapEn/rapper1crazyintoyouswing1",
+          "beat": 1.5
+        },
+        {
+          "id": "loveRapEn/rapper1crazyintoyouswing2",
+          "beat": 1.625
+        },
+        {
+          "id": "loveRapEn/rapper1crazyintoyouswing3",
+          "beat": 2.0
+        },
+        {
+          "id": "loveRapEn/rapper1crazyintoyouswing4",
+          "beat": 2.125
+        },
+        {
+          "id": "loveRapEn/rapper1crazyintoyouswing5",
+          "beat": 2.5
+        },
+        {
+          "id": "loveRapEn/rapper2crazyintoyouswing1",
+          "beat": 1.5,
+          "track": 1
+        },
+        {
+          "id": "loveRapEn/rapper2crazyintoyouswing2",
+          "beat": 1.625,
+          "track": 1
+        },
+        {
+          "id": "loveRapEn/rapper2crazyintoyouswing3",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "loveRapEn/rapper2crazyintoyouswing4",
+          "beat": 2.125,
+          "track": 1
+        },
+        {
+          "id": "loveRapEn/rapper2crazyintoyouswing5",
+          "beat": 2.5,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "loveRapEn_fosho",
+      "deprecatedIDs": [
+        "loveRap_fosho"
+      ],
+      "name": "fo' sho' - A",
+      "cues": [
+        {
+          "id": "loveRapEn/mcadorefosho1",
+          "beat": 0.0
+        },
+        {
+          "id": "loveRapEn/mcadorefosho2",
+          "beat": 0.375
+        },
+        {
+          "id": "loveRapEn/rapper1fosholong1",
+          "beat": 0.75
+        },
+        {
+          "id": "loveRapEn/rapper1fosholong2",
+          "beat": 0.875
+        },
+        {
+          "id": "loveRapEn/rapper1fosholong3",
+          "beat": 1.1875
+        },
+        {
+          "id": "loveRapEn/rapper2fosholong1",
+          "beat": 0.75,
+          "track": 1
+        },
+        {
+          "id": "loveRapEn/rapper2fosholong2",
+          "beat": 0.875,
+          "track": 1
+        },
+        {
+          "id": "loveRapEn/rapper2fosholong3",
+          "beat": 1.1875,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "loveRapEn_fosholong",
+      "deprecatedIDs": [
+        "loveRap_fosholong"
+      ],
+      "name": "fo' sho' - B",
+      "cues": [
+        {
+          "id": "loveRapEn/mcadorefosholong1",
+          "beat": 0.0
+        },
+        {
+          "id": "loveRapEn/mcadorefosholong2",
+          "beat": 0.1875
+        },
+        {
+          "id": "loveRapEn/mcadorefosholong3",
+          "beat": 0.375
+        },
+        {
+          "id": "loveRapEn/rapper1fosho1",
+          "beat": 0.75
+        },
+        {
+          "id": "loveRapEn/rapper1fosho2",
+          "beat": 1.125
+        },
+        {
+          "id": "loveRapEn/rapper2fosho1",
+          "beat": 0.75,
+          "track": 1
+        },
+        {
+          "id": "loveRapEn/rapper2fosho2",
+          "beat": 1.125,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "loveRapEn_allaboutyou",
+      "deprecatedIDs": [
+        "loveRap_allaboutyou"
+      ],
+      "name": "all about you",
+      "cues": [
+        {
+          "id": "loveRapEn/mcadoreallaboutyou1",
+          "beat": 0.0
+        },
+        {
+          "id": "loveRapEn/mcadoreallaboutyou2",
+          "beat": 0.1875
+        },
+        {
+          "id": "loveRapEn/mcadoreallaboutyou3",
+          "beat": 0.5
+        },
+        {
+          "id": "loveRapEn/mcadoreallaboutyou4",
+          "beat": 0.875
+        },
+        {
+          "id": "loveRapEn/rapper1allaboutyou1",
+          "beat": 1.25
+        },
+        {
+          "id": "loveRapEn/rapper1allaboutyou2",
+          "beat": 1.5
+        },
+        {
+          "id": "loveRapEn/rapper1allaboutyou3",
+          "beat": 1.6875
+        },
+        {
+          "id": "loveRapEn/rapper1allaboutyou4",
+          "beat": 2.0625
+        },
+        {
+          "id": "loveRapEn/rapper2allaboutyou1",
+          "beat": 1.25,
+          "track": 1
+        },
+        {
+          "id": "loveRapEn/rapper2allaboutyou2",
+          "beat": 1.5,
+          "track": 1
+        },
+        {
+          "id": "loveRapEn/rapper2allaboutyou3",
+          "beat": 1.6875,
+          "track": 1
+        },
+        {
+          "id": "loveRapEn/rapper2allaboutyou4",
+          "beat": 2.0625,
+          "track": 1
+        }
+      ]
+    }
+  ]
+}
