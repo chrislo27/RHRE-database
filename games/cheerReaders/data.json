@@ -313,7 +313,7 @@
       "id": "cheerReaders/okItsOnS3Loop",
       "deprecatedIDs": [],
       "name": "ok it's on! - solo - 3",
-      "introSound": "cheerReaders/okItsOn3",
+      "introSound": "cheerReaders/okItsOnS3",
       "duration": 1.0,
       "loops": true
     },
@@ -350,7 +350,7 @@
       "id": "cheerReaders/okItsOngirls3Loop",
       "deprecatedIDs": [],
       "name": "ok it's on! - girls - 3",
-      "introSound": "cheerReaders/okItsOn3",
+      "introSound": "cheerReaders/okItsOngirls3",
       "duration": 1.0,
       "loops": true
     },
