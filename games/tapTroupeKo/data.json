@@ -34,20 +34,6 @@
     },
     {
       "type": "cue",
-      "id": "tapTroupeKo/readynostep1",
-      "deprecatedIDs": [],
-      "name": "read- (no step)",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "tapTroupeKo/readynostep2",
-      "deprecatedIDs": [],
-      "name": "-y! (no step)",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
       "id": "tapTroupeKo/popper",
       "deprecatedIDs": [],
       "name": "popper",
