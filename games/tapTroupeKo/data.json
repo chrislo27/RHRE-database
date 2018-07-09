@@ -150,22 +150,6 @@
     },
     {
       "type": "pattern",
-      "id": "tapTroupeKo_readyNoStep",
-      "deprecatedIDs": [],
-      "name": "ready! (no step)",
-      "cues": [
-        {
-          "id": "tapTroupeKo/readynostep1",
-          "beat": 0.0
-        },
-        {
-          "id": "tapTroupeKo/readynostep2",
-          "beat": 1.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
       "id": "tapTroupeKo_tap0bom",
       "deprecatedIDs": [],
       "name": "tap - 0 boms",

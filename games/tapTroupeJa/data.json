@@ -150,22 +150,6 @@
     },
     {
       "type": "pattern",
-      "id": "tapTroupeJa_readyNoStep",
-      "deprecatedIDs": [],
-      "name": "ready! (no step)",
-      "cues": [
-        {
-          "id": "tapTroupeJa/readynostep1",
-          "beat": 0.0
-        },
-        {
-          "id": "tapTroupeJa/readynostep2",
-          "beat": 1.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
       "id": "tapTroupeJa_tap0bom",
       "deprecatedIDs": [],
       "name": "tap - 0 boms",
