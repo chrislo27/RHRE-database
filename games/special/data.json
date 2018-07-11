@@ -35,6 +35,12 @@
       "subtitleType": "songArtist"
     },
     {
+      "type": "textureEntity",
+      "id": "special_textureEntity",
+      "deprecatedIDs": [],
+      "name": "Texture"
+    },
+    {
       "type": "shakeEntity",
       "id": "special_shakeEntity",
       "deprecatedIDs": [],
