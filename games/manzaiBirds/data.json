@@ -1,7 +1,7 @@
 {
-  "series": "side",
   "id": "manzaiBirds",
   "name": "Manzai Birds",
+  "series": "side",
   "objects": [
     {
       "type": "cue",
@@ -9,7 +9,8 @@
       "deprecatedIDs": [],
       "name": "BOING!",
       "duration": 1.0,
-      "baseBpm": 95
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
     },
     {
       "type": "cue",
@@ -17,7 +18,8 @@
       "deprecatedIDs": [],
       "name": "donaiyanen!",
       "duration": 1.5,
-      "baseBpm": 95
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
     },
     {
       "type": "cue",
@@ -25,7 +27,8 @@
       "deprecatedIDs": [],
       "name": "hai-",
       "duration": 0.5,
-      "baseBpm": 95
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
     },
     {
       "type": "cue",
@@ -33,7 +36,8 @@
       "deprecatedIDs": [],
       "name": "-hai!",
       "duration": 0.5,
-      "baseBpm": 95
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
     },
     {
       "type": "cue",
@@ -41,7 +45,8 @@
       "deprecatedIDs": [],
       "name": "audience - 1",
       "duration": 1.0,
-      "baseBpm": 95
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
     },
     {
       "type": "cue",
@@ -49,14 +54,2516 @@
       "deprecatedIDs": [],
       "name": "audience - 2",
       "duration": 1.0,
-      "baseBpm": 95
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
     },
     {
       "type": "cue",
       "id": "manzaiBirds/gameover",
       "deprecatedIDs": [],
       "name": "trapdoor opening",
-      "duration": 1.0
+      "duration": 1.0,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/aichini_aichinna",
+      "deprecatedIDs": [],
+      "name": "aichini aichinna",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/amette_amena",
+      "deprecatedIDs": [],
+      "name": "amette amena",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/chainani_itchaina",
+      "deprecatedIDs": [
+        "manzaiBirds/chainani_nicchaina"
+      ],
+      "name": "chainani itchaina",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/denwari_denwa",
+      "deprecatedIDs": [],
+      "name": "denwari denwa",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/futonga_futtonda",
+      "deprecatedIDs": [],
+      "name": "futonga futtonda",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/hiromega_hiromeida",
+      "deprecatedIDs": [],
+      "name": "hiromega hiromeida",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/ikaga_okotta",
+      "deprecatedIDs": [
+        "manzaiBirds/igakari_katta"
+      ],
+      "name": "ikaga okotta",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/ikugawa_ikura",
+      "deprecatedIDs": [],
+      "name": "ikugawa ikura",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/kaeroga_furikaeru",
+      "deprecatedIDs": [
+        "manzaiBirds/kaero_burikaeru"
+      ],
+      "name": "kaeroga furikaeru",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/karega_kare",
+      "deprecatedIDs": [],
+      "name": "karega kare",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/koucha_o_koutchau",
+      "deprecatedIDs": [
+        "manzaiBirds/houchaga_houchou"
+      ],
+      "name": "koucha o koutchau",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/kusaga_kusai",
+      "deprecatedIDs": [],
+      "name": "kusaga kusai",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/megane_niwa_meganei",
+      "deprecatedIDs": [
+        "manzaiBirds/megaminiwa_megani"
+      ],
+      "name": "megane niwa meganei",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/mikanga_mikkannai",
+      "deprecatedIDs": [
+        "manzaiBirds/mikanga_mikannai"
+      ],
+      "name": "mikanga mikkannai",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/nekoga_nekoronda",
+      "deprecatedIDs": [],
+      "name": "nekoga nekoronda",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/okanewa_okkane",
+      "deprecatedIDs": [],
+      "name": "okanewa okkane",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/okurezu_kite_okure",
+      "deprecatedIDs": [
+        "manzaiBirds/okurezu_kitte_okure"
+      ],
+      "name": "okurezu kite okure",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/omochino_kimochi",
+      "deprecatedIDs": [],
+      "name": "omochino kimochi",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/omoino_hoka_omoi",
+      "deprecatedIDs": [],
+      "name": "omoino hoka omoi",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/puringa_tappurin",
+      "deprecatedIDs": [],
+      "name": "puringa tappurin",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/rakudawa_rakudana",
+      "deprecatedIDs": [
+        "manzaiBirds/rakugawa_rakugana"
+      ],
+      "name": "rakudawa rakudana",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/roukade_katarouka",
+      "deprecatedIDs": [
+        "manzaiBirds/roukada_katarouka"
+      ],
+      "name": "roukade katarouka",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/saio_minasai",
+      "deprecatedIDs": [
+        "manzaiBirds/saiyo_minasai"
+      ],
+      "name": "saio minasai",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/sakana_kana_masakana",
+      "deprecatedIDs": [],
+      "name": "sakana kana masakana",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/saruga_saru",
+      "deprecatedIDs": [],
+      "name": "saruga saru",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/shaiinni_nanari_nashain",
+      "deprecatedIDs": [],
+      "name": "shaiinni nanari nashain",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/suikawa_yasuika",
+      "deprecatedIDs": [],
+      "name": "suikawa yasuika",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/taiga_tabetaina",
+      "deprecatedIDs": [],
+      "name": "taiga tabetaina",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/taini_ikitai",
+      "deprecatedIDs": [
+        "manzaiBirds/tainini_kittai"
+      ],
+      "name": "taini ikitai",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/taiyouga_mitaiyou",
+      "deprecatedIDs": [
+        "manzaiBirds/taiyo_gami_taiyou"
+      ],
+      "name": "taiyouga mitaiyou",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/toireni_ittoire",
+      "deprecatedIDs": [],
+      "name": "toireni ittoire",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/tonakaiwa_otonakai",
+      "deprecatedIDs": [
+        "manzaiBirds/domakiyo_otonokoi"
+      ],
+      "name": "tonakaiwa otonakai",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/torinikuga_torininkui",
+      "deprecatedIDs": [],
+      "name": "torinikuga torininkui",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "cue",
+      "id": "manzaiBirds/umette_umeina",
+      "deprecatedIDs": [
+        "manzaiBirds/umette_umena"
+      ],
+      "name": "umette umeina",
+      "duration": 2.5,
+      "fileExtension": "ogg",
+      "baseBpm": 95.0
+    },
+    {
+      "type": "randomCue",
+      "id": "manzaiBirds_randomNormal",
+      "deprecatedIDs": [],
+      "name": "random \"hai hai!\" phrase",
+      "cues": [
+        {
+          "id": "manzaiBirds_aichini_aichinna",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_amette_amena",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_chainani_itchaina",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_denwari_denwa",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_futonga_futtonda",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_hiromega_hiromeida",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_ikaga_okotta",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_ikugawa_ikura",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_kaeroga_furikaeru",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_karega_kare",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_koucha_o_koutchau",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_kusaga_kusai",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_megane_niwa_meganei",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_mikanga_mikkannai",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_nekoga_nekoronda",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_okanewa_okkane",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_okurezu_kite_okure",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_omochino_kimochi",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_omoino_hoka_omoi",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_puringa_tappurin",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_rakudawa_rakudana",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_roukade_katarouka",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_saio_minasai",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_sakana_kana_masakana",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_saruga_saru",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_shaiinni_nanari_nashain",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_suikawa_yasuika",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_taiga_tabetaina",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_taini_ikitai",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_taiyouga_mitaiyou",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_toireni_ittoire",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_tonakaiwa_otonakai",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_torinikuga_torininkui",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_umette_umeina",
+          "beat": 0.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "randomCue",
+      "id": "manzaiBirds_randomBoing",
+      "deprecatedIDs": [],
+      "name": "random boing!",
+      "cues": [
+        {
+          "id": "manzaiBirds_aichini_aichinna_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_amette_amena_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_chainani_itchaina_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_denwari_denwa_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_futonga_futtonda_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_hiromega_hiromeida_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_ikaga_okotta_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_ikugawa_ikura_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_kaeroga_furikaeru_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_karega_kare_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_koucha_o_koutchau_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_kusaga_kusai_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_megane_niwa_meganei_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_mikanga_mikkannai_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_nekoga_nekoronda_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_okanewa_okkane_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_okurezu_kite_okure_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_omochino_kimochi_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_omoino_hoka_omoi_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_puringa_tappurin_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_rakudawa_rakudana_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_roukade_katarouka_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_saio_minasai_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_sakana_kana_masakana_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_saruga_saru_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_shaiinni_nanari_nashain_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_suikawa_yasuika_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_taiga_tabetaina_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_taini_ikitai_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_taiyouga_mitaiyou_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_toireni_ittoire_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_tonakaiwa_otonakai_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_torinikuga_torininkui_boing",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds_umette_umeina_boing",
+          "beat": 0.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_aichini_aichinna",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/aichini_aichinna"
+      ],
+      "name": "aichini aichinna",
+      "cues": [
+        {
+          "id": "manzaiBirds/aichini_aichinna",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_aichini_aichinna_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/aichini_aichinna_boing"
+      ],
+      "name": "aichini aichinna BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/aichini_aichinna",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_amette_amena",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/amette_amena"
+      ],
+      "name": "amette amena",
+      "cues": [
+        {
+          "id": "manzaiBirds/amette_amena",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_amette_amena_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/amette_amena_boing"
+      ],
+      "name": "amette amena BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/amette_amena",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_chainani_itchaina",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/chainani_itchaina",
+        "manzaiBirds_manzaiBirds/chainani_nicchaina",
+        "manzaiBirds_chainani_nicchaina"
+      ],
+      "name": "chainani itchaina",
+      "cues": [
+        {
+          "id": "manzaiBirds/chainani_itchaina",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_chainani_itchaina_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/chainani_itchaina_boing",
+        "manzaiBirds_manzaiBirds/chainani_nicchaina_boing"
+      ],
+      "name": "chainani itchaina BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/chainani_itchaina",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_denwari_denwa",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/denwari_denwa"
+      ],
+      "name": "denwari denwa",
+      "cues": [
+        {
+          "id": "manzaiBirds/denwari_denwa",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_denwari_denwa_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/denwari_denwa_boing"
+      ],
+      "name": "denwari denwa BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/denwari_denwa",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_futonga_futtonda",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/futonga_futtonda"
+      ],
+      "name": "futonga futtonda",
+      "cues": [
+        {
+          "id": "manzaiBirds/futonga_futtonda",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_futonga_futtonda_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/futonga_futtonda_boing"
+      ],
+      "name": "futonga futtonda BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/futonga_futtonda",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_hiromega_hiromeida",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/hiromega_hiromeida"
+      ],
+      "name": "hiromega hiromeida",
+      "cues": [
+        {
+          "id": "manzaiBirds/hiromega_hiromeida",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_hiromega_hiromeida_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/hiromega_hiromeida_boing"
+      ],
+      "name": "hiromega hiromeida BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/hiromega_hiromeida",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_ikaga_okotta",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/ikaga_okotta",
+        "manzaiBirds_manzaiBirds/igakari_katta",
+        "manzaiBirds_igakari_katta"
+      ],
+      "name": "ikaga okotta",
+      "cues": [
+        {
+          "id": "manzaiBirds/ikaga_okotta",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_ikaga_okotta_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/ikaga_okotta_boing",
+        "manzaiBirds_manzaiBirds/igakari_katta_boing"
+      ],
+      "name": "ikaga okotta BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/ikaga_okotta",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_ikugawa_ikura",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/ikugawa_ikura"
+      ],
+      "name": "ikugawa ikura",
+      "cues": [
+        {
+          "id": "manzaiBirds/ikugawa_ikura",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_ikugawa_ikura_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/ikugawa_ikura_boing"
+      ],
+      "name": "ikugawa ikura BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/ikugawa_ikura",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_kaeroga_furikaeru",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/kaeroga_furikaeru",
+        "manzaiBirds_manzaiBirds/kaero_burikaeru",
+        "manzaiBirds_kaero_burikaeru"
+      ],
+      "name": "kaeroga furikaeru",
+      "cues": [
+        {
+          "id": "manzaiBirds/kaeroga_furikaeru",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_kaeroga_furikaeru_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/kaeroga_furikaeru_boing",
+        "manzaiBirds_manzaiBirds/kaero_burikaeru_boing"
+      ],
+      "name": "kaeroga furikaeru BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/kaeroga_furikaeru",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_karega_kare",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/karega_kare"
+      ],
+      "name": "karega kare",
+      "cues": [
+        {
+          "id": "manzaiBirds/karega_kare",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_karega_kare_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/karega_kare_boing"
+      ],
+      "name": "karega kare BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/karega_kare",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_koucha_o_koutchau",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/koucha_o_koutchau",
+        "manzaiBirds_manzaiBirds/houchaga_houchou",
+        "manzaiBirds_houchaga_houchou"
+      ],
+      "name": "koucha o koutchau",
+      "cues": [
+        {
+          "id": "manzaiBirds/koucha_o_koutchau",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_koucha_o_koutchau_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/koucha_o_koutchau_boing",
+        "manzaiBirds_manzaiBirds/houchaga_houchou_boing"
+      ],
+      "name": "koucha o koutchau BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/koucha_o_koutchau",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_kusaga_kusai",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/kusaga_kusai"
+      ],
+      "name": "kusaga kusai",
+      "cues": [
+        {
+          "id": "manzaiBirds/kusaga_kusai",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_kusaga_kusai_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/kusaga_kusai_boing"
+      ],
+      "name": "kusaga kusai BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/kusaga_kusai",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_megane_niwa_meganei",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/megane_niwa_meganei",
+        "manzaiBirds_manzaiBirds/megaminiwa_megani",
+        "manzaiBirds_megaminiwa_megani"
+      ],
+      "name": "megane niwa meganei",
+      "cues": [
+        {
+          "id": "manzaiBirds/megane_niwa_meganei",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_megane_niwa_meganei_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/megane_niwa_meganei_boing",
+        "manzaiBirds_manzaiBirds/megaminiwa_megani_boing"
+      ],
+      "name": "megane niwa meganei BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/megane_niwa_meganei",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_mikanga_mikkannai",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/mikanga_mikkannai",
+        "manzaiBirds_manzaiBirds/mikanga_mikannai",
+        "manzaiBirds_mikanga_mikannai"
+      ],
+      "name": "mikanga mikkannai",
+      "cues": [
+        {
+          "id": "manzaiBirds/mikanga_mikkannai",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_mikanga_mikkannai_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/mikanga_mikkannai_boing",
+        "manzaiBirds_manzaiBirds/mikanga_mikannai_boing"
+      ],
+      "name": "mikanga mikkannai BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/mikanga_mikkannai",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_nekoga_nekoronda",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/nekoga_nekoronda"
+      ],
+      "name": "nekoga nekoronda",
+      "cues": [
+        {
+          "id": "manzaiBirds/nekoga_nekoronda",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_nekoga_nekoronda_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/nekoga_nekoronda_boing"
+      ],
+      "name": "nekoga nekoronda BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/nekoga_nekoronda",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_okanewa_okkane",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/okanewa_okkane"
+      ],
+      "name": "okanewa okkane",
+      "cues": [
+        {
+          "id": "manzaiBirds/okanewa_okkane",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_okanewa_okkane_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/okanewa_okkane_boing"
+      ],
+      "name": "okanewa okkane BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/okanewa_okkane",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_okurezu_kite_okure",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/okurezu_kite_okure",
+        "manzaiBirds_manzaiBirds/okurezu_kitte_okure",
+        "manzaiBirds_okurezu_kitte_okure"
+      ],
+      "name": "okurezu kite okure",
+      "cues": [
+        {
+          "id": "manzaiBirds/okurezu_kite_okure",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_okurezu_kite_okure_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/okurezu_kite_okure_boing",
+        "manzaiBirds_manzaiBirds/okurezu_kitte_okure_boing"
+      ],
+      "name": "okurezu kite okure BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/okurezu_kite_okure",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_omochino_kimochi",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/omochino_kimochi"
+      ],
+      "name": "omochino kimochi",
+      "cues": [
+        {
+          "id": "manzaiBirds/omochino_kimochi",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_omochino_kimochi_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/omochino_kimochi_boing"
+      ],
+      "name": "omochino kimochi BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/omochino_kimochi",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_omoino_hoka_omoi",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/omoino_hoka_omoi"
+      ],
+      "name": "omoino hoka omoi",
+      "cues": [
+        {
+          "id": "manzaiBirds/omoino_hoka_omoi",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_omoino_hoka_omoi_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/omoino_hoka_omoi_boing"
+      ],
+      "name": "omoino hoka omoi BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/omoino_hoka_omoi",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_puringa_tappurin",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/puringa_tappurin"
+      ],
+      "name": "puringa tappurin",
+      "cues": [
+        {
+          "id": "manzaiBirds/puringa_tappurin",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_puringa_tappurin_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/puringa_tappurin_boing"
+      ],
+      "name": "puringa tappurin BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/puringa_tappurin",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_rakudawa_rakudana",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/rakudawa_rakudana",
+        "manzaiBirds_manzaiBirds/rakugawa_rakugana",
+        "manzaiBirds_rakugawa_rakugana"
+      ],
+      "name": "rakudawa rakudana",
+      "cues": [
+        {
+          "id": "manzaiBirds/rakudawa_rakudana",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_rakudawa_rakudana_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/rakudawa_rakudana_boing",
+        "manzaiBirds_manzaiBirds/rakugawa_rakugana_boing"
+      ],
+      "name": "rakudawa rakudana BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/rakudawa_rakudana",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_roukade_katarouka",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/roukade_katarouka",
+        "manzaiBirds_manzaiBirds/roukada_katarouka",
+        "manzaiBirds_roukada_katarouka"
+      ],
+      "name": "roukade katarouka",
+      "cues": [
+        {
+          "id": "manzaiBirds/roukade_katarouka",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_roukade_katarouka_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/roukade_katarouka_boing",
+        "manzaiBirds_manzaiBirds/roukada_katarouka_boing"
+      ],
+      "name": "roukade katarouka BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/roukade_katarouka",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_saio_minasai",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/saio_minasai",
+        "manzaiBirds_manzaiBirds/saiyo_minasai",
+        "manzaiBirds_saiyo_minasai"
+      ],
+      "name": "saio minasai",
+      "cues": [
+        {
+          "id": "manzaiBirds/saio_minasai",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_saio_minasai_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/saio_minasai_boing",
+        "manzaiBirds_manzaiBirds/saiyo_minasai_boing"
+      ],
+      "name": "saio minasai BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/saio_minasai",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_sakana_kana_masakana",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/sakana_kana_masakana"
+      ],
+      "name": "sakana kana masakana",
+      "cues": [
+        {
+          "id": "manzaiBirds/sakana_kana_masakana",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_sakana_kana_masakana_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/sakana_kana_masakana_boing"
+      ],
+      "name": "sakana kana masakana BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/sakana_kana_masakana",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_saruga_saru",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/saruga_saru"
+      ],
+      "name": "saruga saru",
+      "cues": [
+        {
+          "id": "manzaiBirds/saruga_saru",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_saruga_saru_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/saruga_saru_boing"
+      ],
+      "name": "saruga saru BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/saruga_saru",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_shaiinni_nanari_nashain",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/shaiinni_nanari_nashain"
+      ],
+      "name": "shaiinni nanari nashain",
+      "cues": [
+        {
+          "id": "manzaiBirds/shaiinni_nanari_nashain",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_shaiinni_nanari_nashain_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/shaiinni_nanari_nashain_boing"
+      ],
+      "name": "shaiinni nanari nashain BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/shaiinni_nanari_nashain",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_suikawa_yasuika",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/suikawa_yasuika"
+      ],
+      "name": "suikawa yasuika",
+      "cues": [
+        {
+          "id": "manzaiBirds/suikawa_yasuika",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_suikawa_yasuika_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/suikawa_yasuika_boing"
+      ],
+      "name": "suikawa yasuika BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/suikawa_yasuika",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_taiga_tabetaina",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/taiga_tabetaina"
+      ],
+      "name": "taiga tabetaina",
+      "cues": [
+        {
+          "id": "manzaiBirds/taiga_tabetaina",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_taiga_tabetaina_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/taiga_tabetaina_boing"
+      ],
+      "name": "taiga tabetaina BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/taiga_tabetaina",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_taini_ikitai",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/taini_ikitai",
+        "manzaiBirds_manzaiBirds/tainini_kittai",
+        "manzaiBirds_tainini_kittai"
+      ],
+      "name": "taini ikitai",
+      "cues": [
+        {
+          "id": "manzaiBirds/taini_ikitai",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_taini_ikitai_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/taini_ikitai_boing",
+        "manzaiBirds_manzaiBirds/tainini_kittai_boing"
+      ],
+      "name": "taini ikitai BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/taini_ikitai",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_taiyouga_mitaiyou",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/taiyouga_mitaiyou",
+        "manzaiBirds_manzaiBirds/taiyo_gami_taiyou",
+        "manzaiBirds_taiyo_gami_taiyou"
+      ],
+      "name": "taiyouga mitaiyou",
+      "cues": [
+        {
+          "id": "manzaiBirds/taiyouga_mitaiyou",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_taiyouga_mitaiyou_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/taiyouga_mitaiyou_boing",
+        "manzaiBirds_manzaiBirds/taiyo_gami_taiyou_boing"
+      ],
+      "name": "taiyouga mitaiyou BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/taiyouga_mitaiyou",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_toireni_ittoire",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/toireni_ittoire"
+      ],
+      "name": "toireni ittoire",
+      "cues": [
+        {
+          "id": "manzaiBirds/toireni_ittoire",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_toireni_ittoire_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/toireni_ittoire_boing"
+      ],
+      "name": "toireni ittoire BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/toireni_ittoire",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_tonakaiwa_otonakai",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/tonakaiwa_otonakai",
+        "manzaiBirds_manzaiBirds/domakiyo_otonokoi",
+        "manzaiBirds_domakiyo_otonokoi"
+      ],
+      "name": "tonakaiwa otonakai",
+      "cues": [
+        {
+          "id": "manzaiBirds/tonakaiwa_otonakai",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_tonakaiwa_otonakai_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/tonakaiwa_otonakai_boing",
+        "manzaiBirds_manzaiBirds/domakiyo_otonokoi_boing"
+      ],
+      "name": "tonakaiwa otonakai BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/tonakaiwa_otonakai",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_torinikuga_torininkui",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/torinikuga_torininkui"
+      ],
+      "name": "torinikuga torininkui",
+      "cues": [
+        {
+          "id": "manzaiBirds/torinikuga_torininkui",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_torinikuga_torininkui_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/torinikuga_torininkui_boing"
+      ],
+      "name": "torinikuga torininkui BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/torinikuga_torininkui",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_umette_umeina",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/umette_umeina",
+        "manzaiBirds_manzaiBirds/umette_umena",
+        "manzaiBirds_umette_umena"
+      ],
+      "name": "umette umeina",
+      "cues": [
+        {
+          "id": "manzaiBirds/umette_umeina",
+          "beat": 0.0,
+          "duration": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/haihai1",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "manzaiBirds_umette_umeina_boing",
+      "deprecatedIDs": [
+        "manzaiBirds_manzaiBirds/umette_umeina_boing",
+        "manzaiBirds_manzaiBirds/umette_umena_boing"
+      ],
+      "name": "umette umeina BOING!",
+      "cues": [
+        {
+          "id": "manzaiBirds/umette_umeina",
+          "beat": 0.0,
+          "duration": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/boing",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "manzaiBirds/donaiyanen",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
     }
   ]
 }

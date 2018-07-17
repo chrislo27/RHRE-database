@@ -1,8 +1,1513 @@
 {
-  "series": "fever",
   "id": "bossaNovaEn",
   "name": "Bossa Nova",
+  "series": "fever",
   "group": "Bossa Nova",
   "groupDefault": true,
-  "objects": []
+  "objects": [
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/ball",
+      "deprecatedIDs": [],
+      "name": "ball",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/ball_echo",
+      "deprecatedIDs": [],
+      "name": "ball echo",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/ball_hard",
+      "deprecatedIDs": [],
+      "name": "ball hard",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/ball_low",
+      "deprecatedIDs": [],
+      "name": "ball low",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/ball_pop",
+      "deprecatedIDs": [],
+      "name": "ball pop",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/click",
+      "deprecatedIDs": [],
+      "name": "click",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/cloud1",
+      "deprecatedIDs": [],
+      "name": "cloud1",
+      "duration": 1.0,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/cloud2",
+      "deprecatedIDs": [],
+      "name": "cloud2",
+      "duration": 2.0,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/cube",
+      "deprecatedIDs": [],
+      "name": "cube",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/cube_echo",
+      "deprecatedIDs": [],
+      "name": "cube echo",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/cube_heavy",
+      "deprecatedIDs": [],
+      "name": "cube heavy",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_bom1",
+      "deprecatedIDs": [],
+      "name": "female bom1",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_bom2",
+      "deprecatedIDs": [],
+      "name": "female bom2",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_bom3",
+      "deprecatedIDs": [],
+      "name": "female bom3",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_bom4",
+      "deprecatedIDs": [],
+      "name": "female bom4",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_bom5",
+      "deprecatedIDs": [],
+      "name": "female bom5",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_bom6",
+      "deprecatedIDs": [],
+      "name": "female bom6",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_bom7",
+      "deprecatedIDs": [],
+      "name": "female bom7",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_bom8",
+      "deprecatedIDs": [],
+      "name": "female bom8",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_bom9",
+      "deprecatedIDs": [],
+      "name": "female bom9",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_bom10",
+      "deprecatedIDs": [],
+      "name": "female bom10",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_bom_laugh",
+      "deprecatedIDs": [],
+      "name": "female bom laugh",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_cough1",
+      "deprecatedIDs": [],
+      "name": "female cough1",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_giggle1",
+      "deprecatedIDs": [],
+      "name": "female giggle1",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_giggle2",
+      "deprecatedIDs": [],
+      "name": "female giggle2",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_giggle3",
+      "deprecatedIDs": [],
+      "name": "female giggle3",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_mmm",
+      "deprecatedIDs": [],
+      "name": "female mmm",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_pin1",
+      "deprecatedIDs": [],
+      "name": "female pin1",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_pin2",
+      "deprecatedIDs": [],
+      "name": "female pin2",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_pin3",
+      "deprecatedIDs": [],
+      "name": "female pin3",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_ss1",
+      "deprecatedIDs": [],
+      "name": "female ss1",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_ss2",
+      "deprecatedIDs": [],
+      "name": "female ss2",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_ss3",
+      "deprecatedIDs": [],
+      "name": "female ss3",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/female_yelp",
+      "deprecatedIDs": [],
+      "name": "female yelp",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/hack",
+      "deprecatedIDs": [],
+      "name": "hack",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_ahh1",
+      "deprecatedIDs": [],
+      "name": "male ahh1",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_cough1",
+      "deprecatedIDs": [],
+      "name": "male cough1",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_d1",
+      "deprecatedIDs": [],
+      "name": "male d1",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_d2",
+      "deprecatedIDs": [],
+      "name": "male d2",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_d3",
+      "deprecatedIDs": [],
+      "name": "male d3",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_don1",
+      "deprecatedIDs": [],
+      "name": "male don1",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_don2",
+      "deprecatedIDs": [],
+      "name": "male don2",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_don3",
+      "deprecatedIDs": [],
+      "name": "male don3",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_don4",
+      "deprecatedIDs": [],
+      "name": "male don4",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_don5",
+      "deprecatedIDs": [],
+      "name": "male don5",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_don6",
+      "deprecatedIDs": [],
+      "name": "male don6",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_don7",
+      "deprecatedIDs": [],
+      "name": "male don7",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_don8",
+      "deprecatedIDs": [],
+      "name": "male don8",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_don9",
+      "deprecatedIDs": [],
+      "name": "male don9",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_don10",
+      "deprecatedIDs": [],
+      "name": "male don10",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_don11",
+      "deprecatedIDs": [],
+      "name": "male don11",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_don12",
+      "deprecatedIDs": [],
+      "name": "male don12",
+      "duration": 1.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_grunt1",
+      "deprecatedIDs": [],
+      "name": "male grunt1",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_mmm",
+      "deprecatedIDs": [],
+      "name": "male mmm",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_ooh1",
+      "deprecatedIDs": [],
+      "name": "male ooh1",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_ss1",
+      "deprecatedIDs": [],
+      "name": "male ss1",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_ss2",
+      "deprecatedIDs": [],
+      "name": "male ss2",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_ss3",
+      "deprecatedIDs": [],
+      "name": "male ss3",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_t",
+      "deprecatedIDs": [],
+      "name": "male t",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_tt",
+      "deprecatedIDs": [],
+      "name": "male tt",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_turn1",
+      "deprecatedIDs": [],
+      "name": "male turn1",
+      "duration": 1.0,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_turn2",
+      "deprecatedIDs": [],
+      "name": "male turn2",
+      "duration": 1.0,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_turn3",
+      "deprecatedIDs": [],
+      "name": "male turn3",
+      "duration": 1.0,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_turn4",
+      "deprecatedIDs": [],
+      "name": "male turn4",
+      "duration": 1.0,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_turn5",
+      "deprecatedIDs": [],
+      "name": "male turn5",
+      "duration": 1.0,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/male_turn6",
+      "deprecatedIDs": [],
+      "name": "male turn6",
+      "duration": 1.0,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/sniff",
+      "deprecatedIDs": [],
+      "name": "sniff",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/ss",
+      "deprecatedIDs": [],
+      "name": "ss",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "bossaNovaEn/thwack",
+      "deprecatedIDs": [],
+      "name": "thwack",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_startPattern",
+      "deprecatedIDs": [],
+      "name": "starting pattern",
+      "cues": [
+        {
+          "id": "bossaNovaEn/ball",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/cube",
+          "beat": 1.0,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/ball",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/ball",
+          "beat": 2.0,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/cube",
+          "beat": 2.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_pattern",
+      "deprecatedIDs": [],
+      "name": "pattern",
+      "cues": [
+        {
+          "id": "bossaNovaEn/ball",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/ball",
+          "beat": 0.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/cube",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/ball",
+          "beat": 2.0,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/ball",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/cube",
+          "beat": 3.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_cloudSpin",
+      "deprecatedIDs": [],
+      "name": "cloud spin",
+      "cues": [
+        {
+          "id": "bossaNovaEn/cloud1",
+          "beat": 0.0,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/cloud2",
+          "beat": 1.0,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_femalePattern1",
+      "deprecatedIDs": [],
+      "name": "pattern - female - 1",
+      "cues": [
+        {
+          "id": "bossaNovaEn_pattern",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 1
+        },
+        {
+          "id": "bossaNovaEn/female_ss1",
+          "beat": 0.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_bom1",
+          "beat": 1.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/female_ss1",
+          "beat": 2.0,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_ss2",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_bom2",
+          "beat": 3.0,
+          "volume": 100,
+          "track": 2
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_femalePattern2",
+      "deprecatedIDs": [],
+      "name": "pattern - female - 2",
+      "cues": [
+        {
+          "id": "bossaNovaEn_pattern",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 1
+        },
+        {
+          "id": "bossaNovaEn/female_ss1",
+          "beat": 0.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_bom3",
+          "beat": 1.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/female_ss1",
+          "beat": 2.0,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_ss2",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_bom4",
+          "beat": 3.0,
+          "volume": 100,
+          "track": 2
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_femalePattern3",
+      "deprecatedIDs": [],
+      "name": "pattern - female - 3",
+      "cues": [
+        {
+          "id": "bossaNovaEn_pattern",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 1
+        },
+        {
+          "id": "bossaNovaEn/female_ss1",
+          "beat": 0.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_bom10",
+          "beat": 1.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/female_ss1",
+          "beat": 2.0,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_ss3",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_bom6",
+          "beat": 3.0,
+          "volume": 100,
+          "track": 2
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_femalePattern4",
+      "deprecatedIDs": [],
+      "name": "pattern - female - 4",
+      "cues": [
+        {
+          "id": "bossaNovaEn_pattern",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 1
+        },
+        {
+          "id": "bossaNovaEn/female_ss1",
+          "beat": 0.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_bom_laugh",
+          "beat": 1.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/female_ss1",
+          "beat": 2.0,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_ss2",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_bom3",
+          "beat": 3.0,
+          "volume": 100,
+          "track": 2
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_femalePattern5",
+      "deprecatedIDs": [],
+      "name": "pattern - female - 5",
+      "cues": [
+        {
+          "id": "bossaNovaEn_pattern",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 1
+        },
+        {
+          "id": "bossaNovaEn/female_ss1",
+          "beat": 0.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_bom7",
+          "beat": 1.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/female_ss1",
+          "beat": 2.0,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_ss2",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_pin3",
+          "beat": 3.0,
+          "volume": 100,
+          "track": 2
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_femalePattern6",
+      "deprecatedIDs": [],
+      "name": "pattern - female - 6",
+      "cues": [
+        {
+          "id": "bossaNovaEn_pattern",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 1
+        },
+        {
+          "id": "bossaNovaEn/female_ss1",
+          "beat": 0.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_bom9",
+          "beat": 1.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/female_ss1",
+          "beat": 2.0,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_ss3",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_pin3",
+          "beat": 3.0,
+          "volume": 100,
+          "track": 2
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_femalePattern7",
+      "deprecatedIDs": [],
+      "name": "pattern - female - 7",
+      "cues": [
+        {
+          "id": "bossaNovaEn_pattern",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 1
+        },
+        {
+          "id": "bossaNovaEn/female_ss1",
+          "beat": 0.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_bom10",
+          "beat": 1.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/female_ss1",
+          "beat": 2.0,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_ss3",
+          "beat": 2.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/female_pin2",
+          "beat": 3.0,
+          "volume": 100,
+          "track": 2
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_malePattern1",
+      "deprecatedIDs": [],
+      "name": "pattern - male - 1",
+      "cues": [
+        {
+          "id": "bossaNovaEn/male_d3",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn_pattern",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 1
+        },
+        {
+          "id": "bossaNovaEn/male_don1",
+          "beat": 0.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss3",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/male_d1",
+          "beat": 2.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_don4",
+          "beat": 2.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss2",
+          "beat": 3.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_malePattern2",
+      "deprecatedIDs": [],
+      "name": "pattern - male - 2",
+      "cues": [
+        {
+          "id": "bossaNovaEn_pattern",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 1
+        },
+        {
+          "id": "bossaNovaEn/male_d3",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_don3",
+          "beat": 0.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss3",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/male_d1",
+          "beat": 2.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_don4",
+          "beat": 2.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss2",
+          "beat": 3.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_malePattern3",
+      "deprecatedIDs": [],
+      "name": "pattern - male - 3",
+      "cues": [
+        {
+          "id": "bossaNovaEn_pattern",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 1
+        },
+        {
+          "id": "bossaNovaEn/male_d3",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_don6",
+          "beat": 0.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss3",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/male_d1",
+          "beat": 2.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_don2",
+          "beat": 2.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss2",
+          "beat": 3.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_malePattern4",
+      "deprecatedIDs": [],
+      "name": "pattern - male - 4",
+      "cues": [
+        {
+          "id": "bossaNovaEn_pattern",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 1
+        },
+        {
+          "id": "bossaNovaEn/male_d3",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_don2",
+          "beat": 0.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss3",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/male_d1",
+          "beat": 2.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_don8",
+          "beat": 2.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss2",
+          "beat": 3.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_malePattern5",
+      "deprecatedIDs": [],
+      "name": "pattern - male - 5",
+      "cues": [
+        {
+          "id": "bossaNovaEn_pattern",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 1
+        },
+        {
+          "id": "bossaNovaEn/male_d3",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_don9",
+          "beat": 0.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss3",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/male_d1",
+          "beat": 2.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_don11",
+          "beat": 2.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss2",
+          "beat": 3.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_malePattern6",
+      "deprecatedIDs": [],
+      "name": "pattern - male - 6",
+      "cues": [
+        {
+          "id": "bossaNovaEn_pattern",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 1
+        },
+        {
+          "id": "bossaNovaEn/male_d3",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_don7",
+          "beat": 0.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss3",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/male_d1",
+          "beat": 2.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_don12",
+          "beat": 2.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss2",
+          "beat": 3.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_malePattern7",
+      "deprecatedIDs": [],
+      "name": "pattern - male - 7",
+      "cues": [
+        {
+          "id": "bossaNovaEn_pattern",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 1
+        },
+        {
+          "id": "bossaNovaEn/male_d3",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_don1",
+          "beat": 0.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss3",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/male_t",
+          "beat": 2.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_turn1",
+          "beat": 2.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss2",
+          "beat": 3.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_malePattern8",
+      "deprecatedIDs": [],
+      "name": "pattern - male - 8",
+      "cues": [
+        {
+          "id": "bossaNovaEn_pattern",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 1
+        },
+        {
+          "id": "bossaNovaEn/male_d3",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_don3",
+          "beat": 0.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss3",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/male_tt",
+          "beat": 2.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_turn2",
+          "beat": 2.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss2",
+          "beat": 3.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_malePattern9",
+      "deprecatedIDs": [],
+      "name": "pattern - male - 9",
+      "cues": [
+        {
+          "id": "bossaNovaEn_pattern",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 1
+        },
+        {
+          "id": "bossaNovaEn/male_d3",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_don4",
+          "beat": 0.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss3",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/male_t",
+          "beat": 2.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_turn3",
+          "beat": 2.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss2",
+          "beat": 3.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_malePattern10",
+      "deprecatedIDs": [],
+      "name": "pattern - male - 10",
+      "cues": [
+        {
+          "id": "bossaNovaEn_pattern",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 1
+        },
+        {
+          "id": "bossaNovaEn/male_d3",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_don3",
+          "beat": 0.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss3",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/male_t",
+          "beat": 2.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_turn4",
+          "beat": 2.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss2",
+          "beat": 3.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_malePattern11",
+      "deprecatedIDs": [],
+      "name": "pattern - male - 11",
+      "cues": [
+        {
+          "id": "bossaNovaEn/male_d3",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn_pattern",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 1
+        },
+        {
+          "id": "bossaNovaEn/male_don3",
+          "beat": 0.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss3",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/male_t",
+          "beat": 2.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_turn5",
+          "beat": 2.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss2",
+          "beat": 3.5,
+          "volume": 100
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "bossaNovaEn_malePattern12",
+      "deprecatedIDs": [],
+      "name": "pattern - male - 12",
+      "cues": [
+        {
+          "id": "bossaNovaEn_pattern",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 1
+        },
+        {
+          "id": "bossaNovaEn/male_d3",
+          "beat": 0.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_don9",
+          "beat": 0.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss3",
+          "beat": 1.5,
+          "volume": 100
+        },
+        {
+          "id": "bossaNovaEn/male_tt",
+          "beat": 2.0,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_turn6",
+          "beat": 2.5,
+          "volume": 100,
+          "track": 2
+        },
+        {
+          "id": "bossaNovaEn/male_ss2",
+          "beat": 3.5,
+          "volume": 100
+        }
+      ]
+    }
+  ]
 }
