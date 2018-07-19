@@ -5,8 +5,8 @@
   "objects": [
     {
       "type": "cue",
-      "id": "extraSFX/star",
-      "deprecatedIDs": [],
+      "id": "extraSFX/skillStar",
+      "deprecatedIDs": ["extraSFX/star"],
       "name": "skill star",
       "duration": 1.0
     },
