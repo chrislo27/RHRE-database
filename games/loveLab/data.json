@@ -59,10 +59,124 @@
     },
     {
       "type": "cue",
-      "id": "loveLab/clear",
+      "id": "loveLab/heartCombine",
       "deprecatedIDs": [],
-      "name": "pour",
-      "duration": 2.0
+      "name": "heart - combine",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "loveLab/heartBag",
+      "deprecatedIDs": [],
+      "name": "heart - bag",
+      "repitchable": true,
+      "duration": 0.0625
+    },
+    {
+      "type": "cue",
+      "id": "loveLab/heartBagLong",
+      "deprecatedIDs": [],
+      "name": "heart - bag last",
+	  "repitchable": true,
+      "duration": 0.0625
+    },
+	{
+      "type": "pattern",
+      "id": "loveLab/heartPour2",
+      "deprecatedIDs": [],
+      "name": "2 hearts",
+      "cues": [
+        {
+          "id": "loveLab/heartBag",
+          "beat": 0.0
+        },
+        {
+          "id": "loveLab/heartBagLong",
+		  "semitone": 2,
+          "beat": 0.0625
+        }
+	  ]
+    },
+	{
+      "type": "pattern",
+      "id": "loveLab/heartPour3",
+      "deprecatedIDs": [],
+      "name": "3 hearts",
+      "cues": [
+        {
+          "id": "loveLab/heartBag",
+          "beat": 0.0
+        },
+        {
+          "id": "loveLab/heartBag",
+		  "semitone": 2,
+          "beat": 0.0625
+        },
+		{
+          "id": "loveLab/heartBagLong",
+		  "semitone": 4,
+          "beat": 0.125
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "loveLab/heartPour4",
+      "deprecatedIDs": [],
+      "name": "4 hearts",
+      "cues": [
+        {
+          "id": "loveLab/heartBag",
+          "beat": 0.0
+        },
+        {
+          "id": "loveLab/heartBag",
+		  "semitone": 2,
+          "beat": 0.0625
+        },
+		{
+          "id": "loveLab/heartBag",
+		  "semitone": 4,
+          "beat": 0.125
+        },
+		{
+          "id": "loveLab/heartBagLong",
+		  "semitone": 7,
+          "beat": 0.1875
+        }
+      ]
+    },
+	{
+      "type": "pattern",
+      "id": "loveLab/heartPour5",
+      "deprecatedIDs": [],
+      "name": "5 hearts",
+      "cues": [
+        {
+          "id": "loveLab/heartBag",
+          "beat": 0.0
+        },
+        {
+          "id": "loveLab/heartBag",
+		  "semitone": 2,
+          "beat": 0.0625
+        },
+		{
+          "id": "loveLab/heartBag",
+		  "semitone": 4,
+          "beat": 0.125
+        },
+		{
+          "id": "loveLab/heartBag",
+		  "semitone": 7,
+          "beat": 0.1875
+        },
+		{
+          "id": "loveLab/heartBagLong",
+		  "semitone": 8,
+          "beat": 0.25
+        }	
+      ]		
     }
   ]
 }
