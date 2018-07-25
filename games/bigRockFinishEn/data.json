@@ -101,7 +101,7 @@
       "deprecatedIDs": [
         "bigRockFinish/strum"
       ],
-      "name": "ghost - strum",
+      "name": "ghost - strum - F (1st)",
       "duration": 1.0,
       "repitchable": true
     },
@@ -111,7 +111,7 @@
       "deprecatedIDs": [
         "bigRockFinish/strumFinal"
       ],
-      "name": "ghost - last strum",
+      "name": "ghost - last strum - G (1st)",
       "duration": 2.0,
       "repitchable": true
     },
@@ -249,7 +249,7 @@
       "deprecatedIDs": [
         "bigRockFinish_strum"
       ],
-      "name": "strum",
+      "name": "strum - F (1st) to G (1st)",
       "stretchable": true,
       "cues": [
         {

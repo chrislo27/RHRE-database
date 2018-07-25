@@ -92,7 +92,7 @@
       "type": "cue",
       "id": "bigRockFinishMegamix/strum",
       "deprecatedIDs": [],
-      "name": "ghost - strum",
+      "name": "ghost - strum - A (1st)",
       "duration": 1.0,
       "repitchable": true
     },
@@ -100,7 +100,7 @@
       "type": "cue",
       "id": "bigRockFinishMegamix/strumFinal",
       "deprecatedIDs": [],
-      "name": "ghost - last strum",
+      "name": "ghost - last strum - A (1st)",
       "duration": 2.0,
       "repitchable": true
     },
@@ -228,7 +228,7 @@
       "type": "pattern",
       "id": "bigRockFinishMegamix_strum",
       "deprecatedIDs": [],
-      "name": "strum",
+      "name": "strum - A (1st)",
       "stretchable": true,
       "cues": [
         {

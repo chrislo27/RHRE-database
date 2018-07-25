@@ -36,7 +36,7 @@
       "type": "cue",
       "id": "bigRockFinishEs/strum",
       "deprecatedIDs": [],
-      "name": "ghost - strum",
+      "name": "ghost - strum - F (1st)",
       "duration": 1.0,
       "repitchable": true
     },
@@ -44,7 +44,7 @@
       "type": "cue",
       "id": "bigRockFinishEs/strumFinal",
       "deprecatedIDs": [],
-      "name": "ghost - last strum",
+      "name": "ghost - last strum - G (1st)",
       "duration": 2.0,
       "repitchable": true
     },
@@ -122,7 +122,7 @@
       "type": "pattern",
       "id": "bigRockFinishEs_strum",
       "deprecatedIDs": [],
-      "name": "strum",
+      "name": "strum - F (1st) to G (1st)",
       "stretchable": true,
       "cues": [
         {
