@@ -82,8 +82,8 @@
     },
 	{
       "type": "pattern",
-      "id": "loveLab/heartPour2",
-      "deprecatedIDs": [],
+      "id": "loveLab_heartPour2",
+      "deprecatedIDs": ["loveLab/heartPour2"],
       "name": "2 hearts",
       "cues": [
         {
@@ -99,8 +99,8 @@
     },
 	{
       "type": "pattern",
-      "id": "loveLab/heartPour3",
-      "deprecatedIDs": [],
+      "id": "loveLab_heartPour3",
+      "deprecatedIDs": ["loveLab/heartPour3"],
       "name": "3 hearts",
       "cues": [
         {
@@ -121,8 +121,8 @@
     },
     {
       "type": "pattern",
-      "id": "loveLab/heartPour4",
-      "deprecatedIDs": [],
+      "id": "loveLab_heartPour4",
+      "deprecatedIDs": ["loveLab/heartPour4"],
       "name": "4 hearts",
       "cues": [
         {
@@ -148,8 +148,8 @@
     },
 	{
       "type": "pattern",
-      "id": "loveLab/heartPour5",
-      "deprecatedIDs": [],
+      "id": "loveLab_heartPour5",
+      "deprecatedIDs": ["loveLab/heartPour5"],
       "name": "5 hearts",
       "cues": [
         {

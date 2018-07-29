@@ -462,8 +462,8 @@
     },
 	{
 	  "type": "keepTheBeat",
-	  "id": "mechanicalHorse/fullGallopPlayer",
-      "deprecatedIDs": [],
+	  "id": "mechanicalHorse_fullGallopPlayer",
+      "deprecatedIDs": ["mechanicalHorse/fullGallopPlayer"],
       "name": "full gallop with player",
 	  "defaultDuration": 5.0,
       "cues": [

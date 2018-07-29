@@ -717,8 +717,10 @@
     },
     {
       "type": "pattern",
-      "id": "cheerReaders_oneTwoThree",
-      "deprecatedIDs": [],
+      "id": "cheerReadersEn_oneTwoThree",
+      "deprecatedIDs": [
+        "cheerReaders_oneTwoThree"
+      ],
       "name": "one two three!",
       "cues": [
         {
@@ -737,8 +739,10 @@
     },
     {
       "type": "pattern",
-      "id": "cheerReaders_oneTwoThreeS",
-      "deprecatedIDs": [],
+      "id": "cheerReadersEn_oneTwoThreeS",
+      "deprecatedIDs": [
+        "cheerReaders_oneTwoThreeS"
+      ],
       "name": "one two three! - solo",
       "cues": [
         {
@@ -757,8 +761,10 @@
     },
     {
       "type": "pattern",
-      "id": "cheerReaders_oneTwoThreeGirls",
-      "deprecatedIDs": [],
+      "id": "cheerReadersEn_oneTwoThreeGirls",
+      "deprecatedIDs": [
+        "cheerReaders_oneTwoThreeGirls"
+      ],
       "name": "one two three! - girls",
       "cues": [
         {
@@ -777,8 +783,10 @@
     },
     {
       "type": "pattern",
-      "id": "cheerReaders_itsUpToYou",
-      "deprecatedIDs": [],
+      "id": "cheerReadersEn_itsUpToYou",
+      "deprecatedIDs": [
+        "cheerReaders_itsUpToYou"
+      ],
       "name": "it's up to you!",
       "cues": [
         {
@@ -801,8 +809,10 @@
     },
     {
       "type": "pattern",
-      "id": "cheerReaders_itsUpToYouS",
-      "deprecatedIDs": [],
+      "id": "cheerReadersEn_itsUpToYouS",
+      "deprecatedIDs": [
+        "cheerReaders_itsUpToYouS"
+      ],
       "name": "it's up to you! - solo",
       "cues": [
         {
@@ -825,8 +835,10 @@
     },
     {
       "type": "pattern",
-      "id": "cheerReaders_itsUpToYouGirls",
-      "deprecatedIDs": [],
+      "id": "cheerReadersEn_itsUpToYouGirls",
+      "deprecatedIDs": [
+        "cheerReaders_itsUpToYouGirls"
+      ],
       "name": "it's up to you! - girls",
       "cues": [
         {
