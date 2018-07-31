@@ -5,19 +5,19 @@
   "objects": [
     {
       "type": "cue",
-      "id": "ninjaBodyguardMegamixEn/shoot",
+      "id": "*/shoot",
       "deprecatedIDs": [
         "ninjaBodyguardMegamix/shoot"
       ],
       "name": "shoot",
       "duration": 0.25,
       "responseIDs": [
-        "ninjaBodyguardMegamix/cut"
+        "*/cut"
       ]
     },
     {
       "type": "cue",
-      "id": "ninjaBodyguardMegamixEn/cut",
+      "id": "*/cut",
       "deprecatedIDs": [
         "ninjaBodyguardMegamix/cut"
       ],
@@ -26,7 +26,7 @@
     },
     {
       "type": "cue",
-      "id": "ninjaBodyguardMegamixEn/ninjaIntro",
+      "id": "*/ninjaIntro",
       "deprecatedIDs": [
         "ninjaBodyguardMegamix/ninjaIntro"
       ],

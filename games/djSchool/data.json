@@ -5,203 +5,203 @@
   "objects": [
     {
       "type": "cue",
-      "id": "djSchool/stop1",
+      "id": "*/stop1",
       "deprecatedIDs": [],
       "name": "and stop - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "djSchool/stop2",
+      "id": "*/stop2",
       "deprecatedIDs": [],
       "name": "and stop - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "djSchool/stop3",
+      "id": "*/stop3",
       "deprecatedIDs": [],
       "name": "and stop - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "djSchool/break1",
+      "id": "*/break1",
       "deprecatedIDs": [],
       "name": "break c'mon - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "djSchool/break2",
+      "id": "*/break2",
       "deprecatedIDs": [],
       "name": "break c'mon - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "djSchool/break3",
+      "id": "*/break3",
       "deprecatedIDs": [],
       "name": "break c'mon - 3",
       "duration": 0.75
     },
     {
       "type": "cue",
-      "id": "djSchool/break4",
+      "id": "*/break4",
       "deprecatedIDs": [],
       "name": "break c'mon - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "djSchool/breakalt1",
+      "id": "*/breakalt1",
       "deprecatedIDs": [],
       "name": "break c'mon - alternate - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "djSchool/breakalt2",
+      "id": "*/breakalt2",
       "deprecatedIDs": [],
       "name": "break c'mon - alternate - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "djSchool/breakalt3",
+      "id": "*/breakalt3",
       "deprecatedIDs": [],
       "name": "break c'mon - alternate - 3",
       "duration": 0.75
     },
     {
       "type": "cue",
-      "id": "djSchool/breakalt4",
+      "id": "*/breakalt4",
       "deprecatedIDs": [],
       "name": "break c'mon - alternate - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "djSchool/breakloud1",
+      "id": "*/breakloud1",
       "deprecatedIDs": [],
       "name": "break c'mon - loud - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "djSchool/breakloud2",
+      "id": "*/breakloud2",
       "deprecatedIDs": [],
       "name": "break c'mon - loud - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "djSchool/breakloud3",
+      "id": "*/breakloud3",
       "deprecatedIDs": [],
       "name": "break c'mon - loud - 3",
       "duration": 0.75
     },
     {
       "type": "cue",
-      "id": "djSchool/breakloud4",
+      "id": "*/breakloud4",
       "deprecatedIDs": [],
       "name": "break c'mon - loud - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "djSchool/scratch1",
+      "id": "*/scratch1",
       "deprecatedIDs": [],
       "name": "scratch-o - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "djSchool/scratch2",
+      "id": "*/scratch2",
       "deprecatedIDs": [],
       "name": "scratch-o - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "djSchool/scratch3",
+      "id": "*/scratch3",
       "deprecatedIDs": [],
       "name": "scratch-o - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "djSchool/scratch4",
+      "id": "*/scratch4",
       "deprecatedIDs": [],
       "name": "scratch-o - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "djSchool/scratchalt1",
+      "id": "*/scratchalt1",
       "deprecatedIDs": [],
       "name": "scratch-o - alternate - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "djSchool/scratchalt2",
+      "id": "*/scratchalt2",
       "deprecatedIDs": [],
       "name": "scratch-o - alternate - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "djSchool/scratchalt3",
+      "id": "*/scratchalt3",
       "deprecatedIDs": [],
       "name": "scratch-o - alternate - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "djSchool/scratchalt4",
+      "id": "*/scratchalt4",
       "deprecatedIDs": [],
       "name": "scratch-o - alternate - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "djSchool/scratchloud1",
+      "id": "*/scratchloud1",
       "deprecatedIDs": [],
       "name": "scratch-o - loud - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "djSchool/scratchloud2",
+      "id": "*/scratchloud2",
       "deprecatedIDs": [],
       "name": "scratch-o - loud - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "djSchool/scratchloud3",
+      "id": "*/scratchloud3",
       "deprecatedIDs": [],
       "name": "scratch-o - loud - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "djSchool/scratchloud4",
+      "id": "*/scratchloud4",
       "deprecatedIDs": [],
       "name": "scratch-o - loud - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "djSchool/yay",
+      "id": "*/yay",
       "deprecatedIDs": [],
       "name": "yay",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "djSchool/letsgo1",
+      "id": "*/letsgo1",
       "deprecatedIDs": [
         "djSchool/letsgo"
       ],
@@ -210,14 +210,14 @@
     },
     {
       "type": "cue",
-      "id": "djSchool/letsgo2",
+      "id": "*/letsgo2",
       "deprecatedIDs": [],
       "name": "let's go - 2",
       "duration": 1.5
     },
     {
       "type": "cue",
-      "id": "djSchool/ohyeah1",
+      "id": "*/ohyeah1",
       "deprecatedIDs": [
         "djSchool/ohyeah"
       ],
@@ -226,14 +226,14 @@
     },
     {
       "type": "cue",
-      "id": "djSchool/ohyeah2",
+      "id": "*/ohyeah2",
       "deprecatedIDs": [],
       "name": "oh yeah - 2",
       "duration": 1.5
     },
     {
       "type": "cue",
-      "id": "djSchool/ohyeheh1",
+      "id": "*/ohyeheh1",
       "deprecatedIDs": [
         "djSchool/ohyeheh"
       ],
@@ -242,271 +242,271 @@
     },
     {
       "type": "cue",
-      "id": "djSchool/ohyeheh2",
+      "id": "*/ohyeheh2",
       "deprecatedIDs": [],
       "name": "oh yeheh - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "djSchool/ohyeheh3",
+      "id": "*/ohyeheh3",
       "deprecatedIDs": [],
       "name": "oh yeheh - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "djSchool/checkitout1",
+      "id": "*/checkitout1",
       "deprecatedIDs": [],
       "name": "check it out - 1",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "djSchool/checkitout2",
+      "id": "*/checkitout2",
       "deprecatedIDs": [],
       "name": "check it out - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "djSchool/checkitout3",
+      "id": "*/checkitout3",
       "deprecatedIDs": [],
       "name": "check it out - 3",
       "duration": 1.5
     },
     {
       "type": "pattern",
-      "id": "djSchool_stop",
+      "id": "*_stop",
       "deprecatedIDs": [],
       "name": "and stop ooh",
       "cues": [
         {
-          "id": "djSchool/stop1",
+          "id": "*/stop1",
           "beat": 0.0
         },
         {
-          "id": "djSchool/stop2",
+          "id": "*/stop2",
           "beat": 0.5
         },
         {
-          "id": "djSchool/stop3",
+          "id": "*/stop3",
           "beat": 1.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "djSchool_break",
+      "id": "*_break",
       "deprecatedIDs": [],
       "name": "break c'mon ooh",
       "cues": [
         {
-          "id": "djSchool/break1",
+          "id": "*/break1",
           "beat": 0.0
         },
         {
-          "id": "djSchool/break2",
+          "id": "*/break2",
           "beat": 1.0
         },
         {
-          "id": "djSchool/break3",
+          "id": "*/break3",
           "beat": 1.25
         },
         {
-          "id": "djSchool/break4",
+          "id": "*/break4",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "djSchool_breakalt",
+      "id": "*_breakalt",
       "deprecatedIDs": [],
       "name": "break c'mon ooh - alternate",
       "cues": [
         {
-          "id": "djSchool/breakalt1",
+          "id": "*/breakalt1",
           "beat": 0.0
         },
         {
-          "id": "djSchool/breakalt2",
+          "id": "*/breakalt2",
           "beat": 1.0
         },
         {
-          "id": "djSchool/breakalt3",
+          "id": "*/breakalt3",
           "beat": 1.25
         },
         {
-          "id": "djSchool/breakalt4",
+          "id": "*/breakalt4",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "djSchool_breakloud",
+      "id": "*_breakloud",
       "deprecatedIDs": [],
       "name": "break c'mon ooh - loud",
       "cues": [
         {
-          "id": "djSchool/breakloud1",
+          "id": "*/breakloud1",
           "beat": 0.0
         },
         {
-          "id": "djSchool/breakloud2",
+          "id": "*/breakloud2",
           "beat": 1.0
         },
         {
-          "id": "djSchool/breakloud3",
+          "id": "*/breakloud3",
           "beat": 1.25
         },
         {
-          "id": "djSchool/breakloud4",
+          "id": "*/breakloud4",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "djSchool_scratch",
+      "id": "*_scratch",
       "deprecatedIDs": [],
       "name": "scratch-o hey",
       "cues": [
         {
-          "id": "djSchool/scratch1",
+          "id": "*/scratch1",
           "beat": 0.0
         },
         {
-          "id": "djSchool/scratch2",
+          "id": "*/scratch2",
           "beat": 0.5
         },
         {
-          "id": "djSchool/scratch3",
+          "id": "*/scratch3",
           "beat": 1.0
         },
         {
-          "id": "djSchool/scratch4",
+          "id": "*/scratch4",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "djSchool_scratchalt",
+      "id": "*_scratchalt",
       "deprecatedIDs": [],
       "name": "scratch-o hey - alternate",
       "cues": [
         {
-          "id": "djSchool/scratchalt1",
+          "id": "*/scratchalt1",
           "beat": 0.0
         },
         {
-          "id": "djSchool/scratchalt2",
+          "id": "*/scratchalt2",
           "beat": 0.5
         },
         {
-          "id": "djSchool/scratchalt3",
+          "id": "*/scratchalt3",
           "beat": 1.0
         },
         {
-          "id": "djSchool/scratchalt4",
+          "id": "*/scratchalt4",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "djSchool_scratchloud",
+      "id": "*_scratchloud",
       "deprecatedIDs": [],
       "name": "scratch-o hey - loud",
       "cues": [
         {
-          "id": "djSchool/scratchloud1",
+          "id": "*/scratchloud1",
           "beat": 0.0
         },
         {
-          "id": "djSchool/scratchloud2",
+          "id": "*/scratchloud2",
           "beat": 0.5
         },
         {
-          "id": "djSchool/scratchloud3",
+          "id": "*/scratchloud3",
           "beat": 1.0
         },
         {
-          "id": "djSchool/scratchloud4",
+          "id": "*/scratchloud4",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "djSchool_letsgo",
+      "id": "*_letsgo",
       "deprecatedIDs": [],
       "name": "let's go",
       "cues": [
         {
-          "id": "djSchool/letsgo1",
+          "id": "*/letsgo1",
           "beat": 0.0
         },
         {
-          "id": "djSchool/letsgo2",
+          "id": "*/letsgo2",
           "beat": 0.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "djSchool_ohyeah",
+      "id": "*_ohyeah",
       "deprecatedIDs": [],
       "name": "oh yeah",
       "cues": [
         {
-          "id": "djSchool/ohyeah1",
+          "id": "*/ohyeah1",
           "beat": 0.0
         },
         {
-          "id": "djSchool/ohyeah2",
+          "id": "*/ohyeah2",
           "beat": 0.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "djSchool_ohyeheh",
+      "id": "*_ohyeheh",
       "deprecatedIDs": [],
       "name": "oh yeheh",
       "cues": [
         {
-          "id": "djSchool/ohyeheh1",
+          "id": "*/ohyeheh1",
           "beat": 0.0
         },
         {
-          "id": "djSchool/ohyeheh2",
+          "id": "*/ohyeheh2",
           "beat": 0.5
         },
         {
-          "id": "djSchool/ohyeheh3",
+          "id": "*/ohyeheh3",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "djSchool_checkitout",
+      "id": "*_checkitout",
       "deprecatedIDs": [],
       "name": "check it out",
       "cues": [
         {
-          "id": "djSchool/checkitout1",
+          "id": "*/checkitout1",
           "beat": 0.0
         },
         {
-          "id": "djSchool/checkitout2",
+          "id": "*/checkitout2",
           "beat": 0.25
         },
         {
-          "id": "djSchool/checkitout3",
+          "id": "*/checkitout3",
           "beat": 0.5
         }
       ]

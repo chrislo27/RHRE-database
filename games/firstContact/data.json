@@ -8,291 +8,291 @@
   "objects": [
     {
       "type": "randomCue",
-      "id": "firstContact_alien",
+      "id": "*_alien",
       "deprecatedIDs": [],
       "name": "alien speech",
       "cues": [
         {
-          "id": "firstContact/alien1"
+          "id": "*/alien1"
         },
         {
-          "id": "firstContact/alien2"
+          "id": "*/alien2"
         },
         {
-          "id": "firstContact/alien3"
+          "id": "*/alien3"
         },
         {
-          "id": "firstContact/alien4"
+          "id": "*/alien4"
         },
         {
-          "id": "firstContact/alien5"
+          "id": "*/alien5"
         },
         {
-          "id": "firstContact/alien6"
+          "id": "*/alien6"
         }
       ],
       "responseIDs": [
-        "firstContact_translator"
+        "*_translator"
       ]
     },
     {
       "type": "randomCue",
-      "id": "firstContact_translator",
+      "id": "*_translator",
       "deprecatedIDs": [],
       "name": "translator speech",
       "cues": [
         {
-          "id": "firstContact/translator1"
+          "id": "*/translator1"
         },
         {
-          "id": "firstContact/translator2"
+          "id": "*/translator2"
         },
         {
-          "id": "firstContact/translator3"
+          "id": "*/translator3"
         },
         {
-          "id": "firstContact/translator4"
+          "id": "*/translator4"
         },
         {
-          "id": "firstContact/translator5"
+          "id": "*/translator5"
         },
         {
-          "id": "firstContact/translator6"
+          "id": "*/translator6"
         },
         {
-          "id": "firstContact/translator7"
+          "id": "*/translator7"
         },
         {
-          "id": "firstContact/translator8"
+          "id": "*/translator8"
         },
         {
-          "id": "firstContact/translator9"
+          "id": "*/translator9"
         },
         {
-          "id": "firstContact/translator10"
+          "id": "*/translator10"
         }
       ]
     },
     {
       "type": "cue",
-      "id": "firstContact/passover",
+      "id": "*/passover",
       "deprecatedIDs": [],
       "name": "turn passover",
       "duration": 0.5,
       "responseIDs": [
-        "firstContact_success"
+        "*_success"
       ]
     },
     {
       "type": "cue",
-      "id": "firstContact/success1",
+      "id": "*/success1",
       "deprecatedIDs": [],
       "name": "turn success 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "firstContact/success2",
+      "id": "*/success2",
       "deprecatedIDs": [],
       "name": "turn success 2",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "firstContact/alien1",
+      "id": "*/alien1",
       "deprecatedIDs": [],
       "name": "alien - 1",
       "duration": 0.5,
       "responseIDs": [
-        "firstContact/translator1",
-        "firstContact/translator2",
-        "firstContact/translator3",
-        "firstContact/translator4",
-        "firstContact/translator5",
-        "firstContact/translator6",
-        "firstContact/translator7",
-        "firstContact/translator8",
-        "firstContact/translator9",
-        "firstContact/translator10"
+        "*/translator1",
+        "*/translator2",
+        "*/translator3",
+        "*/translator4",
+        "*/translator5",
+        "*/translator6",
+        "*/translator7",
+        "*/translator8",
+        "*/translator9",
+        "*/translator10"
       ]
     },
     {
       "type": "cue",
-      "id": "firstContact/alien2",
+      "id": "*/alien2",
       "deprecatedIDs": [],
       "name": "alien - 2",
       "duration": 0.5,
       "responseIDs": [
-        "firstContact/translator1",
-        "firstContact/translator2",
-        "firstContact/translator3",
-        "firstContact/translator4",
-        "firstContact/translator5",
-        "firstContact/translator6",
-        "firstContact/translator7",
-        "firstContact/translator8",
-        "firstContact/translator9",
-        "firstContact/translator10"
+        "*/translator1",
+        "*/translator2",
+        "*/translator3",
+        "*/translator4",
+        "*/translator5",
+        "*/translator6",
+        "*/translator7",
+        "*/translator8",
+        "*/translator9",
+        "*/translator10"
       ]
     },
     {
       "type": "cue",
-      "id": "firstContact/alien3",
+      "id": "*/alien3",
       "deprecatedIDs": [],
       "name": "alien - 3",
       "duration": 0.5,
       "responseIDs": [
-        "firstContact/translator1",
-        "firstContact/translator2",
-        "firstContact/translator3",
-        "firstContact/translator4",
-        "firstContact/translator5",
-        "firstContact/translator6",
-        "firstContact/translator7",
-        "firstContact/translator8",
-        "firstContact/translator9",
-        "firstContact/translator10"
+        "*/translator1",
+        "*/translator2",
+        "*/translator3",
+        "*/translator4",
+        "*/translator5",
+        "*/translator6",
+        "*/translator7",
+        "*/translator8",
+        "*/translator9",
+        "*/translator10"
       ]
     },
     {
       "type": "cue",
-      "id": "firstContact/alien4",
+      "id": "*/alien4",
       "deprecatedIDs": [],
       "name": "alien - 4",
       "duration": 0.5,
       "responseIDs": [
-        "firstContact/translator1",
-        "firstContact/translator2",
-        "firstContact/translator3",
-        "firstContact/translator4",
-        "firstContact/translator5",
-        "firstContact/translator6",
-        "firstContact/translator7",
-        "firstContact/translator8",
-        "firstContact/translator9",
-        "firstContact/translator10"
+        "*/translator1",
+        "*/translator2",
+        "*/translator3",
+        "*/translator4",
+        "*/translator5",
+        "*/translator6",
+        "*/translator7",
+        "*/translator8",
+        "*/translator9",
+        "*/translator10"
       ]
     },
     {
       "type": "cue",
-      "id": "firstContact/alien5",
+      "id": "*/alien5",
       "deprecatedIDs": [],
       "name": "alien - 5",
       "duration": 0.5,
       "responseIDs": [
-        "firstContact/translator1",
-        "firstContact/translator2",
-        "firstContact/translator3",
-        "firstContact/translator4",
-        "firstContact/translator5",
-        "firstContact/translator6",
-        "firstContact/translator7",
-        "firstContact/translator8",
-        "firstContact/translator9",
-        "firstContact/translator10"
+        "*/translator1",
+        "*/translator2",
+        "*/translator3",
+        "*/translator4",
+        "*/translator5",
+        "*/translator6",
+        "*/translator7",
+        "*/translator8",
+        "*/translator9",
+        "*/translator10"
       ]
     },
     {
       "type": "cue",
-      "id": "firstContact/alien6",
+      "id": "*/alien6",
       "deprecatedIDs": [],
       "name": "alien - 6",
       "duration": 0.5,
       "responseIDs": [
-        "firstContact/translator1",
-        "firstContact/translator2",
-        "firstContact/translator3",
-        "firstContact/translator4",
-        "firstContact/translator5",
-        "firstContact/translator6",
-        "firstContact/translator7",
-        "firstContact/translator8",
-        "firstContact/translator9",
-        "firstContact/translator10"
+        "*/translator1",
+        "*/translator2",
+        "*/translator3",
+        "*/translator4",
+        "*/translator5",
+        "*/translator6",
+        "*/translator7",
+        "*/translator8",
+        "*/translator9",
+        "*/translator10"
       ]
     },
     {
       "type": "cue",
-      "id": "firstContact/translator1",
+      "id": "*/translator1",
       "deprecatedIDs": [],
       "name": "translator - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "firstContact/translator2",
+      "id": "*/translator2",
       "deprecatedIDs": [],
       "name": "translator - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "firstContact/translator3",
+      "id": "*/translator3",
       "deprecatedIDs": [],
       "name": "translator - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "firstContact/translator4",
+      "id": "*/translator4",
       "deprecatedIDs": [],
       "name": "translator - 4",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "firstContact/translator5",
+      "id": "*/translator5",
       "deprecatedIDs": [],
       "name": "translator - 5",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "firstContact/translator6",
+      "id": "*/translator6",
       "deprecatedIDs": [],
       "name": "translator - 6",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "firstContact/translator7",
+      "id": "*/translator7",
       "deprecatedIDs": [],
       "name": "translator - 7",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "firstContact/translator8",
+      "id": "*/translator8",
       "deprecatedIDs": [],
       "name": "translator - 8",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "firstContact/translator9",
+      "id": "*/translator9",
       "deprecatedIDs": [],
       "name": "translator - 9",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "firstContact/translator10",
+      "id": "*/translator10",
       "deprecatedIDs": [],
       "name": "translator - 10",
       "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "firstContact_success",
+      "id": "*_success",
       "deprecatedIDs": [],
       "name": "success",
       "cues": [
         {
-          "id": "firstContact/success1",
+          "id": "*/success1",
           "beat": 0.0
         },
         {
-          "id": "firstContact/success2",
+          "id": "*/success2",
           "beat": 0.5
         }
       ]

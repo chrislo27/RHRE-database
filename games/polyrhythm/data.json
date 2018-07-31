@@ -5,45 +5,45 @@
   "objects": [
     {
       "type": "cue",
-      "id": "polyrhythm/aSpring",
+      "id": "*/aSpring",
       "deprecatedIDs": [
         "polyrhythm/side_a"
       ],
       "name": "spring - A",
       "duration": 0.5,
       "responseIDs": [
-        "polyrhythm/aWidget"
+        "*/aWidget"
       ]
     },
     {
       "type": "cue",
-      "id": "polyrhythm/dPadSpring",
+      "id": "*/dPadSpring",
       "deprecatedIDs": [
         "polyrhythm/side_d"
       ],
       "name": "spring - +",
       "duration": 0.5,
       "responseIDs": [
-        "polyrhythm/dPadWidget"
+        "*/dPadWidget"
       ]
     },
     {
       "type": "cue",
-      "id": "polyrhythm/aWidget",
+      "id": "*/aWidget",
       "deprecatedIDs": [],
       "name": "widget - A",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "polyrhythm/dPadWidget",
+      "id": "*/dPadWidget",
       "deprecatedIDs": [],
       "name": "widget - +",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "polyrhythm/retract",
+      "id": "*/retract",
       "deprecatedIDs": [
         "polyrhythm/enter"
       ],
@@ -52,21 +52,21 @@
     },
     {
       "type": "cue",
-      "id": "polyrhythm/land",
+      "id": "*/land",
       "deprecatedIDs": [],
       "name": "cylinder - landing",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "polyrhythm/disappear",
+      "id": "*/disappear",
       "deprecatedIDs": [],
       "name": "springs - disappearing",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "polyrhythm/clear",
+      "id": "*/clear",
       "deprecatedIDs": [],
       "name": "clear",
       "duration": 4.0

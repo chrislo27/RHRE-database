@@ -7,7 +7,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "boardMeetingEn/startPrepare",
+      "id": "*/startPrepare",
       "deprecatedIDs": [
         "boardMeeting/startPrepare"
       ],
@@ -16,7 +16,7 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingEn/start1",
+      "id": "*/start1",
       "deprecatedIDs": [
         "boardMeeting/start1"
       ],
@@ -25,7 +25,7 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingEn/spin1Loop",
+      "id": "*/spin1Loop",
       "deprecatedIDs": [
         "boardMeeting/spin1Loop"
       ],
@@ -37,7 +37,7 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingEn/start2",
+      "id": "*/start2",
       "deprecatedIDs": [
         "boardMeeting/start2"
       ],
@@ -46,7 +46,7 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingEn/spin2Loop",
+      "id": "*/spin2Loop",
       "deprecatedIDs": [
         "boardMeeting/spin2Loop"
       ],
@@ -58,7 +58,7 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingEn/start3",
+      "id": "*/start3",
       "deprecatedIDs": [
         "boardMeeting/start3"
       ],
@@ -67,7 +67,7 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingEn/spin3Loop",
+      "id": "*/spin3Loop",
       "deprecatedIDs": [
         "boardMeeting/spin3Loop"
       ],
@@ -79,7 +79,7 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingEn/start4",
+      "id": "*/start4",
       "deprecatedIDs": [
         "boardMeeting/start4"
       ],
@@ -88,7 +88,7 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingEn/spin4Loop",
+      "id": "*/spin4Loop",
       "deprecatedIDs": [
         "boardMeeting/spin4Loop"
       ],
@@ -100,7 +100,7 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingEn/stop",
+      "id": "*/stop",
       "deprecatedIDs": [
         "boardMeeting/stop"
       ],
@@ -109,7 +109,7 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingEn/stopPlayer",
+      "id": "*/stopPlayer",
       "deprecatedIDs": [
         "boardMeeting/stopPlayer"
       ],
@@ -118,7 +118,7 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingEn/startTogether",
+      "id": "*/startTogether",
       "deprecatedIDs": [
         "boardMeeting/startTogether"
       ],
@@ -127,7 +127,7 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingEn/spinTogether",
+      "id": "*/spinTogether",
       "deprecatedIDs": [
         "boardMeeting/spin",
         "boardMeeting/spinTogether"
@@ -139,7 +139,7 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingEn/abStop1",
+      "id": "*/abStop1",
       "deprecatedIDs": [
         "boardMeeting/abStop1"
       ],
@@ -148,7 +148,7 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingEn/abStop2",
+      "id": "*/abStop2",
       "deprecatedIDs": [
         "boardMeeting/abStop2"
       ],
@@ -157,7 +157,7 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingEn/abStop3",
+      "id": "*/abStop3",
       "deprecatedIDs": [
         "boardMeeting/abStop3"
       ],
@@ -166,7 +166,7 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingEn/abStop4",
+      "id": "*/abStop4",
       "deprecatedIDs": [
         "boardMeeting/abStop4"
       ],
@@ -175,26 +175,26 @@
     },
     {
       "type": "pattern",
-      "id": "boardMeetingEn_assistant",
+      "id": "*_assistant",
       "deprecatedIDs": [
         "boardMeeting_assistant"
       ],
       "name": "assistant - stop",
       "cues": [
         {
-          "id": "boardMeetingEn/abStop1",
+          "id": "*/abStop1",
           "beat": 0.0
         },
         {
-          "id": "boardMeetingEn/abStop2",
+          "id": "*/abStop2",
           "beat": 0.66667
         },
         {
-          "id": "boardMeetingEn/abStop3",
+          "id": "*/abStop3",
           "beat": 1.0
         },
         {
-          "id": "boardMeetingEn/abStop4",
+          "id": "*/abStop4",
           "beat": 2.0
         }
       ]

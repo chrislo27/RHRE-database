@@ -5,7 +5,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "spaceballMegamix/alien",
+      "id": "*/alien",
       "deprecatedIDs": [
         "spaceball/alien"
       ],
@@ -14,53 +14,53 @@
     },
     {
       "type": "cue",
-      "id": "spaceballMegamix/shoot",
+      "id": "*/shoot",
       "deprecatedIDs": [],
       "name": "shoot",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "spaceballMegamix/longShoot",
+      "id": "*/longShoot",
       "deprecatedIDs": [],
       "name": "high shot",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "spaceballMegamix/hit",
+      "id": "*/hit",
       "deprecatedIDs": [],
       "name": "hit",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "spaceballMegamix_ball",
+      "id": "*_ball",
       "deprecatedIDs": [],
       "name": "ball",
       "cues": [
         {
-          "id": "spaceballMegamix/shoot",
+          "id": "*/shoot",
           "beat": 0.0
         },
         {
-          "id": "spaceballMegamix/hit",
+          "id": "*/hit",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "spaceballMegamix_highball",
+      "id": "*_highball",
       "deprecatedIDs": [],
       "name": "high ball",
       "cues": [
         {
-          "id": "spaceballMegamix/longShoot",
+          "id": "*/longShoot",
           "beat": 0.0
         },
         {
-          "id": "spaceballMegamix/hit",
+          "id": "*/hit",
           "beat": 2.0
         }
       ]

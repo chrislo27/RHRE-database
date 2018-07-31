@@ -5,70 +5,70 @@
   "objects": [
     {
       "type": "cue",
-      "id": "metronome/ok",
+      "id": "*/ok",
       "deprecatedIDs": [],
       "name": "OK!",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "metronome/okLastFour",
+      "id": "*/okLastFour",
       "deprecatedIDs": [],
       "name": "OK! (last four)",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "metronome/clear",
+      "id": "*/clear",
       "deprecatedIDs": [],
       "name": "clear",
       "duration": 1.0
     },
     {
       "type": "keepTheBeat",
-      "id": "metronome_ok",
+      "id": "*_ok",
       "deprecatedIDs": [],
       "name": "OK!",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "metronome/ok",
+          "id": "*/ok",
           "beat": 0.0
         },
         {
-          "id": "metronome/ok",
+          "id": "*/ok",
           "beat": 1.0
         },
         {
-          "id": "metronome/ok",
+          "id": "*/ok",
           "beat": 2.0
         },
         {
-          "id": "metronome/ok",
+          "id": "*/ok",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "metronome_okLastFour",
+      "id": "*_okLastFour",
       "deprecatedIDs": [],
       "name": "OK! (last four)",
       "cues": [
         {
-          "id": "metronome/okLastFour",
+          "id": "*/okLastFour",
           "beat": 0.0
         },
         {
-          "id": "metronome/okLastFour",
+          "id": "*/okLastFour",
           "beat": 1.0
         },
         {
-          "id": "metronome/okLastFour",
+          "id": "*/okLastFour",
           "beat": 2.0
         },
         {
-          "id": "metronome/clear",
+          "id": "*/clear",
           "beat": 3.0
         }
       ]

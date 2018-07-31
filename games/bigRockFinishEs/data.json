@@ -6,35 +6,35 @@
   "objects": [
     {
       "type": "cue",
-      "id": "bigRockFinishEs/uno",
+      "id": "*/uno",
       "deprecatedIDs": [],
       "name": "count in - uno",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "bigRockFinishEs/dos",
+      "id": "*/dos",
       "deprecatedIDs": [],
       "name": "count in - dos",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "bigRockFinishEs/tres",
+      "id": "*/tres",
       "deprecatedIDs": [],
       "name": "count in - tres",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "bigRockFinishEs/y",
+      "id": "*/y",
       "deprecatedIDs": [],
       "name": "count in - y",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "bigRockFinishEs/strum",
+      "id": "*/strum",
       "deprecatedIDs": [],
       "name": "ghost - strum - F (1st)",
       "duration": 1.0,
@@ -42,7 +42,7 @@
     },
     {
       "type": "cue",
-      "id": "bigRockFinishEs/strumFinal",
+      "id": "*/strumFinal",
       "deprecatedIDs": [],
       "name": "ghost - last strum - G (1st)",
       "duration": 2.0,
@@ -50,114 +50,114 @@
     },
     {
       "type": "cue",
-      "id": "bigRockFinishEs/yeah",
+      "id": "*/yeah",
       "deprecatedIDs": [],
       "name": "yeah",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "bigRockFinishEs/yeahFinal",
+      "id": "*/yeahFinal",
       "deprecatedIDs": [],
       "name": "last yeah",
       "duration": 2.0
     },
     {
       "type": "pattern",
-      "id": "bigRockFinishEs_countIn8",
+      "id": "*_countIn8",
       "deprecatedIDs": [],
       "name": "count in - 8 beats",
       "cues": [
         {
-          "id": "bigRockFinishEs/uno",
+          "id": "*/uno",
           "beat": 0.0
         },
         {
-          "id": "bigRockFinishEs/dos",
+          "id": "*/dos",
           "beat": 2.0
         },
         {
-          "id": "bigRockFinishEs/uno",
+          "id": "*/uno",
           "beat": 4.0
         },
         {
-          "id": "bigRockFinishEs/dos",
+          "id": "*/dos",
           "beat": 5.0
         },
         {
-          "id": "bigRockFinishEs/tres",
+          "id": "*/tres",
           "beat": 6.0
         },
         {
-          "id": "bigRockFinishEs/y",
+          "id": "*/y",
           "beat": 7.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "bigRockFinishEs_countIn4",
+      "id": "*_countIn4",
       "deprecatedIDs": [],
       "name": "count in - 4 beats",
       "cues": [
         {
-          "id": "bigRockFinishEs/uno",
+          "id": "*/uno",
           "beat": 0.0
         },
         {
-          "id": "bigRockFinishEs/dos",
+          "id": "*/dos",
           "beat": 1.0
         },
         {
-          "id": "bigRockFinishEs/tres",
+          "id": "*/tres",
           "beat": 2.0
         },
         {
-          "id": "bigRockFinishEs/y",
+          "id": "*/y",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "bigRockFinishEs_strum",
+      "id": "*_strum",
       "deprecatedIDs": [],
       "name": "strum - F (1st) to G (1st)",
       "stretchable": true,
       "cues": [
         {
-          "id": "bigRockFinishEs/strum",
+          "id": "*/strum",
           "beat": 0.0
         },
         {
-          "id": "bigRockFinishEs/yeah",
+          "id": "*/yeah",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "bigRockFinishEs/strum",
+          "id": "*/strum",
           "beat": 1.5
         },
         {
-          "id": "bigRockFinishEs/yeah",
+          "id": "*/yeah",
           "beat": 1.5,
           "track": 1
         },
         {
-          "id": "bigRockFinishEs/strum",
+          "id": "*/strum",
           "beat": 3.0
         },
         {
-          "id": "bigRockFinishEs/yeah",
+          "id": "*/yeah",
           "beat": 3.0,
           "track": 1
         },
         {
-          "id": "bigRockFinishEs/strumFinal",
+          "id": "*/strumFinal",
           "beat": 4.0
         },
         {
-          "id": "bigRockFinishEs/yeahFinal",
+          "id": "*/yeahFinal",
           "beat": 4.0,
           "track": 1
         }

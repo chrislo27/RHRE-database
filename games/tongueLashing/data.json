@@ -6,84 +6,84 @@
   "objects": [
     {
       "type": "cue",
-      "id": "tongueLashing/three",
+      "id": "*/three",
       "deprecatedIDs": [],
       "name": "yellow bug - appear",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "tongueLashing/red",
+      "id": "*/red",
       "deprecatedIDs": [],
       "name": "red bug - appear",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "tongueLashing/whip",
+      "id": "*/whip",
       "deprecatedIDs": [],
       "name": "whip lash",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "tongueLashing/gulp4",
+      "id": "*/gulp4",
       "deprecatedIDs": [],
       "name": "gulp - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "tongueLashing/gulp",
+      "id": "*/gulp",
       "deprecatedIDs": [],
       "name": "gulp - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "tongueLashing/swallow",
+      "id": "*/swallow",
       "deprecatedIDs": [],
       "name": "swallow",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "tongueLashing/yes",
+      "id": "*/yes",
       "deprecatedIDs": [],
       "name": "guy - victory - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "tongueLashing/laughter",
+      "id": "*/laughter",
       "deprecatedIDs": [],
       "name": "guy - victory - 2",
       "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "tongueLashing_yellowbuglong",
+      "id": "*_yellowbuglong",
       "deprecatedIDs": [],
       "name": "long yellow bug",
       "cues": [
         {
-          "id": "tongueLashing/three",
+          "id": "*/three",
           "beat": 0.0
         },
         {
-          "id": "tongueLashing/whip",
+          "id": "*/whip",
           "beat": 2.0
         },
         {
-          "id": "tongueLashing/gulp4",
+          "id": "*/gulp4",
           "beat": 2.5
         },
         {
-          "id": "tongueLashing/gulp",
+          "id": "*/gulp",
           "beat": 3.0
         },
         {
-          "id": "tongueLashing/swallow",
+          "id": "*/swallow",
           "beat": 3.0,
           "track": 1
         }
@@ -91,24 +91,24 @@
     },
     {
       "type": "pattern",
-      "id": "tongueLashing_yellowbugshort",
+      "id": "*_yellowbugshort",
       "deprecatedIDs": [],
       "name": "short yellow bug",
       "cues": [
         {
-          "id": "tongueLashing/three",
+          "id": "*/three",
           "beat": 0.0
         },
         {
-          "id": "tongueLashing/whip",
+          "id": "*/whip",
           "beat": 2.0
         },
         {
-          "id": "tongueLashing/gulp",
+          "id": "*/gulp",
           "beat": 2.5
         },
         {
-          "id": "tongueLashing/swallow",
+          "id": "*/swallow",
           "beat": 2.5,
           "track": 1
         }
@@ -116,28 +116,28 @@
     },
     {
       "type": "pattern",
-      "id": "tongueLashing_redbuglong",
+      "id": "*_redbuglong",
       "deprecatedIDs": [],
       "name": "long red bug",
       "cues": [
         {
-          "id": "tongueLashing/red",
+          "id": "*/red",
           "beat": 0.0
         },
         {
-          "id": "tongueLashing/whip",
+          "id": "*/whip",
           "beat": 3.0
         },
         {
-          "id": "tongueLashing/gulp4",
+          "id": "*/gulp4",
           "beat": 3.5
         },
         {
-          "id": "tongueLashing/gulp",
+          "id": "*/gulp",
           "beat": 4.0
         },
         {
-          "id": "tongueLashing/swallow",
+          "id": "*/swallow",
           "beat": 4.0,
           "track": 1
         }
@@ -145,24 +145,24 @@
     },
     {
       "type": "pattern",
-      "id": "tongueLashing_redbugshort",
+      "id": "*_redbugshort",
       "deprecatedIDs": [],
       "name": "short red bug",
       "cues": [
         {
-          "id": "tongueLashing/red",
+          "id": "*/red",
           "beat": 0.0
         },
         {
-          "id": "tongueLashing/whip",
+          "id": "*/whip",
           "beat": 3.0
         },
         {
-          "id": "tongueLashing/gulp",
+          "id": "*/gulp",
           "beat": 3.5
         },
         {
-          "id": "tongueLashing/swallow",
+          "id": "*/swallow",
           "beat": 3.5,
           "track": 1
         }
@@ -170,58 +170,58 @@
     },
     {
       "type": "pattern",
-      "id": "tongueLashing_redbugshortyes",
+      "id": "*_redbugshortyes",
       "deprecatedIDs": [],
       "name": "short red bug yes",
       "cues": [
         {
-          "id": "tongueLashing/red",
+          "id": "*/red",
           "beat": 0.0
         },
         {
-          "id": "tongueLashing/whip",
+          "id": "*/whip",
           "beat": 3.0
         },
         {
-          "id": "tongueLashing/gulp",
+          "id": "*/gulp",
           "beat": 3.5
         },
         {
-          "id": "tongueLashing/swallow",
+          "id": "*/swallow",
           "beat": 3.5,
           "track": 1
         },
         {
-          "id": "tongueLashing/yes",
+          "id": "*/yes",
           "beat": 4.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "tongueLashing_redbugshortlaughing",
+      "id": "*_redbugshortlaughing",
       "deprecatedIDs": [],
       "name": "short red bug laugh",
       "cues": [
         {
-          "id": "tongueLashing/red",
+          "id": "*/red",
           "beat": 0.0
         },
         {
-          "id": "tongueLashing/whip",
+          "id": "*/whip",
           "beat": 3.0
         },
         {
-          "id": "tongueLashing/gulp",
+          "id": "*/gulp",
           "beat": 3.5
         },
         {
-          "id": "tongueLashing/swallow",
+          "id": "*/swallow",
           "beat": 3.5,
           "track": 1
         },
         {
-          "id": "tongueLashing/laughter",
+          "id": "*/laughter",
           "beat": 4.0
         }
       ]

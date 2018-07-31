@@ -6,42 +6,42 @@
   "objects": [
     {
       "type": "cue",
-      "id": "sumoBrothers/slapsignal",
+      "id": "*/slapsignal",
       "deprecatedIDs": [],
       "name": "slap signal",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "sumoBrothers/slap",
+      "id": "*/slap",
       "deprecatedIDs": [],
       "name": "slap",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "sumoBrothers/stompsignal",
+      "id": "*/stompsignal",
       "deprecatedIDs": [],
       "name": "stomp signal",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "sumoBrothers/stomp",
+      "id": "*/stomp",
       "deprecatedIDs": [],
       "name": "stomp",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "sumoBrothers/posesignalBegin",
+      "id": "*/posesignalBegin",
       "deprecatedIDs": [],
       "name": "sumoBrothers/posesignalBegin",
       "duration": 1.0E-4
     },
     {
       "type": "cue",
-      "id": "sumoBrothers/posesignalLoop",
+      "id": "*/posesignalLoop",
       "deprecatedIDs": [
         "sumoBrothers/posesignal"
       ],
@@ -52,105 +52,105 @@
     },
     {
       "type": "cue",
-      "id": "sumoBrothers/pose",
+      "id": "*/pose",
       "deprecatedIDs": [],
       "name": "pose",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "sumoBrothers_stompsignal",
+      "id": "*_stompsignal",
       "deprecatedIDs": [],
       "name": "stomp signal",
       "cues": [
         {
-          "id": "sumoBrothers/stompsignal",
+          "id": "*/stompsignal",
           "beat": 0.0
         },
         {
-          "id": "sumoBrothers/stompsignal",
+          "id": "*/stompsignal",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "keepTheBeat",
-      "id": "sumoBrothers_stomp",
+      "id": "*_stomp",
       "deprecatedIDs": [],
       "name": "stomping",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "sumoBrothers/stomp",
+          "id": "*/stomp",
           "beat": 0.0
         },
         {
-          "id": "sumoBrothers/stomp",
+          "id": "*/stomp",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "sumoBrothers_slapsignal",
+      "id": "*_slapsignal",
       "deprecatedIDs": [],
       "name": "slap signal",
       "cues": [
         {
-          "id": "sumoBrothers/slapsignal",
+          "id": "*/slapsignal",
           "beat": 0.0
         },
         {
-          "id": "sumoBrothers/slapsignal",
+          "id": "*/slapsignal",
           "beat": 1.0
         },
         {
-          "id": "sumoBrothers/slapsignal",
+          "id": "*/slapsignal",
           "beat": 2.0
         },
         {
-          "id": "sumoBrothers/slapsignal",
+          "id": "*/slapsignal",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "keepTheBeat",
-      "id": "sumoBrothers_slap",
+      "id": "*_slap",
       "deprecatedIDs": [],
       "name": "slapping",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "sumoBrothers/slap",
+          "id": "*/slap",
           "beat": 0.0
         },
         {
-          "id": "sumoBrothers/slap",
+          "id": "*/slap",
           "beat": 1.0
         },
         {
-          "id": "sumoBrothers/slap",
+          "id": "*/slap",
           "beat": 2.0
         },
         {
-          "id": "sumoBrothers/slap",
+          "id": "*/slap",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "sumoBrothers_pose",
+      "id": "*_pose",
       "deprecatedIDs": [],
       "name": "pose",
       "cues": [
         {
-          "id": "sumoBrothers/posesignalLoop",
+          "id": "*/posesignalLoop",
           "beat": 0.0
         },
         {
-          "id": "sumoBrothers/pose",
+          "id": "*/pose",
           "beat": 4.0
         }
       ]

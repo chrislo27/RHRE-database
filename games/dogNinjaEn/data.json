@@ -7,7 +7,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "dogNinjaEn/fruit1",
+      "id": "*/fruit1",
       "deprecatedIDs": [
         "dogNinja/fruit1"
       ],
@@ -16,7 +16,7 @@
     },
     {
       "type": "cue",
-      "id": "dogNinjaEn/fruit2",
+      "id": "*/fruit2",
       "deprecatedIDs": [
         "dogNinja/fruit2"
       ],
@@ -25,7 +25,7 @@
     },
     {
       "type": "cue",
-      "id": "dogNinjaEn/bone1",
+      "id": "*/bone1",
       "deprecatedIDs": [
         "dogNinja/bone1"
       ],
@@ -34,7 +34,7 @@
     },
     {
       "type": "cue",
-      "id": "dogNinjaEn/bone2",
+      "id": "*/bone2",
       "deprecatedIDs": [
         "dogNinja/bone2"
       ],
@@ -43,7 +43,7 @@
     },
     {
       "type": "cue",
-      "id": "dogNinjaEn/tire1",
+      "id": "*/tire1",
       "deprecatedIDs": [
         "dogNinja/tire1"
       ],
@@ -52,7 +52,7 @@
     },
     {
       "type": "cue",
-      "id": "dogNinjaEn/tire2",
+      "id": "*/tire2",
       "deprecatedIDs": [
         "dogNinja/tire2"
       ],
@@ -61,7 +61,7 @@
     },
     {
       "type": "cue",
-      "id": "dogNinjaEn/pan1",
+      "id": "*/pan1",
       "deprecatedIDs": [
         "dogNinja/pan1"
       ],
@@ -70,7 +70,7 @@
     },
     {
       "type": "cue",
-      "id": "dogNinjaEn/pan2",
+      "id": "*/pan2",
       "deprecatedIDs": [
         "dogNinja/pan2"
       ],
@@ -79,7 +79,7 @@
     },
     {
       "type": "cue",
-      "id": "dogNinjaEn/sign",
+      "id": "*/sign",
       "deprecatedIDs": [
         "dogNinja/sign"
       ],
@@ -88,113 +88,113 @@
     },
     {
       "type": "cue",
-      "id": "dogNinjaEn/hereWeGo1",
+      "id": "*/hereWeGo1",
       "deprecatedIDs": [],
       "name": "here we go - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "dogNinjaEn/hereWeGo2",
+      "id": "*/hereWeGo2",
       "deprecatedIDs": [],
       "name": "here we go - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "dogNinjaEn/hereWeGo3",
+      "id": "*/hereWeGo3",
       "deprecatedIDs": [],
       "name": "here we go - 3",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "dogNinjaEn_fruit",
+      "id": "*_fruit",
       "deprecatedIDs": [
         "dogNinja_fruit"
       ],
       "name": "fruit",
       "cues": [
         {
-          "id": "dogNinjaEn/fruit1",
+          "id": "*/fruit1",
           "beat": 0.0
         },
         {
-          "id": "dogNinjaEn/fruit2",
+          "id": "*/fruit2",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "dogNinjaEn_bone",
+      "id": "*_bone",
       "deprecatedIDs": [
         "dogNinja_bone"
       ],
       "name": "bone",
       "cues": [
         {
-          "id": "dogNinjaEn/bone1",
+          "id": "*/bone1",
           "beat": 0.0
         },
         {
-          "id": "dogNinjaEn/bone2",
+          "id": "*/bone2",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "dogNinjaEn_tire",
+      "id": "*_tire",
       "deprecatedIDs": [
         "dogNinja_tire"
       ],
       "name": "tire",
       "cues": [
         {
-          "id": "dogNinjaEn/tire1",
+          "id": "*/tire1",
           "beat": 0.0
         },
         {
-          "id": "dogNinjaEn/tire2",
+          "id": "*/tire2",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "dogNinjaEn_pan",
+      "id": "*_pan",
       "deprecatedIDs": [
         "dogNinja_pan"
       ],
       "name": "pan",
       "cues": [
         {
-          "id": "dogNinjaEn/pan1",
+          "id": "*/pan1",
           "beat": 0.0
         },
         {
-          "id": "dogNinjaEn/pan2",
+          "id": "*/pan2",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "dogNinjaEn_hereWeGo",
+      "id": "*_hereWeGo",
       "deprecatedIDs": [],
       "name": "here we go",
       "cues": [
         {
-          "id": "dogNinjaEn/hereWeGo1",
+          "id": "*/hereWeGo1",
           "beat": 0.0
         },
         {
-          "id": "dogNinjaEn/hereWeGo2",
+          "id": "*/hereWeGo2",
           "beat": 0.5
         },
         {
-          "id": "dogNinjaEn/hereWeGo3",
+          "id": "*/hereWeGo3",
           "beat": 1.0
         }
       ]

@@ -5,41 +5,41 @@
   "objects": [
     {
       "type": "cue",
-      "id": "rhythmTweezersGba/appear",
+      "id": "*/appear",
       "deprecatedIDs": [],
       "name": "hair - appear",
       "duration": 0.25,
       "responseIDs": [
-        "rhythmTweezersGba/pluck"
+        "*/pluck"
       ]
     },
     {
       "type": "cue",
-      "id": "rhythmTweezersGba/longAppear",
+      "id": "*/longAppear",
       "deprecatedIDs": [],
       "name": "long hair - appear",
       "duration": 1.0,
       "responseIDs": [
-        "rhythmTweezersGba/aaa"
+        "*/aaa"
       ]
     },
     {
       "type": "cue",
-      "id": "rhythmTweezersGba/pluck",
+      "id": "*/pluck",
       "deprecatedIDs": [],
       "name": "hair - pluck",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rhythmTweezersGba/gr",
+      "id": "*/gr",
       "deprecatedIDs": [],
       "name": "rhythmTweezersGba/gr",
       "duration": 1.0E-6
     },
     {
       "type": "cue",
-      "id": "rhythmTweezersGba/aaa",
+      "id": "*/aaa",
       "deprecatedIDs": [],
       "name": "long hair - pluck",
       "introSound": "rhythmTweezersGba/gr",
@@ -48,14 +48,14 @@
     },
     {
       "type": "cue",
-      "id": "rhythmTweezersGba/b",
+      "id": "*/b",
       "deprecatedIDs": [],
       "name": "long hair - pluck - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rhythmTweezersGba/cashier",
+      "id": "*/cashier",
       "deprecatedIDs": [],
       "name": "cashier",
       "duration": 1.0

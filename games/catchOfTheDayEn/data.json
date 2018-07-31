@@ -7,7 +7,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "catchOfTheDayEn/quick1",
+      "id": "*/quick1",
       "deprecatedIDs": [
         "catchOfTheDay/quick1"
       ],
@@ -16,7 +16,7 @@
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayEn/quick2",
+      "id": "*/quick2",
       "deprecatedIDs": [
         "catchOfTheDay/quick2"
       ],
@@ -25,7 +25,7 @@
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayEn/quick3",
+      "id": "*/quick3",
       "deprecatedIDs": [
         "catchOfTheDay/quick3"
       ],
@@ -34,7 +34,7 @@
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayEn/pausegill1",
+      "id": "*/pausegill1",
       "deprecatedIDs": [
         "catchOfTheDay/pausegill1"
       ],
@@ -43,7 +43,7 @@
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayEn/pausegill2",
+      "id": "*/pausegill2",
       "deprecatedIDs": [
         "catchOfTheDay/pausegill2"
       ],
@@ -52,7 +52,7 @@
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayEn/pausegill3",
+      "id": "*/pausegill3",
       "deprecatedIDs": [
         "catchOfTheDay/pausegill3"
       ],
@@ -61,7 +61,7 @@
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayEn/pausegill4",
+      "id": "*/pausegill4",
       "deprecatedIDs": [
         "catchOfTheDay/pausegill4"
       ],
@@ -70,7 +70,7 @@
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayEn/threefish1",
+      "id": "*/threefish1",
       "deprecatedIDs": [
         "catchOfTheDay/threefish1"
       ],
@@ -79,7 +79,7 @@
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayEn/threefish2",
+      "id": "*/threefish2",
       "deprecatedIDs": [
         "catchOfTheDay/threefish2"
       ],
@@ -88,7 +88,7 @@
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayEn/threefish3",
+      "id": "*/threefish3",
       "deprecatedIDs": [
         "catchOfTheDay/threefish3"
       ],
@@ -97,7 +97,7 @@
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayEn/threefish4",
+      "id": "*/threefish4",
       "deprecatedIDs": [
         "catchOfTheDay/threefish4"
       ],
@@ -106,7 +106,7 @@
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayEn/threefish5",
+      "id": "*/threefish5",
       "deprecatedIDs": [
         "catchOfTheDay/threefish5"
       ],
@@ -115,78 +115,78 @@
     },
     {
       "type": "pattern",
-      "id": "catchOfTheDayEn_quicknibble",
+      "id": "*_quicknibble",
       "deprecatedIDs": [
         "catchOfTheDay_quicknibble"
       ],
       "name": "quicknibble",
       "cues": [
         {
-          "id": "catchOfTheDayEn/quick1",
+          "id": "*/quick1",
           "beat": 0.0
         },
         {
-          "id": "catchOfTheDayEn/quick2",
+          "id": "*/quick2",
           "beat": 1.0
         },
         {
-          "id": "catchOfTheDayEn/quick3",
+          "id": "*/quick3",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "catchOfTheDayEn_pausegill",
+      "id": "*_pausegill",
       "deprecatedIDs": [
         "catchOfTheDay_pausegill"
       ],
       "name": "pausegill",
       "cues": [
         {
-          "id": "catchOfTheDayEn/pausegill1",
+          "id": "*/pausegill1",
           "beat": 0.0
         },
         {
-          "id": "catchOfTheDayEn/pausegill2",
+          "id": "*/pausegill2",
           "beat": 0.5
         },
         {
-          "id": "catchOfTheDayEn/pausegill3",
+          "id": "*/pausegill3",
           "beat": 1.0
         },
         {
-          "id": "catchOfTheDayEn/pausegill4",
+          "id": "*/pausegill4",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "catchOfTheDayEn_threefish",
+      "id": "*_threefish",
       "deprecatedIDs": [
         "catchOfTheDay_threefish"
       ],
       "name": "threefish",
       "cues": [
         {
-          "id": "catchOfTheDayEn/threefish1",
+          "id": "*/threefish1",
           "beat": 0.0
         },
         {
-          "id": "catchOfTheDayEn/threefish2",
+          "id": "*/threefish2",
           "beat": 0.25
         },
         {
-          "id": "catchOfTheDayEn/threefish3",
+          "id": "*/threefish3",
           "beat": 0.5
         },
         {
-          "id": "catchOfTheDayEn/threefish4",
+          "id": "*/threefish4",
           "beat": 1.0
         },
         {
-          "id": "catchOfTheDayEn/threefish5",
+          "id": "*/threefish5",
           "beat": 4.5
         }
       ]

@@ -5,14 +5,14 @@
   "objects": [
     {
       "type": "cue",
-      "id": "bonOdori/clap",
+      "id": "*/clap",
       "deprecatedIDs": [],
       "name": "clap",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "bonOdori/don1",
+      "id": "*/don1",
       "deprecatedIDs": [
         "bonOdori/dondon1"
       ],
@@ -22,7 +22,7 @@
     },
     {
       "type": "cue",
-      "id": "bonOdori/don2",
+      "id": "*/don2",
       "deprecatedIDs": [
         "bonOdori/dondon2"
       ],
@@ -32,7 +32,7 @@
     },
     {
       "type": "cue",
-      "id": "bonOdori/don3",
+      "id": "*/don3",
       "deprecatedIDs": [],
       "name": "don - 3",
       "duration": 1.0,
@@ -40,7 +40,7 @@
     },
     {
       "type": "cue",
-      "id": "bonOdori/don4",
+      "id": "*/don4",
       "deprecatedIDs": [],
       "name": "don - 4",
       "duration": 1.0,
@@ -48,7 +48,7 @@
     },
     {
       "type": "cue",
-      "id": "bonOdori/dondo1",
+      "id": "*/dondo1",
       "deprecatedIDs": [],
       "name": "dondo - 1",
       "duration": 0.6667,
@@ -56,7 +56,7 @@
     },
     {
       "type": "cue",
-      "id": "bonOdori/do1",
+      "id": "*/do1",
       "deprecatedIDs": [],
       "name": "do - 1",
       "duration": 0.333,
@@ -64,7 +64,7 @@
     },
     {
       "type": "cue",
-      "id": "bonOdori/dondo2",
+      "id": "*/dondo2",
       "deprecatedIDs": [],
       "name": "dondo - 2",
       "duration": 0.6667,
@@ -72,7 +72,7 @@
     },
     {
       "type": "cue",
-      "id": "bonOdori/do2",
+      "id": "*/do2",
       "deprecatedIDs": [],
       "name": "do - 2",
       "duration": 0.333,
@@ -80,7 +80,7 @@
     },
     {
       "type": "cue",
-      "id": "bonOdori/pan1",
+      "id": "*/pan1",
       "deprecatedIDs": [
         "bonOdori/pan",
         "bonOdori/panpan1"
@@ -91,7 +91,7 @@
     },
     {
       "type": "cue",
-      "id": "bonOdori/pan2",
+      "id": "*/pan2",
       "deprecatedIDs": [
         "bonOdori/panpan2"
       ],
@@ -101,7 +101,7 @@
     },
     {
       "type": "cue",
-      "id": "bonOdori/pan3",
+      "id": "*/pan3",
       "deprecatedIDs": [],
       "name": "pan - 3",
       "duration": 1.0,
@@ -109,7 +109,7 @@
     },
     {
       "type": "cue",
-      "id": "bonOdori/pan4",
+      "id": "*/pan4",
       "deprecatedIDs": [],
       "name": "pan - 4",
       "duration": 1.0,
@@ -117,7 +117,7 @@
     },
     {
       "type": "cue",
-      "id": "bonOdori/panpa",
+      "id": "*/panpa",
       "deprecatedIDs": [],
       "name": "panpa",
       "duration": 0.6667,
@@ -125,7 +125,7 @@
     },
     {
       "type": "cue",
-      "id": "bonOdori/pa",
+      "id": "*/pa",
       "deprecatedIDs": [],
       "name": "pa",
       "duration": 0.333,
@@ -133,33 +133,33 @@
     },
     {
       "type": "pattern",
-      "id": "bonOdori_donDonPanPan",
+      "id": "*_donDonPanPan",
       "deprecatedIDs": [],
       "name": "[#40b722]don don[] [YELLOW]pan pan[]",
       "cues": [
         {
-          "id": "bonOdori/don1",
+          "id": "*/don1",
           "beat": 0.0
         },
         {
-          "id": "bonOdori/don2",
+          "id": "*/don2",
           "beat": 1.0
         },
         {
-          "id": "bonOdori/pan1",
+          "id": "*/pan1",
           "beat": 2.0
         },
         {
-          "id": "bonOdori/clap",
+          "id": "*/clap",
           "beat": 2.0,
           "track": 1
         },
         {
-          "id": "bonOdori/pan2",
+          "id": "*/pan2",
           "beat": 3.0
         },
         {
-          "id": "bonOdori/clap",
+          "id": "*/clap",
           "beat": 3.0,
           "track": 1
         }
@@ -167,33 +167,33 @@
     },
     {
       "type": "pattern",
-      "id": "bonOdori_dondoPanPan",
+      "id": "*_dondoPanPan",
       "deprecatedIDs": [],
       "name": "[#40b722]dondo[] [YELLOW]pan pan[]",
       "cues": [
         {
-          "id": "bonOdori/dondo1",
+          "id": "*/dondo1",
           "beat": 0.0
         },
         {
-          "id": "bonOdori/do1",
+          "id": "*/do1",
           "beat": 0.667
         },
         {
-          "id": "bonOdori/pan3",
+          "id": "*/pan3",
           "beat": 1.0
         },
         {
-          "id": "bonOdori/clap",
+          "id": "*/clap",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "bonOdori/pan3",
+          "id": "*/pan3",
           "beat": 2.0
         },
         {
-          "id": "bonOdori/clap",
+          "id": "*/clap",
           "beat": 2.0,
           "track": 1
         }
@@ -201,33 +201,33 @@
     },
     {
       "type": "pattern",
-      "id": "bonOdori_dondoPanpa",
+      "id": "*_dondoPanpa",
       "deprecatedIDs": [],
       "name": "[#40b722]dondo[] [YELLOW]panpa[]",
       "cues": [
         {
-          "id": "bonOdori/dondo2",
+          "id": "*/dondo2",
           "beat": 0.0
         },
         {
-          "id": "bonOdori/do2",
+          "id": "*/do2",
           "beat": 0.667
         },
         {
-          "id": "bonOdori/panpa",
+          "id": "*/panpa",
           "beat": 1.0
         },
         {
-          "id": "bonOdori/clap",
+          "id": "*/clap",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "bonOdori/pa",
+          "id": "*/pa",
           "beat": 1.667
         },
         {
-          "id": "bonOdori/clap",
+          "id": "*/clap",
           "beat": 1.667,
           "duration": 0.333,
           "track": 1
@@ -236,24 +236,24 @@
     },
     {
       "type": "pattern",
-      "id": "bonOdori_donDonPan",
+      "id": "*_donDonPan",
       "deprecatedIDs": [],
       "name": "[#40b722]don don[] [YELLOW]pan[]",
       "cues": [
         {
-          "id": "bonOdori/don4",
+          "id": "*/don4",
           "beat": 0.0
         },
         {
-          "id": "bonOdori/don4",
+          "id": "*/don4",
           "beat": 1.0
         },
         {
-          "id": "bonOdori/pan4",
+          "id": "*/pan4",
           "beat": 2.0
         },
         {
-          "id": "bonOdori/clap",
+          "id": "*/clap",
           "beat": 2.0,
           "track": 1
         }
@@ -261,29 +261,29 @@
     },
     {
       "type": "pattern",
-      "id": "bonOdori_donPanPan",
+      "id": "*_donPanPan",
       "deprecatedIDs": [],
       "name": "[#40b722]don[] [YELLOW]pan pan[]",
       "cues": [
         {
-          "id": "bonOdori/don3",
+          "id": "*/don3",
           "beat": 0.0
         },
         {
-          "id": "bonOdori/pan3",
+          "id": "*/pan3",
           "beat": 1.0
         },
         {
-          "id": "bonOdori/clap",
+          "id": "*/clap",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "bonOdori/pan3",
+          "id": "*/pan3",
           "beat": 2.0
         },
         {
-          "id": "bonOdori/clap",
+          "id": "*/clap",
           "beat": 2.0,
           "track": 1
         }

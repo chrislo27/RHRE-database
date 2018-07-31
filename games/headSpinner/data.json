@@ -5,196 +5,196 @@
   "objects": [
     {
       "type": "cue",
-      "id": "headSpinner/drum",
+      "id": "*/drum",
       "deprecatedIDs": [],
       "name": "drum",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "headSpinner/drumroll1",
+      "id": "*/drumroll1",
       "deprecatedIDs": [],
       "name": "drumroll - 1",
       "duration": 0.167
     },
     {
       "type": "cue",
-      "id": "headSpinner/drumroll2",
+      "id": "*/drumroll2",
       "deprecatedIDs": [],
       "name": "drumroll - 2",
       "duration": 0.167
     },
     {
       "type": "cue",
-      "id": "headSpinner/drumroll3",
+      "id": "*/drumroll3",
       "deprecatedIDs": [],
       "name": "drumroll - 3",
       "duration": 0.167
     },
     {
       "type": "cue",
-      "id": "headSpinner/drumroll4",
+      "id": "*/drumroll4",
       "deprecatedIDs": [],
       "name": "drumroll - 4",
       "duration": 0.167
     },
     {
       "type": "cue",
-      "id": "headSpinner/drumroll5",
+      "id": "*/drumroll5",
       "deprecatedIDs": [],
       "name": "drumroll - 5",
       "duration": 0.167
     },
     {
       "type": "cue",
-      "id": "headSpinner/drumroll6",
+      "id": "*/drumroll6",
       "deprecatedIDs": [],
       "name": "drumroll - 6",
       "duration": 0.167
     },
     {
       "type": "cue",
-      "id": "headSpinner/drumroll7",
+      "id": "*/drumroll7",
       "deprecatedIDs": [],
       "name": "drumroll - 7",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "headSpinner/slap",
+      "id": "*/slap",
       "deprecatedIDs": [],
       "name": "slap",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "headSpinner/eyes",
+      "id": "*/eyes",
       "deprecatedIDs": [],
       "name": "eyes",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "headSpinner/claw1",
+      "id": "*/claw1",
       "deprecatedIDs": [],
       "name": "claw - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "headSpinner/claw2",
+      "id": "*/claw2",
       "deprecatedIDs": [],
       "name": "claw - 2",
       "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "headSpinner_eyesOnly",
+      "id": "*_eyesOnly",
       "deprecatedIDs": [],
       "name": "mannequin - eyes only",
       "cues": [
         {
-          "id": "headSpinner/drum",
+          "id": "*/drum",
           "beat": 0.0
         },
         {
-          "id": "headSpinner/drum",
+          "id": "*/drum",
           "beat": 0.5
         },
         {
-          "id": "headSpinner/drum",
+          "id": "*/drum",
           "beat": 1.5
         },
         {
-          "id": "headSpinner/drum",
+          "id": "*/drum",
           "beat": 2.0
         },
         {
-          "id": "headSpinner/drumroll1",
+          "id": "*/drumroll1",
           "beat": 3.0
         },
         {
-          "id": "headSpinner/drumroll2",
+          "id": "*/drumroll2",
           "beat": 3.167
         },
         {
-          "id": "headSpinner/drumroll3",
+          "id": "*/drumroll3",
           "beat": 3.333
         },
         {
-          "id": "headSpinner/drumroll4",
+          "id": "*/drumroll4",
           "beat": 3.5
         },
         {
-          "id": "headSpinner/drumroll5",
+          "id": "*/drumroll5",
           "beat": 3.667
         },
         {
-          "id": "headSpinner/drumroll6",
+          "id": "*/drumroll6",
           "beat": 3.833
         },
         {
-          "id": "headSpinner/drumroll7",
+          "id": "*/drumroll7",
           "beat": 4.0
         },
         {
-          "id": "headSpinner/eyes",
+          "id": "*/eyes",
           "beat": 5.0
         },
         {
-          "id": "headSpinner/claw1",
+          "id": "*/claw1",
           "beat": 6.0
         },
         {
-          "id": "headSpinner/claw2",
+          "id": "*/claw2",
           "beat": 6.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "headSpinner_slapAndEyes",
+      "id": "*_slapAndEyes",
       "deprecatedIDs": [],
       "name": "mannequin - slap and eyes",
       "cues": [
         {
-          "id": "headSpinner/drum",
+          "id": "*/drum",
           "beat": 0.0
         },
         {
-          "id": "headSpinner/drum",
+          "id": "*/drum",
           "beat": 0.5
         },
         {
-          "id": "headSpinner/drum",
+          "id": "*/drum",
           "beat": 0.75
         },
         {
-          "id": "headSpinner/drum",
+          "id": "*/drum",
           "beat": 1.0
         },
         {
-          "id": "headSpinner/drum",
+          "id": "*/drum",
           "beat": 1.5
         },
         {
-          "id": "headSpinner/drum",
+          "id": "*/drum",
           "beat": 2.0
         },
         {
-          "id": "headSpinner/slap",
+          "id": "*/slap",
           "beat": 3.0
         },
         {
-          "id": "headSpinner/eyes",
+          "id": "*/eyes",
           "beat": 5.0
         },
         {
-          "id": "headSpinner/claw1",
+          "id": "*/claw1",
           "beat": 6.0
         },
         {
-          "id": "headSpinner/claw2",
+          "id": "*/claw2",
           "beat": 6.5
         }
       ]

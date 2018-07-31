@@ -5,214 +5,214 @@
   "objects": [
     {
       "type": "cue",
-      "id": "samuraiSliceGba/jump",
+      "id": "*/jump",
       "deprecatedIDs": [],
       "name": "jump",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "samuraiSliceGba/sliceLow",
+      "id": "*/sliceLow",
       "deprecatedIDs": [],
       "name": "weak slice",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "samuraiSliceGba/sliceLowDouble",
+      "id": "*/sliceLowDouble",
       "deprecatedIDs": [],
       "name": "weak slice double",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "samuraiSliceGba/sliceMiddle",
+      "id": "*/sliceMiddle",
       "deprecatedIDs": [],
       "name": "medium slice",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "samuraiSliceGba/sliceMiddleDouble",
+      "id": "*/sliceMiddleDouble",
       "deprecatedIDs": [],
       "name": "medium slice double",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "samuraiSliceGba/sliceHigh",
+      "id": "*/sliceHigh",
       "deprecatedIDs": [],
       "name": "strong slice",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "samuraiSliceGba/sliceHighDouble",
+      "id": "*/sliceHighDouble",
       "deprecatedIDs": [],
       "name": "strong slice double",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "samuraiSliceGba/bigSliceLow",
+      "id": "*/bigSliceLow",
       "deprecatedIDs": [],
       "name": "big demon weak slice",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "samuraiSliceGba/bigSliceMiddle",
+      "id": "*/bigSliceMiddle",
       "deprecatedIDs": [],
       "name": "big demon medium slice",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "samuraiSliceGba/bigSliceHigh",
+      "id": "*/bigSliceHigh",
       "deprecatedIDs": [],
       "name": "big demon strong slice",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "samuraiSliceGba_weakSlice",
+      "id": "*_weakSlice",
       "deprecatedIDs": [],
       "name": "weak slice",
       "cues": [
         {
-          "id": "samuraiSliceGba/jump",
+          "id": "*/jump",
           "beat": 0.0
         },
         {
-          "id": "samuraiSliceGba/sliceLow",
+          "id": "*/sliceLow",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "samuraiSliceGba_weakSliceDouble",
+      "id": "*_weakSliceDouble",
       "deprecatedIDs": [],
       "name": "weak slice double",
       "cues": [
         {
-          "id": "samuraiSliceGba/jump",
+          "id": "*/jump",
           "beat": 0.0
         },
         {
-          "id": "samuraiSliceGba/sliceLowDouble",
+          "id": "*/sliceLowDouble",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "samuraiSliceGba_mediumSlice",
+      "id": "*_mediumSlice",
       "deprecatedIDs": [],
       "name": "medium slice",
       "cues": [
         {
-          "id": "samuraiSliceGba/jump",
+          "id": "*/jump",
           "beat": 0.0
         },
         {
-          "id": "samuraiSliceGba/sliceMiddle",
+          "id": "*/sliceMiddle",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "samuraiSliceGba_mediumSliceDouble",
+      "id": "*_mediumSliceDouble",
       "deprecatedIDs": [],
       "name": "medium slice double",
       "cues": [
         {
-          "id": "samuraiSliceGba/jump",
+          "id": "*/jump",
           "beat": 0.0
         },
         {
-          "id": "samuraiSliceGba/sliceMiddleDouble",
+          "id": "*/sliceMiddleDouble",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "samuraiSliceGba_strongSlice",
+      "id": "*_strongSlice",
       "deprecatedIDs": [],
       "name": "strong slice",
       "cues": [
         {
-          "id": "samuraiSliceGba/jump",
+          "id": "*/jump",
           "beat": 0.0
         },
         {
-          "id": "samuraiSliceGba/sliceHigh",
+          "id": "*/sliceHigh",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "samuraiSliceGba_strongSliceDouble",
+      "id": "*_strongSliceDouble",
       "deprecatedIDs": [],
       "name": "strong slice double",
       "cues": [
         {
-          "id": "samuraiSliceGba/jump",
+          "id": "*/jump",
           "beat": 0.0
         },
         {
-          "id": "samuraiSliceGba/sliceHighDouble",
+          "id": "*/sliceHighDouble",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "samuraiSliceGba_bigWeakSlice",
+      "id": "*_bigWeakSlice",
       "deprecatedIDs": [],
       "name": "big demon weak slice",
       "cues": [
         {
-          "id": "samuraiSliceGba/jump",
+          "id": "*/jump",
           "beat": 0.0
         },
         {
-          "id": "samuraiSliceGba/bigSliceLow",
+          "id": "*/bigSliceLow",
           "beat": 1.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "samuraiSliceGba_bigMediumSlice",
+      "id": "*_bigMediumSlice",
       "deprecatedIDs": [],
       "name": "big demon medium slice",
       "cues": [
         {
-          "id": "samuraiSliceGba/jump",
+          "id": "*/jump",
           "beat": 0.0
         },
         {
-          "id": "samuraiSliceGba/bigSliceMiddle",
+          "id": "*/bigSliceMiddle",
           "beat": 1.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "samuraiSliceGba_bigStrongSlice",
+      "id": "*_bigStrongSlice",
       "deprecatedIDs": [],
       "name": "big demon strong slice",
       "cues": [
         {
-          "id": "samuraiSliceGba/jump",
+          "id": "*/jump",
           "beat": 0.0
         },
         {
-          "id": "samuraiSliceGba/bigSliceHigh",
+          "id": "*/bigSliceHigh",
           "beat": 1.5
         }
       ]

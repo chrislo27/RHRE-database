@@ -6,296 +6,296 @@
   "objects": [
     {
       "type": "cue",
-      "id": "shrimpShuffleJa/a",
+      "id": "*/a",
       "deprecatedIDs": [],
       "name": "asore - a",
       "duration": 0.3333
     },
     {
       "type": "cue",
-      "id": "shrimpShuffleJa/so",
+      "id": "*/so",
       "deprecatedIDs": [],
       "name": "asore - so",
       "duration": 0.6666
     },
     {
       "type": "cue",
-      "id": "shrimpShuffleJa/re",
+      "id": "*/re",
       "deprecatedIDs": [],
       "name": "asore - re",
       "duration": 0.3333
     },
     {
       "type": "cue",
-      "id": "shrimpShuffleJa/one1",
+      "id": "*/one1",
       "deprecatedIDs": [],
       "name": "1 - first",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "shrimpShuffleJa/two1",
+      "id": "*/two1",
       "deprecatedIDs": [],
       "name": "2 - first",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "shrimpShuffleJa/three1",
+      "id": "*/three1",
       "deprecatedIDs": [],
       "name": "3 - first",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "shrimpShuffleJa/three2",
+      "id": "*/three2",
       "deprecatedIDs": [],
       "name": "1 - second",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "shrimpShuffleJa/two2",
+      "id": "*/two2",
       "deprecatedIDs": [],
       "name": "2 - second",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "shrimpShuffleJa/one2",
+      "id": "*/one2",
       "deprecatedIDs": [],
       "name": "3 - second",
       "duration": 0.6666
     },
     {
       "type": "cue",
-      "id": "shrimpShuffleJa/ah",
+      "id": "*/ah",
       "deprecatedIDs": [],
       "name": "pause - 1",
       "duration": 0.3333
     },
     {
       "type": "cue",
-      "id": "shrimpShuffleJa/wa",
+      "id": "*/wa",
       "deprecatedIDs": [],
       "name": "pause - 2",
       "duration": 0.6666
     },
     {
       "type": "cue",
-      "id": "shrimpShuffleJa/ha",
+      "id": "*/ha",
       "deprecatedIDs": [],
       "name": "pause - 3",
       "duration": 0.3333
     },
     {
       "type": "cue",
-      "id": "shrimpShuffleJa/uhn",
+      "id": "*/uhn",
       "deprecatedIDs": [],
       "name": "pause - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "shrimpShuffleJa/e",
+      "id": "*/e",
       "deprecatedIDs": [],
       "name": "e-",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "shrimpShuffleJa/bi",
+      "id": "*/bi",
       "deprecatedIDs": [],
       "name": "-bi",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "shrimpShuffleJa/sea",
+      "id": "*/sea",
       "deprecatedIDs": [],
       "name": "sea",
       "duration": 0.6666
     },
     {
       "type": "pattern",
-      "id": "shrimpShuffleJa_asore",
+      "id": "*_asore",
       "deprecatedIDs": [],
       "name": "together",
       "cues": [
         {
-          "id": "shrimpShuffleJa/a",
+          "id": "*/a",
           "beat": 0.0
         },
         {
-          "id": "shrimpShuffleJa/so",
+          "id": "*/so",
           "beat": 0.333
         },
         {
-          "id": "shrimpShuffleJa/re",
+          "id": "*/re",
           "beat": 1.0
         },
         {
-          "id": "shrimpShuffleJa/one1",
+          "id": "*/one1",
           "beat": 1.333
         },
         {
-          "id": "shrimpShuffleJa/two1",
+          "id": "*/two1",
           "beat": 2.333
         },
         {
-          "id": "shrimpShuffleJa/three1",
+          "id": "*/three1",
           "beat": 3.333
         },
         {
-          "id": "shrimpShuffleJa/three2",
+          "id": "*/three2",
           "beat": 5.0
         },
         {
-          "id": "shrimpShuffleJa/two2",
+          "id": "*/two2",
           "beat": 6.0
         },
         {
-          "id": "shrimpShuffleJa/one2",
+          "id": "*/one2",
           "beat": 7.333
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "shrimpShuffleJa_ebisea",
+      "id": "*_ebisea",
       "deprecatedIDs": [],
       "name": "ABC",
       "cues": [
         {
-          "id": "shrimpShuffleJa/a",
+          "id": "*/a",
           "beat": 0.0
         },
         {
-          "id": "shrimpShuffleJa/so",
+          "id": "*/so",
           "beat": 0.333
         },
         {
-          "id": "shrimpShuffleJa/re",
+          "id": "*/re",
           "beat": 1.0
         },
         {
-          "id": "shrimpShuffleJa/one1",
+          "id": "*/one1",
           "beat": 1.333
         },
         {
-          "id": "shrimpShuffleJa/two1",
+          "id": "*/two1",
           "beat": 2.333
         },
         {
-          "id": "shrimpShuffleJa/three1",
+          "id": "*/three1",
           "beat": 3.333
         },
         {
-          "id": "shrimpShuffleJa/e",
+          "id": "*/e",
           "beat": 5.0
         },
         {
-          "id": "shrimpShuffleJa/bi",
+          "id": "*/bi",
           "beat": 6.0
         },
         {
-          "id": "shrimpShuffleJa/sea",
+          "id": "*/sea",
           "beat": 7.333
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "shrimpShuffleJa_paused",
+      "id": "*_paused",
       "deprecatedIDs": [],
       "name": "paused",
       "cues": [
         {
-          "id": "shrimpShuffleJa/ah",
+          "id": "*/ah",
           "beat": 0.0
         },
         {
-          "id": "shrimpShuffleJa/wa",
+          "id": "*/wa",
           "beat": 0.333
         },
         {
-          "id": "shrimpShuffleJa/ha",
+          "id": "*/ha",
           "beat": 1.0
         },
         {
-          "id": "shrimpShuffleJa/uhn",
+          "id": "*/uhn",
           "beat": 1.333
         },
         {
-          "id": "shrimpShuffleJa/one1",
+          "id": "*/one1",
           "beat": 2.333
         },
         {
-          "id": "shrimpShuffleJa/two1",
+          "id": "*/two1",
           "beat": 3.333
         },
         {
-          "id": "shrimpShuffleJa/three1",
+          "id": "*/three1",
           "beat": 4.333
         },
         {
-          "id": "shrimpShuffleJa/three2",
+          "id": "*/three2",
           "beat": 5.833
         },
         {
-          "id": "shrimpShuffleJa/two2",
+          "id": "*/two2",
           "beat": 6.833
         },
         {
-          "id": "shrimpShuffleJa/one2",
+          "id": "*/one2",
           "beat": 8.333
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "shrimpShuffleJa_pausedEbisea",
+      "id": "*_pausedEbisea",
       "deprecatedIDs": [],
       "name": "paused ABC",
       "cues": [
         {
-          "id": "shrimpShuffleJa/ah",
+          "id": "*/ah",
           "beat": 0.0
         },
         {
-          "id": "shrimpShuffleJa/wa",
+          "id": "*/wa",
           "beat": 0.333
         },
         {
-          "id": "shrimpShuffleJa/ha",
+          "id": "*/ha",
           "beat": 1.0
         },
         {
-          "id": "shrimpShuffleJa/uhn",
+          "id": "*/uhn",
           "beat": 1.333
         },
         {
-          "id": "shrimpShuffleJa/one1",
+          "id": "*/one1",
           "beat": 2.333
         },
         {
-          "id": "shrimpShuffleJa/two1",
+          "id": "*/two1",
           "beat": 3.333
         },
         {
-          "id": "shrimpShuffleJa/three1",
+          "id": "*/three1",
           "beat": 4.333
         },
         {
-          "id": "shrimpShuffleJa/e",
+          "id": "*/e",
           "beat": 5.833
         },
         {
-          "id": "shrimpShuffleJa/bi",
+          "id": "*/bi",
           "beat": 6.833
         },
         {
-          "id": "shrimpShuffleJa/sea",
+          "id": "*/sea",
           "beat": 8.333
         }
       ]

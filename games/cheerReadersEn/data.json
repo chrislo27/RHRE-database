@@ -7,7 +7,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "cheerReadersEn/yay",
+      "id": "*/yay",
       "deprecatedIDs": [
         "cheerReaders/yay"
       ],
@@ -16,7 +16,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/yayS",
+      "id": "*/yayS",
       "deprecatedIDs": [
         "cheerReaders/yayS"
       ],
@@ -25,7 +25,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/oneTwoThree1",
+      "id": "*/oneTwoThree1",
       "deprecatedIDs": [
         "cheerReaders/oneTwoThree1"
       ],
@@ -34,7 +34,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/oneTwoThree2",
+      "id": "*/oneTwoThree2",
       "deprecatedIDs": [
         "cheerReaders/oneTwoThree2"
       ],
@@ -43,7 +43,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/oneTwoThree3",
+      "id": "*/oneTwoThree3",
       "deprecatedIDs": [
         "cheerReaders/oneTwoThree3"
       ],
@@ -52,7 +52,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/oneTwoThreeS1",
+      "id": "*/oneTwoThreeS1",
       "deprecatedIDs": [
         "cheerReaders/oneTwoThreeS1"
       ],
@@ -61,7 +61,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/oneTwoThreeS2",
+      "id": "*/oneTwoThreeS2",
       "deprecatedIDs": [
         "cheerReaders/oneTwoThreeS2"
       ],
@@ -70,7 +70,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/oneTwoThreeS3",
+      "id": "*/oneTwoThreeS3",
       "deprecatedIDs": [
         "cheerReaders/oneTwoThreeS3"
       ],
@@ -79,7 +79,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/itsUpToYou1",
+      "id": "*/itsUpToYou1",
       "deprecatedIDs": [
         "cheerReaders/itsUpToYou1"
       ],
@@ -88,7 +88,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/itsUpToYou2",
+      "id": "*/itsUpToYou2",
       "deprecatedIDs": [
         "cheerReaders/itsUpToYou2"
       ],
@@ -97,7 +97,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/itsUpToYou3",
+      "id": "*/itsUpToYou3",
       "deprecatedIDs": [
         "cheerReaders/itsUpToYou3"
       ],
@@ -106,7 +106,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/itsUpToYou4",
+      "id": "*/itsUpToYou4",
       "deprecatedIDs": [
         "cheerReaders/itsUpToYou4"
       ],
@@ -115,7 +115,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/itsUpToYouS1",
+      "id": "*/itsUpToYouS1",
       "deprecatedIDs": [
         "cheerReaders/itsUpToYouS1"
       ],
@@ -124,7 +124,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/itsUpToYouS2",
+      "id": "*/itsUpToYouS2",
       "deprecatedIDs": [
         "cheerReaders/itsUpToYouS2"
       ],
@@ -133,7 +133,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/itsUpToYouS3",
+      "id": "*/itsUpToYouS3",
       "deprecatedIDs": [
         "cheerReaders/itsUpToYouS3"
       ],
@@ -142,7 +142,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/itsUpToYouS4",
+      "id": "*/itsUpToYouS4",
       "deprecatedIDs": [
         "cheerReaders/itsUpToYouS4"
       ],
@@ -151,7 +151,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/rahRahSisBoomBaBoom1",
+      "id": "*/rahRahSisBoomBaBoom1",
       "deprecatedIDs": [
         "cheerReaders/rahRahSisBoomBaBoom1"
       ],
@@ -160,7 +160,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/rahRahSisBoomBaBoom2",
+      "id": "*/rahRahSisBoomBaBoom2",
       "deprecatedIDs": [
         "cheerReaders/rahRahSisBoomBaBoom2"
       ],
@@ -169,7 +169,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/rahRahSisBoomBaBoom3",
+      "id": "*/rahRahSisBoomBaBoom3",
       "deprecatedIDs": [
         "cheerReaders/rahRahSisBoomBaBoom3"
       ],
@@ -178,7 +178,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/rahRahSisBoomBaBoom4",
+      "id": "*/rahRahSisBoomBaBoom4",
       "deprecatedIDs": [
         "cheerReaders/rahRahSisBoomBaBoom4"
       ],
@@ -187,7 +187,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/rahRahSisBoomBaBoom5",
+      "id": "*/rahRahSisBoomBaBoom5",
       "deprecatedIDs": [
         "cheerReaders/rahRahSisBoomBaBoom5"
       ],
@@ -196,7 +196,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/rahRahSisBoomBaBoom6",
+      "id": "*/rahRahSisBoomBaBoom6",
       "deprecatedIDs": [
         "cheerReaders/rahRahSisBoomBaBoom6"
       ],
@@ -205,7 +205,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/rahRahSisBoomBaBoomS1",
+      "id": "*/rahRahSisBoomBaBoomS1",
       "deprecatedIDs": [
         "cheerReaders/rahRahSisBoomBaBoomS1"
       ],
@@ -214,7 +214,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/rahRahSisBoomBaBoomS2",
+      "id": "*/rahRahSisBoomBaBoomS2",
       "deprecatedIDs": [
         "cheerReaders/rahRahSisBoomBaBoomS2"
       ],
@@ -223,7 +223,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/rahRahSisBoomBaBoomS3",
+      "id": "*/rahRahSisBoomBaBoomS3",
       "deprecatedIDs": [
         "cheerReaders/rahRahSisBoomBaBoomS3"
       ],
@@ -232,7 +232,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/rahRahSisBoomBaBoomS4",
+      "id": "*/rahRahSisBoomBaBoomS4",
       "deprecatedIDs": [
         "cheerReaders/rahRahSisBoomBaBoomS4"
       ],
@@ -241,7 +241,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/rahRahSisBoomBaBoomS5",
+      "id": "*/rahRahSisBoomBaBoomS5",
       "deprecatedIDs": [
         "cheerReaders/rahRahSisBoomBaBoomS5"
       ],
@@ -250,7 +250,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/rahRahSisBoomBaBoomS6",
+      "id": "*/rahRahSisBoomBaBoomS6",
       "deprecatedIDs": [
         "cheerReaders/rahRahSisBoomBaBoomS6"
       ],
@@ -259,7 +259,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/rahRahSisBoomBaBoomgirls1",
+      "id": "*/rahRahSisBoomBaBoomgirls1",
       "deprecatedIDs": [
         "cheerReaders/rahRahSisBoomBaBoomgirls1"
       ],
@@ -268,7 +268,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/rahRahSisBoomBaBoomgirls2",
+      "id": "*/rahRahSisBoomBaBoomgirls2",
       "deprecatedIDs": [
         "cheerReaders/rahRahSisBoomBaBoomgirls2"
       ],
@@ -277,7 +277,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/rahRahSisBoomBaBoomgirls3",
+      "id": "*/rahRahSisBoomBaBoomgirls3",
       "deprecatedIDs": [
         "cheerReaders/rahRahSisBoomBaBoomgirls3"
       ],
@@ -286,7 +286,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/rahRahSisBoomBaBoomgirls4",
+      "id": "*/rahRahSisBoomBaBoomgirls4",
       "deprecatedIDs": [
         "cheerReaders/rahRahSisBoomBaBoomgirls4"
       ],
@@ -295,7 +295,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/rahRahSisBoomBaBoomgirls5",
+      "id": "*/rahRahSisBoomBaBoomgirls5",
       "deprecatedIDs": [
         "cheerReaders/rahRahSisBoomBaBoomgirls5"
       ],
@@ -304,7 +304,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/rahRahSisBoomBaBoomgirls6",
+      "id": "*/rahRahSisBoomBaBoomgirls6",
       "deprecatedIDs": [
         "cheerReaders/rahRahSisBoomBaBoomgirls6"
       ],
@@ -313,7 +313,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/okItsOn1",
+      "id": "*/okItsOn1",
       "deprecatedIDs": [
         "cheerReaders/okItsOn1"
       ],
@@ -322,7 +322,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/okItsOn2",
+      "id": "*/okItsOn2",
       "deprecatedIDs": [
         "cheerReaders/okItsOn2"
       ],
@@ -331,7 +331,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/okItsOn3",
+      "id": "*/okItsOn3",
       "deprecatedIDs": [
         "cheerReaders/okItsOn3"
       ],
@@ -340,7 +340,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/okItsOn3Loop",
+      "id": "*/okItsOn3Loop",
       "deprecatedIDs": [
         "cheerReaders/okItsOn3Loop"
       ],
@@ -351,7 +351,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/okItsOn3LoopL",
+      "id": "*/okItsOn3LoopL",
       "deprecatedIDs": [
         "cheerReaders/okItsOn3LoopL"
       ],
@@ -362,7 +362,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/okItsOn4",
+      "id": "*/okItsOn4",
       "deprecatedIDs": [
         "cheerReaders/okItsOn4"
       ],
@@ -371,7 +371,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/okItsOnS1",
+      "id": "*/okItsOnS1",
       "deprecatedIDs": [
         "cheerReaders/okItsOnS1"
       ],
@@ -380,7 +380,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/okItsOnS2",
+      "id": "*/okItsOnS2",
       "deprecatedIDs": [
         "cheerReaders/okItsOnS2"
       ],
@@ -389,7 +389,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/okItsOnS3",
+      "id": "*/okItsOnS3",
       "deprecatedIDs": [
         "cheerReaders/okItsOnS3"
       ],
@@ -398,7 +398,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/okItsOnS3Loop",
+      "id": "*/okItsOnS3Loop",
       "deprecatedIDs": [
         "cheerReaders/okItsOnS3Loop"
       ],
@@ -409,7 +409,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/okItsOnS4",
+      "id": "*/okItsOnS4",
       "deprecatedIDs": [
         "cheerReaders/okItsOnS4"
       ],
@@ -418,7 +418,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/okItsOngirls1",
+      "id": "*/okItsOngirls1",
       "deprecatedIDs": [
         "cheerReaders/okItsOngirls1"
       ],
@@ -427,7 +427,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/okItsOngirls2",
+      "id": "*/okItsOngirls2",
       "deprecatedIDs": [
         "cheerReaders/okItsOngirls2"
       ],
@@ -436,7 +436,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/okItsOngirls3",
+      "id": "*/okItsOngirls3",
       "deprecatedIDs": [
         "cheerReaders/okItsOngirls3"
       ],
@@ -445,7 +445,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/okItsOngirls3Loop",
+      "id": "*/okItsOngirls3Loop",
       "deprecatedIDs": [
         "cheerReaders/okItsOngirls3Loop"
       ],
@@ -456,7 +456,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/okItsOngirls4",
+      "id": "*/okItsOngirls4",
       "deprecatedIDs": [
         "cheerReaders/okItsOngirls4"
       ],
@@ -465,7 +465,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooks1",
+      "id": "*/bunchaBooks1",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooks1"
       ],
@@ -474,7 +474,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooks2",
+      "id": "*/bunchaBooks2",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooks2"
       ],
@@ -483,7 +483,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooks3",
+      "id": "*/bunchaBooks3",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooks3"
       ],
@@ -492,7 +492,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooks4",
+      "id": "*/bunchaBooks4",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooks4"
       ],
@@ -501,7 +501,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooks5",
+      "id": "*/bunchaBooks5",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooks5"
       ],
@@ -510,7 +510,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooks6",
+      "id": "*/bunchaBooks6",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooks6"
       ],
@@ -519,7 +519,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooks7",
+      "id": "*/bunchaBooks7",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooks7"
       ],
@@ -528,7 +528,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooksS1",
+      "id": "*/bunchaBooksS1",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooksS1"
       ],
@@ -537,7 +537,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooksS2",
+      "id": "*/bunchaBooksS2",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooksS2"
       ],
@@ -546,7 +546,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooksS3",
+      "id": "*/bunchaBooksS3",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooksS3"
       ],
@@ -555,7 +555,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooksS4",
+      "id": "*/bunchaBooksS4",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooksS4"
       ],
@@ -564,7 +564,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooksS5",
+      "id": "*/bunchaBooksS5",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooksS5"
       ],
@@ -573,7 +573,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooksS6",
+      "id": "*/bunchaBooksS6",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooksS6"
       ],
@@ -582,7 +582,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooksS7",
+      "id": "*/bunchaBooksS7",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooksS7"
       ],
@@ -591,7 +591,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooksgirls1",
+      "id": "*/bunchaBooksgirls1",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooksgirls1"
       ],
@@ -600,7 +600,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooksgirls2",
+      "id": "*/bunchaBooksgirls2",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooksgirls2"
       ],
@@ -609,7 +609,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooksgirls3",
+      "id": "*/bunchaBooksgirls3",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooksgirls3"
       ],
@@ -618,7 +618,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooksgirls4",
+      "id": "*/bunchaBooksgirls4",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooksgirls4"
       ],
@@ -627,7 +627,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooksgirls5",
+      "id": "*/bunchaBooksgirls5",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooksgirls5"
       ],
@@ -636,7 +636,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooksgirls6",
+      "id": "*/bunchaBooksgirls6",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooksgirls6"
       ],
@@ -645,7 +645,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/bunchaBooksgirls7",
+      "id": "*/bunchaBooksgirls7",
       "deprecatedIDs": [
         "cheerReaders/bunchaBooksgirls7"
       ],
@@ -654,7 +654,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/onegirls",
+      "id": "*/onegirls",
       "deprecatedIDs": [
         "cheerReaders/onegirls"
       ],
@@ -663,7 +663,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/twogirls",
+      "id": "*/twogirls",
       "deprecatedIDs": [
         "cheerReaders/twogirls"
       ],
@@ -672,7 +672,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/threegirls",
+      "id": "*/threegirls",
       "deprecatedIDs": [
         "cheerReaders/threegirls"
       ],
@@ -681,7 +681,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/itsgirls",
+      "id": "*/itsgirls",
       "deprecatedIDs": [
         "cheerReaders/itsgirls"
       ],
@@ -690,7 +690,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/upgirls",
+      "id": "*/upgirls",
       "deprecatedIDs": [
         "cheerReaders/upgirls"
       ],
@@ -699,7 +699,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/togirls",
+      "id": "*/togirls",
       "deprecatedIDs": [
         "cheerReaders/togirls"
       ],
@@ -708,7 +708,7 @@
     },
     {
       "type": "cue",
-      "id": "cheerReadersEn/yougirls",
+      "id": "*/yougirls",
       "deprecatedIDs": [
         "cheerReaders/yougirls"
       ],
@@ -717,566 +717,566 @@
     },
     {
       "type": "pattern",
-      "id": "cheerReadersEn_oneTwoThree",
+      "id": "*_oneTwoThree",
       "deprecatedIDs": [
         "cheerReaders_oneTwoThree"
       ],
       "name": "one two three!",
       "cues": [
         {
-          "id": "cheerReadersEn/oneTwoThree1",
+          "id": "*/oneTwoThree1",
           "beat": 0.0
         },
         {
-          "id": "cheerReadersEn/oneTwoThree2",
+          "id": "*/oneTwoThree2",
           "beat": 1.0
         },
         {
-          "id": "cheerReadersEn/oneTwoThree3",
+          "id": "*/oneTwoThree3",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "cheerReadersEn_oneTwoThreeS",
+      "id": "*_oneTwoThreeS",
       "deprecatedIDs": [
         "cheerReaders_oneTwoThreeS"
       ],
       "name": "one two three! - solo",
       "cues": [
         {
-          "id": "cheerReadersEn/oneTwoThreeS1",
+          "id": "*/oneTwoThreeS1",
           "beat": 0.0
         },
         {
-          "id": "cheerReadersEn/oneTwoThreeS2",
+          "id": "*/oneTwoThreeS2",
           "beat": 1.0
         },
         {
-          "id": "cheerReadersEn/oneTwoThreeS3",
+          "id": "*/oneTwoThreeS3",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "cheerReadersEn_oneTwoThreeGirls",
+      "id": "*_oneTwoThreeGirls",
       "deprecatedIDs": [
         "cheerReaders_oneTwoThreeGirls"
       ],
       "name": "one two three! - girls",
       "cues": [
         {
-          "id": "cheerReadersEn/onegirls",
+          "id": "*/onegirls",
           "beat": 0.0
         },
         {
-          "id": "cheerReadersEn/twogirls",
+          "id": "*/twogirls",
           "beat": 1.0
         },
         {
-          "id": "cheerReadersEn/threegirls",
+          "id": "*/threegirls",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "cheerReadersEn_itsUpToYou",
+      "id": "*_itsUpToYou",
       "deprecatedIDs": [
         "cheerReaders_itsUpToYou"
       ],
       "name": "it's up to you!",
       "cues": [
         {
-          "id": "cheerReadersEn/itsUpToYou1",
+          "id": "*/itsUpToYou1",
           "beat": 0.0
         },
         {
-          "id": "cheerReadersEn/itsUpToYou2",
+          "id": "*/itsUpToYou2",
           "beat": 0.75
         },
         {
-          "id": "cheerReadersEn/itsUpToYou3",
+          "id": "*/itsUpToYou3",
           "beat": 1.5
         },
         {
-          "id": "cheerReadersEn/itsUpToYou4",
+          "id": "*/itsUpToYou4",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "cheerReadersEn_itsUpToYouS",
+      "id": "*_itsUpToYouS",
       "deprecatedIDs": [
         "cheerReaders_itsUpToYouS"
       ],
       "name": "it's up to you! - solo",
       "cues": [
         {
-          "id": "cheerReadersEn/itsUpToYouS1",
+          "id": "*/itsUpToYouS1",
           "beat": 0.0
         },
         {
-          "id": "cheerReadersEn/itsUpToYouS2",
+          "id": "*/itsUpToYouS2",
           "beat": 0.75
         },
         {
-          "id": "cheerReadersEn/itsUpToYouS3",
+          "id": "*/itsUpToYouS3",
           "beat": 1.5
         },
         {
-          "id": "cheerReadersEn/itsUpToYouS4",
+          "id": "*/itsUpToYouS4",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "cheerReadersEn_itsUpToYouGirls",
+      "id": "*_itsUpToYouGirls",
       "deprecatedIDs": [
         "cheerReaders_itsUpToYouGirls"
       ],
       "name": "it's up to you! - girls",
       "cues": [
         {
-          "id": "cheerReadersEn/itsgirls",
+          "id": "*/itsgirls",
           "beat": 0.0
         },
         {
-          "id": "cheerReadersEn/upgirls",
+          "id": "*/upgirls",
           "beat": 0.75
         },
         {
-          "id": "cheerReadersEn/togirls",
+          "id": "*/togirls",
           "beat": 1.5
         },
         {
-          "id": "cheerReadersEn/yougirls",
+          "id": "*/yougirls",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "cheerReadersEn_rahRahSisBoomBaBoom",
+      "id": "*_rahRahSisBoomBaBoom",
       "deprecatedIDs": [
         "cheerReaders_rahRahSisBoomBaBoom"
       ],
       "name": "rah rah sis boom ba boom!",
       "cues": [
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoom1",
+          "id": "*/rahRahSisBoomBaBoom1",
           "beat": 0.0
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoom2",
+          "id": "*/rahRahSisBoomBaBoom2",
           "beat": 0.5
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoom3",
+          "id": "*/rahRahSisBoomBaBoom3",
           "beat": 1.0
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoom4",
+          "id": "*/rahRahSisBoomBaBoom4",
           "beat": 1.5
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoom5",
+          "id": "*/rahRahSisBoomBaBoom5",
           "beat": 2.0
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoom6",
+          "id": "*/rahRahSisBoomBaBoom6",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "cheerReadersEn_rahRahSisBoomBaBoomS",
+      "id": "*_rahRahSisBoomBaBoomS",
       "deprecatedIDs": [
         "cheerReaders_rahRahSisBoomBaBoomS"
       ],
       "name": "rah rah sis boom ba boom! - solo",
       "cues": [
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomS1",
+          "id": "*/rahRahSisBoomBaBoomS1",
           "beat": 0.0
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomS2",
+          "id": "*/rahRahSisBoomBaBoomS2",
           "beat": 0.5
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomS3",
+          "id": "*/rahRahSisBoomBaBoomS3",
           "beat": 1.0
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomS4",
+          "id": "*/rahRahSisBoomBaBoomS4",
           "beat": 1.5
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomS5",
+          "id": "*/rahRahSisBoomBaBoomS5",
           "beat": 2.0
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomS6",
+          "id": "*/rahRahSisBoomBaBoomS6",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "cheerReadersEn_rahRahSisBoomBaBoomgirls",
+      "id": "*_rahRahSisBoomBaBoomgirls",
       "deprecatedIDs": [
         "cheerReaders_rahRahSisBoomBaBoomgirls"
       ],
       "name": "rah rah sis boom ba boom! - girls",
       "cues": [
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomgirls1",
+          "id": "*/rahRahSisBoomBaBoomgirls1",
           "beat": 0.0
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomgirls2",
+          "id": "*/rahRahSisBoomBaBoomgirls2",
           "beat": 0.5
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomgirls3",
+          "id": "*/rahRahSisBoomBaBoomgirls3",
           "beat": 1.0
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomgirls4",
+          "id": "*/rahRahSisBoomBaBoomgirls4",
           "beat": 1.5
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomgirls5",
+          "id": "*/rahRahSisBoomBaBoomgirls5",
           "beat": 2.0
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomgirls6",
+          "id": "*/rahRahSisBoomBaBoomgirls6",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "cheerReadersEn_rahRahSisBoomBaBoomSwing",
+      "id": "*_rahRahSisBoomBaBoomSwing",
       "deprecatedIDs": [
         "cheerReaders_rahRahSisBoomBaBoomSwing"
       ],
       "name": "rah rah sis boom ba boom! (swing)",
       "cues": [
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoom1",
+          "id": "*/rahRahSisBoomBaBoom1",
           "beat": 0.0
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoom2",
+          "id": "*/rahRahSisBoomBaBoom2",
           "beat": 0.625
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoom3",
+          "id": "*/rahRahSisBoomBaBoom3",
           "beat": 1.0
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoom4",
+          "id": "*/rahRahSisBoomBaBoom4",
           "beat": 1.625
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoom5",
+          "id": "*/rahRahSisBoomBaBoom5",
           "beat": 2.0
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoom6",
+          "id": "*/rahRahSisBoomBaBoom6",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "cheerReadersEn_rahRahSisBoomBaBoomSSwing",
+      "id": "*_rahRahSisBoomBaBoomSSwing",
       "deprecatedIDs": [
         "cheerReaders_rahRahSisBoomBaBoomSSwing"
       ],
       "name": "rah rah sis boom ba boom! - solo (swing)",
       "cues": [
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomS1",
+          "id": "*/rahRahSisBoomBaBoomS1",
           "beat": 0.0
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomS2",
+          "id": "*/rahRahSisBoomBaBoomS2",
           "beat": 0.625
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomS3",
+          "id": "*/rahRahSisBoomBaBoomS3",
           "beat": 1.0
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomS4",
+          "id": "*/rahRahSisBoomBaBoomS4",
           "beat": 1.625
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomS5",
+          "id": "*/rahRahSisBoomBaBoomS5",
           "beat": 2.0
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomS6",
+          "id": "*/rahRahSisBoomBaBoomS6",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "cheerReadersEn_rahRahSisBoomBaBoomgirlsSwing",
+      "id": "*_rahRahSisBoomBaBoomgirlsSwing",
       "deprecatedIDs": [
         "cheerReaders_rahRahSisBoomBaBoomgirlsSwing"
       ],
       "name": "rah rah sis boom ba boom! - girls (swing)",
       "cues": [
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomgirls1",
+          "id": "*/rahRahSisBoomBaBoomgirls1",
           "beat": 0.0
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomgirls2",
+          "id": "*/rahRahSisBoomBaBoomgirls2",
           "beat": 0.625
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomgirls3",
+          "id": "*/rahRahSisBoomBaBoomgirls3",
           "beat": 1.0
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomgirls4",
+          "id": "*/rahRahSisBoomBaBoomgirls4",
           "beat": 1.625
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomgirls5",
+          "id": "*/rahRahSisBoomBaBoomgirls5",
           "beat": 2.0
         },
         {
-          "id": "cheerReadersEn/rahRahSisBoomBaBoomgirls6",
+          "id": "*/rahRahSisBoomBaBoomgirls6",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "cheerReadersEn_okItsOn",
+      "id": "*_okItsOn",
       "deprecatedIDs": [
         "cheerReaders_okItsOn"
       ],
       "name": "ok it's on!",
       "cues": [
         {
-          "id": "cheerReadersEn/okItsOn1",
+          "id": "*/okItsOn1",
           "beat": 0.0
         },
         {
-          "id": "cheerReadersEn/okItsOn2",
+          "id": "*/okItsOn2",
           "beat": 1.0
         },
         {
-          "id": "cheerReadersEn/okItsOn3Loop",
+          "id": "*/okItsOn3Loop",
           "beat": 2.0
         },
         {
-          "id": "cheerReadersEn/okItsOn4",
+          "id": "*/okItsOn4",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "cheerReadersEn_okItsOnS",
+      "id": "*_okItsOnS",
       "deprecatedIDs": [
         "cheerReaders_okItsOnS"
       ],
       "name": "ok it's on! - solo",
       "cues": [
         {
-          "id": "cheerReadersEn/okItsOnS1",
+          "id": "*/okItsOnS1",
           "beat": 0.0
         },
         {
-          "id": "cheerReadersEn/okItsOnS2",
+          "id": "*/okItsOnS2",
           "beat": 1.0
         },
         {
-          "id": "cheerReadersEn/okItsOnS3Loop",
+          "id": "*/okItsOnS3Loop",
           "beat": 2.0
         },
         {
-          "id": "cheerReadersEn/okItsOnS4",
+          "id": "*/okItsOnS4",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "cheerReadersEn_okItsOnGirls",
+      "id": "*_okItsOnGirls",
       "deprecatedIDs": [
         "cheerReaders_okItsOnGirls"
       ],
       "name": "ok it's on! - girls",
       "cues": [
         {
-          "id": "cheerReadersEn/okItsOngirls1",
+          "id": "*/okItsOngirls1",
           "beat": 0.0
         },
         {
-          "id": "cheerReadersEn/okItsOngirls2",
+          "id": "*/okItsOngirls2",
           "beat": 1.0
         },
         {
-          "id": "cheerReadersEn/okItsOngirls3Loop",
+          "id": "*/okItsOngirls3Loop",
           "beat": 2.0
         },
         {
-          "id": "cheerReadersEn/okItsOngirls4",
+          "id": "*/okItsOngirls4",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "cheerReadersEn_okItsOnLong",
+      "id": "*_okItsOnLong",
       "deprecatedIDs": [
         "cheerReaders_okItsOnLong"
       ],
       "name": "ok it's on! - long",
       "cues": [
         {
-          "id": "cheerReadersEn/okItsOn1",
+          "id": "*/okItsOn1",
           "beat": 0.0
         },
         {
-          "id": "cheerReadersEn/okItsOn2",
+          "id": "*/okItsOn2",
           "beat": 4.0
         },
         {
-          "id": "cheerReadersEn/okItsOn3LoopL",
+          "id": "*/okItsOn3LoopL",
           "beat": 8.0
         },
         {
-          "id": "cheerReadersEn/okItsOn4",
+          "id": "*/okItsOn4",
           "beat": 12.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "cheerReadersEn_bunchaBooks",
+      "id": "*_bunchaBooks",
       "deprecatedIDs": [
         "cheerReaders_bunchaBooks"
       ],
       "name": "let's go read a buncha books!",
       "cues": [
         {
-          "id": "cheerReadersEn/bunchaBooks1",
+          "id": "*/bunchaBooks1",
           "beat": 0.0
         },
         {
-          "id": "cheerReadersEn/bunchaBooks2",
+          "id": "*/bunchaBooks2",
           "beat": 0.75
         },
         {
-          "id": "cheerReadersEn/bunchaBooks3",
+          "id": "*/bunchaBooks3",
           "beat": 1.0
         },
         {
-          "id": "cheerReadersEn/bunchaBooks4",
+          "id": "*/bunchaBooks4",
           "beat": 1.25
         },
         {
-          "id": "cheerReadersEn/bunchaBooks5",
+          "id": "*/bunchaBooks5",
           "beat": 1.5
         },
         {
-          "id": "cheerReadersEn/bunchaBooks6",
+          "id": "*/bunchaBooks6",
           "beat": 1.75
         },
         {
-          "id": "cheerReadersEn/bunchaBooks7",
+          "id": "*/bunchaBooks7",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "cheerReadersEn_bunchaBooksS",
+      "id": "*_bunchaBooksS",
       "deprecatedIDs": [
         "cheerReaders_bunchaBooksS"
       ],
       "name": "let's go read a buncha books! - solo",
       "cues": [
         {
-          "id": "cheerReadersEn/bunchaBooksS1",
+          "id": "*/bunchaBooksS1",
           "beat": 0.0
         },
         {
-          "id": "cheerReadersEn/bunchaBooksS2",
+          "id": "*/bunchaBooksS2",
           "beat": 0.75
         },
         {
-          "id": "cheerReadersEn/bunchaBooksS3",
+          "id": "*/bunchaBooksS3",
           "beat": 1.0
         },
         {
-          "id": "cheerReadersEn/bunchaBooksS4",
+          "id": "*/bunchaBooksS4",
           "beat": 1.25
         },
         {
-          "id": "cheerReadersEn/bunchaBooksS5",
+          "id": "*/bunchaBooksS5",
           "beat": 1.5
         },
         {
-          "id": "cheerReadersEn/bunchaBooksS6",
+          "id": "*/bunchaBooksS6",
           "beat": 1.75
         },
         {
-          "id": "cheerReadersEn/bunchaBooksS7",
+          "id": "*/bunchaBooksS7",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "cheerReadersEn_bunchaBooksGirls",
+      "id": "*_bunchaBooksGirls",
       "deprecatedIDs": [
         "cheerReaders_bunchaBooksGirls"
       ],
       "name": "let's go read a buncha books! - girls",
       "cues": [
         {
-          "id": "cheerReadersEn/bunchaBooksgirls1",
+          "id": "*/bunchaBooksgirls1",
           "beat": 0.0
         },
         {
-          "id": "cheerReadersEn/bunchaBooksgirls2",
+          "id": "*/bunchaBooksgirls2",
           "beat": 0.75
         },
         {
-          "id": "cheerReadersEn/bunchaBooksgirls3",
+          "id": "*/bunchaBooksgirls3",
           "beat": 1.0
         },
         {
-          "id": "cheerReadersEn/bunchaBooksgirls4",
+          "id": "*/bunchaBooksgirls4",
           "beat": 1.25
         },
         {
-          "id": "cheerReadersEn/bunchaBooksgirls5",
+          "id": "*/bunchaBooksgirls5",
           "beat": 1.5
         },
         {
-          "id": "cheerReadersEn/bunchaBooksgirls6",
+          "id": "*/bunchaBooksgirls6",
           "beat": 1.75
         },
         {
-          "id": "cheerReadersEn/bunchaBooksgirls7",
+          "id": "*/bunchaBooksgirls7",
           "beat": 2.0
         }
       ]

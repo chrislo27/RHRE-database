@@ -6,175 +6,175 @@
   "objects": [
     {
       "type": "cue",
-      "id": "lumbearjack/sigh",
+      "id": "*/sigh",
       "deprecatedIDs": [],
       "name": "bear - sigh - 1",
       "duration": 3.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/sigh2",
+      "id": "*/sigh2",
       "deprecatedIDs": [],
       "name": "bear - sigh - 2",
       "duration": 3.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/nya",
+      "id": "*/nya",
       "deprecatedIDs": [],
       "name": "cat - nya",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/small1",
+      "id": "*/small1",
       "deprecatedIDs": [],
       "name": "log - small - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/small2",
+      "id": "*/small2",
       "deprecatedIDs": [],
       "name": "log - small - 2",
       "duration": 1.5
     },
     {
       "type": "cue",
-      "id": "lumbearjack/small2b",
+      "id": "*/small2b",
       "deprecatedIDs": [],
       "name": "log - small - 2b",
       "duration": 1.5
     },
     {
       "type": "cue",
-      "id": "lumbearjack/medium1",
+      "id": "*/medium1",
       "deprecatedIDs": [],
       "name": "log - medium - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/medium2",
+      "id": "*/medium2",
       "deprecatedIDs": [],
       "name": "log - medium - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/medium3",
+      "id": "*/medium3",
       "deprecatedIDs": [],
       "name": "log - medium - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/large1",
+      "id": "*/large1",
       "deprecatedIDs": [],
       "name": "log - large - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/large2",
+      "id": "*/large2",
       "deprecatedIDs": [],
       "name": "log - large - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/large3",
+      "id": "*/large3",
       "deprecatedIDs": [],
       "name": "log - large - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/large4",
+      "id": "*/large4",
       "deprecatedIDs": [],
       "name": "log - large - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/large5",
+      "id": "*/large5",
       "deprecatedIDs": [],
       "name": "log - large - 5",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/fridge1",
+      "id": "*/fridge1",
       "deprecatedIDs": [],
       "name": "fridge - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/fridge2",
+      "id": "*/fridge2",
       "deprecatedIDs": [],
       "name": "fridge - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/fridge3",
+      "id": "*/fridge3",
       "deprecatedIDs": [],
       "name": "fridge - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/fridge4",
+      "id": "*/fridge4",
       "deprecatedIDs": [],
       "name": "fridge - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/fridge5",
+      "id": "*/fridge5",
       "deprecatedIDs": [],
       "name": "fridge - 5",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/can1",
+      "id": "*/can1",
       "deprecatedIDs": [],
       "name": "can - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/can2",
+      "id": "*/can2",
       "deprecatedIDs": [],
       "name": "can - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/broom1",
+      "id": "*/broom1",
       "deprecatedIDs": [],
       "name": "broom - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/broom2",
+      "id": "*/broom2",
       "deprecatedIDs": [],
       "name": "broom - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/baseballBat1",
+      "id": "*/baseballBat1",
       "deprecatedIDs": [],
       "name": "baseball bat - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "lumbearjack/baseballBat2",
+      "id": "*/baseballBat2",
       "deprecatedIDs": [
         "lumbearjack/bat"
       ],
@@ -183,244 +183,244 @@
     },
     {
       "type": "cue",
-      "id": "lumbearjack/huh",
+      "id": "*/huh",
       "deprecatedIDs": [],
       "name": "bear - huh",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "lumbearjack_randomSmall",
+      "id": "*_randomSmall",
       "deprecatedIDs": [],
       "name": "random small log",
       "cues": [
         {
-          "id": "lumbearjack/nya",
+          "id": "*/nya",
           "beat": 0.0
         },
         {
-          "id": "lumbearjack/small1",
+          "id": "*/small1",
           "beat": 1.0
         },
         {
-          "id": "lumbearjack_randomSmallCut",
+          "id": "*_randomSmallCut",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "lumbearjack_small1",
+      "id": "*_small1",
       "deprecatedIDs": [
         "lumbearjack_small"
       ],
       "name": "small log",
       "cues": [
         {
-          "id": "lumbearjack/nya",
+          "id": "*/nya",
           "beat": 0.0
         },
         {
-          "id": "lumbearjack/small1",
+          "id": "*/small1",
           "beat": 1.0
         },
         {
-          "id": "lumbearjack/small2",
+          "id": "*/small2",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "lumbearjack_small2",
+      "id": "*_small2",
       "deprecatedIDs": [],
       "name": "small log - (alternative)",
       "cues": [
         {
-          "id": "lumbearjack/nya",
+          "id": "*/nya",
           "beat": 0.0
         },
         {
-          "id": "lumbearjack/small1",
+          "id": "*/small1",
           "beat": 1.0
         },
         {
-          "id": "lumbearjack/small2b",
+          "id": "*/small2b",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "lumbearjack_medium",
+      "id": "*_medium",
       "deprecatedIDs": [],
       "name": "medium log",
       "cues": [
         {
-          "id": "lumbearjack/nya",
+          "id": "*/nya",
           "beat": 0.0
         },
         {
-          "id": "lumbearjack/medium1",
+          "id": "*/medium1",
           "beat": 1.0
         },
         {
-          "id": "lumbearjack/medium2",
+          "id": "*/medium2",
           "beat": 2.0
         },
         {
-          "id": "lumbearjack/medium3",
+          "id": "*/medium3",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "lumbearjack_large",
+      "id": "*_large",
       "deprecatedIDs": [],
       "name": "large log",
       "cues": [
         {
-          "id": "lumbearjack/nya",
+          "id": "*/nya",
           "beat": 0.0
         },
         {
-          "id": "lumbearjack/large1",
+          "id": "*/large1",
           "beat": 1.0
         },
         {
-          "id": "lumbearjack/large2",
+          "id": "*/large2",
           "beat": 2.0
         },
         {
-          "id": "lumbearjack/large3",
+          "id": "*/large3",
           "beat": 3.0
         },
         {
-          "id": "lumbearjack/large4",
+          "id": "*/large4",
           "beat": 4.0
         },
         {
-          "id": "lumbearjack/large5",
+          "id": "*/large5",
           "beat": 5.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "lumbearjack_fridge",
+      "id": "*_fridge",
       "deprecatedIDs": [],
       "name": "fridge",
       "cues": [
         {
-          "id": "lumbearjack/nya",
+          "id": "*/nya",
           "beat": 0.0
         },
         {
-          "id": "lumbearjack/fridge1",
+          "id": "*/fridge1",
           "beat": 1.0
         },
         {
-          "id": "lumbearjack/fridge2",
+          "id": "*/fridge2",
           "beat": 2.0
         },
         {
-          "id": "lumbearjack/fridge3",
+          "id": "*/fridge3",
           "beat": 3.0
         },
         {
-          "id": "lumbearjack/fridge4",
+          "id": "*/fridge4",
           "beat": 4.0
         },
         {
-          "id": "lumbearjack/fridge5",
+          "id": "*/fridge5",
           "beat": 5.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "lumbearjack_can",
+      "id": "*_can",
       "deprecatedIDs": [],
       "name": "can",
       "cues": [
         {
-          "id": "lumbearjack/nya",
+          "id": "*/nya",
           "beat": 0.0
         },
         {
-          "id": "lumbearjack/can1",
+          "id": "*/can1",
           "beat": 1.0
         },
         {
-          "id": "lumbearjack/can2",
+          "id": "*/can2",
           "beat": 2.0
         },
         {
-          "id": "lumbearjack/huh",
+          "id": "*/huh",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "lumbearjack_bat",
+      "id": "*_bat",
       "deprecatedIDs": [],
       "name": "bat",
       "cues": [
         {
-          "id": "lumbearjack/nya",
+          "id": "*/nya",
           "beat": 0.0
         },
         {
-          "id": "lumbearjack/baseballBat1",
+          "id": "*/baseballBat1",
           "beat": 1.0
         },
         {
-          "id": "lumbearjack/baseballBat2",
+          "id": "*/baseballBat2",
           "beat": 2.0
         },
         {
-          "id": "lumbearjack/huh",
+          "id": "*/huh",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "lumbearjack_broom",
+      "id": "*_broom",
       "deprecatedIDs": [],
       "name": "broom",
       "cues": [
         {
-          "id": "lumbearjack/nya",
+          "id": "*/nya",
           "beat": 0.0
         },
         {
-          "id": "lumbearjack/broom1",
+          "id": "*/broom1",
           "beat": 1.0
         },
         {
-          "id": "lumbearjack/broom2",
+          "id": "*/broom2",
           "beat": 2.0
         },
         {
-          "id": "lumbearjack/huh",
+          "id": "*/huh",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "randomCue",
-      "id": "lumbearjack_randomSmallCut",
+      "id": "*_randomSmallCut",
       "deprecatedIDs": [],
       "name": "random small log",
       "cues": [
         {
-          "id": "lumbearjack/small2"
+          "id": "*/small2"
         },
         {
-          "id": "lumbearjack/small2b"
+          "id": "*/small2b"
         }
       ]
     }

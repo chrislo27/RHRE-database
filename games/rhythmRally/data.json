@@ -5,49 +5,49 @@
   "objects": [
     {
       "type": "cue",
-      "id": "rhythmRally/whistle",
+      "id": "*/whistle",
       "deprecatedIDs": [],
       "name": "whistle",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "rhythmRally/hit1",
+      "id": "*/hit1",
       "deprecatedIDs": [],
       "name": "bounce - opponent",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "rhythmRally/hit2",
+      "id": "*/hit2",
       "deprecatedIDs": [],
       "name": "bounce - table",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "rhythmRally/hit3",
+      "id": "*/hit3",
       "deprecatedIDs": [],
       "name": "bounce - player",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "rhythmRally/tonk",
+      "id": "*/tonk",
       "deprecatedIDs": [],
       "name": "tonk",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "rhythmRally/tink",
+      "id": "*/tink",
       "deprecatedIDs": [],
       "name": "tink",
       "duration": 0.5
     },
     {
       "type": "keepTheBeat",
-      "id": "rhythmRally_slowrally",
+      "id": "*_slowrally",
       "deprecatedIDs": [
         "rhythmrally_slowrally"
       ],
@@ -55,19 +55,19 @@
       "defaultDuration": 8.0,
       "cues": [
         {
-          "id": "rhythmRally/hit1",
+          "id": "*/hit1",
           "beat": 0.0
         },
         {
-          "id": "rhythmRally/hit2",
+          "id": "*/hit2",
           "beat": 2.0
         },
         {
-          "id": "rhythmRally/hit3",
+          "id": "*/hit3",
           "beat": 4.0
         },
         {
-          "id": "rhythmRally/hit2",
+          "id": "*/hit2",
           "beat": 6.0,
           "duration": 2.0
         }
@@ -75,7 +75,7 @@
     },
     {
       "type": "keepTheBeat",
-      "id": "rhythmRally_normalrally",
+      "id": "*_normalrally",
       "deprecatedIDs": [
         "rhythmrally_normalrally"
       ],
@@ -83,19 +83,19 @@
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "rhythmRally/hit1",
+          "id": "*/hit1",
           "beat": 0.0
         },
         {
-          "id": "rhythmRally/hit2",
+          "id": "*/hit2",
           "beat": 1.0
         },
         {
-          "id": "rhythmRally/hit3",
+          "id": "*/hit3",
           "beat": 2.0
         },
         {
-          "id": "rhythmRally/hit2",
+          "id": "*/hit2",
           "beat": 3.0,
           "duration": 1.0
         }
@@ -103,144 +103,144 @@
     },
     {
       "type": "pattern",
-      "id": "rhythmRally_fastrally",
+      "id": "*_fastrally",
       "deprecatedIDs": [
         "rhythmrally_fastrally"
       ],
       "name": "fast rally",
       "cues": [
         {
-          "id": "rhythmRally/tonk",
+          "id": "*/tonk",
           "beat": 0.0
         },
         {
-          "id": "rhythmRally/tink",
+          "id": "*/tink",
           "beat": 0.5
         },
         {
-          "id": "rhythmRally/tonk",
+          "id": "*/tonk",
           "beat": 1.0
         },
         {
-          "id": "rhythmRally/hit1",
+          "id": "*/hit1",
           "beat": 2.0
         },
         {
-          "id": "rhythmRally/hit2",
+          "id": "*/hit2",
           "beat": 2.5
         },
         {
-          "id": "rhythmRally/hit3",
+          "id": "*/hit3",
           "beat": 3.0
         },
         {
-          "id": "rhythmRally/hit2",
+          "id": "*/hit2",
           "beat": 4.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "rhythmRally_turborally",
+      "id": "*_turborally",
       "deprecatedIDs": [
         "rhythmrally_turborally"
       ],
       "name": "turbo rally",
       "cues": [
         {
-          "id": "rhythmRally/tonk",
+          "id": "*/tonk",
           "beat": 0.0
         },
         {
-          "id": "rhythmRally/tink",
+          "id": "*/tink",
           "beat": 0.5
         },
         {
-          "id": "rhythmRally/tonk",
+          "id": "*/tonk",
           "beat": 1.0
         },
         {
-          "id": "rhythmRally/tink",
+          "id": "*/tink",
           "beat": 1.5
         },
         {
-          "id": "rhythmRally/tonk",
+          "id": "*/tonk",
           "beat": 2.0
         },
         {
-          "id": "rhythmRally/tink",
+          "id": "*/tink",
           "beat": 2.5
         },
         {
-          "id": "rhythmRally/tonk",
+          "id": "*/tonk",
           "beat": 3.0
         },
         {
-          "id": "rhythmRally/tink",
+          "id": "*/tink",
           "beat": 3.5
         },
         {
-          "id": "rhythmRally/hit1",
+          "id": "*/hit1",
           "beat": 4.0
         },
         {
-          "id": "rhythmRally/hit2",
+          "id": "*/hit2",
           "beat": 4.5
         },
         {
-          "id": "rhythmRally/hit3",
+          "id": "*/hit3",
           "beat": 5.0
         },
         {
-          "id": "rhythmRally/hit2",
+          "id": "*/hit2",
           "beat": 5.5
         },
         {
-          "id": "rhythmRally/hit1",
+          "id": "*/hit1",
           "beat": 6.0
         },
         {
-          "id": "rhythmRally/hit2",
+          "id": "*/hit2",
           "beat": 6.5
         },
         {
-          "id": "rhythmRally/hit3",
+          "id": "*/hit3",
           "beat": 7.0
         },
         {
-          "id": "rhythmRally/hit2",
+          "id": "*/hit2",
           "beat": 7.5
         },
         {
-          "id": "rhythmRally/hit1",
+          "id": "*/hit1",
           "beat": 8.0
         },
         {
-          "id": "rhythmRally/hit2",
+          "id": "*/hit2",
           "beat": 8.5
         },
         {
-          "id": "rhythmRally/hit3",
+          "id": "*/hit3",
           "beat": 9.0
         },
         {
-          "id": "rhythmRally/hit2",
+          "id": "*/hit2",
           "beat": 9.5
         },
         {
-          "id": "rhythmRally/hit1",
+          "id": "*/hit1",
           "beat": 10.0
         },
         {
-          "id": "rhythmRally/hit2",
+          "id": "*/hit2",
           "beat": 10.5
         },
         {
-          "id": "rhythmRally/hit3",
+          "id": "*/hit3",
           "beat": 11.0
         },
         {
-          "id": "rhythmRally/hit2",
+          "id": "*/hit2",
           "beat": 11.5
         }
       ]

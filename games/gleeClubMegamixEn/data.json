@@ -7,14 +7,14 @@
   "objects": [
     {
       "type": "cue",
-      "id": "gleeClubMegamixEn/singBegin",
+      "id": "*/singBegin",
       "deprecatedIDs": [],
       "name": "gleeClubMegamixEn/singBegin",
       "duration": 1.0E-6
     },
     {
       "type": "cue",
-      "id": "gleeClubMegamixEn/singLoop",
+      "id": "*/singLoop",
       "deprecatedIDs": [],
       "name": "sing",
       "duration": 1.0,
@@ -26,14 +26,14 @@
     },
     {
       "type": "cue",
-      "id": "gleeClubMegamixEn/singEnd",
+      "id": "*/singEnd",
       "deprecatedIDs": [],
       "name": "stop",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "gleeClubMegamixEn/screamLoop",
+      "id": "*/screamLoop",
       "deprecatedIDs": [],
       "name": "scream",
       "introSound": "gleeClubMegamixEn/screamBegin",
@@ -42,35 +42,35 @@
     },
     {
       "type": "cue",
-      "id": "gleeClubMegamixEn/to",
+      "id": "*/to",
       "deprecatedIDs": [],
       "name": "together now - to",
       "duration": 0.3333
     },
     {
       "type": "cue",
-      "id": "gleeClubMegamixEn/ge",
+      "id": "*/ge",
       "deprecatedIDs": [],
       "name": "together now - ge",
       "duration": 0.6666
     },
     {
       "type": "cue",
-      "id": "gleeClubMegamixEn/ther",
+      "id": "*/ther",
       "deprecatedIDs": [],
       "name": "together now - ther",
       "duration": 0.3333
     },
     {
       "type": "cue",
-      "id": "gleeClubMegamixEn/now",
+      "id": "*/now",
       "deprecatedIDs": [],
       "name": "together now - now",
       "duration": 0.6666
     },
     {
       "type": "cue",
-      "id": "gleeClubMegamixEn/screamBegin",
+      "id": "*/screamBegin",
       "deprecatedIDs": [],
       "name": "gleeClubMegamixEn/screamBegin",
       "duration": 1.0E-6,
@@ -78,7 +78,7 @@
     },
     {
       "type": "cue",
-      "id": "gleeClubMegamixEn/baton",
+      "id": "*/baton",
       "deprecatedIDs": [],
       "name": "baton - lift",
       "duration": 1.0,
@@ -86,55 +86,55 @@
     },
     {
       "type": "cue",
-      "id": "gleeClubMegamixEn/batonStop",
+      "id": "*/batonStop",
       "deprecatedIDs": [],
       "name": "baton - stop",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "gleeClubMegamixEn_togetherNow",
+      "id": "*_togetherNow",
       "deprecatedIDs": [],
       "name": "together now!",
       "cues": [
         {
-          "id": "gleeClubMegamixEn/to",
+          "id": "*/to",
           "beat": 0.0
         },
         {
-          "id": "gleeClubMegamixEn/ge",
+          "id": "*/ge",
           "beat": 0.333
         },
         {
-          "id": "gleeClubMegamixEn/ther",
+          "id": "*/ther",
           "beat": 1.0
         },
         {
-          "id": "gleeClubMegamixEn/now",
+          "id": "*/now",
           "beat": 1.333
         },
         {
-          "id": "gleeClubMegamixEn/screamLoop",
+          "id": "*/screamLoop",
           "beat": 2.0
         },
         {
-          "id": "gleeClubMegamixEn/singEnd",
+          "id": "*/singEnd",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "gleeClubMegamixEn_baton",
+      "id": "*_baton",
       "deprecatedIDs": [],
       "name": "baton",
       "cues": [
         {
-          "id": "gleeClubMegamixEn/baton",
+          "id": "*/baton",
           "beat": 0.0
         },
         {
-          "id": "gleeClubMegamixEn/batonStop",
+          "id": "*/batonStop",
           "beat": 1.0
         }
       ]

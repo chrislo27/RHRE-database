@@ -6,14 +6,14 @@
   "objects": [
     {
       "type": "cue",
-      "id": "gleeClubKo/singBegin",
+      "id": "*/singBegin",
       "deprecatedIDs": [],
       "name": "gleeClubKo/singBegin",
       "duration": 1.0E-6
     },
     {
       "type": "cue",
-      "id": "gleeClubKo/singLoop",
+      "id": "*/singLoop",
       "deprecatedIDs": [],
       "name": "sing",
       "duration": 1.0,
@@ -25,14 +25,14 @@
     },
     {
       "type": "cue",
-      "id": "gleeClubKo/singEnd",
+      "id": "*/singEnd",
       "deprecatedIDs": [],
       "name": "stop",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "gleeClubKo/screamLoop",
+      "id": "*/screamLoop",
       "deprecatedIDs": [],
       "name": "scream",
       "introSound": "gleeClubKo/screamBegin",
@@ -41,28 +41,28 @@
     },
     {
       "type": "cue",
-      "id": "gleeClubKo/cha",
+      "id": "*/cha",
       "deprecatedIDs": [],
       "name": "chadange - cha",
       "duration": 0.3333
     },
     {
       "type": "cue",
-      "id": "gleeClubKo/dan",
+      "id": "*/dan",
       "deprecatedIDs": [],
       "name": "chadange - dan",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "gleeClubKo/ge",
+      "id": "*/ge",
       "deprecatedIDs": [],
       "name": "chadange - ge",
       "duration": 0.6666
     },
     {
       "type": "cue",
-      "id": "gleeClubKo/screamBegin",
+      "id": "*/screamBegin",
       "deprecatedIDs": [],
       "name": "gleeClubKo/screamBegin",
       "duration": 1.0E-6,
@@ -70,7 +70,7 @@
     },
     {
       "type": "cue",
-      "id": "gleeClubKo/baton",
+      "id": "*/baton",
       "deprecatedIDs": [],
       "name": "baton - lift",
       "duration": 1.0,
@@ -78,51 +78,51 @@
     },
     {
       "type": "cue",
-      "id": "gleeClubKo/batonStop",
+      "id": "*/batonStop",
       "deprecatedIDs": [],
       "name": "baton - stop",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "gleeClubKo_chadange",
+      "id": "*_chadange",
       "deprecatedIDs": [],
       "name": "together now!",
       "cues": [
         {
-          "id": "gleeClubKo/cha",
+          "id": "*/cha",
           "beat": 0.0
         },
         {
-          "id": "gleeClubKo/dan",
+          "id": "*/dan",
           "beat": 0.333
         },
         {
-          "id": "gleeClubKo/ge",
+          "id": "*/ge",
           "beat": 1.333
         },
         {
-          "id": "gleeClubKo/screamLoop",
+          "id": "*/screamLoop",
           "beat": 2.0
         },
         {
-          "id": "gleeClubKo/singEnd",
+          "id": "*/singEnd",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "gleeClubKo_baton",
+      "id": "*_baton",
       "deprecatedIDs": [],
       "name": "baton",
       "cues": [
         {
-          "id": "gleeClubKo/baton",
+          "id": "*/baton",
           "beat": 0.0
         },
         {
-          "id": "gleeClubKo/batonStop",
+          "id": "*/batonStop",
           "beat": 1.0
         }
       ]

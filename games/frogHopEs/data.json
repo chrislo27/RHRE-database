@@ -6,302 +6,302 @@
   "objects": [
     {
       "type": "cue",
-      "id": "frogHopEs/un",
+      "id": "*/un",
       "deprecatedIDs": [],
       "name": "countin - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "frogHopEs/dos",
+      "id": "*/dos",
       "deprecatedIDs": [],
       "name": "countin - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "frogHopEs/tres",
+      "id": "*/tres",
       "deprecatedIDs": [],
       "name": "countin - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "frogHopEs/y",
+      "id": "*/y",
       "deprecatedIDs": [],
       "name": "countin - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "frogHopEs/shake",
+      "id": "*/shake",
       "deprecatedIDs": [],
       "name": "shake",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "frogHopEs/menear1",
+      "id": "*/menear1",
       "deprecatedIDs": [],
       "name": "menear - lead - me-",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopEs/menear2",
+      "id": "*/menear2",
       "deprecatedIDs": [],
       "name": "menear - lead - -near!",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopEs/menear3",
+      "id": "*/menear3",
       "deprecatedIDs": [],
       "name": "menear - backup - me-",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopEs/menear4",
+      "id": "*/menear4",
       "deprecatedIDs": [],
       "name": "menear - backup - -near!",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopEs/ye1",
+      "id": "*/ye1",
       "deprecatedIDs": [],
       "name": "ye ye ye - lead - ye",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopEs/ye2",
+      "id": "*/ye2",
       "deprecatedIDs": [],
       "name": "ye ye ye - backup - ye",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopEs/aGirar1",
+      "id": "*/aGirar1",
       "deprecatedIDs": [],
       "name": "a girar - lead - a",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopEs/aGirar2",
+      "id": "*/aGirar2",
       "deprecatedIDs": [],
       "name": "a girar - lead - gi-",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopEs/aGirar3",
+      "id": "*/aGirar3",
       "deprecatedIDs": [],
       "name": "a girar - lead - rar",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopEs/aGirar4",
+      "id": "*/aGirar4",
       "deprecatedIDs": [],
       "name": "a girar - backup - a",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopEs/aGirar5",
+      "id": "*/aGirar5",
       "deprecatedIDs": [],
       "name": "a girar - backup - gi-",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopEs/aGirar6",
+      "id": "*/aGirar6",
       "deprecatedIDs": [],
       "name": "a girar - backup - rar",
       "duration": 0.5
     },
     {
       "type": "keepTheBeat",
-      "id": "frogHopEs_shake",
+      "id": "*_shake",
       "deprecatedIDs": [],
       "name": "shake",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "frogHopEs/shake",
+          "id": "*/shake",
           "beat": 0.0
         },
         {
-          "id": "frogHopEs/shake",
+          "id": "*/shake",
           "beat": 1.0
         },
         {
-          "id": "frogHopEs/shake",
+          "id": "*/shake",
           "beat": 2.0
         },
         {
-          "id": "frogHopEs/shake",
+          "id": "*/shake",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "frogHopEs_menear",
+      "id": "*_menear",
       "deprecatedIDs": [],
       "name": "yahoo",
       "cues": [
         {
-          "id": "frogHopEs/menear1",
+          "id": "*/menear1",
           "beat": 0.0
         },
         {
-          "id": "frogHopEs/shake",
+          "id": "*/shake",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "frogHopEs/menear2",
+          "id": "*/menear2",
           "beat": 0.5
         },
         {
-          "id": "frogHopEs/shake",
+          "id": "*/shake",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "frogHopEs/menear3",
+          "id": "*/menear3",
           "beat": 2.0
         },
         {
-          "id": "frogHopEs/menear4",
+          "id": "*/menear4",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "frogHopEs_yeyeye",
+      "id": "*_yeyeye",
       "deprecatedIDs": [],
       "name": "yeah yeah yeah",
       "cues": [
         {
-          "id": "frogHopEs/ye1",
+          "id": "*/ye1",
           "beat": 0.0
         },
         {
-          "id": "frogHopEs/shake",
+          "id": "*/shake",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "frogHopEs/ye1",
+          "id": "*/ye1",
           "beat": 0.5
         },
         {
-          "id": "frogHopEs/ye1",
+          "id": "*/ye1",
           "beat": 1.0
         },
         {
-          "id": "frogHopEs/shake",
+          "id": "*/shake",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "frogHopEs/ye2",
+          "id": "*/ye2",
           "beat": 2.0
         },
         {
-          "id": "frogHopEs/ye2",
+          "id": "*/ye2",
           "beat": 2.5
         },
         {
-          "id": "frogHopEs/ye2",
+          "id": "*/ye2",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "frogHopEs_aGirar",
+      "id": "*_aGirar",
       "deprecatedIDs": [],
       "name": "spin it boys!",
       "cues": [
         {
-          "id": "frogHopEs/aGirar1",
+          "id": "*/aGirar1",
           "beat": 0.0
         },
         {
-          "id": "frogHopEs/shake",
+          "id": "*/shake",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "frogHopEs/shake",
+          "id": "*/shake",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "frogHopEs/aGirar2",
+          "id": "*/aGirar2",
           "beat": 0.5
         },
         {
-          "id": "frogHopEs/aGirar3",
+          "id": "*/aGirar3",
           "beat": 1.0
         },
         {
-          "id": "frogHopEs/aGirar4",
+          "id": "*/aGirar4",
           "beat": 2.0
         },
         {
-          "id": "frogHopEs/aGirar5",
+          "id": "*/aGirar5",
           "beat": 2.5
         },
         {
-          "id": "frogHopEs/aGirar6",
+          "id": "*/aGirar6",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "frogHopEs_2BeatCountIn",
+      "id": "*_2BeatCountIn",
       "deprecatedIDs": [],
       "name": "2-beat count-in",
       "cues": [
         {
-          "id": "frogHopEs/tres",
+          "id": "*/tres",
           "beat": 0.0
         },
         {
-          "id": "frogHopEs/y",
+          "id": "*/y",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "frogHopEs_4BeatCountIn",
+      "id": "*_4BeatCountIn",
       "deprecatedIDs": [],
       "name": "4-beat count-in",
       "cues": [
         {
-          "id": "frogHopEs/un",
+          "id": "*/un",
           "beat": 0.0
         },
         {
-          "id": "frogHopEs/dos",
+          "id": "*/dos",
           "beat": 1.0
         },
         {
-          "id": "frogHopEs/tres",
+          "id": "*/tres",
           "beat": 2.0
         },
         {
-          "id": "frogHopEs/y",
+          "id": "*/y",
           "beat": 3.0
         }
       ]

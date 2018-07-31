@@ -5,319 +5,319 @@
   "objects": [
     {
       "type": "cue",
-      "id": "karateManGba/ohYeah",
+      "id": "*/ohYeah",
       "deprecatedIDs": [],
       "name": "oh yeah!",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "karateManGba/potOut",
+      "id": "*/potOut",
       "deprecatedIDs": [],
       "name": "out",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "karateManGba/potHit",
+      "id": "*/potHit",
       "deprecatedIDs": [],
       "name": "hit",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "karateManGba/potHitHighFlow",
+      "id": "*/potHitHighFlow",
       "deprecatedIDs": [],
       "name": "pot - hit",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "karateManGba/potBreak",
+      "id": "*/potBreak",
       "deprecatedIDs": [],
       "name": "pot - break",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "karateManGba/soccerHit",
+      "id": "*/soccerHit",
       "deprecatedIDs": [],
       "name": "soccer ball - hit",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "karateManGba/soccerBreak",
+      "id": "*/soccerBreak",
       "deprecatedIDs": [],
       "name": "soccer ball - break",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "karateManGba/lightbulbHit",
+      "id": "*/lightbulbHit",
       "deprecatedIDs": [],
       "name": "lightbulb - hit",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "karateManGba/lightbulbBreak",
+      "id": "*/lightbulbBreak",
       "deprecatedIDs": [],
       "name": "lightbulb - break",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "karateManGba/rockHit",
+      "id": "*/rockHit",
       "deprecatedIDs": [],
       "name": "rock - hit",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "karateManGba/bombHit",
+      "id": "*/bombHit",
       "deprecatedIDs": [],
       "name": "bomb - hit",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "karateManGba/bombBreak",
+      "id": "*/bombBreak",
       "deprecatedIDs": [],
       "name": "bomb - break",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "karateManGba/gongSerious",
+      "id": "*/gongSerious",
       "deprecatedIDs": [],
       "name": "gong - serious mode",
       "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "karateManGba_pot",
+      "id": "*_pot",
       "deprecatedIDs": [],
       "name": "hit - low flow",
       "cues": [
         {
-          "id": "karateManGba/potOut",
+          "id": "*/potOut",
           "beat": 0.0
         },
         {
-          "id": "karateManGba/potHit",
+          "id": "*/potHit",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManGba_potHighFlow",
+      "id": "*_potHighFlow",
       "deprecatedIDs": [],
       "name": "pot",
       "cues": [
         {
-          "id": "karateManGba/potOut",
+          "id": "*/potOut",
           "beat": 0.0
         },
         {
-          "id": "karateManGba/potHitHighFlow",
+          "id": "*/potHitHighFlow",
           "beat": 1.0
         },
         {
-          "id": "karateManGba/potBreak",
+          "id": "*/potBreak",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManGba_rock",
+      "id": "*_rock",
       "deprecatedIDs": [],
       "name": "rock",
       "cues": [
         {
-          "id": "karateManGba/potOut",
+          "id": "*/potOut",
           "beat": 0.0
         },
         {
-          "id": "karateManGba/rockHit",
+          "id": "*/rockHit",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManGba_soccerBall",
+      "id": "*_soccerBall",
       "deprecatedIDs": [],
       "name": "soccer ball",
       "cues": [
         {
-          "id": "karateManGba/potOut",
+          "id": "*/potOut",
           "beat": 0.0
         },
         {
-          "id": "karateManGba/soccerHit",
+          "id": "*/soccerHit",
           "beat": 1.0
         },
         {
-          "id": "karateManGba/soccerBreak",
+          "id": "*/soccerBreak",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManGba_lightbulb",
+      "id": "*_lightbulb",
       "deprecatedIDs": [],
       "name": "lightbulb",
       "cues": [
         {
-          "id": "karateManGba/potOut",
+          "id": "*/potOut",
           "beat": 0.0
         },
         {
-          "id": "karateManGba/lightbulbHit",
+          "id": "*/lightbulbHit",
           "beat": 1.0
         },
         {
-          "id": "karateManGba/lightbulbBreak",
+          "id": "*/lightbulbBreak",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManGba_bomb",
+      "id": "*_bomb",
       "deprecatedIDs": [],
       "name": "bomb",
       "cues": [
         {
-          "id": "karateManGba/potOut",
+          "id": "*/potOut",
           "beat": 0.0
         },
         {
-          "id": "karateManGba/bombHit",
+          "id": "*/bombHit",
           "beat": 1.0
         },
         {
-          "id": "karateManGba/bombBreak",
+          "id": "*/bombBreak",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManGba_hit2",
+      "id": "*_hit2",
       "deprecatedIDs": [],
       "name": "2!",
       "cues": [
         {
-          "id": "karateManGba/potOut",
+          "id": "*/potOut",
           "beat": 0
         },
         {
-          "id": "karateManGba/lightbulbHit",
+          "id": "*/lightbulbHit",
           "beat": 1
         },
         {
-          "id": "karateManGba/potOut",
+          "id": "*/potOut",
           "beat": 1
         },
         {
-          "id": "karateManGba/bombHit",
+          "id": "*/bombHit",
           "beat": 2
         },
         {
-          "id": "karateManGba/bombBreak",
+          "id": "*/bombBreak",
           "beat": 3
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManGba_hit3",
+      "id": "*_hit3",
       "deprecatedIDs": [],
       "name": "3!",
       "cues": [
         {
-          "id": "karateManGba/potOut",
+          "id": "*/potOut",
           "beat": 0
         },
         {
-          "id": "karateManGba/lightbulbHit",
+          "id": "*/lightbulbHit",
           "beat": 1
         },
         {
-          "id": "karateManGba/potOut",
+          "id": "*/potOut",
           "beat": 1
         },
         {
-          "id": "karateManGba/lightbulbHit",
+          "id": "*/lightbulbHit",
           "beat": 2
         },
         {
-          "id": "karateManGba/potOut",
+          "id": "*/potOut",
           "beat": 2
         },
         {
-          "id": "karateManGba/rockHit",
+          "id": "*/rockHit",
           "beat": 3
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManGba_hit4",
+      "id": "*_hit4",
       "deprecatedIDs": [],
       "name": "4!",
       "cues": [
         {
-          "id": "karateManGba/potOut",
+          "id": "*/potOut",
           "beat": 0
         },
         {
-          "id": "karateManGba/potHit",
+          "id": "*/potHit",
           "beat": 1
         },
         {
-          "id": "karateManGba/potOut",
+          "id": "*/potOut",
           "beat": 1
         },
         {
-          "id": "karateManGba/potHit",
+          "id": "*/potHit",
           "beat": 2
         },
         {
-          "id": "karateManGba/potOut",
+          "id": "*/potOut",
           "beat": 2
         },
         {
-          "id": "karateManGba/lightbulbHit",
+          "id": "*/lightbulbHit",
           "beat": 3
         },
         {
-          "id": "karateManGba/potOut",
+          "id": "*/potOut",
           "beat": 3
         },
         {
-          "id": "karateManGba/rockHit",
+          "id": "*/rockHit",
           "beat": 4
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManGba_remix8",
+      "id": "*_remix8",
       "deprecatedIDs": [],
       "name": "gong - serious mode",
       "cues": [
         {
-          "id": "karateManGba/potOut",
+          "id": "*/potOut",
           "beat": 0.0
         },
         {
-          "id": "karateManGba/gongSerious",
+          "id": "*/gongSerious",
           "beat": 1.0
         }
       ]

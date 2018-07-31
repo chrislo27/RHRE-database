@@ -6,168 +6,168 @@
   "objects": [
     {
       "type": "cue",
-      "id": "dogNinjaKo/fruit1",
+      "id": "*/fruit1",
       "deprecatedIDs": [],
       "name": "fruit - out",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "dogNinjaKo/fruit2",
+      "id": "*/fruit2",
       "deprecatedIDs": [],
       "name": "fruit - slice",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "dogNinjaKo/bone1",
+      "id": "*/bone1",
       "deprecatedIDs": [],
       "name": "bone - out",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "dogNinjaKo/bone2",
+      "id": "*/bone2",
       "deprecatedIDs": [],
       "name": "bone - slice",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "dogNinjaKo/tire1",
+      "id": "*/tire1",
       "deprecatedIDs": [],
       "name": "tire - out",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "dogNinjaKo/tire2",
+      "id": "*/tire2",
       "deprecatedIDs": [],
       "name": "tire - slice",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "dogNinjaKo/pan1",
+      "id": "*/pan1",
       "deprecatedIDs": [],
       "name": "pan - out",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "dogNinjaKo/pan2",
+      "id": "*/pan2",
       "deprecatedIDs": [],
       "name": "pan - slice",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "dogNinjaKo/sign",
+      "id": "*/sign",
       "deprecatedIDs": [],
       "name": "\"Cut everything!\"",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "dogNinjaKo/padara1",
+      "id": "*/padara1",
       "deprecatedIDs": [],
       "name": "padara - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "dogNinjaKo/padara2",
+      "id": "*/padara2",
       "deprecatedIDs": [],
       "name": "padara - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "dogNinjaKo/padara3",
+      "id": "*/padara3",
       "deprecatedIDs": [],
       "name": "padara - 3",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "dogNinjaKo_fruit",
+      "id": "*_fruit",
       "deprecatedIDs": [],
       "name": "fruit",
       "cues": [
         {
-          "id": "dogNinjaKo/fruit1",
+          "id": "*/fruit1",
           "beat": 0.0
         },
         {
-          "id": "dogNinjaKo/fruit2",
+          "id": "*/fruit2",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "dogNinjaKo_bone",
+      "id": "*_bone",
       "deprecatedIDs": [],
       "name": "bone",
       "cues": [
         {
-          "id": "dogNinjaKo/bone1",
+          "id": "*/bone1",
           "beat": 0.0
         },
         {
-          "id": "dogNinjaKo/bone2",
+          "id": "*/bone2",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "dogNinjaKo_tire",
+      "id": "*_tire",
       "deprecatedIDs": [],
       "name": "tire",
       "cues": [
         {
-          "id": "dogNinjaKo/tire1",
+          "id": "*/tire1",
           "beat": 0.0
         },
         {
-          "id": "dogNinjaKo/tire2",
+          "id": "*/tire2",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "dogNinjaKo_pan",
+      "id": "*_pan",
       "deprecatedIDs": [],
       "name": "pan",
       "cues": [
         {
-          "id": "dogNinjaKo/pan1",
+          "id": "*/pan1",
           "beat": 0.0
         },
         {
-          "id": "dogNinjaKo/pan2",
+          "id": "*/pan2",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "dogNinjaKo_padara",
+      "id": "*_padara",
       "deprecatedIDs": [],
       "name": "here we go!",
       "cues": [
         {
-          "id": "dogNinjaKo/padara1",
+          "id": "*/padara1",
           "beat": 0.0
         },
         {
-          "id": "dogNinjaKo/padara2",
+          "id": "*/padara2",
           "beat": 0.5
         },
         {
-          "id": "dogNinjaKo/padara3",
+          "id": "*/padara3",
           "beat": 1.0
         }
       ]

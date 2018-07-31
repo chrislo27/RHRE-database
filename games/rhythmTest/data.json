@@ -5,150 +5,150 @@
   "objects": [
     {
       "type": "cue",
-      "id": "rhythmTest/pressToBeat",
+      "id": "*/pressToBeat",
       "deprecatedIDs": [],
       "name": "press to the beat",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "rhythmTest/pressToBeatLastFour",
+      "id": "*/pressToBeatLastFour",
       "deprecatedIDs": [],
       "name": "press to the beat (last four)",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "rhythmTest/pressToBeatFinish",
+      "id": "*/pressToBeatFinish",
       "deprecatedIDs": [],
       "name": "press to the beat finish",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "rhythmTest/wait",
+      "id": "*/wait",
       "deprecatedIDs": [],
       "name": "wait",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "rhythmTest/waitPress",
+      "id": "*/waitPress",
       "deprecatedIDs": [],
       "name": "press after waiting",
       "duration": 1.0
     },
     {
       "type": "keepTheBeat",
-      "id": "rhythmTest_pressToBeat",
+      "id": "*_pressToBeat",
       "deprecatedIDs": [],
       "name": "pressing to the beat",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "rhythmTest/pressToBeat",
+          "id": "*/pressToBeat",
           "beat": 0.0
         },
         {
-          "id": "rhythmTest/pressToBeat",
+          "id": "*/pressToBeat",
           "beat": 1.0
         },
         {
-          "id": "rhythmTest/pressToBeat",
+          "id": "*/pressToBeat",
           "beat": 2.0
         },
         {
-          "id": "rhythmTest/pressToBeat",
+          "id": "*/pressToBeat",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "rhythmTest_pressToBeatLastFour",
+      "id": "*_pressToBeatLastFour",
       "deprecatedIDs": [],
       "name": "pressing to the beat (last four)",
       "cues": [
         {
-          "id": "rhythmTest/pressToBeatLastFour",
+          "id": "*/pressToBeatLastFour",
           "beat": 0.0
         },
         {
-          "id": "rhythmTest/pressToBeatLastFour",
+          "id": "*/pressToBeatLastFour",
           "beat": 1.0
         },
         {
-          "id": "rhythmTest/pressToBeatLastFour",
+          "id": "*/pressToBeatLastFour",
           "beat": 2.0
         },
         {
-          "id": "rhythmTest/pressToBeatFinish",
+          "id": "*/pressToBeatFinish",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "keepTheBeat",
-      "id": "rhythmTest_waitFour",
+      "id": "*_waitFour",
       "deprecatedIDs": [],
       "name": "wait (four)",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "rhythmTest/wait",
+          "id": "*/wait",
           "beat": 0.0
         },
         {
-          "id": "rhythmTest/wait",
+          "id": "*/wait",
           "beat": 1.0
         },
         {
-          "id": "rhythmTest/wait",
+          "id": "*/wait",
           "beat": 2.0
         },
         {
-          "id": "rhythmTest/waitPress",
+          "id": "*/waitPress",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "keepTheBeat",
-      "id": "rhythmTest_waitEight",
+      "id": "*_waitEight",
       "deprecatedIDs": [],
       "name": "wait (eight)",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "rhythmTest/wait",
+          "id": "*/wait",
           "beat": 0.0
         },
         {
-          "id": "rhythmTest/wait",
+          "id": "*/wait",
           "beat": 1.0
         },
         {
-          "id": "rhythmTest/wait",
+          "id": "*/wait",
           "beat": 2.0
         },
         {
-          "id": "rhythmTest/wait",
+          "id": "*/wait",
           "beat": 3.0
         },
         {
-          "id": "rhythmTest/wait",
+          "id": "*/wait",
           "beat": 4.0
         },
         {
-          "id": "rhythmTest/wait",
+          "id": "*/wait",
           "beat": 5.0
         },
         {
-          "id": "rhythmTest/wait",
+          "id": "*/wait",
           "beat": 6.0
         },
         {
-          "id": "rhythmTest/waitPress",
+          "id": "*/waitPress",
           "beat": 7.0
         }
       ]

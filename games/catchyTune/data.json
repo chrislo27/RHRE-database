@@ -6,7 +6,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "catchyTune/leftCatch",
+      "id": "*/leftCatch",
       "deprecatedIDs": [
         "catchyTune/clap"
       ],
@@ -15,7 +15,7 @@
     },
     {
       "type": "cue",
-      "id": "catchyTune/leftOrange",
+      "id": "*/leftOrange",
       "deprecatedIDs": [
         "catchyTune/orange"
       ],
@@ -24,7 +24,7 @@
     },
     {
       "type": "cue",
-      "id": "catchyTune/leftPineapple",
+      "id": "*/leftPineapple",
       "deprecatedIDs": [
         "catchyTune/melon"
       ],
@@ -33,121 +33,121 @@
     },
     {
       "type": "cue",
-      "id": "catchyTune/rightCatch",
+      "id": "*/rightCatch",
       "deprecatedIDs": [],
       "name": "right - catch",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "catchyTune/rightOrange",
+      "id": "*/rightOrange",
       "deprecatedIDs": [],
       "name": "right - orange",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "catchyTune/rightPineapple",
+      "id": "*/rightPineapple",
       "deprecatedIDs": [],
       "name": "right - pineapple",
       "duration": 2.0
     },
     {
       "type": "pattern",
-      "id": "catchyTune_leftOrange",
+      "id": "*_leftOrange",
       "deprecatedIDs": [
         "catchyTune_orange"
       ],
       "name": "left - orange",
       "cues": [
         {
-          "id": "catchyTune/leftOrange",
+          "id": "*/leftOrange",
           "beat": 0.0
         },
         {
-          "id": "catchyTune/leftOrange",
+          "id": "*/leftOrange",
           "beat": 1.0
         },
         {
-          "id": "catchyTune/leftOrange",
+          "id": "*/leftOrange",
           "beat": 2.0
         },
         {
-          "id": "catchyTune/leftCatch",
+          "id": "*/leftCatch",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "catchyTune_rightOrange",
+      "id": "*_rightOrange",
       "deprecatedIDs": [],
       "name": "right - orange",
       "cues": [
         {
-          "id": "catchyTune/rightOrange",
+          "id": "*/rightOrange",
           "beat": 0.0
         },
         {
-          "id": "catchyTune/rightOrange",
+          "id": "*/rightOrange",
           "beat": 1.0
         },
         {
-          "id": "catchyTune/rightOrange",
+          "id": "*/rightOrange",
           "beat": 2.0
         },
         {
-          "id": "catchyTune/rightCatch",
+          "id": "*/rightCatch",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "catchyTune_leftPineapple",
+      "id": "*_leftPineapple",
       "deprecatedIDs": [
         "catchyTune_pineapple"
       ],
       "name": "left - pineapple",
       "cues": [
         {
-          "id": "catchyTune/leftPineapple",
+          "id": "*/leftPineapple",
           "beat": 0.0
         },
         {
-          "id": "catchyTune/leftPineapple",
+          "id": "*/leftPineapple",
           "beat": 2.0
         },
         {
-          "id": "catchyTune/leftPineapple",
+          "id": "*/leftPineapple",
           "beat": 4.0
         },
         {
-          "id": "catchyTune/leftCatch",
+          "id": "*/leftCatch",
           "beat": 6.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "catchyTune_rightPineapple",
+      "id": "*_rightPineapple",
       "deprecatedIDs": [],
       "name": "right - pineapple",
       "cues": [
         {
-          "id": "catchyTune/rightPineapple",
+          "id": "*/rightPineapple",
           "beat": 0.0
         },
         {
-          "id": "catchyTune/rightPineapple",
+          "id": "*/rightPineapple",
           "beat": 2.0
         },
         {
-          "id": "catchyTune/rightPineapple",
+          "id": "*/rightPineapple",
           "beat": 4.0
         },
         {
-          "id": "catchyTune/rightCatch",
+          "id": "*/rightCatch",
           "beat": 6.0
         }
       ]

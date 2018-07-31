@@ -7,7 +7,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "figureFighterEn/and",
+      "id": "*/and",
       "deprecatedIDs": [
         "figureFighter/and"
       ],
@@ -16,7 +16,7 @@
     },
     {
       "type": "cue",
-      "id": "figureFighterEn/and2",
+      "id": "*/and2",
       "deprecatedIDs": [
         "figureFighter/and2"
       ],
@@ -25,7 +25,7 @@
     },
     {
       "type": "cue",
-      "id": "figureFighterEn/jab",
+      "id": "*/jab",
       "deprecatedIDs": [
         "figureFighter/jab"
       ],
@@ -34,7 +34,7 @@
     },
     {
       "type": "cue",
-      "id": "figureFighterEn/jabHit",
+      "id": "*/jabHit",
       "deprecatedIDs": [
         "figureFighter/jabHit"
       ],
@@ -43,7 +43,7 @@
     },
     {
       "type": "cue",
-      "id": "figureFighterEn/jabCrowd",
+      "id": "*/jabCrowd",
       "deprecatedIDs": [
         "figureFighter/jabCrowd"
       ],
@@ -52,7 +52,7 @@
     },
     {
       "type": "cue",
-      "id": "figureFighterEn/oneTwo1",
+      "id": "*/oneTwo1",
       "deprecatedIDs": [
         "figureFighter/oneTwo1"
       ],
@@ -61,7 +61,7 @@
     },
     {
       "type": "cue",
-      "id": "figureFighterEn/oneTwo2",
+      "id": "*/oneTwo2",
       "deprecatedIDs": [
         "figureFighter/oneTwo2"
       ],
@@ -70,7 +70,7 @@
     },
     {
       "type": "cue",
-      "id": "figureFighterEn/oneTwoHit1",
+      "id": "*/oneTwoHit1",
       "deprecatedIDs": [
         "figureFighter/oneTwoHit1"
       ],
@@ -79,7 +79,7 @@
     },
     {
       "type": "cue",
-      "id": "figureFighterEn/oneTwoHit2",
+      "id": "*/oneTwoHit2",
       "deprecatedIDs": [
         "figureFighter/oneTwoHit2"
       ],
@@ -88,7 +88,7 @@
     },
     {
       "type": "cue",
-      "id": "figureFighterEn/go1",
+      "id": "*/go1",
       "deprecatedIDs": [
         "figureFighter/go1"
       ],
@@ -97,7 +97,7 @@
     },
     {
       "type": "cue",
-      "id": "figureFighterEn/go2",
+      "id": "*/go2",
       "deprecatedIDs": [
         "figureFighter/go2"
       ],
@@ -106,7 +106,7 @@
     },
     {
       "type": "cue",
-      "id": "figureFighterEn/go3",
+      "id": "*/go3",
       "deprecatedIDs": [
         "figureFighter/go3"
       ],
@@ -115,7 +115,7 @@
     },
     {
       "type": "cue",
-      "id": "figureFighterEn/goHit1",
+      "id": "*/goHit1",
       "deprecatedIDs": [
         "figureFighter/goHit1"
       ],
@@ -124,7 +124,7 @@
     },
     {
       "type": "cue",
-      "id": "figureFighterEn/goHit2",
+      "id": "*/goHit2",
       "deprecatedIDs": [
         "figureFighter/goHit2"
       ],
@@ -133,7 +133,7 @@
     },
     {
       "type": "cue",
-      "id": "figureFighterEn/goHit3",
+      "id": "*/goHit3",
       "deprecatedIDs": [
         "figureFighter/goHit3"
       ],
@@ -142,7 +142,7 @@
     },
     {
       "type": "cue",
-      "id": "figureFighterEn/jabHitpower",
+      "id": "*/jabHitpower",
       "deprecatedIDs": [
         "figureFighter/jabHitpower"
       ],
@@ -151,7 +151,7 @@
     },
     {
       "type": "cue",
-      "id": "figureFighterEn/applauseHit",
+      "id": "*/applauseHit",
       "deprecatedIDs": [
         "figureFighter/appaluseHit",
         "figureFighter/applauseHit"
@@ -161,7 +161,7 @@
     },
     {
       "type": "cue",
-      "id": "figureFighterEn/fastOneTwo1",
+      "id": "*/fastOneTwo1",
       "deprecatedIDs": [
         "figureFighter/fastOneTwo1"
       ],
@@ -170,7 +170,7 @@
     },
     {
       "type": "cue",
-      "id": "figureFighterEn/fastOneTwo2",
+      "id": "*/fastOneTwo2",
       "deprecatedIDs": [
         "figureFighter/fastOneTwo2"
       ],
@@ -179,7 +179,7 @@
     },
     {
       "type": "cue",
-      "id": "figureFighterEn/fastOneTwoHit1",
+      "id": "*/fastOneTwoHit1",
       "deprecatedIDs": [
         "figureFighter/fastOneTwoHit1"
       ],
@@ -188,7 +188,7 @@
     },
     {
       "type": "cue",
-      "id": "figureFighterEn/fastOneTwoHit2",
+      "id": "*/fastOneTwoHit2",
       "deprecatedIDs": [
         "figureFighter/fastOneTwoHit2"
       ],
@@ -197,160 +197,160 @@
     },
     {
       "type": "pattern",
-      "id": "figureFighterEn_jab",
+      "id": "*_jab",
       "deprecatedIDs": [
         "figureFighter_jab"
       ],
       "name": "jab",
       "cues": [
         {
-          "id": "figureFighterEn/jab",
+          "id": "*/jab",
           "beat": 0.0
         },
         {
-          "id": "figureFighterEn/jabHit",
+          "id": "*/jabHit",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "figureFighterEn_jabCrowd",
+      "id": "*_jabCrowd",
       "deprecatedIDs": [
         "figureFighter_jabCrowd"
       ],
       "name": "jab with crowd",
       "cues": [
         {
-          "id": "figureFighterEn/jab",
+          "id": "*/jab",
           "beat": 0.0
         },
         {
-          "id": "figureFighterEn/jabCrowd",
+          "id": "*/jabCrowd",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "figureFighterEn_oneTwo",
+      "id": "*_oneTwo",
       "deprecatedIDs": [
         "figureFighter_oneTwo"
       ],
       "name": "one two",
       "cues": [
         {
-          "id": "figureFighterEn/oneTwo1",
+          "id": "*/oneTwo1",
           "beat": 0.0
         },
         {
-          "id": "figureFighterEn/oneTwo2",
+          "id": "*/oneTwo2",
           "beat": 1.0
         },
         {
-          "id": "figureFighterEn/oneTwoHit1",
+          "id": "*/oneTwoHit1",
           "beat": 2.0
         },
         {
-          "id": "figureFighterEn/oneTwoHit2",
+          "id": "*/oneTwoHit2",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "figureFighterEn_gogogo",
+      "id": "*_gogogo",
       "deprecatedIDs": [
         "figureFighter_gogogo"
       ],
       "name": "go go go!",
       "cues": [
         {
-          "id": "figureFighterEn/go1",
+          "id": "*/go1",
           "beat": 0.0
         },
         {
-          "id": "figureFighterEn/go2",
+          "id": "*/go2",
           "beat": 0.5
         },
         {
-          "id": "figureFighterEn/go3",
+          "id": "*/go3",
           "beat": 1.0
         },
         {
-          "id": "figureFighterEn/goHit1",
+          "id": "*/goHit1",
           "beat": 2.0
         },
         {
-          "id": "figureFighterEn/goHit2",
+          "id": "*/goHit2",
           "beat": 2.5
         },
         {
-          "id": "figureFighterEn/goHit3",
+          "id": "*/goHit3",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "figureFighterEn_gogogoApplause",
+      "id": "*_gogogoApplause",
       "deprecatedIDs": [
         "figureFighter_gogogoApplause"
       ],
       "name": "go go go! applause",
       "cues": [
         {
-          "id": "figureFighterEn/go1",
+          "id": "*/go1",
           "beat": 0.0
         },
         {
-          "id": "figureFighterEn/go2",
+          "id": "*/go2",
           "beat": 0.5
         },
         {
-          "id": "figureFighterEn/go3",
+          "id": "*/go3",
           "beat": 1.0
         },
         {
-          "id": "figureFighterEn/goHit1",
+          "id": "*/goHit1",
           "beat": 2.0
         },
         {
-          "id": "figureFighterEn/goHit2",
+          "id": "*/goHit2",
           "beat": 2.5
         },
         {
-          "id": "figureFighterEn/jabHitpower",
+          "id": "*/jabHitpower",
           "beat": 3.0
         },
         {
-          "id": "figureFighterEn/applauseHit",
+          "id": "*/applauseHit",
           "beat": 4.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "figureFighterEn_oneTwoFast",
+      "id": "*_oneTwoFast",
       "deprecatedIDs": [
         "figureFighter_oneTwoFast"
       ],
       "name": "fast one two",
       "cues": [
         {
-          "id": "figureFighterEn/fastOneTwo1",
+          "id": "*/fastOneTwo1",
           "beat": 0.0
         },
         {
-          "id": "figureFighterEn/fastOneTwo2",
+          "id": "*/fastOneTwo2",
           "beat": 0.5
         },
         {
-          "id": "figureFighterEn/fastOneTwoHit1",
+          "id": "*/fastOneTwoHit1",
           "beat": 1.0
         },
         {
-          "id": "figureFighterEn/fastOneTwoHit2",
+          "id": "*/fastOneTwoHit2",
           "beat": 1.5
         }
       ]

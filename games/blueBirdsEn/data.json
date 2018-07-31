@@ -7,7 +7,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "blueBirdsEn/peckyourbeak1",
+      "id": "*/peckyourbeak1",
       "deprecatedIDs": [
         "blueBirds/peckyourbeak1"
       ],
@@ -16,7 +16,7 @@
     },
     {
       "type": "cue",
-      "id": "blueBirdsEn/peckyourbeak2",
+      "id": "*/peckyourbeak2",
       "deprecatedIDs": [
         "blueBirds/peckyourbeak2"
       ],
@@ -25,7 +25,7 @@
     },
     {
       "type": "cue",
-      "id": "blueBirdsEn/peckyourbeak3",
+      "id": "*/peckyourbeak3",
       "deprecatedIDs": [
         "blueBirds/peckyourbeak3"
       ],
@@ -34,7 +34,7 @@
     },
     {
       "type": "cue",
-      "id": "blueBirdsEn/peck",
+      "id": "*/peck",
       "deprecatedIDs": [
         "blueBirds/peck"
       ],
@@ -43,7 +43,7 @@
     },
     {
       "type": "cue",
-      "id": "blueBirdsEn/stretchoutyourneck1",
+      "id": "*/stretchoutyourneck1",
       "deprecatedIDs": [
         "blueBirds/stretchoutyourneck1"
       ],
@@ -52,7 +52,7 @@
     },
     {
       "type": "cue",
-      "id": "blueBirdsEn/stretchoutyourneck2",
+      "id": "*/stretchoutyourneck2",
       "deprecatedIDs": [
         "blueBirds/stretchoutyourneck2"
       ],
@@ -61,7 +61,7 @@
     },
     {
       "type": "cue",
-      "id": "blueBirdsEn/stretchoutyourneck3",
+      "id": "*/stretchoutyourneck3",
       "deprecatedIDs": [
         "blueBirds/stretchoutyourneck3"
       ],
@@ -70,7 +70,7 @@
     },
     {
       "type": "cue",
-      "id": "blueBirdsEn/stretchoutyourneck4",
+      "id": "*/stretchoutyourneck4",
       "deprecatedIDs": [
         "blueBirds/stretchoutyourneck4"
       ],
@@ -79,7 +79,7 @@
     },
     {
       "type": "cue",
-      "id": "blueBirdsEn/stretch1",
+      "id": "*/stretch1",
       "deprecatedIDs": [
         "blueBirds/stretch1"
       ],
@@ -88,7 +88,7 @@
     },
     {
       "type": "cue",
-      "id": "blueBirdsEn/stretch2",
+      "id": "*/stretch2",
       "deprecatedIDs": [
         "blueBirds/stretch2"
       ],
@@ -97,68 +97,68 @@
     },
     {
       "type": "pattern",
-      "id": "blueBirdsEn_peckyourbeak",
+      "id": "*_peckyourbeak",
       "deprecatedIDs": [
         "blueBirds_peckyourbeak"
       ],
       "name": "peck your beak",
       "cues": [
         {
-          "id": "blueBirdsEn/peckyourbeak1",
+          "id": "*/peckyourbeak1",
           "beat": 0.0
         },
         {
-          "id": "blueBirdsEn/peckyourbeak2",
+          "id": "*/peckyourbeak2",
           "beat": 0.5
         },
         {
-          "id": "blueBirdsEn/peckyourbeak3",
+          "id": "*/peckyourbeak3",
           "beat": 1.0
         },
         {
-          "id": "blueBirdsEn/peck",
+          "id": "*/peck",
           "beat": 2.0
         },
         {
-          "id": "blueBirdsEn/peck",
+          "id": "*/peck",
           "beat": 2.5
         },
         {
-          "id": "blueBirdsEn/peck",
+          "id": "*/peck",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "blueBirdsEn_stretchoutyourneck",
+      "id": "*_stretchoutyourneck",
       "deprecatedIDs": [
         "blueBirds_stretchoutyourneck"
       ],
       "name": "stretch out your neck",
       "cues": [
         {
-          "id": "blueBirdsEn/stretchoutyourneck1",
+          "id": "*/stretchoutyourneck1",
           "beat": 0.0
         },
         {
-          "id": "blueBirdsEn/stretchoutyourneck2",
+          "id": "*/stretchoutyourneck2",
           "beat": 0.75
         },
         {
-          "id": "blueBirdsEn/stretchoutyourneck3",
+          "id": "*/stretchoutyourneck3",
           "beat": 1.5
         },
         {
-          "id": "blueBirdsEn/stretchoutyourneck4",
+          "id": "*/stretchoutyourneck4",
           "beat": 2.0
         },
         {
-          "id": "blueBirdsEn/stretch1",
+          "id": "*/stretch1",
           "beat": 3.0
         },
         {
-          "id": "blueBirdsEn/stretch2",
+          "id": "*/stretch2",
           "beat": 4.0
         }
       ]

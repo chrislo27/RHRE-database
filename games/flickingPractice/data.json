@@ -5,49 +5,49 @@
   "objects": [
     {
       "type": "cue",
-      "id": "flickingPractice/cointap",
+      "id": "*/cointap",
       "deprecatedIDs": [],
       "name": "coin - tap",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "flickingPractice/coinrelease",
+      "id": "*/coinrelease",
       "deprecatedIDs": [],
       "name": "coin - release",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "flickingPractice/frog_hit",
+      "id": "*/frog_hit",
       "deprecatedIDs": [],
       "name": "frog - hit",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "flickingPractice/frog_igive",
+      "id": "*/frog_igive",
       "deprecatedIDs": [],
       "name": "frog - i give!",
       "duration": 1.0
     },
 	{
       "type": "cue",
-      "id": "flickingPractice/toycar_normal_intro",
+      "id": "*/toycar_normal_intro",
       "deprecatedIDs": [],
       "name": "flickingPractice/toycar_normal_intro",
       "duration": 1.0E-6
     },
 	{
       "type": "cue",
-      "id": "flickingPractice/toycar_fast_intro",
+      "id": "*/toycar_fast_intro",
       "deprecatedIDs": [],
       "name": "flickingPractice/toycar_fast_intro",
       "duration": 1.0E-6
     },
     {
       "type": "cue",
-      "id": "flickingPractice/toycar_normal",
+      "id": "*/toycar_normal",
       "deprecatedIDs": [],
       "name": "toy car - normal",
       "duration": 1.0,
@@ -58,7 +58,7 @@
     },
     {
       "type": "cue",
-      "id": "flickingPractice/toycar_fast",
+      "id": "*/toycar_fast",
       "deprecatedIDs": [],
       "name": "toy car - fast",
       "duration": 1.0,
@@ -69,14 +69,14 @@
     },
 	{
       "type": "cue",
-      "id": "flickingPractice/toycar_hit",
+      "id": "*/toycar_hit",
       "deprecatedIDs": [],
       "name": "toy car - hit",
       "duration": 1.0
     },
 	{
       "type": "cue",
-      "id": "flickingPractice/tap",
+      "id": "*/tap",
       "deprecatedIDs": [],
       "name": "text advance",
       "duration": 1.0

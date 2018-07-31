@@ -5,91 +5,91 @@
   "objects": [
     {
       "type": "cue",
-      "id": "fillbots/mediumFall",
+      "id": "*/mediumFall",
       "deprecatedIDs": [],
       "name": "medium - fall",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fillbots/mediumFinish1",
+      "id": "*/mediumFinish1",
       "deprecatedIDs": [],
       "name": "medium - detach - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "fillbots/mediumFinish2",
+      "id": "*/mediumFinish2",
       "deprecatedIDs": [],
       "name": "medium - detach - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "fillbots/mediumFinish3",
+      "id": "*/mediumFinish3",
       "deprecatedIDs": [],
       "name": "medium - detach - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "fillbots/bigFall",
+      "id": "*/bigFall",
       "deprecatedIDs": [],
       "name": "big - fall",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fillbots/bigFinish1",
+      "id": "*/bigFinish1",
       "deprecatedIDs": [],
       "name": "big - detach - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "fillbots/bigFinish2",
+      "id": "*/bigFinish2",
       "deprecatedIDs": [],
       "name": "big - detach - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "fillbots/bigFinish3",
+      "id": "*/bigFinish3",
       "deprecatedIDs": [],
       "name": "big - detach - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "fillbots/smallFall",
+      "id": "*/smallFall",
       "deprecatedIDs": [],
       "name": "small - fall",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fillbots/smallFinish1",
+      "id": "*/smallFinish1",
       "deprecatedIDs": [],
       "name": "small - detach - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "fillbots/smallFinish2",
+      "id": "*/smallFinish2",
       "deprecatedIDs": [],
       "name": "small - detach - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "fillbots/smallFinish3",
+      "id": "*/smallFinish3",
       "deprecatedIDs": [],
       "name": "small - detach - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "fillbots/water",
+      "id": "*/water",
       "deprecatedIDs": [],
       "name": "filling sound",
       "duration": 1.0,
@@ -98,269 +98,269 @@
     },
     {
       "type": "cue",
-      "id": "fillbots/armExtension",
+      "id": "*/armExtension",
       "deprecatedIDs": [],
       "name": "arm extension",
       "duration": 0.05
     },
     {
       "type": "cue",
-      "id": "fillbots/beep",
+      "id": "*/beep",
       "deprecatedIDs": [],
       "name": "beep",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fillbots/fillErUp1",
+      "id": "*/fillErUp1",
       "deprecatedIDs": [],
       "name": "practice - fill 'er up! - 1",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "fillbots/fillErUp2",
+      "id": "*/fillErUp2",
       "deprecatedIDs": [],
       "name": "practice - fill 'er up! - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "fillbots/fillErUp3",
+      "id": "*/fillErUp3",
       "deprecatedIDs": [],
       "name": "practice - fill 'er up! - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "fillbots/hai",
+      "id": "*/hai",
       "deprecatedIDs": [],
       "name": "practice - hai!",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "fillbots/aGenDar1",
+      "id": "*/aGenDar1",
       "deprecatedIDs": [],
       "name": "practice - a llenar! - 1",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "fillbots/aGenDar2",
+      "id": "*/aGenDar2",
       "deprecatedIDs": [],
       "name": "practice - a llenar! - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "fillbots/aGenDar3",
+      "id": "*/aGenDar3",
       "deprecatedIDs": [],
       "name": "practice - a llenar! - 3",
       "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "fillbots_mediumRobot",
+      "id": "*_mediumRobot",
       "deprecatedIDs": [],
       "name": "medium robot",
       "cues": [
         {
-          "id": "fillbots/mediumFall",
+          "id": "*/mediumFall",
           "beat": 0.0
         },
         {
-          "id": "fillbots/mediumFall",
+          "id": "*/mediumFall",
           "beat": 1.0
         },
         {
-          "id": "fillbots/mediumFall",
+          "id": "*/mediumFall",
           "beat": 2.0
         },
         {
-          "id": "fillbots/water",
+          "id": "*/water",
           "beat": 4.0,
           "duration": 3.0
         },
         {
-          "id": "fillbots/beep",
+          "id": "*/beep",
           "beat": 4.0,
           "track": 1
         },
         {
-          "id": "fillbots/beep",
+          "id": "*/beep",
           "beat": 5.0,
           "track": 1
         },
         {
-          "id": "fillbots/beep",
+          "id": "*/beep",
           "beat": 6.0,
           "track": 1
         },
         {
-          "id": "fillbots/mediumFinish1",
+          "id": "*/mediumFinish1",
           "beat": 7.0
         },
         {
-          "id": "fillbots/mediumFinish2",
+          "id": "*/mediumFinish2",
           "beat": 7.5
         },
         {
-          "id": "fillbots/mediumFinish3",
+          "id": "*/mediumFinish3",
           "beat": 8.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "fillbots_bigRobot",
+      "id": "*_bigRobot",
       "deprecatedIDs": [],
       "name": "big robot",
       "cues": [
         {
-          "id": "fillbots/bigFall",
+          "id": "*/bigFall",
           "beat": 0.0
         },
         {
-          "id": "fillbots/bigFall",
+          "id": "*/bigFall",
           "beat": 1.0
         },
         {
-          "id": "fillbots/bigFall",
+          "id": "*/bigFall",
           "beat": 2.0
         },
         {
-          "id": "fillbots/water",
+          "id": "*/water",
           "beat": 4.0,
           "duration": 7.0
         },
         {
-          "id": "fillbots/beep",
+          "id": "*/beep",
           "beat": 4.0,
           "track": 1
         },
         {
-          "id": "fillbots/beep",
+          "id": "*/beep",
           "beat": 5.0,
           "track": 1
         },
         {
-          "id": "fillbots/beep",
+          "id": "*/beep",
           "beat": 6.0,
           "track": 1
         },
         {
-          "id": "fillbots/beep",
+          "id": "*/beep",
           "beat": 7.0,
           "track": 1
         },
         {
-          "id": "fillbots/beep",
+          "id": "*/beep",
           "beat": 8.0,
           "track": 1
         },
         {
-          "id": "fillbots/beep",
+          "id": "*/beep",
           "beat": 9.0,
           "track": 1
         },
         {
-          "id": "fillbots/beep",
+          "id": "*/beep",
           "beat": 10.0,
           "track": 1
         },
         {
-          "id": "fillbots/bigFinish1",
+          "id": "*/bigFinish1",
           "beat": 11.0
         },
         {
-          "id": "fillbots/bigFinish2",
+          "id": "*/bigFinish2",
           "beat": 11.5
         },
         {
-          "id": "fillbots/bigFinish3",
+          "id": "*/bigFinish3",
           "beat": 12.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "fillbots_smallRobot",
+      "id": "*_smallRobot",
       "deprecatedIDs": [],
       "name": "small robot",
       "cues": [
         {
-          "id": "fillbots/smallFall",
+          "id": "*/smallFall",
           "beat": 0.0
         },
         {
-          "id": "fillbots/smallFall",
+          "id": "*/smallFall",
           "beat": 1.0
         },
         {
-          "id": "fillbots/smallFall",
+          "id": "*/smallFall",
           "beat": 2.0
         },
         {
-          "id": "fillbots/water",
+          "id": "*/water",
           "beat": 4.0,
           "duration": 1.0
         },
         {
-          "id": "fillbots/beep",
+          "id": "*/beep",
           "beat": 4.0,
           "track": 1
         },
         {
-          "id": "fillbots/smallFinish1",
+          "id": "*/smallFinish1",
           "beat": 5.0
         },
         {
-          "id": "fillbots/smallFinish2",
+          "id": "*/smallFinish2",
           "beat": 5.5
         },
         {
-          "id": "fillbots/smallFinish3",
+          "id": "*/smallFinish3",
           "beat": 6.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "fillbots_fillErUp",
+      "id": "*_fillErUp",
       "deprecatedIDs": [],
       "name": "fill 'er up! (practice - English)",
       "cues": [
         {
-          "id": "fillbots/fillErUp1",
+          "id": "*/fillErUp1",
           "beat": 0.0
         },
         {
-          "id": "fillbots/fillErUp2",
+          "id": "*/fillErUp2",
           "beat": 0.25
         },
         {
-          "id": "fillbots/fillErUp3",
+          "id": "*/fillErUp3",
           "beat": 0.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "fillbots_aGenDar",
+      "id": "*_aGenDar",
       "deprecatedIDs": [],
       "name": "a llenar! (practice - Spanish)",
       "cues": [
         {
-          "id": "fillbots/aGenDar1",
+          "id": "*/aGenDar1",
           "beat": 0.0
         },
         {
-          "id": "fillbots/aGenDar2",
+          "id": "*/aGenDar2",
           "beat": 0.25
         },
         {
-          "id": "fillbots/aGenDar3",
+          "id": "*/aGenDar3",
           "beat": 0.5
         }
       ]

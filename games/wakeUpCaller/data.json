@@ -5,120 +5,120 @@
   "objects": [
     {
       "type": "cue",
-      "id": "wakeUpCaller/tickTockOn1",
+      "id": "*/tickTockOn1",
       "deprecatedIDs": [],
       "name": "tick tock - onbeat - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "wakeUpCaller/tickTockOn2",
+      "id": "*/tickTockOn2",
       "deprecatedIDs": [],
       "name": "tick tock - onbeat - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "wakeUpCaller/tickTockOff1",
+      "id": "*/tickTockOff1",
       "deprecatedIDs": [],
       "name": "tick tock - offbeat - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "wakeUpCaller/tickTockOff2",
+      "id": "*/tickTockOff2",
       "deprecatedIDs": [],
       "name": "tick tock - offbeat - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "wakeUpCaller/alarmStop",
+      "id": "*/alarmStop",
       "deprecatedIDs": [],
       "name": "alarm - waking up",
       "duration": 7.0
     },
     {
       "type": "cue",
-      "id": "wakeUpCaller/verdictTime",
+      "id": "*/verdictTime",
       "deprecatedIDs": [],
       "name": "what time is it?",
       "duration": 9.0
     },
     {
       "type": "cue",
-      "id": "wakeUpCaller/victorySeed",
+      "id": "*/victorySeed",
       "deprecatedIDs": [],
       "name": "happy grandpa - one flower",
       "duration": 7.0
     },
     {
       "type": "cue",
-      "id": "wakeUpCaller/nextNight",
+      "id": "*/nextNight",
       "deprecatedIDs": [],
       "name": "that night...",
       "duration": 14.0
     },
     {
       "type": "pattern",
-      "id": "wakeUpCaller_onBeatTicking",
+      "id": "*_onBeatTicking",
       "deprecatedIDs": [],
       "name": "tick-tock onbeat",
       "cues": [
         {
-          "id": "wakeUpCaller/tickTockOn1",
+          "id": "*/tickTockOn1",
           "beat": 0.0
         },
         {
-          "id": "wakeUpCaller/tickTockOn2",
+          "id": "*/tickTockOn2",
           "beat": 1.0
         },
         {
-          "id": "wakeUpCaller/tickTockOn1",
+          "id": "*/tickTockOn1",
           "beat": 2.0
         },
         {
-          "id": "wakeUpCaller/tickTockOn2",
+          "id": "*/tickTockOn2",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "wakeUpCaller_offBeatTicking",
+      "id": "*_offBeatTicking",
       "deprecatedIDs": [],
       "name": "tick-tock offbeat",
       "cues": [
         {
-          "id": "wakeUpCaller/tickTockOn1",
+          "id": "*/tickTockOn1",
           "beat": 0.0
         },
         {
-          "id": "wakeUpCaller/tickTockOff1",
+          "id": "*/tickTockOff1",
           "beat": 0.5
         },
         {
-          "id": "wakeUpCaller/tickTockOn2",
+          "id": "*/tickTockOn2",
           "beat": 1.0
         },
         {
-          "id": "wakeUpCaller/tickTockOff2",
+          "id": "*/tickTockOff2",
           "beat": 1.5
         },
         {
-          "id": "wakeUpCaller/tickTockOn1",
+          "id": "*/tickTockOn1",
           "beat": 2.0
         },
         {
-          "id": "wakeUpCaller/tickTockOff1",
+          "id": "*/tickTockOff1",
           "beat": 2.5
         },
         {
-          "id": "wakeUpCaller/tickTockOn2",
+          "id": "*/tickTockOn2",
           "beat": 3.0
         },
         {
-          "id": "wakeUpCaller/tickTockOff2",
+          "id": "*/tickTockOff2",
           "beat": 3.5
         }
       ]

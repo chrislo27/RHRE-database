@@ -5,243 +5,243 @@
   "objects": [
     {
       "type": "cue",
-      "id": "meowMixer/right",
+      "id": "*/right",
       "deprecatedIDs": [],
       "name": "right",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "meowMixer/up",
+      "id": "*/up",
       "deprecatedIDs": [],
       "name": "up",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "meowMixer/down",
+      "id": "*/down",
       "deprecatedIDs": [],
       "name": "down",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "meowMixer/a1",
+      "id": "*/a1",
       "deprecatedIDs": [],
       "name": "A - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "meowMixer/a2",
+      "id": "*/a2",
       "deprecatedIDs": [],
       "name": "A - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "meowMixer/a3",
+      "id": "*/a3",
       "deprecatedIDs": [],
       "name": "A - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "meowMixer/a4",
+      "id": "*/a4",
       "deprecatedIDs": [],
       "name": "A - 4",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "meowMixer/a5",
+      "id": "*/a5",
       "deprecatedIDs": [],
       "name": "A - 5",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "meowMixer/a6",
+      "id": "*/a6",
       "deprecatedIDs": [],
       "name": "A - 6",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "meowMixer/a7",
+      "id": "*/a7",
       "deprecatedIDs": [],
       "name": "A - 7",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "meowMixer/a8",
+      "id": "*/a8",
       "deprecatedIDs": [],
       "name": "A - 8",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "meowMixer/b1",
+      "id": "*/b1",
       "deprecatedIDs": [],
       "name": "B - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "meowMixer/b2",
+      "id": "*/b2",
       "deprecatedIDs": [],
       "name": "B - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "meowMixer/b3",
+      "id": "*/b3",
       "deprecatedIDs": [],
       "name": "B - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "meowMixer/b4",
+      "id": "*/b4",
       "deprecatedIDs": [],
       "name": "B - 4",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "meowMixer/b5",
+      "id": "*/b5",
       "deprecatedIDs": [],
       "name": "B - 5",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "meowMixer/b6",
+      "id": "*/b6",
       "deprecatedIDs": [],
       "name": "B - 6",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "meowMixer/b7",
+      "id": "*/b7",
       "deprecatedIDs": [],
       "name": "B - 7",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "meowMixer/b8",
+      "id": "*/b8",
       "deprecatedIDs": [],
       "name": "B - 8",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "meowMixer/left1",
+      "id": "*/left1",
       "deprecatedIDs": [],
       "name": "left - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "meowMixer/left2",
+      "id": "*/left2",
       "deprecatedIDs": [],
       "name": "left - 2",
       "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "meowMixer_a",
+      "id": "*_a",
       "deprecatedIDs": [],
       "name": "A",
       "cues": [
         {
-          "id": "meowMixer/a1",
+          "id": "*/a1",
           "beat": 0.0
         },
         {
-          "id": "meowMixer/a2",
+          "id": "*/a2",
           "beat": 0.5
         },
         {
-          "id": "meowMixer/a3",
+          "id": "*/a3",
           "beat": 1.0
         },
         {
-          "id": "meowMixer/a4",
+          "id": "*/a4",
           "beat": 1.5
         },
         {
-          "id": "meowMixer/a5",
+          "id": "*/a5",
           "beat": 2.0
         },
         {
-          "id": "meowMixer/a6",
+          "id": "*/a6",
           "beat": 2.5
         },
         {
-          "id": "meowMixer/a7",
+          "id": "*/a7",
           "beat": 3.0
         },
         {
-          "id": "meowMixer/a8",
+          "id": "*/a8",
           "beat": 3.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "meowMixer_b",
+      "id": "*_b",
       "deprecatedIDs": [],
       "name": "B",
       "cues": [
         {
-          "id": "meowMixer/b1",
+          "id": "*/b1",
           "beat": 0.0
         },
         {
-          "id": "meowMixer/b2",
+          "id": "*/b2",
           "beat": 0.5
         },
         {
-          "id": "meowMixer/b3",
+          "id": "*/b3",
           "beat": 1.0
         },
         {
-          "id": "meowMixer/b4",
+          "id": "*/b4",
           "beat": 1.5
         },
         {
-          "id": "meowMixer/b5",
+          "id": "*/b5",
           "beat": 2.0
         },
         {
-          "id": "meowMixer/b6",
+          "id": "*/b6",
           "beat": 2.5
         },
         {
-          "id": "meowMixer/b7",
+          "id": "*/b7",
           "beat": 3.0
         },
         {
-          "id": "meowMixer/b8",
+          "id": "*/b8",
           "beat": 3.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "meowMixer_left",
+      "id": "*_left",
       "deprecatedIDs": [],
       "name": "left",
       "cues": [
         {
-          "id": "meowMixer/left1",
+          "id": "*/left1",
           "beat": 0.0
         },
         {
-          "id": "meowMixer/left2",
+          "id": "*/left2",
           "beat": 0.5
         }
       ]

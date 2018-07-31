@@ -6,142 +6,142 @@
   "objects": [
     {
       "type": "cue",
-      "id": "fruitBasket/apple",
+      "id": "*/apple",
       "deprecatedIDs": [],
       "name": "apple out",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fruitBasket/dunk",
+      "id": "*/dunk",
       "deprecatedIDs": [],
       "name": "dunk",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fruitBasket/basket",
+      "id": "*/basket",
       "deprecatedIDs": [],
       "name": "basket",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fruitBasket/lemon",
+      "id": "*/lemon",
       "deprecatedIDs": [],
       "name": "lemon out",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fruitBasket/melon1",
+      "id": "*/melon1",
       "deprecatedIDs": [],
       "name": "melon - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fruitBasket/melon2",
+      "id": "*/melon2",
       "deprecatedIDs": [],
       "name": "melon - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fruitBasket/melon3",
+      "id": "*/melon3",
       "deprecatedIDs": [],
       "name": "melon - 3",
       "duration": 0.75
     },
     {
       "type": "cue",
-      "id": "fruitBasket/melon4",
+      "id": "*/melon4",
       "deprecatedIDs": [],
       "name": "melon - 4",
       "duration": 0.75
     },
     {
       "type": "cue",
-      "id": "fruitBasket/melon5",
+      "id": "*/melon5",
       "deprecatedIDs": [],
       "name": "melon - 5",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "fruitBasket/melon6",
+      "id": "*/melon6",
       "deprecatedIDs": [],
       "name": "melon - 6",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "fruitBasket_apple",
+      "id": "*_apple",
       "deprecatedIDs": [],
       "name": "apple",
       "cues": [
         {
-          "id": "fruitBasket/apple",
+          "id": "*/apple",
           "beat": 0.0
         },
         {
-          "id": "fruitBasket/dunk",
+          "id": "*/dunk",
           "beat": 2.0
         },
         {
-          "id": "fruitBasket/basket",
+          "id": "*/basket",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "fruitBasket_lemon",
+      "id": "*_lemon",
       "deprecatedIDs": [],
       "name": "lemon",
       "cues": [
         {
-          "id": "fruitBasket/lemon",
+          "id": "*/lemon",
           "beat": 0.0
         },
         {
-          "id": "fruitBasket/dunk",
+          "id": "*/dunk",
           "beat": 4.0
         },
         {
-          "id": "fruitBasket/basket",
+          "id": "*/basket",
           "beat": 5.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "fruitBasket_melon",
+      "id": "*_melon",
       "deprecatedIDs": [],
       "name": "melon",
       "cues": [
         {
-          "id": "fruitBasket/melon1",
+          "id": "*/melon1",
           "beat": 0.0
         },
         {
-          "id": "fruitBasket/melon2",
+          "id": "*/melon2",
           "beat": 1.0
         },
         {
-          "id": "fruitBasket/melon3",
+          "id": "*/melon3",
           "beat": 2.0
         },
         {
-          "id": "fruitBasket/melon4",
+          "id": "*/melon4",
           "beat": 2.75
         },
         {
-          "id": "fruitBasket/melon5",
+          "id": "*/melon5",
           "beat": 3.5
         },
         {
-          "id": "fruitBasket/melon6",
+          "id": "*/melon6",
           "beat": 4.0
         }
       ]

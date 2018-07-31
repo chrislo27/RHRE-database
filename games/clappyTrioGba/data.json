@@ -5,56 +5,56 @@
   "objects": [
     {
       "type": "cue",
-      "id": "clappyTrioGba/clap",
+      "id": "*/clap",
       "deprecatedIDs": [],
       "name": "clap",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "clappyTrioGba/ready",
+      "id": "*/ready",
       "deprecatedIDs": [],
       "name": "ready",
       "duration": 0.25
     },
     {
       "type": "equidistant",
-      "id": "clappyTrioGba_triotiming",
+      "id": "*_triotiming",
       "deprecatedIDs": [],
       "name": "trio timing!",
       "distance": 1.0,
       "stretchable": true,
       "cues": [
         {
-          "id": "clappyTrioGba/clap"
+          "id": "*/clap"
         },
         {
-          "id": "clappyTrioGba/clap"
+          "id": "*/clap"
         },
         {
-          "id": "clappyTrioGba/clap"
+          "id": "*/clap"
         }
       ]
     },
     {
       "type": "equidistant",
-      "id": "clappyTrioGba_fouronthefloor",
+      "id": "*_fouronthefloor",
       "deprecatedIDs": [],
       "name": "four on the floor!",
       "distance": 1.0,
       "stretchable": true,
       "cues": [
         {
-          "id": "clappyTrioGba/clap"
+          "id": "*/clap"
         },
         {
-          "id": "clappyTrioGba/clap"
+          "id": "*/clap"
         },
         {
-          "id": "clappyTrioGba/clap"
+          "id": "*/clap"
         },
         {
-          "id": "clappyTrioGba/clap"
+          "id": "*/clap"
         }
       ]
     }

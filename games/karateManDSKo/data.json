@@ -6,183 +6,183 @@
   "objects": [
     {
       "type": "cue",
-      "id": "karateManDSKo/potOut",
+      "id": "*/potOut",
       "deprecatedIDs": [],
       "name": "pot - out",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManDSKo/offbeatPotOut",
+      "id": "*/offbeatPotOut",
       "deprecatedIDs": [],
       "name": "pot - offbeat out",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManDSKo/potHit",
+      "id": "*/potHit",
       "deprecatedIDs": [],
       "name": "pot - hit",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManDSKo/hit3cue1",
+      "id": "*/hit3cue1",
       "deprecatedIDs": [],
       "name": "hit",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "karateManDSKo/hit3cue2",
+      "id": "*/hit3cue2",
       "deprecatedIDs": [],
       "name": "3!",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "karateManDSKo/bulbOut",
+      "id": "*/bulbOut",
       "deprecatedIDs": [],
       "name": "lightbulb - out",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManDSKo/bulbHit",
+      "id": "*/bulbHit",
       "deprecatedIDs": [],
       "name": "lightbulb - hit",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManDSKo/barrelOut",
+      "id": "*/barrelOut",
       "deprecatedIDs": [],
       "name": "barrel - out",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManDSKo/punchKick1",
+      "id": "*/punchKick1",
       "deprecatedIDs": [],
       "name": "kick - pun",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "karateManDSKo/punchKick2",
+      "id": "*/punchKick2",
       "deprecatedIDs": [],
       "name": "kick - ch",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "karateManDSKo/punchKick3",
+      "id": "*/punchKick3",
       "deprecatedIDs": [],
       "name": "kick - kick",
       "duration": 0.75
     },
     {
       "type": "pattern",
-      "id": "karateManDSKo_pot",
+      "id": "*_pot",
       "deprecatedIDs": [],
       "name": "pot",
       "cues": [
         {
-          "id": "karateManDSKo/potOut",
+          "id": "*/potOut",
           "beat": 0.0
         },
         {
-          "id": "karateManDSKo/potHit",
+          "id": "*/potHit",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManDSKo_offbeatpot",
+      "id": "*_offbeatpot",
       "deprecatedIDs": [],
       "name": "offbeat pot",
       "cues": [
         {
-          "id": "karateManDSKo/offbeatPotOut",
+          "id": "*/offbeatPotOut",
           "beat": 0.0
         },
         {
-          "id": "karateManDSKo/potHit",
+          "id": "*/potHit",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManDSKo_hit3",
+      "id": "*_hit3",
       "deprecatedIDs": [],
       "name": "hit 3!",
       "cues": [
         {
-          "id": "karateManDSKo/hit3cue1",
+          "id": "*/hit3cue1",
           "beat": 0.0
         },
         {
-          "id": "karateManDSKo/hit3cue2",
+          "id": "*/hit3cue2",
           "beat": 0.5
         },
         {
-          "id": "karateManDSKo/potOut",
+          "id": "*/potOut",
           "beat": 1.5
         },
         {
-          "id": "karateManDSKo/potHit",
+          "id": "*/potHit",
           "beat": 2.5
         },
         {
-          "id": "karateManDSKo/potOut",
+          "id": "*/potOut",
           "beat": 2.5,
           "track": 1
         },
         {
-          "id": "karateManDSKo/potHit",
+          "id": "*/potHit",
           "beat": 3.5
         },
         {
-          "id": "karateManDSKo/potOut",
+          "id": "*/potOut",
           "beat": 3.5,
           "track": 1
         },
         {
-          "id": "karateManDSKo/potHit",
+          "id": "*/potHit",
           "beat": 4.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManDSKo_kick",
+      "id": "*_kick",
       "deprecatedIDs": [],
       "name": "kick",
       "cues": [
         {
-          "id": "karateManDSKo/bulbOut",
+          "id": "*/bulbOut",
           "beat": 0.0
         },
         {
-          "id": "karateManDSKo/bulbHit",
+          "id": "*/bulbHit",
           "beat": 1.0
         },
         {
-          "id": "karateManDSKo/barrelOut",
+          "id": "*/barrelOut",
           "beat": 2.0
         },
         {
-          "id": "karateManDSKo/punchKick1",
+          "id": "*/punchKick1",
           "beat": 3.0
         },
         {
-          "id": "karateManDSKo/punchKick2",
+          "id": "*/punchKick2",
           "beat": 3.5
         },
         {
-          "id": "karateManDSKo/punchKick3",
+          "id": "*/punchKick3",
           "beat": 3.75
         }
       ]

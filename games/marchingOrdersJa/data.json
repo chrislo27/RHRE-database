@@ -6,7 +6,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "marchingOrdersJa/attention1",
+      "id": "*/attention1",
       "deprecatedIDs": [
         "marchingOrders/attention1"
       ],
@@ -15,7 +15,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/attention2",
+      "id": "*/attention2",
       "deprecatedIDs": [
         "marchingOrders/attention2"
       ],
@@ -24,7 +24,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/march1",
+      "id": "*/march1",
       "deprecatedIDs": [
         "marchingOrders/march1"
       ],
@@ -33,7 +33,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/march2",
+      "id": "*/march2",
       "deprecatedIDs": [
         "marchingOrders/march2"
       ],
@@ -42,7 +42,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/march3",
+      "id": "*/march3",
       "deprecatedIDs": [
         "marchingOrders/march3"
       ],
@@ -51,7 +51,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/march4",
+      "id": "*/march4",
       "deprecatedIDs": [
         "marchingOrders/march4"
       ],
@@ -60,7 +60,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/step1",
+      "id": "*/step1",
       "deprecatedIDs": [
         "marchingOrders/step1"
       ],
@@ -69,7 +69,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/step2",
+      "id": "*/step2",
       "deprecatedIDs": [
         "marchingOrders/step2"
       ],
@@ -78,7 +78,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/halt1",
+      "id": "*/halt1",
       "deprecatedIDs": [
         "marchingOrders/halt1"
       ],
@@ -87,7 +87,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/halt2",
+      "id": "*/halt2",
       "deprecatedIDs": [
         "marchingOrders/halt2"
       ],
@@ -96,7 +96,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/halt3",
+      "id": "*/halt3",
       "deprecatedIDs": [
         "marchingOrders/halt3"
       ],
@@ -105,7 +105,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/halt4",
+      "id": "*/halt4",
       "deprecatedIDs": [
         "marchingOrders/halt4"
       ],
@@ -114,7 +114,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/leftFaceTurn1",
+      "id": "*/leftFaceTurn1",
       "deprecatedIDs": [
         "marchingOrders/leftFaceTurn1"
       ],
@@ -123,7 +123,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/leftFaceTurn2",
+      "id": "*/leftFaceTurn2",
       "deprecatedIDs": [
         "marchingOrders/leftFaceTurn2"
       ],
@@ -132,7 +132,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/leftFaceTurn3",
+      "id": "*/leftFaceTurn3",
       "deprecatedIDs": [
         "marchingOrders/leftFaceTurn3"
       ],
@@ -141,7 +141,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/leftFaceTurn4",
+      "id": "*/leftFaceTurn4",
       "deprecatedIDs": [
         "marchingOrders/leftFaceTurn4"
       ],
@@ -150,7 +150,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/leftFaceTurn5",
+      "id": "*/leftFaceTurn5",
       "deprecatedIDs": [
         "marchingOrders/leftFaceTurn5"
       ],
@@ -159,7 +159,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/rightFaceTurn1",
+      "id": "*/rightFaceTurn1",
       "deprecatedIDs": [
         "marchingOrders/rightFaceTurn1"
       ],
@@ -168,7 +168,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/rightFaceTurn2",
+      "id": "*/rightFaceTurn2",
       "deprecatedIDs": [
         "marchingOrders/rightFaceTurn2"
       ],
@@ -177,7 +177,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/rightFaceTurn3",
+      "id": "*/rightFaceTurn3",
       "deprecatedIDs": [
         "marchingOrders/rightFaceTurn3"
       ],
@@ -186,7 +186,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/rightFaceTurn4",
+      "id": "*/rightFaceTurn4",
       "deprecatedIDs": [
         "marchingOrders/rightFaceTurn4"
       ],
@@ -195,7 +195,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/rightFaceTurn5",
+      "id": "*/rightFaceTurn5",
       "deprecatedIDs": [
         "marchingOrders/rightFaceTurn5"
       ],
@@ -204,7 +204,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/fastLeftFaceTurn1",
+      "id": "*/fastLeftFaceTurn1",
       "deprecatedIDs": [
         "marchingOrders/fastLeftFaceTurn1"
       ],
@@ -213,7 +213,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/fastLeftFaceTurn2",
+      "id": "*/fastLeftFaceTurn2",
       "deprecatedIDs": [
         "marchingOrders/fastLeftFaceTurn2"
       ],
@@ -222,7 +222,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/fastLeftFaceTurn3",
+      "id": "*/fastLeftFaceTurn3",
       "deprecatedIDs": [
         "marchingOrders/fastLeftFaceTurn3"
       ],
@@ -231,7 +231,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/fastLeftFaceTurn4",
+      "id": "*/fastLeftFaceTurn4",
       "deprecatedIDs": [
         "marchingOrders/fastLeftFaceTurn4"
       ],
@@ -240,7 +240,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/fastRightFaceTurn1",
+      "id": "*/fastRightFaceTurn1",
       "deprecatedIDs": [
         "marchingOrders/fastRightFaceTurn1"
       ],
@@ -249,7 +249,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/fastRightFaceTurn2",
+      "id": "*/fastRightFaceTurn2",
       "deprecatedIDs": [
         "marchingOrders/fastRightFaceTurn2"
       ],
@@ -258,7 +258,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/fastRightFaceTurn3",
+      "id": "*/fastRightFaceTurn3",
       "deprecatedIDs": [
         "marchingOrders/fastRightFaceTurn3"
       ],
@@ -267,7 +267,7 @@
     },
     {
       "type": "cue",
-      "id": "marchingOrdersJa/fastRightFaceTurn4",
+      "id": "*/fastRightFaceTurn4",
       "deprecatedIDs": [
         "marchingOrders/fastRightFaceTurn4"
       ],
@@ -276,41 +276,41 @@
     },
     {
       "type": "pattern",
-      "id": "marchingOrdersJa_attentionMarch",
+      "id": "*_attentionMarch",
       "deprecatedIDs": [
         "marchingOrders_attentionMarch"
       ],
       "name": "attention... march!",
       "cues": [
         {
-          "id": "marchingOrdersJa/attention1",
+          "id": "*/attention1",
           "beat": 0.0
         },
         {
-          "id": "marchingOrdersJa/attention2",
+          "id": "*/attention2",
           "beat": 0.5
         },
         {
-          "id": "marchingOrdersJa/march1",
+          "id": "*/march1",
           "beat": 2.0
         },
         {
-          "id": "marchingOrdersJa/march2",
+          "id": "*/march2",
           "beat": 2.25
         },
         {
-          "id": "marchingOrdersJa/march3",
+          "id": "*/march3",
           "beat": 2.5
         },
         {
-          "id": "marchingOrdersJa/march4",
+          "id": "*/march4",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "keepTheBeat",
-      "id": "marchingOrdersJa_marching",
+      "id": "*_marching",
       "deprecatedIDs": [
         "marchingOrders_marching"
       ],
@@ -318,171 +318,171 @@
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "marchingOrdersJa/step1",
+          "id": "*/step1",
           "beat": 0.0
         },
         {
-          "id": "marchingOrdersJa/step2",
+          "id": "*/step2",
           "beat": 1.0
         },
         {
-          "id": "marchingOrdersJa/step1",
+          "id": "*/step1",
           "beat": 2.0
         },
         {
-          "id": "marchingOrdersJa/step2",
+          "id": "*/step2",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "marchingOrdersJa_attentionHalt",
+      "id": "*_attentionHalt",
       "deprecatedIDs": [
         "marchingOrders_attentionHalt"
       ],
       "name": "attention... halt!",
       "cues": [
         {
-          "id": "marchingOrdersJa/attention1",
+          "id": "*/attention1",
           "beat": 0.0
         },
         {
-          "id": "marchingOrdersJa/attention2",
+          "id": "*/attention2",
           "beat": 0.5
         },
         {
-          "id": "marchingOrdersJa/halt1",
+          "id": "*/halt1",
           "beat": 2.0
         },
         {
-          "id": "marchingOrdersJa/halt2",
+          "id": "*/halt2",
           "beat": 2.25
         },
         {
-          "id": "marchingOrdersJa/halt3",
+          "id": "*/halt3",
           "beat": 2.333
         },
         {
-          "id": "marchingOrdersJa/halt4",
+          "id": "*/halt4",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "marchingOrdersJa_leftFaceTurn",
+      "id": "*_leftFaceTurn",
       "deprecatedIDs": [
         "marchingOrders_leftFaceTurn"
       ],
       "name": "left face turn",
       "cues": [
         {
-          "id": "marchingOrdersJa/leftFaceTurn1",
+          "id": "*/leftFaceTurn1",
           "beat": 0.0
         },
         {
-          "id": "marchingOrdersJa/leftFaceTurn2",
+          "id": "*/leftFaceTurn2",
           "beat": 0.25
         },
         {
-          "id": "marchingOrdersJa/leftFaceTurn3",
+          "id": "*/leftFaceTurn3",
           "beat": 0.5
         },
         {
-          "id": "marchingOrdersJa/leftFaceTurn4",
+          "id": "*/leftFaceTurn4",
           "beat": 2.0
         },
         {
-          "id": "marchingOrdersJa/leftFaceTurn5",
+          "id": "*/leftFaceTurn5",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "marchingOrdersJa_rightFaceTurn",
+      "id": "*_rightFaceTurn",
       "deprecatedIDs": [
         "marchingOrders_rightFaceTurn"
       ],
       "name": "right face turn",
       "cues": [
         {
-          "id": "marchingOrdersJa/rightFaceTurn1",
+          "id": "*/rightFaceTurn1",
           "beat": 0.0
         },
         {
-          "id": "marchingOrdersJa/rightFaceTurn2",
+          "id": "*/rightFaceTurn2",
           "beat": 0.25
         },
         {
-          "id": "marchingOrdersJa/rightFaceTurn3",
+          "id": "*/rightFaceTurn3",
           "beat": 0.5
         },
         {
-          "id": "marchingOrdersJa/rightFaceTurn4",
+          "id": "*/rightFaceTurn4",
           "beat": 2.0
         },
         {
-          "id": "marchingOrdersJa/rightFaceTurn5",
+          "id": "*/rightFaceTurn5",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "marchingOrdersJa_fastLeftFaceTurn",
+      "id": "*_fastLeftFaceTurn",
       "deprecatedIDs": [
         "marchingOrders_fastLeftFaceTurn"
       ],
       "name": "fast left face turn",
       "cues": [
         {
-          "id": "marchingOrdersJa/fastLeftFaceTurn1",
+          "id": "*/fastLeftFaceTurn1",
           "beat": 0.0
         },
         {
-          "id": "marchingOrdersJa/fastLeftFaceTurn2",
+          "id": "*/fastLeftFaceTurn2",
           "beat": 0.5
         },
         {
-          "id": "marchingOrdersJa/fastLeftFaceTurn3",
+          "id": "*/fastLeftFaceTurn3",
           "beat": 0.75
         },
         {
-          "id": "marchingOrdersJa/fastLeftFaceTurn4",
+          "id": "*/fastLeftFaceTurn4",
           "beat": 1.0
         },
         {
-          "id": "marchingOrdersJa/leftFaceTurn5",
+          "id": "*/leftFaceTurn5",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "marchingOrdersJa_fastRightFaceTurn",
+      "id": "*_fastRightFaceTurn",
       "deprecatedIDs": [],
       "name": "fast right face turn",
       "cues": [
         {
-          "id": "marchingOrdersJa/fastRightFaceTurn1",
+          "id": "*/fastRightFaceTurn1",
           "beat": 0.0
         },
         {
-          "id": "marchingOrdersJa/fastRightFaceTurn2",
+          "id": "*/fastRightFaceTurn2",
           "beat": 0.5
         },
         {
-          "id": "marchingOrdersJa/fastRightFaceTurn3",
+          "id": "*/fastRightFaceTurn3",
           "beat": 0.75
         },
         {
-          "id": "marchingOrdersJa/fastRightFaceTurn4",
+          "id": "*/fastRightFaceTurn4",
           "beat": 1.0
         },
         {
-          "id": "marchingOrdersJa/rightFaceTurn5",
+          "id": "*/rightFaceTurn5",
           "beat": 2.0
         }
       ]

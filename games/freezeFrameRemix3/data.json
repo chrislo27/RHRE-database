@@ -6,153 +6,153 @@
   "objects": [
     {
       "type": "cue",
-      "id": "freezeFrameRemix3/beginningSignal1",
+      "id": "*/beginningSignal1",
       "deprecatedIDs": [],
       "name": "start signal 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "freezeFrameRemix3/beginningSignal2",
+      "id": "*/beginningSignal2",
       "deprecatedIDs": [],
       "name": "start signal 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "freezeFrameRemix3/success",
+      "id": "*/success",
       "deprecatedIDs": [],
       "name": "success",
       "duration": 4.0
     },
     {
       "type": "cue",
-      "id": "freezeFrameRemix3/fastCarZoom",
+      "id": "*/fastCarZoom",
       "deprecatedIDs": [],
       "name": "fast car zoom",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "freezeFrameRemix3/fastCarClick",
+      "id": "*/fastCarClick",
       "deprecatedIDs": [],
       "name": "fast car click",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "freezeFrameRemix3/smallCarZoom",
+      "id": "*/smallCarZoom",
       "deprecatedIDs": [],
       "name": "small car zoom",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "freezeFrameRemix3/smallCarClick",
+      "id": "*/smallCarClick",
       "deprecatedIDs": [],
       "name": "small car click",
       "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "freezeFrameRemix3_start",
+      "id": "*_start",
       "deprecatedIDs": [],
       "name": "race start",
       "cues": [
         {
-          "id": "freezeFrameRemix3/beginningSignal1",
+          "id": "*/beginningSignal1",
           "beat": 0.0
         },
         {
-          "id": "freezeFrameRemix3/beginningSignal1",
+          "id": "*/beginningSignal1",
           "beat": 1.0
         },
         {
-          "id": "freezeFrameRemix3/beginningSignal2",
+          "id": "*/beginningSignal2",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "freezeFrameRemix3_tripleSmallCars",
+      "id": "*_tripleSmallCars",
       "deprecatedIDs": [],
       "name": "triple small cars",
       "cues": [
         {
-          "id": "freezeFrameRemix3/smallCarZoom",
+          "id": "*/smallCarZoom",
           "beat": 0.0
         },
         {
-          "id": "freezeFrameRemix3/smallCarZoom",
+          "id": "*/smallCarZoom",
           "beat": 1.0
         },
         {
-          "id": "freezeFrameRemix3/smallCarZoom",
+          "id": "*/smallCarZoom",
           "beat": 0.5
         },
         {
-          "id": "freezeFrameRemix3/smallCarClick",
+          "id": "*/smallCarClick",
           "beat": 2.0
         },
         {
-          "id": "freezeFrameRemix3/smallCarClick",
+          "id": "*/smallCarClick",
           "beat": 3.0
         },
         {
-          "id": "freezeFrameRemix3/smallCarClick",
+          "id": "*/smallCarClick",
           "beat": 2.5
         },
         {
-          "id": "freezeFrameRemix3/success",
+          "id": "*/success",
           "beat": 4.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "freezeFrameRemix3_doubleSmallCars",
+      "id": "*_doubleSmallCars",
       "deprecatedIDs": [],
       "name": "double small cars",
       "cues": [
         {
-          "id": "freezeFrameRemix3/smallCarZoom",
+          "id": "*/smallCarZoom",
           "beat": 0.0
         },
         {
-          "id": "freezeFrameRemix3/smallCarZoom",
+          "id": "*/smallCarZoom",
           "beat": 0.5
         },
         {
-          "id": "freezeFrameRemix3/smallCarClick",
+          "id": "*/smallCarClick",
           "beat": 2.0
         },
         {
-          "id": "freezeFrameRemix3/smallCarClick",
+          "id": "*/smallCarClick",
           "beat": 2.5
         },
         {
-          "id": "freezeFrameRemix3/success",
+          "id": "*/success",
           "beat": 3.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "freezeFrameRemix3_fastCar",
+      "id": "*_fastCar",
       "deprecatedIDs": [],
       "name": "fast car",
       "cues": [
         {
-          "id": "freezeFrameRemix3/fastCarZoom",
+          "id": "*/fastCarZoom",
           "beat": 0.0
         },
         {
-          "id": "freezeFrameRemix3/fastCarClick",
+          "id": "*/fastCarClick",
           "beat": 2.0
         },
         {
-          "id": "freezeFrameRemix3/success",
+          "id": "*/success",
           "beat": 4.0
         }
       ]

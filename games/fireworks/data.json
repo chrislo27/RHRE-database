@@ -5,221 +5,221 @@
   "objects": [
     {
       "type": "cue",
-      "id": "fireworks/firework1",
+      "id": "*/firework1",
       "deprecatedIDs": [],
       "name": "rhythm rocket - 1",
       "duration": 3.0
     },
     {
       "type": "cue",
-      "id": "fireworks/firework2",
+      "id": "*/firework2",
       "deprecatedIDs": [],
       "name": "rhythm rocket - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fireworks/quickshot1",
+      "id": "*/quickshot1",
       "deprecatedIDs": [],
       "name": "spirit sparkler - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "fireworks/quickshot2",
+      "id": "*/quickshot2",
       "deprecatedIDs": [],
       "name": "spirit sparkler - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fireworks/quickshot3",
+      "id": "*/quickshot3",
       "deprecatedIDs": [],
       "name": "spirit sparkler - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fireworks/bomb1",
+      "id": "*/bomb1",
       "deprecatedIDs": [],
       "name": "taiko drum bomb - 1",
       "duration": 0.333
     },
     {
       "type": "cue",
-      "id": "fireworks/bomb2",
+      "id": "*/bomb2",
       "deprecatedIDs": [],
       "name": "taiko drum bomb - 2",
       "duration": 0.333
     },
     {
       "type": "cue",
-      "id": "fireworks/bomb3",
+      "id": "*/bomb3",
       "deprecatedIDs": [],
       "name": "taiko drum bomb - 3",
       "duration": 1.333
     },
     {
       "type": "cue",
-      "id": "fireworks/bomb4",
+      "id": "*/bomb4",
       "deprecatedIDs": [],
       "name": "taiko drum bomb - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fireworks/fireworkichi",
+      "id": "*/fireworkichi",
       "deprecatedIDs": [],
       "name": "rhythm rocket - counting - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fireworks/fireworkni",
+      "id": "*/fireworkni",
       "deprecatedIDs": [],
       "name": "rhythm rocket - counting - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fireworks/fireworksan",
+      "id": "*/fireworksan",
       "deprecatedIDs": [],
       "name": "rhythm rocket - counting - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fireworks/fireworkhai",
+      "id": "*/fireworkhai",
       "deprecatedIDs": [],
       "name": "rhythm rocket - counting - go!",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fireworks/quickshothai",
+      "id": "*/quickshothai",
       "deprecatedIDs": [],
       "name": "spirit sparkler - counting - go!",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fireworks/bombhai",
+      "id": "*/bombhai",
       "deprecatedIDs": [],
       "name": "taiko drum bomb - counting - go!",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fireworks/one",
+      "id": "*/one",
       "deprecatedIDs": [],
       "name": "counting - one",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fireworks/two",
+      "id": "*/two",
       "deprecatedIDs": [],
       "name": "counting - two",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fireworks/three",
+      "id": "*/three",
       "deprecatedIDs": [],
       "name": "counting - three",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fireworks/hey",
+      "id": "*/hey",
       "deprecatedIDs": [],
       "name": "counting - hey!",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "fireworks/all",
+      "id": "*/all",
       "deprecatedIDs": [],
       "name": "all fireworks boom",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "fireworks_firework",
+      "id": "*_firework",
       "deprecatedIDs": [],
       "name": "rhythm rocket",
       "cues": [
         {
-          "id": "fireworks/firework1",
+          "id": "*/firework1",
           "beat": 0.0
         },
         {
-          "id": "fireworks/firework2",
+          "id": "*/firework2",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "fireworks_fireworkpractice",
+      "id": "*_fireworkpractice",
       "deprecatedIDs": [],
       "name": "rhythm rocket - practice",
       "cues": [
         {
-          "id": "fireworks/fireworkichi",
+          "id": "*/fireworkichi",
           "beat": 0.0
         },
         {
-          "id": "fireworks/fireworkni",
+          "id": "*/fireworkni",
           "beat": 1.0
         },
         {
-          "id": "fireworks/fireworksan",
+          "id": "*/fireworksan",
           "beat": 2.0
         },
         {
-          "id": "fireworks/fireworkhai",
+          "id": "*/fireworkhai",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "fireworks_fireworkremix5",
+      "id": "*_fireworkremix5",
       "deprecatedIDs": [],
       "name": "rhythm rocket - remix 5",
       "cues": [
         {
-          "id": "fireworks/one",
+          "id": "*/one",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "fireworks/two",
+          "id": "*/two",
           "beat": 2.0,
           "track": 1
         },
         {
-          "id": "fireworks/firework1",
+          "id": "*/firework1",
           "beat": 4.0
         },
         {
-          "id": "fireworks/one",
+          "id": "*/one",
           "beat": 4.0,
           "track": 1
         },
         {
-          "id": "fireworks/two",
+          "id": "*/two",
           "beat": 5.0,
           "track": 1
         },
         {
-          "id": "fireworks/three",
+          "id": "*/three",
           "beat": 6.0,
           "track": 1
         },
         {
-          "id": "fireworks/hey",
+          "id": "*/hey",
           "beat": 7.0,
           "track": 1
         }
@@ -227,88 +227,88 @@
     },
     {
       "type": "pattern",
-      "id": "fireworks_quickshot",
+      "id": "*_quickshot",
       "deprecatedIDs": [],
       "name": "spirit sparkler",
       "cues": [
         {
-          "id": "fireworks/quickshot1",
+          "id": "*/quickshot1",
           "beat": 0.0
         },
         {
-          "id": "fireworks/quickshot2",
+          "id": "*/quickshot2",
           "beat": 0.5
         },
         {
-          "id": "fireworks/quickshot3",
+          "id": "*/quickshot3",
           "beat": 1.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "fireworks_quickshotpractice",
+      "id": "*_quickshotpractice",
       "deprecatedIDs": [],
       "name": "spirit sparkler - practice",
       "cues": [
         {
-          "id": "fireworks/quickshot1",
+          "id": "*/quickshot1",
           "beat": 0.0
         },
         {
-          "id": "fireworks/quickshot2",
+          "id": "*/quickshot2",
           "beat": 0.5
         },
         {
-          "id": "fireworks/quickshothai",
+          "id": "*/quickshothai",
           "beat": 1.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "fireworks_taikobomb",
+      "id": "*_taikobomb",
       "deprecatedIDs": [],
       "name": "taiko drum bomb",
       "cues": [
         {
-          "id": "fireworks/bomb1",
+          "id": "*/bomb1",
           "beat": 0.0
         },
         {
-          "id": "fireworks/bomb2",
+          "id": "*/bomb2",
           "beat": 0.333
         },
         {
-          "id": "fireworks/bomb3",
+          "id": "*/bomb3",
           "beat": 0.667
         },
         {
-          "id": "fireworks/bomb4",
+          "id": "*/bomb4",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "fireworks_taikobombpractice",
+      "id": "*_taikobombpractice",
       "deprecatedIDs": [],
       "name": "taiko drum bomb - practice",
       "cues": [
         {
-          "id": "fireworks/bomb1",
+          "id": "*/bomb1",
           "beat": 0.0
         },
         {
-          "id": "fireworks/bomb2",
+          "id": "*/bomb2",
           "beat": 0.333
         },
         {
-          "id": "fireworks/bomb3",
+          "id": "*/bomb3",
           "beat": 0.667
         },
         {
-          "id": "fireworks/bombhai",
+          "id": "*/bombhai",
           "beat": 2.0
         }
       ]

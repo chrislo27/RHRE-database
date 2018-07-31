@@ -6,290 +6,290 @@
   "objects": [
     {
       "type": "cue",
-      "id": "seesawJa/seeLong1",
+      "id": "*/seeLong1",
       "deprecatedIDs": [],
       "name": "see - long - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "seesawJa/seeLong2",
+      "id": "*/seeLong2",
       "deprecatedIDs": [],
       "name": "see - long - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "seesawJa/seeLong2b",
+      "id": "*/seeLong2b",
       "deprecatedIDs": [],
       "name": "see - long - 2b",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "seesawJa/seeShort1",
+      "id": "*/seeShort1",
       "deprecatedIDs": [],
       "name": "see - short - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "seesawJa/seeShort2",
+      "id": "*/seeShort2",
       "deprecatedIDs": [],
       "name": "see - short - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "seesawJa/seeShort2b",
+      "id": "*/seeShort2b",
       "deprecatedIDs": [],
       "name": "see - short - 2b",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "seesawJa/sawLong1",
+      "id": "*/sawLong1",
       "deprecatedIDs": [],
       "name": "saw - long - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "seesawJa/sawLong2",
+      "id": "*/sawLong2",
       "deprecatedIDs": [],
       "name": "saw - long - 2a",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "seesawJa/sawLong2b",
+      "id": "*/sawLong2b",
       "deprecatedIDs": [],
       "name": "saw - long - 2b",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "seesawJa/sawShort1",
+      "id": "*/sawShort1",
       "deprecatedIDs": [],
       "name": "saw - short - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "seesawJa/sawShort2",
+      "id": "*/sawShort2",
       "deprecatedIDs": [],
       "name": "saw - short - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "seesawJa/sawShort2b",
+      "id": "*/sawShort2b",
       "deprecatedIDs": [],
       "name": "saw - short - 2b",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "seesawJa/beginning",
+      "id": "*/beginning",
       "deprecatedIDs": [],
       "name": "beginning jump",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "seesawJa/explosionEnd",
+      "id": "*/explosionEnd",
       "deprecatedIDs": [],
       "name": "explosion end",
       "duration": 2.0
     },
     {
       "type": "pattern",
-      "id": "seesawJa_longLong",
+      "id": "*_longLong",
       "deprecatedIDs": [],
       "name": "long long",
       "cues": [
         {
-          "id": "seesawJa/seeLong1",
+          "id": "*/seeLong1",
           "beat": 0.0
         },
         {
-          "id": "seesawJa/seeLong2",
+          "id": "*/seeLong2",
           "beat": 1.0
         },
         {
-          "id": "seesawJa/sawLong1",
+          "id": "*/sawLong1",
           "beat": 2.0
         },
         {
-          "id": "seesawJa/sawLong2",
+          "id": "*/sawLong2",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "seesawJa_longLong2",
+      "id": "*_longLong2",
       "deprecatedIDs": [],
       "name": "long long (alternate)",
       "cues": [
         {
-          "id": "seesawJa/seeLong1",
+          "id": "*/seeLong1",
           "beat": 0.0
         },
         {
-          "id": "seesawJa/seeLong2b",
+          "id": "*/seeLong2b",
           "beat": 1.0
         },
         {
-          "id": "seesawJa/sawLong1",
+          "id": "*/sawLong1",
           "beat": 2.0
         },
         {
-          "id": "seesawJa/sawLong2b",
+          "id": "*/sawLong2b",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "seesawJa_shortShort",
+      "id": "*_shortShort",
       "deprecatedIDs": [],
       "name": "short short",
       "cues": [
         {
-          "id": "seesawJa/seeShort1",
+          "id": "*/seeShort1",
           "beat": 0.0
         },
         {
-          "id": "seesawJa/seeShort2",
+          "id": "*/seeShort2",
           "beat": 0.5
         },
         {
-          "id": "seesawJa/sawShort1",
+          "id": "*/sawShort1",
           "beat": 1.0
         },
         {
-          "id": "seesawJa/sawShort2",
+          "id": "*/sawShort2",
           "beat": 1.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "seesawJa_shortShort2",
+      "id": "*_shortShort2",
       "deprecatedIDs": [],
       "name": "short short (alternate)",
       "cues": [
         {
-          "id": "seesawJa/seeShort1",
+          "id": "*/seeShort1",
           "beat": 0.0
         },
         {
-          "id": "seesawJa/seeShort2b",
+          "id": "*/seeShort2b",
           "beat": 0.5
         },
         {
-          "id": "seesawJa/sawShort1",
+          "id": "*/sawShort1",
           "beat": 1.0
         },
         {
-          "id": "seesawJa/sawShort2b",
+          "id": "*/sawShort2b",
           "beat": 1.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "seesawJa_longShort",
+      "id": "*_longShort",
       "deprecatedIDs": [],
       "name": "long short",
       "cues": [
         {
-          "id": "seesawJa/seeLong1",
+          "id": "*/seeLong1",
           "beat": 0.0
         },
         {
-          "id": "seesawJa/seeLong2",
+          "id": "*/seeLong2",
           "beat": 1.0
         },
         {
-          "id": "seesawJa/sawShort1",
+          "id": "*/sawShort1",
           "beat": 2.0
         },
         {
-          "id": "seesawJa/sawShort2",
+          "id": "*/sawShort2",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "seesawJa_longShort2",
+      "id": "*_longShort2",
       "deprecatedIDs": [],
       "name": "long short (alternate)",
       "cues": [
         {
-          "id": "seesawJa/seeLong1",
+          "id": "*/seeLong1",
           "beat": 0.0
         },
         {
-          "id": "seesawJa/seeLong2b",
+          "id": "*/seeLong2b",
           "beat": 1.0
         },
         {
-          "id": "seesawJa/sawShort1",
+          "id": "*/sawShort1",
           "beat": 2.0
         },
         {
-          "id": "seesawJa/sawShort2b",
+          "id": "*/sawShort2b",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "seesawJa_shortLong",
+      "id": "*_shortLong",
       "deprecatedIDs": [],
       "name": "short long",
       "cues": [
         {
-          "id": "seesawJa/seeShort1",
+          "id": "*/seeShort1",
           "beat": 0.0
         },
         {
-          "id": "seesawJa/seeShort2",
+          "id": "*/seeShort2",
           "beat": 0.5
         },
         {
-          "id": "seesawJa/sawLong1",
+          "id": "*/sawLong1",
           "beat": 1.0
         },
         {
-          "id": "seesawJa/sawLong2",
+          "id": "*/sawLong2",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "seesawJa_shortLong2",
+      "id": "*_shortLong2",
       "deprecatedIDs": [],
       "name": "short long (alternate)",
       "cues": [
         {
-          "id": "seesawJa/seeShort1",
+          "id": "*/seeShort1",
           "beat": 0.0
         },
         {
-          "id": "seesawJa/seeShort2b",
+          "id": "*/seeShort2b",
           "beat": 0.5
         },
         {
-          "id": "seesawJa/sawLong1",
+          "id": "*/sawLong1",
           "beat": 1.0
         },
         {
-          "id": "seesawJa/sawLong2b",
+          "id": "*/sawLong2b",
           "beat": 2.0
         }
       ]

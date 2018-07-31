@@ -7,212 +7,212 @@
   "objects": [
     {
       "type": "randomCue",
-      "id": "citrusContact_alien",
+      "id": "*_alien",
       "deprecatedIDs": [],
       "name": "alien speech",
       "cues": [
         {
-          "id": "citrusContact/alien1"
+          "id": "*/alien1"
         },
         {
-          "id": "citrusContact/alien2"
+          "id": "*/alien2"
         },
         {
-          "id": "citrusContact/alien3"
+          "id": "*/alien3"
         },
         {
-          "id": "citrusContact/alien4"
+          "id": "*/alien4"
         },
         {
-          "id": "citrusContact/alien5"
+          "id": "*/alien5"
         },
         {
-          "id": "citrusContact/alien6"
+          "id": "*/alien6"
         }
       ],
       "responseIDs": [
-        "citrusContact_reporter"
+        "*_reporter"
       ]
     },
     {
       "type": "randomCue",
-      "id": "citrusContact_reporter",
+      "id": "*_reporter",
       "deprecatedIDs": [],
       "name": "reporter speech",
       "cues": [
         {
-          "id": "citrusContact/reporter1"
+          "id": "*/reporter1"
         },
         {
-          "id": "citrusContact/reporter2"
+          "id": "*/reporter2"
         },
         {
-          "id": "citrusContact/reporter3"
+          "id": "*/reporter3"
         },
         {
-          "id": "citrusContact/reporter4"
+          "id": "*/reporter4"
         },
         {
-          "id": "citrusContact/reporter5"
+          "id": "*/reporter5"
         },
         {
-          "id": "citrusContact/reporter6"
+          "id": "*/reporter6"
         },
         {
-          "id": "citrusContact/reporter7"
+          "id": "*/reporter7"
         },
         {
-          "id": "citrusContact/reporter8"
+          "id": "*/reporter8"
         },
         {
-          "id": "citrusContact/reporter9"
+          "id": "*/reporter9"
         },
         {
-          "id": "citrusContact/reporter10"
+          "id": "*/reporter10"
         }
       ]
     },
     {
       "type": "cue",
-      "id": "citrusContact/passover",
+      "id": "*/passover",
       "deprecatedIDs": [],
       "name": "turn passover",
       "duration": 0.5,
       "responseIDs": [
-        "citrusContact_success"
+        "*_success"
       ]
     },
     {
       "type": "cue",
-      "id": "citrusContact/success1",
+      "id": "*/success1",
       "deprecatedIDs": [],
       "name": "turn success 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "citrusContact/success2",
+      "id": "*/success2",
       "deprecatedIDs": [],
       "name": "turn success 2",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "citrusContact/alien1",
+      "id": "*/alien1",
       "deprecatedIDs": [],
       "name": "alien - 1",
       "duration": 0.5,
       "responseIDs": [
-        "citrusContact/reporter1",
-        "citrusContact/reporter2",
-        "citrusContact/reporter3",
-        "citrusContact/reporter4",
-        "citrusContact/reporter5",
-        "citrusContact/reporter6",
-        "citrusContact/reporter7",
-        "citrusContact/reporter8",
-        "citrusContact/reporter9",
-        "citrusContact/reporter10"
+        "*/reporter1",
+        "*/reporter2",
+        "*/reporter3",
+        "*/reporter4",
+        "*/reporter5",
+        "*/reporter6",
+        "*/reporter7",
+        "*/reporter8",
+        "*/reporter9",
+        "*/reporter10"
       ]
     },
     {
       "type": "cue",
-      "id": "citrusContact/alien2",
+      "id": "*/alien2",
       "deprecatedIDs": [],
       "name": "alien - 2",
       "duration": 0.5,
       "responseIDs": [
-        "citrusContact/reporter1",
-        "citrusContact/reporter2",
-        "citrusContact/reporter3",
-        "citrusContact/reporter4",
-        "citrusContact/reporter5",
-        "citrusContact/reporter6",
-        "citrusContact/reporter7",
-        "citrusContact/reporter8",
-        "citrusContact/reporter9",
-        "citrusContact/reporter10"
+        "*/reporter1",
+        "*/reporter2",
+        "*/reporter3",
+        "*/reporter4",
+        "*/reporter5",
+        "*/reporter6",
+        "*/reporter7",
+        "*/reporter8",
+        "*/reporter9",
+        "*/reporter10"
       ]
     },
     {
       "type": "cue",
-      "id": "citrusContact/alien3",
+      "id": "*/alien3",
       "deprecatedIDs": [],
       "name": "alien - 3",
       "duration": 0.5,
       "responseIDs": [
-        "citrusContact/reporter1",
-        "citrusContact/reporter2",
-        "citrusContact/reporter3",
-        "citrusContact/reporter4",
-        "citrusContact/reporter5",
-        "citrusContact/reporter6",
-        "citrusContact/reporter7",
-        "citrusContact/reporter8",
-        "citrusContact/reporter9",
-        "citrusContact/reporter10"
+        "*/reporter1",
+        "*/reporter2",
+        "*/reporter3",
+        "*/reporter4",
+        "*/reporter5",
+        "*/reporter6",
+        "*/reporter7",
+        "*/reporter8",
+        "*/reporter9",
+        "*/reporter10"
       ]
     },
     {
       "type": "cue",
-      "id": "citrusContact/alien4",
+      "id": "*/alien4",
       "deprecatedIDs": [],
       "name": "alien - 4",
       "duration": 0.5,
       "responseIDs": [
-        "citrusContact/reporter1",
-        "citrusContact/reporter2",
-        "citrusContact/reporter3",
-        "citrusContact/reporter4",
-        "citrusContact/reporter5",
-        "citrusContact/reporter6",
-        "citrusContact/reporter7",
-        "citrusContact/reporter8",
-        "citrusContact/reporter9",
-        "citrusContact/reporter10"
+        "*/reporter1",
+        "*/reporter2",
+        "*/reporter3",
+        "*/reporter4",
+        "*/reporter5",
+        "*/reporter6",
+        "*/reporter7",
+        "*/reporter8",
+        "*/reporter9",
+        "*/reporter10"
       ]
     },
     {
       "type": "cue",
-      "id": "citrusContact/alien5",
+      "id": "*/alien5",
       "deprecatedIDs": [],
       "name": "alien - 5",
       "duration": 0.5,
       "responseIDs": [
-        "citrusContact/reporter1",
-        "citrusContact/reporter2",
-        "citrusContact/reporter3",
-        "citrusContact/reporter4",
-        "citrusContact/reporter5",
-        "citrusContact/reporter6",
-        "citrusContact/reporter7",
-        "citrusContact/reporter8",
-        "citrusContact/reporter9",
-        "citrusContact/reporter10"
+        "*/reporter1",
+        "*/reporter2",
+        "*/reporter3",
+        "*/reporter4",
+        "*/reporter5",
+        "*/reporter6",
+        "*/reporter7",
+        "*/reporter8",
+        "*/reporter9",
+        "*/reporter10"
       ]
     },
     {
       "type": "cue",
-      "id": "citrusContact/alien6",
+      "id": "*/alien6",
       "deprecatedIDs": [],
       "name": "alien - 6",
       "duration": 0.5,
       "responseIDs": [
-        "citrusContact/reporter1",
-        "citrusContact/reporter2",
-        "citrusContact/reporter3",
-        "citrusContact/reporter4",
-        "citrusContact/reporter5",
-        "citrusContact/reporter6",
-        "citrusContact/reporter7",
-        "citrusContact/reporter8",
-        "citrusContact/reporter9",
-        "citrusContact/reporter10"
+        "*/reporter1",
+        "*/reporter2",
+        "*/reporter3",
+        "*/reporter4",
+        "*/reporter5",
+        "*/reporter6",
+        "*/reporter7",
+        "*/reporter8",
+        "*/reporter9",
+        "*/reporter10"
       ]
     },
     {
       "type": "cue",
-      "id": "citrusContact/reporter1",
+      "id": "*/reporter1",
       "deprecatedIDs": [
         "secondContact/reporter1"
       ],
@@ -221,7 +221,7 @@
     },
     {
       "type": "cue",
-      "id": "citrusContact/reporter2",
+      "id": "*/reporter2",
       "deprecatedIDs": [
         "secondContact/reporter2"
       ],
@@ -230,7 +230,7 @@
     },
     {
       "type": "cue",
-      "id": "citrusContact/reporter3",
+      "id": "*/reporter3",
       "deprecatedIDs": [
         "secondContact/reporter3"
       ],
@@ -239,65 +239,65 @@
     },
     {
       "type": "cue",
-      "id": "citrusContact/reporter4",
+      "id": "*/reporter4",
       "deprecatedIDs": [],
       "name": "reporter - 4",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "citrusContact/reporter5",
+      "id": "*/reporter5",
       "deprecatedIDs": [],
       "name": "reporter - 5",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "citrusContact/reporter6",
+      "id": "*/reporter6",
       "deprecatedIDs": [],
       "name": "reporter - 6",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "citrusContact/reporter7",
+      "id": "*/reporter7",
       "deprecatedIDs": [],
       "name": "reporter - 7",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "citrusContact/reporter8",
+      "id": "*/reporter8",
       "deprecatedIDs": [],
       "name": "reporter - 8",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "citrusContact/reporter9",
+      "id": "*/reporter9",
       "deprecatedIDs": [],
       "name": "reporter - 9",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "citrusContact/reporter10",
+      "id": "*/reporter10",
       "deprecatedIDs": [],
       "name": "reporter - 10",
       "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "citrusContact_success",
+      "id": "*_success",
       "deprecatedIDs": [],
       "name": "success",
       "cues": [
         {
-          "id": "citrusContact/success1",
+          "id": "*/success1",
           "beat": 0.0
         },
         {
-          "id": "citrusContact/success2",
+          "id": "*/success2",
           "beat": 0.5
         }
       ]

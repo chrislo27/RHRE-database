@@ -5,7 +5,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "rockers/chord1",
+      "id": "*/chord1",
       "deprecatedIDs": ["rockers/strumLoop"],
       "name": "D7 (3rd)",
       "duration": 1.0,
@@ -14,12 +14,12 @@
       "repitchable": true,
       "introSound": "rockers/chordStart1",
       "responseIDs": [
-        "rockers/chord1"
+        "*/chord1"
       ]
     },
     {
       "type": "cue",
-      "id": "rockers/chordStart1",
+      "id": "*/chordStart1",
       "deprecatedIDs": ["rockers/strumStart"],
       "name": "D7 (3rd) chord - start",
       "duration": 0.25,
@@ -27,7 +27,7 @@
     },
     {
       "type": "cue",
-      "id": "rockers/chord2",
+      "id": "*/chord2",
       "deprecatedIDs": [],
       "name": "Asus4 (1st)",
       "duration": 1.0,
@@ -36,12 +36,12 @@
       "repitchable": true,
       "introSound": "rockers/chordStart2",
       "responseIDs": [
-        "rockers/chord2"
+        "*/chord2"
       ]
     },
     {
       "type": "cue",
-      "id": "rockers/chordStart2",
+      "id": "*/chordStart2",
       "deprecatedIDs": [],
       "name": "Asus4 (1st) chord - start",
       "duration": 0.25,
@@ -49,7 +49,7 @@
     },
     {
       "type": "cue",
-      "id": "rockers/chord3",
+      "id": "*/chord3",
       "deprecatedIDs": [],
       "name": "Bmin (2nd)",
       "duration": 1.0,
@@ -58,12 +58,12 @@
       "repitchable": true,
       "introSound": "rockers/chordStart3",
       "responseIDs": [
-        "rockers/chord3"
+        "*/chord3"
       ]
     },
     {
       "type": "cue",
-      "id": "rockers/chordStart3",
+      "id": "*/chordStart3",
       "deprecatedIDs": [],
       "name": "Bmin (2nd) chord - start",
       "duration": 0.25,
@@ -71,7 +71,7 @@
     },
     {
       "type": "cue",
-      "id": "rockers/chord4",
+      "id": "*/chord4",
       "deprecatedIDs": [],
       "name": "C#m7b5 (2nd)",
       "duration": 1.0,
@@ -80,12 +80,12 @@
       "repitchable": true,
       "introSound": "rockers/chordStart4",
       "responseIDs": [
-        "rockers/chord4"
+        "*/chord4"
       ]
     },
     {
       "type": "cue",
-      "id": "rockers/chordStart4",
+      "id": "*/chordStart4",
       "deprecatedIDs": [],
       "name": "C#m7b5 (2nd) chord - start",
       "duration": 0.25,
@@ -93,7 +93,7 @@
     },
     {
       "type": "cue",
-      "id": "rockers/chord5",
+      "id": "*/chord5",
       "deprecatedIDs": [],
       "name": "A (root)",
       "duration": 1.0,
@@ -102,12 +102,12 @@
       "repitchable": true,
       "introSound": "rockers/chordStart5",
       "responseIDs": [
-        "rockers/chord5"
+        "*/chord5"
       ]
     },
     {
       "type": "cue",
-      "id": "rockers/chordStart5",
+      "id": "*/chordStart5",
       "deprecatedIDs": [],
       "name": "A (root) chord - start",
       "duration": 0.25,
@@ -115,7 +115,7 @@
     },
     {
       "type": "cue",
-      "id": "rockers/chord6",
+      "id": "*/chord6",
       "deprecatedIDs": [],
       "name": "D7 (3rd)",
       "duration": 1.0,
@@ -124,12 +124,12 @@
       "repitchable": true,
       "introSound": "rockers/chordStart6",
       "responseIDs": [
-        "rockers/chord6"
+        "*/chord6"
       ]
     },
     {
       "type": "cue",
-      "id": "rockers/chordStart6",
+      "id": "*/chordStart6",
       "deprecatedIDs": [],
       "name": "D7 (3rd) chord - start",
       "duration": 0.25,
@@ -137,7 +137,7 @@
     },
     {
       "type": "cue",
-      "id": "rockers/chord7",
+      "id": "*/chord7",
       "deprecatedIDs": [],
       "name": "F# (1st)",
       "duration": 1.0,
@@ -146,12 +146,12 @@
       "repitchable": true,
       "introSound": "rockers/chordStart7",
       "responseIDs": [
-        "rockers/chord7"
+        "*/chord7"
       ]
     },
     {
       "type": "cue",
-      "id": "rockers/chordStart7",
+      "id": "*/chordStart7",
       "deprecatedIDs": [],
       "name": "F# (1st) chord - start",
       "duration": 0.25,
@@ -159,7 +159,7 @@
     },
     {
       "type": "cue",
-      "id": "rockers/chord8",
+      "id": "*/chord8",
       "deprecatedIDs": [],
       "name": "G (1st)",
       "duration": 1.0,
@@ -168,12 +168,12 @@
       "repitchable": true,
       "introSound": "rockers/chordStart8",
       "responseIDs": [
-        "rockers/chord8"
+        "*/chord8"
       ]
     },
     {
       "type": "cue",
-      "id": "rockers/chordStart8",
+      "id": "*/chordStart8",
       "deprecatedIDs": [],
       "name": "G (1st) chord - start",
       "duration": 0.25,
@@ -181,7 +181,7 @@
     },
     {
       "type": "cue",
-      "id": "rockers/chord9",
+      "id": "*/chord9",
       "deprecatedIDs": [],
       "name": "G (root)",
       "duration": 1.0,
@@ -190,12 +190,12 @@
       "repitchable": true,
       "introSound": "rockers/chordStart9",
       "responseIDs": [
-        "rockers/chord9"
+        "*/chord9"
       ]
     },
     {
       "type": "cue",
-      "id": "rockers/chordStart9",
+      "id": "*/chordStart9",
       "deprecatedIDs": [],
       "name": "G (root) chord - start",
       "duration": 0.25,
@@ -203,7 +203,7 @@
     },
     {
       "type": "cue",
-      "id": "rockers/chord10",
+      "id": "*/chord10",
       "deprecatedIDs": [],
       "name": "C#dim7",
       "duration": 1.0,
@@ -212,12 +212,12 @@
       "repitchable": true,
       "introSound": "rockers/chordStart10",
       "responseIDs": [
-        "rockers/chord10"
+        "*/chord10"
       ]
     },
     {
       "type": "cue",
-      "id": "rockers/chordStart10",
+      "id": "*/chordStart10",
       "deprecatedIDs": [],
       "name": "C#dim7 chord - start",
       "duration": 0.25,
@@ -225,7 +225,7 @@
     },
     {
       "type": "cue",
-      "id": "rockers/chord11",
+      "id": "*/chord11",
       "deprecatedIDs": [],
       "name": "Gmin",
       "duration": 1.0,
@@ -234,12 +234,12 @@
       "repitchable": true,
       "introSound": "rockers/chordStart11",
       "responseIDs": [
-        "rockers/chord11"
+        "*/chord11"
       ]
     },
     {
       "type": "cue",
-      "id": "rockers/chordStart11",
+      "id": "*/chordStart11",
       "deprecatedIDs": [],
       "name": "Gmin chord - start",
       "duration": 0.25,
@@ -247,7 +247,7 @@
     },
     {
       "type": "cue",
-      "id": "rockers/chord12",
+      "id": "*/chord12",
       "deprecatedIDs": [],
       "name": "A (1st)",
       "duration": 1.0,
@@ -256,12 +256,12 @@
       "repitchable": true,
       "introSound": "rockers/chordStart12",
       "responseIDs": [
-        "rockers/chord12"
+        "*/chord12"
       ]
     },
     {
       "type": "cue",
-      "id": "rockers/chordStart12",
+      "id": "*/chordStart12",
       "deprecatedIDs": [],
       "name": "A (1st) chord - start",
       "duration": 0.25,
@@ -269,7 +269,7 @@
     },
     {
       "type": "cue",
-      "id": "rockers/chord1Remix10",
+      "id": "*/chord1Remix10",
       "deprecatedIDs": [],
       "name": "D (2nd) - Remix 10",
       "duration": 1.0,
@@ -278,12 +278,12 @@
       "repitchable": true,
       "introSound": "rockers/chordStart1Remix10",
       "responseIDs": [
-        "rockers/chord1Remix10"
+        "*/chord1Remix10"
       ]
     },
     {
       "type": "cue",
-      "id": "rockers/chordStart1Remix10",
+      "id": "*/chordStart1Remix10",
       "deprecatedIDs": [],
       "name": "D (2nd) chord - Remix 10 - start",
       "duration": 0.25,
@@ -291,7 +291,7 @@
     },
     {
       "type": "cue",
-      "id": "rockers/chord2Remix10",
+      "id": "*/chord2Remix10",
       "deprecatedIDs": [],
       "name": "D(add9) (3rd) - Remix 10",
       "duration": 1.0,
@@ -300,12 +300,12 @@
       "repitchable": true,
       "introSound": "rockers/chordStart2Remix10",
       "responseIDs": [
-        "rockers/chord2Remix10"
+        "*/chord2Remix10"
       ]
     },
     {
       "type": "cue",
-      "id": "rockers/chordStart2Remix10",
+      "id": "*/chordStart2Remix10",
       "deprecatedIDs": [],
       "name": "D(add9) (3rd) chord - Remix 10 - start",
       "duration": 0.25,
@@ -313,7 +313,7 @@
     },
     {
       "type": "cue",
-      "id": "rockers/chordRemix6",
+      "id": "*/chordRemix6",
       "deprecatedIDs": [],
       "name": "C (1st) - Remix 6",
       "duration": 1.0,
@@ -322,12 +322,12 @@
       "repitchable": true,
       "introSound": "rockers/chordStartRemix6",
       "responseIDs": [
-        "rockers/chordRemix6"
+        "*/chordRemix6"
       ]
     },
     {
       "type": "cue",
-      "id": "rockers/chordStartRemix6",
+      "id": "*/chordStartRemix6",
       "deprecatedIDs": [],
       "name": "C (1st) chord - Remix 6 - start",
       "duration": 0.25,
@@ -335,7 +335,7 @@
     },
     {
       "type": "cue",
-      "id": "rockers/chordBend",
+      "id": "*/chordBend",
       "deprecatedIDs": [],
       "name": "chord bend (A#)",
       "duration": 1.0,
@@ -344,12 +344,12 @@
       "repitchable": true,
       "introSound": "rockers/chordStartBend",
       "responseIDs": [
-        "rockers/chordBend"
+        "*/chordBend"
       ]
     },
     {
       "type": "cue",
-      "id": "rockers/chordStartBend",
+      "id": "*/chordStartBend",
       "deprecatedIDs": [],
       "name": "chord bend - start",
       "duration": 0.25,
@@ -357,7 +357,7 @@
     },
     {
       "type": "cue",
-      "id": "rockers/chordBendNoStart",
+      "id": "*/chordBendNoStart",
       "deprecatedIDs": [],
       "name": "chord bend (no strum)",
       "duration": 1.0,
@@ -365,36 +365,36 @@
       "stretchable": true,
       "repitchable": true,
       "responseIDs": [
-        "rockers/chordBendNoStart"
+        "*/chordBendNoStart"
       ]
     },
     {
       "type": "cue",
-      "id": "rockers/hold",
+      "id": "*/hold",
       "deprecatedIDs": [],
       "name": "hold",
       "duration": 0.25,
       "responseIDs": [
-        "rockers/hold"
+        "*/hold"
       ]
     },
     {
       "type": "cue",
-      "id": "rockers/cmon",
+      "id": "*/cmon",
       "deprecatedIDs": [],
       "name": "c'mon",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "rockers/lastone",
+      "id": "*/lastone",
       "deprecatedIDs": [],
       "name": "last one!",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "rockers/group1",
+      "id": "*/group1",
       "deprecatedIDs": [],
       "name": "together - start - G (1st)",
       "duration": 0.5,
@@ -402,7 +402,7 @@
     },
     {
       "type": "cue",
-      "id": "rockers/group2",
+      "id": "*/group2",
       "deprecatedIDs": [],
       "name": "together - last - A (1st)",
       "duration": 1.5,
@@ -410,45 +410,45 @@
     },
     {
       "type": "cue",
-      "id": "rockers/one",
+      "id": "*/one",
       "deprecatedIDs": [],
       "name": "count - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "rockers/two",
+      "id": "*/two",
       "deprecatedIDs": [],
       "name": "count - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "rockers/three",
+      "id": "*/three",
       "deprecatedIDs": [],
       "name": "count - 3",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "rockers_together",
+      "id": "*_together",
       "deprecatedIDs": [],
       "name": "strum together - G (1st) to A (1st)",
       "cues": [
         {
-          "id": "rockers/group1",
+          "id": "*/group1",
           "beat": 0.0
         },
         {
-          "id": "rockers/group1",
+          "id": "*/group1",
           "beat": 1.5
         },
         {
-          "id": "rockers/group1",
+          "id": "*/group1",
           "beat": 3.0
         },
         {
-          "id": "rockers/group2",
+          "id": "*/group2",
           "beat": 4.0
         }
       ]

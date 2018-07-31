@@ -5,17 +5,17 @@
   "objects": [
     {
       "type": "cue",
-      "id": "wizardWaltz/plant",
+      "id": "*/plant",
       "deprecatedIDs": [],
       "name": "plant",
       "duration": 0.5,
       "responseIDs": [
-        "wizardWaltz/grow"
+        "*/grow"
       ]
     },
     {
       "type": "cue",
-      "id": "wizardWaltz/grow",
+      "id": "*/grow",
       "deprecatedIDs": [],
       "name": "grow",
       "duration": 0.5

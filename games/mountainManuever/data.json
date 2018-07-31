@@ -5,7 +5,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "mountainManuever/toot",
+      "id": "*/toot",
       "deprecatedIDs": [],
       "name": "toot",
       "duration": 1.0,
@@ -13,47 +13,47 @@
     },
     {
       "type": "cue",
-      "id": "mountainManuever/cowbell",
+      "id": "*/cowbell",
       "deprecatedIDs": [],
       "name": "cowbell",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "mountainManuever_twoToots",
+      "id": "*_twoToots",
       "deprecatedIDs": [],
       "name": "two toots",
       "cues": [
         {
-          "id": "mountainManuever/cowbell",
+          "id": "*/cowbell",
           "beat": 0.0
         },
         {
-          "id": "mountainManuever/cowbell",
+          "id": "*/cowbell",
           "beat": 1.0
         },
         {
-          "id": "mountainManuever/toot",
+          "id": "*/toot",
           "beat": 2.0
         },
         {
-          "id": "mountainManuever/toot",
+          "id": "*/toot",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "mountainManuever_oneToot",
+      "id": "*_oneToot",
       "deprecatedIDs": [],
       "name": "one toot",
       "cues": [
         {
-          "id": "mountainManuever/cowbell",
+          "id": "*/cowbell",
           "beat": 0.0
         },
         {
-          "id": "mountainManuever/toot",
+          "id": "*/toot",
           "beat": 1.0
         }
       ]

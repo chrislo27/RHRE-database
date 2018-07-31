@@ -6,7 +6,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "airboarderKo/kanda1",
+      "id": "*/kanda1",
       "deprecatedIDs": [],
       "name": "yeah... kanda! - 1",
       "baseBpm": 160,
@@ -14,194 +14,194 @@
     },
     {
       "type": "cue",
-      "id": "airboarderKo/kanda2",
+      "id": "*/kanda2",
       "deprecatedIDs": [],
       "name": "yeah... kanda! - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "airboarderKo/kanda3",
+      "id": "*/kanda3",
       "deprecatedIDs": [],
       "name": "yeah... kanda! - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "airboarderKo/hup",
+      "id": "*/hup",
       "deprecatedIDs": [],
       "name": "ready",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "airboarderKo/crouch",
+      "id": "*/crouch",
       "deprecatedIDs": [],
       "name": "crouch",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "airboarderKo/glow",
+      "id": "*/glow",
       "deprecatedIDs": [],
       "name": "glow",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "airboarderKo/jump",
+      "id": "*/jump",
       "deprecatedIDs": [],
       "name": "jump",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "airboarderKo_kanda",
+      "id": "*_kanda",
       "deprecatedIDs": [],
       "name": "yeah... let's go!",
       "cues": [
         {
-          "id": "airboarderKo/kanda1",
+          "id": "*/kanda1",
           "beat": 0.0
         },
         {
-          "id": "airboarderKo/kanda2",
+          "id": "*/kanda2",
           "beat": 6.5
         },
         {
-          "id": "airboarderKo/kanda3",
+          "id": "*/kanda3",
           "beat": 7.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "airboarderKo_crouch",
+      "id": "*_crouch",
       "deprecatedIDs": [],
       "name": "crouch",
       "cues": [
         {
-          "id": "airboarderKo/hup",
+          "id": "*/hup",
           "beat": 0.0
         },
         {
-          "id": "airboarderKo/crouch",
+          "id": "*/crouch",
           "beat": 1.0
         },
         {
-          "id": "airboarderKo/crouch",
+          "id": "*/crouch",
           "beat": 2.0
         },
         {
-          "id": "airboarderKo/crouch",
+          "id": "*/crouch",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "airboarderKo_crouchNoReady",
+      "id": "*_crouchNoReady",
       "deprecatedIDs": [],
       "name": "crouch - no ready cue",
       "cues": [
         {
-          "id": "airboarderKo/crouch",
+          "id": "*/crouch",
           "beat": 0.0
         },
         {
-          "id": "airboarderKo/crouch",
+          "id": "*/crouch",
           "beat": 1.0
         },
         {
-          "id": "airboarderKo/crouch",
+          "id": "*/crouch",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "airboarderKo_chargeCrouch",
+      "id": "*_chargeCrouch",
       "deprecatedIDs": [],
       "name": "charge crouch",
       "cues": [
         {
-          "id": "airboarderKo/hup",
+          "id": "*/hup",
           "beat": 0.0
         },
         {
-          "id": "airboarderKo/glow",
+          "id": "*/glow",
           "beat": 1.0
         },
         {
-          "id": "airboarderKo/glow",
+          "id": "*/glow",
           "beat": 2.0
         },
         {
-          "id": "airboarderKo/glow",
+          "id": "*/glow",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "airboarderKo_chargeCrouchNoReady",
+      "id": "*_chargeCrouchNoReady",
       "deprecatedIDs": [],
       "name": "charge crouch - no ready cue",
       "cues": [
         {
-          "id": "airboarderKo/glow",
+          "id": "*/glow",
           "beat": 0.0
         },
         {
-          "id": "airboarderKo/glow",
+          "id": "*/glow",
           "beat": 1.0
         },
         {
-          "id": "airboarderKo/glow",
+          "id": "*/glow",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "airboarderKo_jumpReady",
+      "id": "*_jumpReady",
       "deprecatedIDs": [],
       "name": "jump",
       "cues": [
         {
-          "id": "airboarderKo/hup",
+          "id": "*/hup",
           "beat": 0.0
         },
         {
-          "id": "airboarderKo/jump",
+          "id": "*/jump",
           "beat": 1.0
         },
         {
-          "id": "airboarderKo/jump",
+          "id": "*/jump",
           "beat": 2.0
         },
         {
-          "id": "airboarderKo/jump",
+          "id": "*/jump",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "airboarderKo_jump",
+      "id": "*_jump",
       "deprecatedIDs": [],
       "name": "jump - no ready cue",
       "cues": [
         {
-          "id": "airboarderKo/jump",
+          "id": "*/jump",
           "beat": 0.0
         },
         {
-          "id": "airboarderKo/jump",
+          "id": "*/jump",
           "beat": 1.0
         },
         {
-          "id": "airboarderKo/jump",
+          "id": "*/jump",
           "beat": 2.0
         }
       ]

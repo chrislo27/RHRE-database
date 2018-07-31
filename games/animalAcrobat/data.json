@@ -6,99 +6,99 @@
   "objects": [
     {
       "type": "cue",
-      "id": "animalAcrobat/beginningLeap",
+      "id": "*/beginningLeap",
       "deprecatedIDs": [],
       "name": "leap",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "animalAcrobat/eek",
+      "id": "*/eek",
       "deprecatedIDs": ["animalAcrobat/eek!"],
       "name": "eek!",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "animalAcrobat/flip",
+      "id": "*/flip",
       "deprecatedIDs": [],
       "name": "flip",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "animalAcrobat/giraffeRelease",
+      "id": "*/giraffeRelease",
       "deprecatedIDs": [],
       "name": "giraffe release",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "animalAcrobat/grab",
+      "id": "*/grab",
       "deprecatedIDs": [],
       "name": "grab",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "animalAcrobat/release",
+      "id": "*/release",
       "deprecatedIDs": [],
       "name": "release",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "animalAcrobat/ringOfFireCymbal",
+      "id": "*/ringOfFireCymbal",
       "deprecatedIDs": [],
       "name": "ring of fire",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "animalAcrobat/ringOfFireCymbalGorilla",
+      "id": "*/ringOfFireCymbalGorilla",
       "deprecatedIDs": [],
       "name": "ring of fire - gorilla",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "animalAcrobat/ringOfFireCymbalRemix",
+      "id": "*/ringOfFireCymbalRemix",
       "deprecatedIDs": [],
       "name": "ring of fire - stomping",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "animalAcrobat/cymbal",
+      "id": "*/cymbal",
       "deprecatedIDs": [],
       "name": "cymbal",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "animalAcrobat_elephant",
+      "id": "*_elephant",
       "deprecatedIDs": [],
       "name": "elephant",
       "cues": [
         {
-          "id": "animalAcrobat/grab",
+          "id": "*/grab",
           "beat": 0.0
         },
         {
-          "id": "animalAcrobat/release",
+          "id": "*/release",
           "beat": 2.0
         },
         {
-          "id": "animalAcrobat/flip",
+          "id": "*/flip",
           "beat": 3.0
         },
         {
-          "id": "animalAcrobat/eek!",
+          "id": "*/eek!",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "animalAcrobat/eek!",
+          "id": "*/eek!",
           "beat": 1.0,
           "track": 1
         }
@@ -106,171 +106,171 @@
     },
     {
       "type": "pattern",
-      "id": "animalAcrobat_giraffe",
+      "id": "*_giraffe",
       "deprecatedIDs": [],
       "name": "giraffe",
       "cues": [
         {
-          "id": "animalAcrobat/grab",
+          "id": "*/grab",
           "beat": 0.0
         },
         {
-          "id": "animalAcrobat/eek!",
+          "id": "*/eek!",
           "beat": 2.0
         },
         {
-          "id": "animalAcrobat/eek!",
+          "id": "*/eek!",
           "beat": 3.0
         },
         {
-          "id": "animalAcrobat/giraffeRelease",
+          "id": "*/giraffeRelease",
           "beat": 4.0
         },
         {
-          "id": "animalAcrobat/ringOfFireCymbal",
+          "id": "*/ringOfFireCymbal",
           "beat": 6.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "animalAcrobat_giraffeGorilla",
+      "id": "*_giraffeGorilla",
       "deprecatedIDs": [],
       "name": "giraffe - to gorilla",
       "cues": [
         {
-          "id": "animalAcrobat/grab",
+          "id": "*/grab",
           "beat": 0.0
         },
         {
-          "id": "animalAcrobat/eek!",
+          "id": "*/eek!",
           "beat": 2.0
         },
         {
-          "id": "animalAcrobat/eek!",
+          "id": "*/eek!",
           "beat": 3.0
         },
         {
-          "id": "animalAcrobat/giraffeRelease",
+          "id": "*/giraffeRelease",
           "beat": 4.0
         },
         {
-          "id": "animalAcrobat/ringOfFireCymbalGorilla",
+          "id": "*/ringOfFireCymbalGorilla",
           "beat": 6.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "animalAcrobat_giraffeLanding",
+      "id": "*_giraffeLanding",
       "deprecatedIDs": [],
       "name": "giraffe - landing",
       "cues": [
         {
-          "id": "animalAcrobat/grab",
+          "id": "*/grab",
           "beat": 0.0
         },
         {
-          "id": "animalAcrobat/eek!",
+          "id": "*/eek!",
           "beat": 2.0
         },
         {
-          "id": "animalAcrobat/eek!",
+          "id": "*/eek!",
           "beat": 3.0
         },
         {
-          "id": "animalAcrobat/giraffeRelease",
+          "id": "*/giraffeRelease",
           "beat": 4.0
         },
         {
-          "id": "animalAcrobat/ringOfFireCymbalRemix",
+          "id": "*/ringOfFireCymbalRemix",
           "beat": 6.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "animalAcrobat_giraffeCymbal",
+      "id": "*_giraffeCymbal",
       "deprecatedIDs": [],
       "name": "giraffe - next animal",
       "cues": [
         {
-          "id": "animalAcrobat/grab",
+          "id": "*/grab",
           "beat": 0.0
         },
         {
-          "id": "animalAcrobat/eek!",
+          "id": "*/eek!",
           "beat": 2.0
         },
         {
-          "id": "animalAcrobat/eek!",
+          "id": "*/eek!",
           "beat": 3.0
         },
         {
-          "id": "animalAcrobat/giraffeRelease",
+          "id": "*/giraffeRelease",
           "beat": 4.0
         },
         {
-          "id": "animalAcrobat/ringOfFireCymbal",
+          "id": "*/ringOfFireCymbal",
           "beat": 6.0
         },
         {
-          "id": "animalAcrobat/flip",
+          "id": "*/flip",
           "beat": 7.0
         },
         {
-          "id": "animalAcrobat/cymbal",
+          "id": "*/cymbal",
           "beat": 8.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "animalAcrobat_monkeys",
+      "id": "*_monkeys",
       "deprecatedIDs": [],
       "name": "monkeys",
       "cues": [
         {
-          "id": "animalAcrobat/grab",
+          "id": "*/grab",
           "beat": 0.0
         },
         {
-          "id": "animalAcrobat/eek!",
+          "id": "*/eek!",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "animalAcrobat/eek!",
+          "id": "*/eek!",
           "beat": 2.0
         },
         {
-          "id": "animalAcrobat/release",
+          "id": "*/release",
           "beat": 3.0
         },
         {
-          "id": "animalAcrobat/flip",
+          "id": "*/flip",
           "beat": 4.0
         },
         {
-          "id": "animalAcrobat/grab",
+          "id": "*/grab",
           "beat": 5.0
         },
         {
-          "id": "animalAcrobat/release",
+          "id": "*/release",
           "beat": 6.0,
           "track": 1
         },
         {
-          "id": "animalAcrobat/flip",
+          "id": "*/flip",
           "beat": 7.0
         },
         {
-          "id": "animalAcrobat/eek!",
+          "id": "*/eek!",
           "beat": 4.0,
           "track": 1
         },
         {
-          "id": "animalAcrobat/eek!",
+          "id": "*/eek!",
           "beat": 5.0,
           "track": 1
         }

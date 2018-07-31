@@ -5,144 +5,144 @@
   "objects": [
     {
       "type": "cue",
-      "id": "ratRace/trafficlight",
+      "id": "*/trafficlight",
       "deprecatedIDs": [],
       "name": "traffic light",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "ratRace/stop1",
+      "id": "*/stop1",
       "deprecatedIDs": [],
       "name": "stop - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "ratRace/stop2",
+      "id": "*/stop2",
       "deprecatedIDs": [],
       "name": "stop - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "ratRace/stop3",
+      "id": "*/stop3",
       "deprecatedIDs": [],
       "name": "stop - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "ratRace/start1",
+      "id": "*/start1",
       "deprecatedIDs": [],
       "name": "start - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "ratRace/start2",
+      "id": "*/start2",
       "deprecatedIDs": [],
       "name": "start - 2",
       "duration": 1.5
     },
     {
       "type": "pattern",
-      "id": "ratRace_stopnolight",
+      "id": "*_stopnolight",
       "deprecatedIDs": [],
       "name": "stop - no light",
       "cues": [
         {
-          "id": "ratRace/stop1",
+          "id": "*/stop1",
           "beat": 0.0
         },
         {
-          "id": "ratRace/stop2",
+          "id": "*/stop2",
           "beat": 1.0
         },
         {
-          "id": "ratRace/stop3",
+          "id": "*/stop3",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "ratRace_stop",
+      "id": "*_stop",
       "deprecatedIDs": [],
       "name": "stop - traffic light",
       "cues": [
         {
-          "id": "ratRace/trafficlight",
+          "id": "*/trafficlight",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "ratRace/trafficlight",
+          "id": "*/trafficlight",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "ratRace/stop1",
+          "id": "*/stop1",
           "beat": 1.0
         },
         {
-          "id": "ratRace/trafficlight",
+          "id": "*/trafficlight",
           "beat": 2.0,
           "track": 1
         },
         {
-          "id": "ratRace/stop2",
+          "id": "*/stop2",
           "beat": 2.0
         },
         {
-          "id": "ratRace/stop3",
+          "id": "*/stop3",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "ratRace_startnolight",
+      "id": "*_startnolight",
       "deprecatedIDs": [],
       "name": "start - no light",
       "cues": [
         {
-          "id": "ratRace/start1",
+          "id": "*/start1",
           "beat": 0.0
         },
         {
-          "id": "ratRace/start2",
+          "id": "*/start2",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "ratRace_start",
+      "id": "*_start",
       "deprecatedIDs": [],
       "name": "start - traffic light",
       "cues": [
         {
-          "id": "ratRace/trafficlight",
+          "id": "*/trafficlight",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "ratRace/trafficlight",
+          "id": "*/trafficlight",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "ratRace/trafficlight",
+          "id": "*/trafficlight",
           "beat": 2.0,
           "track": 1
         },
         {
-          "id": "ratRace/start1",
+          "id": "*/start1",
           "beat": 2.0
         },
         {
-          "id": "ratRace/start2",
+          "id": "*/start2",
           "beat": 3.0
         }
       ]

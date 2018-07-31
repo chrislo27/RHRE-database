@@ -6,73 +6,73 @@
   "objects": [
     {
       "type": "cue",
-      "id": "spaceSoccerEs/hey",
+      "id": "*/hey",
       "deprecatedIDs": [],
       "name": "hey",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "spaceSoccerEs/pieheypie1",
+      "id": "*/pieheypie1",
       "deprecatedIDs": [],
       "name": "highkick - pie",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "spaceSoccerEs/pieheypie2",
+      "id": "*/pieheypie2",
       "deprecatedIDs": [],
       "name": "highkick - hey",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "spaceSoccerEs/pieheypie3",
+      "id": "*/pieheypie3",
       "deprecatedIDs": [],
       "name": "highkick - pie!",
       "duration": 1.5
     },
     {
       "type": "keepTheBeat",
-      "id": "spaceSoccerEs_keepup",
+      "id": "*_keepup",
       "deprecatedIDs": [],
       "name": "keep-up",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "spaceSoccerEs/hey",
+          "id": "*/hey",
           "beat": 0.0
         },
         {
-          "id": "spaceSoccerEs/hey",
+          "id": "*/hey",
           "beat": 1.0
         },
         {
-          "id": "spaceSoccerEs/hey",
+          "id": "*/hey",
           "beat": 2.0
         },
         {
-          "id": "spaceSoccerEs/hey",
+          "id": "*/hey",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "spaceSoccerEs_pieheypie",
+      "id": "*_pieheypie",
       "deprecatedIDs": [],
       "name": "high kick-toe!",
       "cues": [
         {
-          "id": "spaceSoccerEs/pieheypie1",
+          "id": "*/pieheypie1",
           "beat": 0.0
         },
         {
-          "id": "spaceSoccerEs/pieheypie2",
+          "id": "*/pieheypie2",
           "beat": 1.0
         },
         {
-          "id": "spaceSoccerEs/pieheypie3",
+          "id": "*/pieheypie3",
           "beat": 1.5
         }
       ]

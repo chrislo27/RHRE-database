@@ -5,7 +5,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "builtToScaleDS/c",
+      "id": "*/c",
       "deprecatedIDs": [],
       "name": "note",
       "duration": 0.5,
@@ -13,45 +13,45 @@
     },
     {
       "type": "cue",
-      "id": "builtToScaleDS/pew",
+      "id": "*/pew",
       "deprecatedIDs": [],
       "name": "launch",
       "duration": 1.0
     },
     {
       "type": "equidistant",
-      "id": "builtToScaleDS_widget",
+      "id": "*_widget",
       "deprecatedIDs": [],
       "name": "widget",
       "distance": 1.0,
       "stretchable": true,
       "cues": [
         {
-          "id": "builtToScaleDS/c"
+          "id": "*/c"
         },
         {
-          "id": "builtToScaleDS/c",
+          "id": "*/c",
           "semitone": 2
         },
         {
-          "id": "builtToScaleDS/c",
+          "id": "*/c",
           "semitone": 4
         },
         {
-          "id": "builtToScaleDS/c",
+          "id": "*/c",
           "semitone": 5
         },
         {
-          "id": "builtToScaleDS/c",
+          "id": "*/c",
           "semitone": 7
         },
         {
-          "id": "builtToScaleDS/c",
+          "id": "*/c",
           "semitone": 12,
           "track": 1
         },
         {
-          "id": "builtToScaleDS/pew",
+          "id": "*/pew",
           "track": 2
         }
       ]

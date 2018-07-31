@@ -5,308 +5,308 @@
   "objects": [
     {
       "type": "cue",
-      "id": "flockstep/step1",
+      "id": "*/step1",
       "deprecatedIDs": [],
       "name": "step - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "flockstep/step2",
+      "id": "*/step2",
       "deprecatedIDs": [],
       "name": "step - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "flockstep/step3",
+      "id": "*/step3",
       "deprecatedIDs": [],
       "name": "step - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "flockstep/step4",
+      "id": "*/step4",
       "deprecatedIDs": [],
       "name": "step - 4",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "flockstep/stepMigration1",
+      "id": "*/stepMigration1",
       "deprecatedIDs": [],
       "name": "step - 1 - migration",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "flockstep/stepMigration2",
+      "id": "*/stepMigration2",
       "deprecatedIDs": [],
       "name": "step - 2 - migration",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "flockstep/stepMigration3",
+      "id": "*/stepMigration3",
       "deprecatedIDs": [],
       "name": "step - 3 - migration",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "flockstep/stepMigration4",
+      "id": "*/stepMigration4",
       "deprecatedIDs": [],
       "name": "step - 4 - migration",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "flockstep/jump1",
+      "id": "*/jump1",
       "deprecatedIDs": [],
       "name": "jump - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "flockstep/jump2",
+      "id": "*/jump2",
       "deprecatedIDs": [],
       "name": "jump - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "flockstep/jump3",
+      "id": "*/jump3",
       "deprecatedIDs": [],
       "name": "jump - 3",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "flockstep/jump4",
+      "id": "*/jump4",
       "deprecatedIDs": [],
       "name": "jump - 4",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "flockstep/jump5",
+      "id": "*/jump5",
       "deprecatedIDs": [],
       "name": "jump - 5",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "flockstep/jump6",
+      "id": "*/jump6",
       "deprecatedIDs": [],
       "name": "jump - 6",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "flockstep/jump7",
+      "id": "*/jump7",
       "deprecatedIDs": [],
       "name": "jump - 7",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "flockstep/jumpMigration1",
+      "id": "*/jumpMigration1",
       "deprecatedIDs": [],
       "name": "jump - 1 - migration",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "flockstep/jumpMigration2",
+      "id": "*/jumpMigration2",
       "deprecatedIDs": [],
       "name": "jump - 2 - migration",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "flockstep/jumpMigration3",
+      "id": "*/jumpMigration3",
       "deprecatedIDs": [],
       "name": "jump - 3 - migration",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "flockstep/jumpMigration4",
+      "id": "*/jumpMigration4",
       "deprecatedIDs": [],
       "name": "jump - 4 - migration",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "flockstep/jumpMigration5",
+      "id": "*/jumpMigration5",
       "deprecatedIDs": [],
       "name": "jump - 5 - migration",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "flockstep/jumpMigration6",
+      "id": "*/jumpMigration6",
       "deprecatedIDs": [],
       "name": "jump - 6 - migration",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "flockstep/jumpMigration7",
+      "id": "*/jumpMigration7",
       "deprecatedIDs": [],
       "name": "jump - 7 - migration",
       "duration": 1.0
     },
     {
       "type": "keepTheBeat",
-      "id": "flockstep_march",
+      "id": "*_march",
       "deprecatedIDs": [],
       "name": "march",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "flockstep/step1",
+          "id": "*/step1",
           "beat": 0.0
         },
         {
-          "id": "flockstep/step2",
+          "id": "*/step2",
           "beat": 0.5
         },
         {
-          "id": "flockstep/step3",
+          "id": "*/step3",
           "beat": 1.0
         },
         {
-          "id": "flockstep/step4",
+          "id": "*/step4",
           "beat": 1.5
         },
         {
-          "id": "flockstep/step1",
+          "id": "*/step1",
           "beat": 2.0
         },
         {
-          "id": "flockstep/step2",
+          "id": "*/step2",
           "beat": 2.5
         },
         {
-          "id": "flockstep/step3",
+          "id": "*/step3",
           "beat": 3.0
         },
         {
-          "id": "flockstep/step4",
+          "id": "*/step4",
           "beat": 3.5
         }
       ]
     },
     {
       "type": "keepTheBeat",
-      "id": "flockstep_marchMigration",
+      "id": "*_marchMigration",
       "deprecatedIDs": [],
       "name": "march (migration)",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "flockstep/stepMigration1",
+          "id": "*/stepMigration1",
           "beat": 0.0
         },
         {
-          "id": "flockstep/stepMigration2",
+          "id": "*/stepMigration2",
           "beat": 0.5
         },
         {
-          "id": "flockstep/stepMigration3",
+          "id": "*/stepMigration3",
           "beat": 1.0
         },
         {
-          "id": "flockstep/stepMigration4",
+          "id": "*/stepMigration4",
           "beat": 1.5
         },
         {
-          "id": "flockstep/stepMigration1",
+          "id": "*/stepMigration1",
           "beat": 2.0
         },
         {
-          "id": "flockstep/stepMigration2",
+          "id": "*/stepMigration2",
           "beat": 2.5
         },
         {
-          "id": "flockstep/stepMigration3",
+          "id": "*/stepMigration3",
           "beat": 3.0
         },
         {
-          "id": "flockstep/stepMigration4",
+          "id": "*/stepMigration4",
           "beat": 3.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "flockstep_jump",
+      "id": "*_jump",
       "deprecatedIDs": [],
       "name": "jump",
       "cues": [
         {
-          "id": "flockstep/jump1",
+          "id": "*/jump1",
           "beat": 0.0
         },
         {
-          "id": "flockstep/jump2",
+          "id": "*/jump2",
           "beat": 0.5
         },
         {
-          "id": "flockstep/jump3",
+          "id": "*/jump3",
           "beat": 0.75
         },
         {
-          "id": "flockstep/jump4",
+          "id": "*/jump4",
           "beat": 1.0
         },
         {
-          "id": "flockstep/jump5",
+          "id": "*/jump5",
           "beat": 1.5
         },
         {
-          "id": "flockstep/jump6",
+          "id": "*/jump6",
           "beat": 2.0
         },
         {
-          "id": "flockstep/jump7",
+          "id": "*/jump7",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "flockstep_jumpMigration",
+      "id": "*_jumpMigration",
       "deprecatedIDs": [],
       "name": "jump (migration)",
       "cues": [
         {
-          "id": "flockstep/jumpMigration1",
+          "id": "*/jumpMigration1",
           "beat": 0.0
         },
         {
-          "id": "flockstep/jumpMigration2",
+          "id": "*/jumpMigration2",
           "beat": 0.5
         },
         {
-          "id": "flockstep/jumpMigration3",
+          "id": "*/jumpMigration3",
           "beat": 0.75
         },
         {
-          "id": "flockstep/jumpMigration4",
+          "id": "*/jumpMigration4",
           "beat": 1.0
         },
         {
-          "id": "flockstep/jumpMigration5",
+          "id": "*/jumpMigration5",
           "beat": 1.5
         },
         {
-          "id": "flockstep/jumpMigration6",
+          "id": "*/jumpMigration6",
           "beat": 2.0
         },
         {
-          "id": "flockstep/jumpMigration7",
+          "id": "*/jumpMigration7",
           "beat": 3.0
         }
       ]

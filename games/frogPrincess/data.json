@@ -5,45 +5,45 @@
   "objects": [
     {
       "type": "cue",
-      "id": "frogPrincess/donk",
+      "id": "*/donk",
       "deprecatedIDs": [],
       "name": "donk",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogPrincess/prepare",
+      "id": "*/prepare",
       "deprecatedIDs": [],
       "name": "prepare",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "frogPrincess/jump",
+      "id": "*/jump",
       "deprecatedIDs": [],
       "name": "jump",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "frogPrincess_jump",
+      "id": "*_jump",
       "deprecatedIDs": [],
       "name": "jump",
       "cues": [
         {
-          "id": "frogPrincess/donk",
+          "id": "*/donk",
           "beat": 0.0
         },
         {
-          "id": "frogPrincess/donk",
+          "id": "*/donk",
           "beat": 1.0
         },
         {
-          "id": "frogPrincess/prepare",
+          "id": "*/prepare",
           "beat": 2.0
         },
         {
-          "id": "frogPrincess/jump",
+          "id": "*/jump",
           "beat": 3.0
         }
       ]

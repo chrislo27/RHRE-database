@@ -6,21 +6,21 @@
   "objects": [
     {
       "type": "cue",
-      "id": "boardMeetingRemix2/startPrepare",
+      "id": "*/startPrepare",
       "deprecatedIDs": [],
       "name": "start - prepare",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "boardMeetingRemix2/start1",
+      "id": "*/start1",
       "deprecatedIDs": [],
       "name": "start - single",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "boardMeetingRemix2/spin1Loop",
+      "id": "*/spin1Loop",
       "deprecatedIDs": [],
       "name": "spinning - start - 1",
       "duration": 1.0,
@@ -30,14 +30,14 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingRemix2/start2",
+      "id": "*/start2",
       "deprecatedIDs": [],
       "name": "start - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "boardMeetingRemix2/spin2Loop",
+      "id": "*/spin2Loop",
       "deprecatedIDs": [],
       "name": "spinning - start - 2",
       "duration": 1.0,
@@ -47,14 +47,14 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingRemix2/start3",
+      "id": "*/start3",
       "deprecatedIDs": [],
       "name": "start - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "boardMeetingRemix2/spin3Loop",
+      "id": "*/spin3Loop",
       "deprecatedIDs": [],
       "name": "spinning - start - 3",
       "duration": 1.0,
@@ -64,14 +64,14 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingRemix2/start4",
+      "id": "*/start4",
       "deprecatedIDs": [],
       "name": "start - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "boardMeetingRemix2/spin4Loop",
+      "id": "*/spin4Loop",
       "deprecatedIDs": [],
       "name": "spinning - start - 4",
       "duration": 1.0,
@@ -81,28 +81,28 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingRemix2/stop",
+      "id": "*/stop",
       "deprecatedIDs": [],
       "name": "stop",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "boardMeetingRemix2/stopPlayer",
+      "id": "*/stopPlayer",
       "deprecatedIDs": [],
       "name": "stop - player",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "boardMeetingRemix2/startTogether",
+      "id": "*/startTogether",
       "deprecatedIDs": [],
       "name": "start - together",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "boardMeetingRemix2/spinTogether",
+      "id": "*/spinTogether",
       "deprecatedIDs": [],
       "name": "spinning - start - together",
       "duration": 1.0,
@@ -111,7 +111,7 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingRemix2/abStop1",
+      "id": "*/abStop1",
       "deprecatedIDs": [
         "boardMeeting/abStopM1",
         "boardMeetingEn/abStopM1",
@@ -122,7 +122,7 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingRemix2/abStop2",
+      "id": "*/abStop2",
       "deprecatedIDs": [
         "boardMeeting/abStopM2",
         "boardMeetingEn/abStopM2",
@@ -133,7 +133,7 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingRemix2/abStop3",
+      "id": "*/abStop3",
       "deprecatedIDs": [
         "boardMeeting/abStopM3",
         "boardMeetingEn/abStopM3",
@@ -144,7 +144,7 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingRemix2/abStop4",
+      "id": "*/abStop4",
       "deprecatedIDs": [
         "boardMeeting/abStopM4",
         "boardMeetingEn/abStopM4",
@@ -155,7 +155,7 @@
     },
     {
       "type": "pattern",
-      "id": "boardMeetingRemix2_assistant",
+      "id": "*_assistant",
       "deprecatedIDs": [
         "boardMeeting_monkey",
         "boardMeetingEn_monkey",
@@ -164,19 +164,19 @@
       "name": "assistant - stop",
       "cues": [
         {
-          "id": "boardMeetingRemix2/abStop1",
+          "id": "*/abStop1",
           "beat": 0.0
         },
         {
-          "id": "boardMeetingRemix2/abStop2",
+          "id": "*/abStop2",
           "beat": 0.5
         },
         {
-          "id": "boardMeetingRemix2/abStop3",
+          "id": "*/abStop3",
           "beat": 0.75
         },
         {
-          "id": "boardMeetingRemix2/abStop4",
+          "id": "*/abStop4",
           "beat": 2.0
         }
       ]

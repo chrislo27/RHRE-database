@@ -5,7 +5,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "tramAndPauline/jumpPauline",
+      "id": "*/jumpPauline",
       "deprecatedIDs": [
         "tramAndPauline/paulineJump"
       ],
@@ -14,7 +14,7 @@
     },
     {
       "type": "cue",
-      "id": "tramAndPauline/transformPauline",
+      "id": "*/transformPauline",
       "deprecatedIDs": [
         "tramAndPauline/paulineTransform"
       ],
@@ -23,7 +23,7 @@
     },
     {
       "type": "cue",
-      "id": "tramAndPauline/jumpTram",
+      "id": "*/jumpTram",
       "deprecatedIDs": [
         "tramAndPauline/tramJump"
       ],
@@ -32,7 +32,7 @@
     },
     {
       "type": "cue",
-      "id": "tramAndPauline/transformTram",
+      "id": "*/transformTram",
       "deprecatedIDs": [
         "tramAndPauline/tramTransform"
       ],
@@ -41,32 +41,32 @@
     },
     {
       "type": "pattern",
-      "id": "tramAndPauline_tram",
+      "id": "*_tram",
       "deprecatedIDs": [],
       "name": "tram",
       "cues": [
         {
-          "id": "tramAndPauline/jumpTram",
+          "id": "*/jumpTram",
           "beat": 0.0
         },
         {
-          "id": "tramAndPauline/transformTram",
+          "id": "*/transformTram",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "tramAndPauline_pauline",
+      "id": "*_pauline",
       "deprecatedIDs": [],
       "name": "pauline",
       "cues": [
         {
-          "id": "tramAndPauline/jumpPauline",
+          "id": "*/jumpPauline",
           "beat": 0.0
         },
         {
-          "id": "tramAndPauline/transformPauline",
+          "id": "*/transformPauline",
           "beat": 1.0
         }
       ]

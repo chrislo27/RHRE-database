@@ -6,55 +6,55 @@
   "objects": [
     {
       "type": "cue",
-      "id": "tunnelJa/one",
+      "id": "*/one",
       "deprecatedIDs": [],
       "name": "count in - one",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "tunnelJa/two",
+      "id": "*/two",
       "deprecatedIDs": [],
       "name": "count in - two",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "tunnelJa/cowbell",
+      "id": "*/cowbell",
       "deprecatedIDs": [],
       "name": "cowbell",
       "duration": 1.0
     },
     {
       "type": "keepTheBeat",
-      "id": "tunnelJa_onetwo",
+      "id": "*_onetwo",
       "deprecatedIDs": [],
       "name": "one, two!",
       "defaultDuration": 2.0,
       "cues": [
         {
-          "id": "tunnelJa/one",
+          "id": "*/one",
           "beat": 0.0
         },
         {
-          "id": "tunnelJa/two",
+          "id": "*/two",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "keepTheBeat",
-      "id": "tunnelJa_cowbell",
+      "id": "*_cowbell",
       "deprecatedIDs": [],
       "name": "cowbell",
       "defaultDuration": 2.0,
       "cues": [
         {
-          "id": "tunnelJa/cowbell",
+          "id": "*/cowbell",
           "beat": 0.0
         },
         {
-          "id": "tunnelJa/cowbell",
+          "id": "*/cowbell",
           "beat": 1.0
         }
       ]

@@ -5,64 +5,64 @@
   "objects": [
     {
       "type": "cue",
-      "id": "shootEmUp/spawn",
+      "id": "*/spawn",
       "deprecatedIDs": [],
       "name": "spawn",
       "duration": 0.5,
       "responseIDs": [
-        "shootEmUp/shoot"
+        "*/shoot"
       ]
     },
     {
       "type": "cue",
-      "id": "shootEmUp/shoot",
+      "id": "*/shoot",
       "deprecatedIDs": [],
       "name": "shoot",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "shootEmUp/commStart",
+      "id": "*/commStart",
       "deprecatedIDs": [],
       "name": "comms start",
       "duration": 0.5,
       "responseIDs": [
-        "shootEmUp/commEnd"
+        "*/commEnd"
       ]
     },
     {
       "type": "cue",
-      "id": "shootEmUp/commEnd",
+      "id": "*/commEnd",
       "deprecatedIDs": [],
       "name": "comms end",
       "duration": 0.5
     },
 	{
       "type": "cue",
-      "id": "shootEmUp/gate1",
+      "id": "*/gate1",
       "deprecatedIDs": [],
       "name": "intro - 1",
       "duration": 1.0
     },
 	{
       "type": "cue",
-      "id": "shootEmUp/gate2",
+      "id": "*/gate2",
       "deprecatedIDs": [],
       "name": "intro - 2",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "shootEmUp_intro",
+      "id": "*_intro",
       "deprecatedIDs": [],
       "name": "intro",
       "cues": [
         {
-          "id": "shootEmUp/gate1",
+          "id": "*/gate1",
           "beat": 0.0
         },
         {
-          "id": "shootEmUp/gate2",
+          "id": "*/gate2",
           "beat": 2.0
         }
       ]

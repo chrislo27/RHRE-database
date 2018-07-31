@@ -5,21 +5,21 @@
   "objects": [
     {
       "type": "cue",
-      "id": "beatBag/jab",
+      "id": "*/jab",
       "deprecatedIDs": [],
       "name": "jab",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "beatBag/uppercut",
+      "id": "*/uppercut",
       "deprecatedIDs": [],
       "name": "uppercut",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "beatBag/punch",
+      "id": "*/punch",
       "deprecatedIDs": [],
       "name": "punch",
       "duration": 0.5

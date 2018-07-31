@@ -5,75 +5,75 @@
   "objects": [
     {
       "type": "cue",
-      "id": "shootEmUpMegamix/spawn",
+      "id": "*/spawn",
       "deprecatedIDs": [],
       "name": "spawn",
       "duration": 0.5,
       "responseIDs": [
-        "shootEmUpMegamix/shoot"
+        "*/shoot"
       ]
     },
     {
       "type": "cue",
-      "id": "shootEmUpMegamix/shoot",
+      "id": "*/shoot",
       "deprecatedIDs": [],
       "name": "shoot",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "shootEmUpMegamix/commStart",
+      "id": "*/commStart",
       "deprecatedIDs": [],
       "name": "comms start",
       "duration": 0.5,
       "responseIDs": [
-        "shootEmUpMegamix/commEnd"
+        "*/commEnd"
       ]
     },
     {
       "type": "cue",
-      "id": "shootEmUpMegamix/commEnd",
+      "id": "*/commEnd",
       "deprecatedIDs": [],
       "name": "comms end",
       "duration": 0.5
     },
 	{
       "type": "cue",
-      "id": "shootEmUpMegamix/gate1",
+      "id": "*/gate1",
       "deprecatedIDs": [],
       "name": "intro - 1",
       "duration": 1.0
     },
 	{
       "type": "cue",
-      "id": "shootEmUpMegamix/gate2",
+      "id": "*/gate2",
       "deprecatedIDs": [],
       "name": "intro - 2",
       "duration": 1.0
     },
 	{
       "type": "cue",
-      "id": "shootEmUpMegamix/gate3",
+      "id": "*/gate3",
       "deprecatedIDs": [],
       "name": "intro - 3",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "shootEmUpMegamix_intro",
+      "id": "*_intro",
       "deprecatedIDs": [],
       "name": "intro",
       "cues": [
         {
-          "id": "shootEmUpMegamix/gate1",
+          "id": "*/gate1",
           "beat": 0.0
         },
         {
-          "id": "shootEmUpMegamix/gate2",
+          "id": "*/gate2",
           "beat": 1.0
         },
         {
-          "id": "shootEmUpMegamix/gate3",
+          "id": "*/gate3",
           "beat": 2.0
         }
       ]

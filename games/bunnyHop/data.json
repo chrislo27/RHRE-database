@@ -5,28 +5,28 @@
   "objects": [
     {
       "type": "cue",
-      "id": "bunnyHop/start",
+      "id": "*/start",
       "deprecatedIDs": [],
       "name": "start",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "bunnyHop/hop1",
+      "id": "*/hop1",
       "deprecatedIDs": [],
       "name": "hop1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "bunnyHop/hop2",
+      "id": "*/hop2",
       "deprecatedIDs": [],
       "name": "hop2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "bunnyHop/longJumpStart",
+      "id": "*/longJumpStart",
       "deprecatedIDs": [],
       "name": "long jump start",
       "duration": 1.0,
@@ -35,7 +35,7 @@
     },
     {
       "type": "cue",
-      "id": "bunnyHop/longJumpStartShort",
+      "id": "*/longJumpStartShort",
       "deprecatedIDs": [],
       "name": "long jump start (short)",
       "duration": 0.5,
@@ -44,206 +44,206 @@
     },
     {
       "type": "cue",
-      "id": "bunnyHop/longJumpWhoosh",
+      "id": "*/longJumpWhoosh",
       "deprecatedIDs": [],
       "name": "long jump whoosh",
       "duration": 6.5
     },
     {
       "type": "cue",
-      "id": "bunnyHop/longJumpJump1",
+      "id": "*/longJumpJump1",
       "deprecatedIDs": [],
       "name": "long jump 1",
       "duration": 3.0
     },
     {
       "type": "cue",
-      "id": "bunnyHop/longJumpJump2",
+      "id": "*/longJumpJump2",
       "deprecatedIDs": [],
       "name": "long jump 2",
       "duration": 1.5
     },
     {
       "type": "cue",
-      "id": "bunnyHop/moon",
+      "id": "*/moon",
       "deprecatedIDs": [],
       "name": "moon",
       "duration": 1.0
     },
     {
       "type": "keepTheBeat",
-      "id": "bunnyHop_start",
+      "id": "*_start",
       "deprecatedIDs": [],
       "name": "start",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "bunnyHop/start",
+          "id": "*/start",
           "beat": 0.0
         },
         {
-          "id": "bunnyHop/start",
+          "id": "*/start",
           "beat": 1.0
         },
         {
-          "id": "bunnyHop/start",
+          "id": "*/start",
           "beat": 2.0
         },
         {
-          "id": "bunnyHop/start",
+          "id": "*/start",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "keepTheBeat",
-      "id": "bunnyHop_hopping",
+      "id": "*_hopping",
       "deprecatedIDs": [],
       "name": "hopping",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "bunnyHop/hop1",
+          "id": "*/hop1",
           "beat": 0.0
         },
         {
-          "id": "bunnyHop/hop2",
+          "id": "*/hop2",
           "beat": 1.0
         },
         {
-          "id": "bunnyHop/hop1",
+          "id": "*/hop1",
           "beat": 2.0
         },
         {
-          "id": "bunnyHop/hop2",
+          "id": "*/hop2",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "bunnyHop_longJump4",
+      "id": "*_longJump4",
       "deprecatedIDs": [],
       "name": "long jump 4 count",
       "cues": [
         {
-          "id": "bunnyHop_longJump",
+          "id": "*_longJump",
           "beat": 0.0
         },
         {
-          "id": "bunnyHop/hop1",
+          "id": "*/hop1",
           "beat": 5.0
         },
         {
-          "id": "bunnyHop/hop2",
+          "id": "*/hop2",
           "beat": 6.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "bunnyHop_longJump8",
+      "id": "*_longJump8",
       "deprecatedIDs": [],
       "name": "long jump 8 count",
       "cues": [
         {
-          "id": "bunnyHop_longJumpLong",
+          "id": "*_longJumpLong",
           "beat": 0.0
         },
         {
-          "id": "bunnyHop/hop1",
+          "id": "*/hop1",
           "beat": 9.0
         },
         {
-          "id": "bunnyHop/hop2",
+          "id": "*/hop2",
           "beat": 10.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "bunnyHop_longJump2",
+      "id": "*_longJump2",
       "deprecatedIDs": [],
       "name": "long jump 2 count",
       "cues": [
         {
-          "id": "bunnyHop_longJumpShort",
+          "id": "*_longJumpShort",
           "beat": 0.0
         },
         {
-          "id": "bunnyHop/hop1",
+          "id": "*/hop1",
           "beat": 3.0
         },
         {
-          "id": "bunnyHop/hop2",
+          "id": "*/hop2",
           "beat": 4.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "bunnyHop_moon",
+      "id": "*_moon",
       "deprecatedIDs": [],
       "name": "moon",
       "cues": [
         {
-          "id": "bunnyHop_longJumpLong",
+          "id": "*_longJumpLong",
           "beat": 0.0
         },
         {
-          "id": "bunnyHop/moon",
+          "id": "*/moon",
           "beat": 10.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "bunnyHop_longJump",
+      "id": "*_longJump",
       "deprecatedIDs": ["bunnyHop/longJump"],
       "name": "long jump",
       "cues": [
         {
-          "id": "bunnyHop/longJumpStart",
+          "id": "*/longJumpStart",
           "beat": 0.0
         },
         {
-          "id": "bunnyHop/longJumpJump1",
+          "id": "*/longJumpJump1",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "bunnyHop_longJumpLong",
+      "id": "*_longJumpLong",
       "deprecatedIDs": ["bunnyHop/longJumpLong"],
       "name": "long jump (long)",
       "cues": [
         {
-          "id": "bunnyHop/longJumpStart",
+          "id": "*/longJumpStart",
           "beat": 0.0
         },
         {
-          "id": "bunnyHop/longJumpJump2",
+          "id": "*/longJumpJump2",
           "beat": 1.0
         },
         {
-          "id": "bunnyHop/longJumpWhoosh",
+          "id": "*/longJumpWhoosh",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "bunnyHop_longJumpShort",
+      "id": "*_longJumpShort",
       "deprecatedIDs": ["bunnyHop/longJumpShort"],
       "name": "long jump (short)",
       "cues": [
         {
-          "id": "bunnyHop/longJumpStart",
+          "id": "*/longJumpStart",
           "beat": 0.0
         },
         {
-          "id": "bunnyHop/longJumpJump2",
+          "id": "*/longJumpJump2",
           "beat": 1.0
         }
       ]

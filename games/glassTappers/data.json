@@ -5,14 +5,14 @@
   "objects": [
     {
       "type": "cue",
-      "id": "glassTappers/short",
+      "id": "*/short",
       "deprecatedIDs": [],
       "name": "short",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "glassTappers/long",
+      "id": "*/long",
       "deprecatedIDs": [],
       "name": "long",
       "duration": 1.0,
@@ -21,7 +21,7 @@
     },
     {
       "type": "cue",
-      "id": "glassTappers/highlong",
+      "id": "*/highlong",
       "deprecatedIDs": [],
       "name": "high-pitched long",
       "duration": 1.0,

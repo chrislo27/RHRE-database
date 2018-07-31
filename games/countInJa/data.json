@@ -7,283 +7,283 @@
   "objects": [
     {
       "type": "cue",
-      "id": "countInJa/oneJa",
+      "id": "*/oneJa",
       "deprecatedIDs": [],
       "name": "one",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "countInJa/ichi",
+      "id": "*/ichi",
       "deprecatedIDs": [],
       "name": "ichi",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "countInJa/twoJa",
+      "id": "*/twoJa",
       "deprecatedIDs": [],
       "name": "two",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "countInJa/ni",
+      "id": "*/ni",
       "deprecatedIDs": [],
       "name": "ni",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "countInJa/threeJa",
+      "id": "*/threeJa",
       "deprecatedIDs": [],
       "name": "three",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "countInJa/san",
+      "id": "*/san",
       "deprecatedIDs": [],
       "name": "san",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "countInJa/fourJa",
+      "id": "*/fourJa",
       "deprecatedIDs": [],
       "name": "four",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "countInJa/shi",
+      "id": "*/shi",
       "deprecatedIDs": [],
       "name": "shi",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "countInJa/nn",
+      "id": "*/nn",
       "deprecatedIDs": [],
       "name": "nn",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "countInJa/hai",
+      "id": "*/hai",
       "deprecatedIDs": [],
       "name": "hai",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "countInJa/hoi",
+      "id": "*/hoi",
       "deprecatedIDs": [],
       "name": "hoi",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "countInJa/seno1",
+      "id": "*/seno1",
       "deprecatedIDs": [],
       "name": "seno! - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "countInJa/seno2",
+      "id": "*/seno2",
       "deprecatedIDs": [],
       "name": "seno! - 2",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "countInJa_readyCounting",
+      "id": "*_readyCounting",
       "deprecatedIDs": [],
       "name": "ready!",
       "cues": [
         {
-          "id": "countInJa/seno1",
+          "id": "*/seno1",
           "beat": 0.0
         },
         {
-          "id": "countInJa/seno2",
+          "id": "*/seno2",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "countInJa_2BeatCountIn",
+      "id": "*_2BeatCountIn",
       "deprecatedIDs": [],
       "name": "2-beat count-in",
       "cues": [
         {
-          "id": "countInJa/threeJa",
+          "id": "*/threeJa",
           "beat": 0.0
         },
         {
-          "id": "countInJa/fourJa",
+          "id": "*/fourJa",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "countInJa_4BeatCountIn",
+      "id": "*_4BeatCountIn",
       "deprecatedIDs": [],
       "name": "4-beat count-in",
       "cues": [
         {
-          "id": "countInJa/oneJa",
+          "id": "*/oneJa",
           "beat": 0.0
         },
         {
-          "id": "countInJa/twoJa",
+          "id": "*/twoJa",
           "beat": 1.0
         },
         {
-          "id": "countInJa/threeJa",
+          "id": "*/threeJa",
           "beat": 2.0
         },
         {
-          "id": "countInJa/fourJa",
+          "id": "*/fourJa",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "countInJa_8BeatCountIn",
+      "id": "*_8BeatCountIn",
       "deprecatedIDs": [],
       "name": "8-beat count-in",
       "cues": [
         {
-          "id": "countInJa/oneJa",
+          "id": "*/oneJa",
           "beat": 0.0
         },
         {
-          "id": "countInJa/twoJa",
+          "id": "*/twoJa",
           "beat": 2.0
         },
         {
-          "id": "countInJa/oneJa",
+          "id": "*/oneJa",
           "beat": 4.0
         },
         {
-          "id": "countInJa/twoJa",
+          "id": "*/twoJa",
           "beat": 5.0
         },
         {
-          "id": "countInJa/threeJa",
+          "id": "*/threeJa",
           "beat": 6.0
         },
         {
-          "id": "countInJa/fourJa",
+          "id": "*/fourJa",
           "beat": 7.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "countInJa_2BeatCountIn2",
+      "id": "*_2BeatCountIn2",
       "deprecatedIDs": [],
       "name": "2-beat count-in (alt.)",
       "cues": [
         {
-          "id": "countInJa/san",
+          "id": "*/san",
           "beat": 0.0
         },
         {
-          "id": "countInJa/shi",
+          "id": "*/shi",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "countInJa_4BeatCountIn2",
+      "id": "*_4BeatCountIn2",
       "deprecatedIDs": [],
       "name": "4-beat count-in (alt.)",
       "cues": [
         {
-          "id": "countInJa/ichi",
+          "id": "*/ichi",
           "beat": 0.0
         },
         {
-          "id": "countInJa/ni",
+          "id": "*/ni",
           "beat": 1.0
         },
         {
-          "id": "countInJa/san",
+          "id": "*/san",
           "beat": 2.0
         },
         {
-          "id": "countInJa/shi",
+          "id": "*/shi",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "countInJa_8BeatCountIn2",
+      "id": "*_8BeatCountIn2",
       "deprecatedIDs": [],
       "name": "8-beat count-in (alt.)",
       "cues": [
         {
-          "id": "countInJa/ichi",
+          "id": "*/ichi",
           "beat": 0.0
         },
         {
-          "id": "countInJa/ni",
+          "id": "*/ni",
           "beat": 2.0
         },
         {
-          "id": "countInJa/ichi",
+          "id": "*/ichi",
           "beat": 4.0
         },
         {
-          "id": "countInJa/ni",
+          "id": "*/ni",
           "beat": 5.0
         },
         {
-          "id": "countInJa/san",
+          "id": "*/san",
           "beat": 6.0
         },
         {
-          "id": "countInJa/shi",
+          "id": "*/shi",
           "beat": 7.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "countInJa_2BeatCountInGo",
+      "id": "*_2BeatCountInGo",
       "deprecatedIDs": [],
       "name": "2-beat count-in go",
       "cues": [
         {
-          "id": "countInJa/san",
+          "id": "*/san",
           "beat": 0.0
         },
         {
-          "id": "countInJa/hai",
+          "id": "*/hai",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "countInJa_2BeatCountInGo2",
+      "id": "*_2BeatCountInGo2",
       "deprecatedIDs": [],
       "name": "2-beat count-in go (alt.)",
       "cues": [
         {
-          "id": "countInJa/san",
+          "id": "*/san",
           "beat": 0.0
         },
         {
-          "id": "countInJa/hoi",
+          "id": "*/hoi",
           "beat": 1.0
         }
       ]

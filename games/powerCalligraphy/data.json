@@ -5,710 +5,710 @@
   "objects": [
     {
       "type": "cue",
-      "id": "powerCalligraphy/releaseA1",
+      "id": "*/releaseA1",
       "deprecatedIDs": [],
       "name": "nrr... hya! - 1",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "powerCalligraphy/releaseA2",
+      "id": "*/releaseA2",
       "deprecatedIDs": [],
       "name": "nrr... hya! - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "powerCalligraphy/releaseB1",
+      "id": "*/releaseB1",
       "deprecatedIDs": [],
       "name": "hai! - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "powerCalligraphy/releaseB2",
+      "id": "*/releaseB2",
       "deprecatedIDs": [],
       "name": "hai! - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "powerCalligraphy/brushTap",
+      "id": "*/brushTap",
       "deprecatedIDs": [],
       "name": "brush tap",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "powerCalligraphy/reShout",
+      "id": "*/reShout",
       "deprecatedIDs": [],
       "name": "re shout",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "powerCalligraphy/comma1",
+      "id": "*/comma1",
       "deprecatedIDs": [],
       "name": "comma - 1",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "powerCalligraphy/comma2",
+      "id": "*/comma2",
       "deprecatedIDs": [],
       "name": "comma - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "powerCalligraphy/comma3",
+      "id": "*/comma3",
       "deprecatedIDs": [],
       "name": "comma - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "powerCalligraphy/comma4",
+      "id": "*/comma4",
       "deprecatedIDs": [],
       "name": "comma - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "powerCalligraphy/brush1",
+      "id": "*/brush1",
       "deprecatedIDs": [],
       "name": "brush - 1",
       "duration": 0.375
     },
     {
       "type": "cue",
-      "id": "powerCalligraphy/brush2",
+      "id": "*/brush2",
       "deprecatedIDs": [],
       "name": "brush - 2",
       "duration": 0.375
     },
     {
       "type": "cue",
-      "id": "powerCalligraphy/brush3",
+      "id": "*/brush3",
       "deprecatedIDs": [],
       "name": "brush - 3",
       "duration": 0.25
     },
     {
       "type": "pattern",
-      "id": "powerCalligraphy_re",
+      "id": "*_re",
       "deprecatedIDs": [],
       "name": "re (レ)",
       "cues": [
         {
-          "id": "powerCalligraphy/reShout",
+          "id": "*/reShout",
           "beat": 0.0
         },
         {
-          "id": "powerCalligraphy/brushTap",
+          "id": "*/brushTap",
           "beat": 2.0
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 3.0
         },
         {
-          "id": "powerCalligraphy/releaseA1",
+          "id": "*/releaseA1",
           "beat": 4.0
         },
         {
-          "id": "powerCalligraphy/releaseA2",
+          "id": "*/releaseA2",
           "beat": 6.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "powerCalligraphy_comma",
+      "id": "*_comma",
       "deprecatedIDs": [],
       "name": "comma (、)",
       "cues": [
         {
-          "id": "powerCalligraphy/comma1",
+          "id": "*/comma1",
           "beat": 0.0
         },
         {
-          "id": "powerCalligraphy/comma2",
+          "id": "*/comma2",
           "beat": 2.0
         },
         {
-          "id": "powerCalligraphy/comma3",
+          "id": "*/comma3",
           "beat": 3.0
         },
         {
-          "id": "powerCalligraphy/comma4",
+          "id": "*/comma4",
           "beat": 4.0
         },
         {
-          "id": "powerCalligraphy/releaseB1",
+          "id": "*/releaseB1",
           "beat": 5.0
         },
         {
-          "id": "powerCalligraphy/releaseB2",
+          "id": "*/releaseB2",
           "beat": 6.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "powerCalligraphy_chikara",
+      "id": "*_chikara",
       "deprecatedIDs": [],
       "name": "chikara (力)",
       "cues": [
         {
-          "id": "powerCalligraphy/brushTap",
+          "id": "*/brushTap",
           "beat": 0.0
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 0.5
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 1.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 2.0
         },
         {
-          "id": "powerCalligraphy/brushTap",
+          "id": "*/brushTap",
           "beat": 3.0
         },
         {
-          "id": "powerCalligraphy/releaseA1",
+          "id": "*/releaseA1",
           "beat": 4.0
         },
         {
-          "id": "powerCalligraphy/releaseA2",
+          "id": "*/releaseA2",
           "beat": 6.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "powerCalligraphy_chikaraSwing",
+      "id": "*_chikaraSwing",
       "deprecatedIDs": [],
       "name": "chikara (力) (swing)",
       "cues": [
         {
-          "id": "powerCalligraphy/brushTap",
+          "id": "*/brushTap",
           "beat": 0.0
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 0.625
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 1.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 2.0
         },
         {
-          "id": "powerCalligraphy/brushTap",
+          "id": "*/brushTap",
           "beat": 3.0
         },
         {
-          "id": "powerCalligraphy/releaseA1",
+          "id": "*/releaseA1",
           "beat": 4.0
         },
         {
-          "id": "powerCalligraphy/releaseA2",
+          "id": "*/releaseA2",
           "beat": 6.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "powerCalligraphy_onore",
+      "id": "*_onore",
       "deprecatedIDs": [],
       "name": "onore (己)",
       "cues": [
         {
-          "id": "powerCalligraphy/brushTap",
+          "id": "*/brushTap",
           "beat": 0.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 1.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 1.5
         },
         {
-          "id": "powerCalligraphy/brushTap",
+          "id": "*/brushTap",
           "beat": 2.0
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 3.0
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 4.0,
           "track": 1
         },
         {
-          "id": "powerCalligraphy/releaseA1",
+          "id": "*/releaseA1",
           "beat": 4.0
         },
         {
-          "id": "powerCalligraphy/releaseA2",
+          "id": "*/releaseA2",
           "beat": 6.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "powerCalligraphy_onoreSwing",
+      "id": "*_onoreSwing",
       "deprecatedIDs": [],
       "name": "onore (己) (swing)",
       "cues": [
         {
-          "id": "powerCalligraphy/brushTap",
+          "id": "*/brushTap",
           "beat": 0.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 1.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 1.625
         },
         {
-          "id": "powerCalligraphy/brushTap",
+          "id": "*/brushTap",
           "beat": 2.0
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 3.0
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 4.0,
           "track": 1
         },
         {
-          "id": "powerCalligraphy/releaseA1",
+          "id": "*/releaseA1",
           "beat": 4.0
         },
         {
-          "id": "powerCalligraphy/releaseA2",
+          "id": "*/releaseA2",
           "beat": 6.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "powerCalligraphy_sun",
+      "id": "*_sun",
       "deprecatedIDs": [],
       "name": "sun (寸)",
       "cues": [
         {
-          "id": "powerCalligraphy/brushTap",
+          "id": "*/brushTap",
           "beat": 0.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 0.5
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 1.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 1.5
         },
         {
-          "id": "powerCalligraphy/releaseA1",
+          "id": "*/releaseA1",
           "beat": 2.0
         },
         {
-          "id": "powerCalligraphy/releaseA2",
+          "id": "*/releaseA2",
           "beat": 4.0
         },
         {
-          "id": "powerCalligraphy/releaseB1",
+          "id": "*/releaseB1",
           "beat": 5.0
         },
         {
-          "id": "powerCalligraphy/releaseB2",
+          "id": "*/releaseB2",
           "beat": 6.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "powerCalligraphy_sunSwing",
+      "id": "*_sunSwing",
       "deprecatedIDs": [],
       "name": "sun (寸) (swing)",
       "cues": [
         {
-          "id": "powerCalligraphy/brushTap",
+          "id": "*/brushTap",
           "beat": 0.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 0.625
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 1.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 1.625
         },
         {
-          "id": "powerCalligraphy/releaseA1",
+          "id": "*/releaseA1",
           "beat": 2.0
         },
         {
-          "id": "powerCalligraphy/releaseA2",
+          "id": "*/releaseA2",
           "beat": 4.0
         },
         {
-          "id": "powerCalligraphy/releaseB1",
+          "id": "*/releaseB1",
           "beat": 5.0
         },
         {
-          "id": "powerCalligraphy/releaseB2",
+          "id": "*/releaseB2",
           "beat": 6.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "powerCalligraphy_kokoro",
+      "id": "*_kokoro",
       "deprecatedIDs": [],
       "name": "kokoro (心)",
       "cues": [
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 0.0
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "powerCalligraphy/releaseA1",
+          "id": "*/releaseA1",
           "beat": 1.0
         },
         {
-          "id": "powerCalligraphy/releaseA2",
+          "id": "*/releaseA2",
           "beat": 3.0
         },
         {
-          "id": "powerCalligraphy/brushTap",
+          "id": "*/brushTap",
           "beat": 4.0
         },
         {
-          "id": "powerCalligraphy/releaseB1",
+          "id": "*/releaseB1",
           "beat": 5.0
         },
         {
-          "id": "powerCalligraphy/releaseB2",
+          "id": "*/releaseB2",
           "beat": 6.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "powerCalligraphy_tsurunihamushi",
+      "id": "*_tsurunihamushi",
       "deprecatedIDs": [],
       "name": "tsuru niha mu shi",
       "cues": [
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 0.0
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 1.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 2.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 2.5
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 3.0
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 4.0
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 4.5
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 5.0
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 5.5
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 6.0
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 6.5
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 7.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 7.25
         },
         {
-          "id": "powerCalligraphy/brushTap",
+          "id": "*/brushTap",
           "beat": 7.5
         },
         {
-          "id": "powerCalligraphy/releaseA1",
+          "id": "*/releaseA1",
           "beat": 8.0
         },
         {
-          "id": "powerCalligraphy/releaseA2",
+          "id": "*/releaseA2",
           "beat": 10.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "powerCalligraphy_tsurunihamushiSwing",
+      "id": "*_tsurunihamushiSwing",
       "deprecatedIDs": [],
       "name": "tsuru niha mu shi (swing)",
       "cues": [
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 0.0
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 1.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 2.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 2.625
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 3.0
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 4.0
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 4.625
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 5.0
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 5.625
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 6.0
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 6.625
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 7.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 7.25
         },
         {
-          "id": "powerCalligraphy/brushTap",
+          "id": "*/brushTap",
           "beat": 7.5
         },
         {
-          "id": "powerCalligraphy/releaseA1",
+          "id": "*/releaseA1",
           "beat": 8.0
         },
         {
-          "id": "powerCalligraphy/releaseA2",
+          "id": "*/releaseA2",
           "beat": 10.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "powerCalligraphy_tsurunihamushiKr",
+      "id": "*_tsurunihamushiKr",
       "deprecatedIDs": [],
       "name": "tsuru niha mu shi - (Korean version)",
       "cues": [
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 0.0
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 1.0
         },
         {
-          "id": "powerCalligraphy/brushTap",
+          "id": "*/brushTap",
           "beat": 2.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 3.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 4.0
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 5.0
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 5.5
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 6.0
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 6.5
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 7.0
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 7.5
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 8.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 8.25
         },
         {
-          "id": "powerCalligraphy/brushTap",
+          "id": "*/brushTap",
           "beat": 8.5
         },
         {
-          "id": "powerCalligraphy/releaseA1",
+          "id": "*/releaseA1",
           "beat": 9.0
         },
         {
-          "id": "powerCalligraphy/releaseA2",
+          "id": "*/releaseA2",
           "beat": 11.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "powerCalligraphy_tsurunihamushiKrSwing",
+      "id": "*_tsurunihamushiKrSwing",
       "deprecatedIDs": [],
       "name": "tsuru niha mu shi - (Korean version) - (swing)",
       "cues": [
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 0.0
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 1.0
         },
         {
-          "id": "powerCalligraphy/brushTap",
+          "id": "*/brushTap",
           "beat": 2.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 3.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 4.0
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 5.0
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 5.625
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 6.0
         },
         {
-          "id": "powerCalligraphy/brush2",
+          "id": "*/brush2",
           "beat": 6.625
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 7.0
         },
         {
-          "id": "powerCalligraphy/brush1",
+          "id": "*/brush1",
           "beat": 7.625
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 8.0
         },
         {
-          "id": "powerCalligraphy/brush3",
+          "id": "*/brush3",
           "beat": 8.25
         },
         {
-          "id": "powerCalligraphy/brushTap",
+          "id": "*/brushTap",
           "beat": 8.5
         },
         {
-          "id": "powerCalligraphy/releaseA1",
+          "id": "*/releaseA1",
           "beat": 9.0
         },
         {
-          "id": "powerCalligraphy/releaseA2",
+          "id": "*/releaseA2",
           "beat": 11.0
         }
       ]

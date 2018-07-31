@@ -5,82 +5,82 @@
   "objects": [
     {
       "type": "cue",
-      "id": "loveLizards/cowbell",
+      "id": "*/cowbell",
       "deprecatedIDs": [],
       "name": "cowbell",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "loveLizards/bzzt1",
+      "id": "*/bzzt1",
       "deprecatedIDs": [],
       "name": "güiro - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "loveLizards/bzzt2",
+      "id": "*/bzzt2",
       "deprecatedIDs": [],
       "name": "güiro - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "loveLizards/bzzt3",
+      "id": "*/bzzt3",
       "deprecatedIDs": [],
       "name": "güiro - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "loveLizards/bzzt4",
+      "id": "*/bzzt4",
       "deprecatedIDs": [],
       "name": "güiro - 4",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "loveLizards/happy",
+      "id": "*/happy",
       "deprecatedIDs": [],
       "name": "heart",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "loveLizards_matingDance",
+      "id": "*_matingDance",
       "deprecatedIDs": [],
       "name": "mating dance",
       "cues": [
         {
-          "id": "loveLizards/cowbell",
+          "id": "*/cowbell",
           "beat": 0.0
         },
         {
-          "id": "loveLizards/cowbell",
+          "id": "*/cowbell",
           "beat": 0.5
         },
         {
-          "id": "loveLizards/cowbell",
+          "id": "*/cowbell",
           "beat": 1.5
         },
         {
-          "id": "loveLizards/bzzt1",
+          "id": "*/bzzt1",
           "beat": 2.5
         },
         {
-          "id": "loveLizards/bzzt2",
+          "id": "*/bzzt2",
           "beat": 3.0
         },
         {
-          "id": "loveLizards/bzzt3",
+          "id": "*/bzzt3",
           "beat": 3.5
         },
         {
-          "id": "loveLizards/bzzt4",
+          "id": "*/bzzt4",
           "beat": 4.0
         },
         {
-          "id": "loveLizards/happy",
+          "id": "*/happy",
           "beat": 5.5
         }
       ]

@@ -6,49 +6,49 @@
   "objects": [
     {
       "type": "cue",
-      "id": "loveRapJa/candlelight",
+      "id": "*/candlelight",
       "deprecatedIDs": [],
       "name": "candlelight",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "loveRapJa/daisuki1",
+      "id": "*/daisuki1",
       "deprecatedIDs": [],
       "name": "mc adore - daisuki - 1",
       "duration": 0.4375
     },
     {
       "type": "cue",
-      "id": "loveRapJa/daisuki2",
+      "id": "*/daisuki2",
       "deprecatedIDs": [],
       "name": "mc adore - daisuki - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "loveRapJa/daisuki3",
+      "id": "*/daisuki3",
       "deprecatedIDs": [],
       "name": "mc adore - daisuki - 3",
       "duration": 0.3125
     },
     {
       "type": "cue",
-      "id": "loveRapJa/daisuki4",
+      "id": "*/daisuki4",
       "deprecatedIDs": [],
       "name": "rappers - daisuki - 1",
       "duration": 0.375
     },
     {
       "type": "cue",
-      "id": "loveRapJa/daisuki5",
+      "id": "*/daisuki5",
       "deprecatedIDs": [],
       "name": "rappers - daisuki - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "loveRapJa/daisuki6",
+      "id": "*/daisuki6",
       "deprecatedIDs": [],
       "name": "rappers - daisuki - 3",
       "duration": 0.375
@@ -56,56 +56,56 @@
 
     {
       "type": "cue",
-      "id": "loveRapJa/honto1",
+      "id": "*/honto1",
       "deprecatedIDs": [],
       "name": "mc adore - honto - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "loveRapJa/honto2",
+      "id": "*/honto2",
       "deprecatedIDs": [],
       "name": "mc adore - honto - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "loveRapJa/honto3",
+      "id": "*/honto3",
       "deprecatedIDs": [],
       "name": "rappers - honto - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "loveRapJa/honto4",
+      "id": "*/honto4",
       "deprecatedIDs": [],
       "name": "rappers - honto - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "loveRapJa/hontoB1",
+      "id": "*/hontoB1",
       "deprecatedIDs": [],
       "name": "mc adore - honto B - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "loveRapJa/hontoB2",
+      "id": "*/hontoB2",
       "deprecatedIDs": [],
       "name": "mc adore - honto B - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "loveRapJa/hontoB3",
+      "id": "*/hontoB3",
       "deprecatedIDs": [],
       "name": "rappers - honto B - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "loveRapJa/hontoB4",
+      "id": "*/hontoB4",
       "deprecatedIDs": [],
       "name": "rappers - honto B - 2",
       "duration": 0.5
@@ -113,63 +113,63 @@
 
     {
       "type": "cue",
-      "id": "loveRapJa/kinanda1",
+      "id": "*/kinanda1",
       "deprecatedIDs": [],
       "name": "mc adore - sukinanda - 1",
       "duration": 0.3125
     },
     {
       "type": "cue",
-      "id": "loveRapJa/kinanda2",
+      "id": "*/kinanda2",
       "deprecatedIDs": [],
       "name": "mc adore - sukinanda - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "loveRapJa/kinanda3",
+      "id": "*/kinanda3",
       "deprecatedIDs": [],
       "name": "mc adore - sukinanda - 3",
       "duration": 0.3125
     },
     {
       "type": "cue",
-      "id": "loveRapJa/kinanda4",
+      "id": "*/kinanda4",
       "deprecatedIDs": [],
       "name": "mc adore - sukinanda - 4",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "loveRapJa/sukinanda1",
+      "id": "*/sukinanda1",
       "deprecatedIDs": [],
       "name": "rappers - sukinanda - 1",
       "duration": 0.3125
     },
     {
       "type": "cue",
-      "id": "loveRapJa/sukinanda2",
+      "id": "*/sukinanda2",
       "deprecatedIDs": [],
       "name": "rappers - sukinanda - 2",
       "duration": 0.1875
     },
     {
       "type": "cue",
-      "id": "loveRapJa/sukinanda3",
+      "id": "*/sukinanda3",
       "deprecatedIDs": [],
       "name": "rappers - sukinanda - 3",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "loveRapJa/sukinanda4",
+      "id": "*/sukinanda4",
       "deprecatedIDs": [],
       "name": "rappers - sukinanda - 4",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "loveRapJa/sukinanda5",
+      "id": "*/sukinanda5",
       "deprecatedIDs": [],
       "name": "rappers - sukinanda - 5",
       "duration": 0.25
@@ -177,70 +177,70 @@
 
     {
       "type": "cue",
-      "id": "loveRapJa/majidaisuki1",
+      "id": "*/majidaisuki1",
       "deprecatedIDs": [],
       "name": "mc adore - majidaisuki - 1",
       "duration": 0.3125
     },
     {
       "type": "cue",
-      "id": "loveRapJa/majidaisuki2",
+      "id": "*/majidaisuki2",
       "deprecatedIDs": [],
       "name": "mc adore - majidaisuki - 2",
       "duration": 0.1875
     },
     {
       "type": "cue",
-      "id": "loveRapJa/majidaisuki3",
+      "id": "*/majidaisuki3",
       "deprecatedIDs": [],
       "name": "mc adore - majidaisuki - 3",
       "duration": 0.375
     },
     {
       "type": "cue",
-      "id": "loveRapJa/majidaisuki4",
+      "id": "*/majidaisuki4",
       "deprecatedIDs": [],
       "name": "mc adore - majidaisuki - 4",
       "duration": 0.4375
     },
     {
       "type": "cue",
-      "id": "loveRapJa/majidaisuki5",
+      "id": "*/majidaisuki5",
       "deprecatedIDs": [],
       "name": "mc adore - majidaisuki - 5",
       "duration": 0.1875
     },
     {
       "type": "cue",
-      "id": "loveRapJa/majidaisuki6",
+      "id": "*/majidaisuki6",
       "deprecatedIDs": [],
       "name": "rappers - majidaisuki - 1",
       "duration": 0.3125
     },
     {
       "type": "cue",
-      "id": "loveRapJa/majidaisuki7",
+      "id": "*/majidaisuki7",
       "deprecatedIDs": [],
       "name": "rappers - majidaisuki - 2",
       "duration": 0.1875
     },
     {
       "type": "cue",
-      "id": "loveRapJa/majidaisuki8",
+      "id": "*/majidaisuki8",
       "deprecatedIDs": [],
       "name": "rappers - majidaisuki - 3",
       "duration": 0.3125
     },
     {
       "type": "cue",
-      "id": "loveRapJa/majidaisuki9",
+      "id": "*/majidaisuki9",
       "deprecatedIDs": [],
       "name": "rappers - majidaisuki - 4",
       "duration": 0.4375
     },
     {
       "type": "cue",
-      "id": "loveRapJa/majidaisuki10",
+      "id": "*/majidaisuki10",
       "deprecatedIDs": [],
       "name": "rappers - majidaisuki - 5",
       "duration": 0.25
@@ -248,84 +248,84 @@
 
     {
       "type": "cue",
-      "id": "loveRapJa/swingMaji1",
+      "id": "*/swingMaji1",
       "deprecatedIDs": [],
       "name": "mc adore - swing majidaisuki - 1",
       "duration": 0.125
     },
     {
       "type": "cue",
-      "id": "loveRapJa/swingMaji2",
+      "id": "*/swingMaji2",
       "deprecatedIDs": [],
       "name": "mc adore - swing majidaisuki - 2",
       "duration": 0.375
     },
     {
       "type": "cue",
-      "id": "loveRapJa/swingMaji3",
+      "id": "*/swingMaji3",
       "deprecatedIDs": [],
       "name": "mc adore - swing majidaisuki - 3",
       "duration": 0.125
     },
     {
       "type": "cue",
-      "id": "loveRapJa/swingMaji4",
+      "id": "*/swingMaji4",
       "deprecatedIDs": [],
       "name": "mc adore - swing majidaisuki - 4",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "loveRapJa/swingMaji5",
+      "id": "*/swingMaji5",
       "deprecatedIDs": [],
       "name": "mc adore - swing majidaisuki - 5",
       "duration": 0.3125
     },
     {
       "type": "cue",
-      "id": "loveRapJa/swingMaji6",
+      "id": "*/swingMaji6",
       "deprecatedIDs": [],
       "name": "mc adore - swing majidaisuki - 6",
       "duration": 0.3125
     },
     {
       "type": "cue",
-      "id": "loveRapJa/swingMaji7",
+      "id": "*/swingMaji7",
       "deprecatedIDs": [],
       "name": "rapper - swing majidaisuki - 1",
       "duration": 0.125
     },
     {
       "type": "cue",
-      "id": "loveRapJa/swingMaji8",
+      "id": "*/swingMaji8",
       "deprecatedIDs": [],
       "name": "rapper - swing majidaisuki - 2",
       "duration": 0.3125
     },
     {
       "type": "cue",
-      "id": "loveRapJa/swingMaji9",
+      "id": "*/swingMaji9",
       "deprecatedIDs": [],
       "name": "rapper - swing majidaisuki - 3",
       "duration": 0.1875
     },
     {
       "type": "cue",
-      "id": "loveRapJa/swingMaji10",
+      "id": "*/swingMaji10",
       "deprecatedIDs": [],
       "name": "rapper - swing majidaisuki - 4",
       "duration": 0.1875
     },
     {
       "type": "cue",
-      "id": "loveRapJa/swingMaji11",
+      "id": "*/swingMaji11",
       "deprecatedIDs": [],
       "name": "rapper - swing majidaisuki - 5",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "loveRapJa/swingMaji12",
+      "id": "*/swingMaji12",
       "deprecatedIDs": [],
       "name": "rapper - swing majidaisuki - 6",
       "duration": 0.4375
@@ -333,124 +333,124 @@
 
     {
       "type": "pattern",
-      "id": "loveRapJa_daisuki",
+      "id": "*_daisuki",
       "deprecatedIDs": [],
       "name": "daisuki",
       "cues": [
         {
-          "id": "loveRapJa/daisuki1",
+          "id": "*/daisuki1",
           "beat": 0.0
         },
         {
-          "id": "loveRapJa/daisuki2",
+          "id": "*/daisuki2",
           "beat": 0.4375
         },
         {
-          "id": "loveRapJa/daisuki3",
+          "id": "*/daisuki3",
           "beat": 0.6875
         },
         {
-          "id": "loveRapJa/daisuki4",
+          "id": "*/daisuki4",
           "beat": 1.0
         },
         {
-          "id": "loveRapJa/daisuki5",
+          "id": "*/daisuki5",
           "beat": 1.375
         },
         {
-          "id": "loveRapJa/daisuki6",
+          "id": "*/daisuki6",
           "beat": 1.625
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "loveRapJa_hontoA",
+      "id": "*_hontoA",
       "deprecatedIDs": [],
       "name": "honto - A",
       "cues": [
         {
-          "id": "loveRapJa/honto1",
+          "id": "*/honto1",
           "beat": 0.0
         },
         {
-          "id": "loveRapJa/honto2",
+          "id": "*/honto2",
           "beat": 0.5
         },
         {
-          "id": "loveRapJa/honto3",
+          "id": "*/honto3",
           "beat": 0.75
         },
         {
-          "id": "loveRapJa/honto4",
+          "id": "*/honto4",
           "beat": 1.25
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "loveRapJa_hontoB",
+      "id": "*_hontoB",
       "deprecatedIDs": [],
       "name": "honto - B",
       "cues": [
         {
-          "id": "loveRapJa/hontoB1",
+          "id": "*/hontoB1",
           "beat": 0.0
         },
         {
-          "id": "loveRapJa/hontoB2",
+          "id": "*/hontoB2",
           "beat": 0.5
         },
         {
-          "id": "loveRapJa/hontoB3",
+          "id": "*/hontoB3",
           "beat": 0.75
         },
         {
-          "id": "loveRapJa/hontoB4",
+          "id": "*/hontoB4",
           "beat": 1.25
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "loveRapJa_sukinanda",
+      "id": "*_sukinanda",
       "deprecatedIDs": [],
       "name": "sukinanda",
       "cues": [
         {
-          "id": "loveRapJa/kinanda1",
+          "id": "*/kinanda1",
           "beat": 0.0
         },
         {
-          "id": "loveRapJa/kinanda2",
+          "id": "*/kinanda2",
           "beat": 0.3125
         },
         {
-          "id": "loveRapJa/kinanda3",
+          "id": "*/kinanda3",
           "beat": 0.5625
         },
         {
-          "id": "loveRapJa/kinanda4",
+          "id": "*/kinanda4",
           "beat": 0.875
         },
         {
-          "id": "loveRapJa/sukinanda1",
+          "id": "*/sukinanda1",
           "beat": 1.125
         },
         {
-          "id": "loveRapJa/sukinanda2",
+          "id": "*/sukinanda2",
           "beat": 1.4375
         },
         {
-          "id": "loveRapJa/sukinanda3",
+          "id": "*/sukinanda3",
           "beat": 1.625
         },
         {
-          "id": "loveRapJa/sukinanda4",
+          "id": "*/sukinanda4",
           "beat": 1.875
         },
         {
-          "id": "loveRapJa/sukinanda5",
+          "id": "*/sukinanda5",
           "beat": 2.125
         }
       ]
@@ -458,104 +458,104 @@
 
     {
       "type": "pattern",
-      "id": "loveRapJa_majidaisuki",
+      "id": "*_majidaisuki",
       "deprecatedIDs": [],
       "name": "maji daisuki",
       "cues": [
         {
-          "id": "loveRapJa/majidaisuki1",
+          "id": "*/majidaisuki1",
           "beat": 0.0
         },
         {
-          "id": "loveRapJa/majidaisuki2",
+          "id": "*/majidaisuki2",
           "beat": 0.3125
         },
         {
-          "id": "loveRapJa/majidaisuki3",
+          "id": "*/majidaisuki3",
           "beat": 0.5
         },
         {
-          "id": "loveRapJa/majidaisuki4",
+          "id": "*/majidaisuki4",
           "beat": 0.875
         },
         {
-          "id": "loveRapJa/majidaisuki5",
+          "id": "*/majidaisuki5",
           "beat": 1.3125
         },
         {
-          "id": "loveRapJa/majidaisuki6",
+          "id": "*/majidaisuki6",
           "beat": 1.5
         },
         {
-          "id": "loveRapJa/majidaisuki7",
+          "id": "*/majidaisuki7",
           "beat": 1.8125
         },
         {
-          "id": "loveRapJa/majidaisuki8",
+          "id": "*/majidaisuki8",
           "beat": 2.0
         },
         {
-          "id": "loveRapJa/majidaisuki9",
+          "id": "*/majidaisuki9",
           "beat": 2.3125
         },
         {
-          "id": "loveRapJa/majidaisuki10",
+          "id": "*/majidaisuki10",
           "beat": 2.75
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "loveRapJa_swingMajidaisuki",
+      "id": "*_swingMajidaisuki",
       "deprecatedIDs": [],
       "name": "maji daisuki - swing",
       "cues": [
         {
-          "id": "loveRapJa/swingMaji1",
+          "id": "*/swingMaji1",
           "beat": 0.0
         },
         {
-          "id": "loveRapJa/swingMaji2",
+          "id": "*/swingMaji2",
           "beat": 0.125
         },
         {
-          "id": "loveRapJa/swingMaji3",
+          "id": "*/swingMaji3",
           "beat": 0.5
         },
         {
-          "id": "loveRapJa/swingMaji4",
+          "id": "*/swingMaji4",
           "beat": 0.625
         },
         {
-          "id": "loveRapJa/swingMaji5",
+          "id": "*/swingMaji5",
           "beat": 0.875
         },
         {
-          "id": "loveRapJa/swingMaji6",
+          "id": "*/swingMaji6",
           "beat": 1.1875
         },
         {
-          "id": "loveRapJa/swingMaji7",
+          "id": "*/swingMaji7",
           "beat": 1.5
         },
         {
-          "id": "loveRapJa/swingMaji8",
+          "id": "*/swingMaji8",
           "beat": 1.625
         },
         {
-          "id": "loveRapJa/swingMaji9",
+          "id": "*/swingMaji9",
           "beat": 1.9375
         },
         {
-          "id": "loveRapJa/swingMaji10",
+          "id": "*/swingMaji10",
           "beat": 2.125
         },
         {
-          "id": "loveRapJa/swingMaji11",
+          "id": "*/swingMaji11",
           "beat": 2.3125
         },
         {
-          "id": "loveRapJa/swingMaji12",
+          "id": "*/swingMaji12",
           "beat": 2.5625
         }
       ]

@@ -5,21 +5,21 @@
   "objects": [
     {
       "type": "cue",
-      "id": "octopusMachine/squeeze",
+      "id": "*/squeeze",
       "deprecatedIDs": [],
       "name": "squeeze",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "octopusMachine/release",
+      "id": "*/release",
       "deprecatedIDs": [],
       "name": "release",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "octopusMachine/pop",
+      "id": "*/pop",
       "deprecatedIDs": [],
       "name": "pop",
       "duration": 0.5

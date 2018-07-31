@@ -5,175 +5,175 @@
   "objects": [
     {
       "type": "cue",
-      "id": "mrUpbeatGba/bip",
+      "id": "*/bip",
       "deprecatedIDs": [],
       "name": "count in - bip",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "mrUpbeatGba/one",
+      "id": "*/one",
       "deprecatedIDs": [],
       "name": "count in - one",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "mrUpbeatGba/two",
+      "id": "*/two",
       "deprecatedIDs": [],
       "name": "count in - two",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "mrUpbeatGba/a",
+      "id": "*/a",
       "deprecatedIDs": [],
       "name": "count in - a",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "mrUpbeatGba/three",
+      "id": "*/three",
       "deprecatedIDs": [],
       "name": "count in - three",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "mrUpbeatGba/four",
+      "id": "*/four",
       "deprecatedIDs": [],
       "name": "count in - four",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "mrUpbeatGba/metroL",
+      "id": "*/metroL",
       "deprecatedIDs": [],
       "name": "metronome - left",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "mrUpbeatGba/metroR",
+      "id": "*/metroR",
       "deprecatedIDs": [],
       "name": "metronome - right",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "mrUpbeatGba/step",
+      "id": "*/step",
       "deprecatedIDs": [],
       "name": "upbeat - step",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "mrUpbeatGba/ding",
+      "id": "*/ding",
       "deprecatedIDs": [],
       "name": "ding",
       "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "mrUpbeatGba_countIn",
+      "id": "*_countIn",
       "deprecatedIDs": [],
       "name": "count in",
       "cues": [
         {
-          "id": "mrUpbeatGba/one",
+          "id": "*/one",
           "beat": 0.0
         },
         {
-          "id": "mrUpbeatGba/bip",
+          "id": "*/bip",
           "beat": 0.5
         },
         {
-          "id": "mrUpbeatGba/bip",
+          "id": "*/bip",
           "beat": 1.5
         },
         {
-          "id": "mrUpbeatGba/two",
+          "id": "*/two",
           "beat": 2.0
         },
         {
-          "id": "mrUpbeatGba/bip",
+          "id": "*/bip",
           "beat": 2.5
         },
         {
-          "id": "mrUpbeatGba/a",
+          "id": "*/a",
           "beat": 3.5
         },
         {
-          "id": "mrUpbeatGba/one",
+          "id": "*/one",
           "beat": 4.0
         },
         {
-          "id": "mrUpbeatGba/bip",
+          "id": "*/bip",
           "beat": 4.5
         },
         {
-          "id": "mrUpbeatGba/two",
+          "id": "*/two",
           "beat": 5.0
         },
         {
-          "id": "mrUpbeatGba/bip",
+          "id": "*/bip",
           "beat": 5.5
         },
         {
-          "id": "mrUpbeatGba/three",
+          "id": "*/three",
           "beat": 6.0
         },
         {
-          "id": "mrUpbeatGba/bip",
+          "id": "*/bip",
           "beat": 6.5
         },
         {
-          "id": "mrUpbeatGba/four",
+          "id": "*/four",
           "beat": 7.0
         },
         {
-          "id": "mrUpbeatGba/bip",
+          "id": "*/bip",
           "beat": 7.5
         }
       ]
     },
     {
       "type": "keepTheBeat",
-      "id": "mrUpbeatGba_pattern",
+      "id": "*_pattern",
       "deprecatedIDs": [],
       "name": "stepping",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "mrUpbeatGba/metroR",
+          "id": "*/metroR",
           "beat": 0.0
         },
         {
-          "id": "mrUpbeatGba/step",
+          "id": "*/step",
           "beat": 0.5
         },
         {
-          "id": "mrUpbeatGba/metroL",
+          "id": "*/metroL",
           "beat": 1.0
         },
         {
-          "id": "mrUpbeatGba/step",
+          "id": "*/step",
           "beat": 1.5
         },
         {
-          "id": "mrUpbeatGba/metroR",
+          "id": "*/metroR",
           "beat": 2.0
         },
         {
-          "id": "mrUpbeatGba/step",
+          "id": "*/step",
           "beat": 2.5
         },
         {
-          "id": "mrUpbeatGba/metroL",
+          "id": "*/metroL",
           "beat": 3.0
         },
         {
-          "id": "mrUpbeatGba/step",
+          "id": "*/step",
           "beat": 3.5
         }
       ]

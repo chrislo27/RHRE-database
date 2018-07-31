@@ -5,30 +5,30 @@
   "objects": [
     {
       "type": "cue",
-      "id": "drummingPractice/raisearm",
+      "id": "*/raisearm",
       "deprecatedIDs": [],
       "name": "raise arm",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "drummingPractice/hitdrum",
+      "id": "*/hitdrum",
       "deprecatedIDs": [],
       "name": "hit drum",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "drummingPractice_hitdrum",
+      "id": "*_hitdrum",
       "deprecatedIDs": [],
       "name": "hit drum",
       "cues": [
         {
-          "id": "drummingPractice/raisearm",
+          "id": "*/raisearm",
           "beat": 0.0
         },
         {
-          "id": "drummingPractice/hitdrum",
+          "id": "*/hitdrum",
           "beat": 1.0
         }
       ]

@@ -7,7 +7,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "splashdownEn/start",
+      "id": "*/start",
       "deprecatedIDs": [
         "splashdown/start"
       ],
@@ -16,7 +16,7 @@
     },
     {
       "type": "cue",
-      "id": "splashdownEn/descend1",
+      "id": "*/descend1",
       "deprecatedIDs": [
         "splashdown/descend"
       ],
@@ -25,14 +25,14 @@
     },
     {
       "type": "cue",
-      "id": "splashdownEn/descend2",
+      "id": "*/descend2",
       "deprecatedIDs": [],
       "name": "descend - player",
       "duration": 0.75
     },
     {
       "type": "cue",
-      "id": "splashdownEn/ascend1",
+      "id": "*/ascend1",
       "deprecatedIDs": [
         "splashdown/ascend"
       ],
@@ -41,14 +41,14 @@
     },
     {
       "type": "cue",
-      "id": "splashdownEn/ascend2",
+      "id": "*/ascend2",
       "deprecatedIDs": [],
       "name": "ascend - player",
       "duration": 0.75
     },
     {
       "type": "cue",
-      "id": "splashdownEn/yeah1",
+      "id": "*/yeah1",
       "deprecatedIDs": [
         "splashdown/yeah1"
       ],
@@ -57,7 +57,7 @@
     },
     {
       "type": "cue",
-      "id": "splashdownEn/yeah2",
+      "id": "*/yeah2",
       "deprecatedIDs": [
         "splashdown/yeah2"
       ],
@@ -66,14 +66,14 @@
     },
     {
       "type": "cue",
-      "id": "splashdownEn/jumpSimultaneous",
+      "id": "*/jumpSimultaneous",
       "deprecatedIDs": [],
       "name": "jump - simultaneous",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "splashdownEn/spin1",
+      "id": "*/spin1",
       "deprecatedIDs": [
         "splashdown/spin1"
       ],
@@ -82,7 +82,7 @@
     },
     {
       "type": "cue",
-      "id": "splashdownEn/spin2",
+      "id": "*/spin2",
       "deprecatedIDs": [
         "splashdown/spin2"
       ],
@@ -91,14 +91,14 @@
     },
     {
       "type": "cue",
-      "id": "splashdownEn/splash",
+      "id": "*/splash",
       "deprecatedIDs": [],
       "name": "splash",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "splashdownEn/oooh",
+      "id": "*/oooh",
       "deprecatedIDs": [
         "splashdown/oooh"
       ],
@@ -107,7 +107,7 @@
     },
     {
       "type": "cue",
-      "id": "splashdownEn/alleyoop1",
+      "id": "*/alleyoop1",
       "deprecatedIDs": [
         "splashdown/alleyoop"
       ],
@@ -116,21 +116,21 @@
     },
     {
       "type": "cue",
-      "id": "splashdownEn/alleyoop2",
+      "id": "*/alleyoop2",
       "deprecatedIDs": [],
       "name": "alley-oop - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "splashdownEn/alleyoop3",
+      "id": "*/alleyoop3",
       "deprecatedIDs": [],
       "name": "alley-oop - 3",
       "duration": 1.0
     },
     {
       "type": "equidistant",
-      "id": "splashdownEn_descend",
+      "id": "*_descend",
       "deprecatedIDs": [
         "splashdown_descend"
       ],
@@ -139,19 +139,19 @@
       "stretchable": true,
       "cues": [
         {
-          "id": "splashdownEn/descend1"
+          "id": "*/descend1"
         },
         {
-          "id": "splashdownEn/descend1"
+          "id": "*/descend1"
         },
         {
-          "id": "splashdownEn/descend2"
+          "id": "*/descend2"
         }
       ]
     },
     {
       "type": "equidistant",
-      "id": "splashdownEn_ascend",
+      "id": "*_ascend",
       "deprecatedIDs": [
         "splashdown_ascend"
       ],
@@ -160,112 +160,112 @@
       "stretchable": true,
       "cues": [
         {
-          "id": "splashdownEn/ascend1"
+          "id": "*/ascend1"
         },
         {
-          "id": "splashdownEn/ascend1"
+          "id": "*/ascend1"
         },
         {
-          "id": "splashdownEn/ascend2"
+          "id": "*/ascend2"
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "splashdownEn_jumpOthers",
+      "id": "*_jumpOthers",
       "deprecatedIDs": [
         "splashdown_sealJump"
       ],
       "name": "jump - others",
       "cues": [
         {
-          "id": "splashdownEn/yeah1",
+          "id": "*/yeah1",
           "beat": 0.0
         },
         {
-          "id": "splashdownEn/spin1",
+          "id": "*/spin1",
           "beat": 1.0
         },
         {
-          "id": "splashdownEn/splash",
+          "id": "*/splash",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "splashdownEn_jumpPlayer",
+      "id": "*_jumpPlayer",
       "deprecatedIDs": [],
       "name": "jump - player",
       "cues": [
         {
-          "id": "splashdownEn/yeah2",
+          "id": "*/yeah2",
           "beat": 0.0
         },
         {
-          "id": "splashdownEn/spin2",
+          "id": "*/spin2",
           "beat": 1.0
         },
         {
-          "id": "splashdownEn/splash",
+          "id": "*/splash",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "splashdownEn_simultaneousJump",
+      "id": "*_simultaneousJump",
       "deprecatedIDs": [],
       "name": "simultaneous jump",
       "cues": [
         {
-          "id": "splashdownEn/oooh",
+          "id": "*/oooh",
           "beat": 0.0
         },
         {
-          "id": "splashdownEn/jumpSimultaneous",
+          "id": "*/jumpSimultaneous",
           "beat": 2.0
         },
         {
-          "id": "splashdownEn/spin2",
+          "id": "*/spin2",
           "beat": 2.75
         },
         {
-          "id": "splashdownEn/splash",
+          "id": "*/splash",
           "beat": 3.75
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "splashdownEn_alleyoop",
+      "id": "*_alleyoop",
       "deprecatedIDs": [
         "splashdown_alleyoop"
       ],
       "name": "alley-oop!",
       "cues": [
         {
-          "id": "splashdownEn/oooh",
+          "id": "*/oooh",
           "beat": 0.0
         },
         {
-          "id": "splashdownEn/jumpSimultaneous",
+          "id": "*/jumpSimultaneous",
           "beat": 2.0
         },
         {
-          "id": "splashdownEn/alleyoop1",
+          "id": "*/alleyoop1",
           "beat": 2.5
         },
         {
-          "id": "splashdownEn/alleyoop2",
+          "id": "*/alleyoop2",
           "beat": 2.75
         },
         {
-          "id": "splashdownEn/alleyoop3",
+          "id": "*/alleyoop3",
           "beat": 3.0
         },
         {
-          "id": "splashdownEn/splash",
+          "id": "*/splash",
           "beat": 4.0
         }
       ]

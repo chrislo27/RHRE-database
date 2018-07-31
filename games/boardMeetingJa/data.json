@@ -6,21 +6,21 @@
   "objects": [
     {
       "type": "cue",
-      "id": "boardMeetingJa/startPrepare",
+      "id": "*/startPrepare",
       "deprecatedIDs": [],
       "name": "start - prepare",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "boardMeetingJa/start1",
+      "id": "*/start1",
       "deprecatedIDs": [],
       "name": "start - single",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "boardMeetingJa/spin1Loop",
+      "id": "*/spin1Loop",
       "deprecatedIDs": [],
       "name": "spinning - start - 1",
       "duration": 1.0,
@@ -30,14 +30,14 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingJa/start2",
+      "id": "*/start2",
       "deprecatedIDs": [],
       "name": "start - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "boardMeetingJa/spin2Loop",
+      "id": "*/spin2Loop",
       "deprecatedIDs": [],
       "name": "spinning - start - 2",
       "duration": 1.0,
@@ -47,14 +47,14 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingJa/start3",
+      "id": "*/start3",
       "deprecatedIDs": [],
       "name": "start - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "boardMeetingJa/spin3Loop",
+      "id": "*/spin3Loop",
       "deprecatedIDs": [],
       "name": "spinning - start - 3",
       "duration": 1.0,
@@ -64,14 +64,14 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingJa/start4",
+      "id": "*/start4",
       "deprecatedIDs": [],
       "name": "start - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "boardMeetingJa/spin4Loop",
+      "id": "*/spin4Loop",
       "deprecatedIDs": [],
       "name": "spinning - start - 4",
       "duration": 1.0,
@@ -81,28 +81,28 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingJa/stop",
+      "id": "*/stop",
       "deprecatedIDs": [],
       "name": "stop",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "boardMeetingJa/stopPlayer",
+      "id": "*/stopPlayer",
       "deprecatedIDs": [],
       "name": "stop - player",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "boardMeetingJa/startTogether",
+      "id": "*/startTogether",
       "deprecatedIDs": [],
       "name": "start - together",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "boardMeetingJa/spinTogether",
+      "id": "*/spinTogether",
       "deprecatedIDs": [],
       "name": "spinning - start - together",
       "duration": 1.0,
@@ -111,52 +111,52 @@
     },
     {
       "type": "cue",
-      "id": "boardMeetingJa/abStop1",
+      "id": "*/abStop1",
       "deprecatedIDs": [],
       "name": "assistant - ish",
       "duration": 0.66666
     },
     {
       "type": "cue",
-      "id": "boardMeetingJa/abStop2",
+      "id": "*/abStop2",
       "deprecatedIDs": [],
       "name": "assistant - o",
       "duration": 0.33333
     },
     {
       "type": "cue",
-      "id": "boardMeetingJa/abStop3",
+      "id": "*/abStop3",
       "deprecatedIDs": [],
       "name": "assistant - ni",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "boardMeetingJa/abStop4",
+      "id": "*/abStop4",
       "deprecatedIDs": [],
       "name": "stop - together",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "boardMeetingJa_assistant",
+      "id": "*_assistant",
       "deprecatedIDs": [],
       "name": "assistant - stop",
       "cues": [
         {
-          "id": "boardMeetingJa/abStop1",
+          "id": "*/abStop1",
           "beat": 0.0
         },
         {
-          "id": "boardMeetingJa/abStop2",
+          "id": "*/abStop2",
           "beat": 0.66667
         },
         {
-          "id": "boardMeetingJa/abStop3",
+          "id": "*/abStop3",
           "beat": 1.0
         },
         {
-          "id": "boardMeetingJa/abStop4",
+          "id": "*/abStop4",
           "beat": 2.0
         }
       ]

@@ -5,76 +5,76 @@
   "objects": [
     {
       "type": "cue",
-      "id": "quizShowGba/hostA",
+      "id": "*/hostA",
       "deprecatedIDs": [],
       "name": "host - A",
       "duration": 0.25,
       "responseIDs": [
-        "quizShowGba/contestantA"
+        "*/contestantA"
       ]
     },
     {
       "type": "cue",
-      "id": "quizShowGba/hostDPad",
+      "id": "*/hostDPad",
       "deprecatedIDs": [],
       "name": "host - +",
       "duration": 0.25,
       "responseIDs": [
-        "quizShowGba/contestantDPad"
+        "*/contestantDPad"
       ]
     },
     {
       "type": "cue",
-      "id": "quizShowGba/contestantA",
+      "id": "*/contestantA",
       "deprecatedIDs": [],
       "name": "contestant - A",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "quizShowGba/contestantDPad",
+      "id": "*/contestantDPad",
       "deprecatedIDs": [],
       "name": "contestant - +",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "quizShowGba/timerStart",
+      "id": "*/timerStart",
       "deprecatedIDs": [],
       "name": "timer start",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "quizShowGba/timerStop",
+      "id": "*/timerStop",
       "deprecatedIDs": [],
       "name": "timer stop",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "quizShowGba/timeUp",
+      "id": "*/timeUp",
       "deprecatedIDs": [],
       "name": "time's up!",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "quizShowGba/answerReveal",
+      "id": "*/answerReveal",
       "deprecatedIDs": [],
       "name": "answer reveal",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "quizShowGba/correct",
+      "id": "*/correct",
       "deprecatedIDs": [],
       "name": "correct answer",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "quizShowGba/correctNoMusic",
+      "id": "*/correctNoMusic",
       "deprecatedIDs": [],
       "name": "correct answer - no music",
       "duration": 2.0

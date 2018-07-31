@@ -5,150 +5,150 @@
   "objects": [
     {
       "type": "cue",
-      "id": "chargingChicken/platformSet",
+      "id": "*/platformSet",
       "deprecatedIDs": [],
       "name": "platform set",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "chargingChicken/cowbell",
+      "id": "*/cowbell",
       "deprecatedIDs": [],
       "name": "cowbell",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "chargingChicken/blastoff",
+      "id": "*/blastoff",
       "deprecatedIDs": [],
       "name": "blastoff",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "chargingChicken/platformFall",
+      "id": "*/platformFall",
       "deprecatedIDs": [],
       "name": "platform fall",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "chargingChicken/platformSplash",
+      "id": "*/platformSplash",
       "deprecatedIDs": [],
       "name": "platform splash",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "chargingChicken/complete",
+      "id": "*/complete",
       "deprecatedIDs": [],
       "name": "you made it!",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "chargingChicken_fourYards",
+      "id": "*_fourYards",
       "deprecatedIDs": [],
       "name": "four yards",
       "cues": [
         {
-          "id": "chargingChicken/platformSet",
+          "id": "*/platformSet",
           "beat": 0.0
         },
         {
-          "id": "chargingChicken/cowbell",
+          "id": "*/cowbell",
           "beat": 2.0
         },
         {
-          "id": "chargingChicken/cowbell",
+          "id": "*/cowbell",
           "beat": 3.0
         },
         {
-          "id": "chargingChicken/cowbell",
+          "id": "*/cowbell",
           "beat": 4.0
         },
         {
-          "id": "chargingChicken/cowbell",
+          "id": "*/cowbell",
           "beat": 5.0
         },
         {
-          "id": "chargingChicken/blastoff",
+          "id": "*/blastoff",
           "beat": 10.0
         },
         {
-          "id": "chargingChicken/complete",
+          "id": "*/complete",
           "beat": 18.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "chargingChicken_eightYards",
+      "id": "*_eightYards",
       "deprecatedIDs": [],
       "name": "eight yards",
       "cues": [
         {
-          "id": "chargingChicken/platformSet",
+          "id": "*/platformSet",
           "beat": 0.0
         },
         {
-          "id": "chargingChicken/cowbell",
+          "id": "*/cowbell",
           "beat": 2.0
         },
         {
-          "id": "chargingChicken/cowbell",
+          "id": "*/cowbell",
           "beat": 3.0
         },
         {
-          "id": "chargingChicken/cowbell",
+          "id": "*/cowbell",
           "beat": 4.0
         },
         {
-          "id": "chargingChicken/cowbell",
+          "id": "*/cowbell",
           "beat": 5.0
         },
         {
-          "id": "chargingChicken/blastoff",
+          "id": "*/blastoff",
           "beat": 14.0
         },
         {
-          "id": "chargingChicken/complete",
+          "id": "*/complete",
           "beat": 30.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "chargingChicken_sixteenYards",
+      "id": "*_sixteenYards",
       "deprecatedIDs": [],
       "name": "sixteen yards",
       "cues": [
         {
-          "id": "chargingChicken/platformSet",
+          "id": "*/platformSet",
           "beat": 0.0
         },
         {
-          "id": "chargingChicken/cowbell",
+          "id": "*/cowbell",
           "beat": 2.0
         },
         {
-          "id": "chargingChicken/cowbell",
+          "id": "*/cowbell",
           "beat": 3.0
         },
         {
-          "id": "chargingChicken/cowbell",
+          "id": "*/cowbell",
           "beat": 4.0
         },
         {
-          "id": "chargingChicken/cowbell",
+          "id": "*/cowbell",
           "beat": 5.0
         },
         {
-          "id": "chargingChicken/blastoff",
+          "id": "*/blastoff",
           "beat": 22.0
         },
         {
-          "id": "chargingChicken/complete",
+          "id": "*/complete",
           "beat": 54.0
         }
       ]

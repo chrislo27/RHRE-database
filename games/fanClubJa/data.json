@@ -6,7 +6,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "fanClubJa/hai1",
+      "id": "*/hai1",
       "deprecatedIDs": [
         "fanClubJp/hai1"
       ],
@@ -15,7 +15,7 @@
     },
     {
       "type": "cue",
-      "id": "fanClubJa/hai2",
+      "id": "*/hai2",
       "deprecatedIDs": [
         "fanClubJp/hai2"
       ],
@@ -24,7 +24,7 @@
     },
     {
       "type": "cue",
-      "id": "fanClubJa/hai3",
+      "id": "*/hai3",
       "deprecatedIDs": [
         "fanClubJp/hai3"
       ],
@@ -33,7 +33,7 @@
     },
     {
       "type": "cue",
-      "id": "fanClubJa/haiClap",
+      "id": "*/haiClap",
       "deprecatedIDs": [
         "fanClubJp/haiClap"
       ],
@@ -42,7 +42,7 @@
     },
     {
       "type": "cue",
-      "id": "fanClubJa/kamone1",
+      "id": "*/kamone1",
       "deprecatedIDs": [
         "fanClubJp/kamone1"
       ],
@@ -51,7 +51,7 @@
     },
     {
       "type": "cue",
-      "id": "fanClubJa/kamone2",
+      "id": "*/kamone2",
       "deprecatedIDs": [
         "fanClubJp/kamone2"
       ],
@@ -60,7 +60,7 @@
     },
     {
       "type": "cue",
-      "id": "fanClubJa/kamone3",
+      "id": "*/kamone3",
       "deprecatedIDs": [
         "fanClubJp/kamone3"
       ],
@@ -69,7 +69,7 @@
     },
     {
       "type": "cue",
-      "id": "fanClubJa/kamoneClap1",
+      "id": "*/kamoneClap1",
       "deprecatedIDs": [
         "fanClubJp/kamoneClap1"
       ],
@@ -78,7 +78,7 @@
     },
     {
       "type": "cue",
-      "id": "fanClubJa/kamoneClap2",
+      "id": "*/kamoneClap2",
       "deprecatedIDs": [
         "fanClubJp/kamoneClap2"
       ],
@@ -87,7 +87,7 @@
     },
     {
       "type": "cue",
-      "id": "fanClubJa/kamoneClap3",
+      "id": "*/kamoneClap3",
       "deprecatedIDs": [
         "fanClubJp/kamoneClap3"
       ],
@@ -96,7 +96,7 @@
     },
     {
       "type": "cue",
-      "id": "fanClubJa/kamoneClap4",
+      "id": "*/kamoneClap4",
       "deprecatedIDs": [
         "fanClubJp/kamoneClap4"
       ],
@@ -105,7 +105,7 @@
     },
     {
       "type": "cue",
-      "id": "fanClubJa/kamoneJump",
+      "id": "*/kamoneJump",
       "deprecatedIDs": [
         "fanClubJp/kamoneJump"
       ],
@@ -114,123 +114,123 @@
     },
     {
       "type": "cue",
-      "id": "fanClubJa/landing",
+      "id": "*/landing",
       "deprecatedIDs": [],
       "name": "audience - kamone - landing",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "fanClubJa_haiHaiHai",
+      "id": "*_haiHaiHai",
       "deprecatedIDs": [
         "fanClubJp_haiHaiHai"
       ],
       "name": "yeah yeah yeah!",
       "cues": [
         {
-          "id": "fanClubJa/hai1",
+          "id": "*/hai1",
           "beat": 0.0
         },
         {
-          "id": "fanClubJa/hai2",
+          "id": "*/hai2",
           "beat": 1.0
         },
         {
-          "id": "fanClubJa/hai3",
+          "id": "*/hai3",
           "beat": 2.0
         },
         {
-          "id": "fanClubJa/haiClap",
+          "id": "*/haiClap",
           "beat": 4.0
         },
         {
-          "id": "fanClubJa/haiClap",
+          "id": "*/haiClap",
           "beat": 5.0
         },
         {
-          "id": "fanClubJa/haiClap",
+          "id": "*/haiClap",
           "beat": 6.0
         },
         {
-          "id": "fanClubJa/haiClap",
+          "id": "*/haiClap",
           "beat": 7.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "fanClubJa_kamone",
+      "id": "*_kamone",
       "deprecatedIDs": [
         "fanClubJp_kamone"
       ],
       "name": "I suppose!",
       "cues": [
         {
-          "id": "fanClubJa/kamone1",
+          "id": "*/kamone1",
           "beat": 0.0
         },
         {
-          "id": "fanClubJa/kamone2",
+          "id": "*/kamone2",
           "beat": 0.5
         },
         {
-          "id": "fanClubJa/kamone3",
+          "id": "*/kamone3",
           "beat": 1.0
         },
         {
-          "id": "fanClubJa/kamoneClap1",
+          "id": "*/kamoneClap1",
           "beat": 2.0
         },
         {
-          "id": "fanClubJa/kamoneClap2",
+          "id": "*/kamoneClap2",
           "beat": 3.5
         },
         {
-          "id": "fanClubJa/kamoneClap3",
+          "id": "*/kamoneClap3",
           "beat": 4.0
         },
         {
-          "id": "fanClubJa/kamoneClap4",
+          "id": "*/kamoneClap4",
           "beat": 5.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "fanClubJa_kamoneLanding",
+      "id": "*_kamoneLanding",
       "deprecatedIDs": [],
       "name": "I suppose! - with landing",
       "cues": [
         {
-          "id": "fanClubJa/kamone1",
+          "id": "*/kamone1",
           "beat": 0.0
         },
         {
-          "id": "fanClubJa/kamone2",
+          "id": "*/kamone2",
           "beat": 0.5
         },
         {
-          "id": "fanClubJa/kamone3",
+          "id": "*/kamone3",
           "beat": 1.0
         },
         {
-          "id": "fanClubJa/kamoneClap1",
+          "id": "*/kamoneClap1",
           "beat": 2.0
         },
         {
-          "id": "fanClubJa/kamoneClap2",
+          "id": "*/kamoneClap2",
           "beat": 3.5
         },
         {
-          "id": "fanClubJa/kamoneClap3",
+          "id": "*/kamoneClap3",
           "beat": 4.0
         },
         {
-          "id": "fanClubJa/kamoneClap4",
+          "id": "*/kamoneClap4",
           "beat": 5.0
         },
         {
-          "id": "fanClubJa/landing",
+          "id": "*/landing",
           "beat": 6.0
         }
       ]

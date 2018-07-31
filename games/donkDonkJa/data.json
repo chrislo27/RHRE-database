@@ -6,7 +6,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "donkDonkJa/donk1",
+      "id": "*/donk1",
       "deprecatedIDs": [
         "donkDonkJp/donk1"
       ],
@@ -15,7 +15,7 @@
     },
     {
       "type": "cue",
-      "id": "donkDonkJa/donk2",
+      "id": "*/donk2",
       "deprecatedIDs": [
         "donkDonkJp/donk2"
       ],
@@ -24,7 +24,7 @@
     },
     {
       "type": "cue",
-      "id": "donkDonkJa/dwonk1",
+      "id": "*/dwonk1",
       "deprecatedIDs": [
         "donkDonkJp/dwonk1"
       ],
@@ -33,7 +33,7 @@
     },
     {
       "type": "cue",
-      "id": "donkDonkJa/dwonk2",
+      "id": "*/dwonk2",
       "deprecatedIDs": [
         "donkDonkJp/dwonk2"
       ],
@@ -42,7 +42,7 @@
     },
     {
       "type": "cue",
-      "id": "donkDonkJa/deetdeetduh1",
+      "id": "*/deetdeetduh1",
       "deprecatedIDs": [
         "donkDonkJp/deetdeetduh1"
       ],
@@ -51,7 +51,7 @@
     },
     {
       "type": "cue",
-      "id": "donkDonkJa/deetdeetduh2",
+      "id": "*/deetdeetduh2",
       "deprecatedIDs": [
         "donkDonkJp/deetdeetduh2"
       ],
@@ -60,7 +60,7 @@
     },
     {
       "type": "cue",
-      "id": "donkDonkJa/deetdeetduh3",
+      "id": "*/deetdeetduh3",
       "deprecatedIDs": [
         "donkDonkJp/deetdeetduh3"
       ],
@@ -69,7 +69,7 @@
     },
     {
       "type": "cue",
-      "id": "donkDonkJa/deetdeetdoot1",
+      "id": "*/deetdeetdoot1",
       "deprecatedIDs": [
         "donkDonkJp/deetdeetdoot1"
       ],
@@ -78,7 +78,7 @@
     },
     {
       "type": "cue",
-      "id": "donkDonkJa/deetdeetdoot2",
+      "id": "*/deetdeetdoot2",
       "deprecatedIDs": [
         "donkDonkJp/deetdeetdoot2"
       ],
@@ -87,7 +87,7 @@
     },
     {
       "type": "cue",
-      "id": "donkDonkJa/deetdeetdoot3",
+      "id": "*/deetdeetdoot3",
       "deprecatedIDs": [
         "donkDonkJp/deetdeetdoot3"
       ],
@@ -96,28 +96,28 @@
     },
     {
       "type": "cue",
-      "id": "donkDonkJa/deetdeetdootNoBlast1",
+      "id": "*/deetdeetdootNoBlast1",
       "deprecatedIDs": [],
       "name": "deet-deet-doot (no blast) - 1",
       "duration": 0.666666
     },
     {
       "type": "cue",
-      "id": "donkDonkJa/deetdeetdootNoBlast2",
+      "id": "*/deetdeetdootNoBlast2",
       "deprecatedIDs": [],
       "name": "deet-deet-doot (no blast) - 2",
       "duration": 0.666666
     },
     {
       "type": "cue",
-      "id": "donkDonkJa/deetdeetdootNoBlast3",
+      "id": "*/deetdeetdootNoBlast3",
       "deprecatedIDs": [],
       "name": "deet-deet-doot (no blast) - 3",
       "duration": 0.666666
     },
     {
       "type": "cue",
-      "id": "donkDonkJa/blastoff",
+      "id": "*/blastoff",
       "deprecatedIDs": [
         "donkDonkJp/blastoff"
       ],
@@ -126,133 +126,133 @@
     },
     {
       "type": "pattern",
-      "id": "donkDonkJa_donkdonk",
+      "id": "*_donkdonk",
       "deprecatedIDs": [
         "donkDonkJp_donkdonk"
       ],
       "name": "donk-donk",
       "cues": [
         {
-          "id": "donkDonkJa/donk1",
+          "id": "*/donk1",
           "beat": 0.0
         },
         {
-          "id": "donkDonkJa/donk2",
+          "id": "*/donk2",
           "beat": 0.666666
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "donkDonkJa_donkdwonk",
+      "id": "*_donkdwonk",
       "deprecatedIDs": [
         "donkDonkJp_donkdwonk"
       ],
       "name": "donk-dwonk",
       "cues": [
         {
-          "id": "donkDonkJa/dwonk1",
+          "id": "*/dwonk1",
           "beat": 0.0
         },
         {
-          "id": "donkDonkJa/dwonk2",
+          "id": "*/dwonk2",
           "beat": 0.666666
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "donkDonkJa_deetdeetduh",
+      "id": "*_deetdeetduh",
       "deprecatedIDs": [
         "donkDonkJp_deetdeetduh"
       ],
       "name": "deet-deet-duh",
       "cues": [
         {
-          "id": "donkDonkJa/deetdeetduh1",
+          "id": "*/deetdeetduh1",
           "beat": 0.0
         },
         {
-          "id": "donkDonkJa/deetdeetduh2",
+          "id": "*/deetdeetduh2",
           "beat": 0.666666
         },
         {
-          "id": "donkDonkJa/deetdeetduh3",
+          "id": "*/deetdeetduh3",
           "beat": 1.333333
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "donkDonkJa_deetdeetdoot",
+      "id": "*_deetdeetdoot",
       "deprecatedIDs": [
         "donkDonkJp_deetdeetdoot"
       ],
       "name": "deet-deet-doot",
       "cues": [
         {
-          "id": "donkDonkJa/deetdeetdoot1",
+          "id": "*/deetdeetdoot1",
           "beat": 0.0
         },
         {
-          "id": "donkDonkJa/deetdeetdoot2",
+          "id": "*/deetdeetdoot2",
           "beat": 0.666666
         },
         {
-          "id": "donkDonkJa/deetdeetdoot3",
+          "id": "*/deetdeetdoot3",
           "beat": 1.333333
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "donkDonkJa_deetdeetdootNoBlast",
+      "id": "*_deetdeetdootNoBlast",
       "deprecatedIDs": [],
       "name": "deet-deet-doot (no blast)",
       "cues": [
         {
-          "id": "donkDonkJa/deetdeetdootNoBlast1",
+          "id": "*/deetdeetdootNoBlast1",
           "beat": 0.0
         },
         {
-          "id": "donkDonkJa/deetdeetdootNoBlast2",
+          "id": "*/deetdeetdootNoBlast2",
           "beat": 0.666666
         },
         {
-          "id": "donkDonkJa/deetdeetdootNoBlast3",
+          "id": "*/deetdeetdootNoBlast3",
           "beat": 1.333333
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "donkDonkJa_toastsaot",
+      "id": "*_toastsaot",
       "deprecatedIDs": [
         "donkDonkJp_toastsaot"
       ],
       "name": "DWONKAME!",
       "cues": [
         {
-          "id": "donkDonkJa/dwonk2",
+          "id": "*/dwonk2",
           "beat": 0.0
         },
         {
-          "id": "donkDonkJa/dwonk2",
+          "id": "*/dwonk2",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "donkDonkJa/dwonk2",
+          "id": "*/dwonk2",
           "beat": 0.0,
           "track": 2
         },
         {
-          "id": "donkDonkJa/dwonk2",
+          "id": "*/dwonk2",
           "beat": 0.0,
           "track": 3
         },
         {
-          "id": "donkDonkJa/dwonk2",
+          "id": "*/dwonk2",
           "beat": 0.0,
           "track": 4
         }

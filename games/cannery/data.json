@@ -5,30 +5,30 @@
   "objects": [
     {
       "type": "cue",
-      "id": "cannery/ding",
+      "id": "*/ding",
       "deprecatedIDs": [],
       "name": "tink",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "cannery/steam",
+      "id": "*/steam",
       "deprecatedIDs": [],
       "name": "steam",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "cannery_can",
+      "id": "*_can",
       "deprecatedIDs": [],
       "name": "can",
       "cues": [
         {
-          "id": "cannery/ding",
+          "id": "*/ding",
           "beat": 0.0
         },
         {
-          "id": "cannery/steam",
+          "id": "*/steam",
           "beat": 1.0
         }
       ]

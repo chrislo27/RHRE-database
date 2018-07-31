@@ -5,63 +5,63 @@
   "objects": [
     {
       "type": "cue",
-      "id": "rhythmRallyMegamix/whistle",
+      "id": "*/whistle",
       "deprecatedIDs": [],
       "name": "whistle",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "rhythmRallyMegamix/flowerStart",
+      "id": "*/flowerStart",
       "deprecatedIDs": [],
       "name": "big flower - beginning (story)",
       "duration": 10.0
     },
     {
       "type": "cue",
-      "id": "rhythmRallyMegamix/cakeStart",
+      "id": "*/cakeStart",
       "deprecatedIDs": [],
       "name": "big cake - beginning (sequel)",
       "duration": 12.0
     },
     {
       "type": "cue",
-      "id": "rhythmRallyMegamix/hit1",
+      "id": "*/hit1",
       "deprecatedIDs": [],
       "name": "bounce - opponent",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "rhythmRallyMegamix/hit2",
+      "id": "*/hit2",
       "deprecatedIDs": [],
       "name": "bounce - table",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "rhythmRallyMegamix/hit3",
+      "id": "*/hit3",
       "deprecatedIDs": [],
       "name": "bounce - player",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "rhythmRallyMegamix/tonk",
+      "id": "*/tonk",
       "deprecatedIDs": [],
       "name": "tonk",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "rhythmRallyMegamix/tink",
+      "id": "*/tink",
       "deprecatedIDs": [],
       "name": "tink",
       "duration": 0.5
     },
     {
       "type": "keepTheBeat",
-      "id": "rhythmRallyMegamix_slowrally",
+      "id": "*_slowrally",
       "deprecatedIDs": [
         "rhythmrallymegamix_slowrally"
       ],
@@ -69,19 +69,19 @@
       "defaultDuration": 8.0,
       "cues": [
         {
-          "id": "rhythmRallyMegamix/hit1",
+          "id": "*/hit1",
           "beat": 0.0
         },
         {
-          "id": "rhythmRallyMegamix/hit2",
+          "id": "*/hit2",
           "beat": 2.0
         },
         {
-          "id": "rhythmRallyMegamix/hit3",
+          "id": "*/hit3",
           "beat": 4.0
         },
         {
-          "id": "rhythmRallyMegamix/hit2",
+          "id": "*/hit2",
           "beat": 6.0,
           "duration": 2.0
         }
@@ -89,7 +89,7 @@
     },
     {
       "type": "keepTheBeat",
-      "id": "rhythmRallyMegamix_normalrally",
+      "id": "*_normalrally",
       "deprecatedIDs": [
         "rhythmrallymegamix_normalrally"
       ],
@@ -97,19 +97,19 @@
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "rhythmRallyMegamix/hit1",
+          "id": "*/hit1",
           "beat": 0.0
         },
         {
-          "id": "rhythmRallyMegamix/hit2",
+          "id": "*/hit2",
           "beat": 1.0
         },
         {
-          "id": "rhythmRallyMegamix/hit3",
+          "id": "*/hit3",
           "beat": 2.0
         },
         {
-          "id": "rhythmRallyMegamix/hit2",
+          "id": "*/hit2",
           "beat": 3.0,
           "duration": 1.0
         }
@@ -117,144 +117,144 @@
     },
     {
       "type": "pattern",
-      "id": "rhythmRallyMegamix_fastrally",
+      "id": "*_fastrally",
       "deprecatedIDs": [
         "rhythmrallymegamix_fastrally"
       ],
       "name": "fast rally",
       "cues": [
         {
-          "id": "rhythmRallyMegamix/tonk",
+          "id": "*/tonk",
           "beat": 0.0
         },
         {
-          "id": "rhythmRallyMegamix/tink",
+          "id": "*/tink",
           "beat": 0.5
         },
         {
-          "id": "rhythmRallyMegamix/tonk",
+          "id": "*/tonk",
           "beat": 1.0
         },
         {
-          "id": "rhythmRallyMegamix/hit1",
+          "id": "*/hit1",
           "beat": 2.0
         },
         {
-          "id": "rhythmRallyMegamix/hit2",
+          "id": "*/hit2",
           "beat": 2.5
         },
         {
-          "id": "rhythmRallyMegamix/hit3",
+          "id": "*/hit3",
           "beat": 3.0
         },
         {
-          "id": "rhythmRallyMegamix/hit2",
+          "id": "*/hit2",
           "beat": 4.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "rhythmRallyMegamix_turborally",
+      "id": "*_turborally",
       "deprecatedIDs": [
         "rhythmrallymegamix_turborally"
       ],
       "name": "turbo rally",
       "cues": [
         {
-          "id": "rhythmRallyMegamix/tonk",
+          "id": "*/tonk",
           "beat": 0.0
         },
         {
-          "id": "rhythmRallyMegamix/tink",
+          "id": "*/tink",
           "beat": 0.5
         },
         {
-          "id": "rhythmRallyMegamix/tonk",
+          "id": "*/tonk",
           "beat": 1.0
         },
         {
-          "id": "rhythmRallyMegamix/tink",
+          "id": "*/tink",
           "beat": 1.5
         },
         {
-          "id": "rhythmRallyMegamix/tonk",
+          "id": "*/tonk",
           "beat": 2.0
         },
         {
-          "id": "rhythmRallyMegamix/tink",
+          "id": "*/tink",
           "beat": 2.5
         },
         {
-          "id": "rhythmRallyMegamix/tonk",
+          "id": "*/tonk",
           "beat": 3.0
         },
         {
-          "id": "rhythmRallyMegamix/tink",
+          "id": "*/tink",
           "beat": 3.5
         },
         {
-          "id": "rhythmRallyMegamix/hit1",
+          "id": "*/hit1",
           "beat": 4.0
         },
         {
-          "id": "rhythmRallyMegamix/hit2",
+          "id": "*/hit2",
           "beat": 4.5
         },
         {
-          "id": "rhythmRallyMegamix/hit3",
+          "id": "*/hit3",
           "beat": 5.0
         },
         {
-          "id": "rhythmRallyMegamix/hit2",
+          "id": "*/hit2",
           "beat": 5.5
         },
         {
-          "id": "rhythmRallyMegamix/hit1",
+          "id": "*/hit1",
           "beat": 6.0
         },
         {
-          "id": "rhythmRallyMegamix/hit2",
+          "id": "*/hit2",
           "beat": 6.5
         },
         {
-          "id": "rhythmRallyMegamix/hit3",
+          "id": "*/hit3",
           "beat": 7.0
         },
         {
-          "id": "rhythmRallyMegamix/hit2",
+          "id": "*/hit2",
           "beat": 7.5
         },
         {
-          "id": "rhythmRallyMegamix/hit1",
+          "id": "*/hit1",
           "beat": 8.0
         },
         {
-          "id": "rhythmRallyMegamix/hit2",
+          "id": "*/hit2",
           "beat": 8.5
         },
         {
-          "id": "rhythmRallyMegamix/hit3",
+          "id": "*/hit3",
           "beat": 9.0
         },
         {
-          "id": "rhythmRallyMegamix/hit2",
+          "id": "*/hit2",
           "beat": 9.5
         },
         {
-          "id": "rhythmRallyMegamix/hit1",
+          "id": "*/hit1",
           "beat": 10.0
         },
         {
-          "id": "rhythmRallyMegamix/hit2",
+          "id": "*/hit2",
           "beat": 10.5
         },
         {
-          "id": "rhythmRallyMegamix/hit3",
+          "id": "*/hit3",
           "beat": 11.0
         },
         {
-          "id": "rhythmRallyMegamix/hit2",
+          "id": "*/hit2",
           "beat": 11.5
         }
       ]

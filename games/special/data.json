@@ -9,46 +9,46 @@
   "objects": [
     {
       "type": "endEntity",
-      "id": "special_endEntity",
+      "id": "*_endEntity",
       "deprecatedIDs": [],
       "name": "End Remix"
     },
     {
       "type": "subtitleEntity",
-      "id": "special_subtitleEntity",
+      "id": "*_subtitleEntity",
       "deprecatedIDs": [],
       "name": "Subtitle",
       "subtitleType": "subtitle"
     },
     {
       "type": "subtitleEntity",
-      "id": "special_songTitleEntity",
+      "id": "*_songTitleEntity",
       "deprecatedIDs": [],
       "name": "Song Title",
       "subtitleType": "songTitle"
     },
     {
       "type": "subtitleEntity",
-      "id": "special_songArtistEntity",
+      "id": "*_songArtistEntity",
       "deprecatedIDs": [],
       "name": "Song Artist",
       "subtitleType": "songArtist"
     },
     {
       "type": "textureEntity",
-      "id": "special_textureEntity",
+      "id": "*_textureEntity",
       "deprecatedIDs": [],
       "name": "Texture"
     },
     {
       "type": "shakeEntity",
-      "id": "special_shakeEntity",
+      "id": "*_shakeEntity",
       "deprecatedIDs": [],
       "name": "Shake"
     },
     {
       "type": "cue",
-      "id": "special/gameChange",
+      "id": "*/gameChange",
       "deprecatedIDs": [],
       "name": "Game Change",
       "duration": 0.5,
@@ -56,7 +56,7 @@
     },
     {
       "type": "cue",
-      "id": "special/silence",
+      "id": "*/silence",
       "deprecatedIDs": [
         "countIn/silence",
         "countInEn/silence"
@@ -67,13 +67,15 @@
     },
     {
       "type": "cue",
-      "id": "special/testProperties",
+      "id": "*/testProperties",
       "deprecatedIDs": [],
       "name": "(DEBUG) properties test",
       "duration": 1.0,
       "stretchable": true,
       "repitchable": true,
-      "responseIDs": ["special/testProperties"]
+      "responseIDs": [
+        "*/testProperties"
+      ]
     }
   ]
 }

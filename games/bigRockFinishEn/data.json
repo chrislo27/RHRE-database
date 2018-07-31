@@ -7,7 +7,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "bigRockFinishEn/thankYou",
+      "id": "*/thankYou",
       "deprecatedIDs": [
         "bigRockFinish/thankYou"
       ],
@@ -16,7 +16,7 @@
     },
     {
       "type": "cue",
-      "id": "bigRockFinishEn/one",
+      "id": "*/one",
       "deprecatedIDs": [
         "bigRockFinish/one"
       ],
@@ -25,7 +25,7 @@
     },
     {
       "type": "cue",
-      "id": "bigRockFinishEn/two",
+      "id": "*/two",
       "deprecatedIDs": [
         "bigRockFinish/two"
       ],
@@ -34,7 +34,7 @@
     },
     {
       "type": "cue",
-      "id": "bigRockFinishEn/three",
+      "id": "*/three",
       "deprecatedIDs": [
         "bigRockFinish/three"
       ],
@@ -43,7 +43,7 @@
     },
     {
       "type": "cue",
-      "id": "bigRockFinishEn/ooh",
+      "id": "*/ooh",
       "deprecatedIDs": [
         "bigRockFinish/ooh"
       ],
@@ -52,7 +52,7 @@
     },
     {
       "type": "cue",
-      "id": "bigRockFinishEn/oneFast",
+      "id": "*/oneFast",
       "deprecatedIDs": [
         "bigRockFinish/oneFast"
       ],
@@ -61,7 +61,7 @@
     },
     {
       "type": "cue",
-      "id": "bigRockFinishEn/twoFast",
+      "id": "*/twoFast",
       "deprecatedIDs": [
         "bigRockFinish/twoFast"
       ],
@@ -70,7 +70,7 @@
     },
     {
       "type": "cue",
-      "id": "bigRockFinishEn/threeFast",
+      "id": "*/threeFast",
       "deprecatedIDs": [
         "bigRockFinish/threeFast"
       ],
@@ -79,7 +79,7 @@
     },
     {
       "type": "cue",
-      "id": "bigRockFinishEn/comeOn1",
+      "id": "*/comeOn1",
       "deprecatedIDs": [
         "bigRockFinish/comeOn1"
       ],
@@ -88,7 +88,7 @@
     },
     {
       "type": "cue",
-      "id": "bigRockFinishEn/comeOn2",
+      "id": "*/comeOn2",
       "deprecatedIDs": [
         "bigRockFinish/comeOn2"
       ],
@@ -97,7 +97,7 @@
     },
     {
       "type": "cue",
-      "id": "bigRockFinishEn/strum",
+      "id": "*/strum",
       "deprecatedIDs": [
         "bigRockFinish/strum"
       ],
@@ -107,7 +107,7 @@
     },
     {
       "type": "cue",
-      "id": "bigRockFinishEn/strumFinal",
+      "id": "*/strumFinal",
       "deprecatedIDs": [
         "bigRockFinish/strumFinal"
       ],
@@ -117,135 +117,135 @@
     },
     {
       "type": "pattern",
-      "id": "bigRockFinishEn_countIn8",
+      "id": "*_countIn8",
       "deprecatedIDs": [
         "bigRockFinish_countIn8"
       ],
       "name": "count in - 8 beats",
       "cues": [
         {
-          "id": "bigRockFinishEn/one",
+          "id": "*/one",
           "beat": 0.0
         },
         {
-          "id": "bigRockFinishEn/two",
+          "id": "*/two",
           "beat": 2.0
         },
         {
-          "id": "bigRockFinishEn/one",
+          "id": "*/one",
           "beat": 4.0
         },
         {
-          "id": "bigRockFinishEn/two",
+          "id": "*/two",
           "beat": 5.0
         },
         {
-          "id": "bigRockFinishEn/three",
+          "id": "*/three",
           "beat": 6.0
         },
         {
-          "id": "bigRockFinishEn/ooh",
+          "id": "*/ooh",
           "beat": 7.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "bigRockFinishEn_countIn8Fast",
+      "id": "*_countIn8Fast",
       "deprecatedIDs": [
         "bigRockFinish_countIn8Fast"
       ],
       "name": "count in - 8 beats - fast",
       "cues": [
         {
-          "id": "bigRockFinishEn/oneFast",
+          "id": "*/oneFast",
           "beat": 0.0
         },
         {
-          "id": "bigRockFinishEn/twoFast",
+          "id": "*/twoFast",
           "beat": 2.0
         },
         {
-          "id": "bigRockFinishEn/oneFast",
+          "id": "*/oneFast",
           "beat": 4.0
         },
         {
-          "id": "bigRockFinishEn/twoFast",
+          "id": "*/twoFast",
           "beat": 5.0
         },
         {
-          "id": "bigRockFinishEn/threeFast",
+          "id": "*/threeFast",
           "beat": 6.0
         },
         {
-          "id": "bigRockFinishEn/comeOn1",
+          "id": "*/comeOn1",
           "beat": 7.0
         },
         {
-          "id": "bigRockFinishEn/comeOn2",
+          "id": "*/comeOn2",
           "beat": 7.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "bigRockFinishEn_countIn4",
+      "id": "*_countIn4",
       "deprecatedIDs": [
         "bigRockFinish_countIn4"
       ],
       "name": "count in - 4 beats",
       "cues": [
         {
-          "id": "bigRockFinishEn/one",
+          "id": "*/one",
           "beat": 0.0
         },
         {
-          "id": "bigRockFinishEn/two",
+          "id": "*/two",
           "beat": 1.0
         },
         {
-          "id": "bigRockFinishEn/three",
+          "id": "*/three",
           "beat": 2.0
         },
         {
-          "id": "bigRockFinishEn/ooh",
+          "id": "*/ooh",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "bigRockFinishEn_countIn4Fast",
+      "id": "*_countIn4Fast",
       "deprecatedIDs": [
         "bigRockFinish_countIn4Fast"
       ],
       "name": "count in - 4 beats - fast",
       "cues": [
         {
-          "id": "bigRockFinishEn/oneFast",
+          "id": "*/oneFast",
           "beat": 0.0
         },
         {
-          "id": "bigRockFinishEn/twoFast",
+          "id": "*/twoFast",
           "beat": 1.0
         },
         {
-          "id": "bigRockFinishEn/threeFast",
+          "id": "*/threeFast",
           "beat": 2.0
         },
         {
-          "id": "bigRockFinishEn/comeOn1",
+          "id": "*/comeOn1",
           "beat": 3.0
         },
         {
-          "id": "bigRockFinishEn/comeOn2",
+          "id": "*/comeOn2",
           "beat": 3.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "bigRockFinishEn_strum",
+      "id": "*_strum",
       "deprecatedIDs": [
         "bigRockFinish_strum"
       ],
@@ -253,19 +253,19 @@
       "stretchable": true,
       "cues": [
         {
-          "id": "bigRockFinishEn/strum",
+          "id": "*/strum",
           "beat": 0.0
         },
         {
-          "id": "bigRockFinishEn/strum",
+          "id": "*/strum",
           "beat": 1.5
         },
         {
-          "id": "bigRockFinishEn/strum",
+          "id": "*/strum",
           "beat": 3.0
         },
         {
-          "id": "bigRockFinishEn/strumFinal",
+          "id": "*/strumFinal",
           "beat": 4.0
         }
       ]

@@ -6,35 +6,35 @@
   "objects": [
     {
       "type": "cue",
-      "id": "sneakySpiritsWii/moving",
+      "id": "*/moving",
       "deprecatedIDs": [],
       "name": "moving",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "sneakySpiritsWii/fading1",
+      "id": "*/fading1",
       "deprecatedIDs": [],
       "name": "fading - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "sneakySpiritsWii/fading2",
+      "id": "*/fading2",
       "deprecatedIDs": [],
       "name": "fading - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "sneakySpiritsWii/fading3",
+      "id": "*/fading3",
       "deprecatedIDs": [],
       "name": "fading - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "sneakySpiritsWii/rainLoop",
+      "id": "*/rainLoop",
       "deprecatedIDs": [],
       "name": "no ghost - raining",
       "duration": 3.0,
@@ -43,73 +43,73 @@
     },
     {
       "type": "cue",
-      "id": "sneakySpiritsWii/hit",
+      "id": "*/hit",
       "deprecatedIDs": [],
       "name": "hit",
       "duration": 0.5
     },
     {
       "type": "equidistant",
-      "id": "sneakySpiritsWii_sevenBeats",
+      "id": "*_sevenBeats",
       "deprecatedIDs": [],
       "name": "7 beats",
       "distance": 1.0,
       "stretchable": true,
       "cues": [
         {
-          "id": "sneakySpiritsWii/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpiritsWii/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpiritsWii/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpiritsWii/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpiritsWii/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpiritsWii/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpiritsWii/hit"
+          "id": "*/hit"
         }
       ]
     },
     {
       "type": "equidistant",
-      "id": "sneakySpiritsWii_eightBeats",
+      "id": "*_eightBeats",
       "deprecatedIDs": [],
       "name": "8 beats",
       "distance": 1.0,
       "stretchable": true,
       "cues": [
         {
-          "id": "sneakySpiritsWii/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpiritsWii/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpiritsWii/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpiritsWii/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpiritsWii/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpiritsWii/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpiritsWii/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpiritsWii/hit"
+          "id": "*/hit"
         }
       ]
     }

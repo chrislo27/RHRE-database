@@ -7,7 +7,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "loveRapEn/mcadoreintoyou1",
+      "id": "*/mcadoreintoyou1",
       "deprecatedIDs": [
         "loveRap/mcamoreintoyou1",
         "loveRap/mcadoreintoyou1"
@@ -17,7 +17,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadoreintoyou2",
+      "id": "*/mcadoreintoyou2",
       "deprecatedIDs": [
         "loveRap/mcamoreintoyou2",
         "loveRap/mcadoreintoyou2"
@@ -27,7 +27,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadoreintoyou3",
+      "id": "*/mcadoreintoyou3",
       "deprecatedIDs": [
         "loveRap/mcamoreintoyou3",
         "loveRap/mcadoreintoyou3"
@@ -37,7 +37,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1intoyou1",
+      "id": "*/rapper1intoyou1",
       "deprecatedIDs": [
         "loveRap/rapper1intoyou1"
       ],
@@ -46,7 +46,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1intoyou2",
+      "id": "*/rapper1intoyou2",
       "deprecatedIDs": [
         "loveRap/rapper1intoyou2"
       ],
@@ -55,7 +55,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1intoyou3",
+      "id": "*/rapper1intoyou3",
       "deprecatedIDs": [
         "loveRap/rapper1intoyou3"
       ],
@@ -64,7 +64,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2intoyou1",
+      "id": "*/rapper2intoyou1",
       "deprecatedIDs": [
         "loveRap/rapper2intoyou1"
       ],
@@ -73,7 +73,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2intoyou2",
+      "id": "*/rapper2intoyou2",
       "deprecatedIDs": [
         "loveRap/rapper2intoyou2"
       ],
@@ -82,7 +82,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2intoyou3",
+      "id": "*/rapper2intoyou3",
       "deprecatedIDs": [
         "loveRap/rapper2intoyou3"
       ],
@@ -91,7 +91,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadorecrazyintoyou1",
+      "id": "*/mcadorecrazyintoyou1",
       "deprecatedIDs": [
         "loveRap/mcamorecrazyintoyou1",
         "loveRap/mcadorecrazyintoyou1"
@@ -101,7 +101,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadorecrazyintoyou2",
+      "id": "*/mcadorecrazyintoyou2",
       "deprecatedIDs": [
         "loveRap/mcamorecrazyintoyou2",
         "loveRap/mcadorecrazyintoyou2"
@@ -111,7 +111,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadorecrazyintoyou3",
+      "id": "*/mcadorecrazyintoyou3",
       "deprecatedIDs": [
         "loveRap/mcamorecrazyintoyou3",
         "loveRap/mcadorecrazyintoyou3"
@@ -121,7 +121,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadorecrazyintoyou4",
+      "id": "*/mcadorecrazyintoyou4",
       "deprecatedIDs": [
         "loveRap/mcamorecrazyintoyou4",
         "loveRap/mcadorecrazyintoyou4"
@@ -131,7 +131,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadorecrazyintoyou5",
+      "id": "*/mcadorecrazyintoyou5",
       "deprecatedIDs": [
         "loveRap/mcamorecrazyintoyou5",
         "loveRap/mcadorecrazyintoyou5"
@@ -141,7 +141,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1crazyintoyou1",
+      "id": "*/rapper1crazyintoyou1",
       "deprecatedIDs": [
         "loveRap/rapper1crazyintoyou1"
       ],
@@ -150,7 +150,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1crazyintoyou2",
+      "id": "*/rapper1crazyintoyou2",
       "deprecatedIDs": [
         "loveRap/rapper1crazyintoyou2"
       ],
@@ -159,7 +159,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1crazyintoyou3",
+      "id": "*/rapper1crazyintoyou3",
       "deprecatedIDs": [
         "loveRap/rapper1crazyintoyou3"
       ],
@@ -168,7 +168,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1crazyintoyou4",
+      "id": "*/rapper1crazyintoyou4",
       "deprecatedIDs": [
         "loveRap/rapper1crazyintoyou4"
       ],
@@ -177,7 +177,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1crazyintoyou5",
+      "id": "*/rapper1crazyintoyou5",
       "deprecatedIDs": [
         "loveRap/rapper1crazyintoyou5"
       ],
@@ -186,7 +186,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2crazyintoyou1",
+      "id": "*/rapper2crazyintoyou1",
       "deprecatedIDs": [
         "loveRap/rapper2crazyintoyou1"
       ],
@@ -195,7 +195,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2crazyintoyou2",
+      "id": "*/rapper2crazyintoyou2",
       "deprecatedIDs": [
         "loveRap/rapper2crazyintoyou2"
       ],
@@ -204,7 +204,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2crazyintoyou3",
+      "id": "*/rapper2crazyintoyou3",
       "deprecatedIDs": [
         "loveRap/rapper2crazyintoyou3"
       ],
@@ -213,7 +213,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2crazyintoyou4",
+      "id": "*/rapper2crazyintoyou4",
       "deprecatedIDs": [
         "loveRap/rapper2crazyintoyou4"
       ],
@@ -222,7 +222,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2crazyintoyou5",
+      "id": "*/rapper2crazyintoyou5",
       "deprecatedIDs": [
         "loveRap/rapper2crazyintoyou5"
       ],
@@ -231,7 +231,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadorecrazyintoyouswing1",
+      "id": "*/mcadorecrazyintoyouswing1",
       "deprecatedIDs": [
         "loveRap/mcamorecrazyintoyouswing1",
         "loveRap/mcadorecrazyintoyouswing1"
@@ -241,7 +241,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadorecrazyintoyouswing2",
+      "id": "*/mcadorecrazyintoyouswing2",
       "deprecatedIDs": [
         "loveRap/mcamorecrazyintoyouswing2",
         "loveRap/mcadorecrazyintoyouswing2"
@@ -251,7 +251,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadorecrazyintoyouswing3",
+      "id": "*/mcadorecrazyintoyouswing3",
       "deprecatedIDs": [
         "loveRap/mcamorecrazyintoyouswing3",
         "loveRap/mcadorecrazyintoyouswing3"
@@ -261,7 +261,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadorecrazyintoyouswing4",
+      "id": "*/mcadorecrazyintoyouswing4",
       "deprecatedIDs": [
         "loveRap/mcamorecrazyintoyouswing4",
         "loveRap/mcadorecrazyintoyouswing4"
@@ -271,7 +271,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadorecrazyintoyouswing5",
+      "id": "*/mcadorecrazyintoyouswing5",
       "deprecatedIDs": [
         "loveRap/mcamorecrazyintoyouswing5",
         "loveRap/mcadorecrazyintoyouswing5"
@@ -281,7 +281,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1crazyintoyouswing1",
+      "id": "*/rapper1crazyintoyouswing1",
       "deprecatedIDs": [
         "loveRap/rapper1crazyintoyouswing1"
       ],
@@ -290,7 +290,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1crazyintoyouswing2",
+      "id": "*/rapper1crazyintoyouswing2",
       "deprecatedIDs": [
         "loveRap/rapper1crazyintoyouswing2"
       ],
@@ -299,7 +299,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1crazyintoyouswing3",
+      "id": "*/rapper1crazyintoyouswing3",
       "deprecatedIDs": [
         "loveRap/rapper1crazyintoyouswing3"
       ],
@@ -308,7 +308,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1crazyintoyouswing4",
+      "id": "*/rapper1crazyintoyouswing4",
       "deprecatedIDs": [
         "loveRap/rapper1crazyintoyouswing4"
       ],
@@ -317,7 +317,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1crazyintoyouswing5",
+      "id": "*/rapper1crazyintoyouswing5",
       "deprecatedIDs": [
         "loveRap/rapper1crazyintoyouswing5"
       ],
@@ -326,7 +326,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2crazyintoyouswing1",
+      "id": "*/rapper2crazyintoyouswing1",
       "deprecatedIDs": [
         "loveRap/rapper2crazyintoyouswing1"
       ],
@@ -335,7 +335,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2crazyintoyouswing2",
+      "id": "*/rapper2crazyintoyouswing2",
       "deprecatedIDs": [
         "loveRap/rapper2crazyintoyouswing2"
       ],
@@ -344,7 +344,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2crazyintoyouswing3",
+      "id": "*/rapper2crazyintoyouswing3",
       "deprecatedIDs": [
         "loveRap/rapper2crazyintoyouswing3"
       ],
@@ -353,7 +353,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2crazyintoyouswing4",
+      "id": "*/rapper2crazyintoyouswing4",
       "deprecatedIDs": [
         "loveRap/rapper2crazyintoyouswing4"
       ],
@@ -362,7 +362,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2crazyintoyouswing5",
+      "id": "*/rapper2crazyintoyouswing5",
       "deprecatedIDs": [
         "loveRap/rapper2crazyintoyouswing5"
       ],
@@ -371,7 +371,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadorefosho1",
+      "id": "*/mcadorefosho1",
       "deprecatedIDs": [
         "loveRap/mcamorefosho1",
         "loveRap/mcadorefosho1"
@@ -381,7 +381,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadorefosho2",
+      "id": "*/mcadorefosho2",
       "deprecatedIDs": [
         "loveRap/mcamorefosho2",
         "loveRap/mcadorefosho2"
@@ -391,7 +391,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1fosholong1",
+      "id": "*/rapper1fosholong1",
       "deprecatedIDs": [
         "loveRap/rapper1fosholong1"
       ],
@@ -400,7 +400,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1fosholong2",
+      "id": "*/rapper1fosholong2",
       "deprecatedIDs": [
         "loveRap/rapper1fosholong2"
       ],
@@ -409,7 +409,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1fosholong3",
+      "id": "*/rapper1fosholong3",
       "deprecatedIDs": [
         "loveRap/rapper1fosholong3"
       ],
@@ -418,7 +418,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2fosholong1",
+      "id": "*/rapper2fosholong1",
       "deprecatedIDs": [
         "loveRap/rapper2fosholong1"
       ],
@@ -427,7 +427,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2fosholong2",
+      "id": "*/rapper2fosholong2",
       "deprecatedIDs": [
         "loveRap/rapper2fosholong2"
       ],
@@ -436,7 +436,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2fosholong3",
+      "id": "*/rapper2fosholong3",
       "deprecatedIDs": [
         "loveRap/rapper2fosholong3"
       ],
@@ -445,7 +445,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadorefosholong1",
+      "id": "*/mcadorefosholong1",
       "deprecatedIDs": [
         "loveRap/mcamorefosholong1",
         "loveRap/mcadorefosholong1"
@@ -455,7 +455,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadorefosholong2",
+      "id": "*/mcadorefosholong2",
       "deprecatedIDs": [
         "loveRap/mcamorefosholong2",
         "loveRap/mcadorefosholong2"
@@ -465,7 +465,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadorefosholong3",
+      "id": "*/mcadorefosholong3",
       "deprecatedIDs": [
         "loveRap/mcamorefosholong3",
         "loveRap/mcadorefosholong3"
@@ -475,7 +475,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1fosho1",
+      "id": "*/rapper1fosho1",
       "deprecatedIDs": [
         "loveRap/rapper1fosho1"
       ],
@@ -484,7 +484,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1fosho2",
+      "id": "*/rapper1fosho2",
       "deprecatedIDs": [
         "loveRap/rapper1fosho2"
       ],
@@ -493,7 +493,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2fosho1",
+      "id": "*/rapper2fosho1",
       "deprecatedIDs": [
         "loveRap/rapper2fosho1"
       ],
@@ -502,7 +502,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2fosho2",
+      "id": "*/rapper2fosho2",
       "deprecatedIDs": [
         "loveRap/rapper2fosho2"
       ],
@@ -511,7 +511,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadoreallaboutyou1",
+      "id": "*/mcadoreallaboutyou1",
       "deprecatedIDs": [
         "loveRap/mcamoreallaboutyou1",
         "loveRap/mcadoreallaboutyou1"
@@ -521,7 +521,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadoreallaboutyou2",
+      "id": "*/mcadoreallaboutyou2",
       "deprecatedIDs": [
         "loveRap/mcamoreallaboutyou2",
         "loveRap/mcadoreallaboutyou2"
@@ -531,7 +531,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadoreallaboutyou3",
+      "id": "*/mcadoreallaboutyou3",
       "deprecatedIDs": [
         "loveRap/mcamoreallaboutyou3",
         "loveRap/mcadoreallaboutyou3"
@@ -541,7 +541,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/mcadoreallaboutyou4",
+      "id": "*/mcadoreallaboutyou4",
       "deprecatedIDs": [
         "loveRap/mcamoreallaboutyou4",
         "loveRap/mcadoreallaboutyou4"
@@ -551,7 +551,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1allaboutyou1",
+      "id": "*/rapper1allaboutyou1",
       "deprecatedIDs": [
         "loveRap/rapper1allaboutyou1"
       ],
@@ -560,7 +560,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1allaboutyou2",
+      "id": "*/rapper1allaboutyou2",
       "deprecatedIDs": [
         "loveRap/rapper1allaboutyou2"
       ],
@@ -569,7 +569,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1allaboutyou3",
+      "id": "*/rapper1allaboutyou3",
       "deprecatedIDs": [
         "loveRap/rapper1allaboutyou3"
       ],
@@ -578,7 +578,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper1allaboutyou4",
+      "id": "*/rapper1allaboutyou4",
       "deprecatedIDs": [
         "loveRap/rapper1allaboutyou4"
       ],
@@ -587,7 +587,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2allaboutyou1",
+      "id": "*/rapper2allaboutyou1",
       "deprecatedIDs": [
         "loveRap/rapper2allaboutyou1"
       ],
@@ -596,7 +596,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2allaboutyou2",
+      "id": "*/rapper2allaboutyou2",
       "deprecatedIDs": [
         "loveRap/rapper2allaboutyou2"
       ],
@@ -605,7 +605,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2allaboutyou3",
+      "id": "*/rapper2allaboutyou3",
       "deprecatedIDs": [
         "loveRap/rapper2allaboutyou3"
       ],
@@ -614,7 +614,7 @@
     },
     {
       "type": "cue",
-      "id": "loveRapEn/rapper2allaboutyou4",
+      "id": "*/rapper2allaboutyou4",
       "deprecatedIDs": [
         "loveRap/rapper2allaboutyou4"
       ],
@@ -623,48 +623,48 @@
     },
     {
       "type": "pattern",
-      "id": "loveRapEn_intoyou",
+      "id": "*_intoyou",
       "deprecatedIDs": [
         "loveRap_intoyou"
       ],
       "name": "into you",
       "cues": [
         {
-          "id": "loveRapEn/mcadoreintoyou1",
+          "id": "*/mcadoreintoyou1",
           "beat": 0.0
         },
         {
-          "id": "loveRapEn/mcadoreintoyou2",
+          "id": "*/mcadoreintoyou2",
           "beat": 0.4375
         },
         {
-          "id": "loveRapEn/mcadoreintoyou3",
+          "id": "*/mcadoreintoyou3",
           "beat": 0.6875
         },
         {
-          "id": "loveRapEn/rapper1intoyou1",
+          "id": "*/rapper1intoyou1",
           "beat": 1.0
         },
         {
-          "id": "loveRapEn/rapper1intoyou2",
+          "id": "*/rapper1intoyou2",
           "beat": 1.4375
         },
         {
-          "id": "loveRapEn/rapper1intoyou3",
+          "id": "*/rapper1intoyou3",
           "beat": 1.6875
         },
         {
-          "id": "loveRapEn/rapper2intoyou1",
+          "id": "*/rapper2intoyou1",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "loveRapEn/rapper2intoyou2",
+          "id": "*/rapper2intoyou2",
           "beat": 1.4375,
           "track": 1
         },
         {
-          "id": "loveRapEn/rapper2intoyou3",
+          "id": "*/rapper2intoyou3",
           "beat": 1.6875,
           "track": 1
         }
@@ -672,74 +672,74 @@
     },
     {
       "type": "pattern",
-      "id": "loveRapEn_crazyintoyou",
+      "id": "*_crazyintoyou",
       "deprecatedIDs": [
         "loveRap_crazyintoyou"
       ],
       "name": "crazy into you",
       "cues": [
         {
-          "id": "loveRapEn/mcadorecrazyintoyou1",
+          "id": "*/mcadorecrazyintoyou1",
           "beat": 0.0
         },
         {
-          "id": "loveRapEn/mcadorecrazyintoyou2",
+          "id": "*/mcadorecrazyintoyou2",
           "beat": 0.25
         },
         {
-          "id": "loveRapEn/mcadorecrazyintoyou3",
+          "id": "*/mcadorecrazyintoyou3",
           "beat": 0.5
         },
         {
-          "id": "loveRapEn/mcadorecrazyintoyou4",
+          "id": "*/mcadorecrazyintoyou4",
           "beat": 0.9375
         },
         {
-          "id": "loveRapEn/mcadorecrazyintoyou5",
+          "id": "*/mcadorecrazyintoyou5",
           "beat": 1.1875
         },
         {
-          "id": "loveRapEn/rapper1crazyintoyou1",
+          "id": "*/rapper1crazyintoyou1",
           "beat": 1.5
         },
         {
-          "id": "loveRapEn/rapper1crazyintoyou2",
+          "id": "*/rapper1crazyintoyou2",
           "beat": 1.8125
         },
         {
-          "id": "loveRapEn/rapper1crazyintoyou3",
+          "id": "*/rapper1crazyintoyou3",
           "beat": 2.0
         },
         {
-          "id": "loveRapEn/rapper1crazyintoyou4",
+          "id": "*/rapper1crazyintoyou4",
           "beat": 2.4375
         },
         {
-          "id": "loveRapEn/rapper1crazyintoyou5",
+          "id": "*/rapper1crazyintoyou5",
           "beat": 2.6875
         },
         {
-          "id": "loveRapEn/rapper2crazyintoyou1",
+          "id": "*/rapper2crazyintoyou1",
           "beat": 1.5,
           "track": 1
         },
         {
-          "id": "loveRapEn/rapper2crazyintoyou2",
+          "id": "*/rapper2crazyintoyou2",
           "beat": 1.8125,
           "track": 1
         },
         {
-          "id": "loveRapEn/rapper2crazyintoyou3",
+          "id": "*/rapper2crazyintoyou3",
           "beat": 2.0,
           "track": 1
         },
         {
-          "id": "loveRapEn/rapper2crazyintoyou4",
+          "id": "*/rapper2crazyintoyou4",
           "beat": 2.4375,
           "track": 1
         },
         {
-          "id": "loveRapEn/rapper2crazyintoyou5",
+          "id": "*/rapper2crazyintoyou5",
           "beat": 2.6875,
           "track": 1
         }
@@ -747,74 +747,74 @@
     },
     {
       "type": "pattern",
-      "id": "loveRapEn_crazyintoyouswing",
+      "id": "*_crazyintoyouswing",
       "deprecatedIDs": [
         "loveRap_crazyintoyouswing"
       ],
       "name": "crazy into you - swing",
       "cues": [
         {
-          "id": "loveRapEn/mcadorecrazyintoyouswing1",
+          "id": "*/mcadorecrazyintoyouswing1",
           "beat": 0.0
         },
         {
-          "id": "loveRapEn/mcadorecrazyintoyouswing2",
+          "id": "*/mcadorecrazyintoyouswing2",
           "beat": 0.125
         },
         {
-          "id": "loveRapEn/mcadorecrazyintoyouswing3",
+          "id": "*/mcadorecrazyintoyouswing3",
           "beat": 0.5
         },
         {
-          "id": "loveRapEn/mcadorecrazyintoyouswing4",
+          "id": "*/mcadorecrazyintoyouswing4",
           "beat": 0.625
         },
         {
-          "id": "loveRapEn/mcadorecrazyintoyouswing5",
+          "id": "*/mcadorecrazyintoyouswing5",
           "beat": 1.0
         },
         {
-          "id": "loveRapEn/rapper1crazyintoyouswing1",
+          "id": "*/rapper1crazyintoyouswing1",
           "beat": 1.5
         },
         {
-          "id": "loveRapEn/rapper1crazyintoyouswing2",
+          "id": "*/rapper1crazyintoyouswing2",
           "beat": 1.625
         },
         {
-          "id": "loveRapEn/rapper1crazyintoyouswing3",
+          "id": "*/rapper1crazyintoyouswing3",
           "beat": 2.0
         },
         {
-          "id": "loveRapEn/rapper1crazyintoyouswing4",
+          "id": "*/rapper1crazyintoyouswing4",
           "beat": 2.125
         },
         {
-          "id": "loveRapEn/rapper1crazyintoyouswing5",
+          "id": "*/rapper1crazyintoyouswing5",
           "beat": 2.5
         },
         {
-          "id": "loveRapEn/rapper2crazyintoyouswing1",
+          "id": "*/rapper2crazyintoyouswing1",
           "beat": 1.5,
           "track": 1
         },
         {
-          "id": "loveRapEn/rapper2crazyintoyouswing2",
+          "id": "*/rapper2crazyintoyouswing2",
           "beat": 1.625,
           "track": 1
         },
         {
-          "id": "loveRapEn/rapper2crazyintoyouswing3",
+          "id": "*/rapper2crazyintoyouswing3",
           "beat": 2.0,
           "track": 1
         },
         {
-          "id": "loveRapEn/rapper2crazyintoyouswing4",
+          "id": "*/rapper2crazyintoyouswing4",
           "beat": 2.125,
           "track": 1
         },
         {
-          "id": "loveRapEn/rapper2crazyintoyouswing5",
+          "id": "*/rapper2crazyintoyouswing5",
           "beat": 2.5,
           "track": 1
         }
@@ -822,44 +822,44 @@
     },
     {
       "type": "pattern",
-      "id": "loveRapEn_fosho",
+      "id": "*_fosho",
       "deprecatedIDs": [
         "loveRap_fosho"
       ],
       "name": "fo' sho' - A",
       "cues": [
         {
-          "id": "loveRapEn/mcadorefosho1",
+          "id": "*/mcadorefosho1",
           "beat": 0.0
         },
         {
-          "id": "loveRapEn/mcadorefosho2",
+          "id": "*/mcadorefosho2",
           "beat": 0.375
         },
         {
-          "id": "loveRapEn/rapper1fosholong1",
+          "id": "*/rapper1fosholong1",
           "beat": 0.75
         },
         {
-          "id": "loveRapEn/rapper1fosholong2",
+          "id": "*/rapper1fosholong2",
           "beat": 0.875
         },
         {
-          "id": "loveRapEn/rapper1fosholong3",
+          "id": "*/rapper1fosholong3",
           "beat": 1.1875
         },
         {
-          "id": "loveRapEn/rapper2fosholong1",
+          "id": "*/rapper2fosholong1",
           "beat": 0.75,
           "track": 1
         },
         {
-          "id": "loveRapEn/rapper2fosholong2",
+          "id": "*/rapper2fosholong2",
           "beat": 0.875,
           "track": 1
         },
         {
-          "id": "loveRapEn/rapper2fosholong3",
+          "id": "*/rapper2fosholong3",
           "beat": 1.1875,
           "track": 1
         }
@@ -867,39 +867,39 @@
     },
     {
       "type": "pattern",
-      "id": "loveRapEn_fosholong",
+      "id": "*_fosholong",
       "deprecatedIDs": [
         "loveRap_fosholong"
       ],
       "name": "fo' sho' - B",
       "cues": [
         {
-          "id": "loveRapEn/mcadorefosholong1",
+          "id": "*/mcadorefosholong1",
           "beat": 0.0
         },
         {
-          "id": "loveRapEn/mcadorefosholong2",
+          "id": "*/mcadorefosholong2",
           "beat": 0.1875
         },
         {
-          "id": "loveRapEn/mcadorefosholong3",
+          "id": "*/mcadorefosholong3",
           "beat": 0.375
         },
         {
-          "id": "loveRapEn/rapper1fosho1",
+          "id": "*/rapper1fosho1",
           "beat": 0.75
         },
         {
-          "id": "loveRapEn/rapper1fosho2",
+          "id": "*/rapper1fosho2",
           "beat": 1.125
         },
         {
-          "id": "loveRapEn/rapper2fosho1",
+          "id": "*/rapper2fosho1",
           "beat": 0.75,
           "track": 1
         },
         {
-          "id": "loveRapEn/rapper2fosho2",
+          "id": "*/rapper2fosho2",
           "beat": 1.125,
           "track": 1
         }
@@ -907,61 +907,61 @@
     },
     {
       "type": "pattern",
-      "id": "loveRapEn_allaboutyou",
+      "id": "*_allaboutyou",
       "deprecatedIDs": [
         "loveRap_allaboutyou"
       ],
       "name": "all about you",
       "cues": [
         {
-          "id": "loveRapEn/mcadoreallaboutyou1",
+          "id": "*/mcadoreallaboutyou1",
           "beat": 0.0
         },
         {
-          "id": "loveRapEn/mcadoreallaboutyou2",
+          "id": "*/mcadoreallaboutyou2",
           "beat": 0.1875
         },
         {
-          "id": "loveRapEn/mcadoreallaboutyou3",
+          "id": "*/mcadoreallaboutyou3",
           "beat": 0.5
         },
         {
-          "id": "loveRapEn/mcadoreallaboutyou4",
+          "id": "*/mcadoreallaboutyou4",
           "beat": 0.875
         },
         {
-          "id": "loveRapEn/rapper1allaboutyou1",
+          "id": "*/rapper1allaboutyou1",
           "beat": 1.25
         },
         {
-          "id": "loveRapEn/rapper1allaboutyou2",
+          "id": "*/rapper1allaboutyou2",
           "beat": 1.5
         },
         {
-          "id": "loveRapEn/rapper1allaboutyou3",
+          "id": "*/rapper1allaboutyou3",
           "beat": 1.6875
         },
         {
-          "id": "loveRapEn/rapper1allaboutyou4",
+          "id": "*/rapper1allaboutyou4",
           "beat": 2.0625
         },
         {
-          "id": "loveRapEn/rapper2allaboutyou1",
+          "id": "*/rapper2allaboutyou1",
           "beat": 1.25,
           "track": 1
         },
         {
-          "id": "loveRapEn/rapper2allaboutyou2",
+          "id": "*/rapper2allaboutyou2",
           "beat": 1.5,
           "track": 1
         },
         {
-          "id": "loveRapEn/rapper2allaboutyou3",
+          "id": "*/rapper2allaboutyou3",
           "beat": 1.6875,
           "track": 1
         },
         {
-          "id": "loveRapEn/rapper2allaboutyou4",
+          "id": "*/rapper2allaboutyou4",
           "beat": 2.0625,
           "track": 1
         }

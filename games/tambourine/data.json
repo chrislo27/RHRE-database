@@ -5,101 +5,101 @@
   "objects": [
     {
       "type": "randomCue",
-      "id": "tambourine_monkeyShake",
+      "id": "*_monkeyShake",
       "deprecatedIDs": [],
       "name": "monkey - shake",
       "cues": [
         {
-          "id": "tambourine/monkeyA"
+          "id": "*/monkeyA"
         },
         {
-          "id": "tambourine/monkeyA2"
+          "id": "*/monkeyA2"
         }
       ],
       "responseIDs": [
-        "tambourine_playerShake"
+        "*_playerShake"
       ]
     },
     {
       "type": "cue",
-      "id": "tambourine/monkeyB",
+      "id": "*/monkeyB",
       "deprecatedIDs": [],
       "name": "monkey - hit",
       "duration": 0.25,
       "responseIDs": [
-        "tambourine/playerB"
+        "*/playerB"
       ]
     },
     {
       "type": "cue",
-      "id": "tambourine/monkeyEnd",
+      "id": "*/monkeyEnd",
       "deprecatedIDs": [],
       "name": "monkey - end turn",
       "duration": 1.0,
       "responseIDs": [
-        "tambourine/playerEnd"
+        "*/playerEnd"
       ]
     },
     {
       "type": "randomCue",
-      "id": "tambourine_playerShake",
+      "id": "*_playerShake",
       "deprecatedIDs": [],
       "name": "player - shake",
       "cues": [
         {
-          "id": "tambourine/playerA"
+          "id": "*/playerA"
         },
         {
-          "id": "tambourine/playerA2"
+          "id": "*/playerA2"
         }
       ]
     },
     {
       "type": "cue",
-      "id": "tambourine/playerEnd",
+      "id": "*/playerEnd",
       "deprecatedIDs": [],
       "name": "player - end turn",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "tambourine/playerB",
+      "id": "*/playerB",
       "deprecatedIDs": [],
       "name": "player - hit",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "tambourine/monkeyA",
+      "id": "*/monkeyA",
       "deprecatedIDs": [],
       "name": "monkey - shake - 1",
       "duration": 0.25,
       "responseIDs": [
-        "tambourine/playerA",
-        "tambourine/playerA2"
+        "*/playerA",
+        "*/playerA2"
       ]
     },
     {
       "type": "cue",
-      "id": "tambourine/monkeyA2",
+      "id": "*/monkeyA2",
       "deprecatedIDs": [],
       "name": "monkey - shake - 2",
       "duration": 0.25,
       "responseIDs": [
-        "tambourine/playerA",
-        "tambourine/playerA2"
+        "*/playerA",
+        "*/playerA2"
       ]
     },
     {
       "type": "cue",
-      "id": "tambourine/playerA",
+      "id": "*/playerA",
       "deprecatedIDs": [],
       "name": "player - shake - 1",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "tambourine/playerA2",
+      "id": "*/playerA2",
       "deprecatedIDs": [],
       "name": "player - shake - 2",
       "duration": 0.25

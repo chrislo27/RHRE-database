@@ -5,540 +5,542 @@
   "objects": [
     {
       "type": "cue",
-      "id": "mechanicalHorse/horse1",
+      "id": "*/horse1",
       "deprecatedIDs": [],
       "name": "horse 1",
       "duration": 1.0,
-	  "responseIDs": [
-	  "mechanicalHorse/playerhorse1"
-	  ]
+      "responseIDs": [
+        "*/playerhorse1"
+      ]
     },
     {
       "type": "cue",
-      "id": "mechanicalHorse/horse2",
+      "id": "*/horse2",
       "deprecatedIDs": [],
       "name": "horse 2",
       "duration": 2.0,
-	  "responseIDs": [
-	  "mechanicalHorse/playerhorse2"
-	  ]
+      "responseIDs": [
+        "*/playerhorse2"
+      ]
     },
-	{
+    {
       "type": "cue",
-      "id": "mechanicalHorse/horse3",
+      "id": "*/horse3",
       "deprecatedIDs": [],
       "name": "horse 3",
       "duration": 1.0,
-	  "responseIDs": [
-	  "mechanicalHorse/playerhorse3"
-	  ]
+      "responseIDs": [
+        "*/playerhorse3"
+      ]
     },
-	{
+    {
       "type": "cue",
-      "id": "mechanicalHorse/horse4",
+      "id": "*/horse4",
       "deprecatedIDs": [],
       "name": "horse 4",
       "duration": 1.0,
-	  "responseIDs": [
-	  "mechanicalHorse/playerhorse4"
-	  ]
+      "responseIDs": [
+        "*/playerhorse4"
+      ]
     },
-	{
+    {
       "type": "cue",
-      "id": "mechanicalHorse/horse5",
+      "id": "*/horse5",
       "deprecatedIDs": [],
       "name": "horse 5",
       "duration": 0.5,
-	  "responseIDs": [
-	  "mechanicalHorse/playerhorse5"
-	  ]
+      "responseIDs": [
+        "*/playerhorse5"
+      ]
     },
-	{
-	  "type": "cue",
-      "id": "mechanicalHorse/horse6",
+    {
+      "type": "cue",
+      "id": "*/horse6",
       "deprecatedIDs": [],
       "name": "horse 6",
       "duration": 0.5,
-	  "responseIDs": [
-	  "mechanicalHorse/playerhorse6"
-	  ]
+      "responseIDs": [
+        "*/playerhorse6"
+      ]
     },
-	{
-	  "type": "cue",
-      "id": "mechanicalHorse/horse7",
+    {
+      "type": "cue",
+      "id": "*/horse7",
       "deprecatedIDs": [],
       "name": "horse 7",
       "duration": 0.5,
-	  "responseIDs": [
-	  "mechanicalHorse/playerhorse7"
-	  ]
+      "responseIDs": [
+        "*/playerhorse7"
+      ]
     },
-	{
-	  "type": "cue",
-      "id": "mechanicalHorse/horse8",
+    {
+      "type": "cue",
+      "id": "*/horse8",
       "deprecatedIDs": [],
       "name": "horse 8",
       "duration": 0.5,
-	  "responseIDs": [
-	  "mechanicalHorse/playerhorse8"
-	  ]
+      "responseIDs": [
+        "*/playerhorse8"
+      ]
     },
-	{
-	  "type": "cue",
-      "id": "mechanicalHorse/horse9",
+    {
+      "type": "cue",
+      "id": "*/horse9",
       "deprecatedIDs": [],
       "name": "horse 9",
       "duration": 0.5,
-	  "responseIDs": [
-	  "mechanicalHorse/playerhorse9"
-	  ]
+      "responseIDs": [
+        "*/playerhorse9"
+      ]
     },
-	{
-	  "type": "cue",
-      "id": "mechanicalHorse/horse10",
+    {
+      "type": "cue",
+      "id": "*/horse10",
       "deprecatedIDs": [],
       "name": "horse 10",
       "duration": 0.5,
-	  "responseIDs": [
-	  "mechanicalHorse/playerhorse10"
-	  ]
+      "responseIDs": [
+        "*/playerhorse10"
+      ]
     },
-	{
-	  "type": "cue",
-      "id": "mechanicalHorse/horse11",
+    {
+      "type": "cue",
+      "id": "*/horse11",
       "deprecatedIDs": [],
       "name": "horse 11",
       "duration": 0.5,
-	  "responseIDs": [
-	  "mechanicalHorse/playerhorse11"
-	  ]
+      "responseIDs": [
+        "*/playerhorse11"
+      ]
     },
-	{
-	  "type": "cue",
-      "id": "mechanicalHorse/neigh",
+    {
+      "type": "cue",
+      "id": "*/neigh",
       "deprecatedIDs": [],
       "name": "neigh",
       "duration": 4.0
     },
-	{
+    {
       "type": "cue",
-      "id": "mechanicalHorse/playerhorse1",
+      "id": "*/playerhorse1",
       "deprecatedIDs": [],
       "name": "player horse 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "mechanicalHorse/playerhorse2",
+      "id": "*/playerhorse2",
       "deprecatedIDs": [],
       "name": "player horse 2",
       "duration": 2.0
     },
-	{
+    {
       "type": "cue",
-      "id": "mechanicalHorse/playerhorse3",
+      "id": "*/playerhorse3",
       "deprecatedIDs": [],
       "name": "player horse 3",
       "duration": 1.0
     },
-	{
+    {
       "type": "cue",
-      "id": "mechanicalHorse/playerhorse4",
+      "id": "*/playerhorse4",
       "deprecatedIDs": [],
       "name": "player horse 4",
       "duration": 1.0
     },
-	{
+    {
       "type": "cue",
-      "id": "mechanicalHorse/playerhorse5",
+      "id": "*/playerhorse5",
       "deprecatedIDs": [],
       "name": "player horse 5",
       "duration": 0.5
     },
-	{
-	  "type": "cue",
-      "id": "mechanicalHorse/playerhorse6",
+    {
+      "type": "cue",
+      "id": "*/playerhorse6",
       "deprecatedIDs": [],
       "name": "player horse 6",
       "duration": 0.5
     },
-	{
-	  "type": "cue",
-      "id": "mechanicalHorse/playerhorse7",
+    {
+      "type": "cue",
+      "id": "*/playerhorse7",
       "deprecatedIDs": [],
       "name": "player horse 7",
       "duration": 0.5
     },
-	{
-	  "type": "cue",
-      "id": "mechanicalHorse/playerhorse8",
+    {
+      "type": "cue",
+      "id": "*/playerhorse8",
       "deprecatedIDs": [],
       "name": "player horse 8",
       "duration": 0.5
     },
-	{
-	  "type": "cue",
-      "id": "mechanicalHorse/playerhorse9",
+    {
+      "type": "cue",
+      "id": "*/playerhorse9",
       "deprecatedIDs": [],
       "name": "player horse 9",
       "duration": 0.5
     },
-	{
-	  "type": "cue",
-      "id": "mechanicalHorse/playerhorse10",
+    {
+      "type": "cue",
+      "id": "*/playerhorse10",
       "deprecatedIDs": [],
       "name": "player horse 10",
       "duration": 0.5
     },
-	{
-	  "type": "cue",
-      "id": "mechanicalHorse/playerhorse11",
+    {
+      "type": "cue",
+      "id": "*/playerhorse11",
       "deprecatedIDs": [],
       "name": "player horse 11",
       "duration": 0.5
     },
-	{	
-	  "type": "keepTheBeat",
-	  "id": "mechanicalHorse_simpleWalk",
+    {
+      "type": "keepTheBeat",
+      "id": "*_simpleWalk",
       "deprecatedIDs": [],
       "name": "simple walk",
-	  "defaultDuration": 3.0,
+      "defaultDuration": 3.0,
       "cues": [
-       {
-         "id": "mechanicalHorse/horse1",
-         "beat": 0.0
-       },
-       {
-         "id": "mechanicalHorse/horse2",
-         "beat": 1.0
-       }
-      ]
-    },
-	{	
-	  "type": "keepTheBeat",
-	  "id": "mechanicalHorse_simpleWalkPlayer",
-      "deprecatedIDs": [],
-      "name": "simple walk with player",
-	  "defaultDuration": 3.0,
-      "cues": [
-       {
-         "id": "mechanicalHorse/horse1",
-		 "track": 0.0,
-         "beat": 0.0
-       },
-       {
-         "id": "mechanicalHorse/horse2",
-		 "track": 0.0,
-         "beat": 1.0
-       },
-	   {
-         "id": "mechanicalHorse/playerhorse1",
-		 "track": 1.0,
-         "beat": 0.0
-       },
-       {
-         "id": "mechanicalHorse/playerhorse2",
-		 "track": 1.0,
-         "beat": 1.0
-       }
-      ]
-    },
-	{
-	  "type": "keepTheBeat",
-	  "id": "mechanicalHorse_quickTrot",
-      "deprecatedIDs": [],
-      "name": "quick trot",
-	  "defaultDuration": 4.0,
-      "cues": [
-       {
-        "id": "mechanicalHorse/horse3",
-        "beat": 0.0
-       },
-	   {
-	    "id": "mechanicalHorse/horse4",
-        "beat": 1.0
-       },
-	   {
-        "id": "mechanicalHorse/horse3",
-        "beat": 2.0
-       },
-	   {
-	    "id": "mechanicalHorse/horse4",
-        "beat": 3.0
-       }
-      ]
-    },
-	{
-	  "type": "keepTheBeat",
-	  "id": "mechanicalHorse_quickTrotPlayer",
-      "deprecatedIDs": [],
-      "name": "quick trot with player",
-	  "defaultDuration": 4.0,
-      "cues": [
-       {
-        "id": "mechanicalHorse/horse3",
-		"track": 0.0,
-        "beat": 0.0
-       },
-	   {
-        "id": "mechanicalHorse/playerhorse3",
-		"track": 1.0,
-        "beat": 0.0
-       },
-	   {
-	    "id": "mechanicalHorse/horse4",
-		"track": 0.0,
-        "beat": 1.0
-       },
-	   {
-	    "id": "mechanicalHorse/playerhorse4",
-		"track": 1.0,
-        "beat": 1.0
-       },
-       {
-        "id": "mechanicalHorse/horse3",
-		"track": 0.0,
-        "beat": 2.0
-       },
-	   {
-        "id": "mechanicalHorse/playerhorse3",
-		"track": 1.0,
-        "beat": 2.0
-       },
-	   {
-	    "id": "mechanicalHorse/horse4",
-		"track": 0.0,
-        "beat": 3.0
-       },
-	   {
-	    "id": "mechanicalHorse/playerhorse4",
-		"track": 1.0,
-        "beat": 3.0
-       }
+        {
+          "id": "*/horse1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/horse2",
+          "beat": 1.0
+        }
       ]
     },
     {
-	  "type": "keepTheBeat",
-	  "id": "mechanicalHorse_fastCanter",
+      "type": "keepTheBeat",
+      "id": "*_simpleWalkPlayer",
+      "deprecatedIDs": [],
+      "name": "simple walk with player",
+      "defaultDuration": 3.0,
+      "cues": [
+        {
+          "id": "*/horse1",
+          "track": 0.0,
+          "beat": 0.0
+        },
+        {
+          "id": "*/horse2",
+          "track": 0.0,
+          "beat": 1.0
+        },
+        {
+          "id": "*/playerhorse1",
+          "track": 1.0,
+          "beat": 0.0
+        },
+        {
+          "id": "*/playerhorse2",
+          "track": 1.0,
+          "beat": 1.0
+        }
+      ]
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_quickTrot",
+      "deprecatedIDs": [],
+      "name": "quick trot",
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/horse3",
+          "beat": 0.0
+        },
+        {
+          "id": "*/horse4",
+          "beat": 1.0
+        },
+        {
+          "id": "*/horse3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/horse4",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_quickTrotPlayer",
+      "deprecatedIDs": [],
+      "name": "quick trot with player",
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/horse3",
+          "track": 0.0,
+          "beat": 0.0
+        },
+        {
+          "id": "*/playerhorse3",
+          "track": 1.0,
+          "beat": 0.0
+        },
+        {
+          "id": "*/horse4",
+          "track": 0.0,
+          "beat": 1.0
+        },
+        {
+          "id": "*/playerhorse4",
+          "track": 1.0,
+          "beat": 1.0
+        },
+        {
+          "id": "*/horse3",
+          "track": 0.0,
+          "beat": 2.0
+        },
+        {
+          "id": "*/playerhorse3",
+          "track": 1.0,
+          "beat": 2.0
+        },
+        {
+          "id": "*/horse4",
+          "track": 0.0,
+          "beat": 3.0
+        },
+        {
+          "id": "*/playerhorse4",
+          "track": 1.0,
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_fastCanter",
       "deprecatedIDs": [],
       "name": "fast canter",
-	  "defaultDuration": 4.0,
+      "defaultDuration": 4.0,
       "cues": [
-       {
-        "id": "mechanicalHorse/horse5",
-        "beat": 0.0
-       },
-	   {
-        "id": "mechanicalHorse/horse6",
-        "beat": 0.5
-       },
-	   {
-        "id": "mechanicalHorse/horse7",
-        "beat": 1.0
-       },
-	   {
-        "id": "mechanicalHorse/horse5",
-        "beat": 2.0
-       },
-       {
-        "id": "mechanicalHorse/horse6",
-        "beat": 2.5
-       },
-	   {
-        "id": "mechanicalHorse/horse7",
-        "beat": 3.0
-       }
+        {
+          "id": "*/horse5",
+          "beat": 0.0
+        },
+        {
+          "id": "*/horse6",
+          "beat": 0.5
+        },
+        {
+          "id": "*/horse7",
+          "beat": 1.0
+        },
+        {
+          "id": "*/horse5",
+          "beat": 2.0
+        },
+        {
+          "id": "*/horse6",
+          "beat": 2.5
+        },
+        {
+          "id": "*/horse7",
+          "beat": 3.0
+        }
       ]
     },
-	{
-	  "type": "keepTheBeat",
-	  "id": "mechanicalHorse_fastCanterPlayer",
+    {
+      "type": "keepTheBeat",
+      "id": "*_fastCanterPlayer",
       "deprecatedIDs": [],
       "name": "fast canter with player",
-	  "defaultDuration": 4.0,
+      "defaultDuration": 4.0,
       "cues": [
-       {
-        "id": "mechanicalHorse/horse5",
-		"track": 0.0,
-        "beat": 0.0
-       },
-	   {
-        "id": "mechanicalHorse/playerhorse5",
-		"track": 1.0,
-        "beat": 0.0
-       },
-	   {
-        "id": "mechanicalHorse/horse6",
-		"track": 0.0,
-        "beat": 0.5
-	   },
-	   {
-        "id": "mechanicalHorse/playerhorse6",
-		"track": 1.0,
-        "beat": 0.5
-       },
-	   {
-        "id": "mechanicalHorse/horse7",
-		"track": 0.0,
-        "beat": 1.0
-	   },
-	   {
-        "id": "mechanicalHorse/playerhorse7",
-		"track": 1.0,
-        "beat": 1.0
-       },
-       {
-        "id": "mechanicalHorse/horse5",
-		"track": 0.0,
-        "beat": 2.0
-       },
-	   {
-        "id": "mechanicalHorse/playerhorse5",
-		"track": 1.0,
-        "beat": 2.0
-       },
-       {
-        "id": "mechanicalHorse/horse6",
-		"track": 0.0,
-        "beat": 2.5
-	   },
-	   {
-        "id": "mechanicalHorse/playerhorse6",
-		"track": 1.0,
-        "beat": 2.5
-       },
-	   {
-        "id": "mechanicalHorse/horse7",
-	    "track": 0.0,
-        "beat": 3.0
-	   },
-	   {
-        "id": "mechanicalHorse/playerhorse7",
-		"track": 1.0,
-        "beat": 3.0
-	   }
-	   ]
-    },
-	   {
-	  "type": "keepTheBeat",
-	  "id": "mechanicalHorse_fullGallop",
-      "deprecatedIDs": [],
-      "name": "full gallop",
-	  "defaultDuration": 5.0,
-      "cues": [
-       {
-        "id": "mechanicalHorse/horse8",
-        "beat": 0.0
-       },
-	   {
-        "id": "mechanicalHorse/horse9",
-        "beat": 0.5
-       },
-	   {
-        "id": "mechanicalHorse/horse10",
-        "beat": 1.0
-       },
-	   {
-        "id": "mechanicalHorse/horse11",
-        "beat": 1.5
-       },
-       {
-        "id": "mechanicalHorse/horse8",
-        "beat": 2.5
-       },
-	   {
-        "id": "mechanicalHorse/horse9",
-        "beat": 3.0
-       },
-	   {
-        "id": "mechanicalHorse/horse10",
-        "beat": 3.5
-       },
-	   {
-        "id": "mechanicalHorse/horse11",
-        "beat": 4.0
-       }
+        {
+          "id": "*/horse5",
+          "track": 0.0,
+          "beat": 0.0
+        },
+        {
+          "id": "*/playerhorse5",
+          "track": 1.0,
+          "beat": 0.0
+        },
+        {
+          "id": "*/horse6",
+          "track": 0.0,
+          "beat": 0.5
+        },
+        {
+          "id": "*/playerhorse6",
+          "track": 1.0,
+          "beat": 0.5
+        },
+        {
+          "id": "*/horse7",
+          "track": 0.0,
+          "beat": 1.0
+        },
+        {
+          "id": "*/playerhorse7",
+          "track": 1.0,
+          "beat": 1.0
+        },
+        {
+          "id": "*/horse5",
+          "track": 0.0,
+          "beat": 2.0
+        },
+        {
+          "id": "*/playerhorse5",
+          "track": 1.0,
+          "beat": 2.0
+        },
+        {
+          "id": "*/horse6",
+          "track": 0.0,
+          "beat": 2.5
+        },
+        {
+          "id": "*/playerhorse6",
+          "track": 1.0,
+          "beat": 2.5
+        },
+        {
+          "id": "*/horse7",
+          "track": 0.0,
+          "beat": 3.0
+        },
+        {
+          "id": "*/playerhorse7",
+          "track": 1.0,
+          "beat": 3.0
+        }
       ]
     },
-	{
-	  "type": "keepTheBeat",
-	  "id": "mechanicalHorse_fullGallopPlayer",
-      "deprecatedIDs": ["mechanicalHorse/fullGallopPlayer"],
-      "name": "full gallop with player",
-	  "defaultDuration": 5.0,
+    {
+      "type": "keepTheBeat",
+      "id": "*_fullGallop",
+      "deprecatedIDs": [],
+      "name": "full gallop",
+      "defaultDuration": 5.0,
       "cues": [
-       {
-        "id": "mechanicalHorse/horse8",
-        "beat": 0.0
-       },
-	   {
-        "id": "mechanicalHorse/playerhorse8",
-		"track": 1.0,
-        "beat": 0.0
-       },
-	   {
-        "id": "mechanicalHorse/horse9",
-        "beat": 0.5
-       },
-	   {
-        "id": "mechanicalHorse/playerhorse9",
-		"track": 1.0,
-        "beat": 0.5
-       },
-	   {
-        "id": "mechanicalHorse/horse10",
-        "beat": 1.0
-	   },
-	   {
-        "id": "mechanicalHorse/playerhorse10",
-		"track": 1.0,
-        "beat": 1.0
-       },
-	   {
-        "id": "mechanicalHorse/horse11",
-        "beat": 1.5
-	   },
-	   {
-        "id": "mechanicalHorse/playerhorse11",
-		"track": 1.0,
-        "beat": 1.5
-       },
-       {
-        "id": "mechanicalHorse/horse8",
-        "beat": 2.5
-	   },
-	   {
-        "id": "mechanicalHorse/playerhorse8",
-		"track": 1.0,
-        "beat": 2.5
-       },
-	   {
-        "id": "mechanicalHorse/horse9",
-        "beat": 3.0
-       },
-	   {
-        "id": "mechanicalHorse/playerhorse9",
-		"track": 1.0,
-        "beat": 3.0
-       },
-	   {
-        "id": "mechanicalHorse/horse10",
-        "beat": 3.5
-       },
-	   {
-        "id": "mechanicalHorse/playerhorse10",
-		"track": 1.0,
-        "beat": 3.5
-       },
-	   {
-        "id": "mechanicalHorse/horse11",
-        "beat": 4.0
-       },
-	   {
-        "id": "mechanicalHorse/playerhorse11",
-		"track": 1.0,
-        "beat": 4.0
-       }
+        {
+          "id": "*/horse8",
+          "beat": 0.0
+        },
+        {
+          "id": "*/horse9",
+          "beat": 0.5
+        },
+        {
+          "id": "*/horse10",
+          "beat": 1.0
+        },
+        {
+          "id": "*/horse11",
+          "beat": 1.5
+        },
+        {
+          "id": "*/horse8",
+          "beat": 2.5
+        },
+        {
+          "id": "*/horse9",
+          "beat": 3.0
+        },
+        {
+          "id": "*/horse10",
+          "beat": 3.5
+        },
+        {
+          "id": "*/horse11",
+          "beat": 4.0
+        }
+      ]
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_fullGallopPlayer",
+      "deprecatedIDs": [
+        "mechanicalHorse/fullGallopPlayer"
+      ],
+      "name": "full gallop with player",
+      "defaultDuration": 5.0,
+      "cues": [
+        {
+          "id": "*/horse8",
+          "beat": 0.0
+        },
+        {
+          "id": "*/playerhorse8",
+          "track": 1.0,
+          "beat": 0.0
+        },
+        {
+          "id": "*/horse9",
+          "beat": 0.5
+        },
+        {
+          "id": "*/playerhorse9",
+          "track": 1.0,
+          "beat": 0.5
+        },
+        {
+          "id": "*/horse10",
+          "beat": 1.0
+        },
+        {
+          "id": "*/playerhorse10",
+          "track": 1.0,
+          "beat": 1.0
+        },
+        {
+          "id": "*/horse11",
+          "beat": 1.5
+        },
+        {
+          "id": "*/playerhorse11",
+          "track": 1.0,
+          "beat": 1.5
+        },
+        {
+          "id": "*/horse8",
+          "beat": 2.5
+        },
+        {
+          "id": "*/playerhorse8",
+          "track": 1.0,
+          "beat": 2.5
+        },
+        {
+          "id": "*/horse9",
+          "beat": 3.0
+        },
+        {
+          "id": "*/playerhorse9",
+          "track": 1.0,
+          "beat": 3.0
+        },
+        {
+          "id": "*/horse10",
+          "beat": 3.5
+        },
+        {
+          "id": "*/playerhorse10",
+          "track": 1.0,
+          "beat": 3.5
+        },
+        {
+          "id": "*/horse11",
+          "beat": 4.0
+        },
+        {
+          "id": "*/playerhorse11",
+          "track": 1.0,
+          "beat": 4.0
+        }
       ]
     }
   ]

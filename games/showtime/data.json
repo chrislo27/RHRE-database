@@ -5,284 +5,284 @@
   "objects": [
     {
       "type": "cue",
-      "id": "showtime/clapping",
+      "id": "*/clapping",
       "deprecatedIDs": [],
       "name": "crowd - clap",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "showtime/applause",
+      "id": "*/applause",
       "deprecatedIDs": [],
       "name": "crowd - applause",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "showtime/large1",
+      "id": "*/large1",
       "deprecatedIDs": [],
       "name": "large - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "showtime/large2",
+      "id": "*/large2",
       "deprecatedIDs": [],
       "name": "large - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "showtime/large3",
+      "id": "*/large3",
       "deprecatedIDs": [],
       "name": "large - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "showtime/large4",
+      "id": "*/large4",
       "deprecatedIDs": [],
       "name": "large - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "showtime/medium1",
+      "id": "*/medium1",
       "deprecatedIDs": [],
       "name": "medium - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "showtime/medium2",
+      "id": "*/medium2",
       "deprecatedIDs": [],
       "name": "medium - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "showtime/medium3",
+      "id": "*/medium3",
       "deprecatedIDs": [],
       "name": "medium - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "showtime/medium4",
+      "id": "*/medium4",
       "deprecatedIDs": [],
       "name": "medium - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "showtime/small1",
+      "id": "*/small1",
       "deprecatedIDs": [],
       "name": "small - 1",
       "duration": 0.66666
     },
     {
       "type": "cue",
-      "id": "showtime/small2",
+      "id": "*/small2",
       "deprecatedIDs": [],
       "name": "small - 2",
       "duration": 0.33333
     },
     {
       "type": "cue",
-      "id": "showtime/small3",
+      "id": "*/small3",
       "deprecatedIDs": [],
       "name": "small - 3",
       "duration": 0.66666
     },
     {
       "type": "cue",
-      "id": "showtime/small4",
+      "id": "*/small4",
       "deprecatedIDs": [],
       "name": "small - 4",
       "duration": 0.33333
     },
     {
       "type": "cue",
-      "id": "showtime/small5",
+      "id": "*/small5",
       "deprecatedIDs": [],
       "name": "small - 5",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "showtime/small6",
+      "id": "*/small6",
       "deprecatedIDs": [],
       "name": "small - 6",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "showtime_large",
+      "id": "*_large",
       "deprecatedIDs": [],
       "name": "large penguin",
       "cues": [
         {
-          "id": "showtime/large1",
+          "id": "*/large1",
           "beat": 0.0
         },
         {
-          "id": "showtime/large2",
+          "id": "*/large2",
           "beat": 2.0
         },
         {
-          "id": "showtime/large3",
+          "id": "*/large3",
           "beat": 4.0
         },
         {
-          "id": "showtime/large4",
+          "id": "*/large4",
           "beat": 5.0
         },
         {
-          "id": "showtime/clapping",
+          "id": "*/clapping",
           "beat": 6.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "showtime_largePerfect",
+      "id": "*_largePerfect",
       "deprecatedIDs": [],
       "name": "large penguin perfect",
       "cues": [
         {
-          "id": "showtime/large1",
+          "id": "*/large1",
           "beat": 0.0
         },
         {
-          "id": "showtime/large2",
+          "id": "*/large2",
           "beat": 2.0
         },
         {
-          "id": "showtime/large3",
+          "id": "*/large3",
           "beat": 4.0
         },
         {
-          "id": "showtime/large4",
+          "id": "*/large4",
           "beat": 5.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "showtime_medium",
+      "id": "*_medium",
       "deprecatedIDs": [],
       "name": "medium penguin",
       "cues": [
         {
-          "id": "showtime/medium1",
+          "id": "*/medium1",
           "beat": 0.0
         },
         {
-          "id": "showtime/medium2",
+          "id": "*/medium2",
           "beat": 1.0
         },
         {
-          "id": "showtime/medium3",
+          "id": "*/medium3",
           "beat": 2.0
         },
         {
-          "id": "showtime/medium4",
+          "id": "*/medium4",
           "beat": 3.0
         },
         {
-          "id": "showtime/clapping",
+          "id": "*/clapping",
           "beat": 4.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "showtime_mediumPerfect",
+      "id": "*_mediumPerfect",
       "deprecatedIDs": [],
       "name": "medium penguin perfect",
       "cues": [
         {
-          "id": "showtime/medium1",
+          "id": "*/medium1",
           "beat": 0.0
         },
         {
-          "id": "showtime/medium2",
+          "id": "*/medium2",
           "beat": 1.0
         },
         {
-          "id": "showtime/medium3",
+          "id": "*/medium3",
           "beat": 2.0
         },
         {
-          "id": "showtime/medium4",
+          "id": "*/medium4",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "showtime_small",
+      "id": "*_small",
       "deprecatedIDs": [],
       "name": "small penguin",
       "cues": [
         {
-          "id": "showtime/small1",
+          "id": "*/small1",
           "beat": 0.0
         },
         {
-          "id": "showtime/small2",
+          "id": "*/small2",
           "beat": 0.66667
         },
         {
-          "id": "showtime/small3",
+          "id": "*/small3",
           "beat": 1.0
         },
         {
-          "id": "showtime/small4",
+          "id": "*/small4",
           "beat": 1.66667
         },
         {
-          "id": "showtime/small5",
+          "id": "*/small5",
           "beat": 2.0
         },
         {
-          "id": "showtime/small6",
+          "id": "*/small6",
           "beat": 3.0
         },
         {
-          "id": "showtime/applause",
+          "id": "*/applause",
           "beat": 4.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "showtime_smallPerfect",
+      "id": "*_smallPerfect",
       "deprecatedIDs": [],
       "name": "small penguin perfect",
       "cues": [
         {
-          "id": "showtime/small1",
+          "id": "*/small1",
           "beat": 0.0
         },
         {
-          "id": "showtime/small2",
+          "id": "*/small2",
           "beat": 0.66667
         },
         {
-          "id": "showtime/small3",
+          "id": "*/small3",
           "beat": 1.0
         },
         {
-          "id": "showtime/small4",
+          "id": "*/small4",
           "beat": 1.66667
         },
         {
-          "id": "showtime/small5",
+          "id": "*/small5",
           "beat": 2.0
         },
         {
-          "id": "showtime/small6",
+          "id": "*/small6",
           "beat": 3.0
         }
       ]

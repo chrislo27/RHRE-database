@@ -5,35 +5,35 @@
   "objects": [
     {
       "type": "cue",
-      "id": "sneakySpirits/moving",
+      "id": "*/moving",
       "deprecatedIDs": [],
       "name": "moving",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "sneakySpirits/fading1",
+      "id": "*/fading1",
       "deprecatedIDs": [],
       "name": "fading - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "sneakySpirits/fading2",
+      "id": "*/fading2",
       "deprecatedIDs": [],
       "name": "fading - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "sneakySpirits/fading3",
+      "id": "*/fading3",
       "deprecatedIDs": [],
       "name": "fading - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "sneakySpirits/rain",
+      "id": "*/rain",
       "deprecatedIDs": [],
       "name": "no ghost - raining",
       "duration": 3.0,
@@ -42,73 +42,73 @@
     },
     {
       "type": "cue",
-      "id": "sneakySpirits/hit",
+      "id": "*/hit",
       "deprecatedIDs": [],
       "name": "hit",
       "duration": 0.5
     },
     {
       "type": "equidistant",
-      "id": "sneakySpirits_sevenBeats",
+      "id": "*_sevenBeats",
       "deprecatedIDs": [],
       "name": "7 beats",
       "distance": 1.0,
       "stretchable": true,
       "cues": [
         {
-          "id": "sneakySpirits/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpirits/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpirits/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpirits/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpirits/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpirits/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpirits/hit"
+          "id": "*/hit"
         }
       ]
     },
     {
       "type": "equidistant",
-      "id": "sneakySpirits_eightBeats",
+      "id": "*_eightBeats",
       "deprecatedIDs": [],
       "name": "8 beats",
       "distance": 1.0,
       "stretchable": true,
       "cues": [
         {
-          "id": "sneakySpirits/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpirits/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpirits/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpirits/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpirits/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpirits/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpirits/moving"
+          "id": "*/moving"
         },
         {
-          "id": "sneakySpirits/hit"
+          "id": "*/hit"
         }
       ]
     }

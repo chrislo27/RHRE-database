@@ -5,7 +5,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "bouncyRoadMegamix/tink",
+      "id": "*/tink",
       "deprecatedIDs": [],
       "name": "tink",
       "duration": 0.25,
@@ -13,7 +13,7 @@
     },
     {
       "type": "cue",
-      "id": "bouncyRoadMegamix/cymbal",
+      "id": "*/cymbal",
       "deprecatedIDs": [],
       "name": "cymbal",
       "duration": 0.5,
@@ -21,58 +21,58 @@
     },
     {
       "type": "equidistant",
-      "id": "bouncyRoadMegamix_15bounces",
+      "id": "*_15bounces",
       "deprecatedIDs": [],
       "name": "15 bounces",
       "distance": 0.5,
       "stretchable": true,
       "cues": [
         {
-          "id": "bouncyRoadMegamix/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoadMegamix/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoadMegamix/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoadMegamix/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoadMegamix/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoadMegamix/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoadMegamix/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoadMegamix/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoadMegamix/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoadMegamix/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoadMegamix/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoadMegamix/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoadMegamix/tink",
+          "id": "*/tink",
           "semitone": -4
         },
         {
-          "id": "bouncyRoadMegamix/tink",
+          "id": "*/tink",
           "semitone": 3
         },
         {
-          "id": "bouncyRoadMegamix/cymbal"
+          "id": "*/cymbal"
         }
       ]
     }

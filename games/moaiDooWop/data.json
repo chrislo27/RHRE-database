@@ -5,21 +5,21 @@
   "objects": [
     {
       "type": "cue",
-      "id": "moaiDooWop/stoneGrind",
+      "id": "*/stoneGrind",
       "deprecatedIDs": [],
       "name": "switch",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "moaiDooWop/d1",
+      "id": "*/d1",
       "deprecatedIDs": [],
       "name": "moaiDooWop/d1",
       "duration": 1.0E-6
     },
     {
       "type": "cue",
-      "id": "moaiDooWop/ooo1",
+      "id": "*/ooo1",
       "deprecatedIDs": [],
       "name": "left - doo-wop",
       "duration": 1.0,
@@ -28,36 +28,36 @@
       "introSound": "moaiDooWop/d1",
       "endingSound": "moaiDooWop/wop1",
       "responseIDs": [
-        "moaiDooWop/ooo2"
+        "*/ooo2"
       ]
     },
     {
       "type": "cue",
-      "id": "moaiDooWop/wop1",
+      "id": "*/wop1",
       "deprecatedIDs": [],
       "name": "left - wop",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "moaiDooWop/pah1",
+      "id": "*/pah1",
       "deprecatedIDs": [],
       "name": "left - pah",
       "duration": 0.5,
       "responseIDs": [
-        "moaiDooWop/pah2"
+        "*/pah2"
       ]
     },
     {
       "type": "cue",
-      "id": "moaiDooWop/d2",
+      "id": "*/d2",
       "deprecatedIDs": [],
       "name": "moaiDooWop/d2",
       "duration": 1.0E-6
     },
     {
       "type": "cue",
-      "id": "moaiDooWop/ooo2",
+      "id": "*/ooo2",
       "deprecatedIDs": [],
       "name": "right - doo-wop",
       "duration": 1.0,
@@ -68,28 +68,28 @@
     },
     {
       "type": "cue",
-      "id": "moaiDooWop/wop2",
+      "id": "*/wop2",
       "deprecatedIDs": [],
       "name": "right - wop",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "moaiDooWop/pah2",
+      "id": "*/pah2",
       "deprecatedIDs": [],
       "name": "right - pah",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "moaiDooWop/d3",
+      "id": "*/d3",
       "deprecatedIDs": [],
       "name": "moaiDooWop/d3",
       "duration": 1.0E-6
     },
     {
       "type": "cue",
-      "id": "moaiDooWop/ooo3",
+      "id": "*/ooo3",
       "deprecatedIDs": [],
       "name": "middle (unused) - doo-wop",
       "duration": 1.0,
@@ -100,14 +100,14 @@
     },
     {
       "type": "cue",
-      "id": "moaiDooWop/wop3",
+      "id": "*/wop3",
       "deprecatedIDs": [],
       "name": "middle (unused) - wop",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "moaiDooWop/pah3",
+      "id": "*/pah3",
       "deprecatedIDs": [],
       "name": "middle (unused) - pah",
       "duration": 0.5

@@ -6,156 +6,156 @@
   "objects": [
     {
       "type": "cue",
-      "id": "catchOfTheDayJa/quick1",
+      "id": "*/quick1",
       "deprecatedIDs": [],
       "name": "quicknibble - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayJa/quick2",
+      "id": "*/quick2",
       "deprecatedIDs": [],
       "name": "quicknibble - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayJa/quick3",
+      "id": "*/quick3",
       "deprecatedIDs": [],
       "name": "quicknibble - 3",
       "duration": 1.5
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayJa/pausegill1",
+      "id": "*/pausegill1",
       "deprecatedIDs": [],
       "name": "pausegill - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayJa/pausegill2",
+      "id": "*/pausegill2",
       "deprecatedIDs": [],
       "name": "pausegill - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayJa/pausegill3",
+      "id": "*/pausegill3",
       "deprecatedIDs": [],
       "name": "pausegill - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayJa/pausegill4",
+      "id": "*/pausegill4",
       "deprecatedIDs": [],
       "name": "pausegill - 4",
       "duration": 1.5
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayJa/threefish1",
+      "id": "*/threefish1",
       "deprecatedIDs": [],
       "name": "threefish - 1",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayJa/threefish2",
+      "id": "*/threefish2",
       "deprecatedIDs": [],
       "name": "threefish - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayJa/threefish3",
+      "id": "*/threefish3",
       "deprecatedIDs": [],
       "name": "threefish - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayJa/threefish4",
+      "id": "*/threefish4",
       "deprecatedIDs": [],
       "name": "threefish - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "catchOfTheDayJa/threefish5",
+      "id": "*/threefish5",
       "deprecatedIDs": [],
       "name": "threefish - 5",
       "duration": 1.5
     },
     {
       "type": "pattern",
-      "id": "catchOfTheDayJa_quicknibble",
+      "id": "*_quicknibble",
       "deprecatedIDs": [],
       "name": "quicknibble",
       "cues": [
         {
-          "id": "catchOfTheDayJa/quick1",
+          "id": "*/quick1",
           "beat": 0.0
         },
         {
-          "id": "catchOfTheDayJa/quick2",
+          "id": "*/quick2",
           "beat": 1.0
         },
         {
-          "id": "catchOfTheDayJa/quick3",
+          "id": "*/quick3",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "catchOfTheDayJa_pausegill",
+      "id": "*_pausegill",
       "deprecatedIDs": [],
       "name": "pausegill",
       "cues": [
         {
-          "id": "catchOfTheDayJa/pausegill1",
+          "id": "*/pausegill1",
           "beat": 0.0
         },
         {
-          "id": "catchOfTheDayJa/pausegill2",
+          "id": "*/pausegill2",
           "beat": 0.5
         },
         {
-          "id": "catchOfTheDayJa/pausegill3",
+          "id": "*/pausegill3",
           "beat": 1.0
         },
         {
-          "id": "catchOfTheDayJa/pausegill4",
+          "id": "*/pausegill4",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "catchOfTheDayJa_threefish",
+      "id": "*_threefish",
       "deprecatedIDs": [],
       "name": "threefish",
       "cues": [
         {
-          "id": "catchOfTheDayJa/threefish1",
+          "id": "*/threefish1",
           "beat": 0.0
         },
         {
-          "id": "catchOfTheDayJa/threefish2",
+          "id": "*/threefish2",
           "beat": 0.25
         },
         {
-          "id": "catchOfTheDayJa/threefish3",
+          "id": "*/threefish3",
           "beat": 0.5
         },
         {
-          "id": "catchOfTheDayJa/threefish4",
+          "id": "*/threefish4",
           "beat": 1.0
         },
         {
-          "id": "catchOfTheDayJa/threefish5",
+          "id": "*/threefish5",
           "beat": 4.5
         }
       ]

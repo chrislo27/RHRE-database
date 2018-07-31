@@ -6,168 +6,168 @@
   "objects": [
     {
       "type": "cue",
-      "id": "dogNinjaEs/fruit1",
+      "id": "*/fruit1",
       "deprecatedIDs": [],
       "name": "fruit - out",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "dogNinjaEs/fruit2",
+      "id": "*/fruit2",
       "deprecatedIDs": [],
       "name": "fruit - slice",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "dogNinjaEs/bone1",
+      "id": "*/bone1",
       "deprecatedIDs": [],
       "name": "bone - out",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "dogNinjaEs/bone2",
+      "id": "*/bone2",
       "deprecatedIDs": [],
       "name": "bone - slice",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "dogNinjaEs/tire1",
+      "id": "*/tire1",
       "deprecatedIDs": [],
       "name": "tire - out",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "dogNinjaEs/tire2",
+      "id": "*/tire2",
       "deprecatedIDs": [],
       "name": "tire - slice",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "dogNinjaEs/pan1",
+      "id": "*/pan1",
       "deprecatedIDs": [],
       "name": "pan - out",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "dogNinjaEs/pan2",
+      "id": "*/pan2",
       "deprecatedIDs": [],
       "name": "pan - slice",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "dogNinjaEs/sign",
+      "id": "*/sign",
       "deprecatedIDs": [],
       "name": "\"Cut everything!\"",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "dogNinjaEs/allaVoy1",
+      "id": "*/allaVoy1",
       "deprecatedIDs": [],
       "name": "alla voy - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "dogNinjaEs/allaVoy2",
+      "id": "*/allaVoy2",
       "deprecatedIDs": [],
       "name": "alla voy - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "dogNinjaEs/allaVoy3",
+      "id": "*/allaVoy3",
       "deprecatedIDs": [],
       "name": "alla voy - 3",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "dogNinjaEs_fruit",
+      "id": "*_fruit",
       "deprecatedIDs": [],
       "name": "fruit",
       "cues": [
         {
-          "id": "dogNinjaEs/fruit1",
+          "id": "*/fruit1",
           "beat": 0.0
         },
         {
-          "id": "dogNinjaEs/fruit2",
+          "id": "*/fruit2",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "dogNinjaEs_bone",
+      "id": "*_bone",
       "deprecatedIDs": [],
       "name": "bone",
       "cues": [
         {
-          "id": "dogNinjaEs/bone1",
+          "id": "*/bone1",
           "beat": 0.0
         },
         {
-          "id": "dogNinjaEs/bone2",
+          "id": "*/bone2",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "dogNinjaEs_tire",
+      "id": "*_tire",
       "deprecatedIDs": [],
       "name": "tire",
       "cues": [
         {
-          "id": "dogNinjaEs/tire1",
+          "id": "*/tire1",
           "beat": 0.0
         },
         {
-          "id": "dogNinjaEs/tire2",
+          "id": "*/tire2",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "dogNinjaEs_pan",
+      "id": "*_pan",
       "deprecatedIDs": [],
       "name": "pan",
       "cues": [
         {
-          "id": "dogNinjaEs/pan1",
+          "id": "*/pan1",
           "beat": 0.0
         },
         {
-          "id": "dogNinjaEs/pan2",
+          "id": "*/pan2",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "dogNinjaEs_allaVoy",
+      "id": "*_allaVoy",
       "deprecatedIDs": [],
       "name": "here we go!",
       "cues": [
         {
-          "id": "dogNinjaEs/allaVoy1",
+          "id": "*/allaVoy1",
           "beat": 0.0
         },
         {
-          "id": "dogNinjaEs/allaVoy2",
+          "id": "*/allaVoy2",
           "beat": 0.5
         },
         {
-          "id": "dogNinjaEs/allaVoy3",
+          "id": "*/allaVoy3",
           "beat": 1.0
         }
       ]

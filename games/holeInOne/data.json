@@ -5,184 +5,184 @@
   "objects": [
     {
       "type": "cue",
-      "id": "holeInOne/hole1",
+      "id": "*/hole1",
       "deprecatedIDs": [],
       "name": "hole - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "holeInOne/hole2",
+      "id": "*/hole2",
       "deprecatedIDs": [],
       "name": "hole - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "holeInOne/hole3",
+      "id": "*/hole3",
       "deprecatedIDs": [],
       "name": "hole - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "holeInOne/hole4",
+      "id": "*/hole4",
       "deprecatedIDs": [],
       "name": "hole - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "holeInOne/whale",
+      "id": "*/whale",
       "deprecatedIDs": [],
       "name": "whale - practice",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "holeInOne/monkey1",
+      "id": "*/monkey1",
       "deprecatedIDs": [],
       "name": "monkey - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "holeInOne/monkey2",
+      "id": "*/monkey2",
       "deprecatedIDs": [],
       "name": "monkey - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "holeInOne/monkey3",
+      "id": "*/monkey3",
       "deprecatedIDs": [],
       "name": "monkey - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "holeInOne/mandrill1",
+      "id": "*/mandrill1",
       "deprecatedIDs": [],
       "name": "mandrill - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "holeInOne/mandrill2",
+      "id": "*/mandrill2",
       "deprecatedIDs": [],
       "name": "mandrill - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "holeInOne/mandrill3",
+      "id": "*/mandrill3",
       "deprecatedIDs": [],
       "name": "mandrill - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "holeInOne/mandrill4",
+      "id": "*/mandrill4",
       "deprecatedIDs": [],
       "name": "mandrill - 4",
       "duration": 2.0
     },
     {
       "type": "randomCue",
-      "id": "holeInOne_randomBall",
+      "id": "*_randomBall",
       "deprecatedIDs": [],
       "name": "random score clink",
       "cues": [
         {
-          "id": "holeInOne/hole1"
+          "id": "*/hole1"
         },
         {
-          "id": "holeInOne/hole2"
+          "id": "*/hole2"
         },
         {
-          "id": "holeInOne/hole3"
+          "id": "*/hole3"
         },
         {
-          "id": "holeInOne/hole4"
+          "id": "*/hole4"
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "holeInOne_monkey",
+      "id": "*_monkey",
       "deprecatedIDs": [],
       "name": "monkey",
       "cues": [
         {
-          "id": "holeInOne/monkey1",
+          "id": "*/monkey1",
           "beat": 0.0
         },
         {
-          "id": "holeInOne/monkey2",
+          "id": "*/monkey2",
           "beat": 1.0
         },
         {
-          "id": "holeInOne/monkey3",
+          "id": "*/monkey3",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "holeInOne_mandrill",
+      "id": "*_mandrill",
       "deprecatedIDs": [],
       "name": "mandrill",
       "cues": [
         {
-          "id": "holeInOne/mandrill1",
+          "id": "*/mandrill1",
           "beat": 0.0
         },
         {
-          "id": "holeInOne/mandrill2",
+          "id": "*/mandrill2",
           "beat": 1.0
         },
         {
-          "id": "holeInOne/mandrill3",
+          "id": "*/mandrill3",
           "beat": 2.0
         },
         {
-          "id": "holeInOne/mandrill4",
+          "id": "*/mandrill4",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "holeInOne_monkeyShort",
+      "id": "*_monkeyShort",
       "deprecatedIDs": [],
       "name": "monkey - short",
       "cues": [
         {
-          "id": "holeInOne/monkey2",
+          "id": "*/monkey2",
           "beat": 0.0
         },
         {
-          "id": "holeInOne/monkey3",
+          "id": "*/monkey3",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "holeInOne_mandrillShort",
+      "id": "*_mandrillShort",
       "deprecatedIDs": [],
       "name": "mandrill - short",
       "cues": [
         {
-          "id": "holeInOne/mandrill2",
+          "id": "*/mandrill2",
           "beat": 0.0
         },
         {
-          "id": "holeInOne/mandrill3",
+          "id": "*/mandrill3",
           "beat": 1.0
         },
         {
-          "id": "holeInOne/mandrill4",
+          "id": "*/mandrill4",
           "beat": 2.0
         }
       ]

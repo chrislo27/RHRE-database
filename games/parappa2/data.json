@@ -5,7 +5,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "parappa2/chinese",
+      "id": "*/chinese",
       "deprecatedIDs": [],
       "name": "chinese",
       "duration": 1.0,
@@ -13,7 +13,7 @@
     },
     {
       "type": "cue",
-      "id": "parappa2/chineseLooping",
+      "id": "*/chineseLooping",
       "deprecatedIDs": [],
       "name": "chinese (looping)",
       "duration": 1.0,
@@ -24,7 +24,7 @@
 //  ,
 //    {
 //      "type": "cue",
-//      "id": "parappa2/anything",
+//      "id": "*/anything",
 //      "deprecatedIDs": [],
 //      "name": "anything",
 //      "duration": 1.0,
@@ -32,7 +32,7 @@
 //    },
 //    {
 //      "type": "cue",
-//      "id": "parappa2/even",
+//      "id": "*/even",
 //      "deprecatedIDs": [],
 //      "name": "even",
 //      "duration": 0.5,
@@ -40,7 +40,7 @@
 //    },
     {
       "type": "cue",
-      "id": "parappa2/italian",
+      "id": "*/italian",
       "deprecatedIDs": [],
       "name": "italian",
       "duration": 1.0,
@@ -48,7 +48,7 @@
     },
     {
       "type": "cue",
-      "id": "parappa2/korean",
+      "id": "*/korean",
       "deprecatedIDs": [],
       "name": "korean",
       "duration": 1.0,

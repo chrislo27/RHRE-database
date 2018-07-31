@@ -6,35 +6,35 @@
   "objects": [
     {
       "type": "cue",
-      "id": "screwbotFactoryJa/clankclank1",
+      "id": "*/clankclank1",
       "deprecatedIDs": [],
       "name": "black - crane - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "screwbotFactoryJa/clankclank2",
+      "id": "*/clankclank2",
       "deprecatedIDs": [],
       "name": "black - crane - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "screwbotFactoryJa/yattaPlace",
+      "id": "*/yattaPlace",
       "deprecatedIDs": [],
       "name": "black - drop",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "screwbotFactoryJa/yattaStart",
+      "id": "*/yattaStart",
       "deprecatedIDs": [],
       "name": "screwbotFactoryJa/yattaStart",
       "duration": 1.0E-6
     },
     {
       "type": "cue",
-      "id": "screwbotFactoryJa/screwingYaTta",
+      "id": "*/screwingYaTta",
       "deprecatedIDs": [],
       "name": "black - screw",
       "introSound": "screwbotFactoryJa/yattaStart",
@@ -43,49 +43,49 @@
     },
     {
       "type": "cue",
-      "id": "screwbotFactoryJa/complete",
+      "id": "*/complete",
       "deprecatedIDs": [],
       "name": "complete",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "screwbotFactoryJa/ya",
+      "id": "*/ya",
       "deprecatedIDs": [],
       "name": "black - finish - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "screwbotFactoryJa/tta",
+      "id": "*/tta",
       "deprecatedIDs": [],
       "name": "black - finish - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "screwbotFactoryJa/whiteCrane",
+      "id": "*/whiteCrane",
       "deprecatedIDs": [],
       "name": "white - crane",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "screwbotFactoryJa/yoshaPlace",
+      "id": "*/yoshaPlace",
       "deprecatedIDs": [],
       "name": "white - drop",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "screwbotFactoryJa/yoshaStart",
+      "id": "*/yoshaStart",
       "deprecatedIDs": [],
       "name": "screwbotFactoryJa/yoshaStart",
       "duration": 1.0E-6
     },
     {
       "type": "cue",
-      "id": "screwbotFactoryJa/screwingYoSha",
+      "id": "*/screwingYoSha",
       "deprecatedIDs": [],
       "name": "white - screw",
       "introSound": "screwbotFactoryJa/yoshaStart",
@@ -94,178 +94,178 @@
     },
     {
       "type": "cue",
-      "id": "screwbotFactoryJa/yo",
+      "id": "*/yo",
       "deprecatedIDs": [],
       "name": "white - finish - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "screwbotFactoryJa/sha",
+      "id": "*/sha",
       "deprecatedIDs": [],
       "name": "white - finish - 2",
       "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "screwbotFactoryJa_blackRobot",
+      "id": "*_blackRobot",
       "deprecatedIDs": [],
       "name": "black robot",
       "cues": [
         {
-          "id": "screwbotFactoryJa/clankclank1",
+          "id": "*/clankclank1",
           "beat": 0.0
         },
         {
-          "id": "screwbotFactoryJa/clankclank2",
+          "id": "*/clankclank2",
           "beat": 0.5
         },
         {
-          "id": "screwbotFactoryJa/yattaPlace",
+          "id": "*/yattaPlace",
           "beat": 2.0
         },
         {
-          "id": "screwbotFactoryJa/screwingYaTta",
+          "id": "*/screwingYaTta",
           "beat": 3.0
         },
         {
-          "id": "screwbotFactoryJa/complete",
+          "id": "*/complete",
           "beat": 5.0
         },
         {
-          "id": "screwbotFactoryJa/ya",
+          "id": "*/ya",
           "beat": 5.5
         },
         {
-          "id": "screwbotFactoryJa/tta",
+          "id": "*/tta",
           "beat": 6.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "screwbotFactoryJa_whiteRobot",
+      "id": "*_whiteRobot",
       "deprecatedIDs": [],
       "name": "white robot",
       "cues": [
         {
-          "id": "screwbotFactoryJa/whiteCrane",
+          "id": "*/whiteCrane",
           "beat": 0.0
         },
         {
-          "id": "screwbotFactoryJa/whiteCrane",
+          "id": "*/whiteCrane",
           "beat": 0.5
         },
         {
-          "id": "screwbotFactoryJa/clankclank1",
+          "id": "*/clankclank1",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "screwbotFactoryJa/clankclank2",
+          "id": "*/clankclank2",
           "beat": 0.5,
           "track": 1
         },
         {
-          "id": "screwbotFactoryJa/yoshaPlace",
+          "id": "*/yoshaPlace",
           "beat": 2.0
         },
         {
-          "id": "screwbotFactoryJa/screwingYoSha",
+          "id": "*/screwingYoSha",
           "beat": 3.0
         },
         {
-          "id": "screwbotFactoryJa/complete",
+          "id": "*/complete",
           "beat": 4.0
         },
         {
-          "id": "screwbotFactoryJa/yo",
+          "id": "*/yo",
           "beat": 4.5
         },
         {
-          "id": "screwbotFactoryJa/sha",
+          "id": "*/sha",
           "beat": 5.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "screwbotFactoryJa_blackRobotFaster",
+      "id": "*_blackRobotFaster",
       "deprecatedIDs": [],
       "name": "black robot (faster)",
       "cues": [
         {
-          "id": "screwbotFactoryJa/clankclank1",
+          "id": "*/clankclank1",
           "beat": 0.0
         },
         {
-          "id": "screwbotFactoryJa/clankclank2",
+          "id": "*/clankclank2",
           "beat": 0.5
         },
         {
-          "id": "screwbotFactoryJa/yattaPlace",
+          "id": "*/yattaPlace",
           "beat": 1.0
         },
         {
-          "id": "screwbotFactoryJa/screwingYaTta",
+          "id": "*/screwingYaTta",
           "beat": 2.0
         },
         {
-          "id": "screwbotFactoryJa/complete",
+          "id": "*/complete",
           "beat": 4.0
         },
         {
-          "id": "screwbotFactoryJa/ya",
+          "id": "*/ya",
           "beat": 4.5
         },
         {
-          "id": "screwbotFactoryJa/tta",
+          "id": "*/tta",
           "beat": 5.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "screwbotFactoryJa_whiteRobotFast",
+      "id": "*_whiteRobotFast",
       "deprecatedIDs": [],
       "name": "white robot (faster)",
       "cues": [
         {
-          "id": "screwbotFactoryJa/whiteCrane",
+          "id": "*/whiteCrane",
           "beat": 0.0
         },
         {
-          "id": "screwbotFactoryJa/whiteCrane",
+          "id": "*/whiteCrane",
           "beat": 0.5
         },
         {
-          "id": "screwbotFactoryJa/clankclank1",
+          "id": "*/clankclank1",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "screwbotFactoryJa/clankclank2",
+          "id": "*/clankclank2",
           "beat": 0.5,
           "track": 1
         },
         {
-          "id": "screwbotFactoryJa/yoshaPlace",
+          "id": "*/yoshaPlace",
           "beat": 1.0
         },
         {
-          "id": "screwbotFactoryJa/screwingYoSha",
+          "id": "*/screwingYoSha",
           "beat": 2.0
         },
         {
-          "id": "screwbotFactoryJa/complete",
+          "id": "*/complete",
           "beat": 3.0
         },
         {
-          "id": "screwbotFactoryJa/yo",
+          "id": "*/yo",
           "beat": 3.5
         },
         {
-          "id": "screwbotFactoryJa/sha",
+          "id": "*/sha",
           "beat": 4.0
         }
       ]

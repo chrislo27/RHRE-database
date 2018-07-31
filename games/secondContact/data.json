@@ -7,72 +7,72 @@
   "objects": [
     {
       "type": "randomCue",
-      "id": "secondContact_farmer",
+      "id": "*_farmer",
       "deprecatedIDs": [],
       "name": "farmer speech",
       "cues": [
         {
-          "id": "secondContact/farmer1"
+          "id": "*/farmer1"
         },
         {
-          "id": "secondContact/farmer2"
+          "id": "*/farmer2"
         },
         {
-          "id": "secondContact/farmer3"
+          "id": "*/farmer3"
         },
         {
-          "id": "secondContact/farmer4"
+          "id": "*/farmer4"
         },
         {
-          "id": "secondContact/farmer5"
+          "id": "*/farmer5"
         },
         {
-          "id": "secondContact/farmer6"
+          "id": "*/farmer6"
         },
         {
-          "id": "secondContact/farmer7"
+          "id": "*/farmer7"
         },
         {
-          "id": "secondContact/farmer8"
+          "id": "*/farmer8"
         },
         {
-          "id": "secondContact/farmer9"
+          "id": "*/farmer9"
         },
         {
-          "id": "secondContact/farmer10"
+          "id": "*/farmer10"
         }
       ],
       "responseIDs": [
-        "secondContact_alien"
+        "*_alien"
       ]
     },
     {
       "type": "randomCue",
-      "id": "secondContact_alien",
+      "id": "*_alien",
       "deprecatedIDs": [],
       "name": "alien speech",
       "cues": [
         {
-          "id": "secondContact/alien1"
+          "id": "*/alien1"
         },
         {
-          "id": "secondContact/alien2"
+          "id": "*/alien2"
         }
       ]
     },
     {
       "type": "cue",
-      "id": "secondContact/passover",
+      "id": "*/passover",
       "deprecatedIDs": [],
       "name": "turn passover",
       "duration": 0.5,
       "responseIDs": [
-        "secondContact_success"
+        "*_success"
       ]
     },
     {
       "type": "cue",
-      "id": "secondContact/success1",
+      "id": "*/success1",
       "deprecatedIDs": [
         "secondContact/success"
       ],
@@ -81,161 +81,161 @@
     },
     {
       "type": "cue",
-      "id": "secondContact/success2",
+      "id": "*/success2",
       "deprecatedIDs": [],
       "name": "turn success 2",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "secondContact/alien1",
+      "id": "*/alien1",
       "deprecatedIDs": [],
       "name": "alien - 1",
       "duration": 0.5,
       "responseIDs": [
-        "secondContact/farmer1",
-        "secondContact/farmer2",
-        "secondContact/farmer3",
-        "secondContact/farmer4",
-        "secondContact/farmer5",
-        "secondContact/farmer6",
-        "secondContact/farmer7",
-        "secondContact/farmer8",
-        "secondContact/farmer9",
-        "secondContact/farmer10"
+        "*/farmer1",
+        "*/farmer2",
+        "*/farmer3",
+        "*/farmer4",
+        "*/farmer5",
+        "*/farmer6",
+        "*/farmer7",
+        "*/farmer8",
+        "*/farmer9",
+        "*/farmer10"
       ]
     },
     {
       "type": "cue",
-      "id": "secondContact/alien2",
+      "id": "*/alien2",
       "deprecatedIDs": [],
       "name": "alien - 2",
       "duration": 0.5,
       "responseIDs": [
-        "secondContact/farmer1",
-        "secondContact/farmer2",
-        "secondContact/farmer3",
-        "secondContact/farmer4",
-        "secondContact/farmer5",
-        "secondContact/farmer6",
-        "secondContact/farmer7",
-        "secondContact/farmer8",
-        "secondContact/farmer9",
-        "secondContact/farmer10"
+        "*/farmer1",
+        "*/farmer2",
+        "*/farmer3",
+        "*/farmer4",
+        "*/farmer5",
+        "*/farmer6",
+        "*/farmer7",
+        "*/farmer8",
+        "*/farmer9",
+        "*/farmer10"
       ]
     },
     {
       "type": "cue",
-      "id": "secondContact/successBob1",
+      "id": "*/successBob1",
       "deprecatedIDs": [],
       "name": "turn success (Bob) 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "secondContact/successBob2",
+      "id": "*/successBob2",
       "deprecatedIDs": [],
       "name": "turn success (Bob) 2",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "secondContact/farmer1",
+      "id": "*/farmer1",
       "deprecatedIDs": [],
       "name": "farmer - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "secondContact/farmer2",
+      "id": "*/farmer2",
       "deprecatedIDs": [],
       "name": "farmer - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "secondContact/farmer3",
+      "id": "*/farmer3",
       "deprecatedIDs": [],
       "name": "farmer - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "secondContact/farmer4",
+      "id": "*/farmer4",
       "deprecatedIDs": [],
       "name": "farmer - 4",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "secondContact/farmer5",
+      "id": "*/farmer5",
       "deprecatedIDs": [],
       "name": "farmer - 5",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "secondContact/farmer6",
+      "id": "*/farmer6",
       "deprecatedIDs": [],
       "name": "farmer - 6",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "secondContact/farmer7",
+      "id": "*/farmer7",
       "deprecatedIDs": [],
       "name": "farmer - 7",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "secondContact/farmer8",
+      "id": "*/farmer8",
       "deprecatedIDs": [],
       "name": "farmer - 8",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "secondContact/farmer9",
+      "id": "*/farmer9",
       "deprecatedIDs": [],
       "name": "farmer - 9",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "secondContact/farmer10",
+      "id": "*/farmer10",
       "deprecatedIDs": [],
       "name": "farmer - 10",
       "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "secondContact_success",
+      "id": "*_success",
       "deprecatedIDs": [],
       "name": "success",
       "cues": [
         {
-          "id": "secondContact/success1",
+          "id": "*/success1",
           "beat": 0.0
         },
         {
-          "id": "secondContact/success2",
+          "id": "*/success2",
           "beat": 0.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "secondContact_successBob",
+      "id": "*_successBob",
       "deprecatedIDs": [],
       "name": "success (Bob)",
       "cues": [
         {
-          "id": "secondContact/successBob1",
+          "id": "*/successBob1",
           "beat": 0.0
         },
         {
-          "id": "secondContact/successBob2",
+          "id": "*/successBob2",
           "beat": 0.5
         }
       ]

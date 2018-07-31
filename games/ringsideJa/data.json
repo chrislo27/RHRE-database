@@ -6,644 +6,644 @@
   "objects": [
     {
       "type": "cue",
-      "id": "ringsideJa/poseAnd",
+      "id": "*/poseAnd",
       "deprecatedIDs": [],
       "name": "pose for the fans - and",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "ringsideJa/wubba1-1",
+      "id": "*/wubba1-1",
       "deprecatedIDs": [],
       "name": "is that true? - A - 1",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "ringsideJa/wubba2-1",
+      "id": "*/wubba2-1",
       "deprecatedIDs": [],
       "name": "is that true? - B - 1",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "ringsideJa/wubba1-2",
+      "id": "*/wubba1-2",
       "deprecatedIDs": [],
       "name": "is that true? - A - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "ringsideJa/wubba2-2",
+      "id": "*/wubba2-2",
       "deprecatedIDs": [],
       "name": "is that true? - B - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "ringsideJa/dubba1-1",
+      "id": "*/dubba1-1",
       "deprecatedIDs": [],
       "name": "is that true? - A - 3",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "ringsideJa/dubba2-1",
+      "id": "*/dubba2-1",
       "deprecatedIDs": [],
       "name": "is that true? - B - 3",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "ringsideJa/dubba1-2",
+      "id": "*/dubba1-2",
       "deprecatedIDs": [],
       "name": "is that true? - A - 4",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "ringsideJa/dubba2-2",
+      "id": "*/dubba2-2",
       "deprecatedIDs": [],
       "name": "is that true? - B - 4",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "ringsideJa/dubba1-3",
+      "id": "*/dubba1-3",
       "deprecatedIDs": [],
       "name": "is that true? - A - 5",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "ringsideJa/dubba2-3",
+      "id": "*/dubba2-3",
       "deprecatedIDs": [],
       "name": "is that true? - B - 5",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "ringsideJa/dubba1-4",
+      "id": "*/dubba1-4",
       "deprecatedIDs": [],
       "name": "is that true? - A - 6",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "ringsideJa/dubba2-4",
+      "id": "*/dubba2-4",
       "deprecatedIDs": [],
       "name": "is that true? - B - 6",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "ringsideJa/that1",
+      "id": "*/that1",
       "deprecatedIDs": [],
       "name": "is that true? - A - 7",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "ringsideJa/that2",
+      "id": "*/that2",
       "deprecatedIDs": [],
       "name": "is that true? - B - 7",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "ringsideJa/true1",
+      "id": "*/true1",
       "deprecatedIDs": [],
       "name": "is that true? - A - 8",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "ringsideJa/true2",
+      "id": "*/true2",
       "deprecatedIDs": [],
       "name": "is that true? - B - 8",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "ringsideJa/ye1",
+      "id": "*/ye1",
       "deprecatedIDs": [],
       "name": "is that true? - ye - A",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "ringsideJa/ye2",
+      "id": "*/ye2",
       "deprecatedIDs": [],
       "name": "is that true? - ye - B",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "ringsideJa/woah1",
+      "id": "*/woah1",
       "deprecatedIDs": [],
       "name": "you go big guy - A - 1",
       "duration": 0.75
     },
     {
       "type": "cue",
-      "id": "ringsideJa/woah2",
+      "id": "*/woah2",
       "deprecatedIDs": [],
       "name": "you go big guy - B - 1",
       "duration": 0.75
     },
     {
       "type": "cue",
-      "id": "ringsideJa/you1",
+      "id": "*/you1",
       "deprecatedIDs": [],
       "name": "you go big guy - A - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "ringsideJa/you2",
+      "id": "*/you2",
       "deprecatedIDs": [],
       "name": "you go big guy - B - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "ringsideJa/go1",
+      "id": "*/go1",
       "deprecatedIDs": [],
       "name": "you go big guy - A - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "ringsideJa/go2",
+      "id": "*/go2",
       "deprecatedIDs": [],
       "name": "you go big guy - B - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "ringsideJa/big1",
+      "id": "*/big1",
       "deprecatedIDs": [],
       "name": "you go big guy - A - 4",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "ringsideJa/big2",
+      "id": "*/big2",
       "deprecatedIDs": [],
       "name": "you go big guy - B - 4",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "ringsideJa/guy1",
+      "id": "*/guy1",
       "deprecatedIDs": [],
       "name": "you go big guy - A - 5",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "ringsideJa/guy2",
+      "id": "*/guy2",
       "deprecatedIDs": [],
       "name": "you go big guy - B - 5",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "ringsideJa/muscles1",
+      "id": "*/muscles1",
       "deprecatedIDs": [],
       "name": "you go big guy - muscles - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "ringsideJa/muscles2",
+      "id": "*/muscles2",
       "deprecatedIDs": [],
       "name": "you go big guy - muscles - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "ringsideJa/pose1",
+      "id": "*/pose1",
       "deprecatedIDs": [],
       "name": "pose for the fans - A - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "ringsideJa/pose2",
+      "id": "*/pose2",
       "deprecatedIDs": [],
       "name": "pose for the fans - B - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "ringsideJa/pose3",
+      "id": "*/pose3",
       "deprecatedIDs": [],
       "name": "pose for the fans - C - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "ringsideJa/for1",
+      "id": "*/for1",
       "deprecatedIDs": [],
       "name": "pose for the fans - A - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "ringsideJa/for2",
+      "id": "*/for2",
       "deprecatedIDs": [],
       "name": "pose for the fans - B - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "ringsideJa/for3",
+      "id": "*/for3",
       "deprecatedIDs": [],
       "name": "pose for the fans - C - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "ringsideJa/the1",
+      "id": "*/the1",
       "deprecatedIDs": [],
       "name": "pose for the fans - A - 3",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "ringsideJa/the2",
+      "id": "*/the2",
       "deprecatedIDs": [],
       "name": "pose for the fans - B - 3",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "ringsideJa/the3",
+      "id": "*/the3",
       "deprecatedIDs": [],
       "name": "pose for the fans - C - 3",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "ringsideJa/fans1",
+      "id": "*/fans1",
       "deprecatedIDs": [],
       "name": "pose for the fans - A - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "ringsideJa/fans2",
+      "id": "*/fans2",
       "deprecatedIDs": [],
       "name": "pose for the fans - B - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "ringsideJa/fans3",
+      "id": "*/fans3",
       "deprecatedIDs": [],
       "name": "pose for the fans - C - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "ringsideJa/yell1",
+      "id": "*/yell1",
       "deprecatedIDs": [],
       "name": "pose for the fans - A - RAGH",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "ringsideJa/yell2",
+      "id": "*/yell2",
       "deprecatedIDs": [],
       "name": "pose for the fans - B - RAGH",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "ringsideJa/yell3",
+      "id": "*/yell3",
       "deprecatedIDs": [],
       "name": "pose for the fans - C - RAGH",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "ringsideJa/camera1",
+      "id": "*/camera1",
       "deprecatedIDs": [],
       "name": "pose for the fans - A - camera",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "ringsideJa/camera2",
+      "id": "*/camera2",
       "deprecatedIDs": [],
       "name": "pose for the fans - B - camera",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "ringsideJa/camera3",
+      "id": "*/camera3",
       "deprecatedIDs": [],
       "name": "pose for the fans - C - camera",
       "duration": 1.0
     },
     {
       "type": "randomCue",
-      "id": "ringsideJa_isThatTrueRandom",
+      "id": "*_isThatTrueRandom",
       "deprecatedIDs": [],
       "name": "is that true?",
       "cues": [
         {
-          "id": "ringsideJa_isThatTrueA"
+          "id": "*_isThatTrueA"
         },
         {
-          "id": "ringsideJa_isThatTrueB"
+          "id": "*_isThatTrueB"
         }
       ]
     },
     {
       "type": "randomCue",
-      "id": "ringsideJa_youGoBigGuyRandom",
+      "id": "*_youGoBigGuyRandom",
       "deprecatedIDs": [],
       "name": "woah, you go big guy!",
       "cues": [
         {
-          "id": "ringsideJa_youGoBigGuyA"
+          "id": "*_youGoBigGuyA"
         },
         {
-          "id": "ringsideJa_youGoBigGuyB"
+          "id": "*_youGoBigGuyB"
         }
       ]
     },
     {
       "type": "randomCue",
-      "id": "ringsideJa_poseForTheFansRandom",
+      "id": "*_poseForTheFansRandom",
       "deprecatedIDs": [],
       "name": "pose for the fans!",
       "cues": [
         {
-          "id": "ringsideJa_poseForTheFansA"
+          "id": "*_poseForTheFansA"
         },
         {
-          "id": "ringsideJa_poseForTheFansB"
+          "id": "*_poseForTheFansB"
         },
         {
-          "id": "ringsideJa_poseForTheFansC"
+          "id": "*_poseForTheFansC"
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "ringsideJa_isThatTrueA",
+      "id": "*_isThatTrueA",
       "deprecatedIDs": [],
       "name": "is that true? - A",
       "cues": [
         {
-          "id": "ringsideJa/wubba1-1",
+          "id": "*/wubba1-1",
           "beat": 0.0
         },
         {
-          "id": "ringsideJa/wubba1-2",
+          "id": "*/wubba1-2",
           "beat": 0.25
         },
         {
-          "id": "ringsideJa/dubba1-1",
+          "id": "*/dubba1-1",
           "beat": 0.5
         },
         {
-          "id": "ringsideJa/dubba1-2",
+          "id": "*/dubba1-2",
           "beat": 0.75
         },
         {
-          "id": "ringsideJa/dubba1-3",
+          "id": "*/dubba1-3",
           "beat": 1.0
         },
         {
-          "id": "ringsideJa/dubba1-4",
+          "id": "*/dubba1-4",
           "beat": 1.25
         },
         {
-          "id": "ringsideJa/that1",
+          "id": "*/that1",
           "beat": 1.5
         },
         {
-          "id": "ringsideJa/true1",
+          "id": "*/true1",
           "beat": 2.0
         },
         {
-          "id": "ringsideJa/ye1",
+          "id": "*/ye1",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "ringsideJa_isThatTrueB",
+      "id": "*_isThatTrueB",
       "deprecatedIDs": [],
       "name": "is that true? - B",
       "cues": [
         {
-          "id": "ringsideJa/wubba2-1",
+          "id": "*/wubba2-1",
           "beat": 0.0
         },
         {
-          "id": "ringsideJa/wubba2-2",
+          "id": "*/wubba2-2",
           "beat": 0.25
         },
         {
-          "id": "ringsideJa/dubba2-1",
+          "id": "*/dubba2-1",
           "beat": 0.5
         },
         {
-          "id": "ringsideJa/dubba2-2",
+          "id": "*/dubba2-2",
           "beat": 0.75
         },
         {
-          "id": "ringsideJa/dubba2-3",
+          "id": "*/dubba2-3",
           "beat": 1.0
         },
         {
-          "id": "ringsideJa/dubba2-4",
+          "id": "*/dubba2-4",
           "beat": 1.25
         },
         {
-          "id": "ringsideJa/that2",
+          "id": "*/that2",
           "beat": 1.5
         },
         {
-          "id": "ringsideJa/true2",
+          "id": "*/true2",
           "beat": 2.0
         },
         {
-          "id": "ringsideJa/ye2",
+          "id": "*/ye2",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "ringsideJa_youGoBigGuyA",
+      "id": "*_youGoBigGuyA",
       "deprecatedIDs": [],
       "name": "you go big guy - A",
       "cues": [
         {
-          "id": "ringsideJa/woah1",
+          "id": "*/woah1",
           "beat": 0.0
         },
         {
-          "id": "ringsideJa/you1",
+          "id": "*/you1",
           "beat": 0.75
         },
         {
-          "id": "ringsideJa/go1",
+          "id": "*/go1",
           "beat": 1.0
         },
         {
-          "id": "ringsideJa/big1",
+          "id": "*/big1",
           "beat": 1.5
         },
         {
-          "id": "ringsideJa/guy1",
+          "id": "*/guy1",
           "beat": 2.0
         },
         {
-          "id": "ringsideJa/muscles1",
+          "id": "*/muscles1",
           "beat": 2.5
         },
         {
-          "id": "ringsideJa/muscles2",
+          "id": "*/muscles2",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "ringsideJa_youGoBigGuyB",
+      "id": "*_youGoBigGuyB",
       "deprecatedIDs": [],
       "name": "you go big guy - B",
       "cues": [
         {
-          "id": "ringsideJa/woah2",
+          "id": "*/woah2",
           "beat": 0.0
         },
         {
-          "id": "ringsideJa/you2",
+          "id": "*/you2",
           "beat": 0.75
         },
         {
-          "id": "ringsideJa/go2",
+          "id": "*/go2",
           "beat": 1.0
         },
         {
-          "id": "ringsideJa/big2",
+          "id": "*/big2",
           "beat": 1.5
         },
         {
-          "id": "ringsideJa/guy2",
+          "id": "*/guy2",
           "beat": 2.0
         },
         {
-          "id": "ringsideJa/muscles1",
+          "id": "*/muscles1",
           "beat": 2.5
         },
         {
-          "id": "ringsideJa/muscles2",
+          "id": "*/muscles2",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "ringsideJa_poseForTheFansA",
+      "id": "*_poseForTheFansA",
       "deprecatedIDs": [],
       "name": "pose for the fans - A",
       "cues": [
         {
-          "id": "ringsideJa/pose1",
+          "id": "*/pose1",
           "beat": 0.0
         },
         {
-          "id": "ringsideJa/for1",
+          "id": "*/for1",
           "beat": 0.5
         },
         {
-          "id": "ringsideJa/the1",
+          "id": "*/the1",
           "beat": 0.75
         },
         {
-          "id": "ringsideJa/fans1",
+          "id": "*/fans1",
           "beat": 1.0
         },
         {
-          "id": "ringsideJa/yell1",
+          "id": "*/yell1",
           "beat": 2.0
         },
         {
-          "id": "ringsideJa/camera1",
+          "id": "*/camera1",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "ringsideJa_poseForTheFansB",
+      "id": "*_poseForTheFansB",
       "deprecatedIDs": [],
       "name": "pose for the fans - B",
       "cues": [
         {
-          "id": "ringsideJa/pose2",
+          "id": "*/pose2",
           "beat": 0.0
         },
         {
-          "id": "ringsideJa/for2",
+          "id": "*/for2",
           "beat": 0.5
         },
         {
-          "id": "ringsideJa/the2",
+          "id": "*/the2",
           "beat": 0.75
         },
         {
-          "id": "ringsideJa/fans2",
+          "id": "*/fans2",
           "beat": 1.0
         },
         {
-          "id": "ringsideJa/yell2",
+          "id": "*/yell2",
           "beat": 2.0
         },
         {
-          "id": "ringsideJa/camera2",
+          "id": "*/camera2",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "ringsideJa_poseForTheFansC",
+      "id": "*_poseForTheFansC",
       "deprecatedIDs": [],
       "name": "pose for the fans - C",
       "cues": [
         {
-          "id": "ringsideJa/pose3",
+          "id": "*/pose3",
           "beat": 0.0
         },
         {
-          "id": "ringsideJa/for3",
+          "id": "*/for3",
           "beat": 0.5
         },
         {
-          "id": "ringsideJa/the3",
+          "id": "*/the3",
           "beat": 0.75
         },
         {
-          "id": "ringsideJa/fans3",
+          "id": "*/fans3",
           "beat": 1.0
         },
         {
-          "id": "ringsideJa/yell3",
+          "id": "*/yell3",
           "beat": 2.0
         },
         {
-          "id": "ringsideJa/camera3",
+          "id": "*/camera3",
           "beat": 3.0
         }
       ]

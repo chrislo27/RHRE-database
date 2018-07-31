@@ -5,56 +5,56 @@
   "objects": [
     {
       "type": "cue",
-      "id": "monkeyWatch/clap1",
+      "id": "*/clap1",
       "deprecatedIDs": [],
       "name": "clap - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "monkeyWatch/clap2",
+      "id": "*/clap2",
       "deprecatedIDs": [],
       "name": "clap - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "monkeyWatch/offbeat1",
+      "id": "*/offbeat1",
       "deprecatedIDs": [],
       "name": "offbeat - ook",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "monkeyWatch/offbeat2",
+      "id": "*/offbeat2",
       "deprecatedIDs": [],
       "name": "offbeat - ki",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "monkeyWatch/offbeat3",
+      "id": "*/offbeat3",
       "deprecatedIDs": [],
       "name": "offbeat - ok",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "monkeyWatch/offbeat4",
+      "id": "*/offbeat4",
       "deprecatedIDs": [],
       "name": "offbeat - clap - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "monkeyWatch/offbeat5",
+      "id": "*/offbeat5",
       "deprecatedIDs": [],
       "name": "offbeat - clap - 2",
       "duration": 1.0
     },
     {
       "type": "keepTheBeat",
-      "id": "monkeyWatch_clap",
+      "id": "*_clap",
       "deprecatedIDs": [
         "clap"
       ],
@@ -62,41 +62,41 @@
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "monkeyWatch/clap1",
+          "id": "*/clap1",
           "beat": 0.0
         },
         {
-          "id": "monkeyWatch/clap2",
+          "id": "*/clap2",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "monkeyWatch_offbeat",
+      "id": "*_offbeat",
       "deprecatedIDs": [
         "offbeat"
       ],
       "name": "offbeat clap",
       "cues": [
         {
-          "id": "monkeyWatch/offbeat1",
+          "id": "*/offbeat1",
           "beat": 0.0
         },
         {
-          "id": "monkeyWatch/offbeat2",
+          "id": "*/offbeat2",
           "beat": 1.0
         },
         {
-          "id": "monkeyWatch/offbeat3",
+          "id": "*/offbeat3",
           "beat": 2.0
         },
         {
-          "id": "monkeyWatch/offbeat4",
+          "id": "*/offbeat4",
           "beat": 2.5
         },
         {
-          "id": "monkeyWatch/offbeat5",
+          "id": "*/offbeat5",
           "beat": 3.5
         }
       ]

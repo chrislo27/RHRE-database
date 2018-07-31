@@ -8,7 +8,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "pajamaPartyEn/three1",
+      "id": "*/three1",
       "deprecatedIDs": [
         "pajamaParty/three1"
       ],
@@ -17,7 +17,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/three2",
+      "id": "*/three2",
       "deprecatedIDs": [
         "pajamaParty/three2"
       ],
@@ -26,7 +26,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/three3",
+      "id": "*/three3",
       "deprecatedIDs": [
         "pajamaParty/three3"
       ],
@@ -35,7 +35,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/five1",
+      "id": "*/five1",
       "deprecatedIDs": [
         "pajamaParty/five1"
       ],
@@ -44,7 +44,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/five2",
+      "id": "*/five2",
       "deprecatedIDs": [
         "pajamaParty/five2"
       ],
@@ -53,7 +53,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/five3",
+      "id": "*/five3",
       "deprecatedIDs": [
         "pajamaParty/five3"
       ],
@@ -62,7 +62,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/five4",
+      "id": "*/five4",
       "deprecatedIDs": [
         "pajamaParty/five4"
       ],
@@ -71,7 +71,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/five5",
+      "id": "*/five5",
       "deprecatedIDs": [
         "pajamaParty/five5"
       ],
@@ -80,7 +80,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/siesta1",
+      "id": "*/siesta1",
       "deprecatedIDs": [
         "pajamaParty/siesta1"
       ],
@@ -89,7 +89,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/siesta2",
+      "id": "*/siesta2",
       "deprecatedIDs": [
         "pajamaParty/siesta2"
       ],
@@ -98,7 +98,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/siesta3",
+      "id": "*/siesta3",
       "deprecatedIDs": [
         "pajamaParty/siesta3"
       ],
@@ -107,7 +107,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/siesta4",
+      "id": "*/siesta4",
       "deprecatedIDs": [
         "pajamaParty/siesta4"
       ],
@@ -116,7 +116,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/siesta5",
+      "id": "*/siesta5",
       "deprecatedIDs": [
         "pajamaParty/siesta5"
       ],
@@ -125,7 +125,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/siesta6",
+      "id": "*/siesta6",
       "deprecatedIDs": [
         "pajamaParty/siesta6"
       ],
@@ -134,7 +134,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/throw1",
+      "id": "*/throw1",
       "deprecatedIDs": [
         "pajamaParty/throw1"
       ],
@@ -143,7 +143,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/throw2",
+      "id": "*/throw2",
       "deprecatedIDs": [
         "pajamaParty/throw2"
       ],
@@ -152,7 +152,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/throw3",
+      "id": "*/throw3",
       "deprecatedIDs": [
         "pajamaParty/throw3"
       ],
@@ -161,7 +161,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/throw4",
+      "id": "*/throw4",
       "deprecatedIDs": [
         "pajamaParty/throw4"
       ],
@@ -170,7 +170,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/throw5",
+      "id": "*/throw5",
       "deprecatedIDs": [
         "pajamaParty/throw5"
       ],
@@ -179,7 +179,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/throw6",
+      "id": "*/throw6",
       "deprecatedIDs": [
         "pajamaParty/throw6"
       ],
@@ -188,7 +188,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/throw7",
+      "id": "*/throw7",
       "deprecatedIDs": [
         "pajamaParty/throw7"
       ],
@@ -197,7 +197,7 @@
     },
     {
       "type": "cue",
-      "id": "pajamaPartyEn/throw7b",
+      "id": "*/throw7b",
       "deprecatedIDs": [
         "pajamaParty/throw7b"
       ],
@@ -206,162 +206,162 @@
     },
     {
       "type": "pattern",
-      "id": "pajamaPartyEn_three",
+      "id": "*_three",
       "deprecatedIDs": [
         "pajamaParty_three"
       ],
       "name": "three",
       "cues": [
         {
-          "id": "pajamaPartyEn/three1",
+          "id": "*/three1",
           "beat": 0.0
         },
         {
-          "id": "pajamaPartyEn/three2",
+          "id": "*/three2",
           "beat": 1.0
         },
         {
-          "id": "pajamaPartyEn/three3",
+          "id": "*/three3",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "pajamaPartyEn_five",
+      "id": "*_five",
       "deprecatedIDs": [
         "pajamaParty_five"
       ],
       "name": "five",
       "cues": [
         {
-          "id": "pajamaPartyEn/five1",
+          "id": "*/five1",
           "beat": 0.0
         },
         {
-          "id": "pajamaPartyEn/five2",
+          "id": "*/five2",
           "beat": 0.5
         },
         {
-          "id": "pajamaPartyEn/five3",
+          "id": "*/five3",
           "beat": 1.0
         },
         {
-          "id": "pajamaPartyEn/five4",
+          "id": "*/five4",
           "beat": 1.5
         },
         {
-          "id": "pajamaPartyEn/five5",
+          "id": "*/five5",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "pajamaPartyEn_siesta",
+      "id": "*_siesta",
       "deprecatedIDs": [
         "pajamaParty_siesta"
       ],
       "name": "siesta",
       "cues": [
         {
-          "id": "pajamaPartyEn/siesta1",
+          "id": "*/siesta1",
           "beat": 0.0
         },
         {
-          "id": "pajamaPartyEn/siesta2",
+          "id": "*/siesta2",
           "beat": 0.5
         },
         {
-          "id": "pajamaPartyEn/siesta3",
+          "id": "*/siesta3",
           "beat": 1.0
         },
         {
-          "id": "pajamaPartyEn/siesta4",
+          "id": "*/siesta4",
           "beat": 2.5
         },
         {
-          "id": "pajamaPartyEn/siesta5",
+          "id": "*/siesta5",
           "beat": 4.0
         },
         {
-          "id": "pajamaPartyEn/siesta6",
+          "id": "*/siesta6",
           "beat": 7.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "pajamaPartyEn_throw",
+      "id": "*_throw",
       "deprecatedIDs": [
         "pajamaParty_throw"
       ],
       "name": "throw pillow",
       "cues": [
         {
-          "id": "pajamaPartyEn/throw1",
+          "id": "*/throw1",
           "beat": 0.0
         },
         {
-          "id": "pajamaPartyEn/throw2",
+          "id": "*/throw2",
           "beat": 0.5
         },
         {
-          "id": "pajamaPartyEn/throw3",
+          "id": "*/throw3",
           "beat": 1.0
         },
         {
-          "id": "pajamaPartyEn/throw4",
+          "id": "*/throw4",
           "beat": 1.5
         },
         {
-          "id": "pajamaPartyEn/throw5",
+          "id": "*/throw5",
           "beat": 2.0
         },
         {
-          "id": "pajamaPartyEn/throw6",
+          "id": "*/throw6",
           "beat": 3.0
         },
         {
-          "id": "pajamaPartyEn/throw7",
+          "id": "*/throw7",
           "beat": 7.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "pajamaPartyEn_throwAlternative",
+      "id": "*_throwAlternative",
       "deprecatedIDs": [
         "pajamaParty_throwAlternative"
       ],
       "name": "throw pillow - (alternative)",
       "cues": [
         {
-          "id": "pajamaPartyEn/throw1",
+          "id": "*/throw1",
           "beat": 0.0
         },
         {
-          "id": "pajamaPartyEn/throw2",
+          "id": "*/throw2",
           "beat": 0.5
         },
         {
-          "id": "pajamaPartyEn/throw3",
+          "id": "*/throw3",
           "beat": 1.0
         },
         {
-          "id": "pajamaPartyEn/throw4",
+          "id": "*/throw4",
           "beat": 1.5
         },
         {
-          "id": "pajamaPartyEn/throw5",
+          "id": "*/throw5",
           "beat": 2.0
         },
         {
-          "id": "pajamaPartyEn/throw6",
+          "id": "*/throw6",
           "beat": 3.0
         },
         {
-          "id": "pajamaPartyEn/throw7b",
+          "id": "*/throw7b",
           "beat": 7.0
         }
       ]

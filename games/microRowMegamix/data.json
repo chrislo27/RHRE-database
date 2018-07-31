@@ -5,113 +5,113 @@
   "objects": [
     {
       "type": "cue",
-      "id": "microRowMegamix/go",
+      "id": "*/go",
       "deprecatedIDs": [],
       "name": "go",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "microRowMegamix/ding",
+      "id": "*/ding",
       "deprecatedIDs": [],
       "name": "ding",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "microRowMegamix/triple1",
+      "id": "*/triple1",
       "deprecatedIDs": [],
       "name": "triple - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "microRowMegamix/triple2",
+      "id": "*/triple2",
       "deprecatedIDs": [],
       "name": "triple - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "microRowMegamix/triple3",
+      "id": "*/triple3",
       "deprecatedIDs": [],
       "name": "triple - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "microRowMegamix/dash1",
+      "id": "*/dash1",
       "deprecatedIDs": [],
       "name": "double - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "microRowMegamix/dash2",
+      "id": "*/dash2",
       "deprecatedIDs": [],
       "name": "double - 2",
       "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "microRowMegamix_go",
+      "id": "*_go",
       "deprecatedIDs": [],
       "name": "go",
       "cues": [
         {
-          "id": "microRowMegamix/go",
+          "id": "*/go",
           "beat": 0.0
         },
         {
-          "id": "microRowMegamix/go",
+          "id": "*/go",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "microRowMegamix_triple",
+      "id": "*_triple",
       "deprecatedIDs": [],
       "name": "triple",
       "cues": [
         {
-          "id": "microRowMegamix/ding",
+          "id": "*/ding",
           "beat": 0.0
         },
         {
-          "id": "microRowMegamix/triple1",
+          "id": "*/triple1",
           "beat": 1.0
         },
         {
-          "id": "microRowMegamix/triple2",
+          "id": "*/triple2",
           "beat": 2.0
         },
         {
-          "id": "microRowMegamix/triple3",
+          "id": "*/triple3",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "microRowMegamix_double",
+      "id": "*_double",
       "deprecatedIDs": [],
       "name": "double",
       "cues": [
         {
-          "id": "microRowMegamix/dash1",
+          "id": "*/dash1",
           "beat": 0.0
         },
         {
-          "id": "microRowMegamix/dash2",
+          "id": "*/dash2",
           "beat": 0.5
         },
         {
-          "id": "microRowMegamix/go",
+          "id": "*/go",
           "beat": 1.5
         },
         {
-          "id": "microRowMegamix/go",
+          "id": "*/go",
           "beat": 2.0
         }
       ]

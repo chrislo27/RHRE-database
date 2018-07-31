@@ -7,7 +7,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "frogHopEn/one",
+      "id": "*/one",
       "deprecatedIDs": [
         "frogHop/one"
       ],
@@ -16,7 +16,7 @@
     },
     {
       "type": "cue",
-      "id": "frogHopEn/two",
+      "id": "*/two",
       "deprecatedIDs": [
         "frogHop/two"
       ],
@@ -25,7 +25,7 @@
     },
     {
       "type": "cue",
-      "id": "frogHopEn/three",
+      "id": "*/three",
       "deprecatedIDs": [
         "frogHop/three"
       ],
@@ -34,7 +34,7 @@
     },
     {
       "type": "cue",
-      "id": "frogHopEn/four",
+      "id": "*/four",
       "deprecatedIDs": [
         "frogHop/four"
       ],
@@ -43,7 +43,7 @@
     },
     {
       "type": "cue",
-      "id": "frogHopEn/shake",
+      "id": "*/shake",
       "deprecatedIDs": [
         "frogHop/shake"
       ],
@@ -52,7 +52,7 @@
     },
     {
       "type": "cue",
-      "id": "frogHopEn/yahoo1",
+      "id": "*/yahoo1",
       "deprecatedIDs": [
         "frogHop/yahoo1"
       ],
@@ -61,7 +61,7 @@
     },
     {
       "type": "cue",
-      "id": "frogHopEn/yahoo2",
+      "id": "*/yahoo2",
       "deprecatedIDs": [
         "frogHop/yahoo2"
       ],
@@ -70,7 +70,7 @@
     },
     {
       "type": "cue",
-      "id": "frogHopEn/yahoo3",
+      "id": "*/yahoo3",
       "deprecatedIDs": [
         "frogHop/yahoo3"
       ],
@@ -79,7 +79,7 @@
     },
     {
       "type": "cue",
-      "id": "frogHopEn/yahoo4",
+      "id": "*/yahoo4",
       "deprecatedIDs": [
         "frogHop/yahoo4"
       ],
@@ -88,7 +88,7 @@
     },
     {
       "type": "cue",
-      "id": "frogHopEn/yeah1",
+      "id": "*/yeah1",
       "deprecatedIDs": [
         "frogHop/yeah1"
       ],
@@ -97,7 +97,7 @@
     },
     {
       "type": "cue",
-      "id": "frogHopEn/yeah2",
+      "id": "*/yeah2",
       "deprecatedIDs": [
         "frogHop/yeah2"
       ],
@@ -106,7 +106,7 @@
     },
     {
       "type": "cue",
-      "id": "frogHopEn/spinitboys1",
+      "id": "*/spinitboys1",
       "deprecatedIDs": [
         "frogHop/spinitboys1"
       ],
@@ -115,7 +115,7 @@
     },
     {
       "type": "cue",
-      "id": "frogHopEn/spinitboys2",
+      "id": "*/spinitboys2",
       "deprecatedIDs": [
         "frogHop/spinitboys2"
       ],
@@ -124,7 +124,7 @@
     },
     {
       "type": "cue",
-      "id": "frogHopEn/spinitboys3",
+      "id": "*/spinitboys3",
       "deprecatedIDs": [
         "frogHop/spinitboys3"
       ],
@@ -133,7 +133,7 @@
     },
     {
       "type": "cue",
-      "id": "frogHopEn/spinitboys4",
+      "id": "*/spinitboys4",
       "deprecatedIDs": [
         "frogHop/spinitboys4"
       ],
@@ -142,7 +142,7 @@
     },
     {
       "type": "cue",
-      "id": "frogHopEn/spinitboys5",
+      "id": "*/spinitboys5",
       "deprecatedIDs": [
         "frogHop/spinitboys5"
       ],
@@ -151,7 +151,7 @@
     },
     {
       "type": "cue",
-      "id": "frogHopEn/spinitboys6",
+      "id": "*/spinitboys6",
       "deprecatedIDs": [
         "frogHop/spinitboys6"
       ],
@@ -160,7 +160,7 @@
     },
     {
       "type": "cue",
-      "id": "frogHopEn/wakame",
+      "id": "*/wakame",
       "deprecatedIDs": [
         "frogHop/wakame"
       ],
@@ -169,7 +169,7 @@
     },
     {
       "type": "keepTheBeat",
-      "id": "frogHopEn_shake",
+      "id": "*_shake",
       "deprecatedIDs": [
         "frogHop_shake"
       ],
@@ -177,187 +177,187 @@
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "frogHopEn/shake",
+          "id": "*/shake",
           "beat": 0.0
         },
         {
-          "id": "frogHopEn/shake",
+          "id": "*/shake",
           "beat": 1.0
         },
         {
-          "id": "frogHopEn/shake",
+          "id": "*/shake",
           "beat": 2.0
         },
         {
-          "id": "frogHopEn/shake",
+          "id": "*/shake",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "frogHopEn_yahoo",
+      "id": "*_yahoo",
       "deprecatedIDs": [
         "frogHop_yahoo"
       ],
       "name": "yahoo",
       "cues": [
         {
-          "id": "frogHopEn/yahoo1",
+          "id": "*/yahoo1",
           "beat": 0.0
         },
         {
-          "id": "frogHopEn/shake",
+          "id": "*/shake",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "frogHopEn/yahoo2",
+          "id": "*/yahoo2",
           "beat": 0.5
         },
         {
-          "id": "frogHopEn/shake",
+          "id": "*/shake",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "frogHopEn/yahoo3",
+          "id": "*/yahoo3",
           "beat": 2.0
         },
         {
-          "id": "frogHopEn/yahoo4",
+          "id": "*/yahoo4",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "frogHopEn_yeahyeahyeah",
+      "id": "*_yeahyeahyeah",
       "deprecatedIDs": [
         "frogHop_yeahyeahyeah"
       ],
       "name": "yeah yeah yeah",
       "cues": [
         {
-          "id": "frogHopEn/yeah1",
+          "id": "*/yeah1",
           "beat": 0.0
         },
         {
-          "id": "frogHopEn/shake",
+          "id": "*/shake",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "frogHopEn/yeah1",
+          "id": "*/yeah1",
           "beat": 0.5
         },
         {
-          "id": "frogHopEn/yeah1",
+          "id": "*/yeah1",
           "beat": 1.0
         },
         {
-          "id": "frogHopEn/shake",
+          "id": "*/shake",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "frogHopEn/yeah2",
+          "id": "*/yeah2",
           "beat": 2.0
         },
         {
-          "id": "frogHopEn/yeah2",
+          "id": "*/yeah2",
           "beat": 2.5
         },
         {
-          "id": "frogHopEn/yeah2",
+          "id": "*/yeah2",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "frogHopEn_spinitboys",
+      "id": "*_spinitboys",
       "deprecatedIDs": [
         "frogHop_spinitboys"
       ],
       "name": "spin it boys",
       "cues": [
         {
-          "id": "frogHopEn/spinitboys1",
+          "id": "*/spinitboys1",
           "beat": 0.0
         },
         {
-          "id": "frogHopEn/shake",
+          "id": "*/shake",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "frogHopEn/shake",
+          "id": "*/shake",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "frogHopEn/spinitboys2",
+          "id": "*/spinitboys2",
           "beat": 0.5
         },
         {
-          "id": "frogHopEn/spinitboys3",
+          "id": "*/spinitboys3",
           "beat": 1.0
         },
         {
-          "id": "frogHopEn/spinitboys4",
+          "id": "*/spinitboys4",
           "beat": 2.0
         },
         {
-          "id": "frogHopEn/spinitboys5",
+          "id": "*/spinitboys5",
           "beat": 2.5
         },
         {
-          "id": "frogHopEn/spinitboys6",
+          "id": "*/spinitboys6",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "frogHopEn_2BeatCountIn",
+      "id": "*_2BeatCountIn",
       "deprecatedIDs": [
         "frogHop_2BeatCountIn"
       ],
       "name": "2-beat count-in",
       "cues": [
         {
-          "id": "frogHopEn/three",
+          "id": "*/three",
           "beat": 0.0
         },
         {
-          "id": "frogHopEn/four",
+          "id": "*/four",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "frogHopEn_4BeatCountIn",
+      "id": "*_4BeatCountIn",
       "deprecatedIDs": [
         "frogHop_4BeatCountIn"
       ],
       "name": "4-beat count-in",
       "cues": [
         {
-          "id": "frogHopEn/one",
+          "id": "*/one",
           "beat": 0.0
         },
         {
-          "id": "frogHopEn/two",
+          "id": "*/two",
           "beat": 1.0
         },
         {
-          "id": "frogHopEn/three",
+          "id": "*/three",
           "beat": 2.0
         },
         {
-          "id": "frogHopEn/four",
+          "id": "*/four",
           "beat": 3.0
         }
       ]

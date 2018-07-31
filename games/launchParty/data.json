@@ -5,7 +5,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "launchParty/redStart",
+      "id": "*/redStart",
       "deprecatedIDs": [],
       "name": "red - start",
       "duration": 1.0,
@@ -13,7 +13,7 @@
     },
     {
       "type": "cue",
-      "id": "launchParty/redMiddle",
+      "id": "*/redMiddle",
       "deprecatedIDs": [],
       "name": "red - middle",
       "duration": 1.0,
@@ -21,7 +21,7 @@
     },
     {
       "type": "cue",
-      "id": "launchParty/redEnd",
+      "id": "*/redEnd",
       "deprecatedIDs": [],
       "name": "red - launch",
       "duration": 1.0,
@@ -29,7 +29,7 @@
     },
     {
       "type": "cue",
-      "id": "launchParty/blueStart",
+      "id": "*/blueStart",
       "deprecatedIDs": [],
       "name": "blue - start",
       "duration": 0.666666,
@@ -37,7 +37,7 @@
     },
     {
       "type": "cue",
-      "id": "launchParty/blueMiddle",
+      "id": "*/blueMiddle",
       "deprecatedIDs": [],
       "name": "blue - middle",
       "duration": 0.333333,
@@ -45,7 +45,7 @@
     },
     {
       "type": "cue",
-      "id": "launchParty/blueEnd",
+      "id": "*/blueEnd",
       "deprecatedIDs": [],
       "name": "blue - launch",
       "duration": 1.0,
@@ -53,7 +53,7 @@
     },
     {
       "type": "cue",
-      "id": "launchParty/greenStart",
+      "id": "*/greenStart",
       "deprecatedIDs": [],
       "name": "green - start",
       "duration": 1.0,
@@ -61,7 +61,7 @@
     },
     {
       "type": "cue",
-      "id": "launchParty/greenMiddle",
+      "id": "*/greenMiddle",
       "deprecatedIDs": [],
       "name": "green - middle",
       "duration": 0.166666,
@@ -70,7 +70,7 @@
     },
     {
       "type": "cue",
-      "id": "launchParty/greenEnd",
+      "id": "*/greenEnd",
       "deprecatedIDs": [],
       "name": "green - launch",
       "duration": 1.0,
@@ -78,14 +78,14 @@
     },
     {
       "type": "cue",
-      "id": "launchParty/grayStart",
+      "id": "*/grayStart",
       "deprecatedIDs": [],
       "name": "launchParty/grayStart",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "launchParty/grayLoop",
+      "id": "*/grayLoop",
       "deprecatedIDs": [],
       "name": "gray - start",
       "duration": 2.0,
@@ -95,7 +95,7 @@
     },
     {
       "type": "cue",
-      "id": "launchParty/grayEnd",
+      "id": "*/grayEnd",
       "deprecatedIDs": [],
       "name": "gray - launch",
       "duration": 1.0,
@@ -103,26 +103,26 @@
     },
     {
       "type": "pattern",
-      "id": "launchParty_redRocket",
+      "id": "*_redRocket",
       "deprecatedIDs": [],
       "name": "red rocket",
       "cues": [
         {
-          "id": "launchParty/redStart",
+          "id": "*/redStart",
           "beat": 0.0
         },
         {
-          "id": "launchParty/redMiddle",
+          "id": "*/redMiddle",
           "beat": 1.0,
           "semitone": 2
         },
         {
-          "id": "launchParty/redMiddle",
+          "id": "*/redMiddle",
           "beat": 2.0,
           "semitone": 3
         },
         {
-          "id": "launchParty/redEnd",
+          "id": "*/redEnd",
           "beat": 3.0,
           "semitone": 5
         }
@@ -130,37 +130,37 @@
     },
     {
       "type": "pattern",
-      "id": "launchParty_blueRocket",
+      "id": "*_blueRocket",
       "deprecatedIDs": [],
       "name": "blue rocket",
       "cues": [
         {
-          "id": "launchParty/blueStart",
+          "id": "*/blueStart",
           "beat": 0.0,
           "semitone": 2
         },
         {
-          "id": "launchParty/blueMiddle",
+          "id": "*/blueMiddle",
           "beat": 0.666666,
           "semitone": 3
         },
         {
-          "id": "launchParty/blueMiddle",
+          "id": "*/blueMiddle",
           "beat": 1.0,
           "semitone": 5
         },
         {
-          "id": "launchParty/blueMiddle",
+          "id": "*/blueMiddle",
           "beat": 1.333333,
           "semitone": 7
         },
         {
-          "id": "launchParty/blueMiddle",
+          "id": "*/blueMiddle",
           "beat": 1.666666,
           "semitone": 9
         },
         {
-          "id": "launchParty/blueEnd",
+          "id": "*/blueEnd",
           "beat": 2.0,
           "semitone": 10
         }
@@ -168,46 +168,46 @@
     },
     {
       "type": "pattern",
-      "id": "launchParty_greenRocket",
+      "id": "*_greenRocket",
       "deprecatedIDs": [],
       "name": "green rocket",
       "cues": [
         {
-          "id": "launchParty/greenStart",
+          "id": "*/greenStart",
           "beat": 0.0
         },
         {
-          "id": "launchParty/greenMiddle",
+          "id": "*/greenMiddle",
           "beat": 1.0,
           "semitone": 2
         },
         {
-          "id": "launchParty/greenMiddle",
+          "id": "*/greenMiddle",
           "beat": 1.166666,
           "semitone": 4
         },
         {
-          "id": "launchParty/greenMiddle",
+          "id": "*/greenMiddle",
           "beat": 1.333333,
           "semitone": 5
         },
         {
-          "id": "launchParty/greenMiddle",
+          "id": "*/greenMiddle",
           "beat": 1.5,
           "semitone": 7
         },
         {
-          "id": "launchParty/greenMiddle",
+          "id": "*/greenMiddle",
           "beat": 1.666666,
           "semitone": 9
         },
         {
-          "id": "launchParty/greenMiddle",
+          "id": "*/greenMiddle",
           "beat": 1.833333,
           "semitone": 11
         },
         {
-          "id": "launchParty/greenEnd",
+          "id": "*/greenEnd",
           "beat": 2.0,
           "semitone": 12
         }
@@ -215,16 +215,16 @@
     },
     {
       "type": "pattern",
-      "id": "launchParty_grayRocket",
+      "id": "*_grayRocket",
       "deprecatedIDs": [],
       "name": "gray rocket",
       "cues": [
         {
-          "id": "launchParty/grayLoop",
+          "id": "*/grayLoop",
           "beat": 0.0
         },
         {
-          "id": "launchParty/grayEnd",
+          "id": "*/grayEnd",
           "beat": 2.0,
           "semitone": 2
         }

@@ -5,41 +5,41 @@
   "objects": [
     {
       "type": "cue",
-      "id": "workingDough/leftSmall",
+      "id": "*/leftSmall",
       "deprecatedIDs": [],
       "name": "left - small",
       "duration": 0.25,
       "responseIDs": [
-        "workingDough/rightSmall"
+        "*/rightSmall"
       ]
     },
     {
       "type": "cue",
-      "id": "workingDough/leftBig",
+      "id": "*/leftBig",
       "deprecatedIDs": [],
       "name": "left - big",
       "duration": 0.25,
       "responseIDs": [
-        "workingDough/rightBig"
+        "*/rightBig"
       ]
     },
     {
       "type": "cue",
-      "id": "workingDough/rightSmall",
+      "id": "*/rightSmall",
       "deprecatedIDs": [],
       "name": "right - small",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "workingDough/rightBig",
+      "id": "*/rightBig",
       "deprecatedIDs": [],
       "name": "right - big",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "workingDough/natureNoise",
+      "id": "*/natureNoise",
       "deprecatedIDs": [],
       "name": "nature ambience (Working Dough 2)",
       "duration": 3.0,

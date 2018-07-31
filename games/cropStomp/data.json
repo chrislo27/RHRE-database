@@ -5,128 +5,128 @@
   "objects": [
     {
       "type": "cue",
-      "id": "cropStomp/walk",
+      "id": "*/walk",
       "deprecatedIDs": [],
       "name": "walk",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "cropStomp/stomp",
+      "id": "*/stomp",
       "deprecatedIDs": [],
       "name": "stomp",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "cropStomp/pick1",
+      "id": "*/pick1",
       "deprecatedIDs": [],
       "name": "pick - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "cropStomp/pick2",
+      "id": "*/pick2",
       "deprecatedIDs": [],
       "name": "pick - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "cropStomp/molewarning1",
+      "id": "*/molewarning1",
       "deprecatedIDs": [],
       "name": "mole warning - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "cropStomp/molewarning2",
+      "id": "*/molewarning2",
       "deprecatedIDs": [],
       "name": "mole warning - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "cropStomp/molewarning3",
+      "id": "*/molewarning3",
       "deprecatedIDs": [],
       "name": "mole warning - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "cropStomp/molefling",
+      "id": "*/molefling",
       "deprecatedIDs": [],
       "name": "mole",
       "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "cropStomp_walk",
+      "id": "*_walk",
       "deprecatedIDs": [],
       "name": "walk",
       "cues": [
         {
-          "id": "cropStomp/walk",
+          "id": "*/walk",
           "beat": 0.0
         },
         {
-          "id": "cropStomp/walk",
+          "id": "*/walk",
           "beat": 2.0
         },
         {
-          "id": "cropStomp/walk",
+          "id": "*/walk",
           "beat": 4.0
         },
         {
-          "id": "cropStomp/walk",
+          "id": "*/walk",
           "beat": 6.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "cropStomp_pick",
+      "id": "*_pick",
       "deprecatedIDs": [],
       "name": "pick",
       "cues": [
         {
-          "id": "cropStomp/stomp",
+          "id": "*/stomp",
           "beat": 0.0
         },
         {
-          "id": "cropStomp/pick1",
+          "id": "*/pick1",
           "beat": 0.5
         },
         {
-          "id": "cropStomp/pick2",
+          "id": "*/pick2",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "cropStomp_mole",
+      "id": "*_mole",
       "deprecatedIDs": [],
       "name": "mole",
       "cues": [
         {
-          "id": "cropStomp/molewarning1",
+          "id": "*/molewarning1",
           "beat": 0.0
         },
         {
-          "id": "cropStomp/molewarning2",
+          "id": "*/molewarning2",
           "beat": 0.5
         },
         {
-          "id": "cropStomp/molewarning3",
+          "id": "*/molewarning3",
           "beat": 1.0
         },
         {
-          "id": "cropStomp/stomp",
+          "id": "*/stomp",
           "beat": 2.0
         },
         {
-          "id": "cropStomp/molefling",
+          "id": "*/molefling",
           "beat": 2.5
         }
       ]

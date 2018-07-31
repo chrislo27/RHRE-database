@@ -6,309 +6,309 @@
   "objects": [
     {
       "type": "cue",
-      "id": "frogHopMegamixJa/one",
+      "id": "*/one",
       "deprecatedIDs": [],
       "name": "countin - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "frogHopMegamixJa/two",
+      "id": "*/two",
       "deprecatedIDs": [],
       "name": "countin - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "frogHopMegamixJa/three",
+      "id": "*/three",
       "deprecatedIDs": [],
       "name": "countin - 3",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "frogHopMegamixJa/four",
+      "id": "*/four",
       "deprecatedIDs": [],
       "name": "countin - 4",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "frogHopMegamixJa/shake",
+      "id": "*/shake",
       "deprecatedIDs": [],
       "name": "shake",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "frogHopMegamixJa/yahoo1",
+      "id": "*/yahoo1",
       "deprecatedIDs": [],
       "name": "yahoo - lead - ya-",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopMegamixJa/yahoo2",
+      "id": "*/yahoo2",
       "deprecatedIDs": [],
       "name": "yahoo - lead - -hoo!",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopMegamixJa/yahoo3",
+      "id": "*/yahoo3",
       "deprecatedIDs": [],
       "name": "yahoo - backup - ya-",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopMegamixJa/yahoo4",
+      "id": "*/yahoo4",
       "deprecatedIDs": [],
       "name": "yahoo - backup - -hoo!",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopMegamixJa/hai1",
+      "id": "*/hai1",
       "deprecatedIDs": [],
       "name": "hai hai hai - lead - hai",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopMegamixJa/hai2",
+      "id": "*/hai2",
       "deprecatedIDs": [],
       "name": "hai hai hai - backup - hai",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopMegamixJa/kururin1",
+      "id": "*/kururin1",
       "deprecatedIDs": [],
       "name": "kururin - lead - ku",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopMegamixJa/kururin2",
+      "id": "*/kururin2",
       "deprecatedIDs": [],
       "name": "kururin - lead - ru",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopMegamixJa/kururin3",
+      "id": "*/kururin3",
       "deprecatedIDs": [],
       "name": "kururin - lead - rin",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopMegamixJa/kururin4",
+      "id": "*/kururin4",
       "deprecatedIDs": [],
       "name": "kururin - backup - ku",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopMegamixJa/kururin5",
+      "id": "*/kururin5",
       "deprecatedIDs": [],
       "name": "kururin - backup - ru",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopMegamixJa/kururin6",
+      "id": "*/kururin6",
       "deprecatedIDs": [],
       "name": "kururin - backup - rin",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "frogHopMegamixJa/thankYou",
+      "id": "*/thankYou",
       "deprecatedIDs": [],
       "name": "thank you veeeeeeeeeeeery much",
       "duration": 1.0
     },
     {
       "type": "keepTheBeat",
-      "id": "frogHopMegamixJa_shake",
+      "id": "*_shake",
       "deprecatedIDs": [],
       "name": "shake",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "frogHopMegamixJa/shake",
+          "id": "*/shake",
           "beat": 0.0
         },
         {
-          "id": "frogHopMegamixJa/shake",
+          "id": "*/shake",
           "beat": 1.0
         },
         {
-          "id": "frogHopMegamixJa/shake",
+          "id": "*/shake",
           "beat": 2.0
         },
         {
-          "id": "frogHopMegamixJa/shake",
+          "id": "*/shake",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "frogHopMegamixJa_yahoo",
+      "id": "*_yahoo",
       "deprecatedIDs": [],
       "name": "yahoo",
       "cues": [
         {
-          "id": "frogHopMegamixJa/yahoo1",
+          "id": "*/yahoo1",
           "beat": 0.0
         },
         {
-          "id": "frogHopMegamixJa/shake",
+          "id": "*/shake",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "frogHopMegamixJa/yahoo2",
+          "id": "*/yahoo2",
           "beat": 0.5
         },
         {
-          "id": "frogHopMegamixJa/shake",
+          "id": "*/shake",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "frogHopMegamixJa/yahoo3",
+          "id": "*/yahoo3",
           "beat": 2.0
         },
         {
-          "id": "frogHopMegamixJa/yahoo4",
+          "id": "*/yahoo4",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "frogHopMegamixJa_haihaihai",
+      "id": "*_haihaihai",
       "deprecatedIDs": [],
       "name": "yeah yeah yeah",
       "cues": [
         {
-          "id": "frogHopMegamixJa/hai1",
+          "id": "*/hai1",
           "beat": 0.0
         },
         {
-          "id": "frogHopMegamixJa/shake",
+          "id": "*/shake",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "frogHopMegamixJa/hai1",
+          "id": "*/hai1",
           "beat": 0.5
         },
         {
-          "id": "frogHopMegamixJa/hai1",
+          "id": "*/hai1",
           "beat": 1.0
         },
         {
-          "id": "frogHopMegamixJa/shake",
+          "id": "*/shake",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "frogHopMegamixJa/hai2",
+          "id": "*/hai2",
           "beat": 2.0
         },
         {
-          "id": "frogHopMegamixJa/hai2",
+          "id": "*/hai2",
           "beat": 2.5
         },
         {
-          "id": "frogHopMegamixJa/hai2",
+          "id": "*/hai2",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "frogHopMegamixJa_kururin",
+      "id": "*_kururin",
       "deprecatedIDs": [],
       "name": "spin it boys!",
       "cues": [
         {
-          "id": "frogHopMegamixJa/kururin1",
+          "id": "*/kururin1",
           "beat": 0.0
         },
         {
-          "id": "frogHopMegamixJa/shake",
+          "id": "*/shake",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "frogHopMegamixJa/shake",
+          "id": "*/shake",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "frogHopMegamixJa/kururin2",
+          "id": "*/kururin2",
           "beat": 0.5
         },
         {
-          "id": "frogHopMegamixJa/kururin3",
+          "id": "*/kururin3",
           "beat": 1.0
         },
         {
-          "id": "frogHopMegamixJa/kururin4",
+          "id": "*/kururin4",
           "beat": 2.0
         },
         {
-          "id": "frogHopMegamixJa/kururin5",
+          "id": "*/kururin5",
           "beat": 2.5
         },
         {
-          "id": "frogHopMegamixJa/kururin6",
+          "id": "*/kururin6",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "frogHopMegamixJa_2BeatCountIn",
+      "id": "*_2BeatCountIn",
       "deprecatedIDs": [],
       "name": "2-beat count-in",
       "cues": [
         {
-          "id": "frogHopMegamixJa/three",
+          "id": "*/three",
           "beat": 0.0
         },
         {
-          "id": "frogHopMegamixJa/four",
+          "id": "*/four",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "frogHopMegamixJa_4BeatCountIn",
+      "id": "*_4BeatCountIn",
       "deprecatedIDs": [],
       "name": "4-beat count-in",
       "cues": [
         {
-          "id": "frogHopMegamixJa/one",
+          "id": "*/one",
           "beat": 0.0
         },
         {
-          "id": "frogHopMegamixJa/two",
+          "id": "*/two",
           "beat": 1.0
         },
         {
-          "id": "frogHopMegamixJa/three",
+          "id": "*/three",
           "beat": 2.0
         },
         {
-          "id": "frogHopMegamixJa/four",
+          "id": "*/four",
           "beat": 3.0
         }
       ]

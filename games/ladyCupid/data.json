@@ -5,45 +5,45 @@
   "objects": [
     {
       "type": "cue",
-      "id": "ladyCupid/arrowShoot",
+      "id": "*/arrowShoot",
       "deprecatedIDs": [],
       "name": "arrow",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "ladyCupid/blockHit",
+      "id": "*/blockHit",
       "deprecatedIDs": [],
       "name": "block hit",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "ladyCupid/bombHit",
+      "id": "*/bombHit",
       "deprecatedIDs": [],
       "name": "bomb hit",
       "duration": 4.0
     },
     {
       "type": "pattern",
-      "id": "ladyCupid_4Blocks",
+      "id": "*_4Blocks",
       "deprecatedIDs": [],
       "name": "hit four blocks",
       "cues": [
         {
-          "id": "ladyCupid/blockHit",
+          "id": "*/blockHit",
           "beat": 0.0
         },
         {
-          "id": "ladyCupid/blockHit",
+          "id": "*/blockHit",
           "beat": 1.0
         },
         {
-          "id": "ladyCupid/blockHit",
+          "id": "*/blockHit",
           "beat": 2.0
         },
         {
-          "id": "ladyCupid/bombHit",
+          "id": "*/bombHit",
           "beat": 3.0
         }
       ]

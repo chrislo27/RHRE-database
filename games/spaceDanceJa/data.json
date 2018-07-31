@@ -6,7 +6,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "spaceDanceJa/turn1",
+      "id": "*/turn1",
       "deprecatedIDs": [
         "spaceDance/turn1"
       ],
@@ -15,7 +15,7 @@
     },
     {
       "type": "cue",
-      "id": "spaceDanceJa/right1",
+      "id": "*/right1",
       "deprecatedIDs": [
         "spaceDance/right1"
       ],
@@ -24,7 +24,7 @@
     },
     {
       "type": "cue",
-      "id": "spaceDanceJa/turn2",
+      "id": "*/turn2",
       "deprecatedIDs": [
         "spaceDance/turn2"
       ],
@@ -33,7 +33,7 @@
     },
     {
       "type": "cue",
-      "id": "spaceDanceJa/right2",
+      "id": "*/right2",
       "deprecatedIDs": [
         "spaceDance/right2"
       ],
@@ -42,7 +42,7 @@
     },
     {
       "type": "cue",
-      "id": "spaceDanceJa/lets1",
+      "id": "*/lets1",
       "deprecatedIDs": [
         "spaceDance/lets1"
       ],
@@ -51,7 +51,7 @@
     },
     {
       "type": "cue",
-      "id": "spaceDanceJa/sit1",
+      "id": "*/sit1",
       "deprecatedIDs": [
         "spaceDance/sit1"
       ],
@@ -60,7 +60,7 @@
     },
     {
       "type": "cue",
-      "id": "spaceDanceJa/down1",
+      "id": "*/down1",
       "deprecatedIDs": [
         "spaceDance/down1"
       ],
@@ -69,7 +69,7 @@
     },
     {
       "type": "cue",
-      "id": "spaceDanceJa/lets2",
+      "id": "*/lets2",
       "deprecatedIDs": [
         "spaceDance/lets2"
       ],
@@ -78,7 +78,7 @@
     },
     {
       "type": "cue",
-      "id": "spaceDanceJa/sit2",
+      "id": "*/sit2",
       "deprecatedIDs": [
         "spaceDance/sit2"
       ],
@@ -87,7 +87,7 @@
     },
     {
       "type": "cue",
-      "id": "spaceDanceJa/down2",
+      "id": "*/down2",
       "deprecatedIDs": [
         "spaceDance/down2"
       ],
@@ -96,7 +96,7 @@
     },
     {
       "type": "cue",
-      "id": "spaceDanceJa/pa1",
+      "id": "*/pa1",
       "deprecatedIDs": [
         "spaceDance/pa1"
       ],
@@ -105,7 +105,7 @@
     },
     {
       "type": "cue",
-      "id": "spaceDanceJa/punch1",
+      "id": "*/punch1",
       "deprecatedIDs": [
         "spaceDance/punch1"
       ],
@@ -114,7 +114,7 @@
     },
     {
       "type": "cue",
-      "id": "spaceDanceJa/pa2",
+      "id": "*/pa2",
       "deprecatedIDs": [
         "spaceDance/pa2"
       ],
@@ -123,7 +123,7 @@
     },
     {
       "type": "cue",
-      "id": "spaceDanceJa/punch2",
+      "id": "*/punch2",
       "deprecatedIDs": [
         "spaceDance/punch2"
       ],
@@ -132,220 +132,220 @@
     },
     {
       "type": "pattern",
-      "id": "spaceDanceJa_turnright1",
+      "id": "*_turnright1",
       "deprecatedIDs": [
         "spaceDance_turnright1"
       ],
       "name": "dancers - and pose",
       "cues": [
         {
-          "id": "spaceDanceJa/turn1",
+          "id": "*/turn1",
           "beat": 0.0
         },
         {
-          "id": "spaceDanceJa/right1",
+          "id": "*/right1",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "spaceDanceJa_letssitdown1",
+      "id": "*_letssitdown1",
       "deprecatedIDs": [
         "spaceDance_letssitdown1"
       ],
       "name": "dancers - let's sit down",
       "cues": [
         {
-          "id": "spaceDanceJa/lets1",
+          "id": "*/lets1",
           "beat": 0.0
         },
         {
-          "id": "spaceDanceJa/sit1",
+          "id": "*/sit1",
           "beat": 0.5
         },
         {
-          "id": "spaceDanceJa/down1",
+          "id": "*/down1",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "spaceDanceJa_pupupupunch1",
+      "id": "*_pupupupunch1",
       "deprecatedIDs": [
         "spaceDance_pupupupunch1"
       ],
       "name": "dancers - pu-pu-pu-punch",
       "cues": [
         {
-          "id": "spaceDanceJa/pa1",
+          "id": "*/pa1",
           "beat": 0.0
         },
         {
-          "id": "spaceDanceJa/pa1",
+          "id": "*/pa1",
           "beat": 0.5
         },
         {
-          "id": "spaceDanceJa/pa1",
+          "id": "*/pa1",
           "beat": 1.0
         },
         {
-          "id": "spaceDanceJa/punch1",
+          "id": "*/punch1",
           "beat": 1.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "spaceDanceJa_turnright2",
+      "id": "*_turnright2",
       "deprecatedIDs": [
         "spaceDance_turnright2"
       ],
       "name": "gramps - and pose",
       "cues": [
         {
-          "id": "spaceDanceJa/turn2",
+          "id": "*/turn2",
           "beat": 0.0
         },
         {
-          "id": "spaceDanceJa/right2",
+          "id": "*/right2",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "spaceDanceJa_letssitdown2",
+      "id": "*_letssitdown2",
       "deprecatedIDs": [
         "spaceDance_letssitdown2"
       ],
       "name": "gramps - let's sit down",
       "cues": [
         {
-          "id": "spaceDanceJa/lets2",
+          "id": "*/lets2",
           "beat": 0.0
         },
         {
-          "id": "spaceDanceJa/sit2",
+          "id": "*/sit2",
           "beat": 0.5
         },
         {
-          "id": "spaceDanceJa/down2",
+          "id": "*/down2",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "spaceDanceJa_pupupupunch2",
+      "id": "*_pupupupunch2",
       "deprecatedIDs": [
         "spaceDance_pupupupunch2"
       ],
       "name": "gramps - pu-pu-pu-punch",
       "cues": [
         {
-          "id": "spaceDanceJa/pa2",
+          "id": "*/pa2",
           "beat": 0.0
         },
         {
-          "id": "spaceDanceJa/pa2",
+          "id": "*/pa2",
           "beat": 0.5
         },
         {
-          "id": "spaceDanceJa/pa2",
+          "id": "*/pa2",
           "beat": 1.0
         },
         {
-          "id": "spaceDanceJa/punch2",
+          "id": "*/punch2",
           "beat": 1.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "spaceDanceJa_letssitdown1cosmic",
+      "id": "*_letssitdown1cosmic",
       "deprecatedIDs": [],
       "name": "dancers - let's sit down (cosmic)",
       "cues": [
         {
-          "id": "spaceDanceJa/lets1",
+          "id": "*/lets1",
           "beat": 0.0
         },
         {
-          "id": "spaceDanceJa/sit1",
+          "id": "*/sit1",
           "beat": 0.667
         },
         {
-          "id": "spaceDanceJa/down1",
+          "id": "*/down1",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "spaceDanceJa_pupupupunch1cosmic",
+      "id": "*_pupupupunch1cosmic",
       "deprecatedIDs": [],
       "name": "dancers - pu-pu-pu-punch (cosmic)",
       "cues": [
         {
-          "id": "spaceDanceJa/pa1",
+          "id": "*/pa1",
           "beat": 0.0
         },
         {
-          "id": "spaceDanceJa/pa1",
+          "id": "*/pa1",
           "beat": 0.667
         },
         {
-          "id": "spaceDanceJa/pa1",
+          "id": "*/pa1",
           "beat": 1.0
         },
         {
-          "id": "spaceDanceJa/punch1",
+          "id": "*/punch1",
           "beat": 1.667
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "spaceDanceJa_letssitdown2cosmic",
+      "id": "*_letssitdown2cosmic",
       "deprecatedIDs": [],
       "name": "gramps - let's sit down (cosmic)",
       "cues": [
         {
-          "id": "spaceDanceJa/lets2",
+          "id": "*/lets2",
           "beat": 0.0
         },
         {
-          "id": "spaceDanceJa/sit2",
+          "id": "*/sit2",
           "beat": 0.667
         },
         {
-          "id": "spaceDanceJa/down2",
+          "id": "*/down2",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "spaceDanceJa_pupupupunch2cosmic",
+      "id": "*_pupupupunch2cosmic",
       "deprecatedIDs": [],
       "name": "gramps - pu-pu-pu-punch (cosmic)",
       "cues": [
         {
-          "id": "spaceDanceJa/pa2",
+          "id": "*/pa2",
           "beat": 0.0
         },
         {
-          "id": "spaceDanceJa/pa2",
+          "id": "*/pa2",
           "beat": 0.667
         },
         {
-          "id": "spaceDanceJa/pa2",
+          "id": "*/pa2",
           "beat": 1.0
         },
         {
-          "id": "spaceDanceJa/punch2",
+          "id": "*/punch2",
           "beat": 1.667
         }
       ]

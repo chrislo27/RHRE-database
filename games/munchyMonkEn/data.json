@@ -7,7 +7,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "munchyMonkEn/gulp",
+      "id": "*/gulp",
       "deprecatedIDs": [
         "munchyMonk/gulp"
       ],
@@ -16,7 +16,7 @@
     },
     {
       "type": "cue",
-      "id": "munchyMonkEn/one",
+      "id": "*/one",
       "deprecatedIDs": [
         "munchyMonk/one"
       ],
@@ -25,7 +25,7 @@
     },
     {
       "type": "cue",
-      "id": "munchyMonkEn/try",
+      "id": "*/try",
       "deprecatedIDs": [
         "munchyMonk/try"
       ],
@@ -34,7 +34,7 @@
     },
     {
       "type": "cue",
-      "id": "munchyMonkEn/two",
+      "id": "*/two",
       "deprecatedIDs": [
         "munchyMonk/two"
       ],
@@ -43,7 +43,7 @@
     },
     {
       "type": "cue",
-      "id": "munchyMonkEn/three",
+      "id": "*/three",
       "deprecatedIDs": [
         "munchyMonk/three"
       ],
@@ -52,7 +52,7 @@
     },
     {
       "type": "cue",
-      "id": "munchyMonkEn/gulp3-1",
+      "id": "*/gulp3-1",
       "deprecatedIDs": [
         "munchyMonk/gulp3-1"
       ],
@@ -61,7 +61,7 @@
     },
     {
       "type": "cue",
-      "id": "munchyMonkEn/gulp3-2",
+      "id": "*/gulp3-2",
       "deprecatedIDs": [
         "munchyMonk/gulp3-2"
       ],
@@ -70,7 +70,7 @@
     },
     {
       "type": "cue",
-      "id": "munchyMonkEn/gulp3-3",
+      "id": "*/gulp3-3",
       "deprecatedIDs": [
         "munchyMonk/gulp3-3"
       ],
@@ -79,70 +79,70 @@
     },
     {
       "type": "pattern",
-      "id": "munchyMonkEn_one",
+      "id": "*_one",
       "deprecatedIDs": [
         "munchyMonk_one"
       ],
       "name": "one",
       "cues": [
         {
-          "id": "munchyMonkEn/one",
+          "id": "*/one",
           "beat": 0.0
         },
         {
-          "id": "munchyMonkEn/gulp",
+          "id": "*/gulp",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "munchyMonkEn_trytwo",
+      "id": "*_trytwo",
       "deprecatedIDs": [
         "munchyMonk_trytwo"
       ],
       "name": "try two",
       "cues": [
         {
-          "id": "munchyMonkEn/try",
+          "id": "*/try",
           "beat": 0.0
         },
         {
-          "id": "munchyMonkEn/two",
+          "id": "*/two",
           "beat": 0.5
         },
         {
-          "id": "munchyMonkEn/gulp",
+          "id": "*/gulp",
           "beat": 1.5
         },
         {
-          "id": "munchyMonkEn/gulp",
+          "id": "*/gulp",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "munchyMonkEn_three",
+      "id": "*_three",
       "deprecatedIDs": [
         "munchyMonk_three"
       ],
       "name": "three",
       "cues": [
         {
-          "id": "munchyMonkEn/three",
+          "id": "*/three",
           "beat": 0.0
         },
         {
-          "id": "munchyMonkEn/gulp3-1",
+          "id": "*/gulp3-1",
           "beat": 1.0
         },
         {
-          "id": "munchyMonkEn/gulp3-2",
+          "id": "*/gulp3-2",
           "beat": 2.0
         },
         {
-          "id": "munchyMonkEn/gulp3-3",
+          "id": "*/gulp3-3",
           "beat": 3.0
         }
       ]

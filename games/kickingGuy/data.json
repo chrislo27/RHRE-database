@@ -5,117 +5,117 @@
   "objects": [
     {
       "type": "cue",
-      "id": "kickingGuy/cowbell",
+      "id": "*/cowbell",
       "deprecatedIDs": [],
       "name": "cowbell",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "kickingGuy/hit",
+      "id": "*/hit",
       "deprecatedIDs": [],
       "name": "hit",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "kickingGuy/hereWeGo1",
+      "id": "*/hereWeGo1",
       "deprecatedIDs": [],
       "name": "here we go - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "kickingGuy/hereWeGo2",
+      "id": "*/hereWeGo2",
       "deprecatedIDs": [],
       "name": "here we go - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "kickingGuy/hereWeGo3",
+      "id": "*/hereWeGo3",
       "deprecatedIDs": [],
       "name": "here we go - 3",
       "duration": 0.5
     },
     {
       "type": "keepTheBeat",
-      "id": "kickingGuy_cowbell",
+      "id": "*_cowbell",
       "deprecatedIDs": [],
       "name": "cowbell",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "kickingGuy/cowbell",
+          "id": "*/cowbell",
           "beat": 0.0
         },
         {
-          "id": "kickingGuy/cowbell",
+          "id": "*/cowbell",
           "beat": 1.0
         },
         {
-          "id": "kickingGuy/cowbell",
+          "id": "*/cowbell",
           "beat": 2.0
         },
         {
-          "id": "kickingGuy/cowbell",
+          "id": "*/cowbell",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "keepTheBeat",
-      "id": "kickingGuy_hit",
+      "id": "*_hit",
       "deprecatedIDs": [],
       "name": "kicking",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "kickingGuy/hit",
+          "id": "*/hit",
           "beat": 0.0
         },
         {
-          "id": "kickingGuy/hit",
+          "id": "*/hit",
           "beat": 1.0
         },
         {
-          "id": "kickingGuy/hit",
+          "id": "*/hit",
           "beat": 2.0
         },
         {
-          "id": "kickingGuy/hit",
+          "id": "*/hit",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "kickingGuy_triple",
+      "id": "*_triple",
       "deprecatedIDs": [],
       "name": "here we go!",
       "cues": [
         {
-          "id": "kickingGuy/hereWeGo1",
+          "id": "*/hereWeGo1",
           "beat": 0.0
         },
         {
-          "id": "kickingGuy/hereWeGo2",
+          "id": "*/hereWeGo2",
           "beat": 0.5
         },
         {
-          "id": "kickingGuy/hereWeGo3",
+          "id": "*/hereWeGo3",
           "beat": 1.0
         },
         {
-          "id": "kickingGuy/hit",
+          "id": "*/hit",
           "beat": 2.0
         },
         {
-          "id": "kickingGuy/hit",
+          "id": "*/hit",
           "beat": 2.5
         },
         {
-          "id": "kickingGuy/hit",
+          "id": "*/hit",
           "beat": 3.0
         }
       ]

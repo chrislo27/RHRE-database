@@ -7,7 +7,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "karateManFeverEn/potOut",
+      "id": "*/potOut",
       "deprecatedIDs": [
         "karateMan/potout"
       ],
@@ -16,7 +16,7 @@
     },
     {
       "type": "cue",
-      "id": "karateManFeverEn/offbeatPotOut",
+      "id": "*/offbeatPotOut",
       "deprecatedIDs": [
         "karateMan/offbeatpotout"
       ],
@@ -25,7 +25,7 @@
     },
     {
       "type": "cue",
-      "id": "karateManFeverEn/potHit",
+      "id": "*/potHit",
       "deprecatedIDs": [
         "karateMan/roaster",
         "karateMan/bulbbreak",
@@ -37,7 +37,7 @@
     },
     {
       "type": "cue",
-      "id": "karateManFeverEn/soccerHit",
+      "id": "*/soccerHit",
       "deprecatedIDs": [
         "karateMan/soccerHit"
       ],
@@ -46,7 +46,7 @@
     },
     {
       "type": "cue",
-      "id": "karateManFeverEn/hit3cue1",
+      "id": "*/hit3cue1",
       "deprecatedIDs": [
         "karateMan/hit3cue1"
       ],
@@ -55,7 +55,7 @@
     },
     {
       "type": "cue",
-      "id": "karateManFeverEn/hit3cue2",
+      "id": "*/hit3cue2",
       "deprecatedIDs": [
         "karateMan/hit3cue2"
       ],
@@ -64,7 +64,7 @@
     },
     {
       "type": "cue",
-      "id": "karateManFeverEn/hit4",
+      "id": "*/hit4",
       "deprecatedIDs": [
         "karateMan/hit4"
       ],
@@ -73,7 +73,7 @@
     },
     {
       "type": "cue",
-      "id": "karateManFeverEn/rock",
+      "id": "*/rock",
       "deprecatedIDs": [
         "karateMan/rock"
       ],
@@ -82,7 +82,7 @@
     },
     {
       "type": "cue",
-      "id": "karateManFeverEn/bulbOut",
+      "id": "*/bulbOut",
       "deprecatedIDs": [
         "karateMan/bulbout"
       ],
@@ -91,7 +91,7 @@
     },
     {
       "type": "cue",
-      "id": "karateManFeverEn/bulbHit",
+      "id": "*/bulbHit",
       "deprecatedIDs": [
         "karateMan/bulbhit"
       ],
@@ -100,7 +100,7 @@
     },
     {
       "type": "cue",
-      "id": "karateManFeverEn/barrelOut",
+      "id": "*/barrelOut",
       "deprecatedIDs": [
         "karateMan/barreloutCombos",
         "karateMan/barreloutKicks",
@@ -111,7 +111,7 @@
     },
     {
       "type": "cue",
-      "id": "karateManFeverEn/punchy1",
+      "id": "*/punchy1",
       "deprecatedIDs": [
         "karateMan/punchy1"
       ],
@@ -120,7 +120,7 @@
     },
     {
       "type": "cue",
-      "id": "karateManFeverEn/punchy2",
+      "id": "*/punchy2",
       "deprecatedIDs": [
         "karateMan/punchy2"
       ],
@@ -129,7 +129,7 @@
     },
     {
       "type": "cue",
-      "id": "karateManFeverEn/punchy3",
+      "id": "*/punchy3",
       "deprecatedIDs": [
         "karateMan/punchy3"
       ],
@@ -138,7 +138,7 @@
     },
     {
       "type": "cue",
-      "id": "karateManFeverEn/punchy4",
+      "id": "*/punchy4",
       "deprecatedIDs": [
         "karateMan/punchy4"
       ],
@@ -147,7 +147,7 @@
     },
     {
       "type": "cue",
-      "id": "karateManFeverEn/ko",
+      "id": "*/ko",
       "deprecatedIDs": [
         "karateMan/ko"
       ],
@@ -156,7 +156,7 @@
     },
     {
       "type": "cue",
-      "id": "karateManFeverEn/pow",
+      "id": "*/pow",
       "deprecatedIDs": [
         "karateMan/pow"
       ],
@@ -165,7 +165,7 @@
     },
     {
       "type": "pattern",
-      "id": "karateManFeverEn_pot",
+      "id": "*_pot",
       "deprecatedIDs": [
         "karateMan/alien",
         "karateMan_pot"
@@ -173,152 +173,152 @@
       "name": "pot",
       "cues": [
         {
-          "id": "karateManFeverEn/potOut",
+          "id": "*/potOut",
           "beat": 0.0
         },
         {
-          "id": "karateManFeverEn/potHit",
+          "id": "*/potHit",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManFeverEn_offbeatPot",
+      "id": "*_offbeatPot",
       "deprecatedIDs": [
         "karateMan_offbeatpot"
       ],
       "name": "offbeat pot",
       "cues": [
         {
-          "id": "karateManFeverEn/offbeatPotOut",
+          "id": "*/offbeatPotOut",
           "beat": 0.0
         },
         {
-          "id": "karateManFeverEn/potHit",
+          "id": "*/potHit",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManFeverEn_soccerBall",
+      "id": "*_soccerBall",
       "deprecatedIDs": [
         "karateMan_soccer ball"
       ],
       "name": "soccer ball",
       "cues": [
         {
-          "id": "karateManFeverEn/potOut",
+          "id": "*/potOut",
           "beat": 0.0
         },
         {
-          "id": "karateManFeverEn/soccerHit",
+          "id": "*/soccerHit",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManFeverEn_hit3",
+      "id": "*_hit3",
       "deprecatedIDs": [
         "karateMan_hit3"
       ],
       "name": "hit 3!",
       "cues": [
         {
-          "id": "karateManFeverEn/hit3cue1",
+          "id": "*/hit3cue1",
           "beat": 0.0
         },
         {
-          "id": "karateManFeverEn/hit3cue2",
+          "id": "*/hit3cue2",
           "beat": 0.5
         },
         {
-          "id": "karateManFeverEn/potOut",
+          "id": "*/potOut",
           "beat": 1.5
         },
         {
-          "id": "karateManFeverEn/potHit",
+          "id": "*/potHit",
           "beat": 2.5
         },
         {
-          "id": "karateManFeverEn/potOut",
+          "id": "*/potOut",
           "beat": 2.5,
           "track": 1
         },
         {
-          "id": "karateManFeverEn/potHit",
+          "id": "*/potHit",
           "beat": 3.5
         },
         {
-          "id": "karateManFeverEn/potOut",
+          "id": "*/potOut",
           "beat": 3.5,
           "track": 1
         },
         {
-          "id": "karateManFeverEn/rock",
+          "id": "*/rock",
           "beat": 4.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManFeverEn_hit4",
+      "id": "*_hit4",
       "deprecatedIDs": [
         "karateMan_hit4"
       ],
       "name": "hit 4!",
       "cues": [
         {
-          "id": "karateManFeverEn/hit3cue1",
+          "id": "*/hit3cue1",
           "beat": 0.0
         },
         {
-          "id": "karateManFeverEn/hit4",
+          "id": "*/hit4",
           "beat": 0.5
         },
         {
-          "id": "karateManFeverEn/potOut",
+          "id": "*/potOut",
           "beat": 1.5,
           "track": 1
         },
         {
-          "id": "karateManFeverEn/potHit",
+          "id": "*/potHit",
           "beat": 2.5
         },
         {
-          "id": "karateManFeverEn/potOut",
+          "id": "*/potOut",
           "beat": 2.5,
           "track": 1
         },
         {
-          "id": "karateManFeverEn/potHit",
+          "id": "*/potHit",
           "beat": 3.5
         },
         {
-          "id": "karateManFeverEn/potOut",
+          "id": "*/potOut",
           "beat": 3.5,
           "track": 1
         },
         {
-          "id": "karateManFeverEn/potHit",
+          "id": "*/potHit",
           "beat": 4.5
         },
         {
-          "id": "karateManFeverEn/potOut",
+          "id": "*/potOut",
           "beat": 4.5,
           "track": 1
         },
         {
-          "id": "karateManFeverEn/rock",
+          "id": "*/rock",
           "beat": 5.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManFeverEn_lightbulb",
+      "id": "*_lightbulb",
       "deprecatedIDs": [
         "karateMan/lightbulbUnused",
         "karateMan_lightbulb"
@@ -326,56 +326,56 @@
       "name": "lightbulb (standalone)",
       "cues": [
         {
-          "id": "karateManFeverEn/bulbOut",
+          "id": "*/bulbOut",
           "beat": 0.0
         },
         {
-          "id": "karateManFeverEn/bulbHit",
+          "id": "*/bulbHit",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManFeverEn_comboSolo",
+      "id": "*_comboSolo",
       "deprecatedIDs": [
         "karateMan_comboSolo"
       ],
       "name": "combo (standalone)",
       "cues": [
         {
-          "id": "karateManFeverEn/barrelOut",
+          "id": "*/barrelOut",
           "beat": 0.0
         },
         {
-          "id": "karateManFeverEn/punchy1",
+          "id": "*/punchy1",
           "beat": 1.0
         },
         {
-          "id": "karateManFeverEn/punchy2",
+          "id": "*/punchy2",
           "beat": 1.25
         },
         {
-          "id": "karateManFeverEn/punchy3",
+          "id": "*/punchy3",
           "beat": 1.5
         },
         {
-          "id": "karateManFeverEn/punchy4",
+          "id": "*/punchy4",
           "beat": 1.75
         },
         {
-          "id": "karateManFeverEn/ko",
+          "id": "*/ko",
           "beat": 2.0
         },
         {
-          "id": "karateManFeverEn/pow",
+          "id": "*/pow",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManFeverEn_combo",
+      "id": "*_combo",
       "deprecatedIDs": [
         "karateMan_combo",
         "karateMan/kick"
@@ -383,39 +383,39 @@
       "name": "combo",
       "cues": [
         {
-          "id": "karateManFeverEn/bulbOut",
+          "id": "*/bulbOut",
           "beat": 0.0
         },
         {
-          "id": "karateManFeverEn/bulbHit",
+          "id": "*/bulbHit",
           "beat": 1.0
         },
         {
-          "id": "karateManFeverEn/barrelOut",
+          "id": "*/barrelOut",
           "beat": 2.0
         },
         {
-          "id": "karateManFeverEn/punchy1",
+          "id": "*/punchy1",
           "beat": 3.0
         },
         {
-          "id": "karateManFeverEn/punchy2",
+          "id": "*/punchy2",
           "beat": 3.25
         },
         {
-          "id": "karateManFeverEn/punchy3",
+          "id": "*/punchy3",
           "beat": 3.5
         },
         {
-          "id": "karateManFeverEn/punchy4",
+          "id": "*/punchy4",
           "beat": 3.75
         },
         {
-          "id": "karateManFeverEn/ko",
+          "id": "*/ko",
           "beat": 4.0
         },
         {
-          "id": "karateManFeverEn/pow",
+          "id": "*/pow",
           "beat": 4.5
         }
       ]

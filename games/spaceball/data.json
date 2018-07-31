@@ -5,53 +5,53 @@
   "objects": [
     {
       "type": "cue",
-      "id": "spaceball/shoot",
+      "id": "*/shoot",
       "deprecatedIDs": [],
       "name": "shoot",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "spaceball/longShoot",
+      "id": "*/longShoot",
       "deprecatedIDs": [],
       "name": "high shot",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "spaceball/hit",
+      "id": "*/hit",
       "deprecatedIDs": [],
       "name": "hit",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "spaceball_ball",
+      "id": "*_ball",
       "deprecatedIDs": [],
       "name": "ball",
       "cues": [
         {
-          "id": "spaceball/shoot",
+          "id": "*/shoot",
           "beat": 0.0
         },
         {
-          "id": "spaceball/hit",
+          "id": "*/hit",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "spaceball_highball",
+      "id": "*_highball",
       "deprecatedIDs": [],
       "name": "high ball",
       "cues": [
         {
-          "id": "spaceball/longShoot",
+          "id": "*/longShoot",
           "beat": 0.0
         },
         {
-          "id": "spaceball/hit",
+          "id": "*/hit",
           "beat": 2.0
         }
       ]

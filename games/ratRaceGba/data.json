@@ -5,118 +5,118 @@
   "objects": [
     {
       "type": "cue",
-      "id": "ratRaceGba/trafficlight",
+      "id": "*/trafficlight",
       "deprecatedIDs": [],
       "name": "traffic light",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "ratRaceGba/stop1",
+      "id": "*/stop1",
       "deprecatedIDs": [],
       "name": "stop - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "ratRaceGba/stop2",
+      "id": "*/stop2",
       "deprecatedIDs": [],
       "name": "stop - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "ratRaceGba/start",
+      "id": "*/start",
       "deprecatedIDs": [],
       "name": "start - 1",
       "duration": 1.5
     },
     {
       "type": "cue",
-      "id": "ratRaceGba/victoryCheese",
+      "id": "*/victoryCheese",
       "deprecatedIDs": [],
       "name": "cheese found",
       "duration": 9.5
     },
     {
       "type": "pattern",
-      "id": "ratRaceGba_stopnolight",
+      "id": "*_stopnolight",
       "deprecatedIDs": [],
       "name": "stop - no light",
       "cues": [
         {
-          "id": "ratRaceGba/stop1",
+          "id": "*/stop1",
           "beat": 0.0
         },
         {
-          "id": "ratRaceGba/stop2",
+          "id": "*/stop2",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "ratRaceGba_stop",
+      "id": "*_stop",
       "deprecatedIDs": [],
       "name": "stop - traffic light",
       "cues": [
         {
-          "id": "ratRaceGba/trafficlight",
+          "id": "*/trafficlight",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "ratRaceGba/trafficlight",
+          "id": "*/trafficlight",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "ratRaceGba/trafficlight",
+          "id": "*/trafficlight",
           "beat": 2.0,
           "track": 1
         },
         {
-          "id": "ratRaceGba/stop1",
+          "id": "*/stop1",
           "beat": 2.0
         },
         {
-          "id": "ratRaceGba/stop2",
+          "id": "*/stop2",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "ratRaceGba_startnolight",
+      "id": "*_startnolight",
       "deprecatedIDs": [],
       "name": "start - no light",
       "cues": [
         {
-          "id": "ratRaceGba/start",
+          "id": "*/start",
           "beat": 0.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "ratRaceGba_start",
+      "id": "*_start",
       "deprecatedIDs": [],
       "name": "start - traffic light",
       "cues": [
         {
-          "id": "ratRaceGba/trafficlight",
+          "id": "*/trafficlight",
           "beat": 0.0
         },
         {
-          "id": "ratRaceGba/trafficlight",
+          "id": "*/trafficlight",
           "beat": 1.0
         },
         {
-          "id": "ratRaceGba/trafficlight",
+          "id": "*/trafficlight",
           "beat": 2.0
         },
         {
-          "id": "ratRaceGba/start",
+          "id": "*/start",
           "beat": 3.0
         }
       ]

@@ -6,120 +6,120 @@
   "objects": [
     {
       "type": "cue",
-      "id": "basketballGirlsKo/bounce1",
+      "id": "*/bounce1",
       "deprecatedIDs": [],
       "name": "bounce - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "basketballGirlsKo/bounce2",
+      "id": "*/bounce2",
       "deprecatedIDs": [],
       "name": "bounce - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "basketballGirlsKo/bounce3",
+      "id": "*/bounce3",
       "deprecatedIDs": [],
       "name": "bounce - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "basketballGirlsKo/hoi",
+      "id": "*/hoi",
       "deprecatedIDs": [],
       "name": "hoi",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "basketballGirlsKo/dunk1",
+      "id": "*/dunk1",
       "deprecatedIDs": [],
       "name": "dunk - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "basketballGirlsKo/dunk2",
+      "id": "*/dunk2",
       "deprecatedIDs": [],
       "name": "dunk - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "basketballGirlsKo/dunk3",
+      "id": "*/dunk3",
       "deprecatedIDs": [],
       "name": "dunk - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "basketballGirlsKo/dunk4",
+      "id": "*/dunk4",
       "deprecatedIDs": [],
       "name": "dunk - 4",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "basketballGirlsKo/dunk5",
+      "id": "*/dunk5",
       "deprecatedIDs": [],
       "name": "dunk - 5",
       "duration": 1.0
     },
     {
       "type": "keepTheBeat",
-      "id": "basketballGirlsKo_bounce",
+      "id": "*_bounce",
       "deprecatedIDs": [],
       "name": "bounce",
       "defaultDuration": 2.0,
       "cues": [
         {
-          "id": "basketballGirlsKo/bounce1",
+          "id": "*/bounce1",
           "beat": 0.0
         },
         {
-          "id": "basketballGirlsKo/bounce2",
+          "id": "*/bounce2",
           "beat": 0.5
         },
         {
-          "id": "basketballGirlsKo/bounce3",
+          "id": "*/bounce3",
           "beat": 1.0
         },
         {
-          "id": "basketballGirlsKo/bounce2",
+          "id": "*/bounce2",
           "beat": 1.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "basketballGirlsKo_dunk",
+      "id": "*_dunk",
       "deprecatedIDs": [],
       "name": "dunk",
       "cues": [
         {
-          "id": "basketballGirlsKo/hoi",
+          "id": "*/hoi",
           "beat": 0.0
         },
         {
-          "id": "basketballGirlsKo/dunk1",
+          "id": "*/dunk1",
           "beat": 1.0
         },
         {
-          "id": "basketballGirlsKo/dunk2",
+          "id": "*/dunk2",
           "beat": 1.5
         },
         {
-          "id": "basketballGirlsKo/dunk3",
+          "id": "*/dunk3",
           "beat": 2.0
         },
         {
-          "id": "basketballGirlsKo/dunk4",
+          "id": "*/dunk4",
           "beat": 2.5
         },
         {
-          "id": "basketballGirlsKo/dunk5",
+          "id": "*/dunk5",
           "beat": 3.0
         }
       ]

@@ -7,246 +7,246 @@
   "objects": [
     {
       "type": "cue",
-      "id": "karateManMegamixJa/potout",
+      "id": "*/potout",
       "deprecatedIDs": [],
       "name": "pot - out",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/offbeatpotout",
+      "id": "*/offbeatpotout",
       "deprecatedIDs": [],
       "name": "pot - offbeat out",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/pothit",
+      "id": "*/pothit",
       "deprecatedIDs": [],
       "name": "pot - hit",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/soccerHit",
+      "id": "*/soccerHit",
       "deprecatedIDs": [],
       "name": "soccer ball - hit",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/cookingPot",
+      "id": "*/cookingPot",
       "deprecatedIDs": [],
       "name": "roaster - hit",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/hit3cue1",
+      "id": "*/hit3cue1",
       "deprecatedIDs": [],
       "name": "hit",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/hit3cue2",
+      "id": "*/hit3cue2",
       "deprecatedIDs": [],
       "name": "3!",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/hit4",
+      "id": "*/hit4",
       "deprecatedIDs": [],
       "name": "4!",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/rock",
+      "id": "*/rock",
       "deprecatedIDs": [],
       "name": "rock - hit",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/bulbout",
+      "id": "*/bulbout",
       "deprecatedIDs": [],
       "name": "lightbulb - out",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/bulbhit",
+      "id": "*/bulbhit",
       "deprecatedIDs": [],
       "name": "lightbulb - hit",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/bulbbreak",
+      "id": "*/bulbbreak",
       "deprecatedIDs": [],
       "name": "lightbulb - break (unused)",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/bombhit",
+      "id": "*/bombhit",
       "deprecatedIDs": [],
       "name": "bomb - hit (unused)",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/bombbreak",
+      "id": "*/bombbreak",
       "deprecatedIDs": [],
       "name": "bomb - break (unused)",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/alienhit",
+      "id": "*/alienhit",
       "deprecatedIDs": [],
       "name": "alien - hit (unused)",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/bigpothit",
+      "id": "*/bigpothit",
       "deprecatedIDs": [],
       "name": "pot - hit (unused)",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/barreloutCombos",
+      "id": "*/barreloutCombos",
       "deprecatedIDs": [],
       "name": "barrel - out (Combos!)",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/barreloutKicks",
+      "id": "*/barreloutKicks",
       "deprecatedIDs": [],
       "name": "barrel - out (Kicks!)",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/punchkick1",
+      "id": "*/punchkick1",
       "deprecatedIDs": [],
       "name": "kick - pun",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/punchkick2",
+      "id": "*/punchkick2",
       "deprecatedIDs": [],
       "name": "kick - ch",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/punchkick3",
+      "id": "*/punchkick3",
       "deprecatedIDs": [],
       "name": "kick - kick!",
       "duration": 0.75
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/punchy1",
+      "id": "*/punchy1",
       "deprecatedIDs": [],
       "name": "combo - 1",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/punchy2",
+      "id": "*/punchy2",
       "deprecatedIDs": [],
       "name": "combo - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/punchy3",
+      "id": "*/punchy3",
       "deprecatedIDs": [],
       "name": "combo - 3",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/punchy4",
+      "id": "*/punchy4",
       "deprecatedIDs": [],
       "name": "combo - 4",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/ko",
+      "id": "*/ko",
       "deprecatedIDs": [],
       "name": "combo - 5",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "karateManMegamixJa/pow",
+      "id": "*/pow",
       "deprecatedIDs": [],
       "name": "combo - 6",
       "duration": 1.5
     },
     {
       "type": "pattern",
-      "id": "karateManMegamixJa_pot",
+      "id": "*_pot",
       "deprecatedIDs": [],
       "name": "pot",
       "cues": [
         {
-          "id": "karateManMegamixJa/potout",
+          "id": "*/potout",
           "beat": 0.0
         },
         {
-          "id": "karateManMegamixJa/pothit",
+          "id": "*/pothit",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManMegamixJa_offbeatpot",
+      "id": "*_offbeatpot",
       "deprecatedIDs": [],
       "name": "offbeat pot",
       "cues": [
         {
-          "id": "karateManMegamixJa/offbeatpotout",
+          "id": "*/offbeatpotout",
           "beat": 0.0
         },
         {
-          "id": "karateManMegamixJa/pothit",
+          "id": "*/pothit",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManMegamixJa_doublePot",
+      "id": "*_doublePot",
       "deprecatedIDs": [],
       "name": "double pot (Senior)",
       "cues": [
         {
-          "id": "karateManMegamixJa/potout",
+          "id": "*/potout",
           "beat": 0.0
         },
         {
-          "id": "karateManMegamixJa/offbeatpotout",
+          "id": "*/offbeatpotout",
           "beat": 0.5,
           "track": 1
         },
         {
-          "id": "karateManMegamixJa/pothit",
+          "id": "*/pothit",
           "beat": 1.0
         },
         {
-          "id": "karateManMegamixJa/pothit",
+          "id": "*/pothit",
           "beat": 1.5,
           "track": 1
         }
@@ -254,395 +254,395 @@
     },
     {
       "type": "pattern",
-      "id": "karateManMegamixJa_soccerBall",
+      "id": "*_soccerBall",
       "deprecatedIDs": ["karateManMegamixJa_soccer ball"],
       "name": "soccer ball",
       "cues": [
         {
-          "id": "karateManMegamixJa/potout",
+          "id": "*/potout",
           "beat": 0.0
         },
         {
-          "id": "karateManMegamixJa/soccerHit",
+          "id": "*/soccerHit",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManMegamixJa_rock",
+      "id": "*_rock",
       "deprecatedIDs": [],
       "name": "rock",
       "cues": [
         {
-          "id": "karateManMegamixJa/potout",
+          "id": "*/potout",
           "beat": 0.0
         },
         {
-          "id": "karateManMegamixJa/rock",
+          "id": "*/rock",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManMegamixJa_cookingPot",
+      "id": "*_cookingPot",
       "deprecatedIDs": [],
       "name": "cooking pot",
       "cues": [
         {
-          "id": "karateManMegamixJa/potout",
+          "id": "*/potout",
           "beat": 0.0
         },
         {
-          "id": "karateManMegamixJa/cookingPot",
+          "id": "*/cookingPot",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManMegamixJa_hit3",
+      "id": "*_hit3",
       "deprecatedIDs": [],
       "name": "hit 3!",
       "cues": [
         {
-          "id": "karateManMegamixJa/hit3cue1",
+          "id": "*/hit3cue1",
           "beat": 0.0
         },
         {
-          "id": "karateManMegamixJa/hit3cue2",
+          "id": "*/hit3cue2",
           "beat": 0.5
         },
         {
-          "id": "karateManMegamixJa/potout",
+          "id": "*/potout",
           "beat": 1.5
         },
         {
-          "id": "karateManMegamixJa/pothit",
+          "id": "*/pothit",
           "beat": 2.5
         },
         {
-          "id": "karateManMegamixJa/potout",
+          "id": "*/potout",
           "beat": 2.5,
           "track": 1
         },
         {
-          "id": "karateManMegamixJa/pothit",
+          "id": "*/pothit",
           "beat": 3.5
         },
         {
-          "id": "karateManMegamixJa/potout",
+          "id": "*/potout",
           "beat": 3.5,
           "track": 1
         },
         {
-          "id": "karateManMegamixJa/rock",
+          "id": "*/rock",
           "beat": 4.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManMegamixJa_hit4",
+      "id": "*_hit4",
       "deprecatedIDs": [],
       "name": "hit 4! (unused)",
       "cues": [
         {
-          "id": "karateManMegamixJa/hit4",
+          "id": "*/hit4",
           "beat": 0.0
         },
         {
-          "id": "karateManMegamixJa/hit3cue2",
+          "id": "*/hit3cue2",
           "beat": 0.5
         },
         {
-          "id": "karateManMegamixJa/potout",
+          "id": "*/potout",
           "beat": 1.5,
           "track": 1
         },
         {
-          "id": "karateManMegamixJa/pothit",
+          "id": "*/pothit",
           "beat": 2.5
         },
         {
-          "id": "karateManMegamixJa/potout",
+          "id": "*/potout",
           "beat": 2.5,
           "track": 1
         },
         {
-          "id": "karateManMegamixJa/pothit",
+          "id": "*/pothit",
           "beat": 3.5
         },
         {
-          "id": "karateManMegamixJa/potout",
+          "id": "*/potout",
           "beat": 3.5,
           "track": 1
         },
         {
-          "id": "karateManMegamixJa/pothit",
+          "id": "*/pothit",
           "beat": 4.5
         },
         {
-          "id": "karateManMegamixJa/potout",
+          "id": "*/potout",
           "beat": 4.5,
           "track": 1
         },
         {
-          "id": "karateManMegamixJa/rock",
+          "id": "*/rock",
           "beat": 5.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManMegamixJa_kickSolo",
+      "id": "*_kickSolo",
       "deprecatedIDs": [],
       "name": "kick (standalone)",
       "cues": [
         {
-          "id": "karateManMegamixJa/barreloutKicks",
+          "id": "*/barreloutKicks",
           "beat": 0.0
         },
         {
-          "id": "karateManMegamixJa/punchkick1",
+          "id": "*/punchkick1",
           "beat": 1.0
         },
         {
-          "id": "karateManMegamixJa/punchkick2",
+          "id": "*/punchkick2",
           "beat": 1.5
         },
         {
-          "id": "karateManMegamixJa/punchkick3",
+          "id": "*/punchkick3",
           "beat": 1.75
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManMegamixJa_kick",
+      "id": "*_kick",
       "deprecatedIDs": [],
       "name": "kick",
       "cues": [
         {
-          "id": "karateManMegamixJa/bulbout",
+          "id": "*/bulbout",
           "beat": 0.0
         },
         {
-          "id": "karateManMegamixJa/bulbhit",
+          "id": "*/bulbhit",
           "beat": 1.0
         },
         {
-          "id": "karateManMegamixJa/barreloutKicks",
+          "id": "*/barreloutKicks",
           "beat": 2.0
         },
         {
-          "id": "karateManMegamixJa/punchkick1",
+          "id": "*/punchkick1",
           "beat": 3.0
         },
         {
-          "id": "karateManMegamixJa/punchkick2",
+          "id": "*/punchkick2",
           "beat": 3.5
         },
         {
-          "id": "karateManMegamixJa/punchkick3",
+          "id": "*/punchkick3",
           "beat": 3.75
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManMegamixJa_comboSolo",
+      "id": "*_comboSolo",
       "deprecatedIDs": [],
       "name": "combo (standalone)",
       "cues": [
         {
-          "id": "karateManMegamixJa/barreloutCombos",
+          "id": "*/barreloutCombos",
           "beat": 0.0
         },
         {
-          "id": "karateManMegamixJa/punchy1",
+          "id": "*/punchy1",
           "beat": 1.0
         },
         {
-          "id": "karateManMegamixJa/punchy2",
+          "id": "*/punchy2",
           "beat": 1.25
         },
         {
-          "id": "karateManMegamixJa/punchy3",
+          "id": "*/punchy3",
           "beat": 1.5
         },
         {
-          "id": "karateManMegamixJa/punchy4",
+          "id": "*/punchy4",
           "beat": 1.75
         },
         {
-          "id": "karateManMegamixJa/ko",
+          "id": "*/ko",
           "beat": 2.0
         },
         {
-          "id": "karateManMegamixJa/pow",
+          "id": "*/pow",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManMegamixJa_combo",
+      "id": "*_combo",
       "deprecatedIDs": [],
       "name": "combo",
       "cues": [
         {
-          "id": "karateManMegamixJa/bulbout",
+          "id": "*/bulbout",
           "beat": 0.0
         },
         {
-          "id": "karateManMegamixJa/bulbhit",
+          "id": "*/bulbhit",
           "beat": 1.0
         },
         {
-          "id": "karateManMegamixJa/barreloutCombos",
+          "id": "*/barreloutCombos",
           "beat": 2.0
         },
         {
-          "id": "karateManMegamixJa/punchy1",
+          "id": "*/punchy1",
           "beat": 3.0
         },
         {
-          "id": "karateManMegamixJa/punchy2",
+          "id": "*/punchy2",
           "beat": 3.25
         },
         {
-          "id": "karateManMegamixJa/punchy3",
+          "id": "*/punchy3",
           "beat": 3.5
         },
         {
-          "id": "karateManMegamixJa/punchy4",
+          "id": "*/punchy4",
           "beat": 3.75
         },
         {
-          "id": "karateManMegamixJa/ko",
+          "id": "*/ko",
           "beat": 4.0
         },
         {
-          "id": "karateManMegamixJa/pow",
+          "id": "*/pow",
           "beat": 4.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManMegamixJa_comboSenior",
+      "id": "*_comboSenior",
       "deprecatedIDs": [],
       "name": "combo (Senior)",
       "cues": [
         {
-          "id": "karateManMegamixJa/bulbout",
+          "id": "*/bulbout",
           "beat": 0.0
         },
         {
-          "id": "karateManMegamixJa/bulbhit",
+          "id": "*/bulbhit",
           "beat": 1.0
         },
         {
-          "id": "karateManMegamixJa/barreloutCombos",
+          "id": "*/barreloutCombos",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "karateManMegamixJa/punchy1",
+          "id": "*/punchy1",
           "beat": 2.0
         },
         {
-          "id": "karateManMegamixJa/punchy2",
+          "id": "*/punchy2",
           "beat": 2.25
         },
         {
-          "id": "karateManMegamixJa/punchy3",
+          "id": "*/punchy3",
           "beat": 2.5
         },
         {
-          "id": "karateManMegamixJa/punchy4",
+          "id": "*/punchy4",
           "beat": 2.75
         },
         {
-          "id": "karateManMegamixJa/ko",
+          "id": "*/ko",
           "beat": 3.0
         },
         {
-          "id": "karateManMegamixJa/pow",
+          "id": "*/pow",
           "beat": 3.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManMegamixJa_lightbulbUnused",
+      "id": "*_lightbulbUnused",
       "deprecatedIDs": [],
       "name": "lightbulb (alternate, unused)",
       "cues": [
         {
-          "id": "karateManMegamixJa/potout",
+          "id": "*/potout",
           "beat": 0.0
         },
         {
-          "id": "karateManMegamixJa/bulbhit",
+          "id": "*/bulbhit",
           "beat": 1.0
         },
         {
-          "id": "karateManMegamixJa/bulbbreak",
+          "id": "*/bulbbreak",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManMegamixJa_bomb",
+      "id": "*_bomb",
       "deprecatedIDs": [],
       "name": "bomb (unused)",
       "cues": [
         {
-          "id": "karateManMegamixJa/potout",
+          "id": "*/potout",
           "beat": 0.0
         },
         {
-          "id": "karateManMegamixJa/bombhit",
+          "id": "*/bombhit",
           "beat": 1.0
         },
         {
-          "id": "karateManMegamixJa/bombbreak",
+          "id": "*/bombbreak",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManMegamixJa_alien",
+      "id": "*_alien",
       "deprecatedIDs": [],
       "name": "alien (unused)",
       "cues": [
         {
-          "id": "karateManMegamixJa/potout",
+          "id": "*/potout",
           "beat": 0.0
         },
         {
-          "id": "karateManMegamixJa/alienhit",
+          "id": "*/alienhit",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "karateManMegamixJa_potGBA",
+      "id": "*_potGBA",
       "deprecatedIDs": [],
       "name": "pot - GBA version (unused)",
       "cues": [
         {
-          "id": "karateManMegamixJa/potout",
+          "id": "*/potout",
           "beat": 0.0
         },
         {
-          "id": "karateManMegamixJa/bigpothit",
+          "id": "*/bigpothit",
           "beat": 1.0
         }
       ]

@@ -6,239 +6,239 @@
   "objects": [
     {
       "type": "cue",
-      "id": "splashdownEs/start",
+      "id": "*/start",
       "deprecatedIDs": [],
       "name": "start",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "splashdownEs/descend1",
+      "id": "*/descend1",
       "deprecatedIDs": [],
       "name": "descend - others",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "splashdownEs/descend2",
+      "id": "*/descend2",
       "deprecatedIDs": [],
       "name": "descend - player",
       "duration": 0.75
     },
     {
       "type": "cue",
-      "id": "splashdownEs/ascend1",
+      "id": "*/ascend1",
       "deprecatedIDs": [],
       "name": "ascend",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "splashdownEs/ascend2",
+      "id": "*/ascend2",
       "deprecatedIDs": [],
       "name": "ascend - player",
       "duration": 0.75
     },
     {
       "type": "cue",
-      "id": "splashdownEs/yeah1",
+      "id": "*/yeah1",
       "deprecatedIDs": [],
       "name": "jump - others",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "splashdownEs/yeah2",
+      "id": "*/yeah2",
       "deprecatedIDs": [],
       "name": "jump - player",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "splashdownEs/jumpSimultaneous",
+      "id": "*/jumpSimultaneous",
       "deprecatedIDs": [],
       "name": "jump - simultaneous",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "splashdownEs/spin1",
+      "id": "*/spin1",
       "deprecatedIDs": [],
       "name": "spin - others",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "splashdownEs/spin2",
+      "id": "*/spin2",
       "deprecatedIDs": [],
       "name": "spin - player",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "splashdownEs/splash",
+      "id": "*/splash",
       "deprecatedIDs": [],
       "name": "splash",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "splashdownEs/oooh",
+      "id": "*/oooh",
       "deprecatedIDs": [],
       "name": "ohhhhh",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "splashdownEs/ahiva1",
+      "id": "*/ahiva1",
       "deprecatedIDs": [],
       "name": "ahiva - 1",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "splashdownEs/ahiva2",
+      "id": "*/ahiva2",
       "deprecatedIDs": [],
       "name": "ahiva - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "splashdownEs/ahiva3",
+      "id": "*/ahiva3",
       "deprecatedIDs": [],
       "name": "ahiva - 3",
       "duration": 1.0
     },
     {
       "type": "equidistant",
-      "id": "splashdownEs_descend",
+      "id": "*_descend",
       "deprecatedIDs": [],
       "name": "descend",
       "distance": 0.75,
       "stretchable": true,
       "cues": [
         {
-          "id": "splashdownEs/descend1"
+          "id": "*/descend1"
         },
         {
-          "id": "splashdownEs/descend1"
+          "id": "*/descend1"
         },
         {
-          "id": "splashdownEs/descend2"
+          "id": "*/descend2"
         }
       ]
     },
     {
       "type": "equidistant",
-      "id": "splashdownEs_ascend",
+      "id": "*_ascend",
       "deprecatedIDs": [],
       "name": "ascend",
       "distance": 0.75,
       "stretchable": true,
       "cues": [
         {
-          "id": "splashdownEs/ascend1"
+          "id": "*/ascend1"
         },
         {
-          "id": "splashdownEs/ascend1"
+          "id": "*/ascend1"
         },
         {
-          "id": "splashdownEs/ascend2"
+          "id": "*/ascend2"
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "splashdownEs_jumpOthers",
+      "id": "*_jumpOthers",
       "deprecatedIDs": [],
       "name": "jump - others",
       "cues": [
         {
-          "id": "splashdownEs/yeah1",
+          "id": "*/yeah1",
           "beat": 0.0
         },
         {
-          "id": "splashdownEs/spin1",
+          "id": "*/spin1",
           "beat": 1.0
         },
         {
-          "id": "splashdownEs/splash",
+          "id": "*/splash",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "splashdownEs_jumpPlayer",
+      "id": "*_jumpPlayer",
       "deprecatedIDs": [],
       "name": "jump - player",
       "cues": [
         {
-          "id": "splashdownEs/yeah2",
+          "id": "*/yeah2",
           "beat": 0.0
         },
         {
-          "id": "splashdownEs/spin2",
+          "id": "*/spin2",
           "beat": 1.0
         },
         {
-          "id": "splashdownEs/splash",
+          "id": "*/splash",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "splashdownEs_simultaneousJump",
+      "id": "*_simultaneousJump",
       "deprecatedIDs": [],
       "name": "simultaneous jump",
       "cues": [
         {
-          "id": "splashdownEs/oooh",
+          "id": "*/oooh",
           "beat": 0.0
         },
         {
-          "id": "splashdownEs/jumpSimultaneous",
+          "id": "*/jumpSimultaneous",
           "beat": 2.0
         },
         {
-          "id": "splashdownEs/spin2",
+          "id": "*/spin2",
           "beat": 2.75
         },
         {
-          "id": "splashdownEs/splash",
+          "id": "*/splash",
           "beat": 3.75
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "splashdownEs_ahiva",
+      "id": "*_ahiva",
       "deprecatedIDs": [],
       "name": "alley-oop!",
       "cues": [
         {
-          "id": "splashdownEs/oooh",
+          "id": "*/oooh",
           "beat": 0.0
         },
         {
-          "id": "splashdownEs/jumpSimultaneous",
+          "id": "*/jumpSimultaneous",
           "beat": 2.0
         },
         {
-          "id": "splashdownEs/ahiva1",
+          "id": "*/ahiva1",
           "beat": 2.5
         },
         {
-          "id": "splashdownEs/ahiva2",
+          "id": "*/ahiva2",
           "beat": 2.75
         },
         {
-          "id": "splashdownEs/ahiva3",
+          "id": "*/ahiva3",
           "beat": 3.0
         },
         {
-          "id": "splashdownEs/splash",
+          "id": "*/splash",
           "beat": 4.0
         }
       ]

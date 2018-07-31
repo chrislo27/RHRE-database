@@ -5,76 +5,76 @@
   "objects": [
     {
       "type": "cue",
-      "id": "quizShow/hostA",
+      "id": "*/hostA",
       "deprecatedIDs": [],
       "name": "host - A",
       "duration": 0.25,
       "responseIDs": [
-        "quizShow/contestantA"
+        "*/contestantA"
       ]
     },
     {
       "type": "cue",
-      "id": "quizShow/hostDPad",
+      "id": "*/hostDPad",
       "deprecatedIDs": [],
       "name": "host - +",
       "duration": 0.25,
       "responseIDs": [
-        "quizShow/contestantDPad"
+        "*/contestantDPad"
       ]
     },
     {
       "type": "cue",
-      "id": "quizShow/contestantA",
+      "id": "*/contestantA",
       "deprecatedIDs": [],
       "name": "contestant - A",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "quizShow/contestantDPad",
+      "id": "*/contestantDPad",
       "deprecatedIDs": [],
       "name": "contestant - +",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "quizShow/timerStart",
+      "id": "*/timerStart",
       "deprecatedIDs": [],
       "name": "timer start",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "quizShow/timerStop",
+      "id": "*/timerStop",
       "deprecatedIDs": [],
       "name": "timer stop",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "quizShow/timeUp",
+      "id": "*/timeUp",
       "deprecatedIDs": [],
       "name": "time's up!",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "quizShow/answerReveal",
+      "id": "*/answerReveal",
       "deprecatedIDs": [],
       "name": "answer reveal",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "quizShow/correct",
+      "id": "*/correct",
       "deprecatedIDs": [],
       "name": "correct answer",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "quizShow/correctNoMusic",
+      "id": "*/correctNoMusic",
       "deprecatedIDs": [],
       "name": "correct answer - no music",
       "duration": 2.0

@@ -5,7 +5,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "rhythmoveDungeon/cycle",
+      "id": "*/cycle",
       "deprecatedIDs": [],
       "name": "cycle",
       "baseBpm": 121,
@@ -13,58 +13,58 @@
     },
     {
       "type": "cue",
-      "id": "rhythmoveDungeon/up",
+      "id": "*/up",
       "deprecatedIDs": [],
       "name": "up",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "rhythmoveDungeon/down",
+      "id": "*/down",
       "deprecatedIDs": [],
       "name": "down",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "rhythmoveDungeon/right",
+      "id": "*/right",
       "deprecatedIDs": [],
       "name": "right",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "rhythmoveDungeon/left",
+      "id": "*/left",
       "deprecatedIDs": [],
       "name": "left",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "rhythmoveDungeon/door",
+      "id": "*/door",
       "deprecatedIDs": [],
       "name": "door",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "rhythmoveDungeon/victory",
+      "id": "*/victory",
       "deprecatedIDs": [],
       "name": "victory",
       "duration": 8.0
     },
     {
       "type": "pattern",
-      "id": "rhythmoveDungeon_up",
+      "id": "*_up",
       "deprecatedIDs": [],
       "name": "up",
       "cues": [
         {
-          "id": "rhythmoveDungeon/cycle",
+          "id": "*/cycle",
           "beat": 0.0
         },
         {
-          "id": "rhythmoveDungeon/up",
+          "id": "*/up",
           "beat": 0.0,
           "track": 1
         }
@@ -72,16 +72,16 @@
     },
     {
       "type": "pattern",
-      "id": "rhythmoveDungeon_down",
+      "id": "*_down",
       "deprecatedIDs": [],
       "name": "down",
       "cues": [
         {
-          "id": "rhythmoveDungeon/cycle",
+          "id": "*/cycle",
           "beat": 0.0
         },
         {
-          "id": "rhythmoveDungeon/down",
+          "id": "*/down",
           "beat": 0.5,
           "track": 1
         }
@@ -89,16 +89,16 @@
     },
     {
       "type": "pattern",
-      "id": "rhythmoveDungeon_right",
+      "id": "*_right",
       "deprecatedIDs": [],
       "name": "right",
       "cues": [
         {
-          "id": "rhythmoveDungeon/cycle",
+          "id": "*/cycle",
           "beat": 0.0
         },
         {
-          "id": "rhythmoveDungeon/right",
+          "id": "*/right",
           "beat": 1.0,
           "track": 1
         }
@@ -106,16 +106,16 @@
     },
     {
       "type": "pattern",
-      "id": "rhythmoveDungeon_left",
+      "id": "*_left",
       "deprecatedIDs": [],
       "name": "left",
       "cues": [
         {
-          "id": "rhythmoveDungeon/cycle",
+          "id": "*/cycle",
           "beat": 0.0
         },
         {
-          "id": "rhythmoveDungeon/left",
+          "id": "*/left",
           "beat": 1.5,
           "track": 1
         }

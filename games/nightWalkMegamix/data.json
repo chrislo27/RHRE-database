@@ -5,49 +5,49 @@
   "objects": [
     {
       "type": "cue",
-      "id": "nightWalkMegamix/wot",
+      "id": "*/wot",
       "deprecatedIDs": [],
       "name": "wot",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "nightWalkMegamix/walk1",
+      "id": "*/walk1",
       "deprecatedIDs": [],
       "name": "walk - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "nightWalkMegamix/walk2",
+      "id": "*/walk2",
       "deprecatedIDs": [],
       "name": "walk - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "nightWalkMegamix/jump1",
+      "id": "*/jump1",
       "deprecatedIDs": [],
       "name": "jump - flower",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "nightWalkMegamix/jump2",
+      "id": "*/jump2",
       "deprecatedIDs": [],
       "name": "jump - lollipop",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "nightWalkMegamix/jump3",
+      "id": "*/jump3",
       "deprecatedIDs": [],
       "name": "jump - umbrella",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "nightWalkMegamix/jumpUmbrella1",
+      "id": "*/jumpUmbrella1",
       "deprecatedIDs": [
         "nightWalkMegamix/jumpUmbrella"
       ],
@@ -56,259 +56,259 @@
     },
     {
       "type": "cue",
-      "id": "nightWalkMegamix/jumpUmbrella2",
+      "id": "*/jumpUmbrella2",
       "deprecatedIDs": [],
       "name": "jump UP - umbrella / end - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "nightWalkMegamix/disappear",
+      "id": "*/disappear",
       "deprecatedIDs": [],
       "name": "box disappear",
       "duration": 1.0
     },
     {
       "type": "keepTheBeat",
-      "id": "nightWalkMegamix_walk",
+      "id": "*_walk",
       "deprecatedIDs": [],
       "name": "walking",
       "defaultDuration": 2.0,
       "cues": [
         {
-          "id": "nightWalkMegamix/walk2",
+          "id": "*/walk2",
           "beat": 0.0
         },
         {
-          "id": "nightWalkMegamix/walk1",
+          "id": "*/walk1",
           "beat": 0.5
         },
         {
-          "id": "nightWalkMegamix/walk2",
+          "id": "*/walk2",
           "beat": 1.0
         },
         {
-          "id": "nightWalkMegamix/walk1",
+          "id": "*/walk1",
           "beat": 1.5
         }
       ]
     },
     {
       "type": "keepTheBeat",
-      "id": "nightWalkMegamix_jump1",
+      "id": "*_jump1",
       "deprecatedIDs": [],
       "name": "four flowers",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "nightWalkMegamix/jump1",
+          "id": "*/jump1",
           "beat": 0.0
         },
         {
-          "id": "nightWalkMegamix/jump1",
+          "id": "*/jump1",
           "beat": 1.0
         },
         {
-          "id": "nightWalkMegamix/jump1",
+          "id": "*/jump1",
           "beat": 2.0
         },
         {
-          "id": "nightWalkMegamix/jump1",
+          "id": "*/jump1",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "keepTheBeat",
-      "id": "nightWalkMegamix_jump2",
+      "id": "*_jump2",
       "deprecatedIDs": [],
       "name": "three flowers, one lollipop",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "nightWalkMegamix/jump1",
+          "id": "*/jump1",
           "beat": 0.0
         },
         {
-          "id": "nightWalkMegamix/jump1",
+          "id": "*/jump1",
           "beat": 1.0
         },
         {
-          "id": "nightWalkMegamix/jump1",
+          "id": "*/jump1",
           "beat": 2.0
         },
         {
-          "id": "nightWalkMegamix/jump2",
+          "id": "*/jump2",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "keepTheBeat",
-      "id": "nightWalkMegamix_jump3",
+      "id": "*_jump3",
       "deprecatedIDs": [],
       "name": "two flowers, two lollipops",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "nightWalkMegamix/jump1",
+          "id": "*/jump1",
           "beat": 0.0
         },
         {
-          "id": "nightWalkMegamix/jump2",
+          "id": "*/jump2",
           "beat": 1.0
         },
         {
-          "id": "nightWalkMegamix/jump1",
+          "id": "*/jump1",
           "beat": 2.0
         },
         {
-          "id": "nightWalkMegamix/jump2",
+          "id": "*/jump2",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "keepTheBeat",
-      "id": "nightWalkMegamix_jumpUmbrella1",
+      "id": "*_jumpUmbrella1",
       "deprecatedIDs": [],
       "name": "three flowers, one umbrella - same level",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "nightWalkMegamix/jump1",
+          "id": "*/jump1",
           "beat": 0.0
         },
         {
-          "id": "nightWalkMegamix/jump1",
+          "id": "*/jump1",
           "beat": 1.0
         },
         {
-          "id": "nightWalkMegamix/jump1",
+          "id": "*/jump1",
           "beat": 2.0
         },
         {
-          "id": "nightWalkMegamix/jump3",
+          "id": "*/jump3",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "keepTheBeat",
-      "id": "nightWalkMegamix_jumpUmbrella2",
+      "id": "*_jumpUmbrella2",
       "deprecatedIDs": [],
       "name": "three flowers, one umbrella - up a level",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "nightWalkMegamix/jump1",
+          "id": "*/jump1",
           "beat": 0.0
         },
         {
-          "id": "nightWalkMegamix/jump1",
+          "id": "*/jump1",
           "beat": 1.0
         },
         {
-          "id": "nightWalkMegamix/jump1",
+          "id": "*/jump1",
           "beat": 2.0
         },
         {
-          "id": "nightWalkMegamix/jumpUmbrella1",
+          "id": "*/jumpUmbrella1",
           "beat": 2.5
         },
         {
-          "id": "nightWalkMegamix/jumpUmbrella2",
+          "id": "*/jumpUmbrella2",
           "beat": 2.75
         },
         {
-          "id": "nightWalkMegamix/jump3",
+          "id": "*/jump3",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "keepTheBeat",
-      "id": "nightWalkMegamix_jumpUmbrella3",
+      "id": "*_jumpUmbrella3",
       "deprecatedIDs": [],
       "name": "three lollipops, one umbrella - same level",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "nightWalkMegamix/jump2",
+          "id": "*/jump2",
           "beat": 0.0
         },
         {
-          "id": "nightWalkMegamix/jump2",
+          "id": "*/jump2",
           "beat": 1.0
         },
         {
-          "id": "nightWalkMegamix/jump2",
+          "id": "*/jump2",
           "beat": 2.0
         },
         {
-          "id": "nightWalkMegamix/jump3",
+          "id": "*/jump3",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "keepTheBeat",
-      "id": "nightWalkMegamix_jumpUmbrella4",
+      "id": "*_jumpUmbrella4",
       "deprecatedIDs": [],
       "name": "three lollipops, one umbrella - up a level",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "nightWalkMegamix/jump2",
+          "id": "*/jump2",
           "beat": 0.0
         },
         {
-          "id": "nightWalkMegamix/jump2",
+          "id": "*/jump2",
           "beat": 1.0
         },
         {
-          "id": "nightWalkMegamix/jump2",
+          "id": "*/jump2",
           "beat": 2.0
         },
         {
-          "id": "nightWalkMegamix/jumpUmbrella1",
+          "id": "*/jumpUmbrella1",
           "beat": 2.5
         },
         {
-          "id": "nightWalkMegamix/jumpUmbrella2",
+          "id": "*/jumpUmbrella2",
           "beat": 2.75
         },
         {
-          "id": "nightWalkMegamix/jump3",
+          "id": "*/jump3",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "keepTheBeat",
-      "id": "nightWalkMegamix_disappear",
+      "id": "*_disappear",
       "deprecatedIDs": [],
       "name": "boxes disappearing",
       "defaultDuration": 5.0,
       "cues": [
         {
-          "id": "nightWalkMegamix/disappear",
+          "id": "*/disappear",
           "beat": 0.0
         },
         {
-          "id": "nightWalkMegamix/disappear",
+          "id": "*/disappear",
           "beat": 1.0
         },
         {
-          "id": "nightWalkMegamix/disappear",
+          "id": "*/disappear",
           "beat": 2.0
         },
         {
-          "id": "nightWalkMegamix/disappear",
+          "id": "*/disappear",
           "beat": 3.0
         },
         {
-          "id": "nightWalkMegamix/disappear",
+          "id": "*/disappear",
           "beat": 4.0
         }
       ]

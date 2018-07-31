@@ -6,123 +6,123 @@
   "objects": [
     {
       "type": "cue",
-      "id": "packingPestsJa/candy1",
+      "id": "*/candy1",
       "deprecatedIDs": [],
       "name": "candy - throw",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "packingPestsJa/candy2",
+      "id": "*/candy2",
       "deprecatedIDs": [],
       "name": "candy - grab",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "packingPestsJa/spider1",
+      "id": "*/spider1",
       "deprecatedIDs": [],
       "name": "spider - throw",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "packingPestsJa/spider2",
+      "id": "*/spider2",
       "deprecatedIDs": [],
       "name": "spider - slap",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "packingPestsJa/ikuze1",
+      "id": "*/ikuze1",
       "deprecatedIDs": [],
       "name": "iku-",
       "duration": 0.45833
     },
     {
       "type": "cue",
-      "id": "packingPestsJa/ikuze2",
+      "id": "*/ikuze2",
       "deprecatedIDs": [],
       "name": "-ze",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "packingPestsJa/ding",
+      "id": "*/ding",
       "deprecatedIDs": [],
       "name": "ding",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "packingPestsJa/dingHm",
+      "id": "*/dingHm",
       "deprecatedIDs": [],
       "name": "ding - hm",
       "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "packingPestsJa_pattern",
+      "id": "*_pattern",
       "deprecatedIDs": [],
       "name": "pattern",
       "cues": [
         {
-          "id": "packingPestsJa/candy1",
+          "id": "*/candy1",
           "beat": 0.0
         },
         {
-          "id": "packingPestsJa/candy2",
+          "id": "*/candy2",
           "beat": 1.0
         },
         {
-          "id": "packingPestsJa/spider1",
+          "id": "*/spider1",
           "beat": 2.0
         },
         {
-          "id": "packingPestsJa/spider2",
+          "id": "*/spider2",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "packingPestsJa_ikuze",
+      "id": "*_ikuze",
       "deprecatedIDs": [],
       "name": "double up!",
       "cues": [
         {
-          "id": "packingPestsJa/candy1",
+          "id": "*/candy1",
           "beat": 0.0
         },
         {
-          "id": "packingPestsJa/ikuze1",
+          "id": "*/ikuze1",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "packingPestsJa/ikuze2",
+          "id": "*/ikuze2",
           "beat": 0.45833,
           "track": 1
         },
         {
-          "id": "packingPestsJa/candy2",
+          "id": "*/candy2",
           "beat": 1.0
         },
         {
-          "id": "packingPestsJa/spider1",
+          "id": "*/spider1",
           "beat": 1.5
         },
         {
-          "id": "packingPestsJa/spider2",
+          "id": "*/spider2",
           "beat": 2.5
         },
         {
-          "id": "packingPestsJa/spider1",
+          "id": "*/spider1",
           "beat": 2.5,
           "track": 1
         },
         {
-          "id": "packingPestsJa/spider2",
+          "id": "*/spider2",
           "beat": 3.5,
           "track": 1
         }
@@ -130,56 +130,56 @@
     },
     {
       "type": "pattern",
-      "id": "packingPestsJa_pattern2",
+      "id": "*_pattern2",
       "deprecatedIDs": [],
       "name": "offbeat pattern",
       "cues": [
         {
-          "id": "packingPestsJa/candy1",
+          "id": "*/candy1",
           "beat": 0.0
         },
         {
-          "id": "packingPestsJa/candy2",
+          "id": "*/candy2",
           "beat": 1.0
         },
         {
-          "id": "packingPestsJa/spider1",
+          "id": "*/spider1",
           "beat": 1.5
         },
         {
-          "id": "packingPestsJa/spider2",
+          "id": "*/spider2",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "packingPestsJa_dingpattern",
+      "id": "*_dingpattern",
       "deprecatedIDs": [],
       "name": "ding pattern",
       "cues": [
         {
-          "id": "packingPestsJa/ding",
+          "id": "*/ding",
           "beat": 0.0
         },
         {
-          "id": "packingPestsJa/dingHm",
+          "id": "*/dingHm",
           "beat": 0.5
         },
         {
-          "id": "packingPestsJa/candy1",
+          "id": "*/candy1",
           "beat": 1.0
         },
         {
-          "id": "packingPestsJa/candy2",
+          "id": "*/candy2",
           "beat": 2.0
         },
         {
-          "id": "packingPestsJa/spider1",
+          "id": "*/spider1",
           "beat": 2.5
         },
         {
-          "id": "packingPestsJa/spider2",
+          "id": "*/spider2",
           "beat": 3.5
         }
       ]

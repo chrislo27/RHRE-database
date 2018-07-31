@@ -7,180 +7,180 @@
   "objects": [
     {
       "type": "cue",
-      "id": "forkLifter/flickPrepare",
+      "id": "*/flickPrepare",
       "deprecatedIDs": [],
       "name": "pea - prepare flick",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "forkLifter/flick",
+      "id": "*/flick",
       "deprecatedIDs": [],
       "name": "pea - flick",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "forkLifter/zoom",
+      "id": "*/zoom",
       "deprecatedIDs": [],
       "name": "pea - zoom",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "forkLifter/stab",
+      "id": "*/stab",
       "deprecatedIDs": [],
       "name": "pea - stab",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "forkLifter/gulp",
+      "id": "*/gulp",
       "deprecatedIDs": [],
       "name": "gulp",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "forkLifter/burger",
+      "id": "*/burger",
       "deprecatedIDs": [],
       "name": "burger",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "forkLifter/sigh",
+      "id": "*/sigh",
       "deprecatedIDs": [],
       "name": "sigh",
       "duration": 2.0
     },
     {
       "type": "pattern",
-      "id": "forkLifter_onePea",
+      "id": "*_onePea",
       "deprecatedIDs": [],
       "name": "single pea",
       "cues": [
         {
-          "id": "forkLifter/flick",
+          "id": "*/flick",
           "beat": 0.0
         },
         {
-          "id": "forkLifter/zoom",
+          "id": "*/zoom",
           "beat": 1.5
         },
         {
-          "id": "forkLifter/stab",
+          "id": "*/stab",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "forkLifter_twoPeas",
+      "id": "*_twoPeas",
       "deprecatedIDs": [],
       "name": "two peas",
       "cues": [
         {
-          "id": "forkLifter/flick",
+          "id": "*/flick",
           "beat": 0.0
         },
         {
-          "id": "forkLifter/flick",
+          "id": "*/flick",
           "beat": 1.0
         },
         {
-          "id": "forkLifter/zoom",
+          "id": "*/zoom",
           "beat": 1.5
         },
         {
-          "id": "forkLifter/stab",
+          "id": "*/stab",
           "beat": 2.0
         },
         {
-          "id": "forkLifter/zoom",
+          "id": "*/zoom",
           "beat": 2.5
         },
         {
-          "id": "forkLifter/stab",
+          "id": "*/stab",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "forkLifter_twoPeasFast",
+      "id": "*_twoPeasFast",
       "deprecatedIDs": [],
       "name": "two peas (faster)",
       "cues": [
         {
-          "id": "forkLifter/flick",
+          "id": "*/flick",
           "beat": 0.0
         },
         {
-          "id": "forkLifter/flick",
+          "id": "*/flick",
           "beat": 0.5
         },
         {
-          "id": "forkLifter/zoom",
+          "id": "*/zoom",
           "beat": 1.5
         },
         {
-          "id": "forkLifter/stab",
+          "id": "*/stab",
           "beat": 2
         },
         {
-          "id": "forkLifter/zoom",
+          "id": "*/zoom",
           "beat": 2,
           "track": 1
         },
         {
-          "id": "forkLifter/stab",
+          "id": "*/stab",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "forkLifter_threePeas",
+      "id": "*_threePeas",
       "deprecatedIDs": [],
       "name": "three peas",
       "cues": [
         {
-          "id": "forkLifter/flick",
+          "id": "*/flick",
           "beat": 0.0
         },
         {
-          "id": "forkLifter/flick",
+          "id": "*/flick",
           "beat": 0.5
         },
         {
-          "id": "forkLifter/flick",
+          "id": "*/flick",
           "beat": 1.0
         },
         {
-          "id": "forkLifter/zoom",
+          "id": "*/zoom",
           "beat": 1.5
         },
         {
-          "id": "forkLifter/stab",
+          "id": "*/stab",
           "beat": 2.0
         },
         {
-          "id": "forkLifter/zoom",
+          "id": "*/zoom",
           "beat": 2.0,
           "track": 1
         },
         {
-          "id": "forkLifter/stab",
+          "id": "*/stab",
           "beat": 2.5
         },
         {
-          "id": "forkLifter/zoom",
+          "id": "*/zoom",
           "beat": 2.5,
           "track": 1
         },
         {
-          "id": "forkLifter/stab",
+          "id": "*/stab",
           "beat": 3.0
         }
       ]

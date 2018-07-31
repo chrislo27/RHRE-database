@@ -5,862 +5,862 @@
   "objects": [
     {
       "type": "cue",
-      "id": "rapWomen/yeah",
+      "id": "*/yeah",
       "deprecatedIDs": [],
       "name": "yeah",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "rapWomen/desu",
+      "id": "*/desu",
       "deprecatedIDs": [],
       "name": "desu-",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "rapWomen/ka",
+      "id": "*/ka",
       "deprecatedIDs": [],
       "name": "-ka?",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "rapWomen/yo",
+      "id": "*/yo",
       "deprecatedIDs": [],
       "name": "yo,",
       "duration": 0.75
     },
     {
       "type": "cue",
-      "id": "rapWomen/juji1",
+      "id": "*/juji1",
       "deprecatedIDs": [],
       "name": "ju-",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "rapWomen/juji2",
+      "id": "*/juji2",
       "deprecatedIDs": [],
       "name": "ji",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/oyatsudesuka1",
+      "id": "*/oyatsudesuka1",
       "deprecatedIDs": [],
       "name": "oyatsu desu ka - o",
       "duration": 0.125
     },
     {
       "type": "cue",
-      "id": "rapWomen/oyatsudesuka2",
+      "id": "*/oyatsudesuka2",
       "deprecatedIDs": [],
       "name": "oyatsu desu ka - yatsu",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "rapWomen/naishodesuka1",
+      "id": "*/naishodesuka1",
       "deprecatedIDs": [],
       "name": "naisho desu ka - nai",
       "duration": 0.375
     },
     {
       "type": "cue",
-      "id": "rapWomen/naishodesuka2",
+      "id": "*/naishodesuka2",
       "deprecatedIDs": [],
       "name": "naisho desu ka - sho",
       "duration": 0.125
     },
     {
       "type": "cue",
-      "id": "rapWomen/naishodesuka3",
+      "id": "*/naishodesuka3",
       "deprecatedIDs": [],
       "name": "naisho desu ka - desu",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/naishodesuka4",
+      "id": "*/naishodesuka4",
       "deprecatedIDs": [],
       "name": "naisho desu ka - ka?",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/kamone1",
+      "id": "*/kamone1",
       "deprecatedIDs": [],
       "name": "kamone - ka",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/kamone2",
+      "id": "*/kamone2",
       "deprecatedIDs": [],
       "name": "kamone - mo",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/kamone3",
+      "id": "*/kamone3",
       "deprecatedIDs": [],
       "name": "kamone - ne?",
       "duration": 0.75
     },
     {
       "type": "cue",
-      "id": "rapWomen/kare1",
+      "id": "*/kare1",
       "deprecatedIDs": [],
       "name": "kare no oyatsu dane - ka",
       "duration": 0.313
     },
     {
       "type": "cue",
-      "id": "rapWomen/kare2",
+      "id": "*/kare2",
       "deprecatedIDs": [],
       "name": "kare no oyatsu dane - re",
       "duration": 0.188
     },
     {
       "type": "cue",
-      "id": "rapWomen/kare3",
+      "id": "*/kare3",
       "deprecatedIDs": [],
       "name": "kare no oyatsu dane - no",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/kare4",
+      "id": "*/kare4",
       "deprecatedIDs": [],
       "name": "kare no oyatsu dane - o",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/kare5",
+      "id": "*/kare5",
       "deprecatedIDs": [],
       "name": "kare no oyatsu dane - yat",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/kare6",
+      "id": "*/kare6",
       "deprecatedIDs": [],
       "name": "kare no oyatsu dane - su",
       "duration": 0.188
     },
     {
       "type": "cue",
-      "id": "rapWomen/dane1",
+      "id": "*/dane1",
       "deprecatedIDs": [],
       "name": "kare no oyatsu dane - da-",
       "duration": 0.313
     },
     {
       "type": "cue",
-      "id": "rapWomen/dane2",
+      "id": "*/dane2",
       "deprecatedIDs": [],
       "name": "kare no oyatsu dane - ne",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/tabete1",
+      "id": "*/tabete1",
       "deprecatedIDs": [],
       "name": "tabete ii - ta-",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/tabete2",
+      "id": "*/tabete2",
       "deprecatedIDs": [],
       "name": "tabete ii - be-",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/tabete3",
+      "id": "*/tabete3",
       "deprecatedIDs": [],
       "name": "tabete ii - te",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/tabete4",
+      "id": "*/tabete4",
       "deprecatedIDs": [],
       "name": "tabete ii - ii",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "rapWomen/akete1",
+      "id": "*/akete1",
       "deprecatedIDs": [],
       "name": "akete ii - a-",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/akete2",
+      "id": "*/akete2",
       "deprecatedIDs": [],
       "name": "akete ii - ke-",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/akete3",
+      "id": "*/akete3",
       "deprecatedIDs": [],
       "name": "akete ii - te",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/akete4",
+      "id": "*/akete4",
       "deprecatedIDs": [],
       "name": "akete ii - ii",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "rapWomen/saiko1",
+      "id": "*/saiko1",
       "deprecatedIDs": [],
       "name": "saiko - sai",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "rapWomen/saiko2",
+      "id": "*/saiko2",
       "deprecatedIDs": [],
       "name": "saiko - ko!",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "rapWomen/oyatsusaiko1",
+      "id": "*/oyatsusaiko1",
       "deprecatedIDs": [],
       "name": "oyatsu saiko - o",
       "duration": 0.188
     },
     {
       "type": "cue",
-      "id": "rapWomen/oyatsusaiko2",
+      "id": "*/oyatsusaiko2",
       "deprecatedIDs": [],
       "name": "oyatsu saiko - ya",
       "duration": 0.313
     },
     {
       "type": "cue",
-      "id": "rapWomen/oyatsusaiko3",
+      "id": "*/oyatsusaiko3",
       "deprecatedIDs": [],
       "name": "oyatsu saiko - tsu",
       "duration": 0.313
     },
     {
       "type": "cue",
-      "id": "rapWomen/oyatsusaiko4",
+      "id": "*/oyatsusaiko4",
       "deprecatedIDs": [],
       "name": "oyatsu saiko - wa",
       "duration": 0.188
     },
     {
       "type": "cue",
-      "id": "rapWomen/amakute1",
+      "id": "*/amakute1",
       "deprecatedIDs": [],
       "name": "amakute - a",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/amakute2",
+      "id": "*/amakute2",
       "deprecatedIDs": [],
       "name": "amakute - ma",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/amakute3",
+      "id": "*/amakute3",
       "deprecatedIDs": [],
       "name": "amakute - ku",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/amakute4",
+      "id": "*/amakute4",
       "deprecatedIDs": [],
       "name": "amakute - te",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/naisho1",
+      "id": "*/naisho1",
       "deprecatedIDs": [],
       "name": "naisho - nai",
       "duration": 0.375
     },
     {
       "type": "cue",
-      "id": "rapWomen/naisho2",
+      "id": "*/naisho2",
       "deprecatedIDs": [],
       "name": "naisho - sho!",
       "duration": 0.625
     },
     {
       "type": "cue",
-      "id": "rapWomen/betsubara1",
+      "id": "*/betsubara1",
       "deprecatedIDs": [],
       "name": "betsubara - betsu",
       "duration": 0.438
     },
     {
       "type": "cue",
-      "id": "rapWomen/betsubara2",
+      "id": "*/betsubara2",
       "deprecatedIDs": [],
       "name": "betsubara - bara",
       "duration": 0.563
     },
     {
       "type": "cue",
-      "id": "rapWomen/kibun1",
+      "id": "*/kibun1",
       "deprecatedIDs": [],
       "name": "kibun - ki",
       "duration": 0.313
     },
     {
       "type": "cue",
-      "id": "rapWomen/kibun2",
+      "id": "*/kibun2",
       "deprecatedIDs": [],
       "name": "kibun - bun",
       "duration": 0.563
     },
     {
       "type": "cue",
-      "id": "rapWomen/kibun3",
+      "id": "*/kibun3",
       "deprecatedIDs": [],
       "name": "kibun - wa",
       "duration": 0.125
     },
     {
       "type": "cue",
-      "id": "rapWomen/darenimo1",
+      "id": "*/darenimo1",
       "deprecatedIDs": [],
       "name": "dare ni mo - da",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/darenimo2",
+      "id": "*/darenimo2",
       "deprecatedIDs": [],
       "name": "dare ni mo - re",
       "duration": 0.188
     },
     {
       "type": "cue",
-      "id": "rapWomen/darenimo3",
+      "id": "*/darenimo3",
       "deprecatedIDs": [],
       "name": "dare ni mo - ni",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/darenimo4",
+      "id": "*/darenimo4",
       "deprecatedIDs": [],
       "name": "dare ni mo - mo",
       "duration": 0.313
     },
     {
       "type": "cue",
-      "id": "rapWomen/kareniwa1",
+      "id": "*/kareniwa1",
       "deprecatedIDs": [],
       "name": "kare ni wa - ka",
       "duration": 0.188
     },
     {
       "type": "cue",
-      "id": "rapWomen/kareniwa2",
+      "id": "*/kareniwa2",
       "deprecatedIDs": [],
       "name": "kare ni wa- re",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/kareniwa3",
+      "id": "*/kareniwa3",
       "deprecatedIDs": [],
       "name": "kare ni wa - ni",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rapWomen/kareniwa4",
+      "id": "*/kareniwa4",
       "deprecatedIDs": [],
       "name": "kare ni wa - was",
       "duration": 0.313
     },
     {
       "type": "cue",
-      "id": "rapWomen/uh",
+      "id": "*/uh",
       "deprecatedIDs": [],
       "name": "uh",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "rapWomen/uhn",
+      "id": "*/uhn",
       "deprecatedIDs": [],
       "name": "-UHN!",
       "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "rapWomen_jujidesuka",
+      "id": "*_jujidesuka",
       "deprecatedIDs": [],
       "name": "yo, juji [CYAN]desu ka?[]",
       "cues": [
         {
-          "id": "rapWomen/yo",
+          "id": "*/yo",
           "beat": 0.0
         },
         {
-          "id": "rapWomen/juji1",
+          "id": "*/juji1",
           "beat": 0.75
         },
         {
-          "id": "rapWomen/juji2",
+          "id": "*/juji2",
           "beat": 1.25
         },
         {
-          "id": "rapWomen/desu",
+          "id": "*/desu",
           "beat": 1.5
         },
         {
-          "id": "rapWomen/ka",
+          "id": "*/ka",
           "beat": 2.0
         },
         {
-          "id": "rapWomen/uh",
+          "id": "*/uh",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "rapWomen_oyatsudesuka",
+      "id": "*_oyatsudesuka",
       "deprecatedIDs": [],
       "name": "yo, oyatsu [CYAN]desu ka?[]",
       "cues": [
         {
-          "id": "rapWomen/yo",
+          "id": "*/yo",
           "beat": 0.0
         },
         {
-          "id": "rapWomen/oyatsudesuka1",
+          "id": "*/oyatsudesuka1",
           "beat": 0.875
         },
         {
-          "id": "rapWomen/oyatsudesuka2",
+          "id": "*/oyatsudesuka2",
           "beat": 1.0
         },
         {
-          "id": "rapWomen/desu",
+          "id": "*/desu",
           "beat": 1.5
         },
         {
-          "id": "rapWomen/ka",
+          "id": "*/ka",
           "beat": 2.0
         },
         {
-          "id": "rapWomen/uh",
+          "id": "*/uh",
           "beat": 3.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "rapWomen_naishodesuka",
+      "id": "*_naishodesuka",
       "deprecatedIDs": [],
       "name": "naisho [CYAN]desu ka?[]",
       "cues": [
         {
-          "id": "rapWomen/naishodesuka1",
+          "id": "*/naishodesuka1",
           "beat": 0.0
         },
         {
-          "id": "rapWomen/naishodesuka2",
+          "id": "*/naishodesuka2",
           "beat": 0.375
         },
         {
-          "id": "rapWomen/naishodesuka3",
+          "id": "*/naishodesuka3",
           "beat": 0.5
         },
         {
-          "id": "rapWomen/naishodesuka4",
+          "id": "*/naishodesuka4",
           "beat": 0.75
         },
         {
-          "id": "rapWomen/uh",
+          "id": "*/uh",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "rapWomen_karenooaytsudane",
+      "id": "*_karenooaytsudane",
       "deprecatedIDs": [],
       "name": "kare no oyatsu [PINK]dane?[]",
       "cues": [
         {
-          "id": "rapWomen/kare1",
+          "id": "*/kare1",
           "beat": 0.0
         },
         {
-          "id": "rapWomen/kare2",
+          "id": "*/kare2",
           "beat": 0.313
         },
         {
-          "id": "rapWomen/kare3",
+          "id": "*/kare3",
           "beat": 0.5
         },
         {
-          "id": "rapWomen/kare4",
+          "id": "*/kare4",
           "beat": 0.75
         },
         {
-          "id": "rapWomen/kare5",
+          "id": "*/kare5",
           "beat": 1.0
         },
         {
-          "id": "rapWomen/kare6",
+          "id": "*/kare6",
           "beat": 1.25
         },
         {
-          "id": "rapWomen/dane1",
+          "id": "*/dane1",
           "beat": 1.438
         },
         {
-          "id": "rapWomen/dane2",
+          "id": "*/dane2",
           "beat": 1.75
         },
         {
-          "id": "rapWomen/uh",
+          "id": "*/uh",
           "beat": 2.5
         },
         {
-          "id": "rapWomen/uh",
+          "id": "*/uh",
           "beat": 3.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "rapWomen_aketeiikamone",
+      "id": "*_aketeiikamone",
       "deprecatedIDs": [],
       "name": "akete ii [PINK]kamone?[]",
       "cues": [
         {
-          "id": "rapWomen/akete1",
+          "id": "*/akete1",
           "beat": 0.0
         },
         {
-          "id": "rapWomen/akete2",
+          "id": "*/akete2",
           "beat": 0.25
         },
         {
-          "id": "rapWomen/akete3",
+          "id": "*/akete3",
           "beat": 0.5
         },
         {
-          "id": "rapWomen/akete4",
+          "id": "*/akete4",
           "beat": 0.75
         },
         {
-          "id": "rapWomen/kamone1",
+          "id": "*/kamone1",
           "beat": 1.25
         },
         {
-          "id": "rapWomen/kamone2",
+          "id": "*/kamone2",
           "beat": 1.5
         },
         {
-          "id": "rapWomen/kamone3",
+          "id": "*/kamone3",
           "beat": 1.75
         },
         {
-          "id": "rapWomen/uh",
+          "id": "*/uh",
           "beat": 2.5
         },
         {
-          "id": "rapWomen/uh",
+          "id": "*/uh",
           "beat": 3.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "rapWomen_tabetekamone",
+      "id": "*_tabetekamone",
       "deprecatedIDs": [],
       "name": "tabete ii [PINK]kamone?[]",
       "cues": [
         {
-          "id": "rapWomen/tabete1",
+          "id": "*/tabete1",
           "beat": 0.0
         },
         {
-          "id": "rapWomen/tabete2",
+          "id": "*/tabete2",
           "beat": 0.25
         },
         {
-          "id": "rapWomen/tabete3",
+          "id": "*/tabete3",
           "beat": 0.5
         },
         {
-          "id": "rapWomen/tabete4",
+          "id": "*/tabete4",
           "beat": 0.75
         },
         {
-          "id": "rapWomen/kamone1",
+          "id": "*/kamone1",
           "beat": 1.25
         },
         {
-          "id": "rapWomen/kamone2",
+          "id": "*/kamone2",
           "beat": 1.5
         },
         {
-          "id": "rapWomen/kamone3",
+          "id": "*/kamone3",
           "beat": 1.75
         },
         {
-          "id": "rapWomen/uh",
+          "id": "*/uh",
           "beat": 2.5
         },
         {
-          "id": "rapWomen/uh",
+          "id": "*/uh",
           "beat": 3.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "rapWomen_oyatsusaiko",
+      "id": "*_oyatsusaiko",
       "deprecatedIDs": [],
       "name": "oyatsu wa [YELLOW]saiko!![]",
       "cues": [
         {
-          "id": "rapWomen/oyatsusaiko1",
+          "id": "*/oyatsusaiko1",
           "beat": 0.0
         },
         {
-          "id": "rapWomen/oyatsusaiko2",
+          "id": "*/oyatsusaiko2",
           "beat": 0.188
         },
         {
-          "id": "rapWomen/oyatsusaiko3",
+          "id": "*/oyatsusaiko3",
           "beat": 0.5
         },
         {
-          "id": "rapWomen/oyatsusaiko4",
+          "id": "*/oyatsusaiko4",
           "beat": 0.813
         },
         {
-          "id": "rapWomen/saiko1",
+          "id": "*/saiko1",
           "beat": 1.0
         },
         {
-          "id": "rapWomen/saiko2",
+          "id": "*/saiko2",
           "beat": 1.5
         },
         {
-          "id": "rapWomen/uh",
+          "id": "*/uh",
           "beat": 2.0
         },
         {
-          "id": "rapWomen/uhn",
+          "id": "*/uhn",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "rapWomen_kibunsaiko",
+      "id": "*_kibunsaiko",
       "deprecatedIDs": [],
       "name": "kibun wa [YELLOW]saiko!![]",
       "cues": [
         {
-          "id": "rapWomen/kibun1",
+          "id": "*/kibun1",
           "beat": 0.0
         },
         {
-          "id": "rapWomen/kibun2",
+          "id": "*/kibun2",
           "beat": 0.313
         },
         {
-          "id": "rapWomen/kibun3",
+          "id": "*/kibun3",
           "beat": 0.875
         },
         {
-          "id": "rapWomen/saiko1",
+          "id": "*/saiko1",
           "beat": 1.0
         },
         {
-          "id": "rapWomen/saiko2",
+          "id": "*/saiko2",
           "beat": 1.5
         },
         {
-          "id": "rapWomen/uh",
+          "id": "*/uh",
           "beat": 2.0
         },
         {
-          "id": "rapWomen/uhn",
+          "id": "*/uhn",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "rapWomen_betsubarasaiko",
+      "id": "*_betsubarasaiko",
       "deprecatedIDs": [],
       "name": "betsubara [YELLOW]saiko!![]",
       "cues": [
         {
-          "id": "rapWomen/betsubara1",
+          "id": "*/betsubara1",
           "beat": 0.0
         },
         {
-          "id": "rapWomen/betsubara2",
+          "id": "*/betsubara2",
           "beat": 0.438
         },
         {
-          "id": "rapWomen/saiko1",
+          "id": "*/saiko1",
           "beat": 1.0
         },
         {
-          "id": "rapWomen/saiko2",
+          "id": "*/saiko2",
           "beat": 1.5
         },
         {
-          "id": "rapWomen/uh",
+          "id": "*/uh",
           "beat": 2.0
         },
         {
-          "id": "rapWomen/uhn",
+          "id": "*/uhn",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "rapWomen_amakutesaiko",
+      "id": "*_amakutesaiko",
       "deprecatedIDs": [],
       "name": "amakute [YELLOW]saiko!![]",
       "cues": [
         {
-          "id": "rapWomen/amakute1",
+          "id": "*/amakute1",
           "beat": 0.0
         },
         {
-          "id": "rapWomen/amakute2",
+          "id": "*/amakute2",
           "beat": 0.25
         },
         {
-          "id": "rapWomen/amakute3",
+          "id": "*/amakute3",
           "beat": 0.5
         },
         {
-          "id": "rapWomen/amakute4",
+          "id": "*/amakute4",
           "beat": 0.75
         },
         {
-          "id": "rapWomen/saiko1",
+          "id": "*/saiko1",
           "beat": 1.0
         },
         {
-          "id": "rapWomen/saiko2",
+          "id": "*/saiko2",
           "beat": 1.5
         },
         {
-          "id": "rapWomen/uh",
+          "id": "*/uh",
           "beat": 2.0
         },
         {
-          "id": "rapWomen/uhn",
+          "id": "*/uhn",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "rapWomen_kareniwanaisho",
+      "id": "*_kareniwanaisho",
       "deprecatedIDs": [],
       "name": "kare ni wa [YELLOW]naisho!![]",
       "cues": [
         {
-          "id": "rapWomen/kareniwa1",
+          "id": "*/kareniwa1",
           "beat": 0.0
         },
         {
-          "id": "rapWomen/kareniwa2",
+          "id": "*/kareniwa2",
           "beat": 0.183
         },
         {
-          "id": "rapWomen/kareniwa3",
+          "id": "*/kareniwa3",
           "beat": 0.438
         },
         {
-          "id": "rapWomen/kareniwa4",
+          "id": "*/kareniwa4",
           "beat": 0.688
         },
         {
-          "id": "rapWomen/naisho1",
+          "id": "*/naisho1",
           "beat": 1.0
         },
         {
-          "id": "rapWomen/naisho2",
+          "id": "*/naisho2",
           "beat": 1.375
         },
         {
-          "id": "rapWomen/uh",
+          "id": "*/uh",
           "beat": 2.0
         },
         {
-          "id": "rapWomen/uhn",
+          "id": "*/uhn",
           "beat": 2.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "rapWomen_darenimonaisho",
+      "id": "*_darenimonaisho",
       "deprecatedIDs": [],
       "name": "dare ni mo [YELLOW]naisho!![]",
       "cues": [
         {
-          "id": "rapWomen/darenimo1",
+          "id": "*/darenimo1",
           "beat": 0.0
         },
         {
-          "id": "rapWomen/darenimo2",
+          "id": "*/darenimo2",
           "beat": 0.25
         },
         {
-          "id": "rapWomen/darenimo3",
+          "id": "*/darenimo3",
           "beat": 0.438
         },
         {
-          "id": "rapWomen/darenimo4",
+          "id": "*/darenimo4",
           "beat": 0.688
         },
         {
-          "id": "rapWomen/naisho1",
+          "id": "*/naisho1",
           "beat": 1.0
         },
         {
-          "id": "rapWomen/naisho2",
+          "id": "*/naisho2",
           "beat": 1.375
         },
         {
-          "id": "rapWomen/uh",
+          "id": "*/uh",
           "beat": 2.0
         },
         {
-          "id": "rapWomen/uhn",
+          "id": "*/uhn",
           "beat": 2.5
         }
       ]

@@ -5,91 +5,91 @@
   "objects": [
     {
       "type": "cue",
-      "id": "doubleDate/kick",
+      "id": "*/kick",
       "deprecatedIDs": [],
       "name": "kick",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "doubleDate/soccerBounce",
+      "id": "*/soccerBounce",
       "deprecatedIDs": [],
       "name": "soccerball",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "doubleDate/basketballBounce",
+      "id": "*/basketballBounce",
       "deprecatedIDs": [],
       "name": "basketball",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "doubleDate/footballBounce",
+      "id": "*/footballBounce",
       "deprecatedIDs": [],
       "name": "football - bounce",
       "duration": 0.75
     },
     {
       "type": "cue",
-      "id": "doubleDate/footballKick",
+      "id": "*/footballKick",
       "deprecatedIDs": [],
       "name": "football - kick",
       "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "doubleDate_soccerball",
+      "id": "*_soccerball",
       "deprecatedIDs": [],
       "name": "soccer ball",
       "cues": [
         {
-          "id": "doubleDate/soccerBounce",
+          "id": "*/soccerBounce",
           "beat": 0.0
         },
         {
-          "id": "doubleDate/kick",
+          "id": "*/kick",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "doubleDate_basketball",
+      "id": "*_basketball",
       "deprecatedIDs": [],
       "name": "basketball",
       "cues": [
         {
-          "id": "doubleDate/basketballBounce",
+          "id": "*/basketballBounce",
           "beat": 0.0
         },
         {
-          "id": "doubleDate/basketballBounce",
+          "id": "*/basketballBounce",
           "beat": 0.75
         },
         {
-          "id": "doubleDate/kick",
+          "id": "*/kick",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "doubleDate_football",
+      "id": "*_football",
       "deprecatedIDs": [],
       "name": "football",
       "cues": [
         {
-          "id": "doubleDate/footballBounce",
+          "id": "*/footballBounce",
           "beat": 0.0
         },
         {
-          "id": "doubleDate/footballBounce",
+          "id": "*/footballBounce",
           "beat": 0.75
         },
         {
-          "id": "doubleDate/footballKick",
+          "id": "*/footballKick",
           "beat": 1.5
         }
       ]

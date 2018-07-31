@@ -5,7 +5,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "exhibitionMatchMegamixEn/stance",
+      "id": "*/stance",
       "deprecatedIDs": [
         "exhibitionMatchMegamix/stance"
       ],
@@ -14,7 +14,7 @@
     },
     {
       "type": "cue",
-      "id": "exhibitionMatchMegamixEn/throw",
+      "id": "*/throw",
       "deprecatedIDs": [
         "exhibitionMatchMegamix/throw"
       ],
@@ -23,7 +23,7 @@
     },
     {
       "type": "cue",
-      "id": "exhibitionMatchMegamixEn/hit1",
+      "id": "*/hit1",
       "deprecatedIDs": [
         "exhibitionMatchMegamix/hit"
       ],
@@ -32,7 +32,7 @@
     },
     {
       "type": "cue",
-      "id": "exhibitionMatchMegamixEn/hit2",
+      "id": "*/hit2",
       "deprecatedIDs": [
         "exhibitionMatchMegamix/hit2"
       ],
@@ -41,7 +41,7 @@
     },
     {
       "type": "cue",
-      "id": "exhibitionMatchMegamixEn/hit3",
+      "id": "*/hit3",
       "deprecatedIDs": [
         "exhibitionMatchMegamix/hit3"
       ],
@@ -50,7 +50,7 @@
     },
     {
       "type": "cue",
-      "id": "exhibitionMatchMegamixEn/hitHomerun",
+      "id": "*/hitHomerun",
       "deprecatedIDs": [
         "exhibitionMatchMegamix/hitHomerun"
       ],
@@ -59,7 +59,7 @@
     },
     {
       "type": "pattern",
-      "id": "exhibitionMatchMegamixEn_pitch",
+      "id": "*_pitch",
       "deprecatedIDs": [
         "exhibitionMatchMegamix_pitch1",
         "exhibitionMatchMegamixEn_pitch1",
@@ -69,55 +69,55 @@
       "name": "pitch",
       "cues": [
         {
-          "id": "exhibitionMatchMegamixEn/stance",
+          "id": "*/stance",
           "beat": 0.0
         },
         {
-          "id": "exhibitionMatchMegamixEn/throw",
+          "id": "*/throw",
           "beat": 2.0
         },
         {
-          "id": "exhibitionMatchMegamixEn_randomHit",
+          "id": "*_randomHit",
           "beat": 6.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "exhibitionMatchMegamixEn_homerun",
+      "id": "*_homerun",
       "deprecatedIDs": [
         "exhibitionMatchMegamix_homerun"
       ],
       "name": "home run",
       "cues": [
         {
-          "id": "exhibitionMatchMegamixEn/stance",
+          "id": "*/stance",
           "beat": 0.0
         },
         {
-          "id": "exhibitionMatchMegamixEn/throw",
+          "id": "*/throw",
           "beat": 2.0
         },
         {
-          "id": "exhibitionMatchMegamixEn/hitHomerun",
+          "id": "*/hitHomerun",
           "beat": 6.0
         }
       ]
     },
     {
       "type": "randomCue",
-      "id": "exhibitionMatchMegamixEn_randomHit",
+      "id": "*_randomHit",
       "deprecatedIDs": [],
       "name": "random hit",
       "cues": [
         {
-          "id": "exhibitionMatchMegamixEn/hit1"
+          "id": "*/hit1"
         },
         {
-          "id": "exhibitionMatchMegamixEn/hit2"
+          "id": "*/hit2"
         },
         {
-          "id": "exhibitionMatchMegamixEn/hit3"
+          "id": "*/hit3"
         }
       ]
     }

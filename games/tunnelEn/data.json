@@ -7,55 +7,55 @@
   "objects": [
     {
       "type": "cue",
-      "id": "tunnelEn/one",
+      "id": "*/one",
       "deprecatedIDs": [],
       "name": "count in - one",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "tunnelEn/two",
+      "id": "*/two",
       "deprecatedIDs": [],
       "name": "count in - two",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "tunnelEn/cowbell",
+      "id": "*/cowbell",
       "deprecatedIDs": [],
       "name": "cowbell",
       "duration": 1.0
     },
     {
       "type": "keepTheBeat",
-      "id": "tunnelEn_onetwo",
+      "id": "*_onetwo",
       "deprecatedIDs": [],
       "name": "one, two!",
       "defaultDuration": 2.0,
       "cues": [
         {
-          "id": "tunnelEn/one",
+          "id": "*/one",
           "beat": 0.0
         },
         {
-          "id": "tunnelEn/two",
+          "id": "*/two",
           "beat": 1.0
         }
       ]
     },
     {
       "type": "keepTheBeat",
-      "id": "tunnelEn_cowbell",
+      "id": "*_cowbell",
       "deprecatedIDs": [],
       "name": "cowbell",
       "defaultDuration": 2.0,
       "cues": [
         {
-          "id": "tunnelEn/cowbell",
+          "id": "*/cowbell",
           "beat": 0.0
         },
         {
-          "id": "tunnelEn/cowbell",
+          "id": "*/cowbell",
           "beat": 1.0
         }
       ]

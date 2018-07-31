@@ -6,51 +6,51 @@
   "objects": [
     {
       "type": "cue",
-      "id": "drummerDuelKo/redOnbeat",
+      "id": "*/redOnbeat",
       "deprecatedIDs": [],
       "name": "red - onbeat drum",
       "duration": 0.5,
       "responseIDs": [
-        "drummerDuelKo/blueOnbeat"
+        "*/blueOnbeat"
       ]
     },
     {
       "type": "cue",
-      "id": "drummerDuelKo/redOffbeat",
+      "id": "*/redOffbeat",
       "deprecatedIDs": [],
       "name": "red - offbeat drum",
       "duration": 0.5,
       "responseIDs": [
-        "drummerDuelKo/blueOffbeat"
+        "*/blueOffbeat"
       ]
     },
     {
       "type": "cue",
-      "id": "drummerDuelKo/redPass",
+      "id": "*/redPass",
       "deprecatedIDs": [],
       "name": "red - turn pass",
       "duration": 1.0,
       "responseIDs": [
-        "drummerDuelKo/bluePass"
+        "*/bluePass"
       ]
     },
     {
       "type": "cue",
-      "id": "drummerDuelKo/blueOnbeat",
+      "id": "*/blueOnbeat",
       "deprecatedIDs": [],
       "name": "blue - onbeat drum",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "drummerDuelKo/blueOffbeat",
+      "id": "*/blueOffbeat",
       "deprecatedIDs": [],
       "name": "blue - offbeat drum",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "drummerDuelKo/bluePass",
+      "id": "*/bluePass",
       "deprecatedIDs": [],
       "name": "blue - turn pass",
       "duration": 1.0

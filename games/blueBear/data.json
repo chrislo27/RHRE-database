@@ -6,60 +6,60 @@
   "objects": [
     {
       "type": "cue",
-      "id": "blueBear/donutOut",
+      "id": "*/donutOut",
       "deprecatedIDs": [],
       "name": "donut - out",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "blueBear/donutChomp",
+      "id": "*/donutChomp",
       "deprecatedIDs": [],
       "name": "donut - chomp",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "blueBear/cakeOut",
+      "id": "*/cakeOut",
       "deprecatedIDs": [],
       "name": "cake - out",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "blueBear/cakeChomp",
+      "id": "*/cakeChomp",
       "deprecatedIDs": [],
       "name": "cake - chomp",
       "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "blueBear_donut",
+      "id": "*_donut",
       "deprecatedIDs": [],
       "name": "donut",
       "cues": [
         {
-          "id": "blueBear/donutOut",
+          "id": "*/donutOut",
           "beat": 0.0
         },
         {
-          "id": "blueBear/donutChomp",
+          "id": "*/donutChomp",
           "beat": 2.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "blueBear_cake",
+      "id": "*_cake",
       "deprecatedIDs": [],
       "name": "cake",
       "cues": [
         {
-          "id": "blueBear/cakeOut",
+          "id": "*/cakeOut",
           "beat": 0.0
         },
         {
-          "id": "blueBear/cakeChomp",
+          "id": "*/cakeChomp",
           "beat": 3.0
         }
       ]

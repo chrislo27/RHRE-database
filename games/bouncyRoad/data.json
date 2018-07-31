@@ -5,7 +5,7 @@
   "objects": [
     {
       "type": "cue",
-      "id": "bouncyRoad/tink",
+      "id": "*/tink",
       "deprecatedIDs": [],
       "name": "tink",
       "duration": 0.25,
@@ -13,7 +13,7 @@
     },
     {
       "type": "cue",
-      "id": "bouncyRoad/cymbal",
+      "id": "*/cymbal",
       "deprecatedIDs": [],
       "name": "cymbal",
       "duration": 0.5,
@@ -21,7 +21,7 @@
     },
     {
       "type": "cue",
-      "id": "bouncyRoad/spySnort",
+      "id": "*/spySnort",
       "deprecatedIDs": [],
       "name": "snort",
       "duration": 0.25,
@@ -29,115 +29,115 @@
     },
     {
       "type": "equidistant",
-      "id": "bouncyRoad_15bounces",
+      "id": "*_15bounces",
       "deprecatedIDs": [],
       "name": "15 bounces",
       "distance": 0.5,
       "stretchable": true,
       "cues": [
         {
-          "id": "bouncyRoad/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoad/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoad/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoad/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoad/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoad/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoad/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoad/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoad/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoad/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoad/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoad/tink"
+          "id": "*/tink"
         },
         {
-          "id": "bouncyRoad/tink",
+          "id": "*/tink",
           "semitone": -4
         },
         {
-          "id": "bouncyRoad/tink",
+          "id": "*/tink",
           "semitone": 3
         },
         {
-          "id": "bouncyRoad/cymbal"
+          "id": "*/cymbal"
         }
       ]
     },
     {
       "type": "equidistant",
-      "id": "bouncyRoad_15snorts",
+      "id": "*_15snorts",
       "deprecatedIDs": [],
       "name": "15 snorts",
       "distance": 0.5,
       "stretchable": true,
       "cues": [
         {
-          "id": "bouncyRoad/spySnort"
+          "id": "*/spySnort"
         },
         {
-          "id": "bouncyRoad/spySnort"
+          "id": "*/spySnort"
         },
         {
-          "id": "bouncyRoad/spySnort"
+          "id": "*/spySnort"
         },
         {
-          "id": "bouncyRoad/spySnort"
+          "id": "*/spySnort"
         },
         {
-          "id": "bouncyRoad/spySnort"
+          "id": "*/spySnort"
         },
         {
-          "id": "bouncyRoad/spySnort"
+          "id": "*/spySnort"
         },
         {
-          "id": "bouncyRoad/spySnort"
+          "id": "*/spySnort"
         },
         {
-          "id": "bouncyRoad/spySnort"
+          "id": "*/spySnort"
         },
         {
-          "id": "bouncyRoad/spySnort"
+          "id": "*/spySnort"
         },
         {
-          "id": "bouncyRoad/spySnort"
+          "id": "*/spySnort"
         },
         {
-          "id": "bouncyRoad/spySnort"
+          "id": "*/spySnort"
         },
         {
-          "id": "bouncyRoad/spySnort"
+          "id": "*/spySnort"
         },
         {
-          "id": "bouncyRoad/spySnort",
+          "id": "*/spySnort",
           "semitone": -4
         },
         {
-          "id": "bouncyRoad/spySnort",
+          "id": "*/spySnort",
           "semitone": 3
         },
         {
-          "id": "bouncyRoad/cymbal"
+          "id": "*/cymbal"
         }
       ]
     }

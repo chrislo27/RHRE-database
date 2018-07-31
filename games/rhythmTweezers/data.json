@@ -5,27 +5,27 @@
   "objects": [
     {
       "type": "cue",
-      "id": "rhythmTweezers/appear",
+      "id": "*/appear",
       "deprecatedIDs": [],
       "name": "hair - appear",
       "duration": 0.25,
       "responseIDs": [
-        "rhythmTweezers_randomPluck"
+        "*_randomPluck"
       ]
     },
     {
       "type": "cue",
-      "id": "rhythmTweezers/longAppear",
+      "id": "*/longAppear",
       "deprecatedIDs": [],
       "name": "long hair - appear",
       "duration": 1.0,
       "responseIDs": [
-        "rhythmTweezers/aaa"
+        "*/aaa"
       ]
     },
     {
       "type": "cue",
-      "id": "rhythmTweezers/pluck1",
+      "id": "*/pluck1",
       "deprecatedIDs": [
         "rhythmTweezers/pluck"
       ],
@@ -34,21 +34,21 @@
     },
     {
       "type": "cue",
-      "id": "rhythmTweezers/pluck2",
+      "id": "*/pluck2",
       "deprecatedIDs": [],
       "name": "hair - pluck 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rhythmTweezers/gr",
+      "id": "*/gr",
       "deprecatedIDs": [],
       "name": "rhythmTweezers/gr",
       "duration": 1.0E-6
     },
     {
       "type": "cue",
-      "id": "rhythmTweezers/aaa",
+      "id": "*/aaa",
       "deprecatedIDs": [],
       "name": "long hair - pluck",
       "introSound": "rhythmTweezers/gr",
@@ -57,29 +57,29 @@
     },
     {
       "type": "cue",
-      "id": "rhythmTweezers/b",
+      "id": "*/b",
       "deprecatedIDs": [],
       "name": "long hair - pluck - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "rhythmTweezers/cashier",
+      "id": "*/cashier",
       "deprecatedIDs": [],
       "name": "cashier",
       "duration": 1.0
     },
     {
       "type": "randomCue",
-      "id": "rhythmTweezers_randomPluck",
+      "id": "*_randomPluck",
       "deprecatedIDs": [],
       "name": "random pluck",
       "cues": [
         {
-          "id": "rhythmTweezers/pluck1"
+          "id": "*/pluck1"
         },
         {
-          "id": "rhythmTweezers/pluck2"
+          "id": "*/pluck2"
         }
       ]
     }
