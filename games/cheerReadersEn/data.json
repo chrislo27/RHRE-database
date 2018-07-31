@@ -345,7 +345,7 @@
         "cheerReaders/okItsOn3Loop"
       ],
       "name": "ok it's on! - 3",
-      "introSound": "cheerReaders/okItsOn3",
+      "introSound": "*/okItsOn3",
       "duration": 1.0,
       "loops": true
     },
@@ -356,7 +356,7 @@
         "cheerReaders/okItsOn3LoopL"
       ],
       "name": "ok it's on! - 3 - long",
-      "introSound": "cheerReaders/okItsOn3",
+      "introSound": "*/okItsOn3",
       "duration": 4.0,
       "loops": true
     },
@@ -403,7 +403,7 @@
         "cheerReaders/okItsOnS3Loop"
       ],
       "name": "ok it's on! - solo - 3",
-      "introSound": "cheerReaders/okItsOnS3",
+      "introSound": "*/okItsOnS3",
       "duration": 1.0,
       "loops": true
     },
@@ -450,7 +450,7 @@
         "cheerReaders/okItsOngirls3Loop"
       ],
       "name": "ok it's on! - girls - 3",
-      "introSound": "cheerReaders/okItsOngirls3",
+      "introSound": "*/okItsOngirls3",
       "duration": 1.0,
       "loops": true
     },

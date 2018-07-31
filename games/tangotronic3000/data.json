@@ -21,10 +21,12 @@
     {
       "type": "cue",
       "id": "*/2step1loop",
-      "deprecatedIDs": ["tangotronic3000/2step1"],
+      "deprecatedIDs": [
+        "tangotronic3000/2step1"
+      ],
       "name": "2-step - 1",
       "duration": 0.5,
-      "endingSound": "tangotronic3000/2step1end",
+      "endingSound": "*/2step1end",
       "loops": true,
       "stretchable": true
     },
@@ -131,7 +133,7 @@
           "beat": 0.5
         },
         {
-          "id": "*/2step1",
+          "id": "*/2step1loop",
           "beat": 2.0
         },
         {
@@ -155,7 +157,7 @@
           "beat": 0.5
         },
         {
-          "id": "*/2step1",
+          "id": "*/2step1loop",
           "beat": 2.0
         },
         {
