@@ -5,7 +5,7 @@
   "group": "See-Saw",
   "groupDefault": true,
   "objects": [
-     {
+    {
       "type": "cue",
       "id": "*/seeHigh1",
       "deprecatedIDs": [

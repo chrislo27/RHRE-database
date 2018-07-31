@@ -14,7 +14,9 @@
     {
       "type": "cue",
       "id": "*/eek",
-      "deprecatedIDs": ["animalAcrobat/eek!"],
+      "deprecatedIDs": [
+        "animalAcrobat/eek!"
+      ],
       "name": "eek!",
       "duration": 1.0
     },

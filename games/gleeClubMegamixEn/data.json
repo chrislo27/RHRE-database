@@ -19,7 +19,7 @@
       "name": "sing",
       "duration": 1.0,
       "introSound": "gleeClubMegamixEn/singBegin",
-//      "endingSound": "gleeClubMegamixEn/singEnd",
+      //      "endingSound": "gleeClubMegamixEn/singEnd",
       "loops": true,
       "stretchable": true,
       "repitchable": true

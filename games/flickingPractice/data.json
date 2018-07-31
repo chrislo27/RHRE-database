@@ -31,14 +31,14 @@
       "name": "frog - i give!",
       "duration": 1.0
     },
-	{
+    {
       "type": "cue",
       "id": "*/toycar_normal_intro",
       "deprecatedIDs": [],
       "name": "flickingPractice/toycar_normal_intro",
       "duration": 1.0E-6
     },
-	{
+    {
       "type": "cue",
       "id": "*/toycar_fast_intro",
       "deprecatedIDs": [],
@@ -67,14 +67,14 @@
       "introSound": "flickingPractice/toycar_fast_intro",
       "endingSound": "flickingPractice/toycar_hit"
     },
-	{
+    {
       "type": "cue",
       "id": "*/toycar_hit",
       "deprecatedIDs": [],
       "name": "toy car - hit",
       "duration": 1.0
     },
-	{
+    {
       "type": "cue",
       "id": "*/tap",
       "deprecatedIDs": [],

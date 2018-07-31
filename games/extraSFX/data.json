@@ -6,7 +6,9 @@
     {
       "type": "cue",
       "id": "*/skillStar",
-      "deprecatedIDs": ["extraSFX/star"],
+      "deprecatedIDs": [
+        "extraSFX/star"
+      ],
       "name": "skill star",
       "duration": 1.0
     },
@@ -26,21 +28,21 @@
       "name": "text advance (Tengoku)",
       "duration": 1.0
     },
-	{
+    {
       "type": "cue",
       "id": "*/audienceApplause",
       "deprecatedIDs": [],
       "name": "audience applause",
       "duration": 1.0
     },
-	{
+    {
       "type": "cue",
       "id": "*/miss1",
       "deprecatedIDs": [],
       "name": "miss 1 - doink!",
       "duration": 0.5
     },
-	{
+    {
       "type": "cue",
       "id": "*/miss2",
       "deprecatedIDs": [],

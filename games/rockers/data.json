@@ -6,7 +6,9 @@
     {
       "type": "cue",
       "id": "*/chord1",
-      "deprecatedIDs": ["rockers/strumLoop"],
+      "deprecatedIDs": [
+        "rockers/strumLoop"
+      ],
       "name": "D7 (3rd)",
       "duration": 1.0,
       "loops": true,
@@ -20,7 +22,9 @@
     {
       "type": "cue",
       "id": "*/chordStart1",
-      "deprecatedIDs": ["rockers/strumStart"],
+      "deprecatedIDs": [
+        "rockers/strumStart"
+      ],
       "name": "D7 (3rd) chord - start",
       "duration": 0.25,
       "repitchable": true

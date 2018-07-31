@@ -10,7 +10,7 @@
       "name": "close",
       "duration": 0.25
     },
-	{
+    {
       "type": "cue",
       "id": "*/bounce",
       "deprecatedIDs": [],
@@ -24,7 +24,7 @@
       "name": "normal bounce (half beat)",
       "duration": 0.5
     },
-	{
+    {
       "type": "cue",
       "id": "*/bounce3",
       "deprecatedIDs": [],
@@ -38,235 +38,235 @@
       "name": "big bounce (half beat)",
       "duration": 0.5
     },
-	{	
-	  "type": "keepTheBeat",
-	  "id": "*_fourbeat",
+    {
+      "type": "keepTheBeat",
+      "id": "*_fourbeat",
       "deprecatedIDs": [],
       "name": "four beat pattern",
-	  "defaultDuration": 4.0,
+      "defaultDuration": 4.0,
       "cues": [
-       {
-         "id": "*/bounce",
-		 "track": 1.0,
-         "beat": 0.0
-       },
-	   {
-         "id": "*/close",
-         "beat": 0.0
-       },
-       {
-         "id": "*/bounce",
-		 "track": 1.0,
-         "beat": 1.0
-       },
-	   {
-         "id": "*/bounce",
-		 "track": 1.0,
-         "beat": 2.0
-       },
-	   {
-         "id": "*/bounce3",
-		 "track": 1.0,
-         "beat": 3.0
-       }
+        {
+          "id": "*/bounce",
+          "track": 1.0,
+          "beat": 0.0
+        },
+        {
+          "id": "*/close",
+          "beat": 0.0
+        },
+        {
+          "id": "*/bounce",
+          "track": 1.0,
+          "beat": 1.0
+        },
+        {
+          "id": "*/bounce",
+          "track": 1.0,
+          "beat": 2.0
+        },
+        {
+          "id": "*/bounce3",
+          "track": 1.0,
+          "beat": 3.0
+        }
       ]
     },
-    {	
-	  "type": "keepTheBeat",
-	  "id": "*_eightbeat",
+    {
+      "type": "keepTheBeat",
+      "id": "*_eightbeat",
       "deprecatedIDs": [],
       "name": "eight beat pattern",
-	  "defaultDuration": 4.0,
+      "defaultDuration": 4.0,
       "cues": [
-       {
-         "id": "*/bounce2",
-		 "track": 1.0,
-         "beat": 0.0
-       },
-	   {
-         "id": "*/close",
-         "beat": 0.0
-       },
-	   {
-         "id": "*/bounce2",
-		 "track": 1.0,
-         "beat": 0.5
-       },
-       {
-         "id": "*/bounce2",
-		 "track": 1.0,
-         "beat": 1.0
-       },
-	   {
-         "id": "*/bounce2",
-		 "track": 1.0,
-         "beat": 1.5
-       },
-	   {
-         "id": "*/bounce2",
-		 "track": 1.0,
-         "beat": 2.0
-       },
-	   {
-         "id": "*/bounce2",
-		 "track": 1.0,
-         "beat": 2.5
-       },
-	   {
-         "id": "*/bounce2",
-		 "track": 1.0,
-         "beat": 3.0
-       },
-	   {
-         "id": "*/bounce4",
-		 "track": 1.0,
-         "beat": 3.5
-       }
+        {
+          "id": "*/bounce2",
+          "track": 1.0,
+          "beat": 0.0
+        },
+        {
+          "id": "*/close",
+          "beat": 0.0
+        },
+        {
+          "id": "*/bounce2",
+          "track": 1.0,
+          "beat": 0.5
+        },
+        {
+          "id": "*/bounce2",
+          "track": 1.0,
+          "beat": 1.0
+        },
+        {
+          "id": "*/bounce2",
+          "track": 1.0,
+          "beat": 1.5
+        },
+        {
+          "id": "*/bounce2",
+          "track": 1.0,
+          "beat": 2.0
+        },
+        {
+          "id": "*/bounce2",
+          "track": 1.0,
+          "beat": 2.5
+        },
+        {
+          "id": "*/bounce2",
+          "track": 1.0,
+          "beat": 3.0
+        },
+        {
+          "id": "*/bounce4",
+          "track": 1.0,
+          "beat": 3.5
+        }
       ]
     },
-	{	
-	  "type": "keepTheBeat",
-	  "id": "*_sixteenbeat",
+    {
+      "type": "keepTheBeat",
+      "id": "*_sixteenbeat",
       "deprecatedIDs": [],
       "name": "sixteen beat pattern",
-	  "defaultDuration": 4.0,
+      "defaultDuration": 4.0,
       "cues": [
-       {
-         "id": "*/bounce2",
-		 "track": 1.0,
-         "beat": 0.0
-       },
-	   {
-         "id": "*/close",
-         "beat": 0.0
-       },
-	   {
-         "id": "*/bounce2",
-         "beat": 0.25
-       },
-       {
-         "id": "*/bounce2",
-		 "track": 1.0,
-         "beat": 0.5
-       },
-	   {
-         "id": "*/bounce2",
-         "beat": 0.75
-       },
-	   {
-         "id": "*/bounce2",
-		 "track": 1.0,
-         "beat": 1.0
-       },
-	   {
-         "id": "*/bounce2",
-         "beat": 1.25
-       },
-       {
-         "id": "*/bounce2",
-		 "track": 1.0,
-         "beat": 1.5
-       },
-	   {
-         "id": "*/bounce2",
-         "beat": 1.75
-       },
-	   {
-         "id": "*/bounce2",
-		 "track": 1.0,
-         "beat": 2.0
-       },
-	   {
-         "id": "*/bounce2",
-         "beat": 2.25
-       },
-       {
-         "id": "*/bounce2",
-		 "track": 1.0,
-         "beat": 2.5
-       },
-	   {
-         "id": "*/bounce2",
-         "beat": 2.75
-       },
-	   {
-         "id": "*/bounce4",
-		 "track": 1.0,
-         "beat": 3.0
-       }
+        {
+          "id": "*/bounce2",
+          "track": 1.0,
+          "beat": 0.0
+        },
+        {
+          "id": "*/close",
+          "beat": 0.0
+        },
+        {
+          "id": "*/bounce2",
+          "beat": 0.25
+        },
+        {
+          "id": "*/bounce2",
+          "track": 1.0,
+          "beat": 0.5
+        },
+        {
+          "id": "*/bounce2",
+          "beat": 0.75
+        },
+        {
+          "id": "*/bounce2",
+          "track": 1.0,
+          "beat": 1.0
+        },
+        {
+          "id": "*/bounce2",
+          "beat": 1.25
+        },
+        {
+          "id": "*/bounce2",
+          "track": 1.0,
+          "beat": 1.5
+        },
+        {
+          "id": "*/bounce2",
+          "beat": 1.75
+        },
+        {
+          "id": "*/bounce2",
+          "track": 1.0,
+          "beat": 2.0
+        },
+        {
+          "id": "*/bounce2",
+          "beat": 2.25
+        },
+        {
+          "id": "*/bounce2",
+          "track": 1.0,
+          "beat": 2.5
+        },
+        {
+          "id": "*/bounce2",
+          "beat": 2.75
+        },
+        {
+          "id": "*/bounce4",
+          "track": 1.0,
+          "beat": 3.0
+        }
       ]
-	},
-	{	
-	  "type": "keepTheBeat",
-	  "id": "*_sixteenbeatswing",
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_sixteenbeatswing",
       "deprecatedIDs": [],
       "name": "swing sixteen beat pattern",
-	  "defaultDuration": 4.0,
+      "defaultDuration": 4.0,
       "cues": [
-       {
-         "id": "*/bounce2",
-		 "track": 1.0,
-         "beat": 0.0
-       },
-	   {
-         "id": "*/close",
-         "beat": 0.0
-       },
-	   {
-         "id": "*/bounce2",
-         "beat": 0.33
-       },
-       {
-         "id": "*/bounce2",
-		 "track": 1.0,
-         "beat": 0.5
-       },
-	   {
-         "id": "*/bounce2",
-         "beat": 0.83
-       },
-	   {
-         "id": "*/bounce2",
-		 "track": 1.0,
-         "beat": 1.0
-       },
-	   {
-         "id": "*/bounce2",
-         "beat": 1.33
-       },
-       {
-         "id": "*/bounce2",
-		 "track": 1.0,
-         "beat": 1.5
-       },
-	   {
-         "id": "*/bounce2",
-         "beat": 1.83
-       },
-	   {
-         "id": "*/bounce2",
-		 "track": 1.0,
-         "beat": 2.0
-       },
-	   {
-         "id": "*/bounce2",
-         "beat": 2.33
-       },
-       {
-         "id": "*/bounce2",
-		 "track": 1.0,
-         "beat": 2.5
-       },
-	   {
-         "id": "*/bounce2",
-         "beat": 2.83
-       },
-	   {
-         "id": "*/bounce4",
-		 "track": 1.0,
-         "beat": 3.0
-       }
+        {
+          "id": "*/bounce2",
+          "track": 1.0,
+          "beat": 0.0
+        },
+        {
+          "id": "*/close",
+          "beat": 0.0
+        },
+        {
+          "id": "*/bounce2",
+          "beat": 0.33
+        },
+        {
+          "id": "*/bounce2",
+          "track": 1.0,
+          "beat": 0.5
+        },
+        {
+          "id": "*/bounce2",
+          "beat": 0.83
+        },
+        {
+          "id": "*/bounce2",
+          "track": 1.0,
+          "beat": 1.0
+        },
+        {
+          "id": "*/bounce2",
+          "beat": 1.33
+        },
+        {
+          "id": "*/bounce2",
+          "track": 1.0,
+          "beat": 1.5
+        },
+        {
+          "id": "*/bounce2",
+          "beat": 1.83
+        },
+        {
+          "id": "*/bounce2",
+          "track": 1.0,
+          "beat": 2.0
+        },
+        {
+          "id": "*/bounce2",
+          "beat": 2.33
+        },
+        {
+          "id": "*/bounce2",
+          "track": 1.0,
+          "beat": 2.5
+        },
+        {
+          "id": "*/bounce2",
+          "beat": 2.83
+        },
+        {
+          "id": "*/bounce4",
+          "track": 1.0,
+          "beat": 3.0
+        }
       ]
-	}
+    }
   ]
 }

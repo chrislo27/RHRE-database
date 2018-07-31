@@ -158,7 +158,9 @@
     {
       "type": "pattern",
       "id": "*_soccerBall",
-      "deprecatedIDs": ["karateManFeverKo_soccer ball"],
+      "deprecatedIDs": [
+        "karateManFeverKo_soccer ball"
+      ],
       "name": "soccer ball",
       "cues": [
         {

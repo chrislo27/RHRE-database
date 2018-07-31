@@ -797,7 +797,9 @@
     {
       "type": "pattern",
       "id": "*_kiiyanUnusedSuperTwoHits",
-      "deprecatedIDs": ["tossBoys_kiiyanUnusedSuperStart"],
+      "deprecatedIDs": [
+        "tossBoys_kiiyanUnusedSuperStart"
+      ],
       "name": "[#FFFF00]yellow[] blur toss (unused) - two hits",
       "cues": [
         {

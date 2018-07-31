@@ -199,7 +199,9 @@
     {
       "type": "pattern",
       "id": "*_longJump",
-      "deprecatedIDs": ["bunnyHop/longJump"],
+      "deprecatedIDs": [
+        "bunnyHop/longJump"
+      ],
       "name": "long jump",
       "cues": [
         {
@@ -215,7 +217,9 @@
     {
       "type": "pattern",
       "id": "*_longJumpLong",
-      "deprecatedIDs": ["bunnyHop/longJumpLong"],
+      "deprecatedIDs": [
+        "bunnyHop/longJumpLong"
+      ],
       "name": "long jump (long)",
       "cues": [
         {
@@ -235,7 +239,9 @@
     {
       "type": "pattern",
       "id": "*_longJumpShort",
-      "deprecatedIDs": ["bunnyHop/longJumpShort"],
+      "deprecatedIDs": [
+        "bunnyHop/longJumpShort"
+      ],
       "name": "long jump (short)",
       "cues": [
         {

@@ -53,7 +53,6 @@
       "name": "rappers - daisuki - 3",
       "duration": 0.375
     },
-
     {
       "type": "cue",
       "id": "*/honto1",
@@ -110,7 +109,6 @@
       "name": "rappers - honto B - 2",
       "duration": 0.5
     },
-
     {
       "type": "cue",
       "id": "*/kinanda1",
@@ -174,7 +172,6 @@
       "name": "rappers - sukinanda - 5",
       "duration": 0.25
     },
-
     {
       "type": "cue",
       "id": "*/majidaisuki1",
@@ -245,7 +242,6 @@
       "name": "rappers - majidaisuki - 5",
       "duration": 0.25
     },
-
     {
       "type": "cue",
       "id": "*/swingMaji1",
@@ -330,7 +326,6 @@
       "name": "rapper - swing majidaisuki - 6",
       "duration": 0.4375
     },
-
     {
       "type": "pattern",
       "id": "*_daisuki",
@@ -455,7 +450,6 @@
         }
       ]
     },
-
     {
       "type": "pattern",
       "id": "*_majidaisuki",

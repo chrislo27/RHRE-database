@@ -248,7 +248,9 @@
     {
       "type": "pattern",
       "id": "*_soccerBall",
-      "deprecatedIDs": ["karateManMegamixKo_soccer ball"],
+      "deprecatedIDs": [
+        "karateManMegamixKo_soccer ball"
+      ],
       "name": "soccer ball",
       "cues": [
         {
