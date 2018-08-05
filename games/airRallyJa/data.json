@@ -204,6 +204,13 @@
     },
     {
       "type": "cue",
+      "id": "*/baBumBumBumFarther3Sub",
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum (no hit) - farther - 3",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
       "id": "*/baBumBumBumFarther4",
       "deprecatedIDs": [
         "airRallyMegamixJa/baBumBumBumFarther4"
@@ -245,6 +252,13 @@
         "airRallyMegamixJa/baBumBumBumFar3"
       ],
       "name": "ba bum bum bum - far - 3",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBumFar3Sub",
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum (no hit) - far - 3",
       "duration": 0.5
     },
     {
@@ -294,6 +308,13 @@
     },
     {
       "type": "cue",
+      "id": "*/baBumBumBumFurther3Sub",
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum (no hit) - further - 3",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
       "id": "*/baBumBumBumFurther4",
       "deprecatedIDs": [
         "airRallyMegamixJa/baBumBumBumFurther4"
@@ -309,6 +330,13 @@
       ],
       "name": "ba bum bum bum - further - hit",
       "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/planes",
+      "deprecatedIDs": [],
+      "name": "planes",
+      "duration": 1.0
     },
     {
       "type": "pattern",
@@ -464,6 +492,28 @@
     },
     {
       "type": "pattern",
+      "id": "*_countIn3",
+      "deprecatedIDs": [
+        "airRallyMegamixJa_countIn3"
+      ],
+      "name": "ba bum bum bum - count in",
+      "cues": [
+        {
+          "id": "*/countIn2",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countIn3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/countIn4",
+          "beat": 2.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
       "id": "*_baBumBumBum",
       "deprecatedIDs": [
         "airRallyMegamixJa_baBumBumBum"
@@ -524,33 +574,11 @@
     },
     {
       "type": "pattern",
-      "id": "*_countIn3",
-      "deprecatedIDs": [
-        "airRallyMegamixJa_countIn3"
-      ],
-      "name": "ba bum bum bum - count in",
-      "cues": [
-        {
-          "id": "*/countIn2",
-          "beat": 0.0
-        },
-        {
-          "id": "*/countIn3",
-          "beat": 1.0
-        },
-        {
-          "id": "*/countIn4",
-          "beat": 2.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
       "id": "*_baBumBumBumFarther",
       "deprecatedIDs": [
         "airRallyMegamixJa_baBumBumBumFarther"
       ],
-      "name": "ba bum bum bum - farther",
+      "name": "ba bum bum bum - farther - first",
       "cues": [
         {
           "id": "*/baBumBumBumFarther1",
@@ -576,11 +604,39 @@
     },
     {
       "type": "pattern",
+      "id": "*_baBumBumBumFartherSub",
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - farther",
+      "cues": [
+        {
+          "id": "*/baBumBumBumFarther1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/baBumBumBumFarther2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/baBumBumBumFarther3Sub",
+          "beat": 1.5
+        },
+        {
+          "id": "*/baBumBumBumFarther4",
+          "beat": 2.5
+        },
+        {
+          "id": "*/baBumBumBumFartherHit",
+          "beat": 4.5
+        }
+      ]
+    },
+    {
+      "type": "pattern",
       "id": "*_baBumBumBumFar",
       "deprecatedIDs": [
         "airRallyMegamixJa_baBumBumBumFar"
       ],
-      "name": "ba bum bum bum - far",
+      "name": "ba bum bum bum - far - first",
       "cues": [
         {
           "id": "*/baBumBumBumFar1",
@@ -606,11 +662,39 @@
     },
     {
       "type": "pattern",
+      "id": "*_baBumBumBumFarSub",
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - far",
+      "cues": [
+        {
+          "id": "*/baBumBumBumFar1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/baBumBumBumFar2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/baBumBumBumFar3Sub",
+          "beat": 1.5
+        },
+        {
+          "id": "*/baBumBumBumFar4",
+          "beat": 2.5
+        },
+        {
+          "id": "*/baBumBumBumFarHit",
+          "beat": 4.5
+        }
+      ]
+    },
+    {
+      "type": "pattern",
       "id": "*_baBumBumBumFurther",
       "deprecatedIDs": [
         "airRallyMegamixJa_baBumBumBumFurther"
       ],
-      "name": "ba bum bum bum - further",
+      "name": "ba bum bum bum - further - first",
       "cues": [
         {
           "id": "*/baBumBumBumFurther1",
@@ -622,6 +706,34 @@
         },
         {
           "id": "*/baBumBumBumFurther3",
+          "beat": 1.5
+        },
+        {
+          "id": "*/baBumBumBumFurther4",
+          "beat": 2.5
+        },
+        {
+          "id": "*/baBumBumBumFurtherHit",
+          "beat": 4.5
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_baBumBumBumFurtherSub",
+      "deprecatedIDs": [],
+      "name": "ba bum bum bum - further",
+      "cues": [
+        {
+          "id": "*/baBumBumBumFurther1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/baBumBumBumFurther2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/baBumBumBumFurther3Sub",
           "beat": 1.5
         },
         {
