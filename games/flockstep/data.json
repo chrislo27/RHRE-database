@@ -320,11 +320,6 @@
           "id": "*/step4",
           "beat": 1.5,
           "track": 1
-        },
-        {
-          "id": "*/thump1",
-          "beat": 2.0,
-          "track": 2
         }
       ]
     },
