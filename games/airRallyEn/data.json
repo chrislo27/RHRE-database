@@ -1,14 +1,15 @@
 {
   "series": "fever",
   "id": "airRallyEn",
-  "name": "Air Rally (Fever) (English)",
-  "group": "Air Rally (Fever)",
+  "name": "Air Rally (English)",
+  "group": "Air Rally",
   "groupDefault": true,
   "objects": [
     {
       "type": "cue",
       "id": "*/birdieCatch",
       "deprecatedIDs": [
+        "airRallyMegamixEn/birdieCatch",
         "airRally/birdieCatch"
       ],
       "name": "forthington - catch birdie",
@@ -18,6 +19,7 @@
       "type": "cue",
       "id": "*/countIn1",
       "deprecatedIDs": [
+        "airRallyMegamixEn/countIn1",
         "airRally/countIn1"
       ],
       "name": "forthington - count in - one",
@@ -27,6 +29,7 @@
       "type": "cue",
       "id": "*/countIn2",
       "deprecatedIDs": [
+        "airRallyMegamixEn/countIn2",
         "airRally/countIn2"
       ],
       "name": "forthington - count in - two",
@@ -36,6 +39,7 @@
       "type": "cue",
       "id": "*/countIn3",
       "deprecatedIDs": [
+        "airRallyMegamixEn/countIn3",
         "airRally/countIn3"
       ],
       "name": "forthington - count in - three",
@@ -45,6 +49,7 @@
       "type": "cue",
       "id": "*/countIn4",
       "deprecatedIDs": [
+        "airRallyMegamixEn/countIn4",
         "airRally/countIn4"
       ],
       "name": "forthington - count in - four",
@@ -54,6 +59,7 @@
       "type": "cue",
       "id": "*/hitBaxter",
       "deprecatedIDs": [
+        "airRallyMegamixEn/hitBaxter",
         "airRally/hitBaxter"
       ],
       "name": "baxter - hit",
@@ -63,6 +69,7 @@
       "type": "cue",
       "id": "*/hitForth",
       "deprecatedIDs": [
+        "airRallyMegamixEn/hitForth",
         "airRally/hitForth"
       ],
       "name": "forthington - hit",
@@ -72,6 +79,7 @@
       "type": "cue",
       "id": "*/hitBaxterFarther",
       "deprecatedIDs": [
+        "airRallyMegamixEn/hitBaxterFarther",
         "airRally/hitBaxterFarther"
       ],
       "name": "baxter - hit - farther",
@@ -81,6 +89,7 @@
       "type": "cue",
       "id": "*/hitForthFarther",
       "deprecatedIDs": [
+        "airRallyMegamixEn/hitForthFarther",
         "airRally/hitForthFarther"
       ],
       "name": "forthington - hit - farther",
@@ -90,6 +99,7 @@
       "type": "cue",
       "id": "*/hitBaxterFar",
       "deprecatedIDs": [
+        "airRallyMegamixEn/hitBaxterFar",
         "airRally/hitBaxterFar"
       ],
       "name": "baxter - hit - far",
@@ -99,6 +109,7 @@
       "type": "cue",
       "id": "*/hitForthFar",
       "deprecatedIDs": [
+        "airRallyMegamixEn/hitForthFar",
         "airRally/hitForthFar"
       ],
       "name": "forthington - hit - far",
@@ -108,6 +119,7 @@
       "type": "cue",
       "id": "*/hitBaxterFurther",
       "deprecatedIDs": [
+        "airRallyMegamixEn/hitBaxterFurther",
         "airRally/hitBaxterFurther"
       ],
       "name": "baxter - hit - further",
@@ -117,6 +129,7 @@
       "type": "cue",
       "id": "*/hitForthFurther",
       "deprecatedIDs": [
+        "airRallyMegamixEn/hitForthFurther",
         "airRally/hitForthFurther"
       ],
       "name": "forthington - hit - further",
@@ -126,6 +139,7 @@
       "type": "cue",
       "id": "*/baBumBumBum1",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBum1",
         "airRally/baBumBumBum1"
       ],
       "name": "ba bum bum bum - 1",
@@ -135,6 +149,7 @@
       "type": "cue",
       "id": "*/baBumBumBum2",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBum2",
         "airRally/baBumBumBum2"
       ],
       "name": "ba bum bum bum - 2",
@@ -144,6 +159,7 @@
       "type": "cue",
       "id": "*/baBumBumBum3",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBum3",
         "airRally/baBumBumBum3"
       ],
       "name": "ba bum bum bum - 3",
@@ -153,6 +169,7 @@
       "type": "cue",
       "id": "*/baBumBumBum2Sub",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBum2Sub",
         "airRally/baBumBumBum2Sub"
       ],
       "name": "ba bum bum bum - 2 - subsequent",
@@ -162,6 +179,7 @@
       "type": "cue",
       "id": "*/baBumBumBum3Sub",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBum3Sub",
         "airRally/baBumBumBum3Sub"
       ],
       "name": "ba bum bum bum - 3 - subsequent",
@@ -171,6 +189,7 @@
       "type": "cue",
       "id": "*/baBumBumBum4",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBum4",
         "airRally/baBumBumBum4"
       ],
       "name": "ba bum bum bum - 4",
@@ -180,6 +199,7 @@
       "type": "cue",
       "id": "*/baBumBumBumFarther1",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFarther1",
         "airRally/baBumBumBumFarther1"
       ],
       "name": "ba bum bum bum - farther - 1",
@@ -189,6 +209,7 @@
       "type": "cue",
       "id": "*/baBumBumBumFarther2",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFarther2",
         "airRally/baBumBumBumFarther2"
       ],
       "name": "ba bum bum bum - farther - 2",
@@ -198,6 +219,7 @@
       "type": "cue",
       "id": "*/baBumBumBumFarther3",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFarther3",
         "airRally/baBumBumBumFarther3"
       ],
       "name": "ba bum bum bum - farther - 3",
@@ -207,6 +229,7 @@
       "type": "cue",
       "id": "*/baBumBumBumFarther4",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFarther4",
         "airRally/baBumBumBumFarther4"
       ],
       "name": "ba bum bum bum - farther - 4",
@@ -216,6 +239,7 @@
       "type": "cue",
       "id": "*/baBumBumBumFartherHit",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFartherHit",
         "airRally/baBumBumBumFartherHit"
       ],
       "name": "ba bum bum bum - farther - hit",
@@ -225,6 +249,7 @@
       "type": "cue",
       "id": "*/baBumBumBumFar1",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFar1",
         "airRally/baBumBumBumFar1"
       ],
       "name": "ba bum bum bum - far - 1",
@@ -234,6 +259,7 @@
       "type": "cue",
       "id": "*/baBumBumBumFar2",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFar2",
         "airRally/baBumBumBumFar2"
       ],
       "name": "ba bum bum bum - far - 2",
@@ -243,6 +269,7 @@
       "type": "cue",
       "id": "*/baBumBumBumFar3",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFar3",
         "airRally/baBumBumBumFar3"
       ],
       "name": "ba bum bum bum - far - 3",
@@ -252,6 +279,7 @@
       "type": "cue",
       "id": "*/baBumBumBumFar4",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFar4",
         "airRally/baBumBumBumFar4"
       ],
       "name": "ba bum bum bum - far - 4",
@@ -261,6 +289,7 @@
       "type": "cue",
       "id": "*/baBumBumBumFarHit",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFarHit",
         "airRally/baBumBumBumFarHit"
       ],
       "name": "ba bum bum bum - far - hit",
@@ -270,6 +299,7 @@
       "type": "cue",
       "id": "*/baBumBumBumFurther1",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFurther1",
         "airRally/baBumBumBumFurther1"
       ],
       "name": "ba bum bum bum - further - 1",
@@ -279,6 +309,7 @@
       "type": "cue",
       "id": "*/baBumBumBumFurther2",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFurther2",
         "airRally/baBumBumBumFurther2"
       ],
       "name": "ba bum bum bum - further - 2",
@@ -288,6 +319,7 @@
       "type": "cue",
       "id": "*/baBumBumBumFurther3",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFurther3",
         "airRally/baBumBumBumFurther3"
       ],
       "name": "ba bum bum bum - further - 3",
@@ -297,6 +329,7 @@
       "type": "cue",
       "id": "*/baBumBumBumFurther4",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFurther4",
         "airRally/baBumBumBumFurther4"
       ],
       "name": "ba bum bum bum - further - 4",
@@ -306,6 +339,7 @@
       "type": "cue",
       "id": "*/baBumBumBumFurtherHit",
       "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFurtherHit",
         "airRally/baBumBumBumFurtherHit"
       ],
       "name": "ba bum bum bum - further - hit",
@@ -315,6 +349,7 @@
       "type": "pattern",
       "id": "*_countIn4",
       "deprecatedIDs": [
+        "airRallyMegamixEn_countIn4",
         "airRally_countIn4"
       ],
       "name": "count in - 4 beats",
@@ -340,7 +375,9 @@
     {
       "type": "pattern",
       "id": "*_countIn2",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "airRallyMegamixEn_countIn2"
+      ],
       "name": "count in - 2 beats",
       "cues": [
         {
@@ -357,6 +394,7 @@
       "type": "keepTheBeat",
       "id": "*_rally",
       "deprecatedIDs": [
+        "airRallyMegamixEn_rally",
         "airRally_rally"
       ],
       "name": "rally",
@@ -384,6 +422,7 @@
       "type": "keepTheBeat",
       "id": "*_rallyFarther",
       "deprecatedIDs": [
+        "airRallyMegamixEn_rallyFarther",
         "airRally_rallyFarther"
       ],
       "name": "rally - farther",
@@ -411,6 +450,7 @@
       "type": "keepTheBeat",
       "id": "*_rallyFar",
       "deprecatedIDs": [
+        "airRallyMegamixEn_rallyFar",
         "airRally_rallyFar"
       ],
       "name": "rally - far",
@@ -438,6 +478,7 @@
       "type": "keepTheBeat",
       "id": "*_rallyFurther",
       "deprecatedIDs": [
+        "airRallyMegamixEn_rallyFurther",
         "airRally_rallyFurther"
       ],
       "name": "rally - farthest",
@@ -465,6 +506,7 @@
       "type": "pattern",
       "id": "*_baBumBumBum",
       "deprecatedIDs": [
+        "airRallyMegamixEn_baBumBumBum",
         "airRally_baBumBumBum"
       ],
       "name": "ba bum bum bum - first",
@@ -495,6 +537,7 @@
       "type": "pattern",
       "id": "*_baBumBumBumSub",
       "deprecatedIDs": [
+        "airRallyMegamixEn_baBumBumBumSub",
         "airRally_baBumBumBumSub"
       ],
       "name": "ba bum bum bum",
@@ -525,6 +568,7 @@
       "type": "pattern",
       "id": "*_countIn3",
       "deprecatedIDs": [
+        "airRallyMegamixEn_countIn3",
         "airRally_countIn3"
       ],
       "name": "ba bum bum bum - count in",
@@ -547,6 +591,7 @@
       "type": "pattern",
       "id": "*_baBumBumBumFarther",
       "deprecatedIDs": [
+        "airRallyMegamixEn_baBumBumBumFarther",
         "airRally_baBumBumBumFarther"
       ],
       "name": "ba bum bum bum - farther",
@@ -577,6 +622,7 @@
       "type": "pattern",
       "id": "*_baBumBumBumFar",
       "deprecatedIDs": [
+        "airRallyMegamixEn_baBumBumBumFar",
         "airRally_baBumBumBumFar"
       ],
       "name": "ba bum bum bum - far",
@@ -607,6 +653,7 @@
       "type": "pattern",
       "id": "*_baBumBumBumFurther",
       "deprecatedIDs": [
+        "airRallyMegamixEn_baBumBumBumFurther",
         "airRally_baBumBumBumFurther"
       ],
       "name": "ba bum bum bum - further",
