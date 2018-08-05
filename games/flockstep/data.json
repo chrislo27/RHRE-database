@@ -109,10 +109,25 @@
       "type": "cue",
       "id": "*/tweet6",
       "deprecatedIDs": [
-        "flockstep/jump6",
-        "flockstep/jumpMigration6"
+        "flockstep/jump6"
       ],
       "name": "tweet - 6",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/tweet6Migration",
+      "deprecatedIDs": [
+        "flockstep/jumpMigration6"
+      ],
+      "name": "tweet (migration) - 6",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/tweet6NoStep",
+      "deprecatedIDs": [],
+      "name": "tweet (no step) - 6",
       "duration": 1.0
     },
     {
@@ -263,11 +278,6 @@
           "id": "*/step4",
           "beat": 1.5,
           "track": 1
-        },
-        {
-          "id": "*/step1",
-          "beat": 2.0,
-          "track": 1
         }
       ]
     },
@@ -278,7 +288,7 @@
       "name": "jump (migration)",
       "cues": [
         {
-          "id": "*_tweet",
+          "id": "*_tweetMigration",
           "beat": 0.0
         },
         {
@@ -312,11 +322,6 @@
           "track": 1
         },
         {
-          "id": "*/step1",
-          "beat": 2.0,
-          "track": 1
-        },
-        {
           "id": "*/thump1",
           "beat": 2.0,
           "track": 2
@@ -327,7 +332,7 @@
       "type": "pattern",
       "id": "*_tweet",
       "deprecatedIDs": [],
-      "name": "tweeting (no stepping)",
+      "name": "tweeting",
       "cues": [
         {
           "id": "*/tweet1",
@@ -351,6 +356,78 @@
         },
         {
           "id": "*/tweet6",
+          "beat": 2.0
+        },
+        {
+          "id": "*/tweet7",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_tweetMigration",
+      "deprecatedIDs": [],
+      "name": "tweeting (migration)",
+      "cues": [
+        {
+          "id": "*/tweet1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/tweet2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/tweet3",
+          "beat": 0.75
+        },
+        {
+          "id": "*/tweet4",
+          "beat": 1.0
+        },
+        {
+          "id": "*/tweet5",
+          "beat": 1.5
+        },
+        {
+          "id": "*/tweet6Migration",
+          "beat": 2.0
+        },
+        {
+          "id": "*/tweet7",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_tweetNoStep",
+      "deprecatedIDs": [],
+      "name": "tweeting (no step before jump)",
+      "cues": [
+        {
+          "id": "*/tweet1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/tweet2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/tweet3",
+          "beat": 0.75
+        },
+        {
+          "id": "*/tweet4",
+          "beat": 1.0
+        },
+        {
+          "id": "*/tweet5",
+          "beat": 1.5
+        },
+        {
+          "id": "*/tweet6NoStep",
           "beat": 2.0
         },
         {
