@@ -63,7 +63,7 @@
       "deprecatedIDs": [
         "flockstep/jump1"
       ],
-      "name": "tweet - 1",
+      "name": "tweet - 1",	  
       "duration": 0.5
     },
     {
@@ -73,7 +73,7 @@
         "flockstep/jump2",
         "flockstep/jumpMigration2"
       ],
-      "name": "tweet - 2",
+      "name": "tweet - 2",	  
       "duration": 0.25
     },
     {
@@ -83,7 +83,7 @@
         "flockstep/jump3",
         "flockstep/jumpMigration3"
       ],
-      "name": "tweet - 3",
+      "name": "tweet - 3",	  
       "duration": 0.25
     },
     {
@@ -93,6 +93,7 @@
         "flockstep/jump4"
       ],
       "name": "tweet - 4",
+	  
       "duration": 0.5
     },
     {
@@ -103,6 +104,7 @@
         "flockstep/jumpMigration5"
       ],
       "name": "tweet - 5",
+	  
       "duration": 0.5
     },
     {
@@ -111,7 +113,7 @@
       "deprecatedIDs": [
         "flockstep/jump6"
       ],
-      "name": "tweet - 6",
+      "name": "tweet - 6",	  
       "duration": 1.0
     },
     {
@@ -120,14 +122,14 @@
       "deprecatedIDs": [
         "flockstep/jumpMigration6"
       ],
-      "name": "tweet (migration) - 6",
+      "name": "tweet (migration) - 6",	  
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/tweet6NoStep",
       "deprecatedIDs": [],
-      "name": "tweet (no step) - 6",
+      "name": "tweet (no step) - 6",	  
       "duration": 1.0
     },
     {
@@ -137,7 +139,14 @@
         "flockstep/jump7",
         "flockstep/jumpMigration7"
       ],
-      "name": "tweet - 7",
+      "name": "tweet - 7",	  
+      "duration": 1.0
+    },
+	{
+      "type": "cue",
+      "id": "*/tweet7Migration",
+      "deprecatedIDs": [],
+      "name": "tweet (migration) - 7",
       "duration": 1.0
     },
     {
@@ -390,7 +399,7 @@
           "beat": 2.0
         },
         {
-          "id": "*/tweet7",
+          "id": "*/tweet7Migration",
           "beat": 3.0
         }
       ]

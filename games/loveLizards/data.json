@@ -14,28 +14,49 @@
       "type": "cue",
       "id": "*/bzzt1",
       "deprecatedIDs": [],
-      "name": "güiro - 1",
+      "name": "female güiro - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/bzzt2",
       "deprecatedIDs": [],
-      "name": "güiro - 2",
+      "name": "female güiro - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/bzzt3",
       "deprecatedIDs": [],
-      "name": "güiro - 3",
+      "name": "female güiro - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/bzzt4",
       "deprecatedIDs": [],
-      "name": "güiro - 4",
+      "name": "female güiro - 4",
+      "duration": 0.5
+	      },
+    {
+      "type": "cue",
+      "id": "*/bzzt5",
+      "deprecatedIDs": [],
+      "name": "female güiro - 5",
+      "duration": 0.5
+	      },
+    {
+      "type": "cue",
+      "id": "*/bzzt6",
+      "deprecatedIDs": [],
+      "name": "female güiro - 6",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/shake",
+      "deprecatedIDs": [],
+      "name": "male güiro",
       "duration": 0.5
     },
     {
@@ -64,24 +85,70 @@
           "beat": 1.5
         },
         {
-          "id": "*/bzzt1",
+          "id": "*_randomBzzt",
           "beat": 2.5
+		},
+        {
+          "id": "*/shake",
+          "beat": 2.5,
+		  "track": 1
         },
         {
-          "id": "*/bzzt2",
+          "id": "*_randomBzzt",
           "beat": 3.0
+		  },
+        {
+          "id": "*/shake",
+          "beat": 3.0,
+		  "track": 1
         },
         {
-          "id": "*/bzzt3",
+          "id": "*_randomBzzt",
           "beat": 3.5
+		  },
+        {
+          "id": "*/shake",
+          "beat": 3.5,
+		  "track": 1
         },
         {
-          "id": "*/bzzt4",
+          "id": "*_randomBzzt",
           "beat": 4.0
+		  },
+        {
+          "id": "*/shake",
+          "beat": 4.0,
+		  "track": 1
         },
         {
           "id": "*/happy",
           "beat": 5.5
+		}
+      ]
+    },
+    {
+	  "type": "randomCue",
+      "id": "*_randomBzzt",
+      "deprecatedIDs": [],
+      "name": "random female güiro chirp",
+      "cues": [
+        {
+          "id": "*/bzzt1"
+        },
+        {
+          "id": "*/bzzt2"
+        },
+        {
+          "id": "*/bzzt3"
+		},
+        {
+          "id": "*/bzzt4"
+		},
+        {
+          "id": "*/bzzt5"
+		},
+        {
+          "id": "*/bzzt6"
         }
       ]
     }
