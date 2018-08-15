@@ -78,6 +78,13 @@
       "deprecatedIDs": [],
       "name": "correct answer - no music",
       "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/correctNoApplause",
+      "deprecatedIDs": [],
+      "name": "correct answer - no applause",
+      "duration": 1.0
     }
   ]
 }
