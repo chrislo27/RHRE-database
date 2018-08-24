@@ -53,10 +53,11 @@
       "duration": 0.5
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "*_go",
       "deprecatedIDs": [],
-      "name": "go",
+      "name": "swim",
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "*/go",
