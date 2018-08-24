@@ -1,6 +1,6 @@
 {
   "id": "bossaNovaEn",
-  "name": "Bossa Nova",
+  "name": "Bossa Nova (English)",
   "series": "fever",
   "group": "Bossa Nova",
   "groupDefault": true,
@@ -38,36 +38,39 @@
       "fileExtension": "ogg"
     },
     {
-      "type": "cue",
-      "id": "*/ball_pop",
-      "deprecatedIDs": [],
-      "name": "ball pop",
-      "duration": 0.5,
-      "fileExtension": "ogg"
+      "type" : "cue",
+      "id" : "*/cloud1",
+      "deprecatedIDs" : [ ],
+      "name" : "cloud1",
+      "duration" : 1.0
+    }, 
+	{
+      "type" : "cue",
+      "id" : "*/cloud2",
+      "deprecatedIDs" : [ ],
+      "name" : "cloud2",
+      "duration" : 0.25
+    }, 
+	{
+      "type" : "cue",
+      "id" : "*/cloud3",
+      "deprecatedIDs" : [ ],
+      "name" : "cloud3",
+      "duration" : 0.25
+    }, 
+	{
+      "type" : "cue",
+      "id" : "*/cloud4",
+      "deprecatedIDs" : [ ],
+      "name" : "cloud4",
+      "duration" : 0.25
     },
-    {
-      "type": "cue",
-      "id": "*/click",
-      "deprecatedIDs": [],
-      "name": "click",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/cloud1",
-      "deprecatedIDs": [],
-      "name": "cloud1",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/cloud2",
-      "deprecatedIDs": [],
-      "name": "cloud2",
-      "duration": 2.0,
-      "fileExtension": "ogg"
+	{
+      "type" : "cue",
+      "id" : "*/cloud5",
+      "deprecatedIDs" : [ ],
+      "name" : "cloud5",
+      "duration" : 0.25
     },
     {
       "type": "cue",
@@ -550,14 +553,6 @@
       "fileExtension": "ogg"
     },
     {
-      "type": "cue",
-      "id": "*/thwack",
-      "deprecatedIDs": [],
-      "name": "thwack",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
       "type": "pattern",
       "id": "*_startPattern",
       "deprecatedIDs": [],
@@ -629,23 +624,39 @@
       ]
     },
     {
-      "type": "pattern",
-      "id": "*_cloudSpin",
-      "deprecatedIDs": [],
-      "name": "cloud spin",
-      "cues": [
-        {
-          "id": "*/cloud1",
-          "beat": 0.0,
-          "volume": 100
+      "type" : "pattern",
+      "id" : "*_cloudSpin",
+      "deprecatedIDs" : [ ],
+      "name" : "cloud spin",
+      "stretchable" : false,
+      "cues" : [ 
+	   {
+          "id" : "*/cloud1",
+          "beat" : 0.0,
+          "duration" : 1.0
+        }, 
+		{
+          "id" : "*/cloud2",
+          "beat" : 1.0,
+          "duration" : 0.25
+        }, 
+		{
+          "id" : "*/cloud3",
+          "beat" : 1.25,
+          "duration" : 0.25
+        }, 
+		{
+          "id" : "*/cloud4",
+          "beat" : 1.5,
+          "duration" : 0.25
         },
-        {
-          "id": "*/cloud2",
-          "beat": 1.0,
-          "volume": 100
+		{
+          "id" : "*/cloud5",
+          "beat" : 1.75,
+          "duration" : 0.25	
         }
-      ]
-    },
+	  ]
+	},
     {
       "type": "pattern",
       "id": "*_femalePattern1",
