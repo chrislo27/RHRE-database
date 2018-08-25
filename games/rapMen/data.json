@@ -70,35 +70,35 @@
       "type": "cue",
       "id": "*/okaeri1",
       "deprecatedIDs": [],
-      "name": "wakari masu ka - o",
+      "name": "okaeri masu ka - o",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/okaeri2",
       "deprecatedIDs": [],
-      "name": "wakari masu ka - kae",
+      "name": "okaeri masu ka - kae",
       "duration": 0.375
     },
     {
       "type": "cue",
       "id": "*/okaeri3",
       "deprecatedIDs": [],
-      "name": "wakari masu ka - ri",
+      "name": "okaeri masu ka - ri",
       "duration": 0.0625
     },
     {
       "type": "cue",
       "id": "*/okaeri4",
       "deprecatedIDs": [],
-      "name": "wakari masu ka - masu",
+      "name": "okaeri masu ka - masu",
       "duration": 0.5625
     },
     {
       "type": "cue",
       "id": "*/okaeri5",
       "deprecatedIDs": [],
-      "name": "wakari masu ka - ka",
+      "name": "okaeri masu ka - ka",
       "duration": 1.0
     },
     {
@@ -519,7 +519,7 @@
       "type": "pattern",
       "id": "*_okaerimasuka",
       "deprecatedIDs": [],
-      "name": "yo, wakari [CYAN]masu ka?[]",
+      "name": "yo, okaeri [CYAN]masu ka?[]",
       "cues": [
         {
           "id": "*/yo",
