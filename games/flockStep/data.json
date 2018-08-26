@@ -1,12 +1,16 @@
 {
   "series": "fever",
-  "id": "flockstep",
-  "name": "Flockstep",
+  "id": "flockStep",
+  "name": "Flock Step",
+  "searchHints": [
+    "flockstep"
+  ],
   "objects": [
     {
       "type": "cue",
       "id": "*/step1",
       "deprecatedIDs": [
+        "flockstep/step1",
         "flockstep/stepMigration1"
       ],
       "name": "step - 1",
@@ -16,6 +20,7 @@
       "type": "cue",
       "id": "*/step2",
       "deprecatedIDs": [
+        "flockstep/step2",
         "flockstep/stepMigration2"
       ],
       "name": "step - 2",
@@ -25,6 +30,7 @@
       "type": "cue",
       "id": "*/step3",
       "deprecatedIDs": [
+        "flockstep/step3",
         "flockstep/stepMigration3"
       ],
       "name": "step - 3",
@@ -34,6 +40,7 @@
       "type": "cue",
       "id": "*/step4",
       "deprecatedIDs": [
+        "flockstep/step4",
         "flockstep/stepMigration4"
       ],
       "name": "step - 4",
@@ -43,6 +50,7 @@
       "type": "cue",
       "id": "*/thump1",
       "deprecatedIDs": [
+        "flockstep/thump1",
         "flockstep/jumpMigration1"
       ],
       "name": "thump - 1",
@@ -52,6 +60,7 @@
       "type": "cue",
       "id": "*/thump2",
       "deprecatedIDs": [
+        "flockstep/thump2",
         "flockstep/jumpMigration4"
       ],
       "name": "thump - 2",
@@ -61,105 +70,119 @@
       "type": "cue",
       "id": "*/tweet1",
       "deprecatedIDs": [
+        "flockstep/tweet1",
         "flockstep/jump1"
       ],
-      "name": "tweet - 1",	  
+      "name": "tweet - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/tweet2",
       "deprecatedIDs": [
+        "flockstep/tweet2",
         "flockstep/jump2",
         "flockstep/jumpMigration2"
       ],
-      "name": "tweet - 2",	  
+      "name": "tweet - 2",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/tweet3",
       "deprecatedIDs": [
+        "flockstep/tweet3",
         "flockstep/jump3",
         "flockstep/jumpMigration3"
       ],
-      "name": "tweet - 3",	  
+      "name": "tweet - 3",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/tweet4",
       "deprecatedIDs": [
+        "flockstep/tweet4",
         "flockstep/jump4"
       ],
       "name": "tweet - 4",
-	  
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/tweet5",
       "deprecatedIDs": [
+        "flockstep/tweet5",
         "flockstep/jump5",
         "flockstep/jumpMigration5"
       ],
       "name": "tweet - 5",
-	  
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/tweet6",
       "deprecatedIDs": [
+        "flockstep/tweet6",
         "flockstep/jump6"
       ],
-      "name": "tweet - 6",	  
+      "name": "tweet - 6",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/tweet6Migration",
       "deprecatedIDs": [
+        "flockstep/tweet6Migration",
         "flockstep/jumpMigration6"
       ],
-      "name": "tweet (migration) - 6",	  
+      "name": "tweet (migration) - 6",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/tweet6NoStep",
-      "deprecatedIDs": [],
-      "name": "tweet (no step) - 6",	  
+      "deprecatedIDs": [
+        "flockstep/tweet6NoStep"
+      ],
+      "name": "tweet (no step) - 6",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/tweet7",
       "deprecatedIDs": [
+        "flockstep/tweet7",
         "flockstep/jump7",
         "flockstep/jumpMigration7"
       ],
-      "name": "tweet - 7",	  
+      "name": "tweet - 7",
       "duration": 1.0
     },
-	{
+    {
       "type": "cue",
       "id": "*/tweet7Migration",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "flockstep/tweet7Migration"
+      ],
       "name": "tweet (migration) - 7",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/flappingAway",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "flockstep/flappingAway"
+      ],
       "name": "birds flapping away",
       "duration": 1.0
     },
     {
       "type": "keepTheBeat",
       "id": "*_march",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "flockstep_march"
+      ],
       "name": "march",
       "defaultDuration": 4.0,
       "cues": [
@@ -200,7 +223,9 @@
     {
       "type": "keepTheBeat",
       "id": "*_marchMigration",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "flockstep_marchMigration"
+      ],
       "name": "march (migration)",
       "defaultDuration": 4.0,
       "cues": [
@@ -261,7 +286,9 @@
     {
       "type": "pattern",
       "id": "*_jump",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "flockstep_jump"
+      ],
       "name": "jump",
       "cues": [
         {
@@ -293,7 +320,9 @@
     {
       "type": "pattern",
       "id": "*_jumpMigration",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "flockstep_jumpMigration"
+      ],
       "name": "jump (migration)",
       "cues": [
         {
@@ -335,7 +364,9 @@
     {
       "type": "pattern",
       "id": "*_tweet",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "flockstep_tweet"
+      ],
       "name": "tweeting",
       "cues": [
         {
@@ -371,7 +402,9 @@
     {
       "type": "pattern",
       "id": "*_tweetMigration",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "flockstep_tweetMigration"
+      ],
       "name": "tweeting (migration)",
       "cues": [
         {
@@ -407,7 +440,9 @@
     {
       "type": "pattern",
       "id": "*_tweetNoStep",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "flockstep_tweetNoStep"
+      ],
       "name": "tweeting (no step before jump)",
       "cues": [
         {
