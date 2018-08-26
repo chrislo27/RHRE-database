@@ -4,6 +4,7 @@
   "name": "Big Rock Finish (DS) (English)",
   "group": "Big Rock Finish (DS)",
   "groupDefault": true,
+  "searchHints": [ "rigged" ],
   "objects": [
     {
       "type": "cue",

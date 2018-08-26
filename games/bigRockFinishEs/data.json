@@ -3,6 +3,7 @@
   "id": "bigRockFinishEs",
   "name": "Big Rock Finish (DS) (Spanish)",
   "group": "Big Rock Finish (DS)",
+  "searchHints": [ "arreglado" ],
   "objects": [
     {
       "type": "cue",
