@@ -1,154 +1,210 @@
 {
   "series": "side",
-  "id": "munchyMonkWiiJa",
-  "name": "Munchy Monk (Fever) (Japanese)",
+  "id": "munchyMonkFeverEn",
+  "name": "Munchy Monk (Fever) (English)",
   "group": "Munchy Monk (Fever)",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",
       "id": "*/blow",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "munchyMonkWiiEn/blow",
+        "munchyMonkWii/blow"
+      ],
       "name": "egg blow",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/gulp",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "munchyMonkWiiEn/gulp",
+        "munchyMonkWii/gulp"
+      ],
       "name": "egg gulp",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/haiya1",
-      "deprecatedIDs": [],
-      "name": "hai ya - hai",
+      "id": "*/oneegg1",
+      "deprecatedIDs": [
+        "munchyMonkWiiEn/oneegg1",
+        "munchyMonkWii/oneegg1"
+      ],
+      "name": "one egg - one",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/haiya2",
-      "deprecatedIDs": [],
-      "name": "hai ya - ya",
+      "id": "*/oneegg2",
+      "deprecatedIDs": [
+        "munchyMonkWiiEn/oneegg2",
+        "munchyMonkWii/oneegg2"
+      ],
+      "name": "one egg - egg",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/peas1",
-      "deprecatedIDs": [],
-      "name": "tenkomori - ten",
+      "deprecatedIDs": [
+        "munchyMonkWiiEn/peas1",
+        "munchyMonkWii/peas1"
+      ],
+      "name": "handful of peas - hand",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/peas2",
-      "deprecatedIDs": [],
-      "name": "tenkomori - ko",
+      "deprecatedIDs": [
+        "munchyMonkWiiEn/peas2",
+        "munchyMonkWii/peas2"
+      ],
+      "name": "handful of peas - ful",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/peas3",
-      "deprecatedIDs": [],
-      "name": "tenkomori - mo",
+      "deprecatedIDs": [
+        "munchyMonkWiiEn/peas3",
+        "munchyMonkWii/peas3"
+      ],
+      "name": "handful of peas - of",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/peas4",
-      "deprecatedIDs": [],
-      "name": "tenkomori - ri!",
+      "deprecatedIDs": [
+        "munchyMonkWiiEn/peas4",
+        "munchyMonkWii/peas4"
+      ],
+      "name": "handful of peas - peas!",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/peas4Bang",
-      "deprecatedIDs": [],
-      "name": "tenkomori - ri! - bang",
+      "deprecatedIDs": [
+        "munchyMonkWiiEn/peas4Bang"
+      ],
+      "name": "handful of peas - peas! - bang",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/peas5",
-      "deprecatedIDs": [],
-      "name": "tenkomori - blow1",
+      "deprecatedIDs": [
+        "munchyMonkWiiEn/peas5",
+        "munchyMonkWii/peas5"
+      ],
+      "name": "handful of peas - blow1",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/peas6",
-      "deprecatedIDs": [],
-      "name": "tenkomori - blow2",
+      "deprecatedIDs": [
+        "munchyMonkWiiEn/peas6",
+        "munchyMonkWii/peas6"
+      ],
+      "name": "handful of peas - blow2",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/peas7",
-      "deprecatedIDs": [],
-      "name": "tenkomori - blow3",
+      "deprecatedIDs": [
+        "munchyMonkWiiEn/peas7",
+        "munchyMonkWii/peas7"
+      ],
+      "name": "handful of peas - blow3",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/peas8",
-      "deprecatedIDs": [],
-      "name": "tenkomori - blow4",
+      "deprecatedIDs": [
+        "munchyMonkWiiEn/peas8",
+        "munchyMonkWii/peas8"
+      ],
+      "name": "handful of peas - blow4",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/peas9",
-      "deprecatedIDs": [],
-      "name": "tenkomori - blow5",
+      "deprecatedIDs": [
+        "munchyMonkWiiEn/peas9",
+        "munchyMonkWii/peas9"
+      ],
+      "name": "handful of peas - blow5",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/peas10",
-      "deprecatedIDs": [],
-      "name": "tenkomori - blow6",
+      "deprecatedIDs": [
+        "munchyMonkWiiEn/peas10"
+      ],
+      "name": "handful of peas - blow6",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/peas11",
-      "deprecatedIDs": [],
-      "name": "tenkomori - blow7",
+      "deprecatedIDs": [
+        "munchyMonkWiiEn/peas11"
+      ],
+      "name": "handful of peas - blow7",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/peas12",
-      "deprecatedIDs": [],
-      "name": "tenkomori - blow8",
+      "deprecatedIDs": [
+        "munchyMonkWiiEn/peas12"
+      ],
+      "name": "handful of peas - blow8",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/peas13",
-      "deprecatedIDs": [],
-      "name": "tenkomori - blow9",
+      "deprecatedIDs": [
+        "munchyMonkWiiEn/peas13"
+      ],
+      "name": "handful of peas - blow9",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/peasgulp",
-      "deprecatedIDs": [],
-      "name": "tenkomori - gulp",
+      "deprecatedIDs": [
+        "munchyMonkWiiEn/peasgulp",
+        "munchyMonkWii/peasgulp"
+      ],
+      "name": "handful of peas - gulp",
       "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "*_haiYa",
-      "deprecatedIDs": [],
+      "id": "*_oneEgg",
+      "deprecatedIDs": [
+        "munchyMonkWiiEn_oneEgg",
+        "munchyMonkWii_oneEgg"
+      ],
       "name": "one egg!",
       "cues": [
         {
-          "id": "*/haiya1",
+          "id": "*/oneegg1",
           "beat": 0.0
         },
         {
-          "id": "*/haiya2",
+          "id": "*/oneegg2",
           "beat": 1.0
         },
         {
@@ -163,8 +219,11 @@
     },
     {
       "type": "pattern",
-      "id": "*_tenkomori",
-      "deprecatedIDs": [],
+      "id": "*_handfulOfPeas",
+      "deprecatedIDs": [
+        "munchyMonkWiiEn_handfulOfPeas",
+        "munchyMonkWii_handfulOfPeas"
+      ],
       "name": "handful of peas!",
       "cues": [
         {
@@ -211,8 +270,10 @@
     },
     {
       "type": "pattern",
-      "id": "*_tenkomoriLong",
-      "deprecatedIDs": [],
+      "id": "*_handfulOfPeasLong",
+      "deprecatedIDs": [
+        "munchyMonkWiiEn_handfulOfPeasLong"
+      ],
       "name": "handful of peas! - long",
       "cues": [
         {

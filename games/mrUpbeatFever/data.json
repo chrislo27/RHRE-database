@@ -1,12 +1,13 @@
 {
   "series": "side",
-  "id": "mrUpbeatWii",
+  "id": "mrUpbeatFever",
   "name": "Mr. Upbeat (Fever)",
   "objects": [
     {
       "type": "cue",
       "id": "*/bip",
       "deprecatedIDs": [
+        "mrUpbeatWii/bip",
         "mrUpbeat/bip"
       ],
       "name": "count in - bip",
@@ -16,6 +17,7 @@
       "type": "cue",
       "id": "*/metroL",
       "deprecatedIDs": [
+        "mrUpbeatWii/metroL",
         "mrUpbeat/metroL"
       ],
       "name": "metronome - left",
@@ -25,6 +27,7 @@
       "type": "cue",
       "id": "*/metroR",
       "deprecatedIDs": [
+        "mrUpbeatWii/metroR",
         "mrUpbeat/metroR"
       ],
       "name": "metronome - right",
@@ -34,6 +37,7 @@
       "type": "cue",
       "id": "*/step",
       "deprecatedIDs": [
+        "mrUpbeatWii/step",
         "mrUpbeat/step"
       ],
       "name": "upbeat - step",
@@ -43,6 +47,7 @@
       "type": "cue",
       "id": "*/applause",
       "deprecatedIDs": [
+        "mrUpbeatWii/applause",
         "mrUpbeat/applause"
       ],
       "name": "ding and applause",
@@ -52,6 +57,7 @@
       "type": "pattern",
       "id": "*_countIn",
       "deprecatedIDs": [
+        "mrUpbeatWii_countIn",
         "mrUpbeat_countIn"
       ],
       "name": "count in",
@@ -78,6 +84,7 @@
       "type": "keepTheBeat",
       "id": "*_pattern",
       "deprecatedIDs": [
+        "mrUpbeatWii_pattern",
         "mrUpbeat_pattern"
       ],
       "name": "stepping",

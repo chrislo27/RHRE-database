@@ -1,41 +1,51 @@
 {
   "series": "fever",
-  "id": "sneakySpiritsWii",
+  "id": "sneakySpiritsFever",
   "name": "Sneaky Spirits (Fever)",
   "priority": -1,
   "objects": [
     {
       "type": "cue",
       "id": "*/moving",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "sneakySpiritsWii/moving"
+      ],
       "name": "moving",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/fading1",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "sneakySpiritsWii/fading1"
+      ],
       "name": "fading - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/fading2",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "sneakySpiritsWii/fading2"
+      ],
       "name": "fading - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/fading3",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "sneakySpiritsWii/fading3"
+      ],
       "name": "fading - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/rainLoop",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "sneakySpiritsWii/rainLoop"
+      ],
       "name": "no ghost - raining",
       "duration": 3.0,
       "loops": true,
@@ -44,14 +54,18 @@
     {
       "type": "cue",
       "id": "*/hit",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "sneakySpiritsWii/hit"
+      ],
       "name": "hit",
       "duration": 0.5
     },
     {
       "type": "equidistant",
       "id": "*_sevenBeats",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "sneakySpiritsWii_sevenBeats"
+      ],
       "name": "7 beats",
       "distance": 1.0,
       "stretchable": true,
@@ -82,7 +96,9 @@
     {
       "type": "equidistant",
       "id": "*_eightBeats",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "sneakySpiritsWii_eightBeats"
+      ],
       "name": "8 beats",
       "distance": 1.0,
       "stretchable": true,

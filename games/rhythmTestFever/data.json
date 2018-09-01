@@ -1,54 +1,68 @@
 {
   "series": "side",
-  "id": "rhythmTestWii",
+  "id": "rhythmTestFever",
   "name": "Rhythm Test (Fever)",
   "objects": [
     {
       "type": "cue",
       "id": "*/pressToBeat",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "rhythmTestWii/pressToBeat"
+      ],
       "name": "press to the beat",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/wait",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "rhythmTestWii/wait"
+      ],
       "name": "wait",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/waitPress",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "rhythmTestWii/waitPress"
+      ],
       "name": "press after waiting",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/signs1",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "rhythmTestWii/signs1"
+      ],
       "name": "test in progress - 1",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/signs2",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "rhythmTestWii/signs2"
+      ],
       "name": "test in progress - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/signs3",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "rhythmTestWii/signs3"
+      ],
       "name": "test in progress - 3",
       "duration": 1.0
     },
     {
       "type": "keepTheBeat",
       "id": "*_pressToBeat",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "rhythmTestWii_pressToBeat"
+      ],
       "name": "pressing to the beat",
       "defaultDuration": 4.0,
       "cues": [
@@ -73,7 +87,9 @@
     {
       "type": "keepTheBeat",
       "id": "*_waitFour",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "rhythmTestWii_waitFour"
+      ],
       "name": "wait (four)",
       "defaultDuration": 4.0,
       "cues": [
@@ -98,7 +114,9 @@
     {
       "type": "keepTheBeat",
       "id": "*_waitEight",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "rhythmTestWii_waitEight"
+      ],
       "name": "wait (eight)",
       "defaultDuration": 4.0,
       "cues": [
@@ -139,7 +157,9 @@
     {
       "type": "pattern",
       "id": "*_signs",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "rhythmTestWii_signs"
+      ],
       "name": "test in progress",
       "cues": [
         {
