@@ -114,57 +114,63 @@
         {
           "id": "*/redMiddle",
           "beat": 1.0,
-          "semitone": 2
+		  "semitone" : 2
         },
         {
           "id": "*/redMiddle",
           "beat": 2.0,
-          "semitone": 3
+		  "semitone" : 3
         },
         {
           "id": "*/redEnd",
           "beat": 3.0,
-          "semitone": 5
+		  "semitone" : 5
         }
       ]
     },
     {
-      "type": "pattern",
-      "id": "*_blueRocket",
-      "deprecatedIDs": [],
-      "name": "blue rocket",
-      "cues": [
+      "type" : "pattern",
+      "id" : "*_blueRocket",
+      "deprecatedIDs" : [ ],
+      "name" : "blue rocket",
+      "stretchable" : false,
+      "cues" : [ 
         {
-          "id": "*/blueStart",
-          "beat": 0.0,
-          "semitone": 2
+         "id" : "*/blueStart",
+         "beat" : 0.0,
+         "duration" : 0.666666
         },
-        {
-          "id": "*/blueMiddle",
-          "beat": 0.666666,
-          "semitone": 3
-        },
-        {
-          "id": "*/blueMiddle",
-          "beat": 1.0,
-          "semitone": 5
-        },
-        {
-          "id": "*/blueMiddle",
-          "beat": 1.333333,
-          "semitone": 7
-        },
-        {
-          "id": "*/blueMiddle",
-          "beat": 1.666666,
-          "semitone": 9
-        },
-        {
-          "id": "*/blueEnd",
-          "beat": 2.0,
-          "semitone": 10
+	    {
+         "id" : "*/blueMiddle",
+         "beat" : 0.66666603,
+         "duration" : 0.333333,
+         "semitone" : 1
+        }, 
+	    {
+         "id" : "*/blueMiddle",
+         "beat" : 1.0,
+         "duration" : 0.333333,
+         "semitone" : 3
+        }, 
+	    {
+         "id" : "*/blueMiddle",
+         "beat" : 1.333333,
+         "duration" : 0.333333,
+         "semitone" : 5
+        }, 
+	    {
+         "id" : "*/blueMiddle",
+         "beat" : 1.666666,
+         "duration" : 0.333333,
+         "semitone" : 7
+        }, 
+	    {
+         "id" : "*/blueEnd",
+         "beat" : 2.0,
+         "duration" : 1.0,
+         "semitone" : 8
         }
-      ]
+	  ]
     },
     {
       "type": "pattern",
