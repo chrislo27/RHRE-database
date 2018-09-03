@@ -48,22 +48,12 @@
     },
     {
       "type": "cue",
-      "id": "*/thump1",
+      "id": "*/thump",
       "deprecatedIDs": [
-        "flockstep/thump1",
+        "flockstep/thump",
         "flockstep/jumpMigration1"
       ],
-      "name": "thump - 1",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/thump2",
-      "deprecatedIDs": [
-        "flockstep/thump2",
-        "flockstep/jumpMigration4"
-      ],
-      "name": "thump - 2",
+      "name": "thump",
       "duration": 1.0
     },
     {
@@ -137,15 +127,6 @@
         "flockstep/jumpMigration6"
       ],
       "name": "tweet (migration) - 6",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/tweet6NoStep",
-      "deprecatedIDs": [
-        "flockstep/tweet6NoStep"
-      ],
-      "name": "tweet (no step) - 6",
       "duration": 1.0
     },
     {
@@ -234,7 +215,7 @@
           "beat": 0.0
         },
         {
-          "id": "*/thump1",
+          "id": "*/thump",
           "beat": 0.0,
           "track": 1
         },
@@ -247,7 +228,7 @@
           "beat": 1.0
         },
         {
-          "id": "*/thump2",
+          "id": "*/thump",
           "beat": 1.0,
           "track": 1
         },
@@ -260,7 +241,7 @@
           "beat": 2.0
         },
         {
-          "id": "*/thump1",
+          "id": "*/thump",
           "beat": 2.0,
           "track": 1
         },
@@ -273,7 +254,7 @@
           "beat": 3.0
         },
         {
-          "id": "*/thump2",
+          "id": "*/thump",
           "beat": 3.0,
           "track": 1
         },
@@ -335,7 +316,7 @@
           "track": 1
         },
         {
-          "id": "*/thump1",
+          "id": "*/thump",
           "beat": 0.0,
           "track": 2
         },
@@ -350,7 +331,7 @@
           "track": 1
         },
         {
-          "id": "*/thump2",
+          "id": "*/thump",
           "beat": 1.0,
           "track": 2
         },
@@ -433,44 +414,6 @@
         },
         {
           "id": "*/tweet7Migration",
-          "beat": 3.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_tweetNoStep",
-      "deprecatedIDs": [
-        "flockstep_tweetNoStep"
-      ],
-      "name": "tweeting (no step before jump)",
-      "cues": [
-        {
-          "id": "*/tweet1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/tweet2",
-          "beat": 0.5
-        },
-        {
-          "id": "*/tweet3",
-          "beat": 0.75
-        },
-        {
-          "id": "*/tweet4",
-          "beat": 1.0
-        },
-        {
-          "id": "*/tweet5",
-          "beat": 1.5
-        },
-        {
-          "id": "*/tweet6NoStep",
-          "beat": 2.0
-        },
-        {
-          "id": "*/tweet7",
           "beat": 3.0
         }
       ]
