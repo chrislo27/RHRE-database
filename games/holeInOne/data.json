@@ -91,7 +91,7 @@
       "type": "randomCue",
       "id": "*_randomBall",
       "deprecatedIDs": [],
-      "name": "random score clink",
+      "name": "random score clink (monkey)",
       "cues": [
         {
           "id": "*/hole1"
@@ -101,9 +101,6 @@
         },
         {
           "id": "*/hole3"
-        },
-        {
-          "id": "*/hole4"
         }
       ]
     },
@@ -124,6 +121,10 @@
         {
           "id": "*/monkey3",
           "beat": 2.0
+        },
+		{
+		  "id": "*_randomBall",
+		  "beat": 4.0  
         }
       ]
     },
@@ -147,45 +148,13 @@
         },
         {
           "id": "*/mandrill4",
-          "beat": 3.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_monkeyShort",
-      "deprecatedIDs": [],
-      "name": "monkey - short",
-      "cues": [
-        {
-          "id": "*/monkey2",
-          "beat": 0.0
+          "beat": 3.0		
         },
-        {
-          "id": "*/monkey3",
-          "beat": 1.0
+		{
+		  "id": "*/hole4",
+		  "beat": 5.0  
         }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_mandrillShort",
-      "deprecatedIDs": [],
-      "name": "mandrill - short",
-      "cues": [
-        {
-          "id": "*/mandrill2",
-          "beat": 0.0
-        },
-        {
-          "id": "*/mandrill3",
-          "beat": 1.0
-        },
-        {
-          "id": "*/mandrill4",
-          "beat": 2.0
-        }
-      ]
+	  ]		  
     }
   ]
 }

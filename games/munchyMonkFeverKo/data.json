@@ -1,0 +1,352 @@
+{
+  "series": "side",
+  "id": "munchyMonkFeverKo",
+  "name": "Munchy Monk (Fever) (Korean)",
+  "group": "Munchy Monk (Fever)",
+  "groupDefault": false,
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/blow",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo/blow",
+        "munchyMonkWii/blow"
+      ],
+      "name": "egg blow",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/gulp",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo/gulp",
+        "munchyMonkWii/gulp"
+      ],
+      "name": "egg gulp",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/oneegg1",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo/oneegg1",
+        "munchyMonkWii/oneegg1"
+      ],
+      "name": "one egg - one",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oneegg2",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo/oneegg2",
+        "munchyMonkWii/oneegg2"
+      ],
+      "name": "one egg - two",
+      "duration": 1.0
+    },
+	{
+      "type": "cue",
+      "id": "*/oneegg3",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo/oneegg3",
+        "munchyMonkWii/oneegg3"
+      ],
+      "name": "one egg - three",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/peas1",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo/peas1",
+        "munchyMonkWii/peas1"
+      ],
+      "name": "handful of peas - hand",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/peas2",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo/peas2",
+        "munchyMonkWii/peas2"
+      ],
+      "name": "handful of peas - ful",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/peas3",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo/peas3",
+        "munchyMonkWii/peas3"
+      ],
+      "name": "handful of peas - of",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/peas4",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo/peas4",
+        "munchyMonkWii/peas4"
+      ],
+      "name": "handful of peas - peas!",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/peas4Bang",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo/peas4Bang"
+      ],
+      "name": "handful of peas - peas! - bang",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/peas5",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo/peas5",
+        "munchyMonkWii/peas5"
+      ],
+      "name": "handful of peas - blow1",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/peas6",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo/peas6",
+        "munchyMonkWii/peas6"
+      ],
+      "name": "handful of peas - blow2",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/peas7",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo/peas7",
+        "munchyMonkWii/peas7"
+      ],
+      "name": "handful of peas - blow3",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/peas8",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo/peas8",
+        "munchyMonkWii/peas8"
+      ],
+      "name": "handful of peas - blow4",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/peas9",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo/peas9",
+        "munchyMonkWii/peas9"
+      ],
+      "name": "handful of peas - blow5",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/peas10",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo/peas10"
+      ],
+      "name": "handful of peas - blow6",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/peas11",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo/peas11"
+      ],
+      "name": "handful of peas - blow7",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/peas12",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo/peas12"
+      ],
+      "name": "handful of peas - blow8",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/peas13",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo/peas13"
+      ],
+      "name": "handful of peas - blow9",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/peasgulp",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo/peasgulp",
+        "munchyMonkWii/peasgulp"
+      ],
+      "name": "handful of peas - gulp",
+      "duration": 0.5
+    },
+    {
+      "type": "pattern",
+      "id": "*_oneEgg",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo_oneEgg",
+        "munchyMonkWii_oneEgg"
+      ],
+      "name": "one egg!",
+      "cues": [
+        {
+          "id": "*/oneegg1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/oneegg2",
+          "beat": 0.5
+        },
+		{
+          "id": "*/oneegg3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/blow",
+          "beat": 2.0
+        },
+        {
+          "id": "*/gulp",
+          "beat": 2.5
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_handfulOfPeas",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo_handfulOfPeas",
+        "munchyMonkWii_handfulOfPeas"
+      ],
+      "name": "handful of peas!",
+      "cues": [
+        {
+          "id": "*/peas1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/peas2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/peas3",
+          "beat": 0.75
+        },
+        {
+          "id": "*/peas4",
+          "beat": 1.0
+        },
+        {
+          "id": "*/peas5",
+          "beat": 2.0
+        },
+        {
+          "id": "*/peas6",
+          "beat": 2.25
+        },
+        {
+          "id": "*/peas7",
+          "beat": 2.5
+        },
+        {
+          "id": "*/peas8",
+          "beat": 2.75
+        },
+        {
+          "id": "*/peas9",
+          "beat": 3.0
+        },
+        {
+          "id": "*/peasgulp",
+          "beat": 3.5
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_handfulOfPeasLong",
+      "deprecatedIDs": [
+        "munchyMonkWiiKo_handfulOfPeasLong"
+      ],
+      "name": "handful of peas! - long",
+      "cues": [
+        {
+          "id": "*/peas1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/peas2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/peas3",
+          "beat": 0.75
+        },
+        {
+          "id": "*/peas4Bang",
+          "beat": 1.0
+        },
+        {
+          "id": "*/peas5",
+          "beat": 2.0
+        },
+        {
+          "id": "*/peas6",
+          "beat": 2.25
+        },
+        {
+          "id": "*/peas7",
+          "beat": 2.5
+        },
+        {
+          "id": "*/peas8",
+          "beat": 2.75
+        },
+        {
+          "id": "*/peas9",
+          "beat": 3.0
+        },
+        {
+          "id": "*/peas10",
+          "beat": 3.25
+        },
+        {
+          "id": "*/peas11",
+          "beat": 3.5
+        },
+        {
+          "id": "*/peas12",
+          "beat": 3.75
+        },
+        {
+          "id": "*/peas13",
+          "beat": 4.0
+        },
+        {
+          "id": "*/peasgulp",
+          "beat": 4.5
+        }
+      ]
+    }
+  ]
+}
