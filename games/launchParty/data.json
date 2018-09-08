@@ -65,8 +65,7 @@
       "deprecatedIDs": [],
       "name": "green - middle",
       "duration": 0.166666,
-      "repitchable": true,
-      "loops": true
+      "repitchable": true
     },
     {
       "type": "cue",
