@@ -45,7 +45,7 @@
       "name": "one egg - two",
       "duration": 1.0
     },
-	{
+    {
       "type": "cue",
       "id": "*/oneegg3",
       "deprecatedIDs": [
@@ -217,7 +217,7 @@
           "id": "*/oneegg2",
           "beat": 0.5
         },
-		{
+        {
           "id": "*/oneegg3",
           "beat": 1.0
         },

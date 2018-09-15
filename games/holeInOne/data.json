@@ -122,9 +122,9 @@
           "id": "*/monkey3",
           "beat": 2.0
         },
-		{
-		  "id": "*_randomBall",
-		  "beat": 4.0  
+        {
+          "id": "*_randomBall",
+          "beat": 4.0
         }
       ]
     },
@@ -148,13 +148,13 @@
         },
         {
           "id": "*/mandrill4",
-          "beat": 3.0		
+          "beat": 3.0
         },
-		{
-		  "id": "*/hole4",
-		  "beat": 5.0  
+        {
+          "id": "*/hole4",
+          "beat": 5.0
         }
-	  ]		  
+      ]
     }
   ]
 }

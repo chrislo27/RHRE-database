@@ -38,7 +38,7 @@
         },
         {
           "id": "*/close",
-		  "duration": 1.0,
+          "duration": 1.0,
           "beat": 0.0
         },
         {
@@ -68,54 +68,54 @@
         {
           "id": "*/bounce",
           "track": 1.0,
-		  "duration": 0.5,
+          "duration": 0.5,
           "beat": 0.0
         },
         {
           "id": "*/close",
-		  "duration": 0.5,
+          "duration": 0.5,
           "beat": 0.0
         },
         {
           "id": "*/bounce",
           "track": 1.0,
-		  "duration": 0.5,
+          "duration": 0.5,
           "beat": 0.5
         },
         {
           "id": "*/bounce",
           "track": 1.0,
-		  "duration": 0.5,
+          "duration": 0.5,
           "beat": 1.0
         },
         {
           "id": "*/bounce",
           "track": 1.0,
-		  "duration": 0.5,
+          "duration": 0.5,
           "beat": 1.5
         },
         {
           "id": "*/bounce",
           "track": 1.0,
-		  "duration": 0.5,
+          "duration": 0.5,
           "beat": 2.0
         },
         {
           "id": "*/bounce",
           "track": 1.0,
-		  "duration": 0.5,
+          "duration": 0.5,
           "beat": 2.5
         },
         {
           "id": "*/bounce",
           "track": 1.0,
-		  "duration": 0.5,
+          "duration": 0.5,
           "beat": 3.0
         },
         {
           "id": "*/bounce2",
           "track": 1.0,
-		  "duration": 0.5,
+          "duration": 0.5,
           "beat": 3.5
         }
       ]
@@ -129,78 +129,78 @@
       "cues": [
         {
           "id": "*/bounce",
-		  "track": 1.0,
-		  "duration": 0.25,
+          "track": 1.0,
+          "duration": 0.25,
           "beat": 0.0
         },
         {
           "id": "*/close",
-		  "duration": 0.25,
+          "duration": 0.25,
           "beat": 0.0
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
-		  "duration": 0.25,
+          "track": 1.0,
+          "duration": 0.25,
           "beat": 0.25
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
+          "track": 1.0,
           "duration": 0.25,
           "beat": 0.5
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
+          "track": 1.0,
           "duration": 0.25,
           "beat": 0.75
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
+          "track": 1.0,
           "duration": 0.25,
           "beat": 1.0
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
+          "track": 1.0,
           "duration": 0.25,
           "beat": 1.25
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
+          "track": 1.0,
           "duration": 0.25,
           "beat": 1.5
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
+          "track": 1.0,
           "duration": 0.25,
           "beat": 1.75
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
+          "track": 1.0,
           "duration": 0.25,
           "beat": 2.0
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
+          "track": 1.0,
           "duration": 0.25,
           "beat": 2.25
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
+          "track": 1.0,
           "duration": 0.25,
           "beat": 2.5
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
+          "track": 1.0,
           "duration": 0.25,
           "beat": 2.75
         },
@@ -220,79 +220,79 @@
       "cues": [
         {
           "id": "*/bounce",
-		  "track": 1.0,
+          "track": 1.0,
           "duration": 0.33,
           "beat": 0.0
         },
         {
           "id": "*/close",
-		  "duration": 0.33,
+          "duration": 0.33,
           "beat": 0.0
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
-		  "duration": 0.166,
+          "track": 1.0,
+          "duration": 0.166,
           "beat": 0.33
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
+          "track": 1.0,
           "duration": 0.33,
           "beat": 0.5
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
-		  "duration": 0.166,
+          "track": 1.0,
+          "duration": 0.166,
           "beat": 0.83
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
+          "track": 1.0,
           "duration": 0.33,
           "beat": 1.0
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
-		  "duration": 0.166,
+          "track": 1.0,
+          "duration": 0.166,
           "beat": 1.33
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
+          "track": 1.0,
           "duration": 0.33,
           "beat": 1.5
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
-		  "duration": 0.166,
+          "track": 1.0,
+          "duration": 0.166,
           "beat": 1.83
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
+          "track": 1.0,
           "duration": 0.33,
           "beat": 2.0
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
-		  "duration": 0.166,
+          "track": 1.0,
+          "duration": 0.166,
           "beat": 2.33
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
+          "track": 1.0,
           "duration": 0.33,
           "beat": 2.5
         },
         {
           "id": "*/bounce",
-		  "track": 1.0,
-		  "duration": 0.166,
+          "track": 1.0,
+          "duration": 0.166,
           "beat": 2.83
         },
         {

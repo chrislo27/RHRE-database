@@ -3,7 +3,9 @@
   "id": "bigRockFinishMegamix",
   "name": "Big Rock Finish (Megamix)",
   "group": "Big Rock Finish (Megamix)",
-  "searchHints": [ "rigged" ],
+  "searchHints": [
+    "rigged"
+  ],
   "objects": [
     {
       "type": "cue",

@@ -7,6 +7,70 @@
   "objects": [
     {
       "type": "cue",
+      "id": "*/female_giggle1",
+      "deprecatedIDs": [],
+      "name": "female giggle1",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "*/female_giggle2",
+      "deprecatedIDs": [],
+      "name": "female giggle2",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "*/female_giggle3",
+      "deprecatedIDs": [],
+      "name": "female giggle3",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "*/female_mmm",
+      "deprecatedIDs": [],
+      "name": "female mmm",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "*/male_ahh1",
+      "deprecatedIDs": [],
+      "name": "male ahh1",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "*/male_mmm",
+      "deprecatedIDs": [],
+      "name": "male mmm",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "*/male_ooh1",
+      "deprecatedIDs": [],
+      "name": "male ooh1",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
+      "id": "*/male_grunt1",
+      "deprecatedIDs": [],
+      "name": "male grunt1",
+      "duration": 0.5,
+      "fileExtension": "ogg"
+    },
+    {
+      "type": "cue",
       "id": "*/ball",
       "deprecatedIDs": [],
       "name": "ball",
@@ -38,39 +102,39 @@
       "fileExtension": "ogg"
     },
     {
-      "type" : "cue",
-      "id" : "*/cloud1",
-      "deprecatedIDs" : [ ],
-      "name" : "cloud1",
-      "duration" : 1.0
-    }, 
-	{
-      "type" : "cue",
-      "id" : "*/cloud2",
-      "deprecatedIDs" : [ ],
-      "name" : "cloud2",
-      "duration" : 0.25
-    }, 
-	{
-      "type" : "cue",
-      "id" : "*/cloud3",
-      "deprecatedIDs" : [ ],
-      "name" : "cloud3",
-      "duration" : 0.25
-    }, 
-	{
-      "type" : "cue",
-      "id" : "*/cloud4",
-      "deprecatedIDs" : [ ],
-      "name" : "cloud4",
-      "duration" : 0.25
+      "type": "cue",
+      "id": "*/cloud1",
+      "deprecatedIDs": [],
+      "name": "cloud1",
+      "duration": 1.0
     },
-	{
-      "type" : "cue",
-      "id" : "*/cloud5",
-      "deprecatedIDs" : [ ],
-      "name" : "cloud5",
-      "duration" : 0.25
+    {
+      "type": "cue",
+      "id": "*/cloud2",
+      "deprecatedIDs": [],
+      "name": "cloud2",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/cloud3",
+      "deprecatedIDs": [],
+      "name": "cloud3",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/cloud4",
+      "deprecatedIDs": [],
+      "name": "cloud4",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/cloud5",
+      "deprecatedIDs": [],
+      "name": "cloud5",
+      "duration": 0.25
     },
     {
       "type": "cue",
@@ -101,7 +165,7 @@
       "id": "*/female_bom1",
       "deprecatedIDs": [],
       "name": "female bom1",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -109,7 +173,7 @@
       "id": "*/female_bom2",
       "deprecatedIDs": [],
       "name": "female bom2",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -117,7 +181,7 @@
       "id": "*/female_bom3",
       "deprecatedIDs": [],
       "name": "female bom3",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -125,7 +189,7 @@
       "id": "*/female_bom4",
       "deprecatedIDs": [],
       "name": "female bom4",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -133,7 +197,7 @@
       "id": "*/female_bom5",
       "deprecatedIDs": [],
       "name": "female bom5",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -141,7 +205,7 @@
       "id": "*/female_bom6",
       "deprecatedIDs": [],
       "name": "female bom6",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -149,7 +213,7 @@
       "id": "*/female_bom7",
       "deprecatedIDs": [],
       "name": "female bom7",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -157,7 +221,7 @@
       "id": "*/female_bom8",
       "deprecatedIDs": [],
       "name": "female bom8",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -165,7 +229,7 @@
       "id": "*/female_bom9",
       "deprecatedIDs": [],
       "name": "female bom9",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -173,7 +237,7 @@
       "id": "*/female_bom10",
       "deprecatedIDs": [],
       "name": "female bom10",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -181,7 +245,7 @@
       "id": "*/female_bom_laugh",
       "deprecatedIDs": [],
       "name": "female bom laugh",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -189,38 +253,6 @@
       "id": "*/female_cough1",
       "deprecatedIDs": [],
       "name": "female cough1",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/female_giggle1",
-      "deprecatedIDs": [],
-      "name": "female giggle1",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/female_giggle2",
-      "deprecatedIDs": [],
-      "name": "female giggle2",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/female_giggle3",
-      "deprecatedIDs": [],
-      "name": "female giggle3",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/female_mmm",
-      "deprecatedIDs": [],
-      "name": "female mmm",
       "duration": 0.5,
       "fileExtension": "ogg"
     },
@@ -290,14 +322,6 @@
     },
     {
       "type": "cue",
-      "id": "*/male_ahh1",
-      "deprecatedIDs": [],
-      "name": "male ahh1",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
       "id": "*/male_cough1",
       "deprecatedIDs": [],
       "name": "male cough1",
@@ -333,7 +357,7 @@
       "id": "*/male_don1",
       "deprecatedIDs": [],
       "name": "male don1",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -341,7 +365,7 @@
       "id": "*/male_don2",
       "deprecatedIDs": [],
       "name": "male don2",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -349,7 +373,7 @@
       "id": "*/male_don3",
       "deprecatedIDs": [],
       "name": "male don3",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -357,7 +381,7 @@
       "id": "*/male_don4",
       "deprecatedIDs": [],
       "name": "male don4",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -365,7 +389,7 @@
       "id": "*/male_don5",
       "deprecatedIDs": [],
       "name": "male don5",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -373,7 +397,7 @@
       "id": "*/male_don6",
       "deprecatedIDs": [],
       "name": "male don6",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -381,7 +405,7 @@
       "id": "*/male_don7",
       "deprecatedIDs": [],
       "name": "male don7",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -389,7 +413,7 @@
       "id": "*/male_don8",
       "deprecatedIDs": [],
       "name": "male don8",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -397,7 +421,7 @@
       "id": "*/male_don9",
       "deprecatedIDs": [],
       "name": "male don9",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -405,7 +429,7 @@
       "id": "*/male_don10",
       "deprecatedIDs": [],
       "name": "male don10",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -413,7 +437,7 @@
       "id": "*/male_don11",
       "deprecatedIDs": [],
       "name": "male don11",
-      "duration": 1.5,
+      "duration": 0.5,
       "fileExtension": "ogg"
     },
     {
@@ -421,30 +445,6 @@
       "id": "*/male_don12",
       "deprecatedIDs": [],
       "name": "male don12",
-      "duration": 1.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/male_grunt1",
-      "deprecatedIDs": [],
-      "name": "male grunt1",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/male_mmm",
-      "deprecatedIDs": [],
-      "name": "male mmm",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/male_ooh1",
-      "deprecatedIDs": [],
-      "name": "male ooh1",
       "duration": 0.5,
       "fileExtension": "ogg"
     },
@@ -554,969 +554,2372 @@
     },
     {
       "type": "pattern",
-      "id": "*_startPattern",
+      "id": "*_cloudSpin",
       "deprecatedIDs": [],
-      "name": "starting pattern",
+      "name": "cloud spin",
+      "stretchable": false,
       "cues": [
+        {
+          "id": "*/cloud1",
+          "beat": 0.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/cloud2",
+          "beat": 1.0,
+          "duration": 0.25
+        },
+        {
+          "id": "*/cloud3",
+          "beat": 1.25,
+          "duration": 0.25
+        },
+        {
+          "id": "*/cloud4",
+          "beat": 1.5,
+          "duration": 0.25
+        },
+        {
+          "id": "*/cloud5",
+          "beat": 1.75,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleStartPattern",
+      "deprecatedIDs": [],
+      "name": "female - starting pattern",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/female_ss1",
+          "beat": 0.0,
+          "duration": 0.5
+        },
         {
           "id": "*/ball",
           "beat": 0.0,
-          "volume": 100
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/cube",
           "beat": 1.0,
-          "volume": 100
-        },
-        {
-          "id": "*/ball",
-          "beat": 1.5,
-          "volume": 100
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.0,
-          "volume": 100
-        },
-        {
-          "id": "*/cube",
-          "beat": 2.5,
-          "volume": 100
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_pattern",
-      "deprecatedIDs": [],
-      "name": "pattern",
-      "cues": [
-        {
-          "id": "*/ball",
-          "beat": 0.0,
-          "volume": 100
-        },
-        {
-          "id": "*/ball",
-          "beat": 0.5,
-          "volume": 100
-        },
-        {
-          "id": "*/cube",
-          "beat": 1.5,
-          "volume": 100
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.0,
-          "volume": 100
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.5,
-          "volume": 100
-        },
-        {
-          "id": "*/cube",
-          "beat": 3.0,
-          "volume": 100
-        }
-      ]
-    },
-    {
-      "type" : "pattern",
-      "id" : "*_cloudSpin",
-      "deprecatedIDs" : [ ],
-      "name" : "cloud spin",
-      "stretchable" : false,
-      "cues" : [ 
-	   {
-          "id" : "*/cloud1",
-          "beat" : 0.0,
-          "duration" : 1.0
-        }, 
-		{
-          "id" : "*/cloud2",
-          "beat" : 1.0,
-          "duration" : 0.25
-        }, 
-		{
-          "id" : "*/cloud3",
-          "beat" : 1.25,
-          "duration" : 0.25
-        }, 
-		{
-          "id" : "*/cloud4",
-          "beat" : 1.5,
-          "duration" : 0.25
-        },
-		{
-          "id" : "*/cloud5",
-          "beat" : 1.75,
-          "duration" : 0.25	
-        }
-	  ]
-	},
-    {
-      "type": "pattern",
-      "id": "*_femalePattern1",
-      "deprecatedIDs": [],
-      "name": "pattern - female - 1",
-      "cues": [
-        {
-          "id": "*_pattern",
-          "beat": 0.0,
-          "volume": 100,
+          "duration": 0.5,
           "track": 1
-        },
-        {
-          "id": "*/female_ss1",
-          "beat": 0.5,
-          "volume": 100
         },
         {
           "id": "*/female_bom1",
+          "beat": 1.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
           "beat": 1.5,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/female_ss1",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
           "beat": 2.0,
-          "volume": 100
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/female_ss2",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
           "beat": 2.5,
-          "volume": 100
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/female_bom2",
-          "beat": 3.0,
-          "volume": 100,
-          "track": 2
+          "beat": 2.5,
+          "duration": 0.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_femalePattern2",
+      "id": "*_femaleNormal1",
       "deprecatedIDs": [],
-      "name": "pattern - female - 2",
+      "name": "female - normal 1",
+      "stretchable": false,
       "cues": [
         {
-          "id": "*_pattern",
+          "id": "*/ball",
           "beat": 0.0,
-          "volume": 100,
+          "duration": 0.5
+        },
+        {
+          "id": "*/female_ss1",
+          "beat": 0.0,
+          "duration": 0.5,
           "track": 1
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5
         },
         {
           "id": "*/female_ss1",
           "beat": 0.5,
-          "volume": 100
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/female_bom3",
           "beat": 1.5,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5
         },
         {
           "id": "*/female_ss1",
           "beat": 2.0,
-          "volume": 100
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.5,
+          "duration": 0.5
         },
         {
           "id": "*/female_ss2",
           "beat": 2.5,
-          "volume": 100
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/female_bom4",
           "beat": 3.0,
-          "volume": 100,
-          "track": 2
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_femalePattern3",
-      "deprecatedIDs": [],
-      "name": "pattern - female - 3",
-      "cues": [
-        {
-          "id": "*_pattern",
-          "beat": 0.0,
-          "volume": 100,
+          "duration": 0.5,
           "track": 1
         },
         {
-          "id": "*/female_ss1",
-          "beat": 0.5,
-          "volume": 100
-        },
-        {
-          "id": "*/female_bom10",
-          "beat": 1.5,
-          "volume": 100,
-          "track": 2
-        },
-        {
-          "id": "*/female_ss1",
-          "beat": 2.0,
-          "volume": 100
-        },
-        {
-          "id": "*/female_ss3",
-          "beat": 2.5,
-          "volume": 100
-        },
-        {
-          "id": "*/female_bom6",
+          "id": "*/cube",
           "beat": 3.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_femalePattern4",
+      "id": "*_femaleNormal2",
       "deprecatedIDs": [],
-      "name": "pattern - female - 4",
+      "name": "female - normal 2",
+      "stretchable": false,
       "cues": [
         {
-          "id": "*_pattern",
+          "id": "*/ball",
           "beat": 0.0,
-          "volume": 100,
+          "duration": 0.5,
           "track": 1
         },
         {
           "id": "*/female_ss1",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/female_ss1",
           "beat": 0.5,
-          "volume": 100
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/female_bom_laugh",
           "beat": 1.5,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/female_ss1",
           "beat": 2.0,
-          "volume": 100
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/female_ss2",
           "beat": 2.5,
-          "volume": 100
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/female_bom3",
           "beat": 3.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_femalePattern5",
+      "id": "*_femaleNormal3",
       "deprecatedIDs": [],
-      "name": "pattern - female - 5",
+      "name": "female - normal 3",
+      "stretchable": false,
       "cues": [
         {
-          "id": "*_pattern",
+          "id": "*/ball",
           "beat": 0.0,
-          "volume": 100,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss1",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5,
           "track": 1
         },
         {
           "id": "*/female_ss1",
           "beat": 0.5,
-          "volume": 100
+          "duration": 0.5
         },
         {
-          "id": "*/female_bom7",
+          "id": "*/cube",
           "beat": 1.5,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_bom1",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/female_ss1",
           "beat": 2.0,
-          "volume": 100
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/female_ss2",
           "beat": 2.5,
-          "volume": 100
+          "duration": 0.5
         },
         {
-          "id": "*/female_pin3",
+          "id": "*/cube",
           "beat": 3.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_bom2",
+          "beat": 3.0,
+          "duration": 0.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_femalePattern6",
+      "id": "*_femaleTurn1",
       "deprecatedIDs": [],
-      "name": "pattern - female - 6",
+      "name": "female - turn 1",
+      "stretchable": false,
       "cues": [
         {
-          "id": "*_pattern",
+          "id": "*/ball",
           "beat": 0.0,
-          "volume": 100,
+          "duration": 0.5,
           "track": 1
         },
         {
           "id": "*/female_ss1",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/female_ss1",
           "beat": 0.5,
-          "volume": 100
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_bom7",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss1",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss2",
+          "beat": 2.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_pin3",
+          "beat": 3.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleTurn2",
+      "deprecatedIDs": [],
+      "name": "female - turn 2",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss1",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/female_ss1",
+          "beat": 0.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/female_bom9",
           "beat": 1.5,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/female_ss1",
           "beat": 2.0,
-          "volume": 100
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/female_ss3",
           "beat": 2.5,
-          "volume": 100
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/female_pin3",
           "beat": 3.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_femalePattern7",
+      "id": "*_femaleTurn3",
       "deprecatedIDs": [],
-      "name": "pattern - female - 7",
+      "name": "female - turn 3",
+      "stretchable": false,
       "cues": [
         {
-          "id": "*_pattern",
+          "id": "*/ball",
           "beat": 0.0,
-          "volume": 100,
+          "duration": 0.5,
           "track": 1
         },
         {
           "id": "*/female_ss1",
-          "beat": 0.5,
-          "volume": 100
+          "beat": 0.0,
+          "duration": 0.5
         },
         {
-          "id": "*/female_bom10",
+          "id": "*/female_ss1",
+          "beat": 0.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/cube",
           "beat": 1.5,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_bom3",
+          "beat": 1.5,
+          "duration": 0.5
         },
         {
           "id": "*/female_ss1",
           "beat": 2.0,
-          "volume": 100
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/female_ss3",
           "beat": 2.5,
-          "volume": 100
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_pin3",
+          "beat": 3.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleStartTurn1",
+      "deprecatedIDs": [],
+      "name": "female - start turn 1",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/female_ss1",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_bom9",
+          "beat": 1.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/female_ss1",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss3",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_pin3",
+          "beat": 2.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleStartTurn2",
+      "deprecatedIDs": [],
+      "name": "female - start turn 2",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/female_ss1",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_bom3",
+          "beat": 1.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/female_ss1",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss3",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_pin3",
+          "beat": 2.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleStartPatternAngry",
+      "deprecatedIDs": [],
+      "name": "female - start pattern angry",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/female_ss1",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_bom10",
+          "beat": 1.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss1",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss2",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_bom8",
+          "beat": 2.5,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleAngry1",
+      "deprecatedIDs": [],
+      "name": "female - angry 1",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss1",
+          "beat": 0.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_bom10",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss1",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss2",
+          "beat": 2.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_bom6",
+          "beat": 3.0,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleAngry2",
+      "deprecatedIDs": [],
+      "name": "female - angry 2",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss1",
+          "beat": 0.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_bom10",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss1",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss2",
+          "beat": 2.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_bom8",
+          "beat": 3.0,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleTurnAngry1",
+      "deprecatedIDs": [],
+      "name": "female - turn angry 1",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss1",
+          "beat": 0.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_bom10",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss1",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss2",
+          "beat": 2.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/female_pin2",
           "beat": 3.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_malePattern1",
+      "id": "*_femaleTurnAngry2",
       "deprecatedIDs": [],
-      "name": "pattern - male - 1",
+      "name": "female - turn angry 2",
+      "stretchable": false,
       "cues": [
         {
-          "id": "*/male_d3",
+          "id": "*/ball",
           "beat": 0.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5,
+          "track": 1
         },
         {
-          "id": "*_pattern",
+          "id": "*/female_ss1",
+          "beat": 0.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_bom10",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss1",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss2",
+          "beat": 2.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_pin1",
+          "beat": 3.0,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleStartTurnAngry1",
+      "deprecatedIDs": [],
+      "name": "female - start turn angry 1",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/female_ss1",
           "beat": 0.0,
-          "volume": 100,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_bom10",
+          "beat": 1.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss1",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss2",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_pin2",
+          "beat": 2.5,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleStartTurnAngry2",
+      "deprecatedIDs": [],
+      "name": "female - start turn angry 2",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/female_ss1",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_bom10",
+          "beat": 1.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss1",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_ss2",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/female_pin1",
+          "beat": 2.5,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleStartPattern",
+      "deprecatedIDs": [],
+      "name": "male - starting pattern",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
           "track": 1
         },
         {
           "id": "*/male_don1",
-          "beat": 0.5,
-          "volume": 100,
-          "track": 2
+          "beat": 0.0,
+          "duration": 0.5
         },
         {
           "id": "*/male_ss3",
-          "beat": 1.5,
-          "volume": 100
+          "beat": 1.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_d1",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/ball",
           "beat": 2.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_don4",
+          "beat": 2.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/cube",
           "beat": 2.5,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_ss2",
-          "beat": 3.5,
-          "volume": 100
+          "beat": 3.0,
+          "duration": 0.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_malePattern2",
+      "id": "*_maleNormal1",
       "deprecatedIDs": [],
-      "name": "pattern - male - 2",
+      "name": "male - normal 1",
+      "stretchable": false,
       "cues": [
-        {
-          "id": "*_pattern",
-          "beat": 0.0,
-          "volume": 100,
-          "track": 1
-        },
         {
           "id": "*/male_d3",
           "beat": 0.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_don3",
           "beat": 0.5,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_ss3",
           "beat": 1.5,
-          "volume": 100
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_d1",
           "beat": 2.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_don4",
           "beat": 2.5,
-          "volume": 100,
-          "track": 2
+          "duration": 1.0
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/cube",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_ss2",
           "beat": 3.5,
-          "volume": 100
+          "duration": 0.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_malePattern3",
+      "id": "*_maleNormal2",
       "deprecatedIDs": [],
-      "name": "pattern - male - 3",
+      "name": "male - normal 2",
+      "stretchable": false,
       "cues": [
-        {
-          "id": "*_pattern",
-          "beat": 0.0,
-          "volume": 100,
-          "track": 1
-        },
         {
           "id": "*/male_d3",
           "beat": 0.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_don6",
           "beat": 0.5,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_ss3",
           "beat": 1.5,
-          "volume": 100
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_d1",
           "beat": 2.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_don2",
           "beat": 2.5,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/cube",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_ss2",
           "beat": 3.5,
-          "volume": 100
+          "duration": 0.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_malePattern4",
+      "id": "*_maleNormal3",
       "deprecatedIDs": [],
-      "name": "pattern - male - 4",
+      "name": "male - normal 3",
+      "stretchable": false,
       "cues": [
-        {
-          "id": "*_pattern",
-          "beat": 0.0,
-          "volume": 100,
-          "track": 1
-        },
         {
           "id": "*/male_d3",
           "beat": 0.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_don2",
           "beat": 0.5,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_ss3",
           "beat": 1.5,
-          "volume": 100
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_d1",
           "beat": 2.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_don8",
           "beat": 2.5,
-          "volume": 100,
-          "track": 2
+          "duration": 1.0
         },
         {
-          "id": "*/male_ss2",
-          "beat": 3.5,
-          "volume": 100
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_malePattern5",
-      "deprecatedIDs": [],
-      "name": "pattern - male - 5",
-      "cues": [
-        {
-          "id": "*_pattern",
-          "beat": 0.0,
-          "volume": 100,
-          "track": 1
-        },
-        {
-          "id": "*/male_d3",
-          "beat": 0.0,
-          "volume": 100,
-          "track": 2
-        },
-        {
-          "id": "*/male_don9",
-          "beat": 0.5,
-          "volume": 100,
-          "track": 2
-        },
-        {
-          "id": "*/male_ss3",
-          "beat": 1.5,
-          "volume": 100
-        },
-        {
-          "id": "*/male_d1",
-          "beat": 2.0,
-          "volume": 100,
-          "track": 2
-        },
-        {
-          "id": "*/male_don11",
+          "id": "*/ball",
           "beat": 2.5,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/cube",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_ss2",
           "beat": 3.5,
-          "volume": 100
+          "duration": 0.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_malePattern6",
+      "id": "*_maleNormal4",
       "deprecatedIDs": [],
-      "name": "pattern - male - 6",
+      "name": "male - normal 4",
+      "stretchable": false,
       "cues": [
-        {
-          "id": "*_pattern",
-          "beat": 0.0,
-          "volume": 100,
-          "track": 1
-        },
         {
           "id": "*/male_d3",
           "beat": 0.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_don7",
           "beat": 0.5,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_ss3",
           "beat": 1.5,
-          "volume": 100
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_d1",
           "beat": 2.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_don12",
           "beat": 2.5,
-          "volume": 100,
-          "track": 2
+          "duration": 1.0
         },
         {
-          "id": "*/male_ss2",
+          "id": "*/ball",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/cube",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_ss3",
           "beat": 3.5,
-          "volume": 100
+          "duration": 0.5
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_malePattern7",
+      "id": "*_maleTurn1",
       "deprecatedIDs": [],
-      "name": "pattern - male - 7",
+      "name": "male - turn 1",
+      "stretchable": false,
       "cues": [
         {
-          "id": "*_pattern",
+          "id": "*/ball",
           "beat": 0.0,
-          "volume": 100,
+          "duration": 0.5,
           "track": 1
         },
         {
           "id": "*/male_d3",
           "beat": 0.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_don1",
           "beat": 0.5,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
         },
         {
           "id": "*/male_ss3",
           "beat": 1.5,
-          "volume": 100
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_t",
           "beat": 2.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_turn1",
           "beat": 2.5,
-          "volume": 100,
-          "track": 2
+          "duration": 1.0
         },
         {
-          "id": "*/male_ss2",
-          "beat": 3.5,
-          "volume": 100
+          "id": "*/cube",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_malePattern8",
+      "id": "*_maleTurn2",
       "deprecatedIDs": [],
-      "name": "pattern - male - 8",
+      "name": "male - turn 2",
+      "stretchable": false,
       "cues": [
-        {
-          "id": "*_pattern",
-          "beat": 0.0,
-          "volume": 100,
-          "track": 1
-        },
         {
           "id": "*/male_d3",
           "beat": 0.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_don3",
           "beat": 0.5,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_ss3",
           "beat": 1.5,
-          "volume": 100
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_tt",
           "beat": 2.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_turn2",
           "beat": 2.5,
-          "volume": 100,
-          "track": 2
+          "duration": 1.0
         },
         {
-          "id": "*/male_ss2",
-          "beat": 3.5,
-          "volume": 100
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_malePattern9",
-      "deprecatedIDs": [],
-      "name": "pattern - male - 9",
-      "cues": [
-        {
-          "id": "*_pattern",
-          "beat": 0.0,
-          "volume": 100,
-          "track": 1
-        },
-        {
-          "id": "*/male_d3",
-          "beat": 0.0,
-          "volume": 100,
-          "track": 2
-        },
-        {
-          "id": "*/male_don4",
-          "beat": 0.5,
-          "volume": 100,
-          "track": 2
-        },
-        {
-          "id": "*/male_ss3",
-          "beat": 1.5,
-          "volume": 100
-        },
-        {
-          "id": "*/male_t",
-          "beat": 2.0,
-          "volume": 100,
-          "track": 2
-        },
-        {
-          "id": "*/male_turn3",
+          "id": "*/ball",
           "beat": 2.5,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5,
+          "track": 1
         },
         {
-          "id": "*/male_ss2",
-          "beat": 3.5,
-          "volume": 100
+          "id": "*/cube",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_malePattern10",
+      "id": "*_maleTurn3",
       "deprecatedIDs": [],
-      "name": "pattern - male - 10",
+      "name": "male - turn 3",
+      "stretchable": false,
       "cues": [
         {
-          "id": "*_pattern",
+          "id": "*/ball",
           "beat": 0.0,
-          "volume": 100,
+          "duration": 0.5,
           "track": 1
         },
         {
           "id": "*/male_d3",
           "beat": 0.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_don3",
           "beat": 0.5,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
         },
         {
           "id": "*/male_ss3",
           "beat": 1.5,
-          "volume": 100
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_t",
           "beat": 2.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_turn4",
           "beat": 2.5,
-          "volume": 100,
-          "track": 2
+          "duration": 1.0
         },
         {
-          "id": "*/male_ss2",
-          "beat": 3.5,
-          "volume": 100
+          "id": "*/cube",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_malePattern11",
+      "id": "*_maleStartTurn1",
       "deprecatedIDs": [],
-      "name": "pattern - male - 11",
+      "name": "male - start turn 1",
+      "stretchable": false,
       "cues": [
         {
-          "id": "*/male_d3",
+          "id": "*/ball",
           "beat": 0.0,
-          "volume": 100,
-          "track": 2
-        },
-        {
-          "id": "*_pattern",
-          "beat": 0.0,
-          "volume": 100,
+          "duration": 0.5,
           "track": 1
         },
         {
           "id": "*/male_don3",
-          "beat": 0.5,
-          "volume": 100,
-          "track": 2
+          "beat": 0.0,
+          "duration": 0.5
         },
         {
           "id": "*/male_ss3",
+          "beat": 1.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/ball",
           "beat": 1.5,
-          "volume": 100
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_t",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
           "beat": 2.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_turn5",
-          "beat": 2.5,
-          "volume": 100,
-          "track": 2
+          "beat": 2.0,
+          "duration": 1.0
         },
         {
-          "id": "*/male_ss2",
-          "beat": 3.5,
-          "volume": 100
+          "id": "*/cube",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_malePattern12",
+      "id": "*_maleStartTurn2",
       "deprecatedIDs": [],
-      "name": "pattern - male - 12",
+      "name": "male - start turn 2",
+      "stretchable": false,
       "cues": [
         {
-          "id": "*_pattern",
+          "id": "*/ball",
           "beat": 0.0,
-          "volume": 100,
+          "duration": 0.5,
           "track": 1
         },
         {
-          "id": "*/male_d3",
+          "id": "*/male_don2",
           "beat": 0.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
+        },
+        {
+          "id": "*/male_ss3",
+          "beat": 1.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/ball",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_t",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_turn2",
+          "beat": 2.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/cube",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleStartTurn3",
+      "deprecatedIDs": [],
+      "name": "male - start turn 3",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_don6",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/male_ss3",
+          "beat": 1.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/ball",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_t",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_turn4",
+          "beat": 2.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/cube",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleStartPatternAngry",
+      "deprecatedIDs": [],
+      "name": "male - starting pattern angry",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_don9",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_ss2",
+          "beat": 1.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_d1",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_don11",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_ss2",
+          "beat": 3.0,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleAngry1",
+      "deprecatedIDs": [],
+      "name": "male - angry 1",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_d1",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_don9",
           "beat": 0.5,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5
         },
         {
-          "id": "*/male_ss3",
+          "id": "*/cube",
           "beat": 1.5,
-          "volume": 100
+          "duration": 0.5,
+          "track": 1
         },
         {
-          "id": "*/male_tt",
+          "id": "*/male_ss2",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
           "beat": 2.0,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5,
+          "track": 1
         },
         {
-          "id": "*/male_turn6",
+          "id": "*/male_d1",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
           "beat": 2.5,
-          "volume": 100,
-          "track": 2
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_don11",
+          "beat": 2.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
         },
         {
           "id": "*/male_ss2",
           "beat": 3.5,
-          "volume": 100
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleAngry2",
+      "deprecatedIDs": [],
+      "name": "male - angry 2",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_d1",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_don11",
+          "beat": 0.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_ss2",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_d1",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_don9",
+          "beat": 2.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_ss2",
+          "beat": 3.5,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleTurnAngry1",
+      "deprecatedIDs": [],
+      "name": "male - turn angry 1",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_d1",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_don11",
+          "beat": 0.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_ss2",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_d1",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_turn3",
+          "beat": 2.5,
+          "duration": 1.0
+        },
+        {
+          "id": "*/cube",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleTurnAngry2",
+      "deprecatedIDs": [],
+      "name": "male - turn angry 2",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_d1",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_don11",
+          "beat": 0.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_ss2",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_d1",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_turn6",
+          "beat": 2.5,
+          "duration": 1.0
+        },
+        {
+          "id": "*/cube",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleStartTurnAngry1",
+      "deprecatedIDs": [],
+      "name": "male - start turn angry 1",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_don11",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_ss2",
+          "beat": 1.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_d1",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_turn6",
+          "beat": 2.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/cube",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleStartTurnAngry2",
+      "deprecatedIDs": [],
+      "name": "male - start turn angry 2",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/ball",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_don11",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cube",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_ss2",
+          "beat": 1.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_d1",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/ball",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/male_turn3",
+          "beat": 2.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/cube",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
         }
       ]
     }
