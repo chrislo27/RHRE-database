@@ -26,14 +26,18 @@
     {
       "type": "cue",
       "id": "*/ready1",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "tapTroupeEn/readynostep1"
+      ],
       "name": "read-",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/ready2",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "tapTroupeEn/readynostep2"
+      ],
       "name": "-y!",
       "duration": 1.0
     },
