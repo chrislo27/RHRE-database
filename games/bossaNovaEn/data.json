@@ -660,21 +660,16 @@
         {
           "id": "*/ball",
           "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/female_ss1",
-          "beat": 0.0,
           "duration": 0.5,
           "track": 1
         },
         {
-          "id": "*/ball",
+          "id": "*/female_ss1",
           "beat": 0.5,
           "duration": 0.5
         },
         {
-          "id": "*/female_ss1",
+          "id": "*/ball",
           "beat": 0.5,
           "duration": 0.5,
           "track": 1
@@ -682,32 +677,32 @@
         {
           "id": "*/female_bom3",
           "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
+          "duration": 0.5
         },
         {
           "id": "*/cube",
           "beat": 1.5,
-          "duration": 0.5
+          "duration": 0.5,
+          "track": 1
         },
         {
-          "id": "*/ball",
+          "id": "*/female_ss1",
           "beat": 2.0,
           "duration": 0.5
         },
         {
-          "id": "*/female_ss1",
+          "id": "*/ball",
           "beat": 2.0,
           "duration": 0.5,
           "track": 1
         },
         {
-          "id": "*/ball",
+          "id": "*/female_ss2",
           "beat": 2.5,
           "duration": 0.5
         },
         {
-          "id": "*/female_ss2",
+          "id": "*/ball",
           "beat": 2.5,
           "duration": 0.5,
           "track": 1
@@ -715,13 +710,13 @@
         {
           "id": "*/female_bom4",
           "beat": 3.0,
-          "duration": 0.5,
-          "track": 1
+          "duration": 0.5
         },
         {
           "id": "*/cube",
           "beat": 3.0,
-          "duration": 0.5
+          "duration": 0.5,
+          "track": 1
         }
       ]
     },
@@ -737,11 +732,6 @@
           "beat": 0.0,
           "duration": 0.5,
           "track": 1
-        },
-        {
-          "id": "*/female_ss1",
-          "beat": 0.0,
-          "duration": 0.5
         },
         {
           "id": "*/female_ss1",
@@ -812,11 +802,6 @@
           "beat": 0.0,
           "duration": 0.5,
           "track": 1
-        },
-        {
-          "id": "*/female_ss1",
-          "beat": 0.0,
-          "duration": 0.5
         },
         {
           "id": "*/ball",
@@ -890,11 +875,6 @@
         },
         {
           "id": "*/female_ss1",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/female_ss1",
           "beat": 0.5,
           "duration": 0.5
         },
@@ -965,11 +945,6 @@
         },
         {
           "id": "*/female_ss1",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/female_ss1",
           "beat": 0.5,
           "duration": 0.5
         },
@@ -1037,11 +1012,6 @@
           "beat": 0.0,
           "duration": 0.5,
           "track": 1
-        },
-        {
-          "id": "*/female_ss1",
-          "beat": 0.0,
-          "duration": 0.5
         },
         {
           "id": "*/female_ss1",
@@ -1754,7 +1724,7 @@
         {
           "id": "*/cube",
           "beat": 2.5,
-          "duration": 0.5,
+          "duration": 1.0,
           "track": 1
         },
         {
@@ -1829,7 +1799,7 @@
         {
           "id": "*/cube",
           "beat": 3.0,
-          "duration": 0.5,
+          "duration": 1.0,
           "track": 1
         },
         {
@@ -1893,7 +1863,7 @@
         {
           "id": "*/male_don2",
           "beat": 2.5,
-          "duration": 0.5
+          "duration": 1.0
         },
         {
           "id": "*/ball",
@@ -1904,7 +1874,7 @@
         {
           "id": "*/cube",
           "beat": 3.0,
-          "duration": 0.5,
+          "duration": 1.0,
           "track": 1
         },
         {
@@ -1979,7 +1949,7 @@
         {
           "id": "*/cube",
           "beat": 3.0,
-          "duration": 0.5,
+          "duration": 1.0,
           "track": 1
         },
         {
@@ -2054,7 +2024,7 @@
         {
           "id": "*/cube",
           "beat": 3.0,
-          "duration": 0.5,
+          "duration": 1.0,
           "track": 1
         },
         {
@@ -2500,12 +2470,12 @@
         {
           "id": "*/male_don11",
           "beat": 2.0,
-          "duration": 0.5
+          "duration": 1.0
         },
         {
           "id": "*/cube",
           "beat": 2.5,
-          "duration": 0.5,
+          "duration": 1.0,
           "track": 1
         },
         {
@@ -2575,12 +2545,12 @@
         {
           "id": "*/male_don11",
           "beat": 2.5,
-          "duration": 0.5
+          "duration": 1.0
         },
         {
           "id": "*/cube",
           "beat": 3.0,
-          "duration": 0.5,
+          "duration": 1.0,
           "track": 1
         },
         {
@@ -2650,12 +2620,12 @@
         {
           "id": "*/male_don9",
           "beat": 2.5,
-          "duration": 0.5
+          "duration": 1.0
         },
         {
           "id": "*/cube",
           "beat": 3.0,
-          "duration": 0.5,
+          "duration": 1.0,
           "track": 1
         },
         {

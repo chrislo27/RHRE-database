@@ -1776,12 +1776,12 @@
         {
           "id": "bossaNovaJa/male_don2",
           "beat": 2.0,
-          "duration": 0.5
+          "duration": 1.0
         },
         {
           "id": "bossaNovaJa/cube",
           "beat": 2.5,
-          "duration": 0.5,
+          "duration": 1.0,
           "track": 1
         },
         {
@@ -1851,12 +1851,12 @@
         {
           "id": "bossaNovaJa/male_don7",
           "beat": 2.5,
-          "duration": 0.5
+          "duration": 1.0
         },
         {
           "id": "bossaNovaJa/cube",
           "beat": 3.0,
-          "duration": 0.5,
+          "duration": 1.0,
           "track": 1
         },
         {
@@ -1926,12 +1926,12 @@
         {
           "id": "bossaNovaJa/male_don6",
           "beat": 2.5,
-          "duration": 0.5
+          "duration": 1.0
         },
         {
           "id": "bossaNovaJa/cube",
           "beat": 3.0,
-          "duration": 0.5,
+          "duration": 1.0,
           "track": 1
         },
         {
@@ -2001,12 +2001,12 @@
         {
           "id": "bossaNovaJa/male_don9",
           "beat": 2.5,
-          "duration": 0.5
+          "duration": 1.0
         },
         {
           "id": "bossaNovaJa/cube",
           "beat": 3.0,
-          "duration": 0.5,
+          "duration": 1.0,
           "track": 1
         },
         {
@@ -2452,12 +2452,12 @@
         {
           "id": "*/male_don_angry2",
           "beat": 2.0,
-          "duration": 0.5
+          "duration": 1.0
         },
         {
           "id": "*/cube",
           "beat": 2.5,
-          "duration": 0.5,
+          "duration": 1.0,
           "track": 1
         },
         {
@@ -2527,12 +2527,12 @@
         {
           "id": "*/male_don_angry2",
           "beat": 2.5,
-          "duration": 0.5
+          "duration": 1.0
         },
         {
           "id": "*/cube",
           "beat": 3.0,
-          "duration": 0.5,
+          "duration": 1.0,
           "track": 1
         },
         {

@@ -6,6 +6,34 @@
   "objects": [
     {
       "type": "cue",
+      "id": "*/alldone",
+      "deprecatedIDs": [],
+      "name": "all done!",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/threenostep",
+      "deprecatedIDs": [],
+      "name": "three (no step)",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/twonostep",
+      "deprecatedIDs": [],
+      "name": "two (no step)",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/onenostep",
+      "deprecatedIDs": [],
+      "name": "one (no step)",
+      "duration": 0.6666
+    },
+    {
+      "type": "cue",
       "id": "*/a",
       "deprecatedIDs": [],
       "name": "asore - a",
@@ -50,7 +78,7 @@
       "type": "cue",
       "id": "*/three2",
       "deprecatedIDs": [],
-      "name": "1 - second",
+      "name": "3 - second",
       "duration": 1.0
     },
     {
@@ -64,7 +92,7 @@
       "type": "cue",
       "id": "*/one2",
       "deprecatedIDs": [],
-      "name": "3 - second",
+      "name": "1 - second",
       "duration": 0.6666
     },
     {
@@ -115,6 +143,26 @@
       "deprecatedIDs": [],
       "name": "sea",
       "duration": 0.6666
+    },
+    {
+      "type": "pattern",
+      "id": "*_countin",
+      "deprecatedIDs": [],
+      "name": "count in",
+      "cues": [
+        {
+          "id": "*/threenostep",
+          "beat": 0.0
+        },
+        {
+          "id": "*/twonostep",
+          "beat": 1.0
+        },
+        {
+          "id": "*/onenostep",
+          "beat": 2.0
+        }
+      ]
     },
     {
       "type": "pattern",
