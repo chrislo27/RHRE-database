@@ -40,15 +40,6 @@
         "shrimpShuffle/to"
       ],
       "name": "together - to",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/to",
-      "deprecatedIDs": [
-        "shrimpShuffle/to"
-      ],
-      "name": "together - to",
       "duration": 0.3333
     },
     {
