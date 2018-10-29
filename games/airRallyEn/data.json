@@ -57,313 +57,355 @@
     },
     {
       "type": "cue",
-      "id": "*/hitBaxter",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/hitBaxter",
-        "airRally/hitBaxter"
-      ],
-      "name": "baxter - hit",
+      "id": "*/nya_Close",
+      "deprecatedIDs": [],
+      "name": "forthington - nya - close",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/hitForth",
+      "id": "*/nya_Far",
+      "deprecatedIDs": [],
+      "name": "forthington - nya - far",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/nya_Farther",
+      "deprecatedIDs": [],
+      "name": "forthington - nya - farther",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/nya_Farthest",
+      "deprecatedIDs": [],
+      "name": "forthington - nya - farthest",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/hitForth_Close",
       "deprecatedIDs": [
         "airRallyMegamixEn/hitForth",
-        "airRally/hitForth"
+        "airRally/hitForth",
+        "airRallyEn/hitForth"
       ],
-      "name": "forthington - hit",
+      "name": "forthington - hit - close",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/hitBaxterFarther",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/hitBaxterFarther",
-        "airRally/hitBaxterFarther"
-      ],
-      "name": "baxter - hit - farther",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/hitForthFarther",
+      "id": "*/hitForth_Far",
       "deprecatedIDs": [
         "airRallyMegamixEn/hitForthFarther",
-        "airRally/hitForthFarther"
-      ],
-      "name": "forthington - hit - farther",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/hitBaxterFar",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/hitBaxterFar",
-        "airRally/hitBaxterFar"
-      ],
-      "name": "baxter - hit - far",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/hitForthFar",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/hitForthFar",
-        "airRally/hitForthFar"
+        "airRally/hitForthFarther",
+        "airRallyEn/hitForthFarther"
       ],
       "name": "forthington - hit - far",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/hitBaxterFurther",
+      "id": "*/hitForth_Farther",
       "deprecatedIDs": [
-        "airRallyMegamixEn/hitBaxterFurther",
-        "airRally/hitBaxterFurther"
+        "airRallyMegamixEn/hitForthFar",
+        "airRally/hitForthFar",
+        "airRallyEn/hitForthFar"
       ],
-      "name": "baxter - hit - further",
+      "name": "forthington - hit - farther",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/hitForthFurther",
+      "id": "*/hitForth_Farthest",
       "deprecatedIDs": [
         "airRallyMegamixEn/hitForthFurther",
-        "airRally/hitForthFurther"
+        "airRally/hitForthFurther",
+        "airRallyEn/hitForthFurther"
       ],
-      "name": "forthington - hit - further",
+      "name": "forthington - hit - farthest",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/baBumBumBum1",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/baBumBumBum1",
-        "airRally/baBumBumBum1"
-      ],
-      "name": "ba bum bum bum - 1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/baBumBumBum2",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/baBumBumBum2",
-        "airRally/baBumBumBum2"
-      ],
-      "name": "ba bum bum bum - 2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/baBumBumBum3",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/baBumBumBum3",
-        "airRally/baBumBumBum3"
-      ],
-      "name": "ba bum bum bum - 3",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/baBumBumBum2Sub",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/baBumBumBum2Sub",
-        "airRally/baBumBumBum2Sub"
-      ],
-      "name": "ba bum bum bum - 2 - subsequent",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/baBumBumBum3Sub",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/baBumBumBum3Sub",
-        "airRally/baBumBumBum3Sub"
-      ],
-      "name": "ba bum bum bum - 3 - subsequent",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/baBumBumBum4",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/baBumBumBum4",
-        "airRally/baBumBumBum4"
-      ],
-      "name": "ba bum bum bum - 4",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/baBumBumBumFarther1",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/baBumBumBumFarther1",
-        "airRally/baBumBumBumFarther1"
-      ],
-      "name": "ba bum bum bum - farther - 1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/baBumBumBumFarther2",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/baBumBumBumFarther2",
-        "airRally/baBumBumBumFarther2"
-      ],
-      "name": "ba bum bum bum - farther - 2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/baBumBumBumFarther3",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/baBumBumBumFarther3",
-        "airRally/baBumBumBumFarther3"
-      ],
-      "name": "ba bum bum bum - farther - 3",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/baBumBumBumFarther3Sub",
+      "id": "*/whooshForth_Close",
       "deprecatedIDs": [],
-      "name": "ba bum bum bum (no hit) - farther - 3",
+      "name": "forthington - whoosh - close",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "*/whooshForth_Far",
+      "deprecatedIDs": [],
+      "name": "forthington - whoosh - far",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "*/whooshForth_Farther",
+      "deprecatedIDs": [],
+      "name": "forthington - whoosh - farther",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "*/whooshForth_Farthest",
+      "deprecatedIDs": [],
+      "name": "forthington - whoosh - farthest",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "*/hitBaxter_Close",
+      "deprecatedIDs": [
+        "airRallyMegamixEn/hitBaxter",
+        "airRally/hitBaxter",
+        "airRallyEn/hitBaxter"
+      ],
+      "name": "baxter - hit - close",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/baBumBumBumFarther4",
+      "id": "*/hitBaxter_Far",
       "deprecatedIDs": [
-        "airRallyMegamixEn/baBumBumBumFarther4",
-        "airRally/baBumBumBumFarther4"
+        "airRallyMegamixEn/hitBaxterFarther",
+        "airRally/hitBaxterFarther",
+        "airRallyEn/hitBaxterFarther"
       ],
-      "name": "ba bum bum bum - farther - 4",
-      "duration": 0.75
+      "name": "baxter - hit - far",
+      "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/baBumBumBumFartherHit",
+      "id": "*/hitBaxter_Farther",
+      "deprecatedIDs": [
+        "airRallyMegamixEn/hitBaxterFar",
+        "airRally/hitBaxterFar",
+        "airRallyEn/hitBaxterFar"
+      ],
+      "name": "baxter - hit - farther",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/hitBaxter_Farthest",
+      "deprecatedIDs": [
+        "airRallyMegamixEn/hitBaxterFurthest",
+        "airRally/hitBaxterFurther",
+        "airRallyEn/hitBaxterFurther"
+      ],
+      "name": "baxter - hit - farthest",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_FarHit",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumFartherHit",
-        "airRally/baBumBumBumFartherHit"
-      ],
-      "name": "ba bum bum bum - farther - hit",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/baBumBumBumFar1",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/baBumBumBumFar1",
-        "airRally/baBumBumBumFar1"
-      ],
-      "name": "ba bum bum bum - far - 1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/baBumBumBumFar2",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/baBumBumBumFar2",
-        "airRally/baBumBumBumFar2"
-      ],
-      "name": "ba bum bum bum - far - 2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/baBumBumBumFar3",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/baBumBumBumFar3",
-        "airRally/baBumBumBumFar3"
-      ],
-      "name": "ba bum bum bum - far - 3",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/baBumBumBumFar3Sub",
-      "deprecatedIDs": [],
-      "name": "ba bum bum bum (no hit) - far - 3",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/baBumBumBumFar4",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/baBumBumBumFar4",
-        "airRally/baBumBumBumFar4"
-      ],
-      "name": "ba bum bum bum - far - 4",
-      "duration": 0.75
-    },
-    {
-      "type": "cue",
-      "id": "*/baBumBumBumFarHit",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/baBumBumBumFarHit",
-        "airRally/baBumBumBumFarHit"
+        "airRally/baBumBumBumFartherHit",
+        "airRallyEn/baBumBumBumFartherHit"
       ],
       "name": "ba bum bum bum - far - hit",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/baBumBumBumFurther1",
+      "id": "*/baBumBumBum_FartherHit",
       "deprecatedIDs": [
-        "airRallyMegamixEn/baBumBumBumFurther1",
-        "airRally/baBumBumBumFurther1"
+        "airRallyMegamixEn/baBumBumBumFarHit",
+        "airRally/baBumBumBumFarHit",
+        "airRallyEn/baBumBumBumFarHit"
       ],
-      "name": "ba bum bum bum - further - 1",
+      "name": "ba bum bum bum - farther - hit",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/baBumBumBumFurther2",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/baBumBumBumFurther2",
-        "airRally/baBumBumBumFurther2"
-      ],
-      "name": "ba bum bum bum - further - 2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/baBumBumBumFurther3",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/baBumBumBumFurther3",
-        "airRally/baBumBumBumFurther3"
-      ],
-      "name": "ba bum bum bum - further - 3",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/baBumBumBumFurther3Sub",
-      "deprecatedIDs": [],
-      "name": "ba bum bum bum (no hit) - further - 3",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/baBumBumBumFurther4",
-      "deprecatedIDs": [
-        "airRallyMegamixEn/baBumBumBumFurther4",
-        "airRally/baBumBumBumFurther4"
-      ],
-      "name": "ba bum bum bum - further - 4",
-      "duration": 0.75
-    },
-    {
-      "type": "cue",
-      "id": "*/baBumBumBumFurtherHit",
+      "id": "*/baBumBumBum_FarthestHit",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumFurtherHit",
-        "airRally/baBumBumBumFurtherHit"
+        "airRally/baBumBumBumFurtherHit",
+        "airRallyEn/baBumBumBumFurtherHit"
       ],
-      "name": "ba bum bum bum - further - hit",
+      "name": "ba bum bum bum - farthest - hit",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_Close1",
+      "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBum1",
+        "airRally/baBumBumBum1",
+        "airRallyEn/baBumBumBum1"
+      ],
+      "name": "ba bum bum bum - close - 1",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_Close2",
+      "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBum2",
+        "airRally/baBumBumBum2",
+        "airRallyEn/baBumBumBum2"
+      ],
+      "name": "ba bum bum bum - close - 2",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_Close3",
+      "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBum3",
+        "airRally/baBumBumBum3",
+        "airRallyEn/baBumBumBum3"
+      ],
+      "name": "ba bum bum bum - close - 3",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_Close4",
+      "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBum4",
+        "airRally/baBumBumBum4",
+        "airRallyEn/baBumBumBum4"
+      ],
+      "name": "ba bum bum bum - close - 4",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_Far1",
+      "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFarther1",
+        "airRally/baBumBumBumFarther1",
+        "airRallyEn/baBumBumBumFarther1"
+      ],
+      "name": "ba bum bum bum - far - 1",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_Far2",
+      "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumMedium2",
+        "airRally/baBumBumBumFarther2",
+        "airRallyEn/baBumBumBumFarther2"
+      ],
+      "name": "ba bum bum bum - far - 2",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_Far3",
+      "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumMedium3",
+        "airRally/baBumBumBumFarther3",
+        "airRallyEn/baBumBumBumFarther3"
+      ],
+      "name": "ba bum bum bum - far - 3",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_Far4",
+      "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumMedium4",
+        "airRally/baBumBumBumFarther4",
+        "airRallyEn/baBumBumBumFarther4"
+      ],
+      "name": "ba bum bum bum - far - 4",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_Farther1",
+      "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFar1",
+        "airRally/baBumBumBumFar1",
+        "airRallyEn/baBumBumBumFar1"
+      ],
+      "name": "ba bum bum bum - farther - 1",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_Farther2",
+      "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFar2",
+        "airRally/baBumBumBumFar2",
+        "airRallyEn/baBumBumBumFar2"
+      ],
+      "name": "ba bum bum bum - farther - 2",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_Farther3",
+      "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFar3",
+        "airRally/baBumBumBumFar3",
+        "airRallyEn/baBumBumBumFar3"
+      ],
+      "name": "ba bum bum bum - farther - 3",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_Farther4",
+      "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFar4",
+        "airRally/baBumBumBumFar4",
+        "airRallyEn/baBumBumBumFar4"
+      ],
+      "name": "ba bum bum bum - farther - 4",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_Farthest1",
+      "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFurther1",
+        "airRally/baBumBumBumFurther1",
+        "airRallyEn/baBumBumBumFurther1"
+      ],
+      "name": "ba bum bum bum - farthest - 1",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_Farthest2",
+      "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFurther2",
+        "airRally/baBumBumBumFurther2",
+        "airRallyEn/baBumBumBumFurther2"
+      ],
+      "name": "ba bum bum bum - farthest - 2",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_Farthest3",
+      "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFurther3",
+        "airRally/baBumBumBumFurther3",
+        "airRallyEn/baBumBumBumFurther3"
+      ],
+      "name": "ba bum bum bum - farthest - 3",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_Farthest4",
+      "deprecatedIDs": [
+        "airRallyMegamixEn/baBumBumBumFurther4",
+        "airRally/baBumBumBumFurther4",
+        "airRallyEn/baBumBumBumFurther4"
+      ],
+      "name": "ba bum bum bum - farthest - 4",
       "duration": 0.5
     },
     {
@@ -372,6 +414,24 @@
       "deprecatedIDs": [],
       "name": "planes",
       "duration": 1.0
+    },
+    {
+      "type": "pattern",
+      "id": "*_countIn2",
+      "deprecatedIDs": [
+        "airRallyMegamixEn_countIn2"
+      ],
+      "name": "count in - 2 beats",
+      "cues": [
+        {
+          "id": "*/countIn3",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countIn4",
+          "beat": 1.0
+        }
+      ]
     },
     {
       "type": "pattern",
@@ -402,131 +462,33 @@
     },
     {
       "type": "pattern",
-      "id": "*_countIn2",
-      "deprecatedIDs": [
-        "airRallyMegamixEn_countIn2"
-      ],
-      "name": "count in - 2 beats",
+      "id": "*_countIn8",
+      "deprecatedIDs": [],
+      "name": "count in - 8 beats",
       "cues": [
         {
-          "id": "*/countIn3",
+          "id": "*/countIn1",
           "beat": 0.0
+        },
+        {
+          "id": "*/countIn2",
+          "beat": 2.0
+        },
+        {
+          "id": "*/countIn1",
+          "beat": 4.0
+        },
+        {
+          "id": "*/countIn2",
+          "beat": 5.0
+        },
+        {
+          "id": "*/countIn3",
+          "beat": 6.0
         },
         {
           "id": "*/countIn4",
-          "beat": 1.0
-        }
-      ]
-    },
-    {
-      "type": "keepTheBeat",
-      "id": "*_rally",
-      "deprecatedIDs": [
-        "airRallyMegamixEn_rally",
-        "airRally_rally"
-      ],
-      "name": "rally",
-      "defaultDuration": 4.0,
-      "cues": [
-        {
-          "id": "*/hitForth",
-          "beat": 0.0
-        },
-        {
-          "id": "*/hitBaxter",
-          "beat": 1.0
-        },
-        {
-          "id": "*/hitForth",
-          "beat": 2.0
-        },
-        {
-          "id": "*/hitBaxter",
-          "beat": 3.0
-        }
-      ]
-    },
-    {
-      "type": "keepTheBeat",
-      "id": "*_rallyFarther",
-      "deprecatedIDs": [
-        "airRallyMegamixEn_rallyFarther",
-        "airRally_rallyFarther"
-      ],
-      "name": "rally - farther",
-      "defaultDuration": 4.0,
-      "cues": [
-        {
-          "id": "*/hitForthFarther",
-          "beat": 0.0
-        },
-        {
-          "id": "*/hitBaxterFarther",
-          "beat": 1.0
-        },
-        {
-          "id": "*/hitForthFarther",
-          "beat": 2.0
-        },
-        {
-          "id": "*/hitBaxterFarther",
-          "beat": 3.0
-        }
-      ]
-    },
-    {
-      "type": "keepTheBeat",
-      "id": "*_rallyFar",
-      "deprecatedIDs": [
-        "airRallyMegamixEn_rallyFar",
-        "airRally_rallyFar"
-      ],
-      "name": "rally - far",
-      "defaultDuration": 4.0,
-      "cues": [
-        {
-          "id": "*/hitForthFar",
-          "beat": 0.0
-        },
-        {
-          "id": "*/hitBaxterFar",
-          "beat": 1.0
-        },
-        {
-          "id": "*/hitForthFar",
-          "beat": 2.0
-        },
-        {
-          "id": "*/hitBaxterFar",
-          "beat": 3.0
-        }
-      ]
-    },
-    {
-      "type": "keepTheBeat",
-      "id": "*_rallyFurther",
-      "deprecatedIDs": [
-        "airRallyMegamixEn_rallyFurther",
-        "airRally_rallyFurther"
-      ],
-      "name": "rally - farthest",
-      "defaultDuration": 4.0,
-      "cues": [
-        {
-          "id": "*/hitForthFurther",
-          "beat": 0.0
-        },
-        {
-          "id": "*/hitBaxterFurther",
-          "beat": 1.0
-        },
-        {
-          "id": "*/hitForthFurther",
-          "beat": 2.0
-        },
-        {
-          "id": "*/hitBaxterFurther",
-          "beat": 3.0
+          "beat": 7.0
         }
       ]
     },
@@ -537,7 +499,7 @@
         "airRallyMegamixEn_countIn3",
         "airRally_countIn3"
       ],
-      "name": "ba bum bum bum - count in",
+      "name": "count in - ba bum bum bum",
       "cues": [
         {
           "id": "*/countIn2",
@@ -554,241 +516,422 @@
       ]
     },
     {
+      "type": "keepTheBeat",
+      "id": "*_rallyClose",
+      "deprecatedIDs": [
+        "airRallyMegamixEn_rally",
+        "airRally_rally",
+        "airRallyEn_rally"
+      ],
+      "name": "rally - close",
+      "defaultDuration": 2.0,
+      "cues": [
+        {
+          "id": "*/nya_Close",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/hitForth_Close",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/whooshForth_Close",
+          "beat": 0.5,
+          "duration": 0.125
+        },
+        {
+          "id": "*/hitBaxter_Close",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_rally_Far",
+      "deprecatedIDs": [
+        "airRallyMegamixEn_rallyFarther",
+        "airRally_rallyFarther",
+        "airRallyEn_rallyFarther"
+      ],
+      "name": "rally - far",
+      "defaultDuration": 2.0,
+      "cues": [
+        {
+          "id": "*/nya_Far",
+          "beat": 0.0,
+          "duration": 0.375
+        },
+        {
+          "id": "*/hitForth_Far",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/whooshForth_Far",
+          "beat": 0.375,
+          "duration": 0.125
+        },
+        {
+          "id": "*/hitBaxter_Far",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_rally_Farther",
+      "deprecatedIDs": [
+        "airRallyMegamixEn_rallyFar",
+        "airRally_rallyFar",
+        "airRallyEn_rallyFar"
+      ],
+      "name": "rally - farther",
+      "defaultDuration": 2.0,
+      "cues": [
+        {
+          "id": "*/nya_Farther",
+          "beat": 0.0,
+          "duration": 0.375
+        },
+        {
+          "id": "*/hitForth_Farther",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/whooshForth_Farther",
+          "beat": 0.375,
+          "duration": 0.125
+        },
+        {
+          "id": "*/hitBaxter_Farther",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_rally_Farthest",
+      "deprecatedIDs": [
+        "airRallyMegamixEn_rallyFurther",
+        "airRally_rallyFurther",
+        "airRallyEn_rallyFurther"
+      ],
+      "name": "rally - farthest",
+      "defaultDuration": 2.0,
+      "cues": [
+        {
+          "id": "*/nya_Farthest",
+          "beat": 0.0,
+          "duration": 0.375
+        },
+        {
+          "id": "*/hitForth_Farthest",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/whooshForth_Farthest",
+          "beat": 0.375,
+          "duration": 0.125
+        },
+        {
+          "id": "*/hitBaxter_Farthest",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_rally_CloseBadminton",
+      "deprecatedIDs": [],
+      "name": "rally - close (no voice)",
+      "defaultDuration": 2.0,
+      "cues": [
+        {
+          "id": "*/hitForth_Close",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/whooshForth_Close",
+          "beat": 0.5,
+          "duration": 0.125
+        },
+        {
+          "id": "*/hitBaxter_Close",
+          "beat": 1.0,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_rally_FarBadminton",
+      "deprecatedIDs": [],
+      "name": "rally - far (no voice)",
+      "defaultDuration": 2.0,
+      "cues": [
+        {
+          "id": "*/hitForth_Far",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/whooshForth_Far",
+          "beat": 0.375,
+          "duration": 0.125
+        },
+        {
+          "id": "*/hitBaxter_Far",
+          "beat": 1.0,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_rally_FartherBadminton",
+      "deprecatedIDs": [],
+      "name": "rally - farther (no voice)",
+      "defaultDuration": 2.0,
+      "cues": [
+        {
+          "id": "*/hitForth_Farther",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/whooshForth_Farther",
+          "beat": 0.375,
+          "duration": 0.125
+        },
+        {
+          "id": "*/hitBaxter_Farther",
+          "beat": 1.0,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_rally_FarthestBadminton",
+      "deprecatedIDs": [],
+      "name": "rally - farthest (no voice)",
+      "defaultDuration": 2.0,
+      "cues": [
+        {
+          "id": "*/hitForth_Farthest",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/whooshForth_Farthest",
+          "beat": 0.375,
+          "duration": 0.125
+        },
+        {
+          "id": "*/hitBaxter_Farthest",
+          "beat": 1.0,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
       "type": "pattern",
-      "id": "*_baBumBumBum",
+      "id": "*_baBumBumBum_Close",
       "deprecatedIDs": [
         "airRallyMegamixEn_baBumBumBum",
-        "airRally_baBumBumBum"
+        "airRally_baBumBumBum",
+        "airRallyEn_baBumBumBum"
       ],
-      "name": "ba bum bum bum - first",
+      "name": "ba bum bum bum - close",
       "cues": [
         {
-          "id": "*/baBumBumBum1",
-          "beat": 0.0
+          "id": "*/baBumBumBum_Close1",
+          "beat": 0.0,
+          "track": 1
         },
         {
-          "id": "*/baBumBumBum2",
-          "beat": 0.5
+          "id": "*/baBumBumBum_Close2",
+          "beat": 0.5,
+          "track": 1
         },
         {
-          "id": "*/baBumBumBum3",
-          "beat": 1.5
+          "id": "*/baBumBumBum_Close3",
+          "beat": 1.5,
+          "track": 1
         },
         {
-          "id": "*/baBumBumBum4",
+          "id": "*/baBumBumBum_Close4",
+          "beat": 2.5,
+          "track": 1
+        },
+        {
+          "id": "*/hitForth_Close",
           "beat": 2.5
         },
         {
-          "id": "*/hitBaxter",
-          "beat": 4.5
+          "id": "*/whooshForth_Close",
+          "beat": 3.375,
+          "track": 1
+        },
+        {
+          "id": "*/hitBaxter_Close",
+          "beat": 4.5,
+          "track": 1
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_baBumBumBumSub",
-      "deprecatedIDs": [
-        "airRallyMegamixEn_baBumBumBumSub",
-        "airRally_baBumBumBumSub"
-      ],
-      "name": "ba bum bum bum",
-      "cues": [
-        {
-          "id": "*/baBumBumBum1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/baBumBumBum2Sub",
-          "beat": 0.5
-        },
-        {
-          "id": "*/baBumBumBum3Sub",
-          "beat": 1.5
-        },
-        {
-          "id": "*/baBumBumBum4",
-          "beat": 2.5
-        },
-        {
-          "id": "*/hitBaxter",
-          "beat": 4.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_baBumBumBumFarther",
+      "id": "*_baBumBumBum_Far",
       "deprecatedIDs": [
         "airRallyMegamixEn_baBumBumBumFarther",
-        "airRally_baBumBumBumFarther"
+        "airRally_baBumBumBumFarther",
+        "airRallyEn_baBumBumBumFarther"
       ],
-      "name": "ba bum bum bum - farther - first",
-      "cues": [
-        {
-          "id": "*/baBumBumBumFarther1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/baBumBumBumFarther2",
-          "beat": 0.5
-        },
-        {
-          "id": "*/baBumBumBumFarther3",
-          "beat": 1.5
-        },
-        {
-          "id": "*/baBumBumBumFarther4",
-          "beat": 2.5
-        },
-        {
-          "id": "*/baBumBumBumFartherHit",
-          "beat": 4.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_baBumBumBumFartherSub",
-      "deprecatedIDs": [],
-      "name": "ba bum bum bum - farther",
-      "cues": [
-        {
-          "id": "*/baBumBumBumFarther1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/baBumBumBumFarther2",
-          "beat": 0.5
-        },
-        {
-          "id": "*/baBumBumBumFarther3Sub",
-          "beat": 1.5
-        },
-        {
-          "id": "*/baBumBumBumFarther4",
-          "beat": 2.5
-        },
-        {
-          "id": "*/baBumBumBumFartherHit",
-          "beat": 4.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_baBumBumBumFar",
-      "deprecatedIDs": [
-        "airRallyMegamixEn_baBumBumBumFar",
-        "airRally_baBumBumBumFar"
-      ],
-      "name": "ba bum bum bum - far - first",
-      "cues": [
-        {
-          "id": "*/baBumBumBumFar1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/baBumBumBumFar2",
-          "beat": 0.5
-        },
-        {
-          "id": "*/baBumBumBumFar3",
-          "beat": 1.5
-        },
-        {
-          "id": "*/baBumBumBumFar4",
-          "beat": 2.5
-        },
-        {
-          "id": "*/baBumBumBumFarHit",
-          "beat": 4.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_baBumBumBumFarSub",
-      "deprecatedIDs": [],
       "name": "ba bum bum bum - far",
       "cues": [
         {
-          "id": "*/baBumBumBumFar1",
-          "beat": 0.0
+          "id": "*/baBumBumBum_Far1",
+          "beat": 0.0,
+          "track": 1
         },
         {
-          "id": "*/baBumBumBumFar2",
-          "beat": 0.5
+          "id": "*/baBumBumBum_Far2",
+          "beat": 0.5,
+          "track": 1
         },
         {
-          "id": "*/baBumBumBumFar3Sub",
-          "beat": 1.5
+          "id": "*/baBumBumBum_Far3",
+          "beat": 1.5,
+          "track": 1
         },
         {
-          "id": "*/baBumBumBumFar4",
+          "id": "*/baBumBumBum_Far4",
+          "beat": 2.5,
+          "track": 1
+        },
+        {
+          "id": "*/hitForth_Far",
           "beat": 2.5
         },
         {
-          "id": "*/baBumBumBumFarHit",
-          "beat": 4.5
+          "id": "*/whooshForth_Far",
+          "beat": 3.375,
+          "track": 1
+        },
+        {
+          "id": "*/baBumBumBum_FarHit",
+          "beat": 4.5,
+          "track": 1
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_baBumBumBumFurther",
+      "id": "*_baBumBumBum_Farther",
       "deprecatedIDs": [
-        "airRallyMegamixEn_baBumBumBumFurther",
-        "airRally_baBumBumBumFurther"
+        "airRallyMegamixEn_baBumBumBumFar",
+        "airRally_baBumBumBumFar",
+        "airRallyEn_baBumBumBumFar"
       ],
-      "name": "ba bum bum bum - further - first",
-      "cues": [
-        {
-          "id": "*/baBumBumBumFurther1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/baBumBumBumFurther2",
-          "beat": 0.5
-        },
-        {
-          "id": "*/baBumBumBumFurther3",
-          "beat": 1.5
-        },
-        {
-          "id": "*/baBumBumBumFurther4",
-          "beat": 2.5
-        },
-        {
-          "id": "*/baBumBumBumFurtherHit",
-          "beat": 4.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_baBumBumBumFurtherSub",
-      "deprecatedIDs": [],
       "name": "ba bum bum bum - further",
       "cues": [
         {
-          "id": "*/baBumBumBumFurther1",
-          "beat": 0.0
+          "id": "*/baBumBumBum_Farther1",
+          "beat": 0.0,
+          "track": 1
         },
         {
-          "id": "*/baBumBumBumFurther2",
-          "beat": 0.5
+          "id": "*/baBumBumBum_Farther2",
+          "beat": 0.5,
+          "track": 1
         },
         {
-          "id": "*/baBumBumBumFurther3Sub",
-          "beat": 1.5
+          "id": "*/baBumBumBum_Farther3",
+          "beat": 1.5,
+          "track": 1
         },
         {
-          "id": "*/baBumBumBumFurther4",
+          "id": "*/baBumBumBum_Farther4",
+          "beat": 2.5,
+          "track": 1
+        },
+        {
+          "id": "*/hitForth_Farther",
           "beat": 2.5
         },
         {
-          "id": "*/baBumBumBumFurtherHit",
-          "beat": 4.5
+          "id": "*/whooshForth_Farther",
+          "beat": 3.375,
+          "track": 1
+        },
+        {
+          "id": "*/baBumBumBum_FartherHit",
+          "beat": 4.5,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_baBumBumBum_Farthest",
+      "deprecatedIDs": [
+        "airRallyMegamixEn_baBumBumBumFurther",
+        "airRally_baBumBumBumFurther",
+        "airRallyEn_baBumBumBumFurther"
+      ],
+      "name": "ba bum bum bum - farthest",
+      "cues": [
+        {
+          "id": "*/baBumBumBum_Farthest1",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/baBumBumBum_Farthest2",
+          "beat": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/baBumBumBum_Farthest3",
+          "beat": 1.5,
+          "track": 1
+        },
+        {
+          "id": "*/baBumBumBum_Farthest4",
+          "beat": 2.5,
+          "track": 1
+        },
+        {
+          "id": "*/hitForth_Farthest",
+          "beat": 2.5
+        },
+        {
+          "id": "*/whooshForth_Farthest",
+          "beat": 3.375,
+          "track": 1
+        },
+        {
+          "id": "*/baBumBumBum_FarthestHit",
+          "beat": 4.5,
+          "track": 1
         }
       ]
     }
