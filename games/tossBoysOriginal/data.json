@@ -3,6 +3,10 @@
   "id": "tossBoysOriginal",
   "name": "Toss Boys (Original L/R Balance)",
   "group": "Toss Boys",
+  "searchHints": [
+    "left/right balance",
+    "left right balance"
+  ],
   "objects": [
     {
       "type": "cue",

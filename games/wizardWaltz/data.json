@@ -2,6 +2,9 @@
   "series": "tengoku",
   "id": "wizardWaltz",
   "name": "Wizard Waltz",
+  "searchHints": [
+    "wizard's waltz"
+  ],
   "objects": [
     {
       "type": "cue",

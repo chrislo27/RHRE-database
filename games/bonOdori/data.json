@@ -2,6 +2,12 @@
   "series": "tengoku",
   "id": "bonOdori",
   "name": "The☆Bon Odori",
+  "searchHints": [
+    "bon-odori",
+    "the bon odori",
+    "the bon-odori",
+    "bon dance"
+  ],
   "objects": [
     {
       "type": "cue",
