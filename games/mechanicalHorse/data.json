@@ -223,22 +223,22 @@
       "cues": [
         {
           "id": "*/horse1",
-          "track": 0.0,
+          "track": 0,
           "beat": 0.0
         },
         {
           "id": "*/horse2",
-          "track": 0.0,
+          "track": 0,
           "beat": 1.0
         },
         {
           "id": "*/playerhorse1",
-          "track": 1.0,
+          "track": 1,
           "beat": 0.0
         },
         {
           "id": "*/playerhorse2",
-          "track": 1.0,
+          "track": 1,
           "beat": 1.0
         }
       ]
@@ -277,42 +277,42 @@
       "cues": [
         {
           "id": "*/horse3",
-          "track": 0.0,
+          "track": 0,
           "beat": 0.0
         },
         {
           "id": "*/playerhorse3",
-          "track": 1.0,
+          "track": 1,
           "beat": 0.0
         },
         {
           "id": "*/horse4",
-          "track": 0.0,
+          "track": 0,
           "beat": 1.0
         },
         {
           "id": "*/playerhorse4",
-          "track": 1.0,
+          "track": 1,
           "beat": 1.0
         },
         {
           "id": "*/horse3",
-          "track": 0.0,
+          "track": 0,
           "beat": 2.0
         },
         {
           "id": "*/playerhorse3",
-          "track": 1.0,
+          "track": 1,
           "beat": 2.0
         },
         {
           "id": "*/horse4",
-          "track": 0.0,
+          "track": 0,
           "beat": 3.0
         },
         {
           "id": "*/playerhorse4",
-          "track": 1.0,
+          "track": 1,
           "beat": 3.0
         }
       ]
@@ -359,62 +359,62 @@
       "cues": [
         {
           "id": "*/horse5",
-          "track": 0.0,
+          "track": 0,
           "beat": 0.0
         },
         {
           "id": "*/playerhorse5",
-          "track": 1.0,
+          "track": 1,
           "beat": 0.0
         },
         {
           "id": "*/horse6",
-          "track": 0.0,
+          "track": 0,
           "beat": 0.5
         },
         {
           "id": "*/playerhorse6",
-          "track": 1.0,
+          "track": 1,
           "beat": 0.5
         },
         {
           "id": "*/horse7",
-          "track": 0.0,
+          "track": 0,
           "beat": 1.0
         },
         {
           "id": "*/playerhorse7",
-          "track": 1.0,
+          "track": 1,
           "beat": 1.0
         },
         {
           "id": "*/horse5",
-          "track": 0.0,
+          "track": 0,
           "beat": 2.0
         },
         {
           "id": "*/playerhorse5",
-          "track": 1.0,
+          "track": 1,
           "beat": 2.0
         },
         {
           "id": "*/horse6",
-          "track": 0.0,
+          "track": 0,
           "beat": 2.5
         },
         {
           "id": "*/playerhorse6",
-          "track": 1.0,
+          "track": 1,
           "beat": 2.5
         },
         {
           "id": "*/horse7",
-          "track": 0.0,
+          "track": 0,
           "beat": 3.0
         },
         {
           "id": "*/playerhorse7",
-          "track": 1.0,
+          "track": 1,
           "beat": 3.0
         }
       ]
@@ -475,7 +475,7 @@
         },
         {
           "id": "*/playerhorse8",
-          "track": 1.0,
+          "track": 1,
           "beat": 0.0
         },
         {
@@ -484,7 +484,7 @@
         },
         {
           "id": "*/playerhorse9",
-          "track": 1.0,
+          "track": 1,
           "beat": 0.5
         },
         {
@@ -493,7 +493,7 @@
         },
         {
           "id": "*/playerhorse10",
-          "track": 1.0,
+          "track": 1,
           "beat": 1.0
         },
         {
@@ -502,7 +502,7 @@
         },
         {
           "id": "*/playerhorse11",
-          "track": 1.0,
+          "track": 1,
           "beat": 1.5
         },
         {
@@ -511,7 +511,7 @@
         },
         {
           "id": "*/playerhorse8",
-          "track": 1.0,
+          "track": 1,
           "beat": 2.5
         },
         {
@@ -520,7 +520,7 @@
         },
         {
           "id": "*/playerhorse9",
-          "track": 1.0,
+          "track": 1,
           "beat": 3.0
         },
         {
@@ -529,7 +529,7 @@
         },
         {
           "id": "*/playerhorse10",
-          "track": 1.0,
+          "track": 1,
           "beat": 3.5
         },
         {
@@ -538,7 +538,7 @@
         },
         {
           "id": "*/playerhorse11",
-          "track": 1.0,
+          "track": 1,
           "beat": 4.0
         }
       ]
