@@ -5,6 +5,23 @@
   "group": "Donk-Donk",
   "groupDefault": true,
   "objects": [
+  	{
+      "type": "cue",
+      "id": "*/doors",
+      "deprecatedIDs": [
+      ],
+      "name": "intro doors",
+      "duration": 6.0
+    },
+    {
+      "type": "cue",
+      "id": "*/blastoff",
+      "deprecatedIDs": [
+        "donkDonk/blastoff"
+      ],
+      "name": "blastoff",
+      "duration": 1.0
+    },
     {
       "type": "cue",
       "id": "*/donk1",
@@ -95,6 +112,22 @@
       "name": "deet-deet-doot - 3",
       "duration": 0.666666
     },
+	{
+      "type": "cue",
+      "id": "*/donkdwonkNoBlast1",
+      "deprecatedIDs": [
+      ],
+      "name": "donk-dwonk (no blast)  - 1 ",
+      "duration": 0.666666
+    },
+	{
+      "type": "cue",
+      "id": "*/donkdwonkNoBlast2",
+      "deprecatedIDs": [
+      ],
+      "name": "donk-dwonk (no blast)  - 2 ",
+      "duration": 0.666666
+    },
     {
       "type": "cue",
       "id": "*/deetdeetdootNoBlast1",
@@ -115,15 +148,6 @@
       "deprecatedIDs": [],
       "name": "deet-deet-doot (no blast) - 3",
       "duration": 0.666666
-    },
-    {
-      "type": "cue",
-      "id": "*/blastoff",
-      "deprecatedIDs": [
-        "donkDonk/blastoff"
-      ],
-      "name": "blastoff",
-      "duration": 1.0
     },
     {
       "type": "pattern",
@@ -205,6 +229,22 @@
         }
       ]
     },
+	{
+      "type": "pattern",
+      "id": "*_donkdwonkNoBlast",
+      "deprecatedIDs": [],
+      "name": "donk-dwonk (no blast)",
+      "cues": [
+        {
+          "id": "*/donkdwonkNoBlast1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/donkdwonkNoBlast2",
+          "beat": 0.666666
+        }
+      ]
+    },
     {
       "type": "pattern",
       "id": "*_deetdeetdootNoBlast",
@@ -224,12 +264,12 @@
           "beat": 1.333333
         }
       ]
-    },
+    },	
     {
       "type": "pattern",
-      "id": "*_toastsaot",
+      "id": "*_tallDwonk",
       "deprecatedIDs": [
-        "donkDonk_toastsaot"
+        "donkDonk_toastsaot", "donkDonkEn_toastsaot"
       ],
       "name": "[#FF0000]D[][#FFA500]W[][#FFFF00]O[][#00FF00]N[][#0000FF]K[][#FF00FF]![]",
       "cues": [

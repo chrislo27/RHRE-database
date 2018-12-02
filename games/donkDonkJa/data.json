@@ -4,6 +4,23 @@
   "name": "Donk-Donk (Japanese)",
   "group": "Donk-Donk",
   "objects": [
+   {
+      "type": "cue",
+      "id": "*/doors",
+      "deprecatedIDs": [
+      ],
+      "name": "intro doors",
+      "duration": 6.0
+    },
+    {
+      "type": "cue",
+      "id": "*/blastoff",
+      "deprecatedIDs": [
+        "donkDonkJp/blastoff"
+      ],
+      "name": "blastoff",
+      "duration": 1.0
+    },
     {
       "type": "cue",
       "id": "*/donk1",
@@ -94,6 +111,22 @@
       "name": "deet-deet-doot - 3",
       "duration": 0.666666
     },
+	{
+      "type": "cue",
+      "id": "*/donkdwonkNoBlast1",
+      "deprecatedIDs": [
+      ],
+      "name": "donk-dwonk (no blast) - 1",
+      "duration": 0.666666
+    },
+    {
+      "type": "cue",
+      "id": "*/donkdwonkNoBlast2",
+      "deprecatedIDs": [
+      ],
+      "name": "donk-dwonk (no blast) - 2",
+      "duration": 0.666666
+    },
     {
       "type": "cue",
       "id": "*/deetdeetdootNoBlast1",
@@ -114,15 +147,6 @@
       "deprecatedIDs": [],
       "name": "deet-deet-doot (no blast) - 3",
       "duration": 0.666666
-    },
-    {
-      "type": "cue",
-      "id": "*/blastoff",
-      "deprecatedIDs": [
-        "donkDonkJp/blastoff"
-      ],
-      "name": "blastoff",
-      "duration": 1.0
     },
     {
       "type": "pattern",
@@ -204,6 +228,22 @@
         }
       ]
     },
+	{
+      "type": "pattern",
+      "id": "*_donkdwonkNoBlast",
+      "deprecatedIDs": [],
+      "name": "donk-dwonk (no blast)",
+      "cues": [
+        {
+          "id": "*/donkdwonkNoBlast1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/donkdwonkNoBlast2",
+          "beat": 0.666666
+        }
+      ]
+    },
     {
       "type": "pattern",
       "id": "*_deetdeetdootNoBlast",
@@ -226,9 +266,9 @@
     },
     {
       "type": "pattern",
-      "id": "*_toastsaot",
+      "id": "*_tallDwonkame",
       "deprecatedIDs": [
-        "donkDonkJp_toastsaot"
+        "donkDonkJp_toastsaot", "donkDonkJa_toastsaot"
       ],
       "name": "DWONKAME!",
       "cues": [
