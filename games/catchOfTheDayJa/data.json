@@ -1,164 +1,252 @@
 {
-  "series": "fever",
-  "id": "catchOfTheDayJa",
-  "name": "Catch of the Day (Japanese)",
-  "group": "Catch of the Day",
-  "objects": [
-    {
-      "type": "cue",
-      "id": "*/quick1",
-      "deprecatedIDs": [],
-      "name": "quicknibble - 1",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/quick2",
-      "deprecatedIDs": [],
-      "name": "quicknibble - 2",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/quick3",
-      "deprecatedIDs": [],
-      "name": "quicknibble - 3",
-      "duration": 1.5
-    },
-    {
-      "type": "cue",
-      "id": "*/pausegill1",
-      "deprecatedIDs": [],
-      "name": "pausegill - 1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/pausegill2",
-      "deprecatedIDs": [],
-      "name": "pausegill - 2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/pausegill3",
-      "deprecatedIDs": [],
-      "name": "pausegill - 3",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/pausegill4",
-      "deprecatedIDs": [],
-      "name": "pausegill - 4",
-      "duration": 1.5
-    },
-    {
-      "type": "cue",
-      "id": "*/threefish1",
-      "deprecatedIDs": [],
-      "name": "threefish - 1",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/threefish2",
-      "deprecatedIDs": [],
-      "name": "threefish - 2",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/threefish3",
-      "deprecatedIDs": [],
-      "name": "threefish - 3",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/threefish4",
-      "deprecatedIDs": [],
-      "name": "threefish - 4",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/threefish5",
-      "deprecatedIDs": [],
-      "name": "threefish - 5",
-      "duration": 1.5
-    },
-    {
-      "type": "pattern",
-      "id": "*_quicknibble",
-      "deprecatedIDs": [],
-      "name": "quicknibble",
-      "cues": [
-        {
-          "id": "*/quick1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/quick2",
-          "beat": 1.0
-        },
-        {
-          "id": "*/quick3",
-          "beat": 2.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_pausegill",
-      "deprecatedIDs": [],
-      "name": "pausegill",
-      "cues": [
-        {
-          "id": "*/pausegill1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/pausegill2",
-          "beat": 0.5
-        },
-        {
-          "id": "*/pausegill3",
-          "beat": 1.0
-        },
-        {
-          "id": "*/pausegill4",
-          "beat": 3.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_threefish",
-      "deprecatedIDs": [],
-      "name": "threefish",
-      "cues": [
-        {
-          "id": "*/threefish1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/threefish2",
-          "beat": 0.25
-        },
-        {
-          "id": "*/threefish3",
-          "beat": 0.5
-        },
-        {
-          "id": "*/threefish4",
-          "beat": 1.0
-        },
-        {
-          "id": "*/threefish5",
-          "beat": 4.5
-        }
-      ]
-    }
-  ]
+  "id" : "catchOfTheDayJa",
+  "name" : "Catch of the Day (Japanese)",
+  "series" : "fever",
+  "group" : "Catch of the Day",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/quick1",
+    "name" : "quicknibble - 1",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/quick2",
+    "name" : "quicknibble - 2",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/quick3",
+    "name" : "quicknibble - 3",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pausegill1",
+    "name" : "pausegill - 1",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pausegill2",
+    "name" : "pausegill - 2",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pausegill3",
+    "name" : "pausegill - 3",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/pausegill4",
+    "name" : "pausegill - 4",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/threefish1",
+    "name" : "threefish - 1",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/threefish2",
+    "name" : "threefish - 2",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/threefish3",
+    "name" : "threefish - 3",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/threefish4",
+    "name" : "threefish - 4",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/threefish5",
+    "name" : "threefish - 5",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.5
+  }, {
+    "type" : "cue",
+    "id" : "*/nn",
+    "name" : "nn",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/hai",
+    "name" : "hai",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/one",
+    "name" : "one",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/two",
+    "name" : "two",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/three",
+    "name" : "three",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/hoi",
+    "name" : "hoi",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.5
+  }, {
+    "type" : "pattern",
+    "id" : "*_quicknibble",
+    "name" : "quicknibble",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/quick1",
+      "beat" : 0.0
+    }, {
+      "id" : "*/quick2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/quick3",
+      "beat" : 2.0
+    } ]
+  }, {
+    "type" : "pattern",
+    "id" : "*_pausegill",
+    "name" : "pausegill",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/pausegill1",
+      "beat" : 0.0
+    }, {
+      "id" : "*/pausegill2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/pausegill3",
+      "beat" : 1.0
+    }, {
+      "id" : "*/pausegill4",
+      "beat" : 3.0
+    }  ]
+    }, {
+    "type" : "pattern",
+    "id" : "*_threefish",
+    "name" : "threefish",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/threefish1",
+      "beat" : 0.0
+    }, {
+      "id" : "*/threefish2",
+      "beat" : 0.25
+    }, {
+      "id" : "*/threefish3",
+      "beat" : 0.5
+    }, {
+      "id" : "*/threefish4",
+      "beat" : 1.0
+    }, {
+      "id" : "*/threefish5",
+      "beat" : 4.5
+	}  ]
+	}, {
+  "type" : "pattern",
+  "id" : "*_pausegillCount",
+  "deprecatedIDs" : [ ],
+  "name" : "pausegill (counting)",
+  "stretchable" : false,
+  "cues" : [ {
+    "id" : "*/pausegill1",
+    "beat" : 0.0,
+    "duration" : 0.5,
+    "track" : 1
+  }, {
+    "id" : "*/pausegill2",
+    "beat" : 0.5,
+    "duration" : 0.5,
+    "track" : 1
+  }, {
+    "id" : "*/pausegill3",
+    "beat" : 1.0,
+    "duration" : 1.0,
+    "track" : 1
+  }, {
+    "id" : "*/nn",
+    "beat" : 2.0,
+    "duration" : 1.0
+  }, {
+    "id" : "*/pausegill4",
+    "beat" : 3.0,
+    "duration" : 1.0,
+    "track" : 1
+  }, {
+    "id" : "*/hai",
+    "beat" : 3.0,
+    "duration" : 1.0
+  }  ]
+  }, {
+  "type" : "pattern",
+  "id" : "*_threefishCount",
+  "deprecatedIDs" : [ ],
+  "name" : "threefish (counting)",
+  "stretchable" : false,
+  "cues" : [ {
+    "id" : "*/threefish1",
+    "beat" : 0.0,
+    "duration" : 0.25,
+    "track" : 1
+  }, {
+    "id" : "*/threefish2",
+    "beat" : 0.25,
+    "duration" : 0.25,
+    "track" : 1
+  }, {
+    "id" : "*/threefish3",
+    "beat" : 0.5,
+    "duration" : 0.5,
+    "track" : 1
+  }, {
+    "id" : "*/threefish4",
+    "beat" : 1.0,
+    "duration" : 1.0,
+    "track" : 1
+  }, {
+    "id" : "*/one",
+    "beat" : 2.0,
+    "duration" : 1.0
+  }, {
+    "id" : "*/two",
+    "beat" : 3.0,
+    "duration" : 1.0
+  }, {
+    "id" : "*/three",
+    "beat" : 4.0,
+    "duration" : 0.5
+  }, {
+    "id" : "*/hoi",
+    "beat" : 4.5,
+    "duration" : 1.5
+  }, {
+    "id" : "*/threefish5",
+    "beat" : 4.5,
+    "duration" : 1.5,
+    "track" : 1
+  }  ]
+  }  ]
 }
