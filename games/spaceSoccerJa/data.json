@@ -1,81 +1,128 @@
 {
-  "series": "ds",
-  "id": "spaceSoccerJa",
-  "name": "Space Soccer (Japanese)",
-  "group": "Space Soccer",
-  "objects": [
-    {
-      "type": "cue",
-      "id": "*/kick",
-      "deprecatedIDs": [],
-      "name": "kick",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/highkicktoe1",
-      "deprecatedIDs": [],
-      "name": "highkick - high",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/highkicktoe2",
-      "deprecatedIDs": [],
-      "name": "highkick - kick",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/highkicktoe3",
-      "deprecatedIDs": [],
-      "name": "highkick - toe",
-      "duration": 1.5
-    },
-    {
-      "type": "keepTheBeat",
-      "id": "*_keepup",
-      "deprecatedIDs": [],
-      "name": "keep-up",
-      "defaultDuration": 4.0,
-      "cues": [
-        {
-          "id": "*/kick",
-          "beat": 0.0
-        },
-        {
-          "id": "*/kick",
-          "beat": 1.0
-        },
-        {
-          "id": "*/kick",
-          "beat": 2.0
-        },
-        {
-          "id": "*/kick",
-          "beat": 3.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_highkicktoe",
-      "deprecatedIDs": [],
-      "name": "high kick-toe!",
-      "cues": [
-        {
-          "id": "*/highkicktoe1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/highkicktoe2",
-          "beat": 1.0
-        },
-        {
-          "id": "*/highkicktoe3",
-          "beat": 1.5
-        }
-      ]
-    }
-  ]
+  "id" : "spaceSoccerJa",
+  "name" : "Space Soccer (Japanese)",
+  "series" : "ds",
+  "group" : "Space Soccer",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/thruster",
+    "name" : "thruster",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/blastoff",
+    "name" : "blastoff",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/kick",
+    "name" : "kick",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/highkicktoe1",
+    "name" : "highkick - high",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/highkicktoe2",
+    "name" : "highkick - kick",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/highkicktoe3",
+    "name" : "highkick - toe",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.5
+  }, {
+    "type" : "cue",
+    "id" : "*/dispense1",
+    "name" : "dispense - 1",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.75
+  }, {
+    "type" : "cue",
+    "id" : "*/dispense2",
+    "name" : "dispense - 2",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/dispense3",
+    "name" : "dispense - 3",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/dispense4",
+    "name" : "dispense - 4",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/dispense5",
+    "name" : "dispense - 5",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "pattern",
+    "id" : "*_dispense",
+    "name" : "ball dispense",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/dispense1",
+      "beat" : 0.0
+    }, {
+      "id" : "*/dispense2",
+      "beat" : 0.75
+    }, {
+      "id" : "*/dispense3",
+      "beat" : 1.0
+    }, {
+      "id" : "*/dispense4",
+      "beat" : 1.25
+    }, {
+      "id" : "*/dispense5",
+      "beat" : 1.5
+    } ]
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_keepup",
+    "name" : "keep-up",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/kick",
+      "beat" : 0.0
+    }, {
+      "id" : "*/kick",
+      "beat" : 1.0
+    }, {
+      "id" : "*/kick",
+      "beat" : 2.0
+    }, {
+      "id" : "*/kick",
+      "beat" : 3.0
+    } ]
+  }, {
+    "type" : "pattern",
+    "id" : "*_highkicktoe",
+    "name" : "high kick-toe!",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/highkicktoe1",
+      "beat" : 0.0
+    }, {
+      "id" : "*/highkicktoe2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/highkicktoe3",
+      "beat" : 1.5
+    } ]
+  } ]
 }

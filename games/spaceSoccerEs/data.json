@@ -1,81 +1,128 @@
 {
-  "series": "ds",
-  "id": "spaceSoccerEs",
-  "name": "Space Soccer (Spanish)",
-  "group": "Space Soccer",
-  "objects": [
-    {
-      "type": "cue",
-      "id": "*/hey",
-      "deprecatedIDs": [],
-      "name": "hey",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/pieheypie1",
-      "deprecatedIDs": [],
-      "name": "highkick - pie",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/pieheypie2",
-      "deprecatedIDs": [],
-      "name": "highkick - hey",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/pieheypie3",
-      "deprecatedIDs": [],
-      "name": "highkick - pie!",
-      "duration": 1.5
-    },
-    {
-      "type": "keepTheBeat",
-      "id": "*_keepup",
-      "deprecatedIDs": [],
-      "name": "keep-up",
-      "defaultDuration": 4.0,
-      "cues": [
-        {
-          "id": "*/hey",
-          "beat": 0.0
-        },
-        {
-          "id": "*/hey",
-          "beat": 1.0
-        },
-        {
-          "id": "*/hey",
-          "beat": 2.0
-        },
-        {
-          "id": "*/hey",
-          "beat": 3.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_pieheypie",
-      "deprecatedIDs": [],
-      "name": "high kick-toe!",
-      "cues": [
-        {
-          "id": "*/pieheypie1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/pieheypie2",
-          "beat": 1.0
-        },
-        {
-          "id": "*/pieheypie3",
-          "beat": 1.5
-        }
-      ]
-    }
-  ]
+  "id" : "spaceSoccerEs",
+  "name" : "Space Soccer (Spanish)",
+  "series" : "ds",
+  "group" : "Space Soccer",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/thruster",
+    "name" : "thruster",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/blastoff",
+    "name" : "blastoff",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/hey",
+    "name" : "hey",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/pieheypie1",
+    "name" : "highkick - pie",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/pieheypie2",
+    "name" : "highkick - hey",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pieheypie3",
+    "name" : "highkick - pie!",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.5
+  }, {
+    "type" : "cue",
+    "id" : "*/dispense1",
+    "name" : "dispense - 1",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.75
+  }, {
+    "type" : "cue",
+    "id" : "*/dispense2",
+    "name" : "dispense - 2",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/dispense3",
+    "name" : "dispense - 3",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/dispense4",
+    "name" : "dispense - 4",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/dispense5",
+    "name" : "dispense - 5",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "pattern",
+    "id" : "*_dispense",
+    "name" : "ball dispense",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/dispense1",
+      "beat" : 0.0
+    }, {
+      "id" : "*/dispense2",
+      "beat" : 0.75
+    }, {
+      "id" : "*/dispense3",
+      "beat" : 1.0
+    }, {
+      "id" : "*/dispense4",
+      "beat" : 1.25
+    }, {
+      "id" : "*/dispense5",
+      "beat" : 1.5
+    } ]
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_keepup",
+    "name" : "keep-up",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/hey",
+      "beat" : 0.0
+    }, {
+      "id" : "*/hey",
+      "beat" : 1.0
+    }, {
+      "id" : "*/hey",
+      "beat" : 2.0
+    }, {
+      "id" : "*/hey",
+      "beat" : 3.0
+    } ]
+  }, {
+    "type" : "pattern",
+    "id" : "*_pieheypie",
+    "name" : "high kick-toe!",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/pieheypie1",
+      "beat" : 0.0
+    }, {
+      "id" : "*/pieheypie2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/pieheypie3",
+      "beat" : 1.5
+    } ]
+  } ]
 }

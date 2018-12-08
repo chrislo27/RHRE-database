@@ -1,81 +1,128 @@
 {
-  "series": "ds",
-  "id": "spaceSoccerFr",
-  "name": "Space Soccer (French)",
-  "group": "Space Soccer",
-  "objects": [
-    {
-      "type": "cue",
-      "id": "*/hup",
-      "deprecatedIDs": [],
-      "name": "hup",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/leshuptich1",
-      "deprecatedIDs": [],
-      "name": "high",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/leshuptich2",
-      "deprecatedIDs": [],
-      "name": "kick",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/leshuptich3",
-      "deprecatedIDs": [],
-      "name": "toe",
-      "duration": 1.5
-    },
-    {
-      "type": "keepTheBeat",
-      "id": "*_keepup",
-      "deprecatedIDs": [],
-      "name": "keep-up",
-      "defaultDuration": 4.0,
-      "cues": [
-        {
-          "id": "*/hup",
-          "beat": 0.0
-        },
-        {
-          "id": "*/hup",
-          "beat": 1.0
-        },
-        {
-          "id": "*/hup",
-          "beat": 2.0
-        },
-        {
-          "id": "*/hup",
-          "beat": 3.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_leshuptich",
-      "deprecatedIDs": [],
-      "name": "high kick-toe!",
-      "cues": [
-        {
-          "id": "*/leshuptich1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/leshuptich2",
-          "beat": 1.0
-        },
-        {
-          "id": "*/leshuptich3",
-          "beat": 1.5
-        }
-      ]
-    }
-  ]
+  "id" : "spaceSoccerFr",
+  "name" : "Space Soccer (French)",
+  "series" : "ds",
+  "group" : "Space Soccer",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/thruster",
+    "name" : "thruster",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/blastoff",
+    "name" : "blastoff",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/hup",
+    "name" : "hup",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/leshuptich1",
+    "name" : "high",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/leshuptich2",
+    "name" : "kick",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/leshuptich3",
+    "name" : "toe",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.5
+  }, {
+    "type" : "cue",
+    "id" : "*/dispense1",
+    "name" : "dispense - 1",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.75
+  }, {
+    "type" : "cue",
+    "id" : "*/dispense2",
+    "name" : "dispense - 2",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/dispense3",
+    "name" : "dispense - 3",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/dispense4",
+    "name" : "dispense - 4",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/dispense5",
+    "name" : "dispense - 5",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "pattern",
+    "id" : "*_dispense",
+    "name" : "ball dispense",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/dispense1",
+      "beat" : 0.0
+    }, {
+      "id" : "*/dispense2",
+      "beat" : 0.75
+    }, {
+      "id" : "*/dispense3",
+      "beat" : 1.0
+    }, {
+      "id" : "*/dispense4",
+      "beat" : 1.25
+    }, {
+      "id" : "*/dispense5",
+      "beat" : 1.5
+    } ]
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_keepup",
+    "name" : "keep-up",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/hup",
+      "beat" : 0.0
+    }, {
+      "id" : "*/hup",
+      "beat" : 1.0
+    }, {
+      "id" : "*/hup",
+      "beat" : 2.0
+    }, {
+      "id" : "*/hup",
+      "beat" : 3.0
+    } ]
+  }, {
+    "type" : "pattern",
+    "id" : "*_leshuptich",
+    "name" : "high kick-toe!",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/leshuptich1",
+      "beat" : 0.0
+    }, {
+      "id" : "*/leshuptich2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/leshuptich3",
+      "beat" : 1.5
+    } ]
+  } ]
 }
