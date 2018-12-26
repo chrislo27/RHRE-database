@@ -35,6 +35,12 @@
       "subtitleType": "songArtist"
     },
     {
+      "type": "tapeMeasure",
+      "id": "*_tapeMeasure",
+      "deprecatedIDs": [],
+      "name": "Tape Measure"
+    },
+    {
       "type": "textureEntity",
       "id": "*_textureEntity",
       "deprecatedIDs": [],
