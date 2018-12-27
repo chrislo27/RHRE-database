@@ -1,310 +1,248 @@
 {
-  "series": "ds",
-  "id": "frogHopJa",
-  "name": "Frog Hop (DS) (Japanese)",
-  "group": "Frog Hop (DS)",
-  "objects": [
-    {
-      "type": "cue",
-      "id": "*/one",
-      "deprecatedIDs": [],
-      "name": "countin - 1",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/two",
-      "deprecatedIDs": [],
-      "name": "countin - 2",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/three",
-      "deprecatedIDs": [],
-      "name": "countin - 3",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/four",
-      "deprecatedIDs": [],
-      "name": "countin - 4",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/shake",
-      "deprecatedIDs": [],
-      "name": "shake",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/yahoo1",
-      "deprecatedIDs": [],
-      "name": "yahoo - lead - ya-",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/yahoo2",
-      "deprecatedIDs": [],
-      "name": "yahoo - lead - -hoo!",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/yahoo3",
-      "deprecatedIDs": [],
-      "name": "yahoo - backup - ya-",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/yahoo4",
-      "deprecatedIDs": [],
-      "name": "yahoo - backup - -hoo!",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/hai1",
-      "deprecatedIDs": [],
-      "name": "hai hai hai - lead - hai",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/hai2",
-      "deprecatedIDs": [],
-      "name": "hai hai hai - backup - hai",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/kururin1",
-      "deprecatedIDs": [],
-      "name": "kururin - lead - ku",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/kururin2",
-      "deprecatedIDs": [],
-      "name": "kururin - lead - ru",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/kururin3",
-      "deprecatedIDs": [],
-      "name": "kururin - lead - rin",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/kururin4",
-      "deprecatedIDs": [],
-      "name": "kururin - backup - ku",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/kururin5",
-      "deprecatedIDs": [],
-      "name": "kururin - backup - ru",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/kururin6",
-      "deprecatedIDs": [],
-      "name": "kururin - backup - rin",
-      "duration": 0.5
-    },
-    {
-      "type": "keepTheBeat",
-      "id": "*_shake",
-      "deprecatedIDs": [],
-      "name": "shake",
-      "defaultDuration": 4.0,
-      "cues": [
-        {
-          "id": "*/shake",
-          "beat": 0.0
-        },
-        {
-          "id": "*/shake",
-          "beat": 1.0
-        },
-        {
-          "id": "*/shake",
-          "beat": 2.0
-        },
-        {
-          "id": "*/shake",
-          "beat": 3.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_yahoo",
-      "deprecatedIDs": [],
-      "name": "yahoo",
-      "cues": [
-        {
-          "id": "*/yahoo1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/shake",
-          "beat": 0.0,
-          "track": 1
-        },
-        {
-          "id": "*/yahoo2",
-          "beat": 0.5
-        },
-        {
-          "id": "*/shake",
-          "beat": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/yahoo3",
-          "beat": 2.0
-        },
-        {
-          "id": "*/yahoo4",
-          "beat": 2.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_haihaihai",
-      "deprecatedIDs": [],
-      "name": "yeah yeah yeah",
-      "cues": [
-        {
-          "id": "*/hai1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/shake",
-          "beat": 0.0,
-          "track": 1
-        },
-        {
-          "id": "*/hai1",
-          "beat": 0.5
-        },
-        {
-          "id": "*/hai1",
-          "beat": 1.0
-        },
-        {
-          "id": "*/shake",
-          "beat": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/hai2",
-          "beat": 2.0
-        },
-        {
-          "id": "*/hai2",
-          "beat": 2.5
-        },
-        {
-          "id": "*/hai2",
-          "beat": 3.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_kururin",
-      "deprecatedIDs": [],
-      "name": "spin it boys!",
-      "cues": [
-        {
-          "id": "*/kururin1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/shake",
-          "beat": 0.0,
-          "track": 1
-        },
-        {
-          "id": "*/shake",
-          "beat": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/kururin2",
-          "beat": 0.5
-        },
-        {
-          "id": "*/kururin3",
-          "beat": 1.0
-        },
-        {
-          "id": "*/kururin4",
-          "beat": 2.0
-        },
-        {
-          "id": "*/kururin5",
-          "beat": 2.5
-        },
-        {
-          "id": "*/kururin6",
-          "beat": 3.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_2BeatCountIn",
-      "deprecatedIDs": [],
-      "name": "2-beat count-in",
-      "cues": [
-        {
-          "id": "*/three",
-          "beat": 0.0
-        },
-        {
-          "id": "*/four",
-          "beat": 1.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_4BeatCountIn",
-      "deprecatedIDs": [],
-      "name": "4-beat count-in",
-      "cues": [
-        {
-          "id": "*/one",
-          "beat": 0.0
-        },
-        {
-          "id": "*/two",
-          "beat": 1.0
-        },
-        {
-          "id": "*/three",
-          "beat": 2.0
-        },
-        {
-          "id": "*/four",
-          "beat": 3.0
-        }
-      ]
-    }
-  ]
+  "id" : "frogHopJa",
+  "name" : "Frog Hop (DS) (Japanese)",
+  "series" : "ds",
+  "group" : "Frog Hop (DS)",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/one",
+    "name" : "countin - 1",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/two",
+    "name" : "countin - 2",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/three",
+    "name" : "countin - 3",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/four",
+    "name" : "countin - 4",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/shake",
+    "name" : "shake",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/yahoo1",
+    "name" : "yahoo - lead - ya-",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/yahoo2",
+    "name" : "yahoo - lead - -hoo!",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/yahoo3",
+    "name" : "yahoo - backup - ya-",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/yahoo4",
+    "name" : "yahoo - backup - -hoo!",
+    "deprecatedIDs" : [ ],
+    "duration" : 1.5
+  }, {
+    "type" : "cue",
+    "id" : "*/hai1",
+    "name" : "hai hai hai - lead - hai",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/hai2",
+    "name" : "hai hai hai - backup - hai",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/kururin1",
+    "name" : "kururin - lead - ku",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/kururin2",
+    "name" : "kururin - lead - ru",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/kururin3",
+    "name" : "kururin - lead - rin",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/kururin4",
+    "name" : "kururin - backup - ku",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/kururin5",
+    "name" : "kururin - backup - ru",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/kururin6",
+    "name" : "kururin - backup - rin",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_shake",
+    "name" : "shake",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/shake",
+      "beat" : 0.0
+    }, {
+      "id" : "*/shake",
+      "beat" : 1.0
+    }, {
+      "id" : "*/shake",
+      "beat" : 2.0
+    }, {
+      "id" : "*/shake",
+      "beat" : 3.0
+    } ]
+  }, {
+    "type" : "pattern",
+    "id" : "*_yahoo",
+    "name" : "yahoo",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/yahoo1",
+      "beat" : 0.0
+    }, {
+      "id" : "*/shake",
+      "beat" : 0.0,
+      "track" : 1
+    }, {
+      "id" : "*/yahoo2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/shake",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/yahoo3",
+      "beat" : 2.0
+    }, {
+      "id" : "*/yahoo4",
+      "beat" : 2.5
+    } ]
+  }, {
+    "type" : "pattern",
+    "id" : "*_haihaihai",
+    "name" : "yeah yeah yeah",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hai1",
+      "beat" : 0.0
+    }, {
+      "id" : "*/shake",
+      "beat" : 0.0,
+      "track" : 1
+    }, {
+      "id" : "*/hai1",
+      "beat" : 0.5
+    }, {
+      "id" : "*/hai1",
+      "beat" : 1.0
+    }, {
+      "id" : "*/shake",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/hai2",
+      "beat" : 2.0
+    }, {
+      "id" : "*/hai2",
+      "beat" : 2.5
+    }, {
+      "id" : "*/hai2",
+      "beat" : 3.0
+    } ]
+  }, {
+    "type" : "pattern",
+    "id" : "*_kururin",
+    "name" : "spin it boys!",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/kururin1",
+      "beat" : 0.0
+    }, {
+      "id" : "*/shake",
+      "beat" : 0.0,
+      "track" : 1
+    }, {
+      "id" : "*/shake",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/kururin2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/kururin3",
+      "beat" : 1.0
+    }, {
+      "id" : "*/kururin4",
+      "beat" : 2.0
+    }, {
+      "id" : "*/kururin5",
+      "beat" : 2.5
+    }, {
+      "id" : "*/kururin6",
+      "beat" : 3.0
+    } ]
+  }, {
+    "type" : "pattern",
+    "id" : "*_2BeatCountIn",
+    "name" : "2-beat count-in",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/three",
+      "beat" : 0.0
+    }, {
+      "id" : "*/four",
+      "beat" : 1.0
+    } ]
+  }, {
+    "type" : "pattern",
+    "id" : "*_4BeatCountIn",
+    "name" : "4-beat count-in",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/one",
+      "beat" : 0.0
+    }, {
+      "id" : "*/two",
+      "beat" : 1.0
+    }, {
+      "id" : "*/three",
+      "beat" : 2.0
+    }, {
+      "id" : "*/four",
+      "beat" : 3.0
+    } ]
+  } ]
 }
