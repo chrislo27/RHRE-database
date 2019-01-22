@@ -2,6 +2,7 @@
   "series": "tengoku",
   "id": "polyrhythm",
   "name": "Polyrhythm",
+  "searchHints": ["built to scale"],
   "objects": [
     {
       "type": "cue",
