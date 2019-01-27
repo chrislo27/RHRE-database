@@ -41,51 +41,51 @@
     },
     {
       "type": "cue",
-      "id": "*/yeah1",
+      "id": "*/jump1",
       "deprecatedIDs": [],
       "name": "jump - others",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/yeah2",
+      "id": "*/jump2",
       "deprecatedIDs": [],
       "name": "jump - player",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/jumpSimultaneous",
+      "id": "*/yeah",
       "deprecatedIDs": [],
-      "name": "jump - simultaneous",
-      "duration": 0.5
+      "name": "yeah",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/spin1",
       "deprecatedIDs": [],
       "name": "spin - others",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/spin2",
       "deprecatedIDs": [],
       "name": "spin - player",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/splash1",
       "deprecatedIDs": [],
-      "name": "splash - 1",
+      "name": "splash - others",
       "duration": 1.0
     },
     {
-      "type": "cue",
+	  "type": "cue",
       "id": "*/splash2",
       "deprecatedIDs": [],
-      "name": "splash - 2",
+      "name": "splash - player",
       "duration": 1.0
     },
     {
@@ -94,6 +94,13 @@
       "deprecatedIDs": [],
       "name": "ohhhhh",
       "duration": 2.0
+    },
+    {
+	  "type": "cue",
+      "id": "*/ooohRemix9",
+      "deprecatedIDs": [],
+      "name": "ohhhhh (Remix 9)",
+      "duration": 1.0
     },
     {
       "type": "cue",
@@ -154,16 +161,23 @@
       "name": "jump - others",
       "cues": [
         {
-          "id": "*/yeah1",
-          "beat": 0.0
+          "id": "*/jump1",
+          "beat": 0.0,
+		  "track": 1
+		},
+        {
+		  "id": "*/yeah",
+		  "beat": 0.0
         },
         {
           "id": "*/spin1",
-          "beat": 1.0
+          "beat": 1.0,
+		  "track": 1
         },
         {
           "id": "*/splash1",
-          "beat": 2.0
+          "beat": 1.75,
+		  "track": 1
         }
       ]
     },
@@ -174,16 +188,23 @@
       "name": "jump - player",
       "cues": [
         {
-          "id": "*/yeah2",
-          "beat": 0.0
+          "id": "*/jump2",
+          "beat": 0.0,
+		  "track": 1
+		},
+        {
+		  "id": "*/yeah",
+		  "beat": 0.0
         },
         {
           "id": "*/spin2",
-          "beat": 1.0
+          "beat": 1.0,
+		  "track": 1
         },
         {
           "id": "*/splash2",
-          "beat": 2.0
+          "beat": 1.75,
+		  "track": 1
         }
       ]
     },
@@ -195,19 +216,76 @@
       "cues": [
         {
           "id": "*/oooh",
-          "beat": 0.0
+          "beat": 0.0,
+		  "track": 1
         },
         {
-          "id": "*/jumpSimultaneous",
+          "id": "*/jump1",
+          "beat": 2.0,
+		  "track": 1
+        },
+        {
+          "id": "*/jump2",
           "beat": 2.0
         },
         {
+          "id": "*/spin1",
+          "beat": 3.0,
+		  "track": 1
+		},
+        {
           "id": "*/spin2",
-          "beat": 2.75
+          "beat": 3.0
         },
+        {
+          "id": "*/splash1",
+          "beat": 3.75,
+		  "track": 1
+		},
         {
           "id": "*/splash2",
           "beat": 3.75
+		  
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_simultaneousJumpRemix9",
+      "deprecatedIDs": [],
+      "name": "simultaneous jump (Remix 9)",
+      "cues": [
+        {
+          "id": "*/ooohRemix9",
+          "beat": 0.0,
+		  "track": 1
+        },
+        {
+          "id": "*/jump1",
+          "beat": 1.0,
+		  "track": 1
+        },
+        {
+          "id": "*/jump2",
+          "beat": 1.0
+        },
+        {
+		  "id": "*/spin1",
+          "beat": 2.0,
+		  "track": 1
+		},
+        {
+          "id": "*/spin2",
+          "beat": 2.0
+        },
+        {
+          "id": "*/splash1",
+          "beat": 2.75,
+		  "track": 1
+		},
+        {
+          "id": "*/splash2",
+          "beat": 2.75
         }
       ]
     },
@@ -219,11 +297,18 @@
       "cues": [
         {
           "id": "*/oooh",
-          "beat": 0.0
+          "beat": 0.0,
+		  "track": 2
         },
         {
-          "id": "*/jumpSimultaneous",
-          "beat": 2.0
+          "id": "*/jump1",
+          "beat": 2.0,
+		  "track": 2
+        },
+        {
+          "id": "*/jump2",
+          "beat": 2.0,
+		  "track": 1
         },
         {
           "id": "*/alleyoop1",
@@ -234,8 +319,14 @@
           "beat": 3.0
         },
         {
+          "id": "*/splash1",
+          "beat": 3.75,
+		  "track": 2
+		},
+        {
           "id": "*/splash2",
-          "beat": 4.0
+          "beat": 3.75,
+		  "track": 1
         }
       ]
     }
