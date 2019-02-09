@@ -1,0 +1,39 @@
+[
+  {
+    "applyTo": ["loveRapEn", "loveRapJa", "loveRapKo"],
+    "engine": "0x2B",
+    "name": "rvlRap",
+    "tempoFile": "100001C",
+    "index": "0x39"
+  },
+  {
+    "applyTo": ["loveRapEn_intoyou", "loveRapJa_daisuki", "loveRapKo_nigajoah"],
+    "sub": "0x70-0x77",
+	"note": "Refer to the documentation"
+  },
+  {
+    "applyTo": ["loveRapEn_crazyintoyou", "loveRapJa_majidaisuki", "loveRapKo_jeongmalnigajoah"],
+    "sub": "0x78-0x7F",
+	"note": "Refer to the documentation"
+  },
+  {
+    "applyTo": ["loveRapEn_fosho", "loveRapJa_hontoA", "loveRapKo_jinjja1"],
+    "sub": "0x80-0x83",
+	"note": "Refer to the documentation"
+  },
+  {
+    "applyTo": ["loveRapEn_fosholong", "loveRapJa_hontoB", "loveRapKo_jinjja2"],
+    "sub": "0x84-0x87",
+	"note": "Refer to the documentation"
+  },
+  {
+    "applyTo": ["loveRapEn_crazyintoyouswing", "loveRapJa_swingMajidaisuki", "loveRapKo_swingjeongmalnigajoah"],
+    "sub": "0x7C-0x7F",
+	"note": "Refer to the documentation"
+  },
+  {
+    "applyTo": ["loveRapEn_allaboutyou", "loveRapJa_sukinanda", "loveRapKo_jinshimiyanan1"],
+    "sub": "0x88-0x8F",
+	"note": "Refer to the documentation"
+  }
+]
