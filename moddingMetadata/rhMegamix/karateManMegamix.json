@@ -1,0 +1,66 @@
+[
+  {
+    "applyTo": ["karateManMegamixEn", "karateManMegamixJa", "karateManMegamixKo"],
+    "engine": "0x28",
+    "name": "rvlKarate0, rvlKarate4",
+    "tempoFile": "1000068, 10000C5",
+    "index": "0x59, 0x5D",
+	"note": "In order of: KM Story, KM Senior"
+  },
+  {
+    "applyTo": ["karateManMegamixEn_pot", "karateManMegamixJa_pot", "karateManMegamixKo_pot"],
+    "sub": "0x60"
+  },
+  {
+    "applyTo": ["karateManMegamixEn_rock", "karateManMegamixJa_rock", "karateManMegamixKo_rock"],
+    "sub": "0x61"
+  },
+  {
+    "applyTo": ["karateManMegamixEn_soccerBall", "karateManMegamixJa_soccerBall", "karateManMegamixKo_soccerBall"],
+    "sub": "0x62"
+  },
+  {
+    "applyTo": ["karateManMegamixEn_cookingPot", "karateManMegamixJa_cookingPot", "karateManMegamixKo_cookingPot"],
+    "sub": "0x63"
+  },
+  {
+    "applyTo": ["karateManMegamixEn_offbeatpot", "karateManMegamixJa_offbeatpot", "karateManMegamixKo_offbeatpot"],
+    "sub": "0x64"
+  },
+  {
+    "applyTo": ["karateManMegamixEn_doublePot", "karateManMegamixJa_doublePot", "karateManMegamixKo_doublePot"],
+    "sub": "0x65"
+  },
+  {
+    "applyTo": ["karateManMegamixEn_kick", "karateManMegamixJa_kick", "karateManMegamixKo_kick"],
+    "sub": "0x6A + 0x75",
+	"note": "0x75 should be called two beats after 0x6A"
+  },
+  {
+    "applyTo": ["karateManMegamixEn_combo", "karateManMegamixJa_combo", "karateManMegamixKo_combo"],
+    "sub": "0x6D + 0x73",
+	"note": "0x73 should be called three beats after 0x6D"
+  },
+  {
+    "applyTo": ["karateManMegamixEn_comboSenior", "karateManMegamixJa_comboSenior", "karateManMegamixKo_comboSenior"],
+    "sub": "0x6D + 0x73",
+	"note": "0x73 should be called two beats after 0x6D"
+  },
+  {
+    "applyTo": ["karateManMegamixEn_alien", "karateManMegamixJa_alien", "karateManMegamixKo_alien"],
+    "sub": "0x72"
+  },
+  {
+    "applyTo": ["karateManMegamixEn_comboSolo", "karateManMegamixJa_comboSolo", "karateManMegamixKo_comboSolo"],
+    "sub": "0x73"
+  },
+  {
+    "applyTo": ["karateManMegamixEn_kickSolo", "karateManMegamixJa_kickSolo", "karateManMegamixKo_kickSolo"],
+    "sub": "0x75"
+  },
+  {
+    "applyTo": ["karateManMegamixEn_hit3", "karateManMegamixJa_hit3", "karateManMegamixKo_hit3"],
+    "sub": "0x88",
+	"note": "0x88 refers to the voice; pots are separate"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "applyTo": ["catchOfTheDayEn", "catchOfTheDayJa", "catchOfTheDayKo"],
+    "engine": "0x22",
+    "name": "rvlFishing",
+    "tempoFile": "100000A",
+    "index": "0x31"
+  },
+  {
+    "applyTo": ["catchOfTheDayEn_quicknibble", "catchOfTheDayJa_quicknibble", "catchOfTheDayKo_quicknibble"],
+    "sub": "0x56"
+  },
+  {
+    "applyTo": ["catchOfTheDayEn_pausegill", "catchOfTheDayJa_pausegill", "catchOfTheDayKo_pausegill"],
+    "sub": "0x57"
+  },
+  {
+    "applyTo": ["catchOfTheDayEn_threefish", "catchOfTheDayJa_threefish", "catchOfTheDayKo_threefish"],
+    "sub": "0x58"
+  },
+  {
+    "applyTo": ["catchOfTheDayEn_pausegillCount", "catchOfTheDayJa_pausegillCount", "catchOfTheDayKo_pausegillCount"],
+    "sub": "0x57 + 0x59",
+	"note": "0x59 should be called one beat later than 0x57"
+  },
+  {
+    "applyTo": ["catchOfTheDayEn_threefishCount", "catchOfTheDayJa_threefishCount", "catchOfTheDayKo_threefishCount"],
+    "sub": "0x58 + 0x5A",
+	"note": "0x5A should be called one beat later than 0x58"
+  }
+]

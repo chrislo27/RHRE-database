@@ -1,0 +1,18 @@
+[
+  {
+    "applyTo": ["holeInOne"],
+    "engine": "0x25",
+    "name": "rvlGolf, rvlGolf2",
+    "tempoFile": "100000E, 100000F",
+    "index": "0x34, 0x54",
+	"note": "In order of: HIO, HIO 2"
+  },
+  {
+    "applyTo": ["holeInOne_monkey", "holeInOne_monkeyNoHole"],
+    "sub": "0x56"
+  },
+  {
+    "applyTo": ["holeInOne_mandrill", "holeInOne_mandrillNoHole"],
+    "sub": "0x57"
+  }
+]
