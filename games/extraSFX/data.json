@@ -5,11 +5,13 @@
   "objects": [
     {
       "type": "cue",
+      // WARNING: this cue is used internally by the editor for playalong
+      // DO NOT REMOVE
       "id": "*/skillStar",
       "deprecatedIDs": [
         "extraSFX/star"
       ],
-      "name": "skill star",
+      "name": "[YELLOW]⭐[] Skill Star",
       "duration": 1.0
     },
     {
