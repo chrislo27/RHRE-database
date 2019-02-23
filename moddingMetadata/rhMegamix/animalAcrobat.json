@@ -1,0 +1,30 @@
+[
+  {
+    "applyTo": ["animalAcrobat"],
+    "engine": "0x35",
+    "name": "ctrBlanco, ctrBlanco2",
+    "tempoFile": "10000B4, 10000B5",
+    "index": "0x43, 0x57",
+	"note": "In order of: AA, JG"
+  },
+  {
+    "applyTo": ["animalAcrobat_monkeys"],
+    "sub": "0, 2",
+    "note": "For use with the bytes command"
+  },
+  {
+    "applyTo": ["animalAcrobat_elephant"],
+    "sub": "1",
+	"note": "For use with the bytes command"
+  },
+  {
+    "applyTo": ["animalAcrobat_giraffe", "animalAcrobat_giraffeCymbal"],
+    "sub": "3",
+	"note": "For use with the bytes command"
+  },
+  {
+    "applyTo": ["animalAcrobat_giraffeGorilla", "animalAcrobat_giraffeLanding"],
+    "sub": "3, 4",
+	"note": "For use with the bytes command"
+  }
+]

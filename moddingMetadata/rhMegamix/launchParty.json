@@ -1,0 +1,25 @@
+[
+  {
+    "applyTo": ["launchParty"],
+    "engine": "0x2E",
+    "name": "rvlRocket",
+    "tempoFile": "100001F",
+    "index": "0x3C"
+  },
+  {
+    "applyTo": ["launchParty_grayRocket"],
+    "sub": "0x100 0"
+  },
+  {
+    "applyTo": ["launchParty_redRocket"],
+    "sub": "0x100 1"
+  },
+  {
+    "applyTo": ["launchParty_blueRocket"],
+    "sub": "0x00 2"
+  },
+  {
+    "applyTo": ["launchParty_greenRocket"],
+    "sub": "0x100 3"
+  }
+]

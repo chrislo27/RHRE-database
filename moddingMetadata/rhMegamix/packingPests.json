@@ -1,0 +1,26 @@
+[
+  {
+    "applyTo": ["packingPestsEn", "packingPestsJa", "packingPestsKo"],
+    "engine": "0x32",
+    "name": "rvlSort",
+    "tempoFile": "1000023",
+    "index": "0x40"
+  },
+  {
+    "applyTo": ["packingPestsEn_pattern", "packingPestsJa_pattern", "packingPestsKo_pattern"],
+    "sub": "0x5B"
+  },
+  {
+    "applyTo": ["packingPestsEn_pattern2", "packingPestsJa_pattern2", "packingPestsKo_hada"],
+    "sub": "0x5C"
+  },
+  {
+    "applyTo": ["packingPestsEn_double", "packingPestsJa_ikuze", "packingPestsKo_pattern2"],
+    "sub": "0x5F"
+  },
+  {
+    "applyTo": ["packingPestsEn_dingpattern", "packingPestsJa_dingpattern", "packingPestsKo_dingpattern"],
+    "sub": "0x5D + 0x60",
+	"note": "The 'ding' sound is not included in Megamix"
+  }
+]

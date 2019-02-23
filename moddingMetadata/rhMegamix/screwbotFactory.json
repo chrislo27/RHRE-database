@@ -1,0 +1,25 @@
+[
+  {
+    "applyTo": ["screwbotFactoryEn", "screwbotFactoryJa"],
+    "engine": "0x2D",
+    "name": "rvlRobot",
+    "tempoFile": "100001E",
+    "index": "0x3B"
+  },
+  {
+    "applyTo": ["screwbotFactoryEn_whiteRobot", "screwbotFactoryJa_whiteRobot"],
+    "sub": "0x56"
+  },
+  {
+    "applyTo": ["screwbotFactoryEn_whiteRobotFast", "screwbotFactoryJa_whiteRobotFast"],
+    "sub": "0x57"
+  },
+  {
+    "applyTo": ["screwbotFactoryEn_blackRobot", "screwbotFactoryJa_blackRobot"],
+    "sub": "0x58"
+  },
+  {
+    "applyTo": ["screwbotFactoryEn_blackRobotFaster", "screwbotFactoryJa_blackRobotFaster"],
+    "sub": "0x59"
+  }
+]

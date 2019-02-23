@@ -1,0 +1,22 @@
+[
+  {
+    "applyTo": ["rhythmTweezersGba", "rhythmTweezers"],
+    "engine": "3",
+    "name": "agbHair, agbHair2",
+    "tempoFile": "1000058, 1000059",
+    "index": "0x2, 0x12",
+	"note": "In order of: RT Story, RT2"
+  },
+  {
+    "applyTo": ["rhythmTweezersGba/appear", "rhythmTweezers/appear"],
+    "sub": "0x100 0"
+  },
+  {
+    "applyTo": ["rhythmTweezersGba/longAppear", "rhythmTweezers/longAppear"],
+    "sub": "0x100 3"
+  },
+  {
+    "applyTo": ["rhythmTweezersGba/cashier", "rhythmTweezers/cashier"],
+    "sub": "0x108<1>"
+  }
+]

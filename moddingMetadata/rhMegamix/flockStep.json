@@ -1,0 +1,36 @@
+[
+  {
+    "applyTo": ["flockStep"],
+    "engine": "0x1F",
+    "name": "rvlBird",
+    "tempoFile": "1000007",
+    "index": "0x2E"
+  },
+  {
+    "applyTo": ["flockStep_march"],
+    "sub": "0x5E"
+  },
+  {
+    "applyTo": ["flockStep_marchMigration"],
+    "sub": "0x5E + 0x102<5> x",
+	"note": "x = number of birds"
+  },
+  {
+    "applyTo": ["flockStep_jump"],
+    "sub": "0x5E + 0x5F + 0x60"
+  },
+  {
+    "applyTo": ["flockStep_jumpMigration"],
+    "sub": "0x5E + 0x5F + 0x60 + 0x102<5> x",
+	"note": "x = number of birds"
+  },
+  {
+    "applyTo": ["flockStep_tweet"],
+    "sub": "0x5F + 0x60"
+  },
+  {
+    "applyTo": ["flockStep_tweetMigration"],
+    "sub": "0x5F + 0x60 + 0x102<5> x",
+	"note": "x = number of birds"
+  }
+]

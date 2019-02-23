@@ -1,0 +1,22 @@
+[
+  {
+    "applyTo": ["kitties"],
+    "engine": "0x3E",
+    "name": "ctrTeppan",
+    "tempoFile": "10000C2",
+    "index": "0x4C"
+  },
+  {
+    "applyTo": ["kitties_clapclap"],
+    "sub": "0x56, 0x5A",
+	"note": "0x5A spawns mice"
+  },
+  {
+    "applyTo": ["kitties_roll"],
+    "sub": "0x58"
+  },
+  {
+    "applyTo": ["kitties_fish"],
+    "sub": "0x59"
+  }
+]

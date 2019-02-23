@@ -1,0 +1,23 @@
+[
+  {
+    "applyTo": ["fanClubEn", "fanClubJa", "fanClubEs", "fanClubMegamixEn", "fanClubMegamixJa", "fanClubMegamixDe", "fanClubMegamixEs", "fanClubMegamixKo"],
+    "engine": "0x15",
+    "name": "ntrIdol, ntrIdol2",
+    "tempoFile": "1000088, 1000090",
+    "index": "0x24, 0x52"
+  },
+  {
+    "applyTo": ["fanClubEn_yeahYeahYeah", "fanClubEs_heyHeyHey", "fanClubJa_haiHaiHai", "fanClubMegamixDe_heyHeyHey", "fanClubMegamixEs_heyHeyHey", "fanClubMegamixJa_haiHaiHai", "fanClubMegamixKo_hoiHoiHoi", "fanClubMegamixEn_yeahYeahYeah"],
+    "sub": "0x57",
+	"note": "'Yeah' sounds are not included"
+  },
+  {
+    "applyTo": ["fanClubEn_iSuppose", "fanClubEs_yalose", "fanClubJa_kamone", "fanClubEn_iSupposeLanding", "fanClubJa_kamoneLanding", "fanClubEs_yaloseLanding", "fanClubMegamixEn_iSuppose", "fanClubMegamixEn_iSupposeLanding", "fanClubMegamixDe_irgendwie", "fanClubMegamixDe_irgendwieLanding", "fanClubMegamixKo_otokeLanding", "fanClubMegamixKo_otoke", "fanClubMegamixJa_kamoneLanding", "fanClubMegamixJa_kamone", "fanClubMegamixEs_yaloseLanding", "fanClubMegamixEs_yalose"],
+    "sub": "0x58-0x5C",
+    "note": "Different subs result in different monkey voice clips"
+  },
+  {
+    "applyTo": ["fanClubEn_ohh", "fanClubMegamixEn_ohh"],
+    "sub": "0x5D"
+  }
+]

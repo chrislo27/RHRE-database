@@ -1,0 +1,25 @@
+[
+  {
+    "applyTo": ["ratRaceGba", "ratRace"],
+    "engine": "9",
+    "name": "agbRat",
+    "tempoFile": "1000060",
+    "index": "0x18"
+  },
+  {
+    "applyTo": ["ratRace_stopnolight", "ratRaceGba_stopnolight"],
+    "sub": "0x56"
+  },
+  {
+    "applyTo": ["ratRace_startnolight", "ratRaceGba_startnolight"],
+    "sub": "0x57"
+  },
+  {
+    "applyTo": ["ratRace_stop", "ratRaceGba_stop"],
+    "sub": "0x58"
+  },
+  {
+    "applyTo": ["ratRace_start", "ratRaceGba_start"],
+    "sub": "0x59"
+  }
+]

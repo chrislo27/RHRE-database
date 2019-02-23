@@ -1,0 +1,22 @@
+[
+  {
+    "applyTo": ["microRow", "microRowMegamix"],
+    "engine": "0x23",
+    "name": "rvlFlea, rvlFlea2",
+    "tempoFile": "100000B, 100000C",
+    "index": "0x8, 0x32",
+    "note": "In order of: MR Story, MR2"
+  },
+  {
+    "applyTo": ["microRow_go", "microRowMegamix_go"],
+    "sub": "0x58"
+  },
+  {
+    "applyTo": ["microRow_double", "microRowMegamix_double"],
+    "sub": "0x59"
+  },
+  {
+    "applyTo": ["microRow_triple", "microRowMegamix_triple"],
+    "sub": "0x5A"
+  }
+]

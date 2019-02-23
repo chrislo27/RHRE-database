@@ -1,0 +1,23 @@
+[
+  {
+    "applyTo": ["ringsideEn", "ringsideJa"],
+    "engine": "0x27",
+    "name": "rvlInterview",
+    "tempoFile": "1000012",
+    "index": "0x36"
+  },
+  {
+    "applyTo": ["ringsideEn_isThatTrueRandom", "ringsideEn_isThatTrueA", "ringsideEn_isThatTrueB", "ringsideEn_isThatTrueC", "ringsideJa_isThatTrueRandom", "ringsideJa_isThatTrueA", "ringsideJa_isThatTrueB"],
+    "sub": "0x56"
+  },
+  {
+    "applyTo": ["ringsideEn_youGoBigGuyRandom", "ringsideEn_youGoBigGuyA", "ringsideEn_youGoBigGuyB", "ringsideEn_youGoBigGuyC", "ringsideJa_youGoBigGuyRandom", "ringsideJa_youGoBigGuyA", "ringsideJa_youGoBigGuyB"],
+    "sub": "0x57-0x58",
+    "note": "0x57 is standard. Refer to the documentation"
+  },
+  {
+    "applyTo": ["ringsideEn_poseForTheFansRandom", "ringsideEn_poseForTheFansA", "ringsideEn_poseForTheFansB", "ringsideEn_poseForTheFansC", "ringsideJa_poseForTheFansRandom", "ringsideJa_poseForTheFansA", "ringsideJa_poseForTheFansB", "ringsideJa_poseForTheFansC"],
+    "sub": "0x59-0x5F",
+	"note": "0x59 is standard. Refer to the documentation"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "applyTo": ["tongueLashing"],
+    "engine": "0x36",
+    "name": "ctrChameleon",
+    "tempoFile": "10000B6",
+    "index": "0x44"
+  },
+  {
+    "applyTo": ["tongueLashing_yellowbuglong", "tongueLashing_yellowbugshort"],
+    "sub": "0x56",
+	"note": "Locations are determined by 0x100"
+  },
+  {
+    "applyTo": ["tongueLashing_redbuglong", "tongueLashing_redbugshort"],
+    "sub": "0x57",
+    "note": "Locations are determined by 0x101"
+  },
+  {
+    "applyTo": ["tongueLashing_redbugshortyes", "tongueLashing_redbugshortlaughing"],
+    "sub": "0x58",
+	"note": "Guys are summoned with 0x10A"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "applyTo": ["catchyTune"],
+    "engine": "0x3B",
+    "name": "ctrStep, ctrStep2",
+    "tempoFile": "10000BE, 10000BF",
+    "index": "0xD, 0x49",
+	"note": "In order of: CT, CT2"
+  },
+  {
+    "applyTo": ["catchyTune_leftOrange"],
+    "sub": "0x100 0, 1, 0x30, 0"
+  },
+  {
+    "applyTo": ["catchyTune_rightOrange"],
+    "sub": "0x100 0, 0, 0x30, 0"
+  },
+  {
+    "applyTo": ["catchyTune_leftPineapple"],
+    "sub": "0x100 1, 1, 0x60, 0"
+  },
+  {
+    "applyTo": ["catchyTune_rightPineapple"],
+    "sub": "0x100 1, 0, 0x60, 0"
+  }
+]

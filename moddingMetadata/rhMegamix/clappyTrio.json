@@ -1,0 +1,23 @@
+[
+  {
+    "applyTo": ["clappyTrio", "clappyTrioGba"],
+    "engine": "1",
+    "name": "agbClap, agbClap2, agbClap3",
+    "tempoFile": "1000053, 1000054, 1000055",
+    "index": "0x0, 0x10, 0x4E",
+	"note": "In order of TCT Story, TCT 2, TST"
+  },
+  {
+    "applyTo": ["clappyTrioGba_triotiming", "clappyTrio_triotiming"],
+    "sub": {
+      "function": "widthRange",
+      "2.0": "0x56",
+      "1.0": "0x57",
+	  "0.5": "0x58",
+	  "0.25": "0x59",
+	  "0.125": "0x5A",
+      "0.6667": "0x5B",
+      "else": "undefined"
+   }
+  }
+]
