@@ -9,7 +9,7 @@
       "deprecatedIDs": [
         "rockers/strumLoop"
       ],
-      "name": "D7 (3rd)",
+      "name": "D(maj7) (3rd)",
       "duration": 1.0,
       "loops": true,
       "stretchable": true,
@@ -25,7 +25,7 @@
       "deprecatedIDs": [
         "rockers/strumStart"
       ],
-      "name": "D7 (3rd) chord - start",
+      "name": "D(maj7) (3rd) chord - start",
       "duration": 0.25,
       "repitchable": true
     },
@@ -121,7 +121,7 @@
       "type": "cue",
       "id": "*/chord6",
       "deprecatedIDs": [],
-      "name": "D7 (3rd)",
+      "name": "D(maj7) (3rd)",
       "duration": 1.0,
       "loops": true,
       "stretchable": true,
@@ -135,7 +135,7 @@
       "type": "cue",
       "id": "*/chordStart6",
       "deprecatedIDs": [],
-      "name": "D7 (3rd) chord - start",
+      "name": "D(maj7) (3rd) chord - start",
       "duration": 0.25,
       "repitchable": true
     },
