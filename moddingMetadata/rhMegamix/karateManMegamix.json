@@ -2,10 +2,10 @@
   {
     "applyTo": ["karateManMegamixEn", "karateManMegamixJa", "karateManMegamixKo"],
     "engine": "0x28",
-    "name": "rvlKarate0, rvlKarate4",
-    "tempoFile": "1000068, 10000C5",
-    "index": "0x59, 0x5D",
-	"note": "In order of: KM Story, KM Senior"
+    "name": "rvlKarate0, rvlKarate1, rvlKarate2, rvlKarate3, rvlKarate4",
+    "tempoFile": "1000068, 1000069, 10000AB, 1000013, 10000C5",
+    "index": "0x59, 0x5A, 0x5B, 0x5C, 0x5D",
+	"note": "In order of: KM Story, Returns!, Kicks!, Combos!, Senior"
   },
   {
     "applyTo": ["karateManMegamixEn_pot", "karateManMegamixJa_pot", "karateManMegamixKo_pot"],
@@ -62,5 +62,10 @@
     "applyTo": ["karateManMegamixEn_hit3", "karateManMegamixJa_hit3", "karateManMegamixKo_hit3"],
     "sub": "0x88",
 	"note": "0x88 refers to the voice; pots are separate"
+  },
+  {
+    "applyTo": ["karateManMegamixEn_hit4", "karateManMegamixJa_hit4", "karateManMegamixKo_hit4"],
+    "sub": "0x8B",
+	"note": "0x8B refers to the voice; pots are separate. Only unique with JA sounds."
   }
 ]
