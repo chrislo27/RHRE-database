@@ -44,7 +44,14 @@
       "type": "cue",
       "id": "*/hit3cue1",
       "deprecatedIDs": [],
-      "name": "hit",
+      "name": "hit - 1",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/hit4",
+      "deprecatedIDs": [],
+      "name": "hit - 2",
       "duration": 0.5
     },
     {
@@ -334,6 +341,69 @@
         {
           "id": "*/rock",
           "beat": 4.5
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_hit4",
+      "deprecatedIDs": [],
+      "name": "hit 4! (unused)",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/hit4",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/hit3cue2",
+          "beat": 0.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/potout",
+          "beat": 1.5,
+          "duration": 1.0
+        },
+        {
+          "id": "*/pothit",
+          "beat": 2.5,
+          "duration": 1.0
+        },
+        {
+          "id": "*/potout",
+          "beat": 2.5,
+          "duration": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/potout",
+          "beat": 3.5,
+          "duration": 1.0
+        },
+        {
+          "id": "*/pothit",
+          "beat": 3.5,
+          "duration": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/pothit",
+          "beat": 4.5,
+          "duration": 1.0
+        },
+        {
+          "id": "*/potout",
+          "beat": 4.5,
+          "duration": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/rock",
+          "beat": 5.5,
+          "duration": 1.0,
+          "track": 1
         }
       ]
     },
