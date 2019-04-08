@@ -4,6 +4,12 @@
   "name": "DJ School",
   "objects": [
     {
+      "type": "musicDistortEntity",
+      "id": "*/musicDistortion",
+      "deprecatedIDs": [],
+      "name": "Music Distortion"
+    },
+    {
       "type": "cue",
       "id": "*/stop1",
       "deprecatedIDs": [],
