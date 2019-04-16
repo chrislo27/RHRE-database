@@ -2,7 +2,7 @@
 // This is a special game definition containing required content for the editor to function.
 {
   "series": "other",
-  "id": "special",
+  "id": "special,
   "name": "Special Entities",
   "gameGroup": "Special Entities",
   "groupDefault": true,
