@@ -8,108 +8,67 @@
       "id": "*/stoneGrind",
       "deprecatedIDs": [],
       "name": "switch",
-      "duration": 1.0
+      "duration": 1.0,
+	  "responseIDs": [
+	    "*/stoneGrind"
+	  ]
     },
     {
       "type": "cue",
-      "id": "*/d1",
-      "deprecatedIDs": [],
-      "name": "moaiDooWop/d1",
-      "duration": 1.0E-6
-    },
-    {
-      "type": "cue",
-      "id": "*/ooo1",
-      "deprecatedIDs": [],
+      "id": "*/dooL",
+      "deprecatedIDs": ["moaiDooWop/ooo1"],
       "name": "left - doo-wop",
       "duration": 1.0,
       "stretchable": true,
       "loops": true,
-      "introSound": "moaiDooWop/d1",
-      "endingSound": "moaiDooWop/wop1",
+	  "loopStart": 0.7344668947,
+	  "loopEnd": 1.17464816546,
+      "endingSound": "*/wopL",
       "responseIDs": [
-        "*/ooo2"
+        "*/dooR"
       ]
     },
     {
       "type": "cue",
-      "id": "*/wop1",
-      "deprecatedIDs": [],
+      "id": "*/wopL",
+      "deprecatedIDs": ["moaiDooWop/wop1"],
       "name": "left - wop",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/pah1",
-      "deprecatedIDs": [],
+      "id": "*/pahL",
+      "deprecatedIDs": ["moaiDooWop/pah1"],
       "name": "left - pah",
       "duration": 0.5,
       "responseIDs": [
-        "*/pah2"
+        "*/pahR"
       ]
     },
     {
       "type": "cue",
-      "id": "*/d2",
-      "deprecatedIDs": [],
-      "name": "moaiDooWop/d2",
-      "duration": 1.0E-6
-    },
-    {
-      "type": "cue",
-      "id": "*/ooo2",
-      "deprecatedIDs": [],
+      "id": "*/dooR",
+      "deprecatedIDs": ["moaiDooWop/ooo2"],
       "name": "right - doo-wop",
       "duration": 1.0,
       "stretchable": true,
       "loops": true,
-      "introSound": "moaiDooWop/d2",
-      "endingSound": "moaiDooWop/wop2"
+	  "loopStart": 0.73324240528,
+	  "loopEnd": 1.20002230733,
+      "endingSound": "*/wopR"
     },
     {
       "type": "cue",
-      "id": "*/wop2",
-      "deprecatedIDs": [],
+      "id": "*/wopR",
+      "deprecatedIDs": ["moaiDooWop/wop2"],
       "name": "right - wop",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/pah2",
-      "deprecatedIDs": [],
+      "id": "*/pahR",
+      "deprecatedIDs": ["moaiDooWop/pah2"],
       "name": "right - pah",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/d3",
-      "deprecatedIDs": [],
-      "name": "moaiDooWop/d3",
-      "duration": 1.0E-6
-    },
-    {
-      "type": "cue",
-      "id": "*/ooo3",
-      "deprecatedIDs": [],
-      "name": "middle (unused) - doo-wop",
-      "duration": 1.0,
-      "stretchable": true,
-      "loops": true,
-      "introSound": "moaiDooWop/d3",
-      "endingSound": "moaiDooWop/wop3"
-    },
-    {
-      "type": "cue",
-      "id": "*/wop3",
-      "deprecatedIDs": [],
-      "name": "middle (unused) - wop",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/pah3",
-      "deprecatedIDs": [],
-      "name": "middle (unused) - pah",
       "duration": 0.5
     }
   ]
