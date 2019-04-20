@@ -2,6 +2,8 @@
   "series": "megamix",
   "id": "exhibitionMatchMegamixEn",
   "name": "Exhibition Match (Megamix) (English)",
+  "groupDefault": true,
+  "group": "Exhibition Match (Megamix)",
   "objects": [
     {
       "type": "cue",
