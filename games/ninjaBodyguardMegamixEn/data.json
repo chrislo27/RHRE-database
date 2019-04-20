@@ -2,6 +2,8 @@
   "series": "megamix",
   "id": "ninjaBodyguardMegamixEn",
   "name": "Ninja Bodyguard (Megamix) (English)",
+  "groupDefault": true,
+  "group": "Ninja Bodyguard (Megamix)",
   "objects": [
     {
       "type": "cue",
