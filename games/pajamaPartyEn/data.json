@@ -13,7 +13,8 @@
         "pajamaParty/three1"
       ],
       "name": "three - 1",
-      "duration": 0.5
+      "duration": 0.5,
+	  "earliness": 0.01
     },
     {
       "type": "cue",
@@ -22,7 +23,8 @@
         "pajamaParty/three2"
       ],
       "name": "three - 2",
-      "duration": 0.5
+      "duration": 0.5,
+	  "earliness": 0.02
     },
     {
       "type": "cue",
@@ -31,7 +33,8 @@
         "pajamaParty/three3"
       ],
       "name": "three - 3",
-      "duration": 0.5
+      "duration": 0.5,
+	  "earliness": 0.03
     },
     {
       "type": "cue",
@@ -40,7 +43,8 @@
         "pajamaParty/five1"
       ],
       "name": "five - 1",
-      "duration": 0.5
+      "duration": 0.5,
+	  "earliness": 0.01
     },
     {
       "type": "cue",
@@ -49,7 +53,8 @@
         "pajamaParty/five2"
       ],
       "name": "five - 2",
-      "duration": 0.5
+      "duration": 0.5,
+	  "earliness": 0.01
     },
     {
       "type": "cue",
@@ -58,7 +63,8 @@
         "pajamaParty/five3"
       ],
       "name": "five - 3",
-      "duration": 0.5
+      "duration": 0.5,
+	  "earliness": 0.025
     },
     {
       "type": "cue",
@@ -67,7 +73,8 @@
         "pajamaParty/five4"
       ],
       "name": "five - 4",
-      "duration": 0.5
+      "duration": 0.5,
+	  "earliness": 0.03
     },
     {
       "type": "cue",
@@ -76,7 +83,8 @@
         "pajamaParty/five5"
       ],
       "name": "five - 5",
-      "duration": 1.0
+      "duration": 1.0,
+	  "earliness": 0.04
     },
     {
       "type": "cue",
@@ -121,7 +129,8 @@
         "pajamaParty/siesta5"
       ],
       "name": "siesta - 5",
-      "duration": 0.5
+      "duration": 0.5,
+	  "earliness": 0.02
     },
     {
       "type": "cue",

@@ -21,7 +21,8 @@
         "munchyMonk/one"
       ],
       "name": "one",
-      "duration": 1.0
+      "duration": 1.0,
+	  "earliness": 0.015
     },
     {
       "type": "cue",
@@ -48,7 +49,8 @@
         "munchyMonk/three"
       ],
       "name": "three - three",
-      "duration": 1.0
+      "duration": 1.0,
+	  "earliness": 0.035
     },
     {
       "type": "cue",

@@ -10,14 +10,15 @@
       "id": "*/gulp",
       "deprecatedIDs": [],
       "name": "gulp",
-      "duration": 0.5
+      "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/one",
       "deprecatedIDs": [],
       "name": "one",
-      "duration": 1.0
+      "duration": 1.0,
+	  "earliness": 0.015
     },
     {
       "type": "cue",
@@ -59,7 +60,7 @@
       "id": "*/gulp3-3",
       "deprecatedIDs": [],
       "name": "three - go - 3",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -73,14 +74,14 @@
       "id": "*/gulp2-2",
       "deprecatedIDs": [],
       "name": "try two - go - 2",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/gulping",
       "deprecatedIDs": [],
       "name": "gulp!",
-      "duration": 0.5
+      "duration": 0.25
     },
     {
       "type": "pattern",

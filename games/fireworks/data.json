@@ -19,23 +19,17 @@
     },
     {
       "type": "cue",
-      "id": "*/quickshot1",
-      "deprecatedIDs": [],
-      "name": "spirit sparkler - 1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
       "id": "*/quickshot2",
       "deprecatedIDs": [],
-      "name": "spirit sparkler - 2",
-      "duration": 1.0
+      "name": "spirit sparkler - 1",
+      "duration": 1.0,
+	  "earliness": 0.210
     },
     {
       "type": "cue",
       "id": "*/quickshot3",
       "deprecatedIDs": [],
-      "name": "spirit sparkler - 3",
+      "name": "spirit sparkler - 2",
       "duration": 1.0
     },
     {
@@ -232,16 +226,12 @@
       "name": "spirit sparkler",
       "cues": [
         {
-          "id": "*/quickshot1",
+          "id": "*/quickshot2",
           "beat": 0.0
         },
         {
-          "id": "*/quickshot2",
-          "beat": 0.5
-        },
-        {
           "id": "*/quickshot3",
-          "beat": 1.5
+          "beat": 1.0
         }
       ]
     },
@@ -252,16 +242,12 @@
       "name": "spirit sparkler - practice",
       "cues": [
         {
-          "id": "*/quickshot1",
+          "id": "*/quickshot2",
           "beat": 0.0
         },
         {
-          "id": "*/quickshot2",
-          "beat": 0.5
-        },
-        {
           "id": "*/quickshothai",
-          "beat": 1.5
+          "beat": 1.0
         }
       ]
     },

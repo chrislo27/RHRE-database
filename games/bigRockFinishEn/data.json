@@ -7,114 +7,159 @@
   "objects": [
     {
       "type": "cue",
-      "id": "*/thankYou",
+      "id": "*/thankYouA",
       "deprecatedIDs": [
-        "bigRockFinish/thankYou"
+        "bigRockFinish/thankYou",
+		"bigRockFinishEn/thankYou"
       ],
-      "name": "ghost - thank you!",
+      "name": "thank you",
       "duration": 1.0
     },
+	{
+	  "type": "cue",
+	  "id": "*/thankYouB",
+	  "deprecatedIDs": [],
+	  "name": "thank you! - ace",
+	  "duration": 1.0
+	},
+	{
+	  "type": "cue",
+	  "id": "*/audienceA",
+	  "deprecatedIDs": [],
+	  "name": "audience",
+	  "duration": 4.0
+	},
+	{
+	  "type": "cue",
+	  "id": "*/audienceB",
+	  "deprecatedIDs": [],
+	  "name": "audience - ace",
+	  "duration": 4.0
+	},
     {
       "type": "cue",
-      "id": "*/one",
+      "id": "*/oneA",
       "deprecatedIDs": [
-        "bigRockFinish/one"
+        "bigRockFinish/one",
+        "bigRockFinishEn/one"
       ],
       "name": "count in - one",
-      "duration": 1.0
+      "duration": 0.5,
+	  "earliness": 0.02
     },
     {
       "type": "cue",
-      "id": "*/two",
+      "id": "*/twoA",
       "deprecatedIDs": [
-        "bigRockFinish/two"
+        "bigRockFinish/two",
+		"bigRockFinishEn/two"
       ],
       "name": "count in - two",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/three",
+      "id": "*/threeA",
       "deprecatedIDs": [
-        "bigRockFinish/three"
+        "bigRockFinish/three",
+		"bigRockFinishEn/three"
       ],
       "name": "count in - three",
-      "duration": 1.0
+      "duration": 0.5,
+	  "earliness": 0.065
     },
     {
       "type": "cue",
-      "id": "*/ooh",
+      "id": "*/oohA",
       "deprecatedIDs": [
-        "bigRockFinish/ooh"
+        "bigRockFinish/ooh",
+        "bigRockFinishEn/ooh"
       ],
       "name": "count in - ooh",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/oneFast",
+      "id": "*/oneB",
       "deprecatedIDs": [
-        "bigRockFinish/oneFast"
+        "bigRockFinish/oneFast",
+		"bigRockFinishEn/oneFast"
       ],
       "name": "count in - one - fast",
-      "duration": 1.0
+      "duration": 0.5,
+	  "earliness": 0.04
     },
     {
       "type": "cue",
-      "id": "*/twoFast",
+      "id": "*/twoB",
       "deprecatedIDs": [
-        "bigRockFinish/twoFast"
+        "bigRockFinish/twoFast",
+		"bigRockFinishEn/twoFast"
       ],
       "name": "count in - two - fast",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/threeFast",
+      "id": "*/threeB",
       "deprecatedIDs": [
-        "bigRockFinish/threeFast"
+        "bigRockFinish/threeFast",
+		"bigRockFinishEn/threeFast"
       ],
       "name": "count in - three - fast",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/comeOn1",
+      "id": "*/comeOnB",
       "deprecatedIDs": [
-        "bigRockFinish/comeOn1"
+        "bigRockFinish/comeOn1",
+		"bigRockFinishEn/comeOn1"
       ],
       "name": "count in - come on - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/comeOn2",
-      "deprecatedIDs": [
-        "bigRockFinish/comeOn2"
-      ],
-      "name": "count in - come on - 2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
       "id": "*/strum",
       "deprecatedIDs": [
-        "bigRockFinish/strum"
+        "bigRockFinish/strum",
+		"bigRockFinish/strumFinal",
+		"bigRockFinishEn/strum",
+		"bigRockFinishEn/strumFinal"
       ],
-      "name": "ghost - strum - F (1st)",
-      "duration": 1.0,
-      "repitchable": true
+      "name": "strum",
+      "duration": 0.5,
+	  "stretchable": true,
+      "repitchable": true,
+	  "loops": true,
+	  "loopStart": 2.02242568297,
+	  "loopEnd": 4.04507812324,
+	  "endingSound": "*/strumEnd",
+	  "earliness": 0.05
     },
     {
       "type": "cue",
-      "id": "*/strumFinal",
-      "deprecatedIDs": [
-        "bigRockFinish/strumFinal"
-      ],
-      "name": "ghost - last strum - G (1st)",
-      "duration": 2.0,
+      "id": "*/strumEnd",
+      "deprecatedIDs": [],
+      "name": "strum - fade",
+      "duration": 0.5,
       "repitchable": true
     },
+	{
+	  "type": "cue",
+	  "id": "*/yeah1",
+	  "deprecatedIDs": [],
+	  "name": "yeah",
+	  "duration": 0.5
+	},
+	{
+	  "type": "cue",
+	  "id": "*/yeah2",
+	  "deprecatedIDs": [],
+	  "name": "yeah - final",
+	  "duration": 0.5
+	},
     {
       "type": "pattern",
       "id": "*_countIn8",
@@ -124,27 +169,27 @@
       "name": "count in - 8 beats",
       "cues": [
         {
-          "id": "*/one",
+          "id": "*/oneA",
           "beat": 0.0
         },
         {
-          "id": "*/two",
+          "id": "*/twoA",
           "beat": 2.0
         },
         {
-          "id": "*/one",
+          "id": "*/oneA",
           "beat": 4.0
         },
         {
-          "id": "*/two",
+          "id": "*/twoA",
           "beat": 5.0
         },
         {
-          "id": "*/three",
+          "id": "*/threeA",
           "beat": 6.0
         },
         {
-          "id": "*/ooh",
+          "id": "*/oohA",
           "beat": 7.0
         }
       ]
@@ -158,32 +203,28 @@
       "name": "count in - 8 beats - fast",
       "cues": [
         {
-          "id": "*/oneFast",
+          "id": "*/oneB",
           "beat": 0.0
         },
         {
-          "id": "*/twoFast",
+          "id": "*/twoB",
           "beat": 2.0
         },
         {
-          "id": "*/oneFast",
+          "id": "*/oneB",
           "beat": 4.0
         },
         {
-          "id": "*/twoFast",
+          "id": "*/twoB",
           "beat": 5.0
         },
         {
-          "id": "*/threeFast",
+          "id": "*/threeB",
           "beat": 6.0
         },
         {
-          "id": "*/comeOn1",
+          "id": "*/comeOnB",
           "beat": 7.0
-        },
-        {
-          "id": "*/comeOn2",
-          "beat": 7.5
         }
       ]
     },
@@ -196,19 +237,19 @@
       "name": "count in - 4 beats",
       "cues": [
         {
-          "id": "*/one",
+          "id": "*/oneA",
           "beat": 0.0
         },
         {
-          "id": "*/two",
+          "id": "*/twoA",
           "beat": 1.0
         },
         {
-          "id": "*/three",
+          "id": "*/threeA",
           "beat": 2.0
         },
         {
-          "id": "*/ooh",
+          "id": "*/oohA",
           "beat": 3.0
         }
       ]
@@ -222,24 +263,20 @@
       "name": "count in - 4 beats - fast",
       "cues": [
         {
-          "id": "*/oneFast",
+          "id": "*/oneB",
           "beat": 0.0
         },
         {
-          "id": "*/twoFast",
+          "id": "*/twoB",
           "beat": 1.0
         },
         {
-          "id": "*/threeFast",
+          "id": "*/threeB",
           "beat": 2.0
         },
         {
-          "id": "*/comeOn1",
+          "id": "*/comeOnB",
           "beat": 3.0
-        },
-        {
-          "id": "*/comeOn2",
-          "beat": 3.5
         }
       ]
     },
@@ -249,26 +286,115 @@
       "deprecatedIDs": [
         "bigRockFinish_strum"
       ],
-      "name": "strum - F (1st) to G (1st)",
-      "stretchable": true,
+      "name": "strum",
       "cues": [
         {
           "id": "*/strum",
-          "beat": 0.0
+          "beat": 0.0,
+		  "duration": 0.75,
+		  "track": 2
         },
         {
           "id": "*/strum",
-          "beat": 1.5
+          "beat": 1.5,
+		  "duration": 0.75,
+		  "track": 2
         },
         {
           "id": "*/strum",
-          "beat": 3.0
+          "beat": 3.0,
+		  "duration": 0.5,
+		  "track": 2
         },
         {
-          "id": "*/strumFinal",
-          "beat": 4.0
-        }
+          "id": "*/strum",
+          "beat": 4.0,
+		  "duration": 6.0,
+		  "track": 2
+        },
+		{
+		  "id": "*/yeah1",
+		  "beat": 0.0,
+		  "track": 1
+		},
+		{
+		  "id": "*/yeah1",
+		  "beat": 1.5,
+		  "track": 1
+		},
+		{
+		  "id": "*/yeah1",
+		  "beat": 3.0,
+		  "track": 1
+		},
+		{
+		  "id": "*/yeah2",
+		  "beat": 4.0,
+		  "track": 1
+		},
+		{
+		  "id": "*/audienceB",
+		  "beat": 4.0,
+		  "track": 0
+		}
       ]
-    }
+    },
+	{
+	  "type": "pattern",
+	  "id": "*_strumFast",
+	  "deprecatedIDs": [],
+	  "name": "strum - fast",
+	  "cues": [
+	    {
+		  "id": "*/strum",
+		  "beat": 0.0,
+		  "duration": 0.5,
+		  "track": 2
+		},
+		{
+		  "id": "*/strum",
+		  "beat": 0.75,
+		  "duration": 0.5,
+		  "track": 2
+		},
+		{
+		  "id": "*/strum",
+		  "beat": 1.5,
+		  "duration": 0.325,
+		  "track": 2
+		},
+		{
+		  "id": "*/strum",
+		  "beat": 2.0,
+		  "duration": 4.0,
+		  "track": 2
+		},
+		{
+		  "id": "*/yeah1",
+		  "beat": 0.0,
+		  "track": 1
+		},
+		{
+		  "id": "*/yeah1",
+		  "beat": 0.75,
+		  "track": 1
+		},
+		{
+		  "id": "*/yeah1",
+		  "beat": 1.5,
+		  "track": 1
+		},
+		{
+		  "id": "*/yeah2",
+		  "beat": 2.0,
+		  "track": 1
+		},
+		{
+		  "id": "*/audienceB",
+		  "beat": 2.0,
+		  "track": 0
+		}
+      ]
+	}
   ]
 }

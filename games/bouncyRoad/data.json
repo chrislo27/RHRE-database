@@ -28,51 +28,66 @@
       "stretchable": true,
       "cues": [
         {
-          "id": "*/tink"
-        },
-        {
-          "id": "*/tink"
-        },
-        {
-          "id": "*/tink"
-        },
-        {
-          "id": "*/tink"
-        },
-        {
-          "id": "*/tink"
-        },
-        {
-          "id": "*/tink"
-        },
-        {
-          "id": "*/tink"
-        },
-        {
-          "id": "*/tink"
-        },
-        {
-          "id": "*/tink"
-        },
-        {
-          "id": "*/tink"
-        },
-        {
-          "id": "*/tink"
-        },
-        {
-          "id": "*/tink"
+          "id": "*/tink",
+		  "volume": 44
         },
         {
           "id": "*/tink",
-          "semitone": -4
+		  "volume": 48
         },
         {
           "id": "*/tink",
-          "semitone": 3
+		  "volume": 52
         },
         {
-          "id": "*/cymbal"
+          "id": "*/tink",
+		  "volume": 56
+        },
+        {
+          "id": "*/tink",
+		  "volume": 60
+        },
+        {
+          "id": "*/tink",
+		  "volume": 64
+        },
+        {
+          "id": "*/tink",
+		  "volume": 68
+        },
+        {
+          "id": "*/tink",
+		  "volume": 72
+        },
+        {
+          "id": "*/tink",
+		  "volume": 76
+        },
+        {
+          "id": "*/tink",
+		  "volume": 80
+        },
+        {
+          "id": "*/tink",
+		  "volume": 84
+        },
+        {
+          "id": "*/tink",
+		  "volume": 88
+        },
+        {
+          "id": "*/tink",
+          "semitone": -4,
+		  "volume": 92
+        },
+        {
+          "id": "*/tink",
+          "semitone": 3,
+		  "volume": 96
+        },
+        {
+          "id": "*/cymbal",
+		  "volume": 100
         }
       ]
     }
