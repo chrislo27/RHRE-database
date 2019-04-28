@@ -20,14 +20,6 @@
       "repitchable": true
     },
     {
-      "type": "cue",
-      "id": "*/spySnort",
-      "deprecatedIDs": [],
-      "name": "snort",
-      "duration": 0.25,
-      "repitchable": true
-    },
-    {
       "type": "equidistant",
       "id": "*_15bounces",
       "deprecatedIDs": [],
@@ -77,63 +69,6 @@
         },
         {
           "id": "*/tink",
-          "semitone": 3
-        },
-        {
-          "id": "*/cymbal"
-        }
-      ]
-    },
-    {
-      "type": "equidistant",
-      "id": "*_15snorts",
-      "deprecatedIDs": [],
-      "name": "15 snorts",
-      "distance": 0.5,
-      "stretchable": true,
-      "cues": [
-        {
-          "id": "*/spySnort"
-        },
-        {
-          "id": "*/spySnort"
-        },
-        {
-          "id": "*/spySnort"
-        },
-        {
-          "id": "*/spySnort"
-        },
-        {
-          "id": "*/spySnort"
-        },
-        {
-          "id": "*/spySnort"
-        },
-        {
-          "id": "*/spySnort"
-        },
-        {
-          "id": "*/spySnort"
-        },
-        {
-          "id": "*/spySnort"
-        },
-        {
-          "id": "*/spySnort"
-        },
-        {
-          "id": "*/spySnort"
-        },
-        {
-          "id": "*/spySnort"
-        },
-        {
-          "id": "*/spySnort",
-          "semitone": -4
-        },
-        {
-          "id": "*/spySnort",
           "semitone": 3
         },
         {
