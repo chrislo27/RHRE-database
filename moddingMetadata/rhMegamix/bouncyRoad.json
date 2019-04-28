@@ -1,0 +1,20 @@
+[
+  {
+    "applyTo": ["bouncyRoad", "bouncyRoadMegamix"],
+    "engine": "4",
+    "name": "agbHopping",
+    "tempoFile": "100005A",
+    "index": "0x13"
+  },
+  {
+    "applyTo": ["bouncyRoad_15bounces", "bouncyRoadMegamix_15bounces"],
+    "sub": {
+      "function": "widthRange",
+      "2.0": "0x59",
+      "1.0": "0x58",
+      "0.6667": "0x57",
+      "0.5": "0x56",
+      "else": "undefined"
+    }
+  }
+]

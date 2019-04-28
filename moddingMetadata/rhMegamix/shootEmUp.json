@@ -1,0 +1,27 @@
+[
+  {
+    "applyTo": ["shootEmUp", "shootEmUpMegamix"],
+    "engine": "0x19",
+    "name": "ntrShooting, ntrShooting2",
+    "tempoFile": "100009E, 100009F",
+    "index": "0x6, 0x28",
+	"note": "In order of: SEU Story, SEU 2"
+  },
+  {
+    "applyTo": ["shootEmUp_intro", "shootEmUpMegamix_intro"],
+    "sub": "0x102"
+  },
+  {
+    "applyTo": ["shootEmUp/commStart", "shootEmUpMegamix/commStart"],
+    "sub": "0x103 + 0x104"
+  },
+  {
+    "applyTo": ["shootEmUp/commEnd", "shootEmUpMegamix/commEnd"],
+    "sub": "0x103<1>, 0x104<1>"
+  },
+  {
+    "applyTo": ["shootEmUp/spawn", "shootEmUpMegamix/spawn"],
+    "sub": "0x56-0x77",
+	"note": "Refer to the documentation"
+  }
+]
