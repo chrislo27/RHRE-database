@@ -1,964 +1,1152 @@
 {
-  "id" : "loveRapKo",
-  "name" : "Love Rap (Korean)",
-  "series" : "fever",
-  "group" : "Love Rap",
-  "objects" : [ {
-    "type" : "cue",
-    "id" : "*/candlelight",
-    "name" : "candlelight",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0,
-    "repitchable" : true
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorealtjeongmalnigajoah1",
-    "name" : "mc adore - alt jeongmal niga jo-ah - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorealtjeongmalnigajoah2",
-    "name" : "mc adore - alt jeongmal niga jo-ah - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorealtjeongmalnigajoah3",
-    "name" : "mc adore - alt jeongmal niga jo-ah - 3",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorealtjeongmalnigajoah4",
-    "name" : "mc adore - alt jeongmal niga jo-ah - 4",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorealtjeongmalnigajoah5",
-    "name" : "mc adore - alt jeongmal niga jo-ah - 5",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorealtjeongmalnigajoah6",
-    "name" : "mc adore - alt jeongmal niga jo-ah - 6",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorejeongmalnigajoah1",
-    "name" : "mc adore - jeongmal niga jo-ah - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorejeongmalnigajoah2",
-    "name" : "mc adore - jeongmal niga jo-ah - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorejeongmalnigajoah3",
-    "name" : "mc adore - jeongmal niga jo-ah - 3",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorejeongmalnigajoah4",
-    "name" : "mc adore - jeongmal niga jo-ah - 4",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorejeongmalnigajoah5",
-    "name" : "mc adore - jeongmal niga jo-ah - 5",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorejeongmalnigajoah6",
-    "name" : "mc adore - jeongmal niga jo-ah - 6",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorejinjja1_1",
-    "name" : "mc adore - jin-jja - 1 - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorejinjja1_2",
-    "name" : "mc adore - jin-jja - 1 - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorejinjja2_1",
-    "name" : "mc adore - jin-jja - 2 - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorejinjja2_2",
-    "name" : "mc adore - jin-jja - 2 - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorejinjja2_3",
-    "name" : "mc adore - jin-jja - 2 - 3",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorejinshimiyanan1",
-    "name" : "mc adore - jinshim Iya nan - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorejinshimiyanan2",
-    "name" : "mc adore - jinshim Iya nan - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorejinshimiyanan3_1",
-    "name" : "mc adore - jinshim Iya nan - 3 - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorejinshimiyanan3_2",
-    "name" : "mc adore - jinshim Iya nan - 3 - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorejinshimiyanan4_1",
-    "name" : "mc adore - jinshim Iya nan - 4 - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorejinshimiyanan4_2",
-    "name" : "mc adore - jinshim Iya nan - 4 - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorejinshimiyanan5",
-    "name" : "mc adore - jinshim Iya nan - 5",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorenigajoah1",
-    "name" : "mc adore - niga jo-ah - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorenigajoah2",
-    "name" : "mc adore - niga jo-ah - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorenigajoah3",
-    "name" : "mc adore - niga jo-ah - 3",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/mcadorenigajoah4",
-    "name" : "mc adore - niga jo-ah - 4",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1altjeongmalnigajoah1",
-    "name" : "rapper 1 - alt jeongmal niga jo-ah - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1altjeongmalnigajoah2",
-    "name" : "rapper 1 - alt jeongmal niga jo-ah - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1altjeongmalnigajoah3",
-    "name" : "rapper 1 - alt jeongmal niga jo-ah - 3",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1altjeongmalnigajoah4",
-    "name" : "rapper 1 - alt jeongmal niga jo-ah - 4",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1altjeongmalnigajoah5",
-    "name" : "rapper 1 - alt jeongmal niga jo-ah - 5",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1altjeongmalnigajoah6",
-    "name" : "rapper 1 - alt jeongmal niga jo-ah - 6",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1jeongmalnigajoah1",
-    "name" : "rapper 1 - jeongmal niga jo-ah - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1jeongmalnigajoah2",
-    "name" : "rapper 1 - jeongmal niga jo-ah - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1jeongmalnigajoah3",
-    "name" : "rapper 1 - jeongmal niga jo-ah - 3",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1jeongmalnigajoah4",
-    "name" : "rapper 1 - jeongmal niga jo-ah - 4",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1jeongmalnigajoah5",
-    "name" : "rapper 1 - jeongmal niga jo-ah - 5",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1jeongmalnigajoah6",
-    "name" : "rapper 1 - jeongmal niga jo-ah - 6",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1jinjja1_1",
-    "name" : "rapper 1 - jin-jja - 1 - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1jinjja2_1",
-    "name" : "rapper 1 - jin-jja - 2 - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1jinjja2_2",
-    "name" : "rapper 1 - jin-jja - 2 - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1jinjja_last",
-    "name" : "rapper 1 - jin-jja - last",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1jinshimiyanan1",
-    "name" : "rapper 1 - jinshim Iya nan - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1jinshimiyanan2",
-    "name" : "rapper 1 - jinshim Iya nan - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1jinshimiyanan3",
-    "name" : "rapper 1 - jinshim Iya nan - 3",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1jinshimiyanan4",
-    "name" : "rapper 1 - jinshim Iya nan - 4",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1jinshimiyanan5",
-    "name" : "rapper 1 - jinshim Iya nan - 5",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.917
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1nigajoah1",
-    "name" : "rapper 1 - niga jo-ah - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1nigajoah2",
-    "name" : "rapper 1 - niga jo-ah - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1nigajoah3",
-    "name" : "rapper 1 - niga jo-ah - 3",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper1nigajoah4",
-    "name" : "rapper 1 - niga jo-ah - 4",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2altjeongmalnigajoah1",
-    "name" : "rapper 2 - alt jeongmal niga jo-ah - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2altjeongmalnigajoah2",
-    "name" : "rapper 2 - alt jeongmal niga jo-ah - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2altjeongmalnigajoah3",
-    "name" : "rapper 2 - alt jeongmal niga jo-ah - 3",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2altjeongmalnigajoah4",
-    "name" : "rapper 2 - alt jeongmal niga jo-ah - 4",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2altjeongmalnigajoah5",
-    "name" : "rapper 2 - alt jeongmal niga jo-ah - 5",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2altjeongmalnigajoah6",
-    "name" : "rapper 2 - alt jeongmal niga jo-ah - 6",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2jeongmalnigajoah1",
-    "name" : "rapper 2 - jeongmal niga jo-ah - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2jeongmalnigajoah2",
-    "name" : "rapper 2 - jeongmal niga jo-ah - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2jeongmalnigajoah3",
-    "name" : "rapper 2 - jeongmal niga jo-ah - 3",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2jeongmalnigajoah4",
-    "name" : "rapper 2 - jeongmal niga jo-ah - 4",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2jeongmalnigajoah5",
-    "name" : "rapper 2 - jeongmal niga jo-ah - 5",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2jeongmalnigajoah6",
-    "name" : "rapper 2 - jeongmal niga jo-ah - 6",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2jinjja1_1",
-    "name" : "rapper 2 - jin-jja - 1 - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2jinjja1_2",
-    "name" : "rapper 2 - jin-jja - 1 - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2jinjja2_1",
-    "name" : "rapper 2 - jin-jja - 2 - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2jinjja2_2",
-    "name" : "rapper 2 - jin-jja - 2 - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2jinjja2_3",
-    "name" : "rapper 2 - jin-jja - 2 - 3",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2jinshimiyanan1",
-    "name" : "rapper 2 - jinshim Iya nan - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2jinshimiyanan2",
-    "name" : "rapper 2 - jinshim Iya nan - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2jinshimiyanan3",
-    "name" : "rapper 2 - jinshim Iya nan - 3",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2jinshimiyanan4",
-    "name" : "rapper 2 - jinshim Iya nan - 4",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2jinshimiyanan5",
-    "name" : "rapper 2 - jinshim Iya nan - 5",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.917
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2nigajoah1",
-    "name" : "rapper 2 - niga jo-ah - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2nigajoah2",
-    "name" : "rapper 2 - niga jo-ah - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2nigajoah3",
-    "name" : "rapper 2 - niga jo-ah - 3",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333
-  }, {
-    "type" : "cue",
-    "id" : "*/rapper2nigajoah4",
-    "name" : "rapper 2 - niga jo-ah - 4",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.167
-  }, {
-    "type" : "pattern",
-    "id" : "*_nigajoah",
-    "name" : "niga jo-ah",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/mcadorenigajoah1",
-      "beat" : 0.0,
-      "duration" : 0.33333397,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorenigajoah2",
-      "beat" : 0.33333397,
-      "duration" : 0.16666603,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorenigajoah3",
-      "beat" : 0.5,
-      "duration" : 0.33333397,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorenigajoah4",
-      "beat" : 0.83333397,
-      "duration" : 0.16666603,
-      "track" : 1
-    }, {
-      "id" : "*/rapper1nigajoah1",
-      "beat" : 1.0,
-      "duration" : 0.33333397,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2nigajoah1",
-      "beat" : 1.0,
-      "duration" : 0.33333397
-    }, {
-      "id" : "*/rapper1nigajoah2",
-      "beat" : 1.333334,
-      "duration" : 0.16666603,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2nigajoah2",
-      "beat" : 1.333334,
-      "duration" : 0.16666603
-    }, {
-      "id" : "*/rapper1nigajoah3",
-      "beat" : 1.5,
-      "duration" : 0.33333397,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2nigajoah3",
-      "beat" : 1.5,
-      "duration" : 0.33333397
-    }, {
-      "id" : "*/rapper1nigajoah4",
-      "beat" : 1.833334,
-      "duration" : 0.16666603,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2nigajoah4",
-      "beat" : 1.833334,
-      "duration" : 0.16666603
-    } ]
-  }, {
-    "type" : "pattern",
-    "id" : "*_jinjja1",
-    "name" : "jin-jja - 1",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/mcadorejinjja1_1",
-      "beat" : 0.0,
-      "duration" : 0.5,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorejinjja1_2",
-      "beat" : 0.5,
-      "duration" : 0.25,
-      "track" : 1
-    }, {
-      "id" : "*/rapper1jinjja1_1",
-      "beat" : 0.75,
-      "duration" : 0.5,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jinjja1_1",
-      "beat" : 0.75,
-      "duration" : 0.5
-    }, {
-      "id" : "*/rapper1jinjja_last",
-      "beat" : 1.25,
-      "duration" : 0.25,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jinjja1_2",
-      "beat" : 1.25,
-      "duration" : 0.25
-    } ]
-  }, {
-    "type" : "pattern",
-    "id" : "*_jinjja2",
-    "name" : "jin-jja - 2",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/mcadorejinjja2_1",
-      "beat" : 0.0,
-      "duration" : 0.1875,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorejinjja2_2",
-      "beat" : 0.1875,
-      "duration" : 0.3125,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorejinjja2_3",
-      "beat" : 0.5,
-      "duration" : 0.25,
-      "track" : 1
-    }, {
-      "id" : "*/rapper1jinjja2_1",
-      "beat" : 0.75,
-      "duration" : 0.1875,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jinjja2_1",
-      "beat" : 0.75,
-      "duration" : 0.1875
-    }, {
-      "id" : "*/rapper1jinjja2_2",
-      "beat" : 0.9375,
-      "duration" : 0.3125,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jinjja2_2",
-      "beat" : 0.9375,
-      "duration" : 0.3125
-    }, {
-      "id" : "*/rapper1jinjja_last",
-      "beat" : 1.25,
-      "duration" : 0.25,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jinjja2_3",
-      "beat" : 1.25,
-      "duration" : 0.25
-    } ]
-  }, {
-    "type" : "pattern",
-    "id" : "*_jeongmalnigajoah",
-    "name" : "jeongmal niga jo-ah",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/mcadorejeongmalnigajoah1",
-      "beat" : 0.0,
-      "duration" : 0.3333335,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorejeongmalnigajoah2",
-      "beat" : 0.3333335,
-      "duration" : 0.16666651,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorejeongmalnigajoah3",
-      "beat" : 0.5,
-      "duration" : 0.3333335,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorejeongmalnigajoah4",
-      "beat" : 0.8333335,
-      "duration" : 0.16666651,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorejeongmalnigajoah5",
-      "beat" : 1.0,
-      "duration" : 0.3333335,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorejeongmalnigajoah6",
-      "beat" : 1.3333335,
-      "duration" : 0.16666651,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jeongmalnigajoah1",
-      "beat" : 1.5,
-      "duration" : 0.3333335
-    }, {
-      "id" : "*/rapper1jeongmalnigajoah1",
-      "beat" : 1.5,
-      "duration" : 0.3333335,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jeongmalnigajoah2",
-      "beat" : 1.8333335,
-      "duration" : 0.16666651
-    }, {
-      "id" : "*/rapper1jeongmalnigajoah2",
-      "beat" : 1.8333335,
-      "duration" : 0.16666651,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jeongmalnigajoah3",
-      "beat" : 2.0,
-      "duration" : 0.3333335
-    }, {
-      "id" : "*/rapper1jeongmalnigajoah3",
-      "beat" : 2.0,
-      "duration" : 0.3333335,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jeongmalnigajoah4",
-      "beat" : 2.3333335,
-      "duration" : 0.16666651
-    }, {
-      "id" : "*/rapper1jeongmalnigajoah4",
-      "beat" : 2.3333335,
-      "duration" : 0.16666651,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jeongmalnigajoah5",
-      "beat" : 2.5,
-      "duration" : 0.3333335
-    }, {
-      "id" : "*/rapper1jeongmalnigajoah5",
-      "beat" : 2.5,
-      "duration" : 0.3333335,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jeongmalnigajoah6",
-      "beat" : 2.8333335,
-      "duration" : 0.16666651
-    }, {
-      "id" : "*/rapper1jeongmalnigajoah6",
-      "beat" : 2.8333335,
-      "duration" : 0.16666651,
-      "track" : 1
-    } ]
-  }, {
-    "type" : "pattern",
-    "id" : "*_swingjeongmalnigajoah",
-    "name" : "jeongmal niga jo-ah - swing",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/mcadorealtjeongmalnigajoah1",
-      "beat" : 0.0,
-      "duration" : 0.16666669,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorealtjeongmalnigajoah2",
-      "beat" : 0.16666669,
-      "duration" : 0.33333337,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorealtjeongmalnigajoah3",
-      "beat" : 0.50000006,
-      "duration" : 0.16666663,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorealtjeongmalnigajoah4",
-      "beat" : 0.6666667,
-      "duration" : 0.33333337,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorealtjeongmalnigajoah5",
-      "beat" : 1.0,
-      "duration" : 0.16666663,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorealtjeongmalnigajoah6",
-      "beat" : 1.1666667,
-      "duration" : 0.33333337,
-      "track" : 1
-    }, {
-      "id" : "*/rapper1altjeongmalnigajoah1",
-      "beat" : 1.5,
-      "duration" : 0.16666675,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2altjeongmalnigajoah1",
-      "beat" : 1.5,
-      "duration" : 0.16666675
-    }, {
-      "id" : "*/rapper1altjeongmalnigajoah2",
-      "beat" : 1.6666667,
-      "duration" : 0.25,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2altjeongmalnigajoah2",
-      "beat" : 1.6666667,
-      "duration" : 0.25
-    }, {
-      "id" : "*/rapper1altjeongmalnigajoah3",
-      "beat" : 1.9166667,
-      "duration" : 0.25,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2altjeongmalnigajoah3",
-      "beat" : 1.9166667,
-      "duration" : 0.25
-    }, {
-      "id" : "*/rapper1altjeongmalnigajoah4",
-      "beat" : 2.1666667,
-      "duration" : 0.33333325,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2altjeongmalnigajoah4",
-      "beat" : 2.1666667,
-      "duration" : 0.33333325
-    }, {
-      "id" : "*/rapper1altjeongmalnigajoah5",
-      "beat" : 2.5,
-      "duration" : 0.16666675,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2altjeongmalnigajoah5",
-      "beat" : 2.5,
-      "duration" : 0.16666675
-    }, {
-      "id" : "*/rapper1altjeongmalnigajoah6",
-      "beat" : 2.6666667,
-      "duration" : 0.5,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2altjeongmalnigajoah6",
-      "beat" : 2.6666667,
-      "duration" : 0.5
-    } ]
-  }, {
-    "type" : "pattern",
-    "id" : "*_jinshimiyanan1",
-    "name" : "jinshim iya nan - 1",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/mcadorejinshimiyanan1",
-      "beat" : 0.0,
-      "duration" : 0.16666698,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorejinshimiyanan2",
-      "beat" : 0.16666698,
-      "duration" : 0.33333302,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorejinshimiyanan3_1",
-      "beat" : 0.5,
-      "duration" : 0.16666698,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorejinshimiyanan4_1",
-      "beat" : 0.666667,
-      "duration" : 0.33333302,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorejinshimiyanan5",
-      "beat" : 1.0,
-      "duration" : 0.16666794,
-      "track" : 1
-    }, {
-      "id" : "*/rapper1jinshimiyanan1",
-      "beat" : 1.1666679,
-      "duration" : 0.25,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jinshimiyanan1",
-      "beat" : 1.1666679,
-      "duration" : 0.25
-    }, {
-      "id" : "*/rapper1jinshimiyanan2",
-      "beat" : 1.4166679,
-      "duration" : 0.25,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jinshimiyanan2",
-      "beat" : 1.4166679,
-      "duration" : 0.25
-    }, {
-      "id" : "*/rapper1jinshimiyanan3",
-      "beat" : 1.6666679,
-      "duration" : 0.25,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jinshimiyanan3",
-      "beat" : 1.6666679,
-      "duration" : 0.25
-    }, {
-      "id" : "*/rapper1jinshimiyanan4",
-      "beat" : 1.9166679,
-      "duration" : 0.16666603,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jinshimiyanan4",
-      "beat" : 1.9166679,
-      "duration" : 0.16666603
-    }, {
-      "id" : "*/rapper1jinshimiyanan5",
-      "beat" : 2.083334,
-      "duration" : 0.91666603,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jinshimiyanan5",
-      "beat" : 2.083334,
-      "duration" : 0.91666603
-    } ]
-  }, {
-    "type" : "pattern",
-    "id" : "*_jinshimiyanan2",
-    "name" : "jinshim iya nan - 2",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/mcadorejinshimiyanan1",
-      "beat" : 0.0,
-      "duration" : 0.16666698,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorejinshimiyanan2",
-      "beat" : 0.16666698,
-      "duration" : 0.33333302,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorejinshimiyanan3_2",
-      "beat" : 0.5,
-      "duration" : 0.16666698,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorejinshimiyanan4_2",
-      "beat" : 0.666667,
-      "duration" : 0.33333302,
-      "track" : 1
-    }, {
-      "id" : "*/mcadorejinshimiyanan5",
-      "beat" : 1.0,
-      "duration" : 0.16666794,
-      "track" : 1
-    }, {
-      "id" : "*/rapper1jinshimiyanan1",
-      "beat" : 1.1666679,
-      "duration" : 0.25,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jinshimiyanan1",
-      "beat" : 1.1666679,
-      "duration" : 0.25
-    }, {
-      "id" : "*/rapper1jinshimiyanan2",
-      "beat" : 1.4166679,
-      "duration" : 0.25,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jinshimiyanan2",
-      "beat" : 1.4166679,
-      "duration" : 0.25
-    }, {
-      "id" : "*/rapper1jinshimiyanan3",
-      "beat" : 1.6666679,
-      "duration" : 0.25,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jinshimiyanan3",
-      "beat" : 1.6666679,
-      "duration" : 0.25
-    }, {
-      "id" : "*/rapper1jinshimiyanan4",
-      "beat" : 1.9166679,
-      "duration" : 0.16666603,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jinshimiyanan4",
-      "beat" : 1.9166679,
-      "duration" : 0.16666603
-    }, {
-      "id" : "*/rapper1jinshimiyanan5",
-      "beat" : 2.083334,
-      "duration" : 0.91666603,
-      "track" : 1
-    }, {
-      "id" : "*/rapper2jinshimiyanan5",
-      "beat" : 2.083334,
-      "duration" : 0.91666603
-    } ]
-  } ]
+  "id": "loveRapKo",
+  "name": "Love Rap (Korean)",
+  "series": "fever",
+  "group": "Love Rap",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/candlelight",
+      "name": "candlelight",
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorealtjeongmalnigajoah1",
+      "name": "mc adore - alt jeongmal niga jo-ah - 1",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorealtjeongmalnigajoah2",
+      "name": "mc adore - alt jeongmal niga jo-ah - 2",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorealtjeongmalnigajoah3",
+      "name": "mc adore - alt jeongmal niga jo-ah - 3",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorealtjeongmalnigajoah4",
+      "name": "mc adore - alt jeongmal niga jo-ah - 4",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorealtjeongmalnigajoah5",
+      "name": "mc adore - alt jeongmal niga jo-ah - 5",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorealtjeongmalnigajoah6",
+      "name": "mc adore - alt jeongmal niga jo-ah - 6",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorejeongmalnigajoah1",
+      "name": "mc adore - jeongmal niga jo-ah - 1",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorejeongmalnigajoah2",
+      "name": "mc adore - jeongmal niga jo-ah - 2",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorejeongmalnigajoah3",
+      "name": "mc adore - jeongmal niga jo-ah - 3",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorejeongmalnigajoah4",
+      "name": "mc adore - jeongmal niga jo-ah - 4",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorejeongmalnigajoah5",
+      "name": "mc adore - jeongmal niga jo-ah - 5",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorejeongmalnigajoah6",
+      "name": "mc adore - jeongmal niga jo-ah - 6",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorejinjja1_1",
+      "name": "mc adore - jin-jja - 1 - 1",
+      "deprecatedIDs": [],
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorejinjja1_2",
+      "name": "mc adore - jin-jja - 1 - 2",
+      "deprecatedIDs": [],
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorejinjja2_1",
+      "name": "mc adore - jin-jja - 2 - 1",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorejinjja2_2",
+      "name": "mc adore - jin-jja - 2 - 2",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorejinjja2_3",
+      "name": "mc adore - jin-jja - 2 - 3",
+      "deprecatedIDs": [],
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorejinshimiyanan1",
+      "name": "mc adore - jinshim Iya nan - 1",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorejinshimiyanan2",
+      "name": "mc adore - jinshim Iya nan - 2",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorejinshimiyanan3_1",
+      "name": "mc adore - jinshim Iya nan - 3 - 1",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorejinshimiyanan3_2",
+      "name": "mc adore - jinshim Iya nan - 3 - 2",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorejinshimiyanan4_1",
+      "name": "mc adore - jinshim Iya nan - 4 - 1",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorejinshimiyanan4_2",
+      "name": "mc adore - jinshim Iya nan - 4 - 2",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorejinshimiyanan5",
+      "name": "mc adore - jinshim Iya nan - 5",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorenigajoah1",
+      "name": "mc adore - niga jo-ah - 1",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorenigajoah2",
+      "name": "mc adore - niga jo-ah - 2",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorenigajoah3",
+      "name": "mc adore - niga jo-ah - 3",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorenigajoah4",
+      "name": "mc adore - niga jo-ah - 4",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1altjeongmalnigajoah1",
+      "name": "rapper 1 - alt jeongmal niga jo-ah - 1",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1altjeongmalnigajoah2",
+      "name": "rapper 1 - alt jeongmal niga jo-ah - 2",
+      "deprecatedIDs": [],
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1altjeongmalnigajoah3",
+      "name": "rapper 1 - alt jeongmal niga jo-ah - 3",
+      "deprecatedIDs": [],
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1altjeongmalnigajoah4",
+      "name": "rapper 1 - alt jeongmal niga jo-ah - 4",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1altjeongmalnigajoah5",
+      "name": "rapper 1 - alt jeongmal niga jo-ah - 5",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1altjeongmalnigajoah6",
+      "name": "rapper 1 - alt jeongmal niga jo-ah - 6",
+      "deprecatedIDs": [],
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1jeongmalnigajoah1",
+      "name": "rapper 1 - jeongmal niga jo-ah - 1",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1jeongmalnigajoah2",
+      "name": "rapper 1 - jeongmal niga jo-ah - 2",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1jeongmalnigajoah3",
+      "name": "rapper 1 - jeongmal niga jo-ah - 3",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1jeongmalnigajoah4",
+      "name": "rapper 1 - jeongmal niga jo-ah - 4",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1jeongmalnigajoah5",
+      "name": "rapper 1 - jeongmal niga jo-ah - 5",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1jeongmalnigajoah6",
+      "name": "rapper 1 - jeongmal niga jo-ah - 6",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1jinjja1_1",
+      "name": "rapper 1 - jin-jja - 1 - 1",
+      "deprecatedIDs": [],
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1jinjja2_1",
+      "name": "rapper 1 - jin-jja - 2 - 1",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1jinjja2_2",
+      "name": "rapper 1 - jin-jja - 2 - 2",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1jinjja_last",
+      "name": "rapper 1 - jin-jja - last",
+      "deprecatedIDs": [],
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1jinshimiyanan1",
+      "name": "rapper 1 - jinshim Iya nan - 1",
+      "deprecatedIDs": [],
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1jinshimiyanan2",
+      "name": "rapper 1 - jinshim Iya nan - 2",
+      "deprecatedIDs": [],
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1jinshimiyanan3",
+      "name": "rapper 1 - jinshim Iya nan - 3",
+      "deprecatedIDs": [],
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1jinshimiyanan4",
+      "name": "rapper 1 - jinshim Iya nan - 4",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1jinshimiyanan5",
+      "name": "rapper 1 - jinshim Iya nan - 5",
+      "deprecatedIDs": [],
+      "duration": 0.917
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1nigajoah1",
+      "name": "rapper 1 - niga jo-ah - 1",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1nigajoah2",
+      "name": "rapper 1 - niga jo-ah - 2",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1nigajoah3",
+      "name": "rapper 1 - niga jo-ah - 3",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1nigajoah4",
+      "name": "rapper 1 - niga jo-ah - 4",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2altjeongmalnigajoah1",
+      "name": "rapper 2 - alt jeongmal niga jo-ah - 1",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2altjeongmalnigajoah2",
+      "name": "rapper 2 - alt jeongmal niga jo-ah - 2",
+      "deprecatedIDs": [],
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2altjeongmalnigajoah3",
+      "name": "rapper 2 - alt jeongmal niga jo-ah - 3",
+      "deprecatedIDs": [],
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2altjeongmalnigajoah4",
+      "name": "rapper 2 - alt jeongmal niga jo-ah - 4",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2altjeongmalnigajoah5",
+      "name": "rapper 2 - alt jeongmal niga jo-ah - 5",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2altjeongmalnigajoah6",
+      "name": "rapper 2 - alt jeongmal niga jo-ah - 6",
+      "deprecatedIDs": [],
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2jeongmalnigajoah1",
+      "name": "rapper 2 - jeongmal niga jo-ah - 1",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2jeongmalnigajoah2",
+      "name": "rapper 2 - jeongmal niga jo-ah - 2",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2jeongmalnigajoah3",
+      "name": "rapper 2 - jeongmal niga jo-ah - 3",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2jeongmalnigajoah4",
+      "name": "rapper 2 - jeongmal niga jo-ah - 4",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2jeongmalnigajoah5",
+      "name": "rapper 2 - jeongmal niga jo-ah - 5",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2jeongmalnigajoah6",
+      "name": "rapper 2 - jeongmal niga jo-ah - 6",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2jinjja1_1",
+      "name": "rapper 2 - jin-jja - 1 - 1",
+      "deprecatedIDs": [],
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2jinjja1_2",
+      "name": "rapper 2 - jin-jja - 1 - 2",
+      "deprecatedIDs": [],
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2jinjja2_1",
+      "name": "rapper 2 - jin-jja - 2 - 1",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2jinjja2_2",
+      "name": "rapper 2 - jin-jja - 2 - 2",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2jinjja2_3",
+      "name": "rapper 2 - jin-jja - 2 - 3",
+      "deprecatedIDs": [],
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2jinshimiyanan1",
+      "name": "rapper 2 - jinshim Iya nan - 1",
+      "deprecatedIDs": [],
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2jinshimiyanan2",
+      "name": "rapper 2 - jinshim Iya nan - 2",
+      "deprecatedIDs": [],
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2jinshimiyanan3",
+      "name": "rapper 2 - jinshim Iya nan - 3",
+      "deprecatedIDs": [],
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2jinshimiyanan4",
+      "name": "rapper 2 - jinshim Iya nan - 4",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2jinshimiyanan5",
+      "name": "rapper 2 - jinshim Iya nan - 5",
+      "deprecatedIDs": [],
+      "duration": 0.917
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2nigajoah1",
+      "name": "rapper 2 - niga jo-ah - 1",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2nigajoah2",
+      "name": "rapper 2 - niga jo-ah - 2",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2nigajoah3",
+      "name": "rapper 2 - niga jo-ah - 3",
+      "deprecatedIDs": [],
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2nigajoah4",
+      "name": "rapper 2 - niga jo-ah - 4",
+      "deprecatedIDs": [],
+      "duration": 0.167
+    },
+    {
+      "type": "pattern",
+      "id": "*_nigajoah",
+      "name": "niga jo-ah",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/mcadorenigajoah1",
+          "beat": 0.0,
+          "duration": 0.33333397,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorenigajoah2",
+          "beat": 0.33333397,
+          "duration": 0.16666603,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorenigajoah3",
+          "beat": 0.5,
+          "duration": 0.33333397,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorenigajoah4",
+          "beat": 0.83333397,
+          "duration": 0.16666603,
+          "track": 1
+        },
+        {
+          "id": "*/rapper1nigajoah1",
+          "beat": 1.0,
+          "duration": 0.33333397,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2nigajoah1",
+          "beat": 1.0,
+          "duration": 0.33333397
+        },
+        {
+          "id": "*/rapper1nigajoah2",
+          "beat": 1.333334,
+          "duration": 0.16666603,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2nigajoah2",
+          "beat": 1.333334,
+          "duration": 0.16666603
+        },
+        {
+          "id": "*/rapper1nigajoah3",
+          "beat": 1.5,
+          "duration": 0.33333397,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2nigajoah3",
+          "beat": 1.5,
+          "duration": 0.33333397
+        },
+        {
+          "id": "*/rapper1nigajoah4",
+          "beat": 1.833334,
+          "duration": 0.16666603,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2nigajoah4",
+          "beat": 1.833334,
+          "duration": 0.16666603
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_jinjja1",
+      "name": "jin-jja - 1",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/mcadorejinjja1_1",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorejinjja1_2",
+          "beat": 0.5,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/rapper1jinjja1_1",
+          "beat": 0.75,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jinjja1_1",
+          "beat": 0.75,
+          "duration": 0.5
+        },
+        {
+          "id": "*/rapper1jinjja_last",
+          "beat": 1.25,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jinjja1_2",
+          "beat": 1.25,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_jinjja2",
+      "name": "jin-jja - 2",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/mcadorejinjja2_1",
+          "beat": 0.0,
+          "duration": 0.1875,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorejinjja2_2",
+          "beat": 0.1875,
+          "duration": 0.3125,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorejinjja2_3",
+          "beat": 0.5,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/rapper1jinjja2_1",
+          "beat": 0.75,
+          "duration": 0.1875,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jinjja2_1",
+          "beat": 0.75,
+          "duration": 0.1875
+        },
+        {
+          "id": "*/rapper1jinjja2_2",
+          "beat": 0.9375,
+          "duration": 0.3125,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jinjja2_2",
+          "beat": 0.9375,
+          "duration": 0.3125
+        },
+        {
+          "id": "*/rapper1jinjja_last",
+          "beat": 1.25,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jinjja2_3",
+          "beat": 1.25,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_jeongmalnigajoah",
+      "name": "jeongmal niga jo-ah",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/mcadorejeongmalnigajoah1",
+          "beat": 0.0,
+          "duration": 0.3333335,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorejeongmalnigajoah2",
+          "beat": 0.3333335,
+          "duration": 0.16666651,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorejeongmalnigajoah3",
+          "beat": 0.5,
+          "duration": 0.3333335,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorejeongmalnigajoah4",
+          "beat": 0.8333335,
+          "duration": 0.16666651,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorejeongmalnigajoah5",
+          "beat": 1.0,
+          "duration": 0.3333335,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorejeongmalnigajoah6",
+          "beat": 1.3333335,
+          "duration": 0.16666651,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jeongmalnigajoah1",
+          "beat": 1.5,
+          "duration": 0.3333335
+        },
+        {
+          "id": "*/rapper1jeongmalnigajoah1",
+          "beat": 1.5,
+          "duration": 0.3333335,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jeongmalnigajoah2",
+          "beat": 1.8333335,
+          "duration": 0.16666651
+        },
+        {
+          "id": "*/rapper1jeongmalnigajoah2",
+          "beat": 1.8333335,
+          "duration": 0.16666651,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jeongmalnigajoah3",
+          "beat": 2.0,
+          "duration": 0.3333335
+        },
+        {
+          "id": "*/rapper1jeongmalnigajoah3",
+          "beat": 2.0,
+          "duration": 0.3333335,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jeongmalnigajoah4",
+          "beat": 2.3333335,
+          "duration": 0.16666651
+        },
+        {
+          "id": "*/rapper1jeongmalnigajoah4",
+          "beat": 2.3333335,
+          "duration": 0.16666651,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jeongmalnigajoah5",
+          "beat": 2.5,
+          "duration": 0.3333335
+        },
+        {
+          "id": "*/rapper1jeongmalnigajoah5",
+          "beat": 2.5,
+          "duration": 0.3333335,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jeongmalnigajoah6",
+          "beat": 2.8333335,
+          "duration": 0.16666651
+        },
+        {
+          "id": "*/rapper1jeongmalnigajoah6",
+          "beat": 2.8333335,
+          "duration": 0.16666651,
+          "track": 1
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_swingjeongmalnigajoah",
+      "name": "jeongmal niga jo-ah - swing",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/mcadorealtjeongmalnigajoah1",
+          "beat": 0.0,
+          "duration": 0.16666669,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorealtjeongmalnigajoah2",
+          "beat": 0.16666669,
+          "duration": 0.33333337,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorealtjeongmalnigajoah3",
+          "beat": 0.50000006,
+          "duration": 0.16666663,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorealtjeongmalnigajoah4",
+          "beat": 0.6666667,
+          "duration": 0.33333337,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorealtjeongmalnigajoah5",
+          "beat": 1.0,
+          "duration": 0.16666663,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorealtjeongmalnigajoah6",
+          "beat": 1.1666667,
+          "duration": 0.33333337,
+          "track": 1
+        },
+        {
+          "id": "*/rapper1altjeongmalnigajoah1",
+          "beat": 1.5,
+          "duration": 0.16666675,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2altjeongmalnigajoah1",
+          "beat": 1.5,
+          "duration": 0.16666675
+        },
+        {
+          "id": "*/rapper1altjeongmalnigajoah2",
+          "beat": 1.6666667,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2altjeongmalnigajoah2",
+          "beat": 1.6666667,
+          "duration": 0.25
+        },
+        {
+          "id": "*/rapper1altjeongmalnigajoah3",
+          "beat": 1.9166667,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2altjeongmalnigajoah3",
+          "beat": 1.9166667,
+          "duration": 0.25
+        },
+        {
+          "id": "*/rapper1altjeongmalnigajoah4",
+          "beat": 2.1666667,
+          "duration": 0.33333325,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2altjeongmalnigajoah4",
+          "beat": 2.1666667,
+          "duration": 0.33333325
+        },
+        {
+          "id": "*/rapper1altjeongmalnigajoah5",
+          "beat": 2.5,
+          "duration": 0.16666675,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2altjeongmalnigajoah5",
+          "beat": 2.5,
+          "duration": 0.16666675
+        },
+        {
+          "id": "*/rapper1altjeongmalnigajoah6",
+          "beat": 2.6666667,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2altjeongmalnigajoah6",
+          "beat": 2.6666667,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_jinshimiyanan1",
+      "name": "jinshim iya nan - 1",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/mcadorejinshimiyanan1",
+          "beat": 0.0,
+          "duration": 0.16666698,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorejinshimiyanan2",
+          "beat": 0.16666698,
+          "duration": 0.33333302,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorejinshimiyanan3_1",
+          "beat": 0.5,
+          "duration": 0.16666698,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorejinshimiyanan4_1",
+          "beat": 0.666667,
+          "duration": 0.33333302,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorejinshimiyanan5",
+          "beat": 1.0,
+          "duration": 0.16666794,
+          "track": 1
+        },
+        {
+          "id": "*/rapper1jinshimiyanan1",
+          "beat": 1.1666679,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jinshimiyanan1",
+          "beat": 1.1666679,
+          "duration": 0.25
+        },
+        {
+          "id": "*/rapper1jinshimiyanan2",
+          "beat": 1.4166679,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jinshimiyanan2",
+          "beat": 1.4166679,
+          "duration": 0.25
+        },
+        {
+          "id": "*/rapper1jinshimiyanan3",
+          "beat": 1.6666679,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jinshimiyanan3",
+          "beat": 1.6666679,
+          "duration": 0.25
+        },
+        {
+          "id": "*/rapper1jinshimiyanan4",
+          "beat": 1.9166679,
+          "duration": 0.16666603,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jinshimiyanan4",
+          "beat": 1.9166679,
+          "duration": 0.16666603
+        },
+        {
+          "id": "*/rapper1jinshimiyanan5",
+          "beat": 2.083334,
+          "duration": 0.91666603,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jinshimiyanan5",
+          "beat": 2.083334,
+          "duration": 0.91666603
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_jinshimiyanan2",
+      "name": "jinshim iya nan - 2",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/mcadorejinshimiyanan1",
+          "beat": 0.0,
+          "duration": 0.16666698,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorejinshimiyanan2",
+          "beat": 0.16666698,
+          "duration": 0.33333302,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorejinshimiyanan3_2",
+          "beat": 0.5,
+          "duration": 0.16666698,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorejinshimiyanan4_2",
+          "beat": 0.666667,
+          "duration": 0.33333302,
+          "track": 1
+        },
+        {
+          "id": "*/mcadorejinshimiyanan5",
+          "beat": 1.0,
+          "duration": 0.16666794,
+          "track": 1
+        },
+        {
+          "id": "*/rapper1jinshimiyanan1",
+          "beat": 1.1666679,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jinshimiyanan1",
+          "beat": 1.1666679,
+          "duration": 0.25
+        },
+        {
+          "id": "*/rapper1jinshimiyanan2",
+          "beat": 1.4166679,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jinshimiyanan2",
+          "beat": 1.4166679,
+          "duration": 0.25
+        },
+        {
+          "id": "*/rapper1jinshimiyanan3",
+          "beat": 1.6666679,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jinshimiyanan3",
+          "beat": 1.6666679,
+          "duration": 0.25
+        },
+        {
+          "id": "*/rapper1jinshimiyanan4",
+          "beat": 1.9166679,
+          "duration": 0.16666603,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jinshimiyanan4",
+          "beat": 1.9166679,
+          "duration": 0.16666603
+        },
+        {
+          "id": "*/rapper1jinshimiyanan5",
+          "beat": 2.083334,
+          "duration": 0.91666603,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2jinshimiyanan5",
+          "beat": 2.083334,
+          "duration": 0.91666603
+        }
+      ]
+    }
+  ]
 }

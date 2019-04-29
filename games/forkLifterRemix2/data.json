@@ -1,230 +1,313 @@
 {
-  "id" : "forkLifterRemix2",
-  "name" : "Fork Lifter (Fever Remix 2)",
-  "series" : "fever",
-  "group" : "Fork Lifter",
-  "objects" : [ {
-    "type" : "cue",
-    "id" : "*/flickPrepare",
-    "name" : "pea - prepare flick",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/gulp",
-    "name" : "gulp",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/sigh",
-    "name" : "sigh",
-    "deprecatedIDs" : [ ],
-    "duration" : 2.0
-  }, {
-    "type" : "cue",
-    "id" : "*/flick",
-    "name" : "pea - flick",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/zoom",
-    "name" : "pea - zoom",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/stab",
-    "name" : "pea - stab",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.5
-  }, {
-    "type" : "pattern",
-    "id" : "*_onePea",
-    "name" : "single pea",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/flick",
-      "beat" : 0.0
-    }, {
-      "id" : "*/zoom",
-      "beat" : 1.5
-    }, {
-      "id" : "*/stab",
-      "beat" : 2.0
-    } ]
-  }, {
-    "type" : "pattern",
-    "id" : "*_twoPeas",
-    "name" : "two peas",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/flick",
-      "beat" : 0.0
-    }, {
-      "id" : "*/flick",
-      "beat" : 1.0
-    }, {
-      "id" : "*/zoom",
-      "beat" : 1.5
-    }, {
-      "id" : "*/stab",
-      "beat" : 2.0
-    }, {
-      "id" : "*/zoom",
-      "beat" : 2.5
-    }, {
-      "id" : "*/stab",
-      "beat" : 3.0
-    } ]
-  }, {
-    "type" : "pattern",
-    "id" : "*_twoPeasFast",
-    "name" : "two peas (faster)",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/flick",
-      "beat" : 0.0
-    }, {
-      "id" : "*/flick",
-      "beat" : 0.5
-    }, {
-      "id" : "*/zoom",
-      "beat" : 1.5
-    }, {
-      "id" : "*/stab",
-      "beat" : 2.0
-    }, {
-      "id" : "*/zoom",
-      "beat" : 2.0,
-      "track" : 1
-    }, {
-      "id" : "*/stab",
-      "beat" : 2.5
-    } ]
-  }, {
-    "type" : "pattern",
-    "id" : "*_threePeas",
-    "name" : "three peas",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/flick",
-      "beat" : 0.0
-    }, {
-      "id" : "*/flick",
-      "beat" : 0.5
-    }, {
-      "id" : "*/flick",
-      "beat" : 1.0
-    }, {
-      "id" : "*/zoom",
-      "beat" : 1.5
-    }, {
-      "id" : "*/stab",
-      "beat" : 2.0
-    }, {
-      "id" : "*/zoom",
-      "beat" : 2.0,
-      "track" : 1
-    }, {
-      "id" : "*/stab",
-      "beat" : 2.5
-    }, {
-      "id" : "*/zoom",
-      "beat" : 2.5,
-      "track" : 1
-    }, {
-      "id" : "*/stab",
-      "beat" : 3.0
-    } ]
-  }, {
-    "type" : "pattern",
-    "id" : "*_burger",
-    "name" : "burger",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/flick",
-      "beat" : 0.0,
-      "duration" : 0.6666667
-    }, {
-      "id" : "*/flick",
-      "beat" : 0.6666667,
-      "duration" : 0.6666667
-    }, {
-      "id" : "*/flick",
-      "beat" : 1.3333334,
-      "duration" : 0.1666667
-    }, {
-      "id" : "*/zoom",
-      "beat" : 1.5,
-      "duration" : 0.5
-    }, {
-      "id" : "*/stab",
-      "beat" : 2.0,
-      "duration" : 0.1666667
-    }, {
-      "id" : "*/zoom",
-      "beat" : 2.1666667,
-      "duration" : 0.5
-    }, {
-      "id" : "*/stab",
-      "beat" : 2.6666667,
-      "duration" : 0.1666667
-    }, {
-      "id" : "*/zoom",
-      "beat" : 2.8333335,
-      "duration" : 0.5
-    }, {
-      "id" : "*/stab",
-      "beat" : 3.3333335,
-      "duration" : 0.6666667
-    } ]
-  }, {
-    "type" : "pattern",
-    "id" : "*_fourPeas",
-    "name" : "four peas",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/flick",
-      "beat" : 0.0
-    }, {
-      "id" : "*/flick",
-      "beat" : 0.5
-    }, {
-      "id" : "*/flick",
-      "beat" : 1.0
-    }, {
-      "id" : "*/flick",
-      "beat" : 1.5
-    }, {
-      "id" : "*/zoom",
-      "beat" : 1.5,
-      "track" : 1
-    }, {
-      "id" : "*/stab",
-      "beat" : 2.0
-    }, {
-      "id" : "*/zoom",
-      "beat" : 2.0,
-      "track" : 1
-    }, {
-      "id" : "*/stab",
-      "beat" : 2.5
-    }, {
-      "id" : "*/zoom",
-      "beat" : 2.5,
-      "track" : 1
-    }, {
-      "id" : "*/stab",
-      "beat" : 3.0
-    }, {
-      "id" : "*/zoom",
-      "beat" : 3.0,
-      "track" : 1
-    }, {
-      "id" : "*/stab",
-      "beat" : 3.5
-    } ]
-  } ]
+  "id": "forkLifterRemix2",
+  "name": "Fork Lifter (Fever Remix 2)",
+  "series": "fever",
+  "group": "Fork Lifter",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/flickPrepare",
+      "name": "pea - prepare flick",
+      "deprecatedIDs": [],
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/gulp",
+      "name": "gulp",
+      "deprecatedIDs": [],
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/sigh",
+      "name": "sigh",
+      "deprecatedIDs": [],
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/flick",
+      "name": "pea - flick",
+      "deprecatedIDs": [],
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/zoom",
+      "name": "pea - zoom",
+      "deprecatedIDs": [],
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/stab",
+      "name": "pea - stab",
+      "deprecatedIDs": [],
+      "duration": 0.5
+    },
+    {
+      "type": "pattern",
+      "id": "*_onePea",
+      "name": "single pea",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/zoom",
+          "beat": 1.5
+        },
+        {
+          "id": "*/stab",
+          "beat": 2.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_twoPeas",
+      "name": "two peas",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 1.0
+        },
+        {
+          "id": "*/zoom",
+          "beat": 1.5
+        },
+        {
+          "id": "*/stab",
+          "beat": 2.0
+        },
+        {
+          "id": "*/zoom",
+          "beat": 2.5
+        },
+        {
+          "id": "*/stab",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_twoPeasFast",
+      "name": "two peas (faster)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 0.5
+        },
+        {
+          "id": "*/zoom",
+          "beat": 1.5
+        },
+        {
+          "id": "*/stab",
+          "beat": 2.0
+        },
+        {
+          "id": "*/zoom",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/stab",
+          "beat": 2.5
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_threePeas",
+      "name": "three peas",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 0.5
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 1.0
+        },
+        {
+          "id": "*/zoom",
+          "beat": 1.5
+        },
+        {
+          "id": "*/stab",
+          "beat": 2.0
+        },
+        {
+          "id": "*/zoom",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/stab",
+          "beat": 2.5
+        },
+        {
+          "id": "*/zoom",
+          "beat": 2.5,
+          "track": 1
+        },
+        {
+          "id": "*/stab",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_burger",
+      "name": "burger",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0,
+          "duration": 0.6666667
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 0.6666667,
+          "duration": 0.6666667
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 1.3333334,
+          "duration": 0.1666667
+        },
+        {
+          "id": "*/zoom",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/stab",
+          "beat": 2.0,
+          "duration": 0.1666667
+        },
+        {
+          "id": "*/zoom",
+          "beat": 2.1666667,
+          "duration": 0.5
+        },
+        {
+          "id": "*/stab",
+          "beat": 2.6666667,
+          "duration": 0.1666667
+        },
+        {
+          "id": "*/zoom",
+          "beat": 2.8333335,
+          "duration": 0.5
+        },
+        {
+          "id": "*/stab",
+          "beat": 3.3333335,
+          "duration": 0.6666667
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_fourPeas",
+      "name": "four peas",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 0.5
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 1.0
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 1.5
+        },
+        {
+          "id": "*/zoom",
+          "beat": 1.5,
+          "track": 1
+        },
+        {
+          "id": "*/stab",
+          "beat": 2.0
+        },
+        {
+          "id": "*/zoom",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/stab",
+          "beat": 2.5
+        },
+        {
+          "id": "*/zoom",
+          "beat": 2.5,
+          "track": 1
+        },
+        {
+          "id": "*/stab",
+          "beat": 3.0
+        },
+        {
+          "id": "*/zoom",
+          "beat": 3.0,
+          "track": 1
+        },
+        {
+          "id": "*/stab",
+          "beat": 3.5
+        }
+      ]
+    },
+    {
+      "type": "randomCue",
+      "id": "*_randomFlick",
+      "name": "random flick",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/flick",
+          "semitone": 1
+        },
+        {
+          "id": "*/flick"
+        },
+        {
+          "id": "*/flick",
+          "semitone": -1
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,210 @@
+{
+  "series": "ds",
+  "id": "airboarderFr",
+  "name": "Airboarder (DS) (French)",
+  "group": "Airboarder (DS)",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/cestParti1",
+      "deprecatedIDs": [],
+      "name": "c'est... parti! - 1",
+      "baseBpm": 160,
+      "duration": 6.5
+    },
+    {
+      "type": "cue",
+      "id": "*/cestParti2",
+      "deprecatedIDs": [],
+      "name": "c'est... parti! - 2",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/cestParti3",
+      "deprecatedIDs": [],
+      "name": "c'est... parti! - 3",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/hup",
+      "deprecatedIDs": [],
+      "name": "ready",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/crouch",
+      "deprecatedIDs": [],
+      "name": "crouch",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/glow",
+      "deprecatedIDs": [],
+      "name": "glow",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/jump",
+      "deprecatedIDs": [],
+      "name": "jump",
+      "duration": 1.0
+    },
+    {
+      "type": "pattern",
+      "id": "*_cestParti",
+      "deprecatedIDs": [],
+      "name": "yeah... let's go!",
+      "cues": [
+        {
+          "id": "*/cestParti1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/cestParti2",
+          "beat": 6.5
+        },
+        {
+          "id": "*/cestParti3",
+          "beat": 7.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_crouch",
+      "deprecatedIDs": [],
+      "name": "crouch",
+      "cues": [
+        {
+          "id": "*/hup",
+          "beat": 0.0
+        },
+        {
+          "id": "*/crouch",
+          "beat": 1.0
+        },
+        {
+          "id": "*/crouch",
+          "beat": 2.0
+        },
+        {
+          "id": "*/crouch",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_crouchNoReady",
+      "deprecatedIDs": [],
+      "name": "crouch - no ready cue",
+      "cues": [
+        {
+          "id": "*/crouch",
+          "beat": 0.0
+        },
+        {
+          "id": "*/crouch",
+          "beat": 1.0
+        },
+        {
+          "id": "*/crouch",
+          "beat": 2.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_chargeCrouch",
+      "deprecatedIDs": [],
+      "name": "charge crouch",
+      "cues": [
+        {
+          "id": "*/hup",
+          "beat": 0.0
+        },
+        {
+          "id": "*/glow",
+          "beat": 1.0
+        },
+        {
+          "id": "*/glow",
+          "beat": 2.0
+        },
+        {
+          "id": "*/glow",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_chargeCrouchNoReady",
+      "deprecatedIDs": [],
+      "name": "charge crouch - no ready cue",
+      "cues": [
+        {
+          "id": "*/glow",
+          "beat": 0.0
+        },
+        {
+          "id": "*/glow",
+          "beat": 1.0
+        },
+        {
+          "id": "*/glow",
+          "beat": 2.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_jumpReady",
+      "deprecatedIDs": [],
+      "name": "jump",
+      "cues": [
+        {
+          "id": "*/hup",
+          "beat": 0.0
+        },
+        {
+          "id": "*/jump",
+          "beat": 1.0
+        },
+        {
+          "id": "*/jump",
+          "beat": 2.0
+        },
+        {
+          "id": "*/jump",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_jump",
+      "deprecatedIDs": [],
+      "name": "jump - no ready cue",
+      "cues": [
+        {
+          "id": "*/jump",
+          "beat": 0.0
+        },
+        {
+          "id": "*/jump",
+          "beat": 1.0
+        },
+        {
+          "id": "*/jump",
+          "beat": 2.0
+        }
+      ]
+    }
+  ]
+}

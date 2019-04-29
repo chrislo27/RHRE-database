@@ -1,0 +1,142 @@
+{
+  "series": "ds",
+  "id": "munchyMonkFr",
+  "name": "Munchy Monk (DS) (French)",
+  "group": "Munchy Monk (DS)",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/count1",
+      "deprecatedIDs": [],
+      "name": "count - 1",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/count2",
+      "deprecatedIDs": [],
+      "name": "count - 2",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/gulp",
+      "deprecatedIDs": [],
+      "name": "gulp",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/one",
+      "deprecatedIDs": [],
+      "name": "one",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/try",
+      "deprecatedIDs": [],
+      "name": "two - try",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/two",
+      "deprecatedIDs": [],
+      "name": "two - two!",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/three",
+      "deprecatedIDs": [],
+      "name": "three - three",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/gulp3-1",
+      "deprecatedIDs": [],
+      "name": "three - go - 1",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/gulp3-2",
+      "deprecatedIDs": [],
+      "name": "three - go - 2",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/gulp3-3",
+      "deprecatedIDs": [],
+      "name": "three - go - 3",
+      "duration": 1.0
+    },
+    {
+      "type": "pattern",
+      "id": "*_one",
+      "deprecatedIDs": [],
+      "name": "one",
+      "cues": [
+        {
+          "id": "*/one",
+          "beat": 0.0
+        },
+        {
+          "id": "*/gulp",
+          "beat": 1.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_trytwo",
+      "deprecatedIDs": [],
+      "name": "try two",
+      "cues": [
+        {
+          "id": "*/try",
+          "beat": 0.0
+        },
+        {
+          "id": "*/two",
+          "beat": 0.5
+        },
+        {
+          "id": "*/gulp",
+          "beat": 1.5
+        },
+        {
+          "id": "*/gulp",
+          "beat": 2.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_three",
+      "deprecatedIDs": [],
+      "name": "three",
+      "cues": [
+        {
+          "id": "*/three",
+          "beat": 0.0
+        },
+        {
+          "id": "*/gulp3-1",
+          "beat": 1.0
+        },
+        {
+          "id": "*/gulp3-2",
+          "beat": 2.0
+        },
+        {
+          "id": "*/gulp3-3",
+          "beat": 3.0
+        }
+      ]
+    }
+  ]
+}

@@ -45,7 +45,7 @@
       "deprecatedIDs": [],
       "name": "three - go - 1",
       "duration": 1.0,
-	  "earliness": 0.03
+      "earliness": 0.03
     },
     {
       "type": "cue",
@@ -67,7 +67,7 @@
       "deprecatedIDs": [],
       "name": "try two - go - 1",
       "duration": 0.5,
-	  "earliness": 0.04
+      "earliness": 0.04
     },
     {
       "type": "cue",
@@ -75,7 +75,7 @@
       "deprecatedIDs": [],
       "name": "try two - go - 2",
       "duration": 0.5,
-	  "earliness": 0.02
+      "earliness": 0.02
     },
     {
       "type": "pattern",

@@ -1,67 +1,86 @@
 {
-  "id" : "clappyTrio",
-  "name" : "Clappy Trio (Fever)",
-  "series" : "fever",
-  "priority" : -1,
-  "objects" : [ {
-    "type" : "cue",
-    "id" : "*/start",
-    "name" : "start",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/ready",
-    "name" : "ready",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/leftClap",
-    "name" : "left clap",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/middleClap",
-    "name" : "middle clap",
-    "deprecatedIDs" : [ "clappyTrio/clap" ],
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/rightClap",
-    "name" : "right clap",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.25
-  }, {
-    "type" : "equidistant",
-    "id" : "*_triotiming",
-    "name" : "trio timing!",
-    "deprecatedIDs" : [ ],
-    "distance" : 1.0,
-    "stretchable" : true,
-    "cues" : [ {
-      "id" : "*/leftClap"
-    }, {
-      "id" : "*/middleClap"
-    }, {
-      "id" : "*/rightClap"
-    } ]
-  }, {
-    "type" : "equidistant",
-    "id" : "*_fouronthefloor",
-    "name" : "four on the floor!",
-    "deprecatedIDs" : [ ],
-    "distance" : 1.0,
-    "stretchable" : true,
-    "cues" : [ {
-      "id" : "*/leftClap"
-    }, {
-      "id" : "*/leftClap"
-    }, {
-      "id" : "*/middleClap"
-    }, {
-      "id" : "*/rightClap"
-    } ]
-  } ]
+  "id": "clappyTrio",
+  "name": "Clappy Trio (Fever)",
+  "series": "fever",
+  "priority": -1,
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/start",
+      "name": "start",
+      "deprecatedIDs": [],
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/ready",
+      "name": "ready",
+      "deprecatedIDs": [],
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/leftClap",
+      "name": "left clap",
+      "deprecatedIDs": [],
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/middleClap",
+      "name": "middle clap",
+      "deprecatedIDs": [
+        "clappyTrio/clap"
+      ],
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/rightClap",
+      "name": "right clap",
+      "deprecatedIDs": [],
+      "duration": 0.25
+    },
+    {
+      "type": "equidistant",
+      "id": "*_triotiming",
+      "name": "trio timing!",
+      "deprecatedIDs": [],
+      "distance": 1.0,
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/leftClap"
+        },
+        {
+          "id": "*/middleClap"
+        },
+        {
+          "id": "*/rightClap"
+        }
+      ]
+    },
+    {
+      "type": "equidistant",
+      "id": "*_fouronthefloor",
+      "name": "four on the floor!",
+      "deprecatedIDs": [],
+      "distance": 1.0,
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/leftClap"
+        },
+        {
+          "id": "*/leftClap"
+        },
+        {
+          "id": "*/middleClap"
+        },
+        {
+          "id": "*/rightClap"
+        }
+      ]
+    }
+  ]
 }

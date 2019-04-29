@@ -18,7 +18,7 @@
       "deprecatedIDs": [],
       "name": "one",
       "duration": 1.0,
-	  "earliness": 0.015
+      "earliness": 0.015
     },
     {
       "type": "cue",

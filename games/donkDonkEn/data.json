@@ -5,7 +5,7 @@
   "group": "Donk-Donk",
   "groupDefault": true,
   "objects": [
-  	{
+    {
       "type": "cue",
       "id": "*/doors",
       "deprecatedIDs": [
@@ -112,7 +112,7 @@
       "name": "deet-deet-doot - 3",
       "duration": 0.666666
     },
-	{
+    {
       "type": "cue",
       "id": "*/donkdwonkNoBlast1",
       "deprecatedIDs": [
@@ -120,7 +120,7 @@
       "name": "donk-dwonk (no blast)  - 1 ",
       "duration": 0.666666
     },
-	{
+    {
       "type": "cue",
       "id": "*/donkdwonkNoBlast2",
       "deprecatedIDs": [
@@ -229,7 +229,7 @@
         }
       ]
     },
-	{
+    {
       "type": "pattern",
       "id": "*_donkdwonkNoBlast",
       "deprecatedIDs": [],
@@ -264,12 +264,13 @@
           "beat": 1.333333
         }
       ]
-    },	
+    },
     {
       "type": "pattern",
       "id": "*_tallDwonk",
       "deprecatedIDs": [
-        "donkDonk_toastsaot", "donkDonkEn_toastsaot"
+        "donkDonk_toastsaot",
+        "donkDonkEn_toastsaot"
       ],
       "name": "[#FF0000]D[][#FFA500]W[][#FFFF00]O[][#00FF00]N[][#0000FF]K[][#FF00FF]![]",
       "cues": [

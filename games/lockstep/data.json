@@ -11,7 +11,7 @@
       "duration": 1.0
     },
     {
-	  "type": "cue",
+      "type": "cue",
       "id": "*/haiNoStep",
       "deprecatedIDs": [],
       "name": "hai (no step)",
@@ -41,14 +41,18 @@
     {
       "type": "cue",
       "id": "*/bkbt_hai",
-      "deprecatedIDs": ["lockstep/bkbt_hoi"],
+      "deprecatedIDs": [
+        "lockstep/bkbt_hoi"
+      ],
       "name": "onbeat - switch - hai",
       "duration": 0.875
     },
     {
       "type": "cue",
       "id": "*/bkbt_ho",
-      "deprecatedIDs": ["lockstep/bkbt_boh"],
+      "deprecatedIDs": [
+        "lockstep/bkbt_boh"
+      ],
       "name": "offbeat - start",
       "duration": 1.0
     },
@@ -69,7 +73,9 @@
     {
       "type": "cue",
       "id": "*/return_n",
-      "deprecatedIDs": ["lockstep/return_hee"],
+      "deprecatedIDs": [
+        "lockstep/return_hee"
+      ],
       "name": "offbeat - switch - n",
       "duration": 0.5
     },
@@ -83,7 +89,9 @@
     {
       "type": "cue",
       "id": "*/return_nNoStep",
-      "deprecatedIDs": ["lockstep/return_heeNoStep"],
+      "deprecatedIDs": [
+        "lockstep/return_heeNoStep"
+      ],
       "name": "offbeat - switch (no step) - n",
       "duration": 0.5
     },
@@ -217,7 +225,7 @@
       ]
     },
     {
-	  "type": "pattern",
+      "type": "pattern",
       "id": "*_onToOffNoStep",
       "deprecatedIDs": [],
       "name": "on to off - no step",
@@ -253,7 +261,6 @@
       ]
     },
     {
-	
       "type": "pattern",
       "id": "*_onToOffSwingNoStep",
       "deprecatedIDs": [],
@@ -318,7 +325,6 @@
       ]
     },
     {
-	
       "type": "pattern",
       "id": "*_offToOnSwing",
       "deprecatedIDs": [],

@@ -1,237 +1,246 @@
 {
-  "series": "fever",
   "id": "samuraiSliceFever",
   "name": "Samurai Slice (Fever)",
+  "series": "fever",
   "objects": [
     {
       "type": "cue",
       "id": "*/start",
-      "deprecatedIDs": [],
       "name": "start",
+      "deprecatedIDs": [],
       "duration": 1.0
     },
-	{
+    {
       "type": "cue",
       "id": "*/portalOpen",
-      "deprecatedIDs": [],
       "name": "portal - open",
+      "deprecatedIDs": [],
       "duration": 4.0
     },
     {
       "type": "cue",
       "id": "*/pinwheel",
-      "deprecatedIDs": [],
       "name": "pinwheel",
+      "deprecatedIDs": [],
       "duration": 5.0
     },
     {
       "type": "cue",
       "id": "*/slice",
+      "name": "samurai - slice",
       "deprecatedIDs": [
         "samuraiSliceWii/slice"
       ],
-      "name": "samurai - slice",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/sliceDouble",
+      "name": "samurai - second slice",
       "deprecatedIDs": [
         "samuraiSliceWii/sliceDouble"
       ],
-      "name": "samurai - second slice",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/demonSmall1",
+      "name": "demon - small - 1",
       "deprecatedIDs": [
         "samuraiSliceWii/demonSmall1"
       ],
-      "name": "demon - small - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/demonSmall2",
+      "name": "demon - small - 2",
       "deprecatedIDs": [
         "samuraiSliceWii/demonSmall2"
       ],
-      "name": "demon - small - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/demonSmall3",
+      "name": "demon - small - 3",
       "deprecatedIDs": [
         "samuraiSliceWii/demonSmall3"
       ],
-      "name": "demon - small - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/demonMedium1",
+      "name": "demon - medium - 1",
       "deprecatedIDs": [
         "samuraiSliceWii/demonMedium1"
       ],
-      "name": "demon - medium - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/demonMedium2",
+      "name": "demon - medium - 2",
       "deprecatedIDs": [
         "samuraiSliceWii/demonMedium2"
       ],
-      "name": "demon - medium - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/demonMedium3",
+      "name": "demon - medium - 3",
       "deprecatedIDs": [
         "samuraiSliceWii/demonMedium3"
       ],
-      "name": "demon - medium - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/demonBig1",
+      "name": "demon - big - 1",
       "deprecatedIDs": [
         "samuraiSliceWii/demonBig1"
       ],
-      "name": "demon - big - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/demonBig2",
+      "name": "demon - big - 2",
       "deprecatedIDs": [
         "samuraiSliceWii/demonBig2"
       ],
-      "name": "demon - big - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/demonBig3",
+      "name": "demon - big - 3",
       "deprecatedIDs": [
         "samuraiSliceWii/demonBig3"
       ],
-      "name": "demon - big - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/demonHuge1",
+      "name": "demon - huge - 1",
       "deprecatedIDs": [
         "samuraiSliceWii/demonHuge1"
       ],
-      "name": "demon - huge - 1",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/demonHuge2",
+      "name": "demon - huge - 2",
       "deprecatedIDs": [
         "samuraiSliceWii/demonHuge2"
       ],
-      "name": "demon - huge - 2",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/demonHuge3",
+      "name": "demon - huge - 3",
       "deprecatedIDs": [
         "samuraiSliceWii/demonHuge3"
       ],
-      "name": "demon - huge - 3",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/horde1",
+      "name": "demon - horde - 1",
       "deprecatedIDs": [
         "samuraiSliceWii/horde1"
       ],
-      "name": "demon - horde - 1",
       "duration": 0.33333
     },
     {
       "type": "cue",
       "id": "*/horde2",
+      "name": "demon - horde - 2",
       "deprecatedIDs": [
         "samuraiSliceWii/horde2"
       ],
-      "name": "demon - horde - 2",
       "duration": 0.33333
     },
     {
       "type": "cue",
       "id": "*/horde3",
+      "name": "demon - horde - 3",
       "deprecatedIDs": [
         "samuraiSliceWii/horde3"
       ],
-      "name": "demon - horde - 3",
       "duration": 0.33333
     },
     {
       "type": "cue",
       "id": "*/horde4",
+      "name": "demon - horde - 4",
       "deprecatedIDs": [
         "samuraiSliceWii/horde4"
       ],
-      "name": "demon - horde - 4",
       "duration": 0.33333
     },
     {
       "type": "cue",
+      "id": "*/whirlStart",
+      "name": "samuraiSliceFever/whirlStart",
+      "deprecatedIDs": [],
+      "duration": 10.0
+    },
+    {
+      "type": "cue",
       "id": "*/whirl1",
+      "name": "samurai - whirl - 1",
       "deprecatedIDs": [
         "samuraiSliceWii/whirl1"
       ],
-      "name": "samurai - whirl - 1",
-      "duration": 1.0
+      "duration": 1.0,
+      "introSound": "*/whirlStart",
+      "loops": true
     },
     {
       "type": "cue",
       "id": "*/whirl2",
+      "name": "samurai - whirl - 2",
       "deprecatedIDs": [
         "samuraiSliceWii/whirl2"
       ],
-      "name": "samurai - whirl - 2",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/lightning1",
-      "deprecatedIDs": [],
       "name": "lightning - 1",
+      "deprecatedIDs": [],
       "duration": 1.0
     },
-	{
+    {
       "type": "cue",
       "id": "*/lightning2",
-      "deprecatedIDs": [],
       "name": "lightning - 2",
+      "deprecatedIDs": [],
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/lightningHorde",
-      "deprecatedIDs": [],
       "name": "lightning - horde",
+      "deprecatedIDs": [],
       "duration": 1.0
     },
     {
       "type": "pattern",
       "id": "*_demonSmall",
+      "name": "small demon",
       "deprecatedIDs": [
         "samuraiSliceWii_demonSmall"
       ],
-      "name": "small demon",
       "cues": [
         {
           "id": "*/demonSmall1",
@@ -254,10 +263,10 @@
     {
       "type": "pattern",
       "id": "*_doubleDemonSmall",
+      "name": "double small demon",
       "deprecatedIDs": [
         "samuraiSliceWii_doubleDemonSmall"
       ],
-      "name": "double small demon",
       "cues": [
         {
           "id": "*/demonSmall1",
@@ -300,10 +309,10 @@
     {
       "type": "pattern",
       "id": "*_demonMedium",
+      "name": "medium demon",
       "deprecatedIDs": [
         "samuraiSliceWii_demonMedium"
       ],
-      "name": "medium demon",
       "cues": [
         {
           "id": "*/demonMedium1",
@@ -326,10 +335,10 @@
     {
       "type": "pattern",
       "id": "*_doubleDemonMedium",
+      "name": "double medium demon",
       "deprecatedIDs": [
         "samuraiSliceWii_doubleDemonMedium"
       ],
-      "name": "double medium demon",
       "cues": [
         {
           "id": "*/demonMedium1",
@@ -372,10 +381,10 @@
     {
       "type": "pattern",
       "id": "*_demonBig",
+      "name": "big demon",
       "deprecatedIDs": [
         "samuraiSliceWii_demonBig"
       ],
-      "name": "big demon",
       "cues": [
         {
           "id": "*/demonBig1",
@@ -398,10 +407,10 @@
     {
       "type": "pattern",
       "id": "*_doubleDemonBig",
+      "name": "double big demon",
       "deprecatedIDs": [
         "samuraiSliceWii_doubleDemonBig"
       ],
-      "name": "double big demon",
       "cues": [
         {
           "id": "*/demonBig1",
@@ -444,10 +453,10 @@
     {
       "type": "pattern",
       "id": "*_demonHuge",
+      "name": "huge demon",
       "deprecatedIDs": [
         "samuraiSliceWii_demonHuge"
       ],
-      "name": "huge demon",
       "cues": [
         {
           "id": "*/demonHuge1",
@@ -465,53 +474,52 @@
           "id": "*/slice",
           "beat": 2.0
         }
-      ] 
-    },    
-	{      
-	  "type" : "pattern",
-	  "id" : "*_demonHugeLightning",
-	  "deprecatedIDs" : [ ],
-	  "name" : "huge demon (lightning)",
-	  "stretchable" : false,
-	  "cues" : [ 
-		{
-		  "id" : "*/demonHuge1",
-		  "beat" : 0.0,
-		  "duration" : 0.5,
-		  "track" : 1
-		},
-		{
-		  "id" : "*/demonHuge2",
-		  "beat" : 0.5,
-		  "duration" : 0.5,
-		  "track" : 1
-		},
-		{
-		  "id" : "*/demonHuge3",
-		  "beat" : 1.0,
-		  "duration" : 0.5,
-		  "track" : 1
-		}, 
-		{
-		  "id" : "*/slice",
-		  "beat" : 2.0,
-		  "duration" : 0.5,
-		  "track" : 1
-		}, 
-		{
-		  "id" : "*/lightning1",
-		  "beat" : 2.0,
-		  "duration" : 0.5
-		}
-	  ]	
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_demonHugeLightning",
+      "name": "huge demon (lightning)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/demonHuge1",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/demonHuge2",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/demonHuge3",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/slice",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/lightning1",
+          "beat": 2.0,
+          "duration": 0.5
+        }
+      ]
     },
     {
       "type": "pattern",
       "id": "*_doubleDemonHuge",
+      "name": "double huge demon",
       "deprecatedIDs": [
         "samuraiSliceWii_doubleDemonHuge"
       ],
-      "name": "double huge demon",
       "cues": [
         {
           "id": "*/demonHuge1",
@@ -551,81 +559,80 @@
         }
       ]
     },
-	{
-	  "type" : "pattern",
-	  "id" : "*_doubleDemonHugeLightning",
-	  "deprecatedIDs" : [ ],
-	  "name" : "double huge demon (lightning)",
-	  "stretchable" : false,
-	  "cues" : [ 
-	    {
-		  "id" : "*/demonHuge1",
-		  "beat" : 0.0,
-		  "duration" : 0.5,
-		  "track" : 1
-		}, 
-		{
-		  "id" : "*/demonHuge2",
-		  "beat" : 0.5,
-		  "duration" : 0.5,
-		  "track" : 1
-		},
-		{
-		  "id" : "*/demonHuge3",
-		  "beat" : 1.0,
-		  "duration" : 0.5,
-		  "track" : 1
-		},
-		{
-		  "id" : "*/demonHuge1",
-		  "beat" : 1.0,
-		  "duration" : 0.5,
-		  "track" : 2
-		},
-		{
-		  "id" : "*/demonHuge2",
-		  "beat" : 1.5,
-		  "duration" : 0.5,
-		  "track" : 2
-		},
-		{
-		  "id" : "*/slice",
-		  "beat" : 2.0,
-		  "duration" : 0.5,
-		  "track" : 1
-		},
-		{
-		  "id" : "*/demonHuge3",
-		  "beat" : 2.0,
-		  "duration" : 0.5,
-		  "track" : 2
-		},
-		{
-		  "id" : "*/lightning1",
-		  "beat" : 2.0,
-		  "duration" : 1.0
-		},
-		{
-		  "id" : "*/sliceDouble",
-		  "beat" : 3.0,
-		  "duration" : 0.5,
-		  "track" : 2
-		},
-		{
-		  "id" : "*/lightning2",
-		  "beat" : 3.0,
-		  "duration" : 0.5,
-		  "track" : 1
-		}
-	  ]
+    {
+      "type": "pattern",
+      "id": "*_doubleDemonHugeLightning",
+      "name": "double huge demon (lightning)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/demonHuge1",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/demonHuge2",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/demonHuge3",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/demonHuge1",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 2
+        },
+        {
+          "id": "*/demonHuge2",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 2
+        },
+        {
+          "id": "*/slice",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/demonHuge3",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 2
+        },
+        {
+          "id": "*/lightning1",
+          "beat": 2.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/sliceDouble",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 2
+        },
+        {
+          "id": "*/lightning2",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
+        }
+      ]
     },
     {
       "type": "pattern",
       "id": "*_demonHorde",
+      "name": "horde of demons",
       "deprecatedIDs": [
         "samuraiSliceWii_demonHorde"
       ],
-      "name": "horde of demons",
       "cues": [
         {
           "id": "*/horde1",
@@ -651,56 +658,55 @@
           "id": "*/whirl2",
           "beat": 3.0
         }
-	  ]
-	},
-	{
-      "type" : "pattern",
-	  "id" : "*_demonHordeLightning",
-	  "deprecatedIDs" : [ ],
-	  "name" : "horde of demons (lightning)",
-	  "stretchable" : false,
-	  "cues" : [ 
-		{
-		  "id" : "*/horde1",
-		  "beat" : 0.0,
-		  "duration" : 0.33333,
-		  "track" : 1
-		}, 
-		{
-		  "id" : "*/horde2",
-		  "beat" : 0.33333015,
-		  "duration" : 0.33333,
-	      "track" : 1
-		},
-		{
-		  "id" : "*/horde3",
-		  "beat" : 0.6666603,
-		  "duration" : 0.33333,
-		  "track" : 1
-		},
-		{
-		  "id" : "*/horde4",
-		  "beat" : 1.0,
-		  "duration" : 0.33333,
-		  "track" : 1
-		},
-		{
-		  "id" : "*/whirl1",
-		  "beat" : 2.0,
-		  "duration" : 1.0,
-		  "track" : 1
-		},
-		{
-		  "id" : "*/lightningHorde",
-		  "beat" : 3.0,
-		  "duration" : 1.0
-		},
-		{		
-		  "id" : "*/whirl2",
-		  "beat" : 3.0,
-		  "duration" : 1.0,
-		  "track" : 1
-		}
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_demonHordeLightning",
+      "name": "horde of demons (lightning)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/horde1",
+          "beat": 0.0,
+          "duration": 0.33333,
+          "track": 1
+        },
+        {
+          "id": "*/horde2",
+          "beat": 0.33333015,
+          "duration": 0.33333,
+          "track": 1
+        },
+        {
+          "id": "*/horde3",
+          "beat": 0.6666603,
+          "duration": 0.33333,
+          "track": 1
+        },
+        {
+          "id": "*/horde4",
+          "beat": 1.0,
+          "duration": 0.33333,
+          "track": 1
+        },
+        {
+          "id": "*/whirl1",
+          "beat": 2.0,
+          "duration": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/lightningHorde",
+          "beat": 3.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/whirl2",
+          "beat": 3.0,
+          "duration": 1.0,
+          "track": 1
+        }
       ]
     }
   ]

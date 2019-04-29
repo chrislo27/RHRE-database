@@ -4,7 +4,7 @@
   "name": "Donk-Donk (Japanese)",
   "group": "Donk-Donk",
   "objects": [
-   {
+    {
       "type": "cue",
       "id": "*/doors",
       "deprecatedIDs": [
@@ -111,7 +111,7 @@
       "name": "deet-deet-doot - 3",
       "duration": 0.666666
     },
-	{
+    {
       "type": "cue",
       "id": "*/donkdwonkNoBlast1",
       "deprecatedIDs": [
@@ -228,7 +228,7 @@
         }
       ]
     },
-	{
+    {
       "type": "pattern",
       "id": "*_donkdwonkNoBlast",
       "deprecatedIDs": [],
@@ -268,7 +268,8 @@
       "type": "pattern",
       "id": "*_tallDwonkame",
       "deprecatedIDs": [
-        "donkDonkJp_toastsaot", "donkDonkJa_toastsaot"
+        "donkDonkJp_toastsaot",
+        "donkDonkJa_toastsaot"
       ],
       "name": "DWONKAME!",
       "cues": [

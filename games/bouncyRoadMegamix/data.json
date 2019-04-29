@@ -29,65 +29,65 @@
       "cues": [
         {
           "id": "*/tink",
-		  "volume": 44
+          "volume": 44
         },
         {
           "id": "*/tink",
-		  "volume": 48
+          "volume": 48
         },
         {
           "id": "*/tink",
-		  "volume": 52
+          "volume": 52
         },
         {
           "id": "*/tink",
-		  "volume": 56
+          "volume": 56
         },
         {
           "id": "*/tink",
-		  "volume": 60
+          "volume": 60
         },
         {
           "id": "*/tink",
-		  "volume": 64
+          "volume": 64
         },
         {
           "id": "*/tink",
-		  "volume": 68
+          "volume": 68
         },
         {
           "id": "*/tink",
-		  "volume": 72
+          "volume": 72
         },
         {
           "id": "*/tink",
-		  "volume": 76
+          "volume": 76
         },
         {
           "id": "*/tink",
-		  "volume": 80
+          "volume": 80
         },
         {
           "id": "*/tink",
-		  "volume": 84
+          "volume": 84
         },
         {
           "id": "*/tink",
-		  "volume": 88
+          "volume": 88
         },
         {
           "id": "*/tink",
           "semitone": -4,
-		  "volume": 92
+          "volume": 92
         },
         {
           "id": "*/tink",
           "semitone": 3,
-		  "volume": 96
+          "volume": 96
         },
         {
           "id": "*/cymbal",
-		  "volume": 100
+          "volume": 100
         }
       ]
     }

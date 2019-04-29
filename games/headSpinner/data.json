@@ -2,7 +2,9 @@
   "series": "side",
   "id": "headSpinner",
   "name": "Head Spinner",
-  "searchHints": ["mannequin"],
+  "searchHints": [
+    "mannequin"
+  ],
   "objects": [
     {
       "type": "cue",

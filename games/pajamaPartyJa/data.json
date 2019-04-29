@@ -1,171 +1,171 @@
 {
-  "series": "megamix",
   "id": "pajamaPartyJa",
   "name": "Pajama Party (Japanese)",
+  "series": "megamix",
   "group": "Pajama Party",
   "priority": 1,
   "objects": [
     {
       "type": "cue",
       "id": "*/three1",
-      "deprecatedIDs": [],
       "name": "three - 1",
-      "duration": 0.5,
-	  "earliness": 0.01
+      "deprecatedIDs": [],
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/three2",
-      "deprecatedIDs": [],
       "name": "three - 2",
-      "duration": 0.5,
-	  "earliness": 0.02
+      "deprecatedIDs": [],
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/three3",
-      "deprecatedIDs": [],
       "name": "three - 3",
-      "duration": 0.5,
-	  "earliness": 0.03
+      "deprecatedIDs": [],
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/five1",
-      "deprecatedIDs": [],
       "name": "five - 1",
-      "duration": 0.5,
-	  "earliness": 0.01
+      "deprecatedIDs": [],
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/five2",
-      "deprecatedIDs": [],
       "name": "five - 2",
-      "duration": 0.5,
-	  "earliness": 0.01
+      "deprecatedIDs": [],
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/five3",
-      "deprecatedIDs": [],
       "name": "five - 3",
-      "duration": 0.5,
-	  "earliness": 0.025
+      "deprecatedIDs": [],
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/five4",
-      "deprecatedIDs": [],
       "name": "five - 4",
-      "duration": 0.5,
-	  "earliness": 0.03
+      "deprecatedIDs": [],
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/five5",
-      "deprecatedIDs": [],
       "name": "five - 5",
-      "duration": 1.0,
-	  "earliness": 0.04
+      "deprecatedIDs": [],
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/siesta1",
-      "deprecatedIDs": [],
       "name": "siesta - 1",
+      "deprecatedIDs": [],
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/siesta2",
-      "deprecatedIDs": [],
       "name": "siesta - 2",
+      "deprecatedIDs": [],
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/siesta3",
-      "deprecatedIDs": [],
       "name": "siesta - 3",
+      "deprecatedIDs": [],
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/siesta4",
-      "deprecatedIDs": [],
       "name": "siesta - 4",
+      "deprecatedIDs": [],
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/siesta5",
-      "deprecatedIDs": [],
       "name": "siesta - 5",
-      "duration": 0.5,
-	  "earliness": 0.02
+      "deprecatedIDs": [],
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/siesta6",
-      "deprecatedIDs": [],
       "name": "siesta - 6",
+      "deprecatedIDs": [],
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/throw1",
-      "deprecatedIDs": [],
       "name": "throw - 1",
+      "deprecatedIDs": [],
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/throw2",
-      "deprecatedIDs": [],
       "name": "throw - 2",
+      "deprecatedIDs": [],
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/throw3",
-      "deprecatedIDs": [],
       "name": "throw - 3",
+      "deprecatedIDs": [],
       "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/throw4Start",
+      "name": "throw - 4 - start",
+      "deprecatedIDs": [],
+      "duration": 9.5
     },
     {
       "type": "cue",
       "id": "*/throw4",
-      "deprecatedIDs": [],
       "name": "throw - 4",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "introSound": "*/throw4Start",
+      "loops": true
     },
     {
       "type": "cue",
       "id": "*/throw5",
-      "deprecatedIDs": [],
       "name": "throw - 5",
+      "deprecatedIDs": [],
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/throw6",
-      "deprecatedIDs": [],
       "name": "throw - 6",
+      "deprecatedIDs": [],
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/throw6b",
-      "deprecatedIDs": [],
       "name": "throw - 6 - (alternative)",
+      "deprecatedIDs": [],
       "duration": 0.5
     },
     {
       "type": "pattern",
       "id": "*_three",
-      "deprecatedIDs": [],
       "name": "three",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/three1",
@@ -184,8 +184,8 @@
     {
       "type": "pattern",
       "id": "*_five",
-      "deprecatedIDs": [],
       "name": "five",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/five1",
@@ -212,8 +212,8 @@
     {
       "type": "pattern",
       "id": "*_siesta",
-      "deprecatedIDs": [],
       "name": "siesta",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/siesta1",
@@ -244,8 +244,8 @@
     {
       "type": "pattern",
       "id": "*_throw",
-      "deprecatedIDs": [],
       "name": "throw pillow",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/throw1",
@@ -276,8 +276,8 @@
     {
       "type": "pattern",
       "id": "*_throwAlternative",
-      "deprecatedIDs": [],
       "name": "throw pillow - (alternative)",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/throw1",

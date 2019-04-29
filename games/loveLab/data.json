@@ -1,13 +1,13 @@
 {
-  "series": "ds",
   "id": "loveLab",
   "name": "Love Lab",
+  "series": "ds",
   "objects": [
     {
       "type": "cue",
       "id": "*/leftCatch",
-      "deprecatedIDs": [],
       "name": "left - catch",
+      "deprecatedIDs": [],
       "duration": 0.5,
       "responseIDs": [
         "*/rightCatch"
@@ -16,8 +16,8 @@
     {
       "type": "cue",
       "id": "*/leftThrow",
-      "deprecatedIDs": [],
       "name": "left - throw",
+      "deprecatedIDs": [],
       "duration": 0.5,
       "responseIDs": [
         "*/rightThrow"
@@ -26,8 +26,8 @@
     {
       "type": "cue",
       "id": "*/shake1",
-      "deprecatedIDs": [],
       "name": "shake - 1",
+      "deprecatedIDs": [],
       "duration": 0.25,
       "responseIDs": [
         "*/shake1"
@@ -36,8 +36,8 @@
     {
       "type": "cue",
       "id": "*/shake2",
-      "deprecatedIDs": [],
       "name": "shake - 2",
+      "deprecatedIDs": [],
       "duration": 0.25,
       "responseIDs": [
         "*/shake2"
@@ -46,47 +46,319 @@
     {
       "type": "cue",
       "id": "*/rightCatch",
-      "deprecatedIDs": [],
       "name": "right - catch",
+      "deprecatedIDs": [],
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/rightThrow",
-      "deprecatedIDs": [],
       "name": "right - throw",
+      "deprecatedIDs": [],
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/heartCombine",
-      "deprecatedIDs": [],
       "name": "heart - combine",
+      "deprecatedIDs": [],
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/heartBag",
-      "deprecatedIDs": [],
       "name": "heart - bag",
-      "repitchable": true,
-      "duration": 0.0625
+      "deprecatedIDs": [],
+      "duration": 0.0625,
+      "repitchable": true
     },
     {
       "type": "cue",
       "id": "*/heartBagLong",
-      "deprecatedIDs": [],
       "name": "heart - bag last",
-      "repitchable": true,
-      "duration": 0.0625
+      "deprecatedIDs": [],
+      "duration": 0.0625,
+      "repitchable": true
+    },
+    {
+      "type": "pattern",
+      "id": "*_1heart",
+      "name": "1 heart pattern",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/leftCatch",
+          "beat": 0.0
+        },
+        {
+          "id": "*/leftThrow",
+          "beat": 1.0
+        },
+        {
+          "id": "*/rightCatch",
+          "beat": 2.0
+        },
+        {
+          "id": "*/rightThrow",
+          "beat": 3.0
+        },
+        {
+          "id": "*/heartCombine",
+          "beat": 4.0
+        },
+        {
+          "id": "*/heartBagLong",
+          "beat": 5.25
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_1heartOffbeat",
+      "name": "1 heart offbeat pattern",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/leftCatch",
+          "beat": 0.0
+        },
+        {
+          "id": "*/leftThrow",
+          "beat": 0.5
+        },
+        {
+          "id": "*/rightCatch",
+          "beat": 2.0
+        },
+        {
+          "id": "*/rightThrow",
+          "beat": 2.5
+        },
+        {
+          "id": "*/heartCombine",
+          "beat": 3.5
+        },
+        {
+          "id": "*/heartBagLong",
+          "beat": 4.75
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_2heart",
+      "name": "2 heart pattern",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/leftCatch",
+          "beat": 0.0
+        },
+        {
+          "id": "*/shake1",
+          "beat": 0.5
+        },
+        {
+          "id": "*/shake2",
+          "beat": 0.75
+        },
+        {
+          "id": "*/leftThrow",
+          "beat": 1.0
+        },
+        {
+          "id": "*/rightCatch",
+          "beat": 2.0
+        },
+        {
+          "id": "*/shake1",
+          "beat": 2.5
+        },
+        {
+          "id": "*/shake2",
+          "beat": 2.75
+        },
+        {
+          "id": "*/rightThrow",
+          "beat": 3.0
+        },
+        {
+          "id": "*/heartCombine",
+          "beat": 4.0
+        },
+        {
+          "id": "*_heartPour2",
+          "beat": 5.25
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_3heart",
+      "name": "3 heart pattern",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/leftCatch",
+          "beat": 0.0
+        },
+        {
+          "id": "*/shake1",
+          "beat": 1.0
+        },
+        {
+          "id": "*/shake2",
+          "beat": 1.25
+        },
+        {
+          "id": "*/shake1",
+          "beat": 1.5
+        },
+        {
+          "id": "*/shake2",
+          "beat": 1.75
+        },
+        {
+          "id": "*/leftThrow",
+          "beat": 2.0
+        },
+        {
+          "id": "*/rightCatch",
+          "beat": 4.0
+        },
+        {
+          "id": "*/shake1",
+          "beat": 5.0
+        },
+        {
+          "id": "*/shake2",
+          "beat": 5.25
+        },
+        {
+          "id": "*/shake1",
+          "beat": 5.5
+        },
+        {
+          "id": "*/shake2",
+          "beat": 5.75
+        },
+        {
+          "id": "*/rightThrow",
+          "beat": 6.0
+        },
+        {
+          "id": "*/heartCombine",
+          "beat": 7.0
+        },
+        {
+          "id": "*_heartPour3",
+          "beat": 8.25
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_5heart",
+      "name": "5 heart pattern",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/leftCatch",
+          "beat": 0.0
+        },
+        {
+          "id": "*/shake1",
+          "beat": 0.5
+        },
+        {
+          "id": "*/shake2",
+          "beat": 0.75
+        },
+        {
+          "id": "*/shake1",
+          "beat": 1.0
+        },
+        {
+          "id": "*/shake2",
+          "beat": 1.25
+        },
+        {
+          "id": "*/shake1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/shake2",
+          "beat": 2.25
+        },
+        {
+          "id": "*/shake1",
+          "beat": 2.5
+        },
+        {
+          "id": "*/shake2",
+          "beat": 2.75
+        },
+        {
+          "id": "*/leftThrow",
+          "beat": 3.0
+        },
+        {
+          "id": "*/rightCatch",
+          "beat": 4.0
+        },
+        {
+          "id": "*/shake1",
+          "beat": 4.5
+        },
+        {
+          "id": "*/shake2",
+          "beat": 4.75
+        },
+        {
+          "id": "*/shake1",
+          "beat": 5.0
+        },
+        {
+          "id": "*/shake2",
+          "beat": 5.25
+        },
+        {
+          "id": "*/shake1",
+          "beat": 6.0
+        },
+        {
+          "id": "*/shake2",
+          "beat": 6.25
+        },
+        {
+          "id": "*/shake1",
+          "beat": 6.5
+        },
+        {
+          "id": "*/shake2",
+          "beat": 6.75
+        },
+        {
+          "id": "*/rightThrow",
+          "beat": 7.0
+        },
+        {
+          "id": "*/heartCombine",
+          "beat": 8.0
+        },
+        {
+          "id": "*_heartPour5",
+          "beat": 9.25
+        }
+      ]
     },
     {
       "type": "pattern",
       "id": "*_heartPour2",
+      "name": "2 hearts",
       "deprecatedIDs": [
         "loveLab/heartPour2"
       ],
-      "name": "2 hearts",
       "cues": [
         {
           "id": "*/heartBag",
@@ -94,18 +366,18 @@
         },
         {
           "id": "*/heartBagLong",
-          "semitone": 2,
-          "beat": 0.0625
+          "beat": 0.0625,
+          "semitone": 2
         }
       ]
     },
     {
       "type": "pattern",
       "id": "*_heartPour3",
+      "name": "3 hearts",
       "deprecatedIDs": [
         "loveLab/heartPour3"
       ],
-      "name": "3 hearts",
       "cues": [
         {
           "id": "*/heartBag",
@@ -113,23 +385,23 @@
         },
         {
           "id": "*/heartBag",
-          "semitone": 2,
-          "beat": 0.0625
+          "beat": 0.0625,
+          "semitone": 2
         },
         {
           "id": "*/heartBagLong",
-          "semitone": 4,
-          "beat": 0.125
+          "beat": 0.125,
+          "semitone": 4
         }
       ]
     },
     {
       "type": "pattern",
       "id": "*_heartPour4",
+      "name": "4 hearts",
       "deprecatedIDs": [
         "loveLab/heartPour4"
       ],
-      "name": "4 hearts",
       "cues": [
         {
           "id": "*/heartBag",
@@ -137,28 +409,28 @@
         },
         {
           "id": "*/heartBag",
-          "semitone": 2,
-          "beat": 0.0625
+          "beat": 0.0625,
+          "semitone": 2
         },
         {
           "id": "*/heartBag",
-          "semitone": 4,
-          "beat": 0.125
+          "beat": 0.125,
+          "semitone": 4
         },
         {
           "id": "*/heartBagLong",
-          "semitone": 7,
-          "beat": 0.1875
+          "beat": 0.1875,
+          "semitone": 7
         }
       ]
     },
     {
       "type": "pattern",
       "id": "*_heartPour5",
+      "name": "5 hearts",
       "deprecatedIDs": [
         "loveLab/heartPour5"
       ],
-      "name": "5 hearts",
       "cues": [
         {
           "id": "*/heartBag",
@@ -166,23 +438,23 @@
         },
         {
           "id": "*/heartBag",
-          "semitone": 2,
-          "beat": 0.0625
+          "beat": 0.0625,
+          "semitone": 2
         },
         {
           "id": "*/heartBag",
-          "semitone": 4,
-          "beat": 0.125
+          "beat": 0.125,
+          "semitone": 4
         },
         {
           "id": "*/heartBag",
-          "semitone": 7,
-          "beat": 0.1875
+          "beat": 0.1875,
+          "semitone": 7
         },
         {
           "id": "*/heartBagLong",
-          "semitone": 8,
-          "beat": 0.25
+          "beat": 0.25,
+          "semitone": 8
         }
       ]
     }

@@ -1,332 +1,402 @@
 {
-  "id" : "launchParty",
-  "name" : "Launch Party",
-  "series" : "fever",
-  "objects" : [ {
-    "type" : "cue",
-    "id" : "*/blueBlast",
-    "name" : "party cracker - blastoff",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/blueCount",
-    "name" : "party cracker - count",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333333,
-    "repitchable" : true
-  }, {
-    "type" : "cue",
-    "id" : "*/blueCountStart",
-    "name" : "party cracker - start count",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.333333,
-    "repitchable" : true
-  }, {
-    "type" : "cue",
-    "id" : "*/blueSetup",
-    "name" : "party cracker - startup",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/greenBlast",
-    "name" : "bell - blastoff",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/greenCount",
-    "name" : "bell - count",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.166666,
-    "repitchable" : true
-  }, {
-    "type" : "cue",
-    "id" : "*/greenCountEnd",
-    "name" : "bell - end count",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0,
-    "repitchable" : true
-  }, {
-    "type" : "cue",
-    "id" : "*/greenCountStart",
-    "name" : "bell - start count",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0,
-    "repitchable" : true
-  }, {
-    "type" : "cue",
-    "id" : "*/greenSetup",
-    "name" : "bell - startup",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/greyBlast",
-    "name" : "bowling pin - blastoff",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/greyCount",
-    "name" : "bowling pin - count",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0,
-    "repitchable" : true
-  }, {
-    "type" : "cue",
-    "id" : "*/greyFlute",
-    "name" : "bowling pin - flute",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.166666,
-    "repitchable" : true
-  }, {
-    "type" : "cue",
-    "id" : "*/greySetup",
-    "name" : "bowling pin - startup",
-    "deprecatedIDs" : [ ],
-    "duration" : 2.0
-  }, {
-    "type" : "cue",
-    "id" : "*/redBlast",
-    "name" : "rocket - blastoff",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/redCount",
-    "name" : "rocket - count",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0,
-    "repitchable" : true
-  }, {
-    "type" : "cue",
-    "id" : "*/redSetup",
-    "name" : "rocket - startup",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0
-  }, {
-    "type" : "pattern",
-    "id" : "*_redRocket",
-    "name" : "red rocket (rocket)",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/redCount",
-      "beat" : 0.0,
-	  "semitone" : 2,
-	  "track" : 1
-    }, {
-      "id" : "*/redCount",
-      "beat" : 1.0,
-      "semitone" : 4,
-	  "track" : 1
-    }, {
-      "id" : "*/redCount",
-      "beat" : 2.0,
-      "semitone" : 5,
-	  "track" : 1
-    }, {
-      "id" : "*/redCount",
-      "beat" : 3.0,
-      "semitone" : 7,
-	  "track" : 1
-    }, {
-      "id" : "*/redSetup",
-	  "beat" : 0.0,
-      "track" : 0
-    }, {
-      "id" : "*/redBlast",
-      "beat" : 3.0,
-      "track" : 0
-    } ]
-  }, {
-    "type" : "pattern",
-    "id" : "*_bluePartyCracker",
-    "name" : "blue rocket (party cracker)",
-    "deprecatedIDs" : [ "launchParty_blueRocket" ],
-    "cues" : [ {
-      "id" : "*/blueCountStart",
-	  "beat" : 0.0,
-      "semitone" : 4,
-	  "track" : 1
-    }, {
-      "id" : "*/blueCount",
-	  "beat" : 0.666666,
-      "semitone" : 5,
-	  "track" : 1
-    }, {
-      "id" : "*/blueCount",
-	  "beat" : 1.0,
-      "semitone" : 7,
-	  "track" : 1
-    }, {
-      "id" : "*/blueCount",
-	  "beat" : 1.333333,
-      "semitone" : 9,
-	  "track" : 1
-    }, {
-      "id" : "*/blueCount",
-	  "beat" : 1.666666,
-      "semitone" : 11,
-	  "track" : 1
-    }, {
-      "id" : "*/blueCount",
-      "beat" : 2.0,
-      "semitone" : 12,
-	  "track" : 1
-    }, {
-      "id" : "*/blueSetup",
-	  "beat" : 0.0,
-      "track" : 0
-    }, {
-      "id" : "*/blueBlast",
-      "beat" : 2.0,
-      "track" : 0
-    } ]
-  }, {
-    "type" : "pattern",
-    "id" : "*_greenBell",
-    "name" : "green rocket (bell)",
-    "deprecatedIDs" : [ "launchParty_greenRocket" ],
-    "cues" : [ {
-      "id" : "*/greenCountStart",
-	  "beat" : 0.0,
-      "semitone" : 0,
-	  "track" : 1
-    }, {
-      "id" : "*/greenCount",
-      "beat" : 1.0,
-	  "semitone" : 2,
-	  "track" : 1
-    }, {
-      "id" : "*/greenCount",
-      "beat" : 1.166666,
-      "semitone" : 4,
-	  "track" : 1
-    }, {
-      "id" : "*/greenCount",
-      "beat" : 1.333333,
-      "semitone" : 5,
-	  "track" : 1
-    }, {
-      "id" : "*/greenCount",
-      "beat" : 1.5,
-      "semitone" : 7,
-	  "track" : 1
-    }, {
-      "id" : "*/greenCount",
-      "beat" : 1.666666,
-      "semitone" : 9,
-	  "track" : 1
-    }, {
-      "id" : "*/greenCount",
-      "beat" : 1.833333,
-      "semitone" : 11,
-	  "track" : 1
-    }, {
-      "id" : "*/greenCountEnd",
-      "beat" : 2.0,
-      "semitone" : 12,
-	  "track" : 1
-    }, {
-      "id" : "*/greenSetup",
-	  "beat" : 0.0,
-      "track" : 0
-    }, {
-      "id" : "*/greenBlast",
-      "beat" : 2.0,
-      "track" : 0
-    } ]
-  }, {
-    "type" : "pattern",
-    "id" : "*_greyBowlingPin",
-    "name" : "grey rocket (bowling pin)",
-    "deprecatedIDs" : [ "launchParty_grayRocket" ],
-    "cues" : [ {
-      "id" : "*/greyCount",
-	  "beat" : 0.0,
-      "semitone" : 5,
-	  "track" : 2
-    }, {
-      "id" : "*/greyCount",
-      "beat" : 2.0,
-      "semitone" : 7,
-	  "track" : 2
-    }, {
-      "id" : "*/greySetup",
-      "beat" : 0.0,
-      "track" : 1
-    }, {
-      "id" : "*/greyBlast",
-      "beat" : 2.0,
-      "track" : 1
-    }, {
-      "id" : "*/greyFlute",
-	  "beat" : 0.333333,
-	  "semitone" : -1,
-	  "volume" : 30,
-      "track" : 0
-    }, {
-      "id" : "*/greyFlute",
-      "beat" : 0.5,
-	  "semitone" : 0,
-	  "volume" : 37,
-      "track" : 0
-    }, {
-      "id" : "*/greyFlute",
-	  "beat" : 0.666666,
-	  "semitone" : -1,
-	  "volume" : 44,
-      "track" : 0
-    }, {
-      "id" : "*/greyFlute",
-	  "beat" : 0.833333,
-	  "semitone" : 0,
-	  "volume" : 51,
-      "track" : 0
-    }, {
-      "id" : "*/greyFlute",
-	  "beat" : 1.0,
-	  "semitone" : -1,
-	  "volume" : 58,
-      "track" : 0
-    }, {
-      "id" : "*/greyFlute",
-	  "beat" : 1.166666,
-	  "semitone" : 0,
-	  "volume" : 65,
-      "track" : 0
-    }, {
-      "id" : "*/greyFlute",
-	  "beat" : 1.333333,
-	  "semitone" : -1,
-	  "volume" : 72,
-      "track" : 0
-    }, {
-      "id" : "*/greyFlute",
-	  "beat" : 1.5,
-	  "semitone" : 0,
-	  "volume" : 79,
-      "track" : 0
-    }, {
-      "id" : "*/greyFlute",
-	  "beat" : 1.666666,
-	  "semitone" : -1,
-	  "volume" : 86,
-      "track" : 0
-    }, {
-      "id" : "*/greyFlute",
-	  "beat" : 1.833333,
-	  "semitone" : 0,
-	  "volume" : 93,
-      "track" : 0
-    }, {
-      "id" : "*/greyFlute",
-      "beat" : 2.0,
-	  "semitone" : 2,
-	  "volume" : 100,
-      "track" : 0
-    } ]
-  } ]
+  "id": "launchParty",
+  "name": "Launch Party",
+  "series": "fever",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/blueBlast",
+      "name": "party cracker - blastoff",
+      "deprecatedIDs": [],
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/blueCount",
+      "name": "party cracker - count",
+      "deprecatedIDs": [],
+      "duration": 0.333333,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "*/blueCountStart",
+      "name": "party cracker - start count",
+      "deprecatedIDs": [],
+      "duration": 0.333333,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "*/blueSetup",
+      "name": "party cracker - startup",
+      "deprecatedIDs": [],
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/greenBlast",
+      "name": "bell - blastoff",
+      "deprecatedIDs": [],
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/greenCount",
+      "name": "bell - count",
+      "deprecatedIDs": [],
+      "duration": 0.166666,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "*/greenCountEnd",
+      "name": "bell - end count",
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "*/greenCountStart",
+      "name": "bell - start count",
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "*/greenSetup",
+      "name": "bell - startup",
+      "deprecatedIDs": [],
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/greyBlast",
+      "name": "bowling pin - blastoff",
+      "deprecatedIDs": [],
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/greyCount",
+      "name": "bowling pin - count",
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "*/greyFlute",
+      "name": "bowling pin - flute",
+      "deprecatedIDs": [],
+      "duration": 0.166666,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "*/greySetup",
+      "name": "bowling pin - startup",
+      "deprecatedIDs": [],
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/redBlast",
+      "name": "rocket - blastoff",
+      "deprecatedIDs": [],
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/redCount",
+      "name": "rocket - count",
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "*/redSetup",
+      "name": "rocket - startup",
+      "deprecatedIDs": [],
+      "duration": 1.0
+    },
+    {
+      "type": "pattern",
+      "id": "*_redRocket",
+      "name": "red rocket (rocket)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/redCount",
+          "beat": 0.0,
+          "semitone": 2,
+          "track": 1
+        },
+        {
+          "id": "*/redCount",
+          "beat": 1.0,
+          "semitone": 4,
+          "track": 1
+        },
+        {
+          "id": "*/redCount",
+          "beat": 2.0,
+          "semitone": 5,
+          "track": 1
+        },
+        {
+          "id": "*/redCount",
+          "beat": 3.0,
+          "semitone": 7,
+          "track": 1
+        },
+        {
+          "id": "*/redSetup",
+          "beat": 0.0,
+          "track": 0
+        },
+        {
+          "id": "*/redBlast",
+          "beat": 3.0,
+          "track": 0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_bluePartyCracker",
+      "name": "blue rocket (party cracker)",
+      "deprecatedIDs": [
+        "launchParty_blueRocket"
+      ],
+      "cues": [
+        {
+          "id": "*/blueCountStart",
+          "beat": 0.0,
+          "semitone": 4,
+          "track": 1
+        },
+        {
+          "id": "*/blueCount",
+          "beat": 0.666666,
+          "semitone": 5,
+          "track": 1
+        },
+        {
+          "id": "*/blueCount",
+          "beat": 1.0,
+          "semitone": 7,
+          "track": 1
+        },
+        {
+          "id": "*/blueCount",
+          "beat": 1.333333,
+          "semitone": 9,
+          "track": 1
+        },
+        {
+          "id": "*/blueCount",
+          "beat": 1.666666,
+          "semitone": 11,
+          "track": 1
+        },
+        {
+          "id": "*/blueCount",
+          "beat": 2.0,
+          "semitone": 12,
+          "track": 1
+        },
+        {
+          "id": "*/blueSetup",
+          "beat": 0.0,
+          "track": 0
+        },
+        {
+          "id": "*/blueBlast",
+          "beat": 2.0,
+          "track": 0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_greenBell",
+      "name": "green rocket (bell)",
+      "deprecatedIDs": [
+        "launchParty_greenRocket"
+      ],
+      "cues": [
+        {
+          "id": "*/greenCountStart",
+          "beat": 0.0,
+          "semitone": 0,
+          "track": 1
+        },
+        {
+          "id": "*/greenCount",
+          "beat": 1.0,
+          "semitone": 2,
+          "track": 1
+        },
+        {
+          "id": "*/greenCount",
+          "beat": 1.166666,
+          "semitone": 4,
+          "track": 1
+        },
+        {
+          "id": "*/greenCount",
+          "beat": 1.333333,
+          "semitone": 5,
+          "track": 1
+        },
+        {
+          "id": "*/greenCount",
+          "beat": 1.5,
+          "semitone": 7,
+          "track": 1
+        },
+        {
+          "id": "*/greenCount",
+          "beat": 1.666666,
+          "semitone": 9,
+          "track": 1
+        },
+        {
+          "id": "*/greenCount",
+          "beat": 1.833333,
+          "semitone": 11,
+          "track": 1
+        },
+        {
+          "id": "*/greenCountEnd",
+          "beat": 2.0,
+          "semitone": 12,
+          "track": 1
+        },
+        {
+          "id": "*/greenSetup",
+          "beat": 0.0,
+          "track": 0
+        },
+        {
+          "id": "*/greenBlast",
+          "beat": 2.0,
+          "track": 0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_greyBowlingPin",
+      "name": "grey rocket (bowling pin)",
+      "deprecatedIDs": [
+        "launchParty_grayRocket"
+      ],
+      "cues": [
+        {
+          "id": "*/greyCount",
+          "beat": 0.0,
+          "semitone": 5,
+          "track": 2
+        },
+        {
+          "id": "*/greyCount",
+          "beat": 2.0,
+          "semitone": 7,
+          "track": 2
+        },
+        {
+          "id": "*/greySetup",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/greyBlast",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/greyFlute",
+          "beat": 0.333333,
+          "semitone": -1,
+          "volume": 30,
+          "track": 0
+        },
+        {
+          "id": "*/greyFlute",
+          "beat": 0.5,
+          "semitone": 0,
+          "volume": 37,
+          "track": 0
+        },
+        {
+          "id": "*/greyFlute",
+          "beat": 0.666666,
+          "semitone": -1,
+          "volume": 44,
+          "track": 0
+        },
+        {
+          "id": "*/greyFlute",
+          "beat": 0.833333,
+          "semitone": 0,
+          "volume": 51,
+          "track": 0
+        },
+        {
+          "id": "*/greyFlute",
+          "beat": 1.0,
+          "semitone": -1,
+          "volume": 58,
+          "track": 0
+        },
+        {
+          "id": "*/greyFlute",
+          "beat": 1.166666,
+          "semitone": 0,
+          "volume": 65,
+          "track": 0
+        },
+        {
+          "id": "*/greyFlute",
+          "beat": 1.333333,
+          "semitone": -1,
+          "volume": 72,
+          "track": 0
+        },
+        {
+          "id": "*/greyFlute",
+          "beat": 1.5,
+          "semitone": 0,
+          "volume": 79,
+          "track": 0
+        },
+        {
+          "id": "*/greyFlute",
+          "beat": 1.666666,
+          "semitone": -1,
+          "volume": 86,
+          "track": 0
+        },
+        {
+          "id": "*/greyFlute",
+          "beat": 1.833333,
+          "semitone": 0,
+          "volume": 93,
+          "track": 0
+        },
+        {
+          "id": "*/greyFlute",
+          "beat": 2.0,
+          "semitone": 2,
+          "volume": 100,
+          "track": 0
+        }
+      ]
+    }
+  ]
 }

@@ -82,7 +82,7 @@
       "duration": 1.0
     },
     {
-	  "type": "cue",
+      "type": "cue",
       "id": "*/splash2",
       "deprecatedIDs": [],
       "name": "splash - player",
@@ -96,7 +96,7 @@
       "duration": 2.0
     },
     {
-	  "type": "cue",
+      "type": "cue",
       "id": "*/ooohRemix9",
       "deprecatedIDs": [],
       "name": "ohhhhh (Remix 9)",
@@ -170,21 +170,21 @@
         {
           "id": "*/jump1",
           "beat": 0.0,
-		  "track": 1
-		},
+          "track": 1
+        },
         {
-		  "id": "*/yeah",
-		  "beat": 0.0
+          "id": "*/yeah",
+          "beat": 0.0
         },
         {
           "id": "*/spin1",
           "beat": 1.0,
-		  "track": 1
+          "track": 1
         },
         {
           "id": "*/splash1",
           "beat": 1.75,
-		  "track": 1
+          "track": 1
         }
       ]
     },
@@ -197,21 +197,21 @@
         {
           "id": "*/jump2",
           "beat": 0.0,
-		  "track": 1
-		},
+          "track": 1
+        },
         {
-		  "id": "*/yeah",
-		  "beat": 0.0
+          "id": "*/yeah",
+          "beat": 0.0
         },
         {
           "id": "*/spin2",
           "beat": 1.0,
-		  "track": 1
+          "track": 1
         },
         {
           "id": "*/splash2",
           "beat": 1.75,
-		  "track": 1
+          "track": 1
         }
       ]
     },
@@ -224,12 +224,12 @@
         {
           "id": "*/oooh",
           "beat": 0.0,
-		  "track": 1
+          "track": 1
         },
         {
           "id": "*/jump1",
           "beat": 2.0,
-		  "track": 1
+          "track": 1
         },
         {
           "id": "*/jump2",
@@ -238,8 +238,8 @@
         {
           "id": "*/spin1",
           "beat": 3.0,
-		  "track": 1
-		},
+          "track": 1
+        },
         {
           "id": "*/spin2",
           "beat": 3.0
@@ -247,12 +247,11 @@
         {
           "id": "*/splash1",
           "beat": 3.75,
-		  "track": 1
-		},
+          "track": 1
+        },
         {
           "id": "*/splash2",
           "beat": 3.75
-		  
         }
       ]
     },
@@ -265,22 +264,22 @@
         {
           "id": "*/ooohRemix9",
           "beat": 0.0,
-		  "track": 1
+          "track": 1
         },
         {
           "id": "*/jump1",
           "beat": 1.0,
-		  "track": 1
+          "track": 1
         },
         {
           "id": "*/jump2",
           "beat": 1.0
         },
         {
-		  "id": "*/spin1",
+          "id": "*/spin1",
           "beat": 2.0,
-		  "track": 1
-		},
+          "track": 1
+        },
         {
           "id": "*/spin2",
           "beat": 2.0
@@ -288,8 +287,8 @@
         {
           "id": "*/splash1",
           "beat": 2.75,
-		  "track": 1
-		},
+          "track": 1
+        },
         {
           "id": "*/splash2",
           "beat": 2.75
@@ -305,17 +304,17 @@
         {
           "id": "*/oooh",
           "beat": 0.0,
-		  "track": 2
+          "track": 2
         },
         {
           "id": "*/jump1",
           "beat": 2.0,
-		  "track": 2
+          "track": 2
         },
         {
           "id": "*/jump2",
           "beat": 2.0,
-		  "track": 1
+          "track": 1
         },
         {
           "id": "*/alleyoop1",
@@ -332,12 +331,12 @@
         {
           "id": "*/splash1",
           "beat": 3.75,
-		  "track": 2
-		},
+          "track": 2
+        },
         {
           "id": "*/splash2",
           "beat": 3.75,
-		  "track": 1
+          "track": 1
         }
       ]
     }

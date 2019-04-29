@@ -1,0 +1,310 @@
+{
+  "series": "ds",
+  "id": "frogHopFr",
+  "name": "Frog Hop (DS) (French)",
+  "group": "Frog Hop (DS)",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/un",
+      "deprecatedIDs": [],
+      "name": "countin - 1",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/deux",
+      "deprecatedIDs": [],
+      "name": "countin - 2",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/trois",
+      "deprecatedIDs": [],
+      "name": "countin - 3",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/quatre",
+      "deprecatedIDs": [],
+      "name": "countin - 4",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/shake",
+      "deprecatedIDs": [],
+      "name": "shake",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/yahoo1",
+      "deprecatedIDs": [],
+      "name": "yahoo - lead - ya-",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/yahoo2",
+      "deprecatedIDs": [],
+      "name": "yahoo - lead - -hoo!",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/yahoo3",
+      "deprecatedIDs": [],
+      "name": "yahoo - backup - ya-",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/yahoo4",
+      "deprecatedIDs": [],
+      "name": "yahoo - backup - -hoo!",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/yeah1",
+      "deprecatedIDs": [],
+      "name": "yeah yeah yeah - lead - yeah",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/yeah2",
+      "deprecatedIDs": [],
+      "name": "yeah yeah yeah - backup - yeah",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/unptittour1",
+      "deprecatedIDs": [],
+      "name": "un p'tit tour - lead - un",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/unptittour2",
+      "deprecatedIDs": [],
+      "name": "un p'tit tour - lead - p'tit",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/unptittour3",
+      "deprecatedIDs": [],
+      "name": "un p'tit tour - lead - tour",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/unptittour4",
+      "deprecatedIDs": [],
+      "name": "un p'tit tour - backup - un",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/unptittour5",
+      "deprecatedIDs": [],
+      "name": "un p'tit tour - backup - p'tit",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/unptittour6",
+      "deprecatedIDs": [],
+      "name": "un p'tit tour - backup - tour",
+      "duration": 0.5
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_shake",
+      "deprecatedIDs": [],
+      "name": "shake",
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/shake",
+          "beat": 0.0
+        },
+        {
+          "id": "*/shake",
+          "beat": 1.0
+        },
+        {
+          "id": "*/shake",
+          "beat": 2.0
+        },
+        {
+          "id": "*/shake",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_yahoo",
+      "deprecatedIDs": [],
+      "name": "yahoo",
+      "cues": [
+        {
+          "id": "*/yahoo1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/shake",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/yahoo2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/shake",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/yahoo3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/yahoo4",
+          "beat": 2.5
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_yeahyeahyeah",
+      "deprecatedIDs": [],
+      "name": "yeah yeah yeah",
+      "cues": [
+        {
+          "id": "*/yeah1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/shake",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/yeah1",
+          "beat": 0.5
+        },
+        {
+          "id": "*/yeah1",
+          "beat": 1.0
+        },
+        {
+          "id": "*/shake",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/yeah2",
+          "beat": 2.0
+        },
+        {
+          "id": "*/yeah2",
+          "beat": 2.5
+        },
+        {
+          "id": "*/yeah2",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_unptittour",
+      "deprecatedIDs": [],
+      "name": "spin it boys!",
+      "cues": [
+        {
+          "id": "*/unptittour1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/shake",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/shake",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/unptittour2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/unptittour3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/unptittour4",
+          "beat": 2.0
+        },
+        {
+          "id": "*/unptittour5",
+          "beat": 2.5
+        },
+        {
+          "id": "*/unptittour6",
+          "beat": 3.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_2BeatCountIn",
+      "deprecatedIDs": [],
+      "name": "2-beat count-in",
+      "cues": [
+        {
+          "id": "*/trois",
+          "beat": 0.0
+        },
+        {
+          "id": "*/quatre",
+          "beat": 1.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_4BeatCountIn",
+      "deprecatedIDs": [],
+      "name": "4-beat count-in",
+      "cues": [
+        {
+          "id": "*/un",
+          "beat": 0.0
+        },
+        {
+          "id": "*/deux",
+          "beat": 1.0
+        },
+        {
+          "id": "*/trois",
+          "beat": 2.0
+        },
+        {
+          "id": "*/quatre",
+          "beat": 3.0
+        }
+      ]
+    }
+  ]
+}

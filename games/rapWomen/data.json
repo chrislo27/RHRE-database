@@ -1,419 +1,426 @@
 {
-  "series": "tengoku",
   "id": "rapWomen",
   "name": "Rap Women",
+  "series": "tengoku",
   "objects": [
     {
       "type": "cue",
       "id": "*/yeah",
-      "deprecatedIDs": [],
       "name": "yeah",
+      "deprecatedIDs": [],
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/desu",
+      "id": "*/desuka1",
+      "name": "desu ka - desu",
       "deprecatedIDs": [],
-      "name": "desu-",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/ka",
+      "id": "*/desuka2",
+      "name": "desu ka - ka?",
       "deprecatedIDs": [],
-      "name": "-ka?",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/yo",
+      "name": "yo",
       "deprecatedIDs": [],
-      "name": "yo,",
       "duration": 0.75
     },
     {
       "type": "cue",
       "id": "*/juji1",
+      "name": "juji desu ka - ju",
       "deprecatedIDs": [],
-      "name": "ju-",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/juji2",
+      "name": "juji desu ka - ji",
       "deprecatedIDs": [],
-      "name": "ji",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/oyatsudesuka1",
-      "deprecatedIDs": [],
       "name": "oyatsu desu ka - o",
+      "deprecatedIDs": [],
       "duration": 0.125
     },
     {
       "type": "cue",
       "id": "*/oyatsudesuka2",
-      "deprecatedIDs": [],
       "name": "oyatsu desu ka - yatsu",
+      "deprecatedIDs": [],
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/naishodesuka1",
-      "deprecatedIDs": [],
       "name": "naisho desu ka - nai",
+      "deprecatedIDs": [],
       "duration": 0.375
     },
     {
       "type": "cue",
       "id": "*/naishodesuka2",
-      "deprecatedIDs": [],
       "name": "naisho desu ka - sho",
-      "duration": 0.125
+      "deprecatedIDs": [],
+      "duration": 0.188
     },
     {
       "type": "cue",
       "id": "*/naishodesuka3",
-      "deprecatedIDs": [],
       "name": "naisho desu ka - desu",
-      "duration": 0.25
+      "deprecatedIDs": [],
+      "duration": 0.188
     },
     {
       "type": "cue",
       "id": "*/naishodesuka4",
-      "deprecatedIDs": [],
       "name": "naisho desu ka - ka?",
-      "duration": 0.25
+      "deprecatedIDs": [],
+      "duration": 0.281
     },
     {
       "type": "cue",
       "id": "*/kamone1",
-      "deprecatedIDs": [],
       "name": "kamone - ka",
+      "deprecatedIDs": [],
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/kamone2",
-      "deprecatedIDs": [],
       "name": "kamone - mo",
+      "deprecatedIDs": [],
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/kamone3",
-      "deprecatedIDs": [],
       "name": "kamone - ne?",
+      "deprecatedIDs": [],
       "duration": 0.75
     },
     {
       "type": "cue",
-      "id": "*/kare1",
-      "deprecatedIDs": [],
+      "id": "*/karenooyatsudane1",
       "name": "kare no oyatsu dane - ka",
-      "duration": 0.313
+      "deprecatedIDs": [],
+      "duration": 0.292
     },
     {
       "type": "cue",
-      "id": "*/kare2",
-      "deprecatedIDs": [],
+      "id": "*/karenooyatsudane2",
       "name": "kare no oyatsu dane - re",
-      "duration": 0.188
+      "deprecatedIDs": [],
+      "duration": 0.177
     },
     {
       "type": "cue",
-      "id": "*/kare3",
-      "deprecatedIDs": [],
+      "id": "*/karenooyatsudane3",
       "name": "kare no oyatsu dane - no",
-      "duration": 0.25
+      "deprecatedIDs": [],
+      "duration": 0.281
     },
     {
       "type": "cue",
-      "id": "*/kare4",
-      "deprecatedIDs": [],
+      "id": "*/karenooyatsudane4",
       "name": "kare no oyatsu dane - o",
+      "deprecatedIDs": [],
+      "duration": 0.219
+    },
+    {
+      "type": "cue",
+      "id": "*/karenooyatsudane5",
+      "name": "kare no oyatsu dane - ya",
+      "deprecatedIDs": [],
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/kare5",
+      "id": "*/karenooyatsudane6",
+      "name": "kare no oyatsu dane - tsu",
       "deprecatedIDs": [],
-      "name": "kare no oyatsu dane - yat",
-      "duration": 0.25
+      "duration": 0.219
     },
     {
       "type": "cue",
-      "id": "*/kare6",
-      "deprecatedIDs": [],
-      "name": "kare no oyatsu dane - su",
-      "duration": 0.188
-    },
-    {
-      "type": "cue",
-      "id": "*/dane1",
-      "deprecatedIDs": [],
+      "id": "*/karenooyatsudane7",
       "name": "kare no oyatsu dane - da-",
+      "deprecatedIDs": [],
       "duration": 0.313
     },
     {
       "type": "cue",
-      "id": "*/dane2",
-      "deprecatedIDs": [],
+      "id": "*/karenooyatsudane8",
       "name": "kare no oyatsu dane - ne",
+      "deprecatedIDs": [],
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/tabete1",
-      "deprecatedIDs": [],
       "name": "tabete ii - ta-",
+      "deprecatedIDs": [],
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/tabete2",
-      "deprecatedIDs": [],
       "name": "tabete ii - be-",
+      "deprecatedIDs": [],
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/tabete3",
-      "deprecatedIDs": [],
       "name": "tabete ii - te",
+      "deprecatedIDs": [],
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/tabete4",
-      "deprecatedIDs": [],
       "name": "tabete ii - ii",
+      "deprecatedIDs": [],
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/akete1",
-      "deprecatedIDs": [],
       "name": "akete ii - a-",
+      "deprecatedIDs": [],
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/akete2",
-      "deprecatedIDs": [],
       "name": "akete ii - ke-",
+      "deprecatedIDs": [],
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/akete3",
-      "deprecatedIDs": [],
       "name": "akete ii - te",
+      "deprecatedIDs": [],
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/akete4",
-      "deprecatedIDs": [],
       "name": "akete ii - ii",
+      "deprecatedIDs": [],
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/saiko1",
-      "deprecatedIDs": [],
       "name": "saiko - sai",
-      "duration": 0.5
+      "deprecatedIDs": [],
+      "duration": 0.438
     },
     {
       "type": "cue",
       "id": "*/saiko2",
-      "deprecatedIDs": [],
       "name": "saiko - ko!",
-      "duration": 0.5
+      "deprecatedIDs": [],
+      "duration": 0.594
     },
     {
       "type": "cue",
       "id": "*/oyatsusaiko1",
-      "deprecatedIDs": [],
       "name": "oyatsu saiko - o",
-      "duration": 0.188
+      "deprecatedIDs": [],
+      "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/oyatsusaiko2",
-      "deprecatedIDs": [],
       "name": "oyatsu saiko - ya",
-      "duration": 0.313
+      "deprecatedIDs": [],
+      "duration": 0.125
     },
     {
       "type": "cue",
       "id": "*/oyatsusaiko3",
-      "deprecatedIDs": [],
       "name": "oyatsu saiko - tsu",
-      "duration": 0.313
+      "deprecatedIDs": [],
+      "duration": 0.344
     },
     {
       "type": "cue",
       "id": "*/oyatsusaiko4",
-      "deprecatedIDs": [],
       "name": "oyatsu saiko - wa",
-      "duration": 0.188
+      "deprecatedIDs": [],
+      "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/amakute1",
-      "deprecatedIDs": [],
       "name": "amakute - a",
+      "deprecatedIDs": [],
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/amakute2",
-      "deprecatedIDs": [],
       "name": "amakute - ma",
-      "duration": 0.25
+      "deprecatedIDs": [],
+      "duration": 0.219
     },
     {
       "type": "cue",
       "id": "*/amakute3",
-      "deprecatedIDs": [],
       "name": "amakute - ku",
-      "duration": 0.25
+      "deprecatedIDs": [],
+      "duration": 0.281
     },
     {
       "type": "cue",
       "id": "*/amakute4",
-      "deprecatedIDs": [],
       "name": "amakute - te",
+      "deprecatedIDs": [],
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/naisho1",
-      "deprecatedIDs": [],
       "name": "naisho - nai",
-      "duration": 0.375
+      "deprecatedIDs": [],
+      "duration": 0.406
     },
     {
       "type": "cue",
       "id": "*/naisho2",
-      "deprecatedIDs": [],
       "name": "naisho - sho!",
-      "duration": 0.625
+      "deprecatedIDs": [],
+      "duration": 0.688
     },
     {
       "type": "cue",
       "id": "*/betsubara1",
+      "name": "betsubara - be",
       "deprecatedIDs": [],
-      "name": "betsubara - betsu",
-      "duration": 0.438
+      "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/betsubara2",
+      "name": "betsubara - tsu",
       "deprecatedIDs": [],
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/betsubara3",
       "name": "betsubara - bara",
-      "duration": 0.563
+      "deprecatedIDs": [],
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/kibun1",
-      "deprecatedIDs": [],
       "name": "kibun - ki",
+      "deprecatedIDs": [],
       "duration": 0.313
     },
     {
       "type": "cue",
       "id": "*/kibun2",
-      "deprecatedIDs": [],
       "name": "kibun - bun",
-      "duration": 0.563
+      "deprecatedIDs": [],
+      "duration": 0.48
     },
     {
       "type": "cue",
       "id": "*/kibun3",
-      "deprecatedIDs": [],
       "name": "kibun - wa",
-      "duration": 0.125
+      "deprecatedIDs": [],
+      "duration": 0.208
     },
     {
       "type": "cue",
       "id": "*/darenimo1",
-      "deprecatedIDs": [],
       "name": "dare ni mo - da",
+      "deprecatedIDs": [],
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/darenimo2",
-      "deprecatedIDs": [],
       "name": "dare ni mo - re",
-      "duration": 0.188
+      "deprecatedIDs": [],
+      "duration": 0.156
     },
     {
       "type": "cue",
       "id": "*/darenimo3",
-      "deprecatedIDs": [],
       "name": "dare ni mo - ni",
-      "duration": 0.25
+      "deprecatedIDs": [],
+      "duration": 0.344
     },
     {
       "type": "cue",
       "id": "*/darenimo4",
-      "deprecatedIDs": [],
       "name": "dare ni mo - mo",
-      "duration": 0.313
+      "deprecatedIDs": [],
+      "duration": 0.125
     },
     {
       "type": "cue",
       "id": "*/kareniwa1",
-      "deprecatedIDs": [],
       "name": "kare ni wa - ka",
-      "duration": 0.188
+      "deprecatedIDs": [],
+      "duration": 0.344
     },
     {
       "type": "cue",
       "id": "*/kareniwa2",
-      "deprecatedIDs": [],
       "name": "kare ni wa- re",
-      "duration": 0.25
+      "deprecatedIDs": [],
+      "duration": 0.125
     },
     {
       "type": "cue",
       "id": "*/kareniwa3",
-      "deprecatedIDs": [],
       "name": "kare ni wa - ni",
+      "deprecatedIDs": [],
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/kareniwa4",
+      "name": "kare ni wa - wa",
       "deprecatedIDs": [],
-      "name": "kare ni wa - was",
-      "duration": 0.313
+      "duration": 0.188
     },
     {
       "type": "cue",
       "id": "*/uh",
-      "deprecatedIDs": [],
       "name": "uh",
+      "deprecatedIDs": [],
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/uhn",
-      "deprecatedIDs": [],
       "name": "-UHN!",
+      "deprecatedIDs": [],
       "duration": 0.5
     },
     {
       "type": "pattern",
       "id": "*_jujidesuka",
-      "deprecatedIDs": [],
       "name": "yo, juji [CYAN]desu ka?[]",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/yo",
@@ -428,11 +435,11 @@
           "beat": 1.25
         },
         {
-          "id": "*/desu",
+          "id": "*/desuka1",
           "beat": 1.5
         },
         {
-          "id": "*/ka",
+          "id": "*/desuka2",
           "beat": 2.0
         },
         {
@@ -444,8 +451,8 @@
     {
       "type": "pattern",
       "id": "*_oyatsudesuka",
-      "deprecatedIDs": [],
       "name": "yo, oyatsu [CYAN]desu ka?[]",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/yo",
@@ -460,11 +467,11 @@
           "beat": 1.0
         },
         {
-          "id": "*/desu",
+          "id": "*/desuka1",
           "beat": 1.5
         },
         {
-          "id": "*/ka",
+          "id": "*/desuka2",
           "beat": 2.0
         },
         {
@@ -476,8 +483,8 @@
     {
       "type": "pattern",
       "id": "*_naishodesuka",
-      "deprecatedIDs": [],
       "name": "naisho [CYAN]desu ka?[]",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/naishodesuka1",
@@ -485,15 +492,15 @@
         },
         {
           "id": "*/naishodesuka2",
-          "beat": 0.375
+          "beat": 0.34375
         },
         {
           "id": "*/naishodesuka3",
-          "beat": 0.5
+          "beat": 0.53125
         },
         {
           "id": "*/naishodesuka4",
-          "beat": 0.75
+          "beat": 0.71875
         },
         {
           "id": "*/uh",
@@ -504,39 +511,39 @@
     {
       "type": "pattern",
       "id": "*_karenooaytsudane",
-      "deprecatedIDs": [],
       "name": "kare no oyatsu [PINK]dane?[]",
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/kare1",
+          "id": "*/karenooyatsudane1",
           "beat": 0.0
         },
         {
-          "id": "*/kare2",
-          "beat": 0.313
+          "id": "*/karenooyatsudane2",
+          "beat": 0.29166794
         },
         {
-          "id": "*/kare3",
-          "beat": 0.5
+          "id": "*/karenooyatsudane3",
+          "beat": 0.46875
         },
         {
-          "id": "*/kare4",
+          "id": "*/karenooyatsudane4",
           "beat": 0.75
         },
         {
-          "id": "*/kare5",
-          "beat": 1.0
+          "id": "*/karenooyatsudane5",
+          "beat": 0.96875
         },
         {
-          "id": "*/kare6",
-          "beat": 1.25
+          "id": "*/karenooyatsudane6",
+          "beat": 1.21875
         },
         {
-          "id": "*/dane1",
-          "beat": 1.438
+          "id": "*/karenooyatsudane7",
+          "beat": 1.4380035
         },
         {
-          "id": "*/dane2",
+          "id": "*/karenooyatsudane8",
           "beat": 1.75
         },
         {
@@ -552,8 +559,8 @@
     {
       "type": "pattern",
       "id": "*_aketeiikamone",
-      "deprecatedIDs": [],
       "name": "akete ii [PINK]kamone?[]",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/akete1",
@@ -596,8 +603,8 @@
     {
       "type": "pattern",
       "id": "*_tabetekamone",
-      "deprecatedIDs": [],
       "name": "tabete ii [PINK]kamone?[]",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/tabete1",
@@ -640,8 +647,8 @@
     {
       "type": "pattern",
       "id": "*_oyatsusaiko",
-      "deprecatedIDs": [],
       "name": "oyatsu wa [YELLOW]saiko!![]",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/oyatsusaiko1",
@@ -649,23 +656,25 @@
         },
         {
           "id": "*/oyatsusaiko2",
-          "beat": 0.188
+          "beat": 0.25
         },
         {
           "id": "*/oyatsusaiko3",
-          "beat": 0.5
+          "beat": 0.375
         },
         {
           "id": "*/oyatsusaiko4",
-          "beat": 0.813
+          "beat": 0.71875
         },
         {
           "id": "*/saiko1",
-          "beat": 1.0
+          "beat": 0.96875,
+          "duration": 0.438
         },
         {
           "id": "*/saiko2",
-          "beat": 1.5
+          "beat": 1.40625,
+          "duration": 0.594
         },
         {
           "id": "*/uh",
@@ -680,8 +689,8 @@
     {
       "type": "pattern",
       "id": "*_kibunsaiko",
-      "deprecatedIDs": [],
       "name": "kibun wa [YELLOW]saiko!![]",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/kibun1",
@@ -689,19 +698,21 @@
         },
         {
           "id": "*/kibun2",
-          "beat": 0.313
+          "beat": 0.31300354
         },
         {
           "id": "*/kibun3",
-          "beat": 0.875
+          "beat": 0.79167175
         },
         {
           "id": "*/saiko1",
-          "beat": 1.0
+          "beat": 1.0,
+          "duration": 0.406
         },
         {
           "id": "*/saiko2",
-          "beat": 1.5
+          "beat": 1.40625,
+          "duration": 0.594
         },
         {
           "id": "*/uh",
@@ -716,8 +727,8 @@
     {
       "type": "pattern",
       "id": "*_betsubarasaiko",
-      "deprecatedIDs": [],
       "name": "betsubara [YELLOW]saiko!![]",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/betsubara1",
@@ -725,7 +736,11 @@
         },
         {
           "id": "*/betsubara2",
-          "beat": 0.438
+          "beat": 0.25
+        },
+        {
+          "id": "*/betsubara3",
+          "beat": 0.5
         },
         {
           "id": "*/saiko1",
@@ -733,7 +748,7 @@
         },
         {
           "id": "*/saiko2",
-          "beat": 1.5
+          "beat": 1.4375
         },
         {
           "id": "*/uh",
@@ -748,8 +763,8 @@
     {
       "type": "pattern",
       "id": "*_amakutesaiko",
-      "deprecatedIDs": [],
       "name": "amakute [YELLOW]saiko!![]",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/amakute1",
@@ -761,7 +776,7 @@
         },
         {
           "id": "*/amakute3",
-          "beat": 0.5
+          "beat": 0.46875
         },
         {
           "id": "*/amakute4",
@@ -773,7 +788,7 @@
         },
         {
           "id": "*/saiko2",
-          "beat": 1.5
+          "beat": 1.4375
         },
         {
           "id": "*/uh",
@@ -788,8 +803,8 @@
     {
       "type": "pattern",
       "id": "*_kareniwanaisho",
-      "deprecatedIDs": [],
       "name": "kare ni wa [YELLOW]naisho!![]",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/kareniwa1",
@@ -797,23 +812,23 @@
         },
         {
           "id": "*/kareniwa2",
-          "beat": 0.183
+          "beat": 0.34375
         },
         {
           "id": "*/kareniwa3",
-          "beat": 0.438
+          "beat": 0.46875
         },
         {
           "id": "*/kareniwa4",
-          "beat": 0.688
+          "beat": 0.71875
         },
         {
           "id": "*/naisho1",
-          "beat": 1.0
+          "beat": 0.90599823
         },
         {
           "id": "*/naisho2",
-          "beat": 1.375
+          "beat": 1.3125
         },
         {
           "id": "*/uh",
@@ -828,8 +843,8 @@
     {
       "type": "pattern",
       "id": "*_darenimonaisho",
-      "deprecatedIDs": [],
       "name": "dare ni mo [YELLOW]naisho!![]",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/darenimo1",
@@ -841,19 +856,20 @@
         },
         {
           "id": "*/darenimo3",
-          "beat": 0.438
+          "beat": 0.40625
         },
         {
           "id": "*/darenimo4",
-          "beat": 0.688
+          "beat": 0.75
         },
         {
           "id": "*/naisho1",
-          "beat": 1.0
+          "beat": 0.875,
+          "duration": 0.438
         },
         {
           "id": "*/naisho2",
-          "beat": 1.375
+          "beat": 1.3125
         },
         {
           "id": "*/uh",

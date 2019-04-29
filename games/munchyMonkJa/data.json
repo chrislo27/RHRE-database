@@ -6,13 +6,26 @@
   "objects": [
     {
       "type": "cue",
+      "id": "*/count1",
+      "deprecatedIDs": [],
+      "name": "count - 1",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/count2",
+      "deprecatedIDs": [],
+      "name": "count - 2",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
       "id": "*/gulp",
       "deprecatedIDs": [
         "munchyMonkJp/gulp"
       ],
       "name": "gulp",
-      "duration": 0.5,
-	  "earliness": 0.04
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -21,8 +34,7 @@
         "munchyMonkJp/one"
       ],
       "name": "one",
-      "duration": 1.0,
-	  "earliness": 0.03
+      "duration": 1.0
     },
     {
       "type": "cue",
@@ -40,8 +52,7 @@
         "munchyMonkJp/two"
       ],
       "name": "two - two!",
-      "duration": 1.0,
-	  "earliness": 0.025
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -50,8 +61,7 @@
         "munchyMonkJp/three"
       ],
       "name": "three - three",
-      "duration": 1.0,
-	  "earliness": 0.04
+      "duration": 1.0
     },
     {
       "type": "cue",
@@ -69,8 +79,7 @@
         "munchyMonkJp/gulp3-2"
       ],
       "name": "three - go - 2",
-      "duration": 1.0,
-	  "earliness": 0.04
+      "duration": 1.0
     },
     {
       "type": "cue",
@@ -79,8 +88,7 @@
         "munchyMonkJp/gulp3-3"
       ],
       "name": "three - go - 3",
-      "duration": 0.5,
-	  "earliness": 0.035
+      "duration": 1.0
     },
     {
       "type": "pattern",
