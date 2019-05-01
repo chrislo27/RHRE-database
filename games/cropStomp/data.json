@@ -8,7 +8,8 @@
       "id": "*/walk",
       "deprecatedIDs": [],
       "name": "walk",
-      "duration": 1.0
+      "duration": 1.0,
+	  "earliness": 0.005
     },
     {
       "type": "cue",
@@ -60,10 +61,11 @@
       "duration": 0.5
     },
     {
-      "type": "pattern",
+      "type": "keepTheBeat",
       "id": "*_walk",
       "deprecatedIDs": [],
       "name": "walk",
+	  "defaultDuration": 4.0,
       "cues": [
         {
           "id": "*/walk",
@@ -72,42 +74,27 @@
         {
           "id": "*/walk",
           "beat": 2.0
-        },
-        {
-          "id": "*/walk",
-          "beat": 4.0
-        },
-        {
-          "id": "*/walk",
-          "beat": 6.0
         }
       ]
     },
-    {
-      "type": "pattern",
-      "id": "*_pick",
-      "deprecatedIDs": [],
-      "name": "pick",
-      "cues": [
-        {
-          "id": "*/stomp",
-          "beat": 0.0
-        },
-        {
-          "id": "*/pick1",
-          "beat": 0.5
-        },
-        {
-          "id": "*/pick2",
-          "beat": 1.0
-        }
-      ]
-    },
+	{
+	  "type": "keepTheBeat",
+	  "id": "*_pickStretch",
+	  "deprecatedIDs": [],
+	  "name": "picking crops",
+	  "defaultDuration": 2.0,
+	  "cues": [
+	    {
+		  "id": "*_pick",
+		  "beat": 0.0
+		}
+	  ]
+	},
     {
       "type": "pattern",
       "id": "*_mole",
       "deprecatedIDs": [],
-      "name": "mole",
+      "name": "pick - mole",
       "cues": [
         {
           "id": "*/molewarning1",
@@ -128,6 +115,26 @@
         {
           "id": "*/molefling",
           "beat": 2.5
+        }
+      ]
+    },
+	{
+      "type": "pattern",
+      "id": "*_pick",
+      "deprecatedIDs": [],
+      "name": "pick - crop",
+      "cues": [
+        {
+          "id": "*/stomp",
+          "beat": 0.0
+        },
+        {
+          "id": "*/pick1",
+          "beat": 0.5
+        },
+        {
+          "id": "*/pick2",
+          "beat": 1.0
         }
       ]
     }

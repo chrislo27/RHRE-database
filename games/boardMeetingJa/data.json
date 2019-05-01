@@ -121,14 +121,16 @@
       "id": "*/abStop2",
       "deprecatedIDs": [],
       "name": "assistant - o",
-      "duration": 0.33333
+      "duration": 0.33333,
+	  "earliness": 0.12
     },
     {
       "type": "cue",
       "id": "*/abStop3",
       "deprecatedIDs": [],
       "name": "assistant - ni",
-      "duration": 0.5
+      "duration": 0.5,
+	  "earliness": 0.035
     },
     {
       "type": "cue",

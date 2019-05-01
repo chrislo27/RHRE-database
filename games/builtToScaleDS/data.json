@@ -9,8 +9,20 @@
       "deprecatedIDs": [],
       "name": "note",
       "duration": 0.5,
-      "repitchable": true
+      "repitchable": true,
+	  "stretchable": true,
+	  "loops": true,
+	  "loopStart": 0.85156436442,
+	  "loopEnd": 1.28530572786,
+	  "endingSound": "*/cEnd"
     },
+    {
+      "type": "cue",
+      "id": "*/cEnd",
+      "deprecatedIDs": [],
+      "name": "note fade",
+      "duration": 0.5
+    },	
     {
       "type": "cue",
       "id": "*/pew",
@@ -48,6 +60,43 @@
         {
           "id": "*/c",
           "semitone": 12,
+          "track": 1
+        },
+        {
+          "id": "*/pew",
+          "track": 2
+        }
+      ]
+    },
+    {
+      "type": "equidistant",
+      "id": "*_widgetAlt",
+      "deprecatedIDs": [],
+      "name": "widget - alternate",
+      "distance": 1.0,
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/c"
+        },
+        {
+          "id": "*/c",
+          "semitone": 2
+        },
+        {
+          "id": "*/c",
+          "semitone": 4
+        },
+        {
+          "id": "*/c",
+          "semitone": 5
+        },
+        {
+          "id": "*/c",
+          "semitone": 7
+        },
+        {
+          "id": "*/c",
           "track": 1
         },
         {
