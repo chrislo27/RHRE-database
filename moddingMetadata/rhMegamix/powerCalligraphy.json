@@ -1,0 +1,64 @@
+[
+  {
+    "applyTo": ["powerCalligraphy", "powerCalligraphyGba"],
+    "engine": "0xA",
+    "name": "agbShuji",
+    "tempoFile": "1000061",
+    "index": "0x19"
+  },
+  {
+    "applyTo": ["powerCalligraphy_chikara", "powerCalligraphyGba_chikara"],
+    "sub": "0x56 + 0x57",
+	"note": "0x56 readies the page"
+  },
+  {
+    "applyTo": ["powerCalligraphy_onore", "powerCalligraphyGba_onore"],
+    "sub": "0x58 + 0x59",
+	"note": "0x58 readies the page"
+  },
+  {
+    "applyTo": ["powerCalligraphy_sun", "powerCalligraphyGba_sun"],
+    "sub": "0x5A + 0x5B",
+	"note": "0x5A readies the page"
+  },
+  {
+    "applyTo": ["powerCalligraphy_kokoro", "powerCalligraphyGba_kokoro"],
+    "sub": "0x5C + 0x5D",
+	"note": "0x5C readies the page"
+  },
+  {
+    "applyTo": ["powerCalligraphy_re", "powerCalligraphyGba_re"],
+    "sub": "0x5E + 0x5F",
+	"note": "0x5E readies the page"
+  },
+  {
+    "applyTo": ["powerCalligraphy_comma", "powerCalligraphyGba_comma"],
+    "sub": "0x60 + 0x61",
+	"note": "0x60 readies the page"
+  },
+  {
+    "applyTo": ["powerCalligraphy_tsurunihamushi", "powerCalligraphy_tsurunihamushiKr", "powerCalligraphyGba_tsurunihamushi"],
+    "sub": "0x62 + 0x63",
+	"note": "0x62 readies the page"
+  },
+  {
+    "applyTo": ["powerCalligraphy_chikaraSwing", "powerCalligraphyGba_chikaraSwing"],
+    "sub": "0x56 + 0x65",
+	"note": "0x56 readies the page"
+  },
+  {
+    "applyTo": ["powerCalligraphy_onoreSwing", "powerCalligraphyGba_onoreSwing"],
+    "sub": "0x58 + 0x67",
+	"note": "0x58 readies the page"
+  },
+  {
+    "applyTo": ["powerCalligraphy_sunSwing", "powerCalligraphyGba_sunSwing"],
+    "sub": "0x5A + 0x69",
+	"note": "0x5A readies the page"
+  },
+  {
+    "applyTo": ["powerCalligraphy_tsurunihamushiSwing", "powerCalligraphy_tsurunihamushiKrSwing", "powerCalligraphyGba_tsurunihamushiSwing"],
+    "sub": "0x62 + 0x71",
+	"note": "0x62 readies the page"
+  } 
+]
