@@ -11,7 +11,7 @@
 	"note": "Separate pattern to view modding instructions"
   },
   {
-    "applyTo": ["forkLifter/flick", "forkLifterRemix2/flick", "forkLifterRemix9/flick"],
+    "applyTo": ["forkLifter/flick", "forkLifterRemix2/flick", "forkLifterRemix9/flick", "forkLifter_randomFlick", "forkLifterRemix2_randomFlick", "forkLifterRemix9_randomFlick"],
     "sub": "0x100 0",
 	"note": "For burger, use 0x100 1-3"
   },
