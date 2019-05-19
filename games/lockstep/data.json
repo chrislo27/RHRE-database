@@ -1,112 +1,125 @@
 {
-  "series": "ds",
   "id": "lockstep",
   "name": "Lockstep (DS)",
+  "series": "ds",
   "objects": [
     {
       "type": "cue",
       "id": "*/hai",
-      "deprecatedIDs": [],
       "name": "hai",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "loopEnd": -1.0
     },
     {
       "type": "cue",
       "id": "*/haiNoStep",
-      "deprecatedIDs": [],
       "name": "hai (no step)",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "loopEnd": -1.0
     },
     {
       "type": "cue",
       "id": "*/march1",
-      "deprecatedIDs": [],
       "name": "onbeat - 1",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "loopEnd": -1.0
     },
     {
       "type": "cue",
       "id": "*/march2",
-      "deprecatedIDs": [],
       "name": "onbeat - 2",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "loopEnd": -1.0
     },
     {
       "type": "cue",
       "id": "*/bkbt_ha",
-      "deprecatedIDs": [],
       "name": "onbeat - switch - ha",
-      "duration": 0.5
+      "deprecatedIDs": [],
+      "duration": 0.5,
+      "loopEnd": -1.0
     },
     {
       "type": "cue",
       "id": "*/bkbt_hai",
+      "name": "onbeat - switch - hai",
       "deprecatedIDs": [
         "lockstep/bkbt_hoi"
       ],
-      "name": "onbeat - switch - hai",
-      "duration": 0.875
+      "duration": 0.875,
+      "loopEnd": -1.0
     },
     {
       "type": "cue",
       "id": "*/bkbt_ho",
+      "name": "offbeat - start",
       "deprecatedIDs": [
         "lockstep/bkbt_boh"
       ],
-      "name": "offbeat - start",
-      "duration": 1.0
+      "duration": 1.0,
+      "loopEnd": -1.0
     },
     {
       "type": "cue",
       "id": "*/march1_bkbt",
-      "deprecatedIDs": [],
       "name": "offbeat - 1",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "loopEnd": -1.0
     },
     {
       "type": "cue",
       "id": "*/march2_bkbt",
-      "deprecatedIDs": [],
       "name": "offbeat - 2",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "loopEnd": -1.0
     },
     {
       "type": "cue",
       "id": "*/return_n",
+      "name": "offbeat - switch - n",
       "deprecatedIDs": [
         "lockstep/return_hee"
       ],
-      "name": "offbeat - switch - n",
-      "duration": 0.5
+      "duration": 0.5,
+      "loopEnd": -1.0
     },
     {
       "type": "cue",
       "id": "*/return_ha",
-      "deprecatedIDs": [],
       "name": "offbeat - switch - ha",
-      "duration": 0.375
+      "deprecatedIDs": [],
+      "duration": 0.375,
+      "loopEnd": -1.0
     },
     {
       "type": "cue",
       "id": "*/return_nNoStep",
+      "name": "offbeat - switch (no step) - n",
       "deprecatedIDs": [
         "lockstep/return_heeNoStep"
       ],
-      "name": "offbeat - switch (no step) - n",
-      "duration": 0.5
+      "duration": 0.5,
+      "loopEnd": -1.0
     },
     {
       "type": "cue",
       "id": "*/return_haNoStep",
-      "deprecatedIDs": [],
       "name": "offbeat - switch (no step) - ha",
-      "duration": 0.375
+      "deprecatedIDs": [],
+      "duration": 0.375,
+      "loopEnd": -1.0
     },
     {
       "type": "keepTheBeat",
       "id": "*_onbeat",
-      "deprecatedIDs": [],
       "name": "onbeat",
+      "deprecatedIDs": [],
       "defaultDuration": 4.0,
       "cues": [
         {
@@ -130,8 +143,8 @@
     {
       "type": "keepTheBeat",
       "id": "*_offbeat",
-      "deprecatedIDs": [],
       "name": "offbeat",
+      "deprecatedIDs": [],
       "defaultDuration": 4.0,
       "cues": [
         {
@@ -155,8 +168,8 @@
     {
       "type": "pattern",
       "id": "*_onToOff",
-      "deprecatedIDs": [],
       "name": "on to off",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/hai",
@@ -185,14 +198,22 @@
         {
           "id": "*/bkbt_ho",
           "beat": 5.5
+        },
+        {
+          "id": "*/bkbt_ho",
+          "beat": 6.5
+        },
+        {
+          "id": "*/bkbt_ho",
+          "beat": 7.5
         }
       ]
     },
     {
       "type": "pattern",
       "id": "*_onToOffSwing",
-      "deprecatedIDs": [],
       "name": "on to off - swing",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/hai",
@@ -216,19 +237,27 @@
         },
         {
           "id": "*/bkbt_ho",
-          "beat": 4.5
+          "beat": 4.625
         },
         {
           "id": "*/bkbt_ho",
-          "beat": 5.5
+          "beat": 5.625
+        },
+        {
+          "id": "*/bkbt_ho",
+          "beat": 6.625
+        },
+        {
+          "id": "*/bkbt_ho",
+          "beat": 7.625
         }
       ]
     },
     {
       "type": "pattern",
       "id": "*_onToOffNoStep",
-      "deprecatedIDs": [],
       "name": "on to off - no step",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/haiNoStep",
@@ -257,14 +286,22 @@
         {
           "id": "*/bkbt_ho",
           "beat": 5.5
+        },
+        {
+          "id": "*/bkbt_ho",
+          "beat": 6.5
+        },
+        {
+          "id": "*/bkbt_ho",
+          "beat": 7.5
         }
       ]
     },
     {
       "type": "pattern",
       "id": "*_onToOffSwingNoStep",
-      "deprecatedIDs": [],
       "name": "on to off - swing",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/haiNoStep",
@@ -288,19 +325,27 @@
         },
         {
           "id": "*/bkbt_ho",
-          "beat": 4.5
+          "beat": 4.625
         },
         {
           "id": "*/bkbt_ho",
-          "beat": 5.5
+          "beat": 5.625
+        },
+        {
+          "id": "*/bkbt_ho",
+          "beat": 6.625
+        },
+        {
+          "id": "*/bkbt_ho",
+          "beat": 7.625
         }
       ]
     },
     {
       "type": "pattern",
       "id": "*_offToOn",
-      "deprecatedIDs": [],
       "name": "off to on",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/return_n",
@@ -327,8 +372,8 @@
     {
       "type": "pattern",
       "id": "*_offToOnSwing",
-      "deprecatedIDs": [],
       "name": "off to on - swing",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/return_n",
@@ -355,8 +400,8 @@
     {
       "type": "pattern",
       "id": "*_offToOnNoStep",
-      "deprecatedIDs": [],
       "name": "off to on - no step",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/return_nNoStep",
@@ -383,8 +428,8 @@
     {
       "type": "pattern",
       "id": "*_offToOnSwingNoStep",
-      "deprecatedIDs": [],
       "name": "off to on - swing",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/return_nNoStep",
