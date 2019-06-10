@@ -147,6 +147,13 @@
       "duration": 1.5
     },
     {
+      "type": "cue",
+      "id": "*/tapNoStep",
+      "deprecatedIDs": [],
+      "name": "tap (no step)",
+      "duration": 0.5
+    },
+    {
       "type": "keepTheBeat",
       "id": "*_step",
       "deprecatedIDs": [
