@@ -24,13 +24,6 @@
     },
     {
       "type": "subtitleEntity",
-      "id": "*_subtitleEntityTypewriter",
-      "deprecatedIDs": [],
-      "name": "Typewriter Subtitle",
-      "subtitleType": "typewriter"
-    },
-    {
-      "type": "subtitleEntity",
       "id": "*_songTitleEntity",
       "deprecatedIDs": [],
       "name": "Song Title",
