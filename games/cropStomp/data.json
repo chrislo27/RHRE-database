@@ -9,7 +9,7 @@
       "deprecatedIDs": [],
       "name": "walk",
       "duration": 1.0,
-	  "earliness": 0.005
+      "earliness": 0.005
     },
     {
       "type": "cue",
@@ -65,7 +65,7 @@
       "id": "*_walk",
       "deprecatedIDs": [],
       "name": "walk",
-	  "defaultDuration": 4.0,
+      "defaultDuration": 4.0,
       "cues": [
         {
           "id": "*/walk",
@@ -77,19 +77,19 @@
         }
       ]
     },
-	{
-	  "type": "keepTheBeat",
-	  "id": "*_pickStretch",
-	  "deprecatedIDs": [],
-	  "name": "picking crops",
-	  "defaultDuration": 2.0,
-	  "cues": [
-	    {
-		  "id": "*_pick",
-		  "beat": 0.0
-		}
-	  ]
-	},
+    {
+      "type": "keepTheBeat",
+      "id": "*_pickStretch",
+      "deprecatedIDs": [],
+      "name": "picking crops",
+      "defaultDuration": 2.0,
+      "cues": [
+        {
+          "id": "*_pick",
+          "beat": 0.0
+        }
+      ]
+    },
     {
       "type": "pattern",
       "id": "*_mole",
@@ -118,7 +118,7 @@
         }
       ]
     },
-	{
+    {
       "type": "pattern",
       "id": "*_pick",
       "deprecatedIDs": [],

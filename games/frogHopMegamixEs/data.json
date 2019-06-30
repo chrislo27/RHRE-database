@@ -1,7 +1,8 @@
 {
   "id": "frogHopMegamixEs",
-  "name": "Frog Hop (Megamix) (Spanish)",
+  "name": "Frog Hop (Megamix)",
   "series": "megamix",
+  "language": "es",
   "group": "Frog Hop (Megamix)",
   "objects": [
     {

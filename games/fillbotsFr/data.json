@@ -1,7 +1,8 @@
 {
   "id": "fillbotsFr",
-  "name": "Fillbots (DS) (French)",
+  "name": "Fillbots (DS)",
   "series": "ds",
+  "language": "fr",
   "group": "Fillbots (DS)",
   "objects": [
     {

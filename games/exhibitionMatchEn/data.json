@@ -1,7 +1,8 @@
 {
   "series": "fever",
   "id": "exhibitionMatchEn",
-  "name": "Exhibition Match (Fever) (English)",
+  "name": "Exhibition Match (Fever)",
+  "language": "en",
   "objects": [
     {
       "type": "cue",

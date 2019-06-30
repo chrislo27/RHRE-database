@@ -1,7 +1,8 @@
 {
   "id": "frogHopMegamixEn",
-  "name": "Frog Hop (Megamix) (English)",
+  "name": "Frog Hop (Megamix)",
   "series": "megamix",
+  "language": "en",
   "group": "Frog Hop (Megamix)",
   "groupDefault": true,
   "objects": [

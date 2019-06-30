@@ -1,7 +1,8 @@
 {
   "id": "fillbotsKo",
-  "name": "Fillbots (DS) (Korean)",
+  "name": "Fillbots (DS)",
   "series": "ds",
+  "language": "ko",
   "group": "Fillbots (DS)",
   "objects": [
     {

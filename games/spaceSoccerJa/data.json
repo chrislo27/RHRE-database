@@ -1,7 +1,8 @@
 {
   "id": "spaceSoccerJa",
-  "name": "Space Soccer (Japanese)",
+  "name": "Space Soccer",
   "series": "ds",
+  "language": "ja",
   "group": "Space Soccer",
   "objects": [
     {

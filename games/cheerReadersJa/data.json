@@ -1,7 +1,8 @@
 {
   "id": "cheerReadersJa",
-  "name": "Cheer Readers (Japanese)",
+  "name": "Cheer Readers",
   "series": "fever",
+  "language": "ja",
   "group": "Cheer Readers",
   "groupDefault": false,
   "objects": [

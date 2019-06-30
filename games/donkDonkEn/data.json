@@ -1,7 +1,8 @@
 {
   "series": "fever",
   "id": "donkDonkEn",
-  "name": "Donk-Donk (English)",
+  "name": "Donk-Donk",
+  "language": "en",
   "group": "Donk-Donk",
   "groupDefault": true,
   "objects": [

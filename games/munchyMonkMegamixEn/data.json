@@ -1,7 +1,8 @@
 {
   "series": "megamix",
   "id": "munchyMonkMegamixEn",
-  "name": "Munchy Monk (Megamix) (English)",
+  "name": "Munchy Monk (Megamix)",
+  "language": "en",
   "group": "Munchy Monk (Megamix)",
   "groupDefault": true,
   "objects": [

@@ -1,212 +1,262 @@
 {
-  "id" : "fanClubMegamixEn",
-  "name" : "Fan Club (Megamix) (English)",
-  "series" : "megamix",
-  "group" : "Fan Club (Megamix)",
-  "groupDefault" : true,
-  "objects" : [ {
-    "type" : "cue",
-    "id" : "*/singerYeah1",
-    "name" : "singer - yeah - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/singerYeah2",
-    "name" : "singer - yeah - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/singerYeah3",
-    "name" : "singer - yeah - 3",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/audienceYeah",
-    "name" : "audience - yeah",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/singerISuppose1",
-    "name" : "singer - I suppose - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.25,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/singerISuppose2",
-    "name" : "singer - I suppose - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.25,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/singerISuppose3",
-    "name" : "singer - I suppose - 3",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/audienceISuppose1",
-    "name" : "audience - I suppose - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.25,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/audienceISuppose2",
-    "name" : "audience - I suppose - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.5,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/audienceISuppose3",
-    "name" : "audience - I suppose - 3",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/audienceISuppose4",
-    "name" : "audience - I suppose - 4",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/audienceISupposeJump",
-    "name" : "audience - I suppose - landing",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/ohh1",
-    "name" : "ohh - 1",
-    "deprecatedIDs" : [ ],
-    "duration" : 2.5,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/ohh2",
-    "name" : "ohh - 2",
-    "deprecatedIDs" : [ ],
-    "duration" : 0.5,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/ohh3",
-    "name" : "ohh - 3",
-    "deprecatedIDs" : [ ],
-    "duration" : 1.0,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "pattern",
-    "id" : "*_yeahYeahYeah",
-    "name" : "yeah yeah yeah!",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/singerYeah1",
-      "beat" : 0.0
-    }, {
-      "id" : "*/singerYeah2",
-      "beat" : 1.0
-    }, {
-      "id" : "*/singerYeah3",
-      "beat" : 2.0
-    }, {
-      "id" : "*/audienceYeah",
-      "beat" : 4.0
-    }, {
-      "id" : "*/audienceYeah",
-      "beat" : 5.0
-    }, {
-      "id" : "*/audienceYeah",
-      "beat" : 6.0
-    }, {
-      "id" : "*/audienceYeah",
-      "beat" : 7.0
-    } ]
-  }, {
-    "type" : "pattern",
-    "id" : "*_iSuppose",
-    "name" : "I suppose!",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/singerISuppose1",
-      "beat" : 0.0
-    }, {
-      "id" : "*/singerISuppose2",
-      "beat" : 0.25
-    }, {
-      "id" : "*/singerISuppose3",
-      "beat" : 1.0
-    }, {
-      "id" : "*/audienceISuppose1",
-      "beat" : 2.0
-    }, {
-      "id" : "*/audienceISuppose2",
-      "beat" : 3.5
-    }, {
-      "id" : "*/audienceISuppose3",
-      "beat" : 4.0
-    }, {
-      "id" : "*/audienceISuppose4",
-      "beat" : 5.0
-    } ]
-  }, {
-    "type" : "pattern",
-    "id" : "*_iSupposeLanding",
-    "name" : "I suppose! - with landing",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/singerISuppose1",
-      "beat" : 0.0
-    }, {
-      "id" : "*/singerISuppose2",
-      "beat" : 0.25
-    }, {
-      "id" : "*/singerISuppose3",
-      "beat" : 1.0
-    }, {
-      "id" : "*/audienceISuppose1",
-      "beat" : 2.0
-    }, {
-      "id" : "*/audienceISuppose2",
-      "beat" : 3.5
-    }, {
-      "id" : "*/audienceISuppose3",
-      "beat" : 4.0
-    }, {
-      "id" : "*/audienceISuppose4",
-      "beat" : 5.0
-    }, {
-      "id" : "*/audienceISupposeJump",
-      "beat" : 6.0
-    } ]
-  }, {
-    "type" : "pattern",
-    "id" : "*_ohh",
-    "name" : "ohh",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/ohh1",
-      "beat" : 0.0
-    }, {
-      "id" : "*/ohh2",
-      "beat" : 2.5
-    }, {
-      "id" : "*/ohh3",
-      "beat" : 3.0
-    } ]
-  } ]
+  "id": "fanClubMegamixEn",
+  "name": "Fan Club (Megamix)",
+  "series": "megamix",
+  "language": "en",
+  "group": "Fan Club (Megamix)",
+  "groupDefault": true,
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/singerYeah1",
+      "name": "singer - yeah - 1",
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/singerYeah2",
+      "name": "singer - yeah - 2",
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/singerYeah3",
+      "name": "singer - yeah - 3",
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/audienceYeah",
+      "name": "audience - yeah",
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/singerISuppose1",
+      "name": "singer - I suppose - 1",
+      "deprecatedIDs": [],
+      "duration": 0.25,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/singerISuppose2",
+      "name": "singer - I suppose - 2",
+      "deprecatedIDs": [],
+      "duration": 0.25,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/singerISuppose3",
+      "name": "singer - I suppose - 3",
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/audienceISuppose1",
+      "name": "audience - I suppose - 1",
+      "deprecatedIDs": [],
+      "duration": 1.25,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/audienceISuppose2",
+      "name": "audience - I suppose - 2",
+      "deprecatedIDs": [],
+      "duration": 0.5,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/audienceISuppose3",
+      "name": "audience - I suppose - 3",
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/audienceISuppose4",
+      "name": "audience - I suppose - 4",
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/audienceISupposeJump",
+      "name": "audience - I suppose - landing",
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/ohh1",
+      "name": "ohh - 1",
+      "deprecatedIDs": [],
+      "duration": 2.5,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/ohh2",
+      "name": "ohh - 2",
+      "deprecatedIDs": [],
+      "duration": 0.5,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/ohh3",
+      "name": "ohh - 3",
+      "deprecatedIDs": [],
+      "duration": 1.0,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "pattern",
+      "id": "*_yeahYeahYeah",
+      "name": "yeah yeah yeah!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/singerYeah1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/singerYeah2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/singerYeah3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/audienceYeah",
+          "beat": 4.0
+        },
+        {
+          "id": "*/audienceYeah",
+          "beat": 5.0
+        },
+        {
+          "id": "*/audienceYeah",
+          "beat": 6.0
+        },
+        {
+          "id": "*/audienceYeah",
+          "beat": 7.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_iSuppose",
+      "name": "I suppose!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/singerISuppose1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/singerISuppose2",
+          "beat": 0.25
+        },
+        {
+          "id": "*/singerISuppose3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/audienceISuppose1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/audienceISuppose2",
+          "beat": 3.5
+        },
+        {
+          "id": "*/audienceISuppose3",
+          "beat": 4.0
+        },
+        {
+          "id": "*/audienceISuppose4",
+          "beat": 5.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_iSupposeLanding",
+      "name": "I suppose! - with landing",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/singerISuppose1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/singerISuppose2",
+          "beat": 0.25
+        },
+        {
+          "id": "*/singerISuppose3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/audienceISuppose1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/audienceISuppose2",
+          "beat": 3.5
+        },
+        {
+          "id": "*/audienceISuppose3",
+          "beat": 4.0
+        },
+        {
+          "id": "*/audienceISuppose4",
+          "beat": 5.0
+        },
+        {
+          "id": "*/audienceISupposeJump",
+          "beat": 6.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_ohh",
+      "name": "ohh",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/ohh1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/ohh2",
+          "beat": 2.5
+        },
+        {
+          "id": "*/ohh3",
+          "beat": 3.0
+        }
+      ]
+    }
+  ]
 }

@@ -1,7 +1,8 @@
 {
   "series": "fever",
   "id": "tapTroupeJa",
-  "name": "Tap Troupe (Japanese)",
+  "name": "Tap Troupe",
+  "language": "ja",
   "group": "Tap Troupe",
   "objects": [
     {

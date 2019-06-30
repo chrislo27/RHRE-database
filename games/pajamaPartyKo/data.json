@@ -1,7 +1,8 @@
 {
   "id": "pajamaPartyKo",
-  "name": "Pajama Party (Korean)",
+  "name": "Pajama Party",
   "series": "megamix",
+  "language": "ko",
   "group": "Pajama Party",
   "priority": 1,
   "objects": [

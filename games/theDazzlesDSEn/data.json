@@ -1,7 +1,8 @@
 {
   "id": "theDazzlesDSEn",
-  "name": "The Dazzles (DS) (English)",
+  "name": "The Dazzles (DS)",
   "series": "ds",
+  "language": "en",
   "group": "The Dazzles (DS)",
   "groupDefault": true,
   "objects": [

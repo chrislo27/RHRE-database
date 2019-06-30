@@ -1,7 +1,8 @@
 {
   "id": "packingPestsKo",
-  "name": "Packing Pests (Korean)",
+  "name": "Packing Pests",
   "series": "fever",
+  "language": "ko",
   "group": "Packing Pests",
   "objects": [
     {

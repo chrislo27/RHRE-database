@@ -1,7 +1,8 @@
 {
   "series": "ds",
   "id": "blueBirdsEn",
-  "name": "Blue Birds (DS) (English)",
+  "name": "Blue Birds (DS)",
+  "language": "en",
   "group": "Blue Birds (DS)",
   "groupDefault": true,
   "objects": [

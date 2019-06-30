@@ -1,7 +1,8 @@
 {
   "series": "ds",
   "id": "rockersJa",
-  "name": "Rockers (Japanese)",
+  "name": "Rockers",
+  "language": "ja",
   "group": "Rockers",
   "objects": [
     {

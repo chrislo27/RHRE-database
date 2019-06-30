@@ -1,7 +1,8 @@
 {
   "series": "megamix",
   "id": "fanClubMegamixDe",
-  "name": "Fan Club (Megamix) (German)",
+  "name": "Fan Club (Megamix)",
+  "language": "de",
   "group": "Fan Club (Megamix)",
   "objects": [
     {

@@ -1,7 +1,8 @@
 {
   "id": "countInKo",
-  "name": "Count-Ins (Korean)",
+  "name": "Count-Ins",
   "series": "other",
+  "language": "ko",
   "group": "Count-Ins",
   "priority": 1,
   "objects": [

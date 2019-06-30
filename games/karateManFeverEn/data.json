@@ -1,7 +1,8 @@
 {
   "series": "fever",
   "id": "karateManFeverEn",
-  "name": "Karate Man (Fever) (English)",
+  "name": "Karate Man (Fever)",
+  "language": "en",
   "group": "Karate Man (Fever)",
   "groupDefault": true,
   "objects": [

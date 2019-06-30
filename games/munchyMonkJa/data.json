@@ -1,7 +1,8 @@
 {
   "series": "ds",
   "id": "munchyMonkJa",
-  "name": "Munchy Monk (DS) (Japanese)",
+  "name": "Munchy Monk (DS)",
+  "language": "ja",
   "group": "Munchy Monk (DS)",
   "objects": [
     {
@@ -10,7 +11,7 @@
       "deprecatedIDs": [],
       "name": "count - 1",
       "duration": 1.0,
-	  "earliness": 0.035
+      "earliness": 0.035
     },
     {
       "type": "cue",
@@ -18,7 +19,7 @@
       "deprecatedIDs": [],
       "name": "count - 2",
       "duration": 1.0,
-	  "earliness": 0.02
+      "earliness": 0.02
     },
     {
       "type": "cue",
@@ -28,7 +29,7 @@
       ],
       "name": "gulp",
       "duration": 0.5,
-	  "earliness": 0.04
+      "earliness": 0.04
     },
     {
       "type": "cue",
@@ -38,7 +39,7 @@
       ],
       "name": "one",
       "duration": 1.0,
-	  "earliness": 0.03
+      "earliness": 0.03
     },
     {
       "type": "cue",
@@ -57,7 +58,7 @@
       ],
       "name": "two - two!",
       "duration": 0.5,
-	  "earliness": 0.025
+      "earliness": 0.025
     },
     {
       "type": "cue",
@@ -67,7 +68,7 @@
       ],
       "name": "three - three",
       "duration": 1.0,
-	  "earliness": 0.04
+      "earliness": 0.04
     },
     {
       "type": "cue",
@@ -86,7 +87,7 @@
       ],
       "name": "three - go - 2",
       "duration": 1.0,
-	  "earliness": 0.04
+      "earliness": 0.04
     },
     {
       "type": "cue",
@@ -96,7 +97,7 @@
       ],
       "name": "three - go - 3",
       "duration": 0.5,
-	  "earliness": 0.035
+      "earliness": 0.035
     },
     {
       "type": "pattern",

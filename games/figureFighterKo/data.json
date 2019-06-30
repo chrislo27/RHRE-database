@@ -1,7 +1,8 @@
 {
   "id": "figureFighterKo",
-  "name": "Figure Fighter (Korean)",
+  "name": "Figure Fighter",
   "series": "fever",
+  "language": "ko",
   "group": "Figure Fighter",
   "groupDefault": false,
   "objects": [

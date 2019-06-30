@@ -1,7 +1,8 @@
 {
   "id": "pajamaPartyEn",
-  "name": "Pajama Party (English)",
+  "name": "Pajama Party",
   "series": "megamix",
+  "language": "en",
   "group": "Pajama Party",
   "groupDefault": true,
   "priority": 1,

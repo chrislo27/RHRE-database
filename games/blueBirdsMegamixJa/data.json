@@ -1,7 +1,8 @@
 {
   "series": "megamix",
   "id": "blueBirdsMegamixJa",
-  "name": "Blue Birds (Megamix) (Japanese)",
+  "name": "Blue Birds (Megamix)",
+  "language": "ja",
   "group": "Blue Birds (Megamix)",
   "objects": [
     {

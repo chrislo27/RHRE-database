@@ -1,7 +1,8 @@
 {
   "series": "ds",
   "id": "munchyMonkEs",
-  "name": "Munchy Monk (Spanish)",
+  "name": "Munchy Monk",
+  "language": "es",
   "group": "Munchy Monk (DS)",
   "objects": [
     {

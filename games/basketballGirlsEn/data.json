@@ -1,7 +1,8 @@
 {
   "series": "side",
   "id": "basketballGirlsEn",
-  "name": "Basketball Girls (English)",
+  "name": "Basketball Girls",
+  "language": "en",
   "group": "Basketball Girls",
   "groupDefault": true,
   "objects": [

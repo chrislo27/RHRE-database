@@ -1,7 +1,8 @@
 {
   "id": "tapTroupeKo",
-  "name": "Tap Troupe (Korean)",
+  "name": "Tap Troupe",
   "series": "fever",
+  "language": "ko",
   "group": "Tap Troupe",
   "objects": [
     {

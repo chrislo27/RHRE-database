@@ -1,7 +1,8 @@
 {
   "id": "bossaNovaEn",
-  "name": "Bossa Nova (English)",
+  "name": "Bossa Nova",
   "series": "fever",
+  "language": "en",
   "group": "Bossa Nova",
   "groupDefault": true,
   "objects": [

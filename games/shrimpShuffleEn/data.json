@@ -1,7 +1,8 @@
 {
   "series": "fever",
   "id": "shrimpShuffleEn",
-  "name": "Shrimp Shuffle (English)",
+  "name": "Shrimp Shuffle",
+  "language": "en",
   "group": "Shrimp Shuffle",
   "groupDefault": true,
   "objects": [

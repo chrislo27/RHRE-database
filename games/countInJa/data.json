@@ -1,7 +1,8 @@
 {
   "id": "countInJa",
-  "name": "Count-Ins (Japanese)",
+  "name": "Count-Ins",
   "group": "Count-Ins",
+  "language": "ja",
   "priority": 1,
   "noDisplay": true,
   "objects": [

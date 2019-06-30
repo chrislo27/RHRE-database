@@ -1,7 +1,8 @@
 {
   "series": "fever",
   "id": "packingPestsJa",
-  "name": "Packing Pests (Japanese)",
+  "name": "Packing Pests",
+  "language": "ja",
   "group": "Packing Pests",
   "objects": [
     {

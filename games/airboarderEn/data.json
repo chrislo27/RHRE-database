@@ -1,7 +1,8 @@
 {
   "id": "airboarderEn",
-  "name": "Airboarder (DS) (English)",
+  "name": "Airboarder (DS)",
   "series": "ds",
+  "language": "en",
   "group": "Airboarder (DS)",
   "groupDefault": true,
   "objects": [

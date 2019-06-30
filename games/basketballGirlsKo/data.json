@@ -1,7 +1,8 @@
 {
   "series": "side",
   "id": "basketballGirlsKo",
-  "name": "Basketball Girls (Korean)",
+  "name": "Basketball Girls",
+  "language": "ko",
   "group": "Basketball Girls",
   "objects": [
     {

@@ -1,7 +1,8 @@
 {
   "series": "megamix",
   "id": "theDazzlesMegamixJa",
-  "name": "The Dazzles (Megamix) (Japanese)",
+  "name": "The Dazzles (Megamix)",
+  "language": "ja",
   "group": "The Dazzles (Megamix)",
   "objects": [
     {

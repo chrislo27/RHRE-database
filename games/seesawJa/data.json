@@ -1,7 +1,8 @@
 {
   "series": "fever",
   "id": "seesawJa",
-  "name": "See-Saw (Japanese)",
+  "name": "See-Saw",
+  "language": "ja",
   "group": "See-Saw",
   "objects": [
     {

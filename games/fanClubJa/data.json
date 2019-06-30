@@ -1,7 +1,8 @@
 {
   "series": "ds",
   "id": "fanClubJa",
-  "name": "Fan Club (DS) (Japanese)",
+  "name": "Fan Club (DS)",
+  "language": "ja",
   "group": "Fan Club (DS)",
   "objects": [
     {

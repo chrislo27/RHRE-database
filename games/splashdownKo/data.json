@@ -1,7 +1,8 @@
 {
   "series": "ds",
   "id": "splashdownKo",
-  "name": "Splashdown (Korean)",
+  "name": "Splashdown",
+  "language": "ko",
   "group": "Splashdown",
   "objects": [
     {

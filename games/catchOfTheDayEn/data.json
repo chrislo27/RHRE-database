@@ -1,7 +1,8 @@
 {
   "id": "catchOfTheDayEn",
-  "name": "Catch of the Day (English)",
+  "name": "Catch of the Day",
   "series": "fever",
+  "language": "en",
   "group": "Catch of the Day",
   "groupDefault": true,
   "objects": [

@@ -10,11 +10,11 @@
       "name": "note",
       "duration": 0.5,
       "repitchable": true,
-	  "stretchable": true,
-	  "loops": true,
-	  "loopStart": 0.85156436442,
-	  "loopEnd": 1.28530572786,
-	  "endingSound": "*/cEnd"
+      "stretchable": true,
+      "loops": true,
+      "loopStart": 0.85156436442,
+      "loopEnd": 1.28530572786,
+      "endingSound": "*/cEnd"
     },
     {
       "type": "cue",
@@ -22,7 +22,7 @@
       "deprecatedIDs": [],
       "name": "note fade",
       "duration": 0.5
-    },	
+    },
     {
       "type": "cue",
       "id": "*/pew",

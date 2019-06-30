@@ -1,7 +1,8 @@
 {
   "series": "fever",
   "id": "loveRapJa",
-  "name": "Love Rap (Japanese)",
+  "name": "Love Rap",
+  "language": "ja",
   "group": "Love Rap",
   "objects": [
     {

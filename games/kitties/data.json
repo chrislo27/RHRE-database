@@ -10,7 +10,7 @@
       "deprecatedIDs": [],
       "name": "nya - 1",
       "duration": 0.5,
-	  "earliness": 0.045
+      "earliness": 0.045
     },
     {
       "type": "cue",
@@ -18,7 +18,7 @@
       "deprecatedIDs": [],
       "name": "nya - 2",
       "duration": 0.5,
-	  "earliness": 0.045
+      "earliness": 0.045
     },
     {
       "type": "cue",
@@ -26,7 +26,7 @@
       "deprecatedIDs": [],
       "name": "nya - 3",
       "duration": 0.5,
-	  "earliness": 0.045
+      "earliness": 0.045
     },
     {
       "type": "cue",
@@ -34,7 +34,7 @@
       "deprecatedIDs": [],
       "name": "clap - 1",
       "duration": 0.5,
-	  "earliness": 0.02
+      "earliness": 0.02
     },
     {
       "type": "cue",
@@ -42,7 +42,7 @@
       "deprecatedIDs": [],
       "name": "clap - 2",
       "duration": 0.5,
-	  "earliness": 0.015
+      "earliness": 0.015
     },
     {
       "type": "cue",
@@ -50,7 +50,7 @@
       "deprecatedIDs": [],
       "name": "fish - 1",
       "duration": 0.33333,
-	  "earliness": 0.015
+      "earliness": 0.015
     },
     {
       "type": "cue",
@@ -58,7 +58,7 @@
       "deprecatedIDs": [],
       "name": "fish - 2",
       "duration": 0.16666,
-	  "earliness": 0.035
+      "earliness": 0.035
     },
     {
       "type": "cue",
@@ -66,7 +66,7 @@
       "deprecatedIDs": [],
       "name": "fish - 3",
       "duration": 0.33333,
-	  "earliness": 0.03
+      "earliness": 0.03
     },
     {
       "type": "cue",
@@ -81,7 +81,7 @@
       "deprecatedIDs": [],
       "name": "roll - 1",
       "duration": 0.5,
-	  "earliness": 0.025
+      "earliness": 0.025
     },
     {
       "type": "cue",
@@ -89,7 +89,7 @@
       "deprecatedIDs": [],
       "name": "roll - 2",
       "duration": 0.5,
-	  "earliness": 0.045
+      "earliness": 0.045
     },
     {
       "type": "cue",
@@ -97,7 +97,7 @@
       "deprecatedIDs": [],
       "name": "roll - 3",
       "duration": 0.5,
-	  "earliness": 0.035
+      "earliness": 0.035
     },
     {
       "type": "cue",
@@ -105,7 +105,7 @@
       "deprecatedIDs": [],
       "name": "roll - 4",
       "duration": 0.5,
-	  "earliness": 0.035
+      "earliness": 0.035
     },
     {
       "type": "cue",
@@ -113,7 +113,7 @@
       "deprecatedIDs": [],
       "name": "roll - 5",
       "duration": 0.83333,
-	  "earliness": 0.035
+      "earliness": 0.035
     },
     {
       "type": "cue",
@@ -212,14 +212,14 @@
         {
           "id": "*/roll5",
           "beat": 2.0,
-		  "duration": 0.75,
+          "duration": 0.75,
           "track": 0
         },
         {
           "id": "*/rollLoop",
           "beat": 2.0,
           "track": 1,
-		  "duration": 0.75
+          "duration": 0.75
         },
         {
           "id": "*/roll6",
@@ -274,25 +274,25 @@
         {
           "id": "*/fish1",
           "beat": 0.0,
-		  "duration": 0.25
+          "duration": 0.25
         },
         {
           "id": "*/fish2",
           "beat": 0.25,
-		  "duration": 0.25
+          "duration": 0.25
         },
         {
           "id": "*/fish3",
           "beat": 0.5,
-		  "duration": 0.25
+          "duration": 0.25
         },
         {
           "id": "*/fish4",
           "beat": 0.75,
-		  "duration": 1.25
+          "duration": 1.25
         }
-	  ]
-	},
+      ]
+    },
     {
       "type": "pattern",
       "id": "*_fish",

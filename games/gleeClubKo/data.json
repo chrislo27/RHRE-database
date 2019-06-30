@@ -1,7 +1,8 @@
 {
   "series": "ds",
   "id": "gleeClubKo",
-  "name": "Glee Club (DS) (Korean)",
+  "name": "Glee Club (DS)",
+  "language": "ko",
   "group": "Glee Club (DS)",
   "objects": [
     {

@@ -1,7 +1,8 @@
 {
   "series": "megamix",
   "id": "marchingOrdersJa",
-  "name": "Marching Orders (Megamix) (Japanese)",
+  "name": "Marching Orders (Megamix)",
+  "language": "ja",
   "group": "Marching Orders (Megamix)",
   "objects": [
     {

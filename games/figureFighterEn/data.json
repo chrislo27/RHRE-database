@@ -1,7 +1,8 @@
 {
   "id": "figureFighterEn",
-  "name": "Figure Fighter (English)",
+  "name": "Figure Fighter",
   "series": "fever",
+  "language": "en",
   "group": "Figure Fighter",
   "groupDefault": true,
   "objects": [

@@ -1,7 +1,8 @@
 {
   "series": "ds",
   "id": "gleeClubEs",
-  "name": "Glee Club (DS) (Spanish)",
+  "name": "Glee Club (DS)",
+  "language": "es",
   "group": "Glee Club (DS)",
   "objects": [
     {

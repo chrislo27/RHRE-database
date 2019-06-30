@@ -1,7 +1,8 @@
 {
   "series": "ds",
   "id": "blueBirdsKo",
-  "name": "Blue Birds (DS) (Korean)",
+  "name": "Blue Birds (DS)",
+  "language": "ko",
   "group": "Blue Birds (DS)",
   "objects": [
     {

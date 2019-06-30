@@ -1,7 +1,8 @@
 {
   "id": "flipperFlopEn",
-  "name": "Flipper-Flop (English)",
+  "name": "Flipper-Flop",
   "series": "fever",
+  "language": "en",
   "group": "Flipper-Flop",
   "objects": [
     {

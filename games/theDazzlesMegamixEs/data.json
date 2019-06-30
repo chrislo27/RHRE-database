@@ -1,7 +1,8 @@
 {
   "series": "megamix",
   "id": "theDazzlesMegamixEs",
-  "name": "The Dazzles (Megamix) (Spanish)",
+  "name": "The Dazzles (Megamix)",
+  "language": "es",
   "group": "The Dazzles (Megamix)",
   "objects": [
     {

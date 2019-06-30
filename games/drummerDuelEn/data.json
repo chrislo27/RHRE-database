@@ -1,7 +1,8 @@
 {
   "series": "ds",
   "id": "drummerDuelEn",
-  "name": "Drummer Duel (English)",
+  "name": "Drummer Duel",
+  "language": "en",
   "group": "Drummer Duel",
   "groupDefault": true,
   "objects": [

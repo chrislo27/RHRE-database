@@ -1,7 +1,8 @@
 {
   "series": "fever",
   "id": "boardMeetingEn",
-  "name": "Board Meeting (English)",
+  "name": "Board Meeting",
+  "language": "en",
   "group": "Board Meeting",
   "groupDefault": true,
   "objects": [

@@ -1,7 +1,8 @@
 {
   "series": "fever",
   "id": "boardMeetingJa",
-  "name": "Board Meeting (Japanese)",
+  "name": "Board Meeting",
+  "language": "ja",
   "group": "Board Meeting",
   "objects": [
     {
@@ -122,7 +123,7 @@
       "deprecatedIDs": [],
       "name": "assistant - o",
       "duration": 0.33333,
-	  "earliness": 0.12
+      "earliness": 0.12
     },
     {
       "type": "cue",
@@ -130,7 +131,7 @@
       "deprecatedIDs": [],
       "name": "assistant - ni",
       "duration": 0.5,
-	  "earliness": 0.035
+      "earliness": 0.035
     },
     {
       "type": "cue",

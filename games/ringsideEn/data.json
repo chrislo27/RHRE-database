@@ -1,7 +1,8 @@
 {
   "series": "fever",
   "id": "ringsideEn",
-  "name": "Ringside (English)",
+  "name": "Ringside",
+  "language": "en",
   "group": "Ringside",
   "groupDefault": true,
   "objects": [

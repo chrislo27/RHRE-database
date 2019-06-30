@@ -1,7 +1,8 @@
 {
   "series": "megamix",
   "id": "theDazzlesMegamixKo",
-  "name": "The Dazzles (Megamix) (Korean)",
+  "name": "The Dazzles (Megamix)",
+  "language": "ko",
   "group": "The Dazzles (Megamix)",
   "objects": [
     {

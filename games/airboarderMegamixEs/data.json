@@ -1,7 +1,8 @@
 {
   "series": "megamix",
   "id": "airboarderMegamixEs",
-  "name": "Airboarder (Megamix) (Spanish)",
+  "name": "Airboarder (Megamix)",
+  "language": "es",
   "group": "Airboarder (Megamix)",
   "objects": [
     {

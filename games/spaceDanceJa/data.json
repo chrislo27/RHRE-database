@@ -1,7 +1,8 @@
 {
   "series": "megamix",
   "id": "spaceDanceJa",
-  "name": "Space Dance (Megamix) (Japanese)",
+  "name": "Space Dance (Megamix)",
+  "language": "ja",
   "group": "Space Dance (Megamix)",
   "objects": [
     {

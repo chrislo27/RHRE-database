@@ -1,7 +1,8 @@
 {
   "series": "ds",
   "id": "fanClubEn",
-  "name": "Fan Club (DS) (English)",
+  "name": "Fan Club (DS)",
+  "language": "en",
   "group": "Fan Club (DS)",
   "groupDefault": true,
   "objects": [

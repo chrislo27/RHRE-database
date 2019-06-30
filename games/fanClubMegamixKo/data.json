@@ -1,7 +1,8 @@
 {
   "series": "megamix",
   "id": "fanClubMegamixKo",
-  "name": "Fan Club (Megamix) (Korean)",
+  "name": "Fan Club (Megamix)",
+  "language": "ko",
   "group": "Fan Club (Megamix)",
   "objects": [
     {

@@ -1,7 +1,8 @@
 {
   "series": "megamix",
   "id": "gleeClubMegamixEn",
-  "name": "Glee Club (Megamix) (English)",
+  "name": "Glee Club (Megamix)",
+  "language": "en",
   "group": "Glee Club (Megamix)",
   "groupDefault": true,
   "objects": [

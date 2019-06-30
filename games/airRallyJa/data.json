@@ -1,7 +1,8 @@
 {
   "series": "fever",
   "id": "airRallyJa",
-  "name": "Air Rally (Japanese)",
+  "name": "Air Rally",
+  "language": "ja",
   "group": "Air Rally",
   "groupDefault": false,
   "objects": [

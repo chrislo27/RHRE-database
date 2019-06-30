@@ -1,7 +1,8 @@
 {
   "series": "megamix",
   "id": "karateManMegamixEn",
-  "name": "Karate Man (Megamix) (English)",
+  "name": "Karate Man (Megamix)",
+  "language": "en",
   "group": "Karate Man (Megamix)",
   "groupDefault": true,
   "priority": 1,

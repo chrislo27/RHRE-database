@@ -1,7 +1,8 @@
 {
   "series": "fever",
   "id": "screwbotFactoryJa",
-  "name": "Screwbot Factory (Japanese)",
+  "name": "Screwbot Factory",
+  "language": "ja",
   "group": "Screwbot Factory",
   "objects": [
     {

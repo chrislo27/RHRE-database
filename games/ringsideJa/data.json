@@ -1,7 +1,8 @@
 {
   "series": "fever",
   "id": "ringsideJa",
-  "name": "Ringside (Japanese)",
+  "name": "Ringside",
+  "language": "ja",
   "group": "Ringside",
   "objects": [
     {

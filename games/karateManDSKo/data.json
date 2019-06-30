@@ -1,7 +1,8 @@
 {
   "series": "ds",
   "id": "karateManDSKo",
-  "name": "Karate Man (DS) (Korean)",
+  "name": "Karate Man (DS)",
+  "language": "ko",
   "group": "Karate Man (DS)",
   "objects": [
     {

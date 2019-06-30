@@ -1,7 +1,8 @@
 {
   "series": "ds",
   "id": "spaceSoccerEn",
-  "name": "Space Soccer (English)",
+  "name": "Space Soccer",
+  "language": "en",
   "group": "Space Soccer",
   "groupDefault": true,
   "objects": [

@@ -1,7 +1,8 @@
 {
   "series": "fever",
   "id": "cheerReadersEn",
-  "name": "Cheer Readers (English)",
+  "name": "Cheer Readers",
+  "language": "en",
   "group": "Cheer Readers",
   "groupDefault": true,
   "objects": [

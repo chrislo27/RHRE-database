@@ -1,7 +1,8 @@
 {
   "id": "frogHopEs",
-  "name": "Frog Hop (DS) (Spanish)",
+  "name": "Frog Hop (DS)",
   "series": "ds",
+  "language": "es",
   "group": "Frog Hop (DS)",
   "objects": [
     {

@@ -1,7 +1,8 @@
 {
   "series": "ds",
   "id": "dogNinjaEn",
-  "name": "Dog Ninja (DS) (English)",
+  "name": "Dog Ninja (DS)",
+  "language": "en",
   "group": "Dog Ninja (DS)",
   "groupDefault": true,
   "objects": [

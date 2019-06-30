@@ -1,7 +1,8 @@
 {
   "series": "side",
   "id": "tunnelEs",
-  "name": "Tunnel (Spanish)",
+  "name": "Tunnel",
+  "language": "es",
   "group": "Tunnel",
   "objects": [
     {

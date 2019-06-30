@@ -1,7 +1,8 @@
 {
   "series": "ds",
   "id": "munchyMonkFr",
-  "name": "Munchy Monk (DS) (French)",
+  "name": "Munchy Monk (DS)",
+  "language": "fr",
   "group": "Munchy Monk (DS)",
   "objects": [
     {
@@ -10,7 +11,7 @@
       "deprecatedIDs": [],
       "name": "count - 1",
       "duration": 1.0,
-	  "earliness": 0.01
+      "earliness": 0.01
     },
     {
       "type": "cue",
@@ -18,7 +19,7 @@
       "deprecatedIDs": [],
       "name": "count - 2",
       "duration": 1.0,
-	  "earliness": 0.005
+      "earliness": 0.005
     },
     {
       "type": "cue",

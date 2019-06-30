@@ -1,7 +1,8 @@
 {
   "id": "countInEn",
-  "name": "Count-Ins (English)",
+  "name": "Count-Ins",
   "group": "Count-Ins",
+  "language": "en",
   "groupDefault": true,
   "priority": 1,
   "noDisplay": true,

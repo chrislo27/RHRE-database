@@ -1,7 +1,8 @@
 {
   "series": "megamix",
   "id": "blueBirdsMegamixDe",
-  "name": "Blue Birds (Megamix) (German)",
+  "name": "Blue Birds (Megamix)",
+  "language": "de",
   "group": "Blue Birds (Megamix)",
   "objects": [
     {
