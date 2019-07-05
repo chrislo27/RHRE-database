@@ -1,0 +1,33 @@
+[
+  {
+    "applyTo": ["bunnyHopGba", "bunnyHop"],
+    "engine": "8",
+    "name": "agbRabbit",
+    "tempoFile": "100005E",
+    "index": "0x17"
+  },
+  {
+    "applyTo": ["bunnyHopGba_start","bunnyHop_start"],
+    "sub": "0x101<1> 0"
+  },
+  {
+    "applyTo": ["bunnyHopGba_hopping", "bunnyHop_hopping"],
+    "sub": "0x100 type, delay",
+	"note": "Delay is written in beats. Refer to documentation for type"
+  },
+  {
+    "applyTo": ["bunnyHopGba_longJump2", "bunnyHop_longJump2", "bunnyHop_longJumpShort"],
+    "sub": "0x100 2, delay",
+	"note": "Delay is written in beats"
+  },
+  {
+    "applyTo": ["bunnyHopGba_longJump4", "bunnyHop_longJump4", "bunnyHop_longJump"],
+    "sub": "0x100 5, delay",
+	"note": "Delay is written in beats"
+  },
+  {
+    "applyTo": ["bunnyHopGba_longJump8", "bunnyHop_longJump8", "bunnyHop_longJumpLong"],
+    "sub": "0x100 4, delay",
+	"note": "Delay is written in beats"
+  }
+]
