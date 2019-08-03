@@ -1,0 +1,25 @@
+[
+  {
+    "applyTo": ["fruitBasket"],
+    "engine": "0x38",
+    "name": "ctrFruitbasket, ctrFruitbasket2",
+    "tempoFile": "10000B9, 10000BA",
+    "index": "0xB, 0x46",
+	"note": "In order of: FB Story, FB 2"
+  },
+  {
+    "applyTo": ["fruitBasket_apple"],
+    "sub": "0x57, 0x58, 0x59",
+	"note": "In order of: left, right, both"
+  },
+  {
+    "applyTo": ["fruitBasket_lemon"],
+    "sub": "0x5C, 0x5D, 0x5E/0x5F, 0x60, 0x61",
+	"note": "In order of: left, right, both. Former set has no smile"
+  },
+  {
+    "applyTo": ["fruitBasket_melon"],
+    "sub": "0x5A, 0x5B",
+	"note": "In order of: left, right"
+  }
+]
