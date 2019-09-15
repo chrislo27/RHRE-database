@@ -27,8 +27,7 @@
       "deprecatedIDs": [],
       "name": "hai-",
       "duration": 0.5,
-      "fileExtension": "ogg",
-      "baseBpm": 95.0
+      "fileExtension": "ogg"
     },
     {
       "type": "cue",
@@ -36,8 +35,7 @@
       "deprecatedIDs": [],
       "name": "-hai!",
       "duration": 0.5,
-      "fileExtension": "ogg",
-      "baseBpm": 95.0
+      "fileExtension": "ogg"
     },
     {
       "type": "cue",
