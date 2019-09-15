@@ -9,6 +9,7 @@
       "deprecatedIDs": [],
       "name": "cycle",
       "baseBpm": 121,
+      "useTimeStretching": false,
       "duration": 2.0
     },
     {

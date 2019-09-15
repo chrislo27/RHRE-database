@@ -45,7 +45,8 @@
       "deprecatedIDs": [],
       "name": "prepare",
       "duration": 2.25,
-      "baseBpm": 120.0
+      "baseBpm": 120.0,
+      "useTimeStretching": false
     },
     {
       "type": "cue",
