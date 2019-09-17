@@ -29,7 +29,7 @@
       "duration": 0.5,
       "fileExtension": "ogg",
       "baseBpm": 95.0,
-      "baseBpmRules": "noTimeStretching"
+      "baseBpmRules": "noTimeStretch"
     },
     {
       "type": "cue",
@@ -39,7 +39,7 @@
       "duration": 0.5,
       "fileExtension": "ogg",
       "baseBpm": 95.0,
-      "baseBpmRules": "noTimeStretching"
+      "baseBpmRules": "noTimeStretch"
     },
     {
       "type": "cue",
