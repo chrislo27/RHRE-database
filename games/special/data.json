@@ -37,6 +37,12 @@
       "subtitleType": "songArtist"
     },
     {
+      "type": "pitchBenderEntity",
+      "id": "*_pitchBenderEntity",
+      "deprecatedIDs": [],
+      "name": "Pitch Bend"
+    },
+    {
       "type": "tapeMeasure",
       "id": "*_tapeMeasure",
       "deprecatedIDs": [],
