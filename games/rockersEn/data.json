@@ -410,7 +410,8 @@
       "introSound": "*/chordStartBend",
       "responseIDs": [
         "*/chordBend"
-      ]
+      ],
+      "pitchBending": true
     },
     {
       "type": "cue",
@@ -420,7 +421,8 @@
       ],
       "name": "chord bend - start",
       "duration": 0.25,
-      "repitchable": true
+      "repitchable": true,
+      "pitchBending": true
     },
     {
       "type": "cue",
@@ -435,7 +437,8 @@
       "repitchable": true,
       "responseIDs": [
         "*/chordBendNoStart"
-      ]
+      ],
+      "pitchBending": true
     },
     {
       "type": "cue",
