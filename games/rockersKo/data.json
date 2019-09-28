@@ -307,37 +307,71 @@
     },
     {
       "type": "cue",
-      "id": "*/chordBend",
+      "id": "*/bendHigh",
       "deprecatedIDs": [],
-      "name": "chord bend (A#)",
+      "name": "chord bend (high)",
       "duration": 1.0,
       "loops": true,
+      "loopStart": 0.12609977324,
+      "loopEnd": 0.19873015873,
       "stretchable": true,
       "repitchable": true,
-      "introSound": "*/chordStartBend",
-      "responseIDs": [],
-      "pitchBending": true
+      "pitchBending": true,
+      "endingSound": "*/bendHighEnd",
+      "responseIDs": [
+        "*/bendHigh"
+      ]
     },
     {
       "type": "cue",
-      "id": "*/chordStartBend",
+      "id": "*/bendHighEnd",
       "deprecatedIDs": [],
-      "name": "chord bend - start",
+      "name": "chord bend (high) (end)",
       "duration": 0.25,
+      "loops": true,
+      "stretchable": true,
       "repitchable": true,
       "pitchBending": true
     },
     {
       "type": "cue",
-      "id": "*/chordBendNoStart",
+      "id": "*/bendLow",
       "deprecatedIDs": [],
-      "name": "chord bend (no strum)",
+      "name": "chord bend (low)",
       "duration": 1.0,
+      "loops": true,
+      "loopStart": 0.1854648526,
+      "loopEnd": 0.20839002267,
+      "stretchable": true,
+      "repitchable": true,
+      "pitchBending": true,
+      "endingSound": "*/bendLowEnd",
+      "responseIDs": [
+        "*/bendLow"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "*/bendLowEnd",
+      "deprecatedIDs": [],
+      "name": "chord bend (low) (end)",
+      "duration": 0.25,
       "loops": true,
       "stretchable": true,
       "repitchable": true,
-      "responseIDs": [],
       "pitchBending": true
+    },
+    {
+      "type": "pitchDependent",
+      "id": "*_chordBend",
+      "deprecatedIDs": [
+        "rockers/chordBend", "rockersEn/chordBend"
+      ],
+      "name": "chord bend",
+      "intervals": {
+        "..5": "*/bendLow",
+        "6..": "*/bendHigh"
+      }
     },
     {
       "type": "cue",
