@@ -8,6 +8,7 @@
   "noDisplay": true,
   "objects": [
     {
+      // NOTE: This sound is used by the editor as the metronome sound
       "type": "cue",
       "id": "*/cowbell",
       "deprecatedIDs": [
