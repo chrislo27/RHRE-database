@@ -16,27 +16,6 @@
       "name": "End Remix"
     },
     {
-      "type": "subtitleEntity",
-      "id": "*_subtitleEntity",
-      "deprecatedIDs": [],
-      "name": "Subtitle",
-      "subtitleType": "subtitle"
-    },
-    {
-      "type": "subtitleEntity",
-      "id": "*_songTitleEntity",
-      "deprecatedIDs": [],
-      "name": "Song Title",
-      "subtitleType": "songTitle"
-    },
-    {
-      "type": "subtitleEntity",
-      "id": "*_songArtistEntity",
-      "deprecatedIDs": [],
-      "name": "Song Artist",
-      "subtitleType": "songArtist"
-    },
-    {
       "type": "pitchBenderEntity",
       "id": "*_pitchBenderEntity",
       "deprecatedIDs": [],
@@ -47,18 +26,6 @@
       "id": "*_tapeMeasure",
       "deprecatedIDs": [],
       "name": "Tape Measure"
-    },
-    {
-      "type": "textureEntity",
-      "id": "*_textureEntity",
-      "deprecatedIDs": [],
-      "name": "Texture"
-    },
-    {
-      "type": "shakeEntity",
-      "id": "*_shakeEntity",
-      "deprecatedIDs": [],
-      "name": "Shake"
     },
     {
       "type": "cue",
