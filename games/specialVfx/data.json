@@ -5,7 +5,7 @@
   "id": "specialVfx",
   "name": "Visual Effects",
   "gameGroup": "Special Entities",
-  "groupDefault": true,
+  "groupDefault": false,
   "priority": 2,
   "noDisplay": true,
   "objects": [
