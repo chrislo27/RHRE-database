@@ -2,6 +2,8 @@
   "series": "side",
   "id": "coinTossMegamix",
   "name": "Coin Toss (Megamix)",
+  "group": "Coin Toss",
+  "groupDefault": "true",
   "objects": [
     {
       "type": "cue",

@@ -11,7 +11,8 @@
       "deprecatedIDs": [],
       "name": "c'est... parti! - 1",
       "baseBpm": 160,
-      "duration": 6.5
+      "duration": 6.5,
+      "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",

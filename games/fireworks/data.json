@@ -8,7 +8,9 @@
       "id": "*/firework1",
       "deprecatedIDs": [],
       "name": "rhythm rocket - 1",
-      "duration": 3.0
+      "duration": 3.0,
+      "baseBpm": 139,
+      "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",
@@ -296,6 +298,48 @@
         {
           "id": "*/bombhai",
           "beat": 2.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_allFireworks",
+      "deprecatedIDs": [],
+      "name": "all fireworks",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/firework1",
+          "beat": 0.0,
+          "duration": 3.0,
+          "track": 2
+        },
+        {
+          "id": "*/bomb1",
+          "beat": 1.0,
+          "duration": 0.333
+        },
+        {
+          "id": "*/bomb2",
+          "beat": 1.3330002,
+          "duration": 0.333
+        },
+        {
+          "id": "*/bomb3",
+          "beat": 1.6669998,
+          "duration": 1.333
+        },
+        {
+          "id": "*/quickshot2",
+          "beat": 2.0,
+          "duration": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/all",
+          "beat": 3.0,
+          "duration": 1.0,
+          "track": 1
         }
       ]
     }

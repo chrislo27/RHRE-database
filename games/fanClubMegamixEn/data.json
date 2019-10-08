@@ -108,7 +108,8 @@
       "name": "ohh - 1",
       "deprecatedIDs": [],
       "duration": 2.5,
-      "loopEnd": -1.0
+      "loopEnd": -1.0,
+      "baseBpm": 142
     },
     {
       "type": "cue",

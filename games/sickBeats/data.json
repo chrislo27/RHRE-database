@@ -58,13 +58,14 @@
     },
     {
       "type": "pattern",
-      "id": "*_blueVirus",
+      "id": "*_blueVirusStart",
       "deprecatedIDs": [
         "sickBeats_blueVirus1",
         "sickBeats_blueVirus2",
-        "sickBeats_blueVirus3"
+        "sickBeats_blueVirus3",
+        "sickBeats_blueVirus"
       ],
-      "name": "blue virus",
+      "name": "blue virus - start",
       "cues": [
         {
           "id": "*_randomAppear",
@@ -78,9 +79,64 @@
     },
     {
       "type": "pattern",
-      "id": "*_quickBlueVirus",
+      "id": "*_blueVirusPos1",
       "deprecatedIDs": [],
-      "name": "quick blue virus",
+      "name": "blue virus - position 1",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/whoosh",
+          "beat": 0.0,
+          "duration": 0.1875
+        },
+        {
+          "id": "*_randomAppear",
+          "beat": 2.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*_randomStab",
+          "beat": 3.0,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_blueVirusPos2",
+      "deprecatedIDs": [],
+      "name": "blue virus - position 2",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/whoosh",
+          "beat": 0.0,
+          "duration": 0.1875
+        },
+        {
+          "id": "*/whoosh",
+          "beat": 0.1875,
+          "duration": 0.1875
+        },
+        {
+          "id": "*_randomAppear",
+          "beat": 2.1875,
+          "duration": 1.0
+        },
+        {
+          "id": "*_randomStab",
+          "beat": 3.1875,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_blueVirusPos3",
+      "deprecatedIDs": [
+        "sickBeats_quickBlueVirus"
+      ],
+      "name": "blue virus - position 3",
       "cues": [
         {
           "id": "*/whoosh",
@@ -106,11 +162,11 @@
     },
     {
       "type": "pattern",
-      "id": "*_pinkVirus1",
+      "id": "*_pinkVirusStart",
       "deprecatedIDs": [
         "sickBeats_pinkVirus1"
       ],
-      "name": "pink virus",
+      "name": "pink virus - start",
       "cues": [
         {
           "id": "*_randomAppear",
@@ -132,9 +188,45 @@
     },
     {
       "type": "pattern",
-      "id": "*_quickPinkVirus",
+      "id": "*_pinkVirusPos1",
       "deprecatedIDs": [],
-      "name": "quick pink virus",
+      "name": "pink virus - position 1",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/whoosh",
+          "beat": 0.0,
+          "duration": 0.1875
+        },
+        {
+          "id": "*_randomAppear",
+          "beat": 2.0,
+          "duration": 0.99999994
+        },
+        {
+          "id": "*/resist",
+          "beat": 3.0,
+          "duration": 0.99999994
+        },
+        {
+          "id": "*_randomAppear",
+          "beat": 4.0,
+          "duration": 0.99999994
+        },
+        {
+          "id": "*_randomStab",
+          "beat": 5.0,
+          "duration": 0.99999994
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_pinkVirusPos2",
+      "deprecatedIDs": [
+        "sickBeats_quickPinkVirus"
+      ],
+      "name": "pink virus - position 2",
       "cues": [
         {
           "id": "*/whoosh",
@@ -146,30 +238,30 @@
         },
         {
           "id": "*_randomAppear",
-          "beat": 1.1875
-        },
-        {
-          "id": "*/resist",
           "beat": 2.1875
         },
         {
-          "id": "*_randomAppear",
+          "id": "*/resist",
           "beat": 3.1875
         },
         {
-          "id": "*_randomStab",
+          "id": "*_randomAppear",
           "beat": 4.1875
+        },
+        {
+          "id": "*_randomStab",
+          "beat": 5.1875
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_blackVirus2",
+      "id": "*_blackVirusStart",
       "deprecatedIDs": [
         "sickBeats_blackVirus1",
         "sickBeats_blackVirus2"
       ],
-      "name": "black virus",
+      "name": "black virus - start",
       "cues": [
         {
           "id": "*_randomAppear",
@@ -199,9 +291,11 @@
     },
     {
       "type": "pattern",
-      "id": "*_quickBlackVirus",
-      "deprecatedIDs": [],
-      "name": "quick black virus",
+      "id": "*_blackVirusPos1",
+      "deprecatedIDs": [
+        "sickBeats_quickBlackVirus"
+      ],
+      "name": "black virus - position 1",
       "cues": [
         {
           "id": "*/whoosh",

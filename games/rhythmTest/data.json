@@ -117,7 +117,7 @@
       "id": "*_waitEight",
       "deprecatedIDs": [],
       "name": "wait (eight)",
-      "defaultDuration": 4.0,
+      "defaultDuration": 8.0,
       "cues": [
         {
           "id": "*/wait",

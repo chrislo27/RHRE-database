@@ -185,7 +185,8 @@
       ],
       "duration": 1.0,
       "introSound": "*/throw5Start",
-      "loops": true
+      "baseBpm": 103,
+      "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",
@@ -302,47 +303,12 @@
     },
     {
       "type": "pattern",
-      "id": "*_throw",
+      "id": "*_randomThrow",
       "name": "throw pillow",
       "deprecatedIDs": [
-        "pajamaParty_throw"
-      ],
-      "cues": [
-        {
-          "id": "*/throw1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/throw2",
-          "beat": 0.5
-        },
-        {
-          "id": "*/throw3",
-          "beat": 1.0
-        },
-        {
-          "id": "*/throw4",
-          "beat": 1.5
-        },
-        {
-          "id": "*/throw5",
-          "beat": 2.0
-        },
-        {
-          "id": "*/throw6",
-          "beat": 3.0
-        },
-        {
-          "id": "*/throw7",
-          "beat": 7.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_throwAlternative",
-      "name": "throw pillow - (alternative)",
-      "deprecatedIDs": [
+        "pajamaPartyEn_throw",
+        "pajamaParty_throw",
+        "pajamaPartyEn_throwAlternative",
         "pajamaParty_throwAlternative"
       ],
       "cues": [
@@ -371,8 +337,22 @@
           "beat": 3.0
         },
         {
-          "id": "*/throw7b",
+          "id": "*_randomCatch",
           "beat": 7.0
+        }
+      ]
+    },
+    {
+      "type": "randomCue",
+      "id": "*_randomCatch",
+      "deprecatedIDs": [],
+      "name": "random catch",
+      "cues": [
+        {
+          "id": "*/throw7"
+        },
+        {
+          "id": "*/throw7b"
         }
       ]
     }

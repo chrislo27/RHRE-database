@@ -73,13 +73,6 @@
       "deprecatedIDs": [],
       "name": "toy car - hit",
       "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/tap",
-      "deprecatedIDs": [],
-      "name": "text advance",
-      "duration": 1.0
     }
   ]
 }

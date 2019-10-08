@@ -365,7 +365,7 @@
       "type": "pitchDependent",
       "id": "*_chordBend",
       "deprecatedIDs": [
-        "rockers/chordBend", "rockersEn/chordBend"
+        "rockersEs/chordBend"
       ],
       "name": "chord bend",
       "intervals": {

@@ -118,7 +118,7 @@
         "rhythmTestWii_waitEight"
       ],
       "name": "wait (eight)",
-      "defaultDuration": 4.0,
+      "defaultDuration": 8.0,
       "cues": [
         {
           "id": "*/wait",

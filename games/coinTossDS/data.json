@@ -2,6 +2,7 @@
   "series": "side",
   "id": "coinTossDS",
   "name": "Coin Toss (DS)",
+  "group": "Coin Toss",
   "objects": [
     {
       "type": "cue",

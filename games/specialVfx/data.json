@@ -12,34 +12,44 @@
     {
       "type": "subtitleEntity",
       "id": "*_subtitleEntity",
-      "deprecatedIDs": ["special_subtitleEntity"],
+      "deprecatedIDs": [
+        "special_subtitleEntity"
+      ],
       "name": "Subtitle",
       "subtitleType": "subtitle"
     },
     {
       "type": "subtitleEntity",
       "id": "*_songTitleEntity",
-      "deprecatedIDs": ["special_songTitleEntity"],
+      "deprecatedIDs": [
+        "special_songTitleEntity"
+      ],
       "name": "Song Title",
       "subtitleType": "songTitle"
     },
     {
       "type": "subtitleEntity",
       "id": "*_songArtistEntity",
-      "deprecatedIDs": ["special_songArtistEntity"],
+      "deprecatedIDs": [
+        "special_songArtistEntity"
+      ],
       "name": "Song Artist",
       "subtitleType": "songArtist"
     },
     {
       "type": "textureEntity",
       "id": "*_textureEntity",
-      "deprecatedIDs": ["special_textureEntity"],
+      "deprecatedIDs": [
+        "special_textureEntity"
+      ],
       "name": "Texture"
     },
     {
       "type": "shakeEntity",
       "id": "*_shakeEntity",
-      "deprecatedIDs": ["special_shakeEntity"],
+      "deprecatedIDs": [
+        "special_shakeEntity"
+      ],
       "name": "Shake Screen"
     }
   ]

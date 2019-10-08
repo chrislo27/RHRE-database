@@ -2,6 +2,7 @@
   "series": "side",
   "id": "mrUpbeatGba",
   "name": "Mr. Upbeat (GBA)",
+  "group": "Mr. Upbeat",
   "objects": [
     {
       "type": "cue",

@@ -16,9 +16,18 @@
     },
     {
       "type": "cue",
-      "id": "*/textAdvance",
+      "id": "*/textAdvanceMMF",
       "deprecatedIDs": [],
-      "name": "text advance",
+      "name": "text advance (Wii/3DS)",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/textAdvanceDS",
+      "deprecatedIDs": [
+        "flickingPractice/tap"
+      ],
+      "name": "text advance (DS)",
       "duration": 1.0
     },
     {
@@ -27,7 +36,7 @@
       "deprecatedIDs": [
         "extraSFX/textAdvance"
       ],
-      "name": "text advance (Tengoku)",
+      "name": "text advance (GBA)",
       "duration": 1.0
     },
     {

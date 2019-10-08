@@ -9,28 +9,36 @@
       "deprecatedIDs": [],
       "name": "fly - near - 1",
       "duration": 2.5,
-      "loops": true
+      "baseBpm": 119,
+      "baseBpmRules": "onlyTimeStretch",
+      "loops": "true"
     },
     {
       "type": "cue",
       "id": "*/flyA2",
       "deprecatedIDs": [],
       "name": "fly - near - 2",
-      "duration": 1.0
+      "duration": 1.0,
+      "baseBpm": 119,
+      "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",
       "id": "*/flyA3",
       "deprecatedIDs": [],
       "name": "fly - near - 3",
-      "duration": 1.0
+      "duration": 1.0,
+      "baseBpm": 119,
+      "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",
       "id": "*/flyA4",
       "deprecatedIDs": [],
       "name": "fly - near - 4",
-      "duration": 1.0
+      "duration": 1.0,
+      "baseBpm": 119,
+      "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",
@@ -45,28 +53,36 @@
       "deprecatedIDs": [],
       "name": "fly - far - 1",
       "duration": 4.0,
-      "loops": true
+      "baseBpm": 119,
+      "baseBpmRules": "onlyTimeStretch",
+      "loops": "true"
     },
     {
       "type": "cue",
       "id": "*/flyAB2",
       "deprecatedIDs": [],
       "name": "fly - far - 2",
-      "duration": 1.0
+      "duration": 1.0,
+      "baseBpm": 119,
+      "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",
       "id": "*/flyAB3",
       "deprecatedIDs": [],
       "name": "fly - far - 3",
-      "duration": 1.0
+      "duration": 1.0,
+      "baseBpm": 119,
+      "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",
       "id": "*/flyAB4",
       "deprecatedIDs": [],
       "name": "fly - far - 4",
-      "duration": 1.0
+      "duration": 1.0,
+      "baseBpm": 119,
+      "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",

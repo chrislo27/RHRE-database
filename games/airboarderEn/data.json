@@ -12,7 +12,8 @@
       "name": "yeah... let's go! - 1",
       "deprecatedIDs": [],
       "duration": 6.5,
-      "baseBpm": 160.0
+      "baseBpm": 160.0,
+      "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",

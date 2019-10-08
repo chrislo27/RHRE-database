@@ -47,12 +47,13 @@
     },
     {
       "type": "pattern",
-      "id": "*_blueVirus",
+      "id": "*_blueVirusStart",
       "deprecatedIDs": [
         "sickBeatsMegamix_blueVirus1",
-        "sickBeatsMegamix_blueVirus2"
+        "sickBeatsMegamix_blueVirus2",
+        "sickBeatsMegamix_blueVirus"
       ],
-      "name": "blue virus",
+      "name": "blue virus - start",
       "cues": [
         {
           "id": "*_randomAppear",
@@ -66,9 +67,64 @@
     },
     {
       "type": "pattern",
-      "id": "*_quickBlueVirus",
+      "id": "*_blueVirusPos1",
       "deprecatedIDs": [],
-      "name": "quick blue virus",
+      "name": "blue virus - position 1",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/whoosh",
+          "beat": 0.0,
+          "duration": 0.1875
+        },
+        {
+          "id": "*_randomAppear",
+          "beat": 2.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*_randomStab",
+          "beat": 3.0,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_blueVirusPos2",
+      "deprecatedIDs": [],
+      "name": "blue virus - position 2",
+      "stretchable": false,
+      "cues": [
+        {
+          "id": "*/whoosh",
+          "beat": 0.0,
+          "duration": 0.1875
+        },
+        {
+          "id": "*/whoosh",
+          "beat": 0.1875,
+          "duration": 0.1875
+        },
+        {
+          "id": "*_randomAppear",
+          "beat": 2.1875,
+          "duration": 1.0
+        },
+        {
+          "id": "*_randomStab",
+          "beat": 3.1875,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_blueVirusPos3",
+      "deprecatedIDs": [
+        "sickBeatsMegamix_quickBlueVirus"
+      ],
+      "name": "blue virus - position 3",
       "cues": [
         {
           "id": "*/whoosh",
@@ -94,12 +150,13 @@
     },
     {
       "type": "pattern",
-      "id": "*_pinkVirus",
+      "id": "*_pinkVirusStart",
       "deprecatedIDs": [
         "sickBeatsMegamix_pinkVirus1",
-        "sickBeatsMegamix_pinkVirus2"
+        "sickBeatsMegamix_pinkVirus2",
+        "sickBeatsMegamix_pinkVirus"
       ],
-      "name": "pink virus",
+      "name": "pink virus - start",
       "cues": [
         {
           "id": "*_randomAppear",
@@ -121,44 +178,87 @@
     },
     {
       "type": "pattern",
-      "id": "*_quickPinkVirus",
+      "id": "*_pinkVirusPos1",
       "deprecatedIDs": [],
-      "name": "quick pink virus",
+      "name": "pink virus - position 1",
+      "stretchable": false,
       "cues": [
         {
           "id": "*/whoosh",
-          "beat": 0.0
-        },
-        {
-          "id": "*/whoosh",
-          "beat": 0.1875
+          "beat": 0.0,
+          "duration": 0.1875
         },
         {
           "id": "*_randomAppear",
-          "beat": 1.1875
+          "beat": 2.0,
+          "duration": 0.99999994
         },
         {
           "id": "*/resist",
-          "beat": 2.1875
+          "beat": 3.0,
+          "duration": 0.99999994
         },
         {
           "id": "*_randomAppear",
-          "beat": 3.1875
+          "beat": 4.0,
+          "duration": 0.99999994
         },
         {
           "id": "*_randomStab",
-          "beat": 4.1875
+          "beat": 5.0,
+          "duration": 0.99999994
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_blackVirus",
+      "id": "*_pinkVirusPos2",
+      "deprecatedIDs": [
+        "sickBeatsMegamix_quickPinkVirus"
+      ],
+      "name": "pink virus - position 2",
+      "cues": [
+        {
+          "id": "*/whoosh",
+          "beat": 0.0,
+          "duration": 0.1875
+        },
+        {
+          "id": "*/whoosh",
+          "beat": 0.1875,
+          "duration": 0.1875
+        },
+        {
+          "id": "*_randomAppear",
+          "beat": 2.1875,
+          "duration": 0.99999994
+        },
+        {
+          "id": "*/resist",
+          "beat": 3.1875,
+          "duration": 0.99999994
+        },
+        {
+          "id": "*_randomAppear",
+          "beat": 4.1875,
+          "duration": 0.99999994
+        },
+        {
+          "id": "*_randomStab",
+          "beat": 5.1875,
+          "duration": 0.99999994
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_blackVirusStart",
       "deprecatedIDs": [
         "sickBeatsMegamix_blackVirus1",
-        "sickBeatsMegamix_blackVirus2"
+        "sickBeatsMegamix_blackVirus2",
+        "sickBeatsMegamix_blackVirus"
       ],
-      "name": "black virus",
+      "name": "black virus - start",
       "cues": [
         {
           "id": "*_randomAppear",
@@ -188,9 +288,11 @@
     },
     {
       "type": "pattern",
-      "id": "*_quickBlackVirus",
-      "deprecatedIDs": [],
-      "name": "quick black virus",
+      "id": "*_blackVirusPos1",
+      "deprecatedIDs": [
+        "sickBeatsMegamix_quickBlackVirus"
+      ],
+      "name": "black virus - position 1",
       "cues": [
         {
           "id": "*/whoosh",

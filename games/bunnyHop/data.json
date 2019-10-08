@@ -31,7 +31,9 @@
       "name": "long jump start",
       "duration": 1.0,
       "loops": true,
-      "stretchable": true
+      "stretchable": true,
+      "baseBpm": "150",
+      "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",
@@ -40,7 +42,9 @@
       "name": "long jump start (short)",
       "duration": 0.5,
       "loops": true,
-      "stretchable": true
+      "stretchable": true,
+      "baseBpm": "150",
+      "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",

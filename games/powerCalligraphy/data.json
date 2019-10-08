@@ -8,7 +8,9 @@
       "id": "*/releaseA1",
       "deprecatedIDs": [],
       "name": "nrr... hya! - 1",
-      "duration": 2.0
+      "duration": 2.0,
+      "baseBpm": 126.0,
+      "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",
@@ -22,7 +24,9 @@
       "id": "*/releaseB1",
       "deprecatedIDs": [],
       "name": "hai! - 1",
-      "duration": 1.0
+      "duration": 1.0,
+      "baseBpm": 126.0,
+      "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",

@@ -15,7 +15,9 @@
       "id": "*/prepare",
       "deprecatedIDs": [],
       "name": "prepare",
-      "duration": 1.0
+      "duration": 1.0,
+      "baseBpm": 119,
+      "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",

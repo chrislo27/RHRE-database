@@ -181,7 +181,7 @@
         },
         {
           "id": "*/bigSliceLow",
-          "beat": 1.5
+          "beat": 1.0
         }
       ]
     },
@@ -197,7 +197,7 @@
         },
         {
           "id": "*/bigSliceMiddle",
-          "beat": 1.5
+          "beat": 1.0
         }
       ]
     },
@@ -213,7 +213,7 @@
         },
         {
           "id": "*/bigSliceHigh",
-          "beat": 1.5
+          "beat": 1.0
         }
       ]
     }

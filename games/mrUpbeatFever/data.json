@@ -2,6 +2,8 @@
   "series": "side",
   "id": "mrUpbeatFever",
   "name": "Mr. Upbeat (Fever)",
+  "group": "Mr. Upbeat",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",

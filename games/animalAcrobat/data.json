@@ -32,7 +32,9 @@
       "id": "*/giraffeRelease",
       "deprecatedIDs": [],
       "name": "giraffe release",
-      "duration": 2.0
+      "duration": 2.0,
+      "baseBpm": 131,
+      "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",
@@ -108,9 +110,9 @@
     },
     {
       "type": "pattern",
-      "id": "*_giraffe",
+      "id": "*_giraffeCymbal",
       "deprecatedIDs": [],
-      "name": "giraffe",
+      "name": "giraffe - next animal",
       "cues": [
         {
           "id": "*/grab",
@@ -131,6 +133,14 @@
         {
           "id": "*/ringOfFireCymbal",
           "beat": 6.0
+        },
+        {
+          "id": "*/flip",
+          "beat": 7.0
+        },
+        {
+          "id": "*/cymbal",
+          "beat": 8.0
         }
       ]
     },
@@ -192,9 +202,9 @@
     },
     {
       "type": "pattern",
-      "id": "*_giraffeCymbal",
+      "id": "*_giraffe",
       "deprecatedIDs": [],
-      "name": "giraffe - next animal",
+      "name": "giraffe - nothing after",
       "cues": [
         {
           "id": "*/grab",
@@ -215,14 +225,6 @@
         {
           "id": "*/ringOfFireCymbal",
           "beat": 6.0
-        },
-        {
-          "id": "*/flip",
-          "beat": 7.0
-        },
-        {
-          "id": "*/cymbal",
-          "beat": 8.0
         }
       ]
     },
