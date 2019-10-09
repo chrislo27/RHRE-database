@@ -1,26 +1,26 @@
 [
   {
-    "applyTo": ["pajamaPartyEn", "pajamaPartyJa"],
+    "applyTo": ["pajamaPartyEn", "pajamaPartyJa", "pajamaPartyKo"],
     "engine": "0x3A",
     "name": "ctrPillow",
     "tempoFile": "10000BD",
     "index": "0x48"
   },
   {
-    "applyTo": ["pajamaPartyEn_three", "pajamaPartyJa_three"],
+    "applyTo": ["pajamaPartyEn_three", "pajamaPartyJa_three", "pajamaPartyKo_three"],
     "sub": "0x56"
   },
   {
-    "applyTo": ["pajamaPartyEn_five", "pajamaPartyJa_five"],
+    "applyTo": ["pajamaPartyEn_five", "pajamaPartyJa_five", "pajamaPartyKo_five"],
     "sub": "0x57"
   },
   {
-    "applyTo": ["pajamaPartyEn_siesta", "pajamaPartyJa_siesta"],
+    "applyTo": ["pajamaPartyEn_siesta", "pajamaPartyJa_siesta", "pajamaPartyKo_siesta"],
     "sub": "0x58, 0x59",
 	"note": "0x59 sleeps forever"
   },
   {
-    "applyTo": ["pajamaPartyEn_throw", "pajamaPartyJa_throw", "pajamaPartyEn_throwAlternative", "pajamaPartyJa_throwAlternative"],
+    "applyTo": ["pajamaPartyEn_randomThrow", "pajamaPartyJa_randomThrow", "pajamaPartyKo_randomThrow"],
     "sub": "0x5A"
   }
 ]
