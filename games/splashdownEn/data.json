@@ -113,14 +113,18 @@
         "splashdown/oooh"
       ],
       "name": "ohhhhh",
-      "duration": 2.0
+      "duration": 2.0,
+	  "baseBpm": 120,
+	  "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",
       "id": "*/ooohRemix9",
       "deprecatedIDs": [],
       "name": "ohhhhh (Remix 9)",
-      "duration": 1.0
+      "duration": 1.0,
+	  "baseBpm": 120,
+	  "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",

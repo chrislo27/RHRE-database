@@ -5,10 +5,17 @@
   "objects": [
     {
       "type": "cue",
+      "id": "*/neigh",
+      "deprecatedIDs": [],
+      "name": "neigh",
+      "duration": 4.0
+    },
+    {
+      "type": "cue",
       "id": "*/horse1",
       "deprecatedIDs": [],
       "name": "horse 1",
-      "duration": 1.0,
+      "duration": 0.5,
       "responseIDs": [
         "*/playerhorse1"
       ]
@@ -18,7 +25,7 @@
       "id": "*/horse2",
       "deprecatedIDs": [],
       "name": "horse 2",
-      "duration": 2.0,
+      "duration": 1.0,
       "responseIDs": [
         "*/playerhorse2"
       ]
@@ -115,24 +122,17 @@
     },
     {
       "type": "cue",
-      "id": "*/neigh",
-      "deprecatedIDs": [],
-      "name": "neigh",
-      "duration": 4.0
-    },
-    {
-      "type": "cue",
       "id": "*/playerhorse1",
       "deprecatedIDs": [],
       "name": "player horse 1",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/playerhorse2",
       "deprecatedIDs": [],
       "name": "player horse 2",
-      "duration": 2.0
+      "duration": 1.0
     },
     {
       "type": "cue",
@@ -210,7 +210,15 @@
         },
         {
           "id": "*/horse2",
-          "beat": 1.0
+          "beat": 0.5
+        },
+	    {
+          "id": "*/horse1",
+          "beat": 1.5
+        },
+        {
+          "id": "*/horse2",
+          "beat": 2.0
         }
       ]
     },
@@ -229,7 +237,7 @@
         {
           "id": "*/horse2",
           "track": 0,
-          "beat": 1.0
+          "beat": 0.5
         },
         {
           "id": "*/playerhorse1",
@@ -239,7 +247,27 @@
         {
           "id": "*/playerhorse2",
           "track": 1,
-          "beat": 1.0
+          "beat": 0.5
+        },
+		        {
+          "id": "*/horse1",
+          "track": 0,
+          "beat": 1.5
+        },
+        {
+          "id": "*/horse2",
+          "track": 0,
+          "beat": 2.0
+        },
+        {
+          "id": "*/playerhorse1",
+          "track": 1,
+          "beat": 1.5
+        },
+        {
+          "id": "*/playerhorse2",
+          "track": 1,
+          "beat": 2.0
         }
       ]
     },

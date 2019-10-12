@@ -120,7 +120,8 @@
       ],
       "name": "ohh - 1",
       "baseBpm": 143,
-      "duration": 2.5
+      "duration": 2.5,
+	  "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",
