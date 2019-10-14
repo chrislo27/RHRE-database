@@ -41,9 +41,23 @@
     },
     {
       "type": "cue",
-      "id": "*/audienceApplause",
+      "id": "*/clapping",
       "deprecatedIDs": [],
-      "name": "audience applause",
+      "name": "clapping",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/applause",
+      "deprecatedIDs": [],
+      "name": "applause",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/applauseWhistle",
+      "deprecatedIDs": ["extraSFX/audienceApplause"],
+      "name": "applause (with whistle)",
       "duration": 1.0
     },
     {
