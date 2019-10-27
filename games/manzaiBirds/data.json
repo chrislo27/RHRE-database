@@ -2,6 +2,7 @@
   "id": "manzaiBirds",
   "name": "Manzai Birds",
   "series": "side",
+  "searchHints": ["comedians"],
   "objects": [
     {
       "type": "cue",
