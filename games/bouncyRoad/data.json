@@ -8,16 +8,14 @@
       "id": "*/tink",
       "deprecatedIDs": [],
       "name": "tink",
-      "duration": 0.25,
-      "repitchable": true
+      "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/cymbal",
       "deprecatedIDs": [],
       "name": "cymbal",
-      "duration": 0.5,
-      "repitchable": true
+      "duration": 0.5
     },
     {
       "type": "equidistant",
