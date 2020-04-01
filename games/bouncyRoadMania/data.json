@@ -1,0 +1,133 @@
+{
+  "id": "bouncyRoadMania",
+  "name": "Bouncy Road Mania",
+  "priority": -1,
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/skillStar",
+      "deprecatedIDs": [],
+      "name": "Skill Star",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/intro",
+      "deprecatedIDs": [],
+      "name": "Intro Sting",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/tink",
+      "deprecatedIDs": [],
+      "name": "tink",
+      "duration": 0.25,
+      "repitchable": true
+    },
+    {
+      "type": "cue",
+      "id": "*/cymbal",
+      "deprecatedIDs": [],
+      "name": "cymbal",
+      "duration": 0.5,
+      "repitchable": true
+    },
+    {
+      "type": "equidistant",
+      "id": "*_15bounces",
+      "deprecatedIDs": [],
+      "name": "Deploy Ball",
+      "distance": 0.5,
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/tink",
+          "volume": 44
+        },
+        {
+          "id": "*/tink",
+          "volume": 48
+        },
+        {
+          "id": "*/tink",
+          "volume": 52
+        },
+        {
+          "id": "*/tink",
+          "volume": 56
+        },
+        {
+          "id": "*/tink",
+          "volume": 60
+        },
+        {
+          "id": "*/tink",
+          "volume": 64
+        },
+        {
+          "id": "*/tink",
+          "volume": 68
+        },
+        {
+          "id": "*/tink",
+          "volume": 72
+        },
+        {
+          "id": "*/tink",
+          "volume": 76
+        },
+        {
+          "id": "*/tink",
+          "volume": 80
+        },
+        {
+          "id": "*/tink",
+          "volume": 84
+        },
+        {
+          "id": "*/tink",
+          "volume": 88
+        },
+        {
+          "id": "*/tink",
+          "semitone": -4,
+          "volume": 92
+        },
+        {
+          "id": "*/tink",
+          "semitone": 3,
+          "volume": 96
+        },
+        {
+          "id": "*/cymbal",
+          "volume": 100
+        }
+      ]
+    },
+
+    {
+      "type": "subtitleEntity",
+      "id": "*_songInfoTitle",
+      "deprecatedIDs": [
+      ],
+      "name": "Song Information (Title)",
+      "subtitleType": "songTitle"
+    },
+    {
+      "type": "subtitleEntity",
+      "id": "*_songInfoArtist",
+      "deprecatedIDs": [
+      ],
+      "name": "Song Information (Artist)",
+      "subtitleType": "songArtist"
+    },
+    {
+      "type": "textureEntity",
+      "id": "*_foregroundImg",
+      "deprecatedIDs": [
+      ],
+      "name": "Foreground Image"
+    }
+  ]
+}
