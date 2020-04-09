@@ -1,6 +1,8 @@
 {
   "id": "cannery",
   "name": "Cannery",
+  "group": "RhythmGame Collection",
+  "groupDefault": true,
   "priority": -1,
   "objects": [
     {

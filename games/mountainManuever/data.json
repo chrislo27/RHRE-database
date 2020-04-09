@@ -1,6 +1,7 @@
 {
   "id": "mountainManuever",
   "name": "Mountain Manuever",
+  "group": "RhythmGame Collection",
   "priority": -1,
   "objects": [
     {
