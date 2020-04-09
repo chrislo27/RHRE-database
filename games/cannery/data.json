@@ -3,7 +3,7 @@
   "name": "Cannery",
   "group": "RhythmGame Collection",
   "groupDefault": true,
-  "priority": -1,
+  "priority": -10,
   "objects": [
     {
       "type": "cue",
