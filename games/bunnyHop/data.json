@@ -32,7 +32,7 @@
       "duration": 1.0,
       "loops": true,
       "stretchable": true,
-      "baseBpm": "150",
+      "baseBpm": 150.0,
       "baseBpmRules": "onlyTimeStretch"
     },
     {
@@ -43,7 +43,7 @@
       "duration": 0.5,
       "loops": true,
       "stretchable": true,
-      "baseBpm": "150",
+      "baseBpm": 150.0,
       "baseBpmRules": "onlyTimeStretch"
     },
     {
