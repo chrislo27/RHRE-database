@@ -11,7 +11,7 @@
       "duration": 2.5,
       "baseBpm": 119,
       "baseBpmRules": "onlyTimeStretch",
-      "loops": "true"
+      "loops": true
     },
     {
       "type": "cue",
@@ -55,7 +55,7 @@
       "duration": 4.0,
       "baseBpm": 119,
       "baseBpmRules": "onlyTimeStretch",
-      "loops": "true"
+      "loops": true
     },
     {
       "type": "cue",
