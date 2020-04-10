@@ -3,7 +3,7 @@
   "id": "coinTossMegamix",
   "name": "Coin Toss (Megamix)",
   "group": "Coin Toss",
-  "groupDefault": "true",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",
