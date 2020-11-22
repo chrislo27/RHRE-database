@@ -264,41 +264,6 @@
           "beat": 1.333333
         }
       ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_tallDwonkame",
-      "deprecatedIDs": [
-        "donkDonkJp_toastsaot",
-        "donkDonkJa_toastsaot"
-      ],
-      "name": "DWONKAME!",
-      "cues": [
-        {
-          "id": "*/dwonk2",
-          "beat": 0.0
-        },
-        {
-          "id": "*/dwonk2",
-          "beat": 0.0,
-          "track": 1
-        },
-        {
-          "id": "*/dwonk2",
-          "beat": 0.0,
-          "track": 2
-        },
-        {
-          "id": "*/dwonk2",
-          "beat": 0.0,
-          "track": 3
-        },
-        {
-          "id": "*/dwonk2",
-          "beat": 0.0,
-          "track": 4
-        }
-      ]
     }
   ]
 }
