@@ -1,70 +1,78 @@
 {
-  "series": "megamix",
   "id": "tongueLashing",
   "name": "Tongue Lashing",
+  "series": "megamix",
   "priority": 1,
   "objects": [
     {
       "type": "cue",
       "id": "*/three",
-      "deprecatedIDs": [],
       "name": "yellow bug - appear",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/red",
-      "deprecatedIDs": [],
       "name": "red bug - appear",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/whip",
-      "deprecatedIDs": [],
       "name": "whip lash",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/gulp4",
-      "deprecatedIDs": [],
       "name": "gulp - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/gulp",
-      "deprecatedIDs": [],
       "name": "gulp - 2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/swallow",
       "deprecatedIDs": [],
-      "name": "swallow",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/yes",
-      "deprecatedIDs": [],
       "name": "guy - victory - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/laughter",
-      "deprecatedIDs": [],
       "name": "guy - victory - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/teehee",
+      "name": "guy - victory - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "pattern",
       "id": "*_yellowbuglong",
-      "deprecatedIDs": [],
       "name": "long yellow bug",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/three",
@@ -81,19 +89,15 @@
         {
           "id": "*/gulp",
           "beat": 3.0
-        },
-        {
-          "id": "*/swallow",
-          "beat": 3.0,
-          "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_yellowbugshort",
-      "deprecatedIDs": [],
       "name": "short yellow bug",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/three",
@@ -106,19 +110,15 @@
         {
           "id": "*/gulp",
           "beat": 2.5
-        },
-        {
-          "id": "*/swallow",
-          "beat": 2.5,
-          "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_redbuglong",
-      "deprecatedIDs": [],
       "name": "long red bug",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/red",
@@ -135,19 +135,15 @@
         {
           "id": "*/gulp",
           "beat": 4.0
-        },
-        {
-          "id": "*/swallow",
-          "beat": 4.0,
-          "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_redbugshort",
-      "deprecatedIDs": [],
       "name": "short red bug",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/red",
@@ -160,19 +156,15 @@
         {
           "id": "*/gulp",
           "beat": 3.5
-        },
-        {
-          "id": "*/swallow",
-          "beat": 3.5,
-          "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_redbugshortyes",
-      "deprecatedIDs": [],
       "name": "short red bug yes",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/red",
@@ -185,23 +177,19 @@
         {
           "id": "*/gulp",
           "beat": 3.5
-        },
-        {
-          "id": "*/swallow",
-          "beat": 3.5,
-          "track": 1
         },
         {
           "id": "*/yes",
           "beat": 4.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_redbugshortlaughing",
-      "deprecatedIDs": [],
       "name": "short red bug laugh",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/red",
@@ -216,15 +204,36 @@
           "beat": 3.5
         },
         {
-          "id": "*/swallow",
-          "beat": 3.5,
-          "track": 1
-        },
-        {
           "id": "*/laughter",
           "beat": 4.0
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_redbugshortteehee",
+      "name": "short red bug teehee",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/red",
+          "beat": 0.0
+        },
+        {
+          "id": "*/whip",
+          "beat": 3.0
+        },
+        {
+          "id": "*/gulp",
+          "beat": 3.5
+        },
+        {
+          "id": "*/teehee",
+          "beat": 4.0
+        }
+      ],
+      "subtext": ""
     }
   ]
 }
