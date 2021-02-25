@@ -1,156 +1,139 @@
 {
-  "series": "megamix",
-  "id": "catchyTune",
-  "name": "Catchy Tune",
-  "priority": 1,
-  "objects": [
-    {
-      "type": "cue",
-      "id": "*/leftCatch",
-      "deprecatedIDs": [
-        "catchyTune/clap"
-      ],
-      "name": "left - catch",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/leftOrange",
-      "deprecatedIDs": [
-        "catchyTune/orange"
-      ],
-      "name": "left - orange",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/leftPineapple",
-      "deprecatedIDs": [
-        "catchyTune/melon"
-      ],
-      "name": "left - pineapple",
-      "duration": 2.0
-    },
-    {
-      "type": "cue",
-      "id": "*/rightCatch",
-      "deprecatedIDs": [],
-      "name": "right - catch",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/rightOrange",
-      "deprecatedIDs": [],
-      "name": "right - orange",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/rightPineapple",
-      "deprecatedIDs": [],
-      "name": "right - pineapple",
-      "duration": 2.0
-    },
-    {
-      "type": "pattern",
-      "id": "*_leftOrange",
-      "deprecatedIDs": [
-        "catchyTune_orange"
-      ],
-      "name": "left - orange",
-      "cues": [
-        {
-          "id": "*/leftOrange",
-          "beat": 0.0
-        },
-        {
-          "id": "*/leftOrange",
-          "beat": 1.0
-        },
-        {
-          "id": "*/leftOrange",
-          "beat": 2.0
-        },
-        {
-          "id": "*/leftCatch",
-          "beat": 3.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_rightOrange",
-      "deprecatedIDs": [],
-      "name": "right - orange",
-      "cues": [
-        {
-          "id": "*/rightOrange",
-          "beat": 0.0
-        },
-        {
-          "id": "*/rightOrange",
-          "beat": 1.0
-        },
-        {
-          "id": "*/rightOrange",
-          "beat": 2.0
-        },
-        {
-          "id": "*/rightCatch",
-          "beat": 3.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_leftPineapple",
-      "deprecatedIDs": [
-        "catchyTune_pineapple"
-      ],
-      "name": "left - pineapple",
-      "cues": [
-        {
-          "id": "*/leftPineapple",
-          "beat": 0.0
-        },
-        {
-          "id": "*/leftPineapple",
-          "beat": 2.0
-        },
-        {
-          "id": "*/leftPineapple",
-          "beat": 4.0
-        },
-        {
-          "id": "*/leftCatch",
-          "beat": 6.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_rightPineapple",
-      "deprecatedIDs": [],
-      "name": "right - pineapple",
-      "cues": [
-        {
-          "id": "*/rightPineapple",
-          "beat": 0.0
-        },
-        {
-          "id": "*/rightPineapple",
-          "beat": 2.0
-        },
-        {
-          "id": "*/rightPineapple",
-          "beat": 4.0
-        },
-        {
-          "id": "*/rightCatch",
-          "beat": 6.0
-        }
-      ]
-    }
-  ]
+  "id" : "catchyTune",
+  "name" : "Catchy Tune",
+  "series" : "megamix",
+  "priority" : 1,
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/leftOrange",
+    "name" : "left - orange",
+    "deprecatedIDs" : [ "catchyTune/orange" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/rightOrange",
+    "name" : "right - orange",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/leftPineapple",
+    "name" : "left - pineapple",
+    "deprecatedIDs" : [ "catchyTune/melon" ],
+    "subtext" : "",
+    "duration" : 2.0
+  }, {
+    "type" : "cue",
+    "id" : "*/rightPineapple",
+    "name" : "right - pineapple",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 2.0
+  }, {
+    "type" : "cue",
+    "id" : "*/leftOrangeCatch",
+    "name" : "left -  orange - catch",
+    "deprecatedIDs" : [ "catchyTune/clap", "catchyTune/leftCatch" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/rightOrangeCatch",
+    "name" : "right - orange - catch",
+    "deprecatedIDs" : [ "catchyTune/rightCatch" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/leftPineappleCatch",
+    "name" : "left - pineapple - catch",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/rightPineappleCatch",
+    "name" : "right - pineapple - catch",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "pattern",
+    "id" : "*_leftOrange",
+    "name" : "left - orange",
+    "deprecatedIDs" : [ "catchyTune_orange" ],
+    "cues" : [ {
+      "id" : "*/leftOrange",
+      "beat" : 0.0
+    }, {
+      "id" : "*/leftOrange",
+      "beat" : 1.0
+    }, {
+      "id" : "*/leftOrange",
+      "beat" : 2.0
+    }, {
+      "id" : "*/leftOrangeCatch",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_rightOrange",
+    "name" : "right - orange",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/rightOrange",
+      "beat" : 0.0
+    }, {
+      "id" : "*/rightOrange",
+      "beat" : 1.0
+    }, {
+      "id" : "*/rightOrange",
+      "beat" : 2.0
+    }, {
+      "id" : "*/rightOrangeCatch",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_leftPineapple",
+    "name" : "left - pineapple",
+    "deprecatedIDs" : [ "catchyTune_pineapple" ],
+    "cues" : [ {
+      "id" : "*/leftPineapple",
+      "beat" : 0.0
+    }, {
+      "id" : "*/leftPineapple",
+      "beat" : 2.0
+    }, {
+      "id" : "*/leftPineapple",
+      "beat" : 4.0
+    }, {
+      "id" : "*/leftPineappleCatch",
+      "beat" : 6.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_rightPineapple",
+    "name" : "right - pineapple",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/rightPineapple",
+      "beat" : 0.0
+    }, {
+      "id" : "*/rightPineapple",
+      "beat" : 2.0
+    }, {
+      "id" : "*/rightPineapple",
+      "beat" : 4.0
+    }, {
+      "id" : "*/rightPineappleCatch",
+      "beat" : 6.0
+    } ],
+    "subtext" : ""
+  } ]
 }
