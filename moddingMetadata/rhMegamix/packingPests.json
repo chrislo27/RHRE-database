@@ -11,11 +11,14 @@
     "sub": "0x5B"
   },
   {
-    "applyTo": ["packingPestsEn_pattern2", "packingPestsJa_pattern2", "packingPestsKo_hada"],
+    "applyTo": ["packingPestsEn_pattern2", "packingPestsJa_pattern2", "packingPestsKo_pattern2"],
     "sub": "0x5C"
   },
   {
-    "applyTo": ["packingPestsEn_double", "packingPestsJa_ikuze", "packingPestsKo_pattern2"],
+    "applyTo": [
+      "packingPestsEn_doubleSplit", "packingPestsJa_ikuzeSplit", "packingPestsKo_hadaSplit",
+      "packingPestsEn_doubleSoundStretch", "packingPestsJa_ikuzeSoundStretch", "packingPestsKo_hadaSoundStretch"
+    ],
     "sub": "0x5F"
   },
   {
