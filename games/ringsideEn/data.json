@@ -1,922 +1,1275 @@
 {
-  "id" : "ringsideEn",
-  "name" : "Ringside",
-  "series" : "fever",
-  "language" : "en",
-  "group" : "Ringside",
-  "groupDefault" : true,
-  "objects" : [ {
-    "type" : "cue",
-    "id" : "*/poseAnd",
-    "name" : "pose for the fans - and",
-    "deprecatedIDs" : [ "ringside/poseAnd" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/chattering",
-    "name" : "audience chattering",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/wubba1-1",
-    "name" : "is that true? - A - 1",
-    "deprecatedIDs" : [ "ringside/wubba1-1" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/wubba2-1",
-    "name" : "is that true? - B - 1",
-    "deprecatedIDs" : [ "ringside/wubba2-1" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/wubba3-1",
-    "name" : "is that true? - C - 1",
-    "deprecatedIDs" : [ "ringside/wubba3-1" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/wubba1-2",
-    "name" : "is that true? - A - 2",
-    "deprecatedIDs" : [ "ringside/wubba1-2" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/wubba2-2",
-    "name" : "is that true? - B - 2",
-    "deprecatedIDs" : [ "ringside/wubba2-2" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/wubba3-2",
-    "name" : "is that true? - C - 2",
-    "deprecatedIDs" : [ "ringside/wubba3-2" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/wub1",
-    "name" : "is that true? - A - 1 and 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/wub2",
-    "name" : "is that true? - B - 1 and 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/wub3",
-    "name" : "is that true? - C - 1 and 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/dubba1-1",
-    "name" : "is that true? - A - 3",
-    "deprecatedIDs" : [ "ringside/dubba1-1" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/dubba2-1",
-    "name" : "is that true? - B - 3",
-    "deprecatedIDs" : [ "ringside/dubba2-1" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/dubba3-1",
-    "name" : "is that true? - C - 3",
-    "deprecatedIDs" : [ "ringside/dubba3-1" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/dubba1-2",
-    "name" : "is that true? - A - 4",
-    "deprecatedIDs" : [ "ringside/dubba1-2" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/dubba2-2",
-    "name" : "is that true? - B - 4",
-    "deprecatedIDs" : [ "ringside/dubba2-2" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/dubba3-2",
-    "name" : "is that true? - C - 4",
-    "deprecatedIDs" : [ "ringside/dubba3-2" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/dubba1-3",
-    "name" : "is that true? - A - 5",
-    "deprecatedIDs" : [ "ringside/dubba1-3" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/dubba2-3",
-    "name" : "is that true? - B - 5",
-    "deprecatedIDs" : [ "ringside/dubba2-3" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/dubba3-3",
-    "name" : "is that true? - C - 5",
-    "deprecatedIDs" : [ "ringside/dubba3-3" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/dubba1-4",
-    "name" : "is that true? - A - 6",
-    "deprecatedIDs" : [ "ringside/dubba1-4" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/dubba2-4",
-    "name" : "is that true? - B - 6",
-    "deprecatedIDs" : [ "ringside/dubba2-4" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/dubba3-4",
-    "name" : "is that true? - C - 6",
-    "deprecatedIDs" : [ "ringside/dubba3-4" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/that1",
-    "name" : "is that true? - A - 7",
-    "deprecatedIDs" : [ "ringside/that1" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/that2",
-    "name" : "is that true? - B - 7",
-    "deprecatedIDs" : [ "ringside/that2" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/that3",
-    "name" : "is that true? - C - 7",
-    "deprecatedIDs" : [ "ringside/that3" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/true1",
-    "name" : "is that true? - A - 8",
-    "deprecatedIDs" : [ "ringside/true1" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/true2",
-    "name" : "is that true? - B - 8",
-    "deprecatedIDs" : [ "ringside/true2" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/true3",
-    "name" : "is that true? - C - 8",
-    "deprecatedIDs" : [ "ringside/true3" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/ye1",
-    "name" : "is that true? - ye - A",
-    "deprecatedIDs" : [ "ringside/ye", "ringsideEn/ye" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/ye2",
-    "name" : "is that true? - ye - B",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/ye3",
-    "name" : "is that true? - ye - C",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/yeCamera",
-    "name" : "is that true? - ye - camera",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/woah1",
-    "name" : "you go big guy - A - 1",
-    "deprecatedIDs" : [ "ringside/woah1" ],
-    "subtext" : "",
-    "duration" : 0.75
-  }, {
-    "type" : "cue",
-    "id" : "*/woah2",
-    "name" : "you go big guy - B - 1",
-    "deprecatedIDs" : [ "ringside/woah2" ],
-    "subtext" : "",
-    "duration" : 0.75
-  }, {
-    "type" : "cue",
-    "id" : "*/woah3",
-    "name" : "you go big guy - C - 1",
-    "deprecatedIDs" : [ "ringside/woah3" ],
-    "subtext" : "",
-    "duration" : 0.75
-  }, {
-    "type" : "cue",
-    "id" : "*/you1",
-    "name" : "you go big guy - A - 2",
-    "deprecatedIDs" : [ "ringside/you1" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/you2",
-    "name" : "you go big guy - B - 2",
-    "deprecatedIDs" : [ "ringside/you2" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/you3",
-    "name" : "you go big guy - C - 2",
-    "deprecatedIDs" : [ "ringside/you3" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/go1",
-    "name" : "you go big guy - A - 3",
-    "deprecatedIDs" : [ "ringside/go1" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/go2",
-    "name" : "you go big guy - B - 3",
-    "deprecatedIDs" : [ "ringside/go2" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/go3",
-    "name" : "you go big guy - C - 3",
-    "deprecatedIDs" : [ "ringside/go3" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/big1",
-    "name" : "you go big guy - A - 4",
-    "deprecatedIDs" : [ "ringside/big1" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/big2",
-    "name" : "you go big guy - B - 4",
-    "deprecatedIDs" : [ "ringside/big2" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/big3",
-    "name" : "you go big guy - C - 4",
-    "deprecatedIDs" : [ "ringside/big3" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/guy1",
-    "name" : "you go big guy - A - 5",
-    "deprecatedIDs" : [ "ringside/guy1" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/guy2",
-    "name" : "you go big guy - B - 5",
-    "deprecatedIDs" : [ "ringside/guy2" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/guy3",
-    "name" : "you go big guy - C - 5",
-    "deprecatedIDs" : [ "ringside/guy3" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/muscles1",
-    "name" : "you go big guy - muscles - 1",
-    "deprecatedIDs" : [ "ringside/muscles1" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/muscles2",
-    "name" : "you go big guy - muscles - 2",
-    "deprecatedIDs" : [ "ringside/muscles2" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/musclesCamera",
-    "name" : "you go big guy - muscles - camera",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/pose1",
-    "name" : "pose for the fans - A - 1",
-    "deprecatedIDs" : [ "ringside/pose1" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/pose2",
-    "name" : "pose for the fans - B - 1",
-    "deprecatedIDs" : [ "ringside/pose2", "ringsideEn/pose3" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/for1",
-    "name" : "pose for the fans - A - 2",
-    "deprecatedIDs" : [ "ringside/for1" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/for2",
-    "name" : "pose for the fans - B - 2",
-    "deprecatedIDs" : [ "ringside/for2", "ringsideEn/for3" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/the1",
-    "name" : "pose for the fans - A - 3",
-    "deprecatedIDs" : [ "ringside/the1" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/the2",
-    "name" : "pose for the fans - B - 3",
-    "deprecatedIDs" : [ "ringside/the2", "ringsideEn/the3" ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/fans1",
-    "name" : "pose for the fans - A - 4",
-    "deprecatedIDs" : [ "ringside/fans1" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/fans2",
-    "name" : "pose for the fans - B - 4",
-    "deprecatedIDs" : [ "ringside/fans2", "ringsideEn/fans3" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/yell1",
-    "name" : "pose for the fans - A - RAGH ",
-    "deprecatedIDs" : [ "ringside/yell1" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/yell2",
-    "name" : "pose for the fans - B - RAGH",
-    "deprecatedIDs" : [ "ringside/yell2" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/yell3",
-    "name" : "pose for the fans - C - RAGH",
-    "deprecatedIDs" : [ "ringside/yell3" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/yell4",
-    "name" : "pose for the fans - D - RAGH",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/yell5",
-    "name" : "pose for the fans - E - RAGH",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/yell6",
-    "name" : "pose for the fans - F - RAGH",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/poseCamera",
-    "name" : "pose for the fans - camera",
-    "deprecatedIDs" : [ "ringside/camera1", "ringsideEn/camera1", "ringsideEn/camera2", "ringsideEn/camera3" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "randomCue",
-    "id" : "*_isThatTrueRandom",
-    "name" : "is that true?",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*_isThatTrueA"
-    }, {
-      "id" : "*_isThatTrueB"
-    }, {
-      "id" : "*_isThatTrueC"
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "randomCue",
-    "id" : "*_isThatTrueAltRandom",
-    "name" : "is that true? (alternative)",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*_isThatTrueAltA"
-    }, {
-      "id" : "*_isThatTrueAltB"
-    }, {
-      "id" : "*_isThatTrueAltC"
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "randomCue",
-    "id" : "*_youGoBigGuyRandom",
-    "name" : "woah, you go big guy!",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*_youGoBigGuyA"
-    }, {
-      "id" : "*_youGoBigGuyB"
-    }, {
-      "id" : "*_youGoBigGuyC"
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "randomCue",
-    "id" : "*_poseForTheFansRandom",
-    "name" : "pose for the fans!",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*_poseForTheFansA"
-    }, {
-      "id" : "*_poseForTheFansB"
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_andPoseForTheFansRandom",
-    "name" : "and pose for the fans!",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/poseAnd",
-      "beat" : 0.0
-    }, {
-      "id" : "*_poseForTheFansRandom",
-      "beat" : 0.5
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_isThatTrueA",
-    "name" : "is that true? - A",
-    "deprecatedIDs" : [ "ringside_isThatTrueA" ],
-    "cues" : [ {
-      "id" : "*/wubba1-1",
-      "beat" : 0.0
-    }, {
-      "id" : "*/wubba1-2",
-      "beat" : 0.25
-    }, {
-      "id" : "*/dubba1-1",
-      "beat" : 0.5
-    }, {
-      "id" : "*/dubba1-2",
-      "beat" : 0.75
-    }, {
-      "id" : "*/dubba1-3",
-      "beat" : 1.0
-    }, {
-      "id" : "*/dubba1-4",
-      "beat" : 1.25
-    }, {
-      "id" : "*/that1",
-      "beat" : 1.5
-    }, {
-      "id" : "*/true1",
-      "beat" : 2.0
-    }, {
-      "id" : "*_yeRandom",
-      "beat" : 3.0
-    }, {
-      "id" : "*/yeCamera",
-      "beat" : 3.5
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_isThatTrueB",
-    "name" : "is that true? - B",
-    "deprecatedIDs" : [ "ringside_isThatTrueB" ],
-    "cues" : [ {
-      "id" : "*/wubba2-1",
-      "beat" : 0.0
-    }, {
-      "id" : "*/wubba2-2",
-      "beat" : 0.25
-    }, {
-      "id" : "*/dubba2-1",
-      "beat" : 0.5
-    }, {
-      "id" : "*/dubba2-2",
-      "beat" : 0.75
-    }, {
-      "id" : "*/dubba2-3",
-      "beat" : 1.0
-    }, {
-      "id" : "*/dubba2-4",
-      "beat" : 1.25
-    }, {
-      "id" : "*/that2",
-      "beat" : 1.5
-    }, {
-      "id" : "*/true2",
-      "beat" : 2.0
-    }, {
-      "id" : "*_yeRandom",
-      "beat" : 3.0
-    }, {
-      "id" : "*/yeCamera",
-      "beat" : 3.5
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_isThatTrueC",
-    "name" : "is that true? - C",
-    "deprecatedIDs" : [ "ringside_isThatTrueC" ],
-    "cues" : [ {
-      "id" : "*/wubba3-1",
-      "beat" : 0.0
-    }, {
-      "id" : "*/wubba3-2",
-      "beat" : 0.25
-    }, {
-      "id" : "*/dubba3-1",
-      "beat" : 0.5
-    }, {
-      "id" : "*/dubba3-2",
-      "beat" : 0.75
-    }, {
-      "id" : "*/dubba3-3",
-      "beat" : 1.0
-    }, {
-      "id" : "*/dubba3-4",
-      "beat" : 1.25
-    }, {
-      "id" : "*/that3",
-      "beat" : 1.5
-    }, {
-      "id" : "*/true3",
-      "beat" : 2.0
-    }, {
-      "id" : "*_yeRandom",
-      "beat" : 3.0
-    }, {
-      "id" : "*/yeCamera",
-      "beat" : 3.5
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_isThatTrueAltA",
-    "name" : "is that true? - A (alternative)",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/wub1",
-      "beat" : 0.0
-    }, {
-      "id" : "*/dubba1-1",
-      "beat" : 0.5
-    }, {
-      "id" : "*/dubba1-2",
-      "beat" : 0.75
-    }, {
-      "id" : "*/dubba1-3",
-      "beat" : 1.0
-    }, {
-      "id" : "*/dubba1-4",
-      "beat" : 1.25
-    }, {
-      "id" : "*/that1",
-      "beat" : 1.5
-    }, {
-      "id" : "*/true1",
-      "beat" : 2.0
-    }, {
-      "id" : "*_yeRandom",
-      "beat" : 3.0
-    }, {
-      "id" : "*/yeCamera",
-      "beat" : 3.5
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_isThatTrueAltB",
-    "name" : "is that true? - B (alternative)",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/wub2",
-      "beat" : 0.0
-    }, {
-      "id" : "*/dubba2-1",
-      "beat" : 0.5
-    }, {
-      "id" : "*/dubba2-2",
-      "beat" : 0.75
-    }, {
-      "id" : "*/dubba2-3",
-      "beat" : 1.0
-    }, {
-      "id" : "*/dubba2-4",
-      "beat" : 1.25
-    }, {
-      "id" : "*/that2",
-      "beat" : 1.5
-    }, {
-      "id" : "*/true2",
-      "beat" : 2.0
-    }, {
-      "id" : "*_yeRandom",
-      "beat" : 3.0
-    }, {
-      "id" : "*/yeCamera",
-      "beat" : 3.5
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_isThatTrueAltC",
-    "name" : "is that true? - C (alternative)",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/wub3",
-      "beat" : 0.0
-    }, {
-      "id" : "*/dubba3-1",
-      "beat" : 0.5
-    }, {
-      "id" : "*/dubba3-2",
-      "beat" : 0.75
-    }, {
-      "id" : "*/dubba3-3",
-      "beat" : 1.0
-    }, {
-      "id" : "*/dubba3-4",
-      "beat" : 1.25
-    }, {
-      "id" : "*/that3",
-      "beat" : 1.5
-    }, {
-      "id" : "*/true3",
-      "beat" : 2.0
-    }, {
-      "id" : "*_yeRandom",
-      "beat" : 3.0
-    }, {
-      "id" : "*/yeCamera",
-      "beat" : 3.5
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_youGoBigGuyA",
-    "name" : "you go big guy - A",
-    "deprecatedIDs" : [ "ringside_youGoBigGuyA", "ringsideEn_youGoBigGuyA" ],
-    "cues" : [ {
-      "id" : "*/woah1",
-      "beat" : 0.0
-    }, {
-      "id" : "*/you1",
-      "beat" : 0.75
-    }, {
-      "id" : "*/go1",
-      "beat" : 1.0
-    }, {
-      "id" : "*/big1",
-      "beat" : 1.5
-    }, {
-      "id" : "*/guy1",
-      "beat" : 2.0
-    }, {
-      "id" : "*/muscles1",
-      "beat" : 2.5
-    }, {
-      "id" : "*/muscles2",
-      "beat" : 3.0
-    }, {
-      "id" : "*/musclesCamera",
-      "beat" : 3.5
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_youGoBigGuyB",
-    "name" : "you go big guy - B",
-    "deprecatedIDs" : [ "ringside_youGoBigGuyB", "ringsideEn_youGoBigGuyB" ],
-    "cues" : [ {
-      "id" : "*/woah2",
-      "beat" : 0.0
-    }, {
-      "id" : "*/you2",
-      "beat" : 0.75
-    }, {
-      "id" : "*/go2",
-      "beat" : 1.0
-    }, {
-      "id" : "*/big2",
-      "beat" : 1.5
-    }, {
-      "id" : "*/guy2",
-      "beat" : 2.0
-    }, {
-      "id" : "*/muscles1",
-      "beat" : 2.5
-    }, {
-      "id" : "*/muscles2",
-      "beat" : 3.0
-    }, {
-      "id" : "*/musclesCamera",
-      "beat" : 3.5
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_youGoBigGuyC",
-    "name" : "you go big guy - C",
-    "deprecatedIDs" : [ "ringside_youGoBigGuyC", "ringsideEn_youGoBigGuyC" ],
-    "cues" : [ {
-      "id" : "*/woah3",
-      "beat" : 0.0
-    }, {
-      "id" : "*/you3",
-      "beat" : 0.75
-    }, {
-      "id" : "*/go3",
-      "beat" : 1.0
-    }, {
-      "id" : "*/big3",
-      "beat" : 1.5
-    }, {
-      "id" : "*/guy3",
-      "beat" : 2.0
-    }, {
-      "id" : "*/muscles1",
-      "beat" : 2.5
-    }, {
-      "id" : "*/muscles2",
-      "beat" : 3.0
-    }, {
-      "id" : "*/musclesCamera",
-      "beat" : 3.5
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_poseForTheFansA",
-    "name" : "pose for the fans - A",
-    "deprecatedIDs" : [ "ringside_poseForTheFansA" ],
-    "cues" : [ {
-      "id" : "*/pose1",
-      "beat" : 0.0
-    }, {
-      "id" : "*/for1",
-      "beat" : 0.5
-    }, {
-      "id" : "*/the1",
-      "beat" : 0.75
-    }, {
-      "id" : "*/fans1",
-      "beat" : 1.0
-    }, {
-      "id" : "*_yellRandom",
-      "beat" : 2.0
-    }, {
-      "id" : "*/poseCamera",
-      "beat" : 3.0
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_poseForTheFansB",
-    "name" : "pose for the fans - B",
-    "deprecatedIDs" : [ "ringside_poseForTheFansB", "ringsideEn_poseForTheFansC" ],
-    "cues" : [ {
-      "id" : "*/pose2",
-      "beat" : 0.0
-    }, {
-      "id" : "*/for2",
-      "beat" : 0.5
-    }, {
-      "id" : "*/the2",
-      "beat" : 0.75
-    }, {
-      "id" : "*/fans2",
-      "beat" : 1.0
-    }, {
-      "id" : "*_yellRandom",
-      "beat" : 2.0
-    }, {
-      "id" : "*/poseCamera",
-      "beat" : 3.0
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "randomCue",
-    "id" : "*_yeRandom",
-    "name" : "is that true? - ye - random",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/ye1"
-    }, {
-      "id" : "*/ye2"
-    }, {
-      "id" : "*/ye3"
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "randomCue",
-    "id" : "*_yellRandom",
-    "name" : "pose for the fans - RAGH - random",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/yell1"
-    }, {
-      "id" : "*/yell2"
-    }, {
-      "id" : "*/yell3"
-    }, {
-      "id" : "*/yell4"
-    }, {
-      "id" : "*/yell5"
-    }, {
-      "id" : "*/yell6"
-    } ],
-    "subtext" : ""
-  } ]
+  "id": "ringsideEn",
+  "name": "Ringside",
+  "series": "fever",
+  "language": "en",
+  "group": "Ringside",
+  "groupDefault": true,
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/poseAnd",
+      "name": "pose for the fans - and",
+      "deprecatedIDs": [
+        "ringside/poseAnd"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/chattering",
+      "name": "audience chattering",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/wubba1-1",
+      "name": "is that true? - A - 1",
+      "deprecatedIDs": [
+        "ringside/wubba1-1"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/wubba2-1",
+      "name": "is that true? - B - 1",
+      "deprecatedIDs": [
+        "ringside/wubba2-1"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/wubba3-1",
+      "name": "is that true? - C - 1",
+      "deprecatedIDs": [
+        "ringside/wubba3-1"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/wubba1-2",
+      "name": "is that true? - A - 2",
+      "deprecatedIDs": [
+        "ringside/wubba1-2"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/wubba2-2",
+      "name": "is that true? - B - 2",
+      "deprecatedIDs": [
+        "ringside/wubba2-2"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/wubba3-2",
+      "name": "is that true? - C - 2",
+      "deprecatedIDs": [
+        "ringside/wubba3-2"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/wub1",
+      "name": "is that true? - A - 1 and 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/wub2",
+      "name": "is that true? - B - 1 and 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/wub3",
+      "name": "is that true? - C - 1 and 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/dubba1-1",
+      "name": "is that true? - A - 3",
+      "deprecatedIDs": [
+        "ringside/dubba1-1"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dubba2-1",
+      "name": "is that true? - B - 3",
+      "deprecatedIDs": [
+        "ringside/dubba2-1"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dubba3-1",
+      "name": "is that true? - C - 3",
+      "deprecatedIDs": [
+        "ringside/dubba3-1"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dubba1-2",
+      "name": "is that true? - A - 4",
+      "deprecatedIDs": [
+        "ringside/dubba1-2"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dubba2-2",
+      "name": "is that true? - B - 4",
+      "deprecatedIDs": [
+        "ringside/dubba2-2"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dubba3-2",
+      "name": "is that true? - C - 4",
+      "deprecatedIDs": [
+        "ringside/dubba3-2"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dubba1-3",
+      "name": "is that true? - A - 5",
+      "deprecatedIDs": [
+        "ringside/dubba1-3"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dubba2-3",
+      "name": "is that true? - B - 5",
+      "deprecatedIDs": [
+        "ringside/dubba2-3"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dubba3-3",
+      "name": "is that true? - C - 5",
+      "deprecatedIDs": [
+        "ringside/dubba3-3"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dubba1-4",
+      "name": "is that true? - A - 6",
+      "deprecatedIDs": [
+        "ringside/dubba1-4"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dubba2-4",
+      "name": "is that true? - B - 6",
+      "deprecatedIDs": [
+        "ringside/dubba2-4"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dubba3-4",
+      "name": "is that true? - C - 6",
+      "deprecatedIDs": [
+        "ringside/dubba3-4"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/that1",
+      "name": "is that true? - A - 7",
+      "deprecatedIDs": [
+        "ringside/that1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/that2",
+      "name": "is that true? - B - 7",
+      "deprecatedIDs": [
+        "ringside/that2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/that3",
+      "name": "is that true? - C - 7",
+      "deprecatedIDs": [
+        "ringside/that3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/true1",
+      "name": "is that true? - A - 8",
+      "deprecatedIDs": [
+        "ringside/true1"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/true2",
+      "name": "is that true? - B - 8",
+      "deprecatedIDs": [
+        "ringside/true2"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/true3",
+      "name": "is that true? - C - 8",
+      "deprecatedIDs": [
+        "ringside/true3"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/ye1",
+      "name": "is that true? - ye - A",
+      "deprecatedIDs": [
+        "ringside/ye",
+        "ringsideEn/ye"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/ye2",
+      "name": "is that true? - ye - B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/ye3",
+      "name": "is that true? - ye - C",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/yeCamera",
+      "name": "is that true? - ye - camera",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/woah1",
+      "name": "you go big guy - A - 1",
+      "deprecatedIDs": [
+        "ringside/woah1"
+      ],
+      "subtext": "",
+      "duration": 0.75
+    },
+    {
+      "type": "cue",
+      "id": "*/woah2",
+      "name": "you go big guy - B - 1",
+      "deprecatedIDs": [
+        "ringside/woah2"
+      ],
+      "subtext": "",
+      "duration": 0.75
+    },
+    {
+      "type": "cue",
+      "id": "*/woah3",
+      "name": "you go big guy - C - 1",
+      "deprecatedIDs": [
+        "ringside/woah3"
+      ],
+      "subtext": "",
+      "duration": 0.75
+    },
+    {
+      "type": "cue",
+      "id": "*/you1",
+      "name": "you go big guy - A - 2",
+      "deprecatedIDs": [
+        "ringside/you1"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/you2",
+      "name": "you go big guy - B - 2",
+      "deprecatedIDs": [
+        "ringside/you2"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/you3",
+      "name": "you go big guy - C - 2",
+      "deprecatedIDs": [
+        "ringside/you3"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/go1",
+      "name": "you go big guy - A - 3",
+      "deprecatedIDs": [
+        "ringside/go1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/go2",
+      "name": "you go big guy - B - 3",
+      "deprecatedIDs": [
+        "ringside/go2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/go3",
+      "name": "you go big guy - C - 3",
+      "deprecatedIDs": [
+        "ringside/go3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/big1",
+      "name": "you go big guy - A - 4",
+      "deprecatedIDs": [
+        "ringside/big1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/big2",
+      "name": "you go big guy - B - 4",
+      "deprecatedIDs": [
+        "ringside/big2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/big3",
+      "name": "you go big guy - C - 4",
+      "deprecatedIDs": [
+        "ringside/big3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/guy1",
+      "name": "you go big guy - A - 5",
+      "deprecatedIDs": [
+        "ringside/guy1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/guy2",
+      "name": "you go big guy - B - 5",
+      "deprecatedIDs": [
+        "ringside/guy2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/guy3",
+      "name": "you go big guy - C - 5",
+      "deprecatedIDs": [
+        "ringside/guy3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/muscles1",
+      "name": "you go big guy - muscles - 1",
+      "deprecatedIDs": [
+        "ringside/muscles1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/muscles2",
+      "name": "you go big guy - muscles - 2",
+      "deprecatedIDs": [
+        "ringside/muscles2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/musclesCamera",
+      "name": "you go big guy - muscles - camera",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/pose1",
+      "name": "pose for the fans - A - 1",
+      "deprecatedIDs": [
+        "ringside/pose1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/pose2",
+      "name": "pose for the fans - B - 1",
+      "deprecatedIDs": [
+        "ringside/pose2",
+        "ringsideEn/pose3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/for1",
+      "name": "pose for the fans - A - 2",
+      "deprecatedIDs": [
+        "ringside/for1"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/for2",
+      "name": "pose for the fans - B - 2",
+      "deprecatedIDs": [
+        "ringside/for2",
+        "ringsideEn/for3"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/the1",
+      "name": "pose for the fans - A - 3",
+      "deprecatedIDs": [
+        "ringside/the1"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/the2",
+      "name": "pose for the fans - B - 3",
+      "deprecatedIDs": [
+        "ringside/the2",
+        "ringsideEn/the3"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/fans1",
+      "name": "pose for the fans - A - 4",
+      "deprecatedIDs": [
+        "ringside/fans1"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/fans2",
+      "name": "pose for the fans - B - 4",
+      "deprecatedIDs": [
+        "ringside/fans2",
+        "ringsideEn/fans3"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/yell1",
+      "name": "pose for the fans - A - RAGH ",
+      "deprecatedIDs": [
+        "ringside/yell1"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/yell2",
+      "name": "pose for the fans - B - RAGH",
+      "deprecatedIDs": [
+        "ringside/yell2"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/yell3",
+      "name": "pose for the fans - C - RAGH",
+      "deprecatedIDs": [
+        "ringside/yell3"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/yell4",
+      "name": "pose for the fans - D - RAGH",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/yell5",
+      "name": "pose for the fans - E - RAGH",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/yell6",
+      "name": "pose for the fans - F - RAGH",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/poseCamera",
+      "name": "pose for the fans - camera",
+      "deprecatedIDs": [
+        "ringside/camera1",
+        "ringsideEn/camera1",
+        "ringsideEn/camera2",
+        "ringsideEn/camera3"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "randomCue",
+      "id": "*_isThatTrueRandom",
+      "name": "is that true?",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_isThatTrueA"
+        },
+        {
+          "id": "*_isThatTrueB"
+        },
+        {
+          "id": "*_isThatTrueC"
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_isThatTrueAltRandom",
+      "name": "is that true? (alternative)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_isThatTrueAltA"
+        },
+        {
+          "id": "*_isThatTrueAltB"
+        },
+        {
+          "id": "*_isThatTrueAltC"
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_youGoBigGuyRandom",
+      "name": "woah, you go big guy!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_youGoBigGuyA"
+        },
+        {
+          "id": "*_youGoBigGuyB"
+        },
+        {
+          "id": "*_youGoBigGuyC"
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_poseForTheFansRandom",
+      "name": "pose for the fans!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_poseForTheFansA"
+        },
+        {
+          "id": "*_poseForTheFansB"
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_andPoseForTheFansRandom",
+      "name": "and pose for the fans!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/poseAnd",
+          "beat": 0.0
+        },
+        {
+          "id": "*_poseForTheFansRandom",
+          "beat": 0.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_isThatTrueA",
+      "name": "is that true? - A",
+      "deprecatedIDs": [
+        "ringside_isThatTrueA"
+      ],
+      "cues": [
+        {
+          "id": "*/wubba1-1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/wubba1-2",
+          "beat": 0.25
+        },
+        {
+          "id": "*/dubba1-1",
+          "beat": 0.5
+        },
+        {
+          "id": "*/dubba1-2",
+          "beat": 0.75
+        },
+        {
+          "id": "*/dubba1-3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/dubba1-4",
+          "beat": 1.25
+        },
+        {
+          "id": "*/that1",
+          "beat": 1.5
+        },
+        {
+          "id": "*/true1",
+          "beat": 2.0
+        },
+        {
+          "id": "*_yeRandom",
+          "beat": 3.0
+        },
+        {
+          "id": "*/yeCamera",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_isThatTrueB",
+      "name": "is that true? - B",
+      "deprecatedIDs": [
+        "ringside_isThatTrueB"
+      ],
+      "cues": [
+        {
+          "id": "*/wubba2-1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/wubba2-2",
+          "beat": 0.25
+        },
+        {
+          "id": "*/dubba2-1",
+          "beat": 0.5
+        },
+        {
+          "id": "*/dubba2-2",
+          "beat": 0.75
+        },
+        {
+          "id": "*/dubba2-3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/dubba2-4",
+          "beat": 1.25
+        },
+        {
+          "id": "*/that2",
+          "beat": 1.5
+        },
+        {
+          "id": "*/true2",
+          "beat": 2.0
+        },
+        {
+          "id": "*_yeRandom",
+          "beat": 3.0
+        },
+        {
+          "id": "*/yeCamera",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_isThatTrueC",
+      "name": "is that true? - C",
+      "deprecatedIDs": [
+        "ringside_isThatTrueC"
+      ],
+      "cues": [
+        {
+          "id": "*/wubba3-1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/wubba3-2",
+          "beat": 0.25
+        },
+        {
+          "id": "*/dubba3-1",
+          "beat": 0.5
+        },
+        {
+          "id": "*/dubba3-2",
+          "beat": 0.75
+        },
+        {
+          "id": "*/dubba3-3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/dubba3-4",
+          "beat": 1.25
+        },
+        {
+          "id": "*/that3",
+          "beat": 1.5
+        },
+        {
+          "id": "*/true3",
+          "beat": 2.0
+        },
+        {
+          "id": "*_yeRandom",
+          "beat": 3.0
+        },
+        {
+          "id": "*/yeCamera",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_isThatTrueAltA",
+      "name": "is that true? - A (alternative)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/wub1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/dubba1-1",
+          "beat": 0.5
+        },
+        {
+          "id": "*/dubba1-2",
+          "beat": 0.75
+        },
+        {
+          "id": "*/dubba1-3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/dubba1-4",
+          "beat": 1.25
+        },
+        {
+          "id": "*/that1",
+          "beat": 1.5
+        },
+        {
+          "id": "*/true1",
+          "beat": 2.0
+        },
+        {
+          "id": "*_yeRandom",
+          "beat": 3.0
+        },
+        {
+          "id": "*/yeCamera",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_isThatTrueAltB",
+      "name": "is that true? - B (alternative)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/wub2",
+          "beat": 0.0
+        },
+        {
+          "id": "*/dubba2-1",
+          "beat": 0.5
+        },
+        {
+          "id": "*/dubba2-2",
+          "beat": 0.75
+        },
+        {
+          "id": "*/dubba2-3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/dubba2-4",
+          "beat": 1.25
+        },
+        {
+          "id": "*/that2",
+          "beat": 1.5
+        },
+        {
+          "id": "*/true2",
+          "beat": 2.0
+        },
+        {
+          "id": "*_yeRandom",
+          "beat": 3.0
+        },
+        {
+          "id": "*/yeCamera",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_isThatTrueAltC",
+      "name": "is that true? - C (alternative)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/wub3",
+          "beat": 0.0
+        },
+        {
+          "id": "*/dubba3-1",
+          "beat": 0.5
+        },
+        {
+          "id": "*/dubba3-2",
+          "beat": 0.75
+        },
+        {
+          "id": "*/dubba3-3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/dubba3-4",
+          "beat": 1.25
+        },
+        {
+          "id": "*/that3",
+          "beat": 1.5
+        },
+        {
+          "id": "*/true3",
+          "beat": 2.0
+        },
+        {
+          "id": "*_yeRandom",
+          "beat": 3.0
+        },
+        {
+          "id": "*/yeCamera",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_youGoBigGuyA",
+      "name": "you go big guy - A",
+      "deprecatedIDs": [
+        "ringside_youGoBigGuyA"
+      ],
+      "cues": [
+        {
+          "id": "*/woah1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/you1",
+          "beat": 0.75
+        },
+        {
+          "id": "*/go1",
+          "beat": 1.0
+        },
+        {
+          "id": "*/big1",
+          "beat": 1.5
+        },
+        {
+          "id": "*/guy1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/muscles1",
+          "beat": 2.5
+        },
+        {
+          "id": "*/muscles2",
+          "beat": 3.0
+        },
+        {
+          "id": "*/musclesCamera",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_youGoBigGuyB",
+      "name": "you go big guy - B",
+      "deprecatedIDs": [
+        "ringside_youGoBigGuyB"
+      ],
+      "cues": [
+        {
+          "id": "*/woah2",
+          "beat": 0.0
+        },
+        {
+          "id": "*/you2",
+          "beat": 0.75
+        },
+        {
+          "id": "*/go2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/big2",
+          "beat": 1.5
+        },
+        {
+          "id": "*/guy2",
+          "beat": 2.0
+        },
+        {
+          "id": "*/muscles1",
+          "beat": 2.5
+        },
+        {
+          "id": "*/muscles2",
+          "beat": 3.0
+        },
+        {
+          "id": "*/musclesCamera",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_youGoBigGuyC",
+      "name": "you go big guy - C",
+      "deprecatedIDs": [
+        "ringside_youGoBigGuyC"
+      ],
+      "cues": [
+        {
+          "id": "*/woah3",
+          "beat": 0.0
+        },
+        {
+          "id": "*/you3",
+          "beat": 0.75
+        },
+        {
+          "id": "*/go3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/big3",
+          "beat": 1.5
+        },
+        {
+          "id": "*/guy3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/muscles1",
+          "beat": 2.5
+        },
+        {
+          "id": "*/muscles2",
+          "beat": 3.0
+        },
+        {
+          "id": "*/musclesCamera",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_poseForTheFansA",
+      "name": "pose for the fans - A",
+      "deprecatedIDs": [
+        "ringside_poseForTheFansA"
+      ],
+      "cues": [
+        {
+          "id": "*/pose1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/for1",
+          "beat": 0.5
+        },
+        {
+          "id": "*/the1",
+          "beat": 0.75
+        },
+        {
+          "id": "*/fans1",
+          "beat": 1.0
+        },
+        {
+          "id": "*_yellRandom",
+          "beat": 2.0
+        },
+        {
+          "id": "*/poseCamera",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_poseForTheFansB",
+      "name": "pose for the fans - B",
+      "deprecatedIDs": [
+        "ringside_poseForTheFansB",
+        "ringsideEn_poseForTheFansC"
+      ],
+      "cues": [
+        {
+          "id": "*/pose2",
+          "beat": 0.0
+        },
+        {
+          "id": "*/for2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/the2",
+          "beat": 0.75
+        },
+        {
+          "id": "*/fans2",
+          "beat": 1.0
+        },
+        {
+          "id": "*_yellRandom",
+          "beat": 2.0
+        },
+        {
+          "id": "*/poseCamera",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_yeRandom",
+      "name": "is that true? - ye - random",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/ye1"
+        },
+        {
+          "id": "*/ye2"
+        },
+        {
+          "id": "*/ye3"
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_yellRandom",
+      "name": "pose for the fans - RAGH - random",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/yell1"
+        },
+        {
+          "id": "*/yell2"
+        },
+        {
+          "id": "*/yell3"
+        },
+        {
+          "id": "*/yell4"
+        },
+        {
+          "id": "*/yell5"
+        },
+        {
+          "id": "*/yell6"
+        }
+      ],
+      "subtext": ""
+    }
+  ]
 }

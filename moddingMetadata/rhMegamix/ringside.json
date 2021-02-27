@@ -16,7 +16,7 @@
     "note": "0x57 is standard. Refer to the documentation"
   },
   {
-    "applyTo": ["ringsideEn_poseForTheFansRandom", "ringsideEn_poseForTheFansA", "ringsideEn_poseForTheFansB", "ringsideEn_poseForTheFansC", "ringsideJa_poseForTheFansRandom", "ringsideJa_poseForTheFansA", "ringsideJa_poseForTheFansB", "ringsideJa_poseForTheFansC"],
+    "applyTo": ["ringsideEn_poseForTheFansRandom", "ringsideEn_poseForTheFansA", "ringsideEn_poseForTheFansB", "ringsideJa_poseForTheFansRandom", "ringsideJa_poseForTheFansA", "ringsideJa_poseForTheFansB"],
     "sub": "0x59-0x5F",
 	"note": "0x59 is standard. Refer to the documentation"
   }
