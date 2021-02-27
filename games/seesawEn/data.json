@@ -304,9 +304,7 @@
       "type": "pattern",
       "id": "*_longHigh",
       "name": "long high",
-      "deprecatedIDs": [
-        "seesaw_highHigh"
-      ],
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/seeLong1",
