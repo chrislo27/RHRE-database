@@ -1,14 +1,12 @@
 {
-  "id" : "exhibitionMatchMegamixEn",
+  "id" : "exhibitionMatchMegamixKo",
   "name" : "Exhibition Match (Megamix)",
   "series" : "megamix",
-  "language" : "en",
-  "group" : "Exhibition Match (Megamix)",
-  "groupDefault" : true,
+  "language" : "ko",
   "objects" : [ {
     "type" : "cue",
     "id" : "*/curtain",
-    "name" : "reveal monkey",
+    "name" : "monkey reveal",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
@@ -23,35 +21,35 @@
     "type" : "cue",
     "id" : "*/stance",
     "name" : "stance",
-    "deprecatedIDs" : [ "exhibitionMatchMegamix/stance" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/throw",
     "name" : "throw",
-    "deprecatedIDs" : [ "exhibitionMatchMegamix/throw" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/hit1",
     "name" : "hit - 1",
-    "deprecatedIDs" : [ "exhibitionMatchMegamix/hit" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/hit2",
     "name" : "hit - 2",
-    "deprecatedIDs" : [ "exhibitionMatchMegamix/hit2" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/hit3",
     "name" : "hit - 3",
-    "deprecatedIDs" : [ "exhibitionMatchMegamix/hit3" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
@@ -93,7 +91,7 @@
     "type" : "cue",
     "id" : "*/hitHomerun1",
     "name" : "hit - home run - 1",
-    "deprecatedIDs" : [ "exhibitionMatchMegamix/hitHomerun", "exhibitionMatchMegamixEn/hitHomerun" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 7.0,
     "baseBpm" : 120.0,
@@ -118,6 +116,33 @@
     "baseBpmRules" : "onlyTimeStretch"
   }, {
     "type" : "cue",
+    "id" : "*/hitHomerun4",
+    "name" : "hit - home run - 4",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 7.0,
+    "baseBpm" : 120.0,
+    "baseBpmRules" : "onlyTimeStretch"
+  }, {
+    "type" : "cue",
+    "id" : "*/hitHomerun5",
+    "name" : "hit - home run - 5",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 7.0,
+    "baseBpm" : 120.0,
+    "baseBpmRules" : "onlyTimeStretch"
+  }, {
+    "type" : "cue",
+    "id" : "*/hitHomerun6",
+    "name" : "hit - home run - 6",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 7.0,
+    "baseBpm" : 120.0,
+    "baseBpmRules" : "onlyTimeStretch"
+  }, {
+    "type" : "cue",
     "id" : "*/glassBreak",
     "name" : "glass broken",
     "deprecatedIDs" : [ ],
@@ -127,7 +152,7 @@
     "type" : "pattern",
     "id" : "*_pitch",
     "name" : "pitch",
-    "deprecatedIDs" : [ "exhibitionMatchMegamix_pitch1", "exhibitionMatchMegamixEn_pitch1", "exhibitionMatchMegamixEn_pitch2", "exhibitionMatchMegamixEn_pitch3" ],
+    "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/stance",
       "beat" : 0.0
@@ -178,7 +203,7 @@
     "type" : "pattern",
     "id" : "*_homerun",
     "name" : "home run",
-    "deprecatedIDs" : [ "exhibitionMatchMegamix_homerun" ],
+    "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/stance",
       "beat" : 0.0
@@ -230,6 +255,12 @@
       "id" : "*/hitHomerun2"
     }, {
       "id" : "*/hitHomerun3"
+    }, {
+      "id" : "*/hitHomerun4"
+    }, {
+      "id" : "*/hitHomerun5"
+    }, {
+      "id" : "*/hitHomerun6"
     } ],
     "subtext" : ""
   } ]

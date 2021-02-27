@@ -1,10 +1,8 @@
 {
-  "id" : "exhibitionMatchMegamixEn",
+  "id" : "exhibitionMatchMegamixJa",
   "name" : "Exhibition Match (Megamix)",
   "series" : "megamix",
-  "language" : "en",
-  "group" : "Exhibition Match (Megamix)",
-  "groupDefault" : true,
+  "language" : "ja",
   "objects" : [ {
     "type" : "cue",
     "id" : "*/curtain",
@@ -23,35 +21,35 @@
     "type" : "cue",
     "id" : "*/stance",
     "name" : "stance",
-    "deprecatedIDs" : [ "exhibitionMatchMegamix/stance" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/throw",
     "name" : "throw",
-    "deprecatedIDs" : [ "exhibitionMatchMegamix/throw" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/hit1",
     "name" : "hit - 1",
-    "deprecatedIDs" : [ "exhibitionMatchMegamix/hit" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/hit2",
     "name" : "hit - 2",
-    "deprecatedIDs" : [ "exhibitionMatchMegamix/hit2" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/hit3",
     "name" : "hit - 3",
-    "deprecatedIDs" : [ "exhibitionMatchMegamix/hit3" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
@@ -93,7 +91,7 @@
     "type" : "cue",
     "id" : "*/hitHomerun1",
     "name" : "hit - home run - 1",
-    "deprecatedIDs" : [ "exhibitionMatchMegamix/hitHomerun", "exhibitionMatchMegamixEn/hitHomerun" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 7.0,
     "baseBpm" : 120.0,
@@ -127,7 +125,7 @@
     "type" : "pattern",
     "id" : "*_pitch",
     "name" : "pitch",
-    "deprecatedIDs" : [ "exhibitionMatchMegamix_pitch1", "exhibitionMatchMegamixEn_pitch1", "exhibitionMatchMegamixEn_pitch2", "exhibitionMatchMegamixEn_pitch3" ],
+    "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/stance",
       "beat" : 0.0
@@ -178,7 +176,7 @@
     "type" : "pattern",
     "id" : "*_homerun",
     "name" : "home run",
-    "deprecatedIDs" : [ "exhibitionMatchMegamix_homerun" ],
+    "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/stance",
       "beat" : 0.0
