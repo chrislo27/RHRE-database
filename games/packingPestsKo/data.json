@@ -48,6 +48,20 @@
     },
     {
       "type": "cue",
+      "id": "*/hada1",
+      "name": "ha-",
+      "deprecatedIDs": [],
+      "duration": 0.37500003
+    },
+    {
+      "type": "cue",
+      "id": "*/hada2",
+      "name": "-da",
+      "deprecatedIDs": [],
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
       "id": "*/ding",
       "name": "ding",
       "deprecatedIDs": [],
