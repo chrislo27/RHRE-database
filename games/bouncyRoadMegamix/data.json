@@ -1,93 +1,75 @@
 {
-  "series": "megamix",
-  "id": "bouncyRoadMegamix",
-  "name": "Bouncy Road (Megamix)",
-  "objects": [
-    {
-      "type": "cue",
-      "id": "*/tink",
-      "deprecatedIDs": [],
-      "name": "tink",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/cymbal",
-      "deprecatedIDs": [],
-      "name": "cymbal",
-      "duration": 0.5
-    },
-    {
-      "type": "equidistant",
-      "id": "*_15bounces",
-      "deprecatedIDs": [],
-      "name": "15 bounces",
-      "distance": 0.5,
-      "stretchable": true,
-      "cues": [
-        {
-          "id": "*/tink",
-          "volume": 44
-        },
-        {
-          "id": "*/tink",
-          "volume": 48
-        },
-        {
-          "id": "*/tink",
-          "volume": 52
-        },
-        {
-          "id": "*/tink",
-          "volume": 56
-        },
-        {
-          "id": "*/tink",
-          "volume": 60
-        },
-        {
-          "id": "*/tink",
-          "volume": 64
-        },
-        {
-          "id": "*/tink",
-          "volume": 68
-        },
-        {
-          "id": "*/tink",
-          "volume": 72
-        },
-        {
-          "id": "*/tink",
-          "volume": 76
-        },
-        {
-          "id": "*/tink",
-          "volume": 80
-        },
-        {
-          "id": "*/tink",
-          "volume": 84
-        },
-        {
-          "id": "*/tink",
-          "volume": 88
-        },
-        {
-          "id": "*/tink",
-          "semitone": -4,
-          "volume": 92
-        },
-        {
-          "id": "*/tink",
-          "semitone": 3,
-          "volume": 96
-        },
-        {
-          "id": "*/cymbal",
-          "volume": 100
-        }
-      ]
-    }
-  ]
+  "id" : "bouncyRoadMegamix",
+  "name" : "Bouncy Road (Megamix)",
+  "series" : "megamix",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/tink",
+    "name" : "tink",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/cymbal",
+    "name" : "cymbal",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "equidistant",
+    "id" : "*_15bounces",
+    "name" : "15 bounces",
+    "deprecatedIDs" : [ ],
+    "distance" : 0.5,
+    "stretchable" : true,
+    "cues" : [ {
+      "id" : "*/tink",
+      "volume" : 44
+    }, {
+      "id" : "*/tink",
+      "volume" : 48
+    }, {
+      "id" : "*/tink",
+      "volume" : 52
+    }, {
+      "id" : "*/tink",
+      "volume" : 56
+    }, {
+      "id" : "*/tink",
+      "volume" : 60
+    }, {
+      "id" : "*/tink",
+      "volume" : 64
+    }, {
+      "id" : "*/tink",
+      "volume" : 68
+    }, {
+      "id" : "*/tink",
+      "volume" : 72
+    }, {
+      "id" : "*/tink",
+      "volume" : 76
+    }, {
+      "id" : "*/tink",
+      "volume" : 80
+    }, {
+      "id" : "*/tink",
+      "volume" : 84
+    }, {
+      "id" : "*/tink",
+      "volume" : 88
+    }, {
+      "id" : "*/tink",
+      "semitone" : -4,
+      "volume" : 92
+    }, {
+      "id" : "*/tink",
+      "semitone" : 3,
+      "volume" : 96
+    }, {
+      "id" : "*/cymbal"
+    } ],
+    "subtext" : ""
+  } ]
 }
