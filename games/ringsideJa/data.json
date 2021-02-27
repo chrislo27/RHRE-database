@@ -291,42 +291,47 @@
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.25,
-    "earliness" : 0.0625
+    "earliness" : 0.1456
   }, {
     "type" : "cue",
     "id" : "*/you2",
     "name" : "you go big guy - B - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.25
+    "duration" : 0.25,
+    "earliness" : 0.0625
   }, {
     "type" : "cue",
     "id" : "*/you3",
     "name" : "you go big guy - C - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.25
+    "duration" : 0.25,
+    "earliness" : 0.104
   }, {
     "type" : "cue",
     "id" : "*/you4",
     "name" : "you go big guy - D - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.25
+    "duration" : 0.25,
+    "earliness" : 0.04175
   }, {
     "type" : "cue",
     "id" : "*/you5",
     "name" : "you go big guy - E - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.25
+    "duration" : 0.25,
+    "earliness" : 0.078
   }, {
     "type" : "cue",
     "id" : "*/you6",
     "name" : "you go big guy - F - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.25
+    "duration" : 0.25,
+    "earliness" : 0.078
   }, {
     "type" : "cue",
     "id" : "*/go1",
