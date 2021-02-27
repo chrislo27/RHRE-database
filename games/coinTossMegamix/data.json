@@ -1,65 +1,79 @@
 {
-  "series": "side",
   "id": "coinTossMegamix",
   "name": "Coin Toss (Megamix)",
+  "series": "side",
   "group": "Coin Toss",
   "groupDefault": true,
   "objects": [
     {
       "type": "cue",
       "id": "*/flick",
+      "name": "flick",
       "deprecatedIDs": [
         "coinToss/flick"
       ],
-      "name": "flick",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/catch",
+      "name": "catch",
       "deprecatedIDs": [
         "coinToss/catch"
       ],
-      "name": "catch",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/cowbell1",
-      "deprecatedIDs": [],
       "name": "cowbell - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/cowbell2",
-      "deprecatedIDs": [],
       "name": "cowbell - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/catchCheer",
+      "name": "catch - cheering",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/thankYou1",
+      "name": "thank you! - 1",
       "deprecatedIDs": [
         "coinToss/thankYou"
       ],
-      "name": "thank you! - 1",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/thankYou2",
-      "deprecatedIDs": [],
       "name": "thank you! - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.5
     },
     {
       "type": "pattern",
       "id": "*_catch",
+      "name": "catch",
       "deprecatedIDs": [
         "coinToss_catchNoThankYou"
       ],
-      "name": "catch",
       "cues": [
         {
           "id": "*/flick",
@@ -69,13 +83,14 @@
           "id": "*/catch",
           "beat": 6.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_catchCowbell",
-      "deprecatedIDs": [],
       "name": "catch - cowbell",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/flick",
@@ -115,15 +130,37 @@
           "id": "*/cowbell1",
           "beat": 6.0
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_catchThankYou",
+      "name": "catch - thank you!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/flick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/catchCheer",
+          "beat": 6.0
+        },
+        {
+          "id": "*_thankYou",
+          "beat": 6.5
+        }
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_thankYou",
+      "name": "thank you!",
       "deprecatedIDs": [
         "coinToss_catchThankYou"
       ],
-      "name": "thank you!",
       "cues": [
         {
           "id": "*/thankYou1",
@@ -133,7 +170,8 @@
           "id": "*/thankYou2",
           "beat": 0.5
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
