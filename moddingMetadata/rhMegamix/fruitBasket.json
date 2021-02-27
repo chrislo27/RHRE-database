@@ -18,8 +18,11 @@
 	"note": "In order of: left, right, both. Former set has no smile"
   },
   {
-    "applyTo": ["fruitBasket_melon"],
-    "sub": "0x5A, 0x5B",
-	"note": "In order of: left, right"
+    "applyTo": ["fruitBasket_melonL"],
+    "sub": "0x5A, 0x5B"
+  },
+  {
+    "applyTo": ["fruitBasket_melonR"],
+    "sub": "0x5B"
   }
 ]
