@@ -61,7 +61,6 @@
       "type": "cue",
       "id": "*/strum",
       "deprecatedIDs": [
-        "bigRockFinishEs/strum",
         "bigRockFinishEs/strumFinal"
       ],
       "name": "strum",

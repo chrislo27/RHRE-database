@@ -742,7 +742,6 @@
       "id": "*_scratchoRemix4",
       "name": "scratch-o hey (Remix 4)",
       "deprecatedIDs": [
-        "djSchool_scratch"
       ],
       "cues": [
         {
@@ -776,7 +775,6 @@
       "id": "*_scratchoAltRemix4",
       "name": "scratch-o hey - alternate (Remix 4)",
       "deprecatedIDs": [
-        "djSchool_scratchalt"
       ],
       "cues": [
         {
@@ -810,7 +808,6 @@
       "id": "*_scratchoLoudRemix4",
       "name": "scratch-o hey - loud (Remix 4)",
       "deprecatedIDs": [
-        "djSchool_scratchloud"
       ],
       "cues": [
         {

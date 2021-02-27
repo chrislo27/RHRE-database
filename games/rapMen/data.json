@@ -7,7 +7,6 @@
       "type": "cue",
       "id": "*/yeah",
       "deprecatedIDs": [
-        "rapMen/yeah"
       ],
       "name": "yeah",
       "duration": 1.0
@@ -16,7 +15,6 @@
       "type": "cue",
       "id": "*/yo",
       "deprecatedIDs": [
-        "rapMen/yo"
       ],
       "name": "yo,",
       "duration": 0.75
@@ -25,7 +23,6 @@
       "type": "cue",
       "id": "*/yyo",
       "deprecatedIDs": [
-        "rapMen/yyo"
       ],
       "name": "yyo,",
       "duration": 0.75
@@ -34,7 +31,6 @@
       "type": "cue",
       "id": "*/desuka1",
       "deprecatedIDs": [
-        "rapMen/desu"
       ],
       "name": "desu ka - desu",
       "duration": 0.5
@@ -43,7 +39,6 @@
       "type": "cue",
       "id": "*/desuka2",
       "deprecatedIDs": [
-        "rapMen/ka"
       ],
       "name": "desu ka - ka?",
       "duration": 1.0
@@ -70,7 +65,6 @@
       "type": "cue",
       "id": "*/oyatsudesuka1",
       "deprecatedIDs": [
-        "rapMen/oyatsudesuka1"
       ],
       "name": "oyatsu desu ka - o",
       "duration": 0.125
@@ -79,7 +73,6 @@
       "type": "cue",
       "id": "*/oyatsudesuka2",
       "deprecatedIDs": [
-        "rapMen/oyatsudesuka2"
       ],
       "name": "oyatsu desu ka - yatsu",
       "duration": 0.5
@@ -88,7 +81,6 @@
       "type": "cue",
       "id": "*/okaeri1",
       "deprecatedIDs": [
-        "rapMen/okaeri1"
       ],
       "name": "okaeri masu ka - o",
       "duration": 0.25
@@ -97,7 +89,6 @@
       "type": "cue",
       "id": "*/okaeri2",
       "deprecatedIDs": [
-        "rapMen/okaeri2"
       ],
       "name": "okaeri masu ka - kae",
       "duration": 0.375
@@ -106,7 +97,6 @@
       "type": "cue",
       "id": "*/okaeri3",
       "deprecatedIDs": [
-        "rapMen/okaeri3"
       ],
       "name": "okaeri masu ka - ri",
       "duration": 0.0625
@@ -115,7 +105,6 @@
       "type": "cue",
       "id": "*/okaeri4",
       "deprecatedIDs": [
-        "rapMen/okaeri4"
       ],
       "name": "okaeri masu ka - masu",
       "duration": 0.5625
@@ -124,7 +113,6 @@
       "type": "cue",
       "id": "*/okaeri5",
       "deprecatedIDs": [
-        "rapMen/okaeri5"
       ],
       "name": "okaeri masu ka - ka",
       "duration": 1.0
@@ -133,7 +121,6 @@
       "type": "cue",
       "id": "*/honto1",
       "deprecatedIDs": [
-        "rapMen/honto1"
       ],
       "name": "honto desu ka - hon",
       "duration": 0.625
@@ -142,7 +129,6 @@
       "type": "cue",
       "id": "*/honto2",
       "deprecatedIDs": [
-        "rapMen/honto2"
       ],
       "name": "honto desu ka - to",
       "duration": 0.125
@@ -151,7 +137,6 @@
       "type": "cue",
       "id": "*/honto3",
       "deprecatedIDs": [
-        "rapMen/honto3"
       ],
       "name": "honto desu ka - desu",
       "duration": 0.5
@@ -160,7 +145,6 @@
       "type": "cue",
       "id": "*/honto4",
       "deprecatedIDs": [
-        "rapMen/honto4"
       ],
       "name": "honto desu ka - ka?",
       "duration": 0.25
@@ -169,7 +153,6 @@
       "type": "cue",
       "id": "*/kamone1",
       "deprecatedIDs": [
-        "rapMen/kamone1"
       ],
       "name": "kamone - ka",
       "duration": 0.0625
@@ -178,7 +161,6 @@
       "type": "cue",
       "id": "*/kamone2",
       "deprecatedIDs": [
-        "rapMen/kamone2"
       ],
       "name": "kamone - mo",
       "duration": 0.25
@@ -187,7 +169,6 @@
       "type": "cue",
       "id": "*/kamone3",
       "deprecatedIDs": [
-        "rapMen/kamone3"
       ],
       "name": "kamone - ne?",
       "duration": 0.75
@@ -196,7 +177,6 @@
       "type": "cue",
       "id": "*/oishii1",
       "deprecatedIDs": [
-        "rapMen/oishii1"
       ],
       "name": "oishii - oi",
       "duration": 0.25
@@ -205,7 +185,6 @@
       "type": "cue",
       "id": "*/oishii2",
       "deprecatedIDs": [
-        "rapMen/oishii2"
       ],
       "name": "oishii - shii",
       "duration": 1.0
@@ -214,7 +193,6 @@
       "type": "cue",
       "id": "*/he",
       "deprecatedIDs": [
-        "rapMen/he"
       ],
       "name": "herushi - he",
       "duration": 0.125
@@ -223,7 +201,6 @@
       "type": "cue",
       "id": "*/herushi1",
       "deprecatedIDs": [
-        "rapMen/herushi1"
       ],
       "name": "herushi - heru",
       "duration": 0.375
@@ -232,7 +209,6 @@
       "type": "cue",
       "id": "*/herushi2",
       "deprecatedIDs": [
-        "rapMen/herushi2"
       ],
       "name": "herushi - shi",
       "duration": 0.85
@@ -241,7 +217,6 @@
       "type": "cue",
       "id": "*/soremosou1",
       "deprecatedIDs": [
-        "rapMen/soremosou1"
       ],
       "name": "soremosou - so",
       "duration": 0.325
@@ -250,7 +225,6 @@
       "type": "cue",
       "id": "*/soremosou2",
       "deprecatedIDs": [
-        "rapMen/soremosou2"
       ],
       "name": "soremosou - re",
       "duration": 0.1875
@@ -259,7 +233,6 @@
       "type": "cue",
       "id": "*/soremosou3",
       "deprecatedIDs": [
-        "rapMen/soremosou3"
       ],
       "name": "soremosou - mo",
       "duration": 0.0625
@@ -268,7 +241,6 @@
       "type": "cue",
       "id": "*/soremosou4",
       "deprecatedIDs": [
-        "rapMen/soremosou4"
       ],
       "name": "soremosou - sou",
       "duration": 0.75
@@ -277,7 +249,6 @@
       "type": "cue",
       "id": "*/orenosei1",
       "deprecatedIDs": [
-        "rapMen/orenosei1"
       ],
       "name": "orenosei - o",
       "duration": 0.25
@@ -286,7 +257,6 @@
       "type": "cue",
       "id": "*/orenosei2",
       "deprecatedIDs": [
-        "rapMen/orenosei2"
       ],
       "name": "orenosei - re",
       "duration": 0.125
@@ -295,7 +265,6 @@
       "type": "cue",
       "id": "*/orenosei3",
       "deprecatedIDs": [
-        "rapMen/orenosei3"
       ],
       "name": "orenosei - no",
       "duration": 0.125
@@ -304,7 +273,6 @@
       "type": "cue",
       "id": "*/orenosei4",
       "deprecatedIDs": [
-        "rapMen/orenosei4"
       ],
       "name": "orenosei - sei",
       "duration": 0.625
@@ -313,7 +281,6 @@
       "type": "cue",
       "id": "*/tanoshii1",
       "deprecatedIDs": [
-        "rapMen/tanoshii1"
       ],
       "name": "tanoshii - ta",
       "duration": 0.25
@@ -322,7 +289,6 @@
       "type": "cue",
       "id": "*/tanoshii2",
       "deprecatedIDs": [
-        "rapMen/tanoshii2"
       ],
       "name": "tanoshii - nosh",
       "duration": 0.125
@@ -331,7 +297,6 @@
       "type": "cue",
       "id": "*/tanoshii3",
       "deprecatedIDs": [
-        "rapMen/tanoshii3"
       ],
       "name": "tanoshii - ii",
       "duration": 0.625
@@ -340,7 +305,6 @@
       "type": "cue",
       "id": "*/saiko1",
       "deprecatedIDs": [
-        "rapMen/saiko1"
       ],
       "name": "saiko - sai",
       "duration": 0.625
@@ -349,7 +313,6 @@
       "type": "cue",
       "id": "*/saiko2",
       "deprecatedIDs": [
-        "rapMen/saiko2"
       ],
       "name": "saiko - ko!",
       "duration": 0.5
@@ -358,7 +321,6 @@
       "type": "cue",
       "id": "*/oyatsusaiko1",
       "deprecatedIDs": [
-        "rapMen/oyatsusaiko1"
       ],
       "name": "oyatsu saiko - o",
       "duration": 0.125
@@ -367,7 +329,6 @@
       "type": "cue",
       "id": "*/oyatsusaiko2",
       "deprecatedIDs": [
-        "rapMen/oyatsusaiko2"
       ],
       "name": "oyatsu saiko - ya",
       "duration": 0.25
@@ -376,7 +337,6 @@
       "type": "cue",
       "id": "*/oyatsusaiko3",
       "deprecatedIDs": [
-        "rapMen/oyatsusaiko3"
       ],
       "name": "oyatsu saiko - tsu",
       "duration": 0.21875
@@ -385,7 +345,6 @@
       "type": "cue",
       "id": "*/oyatsusaiko4",
       "deprecatedIDs": [
-        "rapMen/oyatsusaiko4"
       ],
       "name": "oyatsu saiko - wa",
       "duration": 0.09375
@@ -394,7 +353,6 @@
       "type": "cue",
       "id": "*/kibun1",
       "deprecatedIDs": [
-        "rapMen/kibun1"
       ],
       "name": "kibun - ki",
       "duration": 0.25
@@ -403,7 +361,6 @@
       "type": "cue",
       "id": "*/kibun2",
       "deprecatedIDs": [
-        "rapMen/kibun2"
       ],
       "name": "kibun - bun",
       "duration": 0.5
@@ -412,7 +369,6 @@
       "type": "cue",
       "id": "*/kibun3",
       "deprecatedIDs": [
-        "rapMen/kibun3"
       ],
       "name": "kibun - wa",
       "duration": 0.09375
@@ -421,7 +377,6 @@
       "type": "cue",
       "id": "*/orette1",
       "deprecatedIDs": [
-        "rapMen/orette1"
       ],
       "name": "orette - o",
       "duration": 0.25
@@ -430,7 +385,6 @@
       "type": "cue",
       "id": "*/orette2",
       "deprecatedIDs": [
-        "rapMen/orette2"
       ],
       "name": "orette - re",
       "duration": 0.5
@@ -439,7 +393,6 @@
       "type": "cue",
       "id": "*/orette3",
       "deprecatedIDs": [
-        "rapMen/orette3"
       ],
       "name": "orette - tte",
       "duration": 0.0625
@@ -448,7 +401,6 @@
       "type": "cue",
       "id": "*/kimitte1",
       "deprecatedIDs": [
-        "rapMen/kimitte1"
       ],
       "name": "kimitte - ki",
       "duration": 0.25
@@ -457,7 +409,6 @@
       "type": "cue",
       "id": "*/kimitte2",
       "deprecatedIDs": [
-        "rapMen/kimitte2"
       ],
       "name": "kimitte - mi",
       "duration": 0.5
@@ -466,7 +417,6 @@
       "type": "cue",
       "id": "*/kimitte3",
       "deprecatedIDs": [
-        "rapMen/kimitte3"
       ],
       "name": "kimitte - tte",
       "duration": 0.0625
@@ -475,7 +425,6 @@
       "type": "cue",
       "id": "*/naiyo1",
       "deprecatedIDs": [
-        "rapMen/naiyo1"
       ],
       "name": "naiyo - nai",
       "duration": 0.5
@@ -484,7 +433,6 @@
       "type": "cue",
       "id": "*/naiyo2",
       "deprecatedIDs": [
-        "rapMen/naiyo2"
       ],
       "name": "naiyo - yo",
       "duration": 0.5
@@ -493,7 +441,6 @@
       "type": "cue",
       "id": "*/oyatsunaiyo1",
       "deprecatedIDs": [
-        "rapMen/oyatsunaiyo1"
       ],
       "name": "oyatsu naiyo - o",
       "duration": 0.125
@@ -502,7 +449,6 @@
       "type": "cue",
       "id": "*/oyatsunaiyo2",
       "deprecatedIDs": [
-        "rapMen/oyatsunaiyo2"
       ],
       "name": "oyatsu naiyo - ya",
       "duration": 0.25
@@ -511,7 +457,6 @@
       "type": "cue",
       "id": "*/oyatsunaiyo3",
       "deprecatedIDs": [
-        "rapMen/oyatsunaiyo3"
       ],
       "name": "oyatsu naiyo - tsu",
       "duration": 0.25
@@ -520,7 +465,6 @@
       "type": "cue",
       "id": "*/oyatsunaiyo4",
       "deprecatedIDs": [
-        "rapMen/oyatsunaiyo4"
       ],
       "name": "oyatsu naiyo - ga",
       "duration": 0.1975
@@ -529,7 +473,6 @@
       "type": "cue",
       "id": "*/oreshira1",
       "deprecatedIDs": [
-        "rapMen/oreshira1"
       ],
       "name": "oreshira - o",
       "duration": 0.25
@@ -538,7 +481,6 @@
       "type": "cue",
       "id": "*/oreshira2",
       "deprecatedIDs": [
-        "rapMen/oreshira2"
       ],
       "name": "oreshira - re",
       "duration": 0.125
@@ -547,7 +489,6 @@
       "type": "cue",
       "id": "*/oreshira3",
       "deprecatedIDs": [
-        "rapMen/oreshira3"
       ],
       "name": "oreshira - shi",
       "duration": 0.25
@@ -556,7 +497,6 @@
       "type": "cue",
       "id": "*/oreshira4",
       "deprecatedIDs": [
-        "rapMen/oreshira4"
       ],
       "name": "oreshira - ra",
       "duration": 0.1975
@@ -565,7 +505,6 @@
       "type": "cue",
       "id": "*/uh",
       "deprecatedIDs": [
-        "rapMen/uh"
       ],
       "name": "uh",
       "duration": 0.5
@@ -574,7 +513,6 @@
       "type": "cue",
       "id": "*/uhn",
       "deprecatedIDs": [
-        "rapMen/uhn"
       ],
       "name": "-UHN!",
       "duration": 0.5
@@ -583,7 +521,6 @@
       "type": "pattern",
       "id": "*_sanjidesuka",
       "deprecatedIDs": [
-        "rapMen_sanjidesuka"
       ],
       "name": "yo, sanji [CYAN]desu ka?[]",
       "cues": [
@@ -617,7 +554,6 @@
       "type": "pattern",
       "id": "*_oyatsudesuka",
       "deprecatedIDs": [
-        "rapMen_oyatsudesuka"
       ],
       "name": "yo, oyatsu [CYAN]desu ka?[]",
       "cues": [
@@ -651,7 +587,6 @@
       "type": "pattern",
       "id": "*_okaerimasuka",
       "deprecatedIDs": [
-        "rapMen_okaerimasuka"
       ],
       "name": "yo, okaeri [CYAN]masu ka?[]",
       "cues": [
@@ -689,7 +624,6 @@
       "type": "pattern",
       "id": "*_hontodesuka",
       "deprecatedIDs": [
-        "rapMen_hontodesuka"
       ],
       "name": "honto [CYAN]desu ka?[]",
       "cues": [
@@ -719,7 +653,6 @@
       "type": "pattern",
       "id": "*_oishiikamone",
       "deprecatedIDs": [
-        "rapMen_oishiikamone"
       ],
       "name": "oishii, [PINK]kamone?[]",
       "cues": [
@@ -757,7 +690,6 @@
       "type": "pattern",
       "id": "*_herushikamone",
       "deprecatedIDs": [
-        "rapMen_herushikamone"
       ],
       "name": "herushi [PINK]kamone?[]",
       "cues": [
@@ -795,7 +727,6 @@
       "type": "pattern",
       "id": "*_heherushikamone",
       "deprecatedIDs": [
-        "rapMen_heherushikamone"
       ],
       "name": "he-herushi [PINK]kamone?[]",
       "cues": [
@@ -837,7 +768,6 @@
       "type": "pattern",
       "id": "*_soremosoukamone",
       "deprecatedIDs": [
-        "rapMen_soremosoukamone"
       ],
       "name": "soremosou [PINK]kamone?[]",
       "cues": [
@@ -883,7 +813,6 @@
       "type": "pattern",
       "id": "*_orenoseikamone",
       "deprecatedIDs": [
-        "rapMen_orenoseikamone"
       ],
       "name": "orenosei [PINK]kamone?[]",
       "cues": [
@@ -929,7 +858,6 @@
       "type": "pattern",
       "id": "*_tanoshiikamone",
       "deprecatedIDs": [
-        "rapMen_tanoshiikamone"
       ],
       "name": "tanoshii [PINK]kamone?[]",
       "cues": [
@@ -971,7 +899,6 @@
       "type": "pattern",
       "id": "*_oyatsusaiko",
       "deprecatedIDs": [
-        "rapMen_oyatsusaiko"
       ],
       "name": "oyatsu wa [YELLOW]saiko!![]",
       "cues": [
@@ -1013,7 +940,6 @@
       "type": "pattern",
       "id": "*_kibunsaiko",
       "deprecatedIDs": [
-        "rapMen_kibunsaiko"
       ],
       "name": "kibun wa [YELLOW]saiko!![]",
       "cues": [
@@ -1051,7 +977,6 @@
       "type": "pattern",
       "id": "*_orettesaiko",
       "deprecatedIDs": [
-        "rapMen_orettesaiko"
       ],
       "name": "orette [YELLOW]saiko!![]",
       "cues": [
@@ -1089,7 +1014,6 @@
       "type": "pattern",
       "id": "*_kimittesaiko",
       "deprecatedIDs": [
-        "rapMen_kimittesaiko"
       ],
       "name": "kimitte [YELLOW]saiko!![]",
       "cues": [
@@ -1127,7 +1051,6 @@
       "type": "pattern",
       "id": "*_oyatsunaiyo",
       "deprecatedIDs": [
-        "rapMen_oyatsunaiyo"
       ],
       "name": "oyatsu ga [YELLOW]naiyo!![]",
       "cues": [
@@ -1169,7 +1092,6 @@
       "type": "pattern",
       "id": "*_oreshiranaiyo",
       "deprecatedIDs": [
-        "rapMen_oreshiranaiyo"
       ],
       "name": "oreshira [YELLOW]naiyo!![]",
       "cues": [

@@ -214,7 +214,6 @@
       "type": "pattern",
       "id": "*_ABC",
       "deprecatedIDs": [
-        "shrimpShuffle_ABC"
       ],
       "name": "ABC",
       "cues": [
@@ -260,7 +259,6 @@
       "type": "pattern",
       "id": "*_paused",
       "deprecatedIDs": [
-        "shrimpShuffle_paused"
       ],
       "name": "paused",
       "cues": [
@@ -310,7 +308,6 @@
       "type": "pattern",
       "id": "*_pausedABC",
       "deprecatedIDs": [
-        "shrimpShuffle_pausedABC"
       ],
       "name": "paused ABC",
       "cues": [

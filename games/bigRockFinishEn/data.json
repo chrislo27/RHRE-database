@@ -126,7 +126,6 @@
       "deprecatedIDs": [
         "bigRockFinish/strum",
         "bigRockFinish/strumFinal",
-        "bigRockFinishEn/strum",
         "bigRockFinishEn/strumFinal"
       ],
       "name": "strum",
