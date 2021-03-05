@@ -1,7 +1,7 @@
 {
-  "series": "megamix",
   "id": "airboarderMegamixEn",
   "name": "Airboarder (Megamix)",
+  "series": "megamix",
   "language": "en",
   "group": "Airboarder (Megamix)",
   "groupDefault": true,
@@ -9,66 +9,74 @@
     {
       "type": "cue",
       "id": "*/letsGo1",
-      "deprecatedIDs": [],
       "name": "yeah... let's go! - 1",
-      "baseBpm": 160,
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 6.5,
+      "baseBpm": 160.0,
       "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",
       "id": "*/letsGo2",
-      "deprecatedIDs": [],
       "name": "yeah... let's go! - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/letsGo3",
-      "deprecatedIDs": [],
       "name": "yeah... let's go! - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/letsGo4",
-      "deprecatedIDs": [],
       "name": "yeah... let's go! - 4",
-      "duration": 0.5
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/hup",
-      "deprecatedIDs": [],
       "name": "ready",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/crouch",
-      "deprecatedIDs": [],
       "name": "crouch",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/glow",
-      "deprecatedIDs": [],
       "name": "glow",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/jump",
-      "deprecatedIDs": [],
       "name": "jump",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "pattern",
       "id": "*_letsGo",
-      "deprecatedIDs": [],
       "name": "yeah... let's go!",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/letsGo1",
@@ -86,13 +94,14 @@
           "id": "*/letsGo4",
           "beat": 7.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_crouch",
-      "deprecatedIDs": [],
       "name": "crouch",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/hup",
@@ -110,13 +119,14 @@
           "id": "*/crouch",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_crouchNoReady",
-      "deprecatedIDs": [],
       "name": "crouch - no ready cue",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/crouch",
@@ -130,13 +140,14 @@
           "id": "*/crouch",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_chargeCrouch",
-      "deprecatedIDs": [],
       "name": "charge crouch",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/hup",
@@ -154,13 +165,14 @@
           "id": "*/glow",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_chargeCrouchNoReady",
-      "deprecatedIDs": [],
       "name": "charge crouch - no ready cue",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/glow",
@@ -174,13 +186,14 @@
           "id": "*/glow",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_jumpReady",
-      "deprecatedIDs": [],
       "name": "jump",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/hup",
@@ -198,13 +211,14 @@
           "id": "*/jump",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_jump",
-      "deprecatedIDs": [],
       "name": "jump - no ready cue",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/jump",
@@ -218,7 +232,8 @@
           "id": "*/jump",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }

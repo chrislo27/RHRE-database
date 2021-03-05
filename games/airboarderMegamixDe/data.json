@@ -1,14 +1,14 @@
 {
-  "id" : "airboarderMegamixJa",
+  "id" : "airboarderMegamixDe",
   "name" : "Airboarder (Megamix)",
   "series" : "megamix",
-  "language" : "ja",
+  "language" : "de",
   "group" : "Airboarder (Megamix)",
   "objects" : [ {
     "type" : "cue",
     "id" : "*/letsGo1",
     "name" : "yeah... let's go! - 1",
-    "deprecatedIDs" : [ "airboarderMegamixJa/ikuze1" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 6.5,
     "baseBpm" : 160.0,
@@ -18,7 +18,7 @@
     "type" : "cue",
     "id" : "*/letsGo2",
     "name" : "yeah... let's go! - 2",
-    "deprecatedIDs" : [ "airboarderMegamixJa/ikuze2" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5,
     "earliness" : 0.0625
@@ -26,10 +26,9 @@
     "type" : "cue",
     "id" : "*/letsGo3",
     "name" : "yeah... let's go! - 3",
-    "deprecatedIDs" : [ "airboarderMegamixJa/ikuze3" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0,
-    "earliness" : 0.09375
+    "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/hup",
@@ -62,7 +61,7 @@
     "type" : "pattern",
     "id" : "*_letsGo",
     "name" : "yeah... let's go!",
-    "deprecatedIDs" : [ "airboarderMegamixJa_ikuze" ],
+    "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/letsGo1",
       "beat" : 0.0
