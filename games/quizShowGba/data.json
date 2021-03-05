@@ -1,13 +1,14 @@
 {
-  "series": "tengoku",
   "id": "quizShowGba",
   "name": "Quiz Show (GBA)",
+  "series": "tengoku",
   "objects": [
     {
       "type": "cue",
       "id": "*/hostA",
-      "deprecatedIDs": [],
       "name": "host - A",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25,
       "responseIDs": [
         "*/contestantA"
@@ -16,8 +17,9 @@
     {
       "type": "cue",
       "id": "*/hostDPad",
-      "deprecatedIDs": [],
       "name": "host - +",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25,
       "responseIDs": [
         "*/contestantDPad"
@@ -26,58 +28,74 @@
     {
       "type": "cue",
       "id": "*/contestantA",
-      "deprecatedIDs": [],
       "name": "contestant - A",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/contestantDPad",
-      "deprecatedIDs": [],
       "name": "contestant - +",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/timerStart",
-      "deprecatedIDs": [],
       "name": "timer start",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/timerStop",
-      "deprecatedIDs": [],
       "name": "timer stop",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/timeUp",
-      "deprecatedIDs": [],
       "name": "time's up!",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 2.0
     },
     {
       "type": "cue",
       "id": "*/answerReveal",
-      "deprecatedIDs": [],
       "name": "answer reveal",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/correct",
-      "deprecatedIDs": [],
       "name": "correct answer",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 2.0
     },
     {
       "type": "cue",
       "id": "*/correctNoMusic",
-      "deprecatedIDs": [],
       "name": "correct answer - no music",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/correctNoApplause",
+      "name": "correct answer - no applause",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     }
   ]
 }
