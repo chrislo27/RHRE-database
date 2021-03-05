@@ -290,7 +290,7 @@
     "type" : "pattern",
     "id" : "*_yeahyeahyeahNoShake",
     "name" : "yeah yeah yeah! (no shakes)",
-    "deprecatedIDs" : [ "frogHopMegamixJa_haihaihai" ],
+    "deprecatedIDs" : [  ],
     "cues" : [ {
       "id" : "*/yeah1",
       "beat" : 0.0
@@ -348,7 +348,7 @@
     "type" : "pattern",
     "id" : "*_spinitboysNoShake",
     "name" : "spin it boys! (no shakes)",
-    "deprecatedIDs" : [ "frogHopMegamixJa_kururin" ],
+    "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/spinitboys1",
       "beat" : 0.0
