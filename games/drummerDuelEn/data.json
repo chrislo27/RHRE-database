@@ -1,73 +1,69 @@
 {
-  "series": "ds",
-  "id": "drummerDuelEn",
-  "name": "Drummer Duel",
-  "language": "en",
-  "group": "Drummer Duel",
-  "groupDefault": true,
-  "objects": [
-    {
-      "type": "cue",
-      "id": "*/redOnbeat",
-      "deprecatedIDs": [
-        "drummerDuel/redOnbeat"
-      ],
-      "name": "red - onbeat drum",
-      "duration": 0.5,
-      "responseIDs": [
-        "*/blueOnbeat"
-      ]
-    },
-    {
-      "type": "cue",
-      "id": "*/redOffbeat",
-      "deprecatedIDs": [
-        "drummerDuel/redOffbeat"
-      ],
-      "name": "red - offbeat drum",
-      "duration": 0.5,
-      "responseIDs": [
-        "*/blueOffbeat"
-      ]
-    },
-    {
-      "type": "cue",
-      "id": "*/redPass",
-      "deprecatedIDs": [
-        "drummerDuel/redPass"
-      ],
-      "name": "red - turn pass",
-      "duration": 1.0,
-      "responseIDs": [
-        "*/bluePass"
-      ]
-    },
-    {
-      "type": "cue",
-      "id": "*/blueOnbeat",
-      "deprecatedIDs": [
-        "drummerDuel/blueOnbeat"
-      ],
-      "name": "blue - onbeat drum",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/blueOffbeat",
-      "deprecatedIDs": [
-        "drummerDuel/blueOffbeat"
-      ],
-      "name": "blue - offbeat drum",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/bluePass",
-      "deprecatedIDs": [
-        "drummerDuel/bluePass"
-      ],
-      "name": "blue - turn pass",
-      "duration": 1.0
-    }
-  ]
+  "id" : "drummerDuelEn",
+  "name" : "Drummer Duel",
+  "series" : "ds",
+  "language" : "en",
+  "group" : "Drummer Duel",
+  "groupDefault" : true,
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/leftHit",
+    "name" : "left - hit",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "responseIDs" : [ "*/rightHit" ]
+  }, {
+    "type" : "cue",
+    "id" : "*/leftOnbeat",
+    "name" : "left - onbeat drum",
+    "deprecatedIDs" : [ "drummerDuel/redOnbeat", "drummerDuelEn/redOnbeat" ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "responseIDs" : [ "*/rightOnbeat" ]
+  }, {
+    "type" : "cue",
+    "id" : "*/leftOffbeat",
+    "name" : "left - offbeat drum",
+    "deprecatedIDs" : [ "drummerDuel/redOffbeat", "drummerDuelEn/redOffbeat" ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "responseIDs" : [ "*/rightOffbeat" ]
+  }, {
+    "type" : "cue",
+    "id" : "*/leftPass",
+    "name" : "left - turn pass",
+    "deprecatedIDs" : [ "drummerDuel/redPass", "drummerDuelEn/redPass" ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "responseIDs" : [ "*/rightPass" ]
+  }, {
+    "type" : "cue",
+    "id" : "*/rightHit",
+    "name" : "right - hit",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/rightOnbeat",
+    "name" : "right - onbeat drum",
+    "deprecatedIDs" : [ "drummerDuel/blueOnbeat", "drummerDuelEn/blueOnbeat" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/rightOffbeat",
+    "name" : "right - offbeat drum",
+    "deprecatedIDs" : [ "drummerDuel/blueOffbeat", "drummerDuelEn/blueOffbeat" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/rightPass",
+    "name" : "right - turn pass",
+    "deprecatedIDs" : [ "drummerDuel/bluePass", "drummerDuelEn/bluePass" ],
+    "subtext" : "",
+    "duration" : 1.0
+  } ]
 }
