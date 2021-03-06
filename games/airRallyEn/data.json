@@ -1,7 +1,7 @@
 {
-  "series": "fever",
   "id": "airRallyEn",
   "name": "Air Rally",
+  "series": "fever",
   "language": "en",
   "group": "Air Rally",
   "groupDefault": true,
@@ -9,420 +9,495 @@
     {
       "type": "cue",
       "id": "*/birdieCatch",
+      "name": "forthington - catch birdie",
       "deprecatedIDs": [
         "airRallyMegamixEn/birdieCatch",
         "airRally/birdieCatch"
       ],
-      "name": "forthington - catch birdie",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/countIn1",
+      "name": "forthington - count in - one",
       "deprecatedIDs": [
         "airRallyMegamixEn/countIn1",
         "airRally/countIn1"
       ],
-      "name": "forthington - count in - one",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/countIn2",
+      "name": "forthington - count in - two",
       "deprecatedIDs": [
         "airRallyMegamixEn/countIn2",
         "airRally/countIn2"
       ],
-      "name": "forthington - count in - two",
-      "duration": 0.5
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.0208
     },
     {
       "type": "cue",
       "id": "*/countIn3",
+      "name": "forthington - count in - three",
       "deprecatedIDs": [
         "airRallyMegamixEn/countIn3",
         "airRally/countIn3"
       ],
-      "name": "forthington - count in - three",
-      "duration": 0.5
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.0417
     },
     {
       "type": "cue",
       "id": "*/countIn4",
+      "name": "forthington - count in - four",
       "deprecatedIDs": [
         "airRallyMegamixEn/countIn4",
         "airRally/countIn4"
       ],
-      "name": "forthington - count in - four",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/nya_Close",
-      "deprecatedIDs": [],
       "name": "forthington - nya - close",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/nya_Far",
-      "deprecatedIDs": [],
       "name": "forthington - nya - far",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/nya_Farther",
-      "deprecatedIDs": [],
       "name": "forthington - nya - farther",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/nya_Farthest",
-      "deprecatedIDs": [],
       "name": "forthington - nya - farthest",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/hitForth_Close",
+      "name": "forthington - hit - close",
       "deprecatedIDs": [
         "airRallyMegamixEn/hitForth",
         "airRally/hitForth",
         "airRallyEn/hitForth"
       ],
-      "name": "forthington - hit - close",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/hitForth_Far",
+      "name": "forthington - hit - far",
       "deprecatedIDs": [
         "airRallyMegamixEn/hitForthFarther",
         "airRally/hitForthFarther",
         "airRallyEn/hitForthFarther"
       ],
-      "name": "forthington - hit - far",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/hitForth_Farther",
+      "name": "forthington - hit - farther",
       "deprecatedIDs": [
         "airRallyMegamixEn/hitForthFar",
         "airRally/hitForthFar",
         "airRallyEn/hitForthFar"
       ],
-      "name": "forthington - hit - farther",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/hitForth_Farthest",
+      "name": "forthington - hit - farthest",
       "deprecatedIDs": [
         "airRallyMegamixEn/hitForthFurther",
         "airRally/hitForthFurther",
         "airRallyEn/hitForthFurther"
       ],
-      "name": "forthington - hit - farthest",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/whooshForth_Close",
-      "deprecatedIDs": [],
       "name": "forthington - whoosh - close",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.125
     },
     {
       "type": "cue",
       "id": "*/whooshForth_Far",
-      "deprecatedIDs": [],
       "name": "forthington - whoosh - far",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.125
     },
     {
       "type": "cue",
       "id": "*/whooshForth_Farther",
-      "deprecatedIDs": [],
       "name": "forthington - whoosh - farther",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.125
     },
     {
       "type": "cue",
       "id": "*/whooshForth_Farthest",
-      "deprecatedIDs": [],
       "name": "forthington - whoosh - farthest",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.125
     },
     {
       "type": "cue",
       "id": "*/hitBaxter_Close",
+      "name": "baxter - hit - close",
       "deprecatedIDs": [
         "airRallyMegamixEn/hitBaxter",
         "airRally/hitBaxter",
         "airRallyEn/hitBaxter"
       ],
-      "name": "baxter - hit - close",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/hitBaxter_Far",
+      "name": "baxter - hit - far",
       "deprecatedIDs": [
         "airRallyMegamixEn/hitBaxterFarther",
         "airRally/hitBaxterFarther",
         "airRallyEn/hitBaxterFarther"
       ],
-      "name": "baxter - hit - far",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/hitBaxter_Farther",
+      "name": "baxter - hit - farther",
       "deprecatedIDs": [
         "airRallyMegamixEn/hitBaxterFar",
         "airRally/hitBaxterFar",
         "airRallyEn/hitBaxterFar"
       ],
-      "name": "baxter - hit - farther",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/hitBaxter_Farthest",
+      "name": "baxter - hit - farthest",
       "deprecatedIDs": [
         "airRallyMegamixEn/hitBaxterFurthest",
         "airRally/hitBaxterFurther",
         "airRallyEn/hitBaxterFurther"
       ],
-      "name": "baxter - hit - farthest",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/baBumBumBum_FarHit",
+      "name": "ba bum bum bum - far - hit",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumFartherHit",
         "airRally/baBumBumBumFartherHit",
         "airRallyEn/baBumBumBumFartherHit"
       ],
-      "name": "ba bum bum bum - far - hit",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/baBumBumBum_FartherHit",
+      "name": "ba bum bum bum - farther - hit",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumFarHit",
         "airRally/baBumBumBumFarHit",
         "airRallyEn/baBumBumBumFarHit"
       ],
-      "name": "ba bum bum bum - farther - hit",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/baBumBumBum_FarthestHit",
+      "name": "ba bum bum bum - farthest - hit",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumFurtherHit",
         "airRally/baBumBumBumFurtherHit",
         "airRallyEn/baBumBumBumFurtherHit"
       ],
-      "name": "ba bum bum bum - farthest - hit",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/baBumBumBum_Close1",
+      "name": "ba bum bum bum - close - 1",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBum1",
         "airRally/baBumBumBum1",
         "airRallyEn/baBumBumBum1"
       ],
-      "name": "ba bum bum bum - close - 1",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/baBumBumBum_Close2",
+      "name": "ba bum bum bum - close - 2",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBum2",
         "airRally/baBumBumBum2",
         "airRallyEn/baBumBumBum2"
       ],
-      "name": "ba bum bum bum - close - 2",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/baBumBumBum_Close3",
+      "name": "ba bum bum bum - close - 3",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBum3",
         "airRally/baBumBumBum3",
         "airRallyEn/baBumBumBum3"
       ],
-      "name": "ba bum bum bum - close - 3",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/baBumBumBum_Close4",
+      "name": "ba bum bum bum - close - 4",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBum4",
         "airRally/baBumBumBum4",
         "airRallyEn/baBumBumBum4"
       ],
-      "name": "ba bum bum bum - close - 4",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/baBumBumBum_Far1",
+      "name": "ba bum bum bum - far - 1",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumFarther1",
         "airRally/baBumBumBumFarther1",
         "airRallyEn/baBumBumBumFarther1"
       ],
-      "name": "ba bum bum bum - far - 1",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/baBumBumBum_Far2",
+      "name": "ba bum bum bum - far - 2",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumMedium2",
         "airRally/baBumBumBumFarther2",
         "airRallyEn/baBumBumBumFarther2"
       ],
-      "name": "ba bum bum bum - far - 2",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/baBumBumBum_Far3",
+      "name": "ba bum bum bum - far - 3",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumMedium3",
         "airRally/baBumBumBumFarther3",
         "airRallyEn/baBumBumBumFarther3"
       ],
-      "name": "ba bum bum bum - far - 3",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/baBumBumBum_Far4",
+      "name": "ba bum bum bum - far - 4",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumMedium4",
         "airRally/baBumBumBumFarther4",
         "airRallyEn/baBumBumBumFarther4"
       ],
-      "name": "ba bum bum bum - far - 4",
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_FarAlt1",
+      "name": "ba bum bum bum - far - 1 (alternative)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_FarAlt2",
+      "name": "ba bum bum bum - far - 2 (alternative)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_FarAlt3",
+      "name": "ba bum bum bum - far - 3 (alternative)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/baBumBumBum_FarAlt4",
+      "name": "ba bum bum bum - far - 4 (alternative)",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/baBumBumBum_Farther1",
+      "name": "ba bum bum bum - farther - 1",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumFar1",
         "airRally/baBumBumBumFar1",
         "airRallyEn/baBumBumBumFar1"
       ],
-      "name": "ba bum bum bum - farther - 1",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/baBumBumBum_Farther2",
+      "name": "ba bum bum bum - farther - 2",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumFar2",
         "airRally/baBumBumBumFar2",
         "airRallyEn/baBumBumBumFar2"
       ],
-      "name": "ba bum bum bum - farther - 2",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/baBumBumBum_Farther3",
+      "name": "ba bum bum bum - farther - 3",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumFar3",
         "airRally/baBumBumBumFar3",
         "airRallyEn/baBumBumBumFar3"
       ],
-      "name": "ba bum bum bum - farther - 3",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/baBumBumBum_Farther4",
+      "name": "ba bum bum bum - farther - 4",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumFar4",
         "airRally/baBumBumBumFar4",
         "airRallyEn/baBumBumBumFar4"
       ],
-      "name": "ba bum bum bum - farther - 4",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/baBumBumBum_Farthest1",
+      "name": "ba bum bum bum - farthest - 1",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumFurther1",
         "airRally/baBumBumBumFurther1",
         "airRallyEn/baBumBumBumFurther1"
       ],
-      "name": "ba bum bum bum - farthest - 1",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/baBumBumBum_Farthest2",
+      "name": "ba bum bum bum - farthest - 2",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumFurther2",
         "airRally/baBumBumBumFurther2",
         "airRallyEn/baBumBumBumFurther2"
       ],
-      "name": "ba bum bum bum - farthest - 2",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/baBumBumBum_Farthest3",
+      "name": "ba bum bum bum - farthest - 3",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumFurther3",
         "airRally/baBumBumBumFurther3",
         "airRallyEn/baBumBumBumFurther3"
       ],
-      "name": "ba bum bum bum - farthest - 3",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/baBumBumBum_Farthest4",
+      "name": "ba bum bum bum - farthest - 4",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumFurther4",
         "airRally/baBumBumBumFurther4",
         "airRallyEn/baBumBumBumFurther4"
       ],
-      "name": "ba bum bum bum - farthest - 4",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/planes",
-      "deprecatedIDs": [],
       "name": "planes",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "pattern",
       "id": "*_countIn2",
+      "name": "count in - 2 beats",
       "deprecatedIDs": [
         "airRallyMegamixEn_countIn2"
       ],
-      "name": "count in - 2 beats",
       "cues": [
         {
           "id": "*/countIn3",
@@ -432,16 +507,17 @@
           "id": "*/countIn4",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_countIn4",
+      "name": "count in - 4 beats",
       "deprecatedIDs": [
         "airRallyMegamixEn_countIn4",
         "airRally_countIn4"
       ],
-      "name": "count in - 4 beats",
       "cues": [
         {
           "id": "*/countIn1",
@@ -459,13 +535,14 @@
           "id": "*/countIn4",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_countIn8",
-      "deprecatedIDs": [],
       "name": "count in - 8 beats",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/countIn1",
@@ -491,16 +568,17 @@
           "id": "*/countIn4",
           "beat": 7.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_countIn3",
+      "name": "count in - ba bum bum bum",
       "deprecatedIDs": [
         "airRallyMegamixEn_countIn3",
         "airRally_countIn3"
       ],
-      "name": "count in - ba bum bum bum",
       "cues": [
         {
           "id": "*/countIn2",
@@ -514,17 +592,18 @@
           "id": "*/countIn4",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_rallyClose",
+      "name": "rally - close",
       "deprecatedIDs": [
         "airRallyMegamixEn_rally",
         "airRally_rally",
         "airRallyEn_rally"
       ],
-      "name": "rally - close",
       "defaultDuration": 2.0,
       "cues": [
         {
@@ -549,17 +628,18 @@
           "duration": 0.5,
           "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_rally_Far",
+      "name": "rally - far",
       "deprecatedIDs": [
         "airRallyMegamixEn_rallyFarther",
         "airRally_rallyFarther",
         "airRallyEn_rallyFarther"
       ],
-      "name": "rally - far",
       "defaultDuration": 2.0,
       "cues": [
         {
@@ -584,17 +664,18 @@
           "duration": 0.5,
           "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_rally_Farther",
+      "name": "rally - farther",
       "deprecatedIDs": [
         "airRallyMegamixEn_rallyFar",
         "airRally_rallyFar",
         "airRallyEn_rallyFar"
       ],
-      "name": "rally - farther",
       "defaultDuration": 2.0,
       "cues": [
         {
@@ -619,17 +700,18 @@
           "duration": 0.5,
           "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_rally_Farthest",
+      "name": "rally - farthest",
       "deprecatedIDs": [
         "airRallyMegamixEn_rallyFurther",
         "airRally_rallyFurther",
         "airRallyEn_rallyFurther"
       ],
-      "name": "rally - farthest",
       "defaultDuration": 2.0,
       "cues": [
         {
@@ -654,13 +736,14 @@
           "duration": 0.5,
           "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_rally_CloseBadminton",
-      "deprecatedIDs": [],
       "name": "rally - close (no voice)",
+      "deprecatedIDs": [],
       "defaultDuration": 2.0,
       "cues": [
         {
@@ -678,13 +761,14 @@
           "beat": 1.0,
           "duration": 0.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_rally_FarBadminton",
-      "deprecatedIDs": [],
       "name": "rally - far (no voice)",
+      "deprecatedIDs": [],
       "defaultDuration": 2.0,
       "cues": [
         {
@@ -702,13 +786,14 @@
           "beat": 1.0,
           "duration": 0.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_rally_FartherBadminton",
-      "deprecatedIDs": [],
       "name": "rally - farther (no voice)",
+      "deprecatedIDs": [],
       "defaultDuration": 2.0,
       "cues": [
         {
@@ -726,13 +811,14 @@
           "beat": 1.0,
           "duration": 0.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_rally_FarthestBadminton",
-      "deprecatedIDs": [],
       "name": "rally - farthest (no voice)",
+      "deprecatedIDs": [],
       "defaultDuration": 2.0,
       "cues": [
         {
@@ -750,17 +836,18 @@
           "beat": 1.0,
           "duration": 0.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_baBumBumBum_Close",
+      "name": "ba bum bum bum - close",
       "deprecatedIDs": [
         "airRallyMegamixEn_baBumBumBum",
         "airRally_baBumBumBum",
         "airRallyEn_baBumBumBum"
       ],
-      "name": "ba bum bum bum - close",
       "cues": [
         {
           "id": "*/baBumBumBum_Close1",
@@ -796,17 +883,18 @@
           "beat": 4.5,
           "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_baBumBumBum_Far",
+      "name": "ba bum bum bum - far",
       "deprecatedIDs": [
         "airRallyMegamixEn_baBumBumBumFarther",
         "airRally_baBumBumBumFarther",
         "airRallyEn_baBumBumBumFarther"
       ],
-      "name": "ba bum bum bum - far",
       "cues": [
         {
           "id": "*/baBumBumBum_Far1",
@@ -842,17 +930,61 @@
           "beat": 4.5,
           "track": 1
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_baBumBumBum_FarAlt",
+      "name": "ba bum bum bum - far (alternative)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/baBumBumBum_FarAlt1",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/baBumBumBum_FarAlt2",
+          "beat": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/baBumBumBum_FarAlt3",
+          "beat": 1.5,
+          "track": 1
+        },
+        {
+          "id": "*/baBumBumBum_FarAlt4",
+          "beat": 2.5,
+          "track": 1
+        },
+        {
+          "id": "*/hitForth_Far",
+          "beat": 2.5
+        },
+        {
+          "id": "*/whooshForth_Far",
+          "beat": 3.375,
+          "track": 1
+        },
+        {
+          "id": "*/baBumBumBum_FarHit",
+          "beat": 4.5,
+          "track": 1
+        }
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_baBumBumBum_Farther",
+      "name": "ba bum bum bum - further",
       "deprecatedIDs": [
         "airRallyMegamixEn_baBumBumBumFar",
         "airRally_baBumBumBumFar",
         "airRallyEn_baBumBumBumFar"
       ],
-      "name": "ba bum bum bum - further",
       "cues": [
         {
           "id": "*/baBumBumBum_Farther1",
@@ -888,17 +1020,18 @@
           "beat": 4.5,
           "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_baBumBumBum_Farthest",
+      "name": "ba bum bum bum - farthest",
       "deprecatedIDs": [
         "airRallyMegamixEn_baBumBumBumFurther",
         "airRally_baBumBumBumFurther",
         "airRallyEn_baBumBumBumFurther"
       ],
-      "name": "ba bum bum bum - farthest",
       "cues": [
         {
           "id": "*/baBumBumBum_Farthest1",
@@ -934,7 +1067,8 @@
           "beat": 4.5,
           "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
