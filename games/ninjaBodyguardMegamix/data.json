@@ -1,0 +1,54 @@
+{
+  "id": "ninjaBodyguardMegamix",
+  "name": "Ninja Bodyguard (Megamix)",
+  "series": "megamix",
+  "group": "Ninja Bodyguard (Megamix)",
+  "groupDefault": true,
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/shoot",
+      "name": "shoot",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "responseIDs": [
+        "*/cut"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "*/cut",
+      "name": "cut",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/ninjaIntroEn",
+      "name": "introduction (English)",
+      "deprecatedIDs": [
+        "ninjaBodyguardMegamixEn/ninjaIntro"
+      ],
+      "subtext": "",
+      "duration": 35.0
+    },
+    {
+      "type": "cue",
+      "id": "*/ninjaIntroJa",
+      "name": "introduction (Japanese)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 35.0
+    },
+    {
+      "type": "cue",
+      "id": "*/ninjaIntroKo",
+      "name": "introduction (Korean)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 35.0
+    }
+  ]
+}
