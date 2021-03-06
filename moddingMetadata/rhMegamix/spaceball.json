@@ -12,7 +12,7 @@
 	"note": "1 = baseball, 2 = rice ball, 3 = alien"
   },
   {
-    "applyTo": ["spaceball_highball", "spaceballMegamix_highball"],
+    "applyTo": ["spaceball_highball", "spaceballMegamix_highball", "spaceballMegamix_highballAlien"],
     "sub": "0x100 0x60 1-3",
 	"note": "1 = baseball, 2 = rice ball, 3 = alien"
   }
