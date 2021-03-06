@@ -9,7 +9,9 @@
       "type": "cue",
       "id": "*/shoot",
       "name": "shoot",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "ninjaBodyguardMegamixEn/shoot"
+      ],
       "subtext": "",
       "duration": 0.25,
       "responseIDs": [
@@ -20,7 +22,9 @@
       "type": "cue",
       "id": "*/cut",
       "name": "cut",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "ninjaBodyguardMegamixEn/cut"
+      ],
       "subtext": "",
       "duration": 0.25
     },
