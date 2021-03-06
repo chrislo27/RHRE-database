@@ -1,107 +1,131 @@
 {
   "id": "countInJa",
   "name": "Count-Ins",
-  "group": "Count-Ins",
+  "series": "other",
   "language": "ja",
+  "group": "Count-Ins",
   "priority": 1,
   "noDisplay": true,
   "objects": [
     {
       "type": "cue",
-      "id": "*/oneJa",
+      "id": "*/cowbell",
+      "name": "cowbell",
       "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oneJa",
       "name": "one",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/ichi",
-      "deprecatedIDs": [],
       "name": "ichi",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/twoJa",
-      "deprecatedIDs": [],
       "name": "two",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.021
     },
     {
       "type": "cue",
       "id": "*/ni",
-      "deprecatedIDs": [],
       "name": "ni",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/threeJa",
-      "deprecatedIDs": [],
       "name": "three",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.031
     },
     {
       "type": "cue",
       "id": "*/san",
-      "deprecatedIDs": [],
       "name": "san",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/fourJa",
-      "deprecatedIDs": [],
       "name": "four",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/shi",
-      "deprecatedIDs": [],
       "name": "shi",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/nn",
-      "deprecatedIDs": [],
       "name": "nn",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/hai",
-      "deprecatedIDs": [],
       "name": "hai",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/hoi",
-      "deprecatedIDs": [],
       "name": "hoi",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/seno1",
-      "deprecatedIDs": [],
       "name": "seno! - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/seno2",
-      "deprecatedIDs": [],
       "name": "seno! - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "pattern",
       "id": "*_readyCounting",
-      "deprecatedIDs": [],
       "name": "ready!",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/seno1",
@@ -111,13 +135,14 @@
           "id": "*/seno2",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_2BeatCountIn",
-      "deprecatedIDs": [],
       "name": "2-beat count-in",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/threeJa",
@@ -127,13 +152,14 @@
           "id": "*/fourJa",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_4BeatCountIn",
-      "deprecatedIDs": [],
       "name": "4-beat count-in",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/oneJa",
@@ -151,13 +177,14 @@
           "id": "*/fourJa",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_8BeatCountIn",
-      "deprecatedIDs": [],
       "name": "8-beat count-in",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/oneJa",
@@ -183,101 +210,164 @@
           "id": "*/fourJa",
           "beat": 7.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_2BeatCountIn2",
+      "id": "*_4BeatCountInCowbell",
+      "name": "4-beat count-in (cowbell)",
       "deprecatedIDs": [],
-      "name": "2-beat count-in (alt.)",
       "cues": [
         {
-          "id": "*/san",
+          "id": "*/cowbell",
           "beat": 0.0
         },
         {
-          "id": "*/shi",
-          "beat": 1.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_4BeatCountIn2",
-      "deprecatedIDs": [],
-      "name": "4-beat count-in (alt.)",
-      "cues": [
-        {
-          "id": "*/ichi",
-          "beat": 0.0
-        },
-        {
-          "id": "*/ni",
+          "id": "*/cowbell",
           "beat": 1.0
         },
         {
-          "id": "*/san",
+          "id": "*/cowbell",
           "beat": 2.0
         },
         {
-          "id": "*/shi",
+          "id": "*/cowbell",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_8BeatCountIn2",
+      "id": "*_8BeatCountInCowbell",
+      "name": "8-beat count-in (cowbell)",
       "deprecatedIDs": [],
-      "name": "8-beat count-in (alt.)",
       "cues": [
         {
-          "id": "*/ichi",
+          "id": "*/cowbell",
           "beat": 0.0
         },
         {
-          "id": "*/ni",
+          "id": "*/cowbell",
           "beat": 2.0
         },
         {
-          "id": "*/ichi",
+          "id": "*/cowbell",
           "beat": 4.0
         },
         {
-          "id": "*/ni",
+          "id": "*/cowbell",
           "beat": 5.0
         },
         {
-          "id": "*/san",
+          "id": "*/cowbell",
           "beat": 6.0
         },
         {
-          "id": "*/shi",
+          "id": "*/cowbell",
           "beat": 7.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_2BeatCountInGo",
-      "deprecatedIDs": [],
       "name": "2-beat count-in go",
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/san",
+          "id": "*/threeJa",
           "beat": 0.0
         },
         {
           "id": "*/hai",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_2BeatCountIn2",
+      "name": "2-beat count-in (alt.)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/san",
+          "beat": 0.0
+        },
+        {
+          "id": "*/shi",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_4BeatCountIn2",
+      "name": "4-beat count-in (alt.)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/ichi",
+          "beat": 0.0
+        },
+        {
+          "id": "*/ni",
+          "beat": 1.0
+        },
+        {
+          "id": "*/san",
+          "beat": 2.0
+        },
+        {
+          "id": "*/shi",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_8BeatCountIn2",
+      "name": "8-beat count-in (alt.)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/ichi",
+          "beat": 0.0
+        },
+        {
+          "id": "*/ni",
+          "beat": 2.0
+        },
+        {
+          "id": "*/ichi",
+          "beat": 4.0
+        },
+        {
+          "id": "*/ni",
+          "beat": 5.0
+        },
+        {
+          "id": "*/san",
+          "beat": 6.0
+        },
+        {
+          "id": "*/shi",
+          "beat": 7.0
+        }
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_2BeatCountInGo2",
-      "deprecatedIDs": [],
       "name": "2-beat count-in go (alt.)",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/san",
@@ -287,7 +377,8 @@
           "id": "*/hoi",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }

@@ -5,12 +5,22 @@
   "language": "ko",
   "group": "Count-Ins",
   "priority": 1,
+  "noDisplay": true,
   "objects": [
+    {
+      "type": "cue",
+      "id": "*/cowbell",
+      "name": "cowbell",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
     {
       "type": "cue",
       "id": "*/one",
       "name": "one",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
@@ -18,20 +28,25 @@
       "id": "*/two",
       "name": "two",
       "deprecatedIDs": [],
-      "duration": 1.0
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.021
     },
     {
       "type": "cue",
       "id": "*/three",
       "name": "three",
       "deprecatedIDs": [],
-      "duration": 1.0
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.031
     },
     {
       "type": "cue",
       "id": "*/four",
       "name": "four",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
@@ -39,13 +54,16 @@
       "id": "*/hana",
       "name": "hana",
       "deprecatedIDs": [],
-      "duration": 1.0
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.0415
     },
     {
       "type": "cue",
       "id": "*/du",
       "name": "du",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
@@ -53,13 +71,16 @@
       "id": "*/se",
       "name": "se",
       "deprecatedIDs": [],
-      "duration": 1.0
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.0625
     },
     {
       "type": "cue",
       "id": "*/ne",
       "name": "ne",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
@@ -67,6 +88,7 @@
       "id": "*/cha",
       "name": "cha",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
@@ -74,13 +96,16 @@
       "id": "*/shi_jak_1",
       "name": "shi jak 1",
       "deprecatedIDs": [],
-      "duration": 1.0
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.1565
     },
     {
       "type": "cue",
       "id": "*/shi_jak_2",
       "name": "shi jak 2",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
@@ -99,7 +124,8 @@
           "beat": 1.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -117,7 +143,8 @@
           "beat": 1.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -145,7 +172,8 @@
           "beat": 3.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -183,7 +211,66 @@
           "beat": 7.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_4BeatCountInCowbell",
+      "name": "4-beat count-in (cowbell)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/cowbell",
+          "beat": 0.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 1.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 2.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_8BeatCountInCowbell",
+      "name": "8-beat count-in (cowbell)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/cowbell",
+          "beat": 0.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 2.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 4.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 5.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 6.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 7.0
+        }
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -201,7 +288,8 @@
           "beat": 1.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -229,7 +317,8 @@
           "beat": 3.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -267,7 +356,8 @@
           "beat": 7.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -276,7 +366,7 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/se",
+          "id": "*/three",
           "beat": 0.0,
           "duration": 1.0
         },
@@ -285,7 +375,8 @@
           "beat": 1.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
