@@ -1,23 +1,87 @@
 [
   {
-    "applyTo": ["ringsideEn", "ringsideJa"],
+    "applyTo": [
+      "ringsideEn",
+      "ringsideJa",
+      "ringsideKo"
+    ],
     "engine": "0x27",
     "name": "rvlInterview",
     "tempoFile": "1000012",
     "index": "0x36"
   },
   {
-    "applyTo": ["ringsideEn_isThatTrueRandom", "ringsideEn_isThatTrueA", "ringsideEn_isThatTrueB", "ringsideEn_isThatTrueC", "ringsideJa_isThatTrueRandom", "ringsideJa_isThatTrueA", "ringsideJa_isThatTrueB"],
+    "applyTo": [
+      "ringsideEn_isThatTrueRandom",
+      "ringsideEn_isThatTrueAltRandom",
+      "ringsideEn_isThatTrueA",
+      "ringsideEn_isThatTrueB",
+      "ringsideEn_isThatTrueC",
+      "ringsideEn_isThatTrueAltA",
+      "ringsideEn_isThatTrueAltB",
+      "ringsideEn_isThatTrueAltC",
+      
+      "ringsideJa_isThatTrueRandom",
+      "ringsideJa_isThatTrueAlt1Random",
+      "ringsideJa_isThatTrueAlt2Random",
+      "ringsideJa_isThatTrueA",
+      "ringsideJa_isThatTrueB",
+      "ringsideJa_isThatTrueC",
+      "ringsideJa_isThatTrueAlt1A",
+      "ringsideJa_isThatTrueAlt1B",
+      "ringsideJa_isThatTrueAlt1C",
+      "ringsideJa_isThatTrueAlt2A",
+      "ringsideJa_isThatTrueAlt2B",
+      "ringsideJa_isThatTrueAlt2C",
+      
+      "ringsideKo_isThatTrueRandom",
+      "ringsideKo_isThatTrueA",
+      "ringsideKo_isThatTrueB",
+      "ringsideKo_isThatTrueC"
+    ],
     "sub": "0x56"
   },
   {
-    "applyTo": ["ringsideEn_youGoBigGuyRandom", "ringsideEn_youGoBigGuyA", "ringsideEn_youGoBigGuyB", "ringsideEn_youGoBigGuyC", "ringsideJa_youGoBigGuyRandom", "ringsideJa_youGoBigGuyA", "ringsideJa_youGoBigGuyB"],
+    "applyTo": [
+      "ringsideEn_youGoBigGuyRandom",
+      "ringsideEn_youGoBigGuyA",
+      "ringsideEn_youGoBigGuyB",
+      "ringsideEn_youGoBigGuyC",
+      
+      "ringsideJa_youGoBigGuyRandom",
+      "ringsideJa_youGoBigGuyA",
+      "ringsideJa_youGoBigGuyB",
+      "ringsideJa_youGoBigGuyC",
+      "ringsideJa_youGoBigGuyD",
+      "ringsideJa_youGoBigGuyE",
+      "ringsideJa_youGoBigGuyF",
+      
+      "ringsideKo_youGoBigGuyRandom",
+      "ringsideKo_youGoBigGuyA",
+      "ringsideKo_youGoBigGuyB",
+      "ringsideKo_youGoBigGuyC"
+    ],
     "sub": "0x57-0x58",
     "note": "0x57 is standard. Refer to the documentation"
   },
   {
-    "applyTo": ["ringsideEn_poseForTheFansRandom", "ringsideEn_poseForTheFansA", "ringsideEn_poseForTheFansB", "ringsideJa_poseForTheFansRandom", "ringsideJa_poseForTheFansA", "ringsideJa_poseForTheFansB"],
+    "applyTo": [
+      "ringsideEn_poseForTheFansRandom",
+      "ringsideEn_andPoseForTheFansRandom",
+      "ringsideEn_poseForTheFansA",
+      "ringsideEn_poseForTheFansB",
+      
+      "ringsideJa_poseForTheFansRandom",
+      "ringsideJa_andPoseForTheFansRandom",
+      "ringsideJa_poseForTheFansA",
+      "ringsideJa_poseForTheFansB",
+      
+      "ringsideKo_poseForTheFansRandom",
+      "ringsideKo_andPoseForTheFansRandom",
+      "ringsideKo_poseForTheFansA",
+      "ringsideKo_poseForTheFansB"
+    ],
     "sub": "0x59-0x5F",
-	"note": "0x59 is standard. Refer to the documentation"
+    "note": "0x59 is standard. Refer to the documentation"
   }
 ]
