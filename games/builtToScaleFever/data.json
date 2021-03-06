@@ -1,64 +1,70 @@
 {
-  "series": "fever",
   "id": "builtToScaleFever",
   "name": "Built to Scale (Fever)",
+  "series": "fever",
   "objects": [
     {
       "type": "cue",
       "id": "*/right",
+      "name": "rightmost",
       "deprecatedIDs": [
         "builtToScaleFever/1"
       ],
-      "name": "rightmost",
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/middleRight",
+      "name": "middle-right (player)",
       "deprecatedIDs": [
         "builtToScaleFever/2"
       ],
-      "name": "middle-right (player)",
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/middleLeft",
+      "name": "middle-left",
       "deprecatedIDs": [
         "builtToScaleFever/3"
       ],
-      "name": "middle-left",
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/left",
+      "name": "leftmost",
       "deprecatedIDs": [
         "builtToScaleFever/4"
       ],
-      "name": "leftmost",
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/prepare",
-      "deprecatedIDs": [],
       "name": "prepare",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 2.25,
       "baseBpm": 120.0
     },
     {
       "type": "cue",
       "id": "*/shoot",
-      "deprecatedIDs": [],
       "name": "shoot",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "pattern",
       "id": "*_8bounces",
-      "deprecatedIDs": [],
       "name": "8 bounces",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/right",
@@ -97,13 +103,14 @@
           "id": "*/shoot",
           "beat": 7.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_5bounces",
-      "deprecatedIDs": [],
       "name": "5 bounces",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/left",
@@ -130,13 +137,14 @@
           "id": "*/shoot",
           "beat": 4.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_3bounces",
-      "deprecatedIDs": [],
       "name": "3 bounces",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/left",
@@ -155,14 +163,14 @@
           "id": "*/shoot",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_6bounces",
-      "deprecatedIDs": [],
       "name": "6 bounces (Remix 3)",
-      "stretchable": false,
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/right",
@@ -200,14 +208,14 @@
           "beat": 5.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_15bounces",
-      "deprecatedIDs": [],
       "name": "15 bounces (Remix 3)",
-      "stretchable": false,
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/left",
@@ -290,7 +298,94 @@
           "beat": 14.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_bouncingLeft",
+      "name": "bouncing (left)",
+      "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/left",
+          "beat": 0.0
+        },
+        {
+          "id": "*/middleLeft",
+          "beat": 1.0
+        },
+        {
+          "id": "*/middleRight",
+          "beat": 2.0
+        },
+        {
+          "id": "*/right",
+          "beat": 3.0
+        },
+        {
+          "id": "*/middleRight",
+          "beat": 4.0
+        },
+        {
+          "id": "*/middleLeft",
+          "beat": 5.0
+        }
+      ],
+      "subtext": "Endless bouncing starting on left"
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_bouncingRight",
+      "name": "bouncing (right)",
+      "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/right",
+          "beat": 0.0
+        },
+        {
+          "id": "*/middleRight",
+          "beat": 1.0
+        },
+        {
+          "id": "*/middleLeft",
+          "beat": 2.0
+        },
+        {
+          "id": "*/left",
+          "beat": 3.0
+        },
+        {
+          "id": "*/middleLeft",
+          "beat": 4.0
+        },
+        {
+          "id": "*/middleRight",
+          "beat": 5.0
+        }
+      ],
+      "subtext": "Endless bouncing starting on right"
+    },
+    {
+      "type": "pattern",
+      "id": "*_prepareShoot",
+      "name": "prepare and shoot",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/prepare",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/shoot",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
     }
   ]
 }
