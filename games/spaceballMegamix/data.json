@@ -1,43 +1,47 @@
 {
-  "series": "megamix",
   "id": "spaceballMegamix",
   "name": "Spaceball (Megamix)",
+  "series": "megamix",
   "objects": [
     {
       "type": "cue",
       "id": "*/alien",
+      "name": "alien hit",
       "deprecatedIDs": [
         "spaceball/alien"
       ],
-      "name": "AAAAHHHHHH",
-      "duration": 5.0
+      "subtext": "",
+      "duration": 2.0
     },
     {
       "type": "cue",
       "id": "*/shoot",
-      "deprecatedIDs": [],
       "name": "shoot",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/longShoot",
-      "deprecatedIDs": [],
       "name": "high shot",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/hit",
-      "deprecatedIDs": [],
       "name": "hit",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "pattern",
       "id": "*_ball",
-      "deprecatedIDs": [],
       "name": "ball",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/shoot",
@@ -47,13 +51,14 @@
           "id": "*/hit",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_highball",
-      "deprecatedIDs": [],
       "name": "high ball",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/longShoot",
@@ -63,7 +68,25 @@
           "id": "*/hit",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_highballAlien",
+      "name": "high ball - alien",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/longShoot",
+          "beat": 0.0
+        },
+        {
+          "id": "*/alien",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
     }
   ]
 }
