@@ -1,31 +1,28 @@
 {
-  "series": "tengoku",
-  "id": "ninjaBodyguard",
-  "name": "Ninja Bodyguard (GBA)",
-  "objects": [
-    {
-      "type": "cue",
-      "id": "*/shoot",
-      "deprecatedIDs": [],
-      "name": "shoot",
-      "duration": 0.25,
-      "responseIDs": [
-        "*/cut"
-      ]
-    },
-    {
-      "type": "cue",
-      "id": "*/cut",
-      "deprecatedIDs": [],
-      "name": "cut",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/ninjaIntro",
-      "deprecatedIDs": [],
-      "name": "introduction",
-      "duration": 35.0
-    }
-  ]
+  "id" : "ninjaBodyguard",
+  "name" : "Ninja Bodyguard (GBA)",
+  "series" : "tengoku",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/shoot",
+    "name" : "shoot",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25,
+    "responseIDs" : [ "*/cut" ]
+  }, {
+    "type" : "cue",
+    "id" : "*/cut",
+    "name" : "cut",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/ninjaIntro",
+    "name" : "introduction",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 35.0
+  } ]
 }
