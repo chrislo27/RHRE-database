@@ -1,76 +1,74 @@
 {
-  "series": "megamix",
   "id": "sickBeatsMegamix",
   "name": "Sick Beats (Megamix)",
+  "series": "megamix",
   "objects": [
     {
       "type": "cue",
-      "id": "*/appear1",
-      "deprecatedIDs": [],
-      "name": "appear - 1",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/appear2",
-      "deprecatedIDs": [],
-      "name": "appear - 2",
+      "id": "*/appear",
+      "name": "appear",
+      "deprecatedIDs": [
+        "sickBeatsMegamix/appear1",
+        "sickBeatsMegamix/appear2",
+        "sickBeatsMegamix_randomAppear"
+      ],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/resist",
-      "deprecatedIDs": [],
       "name": "damage",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/stab1",
-      "deprecatedIDs": [],
-      "name": "kill - 1",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/stab2",
-      "deprecatedIDs": [],
-      "name": "kill - 2",
+      "id": "*/stab",
+      "name": "kill",
+      "deprecatedIDs": [
+        "sickBeatsMegamix/stab1",
+        "sickBeatsMegamix/stab2",
+        "sickBeatsMegamix_randomStab"
+      ],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/whoosh",
-      "deprecatedIDs": [],
       "name": "dash",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.1875
     },
     {
       "type": "pattern",
       "id": "*_blueVirusStart",
+      "name": "blue virus - start",
       "deprecatedIDs": [
         "sickBeatsMegamix_blueVirus1",
         "sickBeatsMegamix_blueVirus2",
         "sickBeatsMegamix_blueVirus"
       ],
-      "name": "blue virus - start",
       "cues": [
         {
-          "id": "*_randomAppear",
+          "id": "*/appear",
           "beat": 0.0
         },
         {
-          "id": "*_randomStab",
+          "id": "*/stab",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_blueVirusPos1",
-      "deprecatedIDs": [],
       "name": "blue virus - position 1",
-      "stretchable": false,
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/whoosh",
@@ -78,23 +76,23 @@
           "duration": 0.1875
         },
         {
-          "id": "*_randomAppear",
+          "id": "*/appear",
           "beat": 2.0,
           "duration": 1.0
         },
         {
-          "id": "*_randomStab",
+          "id": "*/stab",
           "beat": 3.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_blueVirusPos2",
-      "deprecatedIDs": [],
       "name": "blue virus - position 2",
-      "stretchable": false,
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/whoosh",
@@ -107,24 +105,25 @@
           "duration": 0.1875
         },
         {
-          "id": "*_randomAppear",
+          "id": "*/appear",
           "beat": 2.1875,
           "duration": 1.0
         },
         {
-          "id": "*_randomStab",
+          "id": "*/stab",
           "beat": 3.1875,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_blueVirusPos3",
+      "name": "blue virus - position 3",
       "deprecatedIDs": [
         "sickBeatsMegamix_quickBlueVirus"
       ],
-      "name": "blue virus - position 3",
       "cues": [
         {
           "id": "*/whoosh",
@@ -139,27 +138,28 @@
           "beat": 0.375
         },
         {
-          "id": "*_randomAppear",
+          "id": "*/appear",
           "beat": 2.375
         },
         {
-          "id": "*_randomStab",
+          "id": "*/stab",
           "beat": 3.375
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_pinkVirusStart",
+      "name": "pink virus - start",
       "deprecatedIDs": [
         "sickBeatsMegamix_pinkVirus1",
         "sickBeatsMegamix_pinkVirus2",
         "sickBeatsMegamix_pinkVirus"
       ],
-      "name": "pink virus - start",
       "cues": [
         {
-          "id": "*_randomAppear",
+          "id": "*/appear",
           "beat": 0.0
         },
         {
@@ -167,21 +167,21 @@
           "beat": 1.0
         },
         {
-          "id": "*_randomAppear",
+          "id": "*/appear",
           "beat": 2.0
         },
         {
-          "id": "*_randomStab",
+          "id": "*/stab",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_pinkVirusPos1",
-      "deprecatedIDs": [],
       "name": "pink virus - position 1",
-      "stretchable": false,
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/whoosh",
@@ -189,7 +189,7 @@
           "duration": 0.1875
         },
         {
-          "id": "*_randomAppear",
+          "id": "*/appear",
           "beat": 2.0,
           "duration": 0.99999994
         },
@@ -199,24 +199,25 @@
           "duration": 0.99999994
         },
         {
-          "id": "*_randomAppear",
+          "id": "*/appear",
           "beat": 4.0,
           "duration": 0.99999994
         },
         {
-          "id": "*_randomStab",
+          "id": "*/stab",
           "beat": 5.0,
           "duration": 0.99999994
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_pinkVirusPos2",
+      "name": "pink virus - position 2",
       "deprecatedIDs": [
         "sickBeatsMegamix_quickPinkVirus"
       ],
-      "name": "pink virus - position 2",
       "cues": [
         {
           "id": "*/whoosh",
@@ -229,7 +230,7 @@
           "duration": 0.1875
         },
         {
-          "id": "*_randomAppear",
+          "id": "*/appear",
           "beat": 2.1875,
           "duration": 0.99999994
         },
@@ -239,29 +240,30 @@
           "duration": 0.99999994
         },
         {
-          "id": "*_randomAppear",
+          "id": "*/appear",
           "beat": 4.1875,
           "duration": 0.99999994
         },
         {
-          "id": "*_randomStab",
+          "id": "*/stab",
           "beat": 5.1875,
           "duration": 0.99999994
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_blackVirusStart",
+      "name": "black virus - start",
       "deprecatedIDs": [
         "sickBeatsMegamix_blackVirus1",
         "sickBeatsMegamix_blackVirus2",
         "sickBeatsMegamix_blackVirus"
       ],
-      "name": "black virus - start",
       "cues": [
         {
-          "id": "*_randomAppear",
+          "id": "*/appear",
           "beat": 0.0
         },
         {
@@ -269,7 +271,7 @@
           "beat": 1.0
         },
         {
-          "id": "*_randomAppear",
+          "id": "*/appear",
           "beat": 2.0
         },
         {
@@ -277,29 +279,30 @@
           "beat": 3.0
         },
         {
-          "id": "*_randomAppear",
+          "id": "*/appear",
           "beat": 4.0
         },
         {
-          "id": "*_randomStab",
+          "id": "*/stab",
           "beat": 5.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_blackVirusPos1",
+      "name": "black virus - position 1",
       "deprecatedIDs": [
         "sickBeatsMegamix_quickBlackVirus"
       ],
-      "name": "black virus - position 1",
       "cues": [
         {
           "id": "*/whoosh",
           "beat": 0.0
         },
         {
-          "id": "*_randomAppear",
+          "id": "*/appear",
           "beat": 2.0
         },
         {
@@ -307,7 +310,7 @@
           "beat": 3.0
         },
         {
-          "id": "*_randomAppear",
+          "id": "*/appear",
           "beat": 4.0
         },
         {
@@ -315,42 +318,15 @@
           "beat": 5.0
         },
         {
-          "id": "*_randomAppear",
+          "id": "*/appear",
           "beat": 6.0
         },
         {
-          "id": "*_randomStab",
+          "id": "*/stab",
           "beat": 7.0
         }
-      ]
-    },
-    {
-      "type": "randomCue",
-      "id": "*_randomAppear",
-      "deprecatedIDs": [],
-      "name": "random appear",
-      "cues": [
-        {
-          "id": "*/appear1"
-        },
-        {
-          "id": "*/appear2"
-        }
-      ]
-    },
-    {
-      "type": "randomCue",
-      "id": "*_randomStab",
-      "deprecatedIDs": [],
-      "name": "random stab",
-      "cues": [
-        {
-          "id": "*/stab1"
-        },
-        {
-          "id": "*/stab2"
-        }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
