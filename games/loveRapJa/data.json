@@ -1,559 +1,951 @@
 {
-  "series": "fever",
   "id": "loveRapJa",
   "name": "Love Rap",
+  "series": "fever",
   "language": "ja",
   "group": "Love Rap",
   "objects": [
     {
       "type": "cue",
       "id": "*/candlelight",
-      "deprecatedIDs": [],
       "name": "candlelight",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/daisuki1",
-      "deprecatedIDs": [],
+      "id": "*/mcadoredaisuki1",
       "name": "mc adore - daisuki - 1",
-      "duration": 0.4375
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.373
     },
     {
       "type": "cue",
-      "id": "*/daisuki2",
-      "deprecatedIDs": [],
+      "id": "*/mcadoredaisuki2",
       "name": "mc adore - daisuki - 2",
-      "duration": 0.25
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.457
     },
     {
       "type": "cue",
-      "id": "*/daisuki3",
-      "deprecatedIDs": [],
+      "id": "*/mcadoredaisuki3",
       "name": "mc adore - daisuki - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.3125
     },
     {
       "type": "cue",
-      "id": "*/daisuki4",
+      "id": "*/rapper1daisuki1",
+      "name": "rapper 1 - daisuki - 1",
       "deprecatedIDs": [],
-      "name": "rappers - daisuki - 1",
-      "duration": 0.375
+      "subtext": "",
+      "duration": 0.336
     },
     {
       "type": "cue",
-      "id": "*/daisuki5",
+      "id": "*/rapper1daisuki2",
+      "name": "rapper 1 - daisuki - 2",
       "deprecatedIDs": [],
-      "name": "rappers - daisuki - 2",
-      "duration": 0.25
+      "subtext": "",
+      "duration": 0.495
     },
     {
       "type": "cue",
-      "id": "*/daisuki6",
+      "id": "*/rapper1daisuki3",
+      "name": "rapper 1 - daisuki - 3",
       "deprecatedIDs": [],
-      "name": "rappers - daisuki - 3",
-      "duration": 0.375
+      "subtext": "",
+      "duration": 0.627
     },
     {
       "type": "cue",
-      "id": "*/honto1",
+      "id": "*/rapper2daisuki1",
+      "name": "rapper 2 - daisuki - 1",
       "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.36
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2daisuki2",
+      "name": "rapper 2 - daisuki - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.471
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2daisuki3",
+      "name": "rapper 2 - daisuki - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.722
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadorehonto1",
       "name": "mc adore - honto - 1",
-      "duration": 0.5
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.498
     },
     {
       "type": "cue",
-      "id": "*/honto2",
-      "deprecatedIDs": [],
+      "id": "*/mcadorehonto2",
       "name": "mc adore - honto - 2",
-      "duration": 0.25
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.657
     },
     {
       "type": "cue",
-      "id": "*/honto3",
+      "id": "*/rapper1honto1",
+      "name": "rapper 1 - honto - 1",
       "deprecatedIDs": [],
-      "name": "rappers - honto - 1",
+      "subtext": "",
+      "duration": 0.498
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper1honto2",
+      "name": "rapper 1 - honto - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.674
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2honto1",
+      "name": "rapper 2 - honto - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/honto4",
+      "id": "*/rapper2honto2",
+      "name": "rapper 2 - honto - 2",
       "deprecatedIDs": [],
-      "name": "rappers - honto - 2",
-      "duration": 0.5
+      "subtext": "",
+      "duration": 0.771
     },
     {
       "type": "cue",
-      "id": "*/hontoB1",
-      "deprecatedIDs": [],
+      "id": "*/mcadorehontolong1",
       "name": "mc adore - honto B - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/hontoB2",
-      "deprecatedIDs": [],
+      "id": "*/mcadorehontolong2",
       "name": "mc adore - honto B - 2",
-      "duration": 0.25
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.727
     },
     {
       "type": "cue",
-      "id": "*/hontoB3",
+      "id": "*/rapper1hontolong1",
+      "name": "rapper 1 - honto B - 1",
       "deprecatedIDs": [],
-      "name": "rappers - honto B - 1",
-      "duration": 0.5
+      "subtext": "",
+      "duration": 0.498
     },
     {
       "type": "cue",
-      "id": "*/hontoB4",
+      "id": "*/rapper1hontolong2",
+      "name": "rapper 1 - honto B - 2",
       "deprecatedIDs": [],
-      "name": "rappers - honto B - 2",
-      "duration": 0.5
+      "subtext": "",
+      "duration": 0.673
     },
     {
       "type": "cue",
-      "id": "*/kinanda1",
+      "id": "*/rapper2hontolong1",
+      "name": "rapper 2 - honto B - 1",
       "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.498
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2hontolong2",
+      "name": "rapper 2 - honto B - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.771
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadoresukinanda1",
       "name": "mc adore - sukinanda - 1",
-      "duration": 0.3125
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.166
     },
     {
       "type": "cue",
-      "id": "*/kinanda2",
-      "deprecatedIDs": [],
+      "id": "*/mcadoresukinanda2",
       "name": "mc adore - sukinanda - 2",
-      "duration": 0.25
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.27
     },
     {
       "type": "cue",
-      "id": "*/kinanda3",
-      "deprecatedIDs": [],
+      "id": "*/mcadoresukinanda3",
       "name": "mc adore - sukinanda - 3",
-      "duration": 0.3125
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.235
     },
     {
       "type": "cue",
-      "id": "*/kinanda4",
-      "deprecatedIDs": [],
+      "id": "*/mcadoresukinanda4",
       "name": "mc adore - sukinanda - 4",
-      "duration": 0.25
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.325
     },
     {
       "type": "cue",
-      "id": "*/sukinanda1",
+      "id": "*/mcadoresukinanda5",
+      "name": "mc adore - sukinanda - 5",
       "deprecatedIDs": [],
-      "name": "rappers - sukinanda - 1",
-      "duration": 0.3125
+      "subtext": "",
+      "duration": 0.859
     },
     {
       "type": "cue",
-      "id": "*/sukinanda2",
+      "id": "*/rapper1sukinanda1",
+      "name": "rapper 1 - sukinanda - 1",
       "deprecatedIDs": [],
-      "name": "rappers - sukinanda - 2",
-      "duration": 0.1875
+      "subtext": "",
+      "duration": 0.332
     },
     {
       "type": "cue",
-      "id": "*/sukinanda3",
+      "id": "*/rapper1sukinanda2",
+      "name": "rapper 1 - sukinanda - 2",
       "deprecatedIDs": [],
-      "name": "rappers - sukinanda - 3",
-      "duration": 0.25
+      "subtext": "",
+      "duration": 0.149
     },
     {
       "type": "cue",
-      "id": "*/sukinanda4",
+      "id": "*/rapper1sukinanda3",
+      "name": "rapper 1 - sukinanda - 3",
       "deprecatedIDs": [],
-      "name": "rappers - sukinanda - 4",
-      "duration": 0.25
+      "subtext": "",
+      "duration": 0.518
     },
     {
       "type": "cue",
-      "id": "*/sukinanda5",
+      "id": "*/rapper1sukinanda4",
+      "name": "rapper 1 - sukinanda - 4",
       "deprecatedIDs": [],
-      "name": "rappers - sukinanda - 5",
-      "duration": 0.25
+      "subtext": "",
+      "duration": 0.919
     },
     {
       "type": "cue",
-      "id": "*/majidaisuki1",
+      "id": "*/rapper2sukinanda1",
+      "name": "rapper 2 - sukinanda - 1",
       "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.332
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2sukinanda2",
+      "name": "rapper 2 - sukinanda - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.117
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2sukinanda3",
+      "name": "rapper 2 - sukinanda - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.548
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2sukinanda4",
+      "name": "rapper 2 - sukinanda - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.687
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadoremajidaisuki1",
       "name": "mc adore - majidaisuki - 1",
-      "duration": 0.3125
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.278
     },
     {
       "type": "cue",
-      "id": "*/majidaisuki2",
-      "deprecatedIDs": [],
+      "id": "*/mcadoremajidaisuki2",
       "name": "mc adore - majidaisuki - 2",
-      "duration": 0.1875
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.219
     },
     {
       "type": "cue",
-      "id": "*/majidaisuki3",
-      "deprecatedIDs": [],
+      "id": "*/mcadoremajidaisuki3",
       "name": "mc adore - majidaisuki - 3",
-      "duration": 0.375
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.336
     },
     {
       "type": "cue",
-      "id": "*/majidaisuki4",
-      "deprecatedIDs": [],
+      "id": "*/mcadoremajidaisuki4",
       "name": "mc adore - majidaisuki - 4",
-      "duration": 0.4375
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.499
     },
     {
       "type": "cue",
-      "id": "*/majidaisuki5",
-      "deprecatedIDs": [],
+      "id": "*/mcadoremajidaisuki5",
       "name": "mc adore - majidaisuki - 5",
-      "duration": 0.1875
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.767
     },
     {
       "type": "cue",
-      "id": "*/majidaisuki6",
+      "id": "*/rapper1majidaisuki1",
+      "name": "rapper 1 - majidaisuki - 1",
       "deprecatedIDs": [],
-      "name": "rappers - majidaisuki - 1",
-      "duration": 0.3125
+      "subtext": "",
+      "duration": 0.335
     },
     {
       "type": "cue",
-      "id": "*/majidaisuki7",
+      "id": "*/rapper1majidaisuki2",
+      "name": "rapper 1 - majidaisuki - 2",
       "deprecatedIDs": [],
-      "name": "rappers - majidaisuki - 2",
-      "duration": 0.1875
+      "subtext": "",
+      "duration": 0.163
     },
     {
       "type": "cue",
-      "id": "*/majidaisuki8",
+      "id": "*/rapper1majidaisuki3",
+      "name": "rapper 1 - majidaisuki - 3",
       "deprecatedIDs": [],
-      "name": "rappers - majidaisuki - 3",
-      "duration": 0.3125
+      "subtext": "",
+      "duration": 0.334
     },
     {
       "type": "cue",
-      "id": "*/majidaisuki9",
+      "id": "*/rapper1majidaisuki4",
+      "name": "rapper 1 - majidaisuki - 4",
       "deprecatedIDs": [],
-      "name": "rappers - majidaisuki - 4",
-      "duration": 0.4375
+      "subtext": "",
+      "duration": 0.499
     },
     {
       "type": "cue",
-      "id": "*/majidaisuki10",
+      "id": "*/rapper1majidaisuki5",
+      "name": "rapper 1 - majidaisuki - 5",
       "deprecatedIDs": [],
-      "name": "rappers - majidaisuki - 5",
-      "duration": 0.25
+      "subtext": "",
+      "duration": 0.671
     },
     {
       "type": "cue",
-      "id": "*/swingMaji1",
+      "id": "*/rapper2majidaisuki1",
+      "name": "rapper 2 - majidaisuki - 1",
       "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.312
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2majidaisuki2",
+      "name": "rapper 2 - majidaisuki - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.168
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2majidaisuki3",
+      "name": "rapper 2 - majidaisuki - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.393
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2majidaisuki4",
+      "name": "rapper 2 - majidaisuki - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.459
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2majidaisuki5",
+      "name": "rapper 2 - majidaisuki - 5",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.735
+    },
+    {
+      "type": "cue",
+      "id": "*/mcadoremajidaisukiswing1",
       "name": "mc adore - swing majidaisuki - 1",
-      "duration": 0.125
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.142
     },
     {
       "type": "cue",
-      "id": "*/swingMaji2",
-      "deprecatedIDs": [],
+      "id": "*/mcadoremajidaisukiswing2",
       "name": "mc adore - swing majidaisuki - 2",
-      "duration": 0.375
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.356
     },
     {
       "type": "cue",
-      "id": "*/swingMaji3",
-      "deprecatedIDs": [],
+      "id": "*/mcadoremajidaisukiswing3",
       "name": "mc adore - swing majidaisuki - 3",
-      "duration": 0.125
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.151
     },
     {
       "type": "cue",
-      "id": "*/swingMaji4",
-      "deprecatedIDs": [],
+      "id": "*/mcadoremajidaisukiswing4",
       "name": "mc adore - swing majidaisuki - 4",
-      "duration": 0.25
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.517
     },
     {
       "type": "cue",
-      "id": "*/swingMaji5",
-      "deprecatedIDs": [],
+      "id": "*/mcadoremajidaisukiswing5",
       "name": "mc adore - swing majidaisuki - 5",
-      "duration": 0.3125
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.919
     },
     {
       "type": "cue",
-      "id": "*/swingMaji6",
+      "id": "*/rapper1majidaisukiswing1",
+      "name": "rapper 1 - swing majidaisuki - 1",
       "deprecatedIDs": [],
-      "name": "mc adore - swing majidaisuki - 6",
-      "duration": 0.3125
+      "subtext": "",
+      "duration": 0.169
     },
     {
       "type": "cue",
-      "id": "*/swingMaji7",
+      "id": "*/rapper1majidaisukiswing2",
+      "name": "rapper 1 - swing majidaisuki - 2",
       "deprecatedIDs": [],
-      "name": "rapper - swing majidaisuki - 1",
-      "duration": 0.125
+      "subtext": "",
+      "duration": 0.329
     },
     {
       "type": "cue",
-      "id": "*/swingMaji8",
+      "id": "*/rapper1majidaisukiswing3",
+      "name": "rapper 1 - swing majidaisuki - 3",
       "deprecatedIDs": [],
-      "name": "rapper - swing majidaisuki - 2",
-      "duration": 0.3125
+      "subtext": "",
+      "duration": 0.166
     },
     {
       "type": "cue",
-      "id": "*/swingMaji9",
+      "id": "*/rapper1majidaisukiswing4",
+      "name": "rapper 1 - swing majidaisuki - 4",
       "deprecatedIDs": [],
-      "name": "rapper - swing majidaisuki - 3",
-      "duration": 0.1875
+      "subtext": "",
+      "duration": 0.244
     },
     {
       "type": "cue",
-      "id": "*/swingMaji10",
+      "id": "*/rapper1majidaisukiswing5",
+      "name": "rapper 1 - swing majidaisuki - 5",
       "deprecatedIDs": [],
-      "name": "rapper - swing majidaisuki - 4",
-      "duration": 0.1875
-    },
-    {
-      "type": "cue",
-      "id": "*/swingMaji11",
-      "deprecatedIDs": [],
-      "name": "rapper - swing majidaisuki - 5",
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/swingMaji12",
+      "id": "*/rapper1majidaisukiswing6",
+      "name": "rapper 1 - swing majidaisuki - 6",
       "deprecatedIDs": [],
-      "name": "rapper - swing majidaisuki - 6",
-      "duration": 0.4375
+      "subtext": "",
+      "duration": 0.758
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2majidaisukiswing1",
+      "name": "rapper 2 - swing majidaisuki - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.15
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2majidaisukiswing2",
+      "name": "rapper 2 - swing majidaisuki - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.348
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2majidaisukiswing3",
+      "name": "rapper 2 - swing majidaisuki - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.142
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2majidaisukiswing4",
+      "name": "rapper 2 - swing majidaisuki - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.268
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2majidaisukiswing5",
+      "name": "rapper 2 - swing majidaisuki - 5",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.246
+    },
+    {
+      "type": "cue",
+      "id": "*/rapper2majidaisukiswing6",
+      "name": "rapper 2 - swing majidaisuki - 6",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.868
     },
     {
       "type": "pattern",
       "id": "*_daisuki",
-      "deprecatedIDs": [],
       "name": "daisuki",
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/daisuki1",
-          "beat": 0.0
+          "id": "*/mcadoredaisuki1",
+          "beat": 0.0,
+          "duration": 0.373
         },
         {
-          "id": "*/daisuki2",
-          "beat": 0.4375
+          "id": "*/mcadoredaisuki2",
+          "beat": 0.373,
+          "duration": 0.457
         },
         {
-          "id": "*/daisuki3",
-          "beat": 0.6875
+          "id": "*/mcadoredaisuki3",
+          "beat": 0.83,
+          "duration": 0.17
         },
         {
-          "id": "*/daisuki4",
-          "beat": 1.0
+          "id": "*/rapper1daisuki1",
+          "beat": 1.0,
+          "duration": 0.336
         },
         {
-          "id": "*/daisuki5",
-          "beat": 1.375
+          "id": "*/rapper2daisuki1",
+          "beat": 1.0,
+          "duration": 0.36,
+          "track": 1
         },
         {
-          "id": "*/daisuki6",
-          "beat": 1.625
+          "id": "*/rapper1daisuki2",
+          "beat": 1.336,
+          "duration": 0.495
+        },
+        {
+          "id": "*/rapper2daisuki2",
+          "beat": 1.36,
+          "duration": 0.471,
+          "track": 1
+        },
+        {
+          "id": "*/rapper1daisuki3",
+          "beat": 1.831,
+          "duration": 0.169
+        },
+        {
+          "id": "*/rapper2daisuki3",
+          "beat": 1.831,
+          "duration": 0.169,
+          "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_hontoA",
-      "deprecatedIDs": [],
+      "id": "*_honto",
       "name": "honto - A",
+      "deprecatedIDs": ["loveRapJa_hontoA"],
       "cues": [
         {
-          "id": "*/honto1",
-          "beat": 0.0
+          "id": "*/mcadorehonto1",
+          "beat": 0.0,
+          "duration": 0.498
         },
         {
-          "id": "*/honto2",
-          "beat": 0.5
+          "id": "*/mcadorehonto2",
+          "beat": 0.498,
+          "duration": 0.252
         },
         {
-          "id": "*/honto3",
-          "beat": 0.75
+          "id": "*/rapper1honto1",
+          "beat": 0.75,
+          "duration": 0.498
         },
         {
-          "id": "*/honto4",
-          "beat": 1.25
+          "id": "*/rapper2honto1",
+          "beat": 0.75,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/rapper1honto2",
+          "beat": 1.23,
+          "duration": 0.27
+        },
+        {
+          "id": "*/rapper2honto2",
+          "beat": 1.25,
+          "duration": 0.25,
+          "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_hontoB",
-      "deprecatedIDs": [],
+      "id": "*_hontolong",
       "name": "honto - B",
+      "deprecatedIDs": ["loveRapJa_hontoB"],
       "cues": [
         {
-          "id": "*/hontoB1",
-          "beat": 0.0
+          "id": "*/mcadorehontolong1",
+          "beat": 0.0,
+          "duration": 0.5
         },
         {
-          "id": "*/hontoB2",
-          "beat": 0.5
+          "id": "*/mcadorehontolong2",
+          "beat": 0.5,
+          "duration": 0.25
         },
         {
-          "id": "*/hontoB3",
-          "beat": 0.75
+          "id": "*/rapper1hontolong1",
+          "beat": 0.75,
+          "duration": 0.498
         },
         {
-          "id": "*/hontoB4",
-          "beat": 1.25
+          "id": "*/rapper2hontolong1",
+          "beat": 0.75,
+          "duration": 0.498,
+          "track": 1
+        },
+        {
+          "id": "*/rapper1hontolong2",
+          "beat": 1.23,
+          "duration": 0.27
+        },
+        {
+          "id": "*/rapper2hontolong2",
+          "beat": 1.23,
+          "duration": 0.27,
+          "track": 1
         }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_sukinanda",
-      "deprecatedIDs": [],
-      "name": "sukinanda",
-      "cues": [
-        {
-          "id": "*/kinanda1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/kinanda2",
-          "beat": 0.3125
-        },
-        {
-          "id": "*/kinanda3",
-          "beat": 0.5625
-        },
-        {
-          "id": "*/kinanda4",
-          "beat": 0.875
-        },
-        {
-          "id": "*/sukinanda1",
-          "beat": 1.125
-        },
-        {
-          "id": "*/sukinanda2",
-          "beat": 1.4375
-        },
-        {
-          "id": "*/sukinanda3",
-          "beat": 1.625
-        },
-        {
-          "id": "*/sukinanda4",
-          "beat": 1.875
-        },
-        {
-          "id": "*/sukinanda5",
-          "beat": 2.125
-        }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_majidaisuki",
-      "deprecatedIDs": [],
       "name": "maji daisuki",
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/majidaisuki1",
-          "beat": 0.0
+          "id": "*/mcadoremajidaisuki1",
+          "beat": 0.0,
+          "duration": 0.278
         },
         {
-          "id": "*/majidaisuki2",
-          "beat": 0.3125
+          "id": "*/mcadoremajidaisuki2",
+          "beat": 0.278,
+          "duration": 0.219
         },
         {
-          "id": "*/majidaisuki3",
-          "beat": 0.5
+          "id": "*/mcadoremajidaisuki3",
+          "beat": 0.497,
+          "duration": 0.336
         },
         {
-          "id": "*/majidaisuki4",
-          "beat": 0.875
+          "id": "*/mcadoremajidaisuki4",
+          "beat": 0.833,
+          "duration": 0.499
         },
         {
-          "id": "*/majidaisuki5",
-          "beat": 1.3125
+          "id": "*/mcadoremajidaisuki5",
+          "beat": 1.332,
+          "duration": 0.168
         },
         {
-          "id": "*/majidaisuki6",
-          "beat": 1.5
+          "id": "*/rapper1majidaisuki1",
+          "beat": 1.5,
+          "duration": 0.335
         },
         {
-          "id": "*/majidaisuki7",
-          "beat": 1.8125
+          "id": "*/rapper2majidaisuki1",
+          "beat": 1.5,
+          "duration": 0.312,
+          "track": 1
         },
         {
-          "id": "*/majidaisuki8",
-          "beat": 2.0
+          "id": "*/rapper2majidaisuki2",
+          "beat": 1.812,
+          "duration": 0.168,
+          "track": 1
         },
         {
-          "id": "*/majidaisuki9",
-          "beat": 2.3125
+          "id": "*/rapper1majidaisuki2",
+          "beat": 1.835,
+          "duration": 0.163
         },
         {
-          "id": "*/majidaisuki10",
-          "beat": 2.75
+          "id": "*/rapper2majidaisuki3",
+          "beat": 1.98,
+          "duration": 0.393,
+          "track": 1
+        },
+        {
+          "id": "*/rapper1majidaisuki3",
+          "beat": 1.998,
+          "duration": 0.334
+        },
+        {
+          "id": "*/rapper1majidaisuki4",
+          "beat": 2.332,
+          "duration": 0.499
+        },
+        {
+          "id": "*/rapper2majidaisuki4",
+          "beat": 2.373,
+          "duration": 0.459,
+          "track": 1
+        },
+        {
+          "id": "*/rapper1majidaisuki5",
+          "beat": 2.831,
+          "duration": 0.169
+        },
+        {
+          "id": "*/rapper2majidaisuki5",
+          "beat": 2.832,
+          "duration": 0.168,
+          "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_swingMajidaisuki",
-      "deprecatedIDs": [],
+      "id": "*_majidaisukiswing",
       "name": "maji daisuki - swing",
+      "deprecatedIDs": ["loveRapJa_swingMajidaisuki"],
       "cues": [
         {
-          "id": "*/swingMaji1",
-          "beat": 0.0
+          "id": "*/mcadoremajidaisukiswing1",
+          "beat": 0.125,
+          "duration": 0.142
         },
         {
-          "id": "*/swingMaji2",
-          "beat": 0.125
+          "id": "*/mcadoremajidaisukiswing2",
+          "beat": 0.267,
+          "duration": 0.356
         },
         {
-          "id": "*/swingMaji3",
-          "beat": 0.5
+          "id": "*/mcadoremajidaisukiswing3",
+          "beat": 0.623,
+          "duration": 0.151
         },
         {
-          "id": "*/swingMaji4",
-          "beat": 0.625
+          "id": "*/mcadoremajidaisukiswing4",
+          "beat": 0.774,
+          "duration": 0.517
         },
         {
-          "id": "*/swingMaji5",
-          "beat": 0.875
+          "id": "*/mcadoremajidaisukiswing5",
+          "beat": 1.291,
+          "duration": 0.334
         },
         {
-          "id": "*/swingMaji6",
-          "beat": 1.1875
+          "id": "*/rapper1majidaisukiswing1",
+          "beat": 1.625,
+          "duration": 0.169
         },
         {
-          "id": "*/swingMaji7",
-          "beat": 1.5
+          "id": "*/rapper2majidaisukiswing1",
+          "beat": 1.625,
+          "duration": 0.15,
+          "track": 1
         },
         {
-          "id": "*/swingMaji8",
-          "beat": 1.625
+          "id": "*/rapper1majidaisukiswing2",
+          "beat": 1.794,
+          "duration": 0.329
         },
         {
-          "id": "*/swingMaji9",
-          "beat": 1.9375
+          "id": "*/rapper2majidaisukiswing2",
+          "beat": 1.775,
+          "duration": 0.348,
+          "track": 1
         },
         {
-          "id": "*/swingMaji10",
-          "beat": 2.125
+          "id": "*/rapper1majidaisukiswing3",
+          "beat": 2.123,
+          "duration": 0.166
         },
         {
-          "id": "*/swingMaji11",
-          "beat": 2.3125
+          "id": "*/rapper2majidaisukiswing3",
+          "beat": 2.123,
+          "duration": 0.142,
+          "track": 1
         },
         {
-          "id": "*/swingMaji12",
-          "beat": 2.5625
+          "id": "*/rapper1majidaisukiswing4",
+          "beat": 2.289,
+          "duration": 0.244
+        },
+        {
+          "id": "*/rapper2majidaisukiswing4",
+          "beat": 2.265,
+          "duration": 0.268,
+          "track": 1
+        },
+        {
+          "id": "*/rapper1majidaisukiswing5",
+          "beat": 2.533,
+          "duration": 0.25
+        },
+        {
+          "id": "*/rapper2majidaisukiswing5",
+          "beat": 2.533,
+          "duration": 0.246,
+          "track": 1
+        },
+        {
+          "id": "*/rapper1majidaisukiswing6",
+          "beat": 2.783,
+          "duration": 0.467
+        },
+        {
+          "id": "*/rapper2majidaisukiswing6",
+          "beat": 2.779,
+          "duration": 0.471,
+          "track": 1
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_sukinanda",
+      "name": "sukinanda",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/mcadoresukinanda1",
+          "beat": 0.0,
+          "duration": 0.166
+        },
+        {
+          "id": "*/mcadoresukinanda2",
+          "beat": 0.166,
+          "duration": 0.27
+        },
+        {
+          "id": "*/mcadoresukinanda3",
+          "beat": 0.436,
+          "duration": 0.235
+        },
+        {
+          "id": "*/mcadoresukinanda4",
+          "beat": 0.671,
+          "duration": 0.325
+        },
+        {
+          "id": "*/mcadoresukinanda5",
+          "beat": 0.996,
+          "duration": 0.254
+        },
+        {
+          "id": "*/rapper1sukinanda1",
+          "beat": 1.25,
+          "duration": 0.332
+        },
+        {
+          "id": "*/rapper2sukinanda1",
+          "beat": 1.25,
+          "duration": 0.332,
+          "track": 1
+        },
+        {
+          "id": "*/rapper1sukinanda2",
+          "beat": 1.582,
+          "duration": 0.149
+        },
+        {
+          "id": "*/rapper2sukinanda2",
+          "beat": 1.582,
+          "duration": 0.117,
+          "track": 1
+        },
+        {
+          "id": "*/rapper2sukinanda3",
+          "beat": 1.699,
+          "duration": 0.548,
+          "track": 1
+        },
+        {
+          "id": "*/rapper1sukinanda3",
+          "beat": 1.731,
+          "duration": 0.518
+        },
+        {
+          "id": "*/rapper1sukinanda4",
+          "beat": 2.249,
+          "duration": 0.251
+        },
+        {
+          "id": "*/rapper2sukinanda4",
+          "beat": 2.217,
+          "duration": 0.283,
+          "track": 1
+        }
+      ],
+      "subtext": ""
     }
   ]
 }

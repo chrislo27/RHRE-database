@@ -17,17 +17,17 @@
 	"note": "Refer to the documentation"
   },
   {
-    "applyTo": ["loveRapEn_fosho", "loveRapJa_hontoA", "loveRapKo_jinjja1"],
+    "applyTo": ["loveRapEn_fosho", "loveRapJa_honto", "loveRapKo_jinjja1"],
     "sub": "0x80-0x83",
 	"note": "Refer to the documentation"
   },
   {
-    "applyTo": ["loveRapEn_fosholong", "loveRapJa_hontoB", "loveRapKo_jinjja2"],
+    "applyTo": ["loveRapEn_fosholong", "loveRapJa_hontolong", "loveRapKo_jinjja2"],
     "sub": "0x84-0x87",
 	"note": "Refer to the documentation"
   },
   {
-    "applyTo": ["loveRapEn_crazyintoyouswing", "loveRapJa_swingMajidaisuki", "loveRapKo_swingjeongmalnigajoah"],
+    "applyTo": ["loveRapEn_crazyintoyouswing", "loveRapJa_majidaisukiswing", "loveRapKo_swingjeongmalnigajoah"],
     "sub": "0x7C-0x7F",
 	"note": "Refer to the documentation"
   },
