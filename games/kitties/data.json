@@ -1,141 +1,240 @@
 {
-  "series": "megamix",
   "id": "kitties",
   "name": "Kitties!",
+  "series": "megamix",
   "priority": 1,
   "objects": [
     {
       "type": "cue",
       "id": "*/nya1",
-      "deprecatedIDs": [],
       "name": "nya - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5,
       "earliness": 0.045
     },
     {
       "type": "cue",
       "id": "*/nya2",
-      "deprecatedIDs": [],
       "name": "nya - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5,
       "earliness": 0.045
     },
     {
       "type": "cue",
       "id": "*/nya3",
-      "deprecatedIDs": [],
       "name": "nya - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5,
       "earliness": 0.045
     },
     {
       "type": "cue",
       "id": "*/clap1",
-      "deprecatedIDs": [],
       "name": "clap - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5,
       "earliness": 0.02
     },
     {
       "type": "cue",
       "id": "*/clap2",
-      "deprecatedIDs": [],
       "name": "clap - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5,
       "earliness": 0.015
     },
     {
       "type": "cue",
       "id": "*/fish1",
-      "deprecatedIDs": [],
       "name": "fish - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.33333,
       "earliness": 0.015
     },
     {
       "type": "cue",
       "id": "*/fish2",
-      "deprecatedIDs": [],
       "name": "fish - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.16666,
       "earliness": 0.035
     },
     {
       "type": "cue",
       "id": "*/fish3",
-      "deprecatedIDs": [],
       "name": "fish - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.33333,
       "earliness": 0.03
     },
     {
       "type": "cue",
       "id": "*/fish4",
-      "deprecatedIDs": [],
       "name": "fish - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.16666
     },
     {
       "type": "cue",
       "id": "*/roll1",
-      "deprecatedIDs": [],
       "name": "roll - 1",
-      "duration": 0.5,
-      "earliness": 0.025
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/roll2",
-      "deprecatedIDs": [],
       "name": "roll - 2",
-      "duration": 0.5,
-      "earliness": 0.045
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/roll3",
-      "deprecatedIDs": [],
       "name": "roll - 3",
-      "duration": 0.5,
-      "earliness": 0.035
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/roll4",
-      "deprecatedIDs": [],
       "name": "roll - 4",
-      "duration": 0.5,
-      "earliness": 0.035
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/roll5",
-      "deprecatedIDs": [],
       "name": "roll - 5",
-      "duration": 0.83333,
-      "earliness": 0.035
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.83333
     },
     {
       "type": "cue",
       "id": "*/roll6",
-      "deprecatedIDs": [],
       "name": "roll - 6",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.66666
     },
     {
       "type": "cue",
       "id": "*/rollLoop",
-      "deprecatedIDs": [],
       "name": "roll - loop",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.83333,
       "stretchable": true,
       "loops": true
     },
     {
+      "type": "cue",
+      "id": "*/countIn1",
+      "name": "count-in - 1 (English)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/countIn2",
+      "name": "count-in - 2 (English)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/countIn3",
+      "name": "count-in - 3 (English)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/countIn4",
+      "name": "count-in - 4 (English)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/countInA",
+      "name": "count-in - a - 1 (English)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/countInA2",
+      "name": "count-in - a - 2 (English)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/countIn1J",
+      "name": "count-in - 1 (Japanese)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/countIn2J",
+      "name": "count-in - 2 (Japanese)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/countIn3J",
+      "name": "count-in - 3 (Japanese)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/countIn4J",
+      "name": "count-in - 4 (Japanese)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/countInAJ",
+      "name": "count-in - a (Japanese)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
       "type": "pattern",
       "id": "*_clapclap",
-      "deprecatedIDs": [],
       "name": "clap clap",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/nya1",
@@ -157,13 +256,14 @@
           "id": "*/clap2",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_clapClapSwing",
-      "deprecatedIDs": [],
       "name": "clap clap - swing",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/nya1",
@@ -185,13 +285,14 @@
           "id": "*/clap2",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_rollStraight",
-      "deprecatedIDs": [],
       "name": "roll",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/roll1",
@@ -212,26 +313,26 @@
         {
           "id": "*/roll5",
           "beat": 2.0,
-          "duration": 0.75,
-          "track": 0
+          "duration": 0.75
         },
         {
           "id": "*/rollLoop",
           "beat": 2.0,
-          "track": 1,
-          "duration": 0.75
+          "duration": 0.75,
+          "track": 1
         },
         {
           "id": "*/roll6",
           "beat": 2.75
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_roll",
-      "deprecatedIDs": [],
       "name": "roll - swing",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/roll1",
@@ -251,8 +352,7 @@
         },
         {
           "id": "*/roll5",
-          "beat": 2.0,
-          "track": 0
+          "beat": 2.0
         },
         {
           "id": "*/rollLoop",
@@ -263,13 +363,14 @@
           "id": "*/roll6",
           "beat": 2.83333
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_fishStraight",
-      "deprecatedIDs": [],
       "name": "fish",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/fish1",
@@ -291,13 +392,14 @@
           "beat": 0.75,
           "duration": 1.25
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_fish",
-      "deprecatedIDs": [],
       "name": "fish - swing",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/fish1",
@@ -315,7 +417,98 @@
           "id": "*/fish4",
           "beat": 0.83333
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_countInEn",
+      "name": "count-in (English)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countInA2",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countIn1",
+          "beat": 0.5
+        },
+        {
+          "id": "*/countInA",
+          "beat": 2.0
+        },
+        {
+          "id": "*/countIn2",
+          "beat": 2.5
+        },
+        {
+          "id": "*/countInA2",
+          "beat": 4.0
+        },
+        {
+          "id": "*/countIn1",
+          "beat": 4.5
+        },
+        {
+          "id": "*/countIn2",
+          "beat": 5.5
+        },
+        {
+          "id": "*/countIn3",
+          "beat": 6.5
+        },
+        {
+          "id": "*/countIn4",
+          "beat": 7.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_countInJa",
+      "name": "count-in (Japanese)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countInAJ",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countIn1J",
+          "beat": 0.5
+        },
+        {
+          "id": "*/countInAJ",
+          "beat": 2.0
+        },
+        {
+          "id": "*/countIn2J",
+          "beat": 2.5
+        },
+        {
+          "id": "*/countInAJ",
+          "beat": 4.0
+        },
+        {
+          "id": "*/countIn1J",
+          "beat": 4.5
+        },
+        {
+          "id": "*/countIn2J",
+          "beat": 5.5
+        },
+        {
+          "id": "*/countIn3J",
+          "beat": 6.5
+        },
+        {
+          "id": "*/countIn4J",
+          "beat": 7.5
+        }
+      ],
+      "subtext": ""
     }
   ]
 }
