@@ -1,155 +1,187 @@
 {
-  "series": "fever",
   "id": "shrimpShuffleJa",
   "name": "Shrimp Shuffle",
+  "series": "fever",
   "language": "ja",
   "group": "Shrimp Shuffle",
   "objects": [
     {
       "type": "cue",
       "id": "*/alldone",
-      "deprecatedIDs": [],
       "name": "all done!",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/threenostep",
-      "deprecatedIDs": [],
       "name": "three (no step)",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.0415
     },
     {
       "type": "cue",
       "id": "*/twonostep",
-      "deprecatedIDs": [],
       "name": "two (no step)",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.021
     },
     {
       "type": "cue",
       "id": "*/onenostep",
-      "deprecatedIDs": [],
       "name": "one (no step)",
-      "duration": 0.6666
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.6666,
+      "earliness": 0.031
     },
     {
       "type": "cue",
       "id": "*/a",
-      "deprecatedIDs": [],
       "name": "asore - a",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.3333
     },
     {
       "type": "cue",
       "id": "*/so",
-      "deprecatedIDs": [],
       "name": "asore - so",
-      "duration": 0.6666
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.6666,
+      "earliness": 0.021
     },
     {
       "type": "cue",
       "id": "*/re",
-      "deprecatedIDs": [],
       "name": "asore - re",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.3333
     },
     {
       "type": "cue",
       "id": "*/one1",
-      "deprecatedIDs": [],
       "name": "1 - first",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.021
     },
     {
       "type": "cue",
       "id": "*/two1",
-      "deprecatedIDs": [],
       "name": "2 - first",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.021
     },
     {
       "type": "cue",
       "id": "*/three1",
-      "deprecatedIDs": [],
       "name": "3 - first",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.0415
     },
     {
       "type": "cue",
       "id": "*/three2",
-      "deprecatedIDs": [],
       "name": "3 - second",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.0725
     },
     {
       "type": "cue",
       "id": "*/two2",
-      "deprecatedIDs": [],
       "name": "2 - second",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.021
     },
     {
       "type": "cue",
       "id": "*/one2",
-      "deprecatedIDs": [],
       "name": "1 - second",
-      "duration": 0.6666
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.6666,
+      "earliness": 0.031
     },
     {
       "type": "cue",
       "id": "*/ah",
-      "deprecatedIDs": [],
       "name": "pause - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.3333
     },
     {
       "type": "cue",
       "id": "*/wa",
-      "deprecatedIDs": [],
       "name": "pause - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.6666
     },
     {
       "type": "cue",
       "id": "*/ha",
-      "deprecatedIDs": [],
       "name": "pause - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.3333
     },
     {
       "type": "cue",
       "id": "*/uhn",
-      "deprecatedIDs": [],
       "name": "pause - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/e",
-      "deprecatedIDs": [],
       "name": "e-",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/bi",
-      "deprecatedIDs": [],
       "name": "-bi",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.021
     },
     {
       "type": "cue",
       "id": "*/sea",
-      "deprecatedIDs": [],
       "name": "sea",
-      "duration": 0.6666
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.6666,
+      "earliness": 0.083
     },
     {
       "type": "pattern",
       "id": "*_countin",
-      "deprecatedIDs": [],
       "name": "count in",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/threenostep",
@@ -163,13 +195,14 @@
           "id": "*/onenostep",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_asore",
-      "deprecatedIDs": [],
       "name": "together",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/a",
@@ -207,13 +240,14 @@
           "id": "*/one2",
           "beat": 7.33333
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_ebisea",
-      "deprecatedIDs": [],
       "name": "ABC",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/a",
@@ -251,13 +285,14 @@
           "id": "*/sea",
           "beat": 7.33333
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_paused",
-      "deprecatedIDs": [],
       "name": "paused",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/ah",
@@ -299,13 +334,14 @@
           "id": "*/one2",
           "beat": 8.33333
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_pausedEbisea",
-      "deprecatedIDs": [],
       "name": "paused ABC",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/ah",
@@ -347,7 +383,8 @@
           "id": "*/sea",
           "beat": 8.33333
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }

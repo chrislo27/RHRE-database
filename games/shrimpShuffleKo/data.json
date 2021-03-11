@@ -1,156 +1,184 @@
 {
-  "series": "fever",
   "id": "shrimpShuffleKo",
   "name": "Shrimp Shuffle",
+  "series": "fever",
   "language": "ko",
   "group": "Shrimp Shuffle",
-  "groupDefault": false,
   "objects": [
     {
       "type": "cue",
       "id": "*/kkeut",
-      "deprecatedIDs": [],
       "name": "kkeut",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/threenostep",
-      "deprecatedIDs": [],
       "name": "three (no step)",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.06125
     },
     {
       "type": "cue",
       "id": "*/twonostep",
-      "deprecatedIDs": [],
       "name": "two (no step)",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/onenostep",
-      "deprecatedIDs": [],
       "name": "one (no step)",
-      "duration": 0.6666
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.6666,
+      "earliness": 0.021
     },
     {
       "type": "cue",
       "id": "*/da",
-      "deprecatedIDs": [],
       "name": "da hamkke - da",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.3333
     },
     {
       "type": "cue",
       "id": "*/ham",
-      "deprecatedIDs": [],
       "name": "da hamkke - ham",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.6666
     },
     {
       "type": "cue",
       "id": "*/kke",
-      "deprecatedIDs": [],
       "name": "da hamkke - kke",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.3333
     },
     {
       "type": "cue",
       "id": "*/one1",
-      "deprecatedIDs": [],
       "name": "one - first",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.01
     },
     {
       "type": "cue",
       "id": "*/two1",
-      "deprecatedIDs": [],
       "name": "two - first",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/three1",
-      "deprecatedIDs": [],
       "name": "three - first",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.0265
     },
     {
       "type": "cue",
       "id": "*/three2",
-      "deprecatedIDs": [],
       "name": "three - second",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.08225
     },
     {
       "type": "cue",
       "id": "*/two2",
-      "deprecatedIDs": [],
       "name": "two - second",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/one2",
-      "deprecatedIDs": [],
       "name": "one - second",
-      "duration": 0.6666
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.6666,
+      "earliness": 0.021
     },
     {
       "type": "cue",
       "id": "*/ma",
-      "deprecatedIDs": [],
       "name": "pause - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.3333
     },
     {
       "type": "cue",
       "id": "*/shu",
-      "deprecatedIDs": [],
       "name": "pause - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.6666
     },
     {
       "type": "cue",
       "id": "*/ga",
-      "deprecatedIDs": [],
       "name": "pause - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.3333
     },
     {
       "type": "cue",
       "id": "*/uhn",
-      "deprecatedIDs": [],
       "name": "pause - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/a",
-      "deprecatedIDs": [],
       "name": "a",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.021
     },
     {
       "type": "cue",
       "id": "*/b",
-      "deprecatedIDs": [],
       "name": "b",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.01505
     },
     {
       "type": "cue",
       "id": "*/c",
-      "deprecatedIDs": [],
       "name": "c",
-      "duration": 0.6666
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.6666,
+      "earliness": 0.06125
     },
     {
       "type": "pattern",
       "id": "*_countin",
-      "deprecatedIDs": [],
       "name": "count in",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/threenostep",
@@ -164,13 +192,14 @@
           "id": "*/onenostep",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_together",
-      "deprecatedIDs": [],
       "name": "together",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/da",
@@ -208,14 +237,14 @@
           "id": "*/one2",
           "beat": 7.33333
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_ABC",
-      "deprecatedIDs": [
-      ],
       "name": "ABC",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/da",
@@ -253,14 +282,14 @@
           "id": "*/c",
           "beat": 7.33333
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_paused",
-      "deprecatedIDs": [
-      ],
       "name": "paused",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/ma",
@@ -302,14 +331,14 @@
           "id": "*/one2",
           "beat": 8.33333
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_pausedABC",
-      "deprecatedIDs": [
-      ],
       "name": "paused ABC",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/ma",
@@ -351,7 +380,8 @@
           "id": "*/c",
           "beat": 8.33333
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
