@@ -1,99 +1,140 @@
 {
-  "series": "megamix",
   "id": "fanClubMegamixJa",
   "name": "Fan Club (Megamix)",
+  "series": "megamix",
   "language": "ja",
   "group": "Fan Club (Megamix)",
   "objects": [
     {
       "type": "cue",
-      "id": "*/hai1",
+      "id": "*/end",
+      "name": "ending",
       "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/hai1",
       "name": "singer - hai - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/hai2",
-      "deprecatedIDs": [],
       "name": "singer - hai - 2",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.031
     },
     {
       "type": "cue",
       "id": "*/hai3",
-      "deprecatedIDs": [],
       "name": "singer - hai - 3",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.021
     },
     {
       "type": "cue",
       "id": "*/haiClap",
-      "deprecatedIDs": [],
       "name": "audience - hai",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/kamone1",
-      "deprecatedIDs": [],
       "name": "singer - kamone! - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/kamone2",
-      "deprecatedIDs": [],
       "name": "singer - kamone! - 2",
-      "duration": 0.5
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.0415
     },
     {
       "type": "cue",
       "id": "*/kamone3",
-      "deprecatedIDs": [],
       "name": "singer - kamone! - 3",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.01505
     },
     {
       "type": "cue",
       "id": "*/kamoneClap1",
-      "deprecatedIDs": [],
       "name": "audience - kamone - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.5
     },
     {
       "type": "cue",
       "id": "*/kamoneClap2",
-      "deprecatedIDs": [],
       "name": "audience - kamone - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/kamoneClap3",
-      "deprecatedIDs": [],
       "name": "audience - kamone - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/kamoneClap4",
-      "deprecatedIDs": [],
       "name": "audience - kamone - 4",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.031
     },
     {
       "type": "cue",
       "id": "*/kamoneJump",
-      "deprecatedIDs": [],
       "name": "audience - landing",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/ohh1",
+      "name": "ohh - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.5
+    },
+    {
+      "type": "cue",
+      "id": "*/ohh2",
+      "name": "ohh - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "pattern",
       "id": "*_haiHaiHai",
-      "deprecatedIDs": [],
       "name": "yeah yeah yeah!",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/hai1",
@@ -123,13 +164,14 @@
           "id": "*/haiClap",
           "beat": 7.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_kamone",
-      "deprecatedIDs": [],
       "name": "I suppose!",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/kamone1",
@@ -159,13 +201,14 @@
           "id": "*/kamoneClap4",
           "beat": 5.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_kamoneLanding",
-      "deprecatedIDs": [],
       "name": "I suppose! - with landing",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/kamone1",
@@ -199,7 +242,29 @@
           "id": "*/kamoneJump",
           "beat": 6.0
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_ohh",
+      "name": "ohh",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/ohh1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/ohh2",
+          "beat": 2.5
+        },
+        {
+          "id": "*/ohh2",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
     }
   ]
 }

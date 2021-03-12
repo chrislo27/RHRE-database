@@ -1,99 +1,145 @@
 {
-  "series": "megamix",
   "id": "fanClubMegamixKo",
   "name": "Fan Club (Megamix)",
+  "series": "megamix",
   "language": "ko",
   "group": "Fan Club (Megamix)",
   "objects": [
     {
       "type": "cue",
-      "id": "*/hoi1",
+      "id": "*/end",
+      "name": "ending",
       "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/hoi1",
       "name": "singer - hoi - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/hoi2",
-      "deprecatedIDs": [],
       "name": "singer - hoi - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/hoi3",
-      "deprecatedIDs": [],
       "name": "singer - hoi - 3",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.01505
     },
     {
       "type": "cue",
       "id": "*/hoiClap",
-      "deprecatedIDs": [],
       "name": "audience - hai",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/hoiFinalClap",
+      "name": "audience - final hai",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/otoke1",
-      "deprecatedIDs": [],
       "name": "singer - otoke! - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/otoke2",
-      "deprecatedIDs": [],
       "name": "singer - otoke! - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/otoke3",
-      "deprecatedIDs": [],
       "name": "singer - otoke! - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/otokeClap1",
-      "deprecatedIDs": [],
       "name": "audience - otoke - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.5
     },
     {
       "type": "cue",
       "id": "*/otokeClap2",
-      "deprecatedIDs": [],
       "name": "audience - otoke - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/otokeClap3",
-      "deprecatedIDs": [],
       "name": "audience - otoke - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/otokeClap4",
-      "deprecatedIDs": [],
       "name": "audience - otoke - 4",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.01505
     },
     {
       "type": "cue",
       "id": "*/otokeJump",
-      "deprecatedIDs": [],
       "name": "audience - landing",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/ohh1",
+      "name": "ohh - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.5
+    },
+    {
+      "type": "cue",
+      "id": "*/ohh2",
+      "name": "ohh - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "pattern",
       "id": "*_hoiHoiHoi",
-      "deprecatedIDs": [],
       "name": "yeah yeah yeah!",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/hoi1",
@@ -120,16 +166,17 @@
           "beat": 6.0
         },
         {
-          "id": "*/hoiClap",
+          "id": "*/hoiFinalClap",
           "beat": 7.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_otoke",
-      "deprecatedIDs": [],
       "name": "I suppose!",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/otoke1",
@@ -159,13 +206,14 @@
           "id": "*/otokeClap4",
           "beat": 5.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_otokeLanding",
-      "deprecatedIDs": [],
       "name": "I suppose! - with landing",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/otoke1",
@@ -199,7 +247,29 @@
           "id": "*/otokeJump",
           "beat": 6.0
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_ohh",
+      "name": "ohh",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/ohh1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/ohh2",
+          "beat": 2.5
+        },
+        {
+          "id": "*/ohh2",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
     }
   ]
 }
