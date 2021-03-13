@@ -169,7 +169,7 @@
     {
       "type": "pattern",
       "id": "*_6bounces",
-      "name": "6 bounces (Remix 3)",
+      "name": "6 bounces ",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -214,7 +214,7 @@
     {
       "type": "pattern",
       "id": "*_15bounces",
-      "name": "15 bounces (Remix 3)",
+      "name": "15 bounces",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -304,7 +304,7 @@
     {
       "type": "keepTheBeat",
       "id": "*_bouncingLeft",
-      "name": "bouncing (left)",
+      "name": "endless bouncing (starting on left)",
       "deprecatedIDs": [],
       "defaultDuration": 4.0,
       "cues": [
@@ -333,12 +333,12 @@
           "beat": 5.0
         }
       ],
-      "subtext": "Endless bouncing starting on left"
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_bouncingRight",
-      "name": "bouncing (right)",
+      "name": "endless bouncing (starting on right)",
       "deprecatedIDs": [],
       "defaultDuration": 4.0,
       "cues": [
@@ -367,7 +367,7 @@
           "beat": 5.0
         }
       ],
-      "subtext": "Endless bouncing starting on right"
+      "subtext": ""
     },
     {
       "type": "pattern",
