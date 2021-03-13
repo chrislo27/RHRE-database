@@ -11,6 +11,7 @@
       "id": "*/three1",
       "name": "three - 1",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -18,6 +19,7 @@
       "id": "*/three2",
       "name": "three - 2",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -25,6 +27,7 @@
       "id": "*/three3",
       "name": "three - 3",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -32,6 +35,7 @@
       "id": "*/five1",
       "name": "five - 1",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -39,6 +43,7 @@
       "id": "*/five2",
       "name": "five - 2",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -46,6 +51,7 @@
       "id": "*/five3",
       "name": "five - 3",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -53,6 +59,7 @@
       "id": "*/five4",
       "name": "five - 4",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -60,6 +67,7 @@
       "id": "*/five5",
       "name": "five - 5",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
@@ -67,6 +75,7 @@
       "id": "*/siesta1",
       "name": "siesta - 1",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -74,6 +83,7 @@
       "id": "*/siesta2",
       "name": "siesta - 2",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -81,6 +91,7 @@
       "id": "*/siesta3",
       "name": "siesta - 3",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -88,6 +99,7 @@
       "id": "*/siesta4",
       "name": "siesta - 4",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -95,6 +107,7 @@
       "id": "*/siesta5",
       "name": "siesta - 5",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -102,6 +115,7 @@
       "id": "*/siesta6",
       "name": "siesta - 6",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -109,6 +123,7 @@
       "id": "*/throw1",
       "name": "throw - 1",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -116,6 +131,7 @@
       "id": "*/throw2",
       "name": "throw - 2",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -123,6 +139,7 @@
       "id": "*/throw3",
       "name": "throw - 3",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
@@ -130,6 +147,7 @@
       "id": "*/throw4Start",
       "name": "throw - 4 - start",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 9.5
     },
     {
@@ -137,15 +155,16 @@
       "id": "*/throw4",
       "name": "throw - 4",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0,
-      "baseBpm": 103,
-      "baseBpmRules": "onlyTimeStretch"
+      "baseBpm": 103.0
     },
     {
       "type": "cue",
       "id": "*/throw5",
       "name": "throw - 5",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
@@ -153,6 +172,7 @@
       "id": "*/throw6",
       "name": "throw - 6",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -160,6 +180,7 @@
       "id": "*/throw6b",
       "name": "throw - 6 - (alternative)",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -180,7 +201,8 @@
           "id": "*/three3",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -208,7 +230,8 @@
           "id": "*/five5",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -240,7 +263,8 @@
           "id": "*/siesta6",
           "beat": 7.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -275,13 +299,14 @@
           "id": "*_randomCatch",
           "beat": 7.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "randomCue",
       "id": "*_randomCatch",
-      "deprecatedIDs": [],
       "name": "random catch",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/throw6"
@@ -289,7 +314,8 @@
         {
           "id": "*/throw6b"
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
