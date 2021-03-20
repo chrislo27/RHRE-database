@@ -1,57 +1,49 @@
 {
-  "series": "tengoku",
   "id": "sneakySpirits",
   "name": "Sneaky Spirits (GBA)",
+  "series": "tengoku",
   "objects": [
     {
       "type": "cue",
       "id": "*/moving",
-      "deprecatedIDs": [],
       "name": "moving",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/fading1",
+      "id": "*/hit",
+      "name": "hit",
       "deprecatedIDs": [],
-      "name": "fading - 1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/fading2",
-      "deprecatedIDs": [],
-      "name": "fading - 2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/fading3",
-      "deprecatedIDs": [],
-      "name": "fading - 3",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/rain",
-      "deprecatedIDs": [],
       "name": "no ghost - raining",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 3.0,
-      "loops": true,
-      "stretchable": true
+      "stretchable": true,
+      "loops": true
     },
     {
       "type": "cue",
-      "id": "*/hit",
+      "id": "*/silence",
+      "name": "silence",
       "deprecatedIDs": [],
-      "name": "hit",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "equidistant",
-      "id": "*_sevenBeats",
-      "deprecatedIDs": [],
-      "name": "7 beats",
+      "id": "*_pattern1",
+      "name": "8 beats",
+      "deprecatedIDs": [
+        "sneakySpirits_eightBeats"
+      ],
       "distance": 1.0,
       "stretchable": true,
       "cues": [
@@ -74,15 +66,266 @@
           "id": "*/moving"
         },
         {
+          "id": "*/moving"
+        },
+        {
           "id": "*/hit"
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "equidistant",
-      "id": "*_eightBeats",
+      "id": "*_pattern2",
+      "name": "8 beats - late fade-out",
       "deprecatedIDs": [],
-      "name": "8 beats",
+      "distance": 1.0,
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/moving"
+        },
+        {
+          "id": "*/moving"
+        },
+        {
+          "id": "*/moving"
+        },
+        {
+          "id": "*/moving"
+        },
+        {
+          "id": "*_fading4"
+        },
+        {
+          "id": "*_fading7"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/hit"
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "equidistant",
+      "id": "*_pattern3",
+      "name": "8 beats - slow fade-out",
+      "deprecatedIDs": [],
+      "distance": 1.0,
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/moving"
+        },
+        {
+          "id": "*_fading2"
+        },
+        {
+          "id": "*_fading5"
+        },
+        {
+          "id": "*_fading8"
+        },
+        {
+          "id": "*_fading11"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/hit"
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "equidistant",
+      "id": "*_pattern4",
+      "name": "8 beats - fast fade-out",
+      "deprecatedIDs": [],
+      "distance": 1.0,
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/moving"
+        },
+        {
+          "id": "*_fading4"
+        },
+        {
+          "id": "*_fading8"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/hit"
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "equidistant",
+      "id": "*_pattern5",
+      "name": "8 beats - fade-in",
+      "deprecatedIDs": [],
+      "distance": 1.0,
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*_fading11"
+        },
+        {
+          "id": "*_fading9"
+        },
+        {
+          "id": "*_fading6"
+        },
+        {
+          "id": "*_fading4"
+        },
+        {
+          "id": "*_fading1"
+        },
+        {
+          "id": "*/moving"
+        },
+        {
+          "id": "*/hit"
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "equidistant",
+      "id": "*_pattern6",
+      "name": "8 beats - fade-in fade-out",
+      "deprecatedIDs": [],
+      "distance": 1.0,
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*_fading9"
+        },
+        {
+          "id": "*_fading5"
+        },
+        {
+          "id": "*_fading4"
+        },
+        {
+          "id": "*_fading7"
+        },
+        {
+          "id": "*_fading10"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/hit"
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "equidistant",
+      "id": "*_pattern7",
+      "name": "8 beats - fade-out fade-in",
+      "deprecatedIDs": [],
+      "distance": 1.0,
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*_fading11"
+        },
+        {
+          "id": "*_fading11"
+        },
+        {
+          "id": "*_fading12"
+        },
+        {
+          "id": "*_fading12"
+        },
+        {
+          "id": "*_fading8"
+        },
+        {
+          "id": "*_fading4"
+        },
+        {
+          "id": "*/moving"
+        },
+        {
+          "id": "*/hit"
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "equidistant",
+      "id": "*_pattern8",
+      "name": "8 beats - odd beat",
+      "deprecatedIDs": [],
+      "distance": 1.0,
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*_fading11"
+        },
+        {
+          "id": "*/moving"
+        },
+        {
+          "id": "*_fading12"
+        },
+        {
+          "id": "*/moving"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/moving"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/hit"
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "equidistant",
+      "id": "*_pattern9",
+      "name": "7 beats ",
+      "deprecatedIDs": [
+        "sneakySpirits_sevenBeats"
+      ],
       "distance": 1.0,
       "stretchable": true,
       "cues": [
@@ -105,12 +348,315 @@
           "id": "*/moving"
         },
         {
+          "id": "*/hit"
+        }
+      ],
+      "subtext": "(ex: GBA Remix 2)"
+    },
+    {
+      "type": "equidistant",
+      "id": "*_pattern10",
+      "name": "7 beats - late fade-out",
+      "deprecatedIDs": [],
+      "distance": 1.0,
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/moving"
+        },
+        {
+          "id": "*/moving"
+        },
+        {
+          "id": "*/moving"
+        },
+        {
+          "id": "*_fading4"
+        },
+        {
+          "id": "*_fading8"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/hit"
+        }
+      ],
+      "subtext": "(ex: 3DS Barbershop Remix)"
+    },
+    {
+      "type": "equidistant",
+      "id": "*_pattern11",
+      "name": "7 beats - fast fade-out",
+      "deprecatedIDs": [],
+      "distance": 1.0,
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/moving"
+        },
+        {
+          "id": "*_fading4"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/hit"
+        }
+      ],
+      "subtext": "(ex: 3DS Barbershop Remix)"
+    },
+    {
+      "type": "equidistant",
+      "id": "*_pattern12",
+      "name": "7 beats - fade-in",
+      "deprecatedIDs": [],
+      "distance": 1.0,
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*_fading11"
+        },
+        {
+          "id": "*_fading9"
+        },
+        {
+          "id": "*_fading6"
+        },
+        {
+          "id": "*_fading3"
+        },
+        {
           "id": "*/moving"
         },
         {
           "id": "*/hit"
         }
-      ]
+      ],
+      "subtext": "(ex: 3DS Barbershop Remix)"
+    },
+    {
+      "type": "equidistant",
+      "id": "*_patternUnused",
+      "name": "8 beats - no sound (unused)",
+      "deprecatedIDs": [],
+      "distance": 1.0,
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/silence"
+        },
+        {
+          "id": "*/hit"
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_fading1",
+      "name": "moving - fading - 81.25%",
+      "deprecatedIDs": [
+        "sneakySpirits/fading1"
+      ],
+      "cues": [
+        {
+          "id": "*/moving",
+          "beat": 0.0,
+          "volume": 81
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_fading2",
+      "name": "moving - fading - 75%",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/moving",
+          "beat": 0.0,
+          "volume": 75
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_fading3",
+      "name": "moving - fading - 68.75%",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/moving",
+          "beat": 0.0,
+          "volume": 69
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_fading4",
+      "name": "moving - fading - 62.5%",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/moving",
+          "beat": 0.0,
+          "volume": 63
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_fading5",
+      "name": "moving - fading - 50%",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/moving",
+          "beat": 0.0,
+          "volume": 50
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_fading6",
+      "name": "moving - fading - 43.75%",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/moving",
+          "beat": 0.0,
+          "volume": 44
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_fading7",
+      "name": "moving - fading - 37.5%",
+      "deprecatedIDs": [
+        "sneakySpirits/fading2"
+      ],
+      "cues": [
+        {
+          "id": "*/moving",
+          "beat": 0.0,
+          "volume": 38
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_fading8",
+      "name": "moving - fading - 31.25%",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/moving",
+          "beat": 0.0,
+          "volume": 31
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_fading9",
+      "name": "moving - fading - 25%",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/moving",
+          "beat": 0.0,
+          "volume": 25
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_fading10",
+      "name": "moving - fading - 18.75%",
+      "deprecatedIDs": [
+        "sneakySpirits/fading3"
+      ],
+      "cues": [
+        {
+          "id": "*/moving",
+          "beat": 0.0,
+          "volume": 19
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_fading11",
+      "name": "moving - fading - 12.5%",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/moving",
+          "beat": 0.0,
+          "volume": 13
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_fading12",
+      "name": "moving - fading - 6.25%",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/moving",
+          "beat": 0.0,
+          "volume": 6
+        }
+      ],
+      "subtext": ""
     }
   ]
 }
