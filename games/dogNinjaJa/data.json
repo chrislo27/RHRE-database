@@ -1,99 +1,112 @@
 {
-  "series": "ds",
   "id": "dogNinjaJa",
   "name": "Dog Ninja (DS)",
+  "series": "ds",
   "language": "ja",
   "group": "Dog Ninja (DS)",
   "objects": [
     {
       "type": "cue",
-      "id": "*/fruit1",
+      "id": "*/sign",
+      "name": "\"Cut everything!\"",
       "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/fruit1",
       "name": "fruit - out",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/fruit2",
-      "deprecatedIDs": [],
       "name": "fruit - slice",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/bone1",
-      "deprecatedIDs": [],
       "name": "bone - out",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/bone2",
-      "deprecatedIDs": [],
       "name": "bone - slice",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/tire1",
-      "deprecatedIDs": [],
       "name": "tire - out",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/tire2",
-      "deprecatedIDs": [],
       "name": "tire - slice",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/pan1",
-      "deprecatedIDs": [],
       "name": "pan - out",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/pan2",
-      "deprecatedIDs": [],
       "name": "pan - slice",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/sign",
       "deprecatedIDs": [],
-      "name": "\"Cut everything!\"",
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/dokkoisho1",
-      "deprecatedIDs": [],
       "name": "dokkoisho - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/dokkoisho2",
-      "deprecatedIDs": [],
       "name": "dokkoisho - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/dokkoisho3",
-      "deprecatedIDs": [],
       "name": "dokkoisho - 3",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.042
     },
     {
       "type": "pattern",
       "id": "*_fruit",
-      "deprecatedIDs": [],
       "name": "fruit",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/fruit1",
@@ -103,13 +116,14 @@
           "id": "*/fruit2",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_bone",
-      "deprecatedIDs": [],
       "name": "bone",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/bone1",
@@ -119,13 +133,14 @@
           "id": "*/bone2",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_tire",
-      "deprecatedIDs": [],
       "name": "tire",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/tire1",
@@ -135,13 +150,14 @@
           "id": "*/tire2",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_pan",
-      "deprecatedIDs": [],
       "name": "pan",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/pan1",
@@ -151,13 +167,14 @@
           "id": "*/pan2",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_dokkoisho",
-      "deprecatedIDs": [],
       "name": "here we go!",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/dokkoisho1",
@@ -171,7 +188,8 @@
           "id": "*/dokkoisho3",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
