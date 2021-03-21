@@ -1,261 +1,693 @@
 {
-  "series": "tengoku",
   "id": "nightWalk",
   "name": "Night Walk (GBA)",
+  "series": "tengoku",
   "objects": [
     {
       "type": "cue",
-      "id": "*/wot",
+      "id": "*/cowbell",
+      "name": "cowbell",
       "deprecatedIDs": [],
-      "name": "wot",
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/walk1",
-      "deprecatedIDs": [],
-      "name": "walk - 1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/walk2",
-      "deprecatedIDs": [],
-      "name": "walk - 2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/jump1",
-      "deprecatedIDs": [],
-      "name": "jump - flower",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/jump2",
-      "deprecatedIDs": [],
-      "name": "jump - lollipop",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/jump3",
-      "deprecatedIDs": [],
-      "name": "jump - umbrella",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/jumpUmbrella1",
+      "id": "*/missVoice",
+      "name": "miss - wot",
       "deprecatedIDs": [
-        "nightWalk/jumpUmbrella"
+        "nightWalk/wot"
       ],
-      "name": "jump UP - umbrella / end - 1",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/jumpUmbrella2",
-      "deprecatedIDs": [],
-      "name": "jump UP - umbrella / end - 2",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/disappear",
-      "deprecatedIDs": [],
-      "name": "box disappear",
+      "subtext": "",
       "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/missFall",
+      "name": "miss - fall",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/missShock",
+      "name": "miss - shock",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/boxOpen1",
+      "name": "box - open - flower",
+      "deprecatedIDs": [
+        "nightWalk/walk1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/boxOpen2",
+      "name": "box - open - lollipop",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/boxOpen3",
+      "name": "box - open - umbrella",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/boxKick",
+      "name": "box - kick",
+      "deprecatedIDs": [
+        "nightWalk/walk2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/kick",
+      "name": "jump - flower",
+      "deprecatedIDs": [
+        "nightWalk/jump1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/snare",
+      "name": "jump - lollipop",
+      "deprecatedIDs": [
+        "nightWalk/jump2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/umbrella",
+      "name": "jump - umbrella",
+      "deprecatedIDs": [
+        "nightWalk/jump3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/fill1A",
+      "name": "fill - 1 - a",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.16667
+    },
+    {
+      "type": "cue",
+      "id": "*/fill1B",
+      "name": "fill - 1 - b",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.16667
+    },
+    {
+      "type": "cue",
+      "id": "*/fill1C",
+      "name": "fill - 1 - c",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.16667
+    },
+    {
+      "type": "cue",
+      "id": "*/fill1D",
+      "name": "fill - 1 - d",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.16667
+    },
+    {
+      "type": "cue",
+      "id": "*/fill2A",
+      "name": "fill - 2 - a",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.16667
+    },
+    {
+      "type": "cue",
+      "id": "*/fill2B",
+      "name": "fill - 2 - b",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.33333
+    },
+    {
+      "type": "cue",
+      "id": "*/fill2C",
+      "name": "fill - 2 - c",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.16667
+    },
+    {
+      "type": "cue",
+      "id": "*/fill3A",
+      "name": "fill - 3 - a",
+      "deprecatedIDs": [
+        "nightWalk/jumpUmbrella",
+        "nightWalk/jumpUmbrella1"
+      ],
+      "subtext": "",
+      "duration": 0.16667
+    },
+    {
+      "type": "cue",
+      "id": "*/fill3B",
+      "name": "fill - 3 - b",
+      "deprecatedIDs": [
+        "nightWalk/jumpUmbrella2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/boxDisappear",
+      "name": "box - disappear",
+      "deprecatedIDs": [
+        "nightWalk/disappear"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "pattern",
+      "id": "*_countIn",
+      "name": "8 beat count-in",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/cowbell",
+          "beat": 0.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 2.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 4.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 5.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 6.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 7.0
+        }
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_walk",
-      "deprecatedIDs": [],
       "name": "walking",
-      "defaultDuration": 2.0,
+      "deprecatedIDs": [],
+      "defaultDuration": 1.0,
       "cues": [
         {
-          "id": "*/walk2",
+          "id": "*/boxKick",
           "beat": 0.0
         },
         {
-          "id": "*/walk1",
+          "id": "*/boxOpen1",
           "beat": 0.5
-        },
-        {
-          "id": "*/walk2",
-          "beat": 1.0
-        },
-        {
-          "id": "*/walk1",
-          "beat": 1.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_jump1",
-      "deprecatedIDs": [],
       "name": "four flowers",
+      "deprecatedIDs": [],
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "*/jump1",
+          "id": "*/kick",
           "beat": 0.0
         },
         {
-          "id": "*/jump1",
+          "id": "*/kick",
           "beat": 1.0
         },
         {
-          "id": "*/jump1",
+          "id": "*/kick",
           "beat": 2.0
         },
         {
-          "id": "*/jump1",
+          "id": "*/kick",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_jump2",
-      "deprecatedIDs": [],
       "name": "three flowers, one lollipop",
+      "deprecatedIDs": [],
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "*/jump1",
+          "id": "*/kick",
           "beat": 0.0
         },
         {
-          "id": "*/jump1",
+          "id": "*/kick",
           "beat": 1.0
         },
         {
-          "id": "*/jump1",
+          "id": "*/kick",
           "beat": 2.0
         },
         {
-          "id": "*/jump2",
+          "id": "*/snare",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_jump3",
+      "name": "two flowers, two lollipops",
       "deprecatedIDs": [
         "nightWalk_jump"
       ],
-      "name": "two flowers, two lollipops",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "*/jump1",
+          "id": "*/kick",
           "beat": 0.0
         },
         {
-          "id": "*/jump2",
+          "id": "*/snare",
           "beat": 1.0
         },
         {
-          "id": "*/jump1",
+          "id": "*/kick",
           "beat": 2.0
         },
         {
-          "id": "*/jump2",
+          "id": "*/snare",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_jump4",
+      "name": "four lollipops",
+      "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/snare",
+          "beat": 0.0
+        },
+        {
+          "id": "*/snare",
+          "beat": 1.0
+        },
+        {
+          "id": "*/snare",
+          "beat": 2.0
+        },
+        {
+          "id": "*/snare",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_jumpUmbrella1",
-      "deprecatedIDs": [],
       "name": "three flowers, one umbrella - same level",
+      "deprecatedIDs": [],
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "*/jump1",
+          "id": "*/kick",
           "beat": 0.0
         },
         {
-          "id": "*/jump1",
+          "id": "*/kick",
           "beat": 1.0
         },
         {
-          "id": "*/jump1",
+          "id": "*/kick",
           "beat": 2.0
         },
         {
-          "id": "*/jump3",
+          "id": "*/umbrella",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_jumpUmbrella2",
+      "name": "three flowers, one umbrella - up a level - A",
       "deprecatedIDs": [],
-      "name": "three flowers, one umbrella - up a level",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "*/jump1",
+          "id": "*/kick",
           "beat": 0.0
         },
         {
-          "id": "*/jump1",
+          "id": "*/kick",
           "beat": 1.0
         },
         {
-          "id": "*/jump1",
-          "beat": 2.0
+          "id": "*/kick",
+          "beat": 2.0,
+          "duration": 0.33333
         },
         {
-          "id": "*/jumpUmbrella1",
+          "id": "*/fill1A",
+          "beat": 2.33333
+        },
+        {
+          "id": "*/fill1B",
           "beat": 2.5
         },
         {
-          "id": "*/jumpUmbrella2",
-          "beat": 2.75
+          "id": "*/fill1C",
+          "beat": 2.66667
         },
         {
-          "id": "*/jump3",
+          "id": "*/fill1D",
+          "beat": 2.83333
+        },
+        {
+          "id": "*/umbrella",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_jumpUmbrella3",
+      "name": "three flowers, one umbrella - up a level - B",
+      "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/kick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/kick",
+          "beat": 1.0
+        },
+        {
+          "id": "*/kick",
+          "beat": 2.0,
+          "duration": 0.33333
+        },
+        {
+          "id": "*/fill2A",
+          "beat": 2.33333
+        },
+        {
+          "id": "*/fill2B",
+          "beat": 2.5
+        },
+        {
+          "id": "*/fill2C",
+          "beat": 2.83333
+        },
+        {
+          "id": "*/umbrella",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_jumpUmbrella4",
+      "name": "three flowers, one umbrella - up a level - C",
+      "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/kick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/kick",
+          "beat": 1.0
+        },
+        {
+          "id": "*/kick",
+          "beat": 2.0,
+          "duration": 0.33333
+        },
+        {
+          "id": "*/fill3A",
+          "beat": 2.33333
+        },
+        {
+          "id": "*/fill3B",
+          "beat": 2.5
+        },
+        {
+          "id": "*/umbrella",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_jumpUmbrella5",
+      "name": "two flowers, one lollipop, one umbrella - same level",
+      "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/kick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/snare",
+          "beat": 1.0
+        },
+        {
+          "id": "*/kick",
+          "beat": 2.0
+        },
+        {
+          "id": "*/umbrella",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_jumpUmbrella6",
+      "name": "two flowers, one lollipop, one umbrella - up a level - A",
+      "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/kick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/snare",
+          "beat": 1.0
+        },
+        {
+          "id": "*/kick",
+          "beat": 2.0,
+          "duration": 0.33333
+        },
+        {
+          "id": "*/fill1A",
+          "beat": 2.33333
+        },
+        {
+          "id": "*/fill1B",
+          "beat": 2.5
+        },
+        {
+          "id": "*/fill1C",
+          "beat": 2.66667
+        },
+        {
+          "id": "*/fill1D",
+          "beat": 2.83333
+        },
+        {
+          "id": "*/umbrella",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_jumpUmbrella7",
+      "name": "two flowers, one lollipop, one umbrella - up a level - B",
+      "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/kick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/snare",
+          "beat": 1.0
+        },
+        {
+          "id": "*/kick",
+          "beat": 2.0,
+          "duration": 0.33333
+        },
+        {
+          "id": "*/fill2A",
+          "beat": 2.33333
+        },
+        {
+          "id": "*/fill2B",
+          "beat": 2.5
+        },
+        {
+          "id": "*/fill2C",
+          "beat": 2.83333
+        },
+        {
+          "id": "*/umbrella",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_jumpUmbrella8",
+      "name": "two flowers, one lollipop, one umbrella - up a level - C",
+      "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/kick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/snare",
+          "beat": 1.0
+        },
+        {
+          "id": "*/kick",
+          "beat": 2.0,
+          "duration": 0.33333
+        },
+        {
+          "id": "*/fill3A",
+          "beat": 2.33333
+        },
+        {
+          "id": "*/fill3B",
+          "beat": 2.5
+        },
+        {
+          "id": "*/umbrella",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_jumpUmbrella9",
+      "name": "three lollipops, one umbrella - same level",
+      "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/snare",
+          "beat": 0.0
+        },
+        {
+          "id": "*/snare",
+          "beat": 1.0
+        },
+        {
+          "id": "*/snare",
+          "beat": 2.0
+        },
+        {
+          "id": "*/umbrella",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_disappear",
-      "deprecatedIDs": [],
       "name": "boxes disappearing",
+      "deprecatedIDs": [],
       "defaultDuration": 5.0,
       "cues": [
         {
-          "id": "*/disappear",
+          "id": "*/boxDisappear",
           "beat": 0.0
         },
         {
-          "id": "*/disappear",
+          "id": "*/boxDisappear",
           "beat": 1.0
         },
         {
-          "id": "*/disappear",
+          "id": "*/boxDisappear",
           "beat": 2.0
         },
         {
-          "id": "*/disappear",
+          "id": "*/boxDisappear",
           "beat": 3.0
         },
         {
-          "id": "*/disappear",
+          "id": "*/boxDisappear",
           "beat": 4.0
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
