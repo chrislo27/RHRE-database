@@ -23,7 +23,8 @@
         "airRallyMegamixJa/countIn1"
       ],
       "subtext": "",
-      "duration": 0.5
+      "duration": 0.5,
+      "earliness": 0.02
     },
     {
       "type": "cue",
@@ -34,7 +35,7 @@
       ],
       "subtext": "",
       "duration": 0.5,
-      "earliness": 0.0208
+      "earliness": 0.007
     },
     {
       "type": "cue",
@@ -45,7 +46,7 @@
       ],
       "subtext": "",
       "duration": 0.5,
-      "earliness": 0.0417
+      "earliness": 0.05
     },
     {
       "type": "cue",
@@ -55,7 +56,8 @@
         "airRallyMegamixJa/countIn4"
       ],
       "subtext": "",
-      "duration": 0.5
+      "duration": 0.5,
+      "earliness": 0.01
     },
     {
       "type": "cue",
