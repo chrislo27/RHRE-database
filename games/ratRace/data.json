@@ -1,55 +1,61 @@
 {
-  "series": "megamix",
   "id": "ratRace",
   "name": "Rat Race (Megamix)",
+  "series": "megamix",
   "objects": [
     {
       "type": "cue",
       "id": "*/trafficlight",
-      "deprecatedIDs": [],
       "name": "traffic light",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/stop1",
-      "deprecatedIDs": [],
       "name": "stop - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/stop2",
-      "deprecatedIDs": [],
       "name": "stop - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/stop3",
-      "deprecatedIDs": [],
       "name": "stop - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/start1",
-      "deprecatedIDs": [],
       "name": "start - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/start2",
-      "deprecatedIDs": [],
       "name": "start - 2",
-      "duration": 1.5
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "pattern",
       "id": "*_stopnolight",
-      "deprecatedIDs": [],
       "name": "stop - no light",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/stop1",
@@ -63,13 +69,14 @@
           "id": "*/stop3",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_stop",
-      "deprecatedIDs": [],
       "name": "stop - traffic light",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/trafficlight",
@@ -98,13 +105,14 @@
           "id": "*/stop3",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_startnolight",
-      "deprecatedIDs": [],
       "name": "start - no light",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/start1",
@@ -114,13 +122,14 @@
           "id": "*/start2",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_start",
-      "deprecatedIDs": [],
       "name": "start - traffic light",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/trafficlight",
@@ -145,7 +154,16 @@
           "id": "*/start2",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "cue",
+      "id": "*/victoryCheese",
+      "name": "cheese found",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     }
   ]
 }
