@@ -1,76 +1,85 @@
 {
-  "series": "ds",
   "id": "loveLizards",
   "name": "Love Lizards",
+  "series": "ds",
   "objects": [
     {
       "type": "cue",
       "id": "*/cowbell",
-      "deprecatedIDs": [],
       "name": "cowbell",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/bzzt1",
-      "deprecatedIDs": [],
       "name": "female güiro - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/bzzt2",
-      "deprecatedIDs": [],
       "name": "female güiro - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/bzzt3",
-      "deprecatedIDs": [],
       "name": "female güiro - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/bzzt4",
-      "deprecatedIDs": [],
       "name": "female güiro - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/bzzt5",
-      "deprecatedIDs": [],
       "name": "female güiro - 5",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/bzzt6",
-      "deprecatedIDs": [],
       "name": "female güiro - 6",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/shake",
-      "deprecatedIDs": [],
       "name": "male güiro",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/happy",
-      "deprecatedIDs": [],
       "name": "heart",
-      "duration": 1.0
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "pattern",
       "id": "*_matingDance",
-      "deprecatedIDs": [],
       "name": "mating dance",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/cowbell",
@@ -124,13 +133,158 @@
           "id": "*/happy",
           "beat": 5.5
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_matingDanceRemix3",
+      "name": "mating dance - Remix 3",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/cowbell",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 0.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 1.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*_randomBzzt",
+          "beat": 1.5,
+          "duration": 0.25
+        },
+        {
+          "id": "*/shake",
+          "beat": 1.5,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*_randomBzzt",
+          "beat": 1.75,
+          "duration": 0.25
+        },
+        {
+          "id": "*/shake",
+          "beat": 1.75,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*_randomBzzt",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/shake",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*_randomBzzt",
+          "beat": 2.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/shake",
+          "beat": 2.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/happy",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_matingDanceRemix3Swing",
+      "name": "mating dance - Remix 3 - swing",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/cowbell",
+          "beat": 0.0,
+          "duration": 0.33333
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 0.3333333,
+          "duration": 0.66667
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 1.0,
+          "duration": 0.33333
+        },
+        {
+          "id": "*_randomBzzt",
+          "beat": 1.3333333,
+          "duration": 0.33333
+        },
+        {
+          "id": "*/shake",
+          "beat": 1.3333333,
+          "duration": 0.33333,
+          "track": 1
+        },
+        {
+          "id": "*_randomBzzt",
+          "beat": 1.6666672,
+          "duration": 0.33333
+        },
+        {
+          "id": "*/shake",
+          "beat": 1.6666672,
+          "duration": 0.33333,
+          "track": 1
+        },
+        {
+          "id": "*_randomBzzt",
+          "beat": 2.0,
+          "duration": 0.33333
+        },
+        {
+          "id": "*/shake",
+          "beat": 2.0,
+          "duration": 0.33333,
+          "track": 1
+        },
+        {
+          "id": "*_randomBzzt",
+          "beat": 2.3333333,
+          "duration": 0.33333
+        },
+        {
+          "id": "*/shake",
+          "beat": 2.3333333,
+          "duration": 0.33333,
+          "track": 1
+        },
+        {
+          "id": "*/happy",
+          "beat": 3.3333333
+        }
+      ],
+      "subtext": ""
     },
     {
       "type": "randomCue",
       "id": "*_randomBzzt",
-      "deprecatedIDs": [],
       "name": "random female güiro chirp",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/bzzt1"
@@ -150,7 +304,8 @@
         {
           "id": "*/bzzt6"
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
