@@ -1,397 +1,528 @@
 {
-  "id" : "lockstepMegamix",
-  "name" : "Lockstep (Megamix)",
-  "series" : "megamix",
-  "objects" : [ {
-    "type" : "cue",
-    "id" : "*/switchHai1",
-    "name" : "hai - 1",
-    "deprecatedIDs" : [ "lockstepMegamix/hai" ],
-    "subtext" : "",
-    "duration" : 1.0,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/switchHai2",
-    "name" : "hai - 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/switchHaiNoStep",
-    "name" : "hai (no step)",
-    "deprecatedIDs" : [ "lockstepMegamix/haiNoStep" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/marchOnbeat1",
-    "name" : "onbeat - 1",
-    "deprecatedIDs" : [ "lockstepMegamix/march1" ],
-    "subtext" : "",
-    "duration" : 1.0,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/marchOnbeat2",
-    "name" : "onbeat - 2",
-    "deprecatedIDs" : [ "lockstepMegamix/march2" ],
-    "subtext" : "",
-    "duration" : 1.0,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/marchOffbeat1",
-    "name" : "offbeat - 1",
-    "deprecatedIDs" : [ "lockstepMegamix/march1_bkbt" ],
-    "subtext" : "",
-    "duration" : 1.0,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/marchOffbeat2",
-    "name" : "offbeat - 2",
-    "deprecatedIDs" : [ "lockstepMegamix/march2_bkbt" ],
-    "subtext" : "",
-    "duration" : 1.0,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/switchOnbeat1",
-    "name" : "onbeat - switch - ha",
-    "deprecatedIDs" : [ "lockstepMegamix/bkbt_ha" ],
-    "subtext" : "",
-    "duration" : 0.5,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/switchOnbeat2",
-    "name" : "onbeat - switch - hai",
-    "deprecatedIDs" : [ "lockstepMegamix/bkbt_hoi", "lockstepMegamix/bkbt_hai" ],
-    "subtext" : "",
-    "duration" : 0.875,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/switchOnbeat3",
-    "name" : "offbeat - start - 1",
-    "deprecatedIDs" : [ "lockstepMegamix/bkbt_boh", "lockstepMegamix/bkbt_ho" ],
-    "subtext" : "",
-    "duration" : 1.0,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/switchOnbeat4",
-    "name" : "offbeat - start - 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/switchOffbeat1",
-    "name" : "offbeat - switch - n",
-    "deprecatedIDs" : [ "lockstepMegamix/return_hee", "lockstepMegamix/return_n" ],
-    "subtext" : "",
-    "duration" : 0.5,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/switchOffbeat2",
-    "name" : "offbeat - switch - ha - 1",
-    "deprecatedIDs" : [ "lockstepMegamix/return_ha" ],
-    "subtext" : "",
-    "duration" : 0.375,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/switchOffbeat3",
-    "name" : "offbeat - switch - ha - 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.375,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/switchOffbeat1NoStep",
-    "name" : "offbeat - switch (no step) - n",
-    "deprecatedIDs" : [ "lockstepMegamix/return_heeNoStep", "lockstepMegamix/return_nNoStep" ],
-    "subtext" : "",
-    "duration" : 0.5,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/switchOffbeat2NoStep",
-    "name" : "offbeat - switch (no step) - ha",
-    "deprecatedIDs" : [ "lockstepMegamix/return_haNoStep" ],
-    "subtext" : "",
-    "duration" : 0.375,
-    "loopEnd" : -1.0
-  }, {
-    "type" : "keepTheBeat",
-    "id" : "*_onbeat",
-    "name" : "onbeat",
-    "deprecatedIDs" : [ ],
-    "defaultDuration" : 4.0,
-    "cues" : [ {
-      "id" : "*/marchOnbeat1",
-      "beat" : 0.0
-    }, {
-      "id" : "*/marchOnbeat2",
-      "beat" : 1.0
-    }, {
-      "id" : "*/marchOnbeat1",
-      "beat" : 2.0
-    }, {
-      "id" : "*/marchOnbeat2",
-      "beat" : 3.0
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "keepTheBeat",
-    "id" : "*_offbeat",
-    "name" : "offbeat",
-    "deprecatedIDs" : [ ],
-    "defaultDuration" : 4.0,
-    "cues" : [ {
-      "id" : "*/marchOffbeat1",
-      "beat" : 0.0
-    }, {
-      "id" : "*/marchOffbeat2",
-      "beat" : 1.0
-    }, {
-      "id" : "*/marchOffbeat1",
-      "beat" : 2.0
-    }, {
-      "id" : "*/marchOffbeat2",
-      "beat" : 3.0
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_onToOff",
-    "name" : "on to off",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/switchHai1",
-      "beat" : 0.0
-    }, {
-      "id" : "*/switchHai2",
-      "beat" : 1.0
-    }, {
-      "id" : "*/switchHai1",
-      "beat" : 2.0
-    }, {
-      "id" : "*/switchOnbeat1",
-      "beat" : 3.0
-    }, {
-      "id" : "*/switchOnbeat2",
-      "beat" : 3.5
-    }, {
-      "id" : "*/switchOnbeat3",
-      "beat" : 4.5
-    }, {
-      "id" : "*/switchOnbeat4",
-      "beat" : 5.5
-    }, {
-      "id" : "*/switchOnbeat3",
-      "beat" : 6.5
-    }, {
-      "id" : "*/switchOnbeat4",
-      "beat" : 7.5
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_onToOffSwing",
-    "name" : "on to off - swing",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/switchHai1",
-      "beat" : 0.0
-    }, {
-      "id" : "*/switchHai2",
-      "beat" : 1.0
-    }, {
-      "id" : "*/switchHai1",
-      "beat" : 2.0
-    }, {
-      "id" : "*/switchOnbeat1",
-      "beat" : 3.0
-    }, {
-      "id" : "*/switchOnbeat2",
-      "beat" : 3.625
-    }, {
-      "id" : "*/switchOnbeat3",
-      "beat" : 4.625
-    }, {
-      "id" : "*/switchOnbeat4",
-      "beat" : 5.625
-    }, {
-      "id" : "*/switchOnbeat3",
-      "beat" : 6.625
-    }, {
-      "id" : "*/switchOnbeat4",
-      "beat" : 7.625
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_onToOffNoStep",
-    "name" : "on to off - no step",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/switchHaiNoStep",
-      "beat" : 0.0
-    }, {
-      "id" : "*/switchHaiNoStep",
-      "beat" : 1.0
-    }, {
-      "id" : "*/switchHaiNoStep",
-      "beat" : 2.0
-    }, {
-      "id" : "*/switchOnbeat1",
-      "beat" : 3.0
-    }, {
-      "id" : "*/switchOnbeat2",
-      "beat" : 3.5
-    }, {
-      "id" : "*/switchOnbeat3",
-      "beat" : 4.5
-    }, {
-      "id" : "*/switchOnbeat4",
-      "beat" : 5.5
-    }, {
-      "id" : "*/switchOnbeat3",
-      "beat" : 6.5
-    }, {
-      "id" : "*/switchOnbeat4",
-      "beat" : 7.5
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_onToOffSwingNoStep",
-    "name" : "on to off - swing",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/switchHaiNoStep",
-      "beat" : 0.0
-    }, {
-      "id" : "*/switchHaiNoStep",
-      "beat" : 1.0
-    }, {
-      "id" : "*/switchHaiNoStep",
-      "beat" : 2.0
-    }, {
-      "id" : "*/switchOnbeat1",
-      "beat" : 3.0
-    }, {
-      "id" : "*/switchOnbeat2",
-      "beat" : 3.625
-    }, {
-      "id" : "*/switchOnbeat3",
-      "beat" : 4.625
-    }, {
-      "id" : "*/switchOnbeat4",
-      "beat" : 5.625
-    }, {
-      "id" : "*/switchOnbeat3",
-      "beat" : 6.625
-    }, {
-      "id" : "*/switchOnbeat4",
-      "beat" : 7.625
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_offToOn",
-    "name" : "off to on",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/switchOffbeat1",
-      "beat" : 0.0
-    }, {
-      "id" : "*/switchOffbeat2",
-      "beat" : 0.5
-    }, {
-      "id" : "*/switchOffbeat1",
-      "beat" : 1.0
-    }, {
-      "id" : "*/switchOffbeat3",
-      "beat" : 1.5
-    }, {
-      "id" : "*/switchHai1",
-      "beat" : 2.0
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_offToOnSwing",
-    "name" : "off to on - swing",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/switchOffbeat1",
-      "beat" : 0.0
-    }, {
-      "id" : "*/switchOffbeat2",
-      "beat" : 0.625
-    }, {
-      "id" : "*/switchOffbeat1",
-      "beat" : 1.0
-    }, {
-      "id" : "*/switchOffbeat3",
-      "beat" : 1.625
-    }, {
-      "id" : "*/switchHai1",
-      "beat" : 2.0
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_offToOnNoStep",
-    "name" : "off to on - no step",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/switchOffbeat1NoStep",
-      "beat" : 0.0
-    }, {
-      "id" : "*/switchOffbeat2NoStep",
-      "beat" : 0.5
-    }, {
-      "id" : "*/switchOffbeat1NoStep",
-      "beat" : 1.0
-    }, {
-      "id" : "*/switchOffbeat2NoStep",
-      "beat" : 1.5
-    }, {
-      "id" : "*/switchHai1",
-      "beat" : 2.0
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_offToOnSwingNoStep",
-    "name" : "off to on - swing",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/switchOffbeat1NoStep",
-      "beat" : 0.0
-    }, {
-      "id" : "*/switchOffbeat2NoStep",
-      "beat" : 0.625
-    }, {
-      "id" : "*/switchOffbeat1NoStep",
-      "beat" : 1.0
-    }, {
-      "id" : "*/switchOffbeat2NoStep",
-      "beat" : 1.625
-    }, {
-      "id" : "*/switchHai1",
-      "beat" : 2.0
-    } ],
-    "subtext" : ""
-  } ]
+  "id": "lockstepMegamix",
+  "name": "Lockstep (Megamix)",
+  "series": "megamix",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/switchHai1",
+      "name": "hai - 1",
+      "deprecatedIDs": [
+        "lockstepMegamix/hai"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/switchHai2",
+      "name": "hai - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/switchHaiNoStep",
+      "name": "hai (no step)",
+      "deprecatedIDs": [
+        "lockstepMegamix/haiNoStep"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/marchOnbeat1",
+      "name": "onbeat - 1",
+      "deprecatedIDs": [
+        "lockstepMegamix/march1"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/marchOnbeat2",
+      "name": "onbeat - 2",
+      "deprecatedIDs": [
+        "lockstepMegamix/march2"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/marchOffbeat1",
+      "name": "offbeat - 1",
+      "deprecatedIDs": [
+        "lockstepMegamix/march1_bkbt"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/marchOffbeat2",
+      "name": "offbeat - 2",
+      "deprecatedIDs": [
+        "lockstepMegamix/march2_bkbt"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/switchOnbeat1",
+      "name": "onbeat - switch - ha",
+      "deprecatedIDs": [
+        "lockstepMegamix/bkbt_ha"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/switchOnbeat2",
+      "name": "onbeat - switch - hai",
+      "deprecatedIDs": [
+        "lockstepMegamix/bkbt_hoi",
+        "lockstepMegamix/bkbt_hai"
+      ],
+      "subtext": "",
+      "duration": 0.875,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/switchOnbeat3",
+      "name": "offbeat - start - 1",
+      "deprecatedIDs": [
+        "lockstepMegamix/bkbt_boh",
+        "lockstepMegamix/bkbt_ho"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/switchOnbeat4",
+      "name": "offbeat - start - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/switchOffbeat1",
+      "name": "offbeat - switch - n",
+      "deprecatedIDs": [
+        "lockstepMegamix/return_hee",
+        "lockstepMegamix/return_n"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/switchOffbeat2",
+      "name": "offbeat - switch - ha - 1",
+      "deprecatedIDs": [
+        "lockstepMegamix/return_ha"
+      ],
+      "subtext": "",
+      "duration": 0.375,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/switchOffbeat3",
+      "name": "offbeat - switch - ha - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.375,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/switchOffbeat1NoStep",
+      "name": "offbeat - switch (no step) - n",
+      "deprecatedIDs": [
+        "lockstepMegamix/return_heeNoStep",
+        "lockstepMegamix/return_nNoStep"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/switchOffbeat2NoStep",
+      "name": "offbeat - switch (no step) - ha",
+      "deprecatedIDs": [
+        "lockstepMegamix/return_haNoStep"
+      ],
+      "subtext": "",
+      "duration": 0.375,
+      "loopEnd": -1.0
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_onbeat",
+      "name": "onbeat",
+      "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/marchOnbeat1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/marchOnbeat2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/marchOnbeat1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/marchOnbeat2",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_offbeat",
+      "name": "offbeat",
+      "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/marchOffbeat1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/marchOffbeat2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/marchOffbeat1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/marchOffbeat2",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_onToOff",
+      "name": "on to off",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/switchHai1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/switchHai2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/switchHai1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/switchOnbeat1",
+          "beat": 3.0
+        },
+        {
+          "id": "*/switchOnbeat2",
+          "beat": 3.5
+        },
+        {
+          "id": "*/switchOnbeat3",
+          "beat": 4.5
+        },
+        {
+          "id": "*/switchOnbeat4",
+          "beat": 5.5
+        },
+        {
+          "id": "*/switchOnbeat3",
+          "beat": 6.5
+        },
+        {
+          "id": "*/switchOnbeat4",
+          "beat": 7.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_onToOffSwing",
+      "name": "on to off - swing",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/switchHai1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/switchHai2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/switchHai1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/switchOnbeat1",
+          "beat": 3.0
+        },
+        {
+          "id": "*/switchOnbeat2",
+          "beat": 3.625
+        },
+        {
+          "id": "*/switchOnbeat3",
+          "beat": 4.625
+        },
+        {
+          "id": "*/switchOnbeat4",
+          "beat": 5.625
+        },
+        {
+          "id": "*/switchOnbeat3",
+          "beat": 6.625
+        },
+        {
+          "id": "*/switchOnbeat4",
+          "beat": 7.625
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_onToOffNoStep",
+      "name": "on to off - no step",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/switchHaiNoStep",
+          "beat": 0.0
+        },
+        {
+          "id": "*/switchHaiNoStep",
+          "beat": 1.0
+        },
+        {
+          "id": "*/switchHaiNoStep",
+          "beat": 2.0
+        },
+        {
+          "id": "*/switchOnbeat1",
+          "beat": 3.0
+        },
+        {
+          "id": "*/switchOnbeat2",
+          "beat": 3.5
+        },
+        {
+          "id": "*/switchOnbeat3",
+          "beat": 4.5
+        },
+        {
+          "id": "*/switchOnbeat4",
+          "beat": 5.5
+        },
+        {
+          "id": "*/switchOnbeat3",
+          "beat": 6.5
+        },
+        {
+          "id": "*/switchOnbeat4",
+          "beat": 7.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_onToOffSwingNoStep",
+      "name": "on to off - swing - no step",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/switchHaiNoStep",
+          "beat": 0.0
+        },
+        {
+          "id": "*/switchHaiNoStep",
+          "beat": 1.0
+        },
+        {
+          "id": "*/switchHaiNoStep",
+          "beat": 2.0
+        },
+        {
+          "id": "*/switchOnbeat1",
+          "beat": 3.0
+        },
+        {
+          "id": "*/switchOnbeat2",
+          "beat": 3.625
+        },
+        {
+          "id": "*/switchOnbeat3",
+          "beat": 4.625
+        },
+        {
+          "id": "*/switchOnbeat4",
+          "beat": 5.625
+        },
+        {
+          "id": "*/switchOnbeat3",
+          "beat": 6.625
+        },
+        {
+          "id": "*/switchOnbeat4",
+          "beat": 7.625
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_offToOn",
+      "name": "off to on",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/switchOffbeat1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/switchOffbeat2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/switchOffbeat1",
+          "beat": 1.0
+        },
+        {
+          "id": "*/switchOffbeat3",
+          "beat": 1.5
+        },
+        {
+          "id": "*/switchHai1",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_offToOnSwing",
+      "name": "off to on - swing",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/switchOffbeat1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/switchOffbeat2",
+          "beat": 0.625
+        },
+        {
+          "id": "*/switchOffbeat1",
+          "beat": 1.0
+        },
+        {
+          "id": "*/switchOffbeat3",
+          "beat": 1.625
+        },
+        {
+          "id": "*/switchHai1",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_offToOnNoStep",
+      "name": "off to on - no step",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/switchOffbeat1NoStep",
+          "beat": 0.0
+        },
+        {
+          "id": "*/switchOffbeat2NoStep",
+          "beat": 0.5
+        },
+        {
+          "id": "*/switchOffbeat1NoStep",
+          "beat": 1.0
+        },
+        {
+          "id": "*/switchOffbeat2NoStep",
+          "beat": 1.5
+        },
+        {
+          "id": "*/switchHai1",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_offToOnSwingNoStep",
+      "name": "off to on - swing - no step",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/switchOffbeat1NoStep",
+          "beat": 0.0
+        },
+        {
+          "id": "*/switchOffbeat2NoStep",
+          "beat": 0.625
+        },
+        {
+          "id": "*/switchOffbeat1NoStep",
+          "beat": 1.0
+        },
+        {
+          "id": "*/switchOffbeat2NoStep",
+          "beat": 1.625
+        },
+        {
+          "id": "*/switchHai1",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    }
+  ]
 }
