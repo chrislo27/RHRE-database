@@ -1,7 +1,7 @@
 {
-  "series": "tengoku",
   "id": "polyrhythm",
   "name": "Polyrhythm",
+  "series": "tengoku",
   "searchHints": [
     "built to scale"
   ],
@@ -9,10 +9,11 @@
     {
       "type": "cue",
       "id": "*/aSpring",
+      "name": "call - A",
       "deprecatedIDs": [
         "polyrhythm/side_a"
       ],
-      "name": "spring - A",
+      "subtext": "",
       "duration": 0.5,
       "responseIDs": [
         "*/aWidget"
@@ -21,10 +22,11 @@
     {
       "type": "cue",
       "id": "*/dPadSpring",
+      "name": "call - +",
       "deprecatedIDs": [
         "polyrhythm/side_d"
       ],
-      "name": "spring - +",
+      "subtext": "",
       "duration": 0.5,
       "responseIDs": [
         "*/dPadWidget"
@@ -33,46 +35,52 @@
     {
       "type": "cue",
       "id": "*/aWidget",
+      "name": "response - A",
       "deprecatedIDs": [],
-      "name": "widget - A",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/dPadWidget",
+      "name": "response - +",
       "deprecatedIDs": [],
-      "name": "widget - +",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/retract",
-      "deprecatedIDs": [
-        "polyrhythm/enter"
-      ],
-      "name": "springs - retracting",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/land",
+      "name": "rod - landing",
       "deprecatedIDs": [],
-      "name": "cylinder - landing",
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/retract",
+      "name": "boxes - close",
+      "deprecatedIDs": [
+        "polyrhythm/enter"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/disappear",
+      "name": "boxes - (dis)appear",
       "deprecatedIDs": [],
-      "name": "springs - disappearing",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/clear",
+      "name": "applause",
       "deprecatedIDs": [],
-      "name": "clear",
-      "duration": 4.0
+      "subtext": "",
+      "duration": 3.0
     }
   ]
 }
