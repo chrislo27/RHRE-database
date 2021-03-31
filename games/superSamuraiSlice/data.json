@@ -25,7 +25,7 @@
     {
       "type": "cue",
       "id": "*/thankYou3",
-      "name": "ending - warioware - thank you",
+      "name": "ending - WarioWare - thank you",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 5.0
@@ -585,7 +585,7 @@
     {
       "type": "cue",
       "id": "*/thankYouWarioware",
-      "name": "ending - thank you - warioware",
+      "name": "ending - thank you - WarioWare",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
