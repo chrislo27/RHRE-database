@@ -1,420 +1,594 @@
 {
-  "series": "megamix",
   "id": "superSamuraiSlice",
   "name": "Super Samurai Slice",
+  "series": "megamix",
   "priority": 1,
   "objects": [
     {
       "type": "cue",
-      "id": "*/princessKidnapped",
-      "deprecatedIDs": [],
-      "name": "start - girl kidnapped",
-      "duration": 5.0
-    },
-    {
-      "type": "cue",
-      "id": "*/princessRescued",
-      "deprecatedIDs": [],
-      "name": "ending - thank you",
-      "duration": 5.0
-    },
-    {
-      "type": "cue",
-      "id": "*/appear",
-      "deprecatedIDs": [],
-      "name": "demon - appear",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/appearWater",
+      "id": "*/thankYou1",
+      "name": "ending - girl - thank you",
       "deprecatedIDs": [
-        "superSamuraiSlice/appearwater"
+        "superSamuraiSlice/princessRescued"
       ],
-      "name": "demon - appear - water splash",
-      "duration": 1.0
+      "subtext": "",
+      "duration": 5.0
     },
     {
       "type": "cue",
-      "id": "*/appearLeaves",
+      "id": "*/thankYou2",
+      "name": "ending - girls -  thank you",
       "deprecatedIDs": [],
-      "name": "demon - appear - bushes",
-      "duration": 1.0
+      "subtext": "",
+      "duration": 5.0
     },
     {
       "type": "cue",
-      "id": "*/explode",
+      "id": "*/thankYou3",
+      "name": "ending - warioware - thank you",
       "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 5.0
+    },
+    {
+      "type": "cue",
+      "id": "*/eagle1",
+      "name": "eagle - 1",
+      "deprecatedIDs": [
+        "superSamuraiSlice/mrEagleflight",
+        "superSamuraiSlice/mrEagleFlight"
+      ],
+      "subtext": "",
+      "duration": 1.5
+    },
+    {
+      "type": "cue",
+      "id": "*/eagle2",
+      "name": "eagle - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.5
+    },
+    {
+      "type": "cue",
+      "id": "*/demonAppearWater",
+      "name": "demon - appear - water",
+      "deprecatedIDs": [
+        "superSamuraiSlice/appearwater",
+        "superSamuraiSlice/appearWater"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/demonAppearBush",
+      "name": "demon - appear - bush",
+      "deprecatedIDs": [
+        "superSamuraiSlice/appearLeaves"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/demonAppear",
+      "name": "demon - appear",
+      "deprecatedIDs": [
+        "superSamuraiSlice/appear"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/demonExplode",
       "name": "demon - explode",
+      "deprecatedIDs": [
+        "superSamuraiSlice/explode"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/slice1",
-      "deprecatedIDs": [],
-      "name": "samurai - slice - 1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/slice2",
-      "deprecatedIDs": [],
-      "name": "samurai - slice - 2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/slice3",
-      "deprecatedIDs": [],
-      "name": "samurai - slice - 3",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/slice4",
-      "deprecatedIDs": [],
-      "name": "samurai - slice - 4",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/bigDemon1",
-      "deprecatedIDs": [],
+      "id": "*/bigDemonAppear1",
       "name": "big demon - appear - 1",
+      "deprecatedIDs": [
+        "superSamuraiSlice/bigDemon1"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/bigDemon2",
-      "deprecatedIDs": [],
+      "id": "*/bigDemonAppear2",
       "name": "big demon - appear - 2",
+      "deprecatedIDs": [
+        "superSamuraiSlice/bigDemon2"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/bigDemon3",
-      "deprecatedIDs": [],
+      "id": "*/bigDemonAppear3",
       "name": "big demon - appear - 3",
+      "deprecatedIDs": [
+        "superSamuraiSlice/bigDemon3"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/bigDemonSword",
+      "id": "*/bigDemonBlades1",
+      "name": "big demon - blade - 1",
       "deprecatedIDs": [],
-      "name": "big demon - sword",
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/bigDemonBlades2",
+      "name": "big demon - blade - 2",
+      "deprecatedIDs": [
+        "superSamuraiSlice/bigDemonSword"
+      ],
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/bigDemonSlice1",
+      "id": "*/bigDemonBlades3",
+      "name": "big demon - blade - 3",
       "deprecatedIDs": [],
-      "name": "big demon - slice - 1",
-      "duration": 1.0
+      "subtext": "",
+      "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/bigDemonSlice2",
-      "deprecatedIDs": [],
-      "name": "big demon - slice - 2",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/mrEagleFlight",
+      "id": "*/bigDemonSlice",
+      "name": "big demon - slice",
       "deprecatedIDs": [
-        "superSamuraiSlice/mrEagleflight"
+        "superSamuraiSlice/bigDemonSlice1"
       ],
-      "name": "mr. eagle",
-      "duration": 1.5
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/bigDemonExplode",
+      "name": "big demon - explode",
+      "deprecatedIDs": [
+        "superSamuraiSlice/bigDemonSlice2"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/samuraiSlice1",
+      "name": "samurai - slice - 1",
+      "deprecatedIDs": [
+        "superSamuraiSlice/slice1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/samuraiSlice2",
+      "name": "samurai - slice - 2",
+      "deprecatedIDs": [
+        "superSamuraiSlice/slice2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/samuraiSlice3",
+      "name": "samurai - slice - 3",
+      "deprecatedIDs": [
+        "superSamuraiSlice/slice3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/samuraiSlice4",
+      "name": "samurai - slice - 4",
+      "deprecatedIDs": [
+        "superSamuraiSlice/slice4"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/start1",
+      "name": "start - girl kidnapped",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 4.0
+    },
+    {
+      "type": "cue",
+      "id": "*/start2",
+      "name": "start - girls kidnapped",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 4.0
+    },
+    {
+      "type": "cue",
+      "id": "*/startWalk",
+      "name": "start - walk",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "pattern",
       "id": "*_demon",
-      "deprecatedIDs": [],
       "name": "demon",
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/appear",
+          "id": "*/demonAppear",
           "beat": 0.0
         },
         {
-          "id": "*/slice1",
+          "id": "*/samuraiSlice1",
           "beat": 2.0
         },
         {
-          "id": "*/explode",
+          "id": "*/demonExplode",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_demonWater",
+      "name": "demon from the water",
       "deprecatedIDs": [],
-      "name": "demon with a splash",
       "cues": [
         {
-          "id": "*/appear",
+          "id": "*/demonAppear",
           "beat": 0.0
         },
         {
-          "id": "*/appearWater",
+          "id": "*/demonAppearWater",
           "beat": 1.0
         },
         {
-          "id": "*/slice1",
+          "id": "*/samuraiSlice1",
           "beat": 2.0
         },
         {
-          "id": "*/explode",
+          "id": "*/demonExplode",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_demonBush",
-      "deprecatedIDs": [],
       "name": "demon from a bush",
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/appear",
+          "id": "*/demonAppear",
           "beat": 0.0
         },
         {
-          "id": "*/appearLeaves",
+          "id": "*/demonAppearBush",
           "beat": 1.0
         },
         {
-          "id": "*/slice1",
+          "id": "*/samuraiSlice1",
           "beat": 2.0
         },
         {
-          "id": "*/explode",
+          "id": "*/demonExplode",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_demonTwo",
-      "deprecatedIDs": [],
       "name": "two demons",
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/appear",
+          "id": "*/demonAppear",
           "beat": 0.0
         },
         {
-          "id": "*/appear",
+          "id": "*/demonAppear",
           "beat": 1.0
         },
         {
-          "id": "*/slice1",
+          "id": "*/samuraiSlice1",
           "beat": 2.0
         },
         {
-          "id": "*/slice2",
+          "id": "*/samuraiSlice2",
           "beat": 3.0
         },
         {
-          "id": "*/explode",
+          "id": "*/demonExplode",
           "beat": 4.0
         },
         {
-          "id": "*/explode",
+          "id": "*/demonExplode",
           "beat": 5.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_demonTwoFast",
-      "deprecatedIDs": [],
       "name": "two demons - fast",
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/appear",
+          "id": "*/demonAppear",
           "beat": 0.0
         },
         {
-          "id": "*/appear",
+          "id": "*/demonAppear",
           "beat": 0.5
         },
         {
-          "id": "*/slice1",
+          "id": "*/samuraiSlice1",
           "beat": 2.0
         },
         {
-          "id": "*/slice2",
+          "id": "*/samuraiSlice2",
           "beat": 2.5
         },
         {
-          "id": "*/explode",
+          "id": "*/demonExplode",
           "beat": 3.0
         },
         {
-          "id": "*/explode",
+          "id": "*/demonExplode",
           "beat": 3.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_demonThree",
-      "deprecatedIDs": [],
       "name": "three demons",
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/appear",
+          "id": "*/demonAppear",
           "beat": 0.0
         },
         {
-          "id": "*/appear",
+          "id": "*/demonAppear",
           "beat": 0.5
         },
         {
-          "id": "*/appear",
+          "id": "*/demonAppear",
           "beat": 1.0
         },
         {
-          "id": "*/slice1",
+          "id": "*/samuraiSlice1",
           "beat": 2.0
         },
         {
-          "id": "*/slice2",
+          "id": "*/samuraiSlice2",
           "beat": 2.5
         },
         {
-          "id": "*/slice3",
+          "id": "*/samuraiSlice3",
           "beat": 3.0
         },
         {
-          "id": "*/explode",
+          "id": "*/demonExplode",
           "beat": 4.0
         },
         {
-          "id": "*/explode",
+          "id": "*/demonExplode",
           "beat": 4.5
         },
         {
-          "id": "*/explode",
+          "id": "*/demonExplode",
           "beat": 5.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_demonFour",
-      "deprecatedIDs": [],
       "name": "four demons",
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/appear",
-          "beat": 0.0,
-          "track": 1
+          "id": "*/demonAppear",
+          "beat": 0.0
         },
         {
-          "id": "*/appear",
-          "beat": 0.5,
-          "track": 1
+          "id": "*/demonAppear",
+          "beat": 0.5
         },
         {
-          "id": "*/appear",
-          "beat": 1.0,
-          "track": 1
+          "id": "*/demonAppear",
+          "beat": 1.0
         },
         {
-          "id": "*/appear",
-          "beat": 1.5,
-          "track": 1
+          "id": "*/demonAppear",
+          "beat": 1.5
         },
         {
-          "id": "*/slice1",
-          "beat": 2.0,
-          "track": 1
+          "id": "*/samuraiSlice1",
+          "beat": 2.0
         },
         {
-          "id": "*/slice2",
-          "beat": 2.5,
-          "track": 1
+          "id": "*/samuraiSlice2",
+          "beat": 2.5
         },
         {
-          "id": "*/slice3",
-          "beat": 3.0,
-          "track": 1
+          "id": "*/samuraiSlice3",
+          "beat": 3.0
         },
         {
-          "id": "*/slice4",
-          "beat": 3.5,
-          "track": 1
+          "id": "*/samuraiSlice4",
+          "beat": 3.5
         },
         {
-          "id": "*/explode",
-          "beat": 4.0
+          "id": "*/demonExplode",
+          "beat": 4.0,
+          "duration": 0.25
         },
         {
-          "id": "*/explode",
+          "id": "*/demonExplode",
           "beat": 4.25,
-          "track": 1
+          "duration": 0.25
         },
         {
-          "id": "*/explode",
+          "id": "*/demonExplode",
           "beat": 4.5
         },
         {
-          "id": "*/explode",
+          "id": "*/demonExplode",
           "beat": 5.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_bigDemon",
-      "deprecatedIDs": [],
       "name": "big demon",
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/bigDemon1",
+          "id": "*/bigDemonAppear1",
           "beat": 0.0
         },
         {
-          "id": "*/bigDemon2",
+          "id": "*/bigDemonAppear2",
           "beat": 0.5
         },
         {
-          "id": "*/bigDemon3",
+          "id": "*/bigDemonAppear3",
           "beat": 1.0
         },
         {
-          "id": "*/bigDemonSword",
+          "id": "*/bigDemonBlades1",
           "beat": 3.0
         },
         {
-          "id": "*/bigDemonSword",
+          "id": "*/bigDemonBlades2",
           "beat": 3.5
         },
         {
-          "id": "*/bigDemonSword",
+          "id": "*/bigDemonBlades2",
           "beat": 3.75
         },
         {
-          "id": "*/bigDemonSword",
-          "beat": 4.0
+          "id": "*/bigDemonBlades2",
+          "beat": 4.0,
+          "duration": 0.5
         },
         {
-          "id": "*/bigDemonSword",
-          "beat": 4.5
+          "id": "*/bigDemonBlades3",
+          "beat": 4.5,
+          "duration": 0.5
         },
         {
-          "id": "*/bigDemonSlice1",
+          "id": "*/bigDemonSlice",
           "beat": 5.0
         },
         {
-          "id": "*/bigDemonSlice2",
+          "id": "*/bigDemonExplode",
           "beat": 6.0
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_start1",
+      "name": "start - girl kidnapped",
+      "deprecatedIDs": [
+        "superSamuraiSlice/princessKidnapped"
+      ],
+      "cues": [
+        {
+          "id": "*/start1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/startWalk",
+          "beat": 4.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_start2",
+      "name": "start - girls kidnapped",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/start2",
+          "beat": 0.0
+        },
+        {
+          "id": "*/startWalk",
+          "beat": 6.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "cue",
+      "id": "*/thankYou",
+      "name": "ending - thank you",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/thankYouBlade",
+      "name": "ending - thank you - blade",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/thankYouShort",
+      "name": "ending - thank you - girls",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "*/thankYouWarioware",
+      "name": "ending - thank you - warioware",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
     }
   ]
 }
