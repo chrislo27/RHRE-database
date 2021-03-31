@@ -7,1188 +7,1212 @@
   "objects": [
     {
       "type": "cue",
-      "id": "*/ding",
-      "deprecatedIDs": [],
-      "name": "ding",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/flip",
-      "deprecatedIDs": [],
-      "name": "flip",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/flipB1",
-      "deprecatedIDs": [],
-      "name": "flip - back - 1",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/flipB2",
-      "deprecatedIDs": [],
-      "name": "flip - back - 2",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/roll",
-      "deprecatedIDs": [],
-      "name": "roll",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
       "id": "*/uh1",
-      "deprecatedIDs": [],
       "name": "uh - 1",
-      "duration": 0.5,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/uh2",
-      "deprecatedIDs": [],
       "name": "uh - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5,
-      "fileExtension": "ogg"
+      "earliness": 0.031
     },
     {
       "type": "cue",
       "id": "*/uh3",
-      "deprecatedIDs": [],
       "name": "uh - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5,
-      "fileExtension": "ogg"
+      "earliness": 0.021
     },
     {
       "type": "cue",
       "id": "*/appreciation/good",
-      "deprecatedIDs": [],
       "name": "appreciation - good",
-      "duration": 1.0,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/appreciation/goodjob",
-      "deprecatedIDs": [],
       "name": "appreciation - good job",
-      "duration": 1.0,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/appreciation/nice",
-      "deprecatedIDs": [],
       "name": "appreciation - nice",
-      "duration": 1.0,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/appreciation/welldone",
-      "deprecatedIDs": [],
       "name": "appreciation - well done!",
-      "duration": 1.0,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/appreciation/yes",
-      "deprecatedIDs": [],
       "name": "appreciation - yes",
-      "duration": 1.0,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/ding",
+      "name": "ding",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/flip1",
+      "name": "flip - 1",
+      "deprecatedIDs": [
+        "flipperFlopEn/flip"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/flip2",
+      "name": "flip - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/flipB1",
+      "name": "flip - back - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/flipB2",
+      "name": "flip - back - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/rollL",
+      "name": "roll - left",
+      "deprecatedIDs": [
+        "flipperFlopEn/roll"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/rollR",
+      "name": "roll - right",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/appreciation/thatsit1",
-      "deprecatedIDs": [],
       "name": "that's it - that's",
-      "duration": 0.5,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/appreciation/thatsit2",
-      "deprecatedIDs": [],
       "name": "that's it - it!",
-      "duration": 0.5,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
     },
     {
-      "type": "keepTheBeat",
-      "id": "*_flippingA",
+      "type": "cue",
+      "id": "*/attention/cowbell",
+      "name": "cowbell",
       "deprecatedIDs": [],
-      "name": "flipping",
-      "defaultDuration": 2.0,
-      "cues": [
-        {
-          "id": "*/flip",
-          "beat": 0.0,
-          "duration": 1.0,
-          "volume": 100
-        },
-        {
-          "id": "*/flip",
-          "beat": 1.0,
-          "duration": 1.0,
-          "volume": 100
-        }
-      ]
-    },
-    {
-      "type": "keepTheBeat",
-      "id": "*_flippingB",
-      "deprecatedIDs": [],
-      "name": "flipping - back",
-      "defaultDuration": 2.0,
-      "cues": [
-        {
-          "id": "*/flipB1",
-          "beat": 0.0,
-          "duration": 1.0,
-          "volume": 100
-        },
-        {
-          "id": "*/flipB2",
-          "beat": 1.0,
-          "duration": 1.0,
-          "volume": 100
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_thatsit",
-      "deprecatedIDs": [],
-      "name": "that's it!",
-      "cues": [
-        {
-          "id": "*/appreciation/thatsit1",
-          "beat": 0.0,
-          "volume": 100
-        },
-        {
-          "id": "*/appreciation/thatsit2",
-          "beat": 0.5,
-          "volume": 100
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_triple",
-      "deprecatedIDs": [],
-      "name": "triple",
-      "cues": [
-        {
-          "id": "*/ding",
-          "beat": 0.0,
-          "volume": 100
-        },
-        {
-          "id": "*/ding",
-          "beat": 0.5,
-          "volume": 100
-        },
-        {
-          "id": "*/ding",
-          "beat": 1.0,
-          "volume": 100
-        },
-        {
-          "id": "*/flip",
-          "beat": 2.0,
-          "volume": 100
-        },
-        {
-          "id": "*/flip",
-          "beat": 2.5,
-          "volume": 100
-        },
-        {
-          "id": "*/flip",
-          "beat": 3.0,
-          "volume": 100
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_tripleBack",
-      "deprecatedIDs": [],
-      "name": "triple - back",
-      "cues": [
-        {
-          "id": "*/ding",
-          "beat": 0.0,
-          "volume": 100
-        },
-        {
-          "id": "*/ding",
-          "beat": 0.5,
-          "volume": 100
-        },
-        {
-          "id": "*/ding",
-          "beat": 1.0,
-          "volume": 100
-        },
-        {
-          "id": "*/flipB1",
-          "beat": 2.0,
-          "volume": 100
-        },
-        {
-          "id": "*/flipB2",
-          "beat": 2.5,
-          "volume": 100
-        },
-        {
-          "id": "*/flipB1",
-          "beat": 3.0,
-          "volume": 100
-        }
-      ]
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/attention/attention1",
-      "deprecatedIDs": [],
       "name": "attention - part 1",
-      "duration": 0.25,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/attention/attention2",
-      "deprecatedIDs": [],
       "name": "attention - part 2",
-      "duration": 0.5,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/attention/attention3",
-      "deprecatedIDs": [],
       "name": "attention - part 3",
-      "duration": 0.5,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.5
     },
     {
       "type": "cue",
       "id": "*/attention/attention4",
-      "deprecatedIDs": [],
       "name": "attention - part 4",
-      "duration": 1.0,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "earliness": 0.032
     },
     {
       "type": "cue",
       "id": "*/attention/attention5",
-      "deprecatedIDs": [],
       "name": "attention - part 5",
-      "duration": 0.25,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/attention/attention6",
-      "deprecatedIDs": [],
       "name": "attention - part 6",
-      "duration": 0.25,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/attention/attention7",
-      "deprecatedIDs": [],
       "name": "attention - part 7",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/attention/attention8",
       "deprecatedIDs": [],
-      "name": "attention - part 8",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "pattern",
-      "id": "*_attention",
-      "deprecatedIDs": [],
-      "name": "attention... company!",
-      "cues": [
-        {
-          "id": "*/attention/attention1",
-          "beat": 0.0,
-          "volume": 100
-        },
-        {
-          "id": "*/attention/attention2",
-          "beat": 0.25,
-          "volume": 100
-        },
-        {
-          "id": "*/attention/attention3",
-          "beat": 0.75,
-          "volume": 100
-        },
-        {
-          "id": "*/attention/attention4",
-          "beat": 1.25,
-          "volume": 100
-        },
-        {
-          "id": "*/attention/attention5",
-          "beat": 2.25,
-          "volume": 100
-        },
-        {
-          "id": "*/attention/attention6",
-          "beat": 2.5,
-          "volume": 100
-        },
-        {
-          "id": "*/attention/attention7",
-          "beat": 2.75,
-          "volume": 100
-        },
-        {
-          "id": "*/attention/attention8",
-          "beat": 3.25,
-          "volume": 100
-        }
-      ]
-    },
-    {
-      "type": "cue",
-      "id": "*/count/flipperRollCount1",
-      "deprecatedIDs": [],
-      "name": "count 1",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/count/flipperRollCount2",
-      "deprecatedIDs": [],
-      "name": "count 2",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/count/flipperRollCount3",
-      "deprecatedIDs": [],
-      "name": "count 3",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/count/flipperRollCount4",
-      "deprecatedIDs": [],
-      "name": "count 4",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/count/flipperRollCount5",
-      "deprecatedIDs": [],
-      "name": "count 5",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/count/flipperRollCount6",
-      "deprecatedIDs": [],
-      "name": "count 6",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/count/flipperRollCount7",
-      "deprecatedIDs": [],
-      "name": "count 7",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/count/flipperRollCount8",
-      "deprecatedIDs": [],
-      "name": "count 8",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/count/flipperRollCount9",
-      "deprecatedIDs": [],
-      "name": "count 9",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/count/flipperRollCount10",
-      "deprecatedIDs": [],
-      "name": "count 10",
-      "duration": 0.25,
-      "fileExtension": "ogg"
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/count/flipperRollCountNow",
-      "deprecatedIDs": [],
       "name": "count Now",
-      "duration": 0.25,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/count/flipperRollCount1",
+      "name": "count 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/count/flipperRollCount2",
+      "name": "count 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/count/flipperRollCount3",
+      "name": "count 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/count/flipperRollCount4",
+      "name": "count 4",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/count/flipperRollCount5",
+      "name": "count 5",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/count/flipperRollCount6",
+      "name": "count 6",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/count/flipperRollCount7",
+      "name": "count 7",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/count/flipperRollCount8",
+      "name": "count 8",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/count/flipperRollCount9",
+      "name": "count 9",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/count/flipperRollCount10",
+      "name": "count 10",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/count/flipperRollCountA",
-      "deprecatedIDs": [],
       "name": "count A",
-      "duration": 0.25,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/count/flipperRollCountB",
-      "deprecatedIDs": [],
       "name": "count B",
-      "duration": 0.25,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/count/flipperRollCountC",
-      "deprecatedIDs": [],
       "name": "count C",
-      "duration": 0.25,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/count/flipperRollCountS",
-      "deprecatedIDs": [],
       "name": "count S",
-      "duration": 0.25,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/count/flopCount1",
-      "deprecatedIDs": [],
       "name": "flopping count 1",
-      "duration": 1.0,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/count/flopCount1B",
-      "deprecatedIDs": [],
       "name": "flopping count 1B",
-      "duration": 1.0,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/count/flopCount1C",
+      "name": "flopping count 1C",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/count/flopCount2",
-      "deprecatedIDs": [],
       "name": "flopping count 2",
-      "duration": 1.0,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/count/flopCount2B",
-      "deprecatedIDs": [],
       "name": "flopping count 2B",
-      "duration": 1.0,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/count/flopCount2C",
+      "name": "flopping count 2C",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/count/flopCount3",
-      "deprecatedIDs": [],
       "name": "flopping count 3",
-      "duration": 1.0,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/count/flopCount3B",
-      "deprecatedIDs": [],
       "name": "flopping count 3B",
-      "duration": 1.0,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/count/flopCount4",
-      "deprecatedIDs": [],
       "name": "flopping count 4",
-      "duration": 1.0,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/count/flopCount4B",
-      "deprecatedIDs": [],
       "name": "flopping count 4B",
-      "duration": 1.0,
-      "fileExtension": "ogg"
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "*_count_1",
+      "id": "*_attention",
+      "name": "attention... company!",
       "deprecatedIDs": [],
-      "name": "1 flipper roll!",
       "cues": [
         {
-          "id": "*/count/flipperRollCount1",
-          "beat": 0.0,
-          "volume": 100
+          "id": "*/attention/attention1",
+          "beat": 0.0
         },
         {
-          "id": "*/count/flipperRollCountA",
-          "beat": 0.5,
-          "volume": 100
+          "id": "*/attention/attention2",
+          "beat": 0.25
         },
         {
-          "id": "*/count/flipperRollCountB",
-          "beat": 0.75,
-          "volume": 100
+          "id": "*/attention/cowbell",
+          "beat": 0.25,
+          "track": 1
         },
         {
-          "id": "*/count/flipperRollCountC",
-          "beat": 1.0,
-          "volume": 100
+          "id": "*/attention/attention3",
+          "beat": 0.75
         },
         {
-          "id": "*/count/flopCount1",
-          "beat": 2.0,
-          "volume": 100
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_count_2",
-      "deprecatedIDs": [],
-      "name": "2 flipper rolls!",
-      "cues": [
-        {
-          "id": "*/count/flipperRollCount2",
-          "beat": 0.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flipperRollCountA",
-          "beat": 0.5,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flipperRollCountB",
-          "beat": 0.75,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flipperRollCountC",
-          "beat": 1.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flipperRollCountS",
+          "id": "*/attention/cowbell",
           "beat": 1.25,
-          "volume": 100
+          "track": 1
         },
         {
-          "id": "*/count/flopCount1",
-          "beat": 2.0,
-          "volume": 100
+          "id": "*/attention/attention4",
+          "beat": 2.25
         },
         {
-          "id": "*/count/flopCount2",
-          "beat": 3.0,
-          "volume": 100
+          "id": "*/attention/cowbell",
+          "beat": 2.25,
+          "track": 1
+        },
+        {
+          "id": "*/attention/attention5",
+          "beat": 2.5
+        },
+        {
+          "id": "*/attention/attention6",
+          "beat": 2.75
+        },
+        {
+          "id": "*/attention/attention7",
+          "beat": 3.25
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_count_3",
+      "id": "*_attentionNoCowbell",
+      "name": "attention... company! (no cowbells)",
       "deprecatedIDs": [],
-      "name": "3 flipper rolls!",
       "cues": [
         {
-          "id": "*/count/flipperRollCount3",
-          "beat": 0.0,
-          "volume": 100
+          "id": "*/attention/attention1",
+          "beat": 0.0
         },
         {
-          "id": "*/count/flipperRollCountA",
-          "beat": 0.5,
-          "volume": 100
+          "id": "*/attention/attention2",
+          "beat": 0.25
         },
         {
-          "id": "*/count/flipperRollCountB",
-          "beat": 0.75,
-          "volume": 100
+          "id": "*/attention/attention3",
+          "beat": 0.75
         },
         {
-          "id": "*/count/flipperRollCountC",
-          "beat": 1.0,
-          "volume": 100
+          "id": "*/attention/attention4",
+          "beat": 2.25
         },
         {
-          "id": "*/count/flipperRollCountS",
-          "beat": 1.25,
-          "volume": 100
+          "id": "*/attention/attention5",
+          "beat": 2.5
         },
         {
-          "id": "*/count/flopCount1",
-          "beat": 2.0,
-          "volume": 100
+          "id": "*/attention/attention6",
+          "beat": 2.75
         },
         {
-          "id": "*/count/flopCount2",
-          "beat": 3.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount3",
-          "beat": 4.0,
-          "volume": 100
+          "id": "*/attention/attention7",
+          "beat": 3.25
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_count_4",
+      "id": "*_attentionRemix5",
+      "name": "attention... company! (Remix 5)",
       "deprecatedIDs": [],
-      "name": "4 flipper rolls!",
       "cues": [
         {
-          "id": "*/count/flipperRollCount4",
-          "beat": 0.0,
-          "volume": 100
+          "id": "*/attention/attention1",
+          "beat": 0.0
         },
         {
-          "id": "*/count/flipperRollCountA",
-          "beat": 0.5,
-          "volume": 100
+          "id": "*/attention/attention2",
+          "beat": 0.25
         },
         {
-          "id": "*/count/flipperRollCountB",
-          "beat": 0.75,
-          "volume": 100
+          "id": "*/attention/attention3",
+          "beat": 0.75
         },
         {
-          "id": "*/count/flipperRollCountC",
-          "beat": 1.0,
-          "volume": 100
+          "id": "*/attention/attention4",
+          "beat": 2.25
         },
         {
-          "id": "*/count/flipperRollCountS",
-          "beat": 1.25,
-          "volume": 100
+          "id": "*/attention/attention5",
+          "beat": 2.5
         },
         {
-          "id": "*/count/flopCount1",
-          "beat": 2.0,
-          "volume": 100
+          "id": "*/attention/attention6",
+          "beat": 2.75
         },
         {
-          "id": "*/count/flopCount2",
-          "beat": 3.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount3",
-          "beat": 4.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount4",
-          "beat": 5.0,
-          "volume": 100
+          "id": "*/attention/attention7",
+          "beat": 2.25,
+          "track": 1
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_flippingA",
+      "name": "flipping",
+      "deprecatedIDs": [],
+      "defaultDuration": 2.0,
+      "cues": [
+        {
+          "id": "*/flip1",
+          "beat": 0.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/flip2",
+          "beat": 1.0,
+          "duration": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_flippingB",
+      "name": "flipping - back",
+      "deprecatedIDs": [],
+      "defaultDuration": 2.0,
+      "cues": [
+        {
+          "id": "*/flipB1",
+          "beat": 0.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/flipB2",
+          "beat": 1.0,
+          "duration": 1.0
+        }
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_count_5",
+      "id": "*_triple",
+      "name": "triple",
       "deprecatedIDs": [],
-      "name": "5 flipper rolls!",
       "cues": [
         {
-          "id": "*/count/flipperRollCount5",
-          "beat": 0.0,
-          "volume": 100
+          "id": "*/ding",
+          "beat": 0.0
         },
         {
-          "id": "*/count/flipperRollCountA",
-          "beat": 0.5,
-          "volume": 100
+          "id": "*/ding",
+          "beat": 0.5
         },
         {
-          "id": "*/count/flipperRollCountB",
-          "beat": 0.75,
-          "volume": 100
+          "id": "*/ding",
+          "beat": 1.0
         },
         {
-          "id": "*/count/flipperRollCountC",
-          "beat": 1.0,
-          "volume": 100
+          "id": "*/flip1",
+          "beat": 2.0
         },
         {
-          "id": "*/count/flipperRollCountS",
-          "beat": 1.25,
-          "volume": 100
+          "id": "*/flip2",
+          "beat": 2.5
         },
         {
-          "id": "*/count/flopCount1",
-          "beat": 2.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount2",
-          "beat": 3.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount3",
-          "beat": 4.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount4",
-          "beat": 5.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount1B",
-          "beat": 6.0,
-          "volume": 100
+          "id": "*/flip1",
+          "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_count_6",
+      "id": "*_tripleBack",
+      "name": "triple - back",
       "deprecatedIDs": [],
-      "name": "6 flipper rolls!",
       "cues": [
         {
-          "id": "*/count/flipperRollCount6",
-          "beat": 0.0,
-          "volume": 100
+          "id": "*/ding",
+          "beat": 0.0
         },
         {
-          "id": "*/count/flipperRollCountA",
-          "beat": 0.5,
-          "volume": 100
+          "id": "*/ding",
+          "beat": 0.5
         },
         {
-          "id": "*/count/flipperRollCountB",
-          "beat": 0.75,
-          "volume": 100
+          "id": "*/ding",
+          "beat": 1.0
         },
         {
-          "id": "*/count/flipperRollCountC",
-          "beat": 1.0,
-          "volume": 100
+          "id": "*/flipB1",
+          "beat": 2.0
         },
         {
-          "id": "*/count/flipperRollCountS",
-          "beat": 1.25,
-          "volume": 100
+          "id": "*/flipB2",
+          "beat": 2.5
         },
         {
-          "id": "*/count/flopCount1",
-          "beat": 2.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount2",
-          "beat": 3.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount3",
-          "beat": 4.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount4",
-          "beat": 5.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount1B",
-          "beat": 6.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount2B",
-          "beat": 7.0,
-          "volume": 100
+          "id": "*/flipB1",
+          "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
-      "type": "pattern",
-      "id": "*_count_7",
+      "type": "keepTheBeat",
+      "id": "*_rollLR",
+      "name": "rolling - starting left ",
       "deprecatedIDs": [],
-      "name": "7 flipper rolls!",
+      "defaultDuration": 2.0,
       "cues": [
         {
-          "id": "*/count/flipperRollCount7",
-          "beat": 0.0,
-          "volume": 100
+          "id": "*/rollL",
+          "beat": 0.0
         },
         {
-          "id": "*/count/flipperRollCountA",
-          "beat": 0.5,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flipperRollCountB",
-          "beat": 0.75,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flipperRollCountC",
-          "beat": 1.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flipperRollCountS",
-          "beat": 1.25,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount1",
-          "beat": 2.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount2",
-          "beat": 3.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount3",
-          "beat": 4.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount4",
-          "beat": 5.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount1B",
-          "beat": 6.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount2B",
-          "beat": 7.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount3B",
-          "beat": 8.0,
-          "volume": 100
+          "id": "*/rollR",
+          "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
-      "type": "pattern",
-      "id": "*_count_8",
+      "type": "keepTheBeat",
+      "id": "*_rollRL",
+      "name": "rolling - starting right",
       "deprecatedIDs": [],
-      "name": "8 flipper rolls!",
+      "defaultDuration": 2.0,
       "cues": [
         {
-          "id": "*/count/flipperRollCount8",
-          "beat": 0.0,
-          "volume": 100
+          "id": "*/rollR",
+          "beat": 0.0
         },
         {
-          "id": "*/count/flipperRollCountA",
-          "beat": 0.5,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flipperRollCountB",
-          "beat": 0.75,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flipperRollCountC",
-          "beat": 1.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flipperRollCountS",
-          "beat": 1.25,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount1",
-          "beat": 2.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount2",
-          "beat": 3.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount3",
-          "beat": 4.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount4",
-          "beat": 5.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount1B",
-          "beat": 6.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount2B",
-          "beat": 7.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount3B",
-          "beat": 8.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount4B",
-          "beat": 9.0,
-          "volume": 100
+          "id": "*/rollL",
+          "beat": 1.0
         }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_count_9",
-      "deprecatedIDs": [],
-      "name": "9 flipper rolls!",
-      "cues": [
-        {
-          "id": "*/count/flipperRollCount9",
-          "beat": 0.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flipperRollCountA",
-          "beat": 0.5,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flipperRollCountB",
-          "beat": 0.75,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flipperRollCountC",
-          "beat": 1.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flipperRollCountS",
-          "beat": 1.25,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount1",
-          "beat": 2.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount2",
-          "beat": 3.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount3",
-          "beat": 4.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount4",
-          "beat": 5.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount1B",
-          "beat": 6.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount2B",
-          "beat": 7.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount3B",
-          "beat": 8.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount4B",
-          "beat": 9.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount1B",
-          "beat": 10.0,
-          "volume": 100
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_count_10",
-      "deprecatedIDs": [],
-      "name": "10 flipper rolls!",
-      "cues": [
-        {
-          "id": "*/count/flipperRollCount10",
-          "beat": 0.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flipperRollCountA",
-          "beat": 0.5,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flipperRollCountB",
-          "beat": 0.75,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flipperRollCountC",
-          "beat": 1.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flipperRollCountS",
-          "beat": 1.25,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount1",
-          "beat": 2.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount2",
-          "beat": 3.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount3",
-          "beat": 4.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount4",
-          "beat": 5.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount1B",
-          "beat": 6.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount2B",
-          "beat": 7.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount3B",
-          "beat": 8.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount4B",
-          "beat": 9.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount1B",
-          "beat": 10.0,
-          "volume": 100
-        },
-        {
-          "id": "*/count/flopCount2B",
-          "beat": 11.0,
-          "volume": 100
-        }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_count_now",
-      "deprecatedIDs": [],
       "name": "now flipper roll!",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/count/flipperRollCountNow",
-          "beat": 0.0,
-          "volume": 100
+          "beat": 0.0
         },
         {
           "id": "*/count/flipperRollCountA",
-          "beat": 0.5,
-          "volume": 100
+          "beat": 0.5
         },
         {
           "id": "*/count/flipperRollCountB",
-          "beat": 0.75,
-          "volume": 100
+          "beat": 0.75
         },
         {
           "id": "*/count/flipperRollCountC",
-          "beat": 1.0,
-          "volume": 100
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_count_1",
+      "name": "1 flipper roll!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/count/flipperRollCount1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/count/flipperRollCountA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/count/flipperRollCountB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/count/flipperRollCountC",
+          "beat": 1.0
         },
         {
           "id": "*/count/flopCount1",
-          "beat": 2.0,
-          "volume": 100
+          "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_count_2",
+      "name": "2 flipper rolls!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/count/flipperRollCount2",
+          "beat": 0.0
+        },
+        {
+          "id": "*/count/flipperRollCountA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/count/flipperRollCountB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/count/flipperRollCountS",
+          "beat": 1.0
+        },
+        {
+          "id": "*/count/flopCount1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/count/flopCount2",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_count_3",
+      "name": "3 flipper rolls!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/count/flipperRollCount3",
+          "beat": 0.0
+        },
+        {
+          "id": "*/count/flipperRollCountA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/count/flipperRollCountB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/count/flipperRollCountS",
+          "beat": 1.0
+        },
+        {
+          "id": "*/count/flopCount1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/count/flopCount2",
+          "beat": 3.0
+        },
+        {
+          "id": "*/count/flopCount3",
+          "beat": 4.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_count_4",
+      "name": "4 flipper rolls!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/count/flipperRollCount4",
+          "beat": 0.0
+        },
+        {
+          "id": "*/count/flipperRollCountA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/count/flipperRollCountB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/count/flipperRollCountS",
+          "beat": 1.0
+        },
+        {
+          "id": "*/count/flopCount1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/count/flopCount2",
+          "beat": 3.0
+        },
+        {
+          "id": "*/count/flopCount3",
+          "beat": 4.0
+        },
+        {
+          "id": "*/count/flopCount4",
+          "beat": 5.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_count_5",
+      "name": "5 flipper rolls!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/count/flipperRollCount5",
+          "beat": 0.0
+        },
+        {
+          "id": "*/count/flipperRollCountA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/count/flipperRollCountB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/count/flipperRollCountS",
+          "beat": 1.0
+        },
+        {
+          "id": "*/count/flopCount1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/count/flopCount2",
+          "beat": 3.0
+        },
+        {
+          "id": "*/count/flopCount3",
+          "beat": 4.0
+        },
+        {
+          "id": "*/count/flopCount4",
+          "beat": 5.0
+        },
+        {
+          "id": "*/count/flopCount1B",
+          "beat": 6.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_count_6",
+      "name": "6 flipper rolls!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/count/flipperRollCount6",
+          "beat": 0.0
+        },
+        {
+          "id": "*/count/flipperRollCountA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/count/flipperRollCountB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/count/flipperRollCountS",
+          "beat": 1.0
+        },
+        {
+          "id": "*/count/flopCount1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/count/flopCount2",
+          "beat": 3.0
+        },
+        {
+          "id": "*/count/flopCount3",
+          "beat": 4.0
+        },
+        {
+          "id": "*/count/flopCount4",
+          "beat": 5.0
+        },
+        {
+          "id": "*/count/flopCount1B",
+          "beat": 6.0
+        },
+        {
+          "id": "*/count/flopCount2B",
+          "beat": 7.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_count_7",
+      "name": "7 flipper rolls!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/count/flipperRollCount7",
+          "beat": 0.0
+        },
+        {
+          "id": "*/count/flipperRollCountA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/count/flipperRollCountB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/count/flipperRollCountS",
+          "beat": 1.0
+        },
+        {
+          "id": "*/count/flopCount1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/count/flopCount2",
+          "beat": 3.0
+        },
+        {
+          "id": "*/count/flopCount3",
+          "beat": 4.0
+        },
+        {
+          "id": "*/count/flopCount4",
+          "beat": 5.0
+        },
+        {
+          "id": "*/count/flopCount1B",
+          "beat": 6.0
+        },
+        {
+          "id": "*/count/flopCount2B",
+          "beat": 7.0
+        },
+        {
+          "id": "*/count/flopCount3B",
+          "beat": 8.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_count_8",
+      "name": "8 flipper rolls!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/count/flipperRollCount8",
+          "beat": 0.0
+        },
+        {
+          "id": "*/count/flipperRollCountA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/count/flipperRollCountB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/count/flipperRollCountS",
+          "beat": 1.0
+        },
+        {
+          "id": "*/count/flopCount1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/count/flopCount2",
+          "beat": 3.0
+        },
+        {
+          "id": "*/count/flopCount3",
+          "beat": 4.0
+        },
+        {
+          "id": "*/count/flopCount4",
+          "beat": 5.0
+        },
+        {
+          "id": "*/count/flopCount1B",
+          "beat": 6.0
+        },
+        {
+          "id": "*/count/flopCount2B",
+          "beat": 7.0
+        },
+        {
+          "id": "*/count/flopCount3B",
+          "beat": 8.0
+        },
+        {
+          "id": "*/count/flopCount4B",
+          "beat": 9.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_count_9",
+      "name": "9 flipper rolls!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/count/flipperRollCount9",
+          "beat": 0.0
+        },
+        {
+          "id": "*/count/flipperRollCountA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/count/flipperRollCountB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/count/flipperRollCountS",
+          "beat": 1.0
+        },
+        {
+          "id": "*/count/flopCount1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/count/flopCount2",
+          "beat": 3.0
+        },
+        {
+          "id": "*/count/flopCount3",
+          "beat": 4.0
+        },
+        {
+          "id": "*/count/flopCount4",
+          "beat": 5.0
+        },
+        {
+          "id": "*/count/flopCount1B",
+          "beat": 6.0
+        },
+        {
+          "id": "*/count/flopCount2B",
+          "beat": 7.0
+        },
+        {
+          "id": "*/count/flopCount3B",
+          "beat": 8.0
+        },
+        {
+          "id": "*/count/flopCount4B",
+          "beat": 9.0
+        },
+        {
+          "id": "*/count/flopCount1C",
+          "beat": 10.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_count_10",
+      "name": "10 flipper rolls!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/count/flipperRollCount10",
+          "beat": 0.0
+        },
+        {
+          "id": "*/count/flipperRollCountA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/count/flipperRollCountB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/count/flipperRollCountS",
+          "beat": 1.0
+        },
+        {
+          "id": "*/count/flopCount1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/count/flopCount2",
+          "beat": 3.0
+        },
+        {
+          "id": "*/count/flopCount3",
+          "beat": 4.0
+        },
+        {
+          "id": "*/count/flopCount4",
+          "beat": 5.0
+        },
+        {
+          "id": "*/count/flopCount1B",
+          "beat": 6.0
+        },
+        {
+          "id": "*/count/flopCount2B",
+          "beat": 7.0
+        },
+        {
+          "id": "*/count/flopCount3B",
+          "beat": 8.0
+        },
+        {
+          "id": "*/count/flopCount4B",
+          "beat": 9.0
+        },
+        {
+          "id": "*/count/flopCount1C",
+          "beat": 10.0
+        },
+        {
+          "id": "*/count/flopCount2C",
+          "beat": 11.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_thatsit",
+      "name": "that's it!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/appreciation/thatsit1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/appreciation/thatsit2",
+          "beat": 0.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_nowThatsit",
+      "name": "now that's it!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/count/flipperRollCountNow",
+          "beat": 0.0
+        },
+        {
+          "id": "*/appreciation/thatsit1",
+          "beat": 0.5
+        },
+        {
+          "id": "*/appreciation/thatsit2",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
     }
   ]
 }
