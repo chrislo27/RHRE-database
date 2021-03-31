@@ -1,0 +1,470 @@
+{
+  "id": "rhythmFighter",
+  "name": "Rhythm Fighter",
+  "series": "side",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/firstDing",
+      "name": "first note",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "responseIDs": [
+        "*/firstDing"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "*/ding",
+      "name": "note",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "responseIDs": [
+        "*/ding"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "*/p1PunchFirst",
+      "name": "left boxer - first punch",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "responseIDs": [
+        "*/p1PunchFirstHit"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "*/p1Punch",
+      "name": "left boxer - punch",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "responseIDs": [
+        "*/p1PunchHit"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "*/p1KickFirst",
+      "name": "left boxer - first kick",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "responseIDs": [
+        "*/p1KickFirstHit"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "*/p1Kick",
+      "name": "left boxer - kick",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "responseIDs": [
+        "*/p1KickHit"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "*/p2PunchFirst",
+      "name": "right boxer - first punch",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "responseIDs": [
+        "*/p2PunchFirstHit"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "*/p2Punch",
+      "name": "right boxer - punch",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "responseIDs": [
+        "*/p2PunchHit"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "*/p2KickFirst",
+      "name": "right boxer - first kick",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "responseIDs": [
+        "*/p2KickFirstHit"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "*/p2Kick",
+      "name": "right boxer - kick",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "responseIDs": [
+        "*/p2KickHit"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "*/p1PunchFirstHit",
+      "name": "left boxer - first punch hit",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/p1PunchHit",
+      "name": "left boxer - punch hit",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/p1KickFirstHit",
+      "name": "left boxer - first kick hit",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/p1KickHit",
+      "name": "left boxer - kick hit",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/p2PunchFirstHit",
+      "name": "right boxer - first punch hit",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/p2PunchHit",
+      "name": "right boxer - punch hit",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/p2KickFirstHit",
+      "name": "right boxer - first kick hit",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/p2KickHit",
+      "name": "right boxer - kick hit",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/three",
+      "name": "three",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/two",
+      "name": "two",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/one",
+      "name": "one",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/go",
+      "name": "go",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/ready",
+      "name": "ready?",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.0,
+      "earliness": 0.0415
+    },
+    {
+      "type": "cue",
+      "id": "*/fight",
+      "name": "fight!",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "*/turnEnd",
+      "name": "bell",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "pattern",
+      "id": "*_countIn",
+      "name": "count-in",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/three",
+          "beat": 0.0
+        },
+        {
+          "id": "*/two",
+          "beat": 1.0
+        },
+        {
+          "id": "*/one",
+          "beat": 2.0
+        },
+        {
+          "id": "*/go",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_readyFight",
+      "name": "ready? fight!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/ready",
+          "beat": 0.0,
+          "volume": 50
+        },
+        {
+          "id": "*/fight",
+          "beat": 2.0,
+          "volume": 50
+        },
+        {
+          "id": "*/turnEnd",
+          "beat": 3.0,
+          "volume": 50
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_4Dings",
+      "name": "4 notes",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/firstDing",
+          "beat": 0.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 1.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 2.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 3.0,
+          "duration": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_8DingsSlow",
+      "name": "8 notes - slow",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/firstDing",
+          "beat": 0.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 1.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 2.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 3.0
+        },
+        {
+          "id": "*/firstDing",
+          "beat": 4.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 5.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 6.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 7.0,
+          "duration": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_8DingsFast",
+      "name": "8 notes - fast",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/firstDing",
+          "beat": 0.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 0.5
+        },
+        {
+          "id": "*/ding",
+          "beat": 1.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 1.5
+        },
+        {
+          "id": "*/ding",
+          "beat": 2.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 2.5
+        },
+        {
+          "id": "*/ding",
+          "beat": 3.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_16Dings",
+      "name": "16 notes",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/firstDing",
+          "beat": 0.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 0.5
+        },
+        {
+          "id": "*/ding",
+          "beat": 1.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 1.5
+        },
+        {
+          "id": "*/ding",
+          "beat": 2.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 2.5
+        },
+        {
+          "id": "*/ding",
+          "beat": 3.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 3.5
+        },
+        {
+          "id": "*/firstDing",
+          "beat": 4.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 4.5
+        },
+        {
+          "id": "*/ding",
+          "beat": 5.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 5.5
+        },
+        {
+          "id": "*/ding",
+          "beat": 6.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 6.5
+        },
+        {
+          "id": "*/ding",
+          "beat": 7.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 7.5
+        }
+      ],
+      "subtext": ""
+    }
+  ]
+}
