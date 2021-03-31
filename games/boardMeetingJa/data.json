@@ -1,168 +1,220 @@
 {
-  "series": "fever",
   "id": "boardMeetingJa",
   "name": "Board Meeting",
+  "series": "fever",
   "language": "ja",
-  "group": "Board Meeting",
   "objects": [
     {
       "type": "cue",
       "id": "*/startPrepare",
-      "deprecatedIDs": [],
       "name": "start - prepare",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/start1",
-      "deprecatedIDs": [],
-      "name": "start - single",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/spin1Loop",
-      "deprecatedIDs": [],
-      "name": "spinning - start - 1",
-      "duration": 1.0,
-      "introSound": "boardMeetingJa/start1",
-      "loops": true,
-      "stretchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/start2",
-      "deprecatedIDs": [],
-      "name": "start - 2",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/spin2Loop",
-      "deprecatedIDs": [],
-      "name": "spinning - start - 2",
-      "duration": 1.0,
-      "introSound": "boardMeetingJa/start2",
-      "loops": true,
-      "stretchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/start3",
-      "deprecatedIDs": [],
-      "name": "start - 3",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/spin3Loop",
-      "deprecatedIDs": [],
-      "name": "spinning - start - 3",
-      "duration": 1.0,
-      "introSound": "boardMeetingJa/start3",
-      "loops": true,
-      "stretchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/start4",
-      "deprecatedIDs": [],
-      "name": "start - 4",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/spin4Loop",
-      "deprecatedIDs": [],
-      "name": "spinning - start - 4",
-      "duration": 1.0,
-      "introSound": "boardMeetingJa/start4",
-      "loops": true,
-      "stretchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/stop",
-      "deprecatedIDs": [],
-      "name": "stop",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/stopPlayer",
-      "deprecatedIDs": [],
-      "name": "stop - player",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/startTogether",
-      "deprecatedIDs": [],
-      "name": "start - together",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/spinTogether",
-      "deprecatedIDs": [],
-      "name": "spinning - start - together",
+      "id": "*/spin1",
+      "name": "spin - 1",
+      "deprecatedIDs": [
+        "boardMeetingJa/spin1Loop"
+      ],
+      "subtext": "",
       "duration": 1.0,
       "stretchable": true,
-      "loops": true
+      "introSound": "*/chair",
+      "loops": true,
+      "loopStart": 1.264,
+      "loopEnd": 2.308
     },
     {
       "type": "cue",
-      "id": "*/abStop1",
-      "deprecatedIDs": [],
-      "name": "assistant - ish",
-      "duration": 0.66666
+      "id": "*/spin2",
+      "name": "spin - 2",
+      "deprecatedIDs": [
+        "boardMeetingJa/spin2Loop"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "introSound": "*/chair",
+      "loops": true,
+      "loopStart": 1.322,
+      "loopEnd": 2.656
     },
     {
       "type": "cue",
-      "id": "*/abStop2",
-      "deprecatedIDs": [],
-      "name": "assistant - o",
-      "duration": 0.33333,
-      "earliness": 0.12
+      "id": "*/spin3",
+      "name": "spin - 3",
+      "deprecatedIDs": [
+        "boardMeetingJa/spin3Loop"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "introSound": "*/chair",
+      "loops": true,
+      "loopStart": 1.168,
+      "loopEnd": 2.588
     },
     {
       "type": "cue",
-      "id": "*/abStop3",
-      "deprecatedIDs": [],
-      "name": "assistant - ni",
-      "duration": 0.5,
-      "earliness": 0.035
+      "id": "*/spin4",
+      "name": "spin - 4",
+      "deprecatedIDs": [
+        "boardMeetingJa/spin4Loop"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "introSound": "*/chair",
+      "loops": true,
+      "loopStart": 1.754,
+      "loopEnd": 2.788
     },
     {
       "type": "cue",
-      "id": "*/abStop4",
+      "id": "*/stop1",
+      "name": "stop - 1",
       "deprecatedIDs": [],
-      "name": "stop - together",
-      "duration": 1.0
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/stop2",
+      "name": "stop - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/stop3",
+      "name": "stop - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/stop4",
+      "name": "stop - 4",
+      "deprecatedIDs": [
+        "boardMeetingJa/stopPlayer"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/stopAll",
+      "name": "stop - all",
+      "deprecatedIDs": [
+        "boardMeetingJa/abStop4"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/one",
+      "name": "assistant - to",
+      "deprecatedIDs": [
+        "boardMeetingJa/abStop1"
+      ],
+      "subtext": "",
+      "duration": 0.75
+    },
+    {
+      "type": "cue",
+      "id": "*/two",
+      "name": "assistant - get",
+      "deprecatedIDs": [
+        "boardMeetingJa/abStop2"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/three",
+      "name": "assistant - her",
+      "deprecatedIDs": [
+        "boardMeetingJa/abStop3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/chair",
+      "name": "chair",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "loops": true,
+      "loopStart": 1.543,
+      "loopEnd": 3.073
     },
     {
       "type": "pattern",
-      "id": "*_assistant",
-      "deprecatedIDs": [],
+      "id": "*_assistantStop",
       "name": "assistant - stop",
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/abStop1",
+          "id": "*/one",
           "beat": 0.0
         },
         {
-          "id": "*/abStop2",
-          "beat": 0.66667
+          "id": "*/two",
+          "beat": 0.75
         },
         {
-          "id": "*/abStop3",
+          "id": "*/three",
           "beat": 1.0
         },
         {
-          "id": "*/abStop4",
+          "id": "*/stopAll",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_spinAll",
+      "name": "spin - all",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/spin1",
+          "beat": 0.0,
+          "volume": 56
+        },
+        {
+          "id": "*/spin2",
+          "beat": 0.0,
+          "volume": 56,
+          "track": 1
+        },
+        {
+          "id": "*/spin3",
+          "beat": 0.0,
+          "volume": 56,
+          "track": 2
+        },
+        {
+          "id": "*/spin4",
+          "beat": 0.0,
+          "volume": 56,
+          "track": 3
+        }
+      ],
+      "subtext": ""
     }
   ]
 }

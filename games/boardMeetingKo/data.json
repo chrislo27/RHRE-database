@@ -1,17 +1,14 @@
 {
-  "id": "boardMeetingEn",
+  "id": "boardMeetingKo",
   "name": "Board Meeting",
   "series": "fever",
-  "language": "en",
-  "groupDefault": true,
+  "language": "ko",
   "objects": [
     {
       "type": "cue",
       "id": "*/startPrepare",
       "name": "start - prepare",
-      "deprecatedIDs": [
-        "boardMeeting/startPrepare"
-      ],
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
     },
@@ -19,10 +16,7 @@
       "type": "cue",
       "id": "*/spin1",
       "name": "spin - 1",
-      "deprecatedIDs": [
-        "boardMeeting/spin1Loop",
-        "boardMeetingEn/spin1Loop"
-      ],
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0,
       "stretchable": true,
@@ -35,10 +29,7 @@
       "type": "cue",
       "id": "*/spin2",
       "name": "spin - 2",
-      "deprecatedIDs": [
-        "boardMeeting/spin2Loop",
-        "boardMeetingEn/spin2Loop"
-      ],
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0,
       "stretchable": true,
@@ -51,10 +42,7 @@
       "type": "cue",
       "id": "*/spin3",
       "name": "spin - 3",
-      "deprecatedIDs": [
-        "boardMeetingEn/spin3Loop",
-        "boardMeeting/spin3Loop"
-      ],
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0,
       "stretchable": true,
@@ -67,10 +55,7 @@
       "type": "cue",
       "id": "*/spin4",
       "name": "spin - 4",
-      "deprecatedIDs": [
-        "boardMeetingEn/spin4Loop",
-        "boardMeeting/spin4Loop"
-      ],
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0,
       "stretchable": true,
@@ -107,10 +92,7 @@
       "type": "cue",
       "id": "*/stop4",
       "name": "stop - 4",
-      "deprecatedIDs": [
-        "boardMeeting/stopPlayer",
-        "boardMeetingEn/stopPlayer"
-      ],
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
     },
@@ -118,10 +100,7 @@
       "type": "cue",
       "id": "*/stopAll",
       "name": "stop - all",
-      "deprecatedIDs": [
-        "boardMeeting/abStop4",
-        "boardMeetingEn/abStop4"
-      ],
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
     },
@@ -129,10 +108,7 @@
       "type": "cue",
       "id": "*/one",
       "name": "assistant - one",
-      "deprecatedIDs": [
-        "boardMeetingEn/abStop1",
-        "boardMeeting/abStop1"
-      ],
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.66667
     },
@@ -140,10 +116,7 @@
       "type": "cue",
       "id": "*/two",
       "name": "assistant - two",
-      "deprecatedIDs": [
-        "boardMeetingEn/abStop2",
-        "boardMeeting/abStop2"
-      ],
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.33333
     },
@@ -151,10 +124,7 @@
       "type": "cue",
       "id": "*/three",
       "name": "assistant - three",
-      "deprecatedIDs": [
-        "boardMeetingEn/abStop3",
-        "boardMeeting/abStop3"
-      ],
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
     },
