@@ -22,7 +22,6 @@
       "subtext": "",
       "duration": 1.0,
       "stretchable": true,
-      "introSound": "*/chair",
       "loops": true,
       "loopStart": 1.264,
       "loopEnd": 2.308
@@ -37,7 +36,6 @@
       "subtext": "",
       "duration": 1.0,
       "stretchable": true,
-      "introSound": "*/chair",
       "loops": true,
       "loopStart": 1.322,
       "loopEnd": 2.656
@@ -52,7 +50,6 @@
       "subtext": "",
       "duration": 1.0,
       "stretchable": true,
-      "introSound": "*/chair",
       "loops": true,
       "loopStart": 1.168,
       "loopEnd": 2.588
@@ -67,7 +64,6 @@
       "subtext": "",
       "duration": 1.0,
       "stretchable": true,
-      "introSound": "*/chair",
       "loops": true,
       "loopStart": 1.754,
       "loopEnd": 2.788
@@ -108,16 +104,15 @@
     },
     {
       "type": "cue",
-      "id": "*/stopAll",
-      "name": "stop - all",
-      "deprecatedIDs": [
-        "boardMeetingRemix2/abStop4",
-        "boardMeetingEn/abStopM4",
-        "boardMeetingJa/abStopM4",
-        "boardMeeting/abStopM4"
-      ],
+      "id": "*/chair",
+      "name": "chairs - spinning",
+      "deprecatedIDs": [],
       "subtext": "",
-      "duration": 0.5
+      "duration": 1.0,
+      "stretchable": true,
+      "loops": true,
+      "loopStart": 1.543,
+      "loopEnd": 3.073
     },
     {
       "type": "cue",
@@ -160,21 +155,27 @@
     },
     {
       "type": "cue",
-      "id": "*/chair",
-      "name": "chair",
-      "deprecatedIDs": [],
+      "id": "*/stopAll",
+      "name": "stop - all",
+      "deprecatedIDs": [
+        "boardMeetingRemix2/abStop4",
+        "boardMeetingEn/abStopM4",
+        "boardMeetingJa/abStopM4",
+        "boardMeeting/abStopM4"
+      ],
       "subtext": "",
-      "duration": 1.0,
-      "stretchable": true,
-      "loops": true,
-      "loopStart": 1.543,
-      "loopEnd": 3.073
+      "duration": 0.5
     },
     {
       "type": "pattern",
       "id": "*_assistantStop",
       "name": "assistant - stop",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "boardMeeting_monkey",
+        "boardMeetingEn_monkey",
+        "boardMeetingJa_monkey",
+        "boardMeetingRemix2_assistant"
+      ],
       "cues": [
         {
           "id": "*/one",
@@ -204,26 +205,27 @@
       "cues": [
         {
           "id": "*/spin1",
-          "beat": 0.0,
-          "volume": 56
+          "beat": 0.0
         },
         {
           "id": "*/spin2",
           "beat": 0.0,
-          "volume": 56,
           "track": 1
         },
         {
           "id": "*/spin3",
           "beat": 0.0,
-          "volume": 56,
           "track": 2
         },
         {
           "id": "*/spin4",
           "beat": 0.0,
-          "volume": 56,
           "track": 3
+        },
+        {
+          "id": "*/chair",
+          "beat": 0.0,
+          "track": 4
         }
       ],
       "subtext": ""

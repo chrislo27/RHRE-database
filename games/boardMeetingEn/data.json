@@ -3,6 +3,7 @@
   "name": "Board Meeting",
   "series": "fever",
   "language": "en",
+  "group": "Board Meeting",
   "groupDefault": true,
   "objects": [
     {
@@ -26,7 +27,6 @@
       "subtext": "",
       "duration": 1.0,
       "stretchable": true,
-      "introSound": "*/chair",
       "loops": true,
       "loopStart": 1.264,
       "loopEnd": 2.308
@@ -42,7 +42,6 @@
       "subtext": "",
       "duration": 1.0,
       "stretchable": true,
-      "introSound": "*/chair",
       "loops": true,
       "loopStart": 1.322,
       "loopEnd": 2.656
@@ -58,7 +57,6 @@
       "subtext": "",
       "duration": 1.0,
       "stretchable": true,
-      "introSound": "*/chair",
       "loops": true,
       "loopStart": 1.168,
       "loopEnd": 2.588
@@ -74,7 +72,6 @@
       "subtext": "",
       "duration": 1.0,
       "stretchable": true,
-      "introSound": "*/chair",
       "loops": true,
       "loopStart": 1.754,
       "loopEnd": 2.788
@@ -116,19 +113,20 @@
     },
     {
       "type": "cue",
-      "id": "*/stopAll",
-      "name": "stop - all",
-      "deprecatedIDs": [
-        "boardMeeting/abStop4",
-        "boardMeetingEn/abStop4"
-      ],
+      "id": "*/chair",
+      "name": "chairs - spinning",
+      "deprecatedIDs": [],
       "subtext": "",
-      "duration": 0.5
+      "duration": 1.0,
+      "stretchable": true,
+      "loops": true,
+      "loopStart": 1.543,
+      "loopEnd": 3.073
     },
     {
       "type": "cue",
       "id": "*/one",
-      "name": "assistant - one",
+      "name": "assistant - 1",
       "deprecatedIDs": [
         "boardMeetingEn/abStop1",
         "boardMeeting/abStop1"
@@ -139,7 +137,7 @@
     {
       "type": "cue",
       "id": "*/two",
-      "name": "assistant - two",
+      "name": "assistant - 2",
       "deprecatedIDs": [
         "boardMeetingEn/abStop2",
         "boardMeeting/abStop2"
@@ -150,7 +148,7 @@
     {
       "type": "cue",
       "id": "*/three",
-      "name": "assistant - three",
+      "name": "assistant - 3",
       "deprecatedIDs": [
         "boardMeetingEn/abStop3",
         "boardMeeting/abStop3"
@@ -160,21 +158,23 @@
     },
     {
       "type": "cue",
-      "id": "*/chair",
-      "name": "chair",
-      "deprecatedIDs": [],
+      "id": "*/stopAll",
+      "name": "stop - all",
+      "deprecatedIDs": [
+        "boardMeeting/abStop4",
+        "boardMeetingEn/abStop4"
+      ],
       "subtext": "",
-      "duration": 1.0,
-      "stretchable": true,
-      "loops": true,
-      "loopStart": 1.543,
-      "loopEnd": 3.073
+      "duration": 0.5
     },
     {
       "type": "pattern",
       "id": "*_assistantStop",
       "name": "assistant - stop",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "boardMeeting_assistant",
+        "boardMeetingEn_assistant"
+      ],
       "cues": [
         {
           "id": "*/one",
@@ -204,26 +204,27 @@
       "cues": [
         {
           "id": "*/spin1",
-          "beat": 0.0,
-          "volume": 56
+          "beat": 0.0
         },
         {
           "id": "*/spin2",
           "beat": 0.0,
-          "volume": 56,
           "track": 1
         },
         {
           "id": "*/spin3",
           "beat": 0.0,
-          "volume": 56,
           "track": 2
         },
         {
           "id": "*/spin4",
           "beat": 0.0,
-          "volume": 56,
           "track": 3
+        },
+        {
+          "id": "*/chair",
+          "beat": 0.0,
+          "track": 4
         }
       ],
       "subtext": ""

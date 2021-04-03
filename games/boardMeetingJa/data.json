@@ -3,6 +3,7 @@
   "name": "Board Meeting",
   "series": "fever",
   "language": "ja",
+  "group": "Board Meeting",
   "objects": [
     {
       "type": "cue",
@@ -22,7 +23,6 @@
       "subtext": "",
       "duration": 1.0,
       "stretchable": true,
-      "introSound": "*/chair",
       "loops": true,
       "loopStart": 1.264,
       "loopEnd": 2.308
@@ -37,7 +37,6 @@
       "subtext": "",
       "duration": 1.0,
       "stretchable": true,
-      "introSound": "*/chair",
       "loops": true,
       "loopStart": 1.322,
       "loopEnd": 2.656
@@ -52,7 +51,6 @@
       "subtext": "",
       "duration": 1.0,
       "stretchable": true,
-      "introSound": "*/chair",
       "loops": true,
       "loopStart": 1.168,
       "loopEnd": 2.588
@@ -67,7 +65,6 @@
       "subtext": "",
       "duration": 1.0,
       "stretchable": true,
-      "introSound": "*/chair",
       "loops": true,
       "loopStart": 1.754,
       "loopEnd": 2.788
@@ -108,48 +105,8 @@
     },
     {
       "type": "cue",
-      "id": "*/stopAll",
-      "name": "stop - all",
-      "deprecatedIDs": [
-        "boardMeetingJa/abStop4"
-      ],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/one",
-      "name": "assistant - to",
-      "deprecatedIDs": [
-        "boardMeetingJa/abStop1"
-      ],
-      "subtext": "",
-      "duration": 0.75
-    },
-    {
-      "type": "cue",
-      "id": "*/two",
-      "name": "assistant - get",
-      "deprecatedIDs": [
-        "boardMeetingJa/abStop2"
-      ],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/three",
-      "name": "assistant - her",
-      "deprecatedIDs": [
-        "boardMeetingJa/abStop3"
-      ],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
       "id": "*/chair",
-      "name": "chair",
+      "name": "chairs - spinning",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0,
@@ -159,10 +116,52 @@
       "loopEnd": 3.073
     },
     {
+      "type": "cue",
+      "id": "*/one",
+      "name": "assistant - 1",
+      "deprecatedIDs": [
+        "boardMeetingJa/abStop1"
+      ],
+      "subtext": "",
+      "duration": 0.75
+    },
+    {
+      "type": "cue",
+      "id": "*/two",
+      "name": "assistant - 2",
+      "deprecatedIDs": [
+        "boardMeetingJa/abStop2"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/three",
+      "name": "assistant - 3",
+      "deprecatedIDs": [
+        "boardMeetingJa/abStop3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/stopAll",
+      "name": "stop - all",
+      "deprecatedIDs": [
+        "boardMeetingJa/abStop4"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
       "type": "pattern",
       "id": "*_assistantStop",
       "name": "assistant - stop",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "boardMeetingJa_assistant"
+      ],
       "cues": [
         {
           "id": "*/one",
@@ -192,26 +191,27 @@
       "cues": [
         {
           "id": "*/spin1",
-          "beat": 0.0,
-          "volume": 56
+          "beat": 0.0
         },
         {
           "id": "*/spin2",
           "beat": 0.0,
-          "volume": 56,
           "track": 1
         },
         {
           "id": "*/spin3",
           "beat": 0.0,
-          "volume": 56,
           "track": 2
         },
         {
           "id": "*/spin4",
           "beat": 0.0,
-          "volume": 56,
           "track": 3
+        },
+        {
+          "id": "*/chair",
+          "beat": 0.0,
+          "track": 4
         }
       ],
       "subtext": ""
