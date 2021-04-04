@@ -1,0 +1,1166 @@
+{
+  "id": "flipperFlopKo",
+  "name": "Flipper-Flop",
+  "series": "fever",
+  "language": "ko",
+  "group": "Flipper-Flop",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/thatsit",
+      "name": "that's it!",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oi1",
+      "name": "hoi - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oi2",
+      "name": "hoi - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oi3",
+      "name": "hoi - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/good",
+      "name": "appreciation - good!",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/goodjob",
+      "name": "appreciation - good job!",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/nice",
+      "name": "appreciation - nice!",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/welldone",
+      "name": "appreciation - well done!",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/yes",
+      "name": "appreciation - yes!",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/attention1",
+      "name": "jundi... shija! - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/attention2",
+      "name": "jundi... shija! - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.5
+    },
+    {
+      "type": "cue",
+      "id": "*/attention3",
+      "name": "jundi... shija! - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.094
+    },
+    {
+      "type": "cue",
+      "id": "*/attention4",
+      "name": "jundi... shija! - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/attention5",
+      "name": "jundi... shija! - 5",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/cowbell",
+      "name": "cowbell",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/countNow",
+      "name": "roll count - now",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/countOne",
+      "name": "roll count - one",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/countTwo",
+      "name": "roll count - two",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/countThree",
+      "name": "roll count - three",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/countFour",
+      "name": "roll count - four",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/countFive",
+      "name": "roll count - five",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/countSix",
+      "name": "roll count - six",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/countSeven",
+      "name": "roll count - seven",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/countEight",
+      "name": "roll count - eight",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/countNine",
+      "name": "roll count - nine",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/countTen",
+      "name": "roll count - ten",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/countA",
+      "name": "roll count - A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/countB",
+      "name": "roll count - B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/countC",
+      "name": "roll count - C",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/ding",
+      "name": "ding",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/flip1",
+      "name": "flip - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/flip2",
+      "name": "flip - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/flipB1",
+      "name": "flip - back - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/flipB2",
+      "name": "flip - back - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/rollL",
+      "name": "roll - left",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/rollR",
+      "name": "roll - right",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/rollOne",
+      "name": "roll - one",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/rollTwo",
+      "name": "roll - two",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/rollThree",
+      "name": "roll - three",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.094
+    },
+    {
+      "type": "cue",
+      "id": "*/rollFour",
+      "name": "roll - four",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/rollFive",
+      "name": "roll - five",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/rollSix",
+      "name": "roll - six",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.021
+    },
+    {
+      "type": "cue",
+      "id": "*/rollSeven",
+      "name": "roll - seven",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.06125
+    },
+    {
+      "type": "cue",
+      "id": "*/rollEight",
+      "name": "roll - eight",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/rollNine",
+      "name": "roll - nine",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/rollTen",
+      "name": "roll - ten",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.021
+    },
+    {
+      "type": "pattern",
+      "id": "*_attention",
+      "name": "attention... company!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/attention1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/attention2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/attention3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/attention4",
+          "beat": 2.5
+        },
+        {
+          "id": "*/attention5",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_attentionNoCowbell",
+      "name": "attention... company! (no cowbells)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/attention1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/attention2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/attention3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/attention4",
+          "beat": 2.5
+        },
+        {
+          "id": "*/attention5",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_attentionRemix5",
+      "name": "attention... company! (Remix 5)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/attention1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/attention2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/attention3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/attention4",
+          "beat": 2.5
+        },
+        {
+          "id": "*/attention5",
+          "beat": 2.0,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_flipping",
+      "name": "flipping",
+      "deprecatedIDs": [],
+      "defaultDuration": 2.0,
+      "cues": [
+        {
+          "id": "*/flip1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/flip2",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_flippingBack",
+      "name": "flipping - back",
+      "deprecatedIDs": [],
+      "defaultDuration": 2.0,
+      "cues": [
+        {
+          "id": "*/flipB1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/flipB2",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_triple",
+      "name": "triple",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/ding",
+          "beat": 0.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 0.5
+        },
+        {
+          "id": "*/ding",
+          "beat": 1.0
+        },
+        {
+          "id": "*/flip1",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/flip2",
+          "beat": 2.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/flip1",
+          "beat": 3.0,
+          "duration": 0.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_tripleBack",
+      "name": "triple - back",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/ding",
+          "beat": 0.0
+        },
+        {
+          "id": "*/ding",
+          "beat": 0.5
+        },
+        {
+          "id": "*/ding",
+          "beat": 1.0
+        },
+        {
+          "id": "*/flipB1",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/flipB2",
+          "beat": 2.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/flipB1",
+          "beat": 3.0,
+          "duration": 0.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_rollLR",
+      "name": "rolling - starting left",
+      "deprecatedIDs": [],
+      "defaultDuration": 2.0,
+      "cues": [
+        {
+          "id": "*/rollL",
+          "beat": 0.0
+        },
+        {
+          "id": "*/rollR",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_rollRL",
+      "name": "rolling - starting right",
+      "deprecatedIDs": [],
+      "defaultDuration": 2.0,
+      "cues": [
+        {
+          "id": "*/rollR",
+          "beat": 0.0
+        },
+        {
+          "id": "*/rollL",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_rollNow",
+      "name": "now flipper roll!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countNow",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/countB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/countC",
+          "beat": 1.0,
+          "duration": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_roll1",
+      "name": "1 flipper roll!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countOne",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/countB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/countC",
+          "beat": 1.0
+        },
+        {
+          "id": "*/rollOne",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_roll2",
+      "name": "2 flipper rolls!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countTwo",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/countB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/countC",
+          "beat": 1.0
+        },
+        {
+          "id": "*/rollOne",
+          "beat": 2.0
+        },
+        {
+          "id": "*/rollTwo",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_roll3",
+      "name": "3 flipper rolls!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countThree",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/countB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/countC",
+          "beat": 1.0
+        },
+        {
+          "id": "*/rollOne",
+          "beat": 2.0
+        },
+        {
+          "id": "*/rollTwo",
+          "beat": 3.0
+        },
+        {
+          "id": "*/rollThree",
+          "beat": 4.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_roll4",
+      "name": "4 flipper rolls!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countFour",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/countB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/countC",
+          "beat": 1.0
+        },
+        {
+          "id": "*/rollOne",
+          "beat": 2.0
+        },
+        {
+          "id": "*/rollTwo",
+          "beat": 3.0
+        },
+        {
+          "id": "*/rollThree",
+          "beat": 4.0
+        },
+        {
+          "id": "*/rollFour",
+          "beat": 5.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_roll5",
+      "name": "5 flipper rolls!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countFive",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/countB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/countC",
+          "beat": 1.0
+        },
+        {
+          "id": "*/rollOne",
+          "beat": 2.0
+        },
+        {
+          "id": "*/rollTwo",
+          "beat": 3.0
+        },
+        {
+          "id": "*/rollThree",
+          "beat": 4.0
+        },
+        {
+          "id": "*/rollFour",
+          "beat": 5.0
+        },
+        {
+          "id": "*/rollFive",
+          "beat": 6.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_roll6",
+      "name": "6 flipper rolls!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countSix",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/countB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/countC",
+          "beat": 1.0
+        },
+        {
+          "id": "*/rollOne",
+          "beat": 2.0
+        },
+        {
+          "id": "*/rollTwo",
+          "beat": 3.0
+        },
+        {
+          "id": "*/rollThree",
+          "beat": 4.0
+        },
+        {
+          "id": "*/rollFour",
+          "beat": 5.0
+        },
+        {
+          "id": "*/rollFive",
+          "beat": 6.0
+        },
+        {
+          "id": "*/rollSix",
+          "beat": 7.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_roll7",
+      "name": "7 flipper rolls!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countSeven",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/countB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/countC",
+          "beat": 1.0
+        },
+        {
+          "id": "*/rollOne",
+          "beat": 2.0
+        },
+        {
+          "id": "*/rollTwo",
+          "beat": 3.0
+        },
+        {
+          "id": "*/rollThree",
+          "beat": 4.0
+        },
+        {
+          "id": "*/rollFour",
+          "beat": 5.0
+        },
+        {
+          "id": "*/rollFive",
+          "beat": 6.0
+        },
+        {
+          "id": "*/rollSix",
+          "beat": 7.0
+        },
+        {
+          "id": "*/rollSeven",
+          "beat": 8.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_roll8",
+      "name": "8 flipper rolls!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countEight",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/countB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/countC",
+          "beat": 1.0
+        },
+        {
+          "id": "*/rollOne",
+          "beat": 2.0
+        },
+        {
+          "id": "*/rollTwo",
+          "beat": 3.0
+        },
+        {
+          "id": "*/rollThree",
+          "beat": 4.0
+        },
+        {
+          "id": "*/rollFour",
+          "beat": 5.0
+        },
+        {
+          "id": "*/rollFive",
+          "beat": 6.0
+        },
+        {
+          "id": "*/rollSix",
+          "beat": 7.0
+        },
+        {
+          "id": "*/rollSeven",
+          "beat": 8.0
+        },
+        {
+          "id": "*/rollEight",
+          "beat": 9.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_roll9",
+      "name": "9 flipper rolls!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countNine",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/countB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/countC",
+          "beat": 1.0
+        },
+        {
+          "id": "*/rollOne",
+          "beat": 2.0
+        },
+        {
+          "id": "*/rollTwo",
+          "beat": 3.0
+        },
+        {
+          "id": "*/rollThree",
+          "beat": 4.0
+        },
+        {
+          "id": "*/rollFour",
+          "beat": 5.0
+        },
+        {
+          "id": "*/rollFive",
+          "beat": 6.0
+        },
+        {
+          "id": "*/rollSix",
+          "beat": 7.0
+        },
+        {
+          "id": "*/rollSeven",
+          "beat": 8.0
+        },
+        {
+          "id": "*/rollEight",
+          "beat": 9.0
+        },
+        {
+          "id": "*/rollNine",
+          "beat": 10.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_roll10",
+      "name": "10 flipper rolls!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countTen",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countA",
+          "beat": 0.5
+        },
+        {
+          "id": "*/countB",
+          "beat": 0.75
+        },
+        {
+          "id": "*/countC",
+          "beat": 1.0
+        },
+        {
+          "id": "*/rollOne",
+          "beat": 2.0
+        },
+        {
+          "id": "*/rollTwo",
+          "beat": 3.0
+        },
+        {
+          "id": "*/rollThree",
+          "beat": 4.0
+        },
+        {
+          "id": "*/rollFour",
+          "beat": 5.0
+        },
+        {
+          "id": "*/rollFive",
+          "beat": 6.0
+        },
+        {
+          "id": "*/rollSix",
+          "beat": 7.0
+        },
+        {
+          "id": "*/rollSeven",
+          "beat": 8.0
+        },
+        {
+          "id": "*/rollEight",
+          "beat": 9.0
+        },
+        {
+          "id": "*/rollNine",
+          "beat": 10.0
+        },
+        {
+          "id": "*/rollTen",
+          "beat": 11.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_randomAppreciation",
+      "name": "random appreciation",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/good"
+        },
+        {
+          "id": "*/goodjob"
+        },
+        {
+          "id": "*/welldone"
+        },
+        {
+          "id": "*/nice"
+        },
+        {
+          "id": "*/yes"
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_nowThatsit",
+      "name": "now that's it!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countNow",
+          "beat": 0.0
+        },
+        {
+          "id": "*/thatsit",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    }
+  ]
+}
