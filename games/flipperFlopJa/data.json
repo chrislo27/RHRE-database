@@ -168,7 +168,7 @@
     {
       "type": "cue",
       "id": "*/flipB1",
-      "name": "flip back 1",
+      "name": "flip - back - 1",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
@@ -176,7 +176,7 @@
     {
       "type": "cue",
       "id": "*/flipB2",
-      "name": "flip back 2",
+      "name": "flip - back - 2",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
@@ -1306,6 +1306,30 @@
           "id": "*/rollCount2C",
           "beat": 11.0,
           "duration": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_randomAppreciation",
+      "name": "random appreciation",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/appreciation1"
+        },
+        {
+          "id": "*/appreciation2"
+        },
+        {
+          "id": "*/appreciation3"
+        },
+        {
+          "id": "*/appreciation4"
+        },
+        {
+          "id": "*/appreciation5"
         }
       ],
       "subtext": ""
