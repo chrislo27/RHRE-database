@@ -1,86 +1,133 @@
 {
-  "series": "ds",
   "id": "moaiDooWop",
   "name": "Moai Doo-Wop",
+  "series": "ds",
   "objects": [
     {
       "type": "cue",
-      "id": "*/stoneGrind",
-      "deprecatedIDs": [],
+      "id": "*/switch",
       "name": "switch",
+      "deprecatedIDs": [
+        "moaiDooWop/stoneGrind"
+      ],
+      "subtext": "",
       "duration": 1.0,
       "responseIDs": [
-        "*/stoneGrind"
+        "*/switch"
       ]
     },
     {
       "type": "cue",
-      "id": "*/dooL",
-      "deprecatedIDs": [
-        "moaiDooWop/ooo1"
-      ],
+      "id": "*/leftDoo",
       "name": "left - doo-wop",
+      "deprecatedIDs": [
+        "moaiDooWop/ooo1",
+        "moaiDooWop/dooL"
+      ],
+      "subtext": "",
       "duration": 1.0,
       "stretchable": true,
-      "loops": true,
-      "loopStart": 0.7344668947,
-      "loopEnd": 1.17464816546,
-      "endingSound": "*/wopL",
+      "endingSound": "*/leftWop",
       "responseIDs": [
-        "*/dooR"
-      ]
+        "*/rightDoo"
+      ],
+      "loops": true,
+      "loopStart": 0.475,
+      "loopEnd": 1.093
     },
     {
       "type": "cue",
-      "id": "*/wopL",
-      "deprecatedIDs": [
-        "moaiDooWop/wop1"
-      ],
+      "id": "*/leftWop",
       "name": "left - wop",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/pahL",
       "deprecatedIDs": [
-        "moaiDooWop/pah1"
+        "moaiDooWop/wop1",
+        "moaiDooWop/wopL"
       ],
-      "name": "left - pah",
+      "subtext": "",
       "duration": 0.5,
       "responseIDs": [
-        "*/pahR"
+        "*/rightWop"
       ]
     },
     {
       "type": "cue",
-      "id": "*/dooR",
+      "id": "*/leftPah",
+      "name": "left - pah",
       "deprecatedIDs": [
-        "moaiDooWop/ooo2"
+        "moaiDooWop/pah1",
+        "moaiDooWop/pahL"
       ],
-      "name": "right - doo-wop",
-      "duration": 1.0,
-      "stretchable": true,
-      "loops": true,
-      "loopStart": 0.73324240528,
-      "loopEnd": 1.20002230733,
-      "endingSound": "*/wopR"
+      "subtext": "",
+      "duration": 0.5,
+      "responseIDs": [
+        "*/rightPah"
+      ]
     },
     {
       "type": "cue",
-      "id": "*/wopR",
+      "id": "*/rightDoo",
+      "name": "right - doo-wop",
       "deprecatedIDs": [
-        "moaiDooWop/wop2"
+        "moaiDooWop/ooo2",
+        "moaiDooWop/dooR"
       ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "endingSound": "*/rightWop",
+      "loops": true,
+      "loopStart": 0.48,
+      "loopEnd": 1.113
+    },
+    {
+      "type": "cue",
+      "id": "*/rightWop",
       "name": "right - wop",
+      "deprecatedIDs": [
+        "moaiDooWop/wop2",
+        "moaiDooWop/wopR"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/pahR",
-      "deprecatedIDs": [
-        "moaiDooWop/pah2"
-      ],
+      "id": "*/rightPah",
       "name": "right - pah",
+      "deprecatedIDs": [
+        "moaiDooWop/pah2",
+        "moaiDooWop/pahR"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/unusedDoo",
+      "name": "unused - doo-wop",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "endingSound": "*/unusedWop",
+      "loops": true,
+      "loopStart": 0.481,
+      "loopEnd": 3.478
+    },
+    {
+      "type": "cue",
+      "id": "*/unusedWop",
+      "name": "unused - wop",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/unusedPah",
+      "name": "unused - pah",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     }
   ]
