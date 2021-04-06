@@ -160,15 +160,6 @@
       "duration": 0.5
     },
     {
-      "type": "cue",
-      "id": "*/wakame",
-      "name": "WAAAAAKAAAAAME",
-      "deprecatedIDs": [
-        "frogHop/wakame"
-      ],
-      "duration": 1.0
-    },
-    {
       "type": "keepTheBeat",
       "id": "*_shake",
       "name": "shake",
