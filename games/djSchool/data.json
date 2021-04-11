@@ -6,418 +6,265 @@
     {
       "type": "cue",
       "id": "*/yay",
-      "name": "yay",
+      "name": "yay ",
       "deprecatedIDs": [],
-      "duration": 1.0,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/recordStop",
-      "name": "record - stop",
-      "deprecatedIDs": [],
-      "duration": 1.0,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/recordSwipe",
-      "name": "record - swipe",
-      "deprecatedIDs": [],
-      "duration": 1.0,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/stop1",
-      "name": "and stop - 1",
-      "deprecatedIDs": [],
-      "duration": 0.25,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/stop2",
-      "name": "and stop - 2",
-      "deprecatedIDs": [],
-      "duration": 0.25,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/stop3",
-      "name": "and stop - 3",
-      "deprecatedIDs": [],
-      "duration": 1.0,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/break1",
-      "name": "break c'mon - 1",
-      "deprecatedIDs": [],
-      "duration": 1.0,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/break2",
-      "name": "break c'mon - 2",
-      "deprecatedIDs": [],
-      "duration": 0.25,
-      "earliness": 0.016,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/break3",
-      "name": "break c'mon - 3",
-      "deprecatedIDs": [],
-      "duration": 0.75,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/break4",
-      "name": "break c'mon - 4",
-      "deprecatedIDs": [],
-      "duration": 1.0,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/breakAlt1",
-      "name": "break c'mon - alternate - 1",
-      "deprecatedIDs": [
-        "djSchool/breakalt1"
-      ],
-      "duration": 1.0,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/breakAlt2",
-      "name": "break c'mon - alternate - 2",
-      "deprecatedIDs": [
-        "djSchool/breakalt2"
-      ],
-      "duration": 0.25,
-      "earliness": 0.047,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/breakAlt3",
-      "name": "break c'mon - alternate - 3",
-      "deprecatedIDs": [
-        "djSchool/breakalt3"
-      ],
-      "duration": 0.75,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/breakAlt4",
-      "name": "break c'mon - alternate - 4",
-      "deprecatedIDs": [
-        "djSchool/breakalt4"
-      ],
-      "duration": 1.0,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/breakLoud1",
-      "name": "break c'mon - loud - 1",
-      "deprecatedIDs": [
-        "djSchool/breakloud1"
-      ],
-      "duration": 1.0,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/breakLoud2",
-      "name": "break c'mon - loud - 2",
-      "deprecatedIDs": [
-        "djSchool/breakloud2"
-      ],
-      "duration": 0.25,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/breakLoud3",
-      "name": "break c'mon - loud - 3",
-      "deprecatedIDs": [
-        "djSchool/breakloud3"
-      ],
-      "duration": 0.75,
-      "earliness": 0.016,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/breakLoud4",
-      "name": "break c'mon - loud - 4",
-      "deprecatedIDs": [
-        "djSchool/breakloud4"
-      ],
-      "duration": 1.0,
-      "earliness": 0.016,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/scratcho1",
-      "name": "scratch-o - 1",
-      "deprecatedIDs": [
-        "djSchool/scratch1"
-      ],
-      "duration": 0.5,
-      "earliness": 0.031,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/scratcho2",
-      "name": "scratch-o - 2",
-      "deprecatedIDs": [
-        "djSchool/scratch2"
-      ],
-      "duration": 0.5,
-      "earliness": 0.031,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/scratcho3",
-      "name": "scratch-o - 3",
-      "deprecatedIDs": [
-        "djSchool/scratch3"
-      ],
-      "duration": 1.0,
-      "earliness": 0.016,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/scratcho4",
-      "name": "scratch-o - 4",
-      "deprecatedIDs": [
-        "djSchool/scratch4"
-      ],
-      "duration": 1.0,
-      "earliness": 0.062,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/scratchoAlt1",
-      "name": "scratch-o - alternate - 1",
-      "deprecatedIDs": [
-        "djSchool/scratchalt1"
-      ],
-      "duration": 0.5,
-      "earliness": 0.047,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/scratchoAlt2",
-      "name": "scratch-o - alternate - 2",
-      "deprecatedIDs": [
-        "djSchool/scratchalt2"
-      ],
-      "duration": 0.5,
-      "earliness": 0.047,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/scratchoAlt3",
-      "name": "scratch-o - alternate - 3",
-      "deprecatedIDs": [
-        "djSchool/scratchalt3"
-      ],
-      "duration": 1.0,
-      "earliness": 0.042,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/scratchoAlt4",
-      "name": "scratch-o - alternate - 4",
-      "deprecatedIDs": [
-        "djSchool/scratchalt4"
-      ],
-      "duration": 1.0,
-      "earliness": 0.031,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/scratchoLoud1",
-      "name": "scratch-o - loud - 1",
-      "deprecatedIDs": [
-        "djSchool/scratchloud1"
-      ],
-      "duration": 0.5,
-      "earliness": 0.047,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/scratchoLoud2",
-      "name": "scratch-o - loud - 2",
-      "deprecatedIDs": [
-        "djSchool/scratchloud2"
-      ],
-      "duration": 0.5,
-      "earliness": 0.047,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/scratchoLoud3",
-      "name": "scratch-o - loud - 3",
-      "deprecatedIDs": [
-        "djSchool/scratchloud3"
-      ],
-      "duration": 1.0,
-      "earliness": 0.047,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/scratchoLoud4",
-      "name": "scratch-o - loud - 4",
-      "deprecatedIDs": [
-        "djSchool/scratchloud4"
-      ],
-      "duration": 1.0,
-      "earliness": 0.047,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/letsGo1",
-      "name": "let's go - 1",
-      "deprecatedIDs": [
-        "djSchool/letsgo",
-        "djSchool/letsgo1"
-      ],
-      "duration": 0.25,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/letsGo2",
-      "name": "let's go - 2",
-      "deprecatedIDs": [],
-      "duration": 0.25,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/letsGo3",
-      "name": "let's go - 3",
-      "deprecatedIDs": [
-        "djSchool/letsgo2"
-      ],
-      "duration": 0.5,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/ohYeah1",
-      "name": "oh yeah - 1",
-      "deprecatedIDs": [
-        "djSchool/ohyeah",
-        "djSchool/ohyeah1"
-      ],
-      "duration": 0.5,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/ohYeah2",
-      "name": "oh yeah - 2",
-      "deprecatedIDs": [
-        "djSchool/ohyeah2"
-      ],
-      "duration": 1.5,
-      "earliness": 0.031,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/ohYeheh1",
-      "name": "oh yeheh - 1",
-      "deprecatedIDs": [
-        "djSchool/ohyeheh",
-        "djSchool/ohyeheh1"
-      ],
-      "duration": 0.5,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/ohYeheh2",
-      "name": "oh yeheh - 2",
-      "deprecatedIDs": [
-        "djSchool/ohyeheh2"
-      ],
-      "duration": 0.5,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/ohYeheh3",
-      "name": "oh yeheh - 3",
-      "deprecatedIDs": [
-        "djSchool/ohyeheh3"
-      ],
-      "duration": 1.0,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/checkItOut1",
-      "name": "check it out - 1",
-      "deprecatedIDs": [
-        "djSchool/checkitout1"
-      ],
-      "duration": 0.281,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/checkItOut2",
-      "name": "check it out - 2",
-      "deprecatedIDs": [
-        "djSchool/checkitout2"
-      ],
-      "duration": 0.219,
-      "loopEnd": -1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/checkItOut3",
-      "name": "check it out - 3",
-      "deprecatedIDs": [
-        "djSchool/checkitout3"
-      ],
-      "duration": 1.5,
-      "loopEnd": -1.0
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/cheer",
       "name": "cheering",
       "deprecatedIDs": [],
-      "duration": 4.0,
-      "loopEnd": -1.0
+      "subtext": "",
+      "duration": 4.0
+    },
+    {
+      "type": "cue",
+      "id": "*/andStop1",
+      "name": "and stop - and",
+      "deprecatedIDs": [
+        "djSchool/stop1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/andStop2",
+      "name": "and stop - stop",
+      "deprecatedIDs": [
+        "djSchool/stop3"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.08
+    },
+    {
+      "type": "cue",
+      "id": "*/breakCmon1",
+      "name": "break",
+      "deprecatedIDs": [
+        "djSchool/break1"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.017
+    },
+    {
+      "type": "cue",
+      "id": "*/breakCmon2",
+      "name": "cmon",
+      "deprecatedIDs": [
+        "djSchool/break2"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.03
+    },
+    {
+      "type": "cue",
+      "id": "*/ooh",
+      "name": "ooh",
+      "deprecatedIDs": [
+        "djSchool/break4"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/breakCmonAlt1",
+      "name": "break - alternate",
+      "deprecatedIDs": [
+        "djSchool/breakAlt1",
+        "djSchool/breakalt1"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/breakCmonAlt2",
+      "name": "cmon - alternate",
+      "deprecatedIDs": [
+        "djSchool/breakAlt2",
+        "djSchool/breakalt2"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.01
+    },
+    {
+      "type": "cue",
+      "id": "*/oohAlt",
+      "name": "ooh - alternate",
+      "deprecatedIDs": [
+        "djSchool/breakAlt4",
+        "djSchool/breakalt4"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.01
+    },
+    {
+      "type": "cue",
+      "id": "*/breakCmonLoud1",
+      "name": "break - loud",
+      "deprecatedIDs": [
+        "djSchool/breakloud1",
+        "djSchool/breakLoud1"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.017
+    },
+    {
+      "type": "cue",
+      "id": "*/breakCmonLoud2",
+      "name": "cmon - loud",
+      "deprecatedIDs": [
+        "djSchool/breakloud2",
+        "djSchool/breakLoud2"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oohLoud",
+      "name": "ooh - loud",
+      "deprecatedIDs": [
+        "djSchool/breakloud4",
+        "djSchool/breakLoud4"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/scratchoHey1",
+      "name": "scratch-o - 1",
+      "deprecatedIDs": [
+        "djSchool/scratcho1",
+        "djSchool/scratch1"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.037
+    },
+    {
+      "type": "cue",
+      "id": "*/scratchoHey2",
+      "name": "scratch-o - 2",
+      "deprecatedIDs": [
+        "djSchool/scratcho3",
+        "djSchool/scratch3"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.017
+    },
+    {
+      "type": "cue",
+      "id": "*/hey",
+      "name": "hey",
+      "deprecatedIDs": [
+        "djSchool/scratcho4",
+        "djSchool/scratch4"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.033
+    },
+    {
+      "type": "cue",
+      "id": "*/scratchoHeyAlt1",
+      "name": "scratch-o - alternate - 1",
+      "deprecatedIDs": [
+        "djSchool/scratchoAlt1",
+        "djSchool/scratchalt1"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.057
+    },
+    {
+      "type": "cue",
+      "id": "*/scratchoHeyAlt2",
+      "name": "scratch-o - alternate - 2",
+      "deprecatedIDs": [
+        "djSchool/scratchoAlt3",
+        "djSchool/scratchalt3"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.026
+    },
+    {
+      "type": "cue",
+      "id": "*/heyAlt",
+      "name": "hey - alternate",
+      "deprecatedIDs": [
+        "djSchool/scratchoAlt4",
+        "djSchool/scratchalt4"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.036
+    },
+    {
+      "type": "cue",
+      "id": "*/scratchoHeyLoud1",
+      "name": "scratch-o - loud - 1",
+      "deprecatedIDs": [
+        "djSchool/scratchoLoud1",
+        "djSchool/scratchloud1"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.037
+    },
+    {
+      "type": "cue",
+      "id": "*/scratchoHeyLoud2",
+      "name": "scratch-o - loud - 2",
+      "deprecatedIDs": [
+        "djSchool/scratchloud3",
+        "djSchool/scratchoLoud3"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.027
+    },
+    {
+      "type": "cue",
+      "id": "*/heyLoud",
+      "name": "hey - loud",
+      "deprecatedIDs": [
+        "djSchool/scratchoLoud4",
+        "djSchool/scratchloud4"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.054
+    },
+    {
+      "type": "cue",
+      "id": "*/recordStop",
+      "name": "record - stop",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.008
+    },
+    {
+      "type": "cue",
+      "id": "*/recordSwipe",
+      "name": "record - swipe",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "pattern",
@@ -426,22 +273,17 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/stop1",
+          "id": "*/andStop1",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "*/stop2",
-          "beat": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/stop3",
+          "id": "*/andStop2",
           "beat": 0.5,
           "track": 1
         },
         {
-          "id": "*/breakAlt4",
+          "id": "*/oohAlt",
           "beat": 1.5,
           "track": 1
         },
@@ -449,7 +291,8 @@
           "id": "*/recordStop",
           "beat": 1.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -458,22 +301,17 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/break1",
+          "id": "*/breakCmon1",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "*/break2",
+          "id": "*/breakCmon2",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "*/break3",
-          "beat": 1.25,
-          "track": 1
-        },
-        {
-          "id": "*/break4",
+          "id": "*/ooh",
           "beat": 2.0,
           "track": 1
         },
@@ -481,7 +319,8 @@
           "id": "*/recordStop",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -492,22 +331,17 @@
       ],
       "cues": [
         {
-          "id": "*/breakAlt1",
+          "id": "*/breakCmonAlt1",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "*/breakAlt2",
+          "id": "*/breakCmonAlt2",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "*/breakAlt3",
-          "beat": 1.25,
-          "track": 1
-        },
-        {
-          "id": "*/breakAlt4",
+          "id": "*/oohAlt",
           "beat": 2.0,
           "track": 1
         },
@@ -515,7 +349,8 @@
           "id": "*/recordStop",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -526,22 +361,17 @@
       ],
       "cues": [
         {
-          "id": "*/breakLoud1",
+          "id": "*/breakCmonLoud1",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "*/breakLoud2",
+          "id": "*/breakCmonLoud2",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "*/breakLoud3",
-          "beat": 1.25,
-          "track": 1
-        },
-        {
-          "id": "*/breakLoud4",
+          "id": "*/oohLoud",
           "beat": 2.0,
           "track": 1
         },
@@ -549,7 +379,8 @@
           "id": "*/recordStop",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -558,22 +389,19 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/break1",
+          "id": "*/breakCmon1",
           "beat": 0.0
         },
         {
-          "id": "*/break2",
+          "id": "*/breakCmon2",
           "beat": 1.0
-        },
-        {
-          "id": "*/break3",
-          "beat": 1.25
         },
         {
           "id": "*/recordStop",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -582,22 +410,19 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/breakAlt1",
+          "id": "*/breakCmonAlt1",
           "beat": 0.0
         },
         {
-          "id": "*/breakAlt2",
+          "id": "*/breakCmonAlt2",
           "beat": 1.0
-        },
-        {
-          "id": "*/breakAlt3",
-          "beat": 1.25
         },
         {
           "id": "*/recordStop",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -606,22 +431,19 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/breakLoud1",
+          "id": "*/breakCmonLoud1",
           "beat": 0.0
         },
         {
-          "id": "*/breakLoud2",
+          "id": "*/breakCmonLoud2",
           "beat": 1.0
-        },
-        {
-          "id": "*/breakLoud3",
-          "beat": 1.25
         },
         {
           "id": "*/recordStop",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -632,22 +454,17 @@
       ],
       "cues": [
         {
-          "id": "*/scratcho1",
+          "id": "*/scratchoHey1",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "*/scratcho2",
-          "beat": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/scratcho3",
+          "id": "*/scratchoHey2",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "*/scratcho4",
+          "id": "*/hey",
           "beat": 2.0,
           "track": 1
         },
@@ -659,7 +476,8 @@
           "id": "*/cheer",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -670,22 +488,17 @@
       ],
       "cues": [
         {
-          "id": "*/scratchoAlt1",
+          "id": "*/scratchoHeyAlt1",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "*/scratchoAlt2",
-          "beat": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/scratchoAlt3",
+          "id": "*/scratchoHeyAlt2",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "*/scratchoAlt4",
+          "id": "*/heyAlt",
           "beat": 2.0,
           "track": 1
         },
@@ -697,7 +510,8 @@
           "id": "*/cheer",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -708,22 +522,17 @@
       ],
       "cues": [
         {
-          "id": "*/scratchoLoud1",
+          "id": "*/scratchoHeyLoud1",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "*/scratchoLoud2",
-          "beat": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/scratchoLoud3",
+          "id": "*/scratchoHeyLoud2",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "*/scratchoLoud4",
+          "id": "*/heyLoud",
           "beat": 2.0,
           "track": 1
         },
@@ -735,32 +544,27 @@
           "id": "*/cheer",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_scratchoRemix4",
       "name": "scratch-o hey (Remix 4)",
-      "deprecatedIDs": [
-      ],
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/scratcho1",
+          "id": "*/scratchoHey1",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "*/scratcho2",
-          "beat": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/scratcho3",
+          "id": "*/scratchoHey2",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "*/scratcho4",
+          "id": "*/hey",
           "beat": 1.5,
           "track": 1
         },
@@ -768,32 +572,27 @@
           "id": "*/recordSwipe",
           "beat": 1.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_scratchoAltRemix4",
       "name": "scratch-o hey - alternate (Remix 4)",
-      "deprecatedIDs": [
-      ],
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/scratchoAlt1",
+          "id": "*/scratchoHeyAlt1",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "*/scratchoAlt2",
-          "beat": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/scratchoAlt3",
+          "id": "*/scratchoHeyAlt2",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "*/scratchoAlt4",
+          "id": "*/heyAlt",
           "beat": 1.5,
           "track": 1
         },
@@ -801,32 +600,27 @@
           "id": "*/recordSwipe",
           "beat": 1.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_scratchoLoudRemix4",
       "name": "scratch-o hey - loud (Remix 4)",
-      "deprecatedIDs": [
-      ],
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/scratchoLoud1",
+          "id": "*/scratchoHeyLoud1",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "*/scratchoLoud2",
-          "beat": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/scratchoLoud3",
+          "id": "*/scratchoHeyLoud2",
           "beat": 1.0,
           "track": 1
         },
         {
-          "id": "*/scratchoLoud4",
+          "id": "*/heyLoud",
           "beat": 1.5,
           "track": 1
         },
@@ -834,7 +628,15 @@
           "id": "*/recordSwipe",
           "beat": 1.5
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "musicDistortEntity",
+      "id": "*_musicDistortion",
+      "name": "Music Distortion",
+      "deprecatedIDs": [],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -852,29 +654,105 @@
           "id": "*/ohYeah2",
           "beat": 0.5
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "cue",
+      "id": "*/ohYeah1",
+      "name": "oh yeah - 1",
+      "deprecatedIDs": [
+        "djSchool/ohyeah"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/ohYeah2",
+      "name": "oh yeah - 2",
+      "deprecatedIDs": [
+        "djSchool/ohyeah2"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.097
+    },
+    {
+      "type": "cue",
+      "id": "*/ohYeahAlt1",
+      "name": "oh yea-eh - 1",
+      "deprecatedIDs": [
+        "djSchool/ohyeheh1",
+        "djSchool/ohYeheh1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/ohYeahAlt2",
+      "name": "oh yea-eh - 2",
+      "deprecatedIDs": [
+        "djSchool/ohyeheh2",
+        "djSchool/ohYeheh2"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.04
+    },
+    {
+      "type": "cue",
+      "id": "*/ohYeahAlt3",
+      "name": "oh yea-eh - 3",
+      "deprecatedIDs": [
+        "djSchool/ohyeheh3",
+        "djSchool/ohYeheh3"
+      ],
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "*_ohYeheh",
-      "name": "oh yeheh",
+      "id": "*_ohYeahAlt",
+      "name": "oh yea-eh",
       "deprecatedIDs": [
-        "djSchool_ohyeheh"
+        "djSchool_ohyeheh",
+        "djSchool_ohYeheh"
       ],
       "cues": [
         {
-          "id": "*/ohYeheh1",
+          "id": "*/ohYeahAlt1",
           "beat": 0.0
         },
         {
-          "id": "*/ohYeheh2",
+          "id": "*/ohYeahAlt2",
           "beat": 0.5
         },
         {
-          "id": "*/ohYeheh3",
+          "id": "*/ohYeahAlt3",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "cue",
+      "id": "*/letsGo1",
+      "name": "let's go - 1",
+      "deprecatedIDs": [
+        "djSchool/letsgo1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/letsGo2",
+      "name": "let's go - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "pattern",
@@ -890,13 +768,36 @@
         },
         {
           "id": "*/letsGo2",
-          "beat": 0.25
-        },
-        {
-          "id": "*/letsGo3",
           "beat": 0.5
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "cue",
+      "id": "*/checkItOut1",
+      "name": "check it out - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "earliness": 0.045
+    },
+    {
+      "type": "cue",
+      "id": "*/checkItOut2",
+      "name": "check it out - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "earliness": 0.025
+    },
+    {
+      "type": "cue",
+      "id": "*/checkItOut3",
+      "name": "check it out - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "pattern",
@@ -912,20 +813,14 @@
         },
         {
           "id": "*/checkItOut2",
-          "beat": 0.281
+          "beat": 0.25
         },
         {
           "id": "*/checkItOut3",
           "beat": 0.5
         }
-      ]
-    },
-    {
-      "type": "musicDistortEntity",
-      "id": "*_musicDistortion",
-      "deprecatedIDs": [],
-      "name": "Music Distortion"
+      ],
+      "subtext": ""
     }
   ]
-} ]
 }
