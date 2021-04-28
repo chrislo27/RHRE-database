@@ -1,0 +1,350 @@
+{
+  "id": "samuraiSliceDSKo",
+  "name": "Samurai Slice (DS)",
+  "series": "side",
+  "language": "ko",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/throw",
+      "name": "throw",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/faster1",
+      "name": "faster - A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/faster2",
+      "name": "faster - B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/faster3",
+      "name": "faster - C",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/see-sawA",
+      "name": "see-saw - A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/see-sawB",
+      "name": "see-saw - B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/sliceA",
+      "name": "slice - A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/sliceB",
+      "name": "slice - B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/sliceC",
+      "name": "slice - C",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/sliceMoney",
+      "name": "slice - more coins",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/catch",
+      "name": "catch",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "pattern",
+      "id": "*_watermelon",
+      "name": "watermelon",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/throw",
+          "beat": 0.0
+        },
+        {
+          "id": "*/see-sawB",
+          "beat": 2.0
+        },
+        {
+          "id": "*_sliceRandom",
+          "beat": 4.0
+        },
+        {
+          "id": "*/catch",
+          "beat": 5.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_watermelonDouble",
+      "name": "watermelon double",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/throw",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/throw",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/see-sawB",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/see-sawA",
+          "beat": 3.0,
+          "track": 1
+        },
+        {
+          "id": "*_sliceRandom",
+          "beat": 4.0,
+          "track": 1
+        },
+        {
+          "id": "*/catch",
+          "beat": 5.0,
+          "track": 1
+        },
+        {
+          "id": "*_sliceRandom",
+          "beat": 5.0
+        },
+        {
+          "id": "*/catch",
+          "beat": 6.0,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_fish",
+      "name": "fish",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/throw",
+          "beat": 0.0
+        },
+        {
+          "id": "*/see-sawA",
+          "beat": 2.0
+        },
+        {
+          "id": "*/see-sawB",
+          "beat": 4.0
+        },
+        {
+          "id": "*_sliceRandom",
+          "beat": 6.0
+        },
+        {
+          "id": "*/catch",
+          "beat": 7.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_fishDouble",
+      "name": "fish double",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/throw",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/throw",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/see-sawA",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/see-sawB",
+          "beat": 3.0,
+          "track": 1
+        },
+        {
+          "id": "*/see-sawA",
+          "beat": 4.0,
+          "track": 1
+        },
+        {
+          "id": "*/see-sawB",
+          "beat": 5.0,
+          "track": 1
+        },
+        {
+          "id": "*_sliceRandom",
+          "beat": 6.0,
+          "track": 1
+        },
+        {
+          "id": "*/catch",
+          "beat": 7.0,
+          "track": 1
+        },
+        {
+          "id": "*_sliceRandom",
+          "beat": 7.0
+        },
+        {
+          "id": "*/catch",
+          "beat": 8.0,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_demon",
+      "name": "demon",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/throw",
+          "beat": 0.0
+        },
+        {
+          "id": "*/see-sawA",
+          "beat": 2.0
+        },
+        {
+          "id": "*_sliceRandom",
+          "beat": 6.0
+        },
+        {
+          "id": "*/catch",
+          "beat": 7.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_demonDouble",
+      "name": "demon double",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/throw",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/throw",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/see-sawB",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/see-sawB",
+          "beat": 3.0,
+          "track": 1
+        },
+        {
+          "id": "*_sliceRandom",
+          "beat": 6.0,
+          "track": 1
+        },
+        {
+          "id": "*/catch",
+          "beat": 7.0
+        },
+        {
+          "id": "*_sliceRandom",
+          "beat": 7.0,
+          "track": 1
+        },
+        {
+          "id": "*/catch",
+          "beat": 8.0,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_sliceRandom",
+      "name": "random slice",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/sliceA"
+        },
+        {
+          "id": "*/sliceB"
+        },
+        {
+          "id": "*/sliceC"
+        },
+        {
+          "id": "*/sliceMoney"
+        }
+      ],
+      "subtext": ""
+    }
+  ]
+}
