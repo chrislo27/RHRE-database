@@ -1,362 +1,586 @@
 {
-  "series": "tengoku",
   "id": "tossBoys",
   "name": "Toss Boys",
+  "series": "tengoku",
   "group": "Toss Boys",
   "groupDefault": true,
   "objects": [
     {
-      "type": "cue",
-      "id": "*/start",
+      "type": "pattern",
+      "id": "*_ballStart",
+      "name": "ball dispense",
       "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/ballStart",
+          "beat": 0.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_yellowPop",
+      "name": "[#FFFF00]kii[]-yan - pop ball",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/yellowPop",
+          "beat": 0.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "cue",
+      "id": "*/ballStart",
       "name": "start",
+      "deprecatedIDs": [
+        "tossBoys/start"
+      ],
+      "subtext": "(not panned)",
       "duration": 2.0
     },
     {
       "type": "cue",
-      "id": "*/stop",
+      "id": "*/ballStartYellow",
+      "name": "start - [#FFFF00]kii[]-yan",
       "deprecatedIDs": [],
+      "subtext": "(panned left)",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/ballStartBlue",
+      "name": "start - [#70B5FF]ao[]-kun",
+      "deprecatedIDs": [],
+      "subtext": "(panned right)",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/ballStartRed",
+      "name": "start - [#FF0000]aka[]-chan",
+      "deprecatedIDs": [],
+      "subtext": "(panned far right)",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/yellowPop",
       "name": "[#FFFF00]kii[]-yan - stop",
+      "deprecatedIDs": [
+        "tossBoys/stop"
+      ],
+      "subtext": "",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/bluePop",
+      "name": "[#70B5FF]ao[]-kun - stop (unused)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/redPop",
+      "name": "[#FF0000]aka[]-chan - stop (unused)",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 2.0
     },
     {
       "type": "cue",
       "id": "*/redBlue1",
-      "deprecatedIDs": [],
       "name": "[#FF0000]aka[]-chan - [#70B5FF]ao[]-kun - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/redBlue2",
-      "deprecatedIDs": [],
       "name": "[#FF0000]aka[]-chan - [#70B5FF]ao[]-kun - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/redYellow1",
-      "deprecatedIDs": [],
       "name": "[#FF0000]aka[]-chan - [#FFFF00]kii[]-yan - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/redYellow2",
-      "deprecatedIDs": [],
       "name": "[#FF0000]aka[]-chan - [#FFFF00]kii[]-yan - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/redYellow3",
-      "deprecatedIDs": [],
       "name": "[#FF0000]aka[]-chan - [#FFFF00]kii[]-yan - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/blueRed1",
-      "deprecatedIDs": [],
       "name": "[#70B5FF]ao[]-kun - [#FF0000]aka[]-chan - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/blueRed2",
-      "deprecatedIDs": [],
       "name": "[#70B5FF]ao[]-kun - [#FF0000]aka[]-chan - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/blueRed3",
-      "deprecatedIDs": [],
       "name": "[#70B5FF]ao[]-kun - [#FF0000]aka[]-chan - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/blueYellow1",
-      "deprecatedIDs": [],
       "name": "[#70B5FF]ao[]-kun - [#FFFF00]kii[]-yan - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/blueYellow2",
-      "deprecatedIDs": [],
       "name": "[#70B5FF]ao[]-kun - [#FFFF00]kii[]-yan - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/yellowRed1",
-      "deprecatedIDs": [],
       "name": "[#FFFF00]kii[]-yan - [#FF0000]aka[]-chan - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/yellowRed2",
-      "deprecatedIDs": [],
       "name": "[#FFFF00]kii[]-yan - [#FF0000]aka[]-chan - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/yellowRed3",
-      "deprecatedIDs": [],
       "name": "[#FFFF00]kii[]-yan - [#FF0000]aka[]-chan - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/yellowBlue1",
-      "deprecatedIDs": [],
       "name": "[#FFFF00]kii[]-yan - [#70B5FF]ao[]-kun - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/yellowBlue2",
-      "deprecatedIDs": [],
       "name": "[#FFFF00]kii[]-yan - [#70B5FF]ao[]-kun - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/superRed1",
+      "id": "*/redSpecial1",
+      "name": "[#FF0000]aka[]-chan special - start - 1",
       "deprecatedIDs": [
-        "tossBoys/superRed"
+        "tossBoys/superRed",
+        "tossBoys/superRed1"
       ],
-      "name": "[#FF0000]aka[]-chan super - start - 1",
-      "duration": 0.25
+      "subtext": "",
+      "duration": 0.25,
+      "introSound": "*/redSpecialCharge"
     },
     {
       "type": "cue",
-      "id": "*/superRed2",
-      "deprecatedIDs": [],
-      "name": "[#FF0000]aka[]-chan super - start - 2",
+      "id": "*/redSpecial2",
+      "name": "[#FF0000]aka[]-chan special - start - 2",
+      "deprecatedIDs": [
+        "tossBoys/superRed2"
+      ],
+      "subtext": "",
       "duration": 0.75
     },
     {
       "type": "cue",
-      "id": "*/superRedA1",
-      "deprecatedIDs": [],
-      "name": "[#FF0000]A[]-[#70B5FF]B[] dual toss - [#70B5FF]ao[]-kun - 1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/superRedA2",
-      "deprecatedIDs": [],
-      "name": "[#FF0000]A[]-[#70B5FF]B[] dual toss - [#70B5FF]ao[]-kun - 1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/superRedB1",
-      "deprecatedIDs": [],
-      "name": "[#FF0000]A[]-[#70B5FF]B[] dual toss - [#FF0000]aka[]-chan - 1",
-      "duration": 0.333
-    },
-    {
-      "type": "cue",
-      "id": "*/superRedB2",
-      "deprecatedIDs": [],
-      "name": "[#FF0000]A[]-[#70B5FF]B[] dual toss - [#FF0000]aka[]-chan - 2",
-      "duration": 0.333
-    },
-    {
-      "type": "cue",
-      "id": "*/superRedB3",
-      "deprecatedIDs": [],
-      "name": "[#FF0000]A[]-[#70B5FF]B[] dual toss - [#FF0000]aka[]-chan - 3",
-      "duration": 0.333
-    },
-    {
-      "type": "cue",
-      "id": "*/superRedHit",
-      "deprecatedIDs": [],
-      "name": "[#FF0000]red[] blur toss (unused) - hit",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/superRedBlue1",
+      "id": "*/blueSpecial1",
+      "name": "[#70B5FF]ao[]-kun special - start - 1",
       "deprecatedIDs": [
-        "tossBoys/superBlue"
+        "tossBoys/superBlue1"
       ],
-      "name": "[#FF0000]red[] blur toss (unused) - [#70B5FF]ao[]-kun - 1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/superRedBlue2",
-      "deprecatedIDs": [],
-      "name": "[#FF0000]red[] blur toss (unused) - [#70B5FF]ao[]-kun - 2",
-      "duration": 1.5
-    },
-    {
-      "type": "cue",
-      "id": "*/superRedYellow1",
-      "deprecatedIDs": [],
-      "name": "[#FF0000]red[] blur toss (unused) - [#FFFF00]kii[]-yan - 1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/superRedYellow2",
-      "deprecatedIDs": [],
-      "name": "[#FF0000]red[] blur toss (unused) - [#FFFF00]kii[]-yan - 2",
-      "duration": 1.5
-    },
-    {
-      "type": "cue",
-      "id": "*/superBlue1",
-      "deprecatedIDs": [],
-      "name": "[#70B5FF]ao[]-kun super - start - 1",
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/superBlue2",
-      "deprecatedIDs": [],
-      "name": "[#70B5FF]ao[]-kun super - start - 2",
+      "id": "*/blueSpecial2",
+      "name": "[#70B5FF]ao[]-kun special - start - 2",
+      "deprecatedIDs": [
+        "tossBoys/superBlue2"
+      ],
+      "subtext": "",
       "duration": 0.75
     },
     {
       "type": "cue",
-      "id": "*/superBlueHit",
-      "deprecatedIDs": [],
-      "name": "[#70B5FF]blue[] blur toss - hit",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/superBlueRed1",
-      "deprecatedIDs": [],
-      "name": "[#70B5FF]blue[] blur toss - [#FF0000]aka[]-chan - 1",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/superBlueRed2",
-      "deprecatedIDs": [],
-      "name": "[#70B5FF]blue[] blur toss - [#FF0000]aka[]-chan - 2",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/superBlueRed3",
-      "deprecatedIDs": [],
-      "name": "[#70B5FF]blue[] blur toss - [#FF0000]aka[]-chan - 3",
-      "duration": 1.5
-    },
-    {
-      "type": "cue",
-      "id": "*/superBlueYellow1",
-      "deprecatedIDs": [],
-      "name": "[#70B5FF]blue[] blur toss - [#FFFF00]kii[]-yan - 1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/superBlueYellow2",
-      "deprecatedIDs": [],
-      "name": "[#70B5FF]blue[] blur toss - [#FFFF00]kii[]-yan - 2",
-      "duration": 1.5
-    },
-    {
-      "type": "cue",
-      "id": "*/superYellowStart",
-      "deprecatedIDs": [],
-      "name": "[#FFFF00]kii[]-yan super - start",
+      "id": "*/yellowSpecial",
+      "name": "[#FFFF00]kii[]-yan special - start",
+      "deprecatedIDs": [
+        "tossBoys/superYellowStart"
+      ],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/superYellowRed1",
+      "id": "*/redBlueLow1",
+      "name": "[#FF0000]aka[]-chan - [#70B5FF]ao[]-kun - low - 1",
+      "deprecatedIDs": [
+        "tossBoys/superRedA1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/redBlueLow2",
+      "name": "[#FF0000]aka[]-chan - [#70B5FF]ao[]-kun - low - 2",
+      "deprecatedIDs": [
+        "tossBoys/superRedA2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/redYellowLow1",
+      "name": "[#FF0000]aka[]-chan - [#FFFF00]kii[]-yan - low- 1",
       "deprecatedIDs": [],
-      "name": "[#FFFF00]yellow[] lightning toss - [#FF0000]aka[]-chan - 1",
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/redYellowLow2",
+      "name": "[#FF0000]aka[]-chan - [#FFFF00]kii[]-yan - low - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/blueRedLow1",
+      "name": "[#70B5FF]ao[]-kun - [#FF0000]aka[]-chan - low - 1",
+      "deprecatedIDs": [
+        "tossBoys/superRedB1"
+      ],
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/superYellowRed2",
-      "deprecatedIDs": [],
-      "name": "[#FFFF00]yellow[] lightning toss - [#FF0000]aka[]-chan - 2",
+      "id": "*/blueRedLow2",
+      "name": "[#70B5FF]ao[]-kun - [#FF0000]aka[]-chan - low - 2",
+      "deprecatedIDs": [
+        "tossBoys/superRedB2"
+      ],
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/superYellowRed3",
-      "deprecatedIDs": [],
-      "name": "[#FFFF00]yellow[] lightning toss - [#FF0000]aka[]-chan - 3",
+      "id": "*/blueRedLow3",
+      "name": "[#70B5FF]ao[]-kun - [#FF0000]aka[]-chan - low - 3",
+      "deprecatedIDs": [
+        "tossBoys/superRedB3"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/superYellowBlue1",
+      "id": "*/blueYellowLow1",
+      "name": "[#70B5FF]ao[]-kun - [#FFFF00]kii[]-yan - low - 1",
       "deprecatedIDs": [],
-      "name": "[#FFFF00]yellow[] lightning toss - [#70B5FF]ao[]-kun - 1",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/superYellowBlue2",
+      "id": "*/blueYellowLow2",
+      "name": "[#70B5FF]ao[]-kun - [#FFFF00]kii[]-yan - low - 2",
       "deprecatedIDs": [],
-      "name": "[#FFFF00]yellow[] lightning toss- [#70B5FF]ao[]-kun - 2",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/superYellowFinish",
-      "deprecatedIDs": [],
-      "name": "[#FFFF00]yellow[] lightning toss - finish",
+      "id": "*/yellowRedLow1",
+      "name": "[#FFFF00]kii[]-yan - [#FF0000]aka[]-chan - low - 1",
+      "deprecatedIDs": [
+        "tossBoys/superYellowRed1"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/yellowRedLow2",
+      "name": "[#FFFF00]kii[]-yan - [#FF0000]aka[]-chan - low - 2",
+      "deprecatedIDs": [
+        "tossBoys/superYellowRed2"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/yellowRedLow3",
+      "name": "[#FFFF00]kii[]-yan - [#FF0000]aka[]-chan - low - 3",
+      "deprecatedIDs": [
+        "tossBoys/superYellowRed3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/yellowBlueLow1",
+      "name": "[#FFFF00]kii[]-yan - [#70B5FF]ao[]-kun - low - 1",
+      "deprecatedIDs": [
+        "tossBoys/superYellowBlue1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/yellowBlueLow2",
+      "name": "[#FFFF00]kii[]-yan - [#70B5FF]ao[]-kun - low - 2",
+      "deprecatedIDs": [
+        "tossBoys/superYellowBlue2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/redBlueHigh1",
+      "name": "[#FF0000]aka[]-chan - [#70B5FF]ao[]-kun - high - 1",
+      "deprecatedIDs": [
+        "tossBoys/superBlue",
+        "tossBoys/superRedBlue1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/redBlueHigh2",
+      "name": "[#FF0000]aka[]-chan - [#70B5FF]ao[]-kun - high - 2",
+      "deprecatedIDs": [
+        "tossBoys/superRedBlue2"
+      ],
+      "subtext": "",
+      "duration": 1.5
+    },
+    {
+      "type": "cue",
+      "id": "*/redYellowHigh1",
+      "name": "[#FF0000]aka[]-chan - [#FFFF00]kii[]-yan - high - 1",
+      "deprecatedIDs": [
+        "tossBoys/superRedYellow1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/redYellowHigh2",
+      "name": "[#FF0000]aka[]-chan - [#FFFF00]kii[]-yan - high - 2",
+      "deprecatedIDs": [
+        "tossBoys/superRedYellow2"
+      ],
+      "subtext": "",
+      "duration": 1.5
+    },
+    {
+      "type": "cue",
+      "id": "*/blueRedHigh1",
+      "name": "[#70B5FF]ao[]-kun - [#FF0000]aka[]-chan - high - 1",
+      "deprecatedIDs": [
+        "tossBoys/superBlueRed1"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/blueRedHigh2",
+      "name": "[#70B5FF]ao[]-kun - [#FF0000]aka[]-chan - high - 2",
+      "deprecatedIDs": [
+        "tossBoys/superBlueRed2"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/blueRedHigh3",
+      "name": "[#70B5FF]ao[]-kun - [#FF0000]aka[]-chan - high - 3",
+      "deprecatedIDs": [
+        "tossBoys/superBlueRed3"
+      ],
+      "subtext": "",
+      "duration": 1.5
+    },
+    {
+      "type": "cue",
+      "id": "*/blueYellowHigh1",
+      "name": "[#70B5FF]ao[]-kun - [#FFFF00]kii[]-yan - high - 1",
+      "deprecatedIDs": [
+        "tossBoys/superBlueYellow1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/blueYellowHigh2",
+      "name": "[#70B5FF]ao[]-kun - [#FFFF00]kii[]-yan - high - 2",
+      "deprecatedIDs": [
+        "tossBoys/superBlueYellow2"
+      ],
+      "subtext": "",
+      "duration": 1.5
+    },
+    {
+      "type": "cue",
+      "id": "*/yellowRedHigh1",
+      "name": "[#FFFF00]kii[]-yan - [#FF0000]aka[]-chan - high - 1",
+      "deprecatedIDs": [
+        "tossBoys/superYellowUnusedRed1"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/yellowRedHigh2",
+      "name": "[#FFFF00]kii[]-yan - [#FF0000]aka[]-chan - high - 2",
+      "deprecatedIDs": [
+        "tossBoys/superYellowUnusedRed2"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/yellowRedHigh3",
+      "name": "[#FFFF00]kii[]-yan - [#FF0000]aka[]-chan - high - 3",
+      "deprecatedIDs": [
+        "tossBoys/superYellowUnusedRed3"
+      ],
+      "subtext": "",
+      "duration": 1.5
+    },
+    {
+      "type": "cue",
+      "id": "*/yellowBlueHigh1",
+      "name": "[#FFFF00]kii[]-yan - [#70B5FF]ao[]-kun - high - 1",
+      "deprecatedIDs": [
+        "tossBoys/superYellowUnusedBlue1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/yellowBlueHigh2",
+      "name": "[#FFFF00]kii[]-yan - [#70B5FF]ao[]-kun - high - 2",
+      "deprecatedIDs": [
+        "tossBoys/superYellowUnusedBlue2"
+      ],
+      "subtext": "",
+      "duration": 1.5
+    },
+    {
+      "type": "cue",
+      "id": "*/redKeep",
+      "name": "[#FF0000]aka[]-chan - hit",
+      "deprecatedIDs": [
+        "tossBoys/superRedHit"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/blueKeep",
+      "name": "[#70B5FF]ao[]-kun - hit",
+      "deprecatedIDs": [
+        "tossBoys/superBlueHit"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/yellowKeep",
+      "name": "[#FFFF00]kii[]-yan - hit",
+      "deprecatedIDs": [
+        "tossBoys/superYellowFinish"
+      ],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/superYellowUnusedRed1",
+      "id": "*/redSpecialCharge",
+      "name": "[#FF0000]aka[]-chan special - charge",
       "deprecatedIDs": [],
-      "name": "[#FFFF00]yellow[] blur toss (unused) - [#FF0000]aka[]-chan - 1",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/superYellowUnusedRed2",
-      "deprecatedIDs": [],
-      "name": "[#FFFF00]yellow[] blur toss (unused) - [#FF0000]aka[]-chan - 2",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/superYellowUnusedRed3",
-      "deprecatedIDs": [],
-      "name": "[#FFFF00]yellow[] blur toss (unused) - [#FF0000]aka[]-chan - 3",
-      "duration": 1.5
-    },
-    {
-      "type": "cue",
-      "id": "*/superYellowUnusedBlue1",
-      "deprecatedIDs": [],
-      "name": "[#FFFF00]yellow[] blur toss (unused) - [#70B5FF]ao[]-kun - 1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/superYellowUnusedBlue2",
-      "deprecatedIDs": [],
-      "name": "[#FFFF00]yellow[] blur toss (unused) - [#70B5FF]ao[]-kun - 2",
-      "duration": 1.5
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "pattern",
-      "id": "*_akachanToAokun",
-      "deprecatedIDs": [],
+      "id": "*_redBlue",
       "name": "[#FF0000]aka[]-chan to [#70B5FF]ao[]-kun",
+      "deprecatedIDs": [
+        "tossBoys_akachanToAokun"
+      ],
       "cues": [
         {
           "id": "*/redBlue1",
@@ -366,13 +590,16 @@
           "id": "*/redBlue2",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_akachanToKiiyan",
-      "deprecatedIDs": [],
+      "id": "*_redYellow",
       "name": "[#FF0000]aka[]-chan to [#FFFF00]kii[]-yan",
+      "deprecatedIDs": [
+        "tossBoys_akachanToKiiyan"
+      ],
       "cues": [
         {
           "id": "*/redYellow1",
@@ -386,13 +613,16 @@
           "id": "*/redYellow3",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_aokunToAkachan",
-      "deprecatedIDs": [],
+      "id": "*_blueRed",
       "name": "[#70B5FF]ao[]-kun to [#FF0000]aka[]-chan",
+      "deprecatedIDs": [
+        "tossBoys_aokunToAkachan"
+      ],
       "cues": [
         {
           "id": "*/blueRed1",
@@ -406,13 +636,16 @@
           "id": "*/blueRed3",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_aokunToKiiyan",
-      "deprecatedIDs": [],
+      "id": "*_blueYellow",
       "name": "[#70B5FF]ao[]-kun to [#FFFF00]kii[]-yan",
+      "deprecatedIDs": [
+        "tossBoys_aokunToKiiyan"
+      ],
       "cues": [
         {
           "id": "*/blueYellow1",
@@ -422,13 +655,16 @@
           "id": "*/blueYellow2",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_kiiyanToAkachan",
-      "deprecatedIDs": [],
+      "id": "*_yellowRed",
       "name": "[#FFFF00]kii[]-yan to [#FF0000]aka[]-chan",
+      "deprecatedIDs": [
+        "tossBoys_kiiyanToAkachan"
+      ],
       "cues": [
         {
           "id": "*/yellowRed1",
@@ -442,13 +678,16 @@
           "id": "*/yellowRed3",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_kiiyanToAokun",
-      "deprecatedIDs": [],
+      "id": "*_yellowBlue",
       "name": "[#FFFF00]kii[]-yan to [#70B5FF]ao[]-kun",
+      "deprecatedIDs": [
+        "tossBoys_kiiyanToAokun"
+      ],
       "cues": [
         {
           "id": "*/yellowBlue1",
@@ -458,439 +697,696 @@
           "id": "*/yellowBlue2",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_akachanSuperStart",
-      "deprecatedIDs": [],
-      "name": "[#FF0000]A[]-[#70B5FF]B[] dual toss - start",
+      "id": "*_redSpecial",
+      "name": "[#FF0000]red[] special - start",
+      "deprecatedIDs": [
+        "tossBoys_akachanSuperStart"
+      ],
       "cues": [
         {
-          "id": "*/superRed1",
+          "id": "*/redSpecial1",
           "beat": 0.0
         },
         {
-          "id": "*/superRed2",
+          "id": "*/redSpecial2",
           "beat": 0.25
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_akachanSuperAokun",
+      "id": "*_redBlueLow",
+      "name": "[#FF0000]A[]-[#70B5FF]B[] dual toss",
       "deprecatedIDs": [
-        "tossBoys_akachanSuper"
+        "tossBoys_akachanSuper",
+        "tossBoys_akachanSuperAokun"
       ],
-      "name": "[#FF0000]A[]-[#70B5FF]B[] dual toss - [#70B5FF]ao-kun[]",
       "cues": [
         {
-          "id": "*/superRedA1",
+          "id": "*/redBlueLow1",
           "beat": 0.0
         },
         {
-          "id": "*/superRedA2",
+          "id": "*/redBlueLow2",
           "beat": 0.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_akachanSuperAkachan",
-      "deprecatedIDs": [],
-      "name": "[#FF0000]A[]-[#70B5FF]B[] dual toss - [#FF0000]aka-chan[]",
+      "id": "*_blueRedLow",
+      "name": "[#70B5FF]B[]-[#FF0000]A[] dual toss",
+      "deprecatedIDs": [
+        "tossBoys_akachanSuperAkachan"
+      ],
       "cues": [
         {
-          "id": "*/superRedB1",
+          "id": "*/blueRedLow1",
           "beat": 0.0
         },
         {
-          "id": "*/superRedB2",
-          "beat": 0.333
+          "id": "*/blueRedLow2",
+          "beat": 0.25
         },
         {
-          "id": "*/superRedB3",
-          "beat": 0.667
+          "id": "*/blueRedLow3",
+          "beat": 0.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_aokunSuperStart",
-      "deprecatedIDs": [],
+      "id": "*_blueBlurSpecial",
       "name": "[#70B5FF]blue[] blur toss - start",
+      "deprecatedIDs": [
+        "tossBoys_aokunSuperStart"
+      ],
       "cues": [
         {
-          "id": "*/superBlue1",
+          "id": "*/blueSpecial1",
           "beat": 0.0
         },
         {
-          "id": "*/superBlue2",
+          "id": "*/blueSpecial2",
           "beat": 0.25
         },
         {
-          "id": "*/superBlueHit",
+          "id": "*/blueKeep",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_aokunSuperTwoHits",
-      "deprecatedIDs": [],
+      "id": "*_blueBlurTwoHits",
       "name": "[#70B5FF]blue[] blur toss - two hits",
+      "deprecatedIDs": [
+        "tossBoys_aokunSuperTwoHits"
+      ],
       "cues": [
         {
-          "id": "*/superBlueHit",
+          "id": "*/blueKeep",
           "beat": 0.0
         },
         {
-          "id": "*/superBlueHit",
+          "id": "*/blueKeep",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_aokunSuperToAkachan",
-      "deprecatedIDs": [
-        "tossBoys_aokunSuper"
-      ],
+      "id": "*_blueRedBlur",
       "name": "[#70B5FF]blue[] blur toss to [#FF0000]aka[]-chan",
+      "deprecatedIDs": [
+        "tossBoys_aokunSuper",
+        "tossBoys_aokunSuperToAkachan"
+      ],
       "cues": [
         {
-          "id": "*/superBlueRed1",
+          "id": "*/blueRedHigh1",
           "beat": 0.0
         },
         {
-          "id": "*/superBlueRed2",
+          "id": "*/blueRedHigh2",
           "beat": 0.25
         },
         {
-          "id": "*/superBlueRed3",
+          "id": "*/blueRedHigh3",
           "beat": 0.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_aokunSuperToAkachanWithHit",
-      "deprecatedIDs": [],
+      "id": "*_blueRedBlurHit",
       "name": "[#70B5FF]blue[] blur toss to [#FF0000]aka[]-chan with extra hit",
+      "deprecatedIDs": [
+        "tossBoys_aokunSuperToAkachanWithHit"
+      ],
       "cues": [
         {
-          "id": "*/superBlueHit",
+          "id": "*/blueKeep",
           "beat": 0.0
         },
         {
-          "id": "*/superBlueRed1",
+          "id": "*/blueRedHigh1",
           "beat": 1.0
         },
         {
-          "id": "*/superBlueRed2",
+          "id": "*/blueRedHigh2",
           "beat": 1.25
         },
         {
-          "id": "*/superBlueRed3",
+          "id": "*/blueRedHigh3",
           "beat": 1.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_aokunSuperToKiiyan",
-      "deprecatedIDs": [],
+      "id": "*_blueYellowBlur",
       "name": "[#70B5FF]blue[] blur toss to [#FFFF00]kii[]-yan",
+      "deprecatedIDs": [
+        "tossBoys_aokunSuperToKiiyan"
+      ],
       "cues": [
         {
-          "id": "*/superBlueYellow1",
+          "id": "*/blueYellowHigh1",
           "beat": 0.0
         },
         {
-          "id": "*/superBlueYellow2",
+          "id": "*/blueYellowHigh2",
           "beat": 0.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_aokunSuperToKiiyanWithHit",
-      "deprecatedIDs": [],
+      "id": "*_blueYellowBlurHit",
       "name": "[#70B5FF]blue[] blur toss to [#FFFF00]kii[]-yan with extra hit",
+      "deprecatedIDs": [
+        "tossBoys_aokunSuperToKiiyanWithHit"
+      ],
       "cues": [
         {
-          "id": "*/superBlueHit",
+          "id": "*/blueKeep",
           "beat": 0.0
         },
         {
-          "id": "*/superBlueYellow1",
+          "id": "*/blueYellowHigh1",
           "beat": 1.0
         },
         {
-          "id": "*/superBlueYellow2",
+          "id": "*/blueYellowHigh2",
           "beat": 1.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_kiiyanSuperToAkachan",
-      "deprecatedIDs": [
-        "tossBoys_kiiyanSuper"
-      ],
+      "id": "*_yellowRedLightning",
       "name": "[#FFFF00]yellow[] lightning toss to [#FF0000]aka[]-chan",
-      "cues": [
-        {
-          "id": "*/superYellowStart",
-          "beat": 0.0
-        },
-        {
-          "id": "*/superYellowRed1",
-          "beat": 1.0
-        },
-        {
-          "id": "*/superYellowRed2",
-          "beat": 1.25
-        },
-        {
-          "id": "*/superYellowRed3",
-          "beat": 1.5
-        },
-        {
-          "id": "*/superYellowFinish",
-          "beat": 2.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_kiiyanSuperToAokun",
-      "deprecatedIDs": [],
-      "name": "[#FFFF00]yellow[] lightning toss to [#70B5FF]ao[]-kun",
-      "cues": [
-        {
-          "id": "*/superYellowStart",
-          "beat": 0.0
-        },
-        {
-          "id": "*/superYellowBlue1",
-          "beat": 1.0
-        },
-        {
-          "id": "*/superYellowBlue2",
-          "beat": 1.5
-        },
-        {
-          "id": "*/superYellowFinish",
-          "beat": 2.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_akachanUnusedSuperStart",
-      "deprecatedIDs": [],
-      "name": "[#FF0000]red[] blur toss (unused) - start",
-      "cues": [
-        {
-          "id": "*/superRed1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/superRed2",
-          "beat": 0.25
-        },
-        {
-          "id": "*/superRedHit",
-          "beat": 1.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_akachanUnusedSuperTwoHits",
-      "deprecatedIDs": [],
-      "name": "[#FF0000]red[] blur toss (unused) - two hits",
-      "cues": [
-        {
-          "id": "*/superRedHit",
-          "beat": 0.0
-        },
-        {
-          "id": "*/superRedHit",
-          "beat": 1.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_akachanSuperToAokun",
-      "deprecatedIDs": [],
-      "name": "[#FF0000]red[] blur toss (unused) to [#70B5FF]ao[]-kun",
-      "cues": [
-        {
-          "id": "*/superRedBlue1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/superRedBlue2",
-          "beat": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_akachanSuperToAokunWithHit",
-      "deprecatedIDs": [],
-      "name": "[#FF0000]red[] blur toss (unused) to [#70B5FF]ao[]-kun with extra hit",
-      "cues": [
-        {
-          "id": "*/superRedHit",
-          "beat": 0.0
-        },
-        {
-          "id": "*/superRedBlue1",
-          "beat": 1.0
-        },
-        {
-          "id": "*/superRedBlue2",
-          "beat": 1.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_akachanSuperToKiiyan",
-      "deprecatedIDs": [],
-      "name": "[#FF0000]red[] blur toss (unused) to [#FFFF00]kii[]-yan",
-      "cues": [
-        {
-          "id": "*/superRedYellow1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/superRedYellow2",
-          "beat": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_akachanSuperToKiiyanWithHit",
-      "deprecatedIDs": [],
-      "name": "[#FF0000]red[] blur toss (unused) to [#FFFF00]kii[]-yan with extra hit",
-      "cues": [
-        {
-          "id": "*/superRedHit",
-          "beat": 0.0
-        },
-        {
-          "id": "*/superRedYellow1",
-          "beat": 1.0
-        },
-        {
-          "id": "*/superRedYellow2",
-          "beat": 1.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_kiiyanUnusedSuperTwoHits",
       "deprecatedIDs": [
-        "tossBoys_kiiyanUnusedSuperStart"
+        "tossBoys_kiiyanSuper",
+        "tossBoys_kiiyanSuperToAkachan"
       ],
-      "name": "[#FFFF00]yellow[] blur toss (unused) - two hits",
       "cues": [
         {
-          "id": "*/superYellowStart",
+          "id": "*_yellowSpecial",
           "beat": 0.0
         },
         {
-          "id": "*/superYellowFinish",
+          "id": "*_yellowRedLow",
           "beat": 1.0
+        },
+        {
+          "id": "*/yellowKeep",
+          "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_kiiyanUnusedSuperToAkachan",
-      "deprecatedIDs": [],
-      "name": "[#FFFF00]yellow[] blur toss (unused) to [#FF0000]aka[]-chan with extra hit",
+      "id": "*_yellowBlueLightning",
+      "name": "[#FFFF00]yellow[] lightning toss to [#70B5FF]ao[]-kun",
+      "deprecatedIDs": [
+        "tossBoys_kiiyanSuperToAokun"
+      ],
       "cues": [
         {
-          "id": "*/superYellowUnusedRed1",
+          "id": "*_yellowSpecial",
           "beat": 0.0
         },
         {
-          "id": "*/superYellowUnusedRed2",
+          "id": "*_yellowBlueLow",
+          "beat": 1.0
+        },
+        {
+          "id": "*/yellowKeep",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_redBlurSpecial",
+      "name": "[#FF0000]red[] blur toss (unused) - start",
+      "deprecatedIDs": [
+        "tossBoys_akachanUnusedSuperStart"
+      ],
+      "cues": [
+        {
+          "id": "*/redSpecial1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/redSpecial2",
           "beat": 0.25
         },
         {
-          "id": "*/superYellowUnusedRed3",
-          "beat": 0.5
+          "id": "*/redKeep",
+          "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_kiiyanUnusedSuperToAkachanWithHit",
-      "deprecatedIDs": [],
-      "name": "[#FFFF00]yellow[] blur toss (unused) to [#FF0000]aka[]-chan",
+      "id": "*_redBlurTwoHits",
+      "name": "[#FF0000]red[] blur toss (unused) - two hits",
+      "deprecatedIDs": [
+        "tossBoys_akachanUnusedSuperTwoHits"
+      ],
       "cues": [
         {
-          "id": "*/superYellowFinish",
+          "id": "*/redKeep",
           "beat": 0.0
         },
         {
-          "id": "*/superYellowUnusedRed1",
+          "id": "*/redKeep",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_redBlueBlur",
+      "name": "[#FF0000]red[] blur toss (unused) to [#70B5FF]ao[]-kun",
+      "deprecatedIDs": [
+        "tossBoys_akachanSuperToAokun"
+      ],
+      "cues": [
+        {
+          "id": "*/redBlueHigh1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/redBlueHigh2",
+          "beat": 0.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_redBlueBlurHit",
+      "name": "[#FF0000]red[] blur toss (unused) to [#70B5FF]ao[]-kun with extra hit",
+      "deprecatedIDs": [
+        "tossBoys_akachanSuperToAokunWithHit"
+      ],
+      "cues": [
+        {
+          "id": "*/redKeep",
+          "beat": 0.0
+        },
+        {
+          "id": "*/redBlueHigh1",
           "beat": 1.0
         },
         {
-          "id": "*/superYellowUnusedRed2",
+          "id": "*/redBlueHigh2",
+          "beat": 1.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_redYellowBlur",
+      "name": "[#FF0000]red[] blur toss (unused) to [#FFFF00]kii[]-yan",
+      "deprecatedIDs": [
+        "tossBoys_akachanSuperToKiiyan"
+      ],
+      "cues": [
+        {
+          "id": "*/redYellowHigh1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/redYellowHigh2",
+          "beat": 0.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_redYellowBlurHit",
+      "name": "[#FF0000]red[] blur toss (unused) to [#FFFF00]kii[]-yan with extra hit",
+      "deprecatedIDs": [
+        "tossBoys_akachanSuperToKiiyanWithHit"
+      ],
+      "cues": [
+        {
+          "id": "*/redKeep",
+          "beat": 0.0
+        },
+        {
+          "id": "*/redYellowHigh1",
+          "beat": 1.0
+        },
+        {
+          "id": "*/redYellowHigh2",
+          "beat": 1.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_redBlueLightning",
+      "name": "[#FF0000]red[] lightning toss (unused) to [#70B5FF]ao[]-kun",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_redSpecial",
+          "beat": 0.0
+        },
+        {
+          "id": "*_redBlueLow",
+          "beat": 1.0
+        },
+        {
+          "id": "*/redKeep",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_redYellowLightning",
+      "name": "[#FF0000]red[] lightning toss (unused) to [#FFFF00]kii[]-yan",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_redSpecial",
+          "beat": 0.0
+        },
+        {
+          "id": "*_redYellowLow",
+          "beat": 1.0
+        },
+        {
+          "id": "*/redKeep",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_redYellowLow",
+      "name": "[#FF0000]A[]-[#FFFF00]+[] dual toss (unused)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/redYellowLow1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/redYellowLow2",
+          "beat": 0.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_blueSpecial",
+      "name": "[#70B5FF]blue[] special (unused) - start",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/blueSpecial1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/blueSpecial2",
+          "beat": 0.25
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_blueRedLightning",
+      "name": "[#70B5FF]blue[] lightning toss (unused) to [#FF0000]aka[]-chan",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_blueSpecial",
+          "beat": 0.0
+        },
+        {
+          "id": "*_blueRedLow",
+          "beat": 1.0
+        },
+        {
+          "id": "*/blueKeep",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_blueYellowLightning",
+      "name": "[#70B5FF]blue[] lightning toss (unused) to [#FFFF00]kii[]-yan",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_blueSpecial",
+          "beat": 0.0
+        },
+        {
+          "id": "*_blueYellowLow",
+          "beat": 1.0
+        },
+        {
+          "id": "*/blueKeep",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_blueYellowLow",
+      "name": "[#70B5FF]B[]-[#FFFF00]+[] dual toss (unused)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/blueYellowLow1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/blueYellowLow2",
+          "beat": 0.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_yellowSpecial",
+      "name": "[#FFFF00]kii[]-yan special - start",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/yellowSpecial",
+          "beat": 0.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_yellowBlurSpecial",
+      "name": "[#FFFF00]yellow[] blur toss (unused) - start",
+      "deprecatedIDs": [
+        "tossBoys_kiiyanUnusedSuperStart",
+        "tossBoys_kiiyanUnusedSuperTwoHits"
+      ],
+      "cues": [
+        {
+          "id": "*/yellowSpecial",
+          "beat": 0.0
+        },
+        {
+          "id": "*/yellowKeep",
+          "beat": 1.0,
+          "duration": 0.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_yellowBlurTwoHits",
+      "name": "[#FFFF00]yellow[] blur toss (unused) - two hits",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/yellowKeep",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/yellowKeep",
+          "beat": 1.0,
+          "duration": 0.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_yellowRedBlur",
+      "name": "[#FFFF00]yellow[] blur toss (unused) to [#FF0000]aka[]-chan",
+      "deprecatedIDs": [
+        "tossBoys_kiiyanUnusedSuperToAkachan"
+      ],
+      "cues": [
+        {
+          "id": "*/yellowRedHigh1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/yellowRedHigh2",
+          "beat": 0.25
+        },
+        {
+          "id": "*/yellowRedHigh3",
+          "beat": 0.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_yellowRedBlurHit",
+      "name": "[#FFFF00]yellow[] blur toss (unused) to [#FF0000]aka[]-chan with extra hit",
+      "deprecatedIDs": [
+        "tossBoys_kiiyanUnusedSuperToAkachanWithHit"
+      ],
+      "cues": [
+        {
+          "id": "*/yellowKeep",
+          "beat": 0.0
+        },
+        {
+          "id": "*/yellowRedHigh1",
+          "beat": 1.0
+        },
+        {
+          "id": "*/yellowRedHigh2",
           "beat": 1.25
         },
         {
-          "id": "*/superYellowUnusedRed3",
+          "id": "*/yellowRedHigh3",
           "beat": 1.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_kiiyanUnusedSuperToAokun",
-      "deprecatedIDs": [],
+      "id": "*_yellowBlueBlur",
       "name": "[#FFFF00]yellow[] blur toss (unused) to [#70B5FF]ao[]-kun",
+      "deprecatedIDs": [
+        "tossBoys_kiiyanUnusedSuperToAokun"
+      ],
       "cues": [
         {
-          "id": "*/superYellowUnusedBlue1",
+          "id": "*/yellowBlueHigh1",
           "beat": 0.0
         },
         {
-          "id": "*/superYellowUnusedBlue2",
+          "id": "*/yellowBlueHigh2",
           "beat": 0.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_kiiyanUnusedSuperToAokunWithHit",
-      "deprecatedIDs": [],
+      "id": "*_yellowBlueBlurHit",
       "name": "[#FFFF00]yellow[] blur toss (unused) to [#70B5FF]ao[]-kun with extra hit",
+      "deprecatedIDs": [
+        "tossBoys_kiiyanUnusedSuperToAokunWithHit"
+      ],
       "cues": [
         {
-          "id": "*/superYellowFinish",
+          "id": "*/yellowKeep",
           "beat": 0.0
         },
         {
-          "id": "*/superYellowUnusedBlue1",
+          "id": "*/yellowBlueHigh1",
           "beat": 1.0
         },
         {
-          "id": "*/superYellowUnusedBlue2",
+          "id": "*/yellowBlueHigh2",
           "beat": 1.5
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_yellowRedLow",
+      "name": "[#FFFF00]+[]-[#FF0000]A[] dual toss (unused)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/yellowRedLow1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/yellowRedLow2",
+          "beat": 0.25
+        },
+        {
+          "id": "*/yellowRedLow3",
+          "beat": 0.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_yellowBlueLow",
+      "name": "[#FFFF00]+[]-[#70B5FF]B[] dual toss (unused)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/yellowBlueLow1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/yellowBlueLow2",
+          "beat": 0.5
+        }
+      ],
+      "subtext": ""
     }
   ]
 }
