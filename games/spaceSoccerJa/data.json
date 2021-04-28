@@ -7,16 +7,46 @@
   "objects": [
     {
       "type": "cue",
-      "id": "*/thruster",
-      "name": "thruster",
-      "deprecatedIDs": [],
+      "id": "*/jetStart",
+      "name": "jet - start",
+      "deprecatedIDs": [
+        "spaceSoccerJa/thruster"
+      ],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/blastoff",
-      "name": "blastoff",
+      "id": "*/jetSpeedUp",
+      "name": "jet - speed up",
       "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/jetShort",
+      "name": "jet - end",
+      "deprecatedIDs": [
+        "spaceSoccerJa/blastoff"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/jetLong",
+      "name": "jet - kickers (dis)appear",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/down",
+      "name": "dispense - down",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
@@ -24,6 +54,7 @@
       "id": "*/kick",
       "name": "kick",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
@@ -31,6 +62,7 @@
       "id": "*/highkicktoe1",
       "name": "highkick - high",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
@@ -38,6 +70,7 @@
       "id": "*/highkicktoe2",
       "name": "highkick - kick",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -45,6 +78,7 @@
       "id": "*/highkicktoe3",
       "name": "highkick - toe",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.5
     },
     {
@@ -52,13 +86,15 @@
       "id": "*/dispense1",
       "name": "dispense - 1",
       "deprecatedIDs": [],
-      "duration": 0.75
+      "subtext": "",
+      "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/dispense2",
       "name": "dispense - 2",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25
     },
     {
@@ -66,6 +102,7 @@
       "id": "*/dispense3",
       "name": "dispense - 3",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25
     },
     {
@@ -73,6 +110,7 @@
       "id": "*/dispense4",
       "name": "dispense - 4",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25
     },
     {
@@ -80,6 +118,7 @@
       "id": "*/dispense5",
       "name": "dispense - 5",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -91,6 +130,11 @@
         {
           "id": "*/dispense1",
           "beat": 0.0
+        },
+        {
+          "id": "*/dispense2",
+          "beat": 0.25,
+          "duration": 0.5
         },
         {
           "id": "*/dispense2",
@@ -108,7 +152,8 @@
           "id": "*/dispense5",
           "beat": 1.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
@@ -133,7 +178,8 @@
           "id": "*/kick",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -153,7 +199,8 @@
           "id": "*/highkicktoe3",
           "beat": 1.5
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }

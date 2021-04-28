@@ -1,0 +1,194 @@
+{
+  "id": "spaceSoccerDe",
+  "name": "Space Soccer",
+  "series": "ds",
+  "language": "de",
+  "group": "Space Soccer",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/jetStart",
+      "name": "jet - start",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/jetSpeedUp",
+      "name": "jet - speed up",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/jetShort",
+      "name": "jet - end",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/jetLong",
+      "name": "jet - kickers (dis)appear",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/kick",
+      "name": "kick",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/highkicktoe1",
+      "name": "highkick - high",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/highkicktoe2",
+      "name": "highkick - kick",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/highkicktoe3",
+      "name": "highkick - toe",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.5
+    },
+    {
+      "type": "cue",
+      "id": "*/dispense1",
+      "name": "dispense - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dispense2",
+      "name": "dispense - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dispense3",
+      "name": "dispense - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dispense4",
+      "name": "dispense - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dispense5",
+      "name": "dispense - 5",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "pattern",
+      "id": "*_dispense",
+      "name": "ball dispense",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/dispense1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/dispense2",
+          "beat": 0.25,
+          "duration": 0.5
+        },
+        {
+          "id": "*/dispense2",
+          "beat": 0.75
+        },
+        {
+          "id": "*/dispense3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/dispense4",
+          "beat": 1.25
+        },
+        {
+          "id": "*/dispense5",
+          "beat": 1.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_keepup",
+      "name": "keep-up",
+      "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/kick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/kick",
+          "beat": 1.0
+        },
+        {
+          "id": "*/kick",
+          "beat": 2.0
+        },
+        {
+          "id": "*/kick",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_highkicktoe",
+      "name": "high kick-toe!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/highkicktoe1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/highkicktoe2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/highkicktoe3",
+          "beat": 1.5
+        }
+      ],
+      "subtext": ""
+    }
+  ]
+}

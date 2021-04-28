@@ -7,44 +7,78 @@
   "objects": [
     {
       "type": "cue",
-      "id": "*/thruster",
-      "name": "thruster",
-      "deprecatedIDs": [],
+      "id": "*/jetStart",
+      "name": "jet - start",
+      "deprecatedIDs": [
+        "spaceSoccerFr/thruster"
+      ],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/blastoff",
-      "name": "blastoff",
+      "id": "*/jetSpeedUp",
+      "name": "jet - speed up",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/hup",
+      "id": "*/jetShort",
+      "name": "jet - end",
+      "deprecatedIDs": [
+        "spaceSoccerFr/blastoff"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/jetLong",
+      "name": "jet - kickers (dis)appear",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/kick",
       "name": "hup",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "spaceSoccerFr/hup"
+      ],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/leshuptich1",
-      "name": "high",
-      "deprecatedIDs": [],
+      "id": "*/highkicktoe1",
+      "name": "highkick - les",
+      "deprecatedIDs": [
+        "spaceSoccerFr/leshuptich1"
+      ],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/leshuptich2",
-      "name": "kick",
-      "deprecatedIDs": [],
+      "id": "*/highkicktoe2",
+      "name": "highkick - hup",
+      "deprecatedIDs": [
+        "spaceSoccerFr/leshuptich2"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/leshuptich3",
-      "name": "toe",
-      "deprecatedIDs": [],
+      "id": "*/highkicktoe3",
+      "name": "highkick - tich",
+      "deprecatedIDs": [
+        "spaceSoccerFr/leshuptich3"
+      ],
+      "subtext": "",
       "duration": 1.5
     },
     {
@@ -52,13 +86,15 @@
       "id": "*/dispense1",
       "name": "dispense - 1",
       "deprecatedIDs": [],
-      "duration": 0.75
+      "subtext": "",
+      "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/dispense2",
       "name": "dispense - 2",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25
     },
     {
@@ -66,6 +102,7 @@
       "id": "*/dispense3",
       "name": "dispense - 3",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25
     },
     {
@@ -73,6 +110,7 @@
       "id": "*/dispense4",
       "name": "dispense - 4",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25
     },
     {
@@ -80,6 +118,7 @@
       "id": "*/dispense5",
       "name": "dispense - 5",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -91,6 +130,11 @@
         {
           "id": "*/dispense1",
           "beat": 0.0
+        },
+        {
+          "id": "*/dispense2",
+          "beat": 0.25,
+          "duration": 0.5
         },
         {
           "id": "*/dispense2",
@@ -108,7 +152,8 @@
           "id": "*/dispense5",
           "beat": 1.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
@@ -118,42 +163,46 @@
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "*/hup",
+          "id": "*/kick",
           "beat": 0.0
         },
         {
-          "id": "*/hup",
+          "id": "*/kick",
           "beat": 1.0
         },
         {
-          "id": "*/hup",
+          "id": "*/kick",
           "beat": 2.0
         },
         {
-          "id": "*/hup",
+          "id": "*/kick",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_leshuptich",
-      "name": "high kick-toe!",
-      "deprecatedIDs": [],
+      "id": "*_highkicktoe",
+      "name": "les hup-tich!",
+      "deprecatedIDs": [
+        "spaceSoccerFr_leshuptich"
+      ],
       "cues": [
         {
-          "id": "*/leshuptich1",
+          "id": "*/highkicktoe1",
           "beat": 0.0
         },
         {
-          "id": "*/leshuptich2",
+          "id": "*/highkicktoe2",
           "beat": 1.0
         },
         {
-          "id": "*/leshuptich3",
+          "id": "*/highkicktoe3",
           "beat": 1.5
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
