@@ -6,17 +6,21 @@
   "objects": [
     {
       "type": "cue",
-      "id": "*/three",
-      "name": "yellow bug - appear",
-      "deprecatedIDs": [],
+      "id": "*/yellowBugAppear",
+      "name": "[#FFE600]yellow bug[] - appear",
+      "deprecatedIDs": [
+        "tongueLashing/three"
+      ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/red",
-      "name": "red bug - appear",
-      "deprecatedIDs": [],
+      "id": "*/redBugAppear",
+      "name": "[#FF1A01]red bug[] - appear",
+      "deprecatedIDs": [
+        "tongueLashing/red"
+      ],
       "subtext": "",
       "duration": 0.5
     },
@@ -30,9 +34,11 @@
     },
     {
       "type": "cue",
-      "id": "*/gulp4",
+      "id": "*/gulpLong",
       "name": "gulp - 1",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "tongueLashing/gulp4"
+      ],
       "subtext": "",
       "duration": 0.5
     },
@@ -46,36 +52,44 @@
     },
     {
       "type": "cue",
-      "id": "*/yes",
-      "name": "guy - victory - 1",
-      "deprecatedIDs": [],
+      "id": "*/guyYes",
+      "name": "guy - yes",
+      "deprecatedIDs": [
+        "tongueLashing/yes"
+      ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/laughter",
-      "name": "guy - victory - 2",
-      "deprecatedIDs": [],
+      "id": "*/guyLaugh",
+      "name": "guy - laugh",
+      "deprecatedIDs": [
+        "tongueLashing/laughter"
+      ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/teehee",
-      "name": "guy - victory - 3",
-      "deprecatedIDs": [],
+      "id": "*/guyTeehee",
+      "name": "guy - teehee",
+      "deprecatedIDs": [
+        "tongueLashing/teehee"
+      ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "*_yellowbuglong",
-      "name": "long yellow bug",
-      "deprecatedIDs": [],
+      "id": "*_yellowBugLong",
+      "name": "long [#FFE600]yellow bug[]",
+      "deprecatedIDs": [
+        "tongueLashing_yellowbuglong"
+      ],
       "cues": [
         {
-          "id": "*/three",
+          "id": "*/yellowBugAppear",
           "beat": 0.0
         },
         {
@@ -83,7 +97,7 @@
           "beat": 2.0
         },
         {
-          "id": "*/gulp4",
+          "id": "*/gulpLong",
           "beat": 2.5
         },
         {
@@ -95,12 +109,14 @@
     },
     {
       "type": "pattern",
-      "id": "*_yellowbugshort",
-      "name": "short yellow bug",
-      "deprecatedIDs": [],
+      "id": "*_yellowBugShort",
+      "name": "short [#FFE600]yellow bug[]",
+      "deprecatedIDs": [
+        "tongueLashing_yellowbugshort"
+      ],
       "cues": [
         {
-          "id": "*/three",
+          "id": "*/yellowBugAppear",
           "beat": 0.0
         },
         {
@@ -116,12 +132,14 @@
     },
     {
       "type": "pattern",
-      "id": "*_redbuglong",
-      "name": "long red bug",
-      "deprecatedIDs": [],
+      "id": "*_redBugLong",
+      "name": "long [#FF1A01]red bug[]",
+      "deprecatedIDs": [
+        "tongueLashing_redbuglong"
+      ],
       "cues": [
         {
-          "id": "*/red",
+          "id": "*/redBugAppear",
           "beat": 0.0
         },
         {
@@ -129,7 +147,7 @@
           "beat": 3.0
         },
         {
-          "id": "*/gulp4",
+          "id": "*/gulpLong",
           "beat": 3.5
         },
         {
@@ -141,12 +159,14 @@
     },
     {
       "type": "pattern",
-      "id": "*_redbugshort",
-      "name": "short red bug",
-      "deprecatedIDs": [],
+      "id": "*_redBugShort",
+      "name": "short [#FF1A01]red bug[]",
+      "deprecatedIDs": [
+        "tongueLashing_redbugshort"
+      ],
       "cues": [
         {
-          "id": "*/red",
+          "id": "*/redBugAppear",
           "beat": 0.0
         },
         {
@@ -162,12 +182,14 @@
     },
     {
       "type": "pattern",
-      "id": "*_redbugshortyes",
-      "name": "short red bug yes",
-      "deprecatedIDs": [],
+      "id": "*_redBugShortYes",
+      "name": "short [#FF1A01]red bug[] - yes",
+      "deprecatedIDs": [
+        "tongueLashing_redbugshortyes"
+      ],
       "cues": [
         {
-          "id": "*/red",
+          "id": "*/redBugAppear",
           "beat": 0.0
         },
         {
@@ -179,7 +201,7 @@
           "beat": 3.5
         },
         {
-          "id": "*/yes",
+          "id": "*/guyYes",
           "beat": 4.0
         }
       ],
@@ -187,12 +209,14 @@
     },
     {
       "type": "pattern",
-      "id": "*_redbugshortlaughing",
-      "name": "short red bug laugh",
-      "deprecatedIDs": [],
+      "id": "*_redBugShortLaugh",
+      "name": "short [#FF1A01]red bug[] - laugh",
+      "deprecatedIDs": [
+        "tongueLashing_redbugshortlaughing"
+      ],
       "cues": [
         {
-          "id": "*/red",
+          "id": "*/redBugAppear",
           "beat": 0.0
         },
         {
@@ -204,7 +228,7 @@
           "beat": 3.5
         },
         {
-          "id": "*/laughter",
+          "id": "*/guyLaugh",
           "beat": 4.0
         }
       ],
@@ -212,12 +236,14 @@
     },
     {
       "type": "pattern",
-      "id": "*_redbugshortteehee",
-      "name": "short red bug teehee",
-      "deprecatedIDs": [],
+      "id": "*_redBugShortTeehee",
+      "name": "short [#FF1A01]red bug[] teehee",
+      "deprecatedIDs": [
+        "tongueLashing_redbugshortteehee"
+      ],
       "cues": [
         {
-          "id": "*/red",
+          "id": "*/redBugAppear",
           "beat": 0.0
         },
         {
@@ -229,7 +255,7 @@
           "beat": 3.5
         },
         {
-          "id": "*/teehee",
+          "id": "*/guyTeehee",
           "beat": 4.0
         }
       ],

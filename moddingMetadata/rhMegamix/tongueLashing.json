@@ -7,17 +7,17 @@
     "index": "0x44"
   },
   {
-    "applyTo": ["tongueLashing_yellowbuglong", "tongueLashing_yellowbugshort"],
+    "applyTo": ["tongueLashing_yellowBugLong", "tongueLashing_yellowBugShort"],
     "sub": "0x56",
 	"note": "Locations are determined by 0x100"
   },
   {
-    "applyTo": ["tongueLashing_redbuglong", "tongueLashing_redbugshort"],
+    "applyTo": ["tongueLashing_redBugLong", "tongueLashing_redBugShort"],
     "sub": "0x57",
     "note": "Locations are determined by 0x101"
   },
   {
-    "applyTo": ["tongueLashing_redbugshortyes", "tongueLashing_redbugshortlaughing"],
+    "applyTo": ["tongueLashing_redBugShortYes", "tongueLashing_redBugShortLaugh"],
     "sub": "0x58",
 	"note": "Guys are summoned with 0x10A"
   }
