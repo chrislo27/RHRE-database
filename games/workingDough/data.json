@@ -1,13 +1,14 @@
 {
-  "series": "fever",
   "id": "workingDough",
   "name": "Working Dough",
+  "series": "fever",
   "objects": [
     {
       "type": "cue",
       "id": "*/leftSmall",
-      "deprecatedIDs": [],
       "name": "left - small",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25,
       "responseIDs": [
         "*/rightSmall"
@@ -16,8 +17,9 @@
     {
       "type": "cue",
       "id": "*/leftBig",
-      "deprecatedIDs": [],
       "name": "left - big",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25,
       "responseIDs": [
         "*/rightBig"
@@ -26,25 +28,36 @@
     {
       "type": "cue",
       "id": "*/rightSmall",
-      "deprecatedIDs": [],
       "name": "right - small",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/rightBig",
-      "deprecatedIDs": [],
       "name": "right - big",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/natureNoise",
-      "deprecatedIDs": [],
       "name": "nature ambience (Working Dough 2)",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 3.0,
-      "loops": true,
-      "stretchable": true
+      "stretchable": true,
+      "loops": true
+    },
+    {
+      "type": "cue",
+      "id": "*/launch",
+      "name": "blast-off",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     }
   ]
 }
