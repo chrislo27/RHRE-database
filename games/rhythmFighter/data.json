@@ -179,6 +179,54 @@
     },
     {
       "type": "cue",
+      "id": "*/death1",
+      "name": "defeat - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/death2",
+      "name": "defeat - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/death3",
+      "name": "defeat - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/death4",
+      "name": "defeat - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/death5",
+      "name": "defeat - 5",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/death6",
+      "name": "defeat - 6",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
       "id": "*/three",
       "name": "three",
       "deprecatedIDs": [],
@@ -220,6 +268,15 @@
     },
     {
       "type": "cue",
+      "id": "*/readyAlt",
+      "name": "ready? (voice only)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.06125
+    },
+    {
+      "type": "cue",
       "id": "*/fight",
       "name": "fight!",
       "deprecatedIDs": [],
@@ -231,6 +288,22 @@
       "type": "cue",
       "id": "*/turnEnd",
       "name": "bell",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/knockout1",
+      "name": "KO! - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/knockout2",
+      "name": "KO! - 2",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
@@ -269,17 +342,41 @@
         {
           "id": "*/ready",
           "beat": 0.0,
-          "volume": 50
+          "volume": 75
         },
         {
           "id": "*/fight",
           "beat": 2.0,
-          "volume": 50
+          "volume": 75
         },
         {
           "id": "*/turnEnd",
           "beat": 3.0,
-          "volume": 50
+          "volume": 75
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_readyFightAlt",
+      "name": "ready? fight! (alternative)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/readyAlt",
+          "beat": 0.0,
+          "volume": 75
+        },
+        {
+          "id": "*/fight",
+          "beat": 2.0,
+          "volume": 75
+        },
+        {
+          "id": "*/turnEnd",
+          "beat": 3.0,
+          "volume": 75
         }
       ],
       "subtext": ""
@@ -462,6 +559,25 @@
         {
           "id": "*/ding",
           "beat": 7.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_knockout",
+      "name": "KO!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/knockout1",
+          "beat": 0.0,
+          "volume": 75
+        },
+        {
+          "id": "*/knockout2",
+          "beat": 1.0,
+          "volume": 75
         }
       ],
       "subtext": ""
