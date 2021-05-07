@@ -1,62 +1,96 @@
 {
-  "series": "tengoku",
   "id": "bunnyHopGba",
   "name": "Bunny Hop (GBA)",
+  "series": "tengoku",
   "objects": [
     {
       "type": "cue",
       "id": "*/start",
-      "deprecatedIDs": [],
       "name": "start",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/atama",
+      "name": "start (unused)",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/hop1",
-      "deprecatedIDs": [],
       "name": "hop1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/hop2",
-      "deprecatedIDs": [],
       "name": "hop2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/longJump",
+      "id": "*/longJumpStart",
+      "name": "long jump start",
       "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.5,
+      "baseBpm": 150.0
+    },
+    {
+      "type": "cue",
+      "id": "*/longJumpShortStart",
+      "name": "long jump start (short)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.5,
+      "stretchable": true,
+      "baseBpm": 150.0
+    },
+    {
+      "type": "cue",
+      "id": "*/longJump",
       "name": "long jump",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 4.0
     },
     {
       "type": "cue",
       "id": "*/longJumpShort",
-      "deprecatedIDs": [],
       "name": "long jump (short)",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 2.0
     },
     {
       "type": "cue",
       "id": "*/longJumpLong",
-      "deprecatedIDs": [],
       "name": "long jump (long)",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 9.0
     },
     {
       "type": "cue",
       "id": "*/moon",
-      "deprecatedIDs": [],
       "name": "moon",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "keepTheBeat",
       "id": "*_start",
-      "deprecatedIDs": [],
       "name": "start",
+      "deprecatedIDs": [],
       "defaultDuration": 4.0,
       "cues": [
         {
@@ -75,13 +109,14 @@
           "id": "*/start",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_hopping",
-      "deprecatedIDs": [],
       "name": "hopping",
+      "deprecatedIDs": [],
       "defaultDuration": 4.0,
       "cues": [
         {
@@ -100,73 +135,89 @@
           "id": "*/hop2",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_longJump4",
-      "deprecatedIDs": [],
       "name": "long jump 4 count",
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/longJump",
+          "id": "*/longJumpStart",
           "beat": 0.0
         },
         {
+          "id": "*/longJump",
+          "beat": 2.0
+        },
+        {
           "id": "*/hop1",
-          "beat": 4.0
+          "beat": 6.0
         },
         {
           "id": "*/hop2",
-          "beat": 5.0
+          "beat": 7.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_longJump8",
-      "deprecatedIDs": [],
       "name": "long jump 8 count",
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/longJumpLong",
+          "id": "*/longJumpStart",
           "beat": 0.0
         },
         {
+          "id": "*/longJumpLong",
+          "beat": 2.0
+        },
+        {
           "id": "*/hop1",
-          "beat": 8.0
+          "beat": 10.0
         },
         {
           "id": "*/hop2",
-          "beat": 9.0
+          "beat": 11.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_longJump2",
-      "deprecatedIDs": [],
       "name": "long jump 2 count",
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/longJumpShort",
+          "id": "*/longJumpShortStart",
           "beat": 0.0
         },
         {
+          "id": "*/longJumpShort",
+          "beat": 1.0
+        },
+        {
           "id": "*/hop1",
-          "beat": 2.0
+          "beat": 3.0
         },
         {
           "id": "*/hop2",
-          "beat": 3.0
+          "beat": 4.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_moon",
-      "deprecatedIDs": [],
       "name": "moon",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/longJump",
@@ -174,9 +225,36 @@
         },
         {
           "id": "*/moon",
-          "beat": 10.0
+          "beat": 8.0
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_atamaStart",
+      "name": "start (unused)",
+      "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/atama",
+          "beat": 0.0
+        },
+        {
+          "id": "*/atama",
+          "beat": 1.0
+        },
+        {
+          "id": "*/atama",
+          "beat": 2.0
+        },
+        {
+          "id": "*/atama",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
     }
   ]
 }

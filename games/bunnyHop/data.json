@@ -229,23 +229,6 @@
     },
     {
       "type": "pattern",
-      "id": "*_moon",
-      "name": "moon",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*_longJump",
-          "beat": 0.0
-        },
-        {
-          "id": "*/moon",
-          "beat": 11.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
       "id": "*_longJump",
       "name": "long jump",
       "deprecatedIDs": [
@@ -297,6 +280,23 @@
         {
           "id": "*/longJumpJump",
           "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_moon",
+      "name": "moon",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/longJumpJump",
+          "beat": 0.0
+        },
+        {
+          "id": "*/moon",
+          "beat": 8.0
         }
       ],
       "subtext": ""
