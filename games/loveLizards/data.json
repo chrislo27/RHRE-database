@@ -13,65 +13,81 @@
     },
     {
       "type": "cue",
-      "id": "*/bzzt1",
-      "name": "female güiro - 1",
-      "deprecatedIDs": [],
+      "id": "*/femaleA",
+      "name": "female lizard - a",
+      "deprecatedIDs": [
+        "loveLizards/bzzt1"
+      ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/bzzt2",
-      "name": "female güiro - 2",
-      "deprecatedIDs": [],
+      "id": "*/femaleE",
+      "name": "female lizard - e",
+      "deprecatedIDs": [
+        "loveLizards/bzzt2"
+      ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/bzzt3",
-      "name": "female güiro - 3",
-      "deprecatedIDs": [],
+      "id": "*/femaleI",
+      "name": "female lizard - i",
+      "deprecatedIDs": [
+        "loveLizards/bzzt3"
+      ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/bzzt4",
-      "name": "female güiro - 4",
-      "deprecatedIDs": [],
+      "id": "*/femaleN",
+      "name": "female lizard - n",
+      "deprecatedIDs": [
+        "loveLizards/bzzt4"
+      ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/bzzt5",
-      "name": "female güiro - 5",
-      "deprecatedIDs": [],
+      "id": "*/femaleO",
+      "name": "female lizard - o",
+      "deprecatedIDs": [
+        "loveLizards/bzzt5"
+      ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/bzzt6",
-      "name": "female güiro - 6",
-      "deprecatedIDs": [],
+      "id": "*/femaleU",
+      "name": "female lizard - u",
+      "deprecatedIDs": [
+        "loveLizards/bzzt6"
+      ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/shake",
-      "name": "male güiro",
-      "deprecatedIDs": [],
+      "id": "*/maleShake",
+      "name": "male lizard - shake",
+      "deprecatedIDs": [
+        "loveLizards/shake"
+      ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/happy",
+      "id": "*/maleHeart",
       "name": "heart",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "loveLizards/happy"
+      ],
       "subtext": "",
       "duration": 0.5
     },
@@ -94,43 +110,43 @@
           "beat": 1.5
         },
         {
-          "id": "*_randomBzzt",
-          "beat": 2.5
-        },
-        {
-          "id": "*/shake",
+          "id": "*_randomFemale",
           "beat": 2.5,
           "track": 1
         },
         {
-          "id": "*_randomBzzt",
-          "beat": 3.0
+          "id": "*/maleShake",
+          "beat": 2.5
         },
         {
-          "id": "*/shake",
+          "id": "*_randomFemale",
           "beat": 3.0,
           "track": 1
         },
         {
-          "id": "*_randomBzzt",
-          "beat": 3.5
+          "id": "*/maleShake",
+          "beat": 3.0
         },
         {
-          "id": "*/shake",
+          "id": "*_randomFemale",
           "beat": 3.5,
           "track": 1
         },
         {
-          "id": "*_randomBzzt",
-          "beat": 4.0
+          "id": "*/maleShake",
+          "beat": 3.5
         },
         {
-          "id": "*/shake",
+          "id": "*_randomFemale",
           "beat": 4.0,
           "track": 1
         },
         {
-          "id": "*/happy",
+          "id": "*/maleShake",
+          "beat": 4.0
+        },
+        {
+          "id": "*/maleHeart",
           "beat": 5.5
         }
       ],
@@ -158,51 +174,51 @@
           "duration": 0.5
         },
         {
-          "id": "*_randomBzzt",
-          "beat": 1.5,
-          "duration": 0.25
-        },
-        {
-          "id": "*/shake",
+          "id": "*_randomFemale",
           "beat": 1.5,
           "duration": 0.25,
           "track": 1
         },
         {
-          "id": "*_randomBzzt",
-          "beat": 1.75,
+          "id": "*/maleShake",
+          "beat": 1.5,
           "duration": 0.25
         },
         {
-          "id": "*/shake",
+          "id": "*_randomFemale",
           "beat": 1.75,
           "duration": 0.25,
           "track": 1
         },
         {
-          "id": "*_randomBzzt",
-          "beat": 2.0,
-          "duration": 0.5
+          "id": "*/maleShake",
+          "beat": 1.75,
+          "duration": 0.25
         },
         {
-          "id": "*/shake",
+          "id": "*_randomFemale",
           "beat": 2.0,
           "duration": 0.5,
           "track": 1
         },
         {
-          "id": "*_randomBzzt",
-          "beat": 2.5,
+          "id": "*/maleShake",
+          "beat": 2.0,
           "duration": 0.5
         },
         {
-          "id": "*/shake",
+          "id": "*_randomFemale",
           "beat": 2.5,
           "duration": 0.5,
           "track": 1
         },
         {
-          "id": "*/happy",
+          "id": "*/maleShake",
+          "beat": 2.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/maleHeart",
           "beat": 3.5
         }
       ],
@@ -230,51 +246,51 @@
           "duration": 0.33333
         },
         {
-          "id": "*_randomBzzt",
-          "beat": 1.3333333,
-          "duration": 0.33333
-        },
-        {
-          "id": "*/shake",
+          "id": "*_randomFemale",
           "beat": 1.3333333,
           "duration": 0.33333,
           "track": 1
         },
         {
-          "id": "*_randomBzzt",
+          "id": "*/maleShake",
+          "beat": 1.3333333,
+          "duration": 0.33333
+        },
+        {
+          "id": "*_randomFemale",
+          "beat": 1.6666672,
+          "duration": 0.33333,
+          "track": 1
+        },
+        {
+          "id": "*/maleShake",
           "beat": 1.6666672,
           "duration": 0.33333
         },
         {
-          "id": "*/shake",
-          "beat": 1.6666672,
-          "duration": 0.33333,
-          "track": 1
-        },
-        {
-          "id": "*_randomBzzt",
-          "beat": 2.0,
-          "duration": 0.33333
-        },
-        {
-          "id": "*/shake",
+          "id": "*_randomFemale",
           "beat": 2.0,
           "duration": 0.33333,
           "track": 1
         },
         {
-          "id": "*_randomBzzt",
-          "beat": 2.3333333,
+          "id": "*/maleShake",
+          "beat": 2.0,
           "duration": 0.33333
         },
         {
-          "id": "*/shake",
+          "id": "*_randomFemale",
           "beat": 2.3333333,
           "duration": 0.33333,
           "track": 1
         },
         {
-          "id": "*/happy",
+          "id": "*/maleShake",
+          "beat": 2.3333333,
+          "duration": 0.33333
+        },
+        {
+          "id": "*/maleHeart",
           "beat": 3.3333333
         }
       ],
@@ -282,27 +298,29 @@
     },
     {
       "type": "randomCue",
-      "id": "*_randomBzzt",
-      "name": "random female güiro chirp",
-      "deprecatedIDs": [],
+      "id": "*_randomFemale",
+      "name": "random female lizard chirp",
+      "deprecatedIDs": [
+        "loveLizards_randomBzzt"
+      ],
       "cues": [
         {
-          "id": "*/bzzt1"
+          "id": "*/femaleA"
         },
         {
-          "id": "*/bzzt2"
+          "id": "*/femaleE"
         },
         {
-          "id": "*/bzzt3"
+          "id": "*/femaleI"
         },
         {
-          "id": "*/bzzt4"
+          "id": "*/femaleN"
         },
         {
-          "id": "*/bzzt5"
+          "id": "*/femaleO"
         },
         {
-          "id": "*/bzzt6"
+          "id": "*/femaleU"
         }
       ],
       "subtext": ""
