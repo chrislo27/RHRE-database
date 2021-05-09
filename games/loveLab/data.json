@@ -5,9 +5,36 @@
   "objects": [
     {
       "type": "cue",
+      "id": "*/shakeUp",
+      "name": "shake - up",
+      "deprecatedIDs": [
+        "loveLab/shake1"
+      ],
+      "subtext": "",
+      "duration": 0.25,
+      "responseIDs": [
+        "*/shakeUp"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "*/shakeDown",
+      "name": "shake - down",
+      "deprecatedIDs": [
+        "loveLab/shake2"
+      ],
+      "subtext": "",
+      "duration": 0.25,
+      "responseIDs": [
+        "*/shakeDown"
+      ]
+    },
+    {
+      "type": "cue",
       "id": "*/leftCatch",
       "name": "left - catch",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5,
       "responseIDs": [
         "*/rightCatch"
@@ -18,6 +45,7 @@
       "id": "*/leftThrow",
       "name": "left - throw",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5,
       "responseIDs": [
         "*/rightThrow"
@@ -25,29 +53,10 @@
     },
     {
       "type": "cue",
-      "id": "*/shake1",
-      "name": "shake - 1",
-      "deprecatedIDs": [],
-      "duration": 0.25,
-      "responseIDs": [
-        "*/shake1"
-      ]
-    },
-    {
-      "type": "cue",
-      "id": "*/shake2",
-      "name": "shake - 2",
-      "deprecatedIDs": [],
-      "duration": 0.25,
-      "responseIDs": [
-        "*/shake2"
-      ]
-    },
-    {
-      "type": "cue",
       "id": "*/rightCatch",
       "name": "right - catch",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -55,28 +64,46 @@
       "id": "*/rightThrow",
       "name": "right - throw",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/heartCombine",
-      "name": "heart - combine",
+      "id": "*/rightThrowNoShake",
+      "name": "right - throw - no shake",
       "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/heartsCombine",
+      "name": "hearts - combine",
+      "deprecatedIDs": [
+        "loveLab/heartCombine"
+      ],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/heartBag",
-      "name": "heart - bag",
-      "deprecatedIDs": [],
+      "id": "*/bagHeart",
+      "name": "bag - heart",
+      "deprecatedIDs": [
+        "loveLab/heartBag"
+      ],
+      "subtext": "",
       "duration": 0.0625,
       "repitchable": true
     },
     {
       "type": "cue",
-      "id": "*/heartBagLong",
-      "name": "heart - bag last",
-      "deprecatedIDs": [],
+      "id": "*/bagHeartLast",
+      "name": "bag - last heart",
+      "deprecatedIDs": [
+        "loveLab/heartBagLong"
+      ],
+      "subtext": "",
       "duration": 0.0625,
       "repitchable": true
     },
@@ -103,14 +130,15 @@
           "beat": 3.0
         },
         {
-          "id": "*/heartCombine",
+          "id": "*/heartsCombine",
           "beat": 4.0
         },
         {
-          "id": "*/heartBagLong",
+          "id": "*/bagHeartLast",
           "beat": 5.25
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -135,14 +163,15 @@
           "beat": 2.5
         },
         {
-          "id": "*/heartCombine",
+          "id": "*/heartsCombine",
           "beat": 3.5
         },
         {
-          "id": "*/heartBagLong",
+          "id": "*/bagHeartLast",
           "beat": 4.75
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -155,11 +184,11 @@
           "beat": 0.0
         },
         {
-          "id": "*/shake1",
+          "id": "*/shakeUp",
           "beat": 0.5
         },
         {
-          "id": "*/shake2",
+          "id": "*/shakeDown",
           "beat": 0.75
         },
         {
@@ -171,11 +200,11 @@
           "beat": 2.0
         },
         {
-          "id": "*/shake1",
+          "id": "*/shakeUp",
           "beat": 2.5
         },
         {
-          "id": "*/shake2",
+          "id": "*/shakeDown",
           "beat": 2.75
         },
         {
@@ -183,14 +212,15 @@
           "beat": 3.0
         },
         {
-          "id": "*/heartCombine",
+          "id": "*/heartsCombine",
           "beat": 4.0
         },
         {
           "id": "*_heartPour2",
           "beat": 5.25
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -203,19 +233,19 @@
           "beat": 0.0
         },
         {
-          "id": "*/shake1",
+          "id": "*/shakeUp",
           "beat": 1.0
         },
         {
-          "id": "*/shake2",
+          "id": "*/shakeDown",
           "beat": 1.25
         },
         {
-          "id": "*/shake1",
+          "id": "*/shakeUp",
           "beat": 1.5
         },
         {
-          "id": "*/shake2",
+          "id": "*/shakeDown",
           "beat": 1.75
         },
         {
@@ -227,19 +257,19 @@
           "beat": 4.0
         },
         {
-          "id": "*/shake1",
+          "id": "*/shakeUp",
           "beat": 5.0
         },
         {
-          "id": "*/shake2",
+          "id": "*/shakeDown",
           "beat": 5.25
         },
         {
-          "id": "*/shake1",
+          "id": "*/shakeUp",
           "beat": 5.5
         },
         {
-          "id": "*/shake2",
+          "id": "*/shakeDown",
           "beat": 5.75
         },
         {
@@ -247,14 +277,15 @@
           "beat": 6.0
         },
         {
-          "id": "*/heartCombine",
+          "id": "*/heartsCombine",
           "beat": 7.0
         },
         {
           "id": "*_heartPour3",
           "beat": 8.25
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -267,35 +298,35 @@
           "beat": 0.0
         },
         {
-          "id": "*/shake1",
+          "id": "*/shakeUp",
           "beat": 0.5
         },
         {
-          "id": "*/shake2",
+          "id": "*/shakeDown",
           "beat": 0.75
         },
         {
-          "id": "*/shake1",
+          "id": "*/shakeUp",
           "beat": 1.0
         },
         {
-          "id": "*/shake2",
+          "id": "*/shakeDown",
           "beat": 1.25
         },
         {
-          "id": "*/shake1",
+          "id": "*/shakeUp",
           "beat": 2.0
         },
         {
-          "id": "*/shake2",
+          "id": "*/shakeDown",
           "beat": 2.25
         },
         {
-          "id": "*/shake1",
+          "id": "*/shakeUp",
           "beat": 2.5
         },
         {
-          "id": "*/shake2",
+          "id": "*/shakeDown",
           "beat": 2.75
         },
         {
@@ -307,35 +338,35 @@
           "beat": 4.0
         },
         {
-          "id": "*/shake1",
+          "id": "*/shakeUp",
           "beat": 4.5
         },
         {
-          "id": "*/shake2",
+          "id": "*/shakeDown",
           "beat": 4.75
         },
         {
-          "id": "*/shake1",
+          "id": "*/shakeUp",
           "beat": 5.0
         },
         {
-          "id": "*/shake2",
+          "id": "*/shakeDown",
           "beat": 5.25
         },
         {
-          "id": "*/shake1",
+          "id": "*/shakeUp",
           "beat": 6.0
         },
         {
-          "id": "*/shake2",
+          "id": "*/shakeDown",
           "beat": 6.25
         },
         {
-          "id": "*/shake1",
+          "id": "*/shakeUp",
           "beat": 6.5
         },
         {
-          "id": "*/shake2",
+          "id": "*/shakeDown",
           "beat": 6.75
         },
         {
@@ -343,120 +374,125 @@
           "beat": 7.0
         },
         {
-          "id": "*/heartCombine",
+          "id": "*/heartsCombine",
           "beat": 8.0
         },
         {
           "id": "*_heartPour5",
           "beat": 9.25
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_heartPour2",
-      "name": "2 hearts",
+      "name": "bag - 2 hearts",
       "deprecatedIDs": [
         "loveLab/heartPour2"
       ],
       "cues": [
         {
-          "id": "*/heartBag",
+          "id": "*/bagHeart",
           "beat": 0.0
         },
         {
-          "id": "*/heartBagLong",
+          "id": "*/bagHeartLast",
           "beat": 0.0625,
           "semitone": 2
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_heartPour3",
-      "name": "3 hearts",
+      "name": "bag - 3 hearts",
       "deprecatedIDs": [
         "loveLab/heartPour3"
       ],
       "cues": [
         {
-          "id": "*/heartBag",
+          "id": "*/bagHeart",
           "beat": 0.0
         },
         {
-          "id": "*/heartBag",
+          "id": "*/bagHeart",
           "beat": 0.0625,
           "semitone": 2
         },
         {
-          "id": "*/heartBagLong",
+          "id": "*/bagHeartLast",
           "beat": 0.125,
           "semitone": 4
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_heartPour4",
-      "name": "4 hearts",
+      "name": "bag - 4 hearts",
       "deprecatedIDs": [
         "loveLab/heartPour4"
       ],
       "cues": [
         {
-          "id": "*/heartBag",
+          "id": "*/bagHeart",
           "beat": 0.0
         },
         {
-          "id": "*/heartBag",
+          "id": "*/bagHeart",
           "beat": 0.0625,
           "semitone": 2
         },
         {
-          "id": "*/heartBag",
+          "id": "*/bagHeart",
           "beat": 0.125,
           "semitone": 4
         },
         {
-          "id": "*/heartBagLong",
+          "id": "*/bagHeartLast",
           "beat": 0.1875,
           "semitone": 7
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_heartPour5",
-      "name": "5 hearts",
+      "name": "bag - 5 hearts",
       "deprecatedIDs": [
         "loveLab/heartPour5"
       ],
       "cues": [
         {
-          "id": "*/heartBag",
+          "id": "*/bagHeart",
           "beat": 0.0
         },
         {
-          "id": "*/heartBag",
+          "id": "*/bagHeart",
           "beat": 0.0625,
           "semitone": 2
         },
         {
-          "id": "*/heartBag",
+          "id": "*/bagHeart",
           "beat": 0.125,
           "semitone": 4
         },
         {
-          "id": "*/heartBag",
+          "id": "*/bagHeart",
           "beat": 0.1875,
           "semitone": 7
         },
         {
-          "id": "*/heartBagLong",
+          "id": "*/bagHeartLast",
           "beat": 0.25,
           "semitone": 8
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
