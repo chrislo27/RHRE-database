@@ -8,6 +8,7 @@
       "id": "*/start",
       "name": "start",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
@@ -15,6 +16,7 @@
       "id": "*/portalOpen",
       "name": "portal - open",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 4.0
     },
     {
@@ -22,7 +24,16 @@
       "id": "*/pinwheel",
       "name": "pinwheel",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 5.0
+    },
+    {
+      "type": "cue",
+      "id": "*/wind",
+      "name": "wind",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
@@ -31,16 +42,90 @@
       "deprecatedIDs": [
         "samuraiSliceWii/slice"
       ],
-      "duration": 0.5
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/sliceDouble",
-      "name": "samurai - second slice",
+      "name": "samurai - second slice - 1",
       "deprecatedIDs": [
         "samuraiSliceWii/sliceDouble"
       ],
-      "duration": 0.5
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/sliceDouble2",
+      "name": "samurai - second slice - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/tinyDemon1",
+      "name": "horde - slice - 1",
+      "deprecatedIDs": [
+        "samuraiSliceFever/whirl1",
+        "samuraiSliceWii/whirl1"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "endingSound": "*/tinyDemon7",
+      "useTimeStretching": false,
+      "loops": true
+    },
+    {
+      "type": "cue",
+      "id": "*/tinyDemon2",
+      "name": "horde - slice - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/tinyDemon3",
+      "name": "horde - slice - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/tinyDemon4",
+      "name": "horde - slice - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/tinyDemon5",
+      "name": "horde - slice - 5",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/tinyDemon6",
+      "name": "horde - slice - 6",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.167
+    },
+    {
+      "type": "cue",
+      "id": "*/tinyDemon7",
+      "name": "horde - slice - 7",
+      "deprecatedIDs": [
+        "samuraiSliceFever/whirl2"
+      ],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
@@ -49,6 +134,7 @@
       "deprecatedIDs": [
         "samuraiSliceWii/demonSmall1"
       ],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -58,6 +144,7 @@
       "deprecatedIDs": [
         "samuraiSliceWii/demonSmall2"
       ],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -67,6 +154,7 @@
       "deprecatedIDs": [
         "samuraiSliceWii/demonSmall3"
       ],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -76,6 +164,7 @@
       "deprecatedIDs": [
         "samuraiSliceWii/demonMedium1"
       ],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -85,6 +174,7 @@
       "deprecatedIDs": [
         "samuraiSliceWii/demonMedium2"
       ],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -94,6 +184,7 @@
       "deprecatedIDs": [
         "samuraiSliceWii/demonMedium3"
       ],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -103,6 +194,7 @@
       "deprecatedIDs": [
         "samuraiSliceWii/demonBig1"
       ],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -112,6 +204,7 @@
       "deprecatedIDs": [
         "samuraiSliceWii/demonBig2"
       ],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -121,6 +214,7 @@
       "deprecatedIDs": [
         "samuraiSliceWii/demonBig3"
       ],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -130,6 +224,7 @@
       "deprecatedIDs": [
         "samuraiSliceWii/demonHuge1"
       ],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -139,6 +234,7 @@
       "deprecatedIDs": [
         "samuraiSliceWii/demonHuge2"
       ],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -148,6 +244,7 @@
       "deprecatedIDs": [
         "samuraiSliceWii/demonHuge3"
       ],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -157,6 +254,7 @@
       "deprecatedIDs": [
         "samuraiSliceWii/horde1"
       ],
+      "subtext": "",
       "duration": 0.33333
     },
     {
@@ -166,6 +264,7 @@
       "deprecatedIDs": [
         "samuraiSliceWii/horde2"
       ],
+      "subtext": "",
       "duration": 0.33333
     },
     {
@@ -175,6 +274,7 @@
       "deprecatedIDs": [
         "samuraiSliceWii/horde3"
       ],
+      "subtext": "",
       "duration": 0.33333
     },
     {
@@ -184,40 +284,15 @@
       "deprecatedIDs": [
         "samuraiSliceWii/horde4"
       ],
+      "subtext": "",
       "duration": 0.33333
-    },
-    {
-      "type": "cue",
-      "id": "*/whirlStart",
-      "name": "samuraiSliceFever/whirlStart",
-      "deprecatedIDs": [],
-      "duration": 10.0
-    },
-    {
-      "type": "cue",
-      "id": "*/whirl1",
-      "name": "samurai - whirl - 1",
-      "deprecatedIDs": [
-        "samuraiSliceWii/whirl1"
-      ],
-      "duration": 1.0,
-      "introSound": "*/whirlStart",
-      "loops": true
-    },
-    {
-      "type": "cue",
-      "id": "*/whirl2",
-      "name": "samurai - whirl - 2",
-      "deprecatedIDs": [
-        "samuraiSliceWii/whirl2"
-      ],
-      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/lightning1",
       "name": "lightning - 1",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
@@ -225,6 +300,7 @@
       "id": "*/lightning2",
       "name": "lightning - 2",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
@@ -232,6 +308,7 @@
       "id": "*/lightningHorde",
       "name": "lightning - horde",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
@@ -258,7 +335,8 @@
           "id": "*/slice",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -300,11 +378,12 @@
           "beat": 2.0
         },
         {
-          "id": "*/sliceDouble",
+          "id": "*_randomSecondSlice",
           "beat": 3.0,
           "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -330,7 +409,8 @@
           "id": "*/slice",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -372,11 +452,12 @@
           "track": 1
         },
         {
-          "id": "*/sliceDouble",
+          "id": "*_randomSecondSlice",
           "beat": 3.0,
           "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -402,7 +483,8 @@
           "id": "*/slice",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -444,11 +526,12 @@
           "track": 1
         },
         {
-          "id": "*/sliceDouble",
+          "id": "*_randomSecondSlice",
           "beat": 3.0,
           "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -474,7 +557,8 @@
           "id": "*/slice",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -511,7 +595,8 @@
           "beat": 2.0,
           "duration": 0.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -553,11 +638,12 @@
           "track": 1
         },
         {
-          "id": "*/sliceDouble",
+          "id": "*_randomSecondSlice",
           "beat": 3.0,
           "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -613,7 +699,7 @@
           "duration": 1.0
         },
         {
-          "id": "*/sliceDouble",
+          "id": "*_randomSecondSlice",
           "beat": 3.0,
           "duration": 0.5,
           "track": 2
@@ -624,41 +710,62 @@
           "duration": 0.5,
           "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_demonHorde",
-      "name": "horde of demons",
-      "deprecatedIDs": [
-        "samuraiSliceWii_demonHorde"
-      ],
+      "name": "horde of demons ",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/horde1",
-          "beat": 0.0
+          "beat": 0.0,
+          "duration": 0.33333
         },
         {
           "id": "*/horde2",
-          "beat": 0.33333
+          "beat": 0.33333015,
+          "duration": 0.33333
         },
         {
           "id": "*/horde3",
-          "beat": 0.66666
+          "beat": 0.6666603,
+          "duration": 0.33333
         },
         {
           "id": "*/horde4",
-          "beat": 1.0
+          "beat": 1.0,
+          "duration": 0.33333
         },
         {
-          "id": "*/whirl1",
-          "beat": 2.0
+          "id": "*/tinyDemon1",
+          "beat": 2.0,
+          "track": 1
         },
         {
-          "id": "*/whirl2",
-          "beat": 3.0
+          "id": "*/tinyDemon2",
+          "beat": 2.167
+        },
+        {
+          "id": "*/tinyDemon3",
+          "beat": 2.333
+        },
+        {
+          "id": "*/tinyDemon4",
+          "beat": 2.5
+        },
+        {
+          "id": "*/tinyDemon5",
+          "beat": 2.667
+        },
+        {
+          "id": "*/tinyDemon6",
+          "beat": 2.833
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -669,45 +776,71 @@
         {
           "id": "*/horde1",
           "beat": 0.0,
-          "duration": 0.33333,
-          "track": 1
+          "duration": 0.33333
         },
         {
           "id": "*/horde2",
           "beat": 0.33333015,
-          "duration": 0.33333,
-          "track": 1
+          "duration": 0.33333
         },
         {
           "id": "*/horde3",
           "beat": 0.6666603,
-          "duration": 0.33333,
-          "track": 1
+          "duration": 0.33333
         },
         {
           "id": "*/horde4",
           "beat": 1.0,
-          "duration": 0.33333,
-          "track": 1
-        },
-        {
-          "id": "*/whirl1",
-          "beat": 2.0,
-          "duration": 1.0,
-          "track": 1
+          "duration": 0.33333
         },
         {
           "id": "*/lightningHorde",
           "beat": 3.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/whirl2",
-          "beat": 3.0,
           "duration": 1.0,
           "track": 1
+        },
+        {
+          "id": "*/tinyDemon1",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/tinyDemon2",
+          "beat": 2.167
+        },
+        {
+          "id": "*/tinyDemon3",
+          "beat": 2.333
+        },
+        {
+          "id": "*/tinyDemon4",
+          "beat": 2.5
+        },
+        {
+          "id": "*/tinyDemon5",
+          "beat": 2.667
+        },
+        {
+          "id": "*/tinyDemon6",
+          "beat": 2.833
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_randomSecondSlice",
+      "name": "random second slice",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/sliceDouble"
+        },
+        {
+          "id": "*/sliceDouble2"
+        }
+      ],
+      "subtext": ""
     }
   ]
 }
