@@ -1,110 +1,135 @@
 {
-  "series": "fever",
   "id": "monkeyWatch",
   "name": "Monkey Watch",
+  "series": "fever",
   "objects": [
     {
       "type": "cue",
-      "id": "*/clap1",
-      "deprecatedIDs": [],
-      "name": "clap - 1",
+      "id": "*/clap",
+      "name": "clap - onbeat",
+      "deprecatedIDs": [
+        "monkeyWatch/clap1",
+        "monkeyWatch/clap2"
+      ],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/clap2",
+      "id": "*/clapOffbeat",
+      "name": "clap - offbeat",
       "deprecatedIDs": [],
-      "name": "clap - 2",
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/offbeat1",
-      "deprecatedIDs": [],
-      "name": "offbeat - ook",
+      "id": "*/voice1",
+      "name": "offbeat - oo",
+      "deprecatedIDs": [
+        "monkeyWatch/offbeat1"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/voice2",
+      "name": "offbeat - kii",
+      "deprecatedIDs": [
+        "monkeyWatch/offbeat2"
+      ],
+      "subtext": "",
       "duration": 1.0,
-      "earliness": 0.015
+      "earliness": 0.026
     },
     {
       "type": "cue",
-      "id": "*/offbeat2",
-      "deprecatedIDs": [],
+      "id": "*/voice3",
+      "name": "offbeat - uk",
+      "deprecatedIDs": [
+        "monkeyWatch/offbeat3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/voice4",
       "name": "offbeat - ki",
+      "deprecatedIDs": [
+        "monkeyWatch/offbeat5",
+        "monkeyWatch/offbeat4"
+      ],
+      "subtext": "",
       "duration": 1.0,
-      "earliness": 0.025
-    },
-    {
-      "type": "cue",
-      "id": "*/offbeat3",
-      "deprecatedIDs": [],
-      "name": "offbeat - ok",
-      "duration": 0.5,
-      "earliness": 0.01
-    },
-    {
-      "type": "cue",
-      "id": "*/offbeat4",
-      "deprecatedIDs": [],
-      "name": "offbeat - clap - 1",
-      "duration": 1.0,
-      "earliness": 0.025
-    },
-    {
-      "type": "cue",
-      "id": "*/offbeat5",
-      "deprecatedIDs": [],
-      "name": "offbeat - clap - 2",
-      "duration": 1.0,
-      "earliness": 0.025
+      "earliness": 0.016
     },
     {
       "type": "keepTheBeat",
       "id": "*_clap",
+      "name": "clap",
       "deprecatedIDs": [
         "clap"
       ],
-      "name": "clap",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "*/clap1",
+          "id": "*/clap",
           "beat": 0.0
         },
         {
-          "id": "*/clap2",
+          "id": "*/clap",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_offbeat",
+      "name": "offbeat clap",
       "deprecatedIDs": [
         "offbeat"
       ],
-      "name": "offbeat clap",
       "cues": [
         {
-          "id": "*/offbeat1",
+          "id": "*/voice1",
           "beat": 0.0
         },
         {
-          "id": "*/offbeat2",
+          "id": "*/voice2",
           "beat": 1.0
         },
         {
-          "id": "*/offbeat3",
+          "id": "*/clap",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/voice3",
           "beat": 2.0
         },
         {
-          "id": "*/offbeat4",
+          "id": "*/voice4",
           "beat": 2.5
         },
         {
-          "id": "*/offbeat5",
+          "id": "*/clapOffbeat",
+          "beat": 2.5,
+          "track": 1
+        },
+        {
+          "id": "*/voice4",
           "beat": 3.5
+        },
+        {
+          "id": "*/clapOffbeat",
+          "beat": 3.5,
+          "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
