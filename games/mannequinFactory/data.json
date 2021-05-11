@@ -1,112 +1,153 @@
 {
+  "id": "mannequinFactory",
+  "name": "Mannequin Factory",
   "series": "side",
-  "id": "headSpinner",
-  "name": "Head Spinner",
   "searchHints": [
-    "mannequin", "factory"
+    "head spinner"
   ],
   "objects": [
     {
       "type": "cue",
       "id": "*/drum",
-      "deprecatedIDs": [],
       "name": "drum",
+      "deprecatedIDs": [
+        "headSpinner/drum"
+      ],
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/drumroll1",
-      "deprecatedIDs": [],
       "name": "drumroll - 1",
+      "deprecatedIDs": [
+        "headSpinner/drumroll1"
+      ],
+      "subtext": "",
       "duration": 0.167
     },
     {
       "type": "cue",
       "id": "*/drumroll2",
-      "deprecatedIDs": [],
       "name": "drumroll - 2",
+      "deprecatedIDs": [
+        "headSpinner/drumroll2"
+      ],
+      "subtext": "",
       "duration": 0.167
     },
     {
       "type": "cue",
       "id": "*/drumroll3",
-      "deprecatedIDs": [],
       "name": "drumroll - 3",
+      "deprecatedIDs": [
+        "headSpinner/drumroll3"
+      ],
+      "subtext": "",
       "duration": 0.167
     },
     {
       "type": "cue",
       "id": "*/drumroll4",
-      "deprecatedIDs": [],
       "name": "drumroll - 4",
+      "deprecatedIDs": [
+        "headSpinner/drumroll4"
+      ],
+      "subtext": "",
       "duration": 0.167
     },
     {
       "type": "cue",
       "id": "*/drumroll5",
-      "deprecatedIDs": [],
       "name": "drumroll - 5",
+      "deprecatedIDs": [
+        "headSpinner/drumroll5"
+      ],
+      "subtext": "",
       "duration": 0.167
     },
     {
       "type": "cue",
       "id": "*/drumroll6",
-      "deprecatedIDs": [],
       "name": "drumroll - 6",
+      "deprecatedIDs": [
+        "headSpinner/drumroll6"
+      ],
+      "subtext": "",
       "duration": 0.167
     },
     {
       "type": "cue",
       "id": "*/drumroll7",
-      "deprecatedIDs": [],
       "name": "drumroll - 7",
+      "deprecatedIDs": [
+        "headSpinner/drumroll7"
+      ],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/slap",
-      "deprecatedIDs": [],
       "name": "slap",
+      "deprecatedIDs": [
+        "headSpinner/slap"
+      ],
+      "subtext": "",
       "duration": 2.0
     },
     {
       "type": "cue",
       "id": "*/eyes",
-      "deprecatedIDs": [],
       "name": "eyes",
+      "deprecatedIDs": [
+        "headSpinner/eyes"
+      ],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/claw1",
-      "deprecatedIDs": [],
       "name": "claw - 1",
+      "deprecatedIDs": [
+        "headSpinner/claw1"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/claw2",
-      "deprecatedIDs": [],
       "name": "claw - 2",
+      "deprecatedIDs": [
+        "headSpinner/claw2"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "pattern",
       "id": "*_eyesOnly",
-      "deprecatedIDs": [],
       "name": "mannequin - eyes only",
+      "deprecatedIDs": [
+        "headSpinner_eyesOnly"
+      ],
       "cues": [
         {
           "id": "*/drum",
-          "beat": 0.0
+          "beat": 0.0,
+          "volume": 75
         },
         {
           "id": "*/drum",
-          "beat": 0.5
+          "beat": 0.5,
+          "volume": 75
         },
         {
           "id": "*/drum",
-          "beat": 1.5
+          "beat": 1.5,
+          "volume": 50
         },
         {
           "id": "*/drum",
@@ -152,13 +193,16 @@
           "id": "*/claw2",
           "beat": 6.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_slapAndEyes",
-      "deprecatedIDs": [],
       "name": "mannequin - slap and eyes",
+      "deprecatedIDs": [
+        "headSpinner/slapAndEyes"
+      ],
       "cues": [
         {
           "id": "*/drum",
@@ -166,19 +210,23 @@
         },
         {
           "id": "*/drum",
-          "beat": 0.5
+          "beat": 0.5,
+          "volume": 40
         },
         {
           "id": "*/drum",
-          "beat": 0.75
+          "beat": 0.75,
+          "volume": 50
         },
         {
           "id": "*/drum",
-          "beat": 1.0
+          "beat": 1.0,
+          "volume": 75
         },
         {
           "id": "*/drum",
-          "beat": 1.5
+          "beat": 1.5,
+          "volume": 75
         },
         {
           "id": "*/drum",
@@ -200,7 +248,8 @@
           "id": "*/claw2",
           "beat": 6.5
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
