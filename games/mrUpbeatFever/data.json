@@ -1,95 +1,90 @@
 {
-  "series": "side",
   "id": "mrUpbeatFever",
   "name": "Mr. Upbeat (Fever)",
+  "series": "side",
   "group": "Mr. Upbeat",
   "groupDefault": true,
   "objects": [
     {
       "type": "cue",
-      "id": "*/bip",
-      "deprecatedIDs": [
-        "mrUpbeatWii/bip",
-        "mrUpbeat/bip"
-      ],
-      "name": "count in - bip",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/metroL",
-      "deprecatedIDs": [
-        "mrUpbeatWii/metroL",
-        "mrUpbeat/metroL"
-      ],
-      "name": "metronome - left",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/metroR",
-      "deprecatedIDs": [
-        "mrUpbeatWii/metroR",
-        "mrUpbeat/metroR"
-      ],
-      "name": "metronome - right",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/step",
-      "deprecatedIDs": [
-        "mrUpbeatWii/step",
-        "mrUpbeat/step"
-      ],
-      "name": "upbeat - step",
+      "id": "*/ding",
+      "name": "ding",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/applause",
+      "name": "ding and applause",
       "deprecatedIDs": [
         "mrUpbeatWii/applause",
         "mrUpbeat/applause"
       ],
-      "name": "ding and applause",
+      "subtext": "",
       "duration": 0.5
     },
     {
-      "type": "pattern",
-      "id": "*_countIn",
+      "type": "cue",
+      "id": "*/bip",
+      "name": "count in - bip",
       "deprecatedIDs": [
-        "mrUpbeatWii_countIn",
-        "mrUpbeat_countIn"
+        "mrUpbeatWii/bip",
+        "mrUpbeat/bip"
       ],
-      "name": "count in",
-      "cues": [
-        {
-          "id": "*/bip",
-          "beat": 0.0
-        },
-        {
-          "id": "*/bip",
-          "beat": 1.0
-        },
-        {
-          "id": "*/bip",
-          "beat": 2.0
-        },
-        {
-          "id": "*/bip",
-          "beat": 3.0
-        }
-      ]
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/metroL",
+      "name": "metronome - left",
+      "deprecatedIDs": [
+        "mrUpbeatWii/metroL",
+        "mrUpbeat/metroL"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/metroR",
+      "name": "metronome - right",
+      "deprecatedIDs": [
+        "mrUpbeatWii/metroR",
+        "mrUpbeat/metroR"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/step1",
+      "name": "upbeat - step - 1",
+      "deprecatedIDs": [
+        "mrUpbeatWii/step",
+        "mrUpbeat/step",
+        "mrUpbeatFever/step"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/step2",
+      "name": "upbeat - step - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "keepTheBeat",
       "id": "*_pattern",
+      "name": "stepping",
       "deprecatedIDs": [
         "mrUpbeatWii_pattern",
         "mrUpbeat_pattern"
       ],
-      "name": "stepping",
       "defaultDuration": 4.0,
       "cues": [
         {
@@ -97,7 +92,7 @@
           "beat": 0.0
         },
         {
-          "id": "*/step",
+          "id": "*/step1",
           "beat": 0.5
         },
         {
@@ -105,7 +100,7 @@
           "beat": 1.0
         },
         {
-          "id": "*/step",
+          "id": "*/step2",
           "beat": 1.5
         },
         {
@@ -113,7 +108,7 @@
           "beat": 2.0
         },
         {
-          "id": "*/step",
+          "id": "*/step1",
           "beat": 2.5
         },
         {
@@ -121,10 +116,40 @@
           "beat": 3.0
         },
         {
-          "id": "*/step",
+          "id": "*/step2",
           "beat": 3.5
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_countIn",
+      "name": "count-in",
+      "deprecatedIDs": [
+        "mrUpbeatWii_countIn",
+        "mrUpbeat_countIn"
+      ],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/bip",
+          "beat": 0.0
+        },
+        {
+          "id": "*/bip",
+          "beat": 1.0
+        },
+        {
+          "id": "*/bip",
+          "beat": 2.0
+        },
+        {
+          "id": "*/bip",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
     }
   ]
 }
