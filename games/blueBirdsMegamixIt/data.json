@@ -1,0 +1,167 @@
+{
+  "id": "blueBirdsMegamixIt",
+  "name": "Blue Birds (Megamix)",
+  "series": "megamix",
+  "language": "it",
+  "group": "Blue Birds (Megamix)",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/waugh",
+      "name": "captain speaks",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/peckyourbeak1",
+      "name": "peck your beak - peck",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/peckyourbeak2",
+      "name": "peck your beak - your",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/peckyourbeak3",
+      "name": "peck your beak - beak",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/peck",
+      "name": "peck",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/stretchoutyourneck1",
+      "name": "stretch out your neck - stretch",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.75
+    },
+    {
+      "type": "cue",
+      "id": "*/stretchoutyourneck2",
+      "name": "stretch out your neck - out",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.75
+    },
+    {
+      "type": "cue",
+      "id": "*/stretchoutyourneck3",
+      "name": "stretch out your neck - your",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.0155
+    },
+    {
+      "type": "cue",
+      "id": "*/stretchoutyourneck4",
+      "name": "stretch out your neck - neck",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.0155
+    },
+    {
+      "type": "cue",
+      "id": "*/stretch1",
+      "name": "stretch - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "loops": true
+    },
+    {
+      "type": "cue",
+      "id": "*/stretch2",
+      "name": "stretch - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "pattern",
+      "id": "*_peckyourbeak",
+      "name": "peck your beak",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/peckyourbeak1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/peckyourbeak2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/peckyourbeak3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/peck",
+          "beat": 2.0
+        },
+        {
+          "id": "*/peck",
+          "beat": 2.5
+        },
+        {
+          "id": "*/peck",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_stretchoutyourneck",
+      "name": "stretch out your neck",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/stretchoutyourneck1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/stretchoutyourneck2",
+          "beat": 0.75
+        },
+        {
+          "id": "*/stretchoutyourneck3",
+          "beat": 1.5
+        },
+        {
+          "id": "*/stretchoutyourneck4",
+          "beat": 2.0
+        },
+        {
+          "id": "*/stretch1",
+          "beat": 3.0
+        },
+        {
+          "id": "*/stretch2",
+          "beat": 4.0
+        }
+      ],
+      "subtext": ""
+    }
+  ]
+}
