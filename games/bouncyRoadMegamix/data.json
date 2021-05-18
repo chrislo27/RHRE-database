@@ -1,75 +1,113 @@
 {
-  "id" : "bouncyRoadMegamix",
-  "name" : "Bouncy Road (Megamix)",
-  "series" : "megamix",
-  "objects" : [ {
-    "type" : "cue",
-    "id" : "*/tink",
-    "name" : "tink",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/cymbal",
-    "name" : "cymbal",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "equidistant",
-    "id" : "*_15bounces",
-    "name" : "15 bounces",
-    "deprecatedIDs" : [ ],
-    "distance" : 0.5,
-    "stretchable" : true,
-    "cues" : [ {
-      "id" : "*/tink",
-      "volume" : 44
-    }, {
-      "id" : "*/tink",
-      "volume" : 48
-    }, {
-      "id" : "*/tink",
-      "volume" : 52
-    }, {
-      "id" : "*/tink",
-      "volume" : 56
-    }, {
-      "id" : "*/tink",
-      "volume" : 60
-    }, {
-      "id" : "*/tink",
-      "volume" : 64
-    }, {
-      "id" : "*/tink",
-      "volume" : 68
-    }, {
-      "id" : "*/tink",
-      "volume" : 72
-    }, {
-      "id" : "*/tink",
-      "volume" : 76
-    }, {
-      "id" : "*/tink",
-      "volume" : 80
-    }, {
-      "id" : "*/tink",
-      "volume" : 84
-    }, {
-      "id" : "*/tink",
-      "volume" : 88
-    }, {
-      "id" : "*/tink",
-      "semitone" : -4,
-      "volume" : 92
-    }, {
-      "id" : "*/tink",
-      "semitone" : 3,
-      "volume" : 96
-    }, {
-      "id" : "*/cymbal"
-    } ],
-    "subtext" : ""
-  } ]
+  "id": "bouncyRoadMegamix",
+  "name": "Bouncy Road (Megamix)",
+  "series": "megamix",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/ballBounce",
+      "name": "bounce",
+      "deprecatedIDs": [
+        "bouncyRoadMegamix/tink"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/ballRight",
+      "name": "bounce - A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/ballLeft",
+      "name": "bounce - +",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/goal",
+      "name": "bounce - goal",
+      "deprecatedIDs": [
+        "bouncyRoadMegamix/cymbal"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "equidistant",
+      "id": "*_15bounces",
+      "name": "15 bounces",
+      "deprecatedIDs": [],
+      "distance": 0.5,
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/ballBounce",
+          "volume": 44
+        },
+        {
+          "id": "*/ballBounce",
+          "volume": 48
+        },
+        {
+          "id": "*/ballBounce",
+          "volume": 52
+        },
+        {
+          "id": "*/ballBounce",
+          "volume": 56
+        },
+        {
+          "id": "*/ballBounce",
+          "volume": 60
+        },
+        {
+          "id": "*/ballBounce",
+          "volume": 64
+        },
+        {
+          "id": "*/ballBounce",
+          "volume": 68
+        },
+        {
+          "id": "*/ballBounce",
+          "volume": 72
+        },
+        {
+          "id": "*/ballBounce",
+          "volume": 76
+        },
+        {
+          "id": "*/ballBounce",
+          "volume": 80
+        },
+        {
+          "id": "*/ballBounce",
+          "volume": 84
+        },
+        {
+          "id": "*/ballBounce",
+          "volume": 88
+        },
+        {
+          "id": "*/ballRight",
+          "volume": 92
+        },
+        {
+          "id": "*/ballLeft",
+          "volume": 96
+        },
+        {
+          "id": "*/goal"
+        }
+      ],
+      "subtext": ""
+    }
+  ]
 }

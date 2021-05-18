@@ -1,93 +1,113 @@
 {
-  "series": "tengoku",
   "id": "bouncyRoad",
   "name": "Bouncy Road (GBA)",
+  "series": "tengoku",
   "objects": [
     {
       "type": "cue",
-      "id": "*/tink",
-      "deprecatedIDs": [],
-      "name": "tink",
+      "id": "*/ballBounce",
+      "name": "bounce",
+      "deprecatedIDs": [
+        "bouncyRoad/tink"
+      ],
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/cymbal",
+      "id": "*/ballRight",
+      "name": "bounce - A",
       "deprecatedIDs": [],
-      "name": "cymbal",
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/ballLeft",
+      "name": "bounce - +",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/goal",
+      "name": "bounce - goal",
+      "deprecatedIDs": [
+        "bouncyRoad/cymbal"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "equidistant",
       "id": "*_15bounces",
-      "deprecatedIDs": [],
       "name": "15 bounces",
+      "deprecatedIDs": [],
       "distance": 0.5,
       "stretchable": true,
       "cues": [
         {
-          "id": "*/tink",
+          "id": "*/ballBounce",
           "volume": 44
         },
         {
-          "id": "*/tink",
+          "id": "*/ballBounce",
           "volume": 48
         },
         {
-          "id": "*/tink",
+          "id": "*/ballBounce",
           "volume": 52
         },
         {
-          "id": "*/tink",
+          "id": "*/ballBounce",
           "volume": 56
         },
         {
-          "id": "*/tink",
+          "id": "*/ballBounce",
           "volume": 60
         },
         {
-          "id": "*/tink",
+          "id": "*/ballBounce",
           "volume": 64
         },
         {
-          "id": "*/tink",
+          "id": "*/ballBounce",
           "volume": 68
         },
         {
-          "id": "*/tink",
+          "id": "*/ballBounce",
           "volume": 72
         },
         {
-          "id": "*/tink",
+          "id": "*/ballBounce",
           "volume": 76
         },
         {
-          "id": "*/tink",
+          "id": "*/ballBounce",
           "volume": 80
         },
         {
-          "id": "*/tink",
+          "id": "*/ballBounce",
           "volume": 84
         },
         {
-          "id": "*/tink",
+          "id": "*/ballBounce",
           "volume": 88
         },
         {
-          "id": "*/tink",
-          "semitone": -4,
+          "id": "*/ballRight",
           "volume": 92
         },
         {
-          "id": "*/tink",
-          "semitone": 3,
+          "id": "*/ballLeft",
           "volume": 96
         },
         {
-          "id": "*/cymbal",
-          "volume": 100
+          "id": "*/goal"
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
