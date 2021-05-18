@@ -1,495 +1,582 @@
 {
-  "series": "ds",
   "id": "rockersJa",
   "name": "Rockers",
+  "series": "ds",
   "language": "ja",
   "group": "Rockers",
   "objects": [
     {
       "type": "cue",
-      "id": "*/chord1",
-      "deprecatedIDs": [],
-      "name": "D7 (3rd)",
-      "duration": 1.0,
-      "loops": true,
-      "stretchable": true,
-      "repitchable": true,
-      "introSound": "*/chordStart1",
-      "responseIDs": []
-    },
-    {
-      "type": "cue",
-      "id": "*/chordStart1",
-      "deprecatedIDs": [],
-      "name": "D7 (3rd) chord - start",
-      "duration": 0.25,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/chord2",
-      "deprecatedIDs": [],
-      "name": "Asus4 (1st)",
-      "duration": 1.0,
-      "loops": true,
-      "stretchable": true,
-      "repitchable": true,
-      "introSound": "*/chordStart2",
-      "responseIDs": []
-    },
-    {
-      "type": "cue",
-      "id": "*/chordStart2",
-      "deprecatedIDs": [],
-      "name": "Asus4 (1st) chord - start",
-      "duration": 0.25,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/chord3",
-      "deprecatedIDs": [],
-      "name": "Bmin (2nd)",
-      "duration": 1.0,
-      "loops": true,
-      "stretchable": true,
-      "repitchable": true,
-      "introSound": "*/chordStart3",
-      "responseIDs": []
-    },
-    {
-      "type": "cue",
-      "id": "*/chordStart3",
-      "deprecatedIDs": [],
-      "name": "Bmin (2nd) chord - start",
-      "duration": 0.25,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/chord4",
-      "deprecatedIDs": [],
-      "name": "C#m7b5 (2nd)",
-      "duration": 1.0,
-      "loops": true,
-      "stretchable": true,
-      "repitchable": true,
-      "introSound": "*/chordStart4",
-      "responseIDs": []
-    },
-    {
-      "type": "cue",
-      "id": "*/chordStart4",
-      "deprecatedIDs": [],
-      "name": "C#m7b5 (2nd) chord - start",
-      "duration": 0.25,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/chord5",
-      "deprecatedIDs": [],
-      "name": "A (root)",
-      "duration": 1.0,
-      "loops": true,
-      "stretchable": true,
-      "repitchable": true,
-      "introSound": "*/chordStart5",
-      "responseIDs": []
-    },
-    {
-      "type": "cue",
-      "id": "*/chordStart5",
-      "deprecatedIDs": [],
-      "name": "A (root) chord - start",
-      "duration": 0.25,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/chord6",
-      "deprecatedIDs": [],
-      "name": "D7 (3rd)",
-      "duration": 1.0,
-      "loops": true,
-      "stretchable": true,
-      "repitchable": true,
-      "introSound": "*/chordStart6",
-      "responseIDs": []
-    },
-    {
-      "type": "cue",
-      "id": "*/chordStart6",
-      "deprecatedIDs": [],
-      "name": "D7 (3rd) chord - start",
-      "duration": 0.25,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/chord7",
-      "deprecatedIDs": [],
-      "name": "F# (1st)",
-      "duration": 1.0,
-      "loops": true,
-      "stretchable": true,
-      "repitchable": true,
-      "introSound": "*/chordStart7",
-      "responseIDs": []
-    },
-    {
-      "type": "cue",
-      "id": "*/chordStart7",
-      "deprecatedIDs": [],
-      "name": "F# (1st) chord - start",
-      "duration": 0.25,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/chord8",
-      "deprecatedIDs": [],
-      "name": "G (1st)",
-      "duration": 1.0,
-      "loops": true,
-      "stretchable": true,
-      "repitchable": true,
-      "introSound": "*/chordStart8",
-      "responseIDs": []
-    },
-    {
-      "type": "cue",
-      "id": "*/chordStart8",
-      "deprecatedIDs": [],
-      "name": "G (1st) chord - start",
-      "duration": 0.25,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/chord9",
-      "deprecatedIDs": [],
-      "name": "G (root)",
-      "duration": 1.0,
-      "loops": true,
-      "stretchable": true,
-      "repitchable": true,
-      "introSound": "*/chordStart9",
-      "responseIDs": []
-    },
-    {
-      "type": "cue",
-      "id": "*/chordStart9",
-      "deprecatedIDs": [],
-      "name": "G (root) chord - start",
-      "duration": 0.25,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/chord10",
-      "deprecatedIDs": [],
-      "name": "C#dim7",
-      "duration": 1.0,
-      "loops": true,
-      "stretchable": true,
-      "repitchable": true,
-      "introSound": "*/chordStart10",
-      "responseIDs": []
-    },
-    {
-      "type": "cue",
-      "id": "*/chordStart10",
-      "deprecatedIDs": [],
-      "name": "C#dim7 chord - start",
-      "duration": 0.25,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/chord11",
-      "deprecatedIDs": [],
-      "name": "Gmin",
-      "duration": 1.0,
-      "loops": true,
-      "stretchable": true,
-      "repitchable": true,
-      "introSound": "*/chordStart11",
-      "responseIDs": []
-    },
-    {
-      "type": "cue",
-      "id": "*/chordStart11",
-      "deprecatedIDs": [],
-      "name": "Gmin chord - start",
-      "duration": 0.25,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/chord12",
-      "deprecatedIDs": [],
-      "name": "A (1st)",
-      "duration": 1.0,
-      "loops": true,
-      "stretchable": true,
-      "repitchable": true,
-      "introSound": "*/chordStart12",
-      "responseIDs": []
-    },
-    {
-      "type": "cue",
-      "id": "*/chordStart12",
-      "deprecatedIDs": [],
-      "name": "A (1st) chord - start",
-      "duration": 0.25,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/chord1Remix10",
-      "deprecatedIDs": [],
-      "name": "D (2nd) - Remix 10",
-      "duration": 1.0,
-      "loops": true,
-      "stretchable": true,
-      "repitchable": true,
-      "introSound": "*/chordStart1Remix10",
-      "responseIDs": []
-    },
-    {
-      "type": "cue",
-      "id": "*/chordStart1Remix10",
-      "deprecatedIDs": [],
-      "name": "D (2nd) chord - Remix 10 - start",
-      "duration": 0.25,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/chord2Remix10",
-      "deprecatedIDs": [],
-      "name": "D(add9) (3rd) - Remix 10",
-      "duration": 1.0,
-      "loops": true,
-      "stretchable": true,
-      "repitchable": true,
-      "introSound": "*/chordStart2Remix10",
-      "responseIDs": []
-    },
-    {
-      "type": "cue",
-      "id": "*/chordStart2Remix10",
-      "deprecatedIDs": [],
-      "name": "D(add9) (3rd) chord - Remix 10 - start",
-      "duration": 0.25,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/chordRemix6",
-      "deprecatedIDs": [],
-      "name": "C (1st) - Remix 6",
-      "duration": 1.0,
-      "loops": true,
-      "stretchable": true,
-      "repitchable": true,
-      "introSound": "*/chordStartRemix6",
-      "responseIDs": []
-    },
-    {
-      "type": "cue",
-      "id": "*/chordStartRemix6",
-      "deprecatedIDs": [],
-      "name": "C (1st) chord - Remix 6 - start",
-      "duration": 0.25,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/bendHigh",
-      "deprecatedIDs": [],
-      "name": "chord bend (high)",
-      "duration": 1.0,
-      "loops": true,
-      "loopStart": 0.12609977324,
-      "loopEnd": 0.19873015873,
-      "stretchable": true,
-      "repitchable": true,
-      "pitchBending": true,
-      "endingSound": "*/bendHighEnd",
-      "responseIDs": [
-        "*/bendHigh"
-      ]
-    },
-    {
-      "type": "cue",
-      "id": "*/bendHighEnd",
-      "deprecatedIDs": [],
-      "name": "chord bend (high) (end)",
-      "duration": 0.25,
-      "loops": true,
-      "stretchable": true,
-      "repitchable": true,
-      "pitchBending": true
-    },
-    {
-      "type": "cue",
-      "id": "*/bendLow",
-      "deprecatedIDs": [],
-      "name": "chord bend (low)",
-      "duration": 1.0,
-      "loops": true,
-      "loopStart": 0.1854648526,
-      "loopEnd": 0.20839002267,
-      "stretchable": true,
-      "repitchable": true,
-      "pitchBending": true,
-      "endingSound": "*/bendLowEnd",
-      "responseIDs": [
-        "*/bendLow"
-      ]
-    },
-    {
-      "type": "cue",
-      "id": "*/bendLowEnd",
-      "deprecatedIDs": [],
-      "name": "chord bend (low) (end)",
-      "duration": 0.25,
-      "loops": true,
-      "stretchable": true,
-      "repitchable": true,
-      "pitchBending": true
-    },
-    {
-      "type": "pitchDependent",
-      "id": "*_chordBend",
+      "id": "*/bendAN",
+      "name": "bend - A ",
       "deprecatedIDs": [
-        "rockersJa/chordBend"
+        "rockersJa/bendHigh"
       ],
-      "name": "chord bend",
-      "intervals": {
-        "..5": "*/bendLow",
-        "6..": "*/bendHigh"
-      }
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "responseIDs": [
+        "*/bendAN"
+      ],
+      "loops": true,
+      "loopStart": 1.233,
+      "loopEnd": 1.837,
+      "pitchBending": true,
+      "writtenPitch": 9
+    },
+    {
+      "type": "cue",
+      "id": "*/bendAS",
+      "name": "bend - A♯/B♭",
+      "deprecatedIDs": [
+        "rockersJa/bendLow"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "responseIDs": [
+        "*/bendAS"
+      ],
+      "loops": true,
+      "loopStart": 1.26,
+      "loopEnd": 1.62,
+      "pitchBending": true,
+      "writtenPitch": 10
     },
     {
       "type": "cue",
       "id": "*/hold",
+      "name": "hold / mute strings",
       "deprecatedIDs": [],
-      "name": "hold",
+      "subtext": "",
       "duration": 0.25,
-      "responseIDs": []
+      "responseIDs": [
+        "*/hold"
+      ]
     },
     {
       "type": "cue",
-      "id": "*/comeon",
-      "deprecatedIDs": [],
-      "name": "come on",
+      "id": "*/guitarA",
+      "name": "A, Root",
+      "deprecatedIDs": [
+        "rockersJa/chord5",
+        "rockersJa/group2"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "responseIDs": [
+        "*/guitarA"
+      ],
+      "loops": true,
+      "loopStart": 0.704,
+      "loopEnd": 1.168,
+      "writtenPitch": 9
+    },
+    {
+      "type": "cue",
+      "id": "*/guitarAsus4",
+      "name": "A7sus4, 1st Inv.",
+      "deprecatedIDs": [
+        "rockersJa/chord2"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "responseIDs": [
+        "*/guitarAsus4"
+      ],
+      "loops": true,
+      "loopStart": 3.426,
+      "loopEnd": 4.307,
+      "writtenPitch": 9
+    },
+    {
+      "type": "cue",
+      "id": "*/guitarBm",
+      "name": "Bm, Root",
+      "deprecatedIDs": [
+        "rockersJa/chord3"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "responseIDs": [
+        "*/guitarBm"
+      ],
+      "loops": true,
+      "loopStart": 0.992,
+      "loopEnd": 1.538,
+      "writtenPitch": 11
+    },
+    {
+      "type": "cue",
+      "id": "*/guitarCsm7",
+      "name": "C♯ø7, Root",
+      "deprecatedIDs": [
+        "rockersJa/chord4"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "responseIDs": [
+        "*/guitarCsm7"
+      ],
+      "loops": true,
+      "loopStart": 2.847,
+      "loopEnd": 4.505,
+      "writtenPitch": 1
+    },
+    {
+      "type": "cue",
+      "id": "*/guitarDM7",
+      "name": "Dmaj7, Root",
+      "deprecatedIDs": [
+        "rockersJa/chord1"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "responseIDs": [
+        "*/guitarDM7"
+      ],
+      "loops": true,
+      "loopStart": 1.324,
+      "loopEnd": 2.612,
+      "writtenPitch": 2
+    },
+    {
+      "type": "cue",
+      "id": "*/guitarDm79",
+      "name": "Dmaj7add9, Root",
+      "deprecatedIDs": [
+        "rockersJa/chord6"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "responseIDs": [
+        "*/guitarDm79"
+      ],
+      "loops": true,
+      "loopStart": 3.187,
+      "loopEnd": 4.227,
+      "writtenPitch": 2
+    },
+    {
+      "type": "cue",
+      "id": "*/guitarFs5",
+      "name": "F♯, Root",
+      "deprecatedIDs": [
+        "rockersJa/chord7"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "responseIDs": [
+        "*/guitarFs5"
+      ],
+      "loops": true,
+      "loopStart": 1.163,
+      "loopEnd": 1.652,
+      "writtenPitch": 6
+    },
+    {
+      "type": "cue",
+      "id": "*/guitarG",
+      "name": "Em7, Root",
+      "deprecatedIDs": [
+        "rockersJa/chord8"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "responseIDs": [
+        "*/guitarG"
+      ],
+      "loops": true,
+      "loopStart": 1.41,
+      "loopEnd": 1.898,
+      "writtenPitch": 7
+    },
+    {
+      "type": "cue",
+      "id": "*/guitarG5",
+      "name": "G, Root",
+      "deprecatedIDs": [
+        "rockersJa/chord9",
+        "rockersJa/group1"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "responseIDs": [
+        "*/guitarG5"
+      ],
+      "loops": true,
+      "loopStart": 0.968,
+      "loopEnd": 1.397,
+      "writtenPitch": 7
+    },
+    {
+      "type": "cue",
+      "id": "*/guitarGdim7",
+      "name": "Go7, 1st Inv.",
+      "deprecatedIDs": [
+        "rockersJa/chord10"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "responseIDs": [
+        "*/guitarGdim7"
+      ],
+      "loops": true,
+      "loopStart": 3.486,
+      "loopEnd": 4.34,
+      "writtenPitch": 7
+    },
+    {
+      "type": "cue",
+      "id": "*/guitarGm",
+      "name": "Gm, 2nd Inv.",
+      "deprecatedIDs": [
+        "rockersJa/chord11"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "responseIDs": [
+        "*/guitarGm"
+      ],
+      "loops": true,
+      "loopStart": 1.223,
+      "loopEnd": 1.848,
+      "writtenPitch": 7
+    },
+    {
+      "type": "cue",
+      "id": "*/comeOn",
+      "name": "come on!",
+      "deprecatedIDs": [
+        "rockersJa/comeon"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/lastone",
-      "deprecatedIDs": [],
+      "id": "*/lastOne",
       "name": "last one!",
-      "duration": 1.0
+      "deprecatedIDs": [
+        "rockersJa/lastone"
+      ],
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/group1",
-      "deprecatedIDs": [],
-      "name": "together - start - G (1st)",
-      "duration": 0.5,
-      "repitchable": true
+      "id": "*/practiceA",
+      "name": "A7, 2nd Inv. - practice",
+      "deprecatedIDs": [
+        "rockersJa/chord12"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "responseIDs": [
+        "*/practiceA"
+      ],
+      "loops": true,
+      "loopStart": 0.893,
+      "loopEnd": 1.271,
+      "writtenPitch": 9
     },
     {
       "type": "cue",
-      "id": "*/group2",
-      "deprecatedIDs": [],
-      "name": "together - last - A (1st)",
-      "duration": 1.5,
-      "repitchable": true
+      "id": "*/remix6C",
+      "name": "C5, Root - Remix 6",
+      "deprecatedIDs": [
+        "rockersJa/chordRemix6"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "responseIDs": [
+        "*/remix6C"
+      ],
+      "loops": true,
+      "loopStart": 8.918,
+      "loopEnd": 10.926
     },
     {
       "type": "cue",
-      "id": "*/one",
-      "deprecatedIDs": [],
-      "name": "count - 1",
-      "duration": 1.0
+      "id": "*/remix10D",
+      "name": "D, Root - Remix 10",
+      "deprecatedIDs": [
+        "rockersJa/chord1Remix10"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "responseIDs": [
+        "*/remix10D"
+      ],
+      "loops": true,
+      "loopStart": 0.92,
+      "loopEnd": 1.287,
+      "writtenPitch": 2
     },
     {
       "type": "cue",
-      "id": "*/two",
-      "deprecatedIDs": [],
-      "name": "count - 2",
-      "duration": 1.0
+      "id": "*/remix10Fsm",
+      "name": "F♯m7♭9♭13, Root - Remix 10",
+      "deprecatedIDs": [
+        "rockersJa/chord2Remix10"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "responseIDs": [
+        "*/remix10Fsm"
+      ],
+      "loops": true,
+      "loopStart": 1.013,
+      "loopEnd": 1.369,
+      "writtenPitch": 6
     },
     {
-      "type": "cue",
-      "id": "*/three",
+      "type": "pitchBenderEntity",
+      "id": "*_pitchBend",
+      "name": "Pitch Bend",
       "deprecatedIDs": [],
-      "name": "count - 3",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/four",
-      "deprecatedIDs": [],
-      "name": "count - 4",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/ichi",
-      "deprecatedIDs": [],
-      "name": "count - ichi",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/ni",
-      "deprecatedIDs": [],
-      "name": "count - ni",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/san",
-      "deprecatedIDs": [],
-      "name": "count - san",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/shi",
-      "deprecatedIDs": [],
-      "name": "count - shi",
-      "duration": 1.0
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_together",
-      "deprecatedIDs": [],
-      "name": "strum together - G (1st) to A (1st)",
+      "id": "*_comeOnExample",
+      "name": "come on! - example",
+      "deprecatedIDs": [
+        "rockersJa_together"
+      ],
       "cues": [
         {
-          "id": "*/group1",
+          "id": "*/comeOn",
           "beat": 0.0
         },
         {
-          "id": "*/group1",
-          "beat": 1.5
+          "id": "*/hold",
+          "beat": 2.0
         },
         {
-          "id": "*/group1",
-          "beat": 3.0
+          "id": "*/guitarG5",
+          "beat": 3.0,
+          "duration": 1.0
         },
         {
-          "id": "*/group2",
+          "id": "*/hold",
           "beat": 4.0
+        },
+        {
+          "id": "*/guitarG5",
+          "beat": 4.5,
+          "duration": 1.0
+        },
+        {
+          "id": "*/hold",
+          "beat": 5.5
+        },
+        {
+          "id": "*/guitarG5",
+          "beat": 6.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/hold",
+          "beat": 6.5
+        },
+        {
+          "id": "*/guitarA",
+          "beat": 7.0,
+          "duration": 3.0
+        },
+        {
+          "id": "*/hold",
+          "beat": 10.0
         }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_lastOneExample",
+      "name": "last one! - example",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/lastOne",
+          "beat": 0.0
+        },
+        {
+          "id": "*/hold",
+          "beat": 2.0
+        },
+        {
+          "id": "*/guitarAsus4",
+          "beat": 3.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/hold",
+          "beat": 3.5
+        },
+        {
+          "id": "*/guitarAsus4",
+          "beat": 4.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/hold",
+          "beat": 5.0
+        },
+        {
+          "id": "*/guitarAsus4",
+          "beat": 6.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/hold",
+          "beat": 6.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "cue",
+      "id": "*/count1",
+      "name": "count - 1",
+      "deprecatedIDs": [
+        "rockersJa/one"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "responseIDs": [
+        "*/count1"
+      ],
+      "earliness": 0.024
+    },
+    {
+      "type": "cue",
+      "id": "*/count2",
+      "name": "count - 2",
+      "deprecatedIDs": [
+        "rockersJa/two"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "responseIDs": [
+        "*/count2"
       ]
+    },
+    {
+      "type": "cue",
+      "id": "*/count3",
+      "name": "count - 3",
+      "deprecatedIDs": [
+        "rockersJa/three"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "responseIDs": [
+        "*/count3"
+      ],
+      "earliness": 0.005
+    },
+    {
+      "type": "cue",
+      "id": "*/count4",
+      "name": "count - 4",
+      "deprecatedIDs": [
+        "rockersJa/four"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "responseIDs": [
+        "*/count4"
+      ],
+      "earliness": 0.023
+    },
+    {
+      "type": "cue",
+      "id": "*/count1B",
+      "name": "count - 1 - japanese",
+      "deprecatedIDs": [
+        "rockersJa/ichi"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "responseIDs": [
+        "*/count1"
+      ],
+      "earliness": 0.024
+    },
+    {
+      "type": "cue",
+      "id": "*/count2B",
+      "name": "count - 2 - japanese",
+      "deprecatedIDs": [
+        "rockersJa/ni"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "responseIDs": [
+        "*/count2"
+      ]
+    },
+    {
+      "type": "cue",
+      "id": "*/count3B",
+      "name": "count - 3 - japanese",
+      "deprecatedIDs": [
+        "rockersJa/san"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "responseIDs": [
+        "*/count3"
+      ],
+      "earliness": 0.005
+    },
+    {
+      "type": "cue",
+      "id": "*/count4B",
+      "name": "count - 4 - japanese",
+      "deprecatedIDs": [
+        "rockersJa/shi"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "responseIDs": [
+        "*/count4"
+      ],
+      "earliness": 0.023
     }
   ]
 }
