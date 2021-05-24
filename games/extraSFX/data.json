@@ -1,78 +1,159 @@
 {
   "id": "extraSFX",
   "name": "Extra Sound Effects",
+  "series": "other",
   "noDisplay": true,
   "objects": [
     {
+      // WARNING: This cue is used internally by the editor for Playalong
+      // DO NOT REMOVE!
       "type": "cue",
-      // WARNING: this cue is used internally by the editor for playalong
-      // DO NOT REMOVE
       "id": "*/skillStar",
+      "name": "[YELLOW]★[] Skill Star",
       "deprecatedIDs": [
         "extraSFX/star"
       ],
-      "name": "[YELLOW]★[] Skill Star",
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/textAdvanceMMF",
-      "deprecatedIDs": [],
       "name": "text advance (Wii/3DS)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "stretchable": true,
+      "endingSound": "*/textAdvanceMMFEnd"
+    },
+    {
+      "type": "cue",
+      "id": "*/textAdvanceMMFEnd",
+      "name": "extraSFX/textAdvanceMMFEnd",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/textAdvanceDS",
+      "name": "text advance (DS)",
       "deprecatedIDs": [
         "flickingPractice/tap"
       ],
-      "name": "text advance (DS)",
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "endingSound": "*/textAdvanceDSEnd"
+    },
+    {
+      "type": "cue",
+      "id": "*/textAdvanceDSEnd",
+      "name": "extraSFX/textAdvanceDSEnd",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/textAdvanceGBA",
+      "name": "text advance (GBA)",
       "deprecatedIDs": [
         "extraSFX/textAdvance"
       ],
-      "name": "text advance (GBA)",
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/boo",
+      "name": "booing",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/disappointment",
+      "name": "disappointment",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/laughter",
+      "name": "laughing",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/clapping",
-      "deprecatedIDs": [],
       "name": "clapping",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/applauding",
+      "name": "applauding",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/applause",
-      "deprecatedIDs": [],
       "name": "applause",
+      "deprecatedIDs": [
+        "extraSFX/applauseWhistle",
+        "extraSFX/audienceApplause"
+      ],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/applauseWhistle",
-      "deprecatedIDs": ["extraSFX/audienceApplause"],
-      "name": "applause (with whistle)",
+      "id": "*/tink",
+      "name": "miss - tink",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/miss1",
+      "name": "miss - doink!",
       "deprecatedIDs": [],
-      "name": "miss 1 - doink!",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/miss2",
+      "name": "miss - doingoinging!",
       "deprecatedIDs": [],
-      "name": "miss 2 - doingoinging!",
+      "subtext": "",
       "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/sigh",
+      "name": "miss - sigh",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/perfectBreaks",
+      "name": "perfect breaks",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     }
   ]
 }
