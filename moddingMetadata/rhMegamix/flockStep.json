@@ -7,30 +7,60 @@
     "index": "0x2E"
   },
   {
-    "applyTo": ["flockStep_march"],
+    "applyTo": ["flockStep_smallMigrationMarch"],
     "sub": "0x5E"
   },
   {
-    "applyTo": ["flockStep_marchMigration"],
+    "applyTo": ["flockStep_mediumMigrationMarch"],
     "sub": "0x5E + 0x102<5> x",
-	"note": "x = number of birds"
+    "note": "x = number of birds"
   },
   {
-    "applyTo": ["flockStep_jump"],
+    "applyTo": ["flockStep_bigMigrationMarch"],
+    "sub": "0x5E + 0x102<5> x",
+    "note": "x = number of birds"
+  },
+  {
+    "applyTo": ["flockStep_spaceMigrationMarch"],
+    "sub": "0x5E + 0x102<5> x + play_sfx 0x1000563" ,
+    "note": "x = number of birds"
+  },
+  {
+    "applyTo": ["flockStep_smallMigrationJump"],
     "sub": "0x5E + 0x5F + 0x60"
   },
   {
-    "applyTo": ["flockStep_jumpMigration"],
+    "applyTo": ["flockStep_mediumMigrationJump"],
     "sub": "0x5E + 0x5F + 0x60 + 0x102<5> x",
 	"note": "x = number of birds"
   },
   {
-    "applyTo": ["flockStep_tweet"],
+    "applyTo": ["flockStep_bigMigrationJump"],
+    "sub": "0x5E + 0x5F + 0x60 + 0x102<5> x",
+	"note": "x = number of birds"
+  },
+  {
+    "applyTo": ["flockStep_spaceMigrationJump"],
+    "sub": "0x5E + 0x5F + 0x60 + 0x102<5> x + play_sfx 0x1000563",
+	"note": "x = number of birds"
+  },
+  {
+    "applyTo": ["flockStep_smallMigrationTweet"],
     "sub": "0x5F + 0x60"
   },
   {
-    "applyTo": ["flockStep_tweetMigration"],
+    "applyTo": ["flockStep_mediumMigrationTweet"],
     "sub": "0x5F + 0x60 + 0x102<5> x",
+	"note": "x = number of birds"
+  },
+    {
+    "applyTo": ["flockStep_bigMigrationTweet"],
+    "sub": "0x5F + 0x60 + 0x102<5> x",
+	"note": "x = number of birds"
+  },
+  {
+    "applyTo": ["flockStep_spaceMigrationTweet"],
+    "sub": "0x5F + 0x60 + 0x102<5> x + play_sfx 0x1000563",
 	"note": "x = number of birds"
   }
 ]

@@ -1,170 +1,372 @@
 {
-  "series": "fever",
   "id": "flockStep",
   "name": "Flock Step",
+  "series": "fever",
   "searchHints": [
     "flockstep"
   ],
   "objects": [
     {
       "type": "cue",
-      "id": "*/step1",
-      "deprecatedIDs": [
-        "flockstep/step1",
-        "flockstep/stepMigration1"
-      ],
-      "name": "step - 1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/step2",
-      "deprecatedIDs": [
-        "flockstep/step2",
-        "flockstep/stepMigration2"
-      ],
-      "name": "step - 2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/step3",
-      "deprecatedIDs": [
-        "flockstep/step3",
-        "flockstep/stepMigration3"
-      ],
-      "name": "step - 3",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/step4",
-      "deprecatedIDs": [
-        "flockstep/step4",
-        "flockstep/stepMigration4"
-      ],
-      "name": "step - 4",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/thump",
-      "deprecatedIDs": [
-        "flockstep/thump",
-        "flockstep/jumpMigration1"
-      ],
-      "name": "thump",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/tweet1",
-      "deprecatedIDs": [
-        "flockstep/tweet1",
-        "flockstep/jump1"
-      ],
-      "name": "tweet - 1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/tweet2",
-      "deprecatedIDs": [
-        "flockstep/tweet2",
-        "flockstep/jump2",
-        "flockstep/jumpMigration2"
-      ],
-      "name": "tweet - 2",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/tweet3",
-      "deprecatedIDs": [
-        "flockstep/tweet3",
-        "flockstep/jump3",
-        "flockstep/jumpMigration3"
-      ],
-      "name": "tweet - 3",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/tweet4",
-      "deprecatedIDs": [
-        "flockstep/tweet4",
-        "flockstep/jump4"
-      ],
-      "name": "tweet - 4",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/tweet5",
-      "deprecatedIDs": [
-        "flockstep/tweet5",
-        "flockstep/jump5",
-        "flockstep/jumpMigration5"
-      ],
-      "name": "tweet - 5",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/tweet6",
-      "deprecatedIDs": [
-        "flockstep/tweet6",
-        "flockstep/jump6"
-      ],
-      "name": "tweet - 6",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/tweet6Migration",
-      "deprecatedIDs": [
-        "flockstep/tweet6Migration",
-        "flockstep/jumpMigration6"
-      ],
-      "name": "tweet (migration) - 6",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/tweet7",
-      "deprecatedIDs": [
-        "flockstep/tweet7",
-        "flockstep/jump7",
-        "flockstep/jumpMigration7"
-      ],
-      "name": "tweet - 7",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/tweet7Migration",
-      "deprecatedIDs": [
-        "flockstep/tweet7Migration"
-      ],
-      "name": "tweet (migration) - 7",
+      "id": "*/start",
+      "name": "start",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/flappingAway",
+      "name": "birds flapping away",
       "deprecatedIDs": [
         "flockstep/flappingAway"
       ],
-      "name": "birds flapping away",
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/step1",
+      "name": "player - step - 1",
+      "deprecatedIDs": [
+        "flockstep/step1",
+        "flockstep/stepMigration1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/step2",
+      "name": "player - step - 2",
+      "deprecatedIDs": [
+        "flockstep/step2",
+        "flockstep/stepMigration2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/step3",
+      "name": "player - step - 3",
+      "deprecatedIDs": [
+        "flockstep/step3",
+        "flockstep/stepMigration3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/step4",
+      "name": "player - step - 4",
+      "deprecatedIDs": [
+        "flockstep/step4",
+        "flockstep/stepMigration4"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/tweet1",
+      "name": "tweet - 1",
+      "deprecatedIDs": [
+        "flockstep/tweet1",
+        "flockstep/jump1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/tweet2",
+      "name": "tweet - 2",
+      "deprecatedIDs": [
+        "flockstep/tweet2",
+        "flockstep/jump2",
+        "flockstep/jumpMigration2"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/tweet3",
+      "name": "tweet - 3",
+      "deprecatedIDs": [
+        "flockstep/tweet3",
+        "flockstep/jump3",
+        "flockstep/jumpMigration3"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/tweet4",
+      "name": "tweet - 4",
+      "deprecatedIDs": [
+        "flockstep/tweet4",
+        "flockstep/jump4"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/tweet5",
+      "name": "tweet - 5",
+      "deprecatedIDs": [
+        "flockstep/tweet5",
+        "flockstep/jump5",
+        "flockstep/jumpMigration5"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/tweet6",
+      "name": "tweet - 6",
+      "deprecatedIDs": [
+        "flockstep/tweet6",
+        "flockstep/jump6",
+        "flockStep/tweet6Migration",
+        "flockstep/tweet6Migration",
+        "flockstep/jumpMigration6"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/squat",
+      "name": "player - squat",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/jump",
+      "name": "player - jump",
+      "deprecatedIDs": [
+        "flockstep/tweet7",
+        "flockstep/jump7",
+        "flockstep/jumpMigration7",
+        "flockStep/tweet7",
+        "flockStep/tweet7Migration",
+        "flockstep/tweet7Migration"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/smallMigrationStep1",
+      "name": "small migration - step - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.875
+    },
+    {
+      "type": "cue",
+      "id": "*/smallMigrationStep2",
+      "name": "small migration - step - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "*/smallMigrationStep3",
+      "name": "small migration - step - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.875
+    },
+    {
+      "type": "cue",
+      "id": "*/smallMigrationStep4",
+      "name": "small migration - step - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "*/smallMigrationSquat",
+      "name": "small migration - squat",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/smallMigrationJump",
+      "name": "small migration - jump",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/mediumMigrationStep1",
+      "name": "medium migration - step - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.875
+    },
+    {
+      "type": "cue",
+      "id": "*/mediumMigrationStep2",
+      "name": "medium migration - step - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "*/mediumMigrationStep3",
+      "name": "medium migration - step - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.875
+    },
+    {
+      "type": "cue",
+      "id": "*/mediumMigrationStep4",
+      "name": "medium migration - step - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "*/mediumMigrationSquat",
+      "name": "medium migration - squat",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/mediumMigrationJump",
+      "name": "medium migration - jump",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/bigMigrationStep1",
+      "name": "big migration - step - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.875
+    },
+    {
+      "type": "cue",
+      "id": "*/bigMigrationStep2",
+      "name": "big migration - step - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "*/bigMigrationStep3",
+      "name": "big migration - step - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.875
+    },
+    {
+      "type": "cue",
+      "id": "*/bigMigrationStep4",
+      "name": "big migration - step - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "*/bigMigrationSquat",
+      "name": "big migration - squat",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/bigMigrationJump",
+      "name": "big migration - jump",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/spaceMigrationStep1",
+      "name": "zoomed-out migration - step - 1",
+      "deprecatedIDs": [
+        "flockstep/jumpMigration1",
+        "flockstep/thump",
+        "flockStep/thump"
+      ],
+      "subtext": "",
+      "duration": 0.875
+    },
+    {
+      "type": "cue",
+      "id": "*/spaceMigrationStep2",
+      "name": "zoomed-out migration - step - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "*/spaceMigrationStep3",
+      "name": "zoomed-out migration - step - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.875
+    },
+    {
+      "type": "cue",
+      "id": "*/spaceMigrationStep4",
+      "name": "zoomed-out migration - step - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.125
+    },
+    {
+      "type": "cue",
+      "id": "*/spaceMigrationSquat",
+      "name": "zoomed-out migration - squat",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/spaceMigrationJump",
+      "name": "zoomed-out migration - jump",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "keepTheBeat",
-      "id": "*_march",
+      "id": "*_smallMigrationMarch",
+      "name": "march - small migration",
       "deprecatedIDs": [
-        "flockstep_march"
+        "flockstep_march",
+        "flockStep_march"
       ],
-      "name": "march",
       "defaultDuration": 4.0,
       "cues": [
         {
@@ -172,50 +374,7 @@
           "beat": 0.0
         },
         {
-          "id": "*/step2",
-          "beat": 0.5
-        },
-        {
-          "id": "*/step3",
-          "beat": 1.0
-        },
-        {
-          "id": "*/step4",
-          "beat": 1.5
-        },
-        {
-          "id": "*/step1",
-          "beat": 2.0
-        },
-        {
-          "id": "*/step2",
-          "beat": 2.5
-        },
-        {
-          "id": "*/step3",
-          "beat": 3.0
-        },
-        {
-          "id": "*/step4",
-          "beat": 3.5
-        }
-      ]
-    },
-    {
-      "type": "keepTheBeat",
-      "id": "*_marchMigration",
-      "deprecatedIDs": [
-        "flockstep_marchMigration"
-      ],
-      "name": "march (migration)",
-      "defaultDuration": 4.0,
-      "cues": [
-        {
-          "id": "*/step1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/thump",
+          "id": "*/smallMigrationStep1",
           "beat": 0.0,
           "track": 1
         },
@@ -224,11 +383,16 @@
           "beat": 0.5
         },
         {
+          "id": "*/smallMigrationStep2",
+          "beat": 0.875,
+          "track": 1
+        },
+        {
           "id": "*/step3",
           "beat": 1.0
         },
         {
-          "id": "*/thump",
+          "id": "*/smallMigrationStep3",
           "beat": 1.0,
           "track": 1
         },
@@ -237,11 +401,16 @@
           "beat": 1.5
         },
         {
+          "id": "*/smallMigrationStep4",
+          "beat": 1.875,
+          "track": 1
+        },
+        {
           "id": "*/step1",
           "beat": 2.0
         },
         {
-          "id": "*/thump",
+          "id": "*/smallMigrationStep1",
           "beat": 2.0,
           "track": 1
         },
@@ -250,173 +419,875 @@
           "beat": 2.5
         },
         {
+          "id": "*/smallMigrationStep2",
+          "beat": 2.875,
+          "track": 1
+        },
+        {
           "id": "*/step3",
           "beat": 3.0
         },
         {
-          "id": "*/thump",
+          "id": "*/smallMigrationStep3",
           "beat": 3.0,
           "track": 1
         },
         {
           "id": "*/step4",
           "beat": 3.5
+        },
+        {
+          "id": "*/smallMigrationStep4",
+          "beat": 3.875,
+          "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_jump",
+      "id": "*_smallMigrationJump",
+      "name": "jump - small migration",
       "deprecatedIDs": [
-        "flockstep_jump"
+        "flockstep_jump",
+        "flockStep_jump"
       ],
-      "name": "jump",
-      "cues": [
-        {
-          "id": "*_tweet",
-          "beat": 0.0
-        },
-        {
-          "id": "*/step1",
-          "beat": 0.0,
-          "track": 1
-        },
-        {
-          "id": "*/step2",
-          "beat": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/step3",
-          "beat": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/step4",
-          "beat": 1.5,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_jumpMigration",
-      "deprecatedIDs": [
-        "flockstep_jumpMigration"
-      ],
-      "name": "jump (migration)",
-      "cues": [
-        {
-          "id": "*_tweetMigration",
-          "beat": 0.0
-        },
-        {
-          "id": "*/step1",
-          "beat": 0.0,
-          "track": 1
-        },
-        {
-          "id": "*/thump",
-          "beat": 0.0,
-          "track": 2
-        },
-        {
-          "id": "*/step2",
-          "beat": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/step3",
-          "beat": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/thump",
-          "beat": 1.0,
-          "track": 2
-        },
-        {
-          "id": "*/step4",
-          "beat": 1.5,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_tweet",
-      "deprecatedIDs": [
-        "flockstep_tweet"
-      ],
-      "name": "tweeting",
       "cues": [
         {
           "id": "*/tweet1",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/step1",
           "beat": 0.0
         },
         {
+          "id": "*/smallMigrationStep1",
+          "beat": 0.0,
+          "track": 2
+        },
+        {
           "id": "*/tweet2",
+          "beat": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/step2",
           "beat": 0.5
         },
         {
+          "id": "*/smallMigrationStep2",
+          "beat": 0.875,
+          "track": 2
+        },
+        {
           "id": "*/tweet3",
-          "beat": 0.75
+          "beat": 0.75,
+          "track": 1
         },
         {
           "id": "*/tweet4",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/step3",
           "beat": 1.0
         },
         {
+          "id": "*/smallMigrationStep3",
+          "beat": 1.0,
+          "duration": 1.0,
+          "track": 2
+        },
+        {
           "id": "*/tweet5",
+          "beat": 1.5,
+          "track": 1
+        },
+        {
+          "id": "*/step4",
           "beat": 1.5
         },
         {
           "id": "*/tweet6",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/squat",
           "beat": 2.0
         },
         {
-          "id": "*/tweet7",
+          "id": "*/smallMigrationSquat",
+          "beat": 2.0,
+          "track": 2
+        },
+        {
+          "id": "*/jump",
           "beat": 3.0
+        },
+        {
+          "id": "*/smallMigrationJump",
+          "beat": 3.0,
+          "track": 2
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_tweetMigration",
+      "id": "*_smallMigrationTweet",
+      "name": "tweeting - small migration",
       "deprecatedIDs": [
-        "flockstep_tweetMigration"
+        "flockstep_tweet",
+        "flockStep_tweet"
       ],
-      "name": "tweeting (migration)",
       "cues": [
         {
           "id": "*/tweet1",
-          "beat": 0.0
+          "beat": 0.0,
+          "track": 1
         },
         {
           "id": "*/tweet2",
-          "beat": 0.5
+          "beat": 0.5,
+          "track": 1
         },
         {
           "id": "*/tweet3",
-          "beat": 0.75
+          "beat": 0.75,
+          "track": 1
         },
         {
           "id": "*/tweet4",
-          "beat": 1.0
+          "beat": 1.0,
+          "track": 1
         },
         {
           "id": "*/tweet5",
-          "beat": 1.5
+          "beat": 1.5,
+          "track": 1
         },
         {
-          "id": "*/tweet6Migration",
+          "id": "*/tweet6",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/squat",
           "beat": 2.0
         },
         {
-          "id": "*/tweet7Migration",
+          "id": "*/smallMigrationSquat",
+          "beat": 2.0,
+          "track": 2
+        },
+        {
+          "id": "*/jump",
           "beat": 3.0
+        },
+        {
+          "id": "*/smallMigrationJump",
+          "beat": 3.0,
+          "track": 2
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_mediumMigrationMarch",
+      "name": "march - medium migration",
+      "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/step1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/mediumMigrationStep1",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/step2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/mediumMigrationStep2",
+          "beat": 0.875,
+          "track": 1
+        },
+        {
+          "id": "*/step3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/mediumMigrationStep3",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/step4",
+          "beat": 1.5
+        },
+        {
+          "id": "*/mediumMigrationStep4",
+          "beat": 1.875,
+          "track": 1
+        },
+        {
+          "id": "*/step1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/mediumMigrationStep1",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/step2",
+          "beat": 2.5
+        },
+        {
+          "id": "*/mediumMigrationStep2",
+          "beat": 2.875,
+          "track": 1
+        },
+        {
+          "id": "*/step3",
+          "beat": 3.0
+        },
+        {
+          "id": "*/mediumMigrationStep3",
+          "beat": 3.0,
+          "track": 1
+        },
+        {
+          "id": "*/step4",
+          "beat": 3.5
+        },
+        {
+          "id": "*/mediumMigrationStep4",
+          "beat": 3.875,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_mediumMigrationJump",
+      "name": "jump - medium migration",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/tweet1",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/step1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/mediumMigrationStep1",
+          "beat": 0.0,
+          "track": 2
+        },
+        {
+          "id": "*/tweet2",
+          "beat": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/step2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/mediumMigrationStep2",
+          "beat": 0.875,
+          "track": 2
+        },
+        {
+          "id": "*/tweet3",
+          "beat": 0.75,
+          "track": 1
+        },
+        {
+          "id": "*/tweet4",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/step3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/mediumMigrationStep3",
+          "beat": 1.0,
+          "duration": 1.0,
+          "track": 2
+        },
+        {
+          "id": "*/tweet5",
+          "beat": 1.5,
+          "track": 1
+        },
+        {
+          "id": "*/step4",
+          "beat": 1.5
+        },
+        {
+          "id": "*/tweet6",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/squat",
+          "beat": 2.0
+        },
+        {
+          "id": "*/mediumMigrationSquat",
+          "beat": 2.0,
+          "track": 2
+        },
+        {
+          "id": "*/jump",
+          "beat": 3.0
+        },
+        {
+          "id": "*/mediumMigrationJump",
+          "beat": 3.0,
+          "track": 2
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_mediumMigrationTweet",
+      "name": "tweeting - medium migration",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/tweet1",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/tweet2",
+          "beat": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/tweet3",
+          "beat": 0.75,
+          "track": 1
+        },
+        {
+          "id": "*/tweet4",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/tweet5",
+          "beat": 1.5,
+          "track": 1
+        },
+        {
+          "id": "*/tweet6",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/squat",
+          "beat": 2.0
+        },
+        {
+          "id": "*/mediumMigrationSquat",
+          "beat": 2.0,
+          "track": 2
+        },
+        {
+          "id": "*/jump",
+          "beat": 3.0
+        },
+        {
+          "id": "*/mediumMigrationJump",
+          "beat": 3.0,
+          "track": 2
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_bigMigrationMarch",
+      "name": "march - big migration",
+      "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/step1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/bigMigrationStep1",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/step2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/bigMigrationStep2",
+          "beat": 0.875,
+          "track": 1
+        },
+        {
+          "id": "*/step3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/bigMigrationStep3",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/step4",
+          "beat": 1.5
+        },
+        {
+          "id": "*/bigMigrationStep4",
+          "beat": 1.875,
+          "track": 1
+        },
+        {
+          "id": "*/step1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/bigMigrationStep1",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/step2",
+          "beat": 2.5
+        },
+        {
+          "id": "*/bigMigrationStep2",
+          "beat": 2.875,
+          "track": 1
+        },
+        {
+          "id": "*/step3",
+          "beat": 3.0
+        },
+        {
+          "id": "*/bigMigrationStep3",
+          "beat": 3.0,
+          "track": 1
+        },
+        {
+          "id": "*/step4",
+          "beat": 3.5
+        },
+        {
+          "id": "*/bigMigrationStep4",
+          "beat": 3.875,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_bigMigrationJump",
+      "name": "jump - big migration",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/tweet1",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/step1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/bigMigrationStep1",
+          "beat": 0.0,
+          "track": 2
+        },
+        {
+          "id": "*/tweet2",
+          "beat": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/step2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/bigMigrationStep2",
+          "beat": 0.875,
+          "track": 2
+        },
+        {
+          "id": "*/tweet3",
+          "beat": 0.75,
+          "track": 1
+        },
+        {
+          "id": "*/tweet4",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/step3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/bigMigrationStep3",
+          "beat": 1.0,
+          "duration": 1.0,
+          "track": 2
+        },
+        {
+          "id": "*/tweet5",
+          "beat": 1.5,
+          "track": 1
+        },
+        {
+          "id": "*/step4",
+          "beat": 1.5
+        },
+        {
+          "id": "*/tweet6",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/squat",
+          "beat": 2.0
+        },
+        {
+          "id": "*/bigMigrationSquat",
+          "beat": 2.0,
+          "track": 2
+        },
+        {
+          "id": "*/jump",
+          "beat": 3.0
+        },
+        {
+          "id": "*/bigMigrationJump",
+          "beat": 3.0,
+          "track": 2
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_bigMigrationTweet",
+      "name": "tweeting - big migration",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/tweet1",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/tweet2",
+          "beat": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/tweet3",
+          "beat": 0.75,
+          "track": 1
+        },
+        {
+          "id": "*/tweet4",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/tweet5",
+          "beat": 1.5,
+          "track": 1
+        },
+        {
+          "id": "*/tweet6",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/squat",
+          "beat": 2.0
+        },
+        {
+          "id": "*/bigMigrationSquat",
+          "beat": 2.0,
+          "track": 2
+        },
+        {
+          "id": "*/jump",
+          "beat": 3.0
+        },
+        {
+          "id": "*/bigMigrationJump",
+          "beat": 3.0,
+          "track": 2
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_spaceMigrationMarch",
+      "name": "march - zoomed-out migration",
+      "deprecatedIDs": [
+        "flockstep_marchMigration",
+        "flockStep_marchMigration"
+      ],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/step1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/spaceMigrationStep1",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/step2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/spaceMigrationStep2",
+          "beat": 0.875,
+          "track": 1
+        },
+        {
+          "id": "*/step3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/spaceMigrationStep3",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/step4",
+          "beat": 1.5
+        },
+        {
+          "id": "*/spaceMigrationStep4",
+          "beat": 1.875,
+          "track": 1
+        },
+        {
+          "id": "*/step1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/spaceMigrationStep1",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/step2",
+          "beat": 2.5
+        },
+        {
+          "id": "*/spaceMigrationStep2",
+          "beat": 2.875,
+          "track": 1
+        },
+        {
+          "id": "*/step3",
+          "beat": 3.0
+        },
+        {
+          "id": "*/spaceMigrationStep3",
+          "beat": 3.0,
+          "track": 1
+        },
+        {
+          "id": "*/step4",
+          "beat": 3.5
+        },
+        {
+          "id": "*/spaceMigrationStep4",
+          "beat": 3.875,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_spaceMigrationJump",
+      "name": "jump - zoomed-out migration (unused)",
+      "deprecatedIDs": [
+        "flockstep_jumpMigration",
+        "flockStep_jumpMigration"
+      ],
+      "cues": [
+        {
+          "id": "*/step1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/tweet1",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/spaceMigrationStep1",
+          "beat": 0.0,
+          "track": 2
+        },
+        {
+          "id": "*/step2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/tweet2",
+          "beat": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/spaceMigrationStep2",
+          "beat": 0.875,
+          "track": 2
+        },
+        {
+          "id": "*/tweet3",
+          "beat": 0.75,
+          "track": 1
+        },
+        {
+          "id": "*/step3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/spaceMigrationStep3",
+          "beat": 1.0,
+          "duration": 1.0,
+          "track": 2
+        },
+        {
+          "id": "*/tweet4",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/step4",
+          "beat": 1.5
+        },
+        {
+          "id": "*/tweet5",
+          "beat": 1.5,
+          "track": 1
+        },
+        {
+          "id": "*/squat",
+          "beat": 2.0
+        },
+        {
+          "id": "*/tweet6",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/spaceMigrationSquat",
+          "beat": 2.0,
+          "track": 2
+        },
+        {
+          "id": "*/jump",
+          "beat": 3.0
+        },
+        {
+          "id": "*/spaceMigrationJump",
+          "beat": 3.0,
+          "track": 2
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_spaceMigrationTweet",
+      "name": "tweeting - zoomed-out migration (unused)",
+      "deprecatedIDs": [
+        "flockstep_tweetMigration",
+        "flockStep_tweetMigration"
+      ],
+      "cues": [
+        {
+          "id": "*/tweet1",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/tweet2",
+          "beat": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/tweet3",
+          "beat": 0.75,
+          "track": 1
+        },
+        {
+          "id": "*/tweet4",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/tweet5",
+          "beat": 1.5,
+          "track": 1
+        },
+        {
+          "id": "*/tweet6",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/squat",
+          "beat": 2.0
+        },
+        {
+          "id": "*/spaceMigrationSquat",
+          "beat": 2.0,
+          "track": 2
+        },
+        {
+          "id": "*/jump",
+          "beat": 3.0
+        },
+        {
+          "id": "*/spaceMigrationJump",
+          "beat": 3.0,
+          "track": 2
+        }
+      ],
+      "subtext": ""
     }
   ]
 }
