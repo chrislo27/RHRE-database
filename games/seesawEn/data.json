@@ -24,10 +24,20 @@
     },
     {
       "type": "cue",
+      "id": "*/explosionEnd",
+      "name": "explosion end",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
       "id": "*/seeLong1",
       "name": "see - long - 1",
       "deprecatedIDs": [
-        "seesaw/seeLong1"
+        "seesaw/seeLong1",
+        "seesaw/seeHigh1",
+        "seesawEn/seeHigh1"
       ],
       "subtext": "",
       "duration": 1.0
@@ -37,7 +47,9 @@
       "id": "*/seeLong2",
       "name": "see - long - 2",
       "deprecatedIDs": [
-        "seesaw/seeLong2"
+        "seesaw/seeLong2",
+        "seesaw/seeHigh2",
+        "seesawEn/seeHigh2"
       ],
       "subtext": "",
       "duration": 1.0
@@ -64,40 +76,25 @@
     },
     {
       "type": "cue",
-      "id": "*/seeHigh1",
-      "name": "see - high - 1",
-      "deprecatedIDs": [
-        "seesaw/seeHigh1"
-      ],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/seeHigh2",
-      "name": "see - high - 2",
-      "deprecatedIDs": [
-        "seesaw/seeHigh2"
-      ],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
       "id": "*/sawLong1",
       "name": "saw - long - 1",
       "deprecatedIDs": [
-        "seesaw/sawLong1"
+        "seesaw/sawLong1",
+        "seesaw/sawHigh1",
+        "seesawEn/sawHigh1"
       ],
       "subtext": "",
-      "duration": 1.0
+      "duration": 1.0,
+      "introSound": "*/hit"
     },
     {
       "type": "cue",
       "id": "*/sawLong2",
       "name": "saw - long - 2",
       "deprecatedIDs": [
-        "seesaw/sawLong2"
+        "seesaw/sawLong2",
+        "seesawEn/sawHigh2",
+        "seesaw/sawHigh2"
       ],
       "subtext": "",
       "duration": 1.0
@@ -110,7 +107,8 @@
         "seesaw/sawShort1"
       ],
       "subtext": "",
-      "duration": 0.5
+      "duration": 0.5,
+      "introSound": "*/hit"
     },
     {
       "type": "cue",
@@ -124,31 +122,67 @@
     },
     {
       "type": "cue",
-      "id": "*/sawHigh1",
-      "name": "saw - high - 1",
-      "deprecatedIDs": [
-        "seesaw/sawHigh1"
-      ],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/sawHigh2",
-      "name": "saw - high - 2",
-      "deprecatedIDs": [
-        "seesaw/sawHigh2"
-      ],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/explosionEnd",
-      "name": "explosion end",
+      "id": "*/seeSawLeft",
+      "name": "see-saw - left - normal",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/seeSawRight",
+      "name": "see-saw - right - normal",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/seeSawLeftFast",
+      "name": "see-saw - left - fast",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/seeSawRightFast",
+      "name": "see-saw - right - fast",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/seeSawLeftHigh",
+      "name": "see-saw - left - high",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/seeSawRightHigh",
+      "name": "see-saw - right - high",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/hit",
+      "name": "land on seesaw",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/highJumpFall",
+      "name": "high jump fall",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
@@ -157,6 +191,22 @@
       "deprecatedIDs": [
         "seesawEn/explosionStomp"
       ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/smallMiss",
+      "name": "barely miss",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/miss",
+      "name": "miss",
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
     },
@@ -173,12 +223,22 @@
           "beat": 0.0
         },
         {
+          "id": "*/seeSawRight",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
           "id": "*/seeLong2",
           "beat": 1.0
         },
         {
           "id": "*/sawLong1",
           "beat": 2.0
+        },
+        {
+          "id": "*/seeSawLeft",
+          "beat": 2.0,
+          "track": 1
         },
         {
           "id": "*/sawLong2",
@@ -200,12 +260,22 @@
           "beat": 0.0
         },
         {
+          "id": "*/seeSawRightFast",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
           "id": "*/seeShort2",
           "beat": 0.5
         },
         {
           "id": "*/sawShort1",
           "beat": 1.0
+        },
+        {
+          "id": "*/seeSawLeftFast",
+          "beat": 1.0,
+          "track": 1
         },
         {
           "id": "*/sawShort2",
@@ -227,12 +297,22 @@
           "beat": 0.0
         },
         {
+          "id": "*/seeSawRight",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
           "id": "*/seeLong2",
           "beat": 1.0
         },
         {
           "id": "*/sawShort1",
           "beat": 2.0
+        },
+        {
+          "id": "*/seeSawLeftFast",
+          "beat": 2.0,
+          "track": 1
         },
         {
           "id": "*/sawShort2",
@@ -254,12 +334,22 @@
           "beat": 0.0
         },
         {
+          "id": "*/seeSawRightFast",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
           "id": "*/seeShort2",
           "beat": 0.5
         },
         {
           "id": "*/sawLong1",
           "beat": 1.0
+        },
+        {
+          "id": "*/seeSawLeft",
+          "beat": 1.0,
+          "track": 1
         },
         {
           "id": "*/sawLong2",
@@ -277,24 +367,40 @@
       ],
       "cues": [
         {
-          "id": "*/seeHigh1",
+          "id": "*/seeLong1",
           "beat": 0.0
         },
         {
-          "id": "*/seeHigh2",
+          "id": "*/seeSawRightHigh",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/highJumpFall",
+          "beat": 1.0,
+          "track": 2
+        },
+        {
+          "id": "*/seeLong2",
           "beat": 1.0
         },
         {
-          "id": "*/explosionHigh",
+          "id": "*/sawLong1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/seeSawLeftHigh",
           "beat": 2.0,
           "track": 1
         },
         {
-          "id": "*/sawHigh1",
-          "beat": 2.0
+          "id": "*/explosionHigh",
+          "beat": 2.0,
+          "duration": 2.0,
+          "track": 2
         },
         {
-          "id": "*/sawHigh2",
+          "id": "*/sawLong2",
           "beat": 3.0
         }
       ],
@@ -311,15 +417,25 @@
           "beat": 0.0
         },
         {
+          "id": "*/seeSawRight",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
           "id": "*/seeLong2",
           "beat": 1.0
         },
         {
-          "id": "*/sawHigh1",
+          "id": "*/sawLong1",
           "beat": 2.0
         },
         {
-          "id": "*/sawHigh2",
+          "id": "*/seeSawLeftHigh",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/sawLong2",
           "beat": 3.0
         }
       ],
@@ -334,26 +450,41 @@
       ],
       "cues": [
         {
-          "id": "*/seeHigh1",
+          "id": "*/seeLong1",
           "beat": 0.0
         },
         {
-          "id": "*/seeHigh2",
+          "id": "*/seeSawRightHigh",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/seeLong2",
           "beat": 1.0
         },
         {
+          "id": "*/highJumpFall",
+          "beat": 1.0,
+          "track": 2
+        },
+        {
           "id": "*/sawShort1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/seeSawLeftFast",
           "beat": 2.0,
           "track": 1
         },
         {
           "id": "*/explosionHigh",
-          "beat": 2.0
+          "beat": 2.0,
+          "duration": 1.0,
+          "track": 2
         },
         {
           "id": "*/sawShort2",
-          "beat": 2.5,
-          "track": 1
+          "beat": 2.5
         }
       ],
       "subtext": ""

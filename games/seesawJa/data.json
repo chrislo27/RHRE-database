@@ -15,6 +15,14 @@
     },
     {
       "type": "cue",
+      "id": "*/endLanding",
+      "name": "landing",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
       "id": "*/explosionEnd",
       "name": "explosion end",
       "deprecatedIDs": [],
@@ -25,7 +33,9 @@
       "type": "cue",
       "id": "*/seeLong1",
       "name": "see - long - 1",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "seesawJa/seeHigh1"
+      ],
       "subtext": "",
       "duration": 1.0
     },
@@ -33,7 +43,9 @@
       "type": "cue",
       "id": "*/seeLong2",
       "name": "see - long - 2",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "seesawJa/seeHigh2"
+      ],
       "subtext": "",
       "duration": 1.0
     },
@@ -41,7 +53,9 @@
       "type": "cue",
       "id": "*/seeLong2b",
       "name": "see - long - 2b",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "seesawJa/seeHigh2b"
+      ],
       "subtext": "",
       "duration": 1.0
     },
@@ -71,41 +85,22 @@
     },
     {
       "type": "cue",
-      "id": "*/seeHigh1",
-      "name": "see - high - 1",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/seeHigh2",
-      "name": "see - high - 2",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/seeHigh2b",
-      "name": "see - high - 2b",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
       "id": "*/sawLong1",
       "name": "saw - long - 1",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "seesawJa/sawHigh1"
+      ],
       "subtext": "",
-      "duration": 1.0
+      "duration": 1.0,
+      "introSound": "*/hit"
     },
     {
       "type": "cue",
       "id": "*/sawLong2",
       "name": "saw - long - 2a",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "seesawJa/sawHigh2"
+      ],
       "subtext": "",
       "duration": 1.0
     },
@@ -113,7 +108,9 @@
       "type": "cue",
       "id": "*/sawLong2b",
       "name": "saw - long - 2b",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "seesawJa/sawHigh2b"
+      ],
       "subtext": "",
       "duration": 1.0
     },
@@ -123,7 +120,8 @@
       "name": "saw - short - 1",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 0.5
+      "duration": 0.5,
+      "introSound": "*/hit"
     },
     {
       "type": "cue",
@@ -143,24 +141,64 @@
     },
     {
       "type": "cue",
-      "id": "*/sawHigh1",
-      "name": "saw - high - 1",
+      "id": "*/seeSawLeft",
+      "name": "see-saw - left - normal",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/seeSawRight",
+      "name": "see-saw - right - normal",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/seeSawLeftFast",
+      "name": "see-saw - left - fast",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/sawHigh2",
-      "name": "saw - high - 2",
+      "id": "*/seeSawRightFast",
+      "name": "see-saw - right - fast",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/sawHigh2b",
-      "name": "saw - high - 2b",
+      "id": "*/seeSawLeftHigh",
+      "name": "see-saw - left - high",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/seeSawRightHigh",
+      "name": "see-saw - right - high",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/hit",
+      "name": "land on seesaw",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/highJumpFall",
+      "name": "high jump fall",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
@@ -169,6 +207,22 @@
       "type": "cue",
       "id": "*/explosionHigh",
       "name": "explosion jump",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/smallMiss",
+      "name": "barely miss",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/miss",
+      "name": "miss",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
@@ -184,6 +238,11 @@
           "beat": 0.0
         },
         {
+          "id": "*/seeSawRight",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
           "id": "*/seeLong2",
           "beat": 1.0
         },
@@ -192,32 +251,12 @@
           "beat": 2.0
         },
         {
+          "id": "*/seeSawLeft",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
           "id": "*/sawLong2",
-          "beat": 3.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_longLong2",
-      "name": "long long (alternate)",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/seeLong1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/seeLong2b",
-          "beat": 1.0
-        },
-        {
-          "id": "*/sawLong1",
-          "beat": 2.0
-        },
-        {
-          "id": "*/sawLong2b",
           "beat": 3.0
         }
       ],
@@ -234,6 +273,11 @@
           "beat": 0.0
         },
         {
+          "id": "*/seeSawRightFast",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
           "id": "*/seeShort2",
           "beat": 0.5
         },
@@ -242,32 +286,12 @@
           "beat": 1.0
         },
         {
+          "id": "*/seeSawLeftFast",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
           "id": "*/sawShort2",
-          "beat": 1.5
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_shortShort2",
-      "name": "short short (alternate)",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/seeShort1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/seeShort2b",
-          "beat": 0.5
-        },
-        {
-          "id": "*/sawShort1",
-          "beat": 1.0
-        },
-        {
-          "id": "*/sawShort2b",
           "beat": 1.5
         }
       ],
@@ -284,6 +308,11 @@
           "beat": 0.0
         },
         {
+          "id": "*/seeSawRight",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
           "id": "*/seeLong2",
           "beat": 1.0
         },
@@ -292,32 +321,12 @@
           "beat": 2.0
         },
         {
+          "id": "*/seeSawLeftFast",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
           "id": "*/sawShort2",
-          "beat": 2.5
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_longShort2",
-      "name": "long short (alternate)",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/seeLong1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/seeLong2b",
-          "beat": 1.0
-        },
-        {
-          "id": "*/sawShort1",
-          "beat": 2.0
-        },
-        {
-          "id": "*/sawShort2b",
           "beat": 2.5
         }
       ],
@@ -334,6 +343,11 @@
           "beat": 0.0
         },
         {
+          "id": "*/seeSawRightFast",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
           "id": "*/seeShort2",
           "beat": 0.5
         },
@@ -342,32 +356,12 @@
           "beat": 1.0
         },
         {
+          "id": "*/seeSawLeft",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
           "id": "*/sawLong2",
-          "beat": 2.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_shortLong2",
-      "name": "short long (alternate)",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/seeShort1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/seeShort2b",
-          "beat": 0.5
-        },
-        {
-          "id": "*/sawLong1",
-          "beat": 1.0
-        },
-        {
-          "id": "*/sawLong2b",
           "beat": 2.0
         }
       ],
@@ -380,54 +374,40 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/seeHigh1",
+          "id": "*/seeLong1",
           "beat": 0.0
         },
         {
-          "id": "*/seeHigh2",
+          "id": "*/seeSawRightHigh",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/seeLong2",
           "beat": 1.0
         },
         {
-          "id": "*/explosionHigh",
+          "id": "*/highJumpFall",
+          "beat": 1.0,
+          "track": 2
+        },
+        {
+          "id": "*/sawLong1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/seeSawLeftHigh",
           "beat": 2.0,
           "track": 1
         },
         {
-          "id": "*/sawHigh1",
-          "beat": 2.0
-        },
-        {
-          "id": "*/sawHigh2",
-          "beat": 3.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_highHigh2",
-      "name": "high high (alternate)",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/seeHigh1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/seeHigh2b",
-          "beat": 1.0
-        },
-        {
           "id": "*/explosionHigh",
           "beat": 2.0,
-          "track": 1
+          "duration": 2.0,
+          "track": 2
         },
         {
-          "id": "*/sawHigh1",
-          "beat": 2.0
-        },
-        {
-          "id": "*/sawHigh2b",
+          "id": "*/sawLong2",
           "beat": 3.0
         }
       ],
@@ -444,15 +424,256 @@
           "beat": 0.0
         },
         {
+          "id": "*/seeSawRight",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
           "id": "*/seeLong2",
           "beat": 1.0
         },
         {
-          "id": "*/sawHigh1",
+          "id": "*/sawLong1",
           "beat": 2.0
         },
         {
-          "id": "*/sawHigh2",
+          "id": "*/seeSawLeftHigh",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/sawLong2",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_highShort1",
+      "name": "high short",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/seeLong1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/seeSawRightHigh",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/seeLong2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/highJumpFall",
+          "beat": 1.0,
+          "track": 2
+        },
+        {
+          "id": "*/sawShort1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/seeSawLeftFast",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/explosionHigh",
+          "beat": 2.0,
+          "track": 2
+        },
+        {
+          "id": "*/sawShort2",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_longLong2",
+      "name": "long long (alternate)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/seeLong1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/seeSawRight",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/seeLong2b",
+          "beat": 1.0
+        },
+        {
+          "id": "*/sawLong1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/seeSawLeft",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/sawLong2b",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_shortShort2",
+      "name": "short short (alternate)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/seeShort1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/seeSawRightFast",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/seeShort2b",
+          "beat": 0.5
+        },
+        {
+          "id": "*/sawShort1",
+          "beat": 1.0
+        },
+        {
+          "id": "*/seeSawLeftFast",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/sawShort2b",
+          "beat": 1.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_longShort2",
+      "name": "long short (alternate)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/seeLong1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/seeSawRight",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/seeLong2b",
+          "beat": 1.0
+        },
+        {
+          "id": "*/sawShort1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/seeSawLeftFast",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/sawShort2b",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_shortLong2",
+      "name": "short long (alternate)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/seeShort1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/seeSawRightFast",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/seeShort2b",
+          "beat": 0.5
+        },
+        {
+          "id": "*/sawLong1",
+          "beat": 1.0
+        },
+        {
+          "id": "*/seeSawLeft",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/sawLong2b",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_highHigh2",
+      "name": "high high (alternate)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/seeLong1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/seeSawRightHigh",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/seeLong2b",
+          "beat": 1.0
+        },
+        {
+          "id": "*/highJumpFall",
+          "beat": 1.0,
+          "track": 2
+        },
+        {
+          "id": "*/sawLong1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/seeSawLeftHigh",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/explosionHigh",
+          "beat": 2.0,
+          "duration": 2.0,
+          "track": 2
+        },
+        {
+          "id": "*/sawLong2b",
           "beat": 3.0
         }
       ],
@@ -469,46 +690,26 @@
           "beat": 0.0
         },
         {
+          "id": "*/seeSawRight",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
           "id": "*/seeLong2b",
           "beat": 1.0
         },
         {
-          "id": "*/sawHigh1",
+          "id": "*/sawLong1",
           "beat": 2.0
         },
         {
-          "id": "*/sawHigh2b",
-          "beat": 3.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_highShort1",
-      "name": "high short",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/seeHigh1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/seeHigh2",
-          "beat": 1.0
-        },
-        {
-          "id": "*/explosionHigh",
+          "id": "*/seeSawLeftHigh",
           "beat": 2.0,
           "track": 1
         },
         {
-          "id": "*/sawShort1",
-          "beat": 2.0
-        },
-        {
-          "id": "*/sawShort2",
-          "beat": 2.5
+          "id": "*/sawLong2b",
+          "beat": 3.0
         }
       ],
       "subtext": ""
@@ -520,21 +721,36 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/seeHigh1",
+          "id": "*/seeLong1",
           "beat": 0.0
         },
         {
-          "id": "*/seeHigh2b",
+          "id": "*/seeSawRightHigh",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/seeLong2b",
           "beat": 1.0
         },
         {
-          "id": "*/explosionHigh",
-          "beat": 2.0,
-          "track": 1
+          "id": "*/highJumpFall",
+          "beat": 1.0,
+          "track": 2
         },
         {
           "id": "*/sawShort1",
           "beat": 2.0
+        },
+        {
+          "id": "*/seeSawLeftFast",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/explosionHigh",
+          "beat": 2.0,
+          "track": 2
         },
         {
           "id": "*/sawShort2b",
