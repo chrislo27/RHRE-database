@@ -4,1413 +4,1010 @@
   "series": "fever",
   "language": "ja",
   "group": "Cheer Readers",
-  "groupDefault": false,
   "objects": [
     {
       "type": "cue",
-      "id": "*/bookFlip1",
-      "deprecatedIDs": [],
-      "name": "book flip 1",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/bookFlip2",
-      "deprecatedIDs": [],
-      "name": "book flip 2",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/bookFlip3",
-      "deprecatedIDs": [],
-      "name": "book flip 3",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThree1_1",
-      "deprecatedIDs": [],
-      "name": "one two three solo 1 (1)",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThree1_2",
-      "deprecatedIDs": [],
-      "name": "one two three solo 1 (2)",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThree1_3",
-      "deprecatedIDs": [],
-      "name": "one two three solo 1 (3)",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThree2_1",
-      "deprecatedIDs": [],
-      "name": "one two three solo 2 (1)",
-      "duration": 0.875,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThree2_2",
-      "deprecatedIDs": [],
-      "name": "one two three solo 2 (2)",
-      "duration": 0.875,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThree2_3",
-      "deprecatedIDs": [],
-      "name": "one two three solo 2 (3)",
-      "duration": 0.875,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThree3_1",
-      "deprecatedIDs": [],
-      "name": "one two three solo 3 (1)",
-      "duration": 1.125,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThree3_2",
-      "deprecatedIDs": [],
-      "name": "one two three solo 3 (2)",
-      "duration": 1.125,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThree3_3",
-      "deprecatedIDs": [],
-      "name": "one two three solo 3 (3)",
-      "duration": 1.125,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThreeGirls1_1",
-      "deprecatedIDs": [],
-      "name": "one two three girls 1 (1)",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThreeGirls1_2",
-      "deprecatedIDs": [],
-      "name": "one two three girls 1 (2)",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThreeGirls1_3",
-      "deprecatedIDs": [],
-      "name": "one two three girls 1 (3)",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThreeGirls1_4",
-      "deprecatedIDs": [],
-      "name": "one two three girls 1 (4)",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThreeGirls2_1",
-      "deprecatedIDs": [],
-      "name": "one two three girls 2 (1)",
-      "duration": 0.875,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThreeGirls2_2",
-      "deprecatedIDs": [],
-      "name": "one two three girls 2 (2)",
-      "duration": 0.875,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThreeGirls2_3",
-      "deprecatedIDs": [],
-      "name": "one two three girls 2 (3)",
-      "duration": 0.875,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThreeGirls2_4",
-      "deprecatedIDs": [],
-      "name": "one two three girls 2 (4)",
-      "duration": 0.875,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThreeGirls3_1",
-      "deprecatedIDs": [],
-      "name": "one two three girls 3 (1)",
-      "duration": 1.125,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThreeGirls3_2",
-      "deprecatedIDs": [],
-      "name": "one two three girls 3 (2)",
-      "duration": 1.125,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThreeGirls3_3",
-      "deprecatedIDs": [],
-      "name": "one two three girls 3 (3)",
-      "duration": 1.125,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoThreeGirls3_4",
-      "deprecatedIDs": [],
-      "name": "one two three girls 3 (4)",
-      "duration": 1.125,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/heyYouCanDo1",
-      "deprecatedIDs": [],
-      "name": "hey you can do solo 1",
-      "duration": 0.75,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/heyYouCanDo2",
-      "deprecatedIDs": [],
-      "name": "hey you can do solo 2",
-      "duration": 0.75,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/heyYouCanDo3",
-      "deprecatedIDs": [],
-      "name": "hey you can do solo 3",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/heyYouCanDo4",
-      "deprecatedIDs": [],
-      "name": "hey you can do solo 4",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/heyYouCanDoGirls1_1",
-      "deprecatedIDs": [],
-      "name": "hey you can do girls 1 (1)",
-      "duration": 0.75,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/heyYouCanDoGirls1_2",
-      "deprecatedIDs": [],
-      "name": "hey you can do girls 1 (2)",
-      "duration": 0.75,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/heyYouCanDoGirls2_1",
-      "deprecatedIDs": [],
-      "name": "hey you can do girls 2 (1)",
-      "duration": 0.75,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/heyYouCanDoGirls2_2",
-      "deprecatedIDs": [],
-      "name": "hey you can do girls 2 (2)",
-      "duration": 0.75,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/heyYouCanDoGirls3_1",
-      "deprecatedIDs": [],
-      "name": "hey you can do girls 3 (1)",
-      "duration": 0.50,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/heyYouCanDoGirls3_2",
-      "deprecatedIDs": [],
-      "name": "hey you can do girls 3 (2)",
-      "duration": 0.50,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/heyYouCanDoGirls4_1",
-      "deprecatedIDs": [],
-      "name": "hey you can do girls 4 (1)",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/heyYouCanDoGirls4_2",
-      "deprecatedIDs": [],
-      "name": "hey you can do girls 4 (2)",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEverybodyGoWhistle1",
-      "deprecatedIDs": [],
-      "name": "let's everybody go - whistle 1",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEverybodyGoWhistle2",
-      "deprecatedIDs": [],
-      "name": "let's everybody go - whistle 2",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEverybodyGo1",
-      "deprecatedIDs": [],
-      "name": "let's everybody go solo 1",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEverybodyGo2",
-      "deprecatedIDs": [],
-      "name": "let's everybody go solo 2",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEverybodyGo3",
-      "deprecatedIDs": [],
-      "name": "let's everybody go solo 3",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEverybodyGo4",
-      "deprecatedIDs": [],
-      "name": "let's everybody go solo 4",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEverybodyGo5",
-      "deprecatedIDs": [],
-      "name": "let's everybody go solo 5",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEverybodyGo6",
-      "deprecatedIDs": [],
-      "name": "let's everybody go solo 6",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEverybodyGo7",
-      "deprecatedIDs": [],
-      "name": "let's everybody go solo 7",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEveryBodyGoGirls1_1",
-      "deprecatedIDs": [],
-      "name": "let's everybody go girls 1 (1)",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEveryBodyGoGirls1_2",
-      "deprecatedIDs": [],
-      "name": "let's everybody go girls 1 (2)",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEveryBodyGoGirls2_1",
-      "deprecatedIDs": [],
-      "name": "let's everybody go girls 2 (1)",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEveryBodyGoGirls2_2",
-      "deprecatedIDs": [],
-      "name": "let's everybody go girls 2 (2)",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEveryBodyGoGirls3_1",
-      "deprecatedIDs": [],
-      "name": "let's everybody go girls 3 (1)",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEveryBodyGoGirls3_2",
-      "deprecatedIDs": [],
-      "name": "let's everybody go girls 3 (2)",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEveryBodyGoGirls4_1",
-      "deprecatedIDs": [],
-      "name": "let's everybody go girls 4 (1)",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEveryBodyGoGirls4_2",
-      "deprecatedIDs": [],
-      "name": "let's everybody go girls 4 (2)",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEveryBodyGoGirls5_1",
-      "deprecatedIDs": [],
-      "name": "let's everybody go girls 5 (1)",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEveryBodyGoGirls5_2",
-      "deprecatedIDs": [],
-      "name": "let's everybody go girls 5 (2)",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEveryBodyGoGirls6_1",
-      "deprecatedIDs": [],
-      "name": "let's everybody go girls 6 (1)",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEveryBodyGoGirls6_2",
-      "deprecatedIDs": [],
-      "name": "let's everybody go girls 6 (2)",
-      "duration": 0.25,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEveryBodyGoGirls7_1",
-      "deprecatedIDs": [],
-      "name": "let's everybody go girls 7 (1)",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/letsEveryBodyGoGirls7_2",
-      "deprecatedIDs": [],
-      "name": "let's everybody go girls 7 (2)",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/neverGiveUp1",
-      "deprecatedIDs": [],
-      "name": "never give up solo 1",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/neverGiveUp2",
-      "deprecatedIDs": [],
-      "name": "never give up solo 2",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/neverGiveUp3",
-      "deprecatedIDs": [],
-      "name": "never give up solo 3",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/neverGiveUp4",
-      "deprecatedIDs": [],
-      "name": "never give up solo 4",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/neverGiveUp5",
-      "deprecatedIDs": [],
-      "name": "never give up solo 5",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/neverGiveUp6_1",
-      "deprecatedIDs": [],
-      "name": "never give up solo 6 (1)",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/neverGiveUp6_2",
-      "deprecatedIDs": [],
-      "name": "never give up solo 6 (2)",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/neverGiveUpGirls1_1",
-      "deprecatedIDs": [],
-      "name": "never give up girls 1 (1)",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/neverGiveUpGirls1_2",
-      "deprecatedIDs": [],
-      "name": "never give up girls 1 (2)",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/neverGiveUpGirls2_1",
-      "deprecatedIDs": [],
-      "name": "never give up girls 2 (1)",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/neverGiveUpGirls2_2",
-      "deprecatedIDs": [],
-      "name": "never give up girls 2 (2)",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/neverGiveUpGirls3_1",
-      "deprecatedIDs": [],
-      "name": "never give up girls 3 (1)",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/neverGiveUpGirls3_2",
-      "deprecatedIDs": [],
-      "name": "never give up girls 3 (2)",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/neverGiveUpGirls4_1",
-      "deprecatedIDs": [],
-      "name": "never give up girls 4 (1)",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/neverGiveUpGirls4_2",
-      "deprecatedIDs": [],
-      "name": "never give up girls 4 (2)",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/neverGiveUpGirls5_1",
-      "deprecatedIDs": [],
-      "name": "never give up girls 5 (1)",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/neverGiveUpGirls5_2",
-      "deprecatedIDs": [],
-      "name": "never give up girls 5 (2)",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/neverGiveUpGirls6_1",
-      "deprecatedIDs": [],
-      "name": "never give up girls 6 (1)",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/neverGiveUpGirls6_2",
-      "deprecatedIDs": [],
-      "name": "never give up girls 6 (2)",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/neverGiveUpInput",
-      "deprecatedIDs": [],
-      "name": "never give up input",
-      "duration": 0.5,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/okayDontMind1_1",
-      "deprecatedIDs": [],
-      "name": "ok don't mind solo 1 (1)",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/okayDontMind1_2",
-      "deprecatedIDs": [],
-      "name": "ok don't mind solo 1 (2)",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/okayDontMind2_1",
-      "deprecatedIDs": [],
-      "name": "ok don't mind solo 2 (1)",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/okayDontMind2_2",
-      "deprecatedIDs": [],
-      "name": "ok don't mind solo 2 (2)",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/okayDontMind3_1",
-      "deprecatedIDs": [],
-      "name": "ok don't mind solo 3 (1)",
-      "duration": 0.875,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/okayDontMind3_2",
-      "deprecatedIDs": [],
-      "name": "ok don't mind solo 3 (2)",
-      "duration": 0.875,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/okayDontMind4_1",
-      "deprecatedIDs": [],
-      "name": "ok don't mind solo 4 (1)",
-      "duration": 1.125,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/okayDontMind4_2",
-      "deprecatedIDs": [],
-      "name": "ok don't mind solo 4 (2)",
-      "duration": 1.125,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/okayDontMindGirls1_1",
-      "deprecatedIDs": [],
-      "name": "ok don't mind girls 1 (1)",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/okayDontMindGirls1_2",
-      "deprecatedIDs": [],
-      "name": "ok don't mind girls 1 (2)",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/okayDontMindGirls2_1",
-      "deprecatedIDs": [],
-      "name": "ok don't mind girls 2 (1)",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/okayDontMindGirls2_2",
-      "deprecatedIDs": [],
-      "name": "ok don't mind girls 2 (2)",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/okayDontMindGirls3_1",
-      "deprecatedIDs": [],
-      "name": "ok don't mind girls 3 (1)",
-      "duration": 0.875,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/okayDontMindGirls3_2",
-      "deprecatedIDs": [],
-      "name": "ok don't mind girls 3 (2)",
-      "duration": 0.875,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/okayDontMindGirls4_1",
-      "deprecatedIDs": [],
-      "name": "ok don't mind girls 4 (1)",
-      "duration": 1.125,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/okayDontMindGirls4_2",
-      "deprecatedIDs": [],
-      "name": "ok don't mind girls 4 (2)",
-      "duration": 1.125,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/whistle1",
-      "deprecatedIDs": [],
-      "name": "ok don't mind whistle 1",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/whistle2",
-      "deprecatedIDs": [],
-      "name": "ok don't mind whistle 2",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/bookSpin",
-      "deprecatedIDs": [],
-      "name": "cheerReadersJa/bookSpin",
-      "duration": 1.0E-6
-    },
-    {
-      "type": "cue",
-      "id": "*/bookSpinLoop",
-      "deprecatedIDs": [],
-      "name": "book spin loop",
-      "introSound": "cheerReadersJa/bookSpin",
-      "duration": 1.0,
-      "stretchable": true,
-      "loops": true
-    },
-    {
-      "type": "cue",
-      "id": "*/bookSpinLoopR7",
-      "deprecatedIDs": [],
-      "name": "book spin loop remix 7",
-      "introSound": "cheerReadersJa/bookSpin",
-      "duration": 4.0,
-      "loops": true
-    },
-    {
-      "type": "cue",
-      "id": "*/bookSpinRelease",
-      "deprecatedIDs": [],
-      "name": "book spin release",
-      "duration": 1.0,
-      "fileExtension": "ogg"
-    },
-    {
-      "type": "cue",
-      "id": "*/bookShine",
-      "deprecatedIDs": [],
-      "name": "book shine",
-      "duration": 1.0,
-      "fileExtension": "ogg"
+      "id": "*/yayAll1",
+      "name": "yay! - all - 1",
+      "deprecatedIDs": [
+        "cheerReadersJa_yayBoth1"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/yayAll2",
+      "name": "yay!  - all - 2",
+      "deprecatedIDs": [
+        "cheerReadersJa_yayBoth2"
+      ],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/yay1",
-      "deprecatedIDs": [],
-      "name": "yay! solo 1",
-      "duration": 1.0,
-      "fileExtension": "ogg"
+      "name": "yay! - solo -  1",
+      "deprecatedIDs": [
+        "cheerReadersJa_yaySolo1"
+      ],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/yay2",
-      "deprecatedIDs": [],
-      "name": "yay! solo 2",
-      "duration": 1.0,
-      "fileExtension": "ogg"
+      "name": "yay! - solo - 2",
+      "deprecatedIDs": [
+        "cheerReadersJa_yaySolo2"
+      ],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/yayGirls1",
-      "deprecatedIDs": [],
-      "name": "yay! girls 1",
-      "duration": 1.0,
-      "fileExtension": "ogg"
+      "name": "yay! - girls - 1 (unused)",
+      "deprecatedIDs": [
+        "cheerReadersJa_yayGirls1"
+      ],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/yayGirls2",
+      "name": "yay! - girls - 2 (unused)",
+      "deprecatedIDs": [
+        "cheerReadersJa_yayGirls2"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/bookHorizontal",
+      "name": "book - horizontal",
+      "deprecatedIDs": [
+        "cheerReadersJa/bookFlip1",
+        "cheerReadersJa/bookFlip2"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/bookVertical",
+      "name": "book - vertical",
       "deprecatedIDs": [],
-      "name": "yay! girls 2",
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/bookDiagonal",
+      "name": "book - diagonal",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/bookSpinLoop",
+      "name": "book - spin",
+      "deprecatedIDs": [
+        "cheerReadersJa/bookSpinLoopR7"
+      ],
+      "subtext": "",
       "duration": 1.0,
-      "fileExtension": "ogg"
+      "stretchable": true,
+      "introSound": "*/bookSpin",
+      "loops": true
+    },
+    {
+      "type": "cue",
+      "id": "*/bookSpin",
+      "name": "book - spin - start",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/bookOpen",
+      "name": "book - open",
+      "deprecatedIDs": [
+        "cheerReadersJa/bookSpinRelease"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/bookPlayer",
+      "name": "book - player",
+      "deprecatedIDs": [
+        "cheerReadersJa/bookFlip3"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/bookBoom",
+      "name": "book - BOOM!",
+      "deprecatedIDs": [
+        "cheerReadersJa/neverGiveUpInput"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/letsEverybodyGo",
+      "name": "let's everybody go! - whistle",
+      "deprecatedIDs": [
+        "cheerReadersJa/letsEverybodyGoWhistle1"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/whistle1",
+      "name": "ok don't mind! - whistle - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/whistle2",
+      "name": "ok don't mind! - whistle - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThree1_1",
+      "name": "one two three - solo - 1A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThree1_2",
+      "name": "one two three - solo - 1B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThree1_3",
+      "name": "one two three - solo - 1C",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThree2_1",
+      "name": "one two three - solo - 2A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThree2_2",
+      "name": "one two three - solo - 2B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThree2_3",
+      "name": "one two three - solo - 2C",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThree3_1",
+      "name": "one two three - solo - 3A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.06125
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThree3_2",
+      "name": "one two three - solo - 3B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.06125
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThree3_3",
+      "name": "one two three - solo - 3C",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.06125
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThreeGirls1_1",
+      "name": "one two three - girls - 1A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThreeGirls1_2",
+      "name": "one two three - girls - 1B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThreeGirls1_3",
+      "name": "one two three - girls - 1C",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThreeGirls1_4",
+      "name": "one two three - girls - 1D",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThreeGirls2_1",
+      "name": "one two three - girls - 2A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThreeGirls2_2",
+      "name": "one two three - girls - 2B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThreeGirls2_3",
+      "name": "one two three - girls - 2C",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThreeGirls2_4",
+      "name": "one two three - girls - 2D",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThreeGirls3_1",
+      "name": "one two three - girls - 3A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.06125
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThreeGirls3_2",
+      "name": "one two three - girls - 3B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.06125
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThreeGirls3_3",
+      "name": "one two three - girls - 3C",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.06125
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoThreeGirls3_4",
+      "name": "one two three - girls - 3D",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.06125
+    },
+    {
+      "type": "cue",
+      "id": "*/heyYouCanDo1",
+      "name": "hey you can do - solo - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.75
+    },
+    {
+      "type": "cue",
+      "id": "*/heyYouCanDo2",
+      "name": "hey you can do - solo - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.75
+    },
+    {
+      "type": "cue",
+      "id": "*/heyYouCanDo3",
+      "name": "hey you can do - solo - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/heyYouCanDo4",
+      "name": "hey you can do - solo - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/heyYouCanDoGirls1_1",
+      "name": "hey you can do - girls - 1A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.75
+    },
+    {
+      "type": "cue",
+      "id": "*/heyYouCanDoGirls1_2",
+      "name": "hey you can do - girls - 1B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.75
+    },
+    {
+      "type": "cue",
+      "id": "*/heyYouCanDoGirls2_1",
+      "name": "hey you can do - girls - 2A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.75
+    },
+    {
+      "type": "cue",
+      "id": "*/heyYouCanDoGirls2_2",
+      "name": "hey you can do - girls - 2B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.75
+    },
+    {
+      "type": "cue",
+      "id": "*/heyYouCanDoGirls3_1",
+      "name": "hey you can do - girls - 3A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/heyYouCanDoGirls3_2",
+      "name": "hey you can do - girls - 3B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/heyYouCanDoGirls4_1",
+      "name": "hey you can do - girls - 4A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/heyYouCanDoGirls4_2",
+      "name": "hey you can do - girls - 4B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/neverGiveUp1",
+      "name": "never give up - solo - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/neverGiveUp2",
+      "name": "never give up - solo - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/neverGiveUp3",
+      "name": "never give up - solo - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/neverGiveUp4",
+      "name": "never give up - solo - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/neverGiveUp5",
+      "name": "never give up - solo - 5",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/neverGiveUp6_1",
+      "name": "never give up - solo - 6A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/neverGiveUp6_2",
+      "name": "never give up - solo - 6B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/neverGiveUpGirls1_1",
+      "name": "never give up - girls - 1A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/neverGiveUpGirls1_2",
+      "name": "never give up - girls - 1B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/neverGiveUpGirls2_1",
+      "name": "never give up - girls - 2A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/neverGiveUpGirls2_2",
+      "name": "never give up - girls - 2B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/neverGiveUpGirls3_1",
+      "name": "never give up - girls - 3A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/neverGiveUpGirls3_2",
+      "name": "never give up - girls - 3B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/neverGiveUpGirls4_1",
+      "name": "never give up - girls - 4A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/neverGiveUpGirls4_2",
+      "name": "never give up - girls - 4B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/neverGiveUpGirls5_1",
+      "name": "never give up - girls - 5A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/neverGiveUpGirls5_2",
+      "name": "never give up - girls - 5B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/neverGiveUpGirls6_1",
+      "name": "never give up - girls - 6A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/neverGiveUpGirls6_2",
+      "name": "never give up - girls - 6B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/letsEverybodyGo1",
+      "name": "let's everybody go - solo - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/letsEverybodyGo2",
+      "name": "let's everybody go - solo - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/letsEverybodyGo3",
+      "name": "let's everybody go - solo - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/letsEverybodyGo4",
+      "name": "let's everybody go - solo - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/letsEverybodyGo5",
+      "name": "let's everybody go - solo - 5",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/letsEverybodyGo6",
+      "name": "let's everybody go - solo - 6",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/letsEverybodyGo7",
+      "name": "let's everybody go - solo - 7",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/letsEveryBodyGoGirls1_1",
+      "name": "let's everybody go - girls - 1A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/letsEveryBodyGoGirls1_2",
+      "name": "let's everybody go - girls - 1B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/letsEveryBodyGoGirls2_1",
+      "name": "let's everybody go - girls - 2A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.25,
+      "loops": true,
+      "loopEnd": 7200.0
+    },
+    {
+      "type": "cue",
+      "id": "*/letsEveryBodyGoGirls2_2",
+      "name": "let's everybody go - girls - 2B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.25,
+      "loops": true,
+      "loopEnd": 7200.0
+    },
+    {
+      "type": "cue",
+      "id": "*/letsEveryBodyGoGirls3_1",
+      "name": "let's everybody go - girls - 3A",
+      "deprecatedIDs": [
+        "cheerReadersJa/letsEverybodyGoGirls7_1"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/letsEveryBodyGoGirls3_2",
+      "name": "let's everybody go - girls - 3B",
+      "deprecatedIDs": [
+        "cheerReadersJa/letsEverybodyGoGirls7_2"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/okayDontMind1_1",
+      "name": "ok don't mind - solo - 1A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/okayDontMind1_2",
+      "name": "ok don't mind - solo - 1B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/okayDontMind2_1",
+      "name": "ok don't mind - solo - 2A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/okayDontMind2_2",
+      "name": "ok don't mind - solo - 2B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/okayDontMind3_1",
+      "name": "ok don't mind - solo - 3A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/okayDontMind3_2",
+      "name": "ok don't mind - solo - 3B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/okayDontMind4_1",
+      "name": "ok don't mind - solo - 4A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.06125
+    },
+    {
+      "type": "cue",
+      "id": "*/okayDontMind4_2",
+      "name": "ok don't mind - solo - 4B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.06125
+    },
+    {
+      "type": "cue",
+      "id": "*/okayDontMindGirls1_1",
+      "name": "ok don't mind - girls - 1A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/okayDontMindGirls1_2",
+      "name": "ok don't mind - girls - 1B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/okayDontMindGirls2_1",
+      "name": "ok don't mind - girls - 2A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/okayDontMindGirls2_2",
+      "name": "ok don't mind - girls - 2B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/okayDontMindGirls3_1",
+      "name": "ok don't mind - girls - 3A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/okayDontMindGirls3_2",
+      "name": "ok don't mind - girls - 3B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/okayDontMindGirls4_1",
+      "name": "ok don't mind - girls - 4A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.06125
+    },
+    {
+      "type": "cue",
+      "id": "*/okayDontMindGirls4_2",
+      "name": "ok don't mind - girls - 4B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "earliness": 0.06125
     },
     {
       "type": "pattern",
-      "id": "*_oneTwoThreeAll1",
-      "deprecatedIDs": [],
-      "name": "one two three - all - 1",
-      "stretchable": false,
+      "id": "*_oneTwoThreeAll",
+      "name": "one two three - all",
+      "deprecatedIDs": [
+        "cheerReadersJa_oneTwoThreeAll1",
+        "cheerReadersJa_oneTwoThreeAll2",
+        "cheerReadersJa_oneTwoThreeAll3",
+        "cheerReadersJa_oneTwoThreeAll4"
+      ],
       "cues": [
         {
-          "id": "*/oneTwoThree1_1",
-          "beat": 0.0,
-          "duration": 1.0,
-          "track": 2
-        },
-        {
-          "id": "*/oneTwoThreeGirls1_1",
+          "id": "*_randomSoloOne",
           "beat": 0.0,
           "duration": 1.0,
           "track": 1
         },
         {
-          "id": "*/bookFlip1",
+          "id": "*_randomGirlsOne",
+          "beat": 0.0,
+          "duration": 1.0,
+          "track": 2
+        },
+        {
+          "id": "*/bookHorizontal",
           "beat": 0.0,
           "duration": 1.0
         },
         {
-          "id": "*/oneTwoThree2_1",
+          "id": "*_randomSoloTwo",
           "beat": 1.0,
-          "duration": 0.875,
-          "track": 2
-        },
-        {
-          "id": "*/oneTwoThreeGirls2_1",
-          "beat": 1.0,
-          "duration": 0.875,
+          "duration": 1.0,
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*_randomGirlsTwo",
+          "beat": 1.0,
+          "duration": 1.0,
+          "track": 2
+        },
+        {
+          "id": "*/bookHorizontal",
           "beat": 1.0,
           "duration": 1.0
         },
         {
-          "id": "*/oneTwoThree3_1",
-          "beat": 1.875,
-          "duration": 1.125,
-          "track": 2
-        },
-        {
-          "id": "*/oneTwoThreeGirls3_1",
-          "beat": 1.875,
-          "duration": 1.125,
+          "id": "*_randomSoloThree",
+          "beat": 2.0,
           "track": 1
         },
         {
-          "id": "*/bookFlip3",
+          "id": "*_randomGirlsThree",
+          "beat": 2.0,
+          "track": 2
+        },
+        {
+          "id": "*/bookPlayer",
           "beat": 2.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_oneTwoThreeAll2",
-      "deprecatedIDs": [],
-      "name": "one two three - all - 2 ",
-      "stretchable": false,
+      "id": "*_oneTwoThreeSolo",
+      "name": "one two three - solo",
+      "deprecatedIDs": [
+        "cheerReadersJa_oneTwoThreeSolo1",
+        "cheerReadersJa_oneTwoThreeSolo2",
+        "cheerReadersJa_oneTwoThreeSolo3"
+      ],
       "cues": [
         {
-          "id": "*/oneTwoThreeGirls1_2",
+          "id": "*/bookHorizontal",
+          "beat": 0.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*_randomSoloOne",
           "beat": 0.0,
           "duration": 1.0,
           "track": 1
         },
         {
-          "id": "*/oneTwoThree1_2",
-          "beat": 0.0,
-          "duration": 1.0,
-          "track": 2
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 0.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/oneTwoThreeGirls2_2",
-          "beat": 1.0,
-          "duration": 0.875,
-          "track": 1
-        },
-        {
-          "id": "*/oneTwoThree2_2",
-          "beat": 1.0,
-          "duration": 0.875,
-          "track": 2
-        },
-        {
-          "id": "*/bookFlip2",
+          "id": "*/bookHorizontal",
           "beat": 1.0,
           "duration": 1.0
         },
         {
-          "id": "*/oneTwoThreeGirls3_2",
-          "beat": 1.875,
-          "duration": 1.125,
+          "id": "*_randomSoloTwo",
+          "beat": 1.0,
           "track": 1
         },
         {
-          "id": "*/oneTwoThree3_2",
-          "beat": 1.875,
-          "duration": 1.125,
-          "track": 2
+          "id": "*_randomSoloThree",
+          "beat": 2.0,
+          "track": 1
         },
         {
-          "id": "*/bookFlip3",
+          "id": "*/bookPlayer",
           "beat": 2.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_oneTwoThreeAll3",
-      "deprecatedIDs": [],
-      "name": "one two three - all - 3",
-      "stretchable": false,
+      "id": "*_oneTwoThreeGirls",
+      "name": "one two three - girls",
+      "deprecatedIDs": [
+        "cheerReadersJa_oneTwoThreeGirls1",
+        "cheerReadersJa_oneTwoThreeGirls2",
+        "cheerReadersJa_oneTwoThreeGirls3",
+        "cheerReadersJa_oneTwoThreeGirls4"
+      ],
       "cues": [
         {
-          "id": "*/bookFlip1",
+          "id": "*/bookHorizontal",
           "beat": 0.0,
           "duration": 1.0
         },
         {
-          "id": "*/oneTwoThree1_3",
-          "beat": 0.0,
-          "duration": 1.0,
-          "track": 2
-        },
-        {
-          "id": "*/oneTwoThreeGirls1_3",
+          "id": "*_randomGirlsOne",
           "beat": 0.0,
           "duration": 1.0,
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookHorizontal",
           "beat": 1.0,
           "duration": 1.0
         },
         {
-          "id": "*/oneTwoThree2_3",
+          "id": "*_randomGirlsTwo",
           "beat": 1.0,
-          "duration": 0.875,
-          "track": 2
-        },
-        {
-          "id": "*/oneTwoThreeGirls2_3",
-          "beat": 1.0,
-          "duration": 0.875,
           "track": 1
         },
         {
-          "id": "*/oneTwoThree3_3",
-          "beat": 1.875,
-          "duration": 1.125,
-          "track": 2
-        },
-        {
-          "id": "*/oneTwoThreeGirls3_3",
-          "beat": 1.875,
-          "duration": 1.125,
+          "id": "*_randomGirlsThree",
+          "beat": 2.0,
           "track": 1
         },
         {
-          "id": "*/bookFlip3",
+          "id": "*/bookPlayer",
           "beat": 2.0,
           "duration": 1.0
         }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_oneTwoThreeAll4",
-      "deprecatedIDs": [],
-      "name": "one two three - all - 4",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/oneTwoThreeGirls1_4",
-          "beat": 0.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 0.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/oneTwoThree1_3",
-          "beat": 0.0,
-          "duration": 1.0,
-          "track": 2
-        },
-        {
-          "id": "*/oneTwoThreeGirls2_4",
-          "beat": 1.0,
-          "duration": 0.875,
-          "track": 1
-        },
-        {
-          "id": "*/bookFlip2",
-          "beat": 1.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/oneTwoThree2_3",
-          "beat": 1.0,
-          "duration": 0.875,
-          "track": 2
-        },
-        {
-          "id": "*/oneTwoThreeGirls3_4",
-          "beat": 1.875,
-          "duration": 1.125,
-          "track": 1
-        },
-        {
-          "id": "*/oneTwoThree3_3",
-          "beat": 1.875,
-          "duration": 1.125,
-          "track": 2
-        },
-        {
-          "id": "*/bookFlip3",
-          "beat": 2.0,
-          "duration": 1.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_oneTwoThreeSolo1",
-      "deprecatedIDs": [],
-      "name": "one two three - solo - 1",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/bookFlip1",
-          "beat": 0.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/oneTwoThree1_1",
-          "beat": 0.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/bookFlip2",
-          "beat": 1.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/oneTwoThree2_1",
-          "beat": 1.0,
-          "duration": 0.875
-        },
-        {
-          "id": "*/oneTwoThree3_1",
-          "beat": 1.875,
-          "duration": 1.125
-        },
-        {
-          "id": "*/bookFlip3",
-          "beat": 2.0,
-          "duration": 1.0,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_oneTwoThreeSolo2",
-      "deprecatedIDs": [],
-      "name": "one two three - solo - 2",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/bookFlip1",
-          "beat": 0.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/oneTwoThree1_2",
-          "beat": 0.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/bookFlip2",
-          "beat": 1.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/oneTwoThree2_2",
-          "beat": 1.0,
-          "duration": 0.875
-        },
-        {
-          "id": "*/oneTwoThree3_2",
-          "beat": 1.875,
-          "duration": 1.125
-        },
-        {
-          "id": "*/bookFlip3",
-          "beat": 2.0,
-          "duration": 1.0,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_oneTwoThreeSolo3",
-      "deprecatedIDs": [],
-      "name": "one two three - solo - 3",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/bookFlip1",
-          "beat": 0.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/oneTwoThree1_3",
-          "beat": 0.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/bookFlip2",
-          "beat": 1.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/oneTwoThree2_3",
-          "beat": 1.0,
-          "duration": 0.875
-        },
-        {
-          "id": "*/oneTwoThree3_3",
-          "beat": 1.875,
-          "duration": 1.125
-        },
-        {
-          "id": "*/bookFlip3",
-          "beat": 2.0,
-          "duration": 1.0,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_oneTwoThreeGirls1",
-      "deprecatedIDs": [],
-      "name": "one two three - girls - 1",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/bookFlip1",
-          "beat": 0.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/oneTwoThreeGirls1_1",
-          "beat": 0.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/bookFlip2",
-          "beat": 1.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/oneTwoThreeGirls2_1",
-          "beat": 1.0,
-          "duration": 0.875
-        },
-        {
-          "id": "*/oneTwoThreeGirls3_1",
-          "beat": 1.875,
-          "duration": 1.125
-        },
-        {
-          "id": "*/bookFlip3",
-          "beat": 2.0,
-          "duration": 1.0,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_oneTwoThreeGirls2",
-      "deprecatedIDs": [],
-      "name": "one two three - girls - 2",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/bookFlip1",
-          "beat": 0.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/oneTwoThreeGirls1_2",
-          "beat": 0.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/bookFlip2",
-          "beat": 1.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/oneTwoThreeGirls2_2",
-          "beat": 1.0,
-          "duration": 0.875
-        },
-        {
-          "id": "*/oneTwoThreeGirls3_2",
-          "beat": 1.875,
-          "duration": 1.125
-        },
-        {
-          "id": "*/bookFlip3",
-          "beat": 2.0,
-          "duration": 1.0,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_oneTwoThreeGirls3",
-      "deprecatedIDs": [],
-      "name": "one two three - girls - 3",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/bookFlip1",
-          "beat": 0.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/oneTwoThreeGirls1_3",
-          "beat": 0.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/bookFlip2",
-          "beat": 1.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/oneTwoThreeGirls2_3",
-          "beat": 1.0,
-          "duration": 0.875
-        },
-        {
-          "id": "*/oneTwoThreeGirls3_3",
-          "beat": 1.875,
-          "duration": 1.125
-        },
-        {
-          "id": "*/bookFlip3",
-          "beat": 2.0,
-          "duration": 1.0,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_oneTwoThreeGirls4",
-      "deprecatedIDs": [],
-      "name": "one two three - girls - 4",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/bookFlip1",
-          "beat": 0.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/oneTwoThreeGirls1_4",
-          "beat": 0.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/bookFlip2",
-          "beat": 1.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/oneTwoThreeGirls2_4",
-          "beat": 1.0,
-          "duration": 0.875
-        },
-        {
-          "id": "*/oneTwoThreeGirls3_4",
-          "beat": 1.875,
-          "duration": 1.125
-        },
-        {
-          "id": "*/bookFlip3",
-          "beat": 2.0,
-          "duration": 1.0,
-          "track": 1
-        }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_heyYouCanDoAll1",
-      "deprecatedIDs": [],
       "name": "hey you can do - all - 1",
-      "stretchable": false,
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/heyYouCanDo1",
           "beat": 0.0,
           "duration": 0.75,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/heyYouCanDoGirls1_1",
           "beat": 0.0,
           "duration": 0.75,
-          "track": 1
+          "track": 2
         },
         {
-          "id": "*/bookFlip1",
+          "id": "*/bookVertical",
           "beat": 0.0,
           "duration": 0.75
         },
@@ -1418,16 +1015,16 @@
           "id": "*/heyYouCanDo2",
           "beat": 0.75,
           "duration": 0.75,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/heyYouCanDoGirls2_1",
           "beat": 0.75,
           "duration": 0.75,
-          "track": 1
+          "track": 2
         },
         {
-          "id": "*/bookFlip1",
+          "id": "*/bookVertical",
           "beat": 0.75,
           "duration": 0.75
         },
@@ -1435,16 +1032,16 @@
           "id": "*/heyYouCanDo3",
           "beat": 1.5,
           "duration": 0.5,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/heyYouCanDoGirls3_1",
           "beat": 1.5,
           "duration": 0.5,
-          "track": 1
+          "track": 2
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookVertical",
           "beat": 1.5,
           "duration": 0.5
         },
@@ -1452,42 +1049,42 @@
           "id": "*/heyYouCanDo4",
           "beat": 2.0,
           "duration": 1.0,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/heyYouCanDoGirls4_1",
           "beat": 2.0,
           "duration": 1.0,
-          "track": 1
+          "track": 2
         },
         {
-          "id": "*/bookFlip3",
+          "id": "*/bookPlayer",
           "beat": 2.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_heyYouCanDoAll2",
-      "deprecatedIDs": [],
       "name": "hey you can do - all - 2",
-      "stretchable": false,
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/heyYouCanDo1",
           "beat": 0.0,
           "duration": 0.75,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/heyYouCanDoGirls1_2",
           "beat": 0.0,
           "duration": 0.75,
-          "track": 1
+          "track": 2
         },
         {
-          "id": "*/bookFlip1",
+          "id": "*/bookVertical",
           "beat": 0.0,
           "duration": 0.75
         },
@@ -1495,16 +1092,16 @@
           "id": "*/heyYouCanDo2",
           "beat": 0.75,
           "duration": 0.75,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/heyYouCanDoGirls2_2",
           "beat": 0.75,
           "duration": 0.75,
-          "track": 1
+          "track": 2
         },
         {
-          "id": "*/bookFlip1",
+          "id": "*/bookVertical",
           "beat": 0.75,
           "duration": 0.75
         },
@@ -1512,16 +1109,16 @@
           "id": "*/heyYouCanDo3",
           "beat": 1.5,
           "duration": 0.5,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/heyYouCanDoGirls3_2",
           "beat": 1.5,
           "duration": 0.5,
-          "track": 1
+          "track": 2
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookVertical",
           "beat": 1.5,
           "duration": 0.5
         },
@@ -1529,27 +1126,27 @@
           "id": "*/heyYouCanDo4",
           "beat": 2.0,
           "duration": 1.0,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/heyYouCanDoGirls4_2",
           "beat": 2.0,
           "duration": 1.0,
-          "track": 1
+          "track": 2
         },
         {
-          "id": "*/bookFlip3",
+          "id": "*/bookPlayer",
           "beat": 2.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_heyYouCanDoSolo",
-      "deprecatedIDs": [],
       "name": "hey you can do - solo",
-      "stretchable": false,
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/heyYouCanDo1",
@@ -1558,7 +1155,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip1",
+          "id": "*/bookVertical",
           "beat": 0.0,
           "duration": 0.75
         },
@@ -1569,7 +1166,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip1",
+          "id": "*/bookVertical",
           "beat": 0.75,
           "duration": 0.75
         },
@@ -1580,7 +1177,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookVertical",
           "beat": 1.5,
           "duration": 0.5
         },
@@ -1591,21 +1188,21 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip3",
+          "id": "*/bookPlayer",
           "beat": 2.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_heyYouCanDoGirls1",
-      "deprecatedIDs": [],
       "name": "hey you can do - girls - 1",
-      "stretchable": false,
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/bookFlip1",
+          "id": "*/bookVertical",
           "beat": 0.0,
           "duration": 0.75
         },
@@ -1616,7 +1213,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip1",
+          "id": "*/bookVertical",
           "beat": 0.75,
           "duration": 0.75
         },
@@ -1627,7 +1224,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookVertical",
           "beat": 1.5,
           "duration": 0.5
         },
@@ -1638,7 +1235,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip3",
+          "id": "*/bookPlayer",
           "beat": 2.0,
           "duration": 1.0
         },
@@ -1648,17 +1245,17 @@
           "duration": 1.0,
           "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_heyYouCanDoGirls2",
-      "deprecatedIDs": [],
       "name": "hey you can do - girls - 2",
-      "stretchable": false,
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/bookFlip1",
+          "id": "*/bookVertical",
           "beat": 0.0,
           "duration": 0.75
         },
@@ -1669,7 +1266,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip1",
+          "id": "*/bookVertical",
           "beat": 0.75,
           "duration": 0.75
         },
@@ -1680,7 +1277,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookVertical",
           "beat": 1.5,
           "duration": 0.5
         },
@@ -1691,7 +1288,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip3",
+          "id": "*/bookPlayer",
           "beat": 2.0,
           "duration": 1.0
         },
@@ -1701,553 +1298,14 @@
           "duration": 1.0,
           "track": 1
         }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_letsEverybodyGoAll1",
-      "deprecatedIDs": [],
-      "name": "let's everybody go - all - 1",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/letsEverybodyGoWhistle1",
-          "beat": 0.0,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEverybodyGo1",
-          "beat": 0.25,
-          "duration": 0.5,
-          "track": 2
-        },
-        {
-          "id": "*/letsEverybodyGoWhistle2",
-          "beat": 0.25,
-          "duration": 0.5
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls1_1",
-          "beat": 0.25,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/letsEverybodyGo2",
-          "beat": 0.75,
-          "duration": 0.25,
-          "track": 2
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 0.75,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls2_1",
-          "beat": 0.75,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/letsEverybodyGo3",
-          "beat": 1.0,
-          "duration": 0.25,
-          "track": 2
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 1.0,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls3_1",
-          "beat": 1.0,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/letsEverybodyGo4",
-          "beat": 1.25,
-          "duration": 0.25,
-          "track": 2
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 1.25,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls4_1",
-          "beat": 1.25,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/letsEverybodyGo5",
-          "beat": 1.5,
-          "duration": 0.25,
-          "track": 2
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 1.5,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls5_1",
-          "beat": 1.5,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/letsEverybodyGo6",
-          "beat": 1.75,
-          "duration": 0.25,
-          "track": 2
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 1.75,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls6_1",
-          "beat": 1.75,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/letsEverybodyGo7",
-          "beat": 2.0,
-          "duration": 1.0,
-          "track": 2
-        },
-        {
-          "id": "*/bookFlip3",
-          "beat": 2.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls7_1",
-          "beat": 2.0,
-          "duration": 1.0,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_letsEveryBodyGoAll2",
-      "deprecatedIDs": [],
-      "name": "let's everybody go - all - 2",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/letsEverybodyGoWhistle1",
-          "beat": 0.0,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEverybodyGo1",
-          "beat": 0.25,
-          "duration": 0.5,
-          "track": 2
-        },
-        {
-          "id": "*/letsEverybodyGoWhistle2",
-          "beat": 0.25,
-          "duration": 0.5
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls1_2",
-          "beat": 0.25,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/letsEverybodyGo2",
-          "beat": 0.75,
-          "duration": 0.25,
-          "track": 2
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 0.75,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls2_2",
-          "beat": 0.75,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/letsEverybodyGo3",
-          "beat": 1.0,
-          "duration": 0.25,
-          "track": 2
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 1.0,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls3_2",
-          "beat": 1.0,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/letsEverybodyGo4",
-          "beat": 1.25,
-          "duration": 0.25,
-          "track": 2
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 1.25,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls4_2",
-          "beat": 1.25,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/letsEverybodyGo5",
-          "beat": 1.5,
-          "duration": 0.25,
-          "track": 2
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 1.5,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls5_2",
-          "beat": 1.5,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/letsEverybodyGo6",
-          "beat": 1.75,
-          "duration": 0.25,
-          "track": 2
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 1.75,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls6_2",
-          "beat": 1.75,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/letsEverybodyGo7",
-          "beat": 2.0,
-          "duration": 1.0,
-          "track": 2
-        },
-        {
-          "id": "*/bookFlip3",
-          "beat": 2.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls7_2",
-          "beat": 2.0,
-          "duration": 1.0,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_letsEveryBodyGoSolo",
-      "deprecatedIDs": [],
-      "name": "let's everybody go - solo",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/letsEverybodyGoWhistle1",
-          "beat": 0.0,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEverybodyGoWhistle2",
-          "beat": 0.25,
-          "duration": 0.5
-        },
-        {
-          "id": "*/letsEverybodyGo1",
-          "beat": 0.25,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/letsEverybodyGo2",
-          "beat": 0.75,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 0.75,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEverybodyGo3",
-          "beat": 1.0,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 1.0,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEverybodyGo4",
-          "beat": 1.25,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 1.25,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEverybodyGo5",
-          "beat": 1.5,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 1.5,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEverybodyGo6",
-          "beat": 1.75,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 1.75,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEverybodyGo7",
-          "beat": 2.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/bookFlip3",
-          "beat": 2.0,
-          "duration": 1.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_letsEveryBodyGoGirls1",
-      "deprecatedIDs": [],
-      "name": "let's everybody go - girls - 1",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/letsEverybodyGoWhistle1",
-          "beat": 0.0,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEverybodyGoWhistle2",
-          "beat": 0.25,
-          "duration": 0.50
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls1_1",
-          "beat": 0.25,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 0.75,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls2_1",
-          "beat": 0.75,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 1.0,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls3_1",
-          "beat": 1.0,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 1.25,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls4_1",
-          "beat": 1.25,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 1.5,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls5_1",
-          "beat": 1.5,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 1.75,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls6_1",
-          "beat": 1.75,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/bookFlip3",
-          "beat": 2.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls7_1",
-          "beat": 2.0,
-          "duration": 1.0,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_letsEveryBodyGoGirls2",
-      "deprecatedIDs": [],
-      "name": "let's everybody go - girls - 2",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/letsEverybodyGoWhistle1",
-          "beat": 0.0,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEverybodyGoWhistle2",
-          "beat": 0.25,
-          "duration": 0.50
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls1_2",
-          "beat": 0.25,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 0.75,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls2_2",
-          "beat": 0.75,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 1.0,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls3_2",
-          "beat": 1.0,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 1.25,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls4_2",
-          "beat": 1.25,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 1.5,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls5_2",
-          "beat": 1.5,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/bookFlip1",
-          "beat": 1.75,
-          "duration": 0.25
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls6_2",
-          "beat": 1.75,
-          "duration": 0.25,
-          "track": 1
-        },
-        {
-          "id": "*/bookFlip3",
-          "beat": 2.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/letsEveryBodyGoGirls7_2",
-          "beat": 2.0,
-          "duration": 1.0,
-          "track": 1
-        }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_neverGiveUpAll1",
-      "deprecatedIDs": [],
       "name": "never give up - all - 1",
-      "stretchable": false,
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/neverGiveUp1",
@@ -2256,7 +1314,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 0.0,
           "duration": 0.5
         },
@@ -2273,7 +1331,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 0.5,
           "duration": 0.5
         },
@@ -2290,7 +1348,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 1.0,
           "duration": 0.5
         },
@@ -2307,7 +1365,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 1.5,
           "duration": 0.5
         },
@@ -2324,7 +1382,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 2.0,
           "duration": 0.5
         },
@@ -2337,43 +1395,43 @@
         {
           "id": "*/neverGiveUp6_1",
           "beat": 2.5,
-          "duration": 0.5,
+          "duration": 1.5,
           "track": 1
         },
         {
-          "id": "*/neverGiveUpInput",
+          "id": "*/bookBoom",
           "beat": 2.5,
-          "duration": 0.5
+          "duration": 1.5
         },
         {
           "id": "*/neverGiveUpGirls6_1",
           "beat": 2.5,
-          "duration": 0.5,
+          "duration": 1.5,
           "track": 2
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_neverGiveUpAll2",
-      "deprecatedIDs": [],
       "name": "never give up - all - 2",
-      "stretchable": false,
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/neverGiveUp1",
           "beat": 0.0,
           "duration": 0.5,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/neverGiveUpGirls1_2",
           "beat": 0.0,
           "duration": 0.5,
-          "track": 1
+          "track": 2
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 0.0,
           "duration": 0.5
         },
@@ -2381,16 +1439,16 @@
           "id": "*/neverGiveUp2",
           "beat": 0.5,
           "duration": 0.5,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/neverGiveUpGirls2_2",
           "beat": 0.5,
           "duration": 0.5,
-          "track": 1
+          "track": 2
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 0.5,
           "duration": 0.5
         },
@@ -2398,16 +1456,16 @@
           "id": "*/neverGiveUp3",
           "beat": 1.0,
           "duration": 0.5,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/neverGiveUpGirls3_2",
           "beat": 1.0,
           "duration": 0.5,
-          "track": 1
+          "track": 2
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 1.0,
           "duration": 0.5
         },
@@ -2415,16 +1473,16 @@
           "id": "*/neverGiveUp4",
           "beat": 1.5,
           "duration": 0.5,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/neverGiveUpGirls4_2",
           "beat": 1.5,
           "duration": 0.5,
-          "track": 1
+          "track": 2
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 1.5,
           "duration": 0.5
         },
@@ -2432,44 +1490,44 @@
           "id": "*/neverGiveUp5",
           "beat": 2.0,
           "duration": 0.5,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/neverGiveUpGirls5_2",
           "beat": 2.0,
           "duration": 0.5,
-          "track": 1
+          "track": 2
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 2.0,
           "duration": 0.5
         },
         {
           "id": "*/neverGiveUp6_2",
           "beat": 2.5,
-          "duration": 0.5,
-          "track": 2
+          "duration": 1.5,
+          "track": 1
         },
         {
           "id": "*/neverGiveUpGirls6_2",
           "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
+          "duration": 1.5,
+          "track": 2
         },
         {
-          "id": "*/neverGiveUpInput",
+          "id": "*/bookBoom",
           "beat": 2.5,
-          "duration": 0.5
+          "duration": 1.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_neverGiveUpSolo1",
+      "id": "*_neverGiveUpAll3",
+      "name": "never give up - all - 3",
       "deprecatedIDs": [],
-      "name": "never give up - solo - 1",
-      "stretchable": false,
       "cues": [
         {
           "id": "*/neverGiveUp1",
@@ -2478,9 +1536,15 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/neverGiveUpGirls1_2",
           "beat": 0.0,
-          "duration": 0.50
+          "duration": 0.5,
+          "track": 2
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 0.0,
+          "duration": 0.5
         },
         {
           "id": "*/neverGiveUp2",
@@ -2489,9 +1553,15 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/neverGiveUpGirls2_2",
           "beat": 0.5,
-          "duration": 0.50
+          "duration": 0.5,
+          "track": 2
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 0.5,
+          "duration": 0.5
         },
         {
           "id": "*/neverGiveUp3",
@@ -2500,9 +1570,15 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/neverGiveUpGirls3_2",
           "beat": 1.0,
-          "duration": 0.50
+          "duration": 0.5,
+          "track": 2
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.0,
+          "duration": 0.5
         },
         {
           "id": "*/neverGiveUp4",
@@ -2511,9 +1587,15 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/neverGiveUpGirls4_2",
           "beat": 1.5,
-          "duration": 0.50
+          "duration": 0.5,
+          "track": 2
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.5,
+          "duration": 0.5
         },
         {
           "id": "*/neverGiveUp5",
@@ -2522,29 +1604,41 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/neverGiveUpGirls5_2",
           "beat": 2.0,
-          "duration": 0.50
+          "duration": 0.5,
+          "track": 2
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 2.0,
+          "duration": 0.5
         },
         {
           "id": "*/neverGiveUp6_1",
           "beat": 2.5,
-          "duration": 0.5,
+          "duration": 1.5,
           "track": 1
         },
         {
-          "id": "*/neverGiveUpInput",
+          "id": "*/neverGiveUpGirls6_2",
           "beat": 2.5,
-          "duration": 0.5
+          "duration": 1.5,
+          "track": 2
+        },
+        {
+          "id": "*/bookBoom",
+          "beat": 2.5,
+          "duration": 1.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_neverGiveUpSolo2",
+      "id": "*_neverGiveUpAll4",
+      "name": "never give up - all - 4",
       "deprecatedIDs": [],
-      "name": "never give up - solo - 2",
-      "stretchable": false,
       "cues": [
         {
           "id": "*/neverGiveUp1",
@@ -2553,9 +1647,15 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 0.0,
-          "duration": 0.50
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUpGirls1_1",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 2
         },
         {
           "id": "*/neverGiveUp2",
@@ -2564,9 +1664,15 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 0.5,
-          "duration": 0.50
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUpGirls2_1",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 2
         },
         {
           "id": "*/neverGiveUp3",
@@ -2575,9 +1681,15 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 1.0,
-          "duration": 0.50
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUpGirls3_1",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 2
         },
         {
           "id": "*/neverGiveUp4",
@@ -2586,9 +1698,15 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 1.5,
-          "duration": 0.50
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUpGirls4_1",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 2
         },
         {
           "id": "*/neverGiveUp5",
@@ -2597,32 +1715,194 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 2.0,
-          "duration": 0.50
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUpGirls5_1",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 2
         },
         {
           "id": "*/neverGiveUp6_2",
           "beat": 2.5,
+          "duration": 1.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookBoom",
+          "beat": 2.5,
+          "duration": 1.5
+        },
+        {
+          "id": "*/neverGiveUpGirls6_1",
+          "beat": 2.5,
+          "duration": 1.5,
+          "track": 2
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_neverGiveUpSolo1",
+      "name": "never give up - solo - 1",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/neverGiveUp1",
+          "beat": 0.0,
           "duration": 0.5,
           "track": 1
         },
         {
-          "id": "*/neverGiveUpInput",
-          "beat": 2.5,
+          "id": "*/bookDiagonal",
+          "beat": 0.0,
           "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUp2",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 0.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUp3",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUp4",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUp5",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUp6_1",
+          "beat": 2.5,
+          "duration": 1.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookBoom",
+          "beat": 2.5,
+          "duration": 1.5
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_neverGiveUpSolo2",
+      "name": "never give up - solo - 2",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/neverGiveUp1",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUp2",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 0.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUp3",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUp4",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUp5",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUp6_2",
+          "beat": 2.5,
+          "duration": 1.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookBoom",
+          "beat": 2.5,
+          "duration": 1.5
+        }
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_neverGiveUpGirls1",
-      "deprecatedIDs": [],
       "name": "never give up - girls - 1",
-      "stretchable": false,
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 0.0,
           "duration": 0.5
         },
@@ -2633,7 +1913,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 0.5,
           "duration": 0.5
         },
@@ -2644,7 +1924,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 1.0,
           "duration": 0.5
         },
@@ -2655,7 +1935,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 1.5,
           "duration": 0.5
         },
@@ -2666,7 +1946,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 2.0,
           "duration": 0.5
         },
@@ -2677,27 +1957,27 @@
           "track": 1
         },
         {
-          "id": "*/neverGiveUpInput",
+          "id": "*/bookBoom",
           "beat": 2.5,
-          "duration": 0.5
+          "duration": 1.5
         },
         {
           "id": "*/neverGiveUpGirls6_1",
           "beat": 2.5,
-          "duration": 0.5,
+          "duration": 1.5,
           "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_neverGiveUpGirls2",
-      "deprecatedIDs": [],
       "name": "never give up - girls - 2",
-      "stretchable": false,
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 0.0,
           "duration": 0.5
         },
@@ -2708,7 +1988,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 0.5,
           "duration": 0.5
         },
@@ -2719,7 +1999,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 1.0,
           "duration": 0.5
         },
@@ -2730,7 +2010,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 1.5,
           "duration": 0.5
         },
@@ -2741,7 +2021,7 @@
           "track": 1
         },
         {
-          "id": "*/bookFlip2",
+          "id": "*/bookDiagonal",
           "beat": 2.0,
           "duration": 0.5
         },
@@ -2752,36 +2032,734 @@
           "track": 1
         },
         {
-          "id": "*/neverGiveUpInput",
+          "id": "*/bookBoom",
           "beat": 2.5,
-          "duration": 0.5
+          "duration": 1.5
         },
         {
           "id": "*/neverGiveUpGirls6_2",
           "beat": 2.5,
-          "duration": 0.5,
+          "duration": 1.5,
           "track": 1
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_neverGiveUpSolo1Consecutive",
+      "name": "never give up - solo - 1 (consecutive)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/neverGiveUp1",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/neverGiveUp2",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 0.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUp3",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUp4",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUp5",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUp6_1",
+          "beat": 2.5,
+          "duration": 1.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookBoom",
+          "beat": 2.5,
+          "duration": 1.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_neverGiveUpSolo2Consecutive",
+      "name": "never give up - solo - 2 (consecutive)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/neverGiveUp1",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/neverGiveUp2",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 0.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUp3",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUp4",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUp5",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUp6_2",
+          "beat": 2.5,
+          "duration": 1.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookBoom",
+          "beat": 2.5,
+          "duration": 1.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_neverGiveUpGirls1Consecutive",
+      "name": "never give up - girls - 1 (consecutive)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/neverGiveUpGirls1_1",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 0.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUpGirls2_1",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUpGirls3_1",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUpGirls4_1",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUpGirls5_1",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookBoom",
+          "beat": 2.5,
+          "duration": 1.5
+        },
+        {
+          "id": "*/neverGiveUpGirls6_1",
+          "beat": 2.5,
+          "duration": 1.5,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_neverGiveUpGirls2Consecutive",
+      "name": "never give up - girls - 2 (consecutive)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/neverGiveUpGirls1_2",
+          "beat": 0.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 0.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUpGirls2_2",
+          "beat": 0.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUpGirls3_2",
+          "beat": 1.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUpGirls4_2",
+          "beat": 1.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 2.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/neverGiveUpGirls5_2",
+          "beat": 2.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookBoom",
+          "beat": 2.5,
+          "duration": 1.5
+        },
+        {
+          "id": "*/neverGiveUpGirls6_2",
+          "beat": 2.5,
+          "duration": 1.5,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_letsEverybodyGoAll1",
+      "name": "let's everybody go - all - 1",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/letsEverybodyGo",
+          "beat": 0.0,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEverybodyGo1",
+          "beat": 0.25,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/letsEveryBodyGoGirls1_1",
+          "beat": 0.25,
+          "duration": 0.5,
+          "track": 2
+        },
+        {
+          "id": "*/letsEverybodyGo2",
+          "beat": 0.75,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 0.75,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEveryBodyGoGirls2_1",
+          "beat": 0.75,
+          "duration": 1.25,
+          "track": 2
+        },
+        {
+          "id": "*/letsEverybodyGo3",
+          "beat": 1.0,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.0,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEverybodyGo4",
+          "beat": 1.25,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.25,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEverybodyGo5",
+          "beat": 1.5,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.5,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEverybodyGo6",
+          "beat": 1.75,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.75,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEverybodyGo7",
+          "beat": 2.0,
+          "duration": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/bookPlayer",
+          "beat": 2.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/letsEveryBodyGoGirls3_1",
+          "beat": 2.0,
+          "duration": 1.0,
+          "track": 2
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_letsEveryBodyGoAll2",
+      "name": "let's everybody go - all - 2",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/letsEverybodyGo",
+          "beat": 0.0,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEverybodyGo1",
+          "beat": 0.25,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/letsEveryBodyGoGirls1_2",
+          "beat": 0.25,
+          "duration": 0.5,
+          "track": 2
+        },
+        {
+          "id": "*/letsEverybodyGo2",
+          "beat": 0.75,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 0.75,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEveryBodyGoGirls2_2",
+          "beat": 0.75,
+          "duration": 1.25,
+          "track": 2
+        },
+        {
+          "id": "*/letsEverybodyGo3",
+          "beat": 1.0,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.0,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEverybodyGo4",
+          "beat": 1.25,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.25,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEverybodyGo5",
+          "beat": 1.5,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.5,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEverybodyGo6",
+          "beat": 1.75,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.75,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEverybodyGo7",
+          "beat": 2.0,
+          "duration": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/bookPlayer",
+          "beat": 2.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/letsEveryBodyGoGirls3_2",
+          "beat": 2.0,
+          "duration": 1.0,
+          "track": 2
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_letsEveryBodyGoSolo",
+      "name": "let's everybody go - solo",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/letsEverybodyGo",
+          "beat": 0.0,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEverybodyGo1",
+          "beat": 0.25,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/letsEverybodyGo2",
+          "beat": 0.75,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 0.75,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEverybodyGo3",
+          "beat": 1.0,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.0,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEverybodyGo4",
+          "beat": 1.25,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.25,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEverybodyGo5",
+          "beat": 1.5,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.5,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEverybodyGo6",
+          "beat": 1.75,
+          "duration": 0.25,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.75,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEverybodyGo7",
+          "beat": 2.0,
+          "duration": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/bookPlayer",
+          "beat": 2.0,
+          "duration": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_letsEveryBodyGoGirls1",
+      "name": "let's everybody go - girls - 1",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/letsEverybodyGo",
+          "beat": 0.0,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEveryBodyGoGirls1_1",
+          "beat": 0.25,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 0.75,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEveryBodyGoGirls2_1",
+          "beat": 0.75,
+          "duration": 1.25,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.0,
+          "duration": 0.25
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.25,
+          "duration": 0.25
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.5,
+          "duration": 0.25
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.75,
+          "duration": 0.25
+        },
+        {
+          "id": "*/bookPlayer",
+          "beat": 2.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/letsEveryBodyGoGirls3_1",
+          "beat": 2.0,
+          "duration": 1.0,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_letsEveryBodyGoGirls2",
+      "name": "let's everybody go - girls - 2",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/letsEverybodyGo",
+          "beat": 0.0,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEveryBodyGoGirls1_2",
+          "beat": 0.25,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 0.75,
+          "duration": 0.25
+        },
+        {
+          "id": "*/letsEveryBodyGoGirls2_2",
+          "beat": 0.75,
+          "duration": 1.25,
+          "track": 1
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.0,
+          "duration": 0.25
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.25,
+          "duration": 0.25
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.5,
+          "duration": 0.25
+        },
+        {
+          "id": "*/bookDiagonal",
+          "beat": 1.75,
+          "duration": 0.25
+        },
+        {
+          "id": "*/bookPlayer",
+          "beat": 2.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/letsEveryBodyGoGirls3_2",
+          "beat": 2.0,
+          "duration": 1.0,
+          "track": 1
+        }
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_okDontMindAll1",
-      "deprecatedIDs": [],
       "name": "ok don't mind - all - 1",
-      "stretchable": false,
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/okayDontMind1_1",
           "beat": 0.0,
           "duration": 1.0,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/okayDontMindGirls1_1",
           "beat": 0.0,
           "duration": 1.0,
-          "track": 1
+          "track": 2
         },
         {
           "id": "*/whistle1",
@@ -2792,13 +2770,13 @@
           "id": "*/okayDontMind2_1",
           "beat": 1.0,
           "duration": 1.0,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/okayDontMindGirls2_1",
           "beat": 1.0,
           "duration": 1.0,
-          "track": 1
+          "track": 2
         },
         {
           "id": "*/whistle2",
@@ -2808,14 +2786,12 @@
         {
           "id": "*/okayDontMind3_1",
           "beat": 2.0,
-          "duration": 0.875,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/okayDontMindGirls3_1",
           "beat": 2.0,
-          "duration": 0.875,
-          "track": 1
+          "track": 2
         },
         {
           "id": "*/bookSpinLoop",
@@ -2824,41 +2800,40 @@
         },
         {
           "id": "*/okayDontMind4_1",
-          "beat": 2.875,
-          "duration": 1.125,
-          "track": 2
-        },
-        {
-          "id": "*/okayDontMindGirls4_1",
-          "beat": 2.875,
-          "duration": 1.125,
+          "beat": 3.0,
+          "duration": 1.0,
           "track": 1
         },
         {
-          "id": "*/bookSpinRelease",
+          "id": "*/okayDontMindGirls4_1",
+          "beat": 3.0,
+          "track": 2
+        },
+        {
+          "id": "*/bookOpen",
           "beat": 3.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_okayDontMindAll2",
-      "deprecatedIDs": [],
       "name": "ok don't mind - all - 2",
-      "stretchable": false,
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/okayDontMind1_2",
           "beat": 0.0,
           "duration": 1.0,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/okayDontMindGirls1_2",
           "beat": 0.0,
           "duration": 1.0,
-          "track": 1
+          "track": 2
         },
         {
           "id": "*/whistle1",
@@ -2869,13 +2844,13 @@
           "id": "*/okayDontMind2_2",
           "beat": 1.0,
           "duration": 1.0,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/okayDontMindGirls2_2",
           "beat": 1.0,
           "duration": 1.0,
-          "track": 1
+          "track": 2
         },
         {
           "id": "*/whistle2",
@@ -2885,14 +2860,12 @@
         {
           "id": "*/okayDontMind3_2",
           "beat": 2.0,
-          "duration": 0.875,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/okayDontMindGirls3_2",
           "beat": 2.0,
-          "duration": 0.875,
-          "track": 1
+          "track": 2
         },
         {
           "id": "*/bookSpinLoop",
@@ -2901,96 +2874,241 @@
         },
         {
           "id": "*/okayDontMind4_2",
-          "beat": 2.875,
-          "duration": 1.125,
+          "beat": 3.0,
           "track": 2
         },
         {
           "id": "*/okayDontMindGirls4_2",
-          "beat": 2.875,
-          "duration": 1.125,
+          "beat": 3.0,
           "track": 1
         },
         {
-          "id": "*/bookSpinRelease",
+          "id": "*/bookOpen",
           "beat": 3.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_okayDontMindR7",
+      "id": "*_okayDontMindAll3",
+      "name": "ok don't mind - all - 3",
       "deprecatedIDs": [],
-      "name": "ok don't mind - all - long",
-      "stretchable": false,
       "cues": [
         {
-          "id": "*/okayDontMind1_2",
+          "id": "*/okayDontMind1_1",
           "beat": 0.0,
           "duration": 1.0,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/okayDontMindGirls1_2",
           "beat": 0.0,
           "duration": 1.0,
+          "track": 2
+        },
+        {
+          "id": "*/whistle1",
+          "beat": 0.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/okayDontMind2_1",
+          "beat": 1.0,
+          "duration": 1.0,
           "track": 1
+        },
+        {
+          "id": "*/okayDontMindGirls2_2",
+          "beat": 1.0,
+          "duration": 1.0,
+          "track": 2
+        },
+        {
+          "id": "*/whistle2",
+          "beat": 1.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/okayDontMind3_1",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/okayDontMindGirls3_2",
+          "beat": 2.0,
+          "track": 2
+        },
+        {
+          "id": "*/bookSpinLoop",
+          "beat": 2.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/okayDontMind4_1",
+          "beat": 3.0,
+          "track": 2
+        },
+        {
+          "id": "*/okayDontMindGirls4_2",
+          "beat": 3.0,
+          "track": 1
+        },
+        {
+          "id": "*/bookOpen",
+          "beat": 3.0,
+          "duration": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_okDontMindAll4",
+      "name": "ok don't mind - all - 4",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/okayDontMind1_2",
+          "beat": 0.0,
+          "duration": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/okayDontMindGirls1_1",
+          "beat": 0.0,
+          "duration": 1.0,
+          "track": 2
+        },
+        {
+          "id": "*/whistle1",
+          "beat": 0.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/okayDontMind2_2",
+          "beat": 1.0,
+          "duration": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/okayDontMindGirls2_1",
+          "beat": 1.0,
+          "duration": 1.0,
+          "track": 2
+        },
+        {
+          "id": "*/whistle2",
+          "beat": 1.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/okayDontMind3_2",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/okayDontMindGirls3_1",
+          "beat": 2.0,
+          "track": 2
+        },
+        {
+          "id": "*/bookSpinLoop",
+          "beat": 2.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/okayDontMind4_2",
+          "beat": 3.0,
+          "duration": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/okayDontMindGirls4_1",
+          "beat": 3.0,
+          "track": 2
+        },
+        {
+          "id": "*/bookOpen",
+          "beat": 3.0,
+          "duration": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_okayDontMindR7",
+      "name": "ok don't mind - all - long",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/okayDontMind1_2",
+          "beat": 0.0,
+          "duration": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/okayDontMindGirls1_2",
+          "beat": 0.0,
+          "duration": 1.0,
+          "track": 2
         },
         {
           "id": "*/okayDontMind2_2",
           "beat": 4.0,
           "duration": 1.0,
-          "track": 2
+          "track": 1
         },
         {
           "id": "*/okayDontMindGirls2_2",
           "beat": 4.0,
           "duration": 1.0,
-          "track": 1
+          "track": 2
         },
         {
-          "id": "*/bookSpinLoopR7",
+          "id": "*/bookSpinLoop",
           "beat": 8.0,
           "duration": 4.0
         },
         {
           "id": "*/okayDontMind3_2",
           "beat": 8.0,
-          "duration": 1.0,
-          "track": 2
+          "duration": 4.0,
+          "track": 1
         },
         {
           "id": "*/okayDontMindGirls3_2",
           "beat": 8.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/okayDontMind4_2",
-          "beat": 11.875,
-          "duration": 1.125,
+          "duration": 4.0,
           "track": 2
         },
         {
-          "id": "*/okayDontMindGirls4_2",
-          "beat": 11.875,
-          "duration": 1.125,
+          "id": "*/okayDontMind4_2",
+          "beat": 12.0,
+          "duration": 4.0,
           "track": 1
         },
         {
-          "id": "*/bookSpinRelease",
+          "id": "*/okayDontMindGirls4_2",
+          "beat": 12.0,
+          "duration": 4.0,
+          "track": 2
+        },
+        {
+          "id": "*/bookOpen",
           "beat": 12.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_okayDontMindSolo1",
-      "deprecatedIDs": [],
       "name": "ok don't mind - solo - 1",
-      "stretchable": false,
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/okayDontMind1_1",
@@ -3017,7 +3135,6 @@
         {
           "id": "*/okayDontMind3_1",
           "beat": 2.0,
-          "duration": 0.875,
           "track": 1
         },
         {
@@ -3027,23 +3144,22 @@
         },
         {
           "id": "*/okayDontMind4_1",
-          "beat": 2.875,
-          "duration": 1.125,
+          "beat": 3.0,
           "track": 1
         },
         {
-          "id": "*/bookSpinRelease",
+          "id": "*/bookOpen",
           "beat": 3.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_okayDontMindSolo2",
-      "deprecatedIDs": [],
       "name": "ok don't mind - solo - 2",
-      "stretchable": false,
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/okayDontMind1_2",
@@ -3070,7 +3186,7 @@
         {
           "id": "*/okayDontMind3_2",
           "beat": 2.0,
-          "duration": 0.875,
+          "duration": 1.0,
           "track": 1
         },
         {
@@ -3080,23 +3196,22 @@
         },
         {
           "id": "*/okayDontMind4_2",
-          "beat": 2.875,
-          "duration": 1.125,
+          "beat": 3.0,
           "track": 1
         },
         {
-          "id": "*/bookSpinRelease",
+          "id": "*/bookOpen",
           "beat": 3.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_okayDontMindGirls1",
-      "deprecatedIDs": [],
       "name": "ok don't mind - girls - 1",
-      "stretchable": false,
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/okayDontMindGirls1_1",
@@ -3123,7 +3238,6 @@
         {
           "id": "*/okayDontMindGirls3_1",
           "beat": 2.0,
-          "duration": 0.875,
           "track": 1
         },
         {
@@ -3133,23 +3247,22 @@
         },
         {
           "id": "*/okayDontMindGirls4_1",
-          "beat": 2.875,
-          "duration": 1.125,
+          "beat": 3.0,
           "track": 1
         },
         {
-          "id": "*/bookSpinRelease",
+          "id": "*/bookOpen",
           "beat": 3.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_okayDontMindGirls2",
-      "deprecatedIDs": [],
       "name": "ok don't mind - girls - 2",
-      "stretchable": false,
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/okayDontMindGirls1_2",
@@ -3176,7 +3289,6 @@
         {
           "id": "*/okayDontMindGirls3_2",
           "beat": 2.0,
-          "duration": 0.875,
           "track": 1
         },
         {
@@ -3186,148 +3298,133 @@
         },
         {
           "id": "*/okayDontMindGirls4_2",
-          "beat": 2.875,
-          "duration": 1.125,
+          "beat": 3.0,
           "track": 1
         },
         {
-          "id": "*/bookSpinRelease",
+          "id": "*/bookOpen",
           "beat": 3.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
-      "type": "pattern",
-      "id": "*_yayBoth1",
+      "type": "randomCue",
+      "id": "*_randomSoloOne",
+      "name": "random - solo - one",
       "deprecatedIDs": [],
-      "name": "yay! - all - 1",
-      "stretchable": false,
       "cues": [
         {
-          "id": "*/yay1",
-          "beat": 0.0,
-          "duration": 1.0,
-          "track": 2
+          "id": "*/oneTwoThree1_1"
         },
         {
-          "id": "*/bookShine",
-          "beat": 0.0,
-          "duration": 1.0
+          "id": "*/oneTwoThree1_2"
         },
         {
-          "id": "*/yayGirls1",
-          "beat": 0.0,
-          "duration": 1.0,
-          "track": 1
+          "id": "*/oneTwoThree1_3"
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
-      "type": "pattern",
-      "id": "*_yayBoth2",
+      "type": "randomCue",
+      "id": "*_randomSoloTwo",
+      "name": "random - solo - two",
       "deprecatedIDs": [],
-      "name": "yay! - all - 2",
-      "stretchable": false,
       "cues": [
         {
-          "id": "*/yay2",
-          "beat": 0.0,
-          "duration": 1.0,
-          "track": 2
+          "id": "*/oneTwoThree2_1"
         },
         {
-          "id": "*/bookShine",
-          "beat": 0.0,
-          "duration": 1.0
+          "id": "*/oneTwoThree2_2"
         },
         {
-          "id": "*/yayGirls2",
-          "beat": 0.0,
-          "duration": 1.0,
-          "track": 1
+          "id": "*/oneTwoThree2_3"
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
-      "type": "pattern",
-      "id": "*_yaySolo1",
+      "type": "randomCue",
+      "id": "*_randomSoloThree",
+      "name": "random - solo - three",
       "deprecatedIDs": [],
-      "name": "yay! - solo - 1",
-      "stretchable": false,
       "cues": [
         {
-          "id": "*/yay1",
-          "beat": 0.0,
-          "duration": 1.0,
-          "track": 1
+          "id": "*/oneTwoThree3_1"
         },
         {
-          "id": "*/bookShine",
-          "beat": 0.0,
-          "duration": 1.0
+          "id": "*/oneTwoThree3_2"
+        },
+        {
+          "id": "*/oneTwoThree3_3"
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
-      "type": "pattern",
-      "id": "*_yaySolo2",
+      "type": "randomCue",
+      "id": "*_randomGirlsOne",
+      "name": "random - girls - one",
       "deprecatedIDs": [],
-      "name": "yay! - solo - 2",
-      "stretchable": false,
       "cues": [
         {
-          "id": "*/yay2",
-          "beat": 0.0,
-          "duration": 1.0,
-          "track": 1
+          "id": "*/oneTwoThreeGirls1_1"
         },
         {
-          "id": "*/bookShine",
-          "beat": 0.0,
-          "duration": 1.0
+          "id": "*/oneTwoThreeGirls1_2"
+        },
+        {
+          "id": "*/oneTwoThreeGirls1_3"
+        },
+        {
+          "id": "*/oneTwoThreeGirls1_4"
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
-      "type": "pattern",
-      "id": "*_yayGirls1",
+      "type": "randomCue",
+      "id": "*_randomGirlsTwo",
+      "name": "random - girls - two",
       "deprecatedIDs": [],
-      "name": "yay! - girls - 1",
-      "stretchable": false,
       "cues": [
         {
-          "id": "*/yayGirls1",
-          "beat": 0.0,
-          "duration": 1.0,
-          "track": 1
+          "id": "*/oneTwoThreeGirls2_1"
         },
         {
-          "id": "*/bookShine",
-          "beat": 0.0,
-          "duration": 1.0
+          "id": "*/oneTwoThreeGirls2_2"
+        },
+        {
+          "id": "*/oneTwoThreeGirls2_3"
+        },
+        {
+          "id": "*/oneTwoThreeGirls2_4"
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
-      "type": "pattern",
-      "id": "*_yayGirls2",
+      "type": "randomCue",
+      "id": "*_randomGirlsThree",
+      "name": "random - girls - three",
       "deprecatedIDs": [],
-      "name": "yay! - girls - 2",
-      "stretchable": false,
       "cues": [
         {
-          "id": "*/yayGirls2",
-          "beat": 0.0,
-          "duration": 1.0,
-          "track": 1
+          "id": "*/oneTwoThreeGirls3_1"
         },
         {
-          "id": "*/bookShine",
-          "beat": 0.0,
-          "duration": 1.0
+          "id": "*/oneTwoThreeGirls3_2"
+        },
+        {
+          "id": "*/oneTwoThreeGirls3_3"
+        },
+        {
+          "id": "*/oneTwoThreeGirls3_4"
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
