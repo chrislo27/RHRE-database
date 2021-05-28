@@ -30,7 +30,9 @@
       "subtext": "",
       "duration": 0.5,
       "stretchable": true,
-      "loops": true
+      "loops": true,
+      "loopStart": 0.181,
+      "loopEnd": 0.748
     },
     {
       "type": "cue",
