@@ -16,11 +16,19 @@
     "sub": "0x100 0, 0, 0x30, 0"
   },
   {
+    "applyTo": ["catchyTune_bothOrange"],
+    "sub": "0x100 0, 1, 0x30, 0 + 0x100 0, 0, 0x30, 0"
+  },
+  {
     "applyTo": ["catchyTune_leftPineapple"],
     "sub": "0x100 1, 1, 0x60, 0"
   },
   {
     "applyTo": ["catchyTune_rightPineapple"],
     "sub": "0x100 1, 0, 0x60, 0"
+  },
+  {
+    "applyTo": ["catchyTune_bothPineapple"],
+    "sub": "0x100 1, 1, 0x60, 0 + 0x100 1, 0, 0x60, 0"
   }
 ]

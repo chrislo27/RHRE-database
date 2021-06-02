@@ -1,139 +1,267 @@
 {
-  "id" : "catchyTune",
-  "name" : "Catchy Tune",
-  "series" : "megamix",
-  "priority" : 1,
-  "objects" : [ {
-    "type" : "cue",
-    "id" : "*/leftOrange",
-    "name" : "left - orange",
-    "deprecatedIDs" : [ "catchyTune/orange" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/rightOrange",
-    "name" : "right - orange",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/leftPineapple",
-    "name" : "left - pineapple",
-    "deprecatedIDs" : [ "catchyTune/melon" ],
-    "subtext" : "",
-    "duration" : 2.0
-  }, {
-    "type" : "cue",
-    "id" : "*/rightPineapple",
-    "name" : "right - pineapple",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 2.0
-  }, {
-    "type" : "cue",
-    "id" : "*/leftOrangeCatch",
-    "name" : "left -  orange - catch",
-    "deprecatedIDs" : [ "catchyTune/clap", "catchyTune/leftCatch" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/rightOrangeCatch",
-    "name" : "right - orange - catch",
-    "deprecatedIDs" : [ "catchyTune/rightCatch" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/leftPineappleCatch",
-    "name" : "left - pineapple - catch",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/rightPineappleCatch",
-    "name" : "right - pineapple - catch",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "pattern",
-    "id" : "*_leftOrange",
-    "name" : "left - orange",
-    "deprecatedIDs" : [ "catchyTune_orange" ],
-    "cues" : [ {
-      "id" : "*/leftOrange",
-      "beat" : 0.0
-    }, {
-      "id" : "*/leftOrange",
-      "beat" : 1.0
-    }, {
-      "id" : "*/leftOrange",
-      "beat" : 2.0
-    }, {
-      "id" : "*/leftOrangeCatch",
-      "beat" : 3.0
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_rightOrange",
-    "name" : "right - orange",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/rightOrange",
-      "beat" : 0.0
-    }, {
-      "id" : "*/rightOrange",
-      "beat" : 1.0
-    }, {
-      "id" : "*/rightOrange",
-      "beat" : 2.0
-    }, {
-      "id" : "*/rightOrangeCatch",
-      "beat" : 3.0
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_leftPineapple",
-    "name" : "left - pineapple",
-    "deprecatedIDs" : [ "catchyTune_pineapple" ],
-    "cues" : [ {
-      "id" : "*/leftPineapple",
-      "beat" : 0.0
-    }, {
-      "id" : "*/leftPineapple",
-      "beat" : 2.0
-    }, {
-      "id" : "*/leftPineapple",
-      "beat" : 4.0
-    }, {
-      "id" : "*/leftPineappleCatch",
-      "beat" : 6.0
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_rightPineapple",
-    "name" : "right - pineapple",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/rightPineapple",
-      "beat" : 0.0
-    }, {
-      "id" : "*/rightPineapple",
-      "beat" : 2.0
-    }, {
-      "id" : "*/rightPineapple",
-      "beat" : 4.0
-    }, {
-      "id" : "*/rightPineappleCatch",
-      "beat" : 6.0
-    } ],
-    "subtext" : ""
-  } ]
+  "id": "catchyTune",
+  "name": "Catchy Tune",
+  "series": "megamix",
+  "priority": 1,
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/leftOrange",
+      "name": "left side - orange - step",
+      "deprecatedIDs": [
+        "catchyTune/orange"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/rightOrange",
+      "name": "right side - orange - step",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/bothOrange",
+      "name": "both sides - orange - step",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/leftOrangeCatch",
+      "name": "left side - orange - catch",
+      "deprecatedIDs": [
+        "catchyTune/clap",
+        "catchyTune/leftCatch"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/rightOrangeCatch",
+      "name": "right side - orange - catch",
+      "deprecatedIDs": [
+        "catchyTune/rightCatch"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/bothOrangeCatch",
+      "name": "both sides - orange - catch",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/leftPineapple",
+      "name": "left side - pineapple - step",
+      "deprecatedIDs": [
+        "catchyTune/melon"
+      ],
+      "subtext": "",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/rightPineapple",
+      "name": "right side - pineapple - step",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/bothPineapple",
+      "name": "both sides - pineapple - step",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/leftPineappleCatch",
+      "name": "left side - pineapple - catch",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/rightPineappleCatch",
+      "name": "right side - pineapple - catch",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/bothPineappleCatch",
+      "name": "both sides - pineapple - catch",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "pattern",
+      "id": "*_leftOrange",
+      "name": "left side - orange",
+      "deprecatedIDs": [
+        "catchyTune_orange"
+      ],
+      "cues": [
+        {
+          "id": "*/leftOrange",
+          "beat": 0.0
+        },
+        {
+          "id": "*/leftOrange",
+          "beat": 1.0
+        },
+        {
+          "id": "*/leftOrange",
+          "beat": 2.0
+        },
+        {
+          "id": "*/leftOrangeCatch",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_rightOrange",
+      "name": "right side - orange",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/rightOrange",
+          "beat": 0.0
+        },
+        {
+          "id": "*/rightOrange",
+          "beat": 1.0
+        },
+        {
+          "id": "*/rightOrange",
+          "beat": 2.0
+        },
+        {
+          "id": "*/rightOrangeCatch",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_bothOrange",
+      "name": "both sides - orange",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/bothOrange",
+          "beat": 0.0
+        },
+        {
+          "id": "*/bothOrange",
+          "beat": 1.0
+        },
+        {
+          "id": "*/bothOrange",
+          "beat": 2.0
+        },
+        {
+          "id": "*/bothOrangeCatch",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_leftPineapple",
+      "name": "left side - pineapple",
+      "deprecatedIDs": [
+        "catchyTune_pineapple"
+      ],
+      "cues": [
+        {
+          "id": "*/leftPineapple",
+          "beat": 0.0
+        },
+        {
+          "id": "*/leftPineapple",
+          "beat": 2.0
+        },
+        {
+          "id": "*/leftPineapple",
+          "beat": 4.0
+        },
+        {
+          "id": "*/leftPineappleCatch",
+          "beat": 6.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_rightPineapple",
+      "name": "right side - pineapple",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/rightPineapple",
+          "beat": 0.0
+        },
+        {
+          "id": "*/rightPineapple",
+          "beat": 2.0
+        },
+        {
+          "id": "*/rightPineapple",
+          "beat": 4.0
+        },
+        {
+          "id": "*/rightPineappleCatch",
+          "beat": 6.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_bothPineapple",
+      "name": "both sides - pineapple",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/bothPineapple",
+          "beat": 0.0
+        },
+        {
+          "id": "*/bothPineapple",
+          "beat": 2.0
+        },
+        {
+          "id": "*/bothPineapple",
+          "beat": 4.0
+        },
+        {
+          "id": "*/bothPineappleCatch",
+          "beat": 6.0
+        }
+      ],
+      "subtext": ""
+    }
+  ]
 }
