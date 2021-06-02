@@ -8,23 +8,28 @@
 	"note": "In order of: FB Story, FB2"
   },
   {
-    "applyTo": ["fillbotsEn_smallRobot", "fillbotsDe_smallRobot", "fillbotsEs_smallRobot", "fillbotsFr_smallRobot", "fillbotsIt_smallRobot", "fillbotsJa_smallRobot", "fillbotsKo_smallRobot", "fillbotsMegamix_smallRobot"],
+    "applyTo": ["fillbotsEn_smallRobot", "fillbotsDe_smallRobot", "fillbotsEs_smallRobot", "fillbotsFr_smallRobot", "fillbotsIt_smallRobot", "fillbotsJa_smallRobot", "fillbotsKo_smallRobot", "fillbotsMegamix_smallRobot", "fillbotsMegamix_smallRobotAlt"],
     "sub": "0x64/0x6C",
 	"note": "0x64 stays on screen after being filled"
   },
   {
-    "applyTo": ["fillbotsEn_mediumRobot", "fillbotsDe_mediumRobot", "fillbotsEs_mediumRobot", "fillbotsFr_mediumRobot", "fillbotsIt_mediumRobot", "fillbotsJa_mediumRobot", "fillbotsKo_mediumRobot", "fillbotsMegamix_mediumRobot"],
+    "applyTo": ["fillbotsEn_mediumRobot", "fillbotsDe_mediumRobot", "fillbotsEs_mediumRobot", "fillbotsFr_mediumRobot", "fillbotsIt_mediumRobot", "fillbotsJa_mediumRobot", "fillbotsKo_mediumRobot", "fillbotsMegamix_mediumRobot", "fillbotsMegamix_mediumRobotAlt"],
     "sub": "0x68/0x70",
 	"note": "0x68 stays on screen after being filled"
   },
   {
-    "applyTo": ["fillbotsEn_bigRobot", "fillbotsDe_bigRobot", "fillbotsEs_bigRobot", "fillbotsFr_bigRobot", "fillbotsIt_bigRobot", "fillbotsJa_bigRobot", "fillbotsKo_bigRobot", "fillbotsMegamix_bigRobot"],
+    "applyTo": ["fillbotsEn_bigRobot", "fillbotsDe_bigRobot", "fillbotsEs_bigRobot", "fillbotsFr_bigRobot", "fillbotsIt_bigRobot", "fillbotsJa_bigRobot", "fillbotsKo_bigRobot", "fillbotsMegamix_bigRobot", "fillbotsMegamix_bigRobotAlt"],
     "sub": "0x6B/0x73",
 	"note": "0x6B stays on screen after being filled"
   },
   {
     "applyTo": ["fillbotsMegamix_intro1", "fillbotsMegamix_intro2"],
 	"sub": "0x106",
+	"note": "Refer to the documentation for more details"
+  },
+  {
+    "applyTo": ["fillbotsEn_fillErUp", "fillbotsDe/practiceCue", "fillbotsEs_aLlenar", "fillbotsFr/practiceCue", "fillbotsIt_practiceReady", "fillbotsJa/hai", "fillbotsKo/practiceCue", "fillbotsMegamix_fillErUp"],
+	"sub": "play_sfx 0x1000C7B",
 	"note": "Refer to the documentation for more details"
   }
 ]

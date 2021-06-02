@@ -13,59 +13,11 @@
     },
     {
       "type": "cue",
-      "id": "*/mediumFinish1",
-      "name": "medium - detach - 1",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/mediumFinish2",
-      "name": "medium - detach - 2",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/mediumFinish3",
-      "name": "medium - detach - 3",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
       "id": "*/bigFall",
       "name": "big - fall",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/bigFinish1",
-      "name": "big - detach - 1",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/bigFinish2",
-      "name": "big - detach - 2",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/bigFinish3",
-      "name": "big - detach - 3",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
     },
     {
       "type": "cue",
@@ -77,27 +29,11 @@
     },
     {
       "type": "cue",
-      "id": "*/smallFinish1",
-      "name": "small - detach - 1",
+      "id": "*/armExtension",
+      "name": "arm extension",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/smallFinish2",
-      "name": "small - detach - 2",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/smallFinish3",
-      "name": "small - detach - 3",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
+      "duration": 0.05
     },
     {
       "type": "cue",
@@ -107,15 +43,7 @@
       "subtext": "",
       "duration": 1.0,
       "stretchable": true,
-      "introSound": "fillbotsMegamix/armExtension"
-    },
-    {
-      "type": "cue",
-      "id": "*/armExtension",
-      "name": "arm extension",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.05
+      "introSound": "*/armExtension"
     },
     {
       "type": "cue",
@@ -124,6 +52,114 @@
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/armRetraction",
+      "name": "arm - retract",
+      "deprecatedIDs": [
+        "fillbotsMegamix/mediumFinish1alt",
+        "fillbotsMegamix/smallFinish1alt",
+        "fillbotsMegamix/bigFinish1alt"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/mediumOK1",
+      "name": "medium - OK - 1",
+      "deprecatedIDs": [
+        "fillbotsMegamix/mediumFinish2alt",
+        "fillbotsMegamix/mediumFinish1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/mediumOK2",
+      "name": "medium - OK - 2",
+      "deprecatedIDs": [
+        "fillbotsMegamix/mediumFinish3alt",
+        "fillbotsMegamix/mediumFinish2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/bigOK1",
+      "name": "big - OK - 1",
+      "deprecatedIDs": [
+        "fillbotsMegamix/bigFinish2alt",
+        "fillbotsMegamix/bigFinish1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/bigOK2",
+      "name": "big - OK - 2",
+      "deprecatedIDs": [
+        "fillbotsMegamix/bigFinish2",
+        "fillbotsMegamix/bigFinish3alt"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/smallOK1",
+      "name": "small - OK - 1",
+      "deprecatedIDs": [
+        "fillbotsMegamix/smallFinish2alt",
+        "fillbotsMegamix/smallFinish1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/smallOK2",
+      "name": "small - OK - 2",
+      "deprecatedIDs": [
+        "fillbotsMegamix/smallFinish2",
+        "fillbotsMegamix/smallFinish3alt"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/mediumMove",
+      "name": "medium - move out",
+      "deprecatedIDs": [
+        "fillbotsMegamix/mediumFinish3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/bigMove",
+      "name": "big - move out",
+      "deprecatedIDs": [
+        "fillbotsMegamix/bigFinish3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/smallMove",
+      "name": "small - move out",
+      "deprecatedIDs": [
+        "fillbotsMegamix/smallFinish3"
+      ],
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -314,16 +350,22 @@
           "track": 1
         },
         {
-          "id": "*/mediumFinish1",
+          "id": "*/mediumOK1",
           "beat": 7.0
         },
         {
-          "id": "*/mediumFinish2",
+          "id": "*/armRetraction",
+          "beat": 7.0,
+          "track": 1
+        },
+        {
+          "id": "*/mediumOK2",
           "beat": 7.5
         },
         {
-          "id": "*/mediumFinish3",
-          "beat": 8.0
+          "id": "*/mediumMove",
+          "beat": 7.5,
+          "track": 1
         }
       ],
       "subtext": ""
@@ -387,16 +429,22 @@
           "track": 1
         },
         {
-          "id": "*/bigFinish1",
+          "id": "*/bigOK1",
           "beat": 11.0
         },
         {
-          "id": "*/bigFinish2",
+          "id": "*/armRetraction",
+          "beat": 11.0,
+          "track": 1
+        },
+        {
+          "id": "*/bigOK2",
           "beat": 11.5
         },
         {
-          "id": "*/bigFinish3",
-          "beat": 12.0
+          "id": "*/bigMove",
+          "beat": 11.5,
+          "track": 1
         }
       ],
       "subtext": ""
@@ -430,118 +478,33 @@
           "track": 1
         },
         {
-          "id": "*/smallFinish1",
+          "id": "*/smallOK1",
           "beat": 5.0
         },
         {
-          "id": "*/smallFinish2",
+          "id": "*/armRetraction",
+          "beat": 5.0,
+          "track": 1
+        },
+        {
+          "id": "*/smallOK2",
           "beat": 5.5
         },
         {
-          "id": "*/smallFinish3",
-          "beat": 6.0
+          "id": "*/smallMove",
+          "beat": 5.5,
+          "track": 1
         }
       ],
       "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_fillErUp",
-      "name": "fill 'er up! (practice)",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/fillErUp1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/fillErUp2",
-          "beat": 0.25
-        },
-        {
-          "id": "*/fillErUp3",
-          "beat": 0.5
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "cue",
-      "id": "*/mediumFinish1alt",
-      "name": "medium - detach - 1 (alt.)",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/mediumFinish2alt",
-      "name": "medium - detach - 2 (alt.)",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/mediumFinish3alt",
-      "name": "medium - detach - 3 (alt.)",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/bigFinish1alt",
-      "name": "big - detach - 1 (alt.)",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/bigFinish2alt",
-      "name": "big - detach - 2 (alt.)",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/bigFinish3alt",
-      "name": "big - detach - 3 (alt.)",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/smallFinish1alt",
-      "name": "small - detach - 1 (alt.)",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/smallFinish2alt",
-      "name": "small - detach - 2 (alt.)",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/smallFinish3alt",
-      "name": "small - detach - 3 (alt.)",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
     },
     {
       "type": "pattern",
       "id": "*_mediumRobotAlt",
-      "name": "medium robot (alt.)",
-      "deprecatedIDs": ["fillbotsMegamix_mediumRobotalt"],
+      "name": "medium robot (alternative)",
+      "deprecatedIDs": [
+        "fillbotsMegamix_mediumRobotalt"
+      ],
       "cues": [
         {
           "id": "*/mediumFall",
@@ -576,15 +539,20 @@
           "track": 1
         },
         {
-          "id": "*/mediumFinish1alt",
+          "id": "*/armRetraction",
           "beat": 7.0
         },
         {
-          "id": "*/mediumFinish2alt",
+          "id": "*/mediumOK1",
           "beat": 7.5
         },
         {
-          "id": "*/mediumFinish3alt",
+          "id": "*/mediumMove",
+          "beat": 7.5,
+          "track": 1
+        },
+        {
+          "id": "*/mediumOK2",
           "beat": 8.0
         }
       ],
@@ -593,8 +561,10 @@
     {
       "type": "pattern",
       "id": "*_bigRobotAlt",
-      "name": "big robot (alt.)",
-      "deprecatedIDs": ["fillbotsMegamix_bigRobotalt"],
+      "name": "big robot (alternative)",
+      "deprecatedIDs": [
+        "fillbotsMegamix_bigRobotalt"
+      ],
       "cues": [
         {
           "id": "*/bigFall",
@@ -649,15 +619,20 @@
           "track": 1
         },
         {
-          "id": "*/bigFinish1alt",
+          "id": "*/armRetraction",
           "beat": 11.0
         },
         {
-          "id": "*/bigFinish2alt",
+          "id": "*/bigOK1",
           "beat": 11.5
         },
         {
-          "id": "*/bigFinish3alt",
+          "id": "*/bigMove",
+          "beat": 11.5,
+          "track": 1
+        },
+        {
+          "id": "*/bigOK2",
           "beat": 12.0
         }
       ],
@@ -666,8 +641,10 @@
     {
       "type": "pattern",
       "id": "*_smallRobotAlt",
-      "name": "small robot (alt.)",
-      "deprecatedIDs": ["fillbotsMegamix_smallRobotalt"],
+      "name": "small robot (alternative)",
+      "deprecatedIDs": [
+        "fillbotsMegamix_smallRobotalt"
+      ],
       "cues": [
         {
           "id": "*/smallFall",
@@ -692,16 +669,42 @@
           "track": 1
         },
         {
-          "id": "*/smallFinish1alt",
+          "id": "*/armRetraction",
           "beat": 5.0
         },
         {
-          "id": "*/smallFinish2alt",
+          "id": "*/smallOK1",
           "beat": 5.5
         },
         {
-          "id": "*/smallFinish3alt",
+          "id": "*/smallMove",
+          "beat": 5.5,
+          "track": 1
+        },
+        {
+          "id": "*/smallOK2",
           "beat": 6.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_fillErUp",
+      "name": "fill 'er up! (practice)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/fillErUp1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/fillErUp2",
+          "beat": 0.25
+        },
+        {
+          "id": "*/fillErUp3",
+          "beat": 0.5
         }
       ],
       "subtext": ""
