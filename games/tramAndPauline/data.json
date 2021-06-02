@@ -1,75 +1,97 @@
 {
-  "series": "tengoku",
   "id": "tramAndPauline",
   "name": "Tram and Pauline",
+  "series": "tengoku",
   "objects": [
-    {
-      "type": "cue",
-      "id": "*/jumpPauline",
-      "deprecatedIDs": [
-        "tramAndPauline/paulineJump"
-      ],
-      "name": "pauline jump",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/transformPauline",
-      "deprecatedIDs": [
-        "tramAndPauline/paulineTransform"
-      ],
-      "name": "pauline transform",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/jumpTram",
-      "deprecatedIDs": [
-        "tramAndPauline/tramJump"
-      ],
-      "name": "tram jump",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/transformTram",
-      "deprecatedIDs": [
-        "tramAndPauline/tramTransform"
-      ],
-      "name": "tram transform",
-      "duration": 1.0
-    },
     {
       "type": "pattern",
       "id": "*_tram",
-      "deprecatedIDs": [],
       "name": "tram",
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/jumpTram",
+          "id": "*_randomJump",
           "beat": 0.0
         },
         {
           "id": "*/transformTram",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_pauline",
-      "deprecatedIDs": [],
       "name": "pauline",
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/jumpPauline",
+          "id": "*_randomJump",
           "beat": 0.0
         },
         {
           "id": "*/transformPauline",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_randomJump",
+      "name": "random jump",
+      "deprecatedIDs": [
+        "tramAndPauline/tramJump",
+        "tramAndPauline/jumpTram",
+        "tramAndPauline/paulineJump",
+        "tramAndPauline/jumpPauline"
+      ],
+      "cues": [
+        {
+          "id": "*/jump1"
+        },
+        {
+          "id": "*/jump2"
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "cue",
+      "id": "*/jump1",
+      "name": "jump - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/jump2",
+      "name": "jump - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/transformTram",
+      "name": "tram transform",
+      "deprecatedIDs": [
+        "tramAndPauline/tramTransform"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/transformPauline",
+      "name": "pauline transform",
+      "deprecatedIDs": [
+        "tramAndPauline/paulineTransform"
+      ],
+      "subtext": "",
+      "duration": 1.0
     }
   ]
 }
