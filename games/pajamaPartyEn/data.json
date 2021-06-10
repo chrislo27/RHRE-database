@@ -189,22 +189,21 @@
     },
     {
       "type": "cue",
-      "id": "*/throw5Start",
-      "name": "throw - 5 - start",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 9.5
-    },
-    {
-      "type": "cue",
       "id": "*/throw5",
       "name": "throw - 5",
       "deprecatedIDs": [
         "pajamaParty/throw5"
       ],
       "subtext": "",
-      "duration": 1.0,
-      "introSound": "*/throw5Start",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/charge",
+      "name": "throw - charge",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 3.0,
       "baseBpm": 103.0
     },
     {
@@ -356,6 +355,11 @@
         {
           "id": "*/throw5",
           "beat": 2.0
+        },
+        {
+          "id": "*/charge",
+          "beat": 2.0,
+          "track": 1
         },
         {
           "id": "*/throw6",
