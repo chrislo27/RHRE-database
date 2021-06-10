@@ -1,0 +1,22 @@
+[
+  {
+    "applyTo": ["quizShow", "quizShowGba"],
+    "engine": "0x07",
+    "name": "agbQuiz",
+    "tempoFile": "no tempo file",
+    "index": "0x16"
+  },
+  {
+    "applyTo": ["quizShow/hostA", "quizShowGba/hostA"],
+    "sub": "0x101<2>"
+  },
+  {
+    "applyTo": ["quizShow/hostDPad", "quizShowGba/hostDPad"],
+    "sub": "0x101<3>"
+  },
+  {
+    "applyTo": ["quizShow_correct", "quizShowGba/correct"],
+    "sub": "0x58",
+	"note": "Only works if answer is correct"
+  }
+]

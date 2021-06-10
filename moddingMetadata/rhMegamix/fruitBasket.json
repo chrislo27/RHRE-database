@@ -8,18 +8,43 @@
 	"note": "In order of: FB Story, FB 2"
   },
   {
+    "applyTo": ["fruitBasket_appleL"],
+    "sub": "0x57"
+  },
+  {
+    "applyTo": ["fruitBasket_appleR"],
+    "sub": "0x58"
+  },
+  {
     "applyTo": ["fruitBasket_apple"],
-    "sub": "0x57, 0x58, 0x59",
-	"note": "In order of: left, right, both"
+    "sub": "0x59"
+  },
+  {
+    "applyTo": ["fruitBasket_lemonL"],
+    "sub": "0x5C/0x5F",
+	"note": "Former set has no smile"
+  },
+  {
+    "applyTo": ["fruitBasket_lemonR"],
+    "sub": "0x5D/0x60",
+	"note": "Former set has no smile"
   },
   {
     "applyTo": ["fruitBasket_lemon"],
-    "sub": "0x5C, 0x5D, 0x5E/0x5F, 0x60, 0x61",
-	"note": "In order of: left, right, both. Former set has no smile"
+    "sub": "0x5E/0x61",
+	"note": "Former set has no smile"
+  },
+  {
+    "applyTo": ["fruitBasket_lemonLAppleR"],
+    "sub": "0x65"
+  },
+  {
+    "applyTo": ["fruitBasket_lemonRAppleL"],
+    "sub": "0x66"
   },
   {
     "applyTo": ["fruitBasket_melonL"],
-    "sub": "0x5A, 0x5B"
+    "sub": "0x5A"
   },
   {
     "applyTo": ["fruitBasket_melonR"],

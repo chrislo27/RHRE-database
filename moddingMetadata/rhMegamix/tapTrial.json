@@ -1,0 +1,35 @@
+[
+  {
+    "applyTo": ["tapTrial", "tapTrialRemix7", "tapTrialGba"],
+    "engine": "0x0C",
+    "name": "agbTap, agbTap2",
+    "tempoFile": "1000064, 1000065",
+    "index": "0x1B, 0x50",
+	"note": "In order of: Tap Trial, Tap Trial 2"
+  },
+  {
+    "applyTo": ["tapTrial_tap", "tapTrialGba_tap", "tapTrialRemix7_tap"],
+    "sub": "0x56",
+	"note": "uses function 'call' instead of 'async_call'"
+  },
+  {
+    "applyTo": ["tapTrial_doubletap", "tapTrialGba_doubletap", "tapTrialRemix7_doubletap"],
+    "sub": "0x57",
+	"note": "uses function 'call' instead of 'async_call'"
+  },
+  {
+    "applyTo": ["tapTrial_tripletap", "tapTrialGba_tripletap", "tapTrialRemix7_tripletap"],
+    "sub": "0x5B",
+	"note": "uses function 'call' instead of 'async_call'"
+  },
+  {
+    "applyTo": ["tapTrial_jumptap", "tapTrialGba_jumptap", "tapTrialRemix7_jumptap"],
+    "sub": "0x59",
+	"note": "uses function 'call' instead of 'async_call'"
+  },
+  {
+    "applyTo": ["tapTrial_finaljumptap", "tapTrialGba_finaljumptap", "tapTrialRemix7_finaljumptap"],
+    "sub": "0x5A",
+	"note": "uses function 'call' instead of 'async_call'"
+  }
+]
