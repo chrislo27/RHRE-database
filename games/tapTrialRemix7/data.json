@@ -1,84 +1,76 @@
 {
-  "series": "tengoku",
   "id": "tapTrialRemix7",
   "name": "Tap Trial (GBA Remix 7)",
+  "series": "tengoku",
   "group": "Tap Trial (GBA)",
   "objects": [
     {
       "type": "cue",
       "id": "*/tap",
-      "deprecatedIDs": [],
       "name": "tap",
+      "deprecatedIDs": [
+        "tapTrialRemix7/jumptap1_tap",
+        "tapTrialRemix7/jumptap2_tap"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/ook",
-      "deprecatedIDs": [],
       "name": "moo",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/ookook1",
-      "deprecatedIDs": [],
-      "name": "moo-moo - 1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/ookook2",
-      "deprecatedIDs": [],
-      "name": "moo-moo - 2",
+      "id": "*/ookook",
+      "name": "moo-moo",
+      "deprecatedIDs": [
+        "tapTrialRemix7/ookook1",
+        "tapTrialRemix7/ookook2"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/ooki1",
+      "name": "ooki - 1",
       "deprecatedIDs": [],
-      "name": "bohi - 1",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/ooki2",
+      "name": "ooki - 2",
       "deprecatedIDs": [],
-      "name": "bohi - 2",
+      "subtext": "",
       "duration": 1.5
     },
     {
       "type": "cue",
       "id": "*/jumptap1",
+      "name": "jump - normal",
       "deprecatedIDs": [],
-      "name": "jump - normal - jump",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/jumptap1_tap",
-      "deprecatedIDs": [],
-      "name": "jump - normal - land",
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/jumptap2",
+      "name": "jump - final",
       "deprecatedIDs": [],
-      "name": "jump - final - jump",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/jumptap2_tap",
-      "deprecatedIDs": [],
-      "name": "jump - final - land",
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "pattern",
       "id": "*_tap",
-      "deprecatedIDs": [],
       "name": "tap",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/ook",
@@ -88,20 +80,21 @@
           "id": "*/tap",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_doubletap",
-      "deprecatedIDs": [],
       "name": "double tap",
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/ookook1",
+          "id": "*/ookook",
           "beat": 0.0
         },
         {
-          "id": "*/ookook2",
+          "id": "*/ookook",
           "beat": 0.5
         },
         {
@@ -112,13 +105,14 @@
           "id": "*/tap",
           "beat": 1.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_tripletap",
-      "deprecatedIDs": [],
       "name": "triple tap",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/ooki1",
@@ -138,41 +132,47 @@
         },
         {
           "id": "*/tap",
-          "beat": 3.0
+          "beat": 3.0,
+          "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_jumptap",
-      "deprecatedIDs": [],
       "name": "jump tap",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/jumptap1",
           "beat": 0.0
         },
         {
-          "id": "*/jumptap1_tap",
-          "beat": 1.0
+          "id": "*/tap",
+          "beat": 1.0,
+          "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_finaljumptap",
-      "deprecatedIDs": [],
       "name": "final jump tap",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/jumptap2",
           "beat": 0.0
         },
         {
-          "id": "*/jumptap2_tap",
-          "beat": 1.0
+          "id": "*/tap",
+          "beat": 1.0,
+          "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
