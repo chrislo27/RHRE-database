@@ -1,13 +1,14 @@
 {
-  "series": "megamix",
   "id": "quizShow",
   "name": "Quiz Show (Megamix)",
+  "series": "megamix",
   "objects": [
     {
       "type": "cue",
       "id": "*/hostA",
-      "deprecatedIDs": [],
       "name": "host - A",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25,
       "responseIDs": [
         "*/contestantA"
@@ -16,8 +17,9 @@
     {
       "type": "cue",
       "id": "*/hostDPad",
-      "deprecatedIDs": [],
       "name": "host - +",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25,
       "responseIDs": [
         "*/contestantDPad"
@@ -26,65 +28,172 @@
     {
       "type": "cue",
       "id": "*/contestantA",
-      "deprecatedIDs": [],
       "name": "contestant - A",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/contestantDPad",
-      "deprecatedIDs": [],
       "name": "contestant - +",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/timerStart",
-      "deprecatedIDs": [],
       "name": "timer start",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/timerStop",
-      "deprecatedIDs": [],
       "name": "timer stop",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/timeUp",
-      "deprecatedIDs": [],
       "name": "time's up!",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 2.0
     },
     {
       "type": "cue",
       "id": "*/answerReveal",
-      "deprecatedIDs": [],
       "name": "answer reveal",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/correct",
-      "deprecatedIDs": [],
-      "name": "correct answer",
-      "duration": 2.0
-    },
-    {
-      "type": "cue",
-      "id": "*/correctNoMusic",
-      "deprecatedIDs": [],
-      "name": "correct answer - no music",
-      "duration": 2.0
-    },
-    {
-      "type": "cue",
-      "id": "*/correctNoApplause",
-      "deprecatedIDs": [],
-      "name": "correct answer - no applause",
+      "name": "correct answer - reveal",
+      "deprecatedIDs": [
+        "quizShow/correctNoApplause"
+      ],
+      "subtext": "",
       "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/correctJingle",
+      "name": "correct answer - jingle",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/audienceCheer",
+      "name": "audience - cheers",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/incorrect",
+      "name": "incorrect answer - reveal",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/incorrectJingle",
+      "name": "incorrect answer - jingle",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/audienceSad",
+      "name": "audience - sad",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/contestantExplode",
+      "name": "contestant - podium explodes",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/hostExplode",
+      "name": "host - podium explodes",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/signExplode",
+      "name": "sign explodes",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "pattern",
+      "id": "*_correct",
+      "name": "full correct answer ",
+      "deprecatedIDs": [
+        "quizShow/correctNoMusic"
+      ],
+      "cues": [
+        {
+          "id": "*/correct",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/correctJingle",
+          "beat": 0.5
+        },
+        {
+          "id": "*/audienceCheer",
+          "beat": 0.5,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_incorrect",
+      "name": "full incorrect answer",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/incorrect",
+          "beat": 0.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/incorrectJingle",
+          "beat": 0.5
+        },
+        {
+          "id": "*/audienceSad",
+          "beat": 0.5,
+          "track": 1
+        }
+      ],
+      "subtext": ""
     }
   ]
 }
