@@ -1,62 +1,78 @@
 {
-  "series": "fever",
   "id": "microRow",
-  "name": "Micro-Row (Fever)",
+  "name": "Micro-Row",
+  "series": "fever",
   "objects": [
     {
       "type": "cue",
       "id": "*/go",
-      "deprecatedIDs": [],
       "name": "go",
+      "deprecatedIDs": [
+        "microRowMegamix/go"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/ding",
-      "deprecatedIDs": [],
       "name": "ding",
+      "deprecatedIDs": [
+        "microRowMegamix/ding"
+      ],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/triple1",
-      "deprecatedIDs": [],
       "name": "triple - 1",
+      "deprecatedIDs": [
+        "microRowMegamix/triple1"
+      ],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/triple2",
-      "deprecatedIDs": [],
       "name": "triple - 2",
+      "deprecatedIDs": [
+        "microRowMegamix/triple2"
+      ],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/triple3",
-      "deprecatedIDs": [],
       "name": "triple - 3",
+      "deprecatedIDs": [
+        "microRowMegamix/triple3"
+      ],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/dash1",
-      "deprecatedIDs": [],
-      "name": "double - 1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/dash2",
-      "deprecatedIDs": [],
-      "name": "double - 2",
+      "id": "*/dash",
+      "name": "double whistle",
+      "deprecatedIDs": [
+        "microRow/dash1",
+        "microRow/dash2",
+        "microRowMegamix/dash1",
+        "microRowMegamix/dash2"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "keepTheBeat",
       "id": "*_go",
-      "deprecatedIDs": [],
       "name": "swim",
+      "deprecatedIDs": [
+        "microRowMegamix_go"
+      ],
       "defaultDuration": 4.0,
       "cues": [
         {
@@ -67,13 +83,16 @@
           "id": "*/go",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_triple",
-      "deprecatedIDs": [],
       "name": "triple",
+      "deprecatedIDs": [
+        "microRowMegamix_triple"
+      ],
       "cues": [
         {
           "id": "*/ding",
@@ -91,20 +110,23 @@
           "id": "*/triple3",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_double",
-      "deprecatedIDs": [],
       "name": "double",
+      "deprecatedIDs": [
+        "microRowMegamix_double"
+      ],
       "cues": [
         {
-          "id": "*/dash1",
+          "id": "*/dash",
           "beat": 0.0
         },
         {
-          "id": "*/dash2",
+          "id": "*/dash",
           "beat": 0.5
         },
         {
@@ -115,7 +137,8 @@
           "id": "*/go",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
