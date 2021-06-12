@@ -1,6 +1,6 @@
 [
   {
-    "applyTo": ["microRow", "microRowMegamix"],
+    "applyTo": ["microRow"],
     "engine": "0x23",
     "name": "rvlFlea, rvlFlea2",
     "tempoFile": "100000B, 100000C",
@@ -8,15 +8,15 @@
     "note": "In order of: MR Story, MR2"
   },
   {
-    "applyTo": ["microRow_go", "microRowMegamix_go"],
+    "applyTo": ["microRow_go"],
     "sub": "0x58"
   },
   {
-    "applyTo": ["microRow_double", "microRowMegamix_double"],
+    "applyTo": ["microRow_double"],
     "sub": "0x59"
   },
   {
-    "applyTo": ["microRow_triple", "microRowMegamix_triple"],
+    "applyTo": ["microRow_triple"],
     "sub": "0x5A"
   }
 ]

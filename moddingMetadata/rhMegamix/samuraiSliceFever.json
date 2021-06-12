@@ -1,0 +1,76 @@
+[
+  {
+    "applyTo": ["samuraiSliceFever"],
+    "engine": "0x30",
+    "name": "rvlSamurai",
+    "tempoFile": "1000021",
+    "index": "0x3E"
+  },
+  {
+    "applyTo": ["samuraiSliceFever_demonSmall"],
+    "sub": "0x109<0> + 0x56"
+  },
+  {
+    "applyTo": ["samuraiSliceFever_doubleDemonSmall"],
+    "sub": "0x109<0> + 0x56 + 0x57"
+  },
+  {
+    "applyTo": ["samuraiSliceFever_demonMedium"],
+    "sub": "0x109<1> + 0x56"
+  },
+  {
+    "applyTo": ["samuraiSliceFever_doubleDemonMedium"],
+    "sub": "0x109<1> + 0x56 + 0x57"
+  },
+  {
+    "applyTo": ["samuraiSliceFever_demonBig"],
+    "sub": "0x109<2> + 0x56"
+  },
+  {
+    "applyTo": ["samuraiSliceFever_doubleDemonBig"],
+    "sub": "0x109<2> + 0x56 + 0x57"
+  },
+  {
+    "applyTo": ["samuraiSliceFever_demonHuge"],
+    "sub": "0x109<3> + 0x56"
+  },
+  {
+    "applyTo": ["samuraiSliceFever_doubleDemonHuge"],
+    "sub": "0x109<3> + 0x56 + 0x57"
+  },
+  {
+    "applyTo": ["samuraiSliceFever_demonHugeLightning"],
+    "sub": "0x109<3> + 0x107 1 + 0x56"
+  },
+  {
+    "applyTo": ["samuraiSliceFever_doubleDemonHugeLightning"],
+    "sub": "0x109<3> + 0x107 1 + 0x56 + 0x57"
+  },
+  {
+    "applyTo": ["samuraiSliceFever_demonMassive"],
+    "sub": "0x109<2> + 0x107 1 + 0x56",
+	"note": "Textures for massive demon is only used in Samurai Slice 2"
+  },
+  {
+    "applyTo": ["samuraiSliceFever_doubleDemonMassive"],
+    "sub": "0x109<2> + 0x107 1 + 0x56 + 0x57",
+	"note": "Textures for massive demon is only used in Samurai Slice 2"
+  },
+  {
+    "applyTo": ["samuraiSliceFever_demonHorde"],
+    "sub": "0x58"
+  },
+  {
+    "applyTo": ["samuraiSliceFever_demonHordeLightning"],
+    "sub": "0x107 1 + 0x58"
+  },
+  {
+    "applyTo": ["samuraiSliceFever/portalOpen"],
+    "sub": "0x108 X",
+	"note": "X is usually 0xC0 by default"
+  },
+  {
+    "applyTo": ["samuraiSliceFever/start"],
+    "sub": "0x10B<1> 0"
+  }
+]

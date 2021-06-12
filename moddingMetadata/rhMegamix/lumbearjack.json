@@ -1,0 +1,10 @@
+[
+  {
+    "applyTo": ["lumbearjack"],
+    "engine": "0x3F",
+    "name": "ctrWoodCat, ctrWoodCat2",
+    "tempoFile": "10000C3, 10000C4",
+    "index": "0xE, 0x4D",
+	"note": "in order of LumBEARjack, LumBEARjack 2"
+  }
+]
