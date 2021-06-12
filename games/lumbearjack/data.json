@@ -8,11 +8,19 @@
       "type": "cue",
       "id": "*/sigh",
       "name": "bear - sigh",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 3.0
+    },
+    {
+      "type": "cue",
+      "id": "*/sigh3",
+      "name": "bear - sigh (alternative)",
       "deprecatedIDs": [
         "lumbearjack/sigh2"
       ],
       "subtext": "",
-      "duration": 3.0
+      "duration": 1.0
     },
     {
       "type": "cue",
@@ -36,7 +44,7 @@
       "name": "log - small - 2",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 1.5
+      "duration": 1.0
     },
     {
       "type": "cue",
@@ -44,7 +52,7 @@
       "name": "log - small - 2b",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 1.5
+      "duration": 1.0
     },
     {
       "type": "cue",
@@ -108,7 +116,7 @@
       "name": "log - large - 5",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 2.0
+      "duration": 1.0
     },
     {
       "type": "cue",
@@ -148,7 +156,7 @@
       "name": "fridge - 5",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 2.0
+      "duration": 1.0
     },
     {
       "type": "cue",
@@ -188,7 +196,7 @@
       "name": "peach - 5",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 2.0
+      "duration": 1.0
     },
     {
       "type": "cue",
