@@ -75,7 +75,8 @@
       "duration": 1.0,
       "stretchable": true,
       "useTimeStretching": false,
-      "loops": true
+      "loops": true,
+      "loopEnd": 1.0E10
     },
     {
       "type": "cue",
@@ -285,7 +286,7 @@
         "samuraiSliceWii/horde4"
       ],
       "subtext": "",
-      "duration": 0.33333
+      "duration": 1.0
     },
     {
       "type": "cue",
@@ -699,13 +700,11 @@
         {
           "id": "*_randomSecondSlice",
           "beat": 3.0,
-          "duration": 0.5,
           "track": 2
         },
         {
           "id": "*/lightning2",
           "beat": 3.0,
-          "duration": 0.5,
           "track": 1
         }
       ],
@@ -819,8 +818,7 @@
         },
         {
           "id": "*/horde4",
-          "beat": 1.0,
-          "duration": 0.33333
+          "beat": 1.0
         },
         {
           "id": "*/tinyDemon1",
@@ -877,8 +875,7 @@
         },
         {
           "id": "*/horde4",
-          "beat": 1.0,
-          "duration": 0.33333
+          "beat": 1.0
         },
         {
           "id": "*/lightningHorde",
