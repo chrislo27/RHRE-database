@@ -243,267 +243,10 @@
     },
     {
       "type": "pattern",
-      "id": "*_intro1",
-      "name": "intro (Japanese)",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/monitorOn",
-          "beat": 0.0
-        },
-        {
-          "id": "*/text1",
-          "beat": 1.5
-        },
-        {
-          "id": "*/text1",
-          "beat": 2.15
-        },
-        {
-          "id": "*/text2",
-          "beat": 2.85
-        },
-        {
-          "id": "*/text1",
-          "beat": 5.0
-        },
-        {
-          "id": "*/text1",
-          "beat": 5.35
-        },
-        {
-          "id": "*/text2",
-          "beat": 5.9
-        },
-        {
-          "id": "*/monitorOff",
-          "beat": 10.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_intro2",
-      "name": "intro (non-Japanese)",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/monitorOn",
-          "beat": 0.0
-        },
-        {
-          "id": "*/textBeep1",
-          "beat": 1.5
-        },
-        {
-          "id": "*/textBeep2",
-          "beat": 1.85
-        },
-        {
-          "id": "*/textBeep3",
-          "beat": 2.15
-        },
-        {
-          "id": "*/monitorOff",
-          "beat": 10.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_mediumRobot",
+      "id": "*_mediumRobotFillbots2",
       "name": "medium robot",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/mediumFall",
-          "beat": 0.0
-        },
-        {
-          "id": "*/mediumFall",
-          "beat": 1.0
-        },
-        {
-          "id": "*/mediumFall",
-          "beat": 2.0
-        },
-        {
-          "id": "*/water",
-          "beat": 4.0,
-          "duration": 3.0
-        },
-        {
-          "id": "*/beep",
-          "beat": 4.0,
-          "track": 1
-        },
-        {
-          "id": "*/beep",
-          "beat": 5.0,
-          "track": 1
-        },
-        {
-          "id": "*/beep",
-          "beat": 6.0,
-          "track": 1
-        },
-        {
-          "id": "*/mediumOK1",
-          "beat": 7.0
-        },
-        {
-          "id": "*/armRetraction",
-          "beat": 7.0,
-          "track": 1
-        },
-        {
-          "id": "*/mediumOK2",
-          "beat": 7.5
-        },
-        {
-          "id": "*/mediumMove",
-          "beat": 7.5,
-          "track": 1
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_bigRobot",
-      "name": "big robot",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/bigFall",
-          "beat": 0.0
-        },
-        {
-          "id": "*/bigFall",
-          "beat": 1.0
-        },
-        {
-          "id": "*/bigFall",
-          "beat": 2.0
-        },
-        {
-          "id": "*/water",
-          "beat": 4.0,
-          "duration": 7.0
-        },
-        {
-          "id": "*/beep",
-          "beat": 4.0,
-          "track": 1
-        },
-        {
-          "id": "*/beep",
-          "beat": 5.0,
-          "track": 1
-        },
-        {
-          "id": "*/beep",
-          "beat": 6.0,
-          "track": 1
-        },
-        {
-          "id": "*/beep",
-          "beat": 7.0,
-          "track": 1
-        },
-        {
-          "id": "*/beep",
-          "beat": 8.0,
-          "track": 1
-        },
-        {
-          "id": "*/beep",
-          "beat": 9.0,
-          "track": 1
-        },
-        {
-          "id": "*/beep",
-          "beat": 10.0,
-          "track": 1
-        },
-        {
-          "id": "*/bigOK1",
-          "beat": 11.0
-        },
-        {
-          "id": "*/armRetraction",
-          "beat": 11.0,
-          "track": 1
-        },
-        {
-          "id": "*/bigOK2",
-          "beat": 11.5
-        },
-        {
-          "id": "*/bigMove",
-          "beat": 11.5,
-          "track": 1
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_smallRobot",
-      "name": "small robot",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/smallFall",
-          "beat": 0.0
-        },
-        {
-          "id": "*/smallFall",
-          "beat": 1.0
-        },
-        {
-          "id": "*/smallFall",
-          "beat": 2.0
-        },
-        {
-          "id": "*/water",
-          "beat": 4.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/beep",
-          "beat": 4.0,
-          "track": 1
-        },
-        {
-          "id": "*/smallOK1",
-          "beat": 5.0
-        },
-        {
-          "id": "*/armRetraction",
-          "beat": 5.0,
-          "track": 1
-        },
-        {
-          "id": "*/smallOK2",
-          "beat": 5.5
-        },
-        {
-          "id": "*/smallMove",
-          "beat": 5.5,
-          "track": 1
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_mediumRobotAlt",
-      "name": "medium robot (alternative)",
       "deprecatedIDs": [
-        "fillbotsMegamix_mediumRobotalt"
+        "fillbotsMegamix_mediumRobotAlt"
       ],
       "cues": [
         {
@@ -560,10 +303,10 @@
     },
     {
       "type": "pattern",
-      "id": "*_bigRobotAlt",
-      "name": "big robot (alternative)",
+      "id": "*_bigRobotFillbots2",
+      "name": "big robot",
       "deprecatedIDs": [
-        "fillbotsMegamix_bigRobotalt"
+        "fillbotsMegamix_bigRobotAlt"
       ],
       "cues": [
         {
@@ -640,10 +383,10 @@
     },
     {
       "type": "pattern",
-      "id": "*_smallRobotAlt",
-      "name": "small robot (alternative)",
+      "id": "*_smallRobotFillbots2",
+      "name": "small robot",
       "deprecatedIDs": [
-        "fillbotsMegamix_smallRobotalt"
+        "fillbotsMegamix_smallRobotAlt"
       ],
       "cues": [
         {
@@ -690,6 +433,199 @@
     },
     {
       "type": "pattern",
+      "id": "*_mediumRobotPrequel",
+      "name": "medium robot - prequel",
+      "deprecatedIDs": [
+        "fillbotsMegamix_mediumRobot"
+      ],
+      "cues": [
+        {
+          "id": "*/mediumFall",
+          "beat": 0.0
+        },
+        {
+          "id": "*/mediumFall",
+          "beat": 1.0
+        },
+        {
+          "id": "*/mediumFall",
+          "beat": 2.0
+        },
+        {
+          "id": "*/water",
+          "beat": 4.0,
+          "duration": 3.0
+        },
+        {
+          "id": "*/beep",
+          "beat": 4.0,
+          "track": 1
+        },
+        {
+          "id": "*/beep",
+          "beat": 5.0,
+          "track": 1
+        },
+        {
+          "id": "*/beep",
+          "beat": 6.0,
+          "track": 1
+        },
+        {
+          "id": "*/mediumOK1",
+          "beat": 7.0
+        },
+        {
+          "id": "*/armRetraction",
+          "beat": 7.0,
+          "track": 1
+        },
+        {
+          "id": "*/mediumOK2",
+          "beat": 7.5
+        },
+        {
+          "id": "*/mediumMove",
+          "beat": 7.5,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_bigRobotPrequel",
+      "name": "big robot - prequel",
+      "deprecatedIDs": [
+        "fillbotsMegamix_bigRobot"
+      ],
+      "cues": [
+        {
+          "id": "*/bigFall",
+          "beat": 0.0
+        },
+        {
+          "id": "*/bigFall",
+          "beat": 1.0
+        },
+        {
+          "id": "*/bigFall",
+          "beat": 2.0
+        },
+        {
+          "id": "*/water",
+          "beat": 4.0,
+          "duration": 7.0
+        },
+        {
+          "id": "*/beep",
+          "beat": 4.0,
+          "track": 1
+        },
+        {
+          "id": "*/beep",
+          "beat": 5.0,
+          "track": 1
+        },
+        {
+          "id": "*/beep",
+          "beat": 6.0,
+          "track": 1
+        },
+        {
+          "id": "*/beep",
+          "beat": 7.0,
+          "track": 1
+        },
+        {
+          "id": "*/beep",
+          "beat": 8.0,
+          "track": 1
+        },
+        {
+          "id": "*/beep",
+          "beat": 9.0,
+          "track": 1
+        },
+        {
+          "id": "*/beep",
+          "beat": 10.0,
+          "track": 1
+        },
+        {
+          "id": "*/bigOK1",
+          "beat": 11.0
+        },
+        {
+          "id": "*/armRetraction",
+          "beat": 11.0,
+          "track": 1
+        },
+        {
+          "id": "*/bigOK2",
+          "beat": 11.5
+        },
+        {
+          "id": "*/bigMove",
+          "beat": 11.5,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_smallRobotPrequel",
+      "name": "small robot - prequel",
+      "deprecatedIDs": [
+        "fillbotsMegamix_smallRobot"
+      ],
+      "cues": [
+        {
+          "id": "*/smallFall",
+          "beat": 0.0
+        },
+        {
+          "id": "*/smallFall",
+          "beat": 1.0
+        },
+        {
+          "id": "*/smallFall",
+          "beat": 2.0
+        },
+        {
+          "id": "*/water",
+          "beat": 4.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/beep",
+          "beat": 4.0,
+          "track": 1
+        },
+        {
+          "id": "*/smallOK1",
+          "beat": 5.0
+        },
+        {
+          "id": "*/armRetraction",
+          "beat": 5.0,
+          "track": 1
+        },
+        {
+          "id": "*/smallOK2",
+          "beat": 5.5
+        },
+        {
+          "id": "*/smallMove",
+          "beat": 5.5,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
       "id": "*_fillErUp",
       "name": "fill 'er up! (practice)",
       "deprecatedIDs": [],
@@ -705,6 +641,76 @@
         {
           "id": "*/fillErUp3",
           "beat": 0.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_intro1",
+      "name": "intro (Japanese)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/monitorOn",
+          "beat": 0.0
+        },
+        {
+          "id": "*/text1",
+          "beat": 1.5
+        },
+        {
+          "id": "*/text1",
+          "beat": 2.15
+        },
+        {
+          "id": "*/text2",
+          "beat": 2.85
+        },
+        {
+          "id": "*/text1",
+          "beat": 5.0
+        },
+        {
+          "id": "*/text1",
+          "beat": 5.35
+        },
+        {
+          "id": "*/text2",
+          "beat": 5.9
+        },
+        {
+          "id": "*/monitorOff",
+          "beat": 10.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_intro2",
+      "name": "intro (non-Japanese)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/monitorOn",
+          "beat": 0.0
+        },
+        {
+          "id": "*/textBeep1",
+          "beat": 1.5
+        },
+        {
+          "id": "*/textBeep2",
+          "beat": 1.85
+        },
+        {
+          "id": "*/textBeep3",
+          "beat": 2.15
+        },
+        {
+          "id": "*/monitorOff",
+          "beat": 10.0
         }
       ],
       "subtext": ""
