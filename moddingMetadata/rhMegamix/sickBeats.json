@@ -1,0 +1,46 @@
+[
+  {
+    "applyTo": ["sickBeats", "sickBeatsMegamix"],
+    "engine": "0x40",
+    "name": "agbVirus00, agbVirus01, agbVirus02, agbVirusEndless",
+    "tempoFile": "10001AB, 10001AB, 10001AB, 100026E",
+    "index": "0x100, 0x101, 0x102, 0x103",
+	"note": "In order of: Saffron, Saltwater, Paprika, Endless"
+  },
+  {
+    "applyTo": ["sickBeats_blueVirusStart", "sickBeatsMegamix_blueVirusStart"],
+    "sub": "0x56"
+  },
+  {
+    "applyTo": ["sickBeats_blueVirusPos1", "sickBeatsMegamix_blueVirusPos1"],
+    "sub": "0x57"
+  },
+  {
+    "applyTo": ["sickBeats_blueVirusPos2", "sickBeatsMegamix_blueVirusPos2"],
+    "sub": "0x58"
+  },
+  {
+    "applyTo": ["sickBeats_blueVirusPos3", "sickBeatsMegamix_blueVirusPos3"],
+    "sub": "0x59"
+  },
+  {
+    "applyTo": ["sickBeats_pinkVirusStart", "sickBeatsMegamix_pinkVirusStart"],
+    "sub": "0x5A"
+  },
+  {
+    "applyTo": ["sickBeats_pinkVirusPos1", "sickBeatsMegamix_pinkVirusPos1"],
+    "sub": "0x5B"
+  },
+  {
+    "applyTo": ["sickBeats_pinkVirusPos2", "sickBeatsMegamix_pinkVirusPos2"],
+    "sub": "0x5C"
+  },
+  {
+    "applyTo": ["sickBeats_blackVirusStart", "sickBeatsMegamix_blackVirusStart"],
+    "sub": "0x5D"
+  },
+  {
+    "applyTo": ["sickBeats_blackVirusPos1", "sickBeatsMegamix_blackVirusPos1"],
+    "sub": "0x5E"
+  }
+]

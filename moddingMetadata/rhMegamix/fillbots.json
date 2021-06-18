@@ -8,17 +8,17 @@
 	"note": "In order of: FB Story, FB2"
   },
   {
-    "applyTo": ["fillbotsEn_smallRobot", "fillbotsDe_smallRobot", "fillbotsEs_smallRobot", "fillbotsFr_smallRobot", "fillbotsIt_smallRobot", "fillbotsJa_smallRobot", "fillbotsKo_smallRobot", "fillbotsMegamix_smallRobot", "fillbotsMegamix_smallRobotAlt"],
+    "applyTo": ["fillbotsEn_smallRobot", "fillbotsDe_smallRobot", "fillbotsEs_smallRobot", "fillbotsFr_smallRobot", "fillbotsIt_smallRobot", "fillbotsJa_smallRobot", "fillbotsKo_smallRobot", "fillbotsMegamix_smallRobotPrequel", "fillbotsMegamix_smallRobotFillbots2"],
     "sub": "0x64/0x6C",
 	"note": "0x64 stays on screen after being filled"
   },
   {
-    "applyTo": ["fillbotsEn_mediumRobot", "fillbotsDe_mediumRobot", "fillbotsEs_mediumRobot", "fillbotsFr_mediumRobot", "fillbotsIt_mediumRobot", "fillbotsJa_mediumRobot", "fillbotsKo_mediumRobot", "fillbotsMegamix_mediumRobot", "fillbotsMegamix_mediumRobotAlt"],
+    "applyTo": ["fillbotsEn_mediumRobot", "fillbotsDe_mediumRobot", "fillbotsEs_mediumRobot", "fillbotsFr_mediumRobot", "fillbotsIt_mediumRobot", "fillbotsJa_mediumRobot", "fillbotsKo_mediumRobot", "fillbotsMegamix_mediumRobotPrequel", "fillbotsMegamix_mediumRobotFillbots2"],
     "sub": "0x68/0x70",
 	"note": "0x68 stays on screen after being filled"
   },
   {
-    "applyTo": ["fillbotsEn_bigRobot", "fillbotsDe_bigRobot", "fillbotsEs_bigRobot", "fillbotsFr_bigRobot", "fillbotsIt_bigRobot", "fillbotsJa_bigRobot", "fillbotsKo_bigRobot", "fillbotsMegamix_bigRobot", "fillbotsMegamix_bigRobotAlt"],
+    "applyTo": ["fillbotsEn_bigRobot", "fillbotsDe_bigRobot", "fillbotsEs_bigRobot", "fillbotsFr_bigRobot", "fillbotsIt_bigRobot", "fillbotsJa_bigRobot", "fillbotsKo_bigRobot", "fillbotsMegamix_bigRobotPrequel", "fillbotsMegamix_bigRobotFillbots2"],
     "sub": "0x6B/0x73",
 	"note": "0x6B stays on screen after being filled"
   },
