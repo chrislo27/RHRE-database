@@ -1,126 +1,324 @@
 {
-  "series": "side",
   "id": "rhythmoveDungeon",
   "name": "Rhythmove Dungeon",
+  "series": "side",
   "objects": [
     {
       "type": "cue",
-      "id": "*/cycle",
+      "id": "*/door",
+      "name": "door",
       "deprecatedIDs": [],
-      "name": "cycle",
-      "baseBpm": 121,
-      "useTimeStretching": false,
-      "duration": 2.0
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/clear",
+      "name": "clear",
+      "deprecatedIDs": [
+        "rhythmoveDungeon/victory"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/upHit",
+      "name": "move - up",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/downHit",
+      "name": "move - down",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/rightHit",
+      "name": "move - right",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/leftHit",
+      "name": "move - left",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/up",
+      "name": "cycle - up",
       "deprecatedIDs": [],
-      "name": "up",
-      "duration": 1.0
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/down",
+      "name": "cycle - down",
       "deprecatedIDs": [],
-      "name": "down",
-      "duration": 1.0
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/right",
+      "name": "cycle - right",
       "deprecatedIDs": [],
-      "name": "right",
-      "duration": 1.0
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/left",
+      "name": "cycle - left",
       "deprecatedIDs": [],
-      "name": "left",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/door",
-      "deprecatedIDs": [],
-      "name": "door",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/victory",
-      "deprecatedIDs": [],
-      "name": "victory",
-      "duration": 8.0
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "*_up",
-      "deprecatedIDs": [],
-      "name": "up",
+      "id": "*_cycle",
+      "name": "cycle",
+      "deprecatedIDs": [
+        "rhythmoveDungeon/cycle"
+      ],
       "cues": [
-        {
-          "id": "*/cycle",
-          "beat": 0.0
-        },
         {
           "id": "*/up",
-          "beat": 0.0,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_down",
-      "deprecatedIDs": [],
-      "name": "down",
-      "cues": [
-        {
-          "id": "*/cycle",
           "beat": 0.0
         },
         {
           "id": "*/down",
-          "beat": 0.5,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_right",
-      "deprecatedIDs": [],
-      "name": "right",
-      "cues": [
-        {
-          "id": "*/cycle",
-          "beat": 0.0
+          "beat": 0.5
         },
         {
           "id": "*/right",
-          "beat": 1.0,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_left",
-      "deprecatedIDs": [],
-      "name": "left",
-      "cues": [
-        {
-          "id": "*/cycle",
-          "beat": 0.0
+          "beat": 1.0
         },
         {
           "id": "*/left",
-          "beat": 1.5,
-          "track": 1
+          "beat": 1.5
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_moveUp",
+      "name": "cycle - up",
+      "deprecatedIDs": [
+        "rhythmoveDungeon_up"
+      ],
+      "cues": [
+        {
+          "id": "*/upHit",
+          "beat": 0.0
+        },
+        {
+          "id": "*/down",
+          "beat": 0.5
+        },
+        {
+          "id": "*/right",
+          "beat": 1.0
+        },
+        {
+          "id": "*/left",
+          "beat": 1.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_moveUpRight",
+      "name": "cycle - up right",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/upHit",
+          "beat": 0.0
+        },
+        {
+          "id": "*/down",
+          "beat": 0.5
+        },
+        {
+          "id": "*/rightHit",
+          "beat": 1.0
+        },
+        {
+          "id": "*/left",
+          "beat": 1.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_moveRight",
+      "name": "cycle - right",
+      "deprecatedIDs": [
+        "rhythmoveDungeon_right"
+      ],
+      "cues": [
+        {
+          "id": "*/up",
+          "beat": 0.0
+        },
+        {
+          "id": "*/down",
+          "beat": 0.5
+        },
+        {
+          "id": "*/rightHit",
+          "beat": 1.0
+        },
+        {
+          "id": "*/left",
+          "beat": 1.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_moveDownRight",
+      "name": "cycle - down right",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/up",
+          "beat": 0.0
+        },
+        {
+          "id": "*/downHit",
+          "beat": 0.5
+        },
+        {
+          "id": "*/rightHit",
+          "beat": 1.0
+        },
+        {
+          "id": "*/left",
+          "beat": 1.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_moveDown",
+      "name": "cycle - down",
+      "deprecatedIDs": [
+        "rhythmoveDungeon_down"
+      ],
+      "cues": [
+        {
+          "id": "*/up",
+          "beat": 0.0
+        },
+        {
+          "id": "*/downHit",
+          "beat": 0.5
+        },
+        {
+          "id": "*/right",
+          "beat": 1.0
+        },
+        {
+          "id": "*/left",
+          "beat": 1.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_moveDownLeft",
+      "name": "cycle - down left",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/up",
+          "beat": 0.0
+        },
+        {
+          "id": "*/downHit",
+          "beat": 0.5
+        },
+        {
+          "id": "*/right",
+          "beat": 1.0
+        },
+        {
+          "id": "*/leftHit",
+          "beat": 1.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_moveLeft",
+      "name": "cycle - left",
+      "deprecatedIDs": [
+        "rhythmoveDungeon_left"
+      ],
+      "cues": [
+        {
+          "id": "*/up",
+          "beat": 0.0
+        },
+        {
+          "id": "*/down",
+          "beat": 0.5
+        },
+        {
+          "id": "*/right",
+          "beat": 1.0
+        },
+        {
+          "id": "*/leftHit",
+          "beat": 1.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_moveUpLeft",
+      "name": "cycle - up left",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/upHit",
+          "beat": 0.0
+        },
+        {
+          "id": "*/down",
+          "beat": 0.5
+        },
+        {
+          "id": "*/right",
+          "beat": 1.0
+        },
+        {
+          "id": "*/leftHit",
+          "beat": 1.5
+        }
+      ],
+      "subtext": ""
     }
   ]
 }
