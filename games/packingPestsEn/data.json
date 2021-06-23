@@ -8,88 +8,108 @@
   "objects": [
     {
       "type": "cue",
-      "id": "*/candy1",
-      "name": "candy - throw",
+      "id": "*/candyOut",
+      "name": "candy - out",
       "deprecatedIDs": [
-        "packingPests/candy1"
+        "packingPests/candy1",
+        "packingPestsEn/candy1"
       ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/candy2",
-      "name": "candy - grab",
+      "id": "*/candyCatch",
+      "name": "candy - catch",
       "deprecatedIDs": [
-        "packingPests/candy2"
+        "packingPests/candy2",
+        "packingPestsEn/candy2"
       ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/spider1",
-      "name": "spider - throw",
+      "id": "*/spiderOut",
+      "name": "spider - out",
       "deprecatedIDs": [
-        "packingPests/spider1"
+        "packingPests/spider1",
+        "packingPestsEn/spider1"
       ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/spider2",
+      "id": "*/spiderSlap",
       "name": "spider - slap",
       "deprecatedIDs": [
-        "packingPests/spider2"
+        "packingPests/spider2",
+        "packingPestsEn/spider2"
       ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/doubleup",
+      "id": "*/doubleUp",
       "name": "double up - continuous",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "packingPestsEn/doubleup"
+      ],
       "subtext": "",
-      "duration": 1.0,
+      "duration": 1.5,
       "baseBpm": 136.0
     },
     {
       "type": "cue",
-      "id": "*/doubleup1",
-      "name": "double-",
+      "id": "*/doubleUpSplit1",
+      "name": "double up - 1",
       "deprecatedIDs": [
-        "packingPests/doubleup1"
+        "packingPests/doubleup1",
+        "packingPestsEn/doubleup1"
       ],
-      "duration": 0.45833
-    },
-    {
-      "type": "cue",
-      "id": "*/doubleup2",
-      "name": "-up",
-      "deprecatedIDs": [
-        "packingPests/doubleup2"
-      ],
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/ding",
-      "name": "ding",
+      "id": "*/doubleUpSplit2",
+      "name": "double up - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/doubleUpSplit3",
+      "name": "double up - 3",
       "deprecatedIDs": [
-        "packingPests/ding"
+        "packingPests/doubleup2",
+        "packingPestsEn/doubleup2"
       ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/dingHm",
-      "name": "ding - hm",
+      "id": "*/signalDing",
+      "name": "signal - ding",
+      "deprecatedIDs": [
+        "packingPests/ding",
+        "packingPestsEn/ding"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/signalVoice",
+      "name": "signal - hm",
       "deprecatedIDs": [
         "packingPests/dingcandy",
-        "packingPests/dingHm"
+        "packingPests/dingHm",
+        "packingPestsEn/dingHm"
       ],
       "subtext": "",
       "duration": 0.5
@@ -103,19 +123,19 @@
       ],
       "cues": [
         {
-          "id": "*/candy1",
+          "id": "*/candyOut",
           "beat": 0.0
         },
         {
-          "id": "*/candy2",
+          "id": "*/candyCatch",
           "beat": 1.0
         },
         {
-          "id": "*/spider1",
+          "id": "*/spiderOut",
           "beat": 2.0
         },
         {
-          "id": "*/spider2",
+          "id": "*/spiderSlap",
           "beat": 3.0
         }
       ],
@@ -125,37 +145,36 @@
       "type": "pattern",
       "id": "*_doubleSoundStretch",
       "name": "double up!",
-      "deprecatedIDs": [
-      ],
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/candy1",
+          "id": "*/candyOut",
           "beat": 0.0
         },
         {
-          "id": "*/doubleup",
+          "id": "*/doubleUp",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "*/candy2",
+          "id": "*/candyCatch",
           "beat": 1.0
         },
         {
-          "id": "*/spider1",
+          "id": "*/spiderOut",
           "beat": 1.5
         },
         {
-          "id": "*/spider2",
+          "id": "*/spiderSlap",
           "beat": 2.5
         },
         {
-          "id": "*/spider1",
+          "id": "*/spiderOut",
           "beat": 2.5,
           "track": 1
         },
         {
-          "id": "*/spider2",
+          "id": "*/spiderSlap",
           "beat": 3.5,
           "track": 1
         }
@@ -171,19 +190,19 @@
       ],
       "cues": [
         {
-          "id": "*/candy1",
+          "id": "*/candyOut",
           "beat": 0.0
         },
         {
-          "id": "*/candy2",
+          "id": "*/candyCatch",
           "beat": 1.0
         },
         {
-          "id": "*/spider1",
+          "id": "*/spiderOut",
           "beat": 1.5
         },
         {
-          "id": "*/spider2",
+          "id": "*/spiderSlap",
           "beat": 2.5
         }
       ],
@@ -198,27 +217,27 @@
       ],
       "cues": [
         {
-          "id": "*/ding",
+          "id": "*/signalDing",
           "beat": 0.0
         },
         {
-          "id": "*/dingHm",
+          "id": "*/signalVoice",
           "beat": 0.5
         },
         {
-          "id": "*/candy1",
+          "id": "*/candyOut",
           "beat": 1.0
         },
         {
-          "id": "*/candy2",
+          "id": "*/candyCatch",
           "beat": 2.0
         },
         {
-          "id": "*/spider1",
+          "id": "*/spiderOut",
           "beat": 2.5
         },
         {
-          "id": "*/spider2",
+          "id": "*/spiderSlap",
           "beat": 3.5
         }
       ],
@@ -229,46 +248,53 @@
       "id": "*_doubleSplit",
       "name": "double up! - no sound stretch",
       "deprecatedIDs": [
-        "packingPests_double", "packingPestsEn_double"
+        "packingPests_double",
+        "packingPestsEn_double"
       ],
       "cues": [
         {
-          "id": "*/candy1",
+          "id": "*/candyOut",
           "beat": 0.0
         },
         {
-          "id": "*/doubleup1",
+          "id": "*/doubleUpSplit1",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "*/doubleup2",
-          "beat": 0.45833,
+          "id": "*/doubleUpSplit2",
+          "beat": 0.25,
           "track": 1
         },
         {
-          "id": "*/candy2",
+          "id": "*/doubleUpSplit3",
+          "beat": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*/candyCatch",
           "beat": 1.0
         },
         {
-          "id": "*/spider1",
+          "id": "*/spiderOut",
           "beat": 1.5
         },
         {
-          "id": "*/spider2",
+          "id": "*/spiderSlap",
           "beat": 2.5
         },
         {
-          "id": "*/spider1",
+          "id": "*/spiderOut",
           "beat": 2.5,
           "track": 1
         },
         {
-          "id": "*/spider2",
+          "id": "*/spiderSlap",
           "beat": 3.5,
           "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }

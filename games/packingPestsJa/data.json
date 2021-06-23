@@ -7,33 +7,41 @@
   "objects": [
     {
       "type": "cue",
-      "id": "*/candy1",
-      "name": "candy - throw",
-      "deprecatedIDs": [],
+      "id": "*/candyOut",
+      "name": "candy - out",
+      "deprecatedIDs": [
+        "packingPestsJa/candy1"
+      ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/candy2",
-      "name": "candy - grab",
-      "deprecatedIDs": [],
+      "id": "*/candyCatch",
+      "name": "candy - catch",
+      "deprecatedIDs": [
+        "packingPestsJa/candy2"
+      ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/spider1",
-      "name": "spider - throw",
-      "deprecatedIDs": [],
+      "id": "*/spiderOut",
+      "name": "spider - out",
+      "deprecatedIDs": [
+        "packingPestsJa/spider1"
+      ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/spider2",
+      "id": "*/spiderSlap",
       "name": "spider - slap",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "packingPestsJa/spider2"
+      ],
       "subtext": "",
       "duration": 0.5
     },
@@ -48,31 +56,49 @@
     },
     {
       "type": "cue",
-      "id": "*/ikuze1",
-      "deprecatedIDs": [],
-      "name": "iku-",
-      "duration": 0.45833
+      "id": "*/ikuzeSplit1",
+      "name": "ikuze - 1",
+      "deprecatedIDs": [
+        "packingPestsJa/ikuze1"
+      ],
+      "subtext": "",
+      "duration": 0.125
     },
     {
       "type": "cue",
-      "id": "*/ikuze2",
+      "id": "*/ikuzeSplit2",
+      "name": "ikuze - 2",
       "deprecatedIDs": [],
-      "name": "-ze",
-      "duration": 0.25
+      "subtext": "",
+      "duration": 0.208
     },
     {
       "type": "cue",
-      "id": "*/ding",
-      "name": "ding",
-      "deprecatedIDs": [],
+      "id": "*/ikuzeSplit3",
+      "name": "ikuze - 3",
+      "deprecatedIDs": [
+        "packingPestsJa/ikuze2"
+      ],
+      "subtext": "",
+      "duration": 0.6666667
+    },
+    {
+      "type": "cue",
+      "id": "*/signalDing",
+      "name": "signal - ding",
+      "deprecatedIDs": [
+        "packingPestsJa/ding"
+      ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/dingHm",
-      "name": "ding - hm",
-      "deprecatedIDs": [],
+      "id": "*/signalVoice",
+      "name": "signal - hm",
+      "deprecatedIDs": [
+        "packingPestsJa/dingHm"
+      ],
       "subtext": "",
       "duration": 0.5
     },
@@ -83,19 +109,19 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/candy1",
+          "id": "*/candyOut",
           "beat": 0.0
         },
         {
-          "id": "*/candy2",
+          "id": "*/candyCatch",
           "beat": 1.0
         },
         {
-          "id": "*/spider1",
+          "id": "*/spiderOut",
           "beat": 2.0
         },
         {
-          "id": "*/spider2",
+          "id": "*/spiderSlap",
           "beat": 3.0
         }
       ],
@@ -108,7 +134,7 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/candy1",
+          "id": "*/candyOut",
           "beat": 0.0
         },
         {
@@ -117,24 +143,24 @@
           "track": 1
         },
         {
-          "id": "*/candy2",
+          "id": "*/candyCatch",
           "beat": 1.0
         },
         {
-          "id": "*/spider1",
+          "id": "*/spiderOut",
           "beat": 1.5
         },
         {
-          "id": "*/spider2",
+          "id": "*/spiderSlap",
           "beat": 2.5
         },
         {
-          "id": "*/spider1",
+          "id": "*/spiderOut",
           "beat": 2.5,
           "track": 1
         },
         {
-          "id": "*/spider2",
+          "id": "*/spiderSlap",
           "beat": 3.5,
           "track": 1
         }
@@ -148,19 +174,19 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/candy1",
+          "id": "*/candyOut",
           "beat": 0.0
         },
         {
-          "id": "*/candy2",
+          "id": "*/candyCatch",
           "beat": 1.0
         },
         {
-          "id": "*/spider1",
+          "id": "*/spiderOut",
           "beat": 1.5
         },
         {
-          "id": "*/spider2",
+          "id": "*/spiderSlap",
           "beat": 2.5
         }
       ],
@@ -173,27 +199,27 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/ding",
+          "id": "*/signalDing",
           "beat": 0.0
         },
         {
-          "id": "*/dingHm",
+          "id": "*/signalVoice",
           "beat": 0.5
         },
         {
-          "id": "*/candy1",
+          "id": "*/candyOut",
           "beat": 1.0
         },
         {
-          "id": "*/candy2",
+          "id": "*/candyCatch",
           "beat": 2.0
         },
         {
-          "id": "*/spider1",
+          "id": "*/spiderOut",
           "beat": 2.5
         },
         {
-          "id": "*/spider2",
+          "id": "*/spiderSlap",
           "beat": 3.5
         }
       ],
@@ -202,48 +228,54 @@
     {
       "type": "pattern",
       "id": "*_ikuzeSplit",
+      "name": "double up! - no sound stretch",
       "deprecatedIDs": [
         "packingPestsJa_ikuze"
       ],
-      "name": "double up! - no sound stretch",
       "cues": [
         {
-          "id": "*/candy1",
+          "id": "*/candyOut",
           "beat": 0.0
         },
         {
-          "id": "*/ikuze1",
+          "id": "*/ikuzeSplit1",
           "beat": 0.0,
           "track": 1
         },
         {
-          "id": "*/ikuze2",
-          "beat": 0.45833,
+          "id": "*/ikuzeSplit2",
+          "beat": 0.125,
           "track": 1
         },
         {
-          "id": "*/candy2",
+          "id": "*/ikuzeSplit3",
+          "beat": 0.33333334,
+          "track": 1
+        },
+        {
+          "id": "*/candyCatch",
           "beat": 1.0
         },
         {
-          "id": "*/spider1",
+          "id": "*/spiderOut",
           "beat": 1.5
         },
         {
-          "id": "*/spider2",
+          "id": "*/spiderSlap",
           "beat": 2.5
         },
         {
-          "id": "*/spider1",
+          "id": "*/spiderOut",
           "beat": 2.5,
           "track": 1
         },
         {
-          "id": "*/spider2",
+          "id": "*/spiderSlap",
           "beat": 3.5,
           "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
