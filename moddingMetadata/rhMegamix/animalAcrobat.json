@@ -9,7 +9,7 @@
   },
   {
     "applyTo": ["animalAcrobat_monkeys"],
-    "sub": "0, 2",
+    "sub": "2, 0",
     "note": "For use with the bytes command"
   },
   {
@@ -18,9 +18,19 @@
 	"note": "For use with the bytes command"
   },
   {
-    "applyTo": ["animalAcrobat_giraffe", "animalAcrobat_giraffeCymbal"],
+    "applyTo": ["animalAcrobat_giraffeCymbal"],
     "sub": "3",
 	"note": "For use with the bytes command"
+  },
+  {
+    "applyTo": ["animalAcrobat_giraffe"],
+    "sub": "3, 6",
+	"note": "For use with the bytes command"
+  },
+  {
+    "applyTo": ["animalAcrobat/beginningLeap"],
+    "sub": "0x101<1> X",
+	"note": "X is time in ticks until grab (usually 0x30)"
   },
   {
     "applyTo": ["animalAcrobat_giraffeGorilla", "animalAcrobat_giraffeLanding"],
