@@ -79,7 +79,7 @@
     "name" : "melon out - left side",
     "deprecatedIDs" : [ "fruitBasket/melon1" ],
     "subtext" : "",
-    "duration" : 3.0,
+    "duration" : 3.5,
     "baseBpm" : 163.0
   }, {
     "type" : "cue",
@@ -87,7 +87,7 @@
     "name" : "melon out -  right side",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 3.0,
+    "duration" : 3.5,
     "baseBpm" : 163.0
   }, {
     "type" : "cue",
@@ -102,14 +102,14 @@
     "name" : "goal hit - left side",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.75
+    "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/goalHitR",
     "name" : "goal hit - right side",
     "deprecatedIDs" : [ "fruitBasket/melon4", "fruitBasket/goalHit" ],
     "subtext" : "",
-    "duration" : 0.75
+    "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/melonImpactL",
@@ -292,13 +292,18 @@
     }, {
       "id" : "*/dunk",
       "beat" : 2.0,
-      "duration" : 0.75
+      "duration" : 0.5
     }, {
       "id" : "*/goalHitR",
-      "beat" : 2.75
+      "beat" : 2.5
     }, {
       "id" : "*/melonImpactL",
       "beat" : 3.5
+    }, {
+      "id" : "*/basketL",
+      "beat" : 3.5,
+      "duration" : 1.5,
+      "track" : 1
     }, {
       "id" : "*/melonBasketL",
       "beat" : 4.0
@@ -322,13 +327,18 @@
     }, {
       "id" : "*/dunk",
       "beat" : 2.0,
-      "duration" : 0.75
+      "duration" : 0.5
     }, {
       "id" : "*/goalHitL",
-      "beat" : 2.75
+      "beat" : 2.5
     }, {
       "id" : "*/melonImpactR",
       "beat" : 3.5
+    }, {
+      "id" : "*/basketR",
+      "beat" : 3.5,
+      "duration" : 1.5,
+      "track" : 1
     }, {
       "id" : "*/melonBasketR",
       "beat" : 4.0
