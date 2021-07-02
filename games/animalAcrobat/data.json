@@ -7,10 +7,18 @@
     {
       "type": "cue",
       "id": "*/beginningLeap",
-      "name": "leap",
+      "name": "start leap",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/grab",
+      "name": "grab",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.0
     },
     {
       "type": "cue",
@@ -24,8 +32,8 @@
     },
     {
       "type": "cue",
-      "id": "*/flip",
-      "name": "flip",
+      "id": "*/release",
+      "name": "release",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
@@ -45,25 +53,11 @@
       "name": "giraffe release",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 2.0,
+      "duration": 4.0,
       "introSound": "*/giraffeRelease",
-      "loops": true
-    },
-    {
-      "type": "cue",
-      "id": "*/grab",
-      "name": "grab",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 2.0
-    },
-    {
-      "type": "cue",
-      "id": "*/release",
-      "name": "release",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 1.0
+      "loops": true,
+      "loopStart": 0.40546,
+      "loopEnd": 0.90717
     },
     {
       "type": "cue",
@@ -73,6 +67,22 @@
         "animalAcrobat/ringOfFireCymbalGorilla",
         "animalAcrobat/ringOfFireCymbalRemix"
       ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/audienceCheer",
+      "name": "audience cheer",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.75
+    },
+    {
+      "type": "cue",
+      "id": "*/flip",
+      "name": "flip",
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
     },
@@ -90,12 +100,20 @@
       "name": "landing",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 1.0
+      "duration": 2.0
     },
     {
       "type": "cue",
       "id": "*/poppers",
       "name": "poppers",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/eekUnused",
+      "name": "eek (unused)",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
@@ -127,142 +145,6 @@
           "id": "*/eek",
           "beat": 1.0,
           "track": 1
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_giraffeCymbal",
-      "name": "giraffe - next animal",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/grab",
-          "beat": 0.0
-        },
-        {
-          "id": "*/eek",
-          "beat": 2.0
-        },
-        {
-          "id": "*/eek",
-          "beat": 3.0
-        },
-        {
-          "id": "*/giraffeReleaseLoop",
-          "beat": 4.0
-        },
-        {
-          "id": "*/ringOfFireCymbal",
-          "beat": 6.0
-        },
-        {
-          "id": "*/flip",
-          "beat": 7.0
-        },
-        {
-          "id": "*/cymbal",
-          "beat": 8.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_giraffeGorilla",
-      "name": "giraffe - to gorilla",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/grab",
-          "beat": 0.0
-        },
-        {
-          "id": "*/eek",
-          "beat": 2.0
-        },
-        {
-          "id": "*/eek",
-          "beat": 3.0
-        },
-        {
-          "id": "*/giraffeReleaseLoop",
-          "beat": 4.0
-        },
-        {
-          "id": "*/ringOfFireCymbal",
-          "beat": 6.0
-        },
-        {
-          "id": "*/landing",
-          "beat": 8.0
-        },
-        {
-          "id": "*/poppers",
-          "beat": 10.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_giraffeLanding",
-      "name": "giraffe - landing",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/grab",
-          "beat": 0.0
-        },
-        {
-          "id": "*/eek",
-          "beat": 2.0
-        },
-        {
-          "id": "*/eek",
-          "beat": 3.0
-        },
-        {
-          "id": "*/giraffeReleaseLoop",
-          "beat": 4.0
-        },
-        {
-          "id": "*/ringOfFireCymbal",
-          "beat": 6.0
-        },
-        {
-          "id": "*/landing",
-          "beat": 8.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_giraffe",
-      "name": "giraffe - nothing after",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/grab",
-          "beat": 0.0
-        },
-        {
-          "id": "*/eek",
-          "beat": 2.0
-        },
-        {
-          "id": "*/eek",
-          "beat": 3.0
-        },
-        {
-          "id": "*/giraffeReleaseLoop",
-          "beat": 4.0
-        },
-        {
-          "id": "*/ringOfFireCymbal",
-          "beat": 6.0
         }
       ],
       "subtext": ""
@@ -316,6 +198,167 @@
           "id": "*/eek",
           "beat": 5.0,
           "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_giraffeCymbal",
+      "name": "giraffe - next animal",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/grab",
+          "beat": 0.0
+        },
+        {
+          "id": "*/eek",
+          "beat": 2.0
+        },
+        {
+          "id": "*/eek",
+          "beat": 3.0
+        },
+        {
+          "id": "*/giraffeReleaseLoop",
+          "beat": 4.0
+        },
+        {
+          "id": "*/ringOfFireCymbal",
+          "beat": 6.0,
+          "track": 1
+        },
+        {
+          "id": "*/audienceCheer",
+          "beat": 6.25,
+          "track": 1
+        },
+        {
+          "id": "*/flip",
+          "beat": 7.0,
+          "track": 1
+        },
+        {
+          "id": "*/cymbal",
+          "beat": 8.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_giraffe",
+      "name": "giraffe - nothing after",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/grab",
+          "beat": 0.0
+        },
+        {
+          "id": "*/eek",
+          "beat": 2.0
+        },
+        {
+          "id": "*/eek",
+          "beat": 3.0
+        },
+        {
+          "id": "*/giraffeReleaseLoop",
+          "beat": 4.0
+        },
+        {
+          "id": "*/ringOfFireCymbal",
+          "beat": 6.0,
+          "track": 1
+        },
+        {
+          "id": "*/audienceCheer",
+          "beat": 6.25,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_giraffeLanding",
+      "name": "giraffe - landing",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/grab",
+          "beat": 0.0
+        },
+        {
+          "id": "*/eek",
+          "beat": 2.0
+        },
+        {
+          "id": "*/eek",
+          "beat": 3.0
+        },
+        {
+          "id": "*/giraffeReleaseLoop",
+          "beat": 4.0
+        },
+        {
+          "id": "*/ringOfFireCymbal",
+          "beat": 6.0,
+          "track": 1
+        },
+        {
+          "id": "*/audienceCheer",
+          "beat": 6.25,
+          "track": 1
+        },
+        {
+          "id": "*/landing",
+          "beat": 8.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_giraffeGorilla",
+      "name": "giraffe - gorilla",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/grab",
+          "beat": 0.0
+        },
+        {
+          "id": "*/eek",
+          "beat": 2.0
+        },
+        {
+          "id": "*/eek",
+          "beat": 3.0
+        },
+        {
+          "id": "*/giraffeReleaseLoop",
+          "beat": 4.0
+        },
+        {
+          "id": "*/ringOfFireCymbal",
+          "beat": 6.0,
+          "track": 1
+        },
+        {
+          "id": "*/audienceCheer",
+          "beat": 6.25,
+          "track": 1
+        },
+        {
+          "id": "*/landing",
+          "beat": 8.0
+        },
+        {
+          "id": "*/poppers",
+          "beat": 10.0
         }
       ],
       "subtext": ""
