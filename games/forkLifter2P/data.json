@@ -1,0 +1,988 @@
+{
+  "id": "forkLifter2P",
+  "name": "Fork Lifter (2 Players)",
+  "series": "fever",
+  "group": "Fork Lifter",
+  "priority": -1,
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/flickPrepare",
+      "name": "pea - prepare flick",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/gulpP1",
+      "name": "player 1 - gulp",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/gulpP2",
+      "name": "player 2 - gulp",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/burgerP1",
+      "name": "player 1 - burger munch",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/burgerP2",
+      "name": "player 2 - burger munch",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/sighP1",
+      "name": "player 1 - sigh",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/sighP2",
+      "name": "player 2 - sigh",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/flick",
+      "name": "pea - flick",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/zoomP1",
+      "name": "player 1 - pea - zoom",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.939
+    },
+    {
+      "type": "cue",
+      "id": "*/zoomP2",
+      "name": "player 2 - pea - zoom",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.939
+    },
+    {
+      "type": "cue",
+      "id": "*/zoom",
+      "name": "both players - pea - zoom",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.939
+    },
+    {
+      "type": "cue",
+      "id": "*/stabP1",
+      "name": "player 1 - pea - stab",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/stabP2",
+      "name": "player 2 - pea - stab",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "pattern",
+      "id": "*_onePeaP1",
+      "name": "player 1 - single pea",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/zoomP1",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_twoPeasP1",
+      "name": "player 1 - two peas",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/zoomP1",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 1.0
+        },
+        {
+          "id": "*/zoomP1",
+          "beat": 3.0,
+          "track": 1
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_twoFastPeasP1",
+      "name": "player 1 - two fast peas",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/zoomP1",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 0.5
+        },
+        {
+          "id": "*/zoomP1",
+          "beat": 2.5,
+          "track": 1
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_threePeasP1",
+      "name": "player 1 - three peas",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/zoomP1",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 0.5
+        },
+        {
+          "id": "*/zoomP1",
+          "beat": 2.5,
+          "track": 1
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 1.0
+        },
+        {
+          "id": "*/zoomP1",
+          "beat": 3.0,
+          "track": 1
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 2.5
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_burgerP1",
+      "name": "player 1 - burger",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0,
+          "duration": 0.666666
+        },
+        {
+          "id": "*/zoomP1",
+          "beat": 2.0,
+          "duration": 0.666666,
+          "track": 1
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 0.666666,
+          "duration": 0.666666
+        },
+        {
+          "id": "*/zoomP1",
+          "beat": 2.666666,
+          "duration": 0.666666,
+          "track": 1
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 1.333333,
+          "duration": 0.666666
+        },
+        {
+          "id": "*/zoomP1",
+          "beat": 3.333333,
+          "duration": 0.666666,
+          "track": 1
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 2.0,
+          "duration": 0.666666
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 2.666666,
+          "duration": 0.666666
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 3.333333,
+          "duration": 0.666666
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_fourPeasP1",
+      "name": "player 1 - four peas",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/zoomP1",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 0.5
+        },
+        {
+          "id": "*/zoomP1",
+          "beat": 2.5,
+          "track": 1
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 1.0
+        },
+        {
+          "id": "*/zoomP1",
+          "beat": 3.0,
+          "track": 1
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 1.5
+        },
+        {
+          "id": "*/zoomP1",
+          "beat": 3.5,
+          "track": 1
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 2.5
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 3.0
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_onePeaP2",
+      "name": "player 2 - single pea",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/zoomP2",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_twoPeasP2",
+      "name": "player 2 - two peas",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/zoomP2",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 1.0
+        },
+        {
+          "id": "*/zoomP2",
+          "beat": 3.0,
+          "track": 1
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 2.0
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_twoFastPeasP2",
+      "name": "player 2 - two fast peas",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/zoomP2",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 0.5
+        },
+        {
+          "id": "*/zoomP2",
+          "beat": 2.5,
+          "track": 1
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 2.0
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_threePeasP2",
+      "name": "player 2 - three peas",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/zoomP2",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 0.5
+        },
+        {
+          "id": "*/zoomP2",
+          "beat": 2.5,
+          "track": 1
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 1.0
+        },
+        {
+          "id": "*/zoomP2",
+          "beat": 3.0,
+          "track": 1
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 2.0
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 2.5
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_burgerP2",
+      "name": "player 2 - burger",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0,
+          "duration": 0.666666
+        },
+        {
+          "id": "*/zoomP2",
+          "beat": 2.0,
+          "duration": 0.666666,
+          "track": 1
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 0.666666,
+          "duration": 0.666666
+        },
+        {
+          "id": "*/zoomP2",
+          "beat": 2.666666,
+          "duration": 0.666666,
+          "track": 1
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 1.333333,
+          "duration": 0.666666
+        },
+        {
+          "id": "*/zoomP2",
+          "beat": 3.333333,
+          "duration": 0.666666,
+          "track": 1
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 2.0,
+          "duration": 0.666666
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 2.666666,
+          "duration": 0.666666
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 3.333333,
+          "duration": 0.666666
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_fourPeasP2",
+      "name": "player 2 - four peas",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/zoomP2",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 0.5
+        },
+        {
+          "id": "*/zoomP2",
+          "beat": 2.5,
+          "track": 1
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 1.0
+        },
+        {
+          "id": "*/zoomP2",
+          "beat": 3.0,
+          "track": 1
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 1.5
+        },
+        {
+          "id": "*/zoomP2",
+          "beat": 3.5,
+          "track": 1
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 2.0
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 2.5
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 3.0
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_onePea",
+      "name": "both players - single pea",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/zoom",
+          "beat": 2.0,
+          "track": 2
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 2.0,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_twoPeas",
+      "name": "both players - two peas",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/zoom",
+          "beat": 2.0,
+          "track": 2
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 1.0
+        },
+        {
+          "id": "*/zoom",
+          "beat": 3.0,
+          "track": 2
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 3.0
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 3.0,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_twoFastPeas",
+      "name": "both players - two fast peas",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/zoom",
+          "beat": 2.0,
+          "track": 2
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 0.5
+        },
+        {
+          "id": "*/zoom",
+          "beat": 2.5,
+          "track": 2
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 2.5
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 2.5,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_threePeas",
+      "name": "both players - three peas",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/zoom",
+          "beat": 2.0,
+          "track": 2
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 0.5
+        },
+        {
+          "id": "*/zoom",
+          "beat": 2.5,
+          "track": 2
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 1.0
+        },
+        {
+          "id": "*/zoom",
+          "beat": 3.0,
+          "track": 2
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 2.5
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 2.5,
+          "track": 1
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 3.0
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 3.0,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_burger",
+      "name": "both players - burger",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0,
+          "duration": 0.666666
+        },
+        {
+          "id": "*/zoom",
+          "beat": 2.0,
+          "duration": 0.666666,
+          "track": 2
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 0.666666,
+          "duration": 0.666666
+        },
+        {
+          "id": "*/zoom",
+          "beat": 2.666666,
+          "duration": 0.666666,
+          "track": 2
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 1.333333,
+          "duration": 0.666666
+        },
+        {
+          "id": "*/zoom",
+          "beat": 3.333333,
+          "duration": 0.666666,
+          "track": 2
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 2.0,
+          "duration": 0.666666
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 2.0,
+          "duration": 0.666666,
+          "track": 1
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 2.666666,
+          "duration": 0.666666
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 2.666666,
+          "duration": 0.666666,
+          "track": 1
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 3.333333,
+          "duration": 0.666666
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 3.333333,
+          "duration": 0.666666,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_fourPeas",
+      "name": "both players - four peas",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_randomFlick",
+          "beat": 0.0
+        },
+        {
+          "id": "*/zoom",
+          "beat": 2.0,
+          "track": 2
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 0.5
+        },
+        {
+          "id": "*/zoom",
+          "beat": 2.5,
+          "track": 2
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 1.0
+        },
+        {
+          "id": "*/zoom",
+          "beat": 3.0,
+          "track": 2
+        },
+        {
+          "id": "*_randomFlick",
+          "beat": 1.5
+        },
+        {
+          "id": "*/zoom",
+          "beat": 3.5,
+          "track": 2
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 2.5
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 2.5,
+          "track": 1
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 3.0
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 3.0,
+          "track": 1
+        },
+        {
+          "id": "*/stabP1",
+          "beat": 3.5
+        },
+        {
+          "id": "*/stabP2",
+          "beat": 3.5,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_randomFlick",
+      "name": "random flick",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/flick"
+        },
+        {
+          "id": "*/flick",
+          "semitone": 1
+        },
+        {
+          "id": "*/flick",
+          "semitone": -1
+        }
+      ],
+      "subtext": ""
+    }
+  ]
+}

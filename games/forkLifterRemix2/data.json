@@ -9,6 +9,7 @@
       "id": "*/flickPrepare",
       "name": "pea - prepare flick",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -16,6 +17,7 @@
       "id": "*/gulp",
       "name": "gulp",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
@@ -23,6 +25,7 @@
       "id": "*/sigh",
       "name": "sigh",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 2.0
     },
     {
@@ -30,6 +33,7 @@
       "id": "*/flick",
       "name": "pea - flick",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -37,13 +41,16 @@
       "id": "*/zoom",
       "name": "pea - zoom",
       "deprecatedIDs": [],
-      "duration": 0.5
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.939
     },
     {
       "type": "cue",
       "id": "*/stab",
       "name": "pea - stab",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
@@ -58,13 +65,15 @@
         },
         {
           "id": "*/zoom",
-          "beat": 1.5
+          "beat": 2.0,
+          "track": 1
         },
         {
           "id": "*/stab",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -77,31 +86,34 @@
           "beat": 0.0
         },
         {
+          "id": "*/zoom",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
           "id": "*_randomFlick",
           "beat": 1.0
         },
         {
           "id": "*/zoom",
-          "beat": 1.5
+          "beat": 3.0,
+          "track": 1
         },
         {
           "id": "*/stab",
           "beat": 2.0
         },
         {
-          "id": "*/zoom",
-          "beat": 2.5
-        },
-        {
           "id": "*/stab",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_twoPeasFast",
-      "name": "two peas (faster)",
+      "name": "two fast peas",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -109,27 +121,29 @@
           "beat": 0.0
         },
         {
+          "id": "*/zoom",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
           "id": "*_randomFlick",
           "beat": 0.5
         },
         {
           "id": "*/zoom",
-          "beat": 1.5
+          "beat": 2.5,
+          "track": 1
         },
         {
           "id": "*/stab",
           "beat": 2.0
         },
         {
-          "id": "*/zoom",
-          "beat": 2.0,
-          "track": 1
-        },
-        {
           "id": "*/stab",
           "beat": 2.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -142,29 +156,13 @@
           "beat": 0.0
         },
         {
-          "id": "*_randomFlick",
-          "beat": 0.5
-        },
-        {
-          "id": "*_randomFlick",
-          "beat": 1.0
-        },
-        {
-          "id": "*/zoom",
-          "beat": 1.5
-        },
-        {
-          "id": "*/stab",
-          "beat": 2.0
-        },
-        {
           "id": "*/zoom",
           "beat": 2.0,
           "track": 1
         },
         {
-          "id": "*/stab",
-          "beat": 2.5
+          "id": "*_randomFlick",
+          "beat": 0.5
         },
         {
           "id": "*/zoom",
@@ -172,10 +170,28 @@
           "track": 1
         },
         {
+          "id": "*_randomFlick",
+          "beat": 1.0
+        },
+        {
+          "id": "*/zoom",
+          "beat": 3.0,
+          "track": 1
+        },
+        {
+          "id": "*/stab",
+          "beat": 2.0
+        },
+        {
+          "id": "*/stab",
+          "beat": 2.5
+        },
+        {
           "id": "*/stab",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -189,46 +205,50 @@
           "duration": 0.6666667
         },
         {
+          "id": "*/zoom",
+          "beat": 2.0,
+          "duration": 0.666666,
+          "track": 1
+        },
+        {
           "id": "*_randomFlick",
           "beat": 0.6666667,
           "duration": 0.6666667
         },
         {
+          "id": "*/zoom",
+          "beat": 2.6666667,
+          "duration": 0.666666,
+          "track": 1
+        },
+        {
           "id": "*_randomFlick",
           "beat": 1.3333334,
-          "duration": 0.1666667
+          "duration": 0.6666667
         },
         {
           "id": "*/zoom",
-          "beat": 1.5,
-          "duration": 0.5
+          "beat": 3.3333335,
+          "duration": 0.666666,
+          "track": 1
         },
         {
           "id": "*/stab",
           "beat": 2.0,
-          "duration": 0.1666667
-        },
-        {
-          "id": "*/zoom",
-          "beat": 2.1666667,
-          "duration": 0.5
+          "duration": 0.6666667
         },
         {
           "id": "*/stab",
           "beat": 2.6666667,
-          "duration": 0.1666667
-        },
-        {
-          "id": "*/zoom",
-          "beat": 2.8333335,
-          "duration": 0.5
+          "duration": 0.6666667
         },
         {
           "id": "*/stab",
           "beat": 3.3333335,
           "duration": 0.6666667
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -241,34 +261,13 @@
           "beat": 0.0
         },
         {
-          "id": "*_randomFlick",
-          "beat": 0.5
-        },
-        {
-          "id": "*_randomFlick",
-          "beat": 1.0
-        },
-        {
-          "id": "*_randomFlick",
-          "beat": 1.5
-        },
-        {
-          "id": "*/zoom",
-          "beat": 1.5,
-          "track": 1
-        },
-        {
-          "id": "*/stab",
-          "beat": 2.0
-        },
-        {
           "id": "*/zoom",
           "beat": 2.0,
           "track": 1
         },
         {
-          "id": "*/stab",
-          "beat": 2.5
+          "id": "*_randomFlick",
+          "beat": 0.5
         },
         {
           "id": "*/zoom",
@@ -276,8 +275,8 @@
           "track": 1
         },
         {
-          "id": "*/stab",
-          "beat": 3.0
+          "id": "*_randomFlick",
+          "beat": 1.0
         },
         {
           "id": "*/zoom",
@@ -285,10 +284,32 @@
           "track": 1
         },
         {
+          "id": "*_randomFlick",
+          "beat": 1.5
+        },
+        {
+          "id": "*/zoom",
+          "beat": 3.5,
+          "track": 1
+        },
+        {
+          "id": "*/stab",
+          "beat": 2.0
+        },
+        {
+          "id": "*/stab",
+          "beat": 2.5
+        },
+        {
+          "id": "*/stab",
+          "beat": 3.0
+        },
+        {
           "id": "*/stab",
           "beat": 3.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "randomCue",
@@ -307,7 +328,8 @@
           "id": "*/flick",
           "semitone": -1
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
