@@ -95,7 +95,7 @@
       "name": "hai",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 0.5
+      "duration": 1.0
     },
     {
       "type": "cue",
@@ -103,7 +103,7 @@
       "name": "hoi",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 0.5
+      "duration": 1.0
     },
     {
       "type": "cue",
@@ -123,17 +123,58 @@
     },
     {
       "type": "pattern",
-      "id": "*_readyCounting",
-      "name": "ready!",
+      "id": "*_4BeatCountInCowbell",
+      "name": "4-beat count-in (cowbell)",
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/seno1",
+          "id": "*/cowbell",
           "beat": 0.0
         },
         {
-          "id": "*/seno2",
+          "id": "*/cowbell",
           "beat": 1.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 2.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_8BeatCountInCowbell",
+      "name": "8-beat count-in (cowbell)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/cowbell",
+          "beat": 0.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 2.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 4.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 5.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 6.0
+        },
+        {
+          "id": "*/cowbell",
+          "beat": 7.0
         }
       ],
       "subtext": ""
@@ -215,66 +256,8 @@
     },
     {
       "type": "pattern",
-      "id": "*_4BeatCountInCowbell",
-      "name": "4-beat count-in (cowbell)",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/cowbell",
-          "beat": 0.0
-        },
-        {
-          "id": "*/cowbell",
-          "beat": 1.0
-        },
-        {
-          "id": "*/cowbell",
-          "beat": 2.0
-        },
-        {
-          "id": "*/cowbell",
-          "beat": 3.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_8BeatCountInCowbell",
-      "name": "8-beat count-in (cowbell)",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/cowbell",
-          "beat": 0.0
-        },
-        {
-          "id": "*/cowbell",
-          "beat": 2.0
-        },
-        {
-          "id": "*/cowbell",
-          "beat": 4.0
-        },
-        {
-          "id": "*/cowbell",
-          "beat": 5.0
-        },
-        {
-          "id": "*/cowbell",
-          "beat": 6.0
-        },
-        {
-          "id": "*/cowbell",
-          "beat": 7.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
       "id": "*_2BeatCountInGo",
-      "name": "2-beat count-in go",
+      "name": "2-beat count-in go!",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -284,6 +267,64 @@
         {
           "id": "*/hai",
           "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_4BeatCountInGo",
+      "name": "4-beat count-in go!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/oneJa",
+          "beat": 0.0
+        },
+        {
+          "id": "*/twoJa",
+          "beat": 1.0
+        },
+        {
+          "id": "*/threeJa",
+          "beat": 2.0
+        },
+        {
+          "id": "*/hai",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_8BeatCountInGo",
+      "name": "8-beat count-in go!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/oneJa",
+          "beat": 0.0
+        },
+        {
+          "id": "*/twoJa",
+          "beat": 2.0
+        },
+        {
+          "id": "*/oneJa",
+          "beat": 4.0
+        },
+        {
+          "id": "*/twoJa",
+          "beat": 5.0
+        },
+        {
+          "id": "*/threeJa",
+          "beat": 6.0
+        },
+        {
+          "id": "*/hai",
+          "beat": 7.0
         }
       ],
       "subtext": ""
@@ -366,7 +407,7 @@
     {
       "type": "pattern",
       "id": "*_2BeatCountInGo2",
-      "name": "2-beat count-in go (alt.)",
+      "name": "2-beat count-in go! (alt.)",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -375,6 +416,81 @@
         },
         {
           "id": "*/hoi",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_4BeatCountInGo2",
+      "name": "4-beat count-in go! (alt.)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/ichi",
+          "beat": 0.0
+        },
+        {
+          "id": "*/ni",
+          "beat": 1.0
+        },
+        {
+          "id": "*/san",
+          "beat": 2.0
+        },
+        {
+          "id": "*/hoi",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_8BeatCountInGo2",
+      "name": "8-beat count-in go! (alt.)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/ichi",
+          "beat": 0.0
+        },
+        {
+          "id": "*/ni",
+          "beat": 2.0
+        },
+        {
+          "id": "*/ichi",
+          "beat": 4.0
+        },
+        {
+          "id": "*/ni",
+          "beat": 5.0
+        },
+        {
+          "id": "*/san",
+          "beat": 6.0
+        },
+        {
+          "id": "*/hoi",
+          "beat": 7.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_readyCounting",
+      "name": "ready!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/seno1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/seno2",
           "beat": 1.0
         }
       ],
