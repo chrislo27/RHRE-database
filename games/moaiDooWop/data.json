@@ -104,9 +104,9 @@
     {
       "type": "cue",
       "id": "*/unusedDoo",
-      "name": "unused - doo-wop",
+      "name": "sound test - doo-wop",
       "deprecatedIDs": [],
-      "subtext": "",
+      "subtext": "(unused)",
       "duration": 1.0,
       "stretchable": true,
       "endingSound": "*/unusedWop",
@@ -117,18 +117,57 @@
     {
       "type": "cue",
       "id": "*/unusedWop",
-      "name": "unused - wop",
+      "name": "sound test - wop",
       "deprecatedIDs": [],
-      "subtext": "",
+      "subtext": "(unused)",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/unusedPah",
-      "name": "unused - pah",
+      "name": "sound test - pah",
       "deprecatedIDs": [],
-      "subtext": "",
+      "subtext": "(unused)",
       "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/leftDooAlt",
+      "name": "left - doo",
+      "deprecatedIDs": [],
+      "subtext": "(ex: Remix 9 DS) (unused)",
+      "duration": 1.0,
+      "stretchable": true,
+      "responseIDs": [
+        "*/rightDoo"
+      ],
+      "loops": true,
+      "loopStart": 0.475,
+      "loopEnd": 1.093
+    },
+    {
+      "type": "cue",
+      "id": "*/rightDooAlt",
+      "name": "right - doo",
+      "deprecatedIDs": [],
+      "subtext": "(ex: Remix 9 DS)",
+      "duration": 1.0,
+      "stretchable": true,
+      "loops": true,
+      "loopStart": 0.48,
+      "loopEnd": 1.113
+    },
+    {
+      "type": "cue",
+      "id": "*/unusedDooAlt",
+      "name": "sound test - doo",
+      "deprecatedIDs": [],
+      "subtext": "(ex: Remix 9 DS) (unused)",
+      "duration": 1.0,
+      "stretchable": true,
+      "loops": true,
+      "loopStart": 0.481,
+      "loopEnd": 3.478
     }
   ]
 }
