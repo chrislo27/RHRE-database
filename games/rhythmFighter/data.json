@@ -719,13 +719,11 @@
       "cues": [
         {
           "id": "*/knockout1",
-          "beat": 0.0,
-          "volume": 75
+          "beat": 0.0
         },
         {
           "id": "*/knockout2",
-          "beat": 1.0,
-          "volume": 75
+          "beat": 1.0
         },
         {
           "id": "*_randomDeath",
@@ -754,13 +752,11 @@
       "cues": [
         {
           "id": "*/knockout1",
-          "beat": 0.0,
-          "volume": 75
+          "beat": 0.0
         },
         {
           "id": "*/knockout2",
-          "beat": 1.0,
-          "volume": 75
+          "beat": 1.0
         },
         {
           "id": "*_randomDeath",
@@ -788,22 +784,28 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/death1"
+          "id": "*/death1",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/death2"
+          "id": "*/death2",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/death3"
+          "id": "*/death3",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/death4"
+          "id": "*/death4",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/death5"
+          "id": "*/death5",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/death6"
+          "id": "*/death6",
+          "beat": 1.4E-45
         }
       ],
       "subtext": ""
