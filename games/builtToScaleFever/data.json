@@ -49,8 +49,16 @@
       "name": "prepare",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 2.25,
-      "baseBpm": 120.0
+      "duration": 2.0,
+      "baseBpm": 98.0
+    },
+    {
+      "type": "cue",
+      "id": "*/playerRetract",
+      "name": "middle-right retracts",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
@@ -100,6 +108,11 @@
           "track": 1
         },
         {
+          "id": "*/playerRetract",
+          "beat": 6.0,
+          "track": 2
+        },
+        {
           "id": "*/shoot",
           "beat": 7.0
         }
@@ -134,6 +147,11 @@
           "track": 1
         },
         {
+          "id": "*/playerRetract",
+          "beat": 3.0,
+          "track": 2
+        },
+        {
           "id": "*/shoot",
           "beat": 4.0
         }
@@ -158,6 +176,11 @@
           "id": "*/prepare",
           "beat": 0.0,
           "track": 1
+        },
+        {
+          "id": "*/playerRetract",
+          "beat": 1.0,
+          "track": 2
         },
         {
           "id": "*/shoot",
@@ -193,15 +216,19 @@
           "duration": 1.0
         },
         {
-          "id": "*/prepare",
-          "beat": 3.0,
-          "duration": 2.25,
-          "track": 1
-        },
-        {
           "id": "*/middleLeft",
           "beat": 4.0,
           "duration": 1.0
+        },
+        {
+          "id": "*/prepare",
+          "beat": 3.0,
+          "track": 1
+        },
+        {
+          "id": "*/playerRetract",
+          "beat": 4.0,
+          "track": 2
         },
         {
           "id": "*/shoot",
@@ -285,7 +312,6 @@
         {
           "id": "*/prepare",
           "beat": 12.0,
-          "duration": 2.25,
           "track": 1
         },
         {
@@ -294,9 +320,13 @@
           "duration": 1.0
         },
         {
+          "id": "*/playerRetract",
+          "beat": 13.0,
+          "track": 2
+        },
+        {
           "id": "*/shoot",
-          "beat": 14.0,
-          "duration": 1.0
+          "beat": 14.0
         }
       ],
       "subtext": ""
@@ -379,6 +409,10 @@
           "id": "*/prepare",
           "beat": 0.0,
           "track": 1
+        },
+        {
+          "id": "*/playerRetract",
+          "beat": 1.0
         },
         {
           "id": "*/shoot",
