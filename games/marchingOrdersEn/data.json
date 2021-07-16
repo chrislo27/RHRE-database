@@ -49,16 +49,10 @@
     {
       "type": "cue",
       "id": "*/step1",
-      "name": "cadets - left step",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/step2",
-      "name": "cadets - right step",
-      "deprecatedIDs": [],
+      "name": "cadets - step",
+      "deprecatedIDs": [
+        "marchingOrdersEn/step2"
+      ],
       "subtext": "",
       "duration": 1.0
     },
@@ -183,7 +177,7 @@
           "beat": 0.0
         },
         {
-          "id": "*/step2",
+          "id": "*/step1",
           "beat": 1.0
         },
         {
@@ -191,7 +185,7 @@
           "beat": 2.0
         },
         {
-          "id": "*/step2",
+          "id": "*/step1",
           "beat": 3.0
         }
       ],

@@ -28,38 +28,44 @@
     {
       "type": "cue",
       "id": "*/march1",
-      "name": "general - march",
+      "name": "general - march 1",
       "deprecatedIDs": [
         "marchingOrders/march1"
       ],
       "subtext": "",
-      "duration": 1.0
+      "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/march2",
+      "name": "general - march 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/march3",
+      "name": "general - march 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/march4",
       "name": "cadets - start marching",
-      "deprecatedIDs": [
-        "marchingOrders/march4"
-      ],
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/step1",
-      "name": "cadets - left step",
+      "name": "cadets - step",
       "deprecatedIDs": [
-        "marchingOrders/step1"
-      ],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/step2",
-      "name": "cadets - right step",
-      "deprecatedIDs": [
+        "marchingOrders/step1",
+        "marchingOrdersJa/step2",
         "marchingOrders/step2"
       ],
       "subtext": "",
@@ -265,6 +271,14 @@
         },
         {
           "id": "*/march2",
+          "beat": 2.25
+        },
+        {
+          "id": "*/march3",
+          "beat": 2.5
+        },
+        {
+          "id": "*/march4",
           "beat": 3.0
         }
       ],
@@ -284,7 +298,7 @@
           "beat": 0.0
         },
         {
-          "id": "*/step2",
+          "id": "*/step1",
           "beat": 1.0
         },
         {
@@ -292,7 +306,7 @@
           "beat": 2.0
         },
         {
-          "id": "*/step2",
+          "id": "*/step1",
           "beat": 3.0
         }
       ],

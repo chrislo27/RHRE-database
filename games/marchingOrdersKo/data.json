@@ -27,7 +27,7 @@
       "name": "general - march",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -40,16 +40,10 @@
     {
       "type": "cue",
       "id": "*/step1",
-      "name": "cadets - left step",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/step2",
-      "name": "cadets - right step",
-      "deprecatedIDs": [],
+      "name": "cadets - step",
+      "deprecatedIDs": [
+        "marchingOrdersKo/step2"
+      ],
       "subtext": "",
       "duration": 1.0
     },
@@ -75,7 +69,7 @@
       "name": "general - left face turn 1",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 2.0
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -83,11 +77,20 @@
       "name": "general - left face turn 2",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 1.0
+      "duration": 1.5
     },
     {
       "type": "cue",
       "id": "*/leftFaceTurn3",
+      "name": "general - left face turn 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "loopEnd": 1.0E8
+    },
+    {
+      "type": "cue",
+      "id": "*/leftFaceTurn4",
       "name": "cadets - left face turn",
       "deprecatedIDs": [],
       "subtext": "",
@@ -99,7 +102,7 @@
       "name": "general - right face turn 1",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 2.0
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -107,11 +110,19 @@
       "name": "general - right face turn 2",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 1.0
+      "duration": 1.5
     },
     {
       "type": "cue",
       "id": "*/rightFaceTurn3",
+      "name": "general - right face turn 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/rightFaceTurn4",
       "name": "cadets - right face turn",
       "deprecatedIDs": [],
       "subtext": "",
@@ -132,8 +143,12 @@
           "beat": 0.5
         },
         {
-          "id": "*/march1",
+          "id": "*/attention1",
           "beat": 2.0
+        },
+        {
+          "id": "*/march1",
+          "beat": 2.5
         },
         {
           "id": "*/march2",
@@ -154,7 +169,7 @@
           "beat": 0.0
         },
         {
-          "id": "*/step2",
+          "id": "*/step1",
           "beat": 1.0
         },
         {
@@ -162,7 +177,7 @@
           "beat": 2.0
         },
         {
-          "id": "*/step2",
+          "id": "*/step1",
           "beat": 3.0
         }
       ],
@@ -205,10 +220,14 @@
         },
         {
           "id": "*/leftFaceTurn2",
-          "beat": 2.0
+          "beat": 0.5
         },
         {
           "id": "*/leftFaceTurn3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/leftFaceTurn4",
           "beat": 3.0
         }
       ],
@@ -226,10 +245,14 @@
         },
         {
           "id": "*/rightFaceTurn2",
-          "beat": 2.0
+          "beat": 0.5
         },
         {
           "id": "*/rightFaceTurn3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/rightFaceTurn4",
           "beat": 3.0
         }
       ],
