@@ -1,0 +1,34 @@
+[
+  {
+    "applyTo": ["airRallyEn", "airRallyJa"],
+    "engine": "0x1D",
+    "name": "rvlBadminton, rvlBadminton2",
+    "tempoFile": "1000004, 1000005",
+    "index": "0x7, 0x2C",
+	"note": "In order of: AR 1, AR 2"
+  },
+  {
+    "applyTo": ["airRallyEn_rally_Close", "airRallyEn_rally_Far", "airRallyEn_rally_Farther", "airRallyEn_rally_Farthest", "airRallyEn_rally_CloseBadminton", "airRallyEn_rally_FarBadminton", "airRallyEn_rally_FartherBadminton", "airRallyEn_rally_FarthestBadminton", "airRallyJa_rally_Close", "airRallyJa_rally_Far", "airRallyJa_rally_Farther", "airRallyJa_rally_Farthest", "airRallyJa_rally_CloseBadminton", "airRallyJa_rally_FarBadminton", "airRallyJa_rally_FartherBadminton", "airRallyJa_rally_FarthestBadminton"],
+    "sub": "0x5E/0x5F + 0x101<1> Y, 1",
+    "note": "0x5E/0x5F are two rallies, 0x5F has a 'ba bum bum bum', Y = distance (2~5)"
+  },
+  {
+    "applyTo": ["airRallyEn/birdieCatch", "airRallyJa/birdieCatch"],
+    "sub": "0x104"
+  },
+  {
+    "applyTo": ["airRallyEn_countIn8", "airRallyEn_countIn8Far", "airRallyEn_countIn8Farther", "airRallyEn_countIn8Farthest", "airRallyJa_countIn8", "airRallyJa_countIn8Far", "airRallyJa_countIn8Farther", "airRallyJa_countIn8Farthest"],
+    "sub": "0x56 + 0x101<1> Y, 1",
+    "note": "Y = distance (2~5)"
+  },
+  {
+    "applyTo": ["airRallyEn_countIn3", "airRallyEn_countIn3Far", "airRallyEn_countIn3Farther", "airRallyEn_countIn3Farthest", "airRallyJa_countIn3", "airRallyJa_countIn3Far", "airRallyJa_countIn3Farther", "airRallyJa_countIn3Farthest"],
+    "sub": "0x5D + 0x101<1> Y, 1",
+    "note": "Y = distance (2~5)"
+  },
+  {
+    "applyTo": ["airRallyEn_baBumBumBum_Close", "airRallyEn_baBumBumBum_Far", "airRallyEn_baBumBumBum_FarAlt", "airRallyEn_baBumBumBum_Farther", "airRallyEn_baBumBumBum_Farthest", "airRallyJa_baBumBumBum_Close_1", "airRallyJa_baBumBumBum_Close_2", "airRallyJa_baBumBumBum_Close_Random", "airRallyJa_baBumBumBum_Far_1", "airRallyJa_baBumBumBum_Far_2", "airRallyJa_baBumBumBum_Far_3", "airRallyJa_baBumBumBum_Far_4", "airRallyJa_baBumBumBum_Far_Random", "airRallyJa_baBumBumBum_Farther", "airRallyJa_baBumBumBum_Farthest"],
+    "sub": "0x60/0x61/0x62/0x63 + 0x101<1> Y, 1",
+	"note": "0x60 has a 'ba bum bum bum', 0x61 has a '2 3 4', 0x62/0x63 are the ending (latter goes back 1 beat faster), Y = distance (2~5)"
+  }
+]

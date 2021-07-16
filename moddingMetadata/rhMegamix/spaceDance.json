@@ -1,0 +1,52 @@
+[
+  {
+    "applyTo": ["spaceDanceEn", "spaceDanceJa", "spaceDanceGba"],
+    "engine": "0xB",
+    "name": "agbSpaceDance, agbSpaceDance2",
+    "tempoFile": "1000062, 1000063",
+    "index": "0x1A, 0x4F",
+	"note": "In order of: SD, CD"
+  },
+  {
+    "applyTo": ["spaceDanceGba_pupupupunch1", "spaceDanceJa_pupupupunch1", "spaceDanceEn_pupupupunch1", "spaceDanceGba_pupupupunch1Cosmic", "spaceDanceJa_pupupupunch1Cosmic", "spaceDanceEn_pupupupunch1Cosmic"],
+    "sub": "0x56",
+	"note": "this sub requires 'setrest 0, X' and 'setrest 1, X' for timing (0x18 for SD, 0x20 and 0x10 for CD)"
+  },
+  {
+    "applyTo": ["spaceDanceGba_pupupupunch2", "spaceDanceJa_pupupupunch2", "spaceDanceEn_pupupupunch2", "spaceDanceGba_pupupupunch2Cosmic", "spaceDanceJa_pupupupunch2Cosmic", "spaceDanceEn_pupupupunch2Cosmic"],
+    "sub": "0x57",
+	"note": "this sub requires 'setrest 0, X' and 'setrest 1, X' for timing (0x18 for SD, 0x20 and 0x10 for CD)"
+  },
+  {
+    "applyTo": ["spaceDanceGba_pupupupunch3", "spaceDanceJa_pupupupunch3", "spaceDanceEn_pupupupunch3", "spaceDanceGba_pupupupunch3Cosmic", "spaceDanceJa_pupupupunch3Cosmic", "spaceDanceEn_pupupupunch3Cosmic"],
+    "sub": "0x58",
+	"note": "this sub requires 'setrest 0, X' and 'setrest 1, X' for timing (0x18 for SD, 0x20 and 0x10 for CD)"
+  },
+  {
+    "applyTo": ["spaceDanceGba_turnright1", "spaceDanceJa_turnright1", "spaceDanceEn_andpose1", "spaceDanceGba_turnright1Cosmic"],
+    "sub": "0x59"
+  },
+  {
+    "applyTo": ["spaceDanceGba_turnright2", "spaceDanceJa_turnright2", "spaceDanceEn_andpose2", "spaceDanceGba_turnright2Cosmic"],
+    "sub": "0x5A"
+  },
+  {
+    "applyTo": ["spaceDanceGba_turnright3", "spaceDanceJa_turnright3", "spaceDanceEn_andpose3", "spaceDanceGba_turnright3Cosmic"],
+    "sub": "0x5B"
+  },
+  {
+    "applyTo": ["spaceDanceGba_letssitdown1", "spaceDanceJa_letssitdown1", "spaceDanceEn_letssitdown1", "spaceDanceGba_letssitdown1Cosmic", "spaceDanceJa_letssitdown1Cosmic", "spaceDanceEn_letssitdown1Cosmic"],
+    "sub": "0x5C",
+	"note": "this sub requires 'setrest 0, X' and 'setrest 1, X' for timing (0x18 for SD, 0x20 and 0x10 for CD)"
+  },
+  {
+    "applyTo": ["spaceDanceGba_letssitdown2", "spaceDanceJa_letssitdown2", "spaceDanceEn_letssitdown2", "spaceDanceGba_letssitdown2Cosmic", "spaceDanceJa_letssitdown2Cosmic", "spaceDanceEn_letssitdown2Cosmic"],
+    "sub": "0x5D",
+	"note": "this sub requires 'setrest 0, X' and 'setrest 1, X' for timing (0x18 for SD, 0x20 and 0x10 for CD)"
+  },
+  {
+    "applyTo": ["spaceDanceGba_letssitdown3", "spaceDanceJa_letssitdown3", "spaceDanceEn_letssitdown3", "spaceDanceGba_letssitdown3Cosmic", "spaceDanceJa_letssitdown3Cosmic", "spaceDanceEn_letssitdown3Cosmic"],
+    "sub": "0x5E",
+	"note": "this sub requires 'setrest 0, X' and 'setrest 1, X' for timing (0x18 for SD, 0x20 and 0x10 for CD)"
+  }
+]
