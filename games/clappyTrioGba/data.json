@@ -1,27 +1,37 @@
 {
-  "series": "tengoku",
   "id": "clappyTrioGba",
   "name": "Clappy Trio (GBA)",
+  "series": "tengoku",
   "objects": [
     {
       "type": "cue",
-      "id": "*/clap",
+      "id": "*/ready",
+      "name": "ready",
       "deprecatedIDs": [],
-      "name": "clap",
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/ready",
+      "id": "*/clap",
+      "name": "clap - others",
       "deprecatedIDs": [],
-      "name": "ready",
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/clapPlayer",
+      "name": "clap - player",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "equidistant",
       "id": "*_triotiming",
-      "deprecatedIDs": [],
       "name": "trio timing!",
+      "deprecatedIDs": [],
       "distance": 1.0,
       "stretchable": true,
       "cues": [
@@ -32,15 +42,16 @@
           "id": "*/clap"
         },
         {
-          "id": "*/clap"
+          "id": "*/clapPlayer"
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "equidistant",
       "id": "*_fouronthefloor",
-      "deprecatedIDs": [],
       "name": "four on the floor!",
+      "deprecatedIDs": [],
       "distance": 1.0,
       "stretchable": true,
       "cues": [
@@ -54,9 +65,10 @@
           "id": "*/clap"
         },
         {
-          "id": "*/clap"
+          "id": "*/clapPlayer"
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }

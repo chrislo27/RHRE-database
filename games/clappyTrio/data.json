@@ -6,23 +6,28 @@
   "objects": [
     {
       "type": "cue",
-      "id": "*/start",
-      "name": "start",
-      "deprecatedIDs": [],
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
       "id": "*/ready",
       "name": "ready",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/sign",
+      "name": "sign",
+      "deprecatedIDs": [
+        "clappyTrio/start"
+      ],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/leftClap",
       "name": "left clap",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25
     },
     {
@@ -32,6 +37,7 @@
       "deprecatedIDs": [
         "clappyTrio/clap"
       ],
+      "subtext": "",
       "duration": 0.25
     },
     {
@@ -39,6 +45,7 @@
       "id": "*/rightClap",
       "name": "right clap",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25
     },
     {
@@ -58,7 +65,8 @@
         {
           "id": "*/rightClap"
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "equidistant",
@@ -80,7 +88,8 @@
         {
           "id": "*/rightClap"
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
