@@ -19,8 +19,26 @@
     },
     {
       "type": "cue",
+      "id": "*/planesSpeedUp",
+      "name": "planes - speed up",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/planesSlowDown",
+      "name": "planes - slow down",
+      "deprecatedIDs": [
+        "airRallyEn/planes"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
       "id": "*/countIn1",
-      "name": "forthington - count in - one",
+      "name": "forthington - count in close - one",
       "deprecatedIDs": [
         "airRallyMegamixEn/countIn1",
         "airRally/countIn1"
@@ -31,7 +49,7 @@
     {
       "type": "cue",
       "id": "*/countIn2",
-      "name": "forthington - count in - two",
+      "name": "forthington - count in close - two",
       "deprecatedIDs": [
         "airRallyMegamixEn/countIn2",
         "airRally/countIn2"
@@ -43,30 +61,132 @@
     {
       "type": "cue",
       "id": "*/countIn3",
-      "name": "forthington - count in - three",
+      "name": "forthington - count in close - three",
       "deprecatedIDs": [
         "airRallyMegamixEn/countIn3",
         "airRally/countIn3"
       ],
       "subtext": "",
       "duration": 0.5,
-      "earliness": 0.0417
+      "earliness": 0.05
     },
     {
       "type": "cue",
       "id": "*/countIn4",
-      "name": "forthington - count in - four",
+      "name": "forthington - count in close - four",
       "deprecatedIDs": [
         "airRallyMegamixEn/countIn4",
         "airRally/countIn4"
       ],
       "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/countIn1Far",
+      "name": "forthington - count in far - one",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
+      "id": "*/countIn2Far",
+      "name": "forthington - count in far - two",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.0208
+    },
+    {
+      "type": "cue",
+      "id": "*/countIn3Far",
+      "name": "forthington - count in far - three",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.05
+    },
+    {
+      "type": "cue",
+      "id": "*/countIn4Far",
+      "name": "forthington - count in far - four",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/countIn1Farther",
+      "name": "forthington - count in farther - one",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/countIn2Farther",
+      "name": "forthington - count in farther - two",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.0208
+    },
+    {
+      "type": "cue",
+      "id": "*/countIn3Farther",
+      "name": "forthington - count in farther - three",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.05
+    },
+    {
+      "type": "cue",
+      "id": "*/countIn4Farther",
+      "name": "forthington - count in farther - four",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/countIn1Farthest",
+      "name": "forthington - count in farthest - one",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/countIn2Farthest",
+      "name": "forthington - count in farthest - two",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.0208
+    },
+    {
+      "type": "cue",
+      "id": "*/countIn3Farthest",
+      "name": "forthington - count in farthest - three",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.05
+    },
+    {
+      "type": "cue",
+      "id": "*/countIn4Farthest",
+      "name": "forthington - count in farthest - four",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
       "id": "*/nya_Close",
-      "name": "forthington - nya - close",
+      "name": "forthington - close nya",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -74,7 +194,7 @@
     {
       "type": "cue",
       "id": "*/nya_Far",
-      "name": "forthington - nya - far",
+      "name": "forthington - far nya",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -82,7 +202,7 @@
     {
       "type": "cue",
       "id": "*/nya_Farther",
-      "name": "forthington - nya - farther",
+      "name": "forthington - farther nya",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -90,7 +210,7 @@
     {
       "type": "cue",
       "id": "*/nya_Farthest",
-      "name": "forthington - nya - farthest",
+      "name": "forthington - farthest nya",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -98,7 +218,7 @@
     {
       "type": "cue",
       "id": "*/hitForth_Close",
-      "name": "forthington - hit - close",
+      "name": "forthington - close hit",
       "deprecatedIDs": [
         "airRallyMegamixEn/hitForth",
         "airRally/hitForth",
@@ -110,7 +230,7 @@
     {
       "type": "cue",
       "id": "*/hitForth_Far",
-      "name": "forthington - hit - far",
+      "name": "forthington - far hit",
       "deprecatedIDs": [
         "airRallyMegamixEn/hitForthFarther",
         "airRally/hitForthFarther",
@@ -122,7 +242,7 @@
     {
       "type": "cue",
       "id": "*/hitForth_Farther",
-      "name": "forthington - hit - farther",
+      "name": "forthington - farther hit",
       "deprecatedIDs": [
         "airRallyMegamixEn/hitForthFar",
         "airRally/hitForthFar",
@@ -134,7 +254,7 @@
     {
       "type": "cue",
       "id": "*/hitForth_Farthest",
-      "name": "forthington - hit - farthest",
+      "name": "forthington - farthest hit",
       "deprecatedIDs": [
         "airRallyMegamixEn/hitForthFurther",
         "airRally/hitForthFurther",
@@ -145,40 +265,95 @@
     },
     {
       "type": "cue",
-      "id": "*/whooshForth_Close",
-      "name": "forthington - whoosh - close",
+      "id": "*/hitForth_Far2",
+      "name": "forthington - ba bum bum bum - far hit",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 0.125
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/hitForth_Farther2",
+      "name": "forthington - ba bum bum bum - farther hit",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/hitForth_Farthest2",
+      "name": "forthington - ba bum bum bum - farthest hit",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/whooshForth_Close",
+      "name": "forthington - close whoosh",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.31
     },
     {
       "type": "cue",
       "id": "*/whooshForth_Far",
-      "name": "forthington - whoosh - far",
+      "name": "forthington - far whoosh",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 0.125
+      "duration": 0.5,
+      "earliness": 0.318
     },
     {
       "type": "cue",
       "id": "*/whooshForth_Farther",
-      "name": "forthington - whoosh - farther",
+      "name": "forthington - farther whoosh",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 0.125
+      "duration": 0.5,
+      "earliness": 0.31
     },
     {
       "type": "cue",
       "id": "*/whooshForth_Farthest",
-      "name": "forthington - whoosh - farthest",
+      "name": "forthington - farthest whoosh",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 0.125
+      "duration": 0.5,
+      "earliness": 0.31
+    },
+    {
+      "type": "cue",
+      "id": "*/whooshForth_Far2",
+      "name": "forthington - ba bum bum bum - far whoosh",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.639
+    },
+    {
+      "type": "cue",
+      "id": "*/whooshForth_Farther2",
+      "name": "forthington - ba bum bum bum - farther whoosh",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.639
+    },
+    {
+      "type": "cue",
+      "id": "*/whooshForth_Farthest2",
+      "name": "forthington - ba bum bum bum - farthest whoosh",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.641
     },
     {
       "type": "cue",
       "id": "*/hitBaxter_Close",
-      "name": "baxter - hit - close",
+      "name": "baxter - close hit",
       "deprecatedIDs": [
         "airRallyMegamixEn/hitBaxter",
         "airRally/hitBaxter",
@@ -190,7 +365,7 @@
     {
       "type": "cue",
       "id": "*/hitBaxter_Far",
-      "name": "baxter - hit - far",
+      "name": "baxter - far hit",
       "deprecatedIDs": [
         "airRallyMegamixEn/hitBaxterFarther",
         "airRally/hitBaxterFarther",
@@ -202,7 +377,7 @@
     {
       "type": "cue",
       "id": "*/hitBaxter_Farther",
-      "name": "baxter - hit - farther",
+      "name": "baxter - farther hit",
       "deprecatedIDs": [
         "airRallyMegamixEn/hitBaxterFar",
         "airRally/hitBaxterFar",
@@ -214,7 +389,7 @@
     {
       "type": "cue",
       "id": "*/hitBaxter_Farthest",
-      "name": "baxter - hit - farthest",
+      "name": "baxter - farthest hit",
       "deprecatedIDs": [
         "airRallyMegamixEn/hitBaxterFurthest",
         "airRally/hitBaxterFurther",
@@ -225,36 +400,39 @@
     },
     {
       "type": "cue",
-      "id": "*/baBumBumBum_FarHit",
-      "name": "ba bum bum bum - far - hit",
+      "id": "*/hitBaxter_Far2",
+      "name": "baxter - ba bum bum bum - far hit",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumFartherHit",
         "airRally/baBumBumBumFartherHit",
-        "airRallyEn/baBumBumBumFartherHit"
+        "airRallyEn/baBumBumBumFartherHit",
+        "airRallyEn/baBumBumBum_FarHit"
       ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/baBumBumBum_FartherHit",
-      "name": "ba bum bum bum - farther - hit",
+      "id": "*/hitBaxter_Farther2",
+      "name": "baxter - ba bum bum bum - farther hit",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumFarHit",
         "airRally/baBumBumBumFarHit",
-        "airRallyEn/baBumBumBumFarHit"
+        "airRallyEn/baBumBumBumFarHit",
+        "airRallyEn/baBumBumBum_FartherHit"
       ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/baBumBumBum_FarthestHit",
-      "name": "ba bum bum bum - farthest - hit",
+      "id": "*/hitBaxter_Farthest2",
+      "name": "baxter - ba bum bum bum - farthest hit",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumFurtherHit",
         "airRally/baBumBumBumFurtherHit",
-        "airRallyEn/baBumBumBumFurtherHit"
+        "airRallyEn/baBumBumBumFurtherHit",
+        "airRallyEn/baBumBumBum_FarthestHit"
       ],
       "subtext": "",
       "duration": 0.5
@@ -310,7 +488,7 @@
     {
       "type": "cue",
       "id": "*/baBumBumBum_Far1",
-      "name": "ba bum bum bum - far - 1",
+      "name": "ba bum bum bum - far - 1 (Fever)",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumFarther1",
         "airRally/baBumBumBumFarther1",
@@ -322,7 +500,7 @@
     {
       "type": "cue",
       "id": "*/baBumBumBum_Far2",
-      "name": "ba bum bum bum - far - 2",
+      "name": "ba bum bum bum - far - 2 (Fever)",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumMedium2",
         "airRally/baBumBumBumFarther2",
@@ -334,7 +512,7 @@
     {
       "type": "cue",
       "id": "*/baBumBumBum_Far3",
-      "name": "ba bum bum bum - far - 3",
+      "name": "ba bum bum bum - far - 3 (Fever)",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumMedium3",
         "airRally/baBumBumBumFarther3",
@@ -346,7 +524,7 @@
     {
       "type": "cue",
       "id": "*/baBumBumBum_Far4",
-      "name": "ba bum bum bum - far - 4",
+      "name": "ba bum bum bum - far - 4 (Fever)",
       "deprecatedIDs": [
         "airRallyMegamixEn/baBumBumBumMedium4",
         "airRally/baBumBumBumFarther4",
@@ -358,7 +536,7 @@
     {
       "type": "cue",
       "id": "*/baBumBumBum_FarAlt1",
-      "name": "ba bum bum bum - far - 1 (alternative)",
+      "name": "ba bum bum bum - far - 1 (Megamix)",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -366,7 +544,7 @@
     {
       "type": "cue",
       "id": "*/baBumBumBum_FarAlt2",
-      "name": "ba bum bum bum - far - 2 (alternative)",
+      "name": "ba bum bum bum - far - 2 (Megamix)",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -374,7 +552,7 @@
     {
       "type": "cue",
       "id": "*/baBumBumBum_FarAlt3",
-      "name": "ba bum bum bum - far - 3 (alternative)",
+      "name": "ba bum bum bum - far - 3 (Megamix)",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -382,7 +560,7 @@
     {
       "type": "cue",
       "id": "*/baBumBumBum_FarAlt4",
-      "name": "ba bum bum bum - far - 4 (alternative)",
+      "name": "ba bum bum bum - far - 4 (Megamix)",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
@@ -484,17 +662,9 @@
       "duration": 0.5
     },
     {
-      "type": "cue",
-      "id": "*/planes",
-      "name": "planes",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
       "type": "pattern",
       "id": "*_countIn2",
-      "name": "count in - 2 beats",
+      "name": "count in - 2 beats - close",
       "deprecatedIDs": [
         "airRallyMegamixEn_countIn2"
       ],
@@ -512,8 +682,59 @@
     },
     {
       "type": "pattern",
+      "id": "*_countIn2Far",
+      "name": "count in - 2 beats - far",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countIn3Far",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countIn4Far",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_countIn2Farther",
+      "name": "count in - 2 beats - farther",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countIn3Farther",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countIn4Farther",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_countIn2Farthest",
+      "name": "count in - 2 beats - farthest",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countIn3Farthest",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countIn4Farthest",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
       "id": "*_countIn4",
-      "name": "count in - 4 beats",
+      "name": "count in - 4 beats - close",
       "deprecatedIDs": [
         "airRallyMegamixEn_countIn4",
         "airRally_countIn4"
@@ -540,8 +761,83 @@
     },
     {
       "type": "pattern",
+      "id": "*_countIn4Far",
+      "name": "count in - 4 beats - far",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countIn1Far",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countIn2Far",
+          "beat": 1.0
+        },
+        {
+          "id": "*/countIn3Far",
+          "beat": 2.0
+        },
+        {
+          "id": "*/countIn4Far",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_countIn4Farther",
+      "name": "count in - 4 beats - farther",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countIn1Farther",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countIn2Farther",
+          "beat": 1.0
+        },
+        {
+          "id": "*/countIn3Farther",
+          "beat": 2.0
+        },
+        {
+          "id": "*/countIn4Farther",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_countIn4Farthest",
+      "name": "count in - 4 beats - farthest",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countIn1Farthest",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countIn2Farthest",
+          "beat": 1.0
+        },
+        {
+          "id": "*/countIn3Farthest",
+          "beat": 2.0
+        },
+        {
+          "id": "*/countIn4Farthest",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
       "id": "*_countIn8",
-      "name": "count in - 8 beats",
+      "name": "count in - 8 beats - close",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -573,8 +869,107 @@
     },
     {
       "type": "pattern",
+      "id": "*_countIn8Far",
+      "name": "count in - 8 beats - far",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countIn1Far",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countIn2Far",
+          "beat": 2.0
+        },
+        {
+          "id": "*/countIn1Far",
+          "beat": 4.0
+        },
+        {
+          "id": "*/countIn2Far",
+          "beat": 5.0
+        },
+        {
+          "id": "*/countIn3Far",
+          "beat": 6.0
+        },
+        {
+          "id": "*/countIn4Far",
+          "beat": 7.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_countIn8Farther",
+      "name": "count in - 8 beats - farther",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countIn1Farther",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countIn2Farther",
+          "beat": 2.0
+        },
+        {
+          "id": "*/countIn1Farther",
+          "beat": 4.0
+        },
+        {
+          "id": "*/countIn2Farther",
+          "beat": 5.0
+        },
+        {
+          "id": "*/countIn3Farther",
+          "beat": 6.0
+        },
+        {
+          "id": "*/countIn4Farther",
+          "beat": 7.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_countIn8Farthest",
+      "name": "count in - 8 beats - farthest",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countIn1Farthest",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countIn2Farthest",
+          "beat": 2.0
+        },
+        {
+          "id": "*/countIn1Farthest",
+          "beat": 4.0
+        },
+        {
+          "id": "*/countIn2Farthest",
+          "beat": 5.0
+        },
+        {
+          "id": "*/countIn3Farthest",
+          "beat": 6.0
+        },
+        {
+          "id": "*/countIn4Farthest",
+          "beat": 7.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
       "id": "*_countIn3",
-      "name": "count in - ba bum bum bum",
+      "name": "count in - ba bum bum bum - close",
       "deprecatedIDs": [
         "airRallyMegamixEn_countIn3",
         "airRally_countIn3"
@@ -596,37 +991,99 @@
       "subtext": ""
     },
     {
+      "type": "pattern",
+      "id": "*_countIn3Far",
+      "name": "count in - ba bum bum bum - far",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countIn2Far",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countIn3Far",
+          "beat": 1.0
+        },
+        {
+          "id": "*/countIn4Far",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_countIn3Farther",
+      "name": "count in - ba bum bum bum - farther",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countIn2Farther",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countIn3Farther",
+          "beat": 1.0
+        },
+        {
+          "id": "*/countIn4Farther",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_countIn3Farthest",
+      "name": "count in - ba bum bum bum - farthest",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countIn2Farthest",
+          "beat": 0.0
+        },
+        {
+          "id": "*/countIn3Farthest",
+          "beat": 1.0
+        },
+        {
+          "id": "*/countIn4Farthest",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
       "type": "keepTheBeat",
-      "id": "*_rallyClose",
+      "id": "*_rally_Close",
       "name": "rally - close",
       "deprecatedIDs": [
         "airRallyMegamixEn_rally",
         "airRally_rally",
-        "airRallyEn_rally"
+        "airRallyEn_rally",
+        "airRallyEn_rallyClose"
       ],
       "defaultDuration": 2.0,
       "cues": [
         {
           "id": "*/nya_Close",
           "beat": 0.0,
-          "duration": 0.5
+          "track": 1
         },
         {
           "id": "*/hitForth_Close",
           "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
+          "duration": 0.5
         },
         {
           "id": "*/whooshForth_Close",
-          "beat": 0.5,
-          "duration": 0.125
+          "beat": 1.0,
+          "track": 1
         },
         {
           "id": "*/hitBaxter_Close",
           "beat": 1.0,
-          "duration": 0.5,
-          "track": 1
+          "duration": 0.5
         }
       ],
       "subtext": ""
@@ -645,24 +1102,22 @@
         {
           "id": "*/nya_Far",
           "beat": 0.0,
-          "duration": 0.375
+          "track": 1
         },
         {
           "id": "*/hitForth_Far",
           "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
+          "duration": 0.5
         },
         {
           "id": "*/whooshForth_Far",
-          "beat": 0.375,
-          "duration": 0.125
+          "beat": 1.0,
+          "track": 1
         },
         {
           "id": "*/hitBaxter_Far",
           "beat": 1.0,
-          "duration": 0.5,
-          "track": 1
+          "duration": 0.5
         }
       ],
       "subtext": ""
@@ -681,24 +1136,22 @@
         {
           "id": "*/nya_Farther",
           "beat": 0.0,
-          "duration": 0.375
+          "track": 1
         },
         {
           "id": "*/hitForth_Farther",
           "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
+          "duration": 0.5
         },
         {
           "id": "*/whooshForth_Farther",
-          "beat": 0.375,
-          "duration": 0.125
+          "beat": 1.0,
+          "track": 1
         },
         {
           "id": "*/hitBaxter_Farther",
           "beat": 1.0,
-          "duration": 0.5,
-          "track": 1
+          "duration": 0.5
         }
       ],
       "subtext": ""
@@ -717,24 +1170,22 @@
         {
           "id": "*/nya_Farthest",
           "beat": 0.0,
-          "duration": 0.375
+          "track": 1
         },
         {
           "id": "*/hitForth_Farthest",
           "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
+          "duration": 0.5
         },
         {
           "id": "*/whooshForth_Farthest",
-          "beat": 0.375,
-          "duration": 0.125
+          "beat": 1.0,
+          "track": 1
         },
         {
           "id": "*/hitBaxter_Farthest",
           "beat": 1.0,
-          "duration": 0.5,
-          "track": 1
+          "duration": 0.5
         }
       ],
       "subtext": ""
@@ -753,8 +1204,8 @@
         },
         {
           "id": "*/whooshForth_Close",
-          "beat": 0.5,
-          "duration": 0.125
+          "beat": 1.0,
+          "track": 1
         },
         {
           "id": "*/hitBaxter_Close",
@@ -778,8 +1229,8 @@
         },
         {
           "id": "*/whooshForth_Far",
-          "beat": 0.375,
-          "duration": 0.125
+          "beat": 1.0,
+          "track": 1
         },
         {
           "id": "*/hitBaxter_Far",
@@ -803,8 +1254,8 @@
         },
         {
           "id": "*/whooshForth_Farther",
-          "beat": 0.375,
-          "duration": 0.125
+          "beat": 1.0,
+          "track": 1
         },
         {
           "id": "*/hitBaxter_Farther",
@@ -828,8 +1279,8 @@
         },
         {
           "id": "*/whooshForth_Farthest",
-          "beat": 0.375,
-          "duration": 0.125
+          "beat": 1.0,
+          "track": 1
         },
         {
           "id": "*/hitBaxter_Farthest",
@@ -875,13 +1326,12 @@
         },
         {
           "id": "*/whooshForth_Close",
-          "beat": 3.375,
+          "beat": 3.5,
           "track": 1
         },
         {
           "id": "*/hitBaxter_Close",
-          "beat": 4.5,
-          "track": 1
+          "beat": 4.5
         }
       ],
       "subtext": ""
@@ -889,7 +1339,7 @@
     {
       "type": "pattern",
       "id": "*_baBumBumBum_Far",
-      "name": "ba bum bum bum - far",
+      "name": "ba bum bum bum - far (Fever)",
       "deprecatedIDs": [
         "airRallyMegamixEn_baBumBumBumFarther",
         "airRally_baBumBumBumFarther",
@@ -917,18 +1367,17 @@
           "track": 1
         },
         {
-          "id": "*/hitForth_Far",
+          "id": "*/hitForth_Far2",
           "beat": 2.5
         },
         {
-          "id": "*/whooshForth_Far",
-          "beat": 3.375,
+          "id": "*/whooshForth_Far2",
+          "beat": 4.5,
           "track": 1
         },
         {
-          "id": "*/baBumBumBum_FarHit",
-          "beat": 4.5,
-          "track": 1
+          "id": "*/hitBaxter_Far2",
+          "beat": 4.5
         }
       ],
       "subtext": ""
@@ -936,7 +1385,7 @@
     {
       "type": "pattern",
       "id": "*_baBumBumBum_FarAlt",
-      "name": "ba bum bum bum - far (alternative)",
+      "name": "ba bum bum bum - far (Megamix)",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -960,18 +1409,17 @@
           "track": 1
         },
         {
-          "id": "*/hitForth_Far",
+          "id": "*/hitForth_Far2",
           "beat": 2.5
         },
         {
-          "id": "*/whooshForth_Far",
-          "beat": 3.375,
+          "id": "*/whooshForth_Far2",
+          "beat": 4.5,
           "track": 1
         },
         {
-          "id": "*/baBumBumBum_FarHit",
-          "beat": 4.5,
-          "track": 1
+          "id": "*/hitBaxter_Far2",
+          "beat": 4.5
         }
       ],
       "subtext": ""
@@ -979,7 +1427,7 @@
     {
       "type": "pattern",
       "id": "*_baBumBumBum_Farther",
-      "name": "ba bum bum bum - further",
+      "name": "ba bum bum bum - farther",
       "deprecatedIDs": [
         "airRallyMegamixEn_baBumBumBumFar",
         "airRally_baBumBumBumFar",
@@ -1007,18 +1455,17 @@
           "track": 1
         },
         {
-          "id": "*/hitForth_Farther",
+          "id": "*/hitForth_Farther2",
           "beat": 2.5
         },
         {
-          "id": "*/whooshForth_Farther",
-          "beat": 3.375,
+          "id": "*/whooshForth_Farther2",
+          "beat": 4.5,
           "track": 1
         },
         {
-          "id": "*/baBumBumBum_FartherHit",
-          "beat": 4.5,
-          "track": 1
+          "id": "*/hitBaxter_Farther2",
+          "beat": 4.5
         }
       ],
       "subtext": ""
@@ -1054,18 +1501,17 @@
           "track": 1
         },
         {
-          "id": "*/hitForth_Farthest",
+          "id": "*/hitForth_Farthest2",
           "beat": 2.5
         },
         {
-          "id": "*/whooshForth_Farthest",
-          "beat": 3.375,
+          "id": "*/whooshForth_Farthest2",
+          "beat": 4.5,
           "track": 1
         },
         {
-          "id": "*/baBumBumBum_FarthestHit",
-          "beat": 4.5,
-          "track": 1
+          "id": "*/hitBaxter_Farthest2",
+          "beat": 4.5
         }
       ],
       "subtext": ""
