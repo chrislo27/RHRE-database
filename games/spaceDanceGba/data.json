@@ -1,132 +1,249 @@
 {
-  "series": "tengoku",
   "id": "spaceDanceGba",
   "name": "Space Dance (GBA)",
+  "series": "tengoku",
   "objects": [
     {
       "type": "cue",
       "id": "*/turn1",
-      "deprecatedIDs": [],
       "name": "dancers - turn right - turn",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/turnCosmic",
-      "deprecatedIDs": [],
+      "id": "*/turn1Cosmic",
       "name": "dancers - turn right - turn (cosmic)",
+      "deprecatedIDs": [
+        "spaceDanceGba/turnCosmic"
+      ],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/right1",
-      "deprecatedIDs": [],
       "name": "dancers - turn right - right",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/turn2",
       "deprecatedIDs": [],
-      "name": "gramps - turn max - turn",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/right2",
-      "deprecatedIDs": [],
-      "name": "gramps - turn max - max",
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/lets1",
-      "deprecatedIDs": [],
       "name": "dancers - let's sit down - let's",
-      "duration": 0.5
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.05
     },
     {
       "type": "cue",
       "id": "*/sit1",
-      "deprecatedIDs": [],
       "name": "dancers - let's sit down - sit",
-      "duration": 0.333
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.333,
+      "earliness": 0.05
     },
     {
       "type": "cue",
       "id": "*/down1",
-      "deprecatedIDs": [],
       "name": "dancers - let's sit down - down",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/lets2",
       "deprecatedIDs": [],
-      "name": "gramps - let's sit down - let's",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/sit2",
-      "deprecatedIDs": [],
-      "name": "gramps - let's sit down - sit",
-      "duration": 0.333
-    },
-    {
-      "type": "cue",
-      "id": "*/down2",
-      "deprecatedIDs": [],
-      "name": "gramps - let's sit down - down",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/pa1",
-      "deprecatedIDs": [],
-      "name": "dancers - pu-pu-pu-punch - pu- (high)",
-      "duration": 0.333
-    },
-    {
-      "type": "cue",
-      "id": "*/pa1b",
-      "deprecatedIDs": [],
-      "name": "dancers - pu-pu-pu-punch - pu- (low)",
+      "name": "dancers - pu-pu-pu-punch - pu-",
+      "deprecatedIDs": [
+        "spaceDanceGba/pa1b"
+      ],
+      "subtext": "",
       "duration": 0.333
     },
     {
       "type": "cue",
       "id": "*/punch1",
-      "deprecatedIDs": [],
       "name": "dancers - pu-pu-pu-punch - punch",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/turn2",
+      "name": "gramps - turn right - turn",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/turn2Cosmic",
+      "name": "gramps - turn right - turn (cosmic)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/right2",
+      "name": "gramps - turn right - right",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/lets2",
+      "name": "gramps - let's sit down - let's",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.02
+    },
+    {
+      "type": "cue",
+      "id": "*/sit2",
+      "name": "gramps - let's sit down - sit",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.333,
+      "earliness": 0.058
+    },
+    {
+      "type": "cue",
+      "id": "*/down2",
+      "name": "gramps - let's sit down - down",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/pa2",
-      "deprecatedIDs": [],
-      "name": "gramps - pu-pu-pu-punch - pu- (high)",
-      "duration": 0.333
-    },
-    {
-      "type": "cue",
-      "id": "*/pa2b",
-      "deprecatedIDs": [],
-      "name": "gramps - pu-pu-pu-punch - pu- (low)",
+      "name": "gramps - pu-pu-pu-punch - pu-",
+      "deprecatedIDs": [
+        "spaceDanceGba/pa2b"
+      ],
+      "subtext": "",
       "duration": 0.333
     },
     {
       "type": "cue",
       "id": "*/punch2",
-      "deprecatedIDs": [],
       "name": "gramps - pu-pu-pu-punch - punch",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/turn3",
+      "name": "dancers and gramps - turn right - turn",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/turn3Cosmic",
+      "name": "dancers and gramps - turn right - turn (cosmic)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/right3",
+      "name": "dancers and gramps - turn right - right",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/lets3",
+      "name": "dancers and gramps - let's sit down - let's",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.05
+    },
+    {
+      "type": "cue",
+      "id": "*/sit3",
+      "name": "dancers and gramps - let's sit down - sit",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.33333334,
+      "earliness": 0.058
+    },
+    {
+      "type": "cue",
+      "id": "*/down3",
+      "name": "dancers and gramps - let's sit down - down",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/pa3",
+      "name": "dancers and gramps - pu-pu-pu-punch - pu-",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.333333
+    },
+    {
+      "type": "cue",
+      "id": "*/punch3",
+      "name": "dancers and gramps - pu-pu-pu-punch - punch",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.3333
+    },
+    {
+      "type": "cue",
+      "id": "*/countOne",
+      "name": "count-in - one",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/countTwo",
+      "name": "count-in - two",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/countThree",
+      "name": "count-in - three",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/countUgh",
+      "name": "count-in - ugh",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "pattern",
       "id": "*_turnright1",
-      "deprecatedIDs": [],
       "name": "dancers - and pose",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/turn1",
@@ -136,13 +253,14 @@
           "id": "*/right1",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_letssitdown1",
-      "deprecatedIDs": [],
       "name": "dancers - let's sit down",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/lets1",
@@ -156,20 +274,21 @@
           "id": "*/down1",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_pupupupunch1",
-      "deprecatedIDs": [],
       "name": "dancers - pu-pu-pu-punch",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/pa1",
           "beat": 0.0
         },
         {
-          "id": "*/pa1b",
+          "id": "*/pa1",
           "beat": 0.5
         },
         {
@@ -180,13 +299,14 @@
           "id": "*/punch1",
           "beat": 1.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_turnright2",
-      "deprecatedIDs": [],
       "name": "gramps - and pose",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/turn2",
@@ -196,13 +316,14 @@
           "id": "*/right2",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_letssitdown2",
-      "deprecatedIDs": [],
       "name": "gramps - let's sit down",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/lets2",
@@ -216,20 +337,21 @@
           "id": "*/down2",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_pupupupunch2",
-      "deprecatedIDs": [],
       "name": "gramps - pu-pu-pu-punch",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/pa2",
           "beat": 0.0
         },
         {
-          "id": "*/pa2b",
+          "id": "*/pa2",
           "beat": 0.5
         },
         {
@@ -240,29 +362,98 @@
           "id": "*/punch2",
           "beat": 1.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_turnright1cosmic",
+      "id": "*_turnright3",
+      "name": "dancers and gramps - and pose",
       "deprecatedIDs": [],
-      "name": "dancers - turn right (cosmic)",
       "cues": [
         {
-          "id": "*/turnCosmic",
+          "id": "*/turn3",
+          "beat": 0.0
+        },
+        {
+          "id": "*/right3",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_letssitdown3",
+      "name": "dancers and gramps - let's sit down",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/lets3",
+          "beat": 0.0
+        },
+        {
+          "id": "*/sit3",
+          "beat": 0.5
+        },
+        {
+          "id": "*/down3",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_pupupupunch3",
+      "name": "dancers and gramps - pu-pu-pu-punch",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/pa3",
+          "beat": 0.0
+        },
+        {
+          "id": "*/pa3",
+          "beat": 0.5
+        },
+        {
+          "id": "*/pa3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/punch3",
+          "beat": 1.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_turnright1Cosmic",
+      "name": "dancers - and pose (cosmic)",
+      "deprecatedIDs": [
+        "spaceDanceGba_turnright1cosmic"
+      ],
+      "cues": [
+        {
+          "id": "*/turn1Cosmic",
           "beat": 0.0
         },
         {
           "id": "*/right1",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_letssitdown1cosmic",
-      "deprecatedIDs": [],
+      "id": "*_letssitdown1Cosmic",
       "name": "dancers - let's sit down (cosmic)",
+      "deprecatedIDs": [
+        "spaceDanceGba_letssitdown1cosmic"
+      ],
       "cues": [
         {
           "id": "*/lets1",
@@ -276,20 +467,23 @@
           "id": "*/down1",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_pupupupunch1cosmic",
-      "deprecatedIDs": [],
+      "id": "*_pupupupunch1Cosmic",
       "name": "dancers - pu-pu-pu-punch (cosmic)",
+      "deprecatedIDs": [
+        "spaceDanceGba_pupupupunch1cosmic"
+      ],
       "cues": [
         {
           "id": "*/pa1",
           "beat": 0.0
         },
         {
-          "id": "*/pa1b",
+          "id": "*/pa1",
           "beat": 0.667
         },
         {
@@ -300,13 +494,33 @@
           "id": "*/punch1",
           "beat": 1.667
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_letssitdown2cosmic",
+      "id": "*_turnright2Cosmic",
+      "name": "gramps - and pose (cosmic)",
       "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/turn2Cosmic",
+          "beat": 0.0
+        },
+        {
+          "id": "*/right2",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_letssitdown2Cosmic",
       "name": "gramps - let's sit down (cosmic)",
+      "deprecatedIDs": [
+        "spaceDanceGba_letssitdown2cosmic"
+      ],
       "cues": [
         {
           "id": "*/lets2",
@@ -320,20 +534,23 @@
           "id": "*/down2",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_pupupupunch2cosmic",
-      "deprecatedIDs": [],
+      "id": "*_pupupupunch2Cosmic",
       "name": "gramps - pu-pu-pu-punch (cosmic)",
+      "deprecatedIDs": [
+        "spaceDanceGba_pupupupunch2cosmic"
+      ],
       "cues": [
         {
           "id": "*/pa2",
           "beat": 0.0
         },
         {
-          "id": "*/pa2b",
+          "id": "*/pa2",
           "beat": 0.667
         },
         {
@@ -344,7 +561,96 @@
           "id": "*/punch2",
           "beat": 1.667
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_turnright3Cosmic",
+      "name": "dancers and gramps - and pose (cosmic)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/turn3Cosmic",
+          "beat": 0.0
+        },
+        {
+          "id": "*/right3",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_letssitdown3Cosmic",
+      "name": "dancers and gramps - let's sit down (cosmic)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/lets3",
+          "beat": 0.0
+        },
+        {
+          "id": "*/sit3",
+          "beat": 0.667
+        },
+        {
+          "id": "*/down3",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_pupupupunch3Cosmic",
+      "name": "dancers and gramps - pu-pu-pu-punch (cosmic)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/pa3",
+          "beat": 0.0
+        },
+        {
+          "id": "*/pa3",
+          "beat": 0.667
+        },
+        {
+          "id": "*/pa3",
+          "beat": 1.0
+        },
+        {
+          "id": "*/punch3",
+          "beat": 1.667
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_countIn",
+      "name": "count-in",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/countOne",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/countTwo",
+          "beat": 1.0
+        },
+        {
+          "id": "*/countThree",
+          "beat": 2.0
+        },
+        {
+          "id": "*/countUgh",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
     }
   ]
 }
