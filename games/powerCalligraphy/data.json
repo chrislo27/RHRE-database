@@ -12,7 +12,8 @@
       "subtext": "",
       "duration": 2.0,
       "loops": true,
-      "loopEnd": -1.0
+      "loopStart": 10.0,
+      "loopEnd": 11.0
     },
     {
       "type": "cue",
@@ -579,11 +580,12 @@
         },
         {
           "id": "*/brush3",
-          "beat": 7.25
+          "beat": 7.3333335
         },
         {
           "id": "*/brushTap",
-          "beat": 7.5
+          "beat": 7.6666665,
+          "duration": 0.3333333
         },
         {
           "id": "*/releaseA1",
@@ -616,55 +618,55 @@
         },
         {
           "id": "*/brush3",
-          "beat": 3.0
+          "beat": 2.5
         },
         {
           "id": "*/brush3",
+          "beat": 3.25
+        },
+        {
+          "id": "*/brush1",
           "beat": 4.0
         },
         {
           "id": "*/brush1",
+          "beat": 4.5
+        },
+        {
+          "id": "*/brush2",
           "beat": 5.0
         },
         {
-          "id": "*/brush1",
+          "id": "*/brush2",
           "beat": 5.5
         },
         {
-          "id": "*/brush2",
+          "id": "*/brush1",
           "beat": 6.0
         },
         {
-          "id": "*/brush2",
+          "id": "*/brush1",
           "beat": 6.5
         },
         {
-          "id": "*/brush1",
+          "id": "*/brush3",
           "beat": 7.0
         },
         {
-          "id": "*/brush1",
-          "beat": 7.5
-        },
-        {
           "id": "*/brush3",
-          "beat": 8.0
-        },
-        {
-          "id": "*/brush3",
-          "beat": 8.25
+          "beat": 7.25
         },
         {
           "id": "*/brushTap",
-          "beat": 8.5
+          "beat": 7.5
         },
         {
           "id": "*/releaseA1",
-          "beat": 9.0
+          "beat": 8.0
         },
         {
           "id": "*/releaseA2",
-          "beat": 11.0
+          "beat": 10.0
         }
       ],
       "subtext": ""
@@ -689,55 +691,56 @@
         },
         {
           "id": "*/brush3",
-          "beat": 3.0
+          "beat": 2.6666667
         },
         {
           "id": "*/brush3",
+          "beat": 3.3333333
+        },
+        {
+          "id": "*/brush1",
           "beat": 4.0
         },
         {
           "id": "*/brush1",
+          "beat": 4.625
+        },
+        {
+          "id": "*/brush2",
           "beat": 5.0
         },
         {
-          "id": "*/brush1",
+          "id": "*/brush2",
           "beat": 5.625
         },
         {
-          "id": "*/brush2",
+          "id": "*/brush1",
           "beat": 6.0
         },
         {
-          "id": "*/brush2",
+          "id": "*/brush1",
           "beat": 6.625
         },
         {
-          "id": "*/brush1",
+          "id": "*/brush3",
           "beat": 7.0
         },
         {
-          "id": "*/brush1",
-          "beat": 7.625
-        },
-        {
           "id": "*/brush3",
-          "beat": 8.0
-        },
-        {
-          "id": "*/brush3",
-          "beat": 8.25
+          "beat": 7.3333335
         },
         {
           "id": "*/brushTap",
-          "beat": 8.5
+          "beat": 7.6666665,
+          "duration": 0.33333334
         },
         {
           "id": "*/releaseA1",
-          "beat": 9.0
+          "beat": 8.0
         },
         {
           "id": "*/releaseA2",
-          "beat": 11.0
+          "beat": 10.0
         }
       ],
       "subtext": ""
