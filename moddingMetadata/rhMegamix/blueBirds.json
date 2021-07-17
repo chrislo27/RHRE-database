@@ -1,0 +1,19 @@
+[
+  {
+    "applyTo": ["blueBirdsEn", "blueBirdsJa", "blueBirdsKo", "blueBirdsEs", "blueBirdsFr", "blueBirdsDe", "blueBirdsMegamixEn", "blueBirdsMegamixJa", "blueBirdsMegamixKo", "blueBirdsMegamixEs", "blueBirdsMegamixFr", "blueBirdsMegamixDe", "blueBirdsMegamixIt"],
+    "engine": "0x10",
+    "name": "ntrBlueBirds",
+    "tempoFile": "1000073",
+    "index": "0x1F"
+  },
+  {
+    "applyTo": ["blueBirdsEn_peckyourbeak", "blueBirdsJa_peckyourbeak", "blueBirdsKo_peckyourbeak", "blueBirdsEs_peckyourbeak", "blueBirdsFr_peckyourbeak", "blueBirdsDe_peckyourbeak", "blueBirdsMegamixEn_peckyourbeak", "blueBirdsMegamixJa_peckyourbeak", "blueBirdsMegamixKo_peckyourbeak", "blueBirdsMegamixEs_peckyourbeak", "blueBirdsMegamixFr_peckyourbeak", "blueBirdsMegamixDe_peckyourbeak", "blueBirdsMegamixIt_peckyourbeak"],
+    "sub": "0x56/0x61",
+	"note": "0x61 has no preparation animation"
+  },
+  {
+    "applyTo": ["blueBirdsEn_stretchoutyourneck", "blueBirdsJa_stretchoutyourneck", "blueBirdsKo_stretchoutyourneck", "blueBirdsEs_stretchoutyourneck", "blueBirdsFr_stretchoutyourneck", "blueBirdsDe_stretchoutyourneck", "blueBirdsMegamixEn_stretchoutyourneck", "blueBirdsMegamixJa_stretchoutyourneck", "blueBirdsMegamixKo_stretchoutyourneck", "blueBirdsMegamixEs_stretchoutyourneck", "blueBirdsMegamixFr_stretchoutyourneck", "blueBirdsMegamixDe_stretchoutyourneck", "blueBirdsMegamixIt_stretchoutyourneck"],
+    "sub": "0x5B/0x5F",
+	"note": "0x5F has no preparation animation"
+  }
+]
