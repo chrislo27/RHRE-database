@@ -56,28 +56,36 @@
       "stretchable": true,
       "cues": [
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/hit"
+          "id": "*/hit",
+          "beat": 1.4E-45
         }
       ],
       "subtext": ""
@@ -91,28 +99,36 @@
       "stretchable": true,
       "cues": [
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading4"
+          "id": "*_fading4",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading7"
+          "id": "*_fading7",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/hit"
+          "id": "*/hit",
+          "beat": 1.4E-45
         }
       ],
       "subtext": ""
@@ -126,28 +142,36 @@
       "stretchable": true,
       "cues": [
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading2"
+          "id": "*_fading2",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading5"
+          "id": "*_fading5",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading8"
+          "id": "*_fading8",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading11"
+          "id": "*_fading11",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/hit"
+          "id": "*/hit",
+          "beat": 1.4E-45
         }
       ],
       "subtext": ""
@@ -161,28 +185,36 @@
       "stretchable": true,
       "cues": [
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading4"
+          "id": "*_fading4",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading8"
+          "id": "*_fading8",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/hit"
+          "id": "*/hit",
+          "beat": 1.4E-45
         }
       ],
       "subtext": ""
@@ -196,28 +228,36 @@
       "stretchable": true,
       "cues": [
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading11"
+          "id": "*_fading11",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading9"
+          "id": "*_fading9",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading6"
+          "id": "*_fading6",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading4"
+          "id": "*_fading4",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading1"
+          "id": "*_fading1",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/hit"
+          "id": "*/hit",
+          "beat": 1.4E-45
         }
       ],
       "subtext": ""
@@ -231,28 +271,36 @@
       "stretchable": true,
       "cues": [
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading9"
+          "id": "*_fading9",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading5"
+          "id": "*_fading5",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading4"
+          "id": "*_fading4",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading7"
+          "id": "*_fading7",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading10"
+          "id": "*_fading10",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/hit"
+          "id": "*/hit",
+          "beat": 1.4E-45
         }
       ],
       "subtext": ""
@@ -266,28 +314,36 @@
       "stretchable": true,
       "cues": [
         {
-          "id": "*_fading11"
+          "id": "*_fading11",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading11"
+          "id": "*_fading11",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading12"
+          "id": "*_fading12",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading12"
+          "id": "*_fading12",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading8"
+          "id": "*_fading8",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading4"
+          "id": "*_fading4",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/hit"
+          "id": "*/hit",
+          "beat": 1.4E-45
         }
       ],
       "subtext": ""
@@ -301,28 +357,36 @@
       "stretchable": true,
       "cues": [
         {
-          "id": "*_fading11"
+          "id": "*_fading11",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading12"
+          "id": "*_fading12",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/hit"
+          "id": "*/hit",
+          "beat": 1.4E-45
         }
       ],
       "subtext": ""
@@ -338,28 +402,35 @@
       "stretchable": true,
       "cues": [
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/hit"
+          "id": "*/hit",
+          "beat": 1.4E-45
         }
       ],
-      "subtext": ""
+      "subtext": "(ex. Remix 2 GBA)"
     },
     {
       "type": "equidistant",
@@ -370,28 +441,35 @@
       "stretchable": true,
       "cues": [
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading4"
+          "id": "*_fading4",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading8"
+          "id": "*_fading8",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/hit"
+          "id": "*/hit",
+          "beat": 1.4E-45
         }
       ],
-      "subtext": ""
+      "subtext": "(ex. Barbershop Remix)"
     },
     {
       "type": "equidistant",
@@ -402,28 +480,35 @@
       "stretchable": true,
       "cues": [
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading4"
+          "id": "*_fading4",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/hit"
+          "id": "*/hit",
+          "beat": 1.4E-45
         }
       ],
-      "subtext": ""
+      "subtext": "(ex. Barbershop Remix)"
     },
     {
       "type": "equidistant",
@@ -434,63 +519,78 @@
       "stretchable": true,
       "cues": [
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading11"
+          "id": "*_fading11",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading9"
+          "id": "*_fading9",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading6"
+          "id": "*_fading6",
+          "beat": 1.4E-45
         },
         {
-          "id": "*_fading3"
+          "id": "*_fading3",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/moving"
+          "id": "*/moving",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/hit"
+          "id": "*/hit",
+          "beat": 1.4E-45
         }
       ],
-      "subtext": ""
+      "subtext": "(ex. Barbershop Remix)"
     },
     {
       "type": "equidistant",
       "id": "*_patternUnused",
-      "name": "8 beats - no sound (unused)",
+      "name": "8 beats - no sound",
       "deprecatedIDs": [],
       "distance": 1.0,
       "stretchable": true,
       "cues": [
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/silence"
+          "id": "*/silence",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/hit"
+          "id": "*/hit",
+          "beat": 1.4E-45
         }
       ],
-      "subtext": ""
+      "subtext": "(unused)"
     },
     {
       "type": "pattern",
