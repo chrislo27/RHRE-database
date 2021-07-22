@@ -1,7 +1,8 @@
 {
-  "id": "tangotronic3000",
+  "id": "tangotronic3000Ja",
   "name": "Tangotronic 3000",
   "series": "megamix",
+  "language": "ja",
   "priority": 1,
   "objects": [
     {
@@ -24,9 +25,7 @@
       "type": "cue",
       "id": "*/2step1",
       "name": "2-step - 1",
-      "deprecatedIDs": [
-        "tangotronic3000/2step1loop"
-      ],
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5,
       "stretchable": true,
@@ -158,9 +157,7 @@
       "type": "cue",
       "id": "*/twirlStart",
       "name": "twirl - start",
-      "deprecatedIDs": [
-        "tangotronic3000/twirlLoop"
-      ],
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.083
     },
@@ -272,9 +269,7 @@
       "type": "pattern",
       "id": "*_2StepCorte1",
       "name": "2-step corte",
-      "deprecatedIDs": [
-        "tangotronic3000_2StepCorte"
-      ],
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/whistle1",

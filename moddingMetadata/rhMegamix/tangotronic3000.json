@@ -1,22 +1,22 @@
 [
   {
-    "applyTo": ["tangotronic3000"],
+    "applyTo": ["tangotronic3000En", "tangotronic3000Ja"],
     "engine": "0x3D",
     "name": "ctrTango",
     "tempoFile": "10000C1",
     "index": "0x4B"
   },
   {
-    "applyTo": ["tangotronic3000_2StepCorte1", "tangotronic3000_2StepCorte2"],
+    "applyTo": ["tangotronic3000En_2StepCorte1", "tangotronic3000En_2StepCorte2", "tangotronic3000Ja_2StepCorte1", "tangotronic3000Ja_2StepCorte2"],
     "sub": "0x61-0x66",
 	"note": "Different subs result in different poses"
   },
   {
-    "applyTo": ["tangotronic3000_3StepColgada"],
+    "applyTo": ["tangotronic3000En_3StepColgada", "tangotronic3000Ja_3StepColgada"],
     "sub": "0x68"
   },
   {
-    "applyTo": ["tangotronic3000_twirl"],
+    "applyTo": ["tangotronic3000En_twirl", "tangotronic3000Ja_twirl", "tangotronic3000En_twirlNoAudience", "tangotronic3000Ja_twirlNoAudience"],
     "sub": "0x58-0x5B",
 	"note": "Different subs result in different poses"
   }

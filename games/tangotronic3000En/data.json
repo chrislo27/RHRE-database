@@ -1,0 +1,613 @@
+{
+  "id": "tangotronic3000En",
+  "name": "Tangotronic 3000",
+  "series": "megamix",
+  "language": "en",
+  "groupDefault": true,
+  "priority": 1,
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/whistle1",
+      "name": "whistle - 1",
+      "deprecatedIDs": [
+        "tangotronic3000/whistle1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/whistle2",
+      "name": "whistle - 2",
+      "deprecatedIDs": [
+        "tangotronic3000/whistle2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/2step1",
+      "name": "2-step - 1",
+      "deprecatedIDs": [
+        "tangotronic3000/2step1loop",
+        "tangotronic3000/2step1"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "stretchable": true,
+      "loops": true,
+      "loopStart": 0.181,
+      "loopEnd": 0.748
+    },
+    {
+      "type": "cue",
+      "id": "*/2stepWhirl1",
+      "name": "2-step - whirl 1",
+      "deprecatedIDs": [
+        "tangotronic3000/2stepWhirl1"
+      ],
+      "subtext": "",
+      "duration": 0.166
+    },
+    {
+      "type": "cue",
+      "id": "*/2stepWhirl2",
+      "name": "2-step - whirl 2",
+      "deprecatedIDs": [
+        "tangotronic3000/2stepWhirl2"
+      ],
+      "subtext": "",
+      "duration": 0.166
+    },
+    {
+      "type": "cue",
+      "id": "*/2step2",
+      "name": "2-step - 2",
+      "deprecatedIDs": [
+        "tangotronic3000/2step2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/2step3",
+      "name": "2-step - 2 (whistle)",
+      "deprecatedIDs": [
+        "tangotronic3000/2step3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/tock",
+      "name": "3-step - signal",
+      "deprecatedIDs": [
+        "tangotronic3000/tock"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/3step1",
+      "name": "3-step - 1",
+      "deprecatedIDs": [
+        "tangotronic3000/3step1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/3step2",
+      "name": "3-step - 2",
+      "deprecatedIDs": [
+        "tangotronic3000/3step2"
+      ],
+      "subtext": "",
+      "duration": 0.083
+    },
+    {
+      "type": "cue",
+      "id": "*/3stepBeep1",
+      "name": "3-step - beep 1",
+      "deprecatedIDs": [
+        "tangotronic3000/3stepBeep1"
+      ],
+      "subtext": "",
+      "duration": 0.083
+    },
+    {
+      "type": "cue",
+      "id": "*/3stepBeep2",
+      "name": "3-step - beep 2",
+      "deprecatedIDs": [
+        "tangotronic3000/3stepBeep2"
+      ],
+      "subtext": "",
+      "duration": 0.083
+    },
+    {
+      "type": "cue",
+      "id": "*/3stepBeep3",
+      "name": "3-step - beep 3",
+      "deprecatedIDs": [
+        "tangotronic3000/3stepBeep3"
+      ],
+      "subtext": "",
+      "duration": 0.083
+    },
+    {
+      "type": "cue",
+      "id": "*/3stepBeep4",
+      "name": "3-step - beep 4",
+      "deprecatedIDs": [
+        "tangotronic3000/3stepBeep4"
+      ],
+      "subtext": "",
+      "duration": 0.083
+    },
+    {
+      "type": "cue",
+      "id": "*/3stepBeep5",
+      "name": "3-step - beep 5",
+      "deprecatedIDs": [
+        "tangotronic3000/3stepBeep5"
+      ],
+      "subtext": "",
+      "duration": 0.083
+    },
+    {
+      "type": "cue",
+      "id": "*/3step3",
+      "name": "3-step - 3",
+      "deprecatedIDs": [
+        "tangotronic3000/3step3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/ready1",
+      "name": "ready - 1",
+      "deprecatedIDs": [
+        "tangotronic3000/ready1"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/ready2",
+      "name": "ready - 2",
+      "deprecatedIDs": [
+        "tangotronic3000/ready2"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/twirlStart",
+      "name": "twirl - start",
+      "deprecatedIDs": [
+        "tangotronic3000/twirlLoop",
+        "tangotronic3000/twirlStart"
+      ],
+      "subtext": "",
+      "duration": 0.083
+    },
+    {
+      "type": "cue",
+      "id": "*/twirl1",
+      "name": "twirl - 1",
+      "deprecatedIDs": [
+        "tangotronic3000/twirl1"
+      ],
+      "subtext": "",
+      "duration": 0.083
+    },
+    {
+      "type": "cue",
+      "id": "*/twirl2",
+      "name": "twirl - 2",
+      "deprecatedIDs": [
+        "tangotronic3000/twirl2"
+      ],
+      "subtext": "",
+      "duration": 0.083
+    },
+    {
+      "type": "cue",
+      "id": "*/twirl3",
+      "name": "twirl - 3",
+      "deprecatedIDs": [
+        "tangotronic3000/twirl3"
+      ],
+      "subtext": "",
+      "duration": 0.083
+    },
+    {
+      "type": "cue",
+      "id": "*/twirl4",
+      "name": "twirl - 4",
+      "deprecatedIDs": [
+        "tangotronic3000/twirl4"
+      ],
+      "subtext": "",
+      "duration": 0.083
+    },
+    {
+      "type": "cue",
+      "id": "*/twirl5",
+      "name": "twirl - 5",
+      "deprecatedIDs": [
+        "tangotronic3000/twirl5"
+      ],
+      "subtext": "",
+      "duration": 0.083
+    },
+    {
+      "type": "cue",
+      "id": "*/twirl6",
+      "name": "twirl - 6",
+      "deprecatedIDs": [
+        "tangotronic3000/twirl6"
+      ],
+      "subtext": "",
+      "duration": 0.083
+    },
+    {
+      "type": "cue",
+      "id": "*/twirl7",
+      "name": "twirl - 7",
+      "deprecatedIDs": [
+        "tangotronic3000/twirl7"
+      ],
+      "subtext": "",
+      "duration": 0.083
+    },
+    {
+      "type": "cue",
+      "id": "*/twirl8",
+      "name": "twirl - 8",
+      "deprecatedIDs": [
+        "tangotronic3000/twirl8"
+      ],
+      "subtext": "",
+      "duration": 0.083
+    },
+    {
+      "type": "cue",
+      "id": "*/twirl9",
+      "name": "twirl - 9",
+      "deprecatedIDs": [
+        "tangotronic3000/twirl9"
+      ],
+      "subtext": "",
+      "duration": 0.083
+    },
+    {
+      "type": "cue",
+      "id": "*/twirl10",
+      "name": "twirl - 10",
+      "deprecatedIDs": [
+        "tangotronic3000/twirl10"
+      ],
+      "subtext": "",
+      "duration": 0.083
+    },
+    {
+      "type": "cue",
+      "id": "*/twirl11",
+      "name": "twirl - 11",
+      "deprecatedIDs": [
+        "tangotronic3000/twirl11"
+      ],
+      "subtext": "",
+      "duration": 0.083
+    },
+    {
+      "type": "cue",
+      "id": "*/twirlStop",
+      "name": "twirl - stop",
+      "deprecatedIDs": [
+        "tangotronic3000/twirlStop"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/audience",
+      "name": "audience cheers",
+      "deprecatedIDs": [
+        "tangotronic3000/audience"
+      ],
+      "subtext": "",
+      "duration": 0.75
+    },
+    {
+      "type": "pattern",
+      "id": "*_2StepCorte1",
+      "name": "2-step corte",
+      "deprecatedIDs": [
+        "tangotronic3000_2StepCorte",
+        "tangotronic3000_2StepCorte1"
+      ],
+      "cues": [
+        {
+          "id": "*/whistle1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/whistle2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/2step1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/2stepWhirl1",
+          "beat": 2.166,
+          "track": 1
+        },
+        {
+          "id": "*/2stepWhirl2",
+          "beat": 2.333,
+          "track": 1
+        },
+        {
+          "id": "*/2step2",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_2StepCorte2",
+      "name": "2-step corte (alternative)",
+      "deprecatedIDs": [
+        "tangotronic3000_2StepCorte2"
+      ],
+      "cues": [
+        {
+          "id": "*/whistle1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/whistle2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/2step1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/2stepWhirl1",
+          "beat": 2.166,
+          "track": 1
+        },
+        {
+          "id": "*/2stepWhirl2",
+          "beat": 2.333,
+          "track": 1
+        },
+        {
+          "id": "*/2step3",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_3StepColgada",
+      "name": "3-step colgada",
+      "deprecatedIDs": [
+        "tangotronic3000_3StepColganda"
+      ],
+      "cues": [
+        {
+          "id": "*/tock",
+          "beat": 0.0
+        },
+        {
+          "id": "*/tock",
+          "beat": 0.5
+        },
+        {
+          "id": "*/tock",
+          "beat": 1.0
+        },
+        {
+          "id": "*/3step1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/3step2",
+          "beat": 2.5
+        },
+        {
+          "id": "*/3step3",
+          "beat": 3.0
+        },
+        {
+          "id": "*/3stepBeep1",
+          "beat": 2.583
+        },
+        {
+          "id": "*/3stepBeep2",
+          "beat": 2.666
+        },
+        {
+          "id": "*/3stepBeep3",
+          "beat": 2.75
+        },
+        {
+          "id": "*/3stepBeep4",
+          "beat": 2.833
+        },
+        {
+          "id": "*/3stepBeep5",
+          "beat": 2.916
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_twirl",
+      "name": "twirl",
+      "deprecatedIDs": [
+        "tangotronic3000_twirl"
+      ],
+      "cues": [
+        {
+          "id": "*/ready1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/ready2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/twirlStart",
+          "beat": 2.0
+        },
+        {
+          "id": "*/twirl1",
+          "beat": 2.083
+        },
+        {
+          "id": "*/twirl2",
+          "beat": 2.166
+        },
+        {
+          "id": "*/twirl3",
+          "beat": 2.25
+        },
+        {
+          "id": "*/twirl4",
+          "beat": 2.333
+        },
+        {
+          "id": "*/twirl5",
+          "beat": 2.416
+        },
+        {
+          "id": "*/twirl6",
+          "beat": 2.5
+        },
+        {
+          "id": "*/twirl7",
+          "beat": 2.583
+        },
+        {
+          "id": "*/twirl8",
+          "beat": 2.666
+        },
+        {
+          "id": "*/twirl9",
+          "beat": 2.75
+        },
+        {
+          "id": "*/twirl10",
+          "beat": 2.833
+        },
+        {
+          "id": "*/twirl11",
+          "beat": 2.916
+        },
+        {
+          "id": "*/twirlStop",
+          "beat": 3.0
+        },
+        {
+          "id": "*/audience",
+          "beat": 3.25,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_twirlNoAudience",
+      "name": "twirl (no audience)",
+      "deprecatedIDs": [
+        "tangotronic3000_twirlNoAudience"
+      ],
+      "cues": [
+        {
+          "id": "*/ready1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/ready2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/twirlStart",
+          "beat": 2.0
+        },
+        {
+          "id": "*/twirl1",
+          "beat": 2.083
+        },
+        {
+          "id": "*/twirl2",
+          "beat": 2.166
+        },
+        {
+          "id": "*/twirl3",
+          "beat": 2.25
+        },
+        {
+          "id": "*/twirl4",
+          "beat": 2.333
+        },
+        {
+          "id": "*/twirl5",
+          "beat": 2.416
+        },
+        {
+          "id": "*/twirl6",
+          "beat": 2.5
+        },
+        {
+          "id": "*/twirl7",
+          "beat": 2.583
+        },
+        {
+          "id": "*/twirl8",
+          "beat": 2.666
+        },
+        {
+          "id": "*/twirl9",
+          "beat": 2.75
+        },
+        {
+          "id": "*/twirl10",
+          "beat": 2.833
+        },
+        {
+          "id": "*/twirl11",
+          "beat": 2.916
+        },
+        {
+          "id": "*/twirlStop",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    }
+  ]
+}
