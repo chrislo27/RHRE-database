@@ -6,237 +6,392 @@
     "bon-odori",
     "the bon odori",
     "the bon-odori",
-    "bon dance"
+    "bon dance",
+	"bon odori"
   ],
   "objects": [
     {
       "type": "cue",
-      "id": "*/clap",
-      "deprecatedIDs": [],
-      "name": "clap",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/don1",
+      "id": "*/clapPlayer",
       "deprecatedIDs": [
-        "bonOdori/dondon1"
-      ],
-      "name": "don - 1",
+	    "bonOdori/clap"
+	  ],
+      "name": "clap - player",
+      "duration": 1.0
+    },
+	{
+      "type": "cue",
+      "id": "*/clapDonpans",
+      "deprecatedIDs": [],
+      "name": "clap - donpans",
       "duration": 1.0,
-      "repitchable": true
+	  "earliness": 0.02
     },
     {
       "type": "cue",
-      "id": "*/don2",
+      "id": "*/donnG",
       "deprecatedIDs": [
-        "bonOdori/dondon2"
+        "bonOdori/dondon1",
+		"bonOdori/don1"
       ],
-      "name": "don - 2",
+      "name": "don~ - G",
       "duration": 1.0,
-      "repitchable": true
+      "repitchable": true,
+	  "earliness": 0.115,
+	  "writtenPitch": -5
     },
     {
       "type": "cue",
-      "id": "*/don3",
-      "deprecatedIDs": [],
-      "name": "don - 3",
+      "id": "*/donnA",
+      "deprecatedIDs": [
+        "bonOdori/dondon2",
+		"bonOdori/don2"
+      ],
+      "name": "don~ - A",
       "duration": 1.0,
-      "repitchable": true
+      "repitchable": true,
+	  "earliness": 0.035,
+	  "writtenPitch": -3
     },
     {
       "type": "cue",
-      "id": "*/don4",
-      "deprecatedIDs": [],
-      "name": "don - 4",
+      "id": "*/donA",
+      "deprecatedIDs": [
+	    "bonOdori/don3"
+	  ],
+      "name": "don - A",
       "duration": 1.0,
-      "repitchable": true
+      "repitchable": true,
+	  "earliness": 0.03,
+	  "writtenPitch": -3
     },
     {
       "type": "cue",
-      "id": "*/dondo1",
+      "id": "*/donD",
+      "deprecatedIDs": [
+	    "bonOdori/don4"
+	  ],
+      "name": "don - D",
+      "duration": 1.0,
+      "repitchable": true,
+	  "earliness": 0.045,
+	  "writtenPitch": 2,
+	  "loops": true,
+	  "loopStart": 1.0,
+	  "loopEnd": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/dondoG1",
+      "deprecatedIDs": [
+	    "bonOdori/dondo1"
+	  ],
+      "name": "dondo - G - 1",
+      "duration": 0.6666666,
+      "repitchable": true,
+	  "earliness": 0.02,
+	  "writtenPitch": -5,
+	  "loops": true,
+	  "loopStart": 1.0,
+	  "loopEnd": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/dondoG2",
+      "deprecatedIDs": [
+	    "bonOdori/do1"
+	  ],
+      "name": "dondo - G - 2",
+      "duration": 0.3333333,
+      "repitchable": true,
+	  "earliness": 0.02,
+	  "writtenPitch": -5,
+	  "loops": true,
+	  "loopStart": 1.0,
+	  "loopEnd": 1.0
+    },
+	{
+      "type": "cue",
+      "id": "*/dondoG0",
       "deprecatedIDs": [],
-      "name": "dondo - 1",
-      "duration": 0.6667,
-      "repitchable": true
+      "name": "dondo - G - stretch",
+      "duration": 1.0,
+      "repitchable": false,
+	  "earliness": 0.02,
+	  "writtenPitch": -5,
+	  "baseBpm": 121,
+	  "baseBpmRules": "onlyTimeStretch",
+	  "useTimeStretching": true
     },
     {
       "type": "cue",
-      "id": "*/do1",
+      "id": "*/dondoBC1",
+      "deprecatedIDs": [
+	    "bonOdori/dondo2"
+	  ],
+      "name": "dondo - B to C - 1",
+      "duration": 0.6666666,
+      "repitchable": true,
+	  "earliness": 0.115,
+	  "writtenPitch": -1,
+	  "loops": true,
+	  "loopStart": 1.0,
+	  "loopEnd": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/dondoBC2",
+      "deprecatedIDs": [
+	    "bonOdori/do2"
+	  ],
+      "name": "dondo - B to C - 2",
+      "duration": 0.3333333,
+      "repitchable": true,
+	  "earliness": 0.045,
+	  "writtenPitch": 0,
+	  "loops": true,
+	  "loopStart": 1.0,
+	  "loopEnd": 1.0
+    },
+	{
+      "type": "cue",
+      "id": "*/dondoBC0",
       "deprecatedIDs": [],
-      "name": "do - 1",
-      "duration": 0.333,
-      "repitchable": true
+      "name": "dondo - B to C - stretch",
+      "duration": 1.0,
+      "repitchable": false,
+	  "earliness": 0.115,
+	  "writtenPitch": 0,
+	  "baseBpm": 121,
+	  "baseBpmRules": "onlyTimeStretch",
+	  "useTimeStretching": true
     },
     {
       "type": "cue",
-      "id": "*/dondo2",
-      "deprecatedIDs": [],
-      "name": "dondo - 2",
-      "duration": 0.6667,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/do2",
-      "deprecatedIDs": [],
-      "name": "do - 2",
-      "duration": 0.333,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/pan1",
+      "id": "*/panC",
       "deprecatedIDs": [
         "bonOdori/pan",
-        "bonOdori/panpan1"
+        "bonOdori/panpan1",
+		"bonOdori/pan1"
       ],
-      "name": "pan - 1",
+      "name": "pan - C",
       "duration": 1.0,
-      "repitchable": true
+      "repitchable": true,
+	  "earliness": 0.035,
+	  "writtenPitch": 0,
+	  "loops": true,
+	  "loopStart": 1.0,
+	  "loopEnd": 1.0
     },
     {
       "type": "cue",
-      "id": "*/pan2",
+      "id": "*/pannC",
       "deprecatedIDs": [
-        "bonOdori/panpan2"
+	    "bonOdori/pan3"
+	  ],
+      "name": "pan~ - C",
+      "duration": 1.0,
+      "repitchable": true,
+	  "earliness": 0.025,
+	  "writtenPitch": 0
+    },
+    {
+      "type": "cue",
+      "id": "*/panE",
+      "deprecatedIDs": [
+	    "bonOdori/pan4"
+	  ],
+      "name": "pan - E",
+      "duration": 1.0,
+      "repitchable": true,
+	  "earliness": 0.025,
+	  "writtenPitch": 4
+    },
+    {
+      "type": "cue",
+      "id": "*/pannA",
+      "deprecatedIDs": [
+        "bonOdori/panpan2",
+		"bonOdori/pan2"
       ],
-      "name": "pan - 2",
+      "name": "pan~ - A",
       "duration": 1.0,
-      "repitchable": true
+      "repitchable": true,
+	  "earliness": 0.02,
+	  "writtenPitch": -3
     },
     {
       "type": "cue",
-      "id": "*/pan3",
+      "id": "*/panpaAG1",
+      "deprecatedIDs": [
+	    "bonOdori/panpa"
+	  ],
+      "name": "panpa - A to G - 1",
+      "duration": 0.6666666,
+      "repitchable": true,
+	  "earliness": 0.045,
+	  "writtenPitch": -3,
+	  "loops": true,
+	  "loopStart": 1.0,
+	  "loopEnd": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/panpaAG2",
+      "deprecatedIDs": [
+	    "bonOdori/pa"
+	  ],
+      "name": "panpa - A to G - 2",
+      "duration": 0.3333333,
+      "repitchable": true,
+	  "earliness": 0.05,
+	  "writtenPitch": -5,
+	  "loops": true,
+	  "loopStart": 1.0,
+	  "loopEnd": 1.0
+    },
+	{
+      "type": "cue",
+      "id": "*/panpaAG0",
       "deprecatedIDs": [],
-      "name": "pan - 3",
+      "name": "panpa - A to G - stretch",
       "duration": 1.0,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/pan4",
-      "deprecatedIDs": [],
-      "name": "pan - 4",
-      "duration": 1.0,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/panpa",
-      "deprecatedIDs": [],
-      "name": "panpa",
-      "duration": 0.6667,
-      "repitchable": true
-    },
-    {
-      "type": "cue",
-      "id": "*/pa",
-      "deprecatedIDs": [],
-      "name": "pa",
-      "duration": 0.333,
-      "repitchable": true
+      "repitchable": false,
+	  "earliness": 0.045,
+	  "writtenPitch": -3,
+	  "baseBpm": 121,
+	  "baseBpmRules": "onlyTimeStretch",
+	  "useTimeStretching": true
     },
     {
       "type": "pattern",
-      "id": "*_donDonPanPan",
-      "deprecatedIDs": [],
-      "name": "[#40b722]don don[] [YELLOW]pan pan[]",
+      "id": "*_donDonPanPanDondoPanPan",
+      "deprecatedIDs": [
+	    "bonOdori/_donDonPanPan"
+	  ],
+      "name": "[#40b722]do-n do-n[] [YELLOW]pa-n pa-n[] [#40b722]dondo[] [YELLOW]pa-n pan[]",
+	  "repitchable": true,
+	  "writtenPitch": 0,
       "cues": [
         {
-          "id": "*/don1",
-          "beat": 0.0
+          "id": "*/donnG",
+          "beat": 0.0,
+		  "track": 2
         },
         {
-          "id": "*/don2",
-          "beat": 1.0
+          "id": "*/donnA",
+          "beat": 1.0,
+		  "track": 2
         },
         {
-          "id": "*/pan1",
-          "beat": 2.0
-        },
-        {
-          "id": "*/clap",
+          "id": "*/panC",
           "beat": 2.0,
-          "track": 1
+		  "track": 2
         },
         {
-          "id": "*/pan2",
-          "beat": 3.0
+          "id": "*_clap",
+          "beat": 2.0,
+          "track": 0,
+		  "duration": 1.0
         },
         {
-          "id": "*/clap",
+          "id": "*/pannA",
           "beat": 3.0,
-          "track": 1
+		  "track": 2
+        },
+        {
+          "id": "*_clap",
+          "beat": 3.0,
+          "track": 0,
+		  "duration": 1.0
+        },
+		{
+          "id": "*_dondoG",
+          "beat": 4.0,
+		  "track": 2,
+		  "duration": 1.0
+        },
+        {
+          "id": "*/pannC",
+          "beat": 5.0,
+		  "track": 2
+        },
+        {
+          "id": "*_clap",
+          "beat": 5.0,
+          "track": 0,
+		  "duration": 1.0
+        },
+        {
+          "id": "*/panC",
+          "beat": 6.0,
+		  "track": 2
+        },
+        {
+          "id": "*_clap",
+          "beat": 6.0,
+          "track": 0,
+		  "duration": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_dondoPanPan",
-      "deprecatedIDs": [],
-      "name": "[#40b722]dondo[] [YELLOW]pan pan[]",
+      "id": "*_dondoPanpaDondoPanpa",
+      "deprecatedIDs": [
+	    "bonOdori/_dondoPanpa"
+	  ],
+      "name": "[#40b722]dondo[] [YELLOW]panpa[] [#40b722]dondo[] [YELLOW]panpa[]",
+	  "repitchable": true,
+	  "writtenPitch": 0,
       "cues": [
         {
-          "id": "*/dondo1",
-          "beat": 0.0
+          "id": "*_dondoG",
+          "beat": 0.0,
+		  "track": 2,
+		  "duration": 1.0
         },
         {
-          "id": "*/do1",
-          "beat": 0.667
-        },
-        {
-          "id": "*/pan3",
-          "beat": 1.0
-        },
-        {
-          "id": "*/clap",
+          "id": "*_panpaAG",
           "beat": 1.0,
-          "track": 1
+		  "track": 2,
+		  "duration": 1.0
         },
         {
-          "id": "*/pan3",
-          "beat": 2.0
+          "id": "*_clap",
+          "beat": 1.0,
+          "track": 0,
+		  "duration": 0.6666666
         },
         {
-          "id": "*/clap",
+          "id": "*_clap",
+          "beat": 1.6666667,
+          "track": 0,
+		  "duration": 0.3333333
+        },
+        {
+          "id": "*_dondoBC",
           "beat": 2.0,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_dondoPanpa",
-      "deprecatedIDs": [],
-      "name": "[#40b722]dondo[] [YELLOW]panpa[]",
-      "cues": [
-        {
-          "id": "*/dondo2",
-          "beat": 0.0
+		  "track": 2,
+		  "duration": 1.0
         },
         {
-          "id": "*/do2",
-          "beat": 0.667
+          "id": "*_panpaAG",
+          "beat": 3.0,
+		  "track": 2,
+		  "duration": 1.0
         },
         {
-          "id": "*/panpa",
-          "beat": 1.0
+          "id": "*_clap",
+          "beat": 3.0,
+          "track": 0,
+		  "duration": 0.6666666
         },
         {
-          "id": "*/clap",
-          "beat": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/pa",
-          "beat": 1.667
-        },
-        {
-          "id": "*/clap",
-          "beat": 1.667,
-          "duration": 0.333,
-          "track": 1
+          "id": "*_clap",
+          "beat": 3.6666667,
+          "track": 0,
+		  "duration": 0.3333333
         }
       ]
     },
@@ -244,56 +399,561 @@
       "type": "pattern",
       "id": "*_donDonPan",
       "deprecatedIDs": [],
-      "name": "[#40b722]don don[] [YELLOW]pan[]",
+      "name": "[#40b722]do-n do-n[] [YELLOW]pan[]",
+	  "repitchable": true,
+	  "writtenPitch": 0,
       "cues": [
         {
-          "id": "*/don4",
-          "beat": 0.0
+          "id": "*/donD",
+          "beat": 0.0,
+		  "track": 2
         },
         {
-          "id": "*/don4",
-          "beat": 1.0
+          "id": "*/donD",
+          "beat": 1.0,
+		  "track": 2
         },
         {
-          "id": "*/pan4",
-          "beat": 2.0
-        },
-        {
-          "id": "*/clap",
+          "id": "*/panE",
           "beat": 2.0,
-          "track": 1
+		  "track": 2
+        },
+        {
+          "id": "*_clap",
+          "beat": 2.0,
+          "track": 0,
+		  "duration": 1.0
         }
       ]
     },
     {
       "type": "pattern",
-      "id": "*_donPanPan",
+      "id": "*_dondoPanpaDondoPanpaDonPanPan",
       "deprecatedIDs": [],
-      "name": "[#40b722]don[] [YELLOW]pan pan[]",
+      "name": "[#40b722]dondo[] [YELLOW]panpa[] [#40b722]dondo[] [YELLOW]panpa[] [#40b722]do-n[] [YELLOW]pa-n pan[]",
+	  "repitchable": true,
+	  "writtenPitch": 0,
       "cues": [
         {
-          "id": "*/don3",
-          "beat": 0.0
+          "id": "*_dondoBC",
+          "beat": 0.0,
+		  "track": 2,
+		  "duration": 1.0
         },
         {
-          "id": "*/pan3",
-          "beat": 1.0
-        },
-        {
-          "id": "*/clap",
+          "id": "*_panpaAG",
           "beat": 1.0,
-          "track": 1
+		  "track": 2,
+		  "duration": 1.0
         },
         {
-          "id": "*/pan3",
-          "beat": 2.0
+          "id": "*_clap",
+          "beat": 1.0,
+          "track": 0,
+		  "duration": 0.6666666
         },
         {
-          "id": "*/clap",
+          "id": "*_clap",
+          "beat": 1.6666667,
+          "track": 0,
+		  "duration": 0.3333333
+        },
+        {
+          "id": "*_dondoBC",
           "beat": 2.0,
-          "track": 1
+		  "track": 2,
+		  "duration": 1.0
+        },
+        {
+          "id": "*_panpaAG",
+          "beat": 3.0,
+		  "track": 2,
+		  "duration": 1.0
+        },
+        {
+          "id": "*_clap",
+          "beat": 3.0,
+          "track": 0,
+		  "duration": 0.6666666
+        },
+        {
+          "id": "*_clap",
+          "beat": 3.6666667,
+          "track": 0,
+		  "duration": 0.3333333
+        },
+        {
+          "id": "*/donA",
+          "beat": 4.0,
+		  "track": 2
+        },
+        {
+          "id": "*/panC",
+          "beat": 5.0,
+		  "track": 2
+        },
+        {
+          "id": "*_clap",
+          "beat": 5.0,
+          "track": 0,
+		  "duration": 1.0
+        },
+        {
+          "id": "*/panC",
+          "beat": 6.0,
+		  "track": 2
+        },
+        {
+          "id": "*_clap",
+          "beat": 6.0,
+          "track": 0,
+		  "duration": 1.0
         }
       ]
-    }
+    },
+    {
+      "type": "pattern",
+      "id": "*_panPanDondoDoPanpaDonPan",
+      "deprecatedIDs": [],
+      "name": "[YELLOW]pa-n pa-n[] [#40b722]dondo do-n[] [YELLOW]panpa[] [#40b722]do-n[] [YELLOW]pan[]",
+	  "repitchable": true,
+	  "writtenPitch": 0,
+      "cues": [
+        {
+          "id": "*/pannC",
+          "beat": 0.0,
+		  "track": 2
+        },
+        {
+          "id": "*_clap",
+          "beat": 0.0,
+          "track": 0,
+		  "duration": 1.0
+        },
+        {
+          "id": "*/pannA",
+          "beat": 1.0,
+		  "track": 2
+        },
+        {
+          "id": "*_clap",
+          "beat": 1.0,
+          "track": 0,
+		  "duration": 1.0
+        },
+        {
+          "id": "*_dondoBC",
+          "beat": 2.0,
+		  "track": 2
+        },
+        {
+          "id": "*/donnA",
+          "beat": 3.0,
+		  "track": 2
+        },
+		{
+          "id": "*_panpaAG",
+          "beat": 4.0,
+		  "track": 2,
+		  "duration": 1.0
+        },
+        {
+          "id": "*_clap",
+          "beat": 4.0,
+          "track": 0,
+		  "duration": 0.6666666
+        },
+        {
+          "id": "*_clap",
+          "beat": 4.6666667,
+          "track": 0,
+		  "duration": 0.3333333
+        },
+		{
+          "id": "*/donnA",
+          "beat": 5.0,
+		  "track": 2,
+		  "duration": 1.0
+        },
+        {
+          "id": "*/panC",
+          "beat": 6.0,
+		  "track": 2
+        },
+        {
+          "id": "*_clap",
+          "beat": 6.0,
+          "track": 0,
+		  "duration": 1.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_dondoPanpaPan",
+      "deprecatedIDs": [],
+      "name": "[#40b722]dondo[] [YELLOW]panpa pan[]",
+	  "repitchable": true,
+	  "writtenPitch": 0,
+      "cues": [
+        {
+          "id": "*_dondoD",
+          "beat": 0.0,
+		  "track": 2
+        },
+        {
+          "id": "*_panpaC",
+          "beat": 1.0,
+		  "track": 2,
+		  "semitone": 2
+        },
+        {
+          "id": "*_clap",
+          "beat": 1.0,
+          "track": 0,
+		  "duration": 0.6666666
+        },
+        {
+          "id": "*_clap",
+          "beat": 1.6666667,
+          "track": 0,
+		  "duration": 0.3333333
+        },
+		{
+          "id": "*/panE",
+          "beat": 2.0,
+		  "track": 2
+        },
+		{
+          "id": "*_clap",
+          "beat": 2.0,
+          "track": 0,
+		  "duration": 1.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_dondoPanpaPanpaDondoPanPanpaPan",
+      "deprecatedIDs": [],
+      "name": "[#40b722]dondo[] [YELLOW]panpa[] [YELLOW]panpa[] [#40b722]dondo[] [YELLOW]pa-n panpa pan[]",
+	  "repitchable": true,
+	  "writtenPitch": 0,
+      "cues": [
+        {
+          "id": "*_dondoBC",
+          "beat": 0.0,
+		  "track": 2,
+		  "duration": 1.0
+        },
+        {
+          "id": "*_panpaAG",
+          "beat": 1.0,
+		  "track": 2,
+		  "duration": 1.0
+        },
+        {
+          "id": "*_clap",
+          "beat": 1.0,
+          "track": 0,
+		  "duration": 0.6666666
+        },
+        {
+          "id": "*_clap",
+          "beat": 1.6666667,
+          "track": 0,
+		  "duration": 0.3333333
+        },
+        {
+          "id": "*_panpaC",
+          "beat": 2.0,
+		  "track": 2,
+		  "duration": 1.0
+        },
+        {
+          "id": "*_clap",
+          "beat": 2.0,
+          "track": 0,
+		  "duration": 0.6666666
+        },
+        {
+          "id": "*_clap",
+          "beat": 2.6666667,
+          "track": 0,
+		  "duration": 0.3333333
+        },
+        {
+          "id": "*_dondoAG",
+          "beat": 3.0,
+		  "track": 2,
+		  "duration": 1.0
+        },
+        {
+          "id": "*/pannA",
+          "beat": 4.0,
+		  "track": 2
+        },
+        {
+          "id": "*_clap",
+          "beat": 4.0,
+          "track": 0,
+		  "duration": 1.0
+        },
+        {
+          "id": "*_panpaC",
+          "beat": 5.0,
+		  "track": 2,
+		  "duration": 1.0
+        },
+        {
+          "id": "*_clap",
+          "beat": 5.0,
+          "track": 0,
+		  "duration": 0.6666666
+        },
+        {
+          "id": "*_clap",
+          "beat": 5.6666667,
+          "track": 0,
+		  "duration": 0.3333333
+        },
+        {
+          "id": "*/panC",
+          "beat": 6.0,
+		  "track": 2
+        },
+        {
+          "id": "*_clap",
+          "beat": 6.0,
+          "track": 0,
+		  "duration": 1.0
+        }
+      ]
+    },
+	{
+      "type": "pattern",
+      "id": "*_donDonPanPanRemix2",
+      "deprecatedIDs": [],
+      "name": "[#40b722]do-n do-n[] [YELLOW]pa-n pan[] - Remix 2",
+	  "repitchable": true,
+	  "writtenPitch": 0,
+      "cues": [
+        {
+          "id": "*/donnG",
+          "beat": 0.0,
+		  "track": 2,
+		  "semitone": 1
+        },
+        {
+          "id": "*/donnA",
+          "beat": 1.0,
+		  "track": 2,
+		  "semitone": 1
+        },
+        {
+          "id": "*/panC",
+          "beat": 2.0,
+		  "track": 2,
+		  "semitone": 1
+        },
+        {
+          "id": "*_clap",
+          "beat": 2.0,
+          "track": 0,
+		  "duration": 1.0
+        },
+        {
+          "id": "*/pannA",
+          "beat": 3.0,
+		  "track": 2,
+		  "semitone": 1
+        },
+        {
+          "id": "*_clap",
+          "beat": 3.0,
+          "track": 0,
+		  "duration": 1.0
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "id": "*_dondoPanPanRemix2",
+      "deprecatedIDs": [],
+      "name": "[#40b722]dondo[] [YELLOW]pa-n pan[] - Remix 2",
+	  "repitchable": true,
+	  "writtenPitch": 0,
+      "cues": [
+	    {
+          "id": "*_dondoG",
+          "beat": 0.0,
+		  "track": 2,
+		  "duration": 1.0,
+		  "semitone": 1
+        },
+        {
+          "id": "*/pannC",
+          "beat": 1.0,
+		  "track": 2,
+		  "semitone": 1
+        },
+        {
+          "id": "*_clap",
+          "beat": 1.0,
+          "track": 0,
+		  "duration": 1.0
+        },
+        {
+          "id": "*/panC",
+          "beat": 2.0,
+		  "track": 2,
+		  "semitone": 1
+        },
+        {
+          "id": "*_clap",
+          "beat": 2.0,
+          "track": 0,
+		  "duration": 1.0
+        }
+      ]
+    },
+	{
+	  "type": "pattern",
+	  "id": "*_clap",
+	  "deprecatedIDs": [],
+	  "name": "clap - together",
+	  "cues": [
+        {
+          "id": "*/clapDonpans",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/clapPlayer",
+          "beat": 0.0,
+          "track": 0
+        }
+	  ]
+	},
+	{
+	  "type": "pattern",
+	  "id": "*_dondoG",
+	  "deprecatedIDs": [],
+	  "name": "dondo - G",
+	  "repitchable": true,
+	  "writtenPitch": -5,
+	  "cues": [
+	    {
+		  "id": "*/dondoG1",
+		  "beat": 0.0,
+		  "duration": 0.6666666
+		},
+	    {
+		  "id": "*/dondoG2",
+		  "beat": 0.6666667,
+		  "duration": 0.3333333
+		}
+	  ]
+	},
+	{
+	  "type": "pattern",
+	  "id": "*_dondoBC",
+	  "deprecatedIDs": [],
+	  "name": "dondo - B to C",
+	  "repitchable": true,
+	  "writtenPitch": 0,
+	  "cues": [
+	    {
+		  "id": "*/dondoBC1",
+		  "beat": 0.0,
+		  "duration": 0.6666666
+		},
+	    {
+		  "id": "*/dondoBC2",
+		  "beat": 0.6666667,
+		  "duration": 0.3333333
+		}
+	  ]
+	},
+	{
+	  "type": "pattern",
+	  "id": "*_dondoD",
+	  "deprecatedIDs": [],
+	  "name": "dondo - D",
+	  "repitchable": true,
+	  "writtenPitch": 2,
+	  "cues": [
+	    {
+		  "id": "*/donD",
+		  "beat": 0.0,
+		  "duration": 0.6666666
+		},
+	    {
+		  "id": "*/donD",
+		  "beat": 0.6666667,
+		  "duration": 0.3333333
+		}
+	  ]
+	},
+	{
+	  "type": "pattern",
+	  "id": "*_dondoAG",
+	  "deprecatedIDs": [],
+	  "name": "dondo - A to G",
+	  "repitchable": true,
+	  "writtenPitch": -3,
+	  "cues": [
+	    {
+		  "id": "*/donA",
+		  "beat": 0.0,
+		  "duration": 0.6666666
+		},
+	    {
+		  "id": "*/dondoG1",
+		  "beat": 0.6666667,
+		  "duration": 0.3333333
+		}
+	  ]
+	},
+	{
+	  "type": "pattern",
+	  "id": "*_panpaAG",
+	  "deprecatedIDs": [],
+	  "name": "panpa - A to G",
+	  "repitchable": true,
+	  "writtenPitch": -3,
+	  "cues": [
+	    {
+		  "id": "*/panpaAG1",
+		  "beat": 0.0,
+		  "duration": 0.6666666
+		},
+	    {
+		  "id": "*/panpaAG2",
+		  "beat": 0.6666667,
+		  "duration": 0.3333333
+		}
+	  ]
+	},
+	{
+	  "type": "pattern",
+	  "id": "*_panpaC",
+	  "deprecatedIDs": [],
+	  "name": "panpa - C",
+	  "repitchable": true,
+	  "writtenPitch": 0,
+	  "cues": [
+	    {
+		  "id": "*/panC",
+		  "beat": 0.0,
+		  "duration": 0.6666666
+		},
+	    {
+		  "id": "*/panC",
+		  "beat": 0.6666667,
+		  "duration": 0.3333333
+		}
+	  ]
+	}
   ]
 }
