@@ -1,16 +1,17 @@
 {
-  "id": "gleeClubMegamixEn",
+  "id": "gleeClubMegamixKo",
   "name": "Glee Club (Megamix)",
   "series": "megamix",
-  "language": "en",
+  "language": "ko",
   "group": "Glee Club (Megamix)",
-  "groupDefault": true,
   "objects": [
     {
       "type": "pattern",
       "id": "*_baton",
       "name": "baton",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "gleeClubKo_baton"
+      ],
       "cues": [
         {
           "id": "*/batonUp",
@@ -67,7 +68,7 @@
       "id": "*/togetherNow",
       "name": "together now!",
       "deprecatedIDs": [
-        "gleeClubMegamixEn_togetherNow"
+        "gleeClubKo_chadange"
       ],
       "subtext": "",
       "duration": 3.0,
@@ -78,8 +79,8 @@
       "id": "*/sing",
       "name": "sing",
       "deprecatedIDs": [
-        "gleeClubMegamixEn/singLoop",
-        "gleeClubMegamixEn/singBegin"
+        "gleeClubKo/singLoop",
+        "gleeClubKo/singBegin"
       ],
       "subtext": "",
       "duration": 1.0,
@@ -95,8 +96,8 @@
       "id": "*/wail",
       "name": "wail",
       "deprecatedIDs": [
-        "gleeClubMegamixEn/screamLoop",
-        "gleeClubMegamixEn/screamBegin"
+        "gleeClubKo/screamLoop",
+        "gleeClubKo/screamBegin"
       ],
       "subtext": "",
       "duration": 1.0,
@@ -112,7 +113,7 @@
       "id": "*/stop",
       "name": "stop",
       "deprecatedIDs": [
-        "gleeClubMegamixEn/singEnd"
+        "gleeClubKo/singEnd"
       ],
       "subtext": "",
       "duration": 0.3333333
@@ -122,7 +123,7 @@
       "id": "*/batonUp",
       "name": "baton - lift",
       "deprecatedIDs": [
-        "gleeClubMegamixEn/baton"
+        "gleeClubKo/baton"
       ],
       "subtext": "",
       "duration": 1.0
@@ -132,7 +133,7 @@
       "id": "*/batonDown",
       "name": "baton - down",
       "deprecatedIDs": [
-        "gleeClubMegamixEn/batonStop"
+        "gleeClubKo/batonStop"
       ],
       "subtext": "",
       "duration": 1.0
