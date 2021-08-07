@@ -1,103 +1,215 @@
 {
-  "series": "megamix",
   "id": "nightWalkMegamix",
   "name": "Night Walk (Megamix)",
+  "series": "megamix",
   "objects": [
     {
       "type": "cue",
       "id": "*/wot",
+      "name": "miss - wot",
       "deprecatedIDs": [],
-      "name": "wot",
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/walk1",
+      "id": "*/shock",
+      "name": "miss - shock",
       "deprecatedIDs": [],
-      "name": "walk - 1",
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/fall",
+      "name": "miss - fall",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/openFlower",
+      "name": "open - flower",
+      "deprecatedIDs": [
+        "nightWalkMegamix/walk1"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/walk2",
+      "id": "*/openLollipop",
+      "name": "open - lollipop",
       "deprecatedIDs": [],
-      "name": "walk - 2",
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/openUmbrella",
+      "name": "open - umbrella",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/boxKick",
+      "name": "box - kick",
+      "deprecatedIDs": [
+        "nightWalkMegamix/walk2"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/jump1",
-      "deprecatedIDs": [],
       "name": "jump - flower",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/jump2",
-      "deprecatedIDs": [],
       "name": "jump - lollipop",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/jump3",
-      "deprecatedIDs": [],
       "name": "jump - umbrella",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/jumpUmbrella1",
-      "deprecatedIDs": [
-        "nightWalkMegamix/jumpUmbrella"
-      ],
-      "name": "jump UP - umbrella / end - 1",
-      "duration": 0.25
+      "id": "*/fillStart",
+      "name": "umbrella - fill - start",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.333
     },
     {
       "type": "cue",
-      "id": "*/jumpUmbrella2",
+      "id": "*/fill1A",
+      "name": "umbrella - fill 1 - A",
+      "deprecatedIDs": [
+        "nightWalkMegamix/jumpUmbrella1"
+      ],
+      "subtext": "",
+      "duration": 0.1666666
+    },
+    {
+      "type": "cue",
+      "id": "*/fill1B",
+      "name": "umbrella - fill 1 - B",
+      "deprecatedIDs": [
+        "nightWalkMegamix/jumpUmbrella2"
+      ],
+      "subtext": "",
+      "duration": 0.1666666
+    },
+    {
+      "type": "cue",
+      "id": "*/fill1C",
+      "name": "umbrella - fill 1 - C",
       "deprecatedIDs": [],
-      "name": "jump UP - umbrella / end - 2",
-      "duration": 0.25
+      "subtext": "",
+      "duration": 0.1666666
+    },
+    {
+      "type": "cue",
+      "id": "*/fill1D",
+      "name": "umbrella - fill 1 - D",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.1666666
+    },
+    {
+      "type": "cue",
+      "id": "*/fill2A",
+      "name": "umbrella - fill 2 - A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.1666666
+    },
+    {
+      "type": "cue",
+      "id": "*/fill2B",
+      "name": "umbrella - fill 2 - B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.333
+    },
+    {
+      "type": "cue",
+      "id": "*/fill2C",
+      "name": "umbrella - fill 2 - C",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.1666666
+    },
+    {
+      "type": "cue",
+      "id": "*/fill3A",
+      "name": "umbrella - fill 3 - A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.1666666
+    },
+    {
+      "type": "cue",
+      "id": "*/fill3B",
+      "name": "umbrella - fill 3 - B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/disappear",
+      "name": "box - disappear",
       "deprecatedIDs": [],
-      "name": "box disappear",
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "keepTheBeat",
       "id": "*_walk",
-      "deprecatedIDs": [],
       "name": "walking",
+      "deprecatedIDs": [],
       "defaultDuration": 2.0,
       "cues": [
         {
-          "id": "*/walk2",
+          "id": "*/boxKick",
           "beat": 0.0
         },
         {
-          "id": "*/walk1",
+          "id": "*/openFlower",
           "beat": 0.5
         },
         {
-          "id": "*/walk2",
+          "id": "*/boxKick",
           "beat": 1.0
         },
         {
-          "id": "*/walk1",
+          "id": "*/openFlower",
           "beat": 1.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_jump1",
-      "deprecatedIDs": [],
       "name": "four flowers",
+      "deprecatedIDs": [],
       "defaultDuration": 4.0,
       "cues": [
         {
@@ -116,13 +228,14 @@
           "id": "*/jump1",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_jump2",
-      "deprecatedIDs": [],
       "name": "three flowers, one lollipop",
+      "deprecatedIDs": [],
       "defaultDuration": 4.0,
       "cues": [
         {
@@ -141,13 +254,14 @@
           "id": "*/jump2",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_jump3",
-      "deprecatedIDs": [],
       "name": "two flowers, two lollipops",
+      "deprecatedIDs": [],
       "defaultDuration": 4.0,
       "cues": [
         {
@@ -166,38 +280,43 @@
           "id": "*/jump2",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
-      "id": "*_jumpUmbrella1",
+      "id": "*_jump4",
+      "name": "four lollipops",
       "deprecatedIDs": [],
-      "name": "three flowers, one umbrella - same level",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "*/jump1",
+          "id": "*/jump2",
           "beat": 0.0
         },
         {
-          "id": "*/jump1",
+          "id": "*/jump2",
           "beat": 1.0
         },
         {
-          "id": "*/jump1",
+          "id": "*/jump2",
           "beat": 2.0
         },
         {
-          "id": "*/jump3",
+          "id": "*/jump2",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
-      "id": "*_jumpUmbrella2",
-      "deprecatedIDs": [],
-      "name": "three flowers, one umbrella - up a level",
+      "id": "*_jumpUmbrellaFlowerFill1",
+      "name": "three flowers, one umbrella - 1",
+      "deprecatedIDs": [
+        "nightWalkMegamix_jumpUmbrella2",
+        "nightWalkMegamix_jumpUmbrella1"
+      ],
       "defaultDuration": 4.0,
       "cues": [
         {
@@ -209,86 +328,252 @@
           "beat": 1.0
         },
         {
-          "id": "*/jump1",
+          "id": "*/fillStart",
           "beat": 2.0
         },
         {
-          "id": "*/jumpUmbrella1",
+          "id": "*/fill1A",
+          "beat": 2.333
+        },
+        {
+          "id": "*/fill1B",
           "beat": 2.5
         },
         {
-          "id": "*/jumpUmbrella2",
-          "beat": 2.75
+          "id": "*/fill1C",
+          "beat": 2.666
+        },
+        {
+          "id": "*/fill1D",
+          "beat": 2.8333
         },
         {
           "id": "*/jump3",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
-      "id": "*_jumpUmbrella3",
+      "id": "*_jumpUmbrellaFlowerFill2",
+      "name": "three flowers, one umbrella - 2",
       "deprecatedIDs": [],
-      "name": "three lollipops, one umbrella - same level",
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "*/jump2",
+          "id": "*/jump1",
           "beat": 0.0
         },
         {
-          "id": "*/jump2",
+          "id": "*/jump1",
           "beat": 1.0
         },
         {
-          "id": "*/jump2",
+          "id": "*/fillStart",
           "beat": 2.0
         },
         {
-          "id": "*/jump3",
-          "beat": 3.0
-        }
-      ]
-    },
-    {
-      "type": "keepTheBeat",
-      "id": "*_jumpUmbrella4",
-      "deprecatedIDs": [],
-      "name": "three lollipops, one umbrella - up a level",
-      "defaultDuration": 4.0,
-      "cues": [
-        {
-          "id": "*/jump2",
-          "beat": 0.0
+          "id": "*/fill2A",
+          "beat": 2.333
         },
         {
-          "id": "*/jump2",
-          "beat": 1.0
-        },
-        {
-          "id": "*/jump2",
-          "beat": 2.0
-        },
-        {
-          "id": "*/jumpUmbrella1",
+          "id": "*/fill2B",
           "beat": 2.5
         },
         {
-          "id": "*/jumpUmbrella2",
-          "beat": 2.75
+          "id": "*/fill2C",
+          "beat": 2.8333
         },
         {
           "id": "*/jump3",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_jumpUmbrellaFlowerFill3",
+      "name": "three flowers, one umbrella - 3",
+      "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/jump1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/jump1",
+          "beat": 1.0
+        },
+        {
+          "id": "*/fillStart",
+          "beat": 2.0
+        },
+        {
+          "id": "*/fill3A",
+          "beat": 2.333
+        },
+        {
+          "id": "*/fill3B",
+          "beat": 2.5
+        },
+        {
+          "id": "*/jump3",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_jumpUmbrellaFlowerLollipopFill1",
+      "name": "two flowers, one lollipop, one umbrella - 1",
+      "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/jump1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/jump2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/fillStart",
+          "beat": 2.0
+        },
+        {
+          "id": "*/fill1A",
+          "beat": 2.333
+        },
+        {
+          "id": "*/fill1B",
+          "beat": 2.5
+        },
+        {
+          "id": "*/fill1C",
+          "beat": 2.666
+        },
+        {
+          "id": "*/fill1D",
+          "beat": 2.8333
+        },
+        {
+          "id": "*/jump3",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_jumpUmbrellaFlowerLollipopFill2",
+      "name": "two flowers, one lollipop, one umbrella - 2",
+      "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/jump1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/jump2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/fillStart",
+          "beat": 2.0
+        },
+        {
+          "id": "*/fill2A",
+          "beat": 2.333
+        },
+        {
+          "id": "*/fill2B",
+          "beat": 2.5
+        },
+        {
+          "id": "*/fill2C",
+          "beat": 2.8333
+        },
+        {
+          "id": "*/jump3",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_jumpUmbrellaFlowerLollipopFill3",
+      "name": "two flowers, one lollipop, one umbrella - 3",
+      "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/jump1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/jump2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/fillStart",
+          "beat": 2.0
+        },
+        {
+          "id": "*/fill3A",
+          "beat": 2.333
+        },
+        {
+          "id": "*/fill3B",
+          "beat": 2.5
+        },
+        {
+          "id": "*/jump3",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_jumpUmbrellaLollipop",
+      "name": "three lollipops, one umbrella",
+      "deprecatedIDs": [
+        "nightWalkMegamix_jumpUmbrella3",
+        "nightWalkMegamix_jumpUmbrella4"
+      ],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/jump2",
+          "beat": 0.0
+        },
+        {
+          "id": "*/jump2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/jump2",
+          "beat": 2.0
+        },
+        {
+          "id": "*/jump3",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_disappear",
-      "deprecatedIDs": [],
       "name": "boxes disappearing",
+      "deprecatedIDs": [],
       "defaultDuration": 5.0,
       "cues": [
         {
@@ -311,7 +596,8 @@
           "id": "*/disappear",
           "beat": 4.0
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
