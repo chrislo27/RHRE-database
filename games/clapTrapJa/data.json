@@ -1,0 +1,283 @@
+{
+  "id": "clapTrapJa",
+  "name": "Clap Trap",
+  "series": "side",
+  "language": "ja",
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/deepBreath1",
+      "name": "deep breath - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 3.0
+    },
+    {
+      "type": "cue",
+      "id": "*/deepBreath2A",
+      "name": "deep breath - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/deepBreath2B",
+      "name": "deep breath - 2 (alternative)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/donk",
+      "name": "clap - cowbell",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/hand",
+      "name": "clap - hand swoosh",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/aceClap1",
+      "name": "perfect clap - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 5.0
+    },
+    {
+      "type": "cue",
+      "id": "*/aceClap2",
+      "name": "perfect clap - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 5.0
+    },
+    {
+      "type": "cue",
+      "id": "*/aceClap3",
+      "name": "perfect clap - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 5.0
+    },
+    {
+      "type": "cue",
+      "id": "*/aceClap4",
+      "name": "perfect clap - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 5.0
+    },
+    {
+      "type": "cue",
+      "id": "*/goodClap1",
+      "name": "clap - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 5.0
+    },
+    {
+      "type": "cue",
+      "id": "*/goodClap2",
+      "name": "clap - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 5.0
+    },
+    {
+      "type": "cue",
+      "id": "*/goodClap3",
+      "name": "clap - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 5.0
+    },
+    {
+      "type": "cue",
+      "id": "*/goodClap4",
+      "name": "clap - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 5.0
+    },
+    {
+      "type": "cue",
+      "id": "*/barely1",
+      "name": "near-miss clap - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/barely2",
+      "name": "near-miss clap - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/barely3",
+      "name": "near-miss clap - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.0
+    },
+    {
+      "type": "cue",
+      "id": "*/miss",
+      "name": "chopped",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/clap",
+      "name": "claps nothing",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "pattern",
+      "id": "*_perfectClap",
+      "name": "perfect clap",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/donk",
+          "beat": 0.0
+        },
+        {
+          "id": "*/donk",
+          "beat": 1.0
+        },
+        {
+          "id": "*/donk",
+          "beat": 2.0
+        },
+        {
+          "id": "*/hand",
+          "beat": 3.5
+        },
+        {
+          "id": "*_randomPerfectClap",
+          "beat": 4.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_clap",
+      "name": "clap",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/donk",
+          "beat": 0.0
+        },
+        {
+          "id": "*/donk",
+          "beat": 1.0
+        },
+        {
+          "id": "*/donk",
+          "beat": 2.0
+        },
+        {
+          "id": "*/hand",
+          "beat": 3.5
+        },
+        {
+          "id": "*_randomClap",
+          "beat": 4.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_randomPerfectClap",
+      "name": "random perfect clap",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/aceClap1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/aceClap2",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/aceClap3",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/aceClap4",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_randomClap",
+      "name": "random clap",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/goodClap1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/goodClap2",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/goodClap3",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/goodClap4",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_randomBarely",
+      "name": "random near-miss clap",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/barely1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/barely2",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/barely3",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": ""
+    }
+  ]
+}
