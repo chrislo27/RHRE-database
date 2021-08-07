@@ -1,0 +1,32 @@
+[
+  {
+    "applyTo": ["nightWalk", "nightWalkMegamix"],
+    "engine": "0x6",
+    "name": "agbNightWalk",
+    "tempoFile": "100005C",
+    "index": "0x15"
+  },
+  {
+    "applyTo": ["nightWalk/kick", "nightWalkMegamix/jump1", "nightWalkMegamix/fillStart"],
+    "sub": "0x100 X, 0/0x100 X, 3",
+	"note": "latter is before an umbrella, X is how many ticks until the input"
+  },
+  {
+    "applyTo": ["nightWalk/snare", "nightWalkMegamix/jump2"],
+    "sub": "0x100 X, 1",
+	"note": "X is how many ticks until the input"
+  },
+  {
+    "applyTo": ["nightWalk/umbrella", "nightWalkMegamix/jump3"],
+    "sub": "0x100 X, 2",
+	"note": "X is how many ticks until the input"
+  },
+  {
+    "applyTo": ["nightWalk_jump1", "nightWalkMegamix_jump1", "nightWalk_jump2", "nightWalkMegamix_jump2", "nightWalk_jump3", "nightWalkMegamix_jump3", "nightWalk_jump4", "nightWalkMegamix_jump4"],
+	"note": "Separate pattern to view modding instructions"
+  },
+  {
+    "applyTo": ["nightWalk_jumpUmbrellaFlowerFill1", "nightWalkMegamix_jumpUmbrellaFlowerFill1", "nightWalk_jumpUmbrellaFlowerFill2", "nightWalkMegamix_jumpUmbrellaFlowerFill2", "nightWalk_jumpUmbrellaFlowerFill3", "nightWalkMegamix_jumpUmbrellaFlowerFill3", "nightWalk_jumpUmbrellaFlowerLollipopFill1", "nightWalkMegamix_jumpUmbrellaFlowerLollipopFill1", "nightWalk_jumpUmbrellaFlowerLollipopFill2", "nightWalkMegamix_jumpUmbrellaFlowerLollipopFill2", "nightWalk_jumpUmbrellaFlowerLollipopFill3", "nightWalkMegamix_jumpUmbrellaFlowerLollipopFill3", "nightWalk_jumpUmbrellaLollipop", "nightWalkMegamix_jumpUmbrellaLollipop"],
+	"note": "Separate pattern to view modding instructions"
+  }
+]
