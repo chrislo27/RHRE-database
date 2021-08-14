@@ -85,7 +85,6 @@
       "duration": 1.0,
       "stretchable": true,
       "repitchable": true,
-      "endingSound": "*/silence",
       "loops": true,
       "loopStart": 0.420431,
       "loopEnd": 0.76271,
@@ -201,7 +200,8 @@
       "repitchable": true,
       "loops": true,
       "loopStart": 0.60536,
-      "loopEnd": 0.877
+      "loopEnd": 0.877,
+      "endingSound": "*/silence"
     },
     {
       "type": "cue",
