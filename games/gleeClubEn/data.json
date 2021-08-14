@@ -85,6 +85,7 @@
       "duration": 1.0,
       "stretchable": true,
       "repitchable": true,
+      "endingSound": "*/silence",
       "loops": true,
       "loopStart": 0.420431,
       "loopEnd": 0.76271,
@@ -194,13 +195,22 @@
       "deprecatedIDs": [
         "gleeClub/singLoop"
       ],
-      "subtext": "(To be used exclusively for loading MIDIs)",
+      "subtext": "(to be used exclusively in MIDIs)",
       "duration": 1.0,
       "stretchable": true,
       "repitchable": true,
       "loops": true,
       "loopStart": 0.60536,
       "loopEnd": 0.877
+    },
+    {
+      "type": "cue",
+      "id": "*/silence",
+      "name": "silence",
+      "deprecatedIDs": [],
+      "subtext": "used to hide \"sing - MIDI\" from the cue picker",
+      "duration": 0.5,
+      "endingSound": "*/singLoop"
     }
   ]
 }
