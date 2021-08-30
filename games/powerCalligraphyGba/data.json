@@ -1,108 +1,121 @@
 {
-  "series": "tengoku",
   "id": "powerCalligraphyGba",
   "name": "Power Calligraphy (GBA)",
+  "series": "tengoku",
   "objects": [
     {
       "type": "cue",
       "id": "*/releaseA1",
-      "deprecatedIDs": [],
       "name": "nrr... hya! - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.0,
+      "loops": true,
+      "loopEnd": 1.0E22
+    },
+    {
+      "type": "cue",
+      "id": "*/releaseA2",
+      "name": "nrr... hya! - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/releaseB1",
+      "name": "hai! - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 2.0,
       "baseBpm": 126.0,
       "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",
-      "id": "*/releaseA2",
-      "deprecatedIDs": [],
-      "name": "nrr... hya! - 2",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/releaseB1",
-      "deprecatedIDs": [],
-      "name": "hai! - 1",
-      "duration": 1.0,
-      "baseBpm": 126.0,
-      "baseBpmRules": "onlyTimeStretch"
-    },
-    {
-      "type": "cue",
       "id": "*/releaseB2",
-      "deprecatedIDs": [],
       "name": "hai! - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/brushTap",
-      "deprecatedIDs": [],
       "name": "brush tap",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/reShout",
-      "deprecatedIDs": [],
       "name": "re shout",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 2.0
     },
     {
       "type": "cue",
       "id": "*/comma1",
-      "deprecatedIDs": [],
       "name": "comma - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 2.0
     },
     {
       "type": "cue",
       "id": "*/comma2",
-      "deprecatedIDs": [],
       "name": "comma - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/comma3",
-      "deprecatedIDs": [],
       "name": "comma - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/comma4",
-      "deprecatedIDs": [],
       "name": "comma - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/brush1",
-      "deprecatedIDs": [],
       "name": "brush - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.375
     },
     {
       "type": "cue",
       "id": "*/brush2",
-      "deprecatedIDs": [],
       "name": "brush - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.375
     },
     {
       "type": "cue",
       "id": "*/brush3",
-      "deprecatedIDs": [],
       "name": "brush - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "pattern",
       "id": "*_re",
-      "deprecatedIDs": [],
       "name": "re (レ)",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/reShout",
@@ -124,13 +137,14 @@
           "id": "*/releaseA2",
           "beat": 6.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_comma",
-      "deprecatedIDs": [],
       "name": "comma (、)",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/comma1",
@@ -150,19 +164,21 @@
         },
         {
           "id": "*/releaseB1",
-          "beat": 5.0
+          "beat": 5.0,
+          "track": 1
         },
         {
           "id": "*/releaseB2",
           "beat": 6.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_chikara",
-      "deprecatedIDs": [],
       "name": "chikara (力)",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/brushTap",
@@ -192,13 +208,14 @@
           "id": "*/releaseA2",
           "beat": 6.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_chikaraSwing",
-      "deprecatedIDs": [],
       "name": "chikara (力) (swing)",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/brushTap",
@@ -228,13 +245,14 @@
           "id": "*/releaseA2",
           "beat": 6.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_onore",
-      "deprecatedIDs": [],
       "name": "onore (己)",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/brushTap",
@@ -269,13 +287,14 @@
           "id": "*/releaseA2",
           "beat": 6.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_onoreSwing",
-      "deprecatedIDs": [],
       "name": "onore (己) (swing)",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/brushTap",
@@ -310,13 +329,14 @@
           "id": "*/releaseA2",
           "beat": 6.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_sun",
-      "deprecatedIDs": [],
       "name": "sun (寸)",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/brushTap",
@@ -344,19 +364,21 @@
         },
         {
           "id": "*/releaseB1",
-          "beat": 5.0
+          "beat": 5.0,
+          "track": 1
         },
         {
           "id": "*/releaseB2",
           "beat": 6.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_sunSwing",
-      "deprecatedIDs": [],
       "name": "sun (寸) (swing)",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/brushTap",
@@ -384,19 +406,21 @@
         },
         {
           "id": "*/releaseB1",
-          "beat": 5.0
+          "beat": 5.0,
+          "track": 1
         },
         {
           "id": "*/releaseB2",
           "beat": 6.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_kokoro",
-      "deprecatedIDs": [],
       "name": "kokoro (心)",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/brush3",
@@ -421,19 +445,21 @@
         },
         {
           "id": "*/releaseB1",
-          "beat": 5.0
+          "beat": 5.0,
+          "track": 1
         },
         {
           "id": "*/releaseB2",
           "beat": 6.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_tsurunihamushi",
-      "deprecatedIDs": [],
       "name": "tsuru niha mu shi",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/brush1",
@@ -499,13 +525,14 @@
           "id": "*/releaseA2",
           "beat": 10.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_tsurunihamushiSwing",
-      "deprecatedIDs": [],
       "name": "tsuru niha mu shi (swing)",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/brush1",
@@ -557,11 +584,12 @@
         },
         {
           "id": "*/brush3",
-          "beat": 7.25
+          "beat": 7.3333335
         },
         {
           "id": "*/brushTap",
-          "beat": 7.5
+          "beat": 7.6666665,
+          "duration": 0.33333
         },
         {
           "id": "*/releaseA1",
@@ -571,7 +599,8 @@
           "id": "*/releaseA2",
           "beat": 10.0
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
