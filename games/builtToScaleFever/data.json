@@ -75,46 +75,14 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/right",
-          "beat": 0.0
+          "id": "*_bouncingRight",
+          "beat": 1.4E-45,
+          "duration": 7.0
         },
         {
-          "id": "*/middleRight",
-          "beat": 1.0
-        },
-        {
-          "id": "*/middleLeft",
-          "beat": 2.0
-        },
-        {
-          "id": "*/left",
-          "beat": 3.0
-        },
-        {
-          "id": "*/middleLeft",
-          "beat": 4.0
-        },
-        {
-          "id": "*/middleRight",
-          "beat": 5.0
-        },
-        {
-          "id": "*/right",
-          "beat": 6.0
-        },
-        {
-          "id": "*/prepare",
+          "id": "*_prepareShoot",
           "beat": 5.0,
           "track": 1
-        },
-        {
-          "id": "*/playerRetract",
-          "beat": 6.0,
-          "track": 2
-        },
-        {
-          "id": "*/shoot",
-          "beat": 7.0
         }
       ],
       "subtext": ""
@@ -126,34 +94,14 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/left",
-          "beat": 0.0
+          "id": "*_bouncingLeft",
+          "beat": 0.0,
+          "duration": 4.0
         },
         {
-          "id": "*/middleLeft",
-          "beat": 1.0
-        },
-        {
-          "id": "*/middleRight",
-          "beat": 2.0
-        },
-        {
-          "id": "*/right",
-          "beat": 3.0
-        },
-        {
-          "id": "*/prepare",
+          "id": "*_prepareShoot",
           "beat": 2.0,
           "track": 1
-        },
-        {
-          "id": "*/playerRetract",
-          "beat": 3.0,
-          "track": 2
-        },
-        {
-          "id": "*/shoot",
-          "beat": 4.0
         }
       ],
       "subtext": ""
@@ -165,26 +113,14 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/left",
-          "beat": 0.0
+          "id": "*_bouncingLeft",
+          "beat": 0.0,
+          "duration": 2.0
         },
         {
-          "id": "*/middleLeft",
-          "beat": 1.0
-        },
-        {
-          "id": "*/prepare",
+          "id": "*_prepareShoot",
           "beat": 0.0,
           "track": 1
-        },
-        {
-          "id": "*/playerRetract",
-          "beat": 1.0,
-          "track": 2
-        },
-        {
-          "id": "*/shoot",
-          "beat": 2.0
         }
       ],
       "subtext": ""
@@ -196,44 +132,14 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/right",
+          "id": "*_bouncingRight",
           "beat": 0.0,
-          "duration": 1.0
+          "duration": 5.0
         },
         {
-          "id": "*/middleRight",
-          "beat": 1.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/middleLeft",
-          "beat": 2.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/left",
-          "beat": 3.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/middleLeft",
-          "beat": 4.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/prepare",
+          "id": "*_prepareShoot",
           "beat": 3.0,
           "track": 1
-        },
-        {
-          "id": "*/playerRetract",
-          "beat": 4.0,
-          "track": 2
-        },
-        {
-          "id": "*/shoot",
-          "beat": 5.0,
-          "duration": 1.0
         }
       ],
       "subtext": ""
@@ -245,88 +151,14 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/left",
+          "id": "*_bouncingLeft",
           "beat": 0.0,
-          "duration": 1.0
+          "duration": 14.0
         },
         {
-          "id": "*/middleLeft",
-          "beat": 1.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/middleRight",
-          "beat": 2.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/right",
-          "beat": 3.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/middleRight",
-          "beat": 4.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/middleLeft",
-          "beat": 5.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/left",
-          "beat": 6.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/middleLeft",
-          "beat": 7.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/middleRight",
-          "beat": 8.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/right",
-          "beat": 9.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/middleRight",
-          "beat": 10.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/middleLeft",
-          "beat": 11.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/left",
-          "beat": 12.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/prepare",
+          "id": "*_prepareShoot",
           "beat": 12.0,
           "track": 1
-        },
-        {
-          "id": "*/middleLeft",
-          "beat": 13.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/playerRetract",
-          "beat": 13.0,
-          "track": 2
-        },
-        {
-          "id": "*/shoot",
-          "beat": 14.0
         }
       ],
       "subtext": ""
