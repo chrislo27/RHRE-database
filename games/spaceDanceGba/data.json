@@ -242,7 +242,7 @@
     {
       "type": "pattern",
       "id": "*_turnright1",
-      "name": "dancers - and pose",
+      "name": "dancers - turn right",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -305,7 +305,7 @@
     {
       "type": "pattern",
       "id": "*_turnright2",
-      "name": "gramps - and pose",
+      "name": "gramps - turn right",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -368,7 +368,7 @@
     {
       "type": "pattern",
       "id": "*_turnright3",
-      "name": "dancers and gramps - and pose",
+      "name": "dancers and gramps - turn right",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -431,7 +431,7 @@
     {
       "type": "pattern",
       "id": "*_turnright1Cosmic",
-      "name": "dancers - and pose (cosmic)",
+      "name": "dancers - turn right (cosmic)",
       "deprecatedIDs": [
         "spaceDanceGba_turnright1cosmic"
       ],
@@ -500,7 +500,7 @@
     {
       "type": "pattern",
       "id": "*_turnright2Cosmic",
-      "name": "gramps - and pose (cosmic)",
+      "name": "gramps - turn right (cosmic)",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -567,7 +567,7 @@
     {
       "type": "pattern",
       "id": "*_turnright3Cosmic",
-      "name": "dancers and gramps - and pose (cosmic)",
+      "name": "dancers and gramps - turn right (cosmic)",
       "deprecatedIDs": [],
       "cues": [
         {

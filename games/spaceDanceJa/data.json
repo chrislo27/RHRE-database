@@ -83,7 +83,7 @@
     {
       "type": "cue",
       "id": "*/turn2",
-      "name": "gramps - turn max - turn",
+      "name": "gramps - turn right - turn",
       "deprecatedIDs": [
         "spaceDance/turn2"
       ],
@@ -94,7 +94,7 @@
     {
       "type": "cue",
       "id": "*/right2",
-      "name": "gramps - turn right -right",
+      "name": "gramps - turn right - right",
       "deprecatedIDs": [
         "spaceDance/right2"
       ],
@@ -256,7 +256,7 @@
     {
       "type": "cue",
       "id": "*/countInGo",
-      "name": "count-in - go",
+      "name": "count-in - ugh",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
@@ -264,7 +264,7 @@
     {
       "type": "pattern",
       "id": "*_turnright1",
-      "name": "dancers - and pose",
+      "name": "dancers - turn right",
       "deprecatedIDs": [
         "spaceDance_turnright1"
       ],
@@ -333,7 +333,7 @@
     {
       "type": "pattern",
       "id": "*_turnright2",
-      "name": "gramps - and pose",
+      "name": "gramps - turn right",
       "deprecatedIDs": [
         "spaceDance_turnright2"
       ],
@@ -402,7 +402,7 @@
     {
       "type": "pattern",
       "id": "*_turnright3",
-      "name": "dancers and gramps - and pose",
+      "name": "dancers and gramps - turn right",
       "deprecatedIDs": [
         "spaceDanceJa_turnrightvoid"
       ],
