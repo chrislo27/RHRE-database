@@ -125,7 +125,7 @@
         "boardMeetingJa/abStopM1"
       ],
       "subtext": "",
-      "duration": 0.75
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -151,7 +151,16 @@
         "boardMeeting/abStopM3"
       ],
       "subtext": "",
-      "duration": 0.5
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/assistantFull",
+      "name": "assistant - sound stretch",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 2.0,
+      "baseBpm": 120.0
     },
     {
       "type": "cue",
@@ -169,11 +178,10 @@
     {
       "type": "pattern",
       "id": "*_assistantStop",
-      "name": "assistant - stop",
+      "name": "assistant - stop (English)",
       "deprecatedIDs": [
         "boardMeeting_monkey",
         "boardMeetingEn_monkey",
-        "boardMeetingJa_monkey",
         "boardMeetingRemix2_assistant"
       ],
       "cues": [
@@ -183,11 +191,30 @@
         },
         {
           "id": "*/two",
-          "beat": 0.75
+          "beat": 0.5
         },
         {
           "id": "*/three",
-          "beat": 1.0
+          "beat": 0.75
+        },
+        {
+          "id": "*/stopAll",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_assistantStopAlt",
+      "name": "assistant - stop (Japanese)",
+      "deprecatedIDs": [
+        "boardMeetingJa_monkey"
+      ],
+      "cues": [
+        {
+          "id": "*/assistantFull",
+          "beat": 0.0
         },
         {
           "id": "*/stopAll",
