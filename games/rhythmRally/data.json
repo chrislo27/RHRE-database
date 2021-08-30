@@ -1,57 +1,71 @@
 {
-  "series": "ds",
   "id": "rhythmRally",
   "name": "Rhythm Rally (DS)",
+  "series": "ds",
   "objects": [
     {
       "type": "cue",
       "id": "*/whistle",
-      "deprecatedIDs": [],
       "name": "whistle",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/hit1",
-      "deprecatedIDs": [],
       "name": "bounce - opponent",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/hit2",
+      "name": "bounce - opponent's side",
       "deprecatedIDs": [],
-      "name": "bounce - table",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/hit3",
-      "deprecatedIDs": [],
       "name": "bounce - player",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/hit4",
+      "name": "bounce - player's side",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/tonk",
-      "deprecatedIDs": [],
       "name": "tonk",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/tink",
-      "deprecatedIDs": [],
       "name": "tink",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "keepTheBeat",
       "id": "*_slowrally",
+      "name": "slow rally",
       "deprecatedIDs": [
         "rhythmrally_slowrally"
       ],
-      "name": "slow rally",
       "defaultDuration": 8.0,
       "cues": [
         {
@@ -67,19 +81,20 @@
           "beat": 4.0
         },
         {
-          "id": "*/hit2",
+          "id": "*/hit4",
           "beat": 6.0,
           "duration": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "keepTheBeat",
       "id": "*_normalrally",
+      "name": "normal rally",
       "deprecatedIDs": [
         "rhythmrally_normalrally"
       ],
-      "name": "normal rally",
       "defaultDuration": 4.0,
       "cues": [
         {
@@ -95,19 +110,20 @@
           "beat": 2.0
         },
         {
-          "id": "*/hit2",
+          "id": "*/hit4",
           "beat": 3.0,
           "duration": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_fastrally",
+      "name": "fast rally",
       "deprecatedIDs": [
         "rhythmrally_fastrally"
       ],
-      "name": "fast rally",
       "cues": [
         {
           "id": "*/tonk",
@@ -134,18 +150,19 @@
           "beat": 3.0
         },
         {
-          "id": "*/hit2",
+          "id": "*/hit4",
           "beat": 4.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_turborally",
+      "name": "turbo rally",
       "deprecatedIDs": [
         "rhythmrally_turborally"
       ],
-      "name": "turbo rally",
       "cues": [
         {
           "id": "*/tonk",
@@ -192,7 +209,7 @@
           "beat": 5.0
         },
         {
-          "id": "*/hit2",
+          "id": "*/hit4",
           "beat": 5.5
         },
         {
@@ -208,7 +225,7 @@
           "beat": 7.0
         },
         {
-          "id": "*/hit2",
+          "id": "*/hit4",
           "beat": 7.5
         },
         {
@@ -224,7 +241,7 @@
           "beat": 9.0
         },
         {
-          "id": "*/hit2",
+          "id": "*/hit4",
           "beat": 9.5
         },
         {
@@ -240,10 +257,11 @@
           "beat": 11.0
         },
         {
-          "id": "*/hit2",
+          "id": "*/hit4",
           "beat": 11.5
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
