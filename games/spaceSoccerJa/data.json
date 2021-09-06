@@ -43,14 +43,6 @@
     },
     {
       "type": "cue",
-      "id": "*/down",
-      "name": "dispense - down",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
       "id": "*/kick",
       "name": "kick",
       "deprecatedIDs": [],
@@ -83,23 +75,54 @@
     },
     {
       "type": "cue",
-      "id": "*/dispense1",
+      "id": "*/dispenseNoise",
+      "name": "dispense - noise",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dispenseDown",
+      "name": "dispense - down - Remix 9",
+      "deprecatedIDs": [
+        "spaceSoccerJa/down"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/dispenseTumble1",
       "name": "dispense - 1",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "spaceSoccerJa/dispense1"
+      ],
       "subtext": "",
-      "duration": 0.25
+      "duration": 0.25,
+      "introSound": "*/dispenseNoise"
     },
     {
       "type": "cue",
-      "id": "*/dispense2",
+      "id": "*/dispenseTumble2",
       "name": "dispense - 2",
+      "deprecatedIDs": [
+        "spaceSoccerJa/dispense2"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dispenseTumble2B",
+      "name": "dispense - 2 - echo",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/dispense3",
+      "id": "*/dispenseTumble3",
       "name": "dispense - 3",
       "deprecatedIDs": [],
       "subtext": "",
@@ -107,19 +130,41 @@
     },
     {
       "type": "cue",
-      "id": "*/dispense4",
+      "id": "*/dispenseTumble4",
       "name": "dispense - 4",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "spaceSoccerJa/dispense3"
+      ],
       "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/dispense5",
+      "id": "*/dispenseTumble5",
       "name": "dispense - 5",
+      "deprecatedIDs": [
+        "spaceSoccerJa/dispense4"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dispenseTumble6",
+      "name": "dispense - 6",
+      "deprecatedIDs": [
+        "spaceSoccerJa/dispense5"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dispenseTumble6B",
+      "name": "dispense - 6 - echo",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 0.5
+      "duration": 0.25
     },
     {
       "type": "pattern",
@@ -128,29 +173,82 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/dispense1",
+          "id": "*/dispenseTumble1",
           "beat": 0.0
         },
         {
-          "id": "*/dispense2",
-          "beat": 0.25,
-          "duration": 0.5
+          "id": "*/dispenseTumble2",
+          "beat": 0.25
         },
         {
-          "id": "*/dispense2",
+          "id": "*/dispenseTumble2B",
+          "beat": 0.5
+        },
+        {
+          "id": "*/dispenseTumble3",
           "beat": 0.75
         },
         {
-          "id": "*/dispense3",
+          "id": "*/dispenseTumble4",
           "beat": 1.0
         },
         {
-          "id": "*/dispense4",
+          "id": "*/dispenseTumble5",
           "beat": 1.25
         },
         {
-          "id": "*/dispense5",
+          "id": "*/dispenseTumble6",
           "beat": 1.5
+        },
+        {
+          "id": "*/dispenseTumble6B",
+          "beat": 1.75
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_dispenseRemix9",
+      "name": "ball dispense - Remix 9",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/dispenseDown",
+          "beat": 1.4E-45,
+          "track": 1
+        },
+        {
+          "id": "*/dispenseTumble1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/dispenseTumble2",
+          "beat": 0.25
+        },
+        {
+          "id": "*/dispenseTumble2B",
+          "beat": 0.5
+        },
+        {
+          "id": "*/dispenseTumble3",
+          "beat": 0.75
+        },
+        {
+          "id": "*/dispenseTumble4",
+          "beat": 1.0
+        },
+        {
+          "id": "*/dispenseTumble5",
+          "beat": 1.25
+        },
+        {
+          "id": "*/dispenseTumble6",
+          "beat": 1.5
+        },
+        {
+          "id": "*/dispenseTumble6B",
+          "beat": 1.75
         }
       ],
       "subtext": ""

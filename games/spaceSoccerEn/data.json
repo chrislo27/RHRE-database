@@ -84,29 +84,57 @@
     },
     {
       "type": "cue",
-      "id": "*/dispense1",
+      "id": "*/dispenseNoise",
+      "name": "dispense - noise",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dispenseTumble1",
       "name": "dispense - 1",
       "deprecatedIDs": [
-        "spaceSoccer/dispense1"
+        "spaceSoccer/dispense1",
+        "spaceSoccerEn/dispense1"
       ],
       "subtext": "",
-      "duration": 0.25
+      "duration": 0.25,
+      "introSound": "*/dispenseNoise"
     },
     {
       "type": "cue",
-      "id": "*/dispense2",
+      "id": "*/dispenseTumble2",
       "name": "dispense - 2",
       "deprecatedIDs": [
-        "spaceSoccer/dispense2"
+        "spaceSoccer/dispense2",
+        "spaceSoccerEn/dispense2"
       ],
       "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/dispense3",
+      "id": "*/dispenseTumble2B",
+      "name": "dispense - 2 - echo",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dispenseTumble3",
       "name": "dispense - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dispenseTumble4",
+      "name": "dispense - 4",
       "deprecatedIDs": [
+        "spaceSoccerEn/dispense3",
         "spaceSoccer/dispense3"
       ],
       "subtext": "",
@@ -114,9 +142,10 @@
     },
     {
       "type": "cue",
-      "id": "*/dispense4",
-      "name": "dispense - 4",
+      "id": "*/dispenseTumble5",
+      "name": "dispense - 5",
       "deprecatedIDs": [
+        "spaceSoccerEn/dispense4",
         "spaceSoccer/dispense4"
       ],
       "subtext": "",
@@ -124,13 +153,22 @@
     },
     {
       "type": "cue",
-      "id": "*/dispense5",
-      "name": "dispense - 5",
+      "id": "*/dispenseTumble6",
+      "name": "dispense - 6",
       "deprecatedIDs": [
-        "spaceSoccer/dispense5"
+        "spaceSoccer/dispense5",
+        "spaceSoccerEn/dispense5"
       ],
       "subtext": "",
-      "duration": 0.5
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/dispenseTumble6B",
+      "name": "dispense - 6 - echo",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
     },
     {
       "type": "pattern",
@@ -141,29 +179,36 @@
       ],
       "cues": [
         {
-          "id": "*/dispense1",
+          "id": "*/dispenseTumble1",
           "beat": 0.0
         },
         {
-          "id": "*/dispense2",
-          "beat": 0.25,
-          "duration": 0.5
+          "id": "*/dispenseTumble2",
+          "beat": 0.25
         },
         {
-          "id": "*/dispense2",
+          "id": "*/dispenseTumble2B",
+          "beat": 0.5
+        },
+        {
+          "id": "*/dispenseTumble3",
           "beat": 0.75
         },
         {
-          "id": "*/dispense3",
+          "id": "*/dispenseTumble4",
           "beat": 1.0
         },
         {
-          "id": "*/dispense4",
+          "id": "*/dispenseTumble5",
           "beat": 1.25
         },
         {
-          "id": "*/dispense5",
+          "id": "*/dispenseTumble6",
           "beat": 1.5
+        },
+        {
+          "id": "*/dispenseTumble6B",
+          "beat": 1.75
         }
       ],
       "subtext": ""
