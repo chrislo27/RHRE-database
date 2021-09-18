@@ -96,58 +96,71 @@
       "id": "*_matingDance",
       "name": "mating dance",
       "deprecatedIDs": [],
+      "stretchable": true,
       "cues": [
         {
           "id": "*/cowbell",
-          "beat": 0.0
+          "beat": 0.0,
+          "duration": 0.25
         },
         {
           "id": "*/cowbell",
-          "beat": 0.5
+          "beat": 0.25,
+          "duration": 0.5
         },
         {
           "id": "*/cowbell",
-          "beat": 1.5
+          "beat": 0.75,
+          "duration": 0.5
         },
         {
           "id": "*_randomFemale",
-          "beat": 2.5,
+          "beat": 1.25,
+          "duration": 0.25,
           "track": 1
         },
         {
           "id": "*/maleShake",
-          "beat": 2.5
+          "beat": 1.25,
+          "duration": 0.25
         },
         {
           "id": "*_randomFemale",
-          "beat": 3.0,
+          "beat": 1.5,
+          "duration": 0.25,
           "track": 1
         },
         {
           "id": "*/maleShake",
-          "beat": 3.0
+          "beat": 1.5,
+          "duration": 0.25
         },
         {
           "id": "*_randomFemale",
-          "beat": 3.5,
+          "beat": 1.75,
+          "duration": 0.25,
           "track": 1
         },
         {
           "id": "*/maleShake",
-          "beat": 3.5
+          "beat": 1.75,
+          "duration": 0.25
         },
         {
           "id": "*_randomFemale",
-          "beat": 4.0,
+          "beat": 2.0,
+          "duration": 0.25,
           "track": 1
         },
         {
           "id": "*/maleShake",
-          "beat": 4.0
+          "beat": 2.0,
+          "duration": 0.25
         },
         {
           "id": "*/maleHeart",
-          "beat": 5.5
+          "beat": 2.75,
+          "duration": 0.5
         }
       ],
       "subtext": ""
@@ -305,22 +318,28 @@
       ],
       "cues": [
         {
-          "id": "*/femaleA"
+          "id": "*/femaleA",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/femaleE"
+          "id": "*/femaleE",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/femaleI"
+          "id": "*/femaleI",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/femaleN"
+          "id": "*/femaleN",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/femaleO"
+          "id": "*/femaleO",
+          "beat": 1.4E-45
         },
         {
-          "id": "*/femaleU"
+          "id": "*/femaleU",
+          "beat": 1.4E-45
         }
       ],
       "subtext": ""
