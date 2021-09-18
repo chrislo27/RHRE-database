@@ -93,7 +93,7 @@
         "lockstepMegamix/switchOnbeat4"
       ],
       "subtext": "",
-      "duration": 1.0,
+      "duration": 0.5,
       "earliness": 0.018
     },
     {
@@ -158,19 +158,19 @@
       "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "*/marchOffbeat1",
+          "id": "*/marchOffbeat2",
           "beat": 0.0
         },
         {
-          "id": "*/marchOffbeat2",
+          "id": "*/marchOffbeat1",
           "beat": 1.0
         },
         {
-          "id": "*/marchOffbeat1",
+          "id": "*/marchOffbeat2",
           "beat": 2.0
         },
         {
-          "id": "*/marchOffbeat2",
+          "id": "*/marchOffbeat1",
           "beat": 3.0
         }
       ],
@@ -212,8 +212,7 @@
         },
         {
           "id": "*/switch4",
-          "beat": 5.5,
-          "duration": 0.5
+          "beat": 5.5
         },
         {
           "id": "*/switch4",
@@ -221,8 +220,7 @@
         },
         {
           "id": "*/switch4",
-          "beat": 7.5,
-          "duration": 0.5
+          "beat": 7.5
         }
       ],
       "subtext": ""
