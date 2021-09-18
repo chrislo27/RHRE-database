@@ -1,109 +1,496 @@
 {
-  "series": "ds",
   "id": "builtToScaleDS",
   "name": "Built to Scale (DS)",
+  "series": "ds",
+  "group": "builtToScaleDS",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",
       "id": "*/c",
+      "name": "note - stretch",
       "deprecatedIDs": [],
-      "name": "note",
-      "duration": 0.5,
-      "repitchable": true,
+      "subtext": "",
+      "duration": 1.0,
       "stretchable": true,
+      "repitchable": true,
+      "endingSound": "*/cEnd",
       "loops": true,
-      "loopStart": 0.85156436442,
-      "loopEnd": 1.28530572786,
-      "endingSound": "*/cEnd"
+      "loopStart": 0.85156435,
+      "loopEnd": 1.2853057
     },
     {
       "type": "cue",
       "id": "*/cEnd",
+      "name": "note - stretch - fade",
       "deprecatedIDs": [],
-      "name": "note fade",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/pew",
+      "id": "*/note2",
+      "name": "note - short",
       "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/note2Echo",
+      "name": "note - short - echo",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "stretchable": true,
+      "repitchable": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/note4",
+      "name": "note - long",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/note4Echo",
+      "name": "note - long - echo",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.75,
+      "stretchable": true,
+      "repitchable": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/launch",
       "name": "launch",
+      "deprecatedIDs": [
+        "builtToScaleDS/pew"
+      ],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "equidistant",
-      "id": "*_widget",
-      "deprecatedIDs": [],
-      "name": "widget",
+      "id": "*_widgetStretch",
+      "name": "widget - stretch",
+      "deprecatedIDs": [
+        "builtToScaleDS_widget"
+      ],
       "distance": 1.0,
       "stretchable": true,
       "cues": [
         {
-          "id": "*/c"
+          "id": "*/c",
+          "beat": 1.4E-45
         },
         {
           "id": "*/c",
+          "beat": 1.4E-45,
           "semitone": 2
         },
         {
           "id": "*/c",
+          "beat": 1.4E-45,
           "semitone": 4
         },
         {
           "id": "*/c",
+          "beat": 1.4E-45,
           "semitone": 5
         },
         {
           "id": "*/c",
+          "beat": 1.4E-45,
           "semitone": 7
         },
         {
           "id": "*/c",
+          "beat": 1.4E-45,
           "semitone": 12,
           "track": 1
         },
         {
-          "id": "*/pew",
+          "id": "*/launch",
+          "beat": 1.4E-45,
           "track": 2
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "equidistant",
-      "id": "*_widgetAlt",
-      "deprecatedIDs": [],
-      "name": "widget - alternate",
+      "id": "*_widgetStretchAlt",
+      "name": "widget - stretch - alternate",
+      "deprecatedIDs": [
+        "builtToScaleDS_widgetAlt"
+      ],
       "distance": 1.0,
       "stretchable": true,
       "cues": [
         {
-          "id": "*/c"
+          "id": "*/c",
+          "beat": 1.4E-45
         },
         {
           "id": "*/c",
+          "beat": 1.4E-45,
           "semitone": 2
         },
         {
           "id": "*/c",
+          "beat": 1.4E-45,
           "semitone": 4
         },
         {
           "id": "*/c",
+          "beat": 1.4E-45,
           "semitone": 5
         },
         {
           "id": "*/c",
+          "beat": 1.4E-45,
           "semitone": 7
         },
         {
           "id": "*/c",
+          "beat": 1.4E-45,
           "track": 1
         },
         {
-          "id": "*/pew",
+          "id": "*/launch",
+          "beat": 1.4E-45,
           "track": 2
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_widget4",
+      "name": "widget - 1 beat",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_note4",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_note4",
+          "beat": 1.0,
+          "semitone": 2
+        },
+        {
+          "id": "*_note4",
+          "beat": 2.0,
+          "semitone": 4
+        },
+        {
+          "id": "*_note4",
+          "beat": 3.0,
+          "semitone": 5
+        },
+        {
+          "id": "*_note4Short",
+          "beat": 4.0,
+          "semitone": 7
+        },
+        {
+          "id": "*/launch",
+          "beat": 4.0,
+          "duration": 0.25,
+          "track": 3
+        },
+        {
+          "id": "*/note2",
+          "beat": 4.0,
+          "duration": 1.0,
+          "semitone": 12,
+          "track": 2
+        },
+        {
+          "id": "*/note2Echo",
+          "beat": 4.25,
+          "duration": 0.75,
+          "semitone": 12,
+          "track": 3
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_widget3",
+      "name": "widget - 3/4 beats",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_note3",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_note3",
+          "beat": 0.75,
+          "semitone": 2
+        },
+        {
+          "id": "*_note3",
+          "beat": 1.5,
+          "semitone": 4
+        },
+        {
+          "id": "*_note3",
+          "beat": 2.25,
+          "semitone": 5
+        },
+        {
+          "id": "*_note4Short",
+          "beat": 3.0,
+          "semitone": 7
+        },
+        {
+          "id": "*/launch",
+          "beat": 3.0,
+          "duration": 0.25,
+          "track": 3
+        },
+        {
+          "id": "*/note2",
+          "beat": 3.0,
+          "duration": 1.0,
+          "semitone": 12,
+          "track": 2
+        },
+        {
+          "id": "*/note2Echo",
+          "beat": 3.25,
+          "duration": 0.75,
+          "semitone": 12,
+          "track": 3
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_widget2",
+      "name": "widget - 1/2 beats",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_note2",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_note2",
+          "beat": 0.5,
+          "semitone": 2
+        },
+        {
+          "id": "*_note2",
+          "beat": 1.0,
+          "semitone": 4
+        },
+        {
+          "id": "*_note2",
+          "beat": 1.5,
+          "semitone": 5
+        },
+        {
+          "id": "*_note4Short",
+          "beat": 2.0,
+          "semitone": 7
+        },
+        {
+          "id": "*/launch",
+          "beat": 2.0,
+          "duration": 0.25,
+          "track": 3
+        },
+        {
+          "id": "*/note2",
+          "beat": 2.0,
+          "duration": 1.0,
+          "semitone": 12,
+          "track": 2
+        },
+        {
+          "id": "*/note2Echo",
+          "beat": 2.25,
+          "duration": 0.75,
+          "semitone": 12,
+          "track": 3
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_widget1",
+      "name": "widget - 1/4 beats",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_note1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_note1",
+          "beat": 0.25,
+          "semitone": 2
+        },
+        {
+          "id": "*_note1",
+          "beat": 0.5,
+          "semitone": 4
+        },
+        {
+          "id": "*_note1",
+          "beat": 0.75,
+          "semitone": 5
+        },
+        {
+          "id": "*_note4NoEcho",
+          "beat": 1.0,
+          "semitone": 7
+        },
+        {
+          "id": "*/launch",
+          "beat": 1.0,
+          "duration": 0.25,
+          "track": 2
+        },
+        {
+          "id": "*/note2",
+          "beat": 1.0,
+          "duration": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/note2Echo",
+          "beat": 1.25,
+          "duration": 0.75,
+          "track": 2
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_note4",
+      "name": "note - 1 beat",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/note4",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/note4Echo",
+          "beat": 0.25,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_note3",
+      "name": "note - 3/4 beats",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/note2",
+          "beat": 1.4E-45,
+          "duration": 0.75
+        },
+        {
+          "id": "*/note2Echo",
+          "beat": 0.25,
+          "duration": 0.5,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_note2",
+      "name": "note - 1/2 beats",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/note2",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/note2Echo",
+          "beat": 0.25,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_note1",
+      "name": "note - 1/4 beats",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/note2",
+          "beat": 1.4E-45,
+          "duration": 0.25
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_note4Short",
+      "name": "note - 1 beat - short",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/note2",
+          "beat": 1.4E-45,
+          "duration": 1.0
+        },
+        {
+          "id": "*/note2Echo",
+          "beat": 0.25,
+          "duration": 0.75,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_note4NoEcho",
+      "name": "note - 1 beat - short - no echo",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/note2",
+          "beat": 1.4E-45,
+          "duration": 1.0
+        }
+      ],
+      "subtext": ""
     }
   ]
 }
