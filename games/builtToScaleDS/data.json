@@ -2,8 +2,6 @@
   "id": "builtToScaleDS",
   "name": "Built to Scale (DS)",
   "series": "ds",
-  "group": "builtToScaleDS",
-  "groupDefault": true,
   "objects": [
     {
       "type": "cue",
