@@ -2,6 +2,8 @@
   "id": "lockstep",
   "name": "Lockstep (DS)",
   "series": "ds",
+  "group": "Lockstep (DS)",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",
@@ -13,6 +15,7 @@
       ],
       "subtext": "",
       "duration": 1.0,
+      "earliness": 0.012,
       "loopEnd": -1.0
     },
     {
@@ -88,6 +91,7 @@
       ],
       "subtext": "",
       "duration": 0.5,
+      "earliness": 0.005,
       "loopEnd": -1.0
     },
     {
@@ -112,6 +116,7 @@
       ],
       "subtext": "",
       "duration": 0.5,
+      "earliness": 0.015,
       "loopEnd": -1.0
     },
     {
@@ -138,6 +143,7 @@
       ],
       "subtext": "",
       "duration": 0.5,
+      "earliness": 0.016,
       "loopEnd": -1.0
     },
     {
@@ -145,7 +151,7 @@
       "id": "*_onbeat",
       "name": "onbeat march",
       "deprecatedIDs": [],
-      "defaultDuration": 4.0,
+      "defaultDuration": 3.5,
       "cues": [
         {
           "id": "*/onbeatStepHigh",
@@ -171,7 +177,7 @@
       "id": "*_offbeat",
       "name": "offbeat march",
       "deprecatedIDs": [],
-      "defaultDuration": 4.0,
+      "defaultDuration": 4.5,
       "cues": [
         {
           "id": "*/offbeatStepLow",
@@ -188,6 +194,14 @@
         {
           "id": "*/offbeatStepHigh",
           "beat": 3.0
+        },
+        {
+          "id": "*/offbeatStepLow",
+          "beat": 4.0
+        },
+        {
+          "id": "*/offbeatStepHigh",
+          "beat": 5.0
         }
       ],
       "subtext": ""
