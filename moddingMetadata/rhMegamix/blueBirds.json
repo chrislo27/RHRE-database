@@ -8,7 +8,7 @@
   },
   {
     "applyTo": ["blueBirdsEn_peckyourbeak", "blueBirdsJa_peckyourbeak", "blueBirdsKo_peckyourbeak", "blueBirdsEs_peckyourbeak", "blueBirdsFr_peckyourbeak", "blueBirdsDe_peckyourbeak", "blueBirdsMegamixEn_peckyourbeak", "blueBirdsMegamixJa_peckyourbeak", "blueBirdsMegamixKo_peckyourbeak", "blueBirdsMegamixEs_peckyourbeak", "blueBirdsMegamixFr_peckyourbeak", "blueBirdsMegamixDe_peckyourbeak", "blueBirdsMegamixIt_peckyourbeak"],
-    "sub": "0x56/0x61",
+    "sub": "0x57/0x61",
 	"note": "0x61 has no preparation animation"
   },
   {
