@@ -1,14 +1,18 @@
 {
-  "id": "bigRockFinishMegamix",
+  "id": "bigRockFinishMegamixEn",
   "name": "Big Rock Finish (Megamix)",
   "series": "megamix",
+  "language": "en",
   "group": "Big Rock Finish (Megamix)",
+  "groupDefault": true,
   "objects": [
     {
       "type": "cue",
       "id": "*/thankYou1",
       "name": "ghost - thank you! - first",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix/thankYou1"
+      ],
       "subtext": "",
       "duration": 1.0
     },
@@ -16,7 +20,9 @@
       "type": "cue",
       "id": "*/thankYou2",
       "name": "ghost - thank you! - second",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix/thankYou2"
+      ],
       "subtext": "",
       "duration": 1.0
     },
@@ -24,7 +30,9 @@
       "type": "cue",
       "id": "*/one",
       "name": "count in - one",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix/one"
+      ],
       "subtext": "",
       "duration": 1.0,
       "earliness": 0.0415
@@ -33,7 +41,9 @@
       "type": "cue",
       "id": "*/two",
       "name": "count in - two",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix/two"
+      ],
       "subtext": "",
       "duration": 1.0
     },
@@ -41,7 +51,9 @@
       "type": "cue",
       "id": "*/three",
       "name": "count in - three",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix/three"
+      ],
       "subtext": "",
       "duration": 1.0,
       "earliness": 0.06125
@@ -50,7 +62,9 @@
       "type": "cue",
       "id": "*/ooh",
       "name": "count in - ooh",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix/ooh"
+      ],
       "subtext": "",
       "duration": 1.0
     },
@@ -58,7 +72,9 @@
       "type": "cue",
       "id": "*/oneFast",
       "name": "count in - one - fast",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix/oneFast"
+      ],
       "subtext": "",
       "duration": 1.0,
       "earliness": 0.0415
@@ -67,7 +83,9 @@
       "type": "cue",
       "id": "*/twoFast",
       "name": "count in - two - fast",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix/twoFast"
+      ],
       "subtext": "",
       "duration": 1.0
     },
@@ -75,7 +93,9 @@
       "type": "cue",
       "id": "*/threeFast",
       "name": "count in - three - fast",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix/threeFast"
+      ],
       "subtext": "",
       "duration": 1.0,
       "earliness": 0.06125
@@ -85,7 +105,8 @@
       "id": "*/comeOn",
       "name": "count in - come on",
       "deprecatedIDs": [
-        "bigRockFinishMegamix/comeOn1"
+        "bigRockFinishMegamix/comeOn1",
+        "bigRockFinishMegamix/comeOn"
       ],
       "subtext": "",
       "duration": 1.0
@@ -94,7 +115,9 @@
       "type": "cue",
       "id": "*/ugh",
       "name": "guitarist - ugh",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix/ugh"
+      ],
       "subtext": "",
       "duration": 1.0
     },
@@ -102,7 +125,9 @@
       "type": "cue",
       "id": "*/yeah1",
       "name": "yeah - 1",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix/yeah1"
+      ],
       "subtext": "",
       "duration": 1.0
     },
@@ -110,7 +135,9 @@
       "type": "cue",
       "id": "*/yeah2",
       "name": "yeah - 2",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix/yeah2"
+      ],
       "subtext": "",
       "duration": 1.0
     },
@@ -118,7 +145,9 @@
       "type": "cue",
       "id": "*/cymbal",
       "name": "cymbal",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix/cymbal"
+      ],
       "subtext": "",
       "duration": 1.0
     },
@@ -126,7 +155,9 @@
       "type": "cue",
       "id": "*/victoryCrowd",
       "name": "crowd - applause",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix/victoryCrowd"
+      ],
       "subtext": "",
       "duration": 1.0
     },
@@ -134,25 +165,35 @@
       "type": "cue",
       "id": "*/strum",
       "name": "ghost - strum",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix/strum",
+        "bigRockFinishMegamix/strumFinal"
+      ],
       "subtext": "",
-      "duration": 1.0,
-      "repitchable": true
+      "duration": 0.75,
+      "stretchable": true,
+      "repitchable": true,
+      "endingSound": "*/strumEnd",
+      "loops": true,
+      "loopStart": 2.03458,
+      "loopEnd": 3.22537,
+      "writtenPitch": -3
     },
     {
       "type": "cue",
-      "id": "*/strumFinal",
-      "name": "ghost - last strum",
+      "id": "*/strumEnd",
+      "name": "ghost - strum - end",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 2.0,
-      "repitchable": true
+      "duration": 1.0
     },
     {
       "type": "pattern",
       "id": "*_countIn4",
       "name": "count in - 4 beats",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix_countIn4"
+      ],
       "cues": [
         {
           "id": "*/one",
@@ -172,7 +213,8 @@
         },
         {
           "id": "*/ugh",
-          "beat": 3.0
+          "beat": 3.0,
+          "track": 1
         }
       ],
       "subtext": ""
@@ -181,7 +223,9 @@
       "type": "pattern",
       "id": "*_countIn8",
       "name": "count in - 8 beats",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix_countIn8"
+      ],
       "cues": [
         {
           "id": "*/one",
@@ -219,7 +263,9 @@
       "type": "pattern",
       "id": "*_countIn4Fast",
       "name": "count in - 4 beats - fast",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix_countIn4Fast"
+      ],
       "cues": [
         {
           "id": "*/oneFast",
@@ -249,7 +295,9 @@
       "type": "pattern",
       "id": "*_countIn8Fast",
       "name": "count in - 8 beats - fast",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix_countIn8Fast"
+      ],
       "cues": [
         {
           "id": "*/oneFast",
@@ -287,12 +335,15 @@
       "type": "pattern",
       "id": "*_strum",
       "name": "strum - yeah",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix_strum"
+      ],
       "stretchable": true,
       "cues": [
         {
           "id": "*/strum",
-          "beat": 0.0
+          "beat": 0.0,
+          "semitone": 3
         },
         {
           "id": "*/yeah1",
@@ -301,7 +352,8 @@
         },
         {
           "id": "*/strum",
-          "beat": 1.5
+          "beat": 1.5,
+          "semitone": 3
         },
         {
           "id": "*/yeah1",
@@ -310,7 +362,8 @@
         },
         {
           "id": "*/strum",
-          "beat": 3.0
+          "beat": 3.0,
+          "semitone": 3
         },
         {
           "id": "*/yeah1",
@@ -318,8 +371,10 @@
           "track": 1
         },
         {
-          "id": "*/strumFinal",
-          "beat": 4.0
+          "id": "*/strum",
+          "beat": 4.0,
+          "duration": 3.75,
+          "semitone": 3
         },
         {
           "id": "*/yeah2",
@@ -328,7 +383,8 @@
         },
         {
           "id": "*/victoryCrowd",
-          "beat": 5.0
+          "beat": 5.0,
+          "track": 1
         }
       ],
       "subtext": ""
@@ -337,12 +393,15 @@
       "type": "pattern",
       "id": "*_strumCymbal",
       "name": "strum - cymbals",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "bigRockFinishMegamix_strumCymbal"
+      ],
       "stretchable": true,
       "cues": [
         {
           "id": "*/strum",
-          "beat": 0.0
+          "beat": 0.0,
+          "semitone": 3
         },
         {
           "id": "*/cymbal",
@@ -351,7 +410,8 @@
         },
         {
           "id": "*/strum",
-          "beat": 1.5
+          "beat": 1.5,
+          "semitone": 3
         },
         {
           "id": "*/cymbal",
@@ -360,7 +420,8 @@
         },
         {
           "id": "*/strum",
-          "beat": 3.0
+          "beat": 3.0,
+          "semitone": 3
         },
         {
           "id": "*/cymbal",
@@ -368,8 +429,10 @@
           "track": 1
         },
         {
-          "id": "*/strumFinal",
-          "beat": 4.0
+          "id": "*/strum",
+          "beat": 4.0,
+          "duration": 3.75,
+          "semitone": 3
         },
         {
           "id": "*/cymbal",
@@ -378,7 +441,8 @@
         },
         {
           "id": "*/victoryCrowd",
-          "beat": 5.0
+          "beat": 5.0,
+          "track": 1
         }
       ],
       "subtext": ""
