@@ -4,215 +4,216 @@
   "series": "fever",
   "language": "ko",
   "group": "Figure Fighter",
-  "groupDefault": false,
   "objects": [
     {
       "type": "cue",
       "id": "*/and",
-      "name": "and",
+      "name": "jab! - and!",
       "deprecatedIDs": [],
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/and2",
-      "name": "and2",
-      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/jab",
-      "name": "jab",
-      "deprecatedIDs": [],
-      "duration": 0.5
+      "name": "jab!",
+      "deprecatedIDs": [
+        "figureFighterKo/jabCrowd"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "earliness": 0.0333333
     },
     {
       "type": "cue",
       "id": "*/jabHit",
-      "name": "jab - hit",
+      "name": "jab! - hit",
       "deprecatedIDs": [],
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/jabHitPowerEnd",
-      "name": "jab hit power (end)",
-      "deprecatedIDs": [],
-      "duration": 3.0
+      "subtext": "",
+      "duration": 0.5,
+      "introSound": "*/regularHit"
     },
     {
       "type": "cue",
       "id": "*/oneTwo1",
-      "name": "one two - one!",
+      "name": "one, two! - one!",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/oneTwo2",
-      "name": "one two - two!",
+      "name": "one, two! - two!",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/oneTwoHit1",
-      "name": "one two - hit - 1",
+      "id": "*/and2",
+      "name": "fast one-two! - and!",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoHit2",
-      "name": "one two - hit - 2",
-      "deprecatedIDs": [],
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoHit1Cheer",
-      "name": "one two - hit with crowd - 1",
-      "deprecatedIDs": [],
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/oneTwoHit2Cheer",
-      "name": "one two - hit with crowd - 2",
-      "deprecatedIDs": [],
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/go1",
-      "name": "go go go - 1",
-      "deprecatedIDs": [],
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/go2",
-      "name": "go go go - 2",
-      "deprecatedIDs": [],
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/go3",
-      "name": "go go go - 3",
-      "deprecatedIDs": [],
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/goHit1",
-      "name": "go go go - hit - 1",
-      "deprecatedIDs": [],
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/goHit2",
-      "name": "go go go - hit - 2",
-      "deprecatedIDs": [],
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/goHit3",
-      "name": "go go go - hit - 3",
-      "deprecatedIDs": [],
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/goGoGoHit1Cheer",
-      "name": "go go go - hit with crowd - 1",
-      "deprecatedIDs": [],
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/goGoGoHit2Cheer",
-      "name": "go go go - hit with crowd - 2",
-      "deprecatedIDs": [],
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/goGoGoHit3Cheer",
-      "name": "go go go - hit with crowd - 3",
-      "deprecatedIDs": [],
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/jabHitPower",
-      "name": "jab hit - power",
-      "deprecatedIDs": [],
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/jabCrowd",
-      "name": "hit with crowd",
-      "deprecatedIDs": [],
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/applauseHit",
-      "name": "crowd - falling pieces",
-      "deprecatedIDs": [],
-      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/fastOneTwo1",
-      "name": "fast one two - one!",
+      "name": "fast one-two! - one!",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/fastOneTwo2",
-      "name": "fast one two - two!",
+      "name": "fast one-two! - two!",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/fastOneTwoHit1",
-      "name": "fast one two - hit - 1",
+      "id": "*/oneTwoHit1",
+      "name": "one, two! - hit - 1",
+      "deprecatedIDs": [
+        "figureFighterKo/fastOneTwoHit1",
+        "figureFighterKo/oneTwoHit1Cheer",
+        "figureFighterKo/oneTwoFastHit1Cheer"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "introSound": "*/regularHit"
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoHit2",
+      "name": "one, two! - hit - 2",
+      "deprecatedIDs": [
+        "figureFighterKo/fastOneTwoHit2",
+        "figureFighterKo/oneTwoHit2Cheer",
+        "figureFighterKo/oneTwoFastHit2Cheer"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "introSound": "*/regularHit"
+    },
+    {
+      "type": "cue",
+      "id": "*/oneTwoHit2Fast",
+      "name": "fast one-two! - hit - 2",
       "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "introSound": "*/regularHit"
+    },
+    {
+      "type": "cue",
+      "id": "*/go1",
+      "name": "go go go! - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/fastOneTwoHit2",
-      "name": "fast one two - hit - 2",
+      "id": "*/go2",
+      "name": "go go go! - 2",
       "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/oneTwoFastHit1Cheer",
-      "name": "fast one two with crowd - one!",
+      "id": "*/go3",
+      "name": "go go go! - 3",
       "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/goHit1",
+      "name": "go go go! - hit - 1",
+      "deprecatedIDs": [
+        "figureFighterKo/goGoGoHit1Cheer",
+        "figureFighterKo/goGoGoHit2Cheer"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "introSound": "*/regularHit"
+    },
+    {
+      "type": "cue",
+      "id": "*/goHit2",
+      "name": "go go go! - hit - 2",
+      "deprecatedIDs": [
+        "figureFighterKo/goHit3",
+        "figureFighterKo/goGoGoHit3Cheer"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "introSound": "*/regularHit"
+    },
+    {
+      "type": "cue",
+      "id": "*/hit1Cheer",
+      "name": "crowd cheer - hit - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/oneTwoFastHit2Cheer",
-      "name": "fast one two with crowd - two!",
+      "id": "*/hit2Cheer",
+      "name": "crowd cheer - hit - 2",
       "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/hit3Cheer",
+      "name": "crowd cheer - hit - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/applause",
+      "name": "crowd cheer - applause",
+      "deprecatedIDs": [
+        "figureFighterKo/applauseHit"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/regularHit",
+      "name": "muscle doll - puffs up",
+      "deprecatedIDs": [
+        "figureFighterKo/jabHitPower"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/powerHit",
+      "name": "punching bag - breaks off",
+      "deprecatedIDs": [
+        "figureFighterKo/jabHitPowerEnd"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "pattern",
       "id": "*_jab",
-      "name": "jab",
+      "name": "jab!",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -223,12 +224,13 @@
           "id": "*/jabHit",
           "beat": 1.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_jabCrowd",
-      "name": "jab with crowd",
+      "name": "jab! - crowd",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -236,15 +238,68 @@
           "beat": 0.0
         },
         {
-          "id": "*/jabCrowd",
+          "id": "*/jabHit",
           "beat": 1.0
+        },
+        {
+          "id": "*/hit1Cheer",
+          "beat": 1.0,
+          "track": 1
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_andJab",
+      "name": "and jab!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/and",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/jab",
+          "beat": 0.5
+        },
+        {
+          "id": "*/jabHit",
+          "beat": 1.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_andJabCrowd",
+      "name": "and jab! - crowd",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/and",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/jab",
+          "beat": 0.5
+        },
+        {
+          "id": "*/jabHit",
+          "beat": 1.5
+        },
+        {
+          "id": "*/hit1Cheer",
+          "beat": 1.5,
+          "track": 1
+        }
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_oneTwo",
-      "name": "one two",
+      "name": "one, two!",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -263,41 +318,48 @@
           "id": "*/oneTwoHit2",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_oneTwoCrowd",
+      "name": "one, two! - crowd",
       "deprecatedIDs": [],
-      "name": "one two with crowd",
-      "stretchable": false,
       "cues": [
         {
           "id": "*/oneTwo1",
-          "beat": 0.0,
-          "duration": 1.0
+          "beat": 0.0
         },
         {
           "id": "*/oneTwo2",
-          "beat": 1.0,
-          "duration": 1.0
+          "beat": 1.0
         },
         {
-          "id": "*/oneTwoHit1Cheer",
+          "id": "*/oneTwoHit1",
+          "beat": 2.0
+        },
+        {
+          "id": "*/hit1Cheer",
           "beat": 2.0,
-          "duration": 0.5
+          "track": 1
         },
         {
-          "id": "*/oneTwoHit2Cheer",
+          "id": "*/oneTwoHit2",
+          "beat": 3.0
+        },
+        {
+          "id": "*/hit3Cheer",
           "beat": 3.0,
-          "duration": 0.5
+          "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_oneTwoFast",
-      "name": "fast one two",
+      "name": "fast one-two!",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -309,72 +371,157 @@
           "beat": 0.5
         },
         {
-          "id": "*/fastOneTwoHit1",
-          "beat": 1.0
+          "id": "*/oneTwoHit1",
+          "beat": 1.0,
+          "duration": 0.5
         },
         {
-          "id": "*/fastOneTwoHit2",
+          "id": "*/oneTwoHit2Fast",
           "beat": 1.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_oneTwoFastCrowd",
+      "name": "fast one-two! - crowd",
       "deprecatedIDs": [],
-      "name": "fast one two crowd",
-      "stretchable": false,
       "cues": [
         {
           "id": "*/fastOneTwo1",
-          "beat": 0.0,
-          "duration": 0.5
+          "beat": 0.0
         },
         {
           "id": "*/fastOneTwo2",
-          "beat": 0.5,
-          "duration": 0.5
+          "beat": 0.5
         },
         {
-          "id": "*/oneTwoFastHit1Cheer",
+          "id": "*/oneTwoHit1",
           "beat": 1.0,
           "duration": 0.5
         },
         {
-          "id": "*/oneTwoFastHit2Cheer",
+          "id": "*/hit1Cheer",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/oneTwoHit2Fast",
+          "beat": 1.5
+        },
+        {
+          "id": "*/hit3Cheer",
+          "beat": 1.5,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_andOneTwoFast",
+      "name": "and fast one-two!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/and2",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/fastOneTwo1",
+          "beat": 0.5
+        },
+        {
+          "id": "*/fastOneTwo2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/oneTwoHit1",
           "beat": 1.5,
           "duration": 0.5
+        },
+        {
+          "id": "*/oneTwoHit2Fast",
+          "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_andOneTwoFastCrowd",
+      "name": "and fast one-two! - crowd",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/and2",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/fastOneTwo1",
+          "beat": 0.5
+        },
+        {
+          "id": "*/fastOneTwo2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/oneTwoHit1",
+          "beat": 1.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/hit1Cheer",
+          "beat": 1.5,
+          "track": 1
+        },
+        {
+          "id": "*/oneTwoHit2Fast",
+          "beat": 2.0
+        },
+        {
+          "id": "*/hit3Cheer",
+          "beat": 2.0,
+          "track": 1
+        }
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_oneTwoFastEnd",
+      "name": "fast one-two! - ending",
       "deprecatedIDs": [],
-      "name": "fast one two ending",
-      "stretchable": false,
       "cues": [
         {
+          "id": "*/and2",
+          "beat": 1.4E-45
+        },
+        {
           "id": "*/fastOneTwo1",
-          "beat": 0.0,
-          "duration": 0.5
+          "beat": 0.5
         },
         {
           "id": "*/fastOneTwo2",
-          "beat": 0.5,
-          "duration": 0.5
+          "beat": 1.0
         },
         {
-          "id": "*/fastOneTwoHit1",
-          "beat": 1.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/jabHitPowerEnd",
+          "id": "*/oneTwoHit1",
           "beat": 1.5,
-          "duration": 2.5
+          "duration": 0.5
+        },
+        {
+          "id": "*/oneTwoHit2Fast",
+          "beat": 2.0
+        },
+        {
+          "id": "*/powerHit",
+          "beat": 2.0,
+          "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
@@ -399,21 +546,21 @@
           "beat": 2.0
         },
         {
-          "id": "*/goHit2",
+          "id": "*/goHit1",
           "beat": 2.5
         },
         {
-          "id": "*/goHit3",
+          "id": "*/goHit2",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_goGoGoCrowd",
+      "name": "go go go! - crowd",
       "deprecatedIDs": [],
-      "name": "go go go! crowd",
-      "stretchable": false,
       "cues": [
         {
           "id": "*/go1",
@@ -431,26 +578,41 @@
           "duration": 1.0
         },
         {
-          "id": "*/goGoGoHit1Cheer",
+          "id": "*/goHit1",
           "beat": 2.0,
           "duration": 0.5
         },
         {
-          "id": "*/goGoGoHit2Cheer",
+          "id": "*/hit1Cheer",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/goHit1",
           "beat": 2.5,
           "duration": 0.5
         },
         {
-          "id": "*/goGoGoHit3Cheer",
+          "id": "*/hit2Cheer",
+          "beat": 2.5,
+          "track": 1
+        },
+        {
+          "id": "*/goHit2",
+          "beat": 3.0
+        },
+        {
+          "id": "*/hit3Cheer",
           "beat": 3.0,
-          "duration": 1.0
+          "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
       "id": "*_gogogoApplause",
-      "name": "go go go! applause",
+      "name": "go go go! - applause",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -470,18 +632,24 @@
           "beat": 2.0
         },
         {
-          "id": "*/goHit2",
+          "id": "*/goHit1",
           "beat": 2.5
         },
         {
-          "id": "*/jabHitPower",
+          "id": "*/goHit2",
           "beat": 3.0
         },
         {
-          "id": "*/applauseHit",
-          "beat": 4.5
+          "id": "*/powerHit",
+          "beat": 3.0,
+          "track": 1
+        },
+        {
+          "id": "*/applause",
+          "beat": 3.5
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
