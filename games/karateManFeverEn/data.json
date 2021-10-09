@@ -8,20 +8,22 @@
   "objects": [
     {
       "type": "cue",
-      "id": "*/potOut",
+      "id": "*/objectOut",
       "name": "pot - out",
       "deprecatedIDs": [
-        "karateMan/potout"
+        "karateMan/potout",
+        "karateManFeverEn/potOut"
       ],
       "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/offbeatPotOut",
+      "id": "*/offbeatObjectOut",
       "name": "pot - offbeat out",
       "deprecatedIDs": [
-        "karateMan/offbeatpotout"
+        "karateMan/offbeatpotout",
+        "karateManFeverEn/offbeatPotOut"
       ],
       "subtext": "",
       "duration": 1.0
@@ -51,60 +53,66 @@
     },
     {
       "type": "cue",
-      "id": "*/hit3cue1",
+      "id": "*/hit",
       "name": "hit",
       "deprecatedIDs": [
-        "karateMan/hit3cue1"
+        "karateMan/hit3cue1",
+        "karateManFeverEn/hit3cue1"
       ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/hit3cue2",
+      "id": "*/three",
       "name": "3!",
       "deprecatedIDs": [
-        "karateMan/hit3cue2"
+        "karateMan/hit3cue2",
+        "karateManFeverEn/hit3cue2"
       ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/hit4",
+      "id": "*/four",
       "name": "4!",
       "deprecatedIDs": [
-        "karateMan/hit4"
+        "karateMan/hit4",
+        "karateManFeverEn/hit4"
       ],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/rock",
+      "id": "*/rockHit",
       "name": "rock - hit",
       "deprecatedIDs": [
-        "karateMan/rock"
+        "karateMan/rock",
+        "karateManFeverEn/rock"
       ],
       "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/bulbOut",
+      "id": "*/lightbulbOut",
       "name": "lightbulb - out",
       "deprecatedIDs": [
-        "karateMan/bulbout"
+        "karateMan/bulbout",
+        "karateManFeverEn/bulbOut"
       ],
       "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/bulbHit",
+      "id": "*/lightbulbHit",
       "name": "lightbulb - hit",
       "deprecatedIDs": [
-        "karateMan/bulbhit"
+        "karateMan/bulbhit",
+        "karateManFeverEn/bulbHit"
       ],
       "subtext": "",
       "duration": 1.0
@@ -124,7 +132,7 @@
     {
       "type": "cue",
       "id": "*/punchy1",
-      "name": "combo - 1",
+      "name": "combo voice - 1",
       "deprecatedIDs": [
         "karateMan/punchy1"
       ],
@@ -134,7 +142,7 @@
     {
       "type": "cue",
       "id": "*/punchy2",
-      "name": "combo - 2",
+      "name": "combo voice - 2",
       "deprecatedIDs": [
         "karateMan/punchy2"
       ],
@@ -144,7 +152,7 @@
     {
       "type": "cue",
       "id": "*/punchy3",
-      "name": "combo - 3",
+      "name": "combo voice - 3",
       "deprecatedIDs": [
         "karateMan/punchy3"
       ],
@@ -154,7 +162,7 @@
     {
       "type": "cue",
       "id": "*/punchy4",
-      "name": "combo - 4",
+      "name": "combo voice - 4",
       "deprecatedIDs": [
         "karateMan/punchy4"
       ],
@@ -164,7 +172,7 @@
     {
       "type": "cue",
       "id": "*/ko",
-      "name": "combo - 5",
+      "name": "combo voice - 5",
       "deprecatedIDs": [
         "karateMan/ko"
       ],
@@ -174,10 +182,42 @@
     {
       "type": "cue",
       "id": "*/pow",
-      "name": "combo - 6",
+      "name": "combo voice - 6",
       "deprecatedIDs": [
         "karateMan/pow"
       ],
+      "subtext": "",
+      "duration": 1.5
+    },
+    {
+      "type": "cue",
+      "id": "*/comboHit1",
+      "name": "combo hit - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/comboHit2",
+      "name": "combo hit - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/comboHit3",
+      "name": "combo hit - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/comboHit4",
+      "name": "combo hit - 4",
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.5
     },
@@ -191,7 +231,7 @@
       ],
       "cues": [
         {
-          "id": "*/potOut",
+          "id": "*/objectOut",
           "beat": 0.0
         },
         {
@@ -210,7 +250,7 @@
       ],
       "cues": [
         {
-          "id": "*/offbeatPotOut",
+          "id": "*/offbeatObjectOut",
           "beat": 0.0
         },
         {
@@ -227,11 +267,28 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/potOut",
+          "id": "*/objectOut",
           "beat": 0.0
         },
         {
-          "id": "*/rock",
+          "id": "*/rockHit",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_offbeatRock",
+      "name": "offbeat rock",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/offbeatObjectOut",
+          "beat": 0.0
+        },
+        {
+          "id": "*/rockHit",
           "beat": 1.0
         }
       ],
@@ -246,7 +303,7 @@
       ],
       "cues": [
         {
-          "id": "*/potOut",
+          "id": "*/objectOut",
           "beat": 0.0
         },
         {
@@ -265,38 +322,25 @@
       ],
       "cues": [
         {
-          "id": "*/hit3cue1",
+          "id": "*/hit",
           "beat": 0.0
         },
         {
-          "id": "*/hit3cue2",
+          "id": "*/three",
           "beat": 0.5
         },
         {
-          "id": "*/potOut",
+          "id": "*_pot",
           "beat": 1.5
         },
         {
-          "id": "*/potHit",
-          "beat": 2.5
-        },
-        {
-          "id": "*/potOut",
+          "id": "*_pot",
           "beat": 2.5,
           "track": 1
         },
         {
-          "id": "*/potHit",
+          "id": "*_rock",
           "beat": 3.5
-        },
-        {
-          "id": "*/potOut",
-          "beat": 3.5,
-          "track": 1
-        },
-        {
-          "id": "*/rock",
-          "beat": 4.5
         }
       ],
       "subtext": ""
@@ -308,38 +352,25 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/hit3cue1",
+          "id": "*/hit",
           "beat": 0.0
         },
         {
-          "id": "*/hit3cue2",
+          "id": "*/three",
           "beat": 0.5
         },
         {
-          "id": "*/potOut",
+          "id": "*_pot",
           "beat": 1.5
         },
         {
-          "id": "*/potHit",
-          "beat": 2.5
-        },
-        {
-          "id": "*/potOut",
+          "id": "*_pot",
           "beat": 2.5,
           "track": 1
         },
         {
-          "id": "*/potHit",
+          "id": "*_soccerBall",
           "beat": 3.5
-        },
-        {
-          "id": "*/potOut",
-          "beat": 3.5,
-          "track": 1
-        },
-        {
-          "id": "*/soccerHit",
-          "beat": 4.5
         }
       ],
       "subtext": ""
@@ -351,38 +382,25 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/hit3cue1",
+          "id": "*/hit",
           "beat": 0.0
         },
         {
-          "id": "*/hit3cue2",
+          "id": "*/three",
           "beat": 0.5
         },
         {
-          "id": "*/offbeatPotOut",
+          "id": "*_offbeatPot",
           "beat": 1.5
         },
         {
-          "id": "*/potHit",
-          "beat": 2.5
-        },
-        {
-          "id": "*/offbeatPotOut",
+          "id": "*_offbeatPot",
           "beat": 2.5,
           "track": 1
         },
         {
-          "id": "*/potHit",
+          "id": "*_offbeatRock",
           "beat": 3.5
-        },
-        {
-          "id": "*/offbeatPotOut",
-          "beat": 3.5,
-          "track": 1
-        },
-        {
-          "id": "*/rock",
-          "beat": 4.5
         }
       ],
       "subtext": ""
@@ -394,39 +412,26 @@
       "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/hit3cue1",
+          "id": "*/hit",
           "beat": 0.0
         },
         {
-          "id": "*/hit3cue2",
+          "id": "*/three",
           "beat": 0.5
         },
         {
-          "id": "*/potOut",
+          "id": "*_pot",
           "beat": 0.5,
           "track": 1
         },
         {
-          "id": "*/potHit",
+          "id": "*_pot",
           "beat": 1.5
         },
         {
-          "id": "*/potOut",
-          "beat": 1.5,
-          "track": 1
-        },
-        {
-          "id": "*/potHit",
-          "beat": 2.5
-        },
-        {
-          "id": "*/potOut",
+          "id": "*_rock",
           "beat": 2.5,
           "track": 1
-        },
-        {
-          "id": "*/rock",
-          "beat": 3.5
         }
       ],
       "subtext": ""
@@ -440,48 +445,50 @@
       ],
       "cues": [
         {
-          "id": "*/hit3cue1",
+          "id": "*/hit",
           "beat": 0.0
         },
         {
-          "id": "*/hit4",
+          "id": "*/four",
           "beat": 0.5
         },
         {
-          "id": "*/potOut",
-          "beat": 1.5,
-          "track": 1
+          "id": "*_pot",
+          "beat": 1.5
         },
         {
-          "id": "*/potHit",
-          "beat": 2.5
-        },
-        {
-          "id": "*/potOut",
+          "id": "*_pot",
           "beat": 2.5,
           "track": 1
         },
         {
-          "id": "*/potHit",
+          "id": "*_pot",
           "beat": 3.5
         },
         {
-          "id": "*/potOut",
-          "beat": 3.5,
-          "track": 1
-        },
-        {
-          "id": "*/potHit",
-          "beat": 4.5
-        },
-        {
-          "id": "*/potOut",
+          "id": "*_rock",
           "beat": 4.5,
           "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_combo",
+      "name": "combo",
+      "deprecatedIDs": [
+        "karateMan_combo",
+        "karateMan/kick"
+      ],
+      "cues": [
+        {
+          "id": "*_lightbulb",
+          "beat": 0.0
         },
         {
-          "id": "*/rock",
-          "beat": 5.5
+          "id": "*_comboSolo",
+          "beat": 2.0
         }
       ],
       "subtext": ""
@@ -496,11 +503,11 @@
       ],
       "cues": [
         {
-          "id": "*/bulbOut",
+          "id": "*/lightbulbOut",
           "beat": 0.0
         },
         {
-          "id": "*/bulbHit",
+          "id": "*/lightbulbHit",
           "beat": 1.0
         }
       ],
@@ -519,76 +526,58 @@
           "beat": 0.0
         },
         {
-          "id": "*/punchy1",
+          "id": "*/comboHit1",
           "beat": 1.0
         },
         {
-          "id": "*/punchy2",
+          "id": "*/punchy1",
+          "beat": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*/comboHit1",
           "beat": 1.25
         },
         {
-          "id": "*/punchy3",
+          "id": "*/punchy2",
+          "beat": 1.25,
+          "track": 1
+        },
+        {
+          "id": "*/comboHit1",
           "beat": 1.5
         },
         {
-          "id": "*/punchy4",
+          "id": "*/punchy3",
+          "beat": 1.5,
+          "track": 1
+        },
+        {
+          "id": "*/comboHit2",
           "beat": 1.75
         },
         {
-          "id": "*/ko",
-          "beat": 2.0
-        },
-        {
-          "id": "*/pow",
-          "beat": 2.5
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_combo",
-      "name": "combo",
-      "deprecatedIDs": [
-        "karateMan_combo",
-        "karateMan/kick"
-      ],
-      "cues": [
-        {
-          "id": "*/bulbOut",
-          "beat": 0.0
-        },
-        {
-          "id": "*/bulbHit",
-          "beat": 1.0
-        },
-        {
-          "id": "*/barrelOut",
-          "beat": 2.0
-        },
-        {
-          "id": "*/punchy1",
-          "beat": 3.0
-        },
-        {
-          "id": "*/punchy2",
-          "beat": 3.25
-        },
-        {
-          "id": "*/punchy3",
-          "beat": 3.5
-        },
-        {
           "id": "*/punchy4",
-          "beat": 3.75
+          "beat": 1.75,
+          "track": 1
+        },
+        {
+          "id": "*/comboHit3",
+          "beat": 2.0
         },
         {
           "id": "*/ko",
-          "beat": 4.0
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/comboHit4",
+          "beat": 2.5
         },
         {
           "id": "*/pow",
-          "beat": 4.5
+          "beat": 2.5,
+          "track": 1
         }
       ],
       "subtext": ""
