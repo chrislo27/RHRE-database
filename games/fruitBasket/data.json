@@ -438,6 +438,98 @@
         }
       ],
       "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_machineMelonL",
+      "name": "melon (Machine Remix) - left side",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/whistle",
+          "beat": 0.0
+        },
+        {
+          "id": "*/whistle",
+          "beat": 1.0
+        },
+        {
+          "id": "*/melonL",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/dunk",
+          "beat": 2.0,
+          "duration": 0.75
+        },
+        {
+          "id": "*/goalHitR",
+          "beat": 2.75,
+          "duration": 0.75
+        },
+        {
+          "id": "*/melonImpactL",
+          "beat": 3.5
+        },
+        {
+          "id": "*/basketL",
+          "beat": 3.5,
+          "duration": 1.5,
+          "track": 1
+        },
+        {
+          "id": "*/melonBasketL",
+          "beat": 4.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_machineMelonR",
+      "name": "melon (Machine Remix) - right side",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/whistle",
+          "beat": 0.0
+        },
+        {
+          "id": "*/whistle",
+          "beat": 1.0
+        },
+        {
+          "id": "*/melonR",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*/dunk",
+          "beat": 2.0,
+          "duration": 0.75
+        },
+        {
+          "id": "*/goalHitL",
+          "beat": 2.75,
+          "duration": 0.75
+        },
+        {
+          "id": "*/melonImpactR",
+          "beat": 3.5
+        },
+        {
+          "id": "*/basketR",
+          "beat": 3.5,
+          "duration": 1.5,
+          "track": 1
+        },
+        {
+          "id": "*/melonBasketR",
+          "beat": 4.0
+        }
+      ],
+      "subtext": ""
     }
   ]
 }
