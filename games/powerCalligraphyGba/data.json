@@ -214,7 +214,7 @@
     {
       "type": "pattern",
       "id": "*_chikaraSwing",
-      "name": "chikara (力) (swing)",
+      "name": "chikara (力) - swing",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -293,7 +293,7 @@
     {
       "type": "pattern",
       "id": "*_onoreSwing",
-      "name": "onore (己) (swing)",
+      "name": "onore (己) - swing",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -377,7 +377,7 @@
     {
       "type": "pattern",
       "id": "*_sunSwing",
-      "name": "sun (寸) (swing)",
+      "name": "sun (寸) - swing",
       "deprecatedIDs": [],
       "cues": [
         {
@@ -531,7 +531,7 @@
     {
       "type": "pattern",
       "id": "*_tsurunihamushiSwing",
-      "name": "tsuru niha mu shi (swing)",
+      "name": "tsuru niha mu shi - swing",
       "deprecatedIDs": [],
       "cues": [
         {
