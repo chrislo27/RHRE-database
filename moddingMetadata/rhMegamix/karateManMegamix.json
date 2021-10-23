@@ -24,7 +24,7 @@
     "sub": "0x63"
   },
   {
-    "applyTo": ["karateManMegamixEn_offbeatpot", "karateManMegamixJa_offbeatpot", "karateManMegamixKo_offbeatpot"],
+    "applyTo": ["karateManMegamixEn_offbeatPot", "karateManMegamixJa_offbeatPot", "karateManMegamixKo_offbeatPot"],
     "sub": "0x64"
   },
   {
