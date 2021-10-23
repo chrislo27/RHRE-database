@@ -27,12 +27,27 @@
 	"note": "Refer to the documentation"
   },
   {
-    "applyTo": ["loveRapEn_crazyintoyouswing", "loveRapJa_majidaisukiswing", "loveRapKo_swingjeongmalnigajoah"],
+    "applyTo": ["loveRapEn_foshoSwing", "loveRapJa_hontoSwing", "loveRapKo_jinjja1Swing"],
+    "sub": "0x80-0x83",
+	"note": "Refer to the documentation"
+  },
+  {
+    "applyTo": ["loveRapEn_fosholongSwing", "loveRapJa_hontolongSwing", "loveRapKo_jinjja2Swing"],
+    "sub": "0x84-0x87",
+	"note": "Refer to the documentation"
+  },
+  {
+    "applyTo": ["loveRapEn_crazyintoyoualt", "loveRapJa_majidaisukialt", "loveRapKo_altjeongmalnigajoah"],
     "sub": "0x7C-0x7F",
 	"note": "Refer to the documentation"
   },
   {
-    "applyTo": ["loveRapEn_allaboutyou", "loveRapJa_sukinanda", "loveRapKo_jinshimiyanan1"],
+    "applyTo": ["loveRapEn_allaboutyou", "loveRapJa_sukinanda", "loveRapKo_jinshimiyanan"],
+    "sub": "0x88-0x8F",
+	"note": "Refer to the documentation"
+  },
+  {
+    "applyTo": ["loveRapEn_allaboutyouSwing", "loveRapJa_sukinandaSwing", "loveRapKo_jinshimiyananSwing"],
     "sub": "0x88-0x8F",
 	"note": "Refer to the documentation"
   }
