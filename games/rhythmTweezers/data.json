@@ -4,22 +4,177 @@
   "series": "megamix",
   "objects": [
     {
-      "type": "cue",
-      "id": "*/cashier",
-      "name": "cashier",
+      "type": "randomCue",
+      "id": "*_shortAppear",
+      "name": "hair - appear",
       "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 1.0
+      "responseIDs": [
+        "*_randomShortPluck"
+      ],
+      "cues": [
+        {
+          "id": "*/shortAppear",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_longAppear",
+      "name": "long hair - appear",
+      "deprecatedIDs": [],
+      "responseIDs": [
+        "*_randomLongPluck"
+      ],
+      "cues": [
+        {
+          "id": "*/longAppear",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_randomShortPluck",
+      "name": "hair - pluck",
+      "deprecatedIDs": [
+        "rhythmTweezers_randomPluck",
+        "rhythmTweezers/pluck"
+      ],
+      "cues": [
+        {
+          "id": "*/shortPluck1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck2",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck3",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck4",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck5",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck6",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck7",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck8",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck9",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck10",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck11",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck12",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck13",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck14",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck15",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck16",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck17",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck18",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck19",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck20",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_randomLongPluck",
+      "name": "long hair - pluck",
+      "deprecatedIDs": [
+        "rhythmTweezers/aaa"
+      ],
+      "cues": [
+        {
+          "id": "*/longPull1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/longPull2",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/longPull3",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/longPull4",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": ""
     },
     {
       "type": "cue",
-      "id": "*/appear",
+      "id": "*/register",
+      "name": "cash register",
+      "deprecatedIDs": [
+        "rhythmTweezers/cashier"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/shortAppear",
       "name": "hair - appear",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "rhythmTweezers/appear"
+      ],
       "subtext": "",
       "duration": 0.25,
       "responseIDs": [
-        "*_randomPluck"
+        "*_randomShortPluck"
       ]
     },
     {
@@ -28,313 +183,267 @@
       "name": "long hair - appear",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 1.0,
+      "duration": 0.5,
       "responseIDs": [
         "*_randomLongPluck"
       ]
     },
     {
       "type": "cue",
-      "id": "*/grab1",
-      "name": "long hair - pluck 1",
-      "deprecatedIDs": [
-        "rhythmTweezers/gr"
-      ],
-      "subtext": "",
-      "duration": 0.5,
-      "endingSound": "*/pull"
-    },
-    {
-      "type": "cue",
-      "id": "*/grab2",
-      "name": "long hair - pluck 2",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5,
-      "endingSound": "*/pull"
-    },
-    {
-      "type": "cue",
-      "id": "*/grab3",
-      "name": "long hair - pluck 3",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5,
-      "endingSound": "*/pull"
-    },
-    {
-      "type": "cue",
-      "id": "*/grab4",
-      "name": "long hair - pluck 4",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5,
-      "endingSound": "*/pull"
-    },
-    {
-      "type": "cue",
-      "id": "*/pull",
-      "name": "long hair - pull out",
-      "deprecatedIDs": [
-        "rhythmTweezers/b"
-      ],
-      "subtext": "",
-      "duration": 1.0,
-      "useTimeStretching": false
-    },
-    {
-      "type": "cue",
-      "id": "*/pluck1",
+      "id": "*/shortPluck1",
       "name": "hair - pluck 1",
       "deprecatedIDs": [
-        "rhythmTweezers/pluck"
+        "rhythmTweezers/pluck1"
       ],
       "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/pluck2",
+      "id": "*/shortPluck2",
       "name": "hair - pluck 2",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/pluck3",
-      "name": "hair - pluck 3",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/pluck4",
-      "name": "hair - pluck 4",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/pluck5",
-      "name": "hair - pluck 5",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/pluck6",
-      "name": "hair - pluck 6",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/pluck7",
-      "name": "hair - pluck 7",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/pluck8",
-      "name": "hair - pluck 8",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/pluck9",
-      "name": "hair - pluck 9",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/pluck10",
-      "name": "hair - pluck 10",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/pluck11",
-      "name": "hair - pluck 11",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/pluck12",
-      "name": "hair - pluck 12",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/pluck13",
-      "name": "hair - pluck 13",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/pluck14",
-      "name": "hair - pluck 14",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/pluck15",
-      "name": "hair - pluck 15",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/pluck16",
-      "name": "hair - pluck 16",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/pluck17",
-      "name": "hair - pluck 17",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/pluck18",
-      "name": "hair - pluck 18",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/pluck19",
-      "name": "hair - pluck 19",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/pluck20",
-      "name": "hair - pluck 20",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.25
-    },
-    {
-      "type": "randomCue",
-      "id": "*_randomPluck",
-      "name": "random pluck",
-      "deprecatedIDs": [],
-      "cues": [
-        {
-          "id": "*/pluck1"
-        },
-        {
-          "id": "*/pluck2"
-        },
-        {
-          "id": "*/pluck3"
-        },
-        {
-          "id": "*/pluck4"
-        },
-        {
-          "id": "*/pluck5"
-        },
-        {
-          "id": "*/pluck6"
-        },
-        {
-          "id": "*/pluck7"
-        },
-        {
-          "id": "*/pluck8"
-        },
-        {
-          "id": "*/pluck9"
-        },
-        {
-          "id": "*/pluck10"
-        },
-        {
-          "id": "*/pluck11"
-        },
-        {
-          "id": "*/pluck12"
-        },
-        {
-          "id": "*/pluck13"
-        },
-        {
-          "id": "*/pluck14"
-        },
-        {
-          "id": "*/pluck15"
-        },
-        {
-          "id": "*/pluck16"
-        },
-        {
-          "id": "*/pluck17"
-        },
-        {
-          "id": "*/pluck18"
-        },
-        {
-          "id": "*/pluck19"
-        },
-        {
-          "id": "*/pluck20"
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "randomCue",
-      "id": "*_randomLongPluck",
-      "name": "random long pluck",
       "deprecatedIDs": [
-        "rhythmTweezers/aaa"
+        "rhythmTweezers/pluck2"
       ],
-      "cues": [
-        {
-          "id": "*/grab1"
-        },
-        {
-          "id": "*/grab2"
-        },
-        {
-          "id": "*/grab3"
-        },
-        {
-          "id": "*/grab4"
-        }
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/shortPluck3",
+      "name": "hair - pluck 3",
+      "deprecatedIDs": [
+        "rhythmTweezers/pluck3"
       ],
-      "subtext": ""
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/shortPluck4",
+      "name": "hair - pluck 4",
+      "deprecatedIDs": [
+        "rhythmTweezers/pluck4"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/shortPluck5",
+      "name": "hair - pluck 5",
+      "deprecatedIDs": [
+        "rhythmTweezers/pluck5"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/shortPluck6",
+      "name": "hair - pluck 6",
+      "deprecatedIDs": [
+        "rhythmTweezers/pluck6"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/shortPluck7",
+      "name": "hair - pluck 7",
+      "deprecatedIDs": [
+        "rhythmTweezers/pluck7"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/shortPluck8",
+      "name": "hair - pluck 8",
+      "deprecatedIDs": [
+        "rhythmTweezers/pluck8"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/shortPluck9",
+      "name": "hair - pluck 9",
+      "deprecatedIDs": [
+        "rhythmTweezers/pluck9"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/shortPluck10",
+      "name": "hair - pluck 10",
+      "deprecatedIDs": [
+        "rhythmTweezers/pluck10"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/shortPluck11",
+      "name": "hair - pluck 11",
+      "deprecatedIDs": [
+        "rhythmTweezers/pluck11"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/shortPluck12",
+      "name": "hair - pluck 12",
+      "deprecatedIDs": [
+        "rhythmTweezers/pluck12"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/shortPluck13",
+      "name": "hair - pluck 13",
+      "deprecatedIDs": [
+        "rhythmTweezers/pluck13"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/shortPluck14",
+      "name": "hair - pluck 14",
+      "deprecatedIDs": [
+        "rhythmTweezers/pluck14"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/shortPluck15",
+      "name": "hair - pluck 15",
+      "deprecatedIDs": [
+        "rhythmTweezers/pluck15"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/shortPluck16",
+      "name": "hair - pluck 16",
+      "deprecatedIDs": [
+        "rhythmTweezers/pluck16"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/shortPluck17",
+      "name": "hair - pluck 17",
+      "deprecatedIDs": [
+        "rhythmTweezers/pluck17"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/shortPluck18",
+      "name": "hair - pluck 18",
+      "deprecatedIDs": [
+        "rhythmTweezers/pluck18"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/shortPluck19",
+      "name": "hair - pluck 19",
+      "deprecatedIDs": [
+        "rhythmTweezers/pluck19"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/shortPluck20",
+      "name": "hair - pluck 20",
+      "deprecatedIDs": [
+        "rhythmTweezers/pluck20"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/longPull1",
+      "name": "long hair - pull 1",
+      "deprecatedIDs": [
+        "rhythmTweezers/gr",
+        "rhythmTweezers/grab1"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "endingSound": "*/longPullEnd"
+    },
+    {
+      "type": "cue",
+      "id": "*/longPull2",
+      "name": "long hair - pull 2",
+      "deprecatedIDs": [
+        "rhythmTweezers/grab2"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "endingSound": "*/longPullEnd"
+    },
+    {
+      "type": "cue",
+      "id": "*/longPull3",
+      "name": "long hair - pull 3",
+      "deprecatedIDs": [
+        "rhythmTweezers/grab3"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "endingSound": "*/longPullEnd"
+    },
+    {
+      "type": "cue",
+      "id": "*/longPull4",
+      "name": "long hair - pull 4",
+      "deprecatedIDs": [
+        "rhythmTweezers/grab4"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "endingSound": "*/longPullEnd"
+    },
+    {
+      "type": "cue",
+      "id": "*/longPullEnd",
+      "name": "long hair - pull - end",
+      "deprecatedIDs": [
+        "rhythmTweezers/b",
+        "rhythmTweezers/pull"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "useTimeStretching": false
     }
   ]
 }

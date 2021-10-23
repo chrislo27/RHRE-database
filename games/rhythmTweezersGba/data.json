@@ -1,64 +1,178 @@
 {
-  "series": "tengoku",
   "id": "rhythmTweezersGba",
   "name": "Rhythm Tweezers (GBA)",
+  "series": "tengoku",
   "objects": [
     {
-      "type": "cue",
-      "id": "*/appear",
-      "deprecatedIDs": [],
+      "type": "randomCue",
+      "id": "*_shortAppear",
       "name": "hair - appear",
+      "deprecatedIDs": [],
+      "responseIDs": [
+        "*_randomShortPluck"
+      ],
+      "cues": [
+        {
+          "id": "*/shortAppear",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_longAppear",
+      "name": "long hair - appear",
+      "deprecatedIDs": [],
+      "responseIDs": [
+        "*_longPluck"
+      ],
+      "cues": [
+        {
+          "id": "*/longAppear",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_randomShortPluck",
+      "name": "hair - pluck",
+      "deprecatedIDs": [
+        "rhythmTweezersGba/pluck"
+      ],
+      "cues": [
+        {
+          "id": "*/shortPluck1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck2",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck3",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck4",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/shortPluck5",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_longPluck",
+      "name": "long hair - pluck",
+      "deprecatedIDs": [
+        "rhythmTweezersGba/aaa"
+      ],
+      "cues": [
+        {
+          "id": "*/longPull",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "cue",
+      "id": "*/register",
+      "name": "cash register",
+      "deprecatedIDs": [
+        "rhythmTweezersGba/cashier"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/shortAppear",
+      "name": "hair - appear",
+      "deprecatedIDs": [
+        "rhythmTweezersGba/appear"
+      ],
+      "subtext": "",
       "duration": 0.25,
       "responseIDs": [
-        "*/pluck"
+        "*_randomShortPluck"
       ]
     },
     {
       "type": "cue",
       "id": "*/longAppear",
-      "deprecatedIDs": [],
       "name": "long hair - appear",
-      "duration": 1.0,
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
       "responseIDs": [
-        "*/aaa"
+        "*_longPluck"
       ]
     },
     {
       "type": "cue",
-      "id": "*/pluck",
+      "id": "*/shortPluck1",
+      "name": "hair - pluck 1",
       "deprecatedIDs": [],
-      "name": "hair - pluck",
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/gr",
+      "id": "*/shortPluck2",
+      "name": "hair - pluck 2",
       "deprecatedIDs": [],
-      "name": "rhythmTweezersGba/gr",
-      "duration": 1.0E-6
+      "subtext": "",
+      "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/aaa",
+      "id": "*/shortPluck3",
+      "name": "hair - pluck 3",
       "deprecatedIDs": [],
-      "name": "long hair - pluck",
-      "introSound": "rhythmTweezersGba/gr",
-      "endingSound": "rhythmTweezersGba/b",
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/shortPluck4",
+      "name": "hair - pluck 4",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/shortPluck5",
+      "name": "hair - pluck 5",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/longPull",
+      "name": "long hair - pull",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "endingSound": "*/longPullEnd"
+    },
+    {
+      "type": "cue",
+      "id": "*/longPullEnd",
+      "name": "long hair - pull - end",
+      "deprecatedIDs": [
+        "rhythmTweezersGba/b"
+      ],
+      "subtext": "",
       "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/b",
-      "deprecatedIDs": [],
-      "name": "long hair - pluck - 2",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/cashier",
-      "deprecatedIDs": [],
-      "name": "cashier",
-      "duration": 1.0
     }
   ]
 }
