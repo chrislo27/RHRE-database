@@ -9,63 +9,82 @@
   },
   {
     "applyTo": ["karateManMegamixEn_pot", "karateManMegamixJa_pot", "karateManMegamixKo_pot"],
-    "sub": "0x60"
+    "sub": "0x60",
+	"note": "sub has a 1 beat delay"
+  },
+  {
+    "applyTo": ["karateManMegamixEn_lightbulb", "karateManMegamixJa_lightbulb", "karateManMegamixKo_lightbulb"],
+    "sub": "0x67-0x71",
+	"note": "subs have a 1 beat delay, 0x67 to 0x6C are for kicks and 0x6D to 0x71 are for combos"
   },
   {
     "applyTo": ["karateManMegamixEn_rock", "karateManMegamixJa_rock", "karateManMegamixKo_rock"],
-    "sub": "0x61"
+    "sub": "0x61",
+	"note": "sub has a 1 beat delay"
+  },
+  {
+    "applyTo": ["karateManMegamixEn_offbeatRock", "karateManMegamixJa_offbeatRock", "karateManMegamixKo_offbeatRock"],
+    "sub": "0x66",
+	"note": "sub has a 1.5 beat delay"
   },
   {
     "applyTo": ["karateManMegamixEn_soccerBall", "karateManMegamixJa_soccerBall", "karateManMegamixKo_soccerBall"],
-    "sub": "0x62"
+    "sub": "0x62",
+	"note": "sub has a 1 beat delay"
   },
   {
     "applyTo": ["karateManMegamixEn_cookingPot", "karateManMegamixJa_cookingPot", "karateManMegamixKo_cookingPot"],
-    "sub": "0x63"
+    "sub": "0x63",
+	"note": "sub has a 1 beat delay"
   },
   {
     "applyTo": ["karateManMegamixEn_offbeatPot", "karateManMegamixJa_offbeatPot", "karateManMegamixKo_offbeatPot"],
-    "sub": "0x64"
+    "sub": "0x64",
+	"note": "sub has a 1.5 beat delay"
   },
   {
     "applyTo": ["karateManMegamixEn_doublePot", "karateManMegamixJa_doublePot", "karateManMegamixKo_doublePot"],
-    "sub": "0x65"
+    "sub": "0x65",
+	"note": "sub has a 1 beat delay"
   },
   {
     "applyTo": ["karateManMegamixEn_kick", "karateManMegamixJa_kick", "karateManMegamixKo_kick"],
     "sub": "0x6A + 0x75",
-	"note": "0x75 should be called two beats after 0x6A"
+	"note": "0x75 should be called 2 beats after 0x6A, both subs have a 1 beat delay"
   },
   {
     "applyTo": ["karateManMegamixEn_combo", "karateManMegamixJa_combo", "karateManMegamixKo_combo"],
     "sub": "0x6D + 0x73",
-	"note": "0x73 should be called three beats after 0x6D"
+	"note": "0x73 should be called 3 beats after 0x6D, 0x6D has a 1 beat delay"
   },
   {
     "applyTo": ["karateManMegamixEn_comboSenior", "karateManMegamixJa_comboSenior", "karateManMegamixKo_comboSenior"],
     "sub": "0x6D + 0x73",
-	"note": "0x73 should be called two beats after 0x6D"
+	"note": "0x73 should be called 2 beats after 0x6D, 0x6D has a 1 beat delay"
   },
   {
     "applyTo": ["karateManMegamixEn_alien", "karateManMegamixJa_alien", "karateManMegamixKo_alien"],
-    "sub": "0x72"
+    "sub": "0x72",
+	"note": "sub has a 1 beat delay"
   },
   {
     "applyTo": ["karateManMegamixEn_comboSolo", "karateManMegamixJa_comboSolo", "karateManMegamixKo_comboSolo"],
-    "sub": "0x73"
+    "sub": "0x73",
+	"note": "sub has no delay"
   },
   {
     "applyTo": ["karateManMegamixEn_kickSolo", "karateManMegamixJa_kickSolo", "karateManMegamixKo_kickSolo"],
-    "sub": "0x75"
+    "sub": "0x75",
+	"note": "sub has a 1 beat delay"
   },
   {
-    "applyTo": ["karateManMegamixEn_hit3", "karateManMegamixJa_hit3", "karateManMegamixKo_hit3"],
-    "sub": "0x88",
-	"note": "0x88 refers to the voice; pots are separate"
+    "applyTo": ["karateManMegamixEn_hit3", "karateManMegamixJa_hit3", "karateManMegamixKo_hit3", "karateManMegamixEn_hit3Soccer", "karateManMegamixJa_hit3Soccer", "karateManMegamixKo_hit3Soccer", "karateManMegamixEn_hit3CookingPot", "karateManMegamixJa_hit3CookingPot", "karateManMegamixKo_hit3CookingPot", "karateManMegamixEn_hit3Offbeat", "karateManMegamixJa_hit3Offbeat", "karateManMegamixKo_hit3Offbeat", "karateManMegamixEn_hit3Remix9", "karateManMegamixJa_hit3Remix9", "karateManMegamixKo_hit3Remix9"],
+    "sub": "0x88/0x89",
+	"note": "Neither sub contains inputs, 'Hit 3' text lasts 4 beats in 0x88 and lasts 2 beats in 0x89"
   },
   {
     "applyTo": ["karateManMegamixEn_hit4", "karateManMegamixJa_hit4", "karateManMegamixKo_hit4"],
     "sub": "0x8B",
-	"note": "0x8B refers to the voice; pots are separate. Only unique with JA sounds."
+	"note": "sub does not contain inputs, SFX only works with JP language."
   }
 ]
