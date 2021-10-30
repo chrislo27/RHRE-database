@@ -1,0 +1,29 @@
+[
+  {
+    "applyTo": ["bossaNovaEn", "bossaNovaJa"],
+    "engine": "0x2C",
+    "name": "rvlReceive",
+    "tempoFile": "100001D",
+    "index": "0x3A"
+  },
+  {
+    "applyTo": ["bossaNovaEn_femaleNormalA", "bossaNovaEn_femaleNormalB", "bossaNovaEn_femaleEnergeticA", "bossaNovaEn_femaleEnergeticB", "bossaNovaEn_femaleAngryA", "bossaNovaEn_femaleAngryB", "bossaNovaJa_femaleNormalA", "bossaNovaJa_femaleNormalB", "bossaNovaJa_femaleEnergeticA", "bossaNovaJa_femaleEnergeticB", "bossaNovaJa_femaleEnergeticC", "bossaNovaJa_femaleAngryA", "bossaNovaJa_femaleAngryB"],
+	"sub": "0x60",
+	"note": "0x103<1> X controls which voice is used, 1 is default"
+  },
+  {
+    "applyTo": ["bossaNovaEn_femaleNormalSpinA", "bossaNovaEn_femaleNormalSpinB", "bossaNovaEn_femaleEnergeticSpinA", "bossaNovaEn_femaleEnergeticSpinB", "bossaNovaEn_femaleAngrySpinA", "bossaNovaEn_femaleAngrySpinB", "bossaNovaJa_femaleNormalSpinA", "bossaNovaJa_femaleNormalSpinB", "bossaNovaJa_femaleEnergeticSpinA", "bossaNovaJa_femaleEnergeticSpinB", "bossaNovaJa_femaleEnergeticSpinC", "bossaNovaJa_femaleAngrySpinA", "bossaNovaJa_femaleAngrySpinB"],
+    "sub": "0x61",
+	"note": "0x103<1> X controls which voice is used, 1 is default"
+  },
+  {
+    "applyTo": ["bossaNovaEn_maleNormalA", "bossaNovaEn_maleNormalB", "bossaNovaEn_maleEnergeticA", "bossaNovaEn_maleEnergeticB", "bossaNovaEn_maleEnergeticC", "bossaNovaEn_maleAngry", "bossaNovaJa_maleNormalA", "bossaNovaJa_maleNormalB", "bossaNovaJa_maleEnergeticA", "bossaNovaJa_maleEnergeticB", "bossaNovaJa_maleEnergeticC", "bossaNovaJa_maleAngry"],
+    "sub": "0x5E",
+	"note": "0x103<2> X controls which voice is used, 1 is default"
+  },
+  {
+    "applyTo": ["bossaNovaEn_maleNormalSpinA", "bossaNovaEn_maleNormalSpinB", "bossaNovaEn_maleEnergeticSpinA", "bossaNovaEn_maleEnergeticSpinB", "bossaNovaEn_maleEnergeticSpinC", "bossaNovaEn_maleAngrySpinA", "bossaNovaEn_maleAngrySpinB", "bossaNovaJa_maleNormalSpinA", "bossaNovaJa_maleNormalSpinB", "bossaNovaJa_maleEnergeticSpinA", "bossaNovaJa_maleEnergeticSpinB", "bossaNovaJa_maleEnergeticSpinC", "bossaNovaJa_maleAngrySpinA", "bossaNovaJa_maleAngrySpinB"],
+    "sub": "0x5F",
+	"note": "0x103<2> X controls which voice is used, 1 is default"
+  }
+]

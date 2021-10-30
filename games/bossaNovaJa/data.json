@@ -4,2802 +4,2328 @@
   "series": "fever",
   "language": "ja",
   "group": "Bossa Nova",
-  "groupDefault": false,
   "objects": [
     {
-      "type": "cue",
-      "id": "*/female_laugh",
+      "type": "pattern",
+      "id": "*_cloudSwitch",
+      "name": "cloud - switch",
+      "deprecatedIDs": [
+        "bossaNovaJa_cloudSpin"
+      ],
+      "cues": [
+        {
+          "id": "*/cloud1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/cloud2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/cloud3",
+          "beat": 1.25
+        },
+        {
+          "id": "*/cloud4",
+          "beat": 1.5
+        },
+        {
+          "id": "*/cloud5",
+          "beat": 1.75
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleNormalA",
+      "name": "female - normal - A",
+      "deprecatedIDs": [
+        "bossaNovaJa_startingPatternFemale",
+        "bossaNovaJa_femaleNormal1"
+      ],
+      "cues": [
+        {
+          "id": "*_femalePattern",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_femaleVoiceNormalA",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleNormalB",
+      "name": "female - normal - B",
+      "deprecatedIDs": [
+        "bossaNovaJa_femaleNormal2"
+      ],
+      "cues": [
+        {
+          "id": "*_femalePattern",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_femaleVoiceNormalB",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleNormalSpinA",
+      "name": "female - normal - spin - A",
+      "deprecatedIDs": [
+        "bossaNovaJa_femaleTurn1",
+        "bossaNovaJa_femaleStartTurn1"
+      ],
+      "cues": [
+        {
+          "id": "*_femalePatternSwitch",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_femaleVoiceNormalSpinA",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleNormalSpinB",
+      "name": "female - normal - spin - B",
       "deprecatedIDs": [],
-      "name": "female laugh",
+      "cues": [
+        {
+          "id": "*_femalePatternSwitch",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_femaleVoiceNormalSpinB",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleEnergeticA",
+      "name": "female - energetic - A",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_femalePattern",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_femaleVoiceEnergeticA",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleEnergeticB",
+      "name": "female - energetic - B",
+      "deprecatedIDs": [
+        "bossaNovaJa_femaleNormal3"
+      ],
+      "cues": [
+        {
+          "id": "*_femalePattern",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_femaleVoiceEnergeticB",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleEnergeticC",
+      "name": "female - energetic - C",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_femalePattern",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_femaleVoiceEnergeticC",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleEnergeticSpinA",
+      "name": "female - energetic - spin - A",
+      "deprecatedIDs": [
+        "bossaNovaJa_femaleStartTurn2"
+      ],
+      "cues": [
+        {
+          "id": "*_femalePatternSwitch",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_femaleVoiceEnergeticSpinA",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleEnergeticSpinB",
+      "name": "female - energetic - spin - B",
+      "deprecatedIDs": [
+        "bossaNovaJa_femaleTurn3",
+        "bossaNovaJa_femaleStartTurn3"
+      ],
+      "cues": [
+        {
+          "id": "*_femalePatternSwitch",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_femaleVoiceEnergeticSpinB",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleEnergeticSpinC",
+      "name": "female - energetic - spin - C",
+      "deprecatedIDs": [
+        "bossaNovaJa_femaleTurn2"
+      ],
+      "cues": [
+        {
+          "id": "*_femalePatternSwitch",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_femaleVoiceEnergeticSpinC",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleAngryA",
+      "name": "female - angry - A",
+      "deprecatedIDs": [
+        "bossaNovaJa_femaleStartAngry1",
+        "bossaNovaJa_femaleAngry1"
+      ],
+      "cues": [
+        {
+          "id": "*_femalePattern",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_femaleVoiceAngryA",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleAngryB",
+      "name": "female - angry - B",
+      "deprecatedIDs": [
+        "bossaNovaJa_femaleStartAngry2",
+        "bossaNovaJa_femaleAngry2"
+      ],
+      "cues": [
+        {
+          "id": "*_femalePattern",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_femaleVoiceAngryB",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleAngrySpinA",
+      "name": "female - angry - spin - A",
+      "deprecatedIDs": [
+        "bossaNovaJa_femaleTurnAngry1",
+        "bossaNovaJa_femaleStartTurnAngry1"
+      ],
+      "cues": [
+        {
+          "id": "*_femalePatternSwitch",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_femaleVoiceAngrySpinA",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleAngrySpinB",
+      "name": "female - angry - spin - B",
+      "deprecatedIDs": [
+        "bossaNovaJa_femaleTurnAngry2",
+        "bossaNovaJa_femaleStartTurnAngry2"
+      ],
+      "cues": [
+        {
+          "id": "*_femalePatternSwitch",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_femaleVoiceAngrySpinB",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleTurnMmm",
+      "name": "male - normal - noise - A",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_mmm2"
+      ],
+      "cues": [
+        {
+          "id": "*/maleTurnMmm",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": "(\"Mmm\")"
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleTurnUmm",
+      "name": "male - normal - noise - B",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_mmm"
+      ],
+      "cues": [
+        {
+          "id": "*/maleTurnUmm",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": "(\"Umm\")"
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleTurnOh",
+      "name": "male - energetic - noise - A",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_oh"
+      ],
+      "cues": [
+        {
+          "id": "*/maleTurnOh",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": "(\"Oh\")"
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleTurnUgh",
+      "name": "male - energetic - noise - B",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_mmm3"
+      ],
+      "cues": [
+        {
+          "id": "*/maleTurnUgh",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": "(\"Ugh\")"
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleNormalA",
+      "name": "male - normal - A",
+      "deprecatedIDs": [
+        "bossaNovaJa_startingPatternMale",
+        "bossaNovaJa_maleNormal2"
+      ],
+      "cues": [
+        {
+          "id": "*_malePattern",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_maleVoiceNormalA",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleNormalB",
+      "name": "male - normal - B",
+      "deprecatedIDs": [
+        "bossaNovaJa_maleNormal1"
+      ],
+      "cues": [
+        {
+          "id": "*_malePattern",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_maleVoiceNormalB",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleNormalSpinA",
+      "name": "male - normal - spin - A",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_malePatternSwitch",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_maleVoiceNormalSpinA",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleNormalSpinB",
+      "name": "male - normal - spin - B",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_malePatternSwitch",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_maleVoiceNormalSpinB",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleEnergeticA",
+      "name": "male - energetic - A",
+      "deprecatedIDs": [
+        "bossaNovaJa_maleNormal3"
+      ],
+      "cues": [
+        {
+          "id": "*_malePattern",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_maleVoiceEnergeticA",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleEnergeticB",
+      "name": "male - energetic - B",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_malePattern",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_maleVoiceEnergeticB",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleEnergeticC",
+      "name": "male - energetic - C",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_malePattern",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_maleVoiceEnergeticC",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleEnergeticSpinA",
+      "name": "male - energetic - spin - A",
+      "deprecatedIDs": [
+        "bossaNovaJa_maleTurn1",
+        "bossaNovaJa_maleTurn2"
+      ],
+      "cues": [
+        {
+          "id": "*_malePatternSwitch",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_maleVoiceEnergeticSpinA",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleEnergeticSpinB",
+      "name": "male - energetic - spin - B",
+      "deprecatedIDs": [
+        "bossaNovaJa_maleTurn3",
+        "bossaNovaJa_maleStartTurn2"
+      ],
+      "cues": [
+        {
+          "id": "*_malePatternSwitch",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_maleVoiceEnergeticSpinB",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleEnergeticSpinC",
+      "name": "male - energetic - spin - C",
+      "deprecatedIDs": [
+        "bossaNovaJa_maleStartTurn1",
+        "bossaNovaJa_maleStartTurn3"
+      ],
+      "cues": [
+        {
+          "id": "*_malePatternSwitch",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_maleVoiceEnergeticSpinC",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleAngry",
+      "name": "male - angry",
+      "deprecatedIDs": [
+        "bossaNovaJa_maleStartPatternAngry"
+      ],
+      "cues": [
+        {
+          "id": "*_malePattern",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_maleVoiceAngry",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleAngrySpinA",
+      "name": "male - angry - spin - A",
+      "deprecatedIDs": [
+        "bossaNovaJa_maleTurnAngry2",
+        "bossaNovaJa_maleStartTurnAngry2"
+      ],
+      "cues": [
+        {
+          "id": "*_malePatternSwitch",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_maleVoiceAngrySpinA",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleAngrySpinB",
+      "name": "male - angry - spin - B",
+      "deprecatedIDs": [
+        "bossaNovaJa_maleTurnAngry1",
+        "bossaNovaJa_maleStartTurnAngry1"
+      ],
+      "cues": [
+        {
+          "id": "*_malePatternSwitch",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_maleVoiceAngrySpinB",
+          "beat": 1.4E-45,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleTurnMhm",
+      "name": "female - normal - noise - A",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_mmm2"
+      ],
+      "cues": [
+        {
+          "id": "*/femaleTurnMhm",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": "(\"Mhm\")"
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleTurnMmm",
+      "name": "female - normal - noise - B",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_mmm1"
+      ],
+      "cues": [
+        {
+          "id": "*/femaleTurnMmm",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": "(\"Mmm\")"
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleTurnNha",
+      "name": "female - energetic - noise - A",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_laugh"
+      ],
+      "cues": [
+        {
+          "id": "*/femaleTurnNha",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": "(\"Nha\")"
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleTurnLoudMmm",
+      "name": "female - energetic - noise - B",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_mmm3"
+      ],
+      "cues": [
+        {
+          "id": "*/femaleTurnLoudMmm",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": "(\"Mmm!\")"
+    },
+    {
+      "type": "pattern",
+      "id": "*_femalePattern",
+      "name": "pattern - female",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/ballNova",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/cubeBossa",
+          "beat": 1.0
+        },
+        {
+          "id": "*/ballNova",
+          "beat": 1.5
+        },
+        {
+          "id": "*/ballNova",
+          "beat": 2.0
+        },
+        {
+          "id": "*/cubeBossa",
+          "beat": 2.5
+        },
+        {
+          "id": "*/ballNova",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femalePatternSwitch",
+      "name": "pattern - female - switch",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/ballNova",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/cubeBossa",
+          "beat": 1.0
+        },
+        {
+          "id": "*/ballNova",
+          "beat": 1.5
+        },
+        {
+          "id": "*/ballNova",
+          "beat": 2.0
+        },
+        {
+          "id": "*/cubeTurn",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_malePattern",
+      "name": "pattern - male",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/ballBossa",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/cubeNova",
+          "beat": 1.0
+        },
+        {
+          "id": "*/ballBossa",
+          "beat": 1.5
+        },
+        {
+          "id": "*/ballBossa",
+          "beat": 2.0
+        },
+        {
+          "id": "*/cubeNova",
+          "beat": 2.5
+        },
+        {
+          "id": "*/ballBossa",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_malePatternSwitch",
+      "name": "pattern - male - switch",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/ballBossa",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/cubeNova",
+          "beat": 1.0
+        },
+        {
+          "id": "*/ballBossa",
+          "beat": 1.5
+        },
+        {
+          "id": "*/ballTurn",
+          "beat": 2.0
+        },
+        {
+          "id": "*/cubeNova",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleVoiceNormalA",
+      "name": "voice - female - normal - A",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/femaleAll1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/femaleNormalA2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/femaleAll3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/femaleNormalAB4",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleVoiceNormalB",
+      "name": "voice - female - normal - B",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/femaleAll1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/femaleNormalB2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/femaleAll3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/femaleNormalAB4",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleVoiceNormalSpinA",
+      "name": "voice - female - normal - spin - A",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/femaleAll1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/femaleNormalSpinA2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/femaleAll3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/femaleNormalSpinAB4",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleVoiceNormalSpinB",
+      "name": "voice - female - normal - spin - B",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/femaleAll1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/femaleNormalSpinB2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/femaleAll3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/femaleNormalSpinAB4",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleVoiceEnergeticA",
+      "name": "voice - female - energetic - A",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/femaleAll1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/femaleEnergeticA2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/femaleAll3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/femaleEnergeticA4",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleVoiceEnergeticB",
+      "name": "voice - female - energetic - B",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/femaleAll1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/femaleEnergeticB2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/femaleAll3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/femaleEnergeticB4",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleVoiceEnergeticC",
+      "name": "voice - female - energetic - C",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/femaleAll1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/femaleEnergeticC2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/femaleAll3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/femaleEnergeticC4",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleVoiceEnergeticSpinA",
+      "name": "voice - female - energetic - spin - A",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/femaleAll1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/femaleEnergeticA2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/femaleAll3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/femaleEnergeticSpinABC4",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleVoiceEnergeticSpinB",
+      "name": "voice - female - energetic - spin - B",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/femaleAll1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/femaleEnergeticB2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/femaleAll3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/femaleEnergeticSpinABC4",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleVoiceEnergeticSpinC",
+      "name": "voice - female - energetic - spin - C",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/femaleAll1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/femaleEnergeticC2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/femaleAll3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/femaleEnergeticSpinABC4",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleVoiceAngryA",
+      "name": "voice - female - angry - A",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/femaleAll1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/femaleAngryAB2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/femaleAll3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/femaleAngryA4",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleVoiceAngryB",
+      "name": "voice - female - angry - B",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/femaleAll1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/femaleAngryAB2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/femaleAll3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/femaleAngryB4",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleVoiceAngrySpinA",
+      "name": "voice - female - angry - spin - A",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/femaleAll1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/femaleAngryAB2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/femaleAll3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/femaleAngrySpinA4",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_femaleVoiceAngrySpinB",
+      "name": "voice - female - angry - spin - B",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/femaleAll1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/femaleAngryAB2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/femaleAll3",
+          "beat": 2.0
+        },
+        {
+          "id": "*/femaleAngrySpinB4",
+          "beat": 2.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleVoiceNormalA",
+      "name": "voice - male - normal - A",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/maleNormalA1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/maleNormalA2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/maleNormalA3",
+          "beat": 1.5
+        },
+        {
+          "id": "*/maleNormalA4",
+          "beat": 2.0
+        },
+        {
+          "id": "*/maleNormalA5",
+          "beat": 3.0
+        },
+        {
+          "id": "*/maleNormalA6",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleVoiceNormalB",
+      "name": "voice - male - normal - B",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/maleNormalB1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/maleNormalB2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/maleNormalB3",
+          "beat": 1.5
+        },
+        {
+          "id": "*/maleNormalB4",
+          "beat": 2.0
+        },
+        {
+          "id": "*/maleNormalB5",
+          "beat": 3.0
+        },
+        {
+          "id": "*/maleNormalB6",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleVoiceNormalSpinA",
+      "name": "voice - male - normal - spin - A",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/maleNormalA1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/maleNormalA2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/maleNormalA3",
+          "beat": 1.5
+        },
+        {
+          "id": "*/maleNormalABSpin",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleVoiceNormalSpinB",
+      "name": "voice - male - normal - spin - B",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/maleNormalB1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/maleNormalB2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/maleNormalB3",
+          "beat": 1.5
+        },
+        {
+          "id": "*/maleNormalABSpin",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleVoiceEnergeticA",
+      "name": "voice - male - energetic - A",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/maleEnergeticA1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/maleEnergeticA2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/maleEnergeticA3",
+          "beat": 1.5
+        },
+        {
+          "id": "*/maleEnergeticA4",
+          "beat": 2.0
+        },
+        {
+          "id": "*/maleEnergeticA5",
+          "beat": 3.0
+        },
+        {
+          "id": "*/maleEnergeticA6",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleVoiceEnergeticB",
+      "name": "voice - male - energetic - B",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/maleEnergeticB1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/maleEnergeticB2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/maleEnergeticB3",
+          "beat": 1.5
+        },
+        {
+          "id": "*/maleEnergeticB4",
+          "beat": 2.0
+        },
+        {
+          "id": "*/maleEnergeticB5",
+          "beat": 3.0
+        },
+        {
+          "id": "*/maleEnergeticB6",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleVoiceEnergeticC",
+      "name": "voice - male - energetic - C",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/maleEnergeticC1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/maleEnergeticC2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/maleEnergeticC3",
+          "beat": 1.5
+        },
+        {
+          "id": "*/maleEnergeticC4",
+          "beat": 2.0
+        },
+        {
+          "id": "*/maleEnergeticC5",
+          "beat": 3.0
+        },
+        {
+          "id": "*/maleEnergeticC6",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleVoiceEnergeticSpinA",
+      "name": "voice - male - energetic - spin - A",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/maleEnergeticA1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/maleEnergeticA2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/maleEnergeticA3",
+          "beat": 1.5
+        },
+        {
+          "id": "*/maleEnergeticASpin",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleVoiceEnergeticSpinB",
+      "name": "voice - male - energetic - spin - B",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/maleEnergeticB1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/maleEnergeticB2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/maleEnergeticB3",
+          "beat": 1.5
+        },
+        {
+          "id": "*/maleEnergeticBSpin",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleVoiceEnergeticSpinC",
+      "name": "voice - male - energetic - spin - C",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/maleEnergeticC1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/maleEnergeticC2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/maleEnergeticC3",
+          "beat": 1.5
+        },
+        {
+          "id": "*/maleEnergeticCSpin",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleVoiceAngry",
+      "name": "voice - male - angry",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/maleAngry1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/maleAngry2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/maleAngry3",
+          "beat": 1.5
+        },
+        {
+          "id": "*/maleAngry4",
+          "beat": 2.0
+        },
+        {
+          "id": "*/maleAngry5",
+          "beat": 3.0
+        },
+        {
+          "id": "*/maleAngry6",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleVoiceAngrySpinA",
+      "name": "voice - male - angry - spin - A",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/maleAngry1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/maleAngry2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/maleAngry3",
+          "beat": 1.5
+        },
+        {
+          "id": "*/maleAngryASpin",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_maleVoiceAngrySpinB",
+      "name": "voice - male - angry - spin - B",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/maleAngry1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/maleAngry2",
+          "beat": 1.0
+        },
+        {
+          "id": "*/maleAngry3",
+          "beat": 1.5
+        },
+        {
+          "id": "*/maleAngryBSpin",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "cue",
+      "id": "*/femaleAll1",
+      "name": "female - accent - 1",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_ss1"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/female_mmm1",
-      "deprecatedIDs": [],
-      "name": "female mmm1",
+      "id": "*/femaleAll3",
+      "name": "female - accent - 2",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_ss2"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/female_mmm2",
-      "deprecatedIDs": [],
-      "name": "female mmm2",
+      "id": "*/femaleNormalA2",
+      "name": "female - normal - A - 1",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_kon4"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/female_mmm3",
-      "deprecatedIDs": [],
-      "name": "female mmm3",
+      "id": "*/femaleNormalB2",
+      "name": "female - normal - B - 1",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_kon2"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/male_mmm",
-      "deprecatedIDs": [],
-      "name": "male mmm",
+      "id": "*/femaleNormalAB4",
+      "name": "female - normal - A/B - 2",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_kon5"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/male_mmm2",
-      "deprecatedIDs": [],
-      "name": "male mmm2",
+      "id": "*/femaleNormalSpinA2",
+      "name": "female - normal - turn - A",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_kon1"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/male_mmm3",
-      "deprecatedIDs": [],
-      "name": "male mmm3",
+      "id": "*/femaleNormalSpinB2",
+      "name": "female - normal - turn - B",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_kon3"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/male_oh",
-      "deprecatedIDs": [],
-      "name": "male oh",
+      "id": "*/femaleNormalSpinAB4",
+      "name": "female - normal - spin - A/B",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_turn1"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/ball",
-      "deprecatedIDs": [],
-      "name": "ball",
+      "id": "*/femaleEnergeticA2",
+      "name": "female - energetic - A - 1",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_kon9"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/ball_echo",
-      "deprecatedIDs": [],
-      "name": "ball echo",
+      "id": "*/femaleEnergeticB2",
+      "name": "female - energetic - B - 1",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_kon11"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/ball_hard",
-      "deprecatedIDs": [],
-      "name": "ball hard",
+      "id": "*/femaleEnergeticC2",
+      "name": "female - energetic - C - 1",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_kon7"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/ball_low",
-      "deprecatedIDs": [],
-      "name": "ball low",
+      "id": "*/femaleEnergeticA4",
+      "name": "female - energetic - A - 2",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_kon10"
+      ],
+      "subtext": "",
       "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/femaleEnergeticB4",
+      "name": "female - energetic - B - 2",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_kon12"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/femaleEnergeticC4",
+      "name": "female - energetic - C - 2",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_kon8"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/femaleEnergeticSpinABC4",
+      "name": "female - energetic - spin - A/B/C",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_turn2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/femaleAngryAB2",
+      "name": "female - angry - A/B - 1",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_kon_angry"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/femaleAngryA4",
+      "name": "female - angry - A - 2",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_kon_angry3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/femaleAngryB4",
+      "name": "female - angry - B - 2",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_kon_angry2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/femaleAngrySpinA4",
+      "name": "female - angry - spin - A",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_turn_angry"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/femaleAngrySpinB4",
+      "name": "female - angry - spin - B",
+      "deprecatedIDs": [
+        "bossaNovaJa/female_turn_angry2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/femaleTurnMhm",
+      "name": "female - normal - noise - A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/femaleTurnMmm",
+      "name": "female - normal - noise - B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/femaleTurnNha",
+      "name": "female - energetic - noise - A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/femaleTurnLoudMmm",
+      "name": "female - energetic - noise - B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleNormalA1",
+      "name": "male - normal - A - 1",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_don1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleNormalA2",
+      "name": "male - normal - A - 2",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_ss1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleNormalA3",
+      "name": "male - normal - A - 3",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_d1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleNormalA4",
+      "name": "male - normal - A - 4",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_don2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleNormalA5",
+      "name": "male - normal - A - 5",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleNormalA6",
+      "name": "male - normal - A - 6",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleNormalB1",
+      "name": "male - normal - B - 1",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_don3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleNormalB2",
+      "name": "male - normal - B - 2",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_ss2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleNormalB3",
+      "name": "male - normal - B - 3",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_d2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleNormalB4",
+      "name": "male - normal - B - 4",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_don4"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleNormalB5",
+      "name": "male - normal - B - 5",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleNormalB6",
+      "name": "male - normal - B - 6",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleNormalABSpin",
+      "name": "male - normal - A/B - spin",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_don5"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticA1",
+      "name": "male - energetic - A - 1",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_don8"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticA2",
+      "name": "male - energetic - A - 2",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_ss4"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticA3",
+      "name": "male - energetic - A - 3",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_d4"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticA4",
+      "name": "male - energetic - A - 4",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_don9"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticA5",
+      "name": "male - energetic - A - 5",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_ss3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticA6",
+      "name": "male - energetic - A - 6",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_d3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticASpin",
+      "name": "male - energetic - A - spin",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_turn2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticB1",
+      "name": "male - energetic - B - 1",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_don10"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticB2",
+      "name": "male - energetic - B - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticB3",
+      "name": "male - energetic - B - 3",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_d5"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticB4",
+      "name": "male - energetic - B - 4",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_don11"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticB5",
+      "name": "male - energetic - B - 5",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticB6",
+      "name": "male - energetic - B - 6",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticBSpin",
+      "name": "male - energetic - B - spin",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_turn3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticC1",
+      "name": "male - energetic - C - 1",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_don6"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticC2",
+      "name": "male - energetic - C - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticC3",
+      "name": "male - energetic - C - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticC4",
+      "name": "male - energetic - C - 4",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_don7"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticC5",
+      "name": "male - energetic - C - 5",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticC6",
+      "name": "male - energetic - C - 6",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleEnergeticCSpin",
+      "name": "male - energetic - C - spin",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_turn1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleAngry1",
+      "name": "male - angry - 1",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_don_angry"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleAngry2",
+      "name": "male - angry - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleAngry3",
+      "name": "male - angry - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleAngry4",
+      "name": "male - angry - 4",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_don_angry2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleAngry5",
+      "name": "male - angry - 5",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleAngry6",
+      "name": "male - angry - 6",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleAngryASpin",
+      "name": "male - angry - A - spin",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_turn_angry2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleAngryBSpin",
+      "name": "male - angry - B - spin",
+      "deprecatedIDs": [
+        "bossaNovaJa/male_turn_angry"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleTurnMmm",
+      "name": "male - normal - noise - A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleTurnUmm",
+      "name": "male - normal - noise - B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleTurnOh",
+      "name": "male - energetic - noise - A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/maleTurnUgh",
+      "name": "male - energetic - noise - B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/ballNova",
+      "name": "ball - female",
+      "deprecatedIDs": [
+        "bossaNovaJa/ball"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "introSound": "*/ballSwing"
+    },
+    {
+      "type": "cue",
+      "id": "*/ballBossa",
+      "name": "ball - male",
+      "deprecatedIDs": [
+        "bossaNovaJa/ball_low"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "introSound": "*/ballSwing"
+    },
+    {
+      "type": "cue",
+      "id": "*/ballTurn",
+      "name": "ball - male - turn",
+      "deprecatedIDs": [
+        "bossaNovaJa/ball_echo"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "introSound": "*/ballSwing"
+    },
+    {
+      "type": "cue",
+      "id": "*/ballSwing",
+      "name": "swing - ball",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/cubeNova",
+      "name": "cube - female",
+      "deprecatedIDs": [
+        "bossaNovaJa/cube"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "introSound": "*/cubeSwing"
+    },
+    {
+      "type": "cue",
+      "id": "*/cubeBossa",
+      "name": "cube - male",
+      "deprecatedIDs": [
+        "bossaNovaJa/cube_heavy"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "introSound": "*/cubeSwing"
+    },
+    {
+      "type": "cue",
+      "id": "*/cubeTurn",
+      "name": "cube - male - turn",
+      "deprecatedIDs": [
+        "bossaNovaJa/cube_echo"
+      ],
+      "subtext": "",
+      "duration": 0.5,
+      "introSound": "*/cubeSwing"
+    },
+    {
+      "type": "cue",
+      "id": "*/cubeSwing",
+      "name": "swing - cube",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/cloudSwish",
+      "name": "cloud - swish",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/cloud1",
+      "name": "cloud - click",
       "deprecatedIDs": [],
-      "name": "cloud1",
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/cloud2",
+      "name": "cloud - spin - 1",
       "deprecatedIDs": [],
-      "name": "cloud2",
-      "duration": 0.25
+      "subtext": "",
+      "duration": 0.25,
+      "introSound": "*/cloudSwish"
     },
     {
       "type": "cue",
       "id": "*/cloud3",
+      "name": "cloud - spin - 2",
       "deprecatedIDs": [],
-      "name": "cloud3",
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/cloud4",
+      "name": "cloud - spin - 3",
       "deprecatedIDs": [],
-      "name": "cloud4",
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
       "id": "*/cloud5",
+      "name": "cloud - spin - 4",
       "deprecatedIDs": [],
-      "name": "cloud5",
+      "subtext": "",
       "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/cube",
-      "deprecatedIDs": [],
-      "name": "cube",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/cube_echo",
-      "deprecatedIDs": [],
-      "name": "cube echo",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/cube_heavy",
-      "deprecatedIDs": [],
-      "name": "cube heavy",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_kon1",
-      "deprecatedIDs": [],
-      "name": "female kon1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_kon2",
-      "deprecatedIDs": [],
-      "name": "female kon2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_kon3",
-      "deprecatedIDs": [],
-      "name": "female kon3",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_kon4",
-      "deprecatedIDs": [],
-      "name": "female kon4",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_kon5",
-      "deprecatedIDs": [],
-      "name": "female kon5",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_kon6",
-      "deprecatedIDs": [],
-      "name": "female kon6",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_kon7",
-      "deprecatedIDs": [],
-      "name": "female kon7",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_kon8",
-      "deprecatedIDs": [],
-      "name": "female kon8",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_kon9",
-      "deprecatedIDs": [],
-      "name": "female kon9",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_kon10",
-      "deprecatedIDs": [],
-      "name": "female kon10",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_kon11",
-      "deprecatedIDs": [],
-      "name": "female kon11",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_kon12",
-      "deprecatedIDs": [],
-      "name": "female kon12",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_kon_angry",
-      "deprecatedIDs": [],
-      "name": "female kon angry",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_kon_angry2",
-      "deprecatedIDs": [],
-      "name": "female kon angry2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_kon_angry3",
-      "deprecatedIDs": [],
-      "name": "female kon angry3",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_ss1",
-      "deprecatedIDs": [],
-      "name": "female ss1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_ss2",
-      "deprecatedIDs": [],
-      "name": "female ss2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_turn1",
-      "deprecatedIDs": [],
-      "name": "female turn1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_turn2",
-      "deprecatedIDs": [],
-      "name": "female turn2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_turn_angry",
-      "deprecatedIDs": [],
-      "name": "female turn angry",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/female_turn_angry2",
-      "deprecatedIDs": [],
-      "name": "female turn angry2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_d1",
-      "deprecatedIDs": [],
-      "name": "male d1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_d2",
-      "deprecatedIDs": [],
-      "name": "male d2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_d3",
-      "deprecatedIDs": [],
-      "name": "male d3",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_d4",
-      "deprecatedIDs": [],
-      "name": "male d4",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_d5",
-      "deprecatedIDs": [],
-      "name": "male d5",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_don1",
-      "deprecatedIDs": [],
-      "name": "male don1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_don2",
-      "deprecatedIDs": [],
-      "name": "male don2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_don3",
-      "deprecatedIDs": [],
-      "name": "male don3",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_don4",
-      "deprecatedIDs": [],
-      "name": "male don4",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_don5",
-      "deprecatedIDs": [],
-      "name": "male don5",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_don6",
-      "deprecatedIDs": [],
-      "name": "male don6",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_don7",
-      "deprecatedIDs": [],
-      "name": "male don7",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_don8",
-      "deprecatedIDs": [],
-      "name": "male don8",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_don9",
-      "deprecatedIDs": [],
-      "name": "male don9",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_don10",
-      "deprecatedIDs": [],
-      "name": "male don10",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_don11",
-      "deprecatedIDs": [],
-      "name": "male don11",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_don_angry",
-      "deprecatedIDs": [],
-      "name": "male don angry",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_don_angry2",
-      "deprecatedIDs": [],
-      "name": "male don angry2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_ss1",
-      "deprecatedIDs": [],
-      "name": "male ss1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_ss2",
-      "deprecatedIDs": [],
-      "name": "male ss2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_ss3",
-      "deprecatedIDs": [],
-      "name": "male ss3",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_ss4",
-      "deprecatedIDs": [],
-      "name": "male ss4",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_turn1",
-      "deprecatedIDs": [],
-      "name": "male turn1",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_turn2",
-      "deprecatedIDs": [],
-      "name": "male turn2",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_turn3",
-      "deprecatedIDs": [],
-      "name": "male turn3",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_turn_angry",
-      "deprecatedIDs": [],
-      "name": "male turn angry",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/male_turn_angry2",
-      "deprecatedIDs": [],
-      "name": "male turn angry2",
-      "duration": 0.5
-    },
-    {
-      "type": "pattern",
-      "id": "*_cloudSpin",
-      "deprecatedIDs": [],
-      "name": "cloud spin",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/cloud1",
-          "beat": 0.0,
-          "duration": 1.0
-        },
-        {
-          "id": "bossaNovaJa/cloud2",
-          "beat": 1.0,
-          "duration": 0.25
-        },
-        {
-          "id": "bossaNovaJa/cloud3",
-          "beat": 1.25,
-          "duration": 0.25
-        },
-        {
-          "id": "bossaNovaJa/cloud4",
-          "beat": 1.5,
-          "duration": 0.25
-        },
-        {
-          "id": "bossaNovaJa/cloud5",
-          "beat": 1.75,
-          "duration": 0.25
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_startingPatternFemale",
-      "deprecatedIDs": [],
-      "name": "female - starting pattern",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/female_kon4",
-          "beat": 1.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 1.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/female_kon5",
-          "beat": 2.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_femaleNormal1",
-      "deprecatedIDs": [],
-      "name": "female - normal 1",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 0.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_kon6",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 2.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 3.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_kon5",
-          "beat": 3.0,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_femaleNormal2",
-      "deprecatedIDs": [],
-      "name": "female - normal 2",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 0.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_kon2",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 2.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 3.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_kon5",
-          "beat": 3.0,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_femaleNormal3",
-      "deprecatedIDs": [],
-      "name": "female - normal 3",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 0.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_kon1",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 2.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 3.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_kon11",
-          "beat": 3.0,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_femaleTurn1",
-      "deprecatedIDs": [],
-      "name": "female - turn 1",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 0.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_kon1",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 2.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 3.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_turn1",
-          "beat": 3.0,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_femaleTurn2",
-      "deprecatedIDs": [],
-      "name": "female - turn 2",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 0.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_kon10",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 2.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 3.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_turn1",
-          "beat": 3.0,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_femaleTurn3",
-      "deprecatedIDs": [],
-      "name": "female - turn 3",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 0.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/female_kon12",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 2.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/female_turn2",
-          "beat": 3.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 3.0,
-          "duration": 0.5,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_femaleStartTurn1",
-      "deprecatedIDs": [],
-      "name": "female - start turn 1",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 1.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_kon1",
-          "beat": 1.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_turn1",
-          "beat": 2.5,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_femaleStartTurn2",
-      "deprecatedIDs": [],
-      "name": "female - start turn 2",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 1.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_kon9",
-          "beat": 1.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_turn2",
-          "beat": 2.5,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_femaleStartTurn3",
-      "deprecatedIDs": [],
-      "name": "female - start turn 3",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 1.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_kon12",
-          "beat": 1.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_ss2",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/female_turn2",
-          "beat": 2.5,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_femaleStartAngry1",
-      "deprecatedIDs": [],
-      "name": "female - starting pattern angry 1",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 1.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_kon_angry",
-          "beat": 1.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_kon_angry3",
-          "beat": 2.5,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_femaleStartAngry2",
-      "deprecatedIDs": [],
-      "name": "female - starting pattern angry 2",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 1.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_kon_angry",
-          "beat": 1.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_kon_angry2",
-          "beat": 2.5,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_femaleAngry1",
-      "deprecatedIDs": [],
-      "name": "female - angry 1",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/ball",
-          "beat": 0.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 0.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_kon_angry",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 2.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 3.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_kon_angry3",
-          "beat": 3.0,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_femaleAngry2",
-      "deprecatedIDs": [],
-      "name": "female - angry 2",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/ball",
-          "beat": 0.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 0.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_kon_angry",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 2.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 3.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_kon_angry2",
-          "beat": 3.0,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_femaleTurnAngry1",
-      "deprecatedIDs": [],
-      "name": "female - turn angry 1",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/ball",
-          "beat": 0.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 0.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_kon_angry",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 2.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 3.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_turn_angry",
-          "beat": 3.0,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_femaleTurnAngry2",
-      "deprecatedIDs": [],
-      "name": "female - turn angry 2",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/ball",
-          "beat": 0.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 0.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_kon_angry",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 2.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 3.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_turn_angry2",
-          "beat": 3.0,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_femaleStartTurnAngry1",
-      "deprecatedIDs": [],
-      "name": "female - start turn angry 1",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 1.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_kon_angry",
-          "beat": 1.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_turn_angry",
-          "beat": 2.5,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_femaleStartTurnAngry2",
-      "deprecatedIDs": [],
-      "name": "female - start turn angry 2",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 1.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_kon_angry",
-          "beat": 1.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_ss2",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/female_turn_angry2",
-          "beat": 2.5,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_startingPatternMale",
-      "deprecatedIDs": [],
-      "name": "male - starting pattern",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_don1",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 1.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_ss1",
-          "beat": 1.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_d1",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_don2",
-          "beat": 2.0,
-          "duration": 1.0
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 2.5,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_ss4",
-          "beat": 3.0,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_maleNormal1",
-      "deprecatedIDs": [],
-      "name": "male - normal 1",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_d4",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_don4",
-          "beat": 0.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_ss4",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_d1",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_don7",
-          "beat": 2.5,
-          "duration": 1.0
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 3.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_ss3",
-          "beat": 3.5,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_maleNormal2",
-      "deprecatedIDs": [],
-      "name": "male - normal 2",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_d3",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_don3",
-          "beat": 0.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_ss4",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_d1",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_don6",
-          "beat": 2.5,
-          "duration": 1.0
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 3.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_ss3",
-          "beat": 3.5,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_maleNormal3",
-      "deprecatedIDs": [],
-      "name": "male - normal 3",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_d4",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_don7",
-          "beat": 0.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_ss4",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_d1",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_don9",
-          "beat": 2.5,
-          "duration": 1.0
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 3.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_ss1",
-          "beat": 3.5,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_maleTurn1",
-      "deprecatedIDs": [],
-      "name": "male - turn 1",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/male_d3",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_don3",
-          "beat": 0.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_ss1",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/male_d3",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_turn1",
-          "beat": 2.5,
-          "duration": 1.0
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 3.0,
-          "duration": 0.5,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_maleTurn2",
-      "deprecatedIDs": [],
-      "name": "male - turn 2",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/male_d3",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_don4",
-          "beat": 0.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_ss1",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/male_d3",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_turn2",
-          "beat": 2.5,
-          "duration": 1.0
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 3.0,
-          "duration": 0.5,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_maleTurn3",
-      "deprecatedIDs": [],
-      "name": "male - turn 3",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_d4",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/male_don10",
-          "beat": 0.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_ss4",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_d4",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_turn3",
-          "beat": 2.5,
-          "duration": 1.0
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 3.0,
-          "duration": 0.5,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_maleStartTurn1",
-      "deprecatedIDs": [],
-      "name": "male - start turn 1",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_don7",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 1.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_ss4",
-          "beat": 1.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_d4",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_turn2",
-          "beat": 2.0,
-          "duration": 1.0
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_maleStartTurn2",
-      "deprecatedIDs": [],
-      "name": "male - start turn 2",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/male_don10",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 1.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_ss4",
-          "beat": 1.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_d4",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_turn3",
-          "beat": 2.0,
-          "duration": 1.0
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_maleStartTurn3",
-      "deprecatedIDs": [],
-      "name": "male - start turn 3",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "bossaNovaJa/male_don6",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 1.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_ss4",
-          "beat": 1.0,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_d3",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "bossaNovaJa/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "bossaNovaJa/male_turn1",
-          "beat": 2.0,
-          "duration": 1.0
-        },
-        {
-          "id": "bossaNovaJa/cube",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_maleStartPatternAngry",
-      "deprecatedIDs": [],
-      "name": "male - starting pattern angry",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/male_don_angry",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/cube",
-          "beat": 1.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_ss1",
-          "beat": 1.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_d3",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_don_angry2",
-          "beat": 2.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/cube",
-          "beat": 2.5,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/male_ss4",
-          "beat": 3.0,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_maleAngry",
-      "deprecatedIDs": [],
-      "name": "male - angry",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_d1",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 0.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_don_angry",
-          "beat": 0.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/male_ss1",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_d3",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_don_angry2",
-          "beat": 2.5,
-          "duration": 1.0
-        },
-        {
-          "id": "*/cube",
-          "beat": 3.0,
-          "duration": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/male_ss4",
-          "beat": 3.5,
-          "duration": 0.5
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_maleTurnAngry1",
-      "deprecatedIDs": [],
-      "name": "male - turn angry 1",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_d1",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 0.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_don_angry",
-          "beat": 0.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/male_ss1",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_d3",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_turn_angry",
-          "beat": 2.5,
-          "duration": 1.0
-        },
-        {
-          "id": "*/cube",
-          "beat": 3.0,
-          "duration": 0.5,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_maleTurnAngry2",
-      "deprecatedIDs": [],
-      "name": "male - turn angry 2",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_d1",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 0.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_don_angry",
-          "beat": 0.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/male_ss1",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_d3",
-          "beat": 2.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_turn_angry2",
-          "beat": 2.5,
-          "duration": 1.0
-        },
-        {
-          "id": "*/cube",
-          "beat": 3.0,
-          "duration": 0.5,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_maleStartTurnAngry1",
-      "deprecatedIDs": [],
-      "name": "male - start turn angry 1",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_don_angry",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/male_ss1",
-          "beat": 1.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 1.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_d3",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_turn_angry",
-          "beat": 2.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/cube",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_maleStartTurnAngry2",
-      "deprecatedIDs": [],
-      "name": "male - start turn angry 2",
-      "stretchable": false,
-      "cues": [
-        {
-          "id": "*/ball",
-          "beat": 0.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_don_angry",
-          "beat": 0.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/male_ss1",
-          "beat": 1.0,
-          "duration": 0.5
-        },
-        {
-          "id": "*/cube",
-          "beat": 1.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_d3",
-          "beat": 1.5,
-          "duration": 0.5
-        },
-        {
-          "id": "*/ball",
-          "beat": 1.5,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/ball",
-          "beat": 2.0,
-          "duration": 0.5,
-          "track": 1
-        },
-        {
-          "id": "*/male_turn_angry2",
-          "beat": 2.0,
-          "duration": 1.0
-        },
-        {
-          "id": "*/cube",
-          "beat": 2.5,
-          "duration": 0.5,
-          "track": 1
-        }
-      ]
     }
   ]
 }
