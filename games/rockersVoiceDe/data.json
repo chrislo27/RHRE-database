@@ -1,0 +1,76 @@
+{
+  "id": "rockersVoiceDe",
+  "name": "Rockers - Voice",
+  "series": "ds",
+  "language": "de",
+  "group": "Rockers",
+  "priority": -1,
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/cmon",
+      "name": "c'mon!",
+      "deprecatedIDs": [
+        "rockersDe/comeon",
+        "rockersDe/comeOn"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/lastOne",
+      "name": "last one!",
+      "deprecatedIDs": [
+        "rockersDe/lastone",
+        "rockersDe/lastOne"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/count1",
+      "name": "count - 1",
+      "deprecatedIDs": [
+        "rockersDe/eins",
+        "rockersDe/count1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/count2",
+      "name": "count - 2",
+      "deprecatedIDs": [
+        "rockersDe/zwei",
+        "rockersDe/count2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/count3",
+      "name": "count - 3",
+      "deprecatedIDs": [
+        "rockersDe/drei",
+        "rockersDe/count3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/count4",
+      "name": "count - 4",
+      "deprecatedIDs": [
+        "rockersDe/vier",
+        "rockersDe/count4"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    }
+  ]
+}

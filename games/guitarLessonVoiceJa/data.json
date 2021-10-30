@@ -1,0 +1,110 @@
+{
+  "id": "guitarLessonVoiceJa",
+  "name": "Guitar Lessons - Voice",
+  "series": "side",
+  "language": "ja",
+  "group": "Guitar Lessons",
+  "priority": -1,
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/cmon",
+      "name": "c'mon!",
+      "deprecatedIDs": [
+        "rockersLessonsJa/comeOn"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/lastOne",
+      "name": "last one!",
+      "deprecatedIDs": [
+        "rockersLessonsJa/lastOne"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/count1",
+      "name": "count - 1",
+      "deprecatedIDs": [
+        "rockersLessonsJa/count1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/count2",
+      "name": "count - 2",
+      "deprecatedIDs": [
+        "rockersLessonsJa/count2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/count3",
+      "name": "count - 3",
+      "deprecatedIDs": [
+        "rockersLessonsJa/count3"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/count4",
+      "name": "count - 4",
+      "deprecatedIDs": [
+        "rockersLessonsJa/count4"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/count1Alt",
+      "name": "count - 1 (Japanese)",
+      "deprecatedIDs": [
+        "rockersLessonsJa/count1B"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/count2Alt",
+      "name": "count - 2 (Japanese)",
+      "deprecatedIDs": [
+        "rockersLessonsJa/count2B"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/count3Alt",
+      "name": "count - 3 (Japanese)",
+      "deprecatedIDs": [
+        "rockersLessonsJa/count3B"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/count4Alt",
+      "name": "count - 4 (Japanese)",
+      "deprecatedIDs": [
+        "rockersLessonsJa/count4B"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    }
+  ]
+}

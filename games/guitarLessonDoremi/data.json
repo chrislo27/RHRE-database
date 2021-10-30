@@ -1,0 +1,531 @@
+{
+  "id": "guitarLessonDoremi",
+  "name": "Guitar Lessons - Built to Scale",
+  "series": "side",
+  "group": "Guitar Lessons",
+  "objects": [
+    {
+      "type": "pitchBenderEntity",
+      "id": "*_pitchBend",
+      "name": "Pitch Bend",
+      "deprecatedIDs": [
+        "rockersLessonsEn_pitchBenderEntity",
+        "rockersLessonsDe_pitchBenderEntity",
+        "rockersLessonsEs_pitchBenderEntity",
+        "rockersLessonsFr_pitchBenderEntity",
+        "rockersLessonsIt_pitchBenderEntity",
+        "rockersLessonsJa_pitchBenderEntity",
+        "rockersLessonsKo_pitchBenderEntity"
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_stringMuteJJRocker",
+      "name": "mute strings - J.J. Rocker",
+      "deprecatedIDs": [
+        "rockersLessonsEn/hold",
+        "rockersLessonsDe/hold",
+        "rockersLessonsEs/hold",
+        "rockersLessonsFr/hold",
+        "rockersLessonsIt/hold",
+        "rockersLessonsJa/hold",
+        "rockersLessonsKo/hold"
+      ],
+      "cues": [
+        {
+          "id": "*/stringMute",
+          "beat": 1.4E-45,
+          "volume": 63
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_stringMuteStudent",
+      "name": "mute strings - student",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/stringMute",
+          "beat": 1.4E-45,
+          "volume": 98
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_bendG5",
+      "name": "bend - G5",
+      "deprecatedIDs": [
+        "rockersLessonsEn/lessonsBendE",
+        "rockersLessonsDe/lessonsBendE",
+        "rockersLessonsEs/lessonsBendE",
+        "rockersLessonsFr/lessonsBendE",
+        "rockersLessonsIt/lessonsBendE",
+        "rockersLessonsJa/lessonsBendE",
+        "rockersLessonsKo/lessonsBendE"
+      ],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/bendG5",
+          "beat": 1.4E-45,
+          "semitone": 5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_bendC6",
+      "name": "bend - C6",
+      "deprecatedIDs": [
+        "rockersLessonsEn/lessonsBendC",
+        "rockersLessonsDe/lessonsBendC",
+        "rockersLessonsEs/lessonsBendC",
+        "rockersLessonsFr/lessonsBendC",
+        "rockersLessonsIt/lessonsBendC",
+        "rockersLessonsJa/lessonsBendC",
+        "rockersLessonsKo/lessonsBendC"
+      ],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/bendC6",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_unisonC",
+      "name": "unison - C (single)",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 10
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_unisonG",
+      "name": "unison - G5",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 3
+        },
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 10,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_unisonA",
+      "name": "unison - A5",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 5
+        },
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 12,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "cue",
+      "id": "*/chordC",
+      "name": "chord - C",
+      "deprecatedIDs": [
+        "rockersLessonsEn/lessonsC",
+        "rockersLessonsDe/lessonsC",
+        "rockersLessonsEs/lessonsC",
+        "rockersLessonsFr/lessonsC",
+        "rockersLessonsIt/lessonsC",
+        "rockersLessonsJa/lessonsC",
+        "rockersLessonsKo/lessonsC"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 4.1719956,
+      "loopEnd": 4.893243
+    },
+    {
+      "type": "cue",
+      "id": "*/chordCadd2",
+      "name": "chord - Cadd9",
+      "deprecatedIDs": [
+        "rockersLessonsEn/lessonsCadd2",
+        "rockersLessonsDe/lessonsCadd2",
+        "rockersLessonsEs/lessonsCadd2",
+        "rockersLessonsFr/lessonsCadd2",
+        "rockersLessonsIt/lessonsCadd2",
+        "rockersLessonsJa/lessonsCadd2",
+        "rockersLessonsKo/lessonsCadd2"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 4.2134695,
+      "loopEnd": 4.9485035
+    },
+    {
+      "type": "cue",
+      "id": "*/chordC7onBb",
+      "name": "chord - C7/E",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 4.6640816,
+      "loopEnd": 5.3690023
+    },
+    {
+      "type": "cue",
+      "id": "*/chordDm",
+      "name": "chord - Dm",
+      "deprecatedIDs": [
+        "rockersLessonsEn/lessonsDm",
+        "rockersLessonsDe/lessonsDm",
+        "rockersLessonsEs/lessonsDm",
+        "rockersLessonsFr/lessonsDm",
+        "rockersLessonsIt/lessonsDm",
+        "rockersLessonsJa/lessonsDm",
+        "rockersLessonsKo/lessonsDm"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 4.464331,
+      "loopEnd": 5.110113,
+      "writtenPitch": 2
+    },
+    {
+      "type": "cue",
+      "id": "*/chordDm7",
+      "name": "chord - Dm7",
+      "deprecatedIDs": [
+        "rockersLessonsEn/lessonsDm7",
+        "rockersLessonsDe/lessonsDm7",
+        "rockersLessonsEs/lessonsDm7",
+        "rockersLessonsFr/lessonsDm7",
+        "rockersLessonsIt/lessonsDm7",
+        "rockersLessonsJa/lessonsDm7",
+        "rockersLessonsKo/lessonsDm7"
+      ],
+      "subtext": "(F6/D)",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 4.3003173,
+      "loopEnd": 4.914172,
+      "writtenPitch": 2
+    },
+    {
+      "type": "cue",
+      "id": "*/chordEm",
+      "name": "chord - Em",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 4.490635,
+      "loopEnd": 5.1440363,
+      "writtenPitch": 4
+    },
+    {
+      "type": "cue",
+      "id": "*/chordF",
+      "name": "chord - F",
+      "deprecatedIDs": [
+        "rockersLessonsEn/lessonsF",
+        "rockersLessonsDe/lessonsF",
+        "rockersLessonsEs/lessonsF",
+        "rockersLessonsFr/lessonsF",
+        "rockersLessonsIt/lessonsF",
+        "rockersLessonsJa/lessonsF",
+        "rockersLessonsKo/lessonsF"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 4.1756687,
+      "loopEnd": 4.887846,
+      "writtenPitch": 5
+    },
+    {
+      "type": "cue",
+      "id": "*/chordFadd2",
+      "name": "chord - Fadd9",
+      "deprecatedIDs": [
+        "rockersLessonsEn/lessonsFadd2",
+        "rockersLessonsDe/lessonsFadd2",
+        "rockersLessonsEs/lessonsFadd2",
+        "rockersLessonsFr/lessonsFadd2",
+        "rockersLessonsIt/lessonsFadd2",
+        "rockersLessonsJa/lessonsFadd2",
+        "rockersLessonsKo/lessonsFadd2"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 4.5433106,
+      "loopEnd": 5.093311,
+      "writtenPitch": 5
+    },
+    {
+      "type": "cue",
+      "id": "*/chordFm",
+      "name": "chord - Fm",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 4.2824717,
+      "loopEnd": 4.905034,
+      "writtenPitch": 5
+    },
+    {
+      "type": "cue",
+      "id": "*/chordG",
+      "name": "chord - G",
+      "deprecatedIDs": [
+        "rockersLessonsEn/lessonsG",
+        "rockersLessonsDe/lessonsG",
+        "rockersLessonsEs/lessonsG",
+        "rockersLessonsFr/lessonsG",
+        "rockersLessonsIt/lessonsG",
+        "rockersLessonsJa/lessonsG",
+        "rockersLessonsKo/lessonsG"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 4.3354874,
+      "loopEnd": 5.085397,
+      "writtenPitch": 7
+    },
+    {
+      "type": "cue",
+      "id": "*/chordG7",
+      "name": "chord - G7",
+      "deprecatedIDs": [
+        "rockersLessonsEn/lessonsG7",
+        "rockersLessonsDe/lessonsG7",
+        "rockersLessonsEs/lessonsG7",
+        "rockersLessonsFr/lessonsG7",
+        "rockersLessonsIt/lessonsG7",
+        "rockersLessonsJa/lessonsG7",
+        "rockersLessonsKo/lessonsG7"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 4.4682994,
+      "loopEnd": 5.120612,
+      "writtenPitch": 7
+    },
+    {
+      "type": "cue",
+      "id": "*/chordGm",
+      "name": "chord - Gm",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 4.879955,
+      "loopEnd": 5.732177,
+      "writtenPitch": 7
+    },
+    {
+      "type": "cue",
+      "id": "*/chordGsus4",
+      "name": "chord - Gsus4",
+      "deprecatedIDs": [],
+      "subtext": "(Csus2/G, D7sus4/G)",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 4.92093,
+      "loopEnd": 5.6425395,
+      "writtenPitch": 7
+    },
+    {
+      "type": "cue",
+      "id": "*/chordA",
+      "name": "chord - A",
+      "deprecatedIDs": [
+        "rockersLessonsEn/lessonsA",
+        "rockersLessonsDe/lessonsA",
+        "rockersLessonsEs/lessonsA",
+        "rockersLessonsFr/lessonsA",
+        "rockersLessonsIt/lessonsA",
+        "rockersLessonsJa/lessonsA",
+        "rockersLessonsKo/lessonsA"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 3.972245,
+      "loopEnd": 4.6648297,
+      "writtenPitch": 9
+    },
+    {
+      "type": "cue",
+      "id": "*/chordAm7",
+      "name": "chord - Am7 ",
+      "deprecatedIDs": [
+        "rockersLessonsEn/lessonsAm7",
+        "rockersLessonsDe/lessonsAm7",
+        "rockersLessonsEs/lessonsAm7",
+        "rockersLessonsFr/lessonsAm7",
+        "rockersLessonsIt/lessonsAm7",
+        "rockersLessonsJa/lessonsAm7",
+        "rockersLessonsKo/lessonsAm7"
+      ],
+      "subtext": "(C6/A)",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 4.277483,
+      "loopEnd": 4.994376,
+      "writtenPitch": 9
+    },
+    {
+      "type": "cue",
+      "id": "*/stringE2",
+      "name": "string - E2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 5.7848525,
+      "loopEnd": 6.685692,
+      "writtenPitch": -8
+    },
+    {
+      "type": "cue",
+      "id": "*/stringA2",
+      "name": "string - A2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 5.452177,
+      "loopEnd": 6.5275283,
+      "writtenPitch": -3
+    },
+    {
+      "type": "cue",
+      "id": "*/bendG5",
+      "name": "bend - G5",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 1.9505216,
+      "loopEnd": 2.1939456,
+      "pitchBending": true,
+      "writtenPitch": 7
+    },
+    {
+      "type": "cue",
+      "id": "*/bendC6",
+      "name": "bend - C6",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 1.7945578,
+      "loopEnd": 2.024694,
+      "pitchBending": true
+    },
+    {
+      "type": "cue",
+      "id": "*/stringMute",
+      "name": "mute strings",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/bendUp",
+      "name": "bend - noise",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "endingSound": "*/bendDown"
+    },
+    {
+      "type": "cue",
+      "id": "*/bendDown",
+      "name": "bend - down",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    }
+  ]
+}

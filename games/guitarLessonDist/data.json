@@ -1,0 +1,3188 @@
+{
+  "id": "guitarLessonDist",
+  "name": "Guitar Lessons - Assorted",
+  "series": "side",
+  "group": "Guitar Lessons",
+  "groupDefault": true,
+  "objects": [
+    {
+      "type": "pitchBenderEntity",
+      "id": "*_pitchBend",
+      "name": "Pitch Bend",
+      "deprecatedIDs": [],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_stringMuteJJRocker",
+      "name": "mute strings - J.J. Rocker",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/stringMute",
+          "beat": 1.4E-45,
+          "volume": 63
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_stringMuteStudent",
+      "name": "mute strings - student",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/stringMute",
+          "beat": 1.4E-45,
+          "volume": 98
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_bendG5",
+      "name": "bend - G5",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/bendG5",
+          "beat": 1.4E-45,
+          "semitone": 5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_bendC6",
+      "name": "bend - C6",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/bendC6",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_unisonC",
+      "name": "unison - C5",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 3
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 10,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_unisonD",
+      "name": "unison - D5",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 5
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 12,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_unisonEb",
+      "name": "unison - E♭5",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 6
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 13,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_unisonE",
+      "name": "unison - E5",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 7,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_unisonF",
+      "name": "unison - F5",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 1
+        },
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 8,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_unisonFs",
+      "name": "unison - F♯5",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 2
+        },
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 9,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_unisonFsb5",
+      "name": "unison - F♯ (single)",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 2
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_unisonG",
+      "name": "unison - G5",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 3
+        },
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 10,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_unisonA",
+      "name": "unison - A5",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 5
+        },
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 12,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_unisonB",
+      "name": "unison - B5",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 7
+        },
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 14,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_unisonBsingle",
+      "name": "unison - B (single)",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 7
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordC",
+      "name": "chord - C/E",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "volume": 62
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordCaddp9",
+      "name": "chord - Cadd♯9",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 75
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 75
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "volume": 75
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 75
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordComit3",
+      "name": "chord - C5 (Power Chord)",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 89
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 5,
+          "volume": 89
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 5,
+          "volume": 89
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordCsmm5",
+      "name": "chord - C♯dim, C♯m♭5",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 75
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 5,
+          "volume": 75
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 75
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 5,
+          "volume": 75
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordConG",
+      "name": "chord - C",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 5,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 5,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 5,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordC7",
+      "name": "chord - C7",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "volume": 69
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordC7onBb",
+      "name": "chord - C7/B♭",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "volume": 69
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordCadd2",
+      "name": "chord - Cadd9",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "volume": 69
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordCaug7",
+      "name": "chord - C+",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 75
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 75
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 75
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 75
+        }
+      ],
+      "subtext": "(E+/C, G♯+/C)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordD",
+      "name": "chord - D/A",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordDhi",
+      "name": "chord - D",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 5,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 7,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 7,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 7,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 5,
+          "volume": 69
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordD7",
+      "name": "chord - D7",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "volume": 75
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 75
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 75
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 75
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordDb",
+      "name": "chord - D♭",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 69
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordDbomit3",
+      "name": "chord - D♭5 (Power Chord)",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 75
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 75
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 75
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 75
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordDm",
+      "name": "chord - Dm",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "volume": 75
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 75
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 75
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 75
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordDmm5",
+      "name": "chord - Ddim, Dm♭5",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "volume": 75
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 75
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 75
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 75
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordDm7",
+      "name": "chord - Dm7",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "volume": 75
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 75
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 75
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 75
+        }
+      ],
+      "subtext": "(F6/D)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordE",
+      "name": "chord - E",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "volume": 62
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordE7",
+      "name": "chord - E7",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "volume": 62
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordEb",
+      "name": "chord - E♭",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 8,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 8,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 8,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 69
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordEbM7",
+      "name": "chord - E♭maj7",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 8,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 7,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 8,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 69
+        }
+      ],
+      "subtext": "(Gm♭6/E♭)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordEbM7add9",
+      "name": "chord - E♭maj9",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 75
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 5,
+          "volume": 75
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 7,
+          "volume": 75
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 75
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordEm",
+      "name": "chord - Em",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "volume": 62
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordEm7",
+      "name": "chord - Em7",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "volume": 62
+        }
+      ],
+      "subtext": "(G6/E)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordF",
+      "name": "chord - F",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 62
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordFsm",
+      "name": "chord - F♯m",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordFsm7m5",
+      "name": "chord - F♯ø7, F♯m7♭5",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "volume": 69
+        }
+      ],
+      "subtext": "(Am6/F♯)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordFs",
+      "name": "chord - F♯",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordF6",
+      "name": "chord - F6 ",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        }
+      ],
+      "subtext": "(Dm7/F)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordF7",
+      "name": "chord - F7",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 62
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordFm",
+      "name": "chord - Fm",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 62
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordFm74",
+      "name": "chord - F7sus4",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 62
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordFm94",
+      "name": "chord - Fsus4",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 75
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 5,
+          "volume": 75
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 75
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 75
+        }
+      ],
+      "subtext": "(B♭sus2/F, C7sus4/F)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordFadd2",
+      "name": "chord - Fadd9",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 75
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 75
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 75
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 75
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordG",
+      "name": "chord - G",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordGomit3onC",
+      "name": "chord - G5 (Power Chord)",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 89
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 5,
+          "volume": 89
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 5,
+          "volume": 89
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordGsaug",
+      "name": "chord - G♯+",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 75
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 5,
+          "volume": 75
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 5,
+          "volume": 75
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 75
+        }
+      ],
+      "subtext": "(C+/G♯, E+/G♯)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordGonB",
+      "name": "chord - G/B",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordG7",
+      "name": "chord - G7",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 62
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordG7add13",
+      "name": "chord - G6",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "volume": 62
+        }
+      ],
+      "subtext": "(Em7/G)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordGbomit3onC",
+      "name": "chord - G♭5 (Power Chord)",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 89
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 89
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 89
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordGbM7add9",
+      "name": "chord - G♭maj9",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 9,
+          "volume": 75
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 8,
+          "volume": 75
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 10,
+          "volume": 75
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 9,
+          "volume": 75
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordGbm9add4",
+      "name": "chord - G♭sus4",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 75
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 75
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 7,
+          "volume": 75
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 7,
+          "volume": 75
+        }
+      ],
+      "subtext": "(C♭sus2/G♭, D♭7sus4/G♭)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordGsus4",
+      "name": "chord - Gsus4",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        }
+      ],
+      "subtext": "(Csus2/G, D7sus4/G)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordA",
+      "name": "chord - A",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "volume": 69
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordAomit3onC",
+      "name": "chord - A5 (Power Chord)",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 5,
+          "volume": 89
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 7,
+          "volume": 89
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 7,
+          "volume": 89
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordA7",
+      "name": "chord - A7",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "volume": 69
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordAb",
+      "name": "chord - A♭",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 5,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordAbomit3",
+      "name": "chord - A♭5 (Power Chord)",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 89
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 89
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 89
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordAb7",
+      "name": "chord - A♭7",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 5,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordAbM7add9",
+      "name": "chord - A♭maj9",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 11,
+          "volume": 75
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 10,
+          "volume": 75
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 12,
+          "volume": 75
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 11,
+          "volume": 75
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordAbM7add9addp11",
+      "name": "chord - A♭maj9♯11(no 3) ",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 11,
+          "volume": 75
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 12,
+          "volume": 75
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 12,
+          "volume": 75
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 11,
+          "volume": 75
+        }
+      ],
+      "subtext": "(B♭7add13/A♭, Gm/A♭)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordAbM7onBb",
+      "name": "chord - A♭maj7 ",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 5,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 5,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        }
+      ],
+      "subtext": "(Cm♭6)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordAbm7onBb",
+      "name": "chord - A♭m7 ",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 6,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        }
+      ],
+      "subtext": "(C♭6)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordAm",
+      "name": "chord - Am",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "volume": 69
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordAm7",
+      "name": "chord - Am7 ",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "volume": 69
+        }
+      ],
+      "subtext": "(C6)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordAm9",
+      "name": "chord - Am(add9)/C",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "volume": 69
+        }
+      ],
+      "subtext": "(Cmaj7add13)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordAsus4",
+      "name": "chord - Asus4",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 0.0,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "volume": 69
+        }
+      ],
+      "subtext": "(Dsus2/A, E7sus4/A)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordB",
+      "name": "chord - B",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordBomit3",
+      "name": "chord - B5 (Power Chord)",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 89
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 89
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 89
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordB7",
+      "name": "chord - B7/F♯",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 62
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordBb",
+      "name": "chord - B♭",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordBbomit3",
+      "name": "chord - B♭5 (Power Chord)",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 89
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 89
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 89
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordBbadd9add13",
+      "name": "chord - B♭add9/G ",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringE2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        },
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 62
+        }
+      ],
+      "subtext": "(C9sus4/G, Gm7add11)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordBb7",
+      "name": "chord - B♭7",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordBb7add9add13",
+      "name": "chord - B♭add9add13",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        }
+      ],
+      "subtext": "(C9sus4/B♭, Gm7add11/B♭)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordBb7sus4",
+      "name": "chord - B♭7sus4",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordBbaug7",
+      "name": "chord - B♭+7/F♯ ",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 75
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 75
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 75
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 75
+        }
+      ],
+      "subtext": "(F♯+(add9))"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordBbm",
+      "name": "chord - B♭m",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordBbm6",
+      "name": "chord - B♭m6 ",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 75
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 75
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "volume": 75
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 75
+        }
+      ],
+      "subtext": "(Gø7)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordBbm7onDb",
+      "name": "chord - B♭m7 ",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 1,
+          "volume": 69
+        }
+      ],
+      "subtext": "(D♭6)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_chordBm7",
+      "name": "chord - Bm7 ",
+      "deprecatedIDs": [],
+      "stretchable": true,
+      "cues": [
+        {
+          "id": "*/stringA2",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringD3",
+          "beat": 1.4E-45,
+          "semitone": 4,
+          "volume": 69
+        },
+        {
+          "id": "*/stringG3",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        },
+        {
+          "id": "*/stringB3",
+          "beat": 1.4E-45,
+          "semitone": 3,
+          "volume": 69
+        },
+        {
+          "id": "*/stringE4",
+          "beat": 1.4E-45,
+          "semitone": 2,
+          "volume": 69
+        }
+      ],
+      "subtext": "(D6)"
+    },
+    {
+      "type": "cue",
+      "id": "*/stringE2",
+      "name": "string - E2",
+      "deprecatedIDs": [
+        "rockersLessonsEn/note",
+        "rockersLessonsDe/note",
+        "rockersLessonsEs/note",
+        "rockersLessonsFr/note",
+        "rockersLessonsIt/note",
+        "rockersLessonsJa/note",
+        "rockersLessonsKo/note"
+      ],
+      "subtext": "(6th string)",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 5.24254,
+      "loopEnd": 5.8277326,
+      "writtenPitch": -8
+    },
+    {
+      "type": "cue",
+      "id": "*/stringA2",
+      "name": "string - A2",
+      "deprecatedIDs": [],
+      "subtext": "(5th string)",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 5.5019503,
+      "loopEnd": 6.5773015,
+      "writtenPitch": -3
+    },
+    {
+      "type": "cue",
+      "id": "*/stringD3",
+      "name": "string - D3",
+      "deprecatedIDs": [],
+      "subtext": "(4th string)",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 5.8861,
+      "loopEnd": 6.5910206,
+      "writtenPitch": 2
+    },
+    {
+      "type": "cue",
+      "id": "*/stringG3",
+      "name": "string - G3",
+      "deprecatedIDs": [],
+      "subtext": "(3rd string)",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 5.0280952,
+      "loopEnd": 5.86254,
+      "writtenPitch": 7
+    },
+    {
+      "type": "cue",
+      "id": "*/stringB3",
+      "name": "string - B3",
+      "deprecatedIDs": [],
+      "subtext": "(2nd string)",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 5.1111794,
+      "loopEnd": 5.868345,
+      "writtenPitch": 11
+    },
+    {
+      "type": "cue",
+      "id": "*/stringE4",
+      "name": "string - E4",
+      "deprecatedIDs": [],
+      "subtext": "(1st string)",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 4.577415,
+      "loopEnd": 5.020181,
+      "writtenPitch": 16
+    },
+    {
+      "type": "cue",
+      "id": "*/bendG5",
+      "name": "bend - G5",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 1.9505216,
+      "loopEnd": 2.1939456,
+      "pitchBending": true,
+      "writtenPitch": 7
+    },
+    {
+      "type": "cue",
+      "id": "*/bendC6",
+      "name": "bend - C6",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 1.7945578,
+      "loopEnd": 2.024694,
+      "pitchBending": true
+    },
+    {
+      "type": "cue",
+      "id": "*/stringMute",
+      "name": "mute strings",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/bendUp",
+      "name": "bend - noise",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "endingSound": "*/bendDown"
+    },
+    {
+      "type": "cue",
+      "id": "*/bendDown",
+      "name": "bend - down",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    }
+  ]
+}

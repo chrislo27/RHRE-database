@@ -1,0 +1,120 @@
+{
+  "id": "rockersVoiceJa",
+  "name": "Rockers - Voice",
+  "series": "ds",
+  "language": "ja",
+  "group": "Rockers",
+  "priority": -1,
+  "objects": [
+    {
+      "type": "cue",
+      "id": "*/cmon",
+      "name": "c'mon!",
+      "deprecatedIDs": [
+        "rockersJa/comeon",
+        "rockersJa/comeOn"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/lastOne",
+      "name": "last one!",
+      "deprecatedIDs": [
+        "rockersJa/lastone",
+        "rockersJa/lastOne"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/count1",
+      "name": "count - 1",
+      "deprecatedIDs": [
+        "rockersJa/count1",
+        "rockersJa/one"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/count2",
+      "name": "count - 2",
+      "deprecatedIDs": [
+        "rockersJa/count2",
+        "rockersJa/two"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/count3",
+      "name": "count - 3",
+      "deprecatedIDs": [
+        "rockersJa/count3",
+        "rockersJa/three"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/count4",
+      "name": "count - 4",
+      "deprecatedIDs": [
+        "rockersJa/count4",
+        "rockersJa/four"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/count1Alt",
+      "name": "count - 1 (Japanese)",
+      "deprecatedIDs": [
+        "rockersJa/count1B",
+        "rockersJa/ichi"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/count2Alt",
+      "name": "count - 2 (Japanese)",
+      "deprecatedIDs": [
+        "rockersJa/ni",
+        "rockersJa/count2B"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/count3Alt",
+      "name": "count - 3 (Japanese)",
+      "deprecatedIDs": [
+        "rockersJa/count3B",
+        "rockersJa/san"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/count4Alt",
+      "name": "count - 4 (Japanese)",
+      "deprecatedIDs": [
+        "rockersJa/count4B",
+        "rockersJa/shi"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    }
+  ]
+}

@@ -1,0 +1,684 @@
+{
+  "id": "rockers",
+  "name": "Rockers",
+  "series": "ds",
+  "group": "Rockers",
+  "groupDefault": true,
+  "objects": [
+    {
+      "type": "pitchBenderEntity",
+      "id": "*_pitchBend",
+      "name": "Pitch Bend",
+      "deprecatedIDs": [],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_stringMuteJJRocker",
+      "name": "mute strings - J.J. Rocker",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/stringMute",
+          "beat": 1.4E-45,
+          "volume": 63
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_stringMuteStudent",
+      "name": "mute strings - student",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/stringMute",
+          "beat": 1.4E-45,
+          "volume": 98
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_cmonExample",
+      "name": "c'mon! - example (English)",
+      "deprecatedIDs": [
+        "rockers_together",
+        "rockersEn_together",
+        "rockersEn_comeOnExample"
+      ],
+      "cues": [
+        {
+          "id": "*_stringMuteJJRocker",
+          "beat": 2.0
+        },
+        {
+          "id": "*_stringMuteStudent",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/chordG5",
+          "beat": 3.0,
+          "duration": 1.0
+        },
+        {
+          "id": "*/chordG",
+          "beat": 3.0,
+          "duration": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*_stringMuteJJRocker",
+          "beat": 4.0
+        },
+        {
+          "id": "*_stringMuteStudent",
+          "beat": 4.0,
+          "track": 1
+        },
+        {
+          "id": "*/chordG5",
+          "beat": 4.5,
+          "duration": 1.0
+        },
+        {
+          "id": "*/chordG",
+          "beat": 4.5,
+          "duration": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*_stringMuteJJRocker",
+          "beat": 5.5
+        },
+        {
+          "id": "*_stringMuteStudent",
+          "beat": 5.5,
+          "track": 1
+        },
+        {
+          "id": "*/chordG5",
+          "beat": 6.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/chordG",
+          "beat": 6.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*_stringMuteJJRocker",
+          "beat": 6.5
+        },
+        {
+          "id": "*_stringMuteStudent",
+          "beat": 6.5,
+          "track": 1
+        },
+        {
+          "id": "*/chordA",
+          "beat": 7.0,
+          "duration": 3.0
+        },
+        {
+          "id": "*/practiceA",
+          "beat": 7.0,
+          "duration": 3.0,
+          "track": 1
+        },
+        {
+          "id": "*_stringMuteJJRocker",
+          "beat": 10.0
+        },
+        {
+          "id": "*_stringMuteStudent",
+          "beat": 10.0,
+          "track": 1
+        },
+        {
+          "id": "rockersVoiceEn/cmon",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_lastOneExample",
+      "name": "last one! - example (English)",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_stringMuteJJRocker",
+          "beat": 2.0
+        },
+        {
+          "id": "*_stringMuteStudent",
+          "beat": 2.0,
+          "volume": 63,
+          "track": 1
+        },
+        {
+          "id": "*/chordAsus4",
+          "beat": 3.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/chordDm79",
+          "beat": 3.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*_stringMuteJJRocker",
+          "beat": 3.5,
+          "volume": 63
+        },
+        {
+          "id": "*_stringMuteStudent",
+          "beat": 3.5,
+          "volume": 63,
+          "track": 1
+        },
+        {
+          "id": "*/chordAsus4",
+          "beat": 4.5,
+          "duration": 0.5
+        },
+        {
+          "id": "*/chordDm79",
+          "beat": 4.5,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*_stringMuteJJRocker",
+          "beat": 5.0,
+          "volume": 63
+        },
+        {
+          "id": "*_stringMuteStudent",
+          "beat": 5.0,
+          "volume": 63,
+          "track": 1
+        },
+        {
+          "id": "*/chordAsus4",
+          "beat": 6.0,
+          "duration": 0.5
+        },
+        {
+          "id": "*/chordDm79",
+          "beat": 6.0,
+          "duration": 0.5,
+          "track": 1
+        },
+        {
+          "id": "*_stringMuteJJRocker",
+          "beat": 6.5,
+          "volume": 63
+        },
+        {
+          "id": "*_stringMuteStudent",
+          "beat": 6.5,
+          "volume": 63,
+          "track": 1
+        },
+        {
+          "id": "rockersVoiceEn/lastOne",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "cue",
+      "id": "*/bendAN",
+      "name": "bend - A ",
+      "deprecatedIDs": [
+        "rockersEn/bendHigh",
+        "rockersDe/bendHigh",
+        "rockersEs/bendHigh",
+        "rockersFr/bendHigh",
+        "rockersIt/bendHigh",
+        "rockersJa/bendHigh",
+        "rockersKo/bendHigh"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 1.3828571,
+      "loopEnd": 1.4044445,
+      "pitchBending": true,
+      "writtenPitch": 9
+    },
+    {
+      "type": "cue",
+      "id": "*/bendAS",
+      "name": "bend - A♯/B♭",
+      "deprecatedIDs": [
+        "rockersEn/bendLow",
+        "rockersDe/bendLow",
+        "rockersEs/bendLow",
+        "rockersFr/bendLow",
+        "rockersIt/bendLow",
+        "rockersJa/bendLow",
+        "rockersKo/bendLow"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 1.3671882,
+      "loopEnd": 1.3800453,
+      "pitchBending": true,
+      "writtenPitch": 10
+    },
+    {
+      "type": "cue",
+      "id": "*/chordA",
+      "name": "chord - A",
+      "deprecatedIDs": [
+        "rockers/chord5",
+        "rockersEn/chord5",
+        "rockers/group2",
+        "rockersEn/group2",
+        "rockersEn/guitarA",
+        "rockersDe/guitarA",
+        "rockersEs/guitarA",
+        "rockersFr/guitarA",
+        "rockersIt/guitarA",
+        "rockersJa/guitarA",
+        "rockersKo/guitarA"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 0.82816327,
+      "loopEnd": 1.2921768,
+      "writtenPitch": 9
+    },
+    {
+      "type": "cue",
+      "id": "*/chordAsus4",
+      "name": "chord - Asus4",
+      "deprecatedIDs": [
+        "rockers/chord2",
+        "rockersEn/chord2",
+        "rockersEn/guitarAsus4",
+        "rockersDe/guitarAsus4",
+        "rockersEs/guitarAsus4",
+        "rockersFr/guitarAsus4",
+        "rockersIt/guitarAsus4",
+        "rockersJa/guitarAsus4",
+        "rockersKo/guitarAsus4"
+      ],
+      "subtext": "(Dsus2, E7sus4)",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 3.7195692,
+      "loopEnd": 4.6008162,
+      "writtenPitch": 9
+    },
+    {
+      "type": "cue",
+      "id": "*/chordBm",
+      "name": "chord - Bm",
+      "deprecatedIDs": [
+        "rockers/chord3",
+        "rockersEn/chord3",
+        "rockersEn/guitarBm",
+        "rockersDe/guitarBm",
+        "rockersEs/guitarBm",
+        "rockersFr/guitarBm",
+        "rockersIt/guitarBm",
+        "rockersJa/guitarBm",
+        "rockersKo/guitarBm"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 1.1543311,
+      "loopEnd": 1.6996145,
+      "writtenPitch": 11
+    },
+    {
+      "type": "cue",
+      "id": "*/chordCsm7",
+      "name": "chord - C♯ø7, C♯m7♭5 ",
+      "deprecatedIDs": [
+        "rockers/chord4",
+        "rockersEn/chord4",
+        "rockersEn/guitarCsm7",
+        "rockersDe/guitarCsm7",
+        "rockersEs/guitarCsm7",
+        "rockersFr/guitarCsm7",
+        "rockersIt/guitarCsm7",
+        "rockersJa/guitarCsm7",
+        "rockersKo/guitarCsm7"
+      ],
+      "subtext": "(Em6)",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 3.584331,
+      "loopEnd": 4.4133334,
+      "writtenPitch": 1
+    },
+    {
+      "type": "cue",
+      "id": "*/chordDM7",
+      "name": "chord - Dmaj7",
+      "deprecatedIDs": [
+        "rockers/strumLoop",
+        "rockersEn/chord1",
+        "rockersEn/guitarDM7",
+        "rockersDe/guitarDM7",
+        "rockersEs/guitarDM7",
+        "rockersFr/guitarDM7",
+        "rockersIt/guitarDM7",
+        "rockersJa/guitarDM7",
+        "rockersKo/guitarDM7"
+      ],
+      "subtext": "(F♯m♭6)",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 1.3228345,
+      "loopEnd": 1.9668027,
+      "writtenPitch": 2
+    },
+    {
+      "type": "cue",
+      "id": "*/chordDm79",
+      "name": "chord - Dmaj9",
+      "deprecatedIDs": [
+        "rockers/chord6",
+        "rockersEn/chord6",
+        "rockersEn/guitarDm79",
+        "rockersDe/guitarDm79",
+        "rockersEs/guitarDm79",
+        "rockersFr/guitarDm79",
+        "rockersIt/guitarDm79",
+        "rockersJa/guitarDm79",
+        "rockersKo/guitarDm79"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 2.6273923,
+      "loopEnd": 3.667914,
+      "writtenPitch": 2
+    },
+    {
+      "type": "cue",
+      "id": "*/chordFs5",
+      "name": "chord - F♯",
+      "deprecatedIDs": [
+        "rockers/chord7",
+        "rockersEn/chord7",
+        "rockersEn/guitarFs5",
+        "rockersDe/guitarFs5",
+        "rockersEs/guitarFs5",
+        "rockersFr/guitarFs5",
+        "rockersIt/guitarFs5",
+        "rockersJa/guitarFs5",
+        "rockersKo/guitarFs5"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 0.85648525,
+      "loopEnd": 1.3456463,
+      "writtenPitch": 6
+    },
+    {
+      "type": "cue",
+      "id": "*/chordG",
+      "name": "chord - G6 ",
+      "deprecatedIDs": [
+        "rockers/chord8",
+        "rockersEn/chord8",
+        "rockersEn/guitarG",
+        "rockersDe/guitarG",
+        "rockersEs/guitarG",
+        "rockersFr/guitarG",
+        "rockersIt/guitarG",
+        "rockersJa/guitarG",
+        "rockersKo/guitarG"
+      ],
+      "subtext": "(Em7)",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 1.2106802,
+      "loopEnd": 1.69839,
+      "writtenPitch": 7
+    },
+    {
+      "type": "cue",
+      "id": "*/chordG5",
+      "name": "chord - G5 (Power Chord)",
+      "deprecatedIDs": [
+        "rockers/chord9",
+        "rockersEn/chord9",
+        "rockers/group1",
+        "rockersEn/group1",
+        "rockersEn/guitarG5",
+        "rockersDe/guitarG5",
+        "rockersEs/guitarG5",
+        "rockersFr/guitarG5",
+        "rockersIt/guitarG5",
+        "rockersJa/guitarG5",
+        "rockersKo/guitarG5"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 0.7785714,
+      "loopEnd": 1.207551,
+      "writtenPitch": 7
+    },
+    {
+      "type": "cue",
+      "id": "*/chordGdim7",
+      "name": "chord - Gdim7, Go7 ",
+      "deprecatedIDs": [
+        "rockers/chord10",
+        "rockersEn/chord10",
+        "rockersEn/guitarGdim7",
+        "rockersDe/guitarGdim7",
+        "rockersEs/guitarGdim7",
+        "rockersFr/guitarGdim7",
+        "rockersIt/guitarGdim7",
+        "rockersJa/guitarGdim7",
+        "rockersKo/guitarGdim7"
+      ],
+      "subtext": "(A♯dim7, C♯dim7, Edim7)",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 3.9942176,
+      "loopEnd": 4.8478913,
+      "writtenPitch": 7
+    },
+    {
+      "type": "cue",
+      "id": "*/chordGm",
+      "name": "chord - Gm",
+      "deprecatedIDs": [
+        "rockers/chord11",
+        "rockersEn/chord11",
+        "rockersEn/guitarGm",
+        "rockersDe/guitarGm",
+        "rockersEs/guitarGm",
+        "rockersFr/guitarGm",
+        "rockersIt/guitarGm",
+        "rockersJa/guitarGm",
+        "rockersKo/guitarGm"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 1.3699319,
+      "loopEnd": 1.9946712,
+      "writtenPitch": 7
+    },
+    {
+      "type": "cue",
+      "id": "*/practiceA",
+      "name": "chord - A7 - Practice",
+      "deprecatedIDs": [
+        "rockers/chord12",
+        "rockersEn/chord12",
+        "rockersEn/practiceA",
+        "rockersDe/practiceA",
+        "rockersEs/practiceA",
+        "rockersFr/practiceA",
+        "rockersIt/practiceA",
+        "rockersJa/practiceA",
+        "rockersKo/practiceA"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 1.0648752,
+      "loopEnd": 1.4421768,
+      "writtenPitch": 9
+    },
+    {
+      "type": "cue",
+      "id": "*/remix6C",
+      "name": "chord - C5 (Power Chord) - Remix 6",
+      "deprecatedIDs": [
+        "rockersEn/chordRemix6",
+        "rockers/chordRemix6",
+        "rockersEn/remix6C",
+        "rockersDe/remix6C",
+        "rockersEs/remix6C",
+        "rockersFr/remix6C",
+        "rockersIt/remix6C",
+        "rockersJa/remix6C",
+        "rockersKo/remix6C"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 9.178798,
+      "loopEnd": 10.372426
+    },
+    {
+      "type": "cue",
+      "id": "*/remix10D",
+      "name": "chord - D - Remix 10",
+      "deprecatedIDs": [
+        "rockers/chord1Remix10",
+        "rockersEn/chord1Remix10",
+        "rockersEn/remix10D",
+        "rockersDe/remix10D",
+        "rockersEs/remix10D",
+        "rockersFr/remix10D",
+        "rockersIt/remix10D",
+        "rockersJa/remix10D",
+        "rockersKo/remix10D"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 0.7619955,
+      "loopEnd": 1.1293198,
+      "writtenPitch": 2
+    },
+    {
+      "type": "cue",
+      "id": "*/remix10Fsm",
+      "name": "chord - F♯m7♭9add♭13 - Remix 10",
+      "deprecatedIDs": [
+        "rockers/chord2Remix10",
+        "rockersEn/chord2Remix10",
+        "rockersEn/remix10Fsm",
+        "rockersDe/remix10Fsm",
+        "rockersEs/remix10Fsm",
+        "rockersFr/remix10Fsm",
+        "rockersIt/remix10Fsm",
+        "rockersJa/remix10Fsm",
+        "rockersKo/remix10Fsm"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "repitchable": true,
+      "loops": true,
+      "loopStart": 0.7122222,
+      "loopEnd": 1.0684807,
+      "writtenPitch": 6
+    },
+    {
+      "type": "cue",
+      "id": "*/stringMute",
+      "name": "mute strings",
+      "deprecatedIDs": [
+        "rockers/hold",
+        "rockersEn/hold",
+        "rockersEn/hold",
+        "rockersDe/hold",
+        "rockersEs/hold",
+        "rockersFr/hold",
+        "rockersIt/hold",
+        "rockersJa/hold",
+        "rockersKo/hold"
+      ],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/bendUp",
+      "name": "bend - noise",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "stretchable": true,
+      "endingSound": "*/bendDown"
+    },
+    {
+      "type": "cue",
+      "id": "*/bendDown",
+      "name": "bend - down",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    }
+  ]
+}
