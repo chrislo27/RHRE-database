@@ -4,18 +4,189 @@
   "series": "ds",
   "objects": [
     {
-      "type": "cue",
-      "id": "*/walk",
+      "type": "keepTheBeat",
+      "id": "*_walk",
       "name": "walk",
       "deprecatedIDs": [],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*/walk",
+          "beat": 0.0
+        },
+        {
+          "id": "*/walk",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "keepTheBeat",
+      "id": "*_pickStretch",
+      "name": "picking crops",
+      "deprecatedIDs": [
+        "cropStomp_pickStretchNoVoice"
+      ],
+      "defaultDuration": 2.0,
+      "cues": [
+        {
+          "id": "*_pick",
+          "beat": 0.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_pick",
+      "name": "crop",
+      "deprecatedIDs": [
+        "cropStomp_pickNoVoice"
+      ],
+      "cues": [
+        {
+          "id": "*/stomp",
+          "beat": 0.0
+        },
+        {
+          "id": "*/veggiePluck",
+          "beat": 0.5
+        },
+        {
+          "id": "*/veggieHit",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_mole",
+      "name": "mole",
+      "deprecatedIDs": [
+        "cropStomp_moleNoVoice"
+      ],
+      "cues": [
+        {
+          "id": "*/moleLaugh1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/moleLaugh2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/moleLaugh3",
+          "beat": 1.0
+        },
+        {
+          "id": "*_moleNoLaugh",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_moleNoLaugh",
+      "name": "mole - no laugh",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/stomp",
+          "beat": 0.0
+        },
+        {
+          "id": "*/moleHit",
+          "beat": 0.5
+        }
+      ],
+      "subtext": "(ex: Remix 3 DS)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_moleFull",
+      "name": "mole - full",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/moleLaughFull",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*_moleXylophone",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_moleNoLaugh",
+          "beat": 2.0
+        }
+      ],
+      "subtext": "(ex: Remix 9 DS)"
+    },
+    {
+      "type": "pattern",
+      "id": "*_moleStretch",
+      "name": "mole - stretch",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/moleLaughStretch",
+          "beat": 0.0,
+          "track": 1
+        },
+        {
+          "id": "*_moleXylophone",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_moleNoLaugh",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_moleXylophone",
+      "name": "mole - xylophone",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/xylophoneChord",
+          "beat": 0.0,
+          "semitone": -5,
+          "volume": 38
+        },
+        {
+          "id": "*/xylophoneChord",
+          "beat": 0.5,
+          "semitone": -4,
+          "volume": 38
+        },
+        {
+          "id": "*/xylophoneChord",
+          "beat": 1.0,
+          "semitone": -3,
+          "volume": 38
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "cue",
+      "id": "*/walk",
+      "name": "stomp farmer - walk",
+      "deprecatedIDs": [],
       "subtext": "",
-      "duration": 1.0,
-      "earliness": 0.005
+      "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/stomp",
-      "name": "stomp",
+      "name": "stomp farmer - stomp",
       "deprecatedIDs": [
         "cropStomp/stompNoVoice",
         "cropStomp/stompVoice"
@@ -40,6 +211,14 @@
       "deprecatedIDs": [
         "cropStomp/pick2"
       ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/veggieMiss",
+      "name": "veggie - miss",
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
     },
@@ -78,6 +257,25 @@
     },
     {
       "type": "cue",
+      "id": "*/moleLaughFull",
+      "name": "mole - laugh - full",
+      "deprecatedIDs": [],
+      "subtext": "(ex: Remix 9 DS)",
+      "duration": 3.0,
+      "earliness": 0.12937666
+    },
+    {
+      "type": "cue",
+      "id": "*/moleLaughStretch",
+      "name": "mole - laugh - stretch",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 3.0,
+      "baseBpm": 120.0,
+      "earliness": 0.12937666
+    },
+    {
+      "type": "cue",
       "id": "*/moleHit",
       "name": "mole - hit",
       "deprecatedIDs": [
@@ -87,92 +285,22 @@
       "duration": 0.5
     },
     {
-      "type": "keepTheBeat",
-      "id": "*_walk",
-      "name": "walk",
+      "type": "cue",
+      "id": "*/xylophone",
+      "name": "mole - xylophone",
       "deprecatedIDs": [],
-      "defaultDuration": 4.0,
-      "cues": [
-        {
-          "id": "*/walk",
-          "beat": 0.0
-        },
-        {
-          "id": "*/walk",
-          "beat": 2.0
-        }
-      ],
-      "subtext": ""
+      "subtext": "",
+      "duration": 0.5,
+      "repitchable": true
     },
     {
-      "type": "keepTheBeat",
-      "id": "*_pickStretch",
-      "name": "picking crops",
-      "deprecatedIDs": [
-        "cropStomp_pickStretchNoVoice"
-      ],
-      "defaultDuration": 2.0,
-      "cues": [
-        {
-          "id": "*_pick",
-          "beat": 0.0
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_mole",
-      "name": "pick - mole",
-      "deprecatedIDs": [
-        "cropStomp_moleNoVoice"
-      ],
-      "cues": [
-        {
-          "id": "*/moleLaugh1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/moleLaugh2",
-          "beat": 0.5
-        },
-        {
-          "id": "*/moleLaugh3",
-          "beat": 1.0
-        },
-        {
-          "id": "*/stomp",
-          "beat": 2.0
-        },
-        {
-          "id": "*/moleHit",
-          "beat": 2.5
-        }
-      ],
-      "subtext": ""
-    },
-    {
-      "type": "pattern",
-      "id": "*_pick",
-      "name": "pick - crop",
-      "deprecatedIDs": [
-        "cropStomp_pickNoVoice"
-      ],
-      "cues": [
-        {
-          "id": "*/stomp",
-          "beat": 0.0
-        },
-        {
-          "id": "*/veggiePluck",
-          "beat": 0.5
-        },
-        {
-          "id": "*/veggieHit",
-          "beat": 1.0
-        }
-      ],
-      "subtext": ""
+      "type": "cue",
+      "id": "*/xylophoneChord",
+      "name": "mole - xylophone - chord",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5,
+      "repitchable": true
     }
   ]
 }
