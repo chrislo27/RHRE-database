@@ -1,76 +1,13 @@
 {
-  "series": "fever",
   "id": "nightWalkFever",
   "name": "Night Walk (Fever)",
+  "series": "fever",
   "objects": [
-    {
-      "type": "cue",
-      "id": "*/jump1",
-      "deprecatedIDs": [],
-      "name": "jump1",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/jump2",
-      "deprecatedIDs": [],
-      "name": "jump2",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/roll1",
-      "deprecatedIDs": [],
-      "name": "roll1",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/roll2",
-      "deprecatedIDs": [],
-      "name": "roll2",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/roll3",
-      "deprecatedIDs": [],
-      "name": "roll3",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/roll4",
-      "deprecatedIDs": [],
-      "name": "roll4",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/roll5",
-      "deprecatedIDs": [],
-      "name": "roll5",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/roll6",
-      "deprecatedIDs": [],
-      "name": "roll6",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/roll7",
-      "deprecatedIDs": [],
-      "name": "roll7",
-      "duration": 1.5
-    },
     {
       "type": "keepTheBeat",
       "id": "*_jumping",
-      "deprecatedIDs": [],
       "name": "jumping",
+      "deprecatedIDs": [],
       "defaultDuration": 4.0,
       "cues": [
         {
@@ -89,43 +26,169 @@
           "id": "*/jump2",
           "beat": 3.0
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
-      "type": "pattern",
-      "id": "*_rollJump",
+      "type": "keepTheBeat",
+      "id": "*_jumpingAlt",
+      "name": "jumping (alternate)",
       "deprecatedIDs": [],
-      "name": "roll jump",
+      "defaultDuration": 4.0,
       "cues": [
         {
-          "id": "*/roll1",
+          "id": "*/jump1",
           "beat": 0.0
         },
         {
-          "id": "*/roll2",
-          "beat": 0.25
-        },
-        {
-          "id": "*/roll3",
-          "beat": 0.5
-        },
-        {
-          "id": "*/roll4",
-          "beat": 0.75
-        },
-        {
-          "id": "*/roll5",
+          "id": "*/jump2",
           "beat": 1.0
         },
         {
-          "id": "*/roll6",
-          "beat": 1.25
+          "id": "*/jump2",
+          "beat": 2.0
         },
         {
-          "id": "*/roll7",
+          "id": "*/jump2",
+          "beat": 3.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_highJump",
+      "name": "high jump",
+      "deprecatedIDs": [
+        "nightWalkFever_rollJump"
+      ],
+      "cues": [
+        {
+          "id": "*/highJump1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/highJump2",
+          "beat": 0.29166666
+        },
+        {
+          "id": "*/highJump3",
+          "beat": 0.5
+        },
+        {
+          "id": "*/highJump4",
+          "beat": 0.7916667
+        },
+        {
+          "id": "*/highJump5",
+          "beat": 1.0
+        },
+        {
+          "id": "*/highJump6",
+          "beat": 1.2916666
+        },
+        {
+          "id": "*/highJump7",
           "beat": 1.5
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "cue",
+      "id": "*/boxClick",
+      "name": "box - click",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/jump1",
+      "name": "jump - kick",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "introSound": "*/boxClick"
+    },
+    {
+      "type": "cue",
+      "id": "*/jump2",
+      "name": "jump - snare",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "introSound": "*/boxClick"
+    },
+    {
+      "type": "cue",
+      "id": "*/highJump1",
+      "name": "high jump - ready - 1",
+      "deprecatedIDs": [
+        "nightWalkFever/roll1"
+      ],
+      "subtext": "",
+      "duration": 0.29166666
+    },
+    {
+      "type": "cue",
+      "id": "*/highJump2",
+      "name": "high jump - ready - 2",
+      "deprecatedIDs": [
+        "nightWalkFever/roll2"
+      ],
+      "subtext": "",
+      "duration": 0.20833333
+    },
+    {
+      "type": "cue",
+      "id": "*/highJump3",
+      "name": "high jump - ready - 3",
+      "deprecatedIDs": [
+        "nightWalkFever/roll3"
+      ],
+      "subtext": "",
+      "duration": 0.29166666
+    },
+    {
+      "type": "cue",
+      "id": "*/highJump4",
+      "name": "high jump - ready - 4",
+      "deprecatedIDs": [
+        "nightWalkFever/roll4"
+      ],
+      "subtext": "",
+      "duration": 0.20833333
+    },
+    {
+      "type": "cue",
+      "id": "*/highJump5",
+      "name": "high jump - roll - 1",
+      "deprecatedIDs": [
+        "nightWalkFever/roll5"
+      ],
+      "subtext": "",
+      "duration": 0.29166666
+    },
+    {
+      "type": "cue",
+      "id": "*/highJump6",
+      "name": "high jump - roll - 2",
+      "deprecatedIDs": [
+        "nightWalkFever/roll6"
+      ],
+      "subtext": "",
+      "duration": 0.20833333
+    },
+    {
+      "type": "cue",
+      "id": "*/highJump7",
+      "name": "high jump - jump",
+      "deprecatedIDs": [
+        "nightWalkFever/roll7"
+      ],
+      "subtext": "",
+      "duration": 1.5
     }
   ]
 }
