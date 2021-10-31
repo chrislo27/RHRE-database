@@ -1,13 +1,14 @@
 {
-  "series": "ds",
   "id": "shootEmUp",
   "name": "Shoot-'em-Up (DS)",
+  "series": "ds",
   "objects": [
     {
       "type": "cue",
       "id": "*/spawn",
-      "deprecatedIDs": [],
       "name": "spawn",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5,
       "responseIDs": [
         "*/shoot"
@@ -16,15 +17,17 @@
     {
       "type": "cue",
       "id": "*/shoot",
-      "deprecatedIDs": [],
       "name": "shoot",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/commStart",
-      "deprecatedIDs": [],
       "name": "comms start",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5,
       "responseIDs": [
         "*/commEnd"
@@ -33,29 +36,40 @@
     {
       "type": "cue",
       "id": "*/commEnd",
-      "deprecatedIDs": [],
       "name": "comms end",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
       "id": "*/gate1",
-      "deprecatedIDs": [],
       "name": "intro - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
       "id": "*/gate2",
-      "deprecatedIDs": [],
       "name": "intro - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/gate3Unused",
+      "name": "intro - 3 (unused)",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "pattern",
       "id": "*_intro",
-      "deprecatedIDs": [],
       "name": "intro",
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/gate1",
@@ -65,7 +79,8 @@
           "id": "*/gate2",
           "beat": 2.0
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
