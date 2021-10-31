@@ -18,139 +18,304 @@
     },
     {
       "type": "cue",
-      "id": "*/textAdvanceMMF",
+      "id": "*/textAdvance/Wii/textAdvanceStart",
       "name": "text advance (Wii/3DS)",
-      "deprecatedIDs": [],
+      "deprecatedIDs": [
+        "extraSFX/textAdvanceMMF"
+      ],
       "subtext": "",
       "duration": 0.5,
       "stretchable": true,
-      "endingSound": "*/textAdvanceMMFEnd"
+      "endingSound": "*/textAdvance/Wii/textAdvanceEnd"
     },
     {
       "type": "cue",
-      "id": "*/textAdvanceMMFEnd",
-      "name": "extraSFX/textAdvanceMMFEnd",
-      "deprecatedIDs": [],
+      "id": "*/textAdvance/Wii/textAdvanceEnd",
+      "name": "text advance - end (Wii/3DS)",
+      "deprecatedIDs": [
+        "extraSFX/textAdvanceMMFEnd"
+      ],
       "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/textAdvanceDS",
+      "id": "*/textAdvance/DS/textAdvanceStart",
       "name": "text advance (DS)",
       "deprecatedIDs": [
-        "flickingPractice/tap"
+        "flickingPractice/tap",
+        "extraSFX/textAdvanceDS"
       ],
       "subtext": "",
-      "duration": 1.0,
+      "duration": 0.5,
       "stretchable": true,
-      "endingSound": "*/textAdvanceDSEnd"
+      "endingSound": "*/textAdvance/DS/textAdvanceEnd"
     },
     {
       "type": "cue",
-      "id": "*/textAdvanceDSEnd",
-      "name": "extraSFX/textAdvanceDSEnd",
-      "deprecatedIDs": [],
+      "id": "*/textAdvance/DS/textAdvanceEnd",
+      "name": "text advance - end (DS)",
+      "deprecatedIDs": [
+        "extraSFX/textAdvanceDSEnd"
+      ],
       "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/textAdvanceGBA",
+      "id": "*/textAdvance/GBA/textAdvance",
       "name": "text advance (GBA)",
       "deprecatedIDs": [
-        "extraSFX/textAdvance"
+        "extraSFX/textAdvance",
+        "extraSFX/textAdvanceGBA"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/audience/Wii/booing",
+      "name": "audience - booing (Wii/3DS)",
+      "deprecatedIDs": [
+        "extraSFX/boo"
       ],
       "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/boo",
-      "name": "booing",
-      "deprecatedIDs": [],
+      "id": "*/audience/Wii/disappointed",
+      "name": "audience - dissapointed (Wii/3DS)",
+      "deprecatedIDs": [
+        "extraSFX/disappointment"
+      ],
       "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/disappointment",
-      "name": "disappointment",
-      "deprecatedIDs": [],
+      "id": "*/audience/Wii/laugh",
+      "name": "audience - laugh (Wii/3DS)",
+      "deprecatedIDs": [
+        "extraSFX/laughter"
+      ],
       "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/laughter",
-      "name": "laughing",
-      "deprecatedIDs": [],
+      "id": "*/audience/Wii/clapping",
+      "name": "audience - clapping (Wii/3DS)",
+      "deprecatedIDs": [
+        "extraSFX/clapping"
+      ],
       "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/clapping",
-      "name": "clapping",
-      "deprecatedIDs": [],
+      "id": "*/audience/Wii/applauseHigh",
+      "name": "audience - applause - high (Wii/3DS)",
+      "deprecatedIDs": [
+        "extraSFX/applauding"
+      ],
       "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/applauding",
-      "name": "applauding",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/applause",
-      "name": "applause",
+      "id": "*/audience/Wii/applauseLow",
+      "name": "audience - applause - low (Wii/3DS)",
       "deprecatedIDs": [
         "extraSFX/applauseWhistle",
-        "extraSFX/audienceApplause"
+        "extraSFX/audienceApplause",
+        "extraSFX/applause"
       ],
       "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/tink",
-      "name": "miss - tink",
+      "id": "*/audience/DS/booing",
+      "name": "audience - booing (DS)",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/miss1",
-      "name": "miss - doink!",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/miss2",
-      "name": "miss - doingoinging!",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/sigh",
-      "name": "miss - sigh",
+      "id": "*/audience/DS/laugh",
+      "name": "audience - laugh (DS)",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/perfectBreaks",
-      "name": "perfect breaks",
+      "id": "*/audience/DS/clapping",
+      "name": "audience - clapping (DS)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/audience/DS/applauseHigh",
+      "name": "audience - applause - high (DS)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/audience/DS/applauseLow",
+      "name": "audience - applause - low (DS)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/audience/GBA/laughHigh",
+      "name": "audience - laugh - high (GBA)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/audience/GBA/laughLow",
+      "name": "audience - laugh - low (GBA)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/audience/GBA/laughNoApplause",
+      "name": "audience - laugh - no applause (GBA)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/audience/GBA/clapping",
+      "name": "audience - clapping (GBA)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/audience/GBA/applause",
+      "name": "audience - applause (GBA)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/audience/GBA/applauseNoWhistle",
+      "name": "audience - applause - no whistle (GBA)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/fail/Wii/tink",
+      "name": "miss - tink (Wii/3DS)",
+      "deprecatedIDs": [
+        "extraSFX/tink"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/fail/Wii/miss1",
+      "name": "miss - doink! (Wii/3DS)",
+      "deprecatedIDs": [
+        "extraSFX/miss1"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/fail/Wii/miss2",
+      "name": "miss - doingoinging! (Wii/3DS)",
+      "deprecatedIDs": [
+        "extraSFX/miss2"
+      ],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/fail/Wii/sigh",
+      "name": "miss - sigh (Wii/3DS)",
+      "deprecatedIDs": [
+        "extraSFX/sigh"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/fail/DS/tink",
+      "name": "miss - tink (DS)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/fail/DS/miss1",
+      "name": "miss - doink! (DS)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/fail/DS/miss2",
+      "name": "miss - doingoinging! (DS)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/fail/DS/sigh",
+      "name": "miss - sigh (DS)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/fail/Wii/perfect",
+      "name": "perfect breaks (Wii/3DS)",
+      "deprecatedIDs": [
+        "extraSFX/perfectBreaks"
+      ],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/fail/DS/perfect",
+      "name": "perfect breaks (DS)",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/fail/GBA/perfect",
+      "name": "perfect breaks (GBA)",
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
