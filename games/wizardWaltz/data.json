@@ -1,16 +1,18 @@
 {
-  "series": "tengoku",
   "id": "wizardWaltz",
   "name": "Wizard Waltz",
+  "series": "tengoku",
   "searchHints": [
-    "wizard's waltz"
+    "wizard's waltz",
+    "mahou tsukai"
   ],
   "objects": [
     {
       "type": "cue",
       "id": "*/plant",
+      "name": "sprout",
       "deprecatedIDs": [],
-      "name": "plant",
+      "subtext": "",
       "duration": 0.5,
       "responseIDs": [
         "*/grow"
@@ -19,8 +21,9 @@
     {
       "type": "cue",
       "id": "*/grow",
-      "deprecatedIDs": [],
       "name": "grow",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 0.5
     }
   ]
