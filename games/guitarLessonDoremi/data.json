@@ -425,7 +425,7 @@
     {
       "type": "cue",
       "id": "*/chordAm7",
-      "name": "chord - Am7 ",
+      "name": "chord - Am7",
       "deprecatedIDs": [
         "rockersLessonsEn/lessonsAm7",
         "rockersLessonsDe/lessonsAm7",

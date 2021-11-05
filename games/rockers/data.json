@@ -238,7 +238,7 @@
     {
       "type": "cue",
       "id": "*/bendAN",
-      "name": "bend - A ",
+      "name": "bend - A",
       "deprecatedIDs": [
         "rockersEn/bendHigh",
         "rockersDe/bendHigh",
@@ -358,7 +358,7 @@
     {
       "type": "cue",
       "id": "*/chordCsm7",
-      "name": "chord - C♯ø7, C♯m7♭5 ",
+      "name": "chord - C♯ø7, C♯m7♭5",
       "deprecatedIDs": [
         "rockers/chord4",
         "rockersEn/chord4",
@@ -454,7 +454,7 @@
     {
       "type": "cue",
       "id": "*/chordG",
-      "name": "chord - G6 ",
+      "name": "chord - G6",
       "deprecatedIDs": [
         "rockers/chord8",
         "rockersEn/chord8",
@@ -504,7 +504,7 @@
     {
       "type": "cue",
       "id": "*/chordGdim7",
-      "name": "chord - Gdim7, Go7 ",
+      "name": "chord - Gdim7, Go7",
       "deprecatedIDs": [
         "rockers/chord10",
         "rockersEn/chord10",

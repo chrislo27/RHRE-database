@@ -92,7 +92,7 @@
     {
       "type": "pattern",
       "id": "*_chordCm7",
-      "name": "chord - Cm7 ",
+      "name": "chord - Cm7",
       "deprecatedIDs": [],
       "stretchable": true,
       "cues": [
@@ -132,7 +132,7 @@
     {
       "type": "pattern",
       "id": "*_chordCaug",
-      "name": "chord - C+ ",
+      "name": "chord - C+",
       "deprecatedIDs": [],
       "stretchable": true,
       "cues": [
@@ -273,7 +273,7 @@
     {
       "type": "pattern",
       "id": "*_chordEbM7",
-      "name": "chord - E♭maj7 ",
+      "name": "chord - E♭maj7",
       "deprecatedIDs": [],
       "stretchable": true,
       "cues": [
@@ -439,7 +439,7 @@
     {
       "type": "pattern",
       "id": "*_chordFm94",
-      "name": "chord - Fsus4 ",
+      "name": "chord - Fsus4",
       "deprecatedIDs": [],
       "stretchable": true,
       "cues": [
@@ -735,7 +735,7 @@
     {
       "type": "pattern",
       "id": "*_chordBbaug7",
-      "name": "chord - B♭+7/F♯ ",
+      "name": "chord - B♭+7/F♯",
       "deprecatedIDs": [],
       "stretchable": true,
       "cues": [
