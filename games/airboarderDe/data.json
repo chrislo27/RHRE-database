@@ -1,17 +1,15 @@
 {
-  "id": "airboarderEs",
+  "id": "airboarderDe",
   "name": "Airboarder (DS)",
   "series": "ds",
-  "language": "es",
+  "language": "de",
   "group": "Airboarder (DS)",
   "objects": [
     {
       "type": "cue",
       "id": "*/start1",
       "name": "start - yeah...",
-      "deprecatedIDs": [
-        "airboarderEs/adelante1"
-      ],
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 6.5,
       "baseBpm": 160.0,
@@ -21,9 +19,7 @@
       "type": "cue",
       "id": "*/start2",
       "name": "start - let's go!",
-      "deprecatedIDs": [
-        "airboarderEs/adelante2"
-      ],
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
     },
@@ -31,9 +27,7 @@
       "type": "cue",
       "id": "*/ready",
       "name": "ready",
-      "deprecatedIDs": [
-        "airboarderEs/hup"
-      ],
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
     },
@@ -49,9 +43,7 @@
       "type": "cue",
       "id": "*/crouchCharge",
       "name": "crouch - with charge",
-      "deprecatedIDs": [
-        "airboarderEs/glow"
-      ],
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
     },
@@ -67,9 +59,7 @@
       "type": "pattern",
       "id": "*_start",
       "name": "yeah... let's go!",
-      "deprecatedIDs": [
-        "airboarderEs_adelante"
-      ],
+      "deprecatedIDs": [],
       "cues": [
         {
           "id": "*/start1",
