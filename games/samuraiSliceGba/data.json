@@ -1,221 +1,956 @@
 {
-  "series": "tengoku",
   "id": "samuraiSliceGba",
   "name": "Samurai Slice (GBA)",
+  "series": "tengoku",
+  "searchHints": [
+    "Iai Giri"
+  ],
   "objects": [
+    {
+      "type": "pattern",
+      "id": "*_slice1A",
+      "name": "weak slice",
+      "deprecatedIDs": [
+        "samuraiSliceGba_weakSlice"
+      ],
+      "cues": [
+        {
+          "id": "*/jump",
+          "beat": 0.0
+        },
+        {
+          "id": "*/voice1A",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_slice1B",
+      "name": "weak slice - slow",
+      "deprecatedIDs": [
+        "samuraiSliceGba_bigWeakSlice"
+      ],
+      "cues": [
+        {
+          "id": "*/jump",
+          "beat": 0.0
+        },
+        {
+          "id": "*/voice1B",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_slice1ADouble",
+      "name": "weak slice - double",
+      "deprecatedIDs": [
+        "samuraiSliceGba_weakSliceDouble"
+      ],
+      "cues": [
+        {
+          "id": "*/jump",
+          "beat": 0.0
+        },
+        {
+          "id": "*/voice1ADouble",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_slice1BDouble",
+      "name": "weak slice - double - slow",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/jump",
+          "beat": 0.0
+        },
+        {
+          "id": "*/voice1BDouble",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_slice2A",
+      "name": "medium slice",
+      "deprecatedIDs": [
+        "samuraiSliceGba_mediumSlice"
+      ],
+      "cues": [
+        {
+          "id": "*/jump",
+          "beat": 0.0
+        },
+        {
+          "id": "*/voice2A",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_slice2B",
+      "name": "medium slice - slow",
+      "deprecatedIDs": [
+        "samuraiSliceGba_bigMediumSlice"
+      ],
+      "cues": [
+        {
+          "id": "*/jump",
+          "beat": 0.0
+        },
+        {
+          "id": "*/voice2B",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_slice2ADouble",
+      "name": "medium slice - double",
+      "deprecatedIDs": [
+        "samuraiSliceGba_mediumSliceDouble"
+      ],
+      "cues": [
+        {
+          "id": "*/jump",
+          "beat": 0.0
+        },
+        {
+          "id": "*/voice2ADouble",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_slice2BDouble",
+      "name": "medium slice - double - slow",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/jump",
+          "beat": 0.0
+        },
+        {
+          "id": "*/voice2BDouble",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_slice3A",
+      "name": "strong slice",
+      "deprecatedIDs": [
+        "samuraiSliceGba_strongSlice"
+      ],
+      "cues": [
+        {
+          "id": "*/jump",
+          "beat": 0.0
+        },
+        {
+          "id": "*/voice3A",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_slice3B",
+      "name": "strong slice - slow",
+      "deprecatedIDs": [
+        "samuraiSliceGba_bigStrongSlice"
+      ],
+      "cues": [
+        {
+          "id": "*/jump",
+          "beat": 0.0
+        },
+        {
+          "id": "*/voice3B",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_slice3ADouble",
+      "name": "strong slice - double",
+      "deprecatedIDs": [
+        "samuraiSliceGba_strongSliceDouble"
+      ],
+      "cues": [
+        {
+          "id": "*/jump",
+          "beat": 0.0
+        },
+        {
+          "id": "*/voice3ADouble",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_slice3BDouble",
+      "name": "strong slice - double - slow",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/jump",
+          "beat": 0.0
+        },
+        {
+          "id": "*/voice3BDouble",
+          "beat": 1.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_fog",
+      "name": "fog - normal",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/fog1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/fog2",
+          "beat": 0.25
+        },
+        {
+          "id": "*/fog3",
+          "beat": 0.5
+        },
+        {
+          "id": "*/fog4",
+          "beat": 0.75
+        },
+        {
+          "id": "*/fog5",
+          "beat": 1.0
+        },
+        {
+          "id": "*/fog6",
+          "beat": 1.25
+        },
+        {
+          "id": "*/fog7",
+          "beat": 1.5
+        },
+        {
+          "id": "*/fog8",
+          "beat": 1.75
+        },
+        {
+          "id": "*/fog9",
+          "beat": 2.0
+        },
+        {
+          "id": "*/fog10",
+          "beat": 2.25
+        },
+        {
+          "id": "*/fog11",
+          "beat": 2.5
+        },
+        {
+          "id": "*/fog12",
+          "beat": 2.75
+        },
+        {
+          "id": "*/fog13",
+          "beat": 3.0
+        },
+        {
+          "id": "*/fog14",
+          "beat": 3.25
+        },
+        {
+          "id": "*/fog15",
+          "beat": 3.5
+        },
+        {
+          "id": "*/fog16",
+          "beat": 3.75
+        },
+        {
+          "id": "*/fog17",
+          "beat": 4.0
+        },
+        {
+          "id": "*/fog18",
+          "beat": 4.25
+        },
+        {
+          "id": "*/fog19",
+          "beat": 4.5
+        },
+        {
+          "id": "*/fog20",
+          "beat": 4.75
+        },
+        {
+          "id": "*/fog21",
+          "beat": 5.0
+        },
+        {
+          "id": "*/fog22",
+          "beat": 5.25
+        },
+        {
+          "id": "*/fog23",
+          "beat": 5.5
+        },
+        {
+          "id": "*/fog24",
+          "beat": 5.75
+        },
+        {
+          "id": "*/fog25B",
+          "beat": 6.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_fogLong",
+      "name": "fog - long",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/fog1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/fog2",
+          "beat": 0.25
+        },
+        {
+          "id": "*/fog3",
+          "beat": 0.5
+        },
+        {
+          "id": "*/fog4",
+          "beat": 0.75
+        },
+        {
+          "id": "*/fog5",
+          "beat": 1.0
+        },
+        {
+          "id": "*/fog6",
+          "beat": 1.25
+        },
+        {
+          "id": "*/fog7",
+          "beat": 1.5
+        },
+        {
+          "id": "*/fog8",
+          "beat": 1.75
+        },
+        {
+          "id": "*/fog9",
+          "beat": 2.0
+        },
+        {
+          "id": "*/fog10",
+          "beat": 2.25
+        },
+        {
+          "id": "*/fog11",
+          "beat": 2.5
+        },
+        {
+          "id": "*/fog12",
+          "beat": 2.75
+        },
+        {
+          "id": "*/fog13",
+          "beat": 3.0
+        },
+        {
+          "id": "*/fog14",
+          "beat": 3.25
+        },
+        {
+          "id": "*/fog15",
+          "beat": 3.5
+        },
+        {
+          "id": "*/fog16",
+          "beat": 3.75
+        },
+        {
+          "id": "*/fog17",
+          "beat": 4.0
+        },
+        {
+          "id": "*/fog18",
+          "beat": 4.25
+        },
+        {
+          "id": "*/fog19",
+          "beat": 4.5
+        },
+        {
+          "id": "*/fog20",
+          "beat": 4.75
+        },
+        {
+          "id": "*/fog21",
+          "beat": 5.0
+        },
+        {
+          "id": "*/fog22",
+          "beat": 5.25
+        },
+        {
+          "id": "*/fog23",
+          "beat": 5.5
+        },
+        {
+          "id": "*/fog24",
+          "beat": 5.75
+        },
+        {
+          "id": "*/fog25A",
+          "beat": 6.0
+        },
+        {
+          "id": "*/fog26",
+          "beat": 6.25
+        },
+        {
+          "id": "*/fog27",
+          "beat": 6.5
+        },
+        {
+          "id": "*/fog28",
+          "beat": 6.75
+        },
+        {
+          "id": "*/fog29",
+          "beat": 7.0
+        },
+        {
+          "id": "*/fog30",
+          "beat": 7.25
+        },
+        {
+          "id": "*/fog31",
+          "beat": 7.5
+        },
+        {
+          "id": "*/fog32",
+          "beat": 7.75
+        }
+      ],
+      "subtext": ""
+    },
     {
       "type": "cue",
       "id": "*/jump",
-      "deprecatedIDs": [],
       "name": "jump",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/sliceLow",
+      "id": "*/slice",
+      "name": "slice",
       "deprecatedIDs": [],
-      "name": "weak slice",
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/sliceLowDouble",
+      "id": "*/sliceDouble",
+      "name": "slice - double",
       "deprecatedIDs": [],
-      "name": "weak slice double",
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/sliceMiddle",
+      "id": "*/voice1A",
+      "name": "slice - low",
+      "deprecatedIDs": [
+        "samuraiSliceGba/sliceLow"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "introSound": "*/slice"
+    },
+    {
+      "type": "cue",
+      "id": "*/voice1B",
+      "name": "slice - slow - low",
+      "deprecatedIDs": [
+        "samuraiSliceGba/bigSliceLow"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "introSound": "*/slice"
+    },
+    {
+      "type": "cue",
+      "id": "*/voice1ADouble",
+      "name": "slice - low - double",
+      "deprecatedIDs": [
+        "samuraiSliceGba/sliceLowDouble"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "introSound": "*/sliceDouble"
+    },
+    {
+      "type": "cue",
+      "id": "*/voice1BDouble",
+      "name": "slice - slow - low - double",
       "deprecatedIDs": [],
-      "name": "medium slice",
+      "subtext": "",
+      "duration": 1.0,
+      "introSound": "*/sliceDouble"
+    },
+    {
+      "type": "cue",
+      "id": "*/voice2A",
+      "name": "slice - medium",
+      "deprecatedIDs": [
+        "samuraiSliceGba/sliceMiddle"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "introSound": "*/slice"
+    },
+    {
+      "type": "cue",
+      "id": "*/voice2B",
+      "name": "slice - slow - medium",
+      "deprecatedIDs": [
+        "samuraiSliceGba/bigSliceMiddle"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "introSound": "*/slice"
+    },
+    {
+      "type": "cue",
+      "id": "*/voice2ADouble",
+      "name": "slice - medium - double",
+      "deprecatedIDs": [
+        "samuraiSliceGba/sliceMiddleDouble"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "introSound": "*/sliceDouble"
+    },
+    {
+      "type": "cue",
+      "id": "*/voice2BDouble",
+      "name": "slice - slow - medium - double",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "introSound": "*/sliceDouble"
+    },
+    {
+      "type": "cue",
+      "id": "*/voice3A",
+      "name": "slice - high",
+      "deprecatedIDs": [
+        "samuraiSliceGba/sliceHigh"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "introSound": "*/slice"
+    },
+    {
+      "type": "cue",
+      "id": "*/voice3B",
+      "name": "slice - slow - high",
+      "deprecatedIDs": [
+        "samuraiSliceGba/bigSliceHigh"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "introSound": "*/slice"
+    },
+    {
+      "type": "cue",
+      "id": "*/voice3ADouble",
+      "name": "slice - high - double",
+      "deprecatedIDs": [
+        "samuraiSliceGba/sliceHighDouble"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "introSound": "*/sliceDouble"
+    },
+    {
+      "type": "cue",
+      "id": "*/voice3BDouble",
+      "name": "slice - slow - high - double",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0,
+      "introSound": "*/sliceDouble"
+    },
+    {
+      "type": "cue",
+      "id": "*/fog1",
+      "name": "fog - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog2",
+      "name": "fog - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog3",
+      "name": "fog - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog4",
+      "name": "fog - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog5",
+      "name": "fog - 5",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog6",
+      "name": "fog - 6",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog7",
+      "name": "fog - 7",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog8",
+      "name": "fog - 8",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog9",
+      "name": "fog - 9",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog10",
+      "name": "fog - 10",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog11",
+      "name": "fog - 11",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog12",
+      "name": "fog - 12",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog13",
+      "name": "fog - 13",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog14",
+      "name": "fog - 14",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog15",
+      "name": "fog - 15",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog16",
+      "name": "fog - 16",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog17",
+      "name": "fog - 17",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog18",
+      "name": "fog - 18",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog19",
+      "name": "fog - 19",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog20",
+      "name": "fog - 20",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog21",
+      "name": "fog - 21",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog22",
+      "name": "fog - 22",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog23",
+      "name": "fog - 23",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog24",
+      "name": "fog - 24",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog25A",
+      "name": "fog - 25 - short",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
+    },
+    {
+      "type": "cue",
+      "id": "*/fog25B",
+      "name": "fog - 25 - long",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/sliceMiddleDouble",
+      "id": "*/fog26",
+      "name": "fog - 26",
       "deprecatedIDs": [],
-      "name": "medium slice double",
-      "duration": 1.0
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
     },
     {
       "type": "cue",
-      "id": "*/sliceHigh",
+      "id": "*/fog27",
+      "name": "fog - 27",
       "deprecatedIDs": [],
-      "name": "strong slice",
-      "duration": 1.0
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
     },
     {
       "type": "cue",
-      "id": "*/sliceHighDouble",
+      "id": "*/fog28",
+      "name": "fog - 28",
       "deprecatedIDs": [],
-      "name": "strong slice double",
-      "duration": 1.0
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
     },
     {
       "type": "cue",
-      "id": "*/bigSliceLow",
+      "id": "*/fog29",
+      "name": "fog - 29",
       "deprecatedIDs": [],
-      "name": "big demon weak slice",
-      "duration": 1.0
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
     },
     {
       "type": "cue",
-      "id": "*/bigSliceMiddle",
+      "id": "*/fog30",
+      "name": "fog - 30",
       "deprecatedIDs": [],
-      "name": "big demon medium slice",
-      "duration": 1.0
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
     },
     {
       "type": "cue",
-      "id": "*/bigSliceHigh",
+      "id": "*/fog31",
+      "name": "fog - 31",
       "deprecatedIDs": [],
-      "name": "big demon strong slice",
-      "duration": 1.0
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
     },
     {
-      "type": "pattern",
-      "id": "*_weakSlice",
+      "type": "cue",
+      "id": "*/fog32",
+      "name": "fog - 32",
       "deprecatedIDs": [],
-      "name": "weak slice",
-      "cues": [
-        {
-          "id": "*/jump",
-          "beat": 0.0
-        },
-        {
-          "id": "*/sliceLow",
-          "beat": 1.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_weakSliceDouble",
-      "deprecatedIDs": [],
-      "name": "weak slice double",
-      "cues": [
-        {
-          "id": "*/jump",
-          "beat": 0.0
-        },
-        {
-          "id": "*/sliceLowDouble",
-          "beat": 1.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_mediumSlice",
-      "deprecatedIDs": [],
-      "name": "medium slice",
-      "cues": [
-        {
-          "id": "*/jump",
-          "beat": 0.0
-        },
-        {
-          "id": "*/sliceMiddle",
-          "beat": 1.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_mediumSliceDouble",
-      "deprecatedIDs": [],
-      "name": "medium slice double",
-      "cues": [
-        {
-          "id": "*/jump",
-          "beat": 0.0
-        },
-        {
-          "id": "*/sliceMiddleDouble",
-          "beat": 1.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_strongSlice",
-      "deprecatedIDs": [],
-      "name": "strong slice",
-      "cues": [
-        {
-          "id": "*/jump",
-          "beat": 0.0
-        },
-        {
-          "id": "*/sliceHigh",
-          "beat": 1.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_strongSliceDouble",
-      "deprecatedIDs": [],
-      "name": "strong slice double",
-      "cues": [
-        {
-          "id": "*/jump",
-          "beat": 0.0
-        },
-        {
-          "id": "*/sliceHighDouble",
-          "beat": 1.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_bigWeakSlice",
-      "deprecatedIDs": [],
-      "name": "big demon weak slice",
-      "cues": [
-        {
-          "id": "*/jump",
-          "beat": 0.0
-        },
-        {
-          "id": "*/bigSliceLow",
-          "beat": 1.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_bigMediumSlice",
-      "deprecatedIDs": [],
-      "name": "big demon medium slice",
-      "cues": [
-        {
-          "id": "*/jump",
-          "beat": 0.0
-        },
-        {
-          "id": "*/bigSliceMiddle",
-          "beat": 1.0
-        }
-      ]
-    },
-    {
-      "type": "pattern",
-      "id": "*_bigStrongSlice",
-      "deprecatedIDs": [],
-      "name": "big demon strong slice",
-      "cues": [
-        {
-          "id": "*/jump",
-          "beat": 0.0
-        },
-        {
-          "id": "*/bigSliceHigh",
-          "beat": 1.0
-        }
-      ]
+      "subtext": "",
+      "duration": 0.25,
+      "loops": true,
+      "loopEnd": 1.0E32
     }
   ]
 }
