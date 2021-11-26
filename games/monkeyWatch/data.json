@@ -4,13 +4,292 @@
   "series": "fever",
   "objects": [
     {
-      "type": "cue",
-      "id": "*/clap",
+      "type": "keepTheBeat",
+      "id": "*_highFiveStretch",
+      "name": "high-five - stretch",
+      "deprecatedIDs": [
+        "monkeyWatch_clap"
+      ],
+      "defaultDuration": 4.0,
+      "cues": [
+        {
+          "id": "*_randomClapOnbeat",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_randomClapOnbeat",
+          "beat": 2.0
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_offbeatPattern",
+      "name": "offbeat pattern",
+      "deprecatedIDs": [
+        "monkeyWatch_offbeat"
+      ],
+      "cues": [
+        {
+          "id": "*_voiceFull",
+          "beat": 0.0
+        },
+        {
+          "id": "*_randomClapOnbeat",
+          "beat": 1.0,
+          "duration": 1.0,
+          "track": 1
+        },
+        {
+          "id": "*_clapOffbeat",
+          "beat": 2.5,
+          "track": 1
+        },
+        {
+          "id": "*_clapOffbeat",
+          "beat": 3.5,
+          "duration": 0.5,
+          "track": 1
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_randomClapOnbeat",
       "name": "clap - onbeat",
       "deprecatedIDs": [
+        "monkeyWatch/clap",
         "monkeyWatch/clap1",
         "monkeyWatch/clap2"
       ],
+      "cues": [
+        {
+          "id": "*/clapOnbeat1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/clapOnbeat2",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/clapOnbeat3",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/clapOnbeat4",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/clapOnbeat5",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_clapOffbeat",
+      "name": "clap - offbeat",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/clapOffbeat",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_voiceFull",
+      "name": "voice - full",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*_voiceUki1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_voiceUki2",
+          "beat": 1.0
+        },
+        {
+          "id": "*_voiceUki3",
+          "beat": 2.0
+        },
+        {
+          "id": "*_voiceKi",
+          "beat": 2.5
+        },
+        {
+          "id": "*_voiceKi",
+          "beat": 3.5
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_voiceUki1",
+      "name": "voice - ooki oo! - 1",
+      "deprecatedIDs": [
+        "monkeyWatch/offbeat1",
+        "monkeyWatch/voice1"
+      ],
+      "cues": [
+        {
+          "id": "*/voiceUki1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/voiceUki1Echo1",
+          "beat": 0.25
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_voiceUki2",
+      "name": "voice - ooki oo! - 2",
+      "deprecatedIDs": [
+        "monkeyWatch/offbeat2",
+        "monkeyWatch/voice2"
+      ],
+      "cues": [
+        {
+          "id": "*/voiceUki2",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/voiceUki2Echo1",
+          "beat": 0.25
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_voiceUki3",
+      "name": "voice - ooki oo! - 3",
+      "deprecatedIDs": [
+        "monkeyWatch/offbeat3",
+        "monkeyWatch/voice3"
+      ],
+      "cues": [
+        {
+          "id": "*/voiceUki3",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/voiceUki3Echo1",
+          "beat": 0.25
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_voiceKi",
+      "name": "voice - ki!",
+      "deprecatedIDs": [
+        "monkeyWatch/offbeat4",
+        "monkeyWatch/offbeat5",
+        "monkeyWatch/voice4"
+      ],
+      "cues": [
+        {
+          "id": "*_randomVoiceKi",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*_randomVoiceKiEcho",
+          "beat": 0.25
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_randomVoiceKi",
+      "name": "random - voice - ki!",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/voiceKi1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/voiceKi2",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "randomCue",
+      "id": "*_randomVoiceKiEcho",
+      "name": "random - voice - ki! - echo",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/voiceKi1Echo1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/voiceKi2Echo1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/voiceKi1BEcho1",
+          "beat": 1.4E-45
+        },
+        {
+          "id": "*/voiceKi2BEcho1",
+          "beat": 1.4E-45
+        }
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "cue",
+      "id": "*/clapOnbeat1",
+      "name": "clap - onbeat - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/clapOnbeat2",
+      "name": "clap - onbeat - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/clapOnbeat3",
+      "name": "clap - onbeat - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/clapOnbeat4",
+      "name": "clap - onbeat - 4",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
+    },
+    {
+      "type": "cue",
+      "id": "*/clapOnbeat5",
+      "name": "clap - onbeat - 5",
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 1.0
     },
@@ -24,112 +303,146 @@
     },
     {
       "type": "cue",
-      "id": "*/voice1",
-      "name": "offbeat - oo",
-      "deprecatedIDs": [
-        "monkeyWatch/offbeat1"
-      ],
+      "id": "*/voiceUki1",
+      "name": "voice - ooki oo! - 1",
+      "deprecatedIDs": [],
       "subtext": "",
-      "duration": 1.0
+      "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/voice2",
-      "name": "offbeat - kii",
-      "deprecatedIDs": [
-        "monkeyWatch/offbeat2"
-      ],
+      "id": "*/voiceUki1Echo1",
+      "name": "voice - ooki oo! - 1 - echo",
+      "deprecatedIDs": [],
       "subtext": "",
-      "duration": 1.0,
-      "earliness": 0.026
+      "duration": 0.25,
+      "endingSound": "*/voiceUki1Echo2"
     },
     {
       "type": "cue",
-      "id": "*/voice3",
-      "name": "offbeat - uk",
-      "deprecatedIDs": [
-        "monkeyWatch/offbeat3"
-      ],
+      "id": "*/voiceUki1Echo2",
+      "name": "voice - ooki oo! - 1 - echo - 2",
+      "deprecatedIDs": [],
       "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/voice4",
-      "name": "offbeat - ki",
-      "deprecatedIDs": [
-        "monkeyWatch/offbeat5",
-        "monkeyWatch/offbeat4"
-      ],
+      "id": "*/voiceUki2",
+      "name": "voice - ooki oo! - 2",
+      "deprecatedIDs": [],
       "subtext": "",
-      "duration": 1.0,
-      "earliness": 0.016
+      "duration": 0.25
     },
     {
-      "type": "keepTheBeat",
-      "id": "*_clap",
-      "name": "clap",
-      "deprecatedIDs": [
-        "clap"
-      ],
-      "defaultDuration": 4.0,
-      "cues": [
-        {
-          "id": "*/clap",
-          "beat": 0.0
-        },
-        {
-          "id": "*/clap",
-          "beat": 2.0
-        }
-      ],
-      "subtext": ""
+      "type": "cue",
+      "id": "*/voiceUki2Echo1",
+      "name": "voice - ooki oo! - 2 - echo",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "endingSound": "*/voiceUki2Echo2"
     },
     {
-      "type": "pattern",
-      "id": "*_offbeat",
-      "name": "offbeat clap",
-      "deprecatedIDs": [
-        "offbeat"
-      ],
-      "cues": [
-        {
-          "id": "*/voice1",
-          "beat": 0.0
-        },
-        {
-          "id": "*/voice2",
-          "beat": 1.0
-        },
-        {
-          "id": "*/clap",
-          "beat": 1.0,
-          "track": 1
-        },
-        {
-          "id": "*/voice3",
-          "beat": 2.0
-        },
-        {
-          "id": "*/voice4",
-          "beat": 2.5
-        },
-        {
-          "id": "*/clapOffbeat",
-          "beat": 2.5,
-          "track": 1
-        },
-        {
-          "id": "*/voice4",
-          "beat": 3.5
-        },
-        {
-          "id": "*/clapOffbeat",
-          "beat": 3.5,
-          "track": 1
-        }
-      ],
-      "subtext": ""
+      "type": "cue",
+      "id": "*/voiceUki2Echo2",
+      "name": "voice - ooki oo! - 2 - echo - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/voiceUki3",
+      "name": "voice - ooki oo! - 3",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/voiceUki3Echo1",
+      "name": "voice - ooki oo! - 3 - echo",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "endingSound": "*/voiceUki3Echo2"
+    },
+    {
+      "type": "cue",
+      "id": "*/voiceUki3Echo2",
+      "name": "voice - ooki oo! - 3 - echo - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/voiceKi1",
+      "name": "voice - ki! - 1",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/voiceKi1Echo1",
+      "name": "voice - ki! - 1 - echo - A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "endingSound": "*/voiceKi1Echo2"
+    },
+    {
+      "type": "cue",
+      "id": "*/voiceKi1BEcho1",
+      "name": "voice - ki! - 1 - echo - B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "endingSound": "*/voiceKi2Echo2"
+    },
+    {
+      "type": "cue",
+      "id": "*/voiceKi1Echo2",
+      "name": "voice - ki! - 1 - echo - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
+    },
+    {
+      "type": "cue",
+      "id": "*/voiceKi2",
+      "name": "voice - ki! - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25
+    },
+    {
+      "type": "cue",
+      "id": "*/voiceKi2Echo1",
+      "name": "voice - ki! - 2 - echo - A",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "endingSound": "*/voiceKi2Echo2"
+    },
+    {
+      "type": "cue",
+      "id": "*/voiceKi2BEcho1",
+      "name": "voice - ki! - 2 - echo - B",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.25,
+      "endingSound": "*/voiceKi1Echo2"
+    },
+    {
+      "type": "cue",
+      "id": "*/voiceKi2Echo2",
+      "name": "voice - ki! - 2 - echo - 2",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 0.5
     }
   ]
 }
