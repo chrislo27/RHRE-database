@@ -1,54 +1,63 @@
 {
-  "series": "side",
   "id": "frogPrincess",
   "name": "Frog Princess",
+  "series": "side",
   "objects": [
     {
       "type": "cue",
-      "id": "*/donk",
-      "deprecatedIDs": [],
-      "name": "donk",
+      "id": "*/ready",
+      "name": "ready - donk",
+      "deprecatedIDs": [
+        "frogPrincess/donk"
+      ],
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/prepare",
-      "deprecatedIDs": [],
-      "name": "prepare",
-      "duration": 1.0,
-      "baseBpm": 119,
+      "id": "*/lean",
+      "name": "lean",
+      "deprecatedIDs": [
+        "frogPrincess/prepare"
+      ],
+      "subtext": "",
+      "duration": 2.0,
+      "baseBpm": 119.0,
       "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",
       "id": "*/jump",
-      "deprecatedIDs": [],
       "name": "jump",
+      "deprecatedIDs": [],
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "pattern",
       "id": "*_jump",
-      "deprecatedIDs": [],
       "name": "jump",
+      "deprecatedIDs": [],
       "cues": [
         {
-          "id": "*/donk",
+          "id": "*/ready",
           "beat": 0.0
         },
         {
-          "id": "*/donk",
+          "id": "*/ready",
           "beat": 1.0
         },
         {
-          "id": "*/prepare",
+          "id": "*/lean",
           "beat": 2.0
         },
         {
           "id": "*/jump",
-          "beat": 3.0
+          "beat": 3.0,
+          "track": 1
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
