@@ -1,322 +1,441 @@
 {
-  "series": "side",
   "id": "munchyMonkFeverJa",
   "name": "Munchy Monk (Fever)",
+  "series": "side",
   "language": "ja",
   "group": "Munchy Monk (Fever)",
   "objects": [
     {
       "type": "cue",
-      "id": "*/blow",
+      "id": "*/eggVoice1",
+      "name": "one egg - one",
       "deprecatedIDs": [
-        "munchyMonkWiiJa/blow"
+        "munchyMonkWiiJa/haiya1",
+        "munchyMonkFeverJa/haiya1"
       ],
-      "name": "egg blow",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/gulp",
-      "deprecatedIDs": [
-        "munchyMonkWiiJa/gulp"
-      ],
-      "name": "egg gulp",
-      "duration": 0.5
-    },
-    {
-      "type": "cue",
-      "id": "*/haiya1",
-      "deprecatedIDs": [
-        "munchyMonkWiiJa/haiya1"
-      ],
-      "name": "hai ya - hai",
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/haiya2",
+      "id": "*/eggVoice2",
+      "name": "one egg - egg!",
       "deprecatedIDs": [
-        "munchyMonkWiiJa/haiya2"
+        "munchyMonkWiiJa/haiya2",
+        "munchyMonkFeverJa/haiya2"
       ],
-      "name": "hai ya - ya",
+      "subtext": "",
       "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/peas1",
+      "id": "*/eggBlow",
+      "name": "egg - blow",
       "deprecatedIDs": [
-        "munchyMonkWiiJa/peas1"
+        "munchyMonkWiiJa/blow",
+        "munchyMonkFeverJa/blow"
       ],
-      "name": "tenkomori - ten",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/peas2",
+      "id": "*/eggGulp",
+      "name": "egg - gulp",
       "deprecatedIDs": [
-        "munchyMonkWiiJa/peas2"
+        "munchyMonkWiiJa/gulp",
+        "munchyMonkFeverJa/gulp"
       ],
-      "name": "tenkomori - ko",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/peas3",
-      "deprecatedIDs": [
-        "munchyMonkWiiJa/peas3"
-      ],
-      "name": "tenkomori - mo",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/peas4",
-      "deprecatedIDs": [
-        "munchyMonkWiiJa/peas4"
-      ],
-      "name": "tenkomori - ri!",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/peas4Bang",
+      "id": "*/peasVoice1",
+      "name": "handful of peas - hand",
       "deprecatedIDs": [
-        "munchyMonkWiiJa/peas4Bang"
+        "munchyMonkWiiJa/peas1",
+        "munchyMonkFeverJa/peas1"
       ],
-      "name": "tenkomori - ri! - bang",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "cue",
-      "id": "*/peas5",
+      "id": "*/peasVoice2",
+      "name": "handful of peas - ful",
       "deprecatedIDs": [
-        "munchyMonkWiiJa/peas5"
+        "munchyMonkWiiJa/peas2",
+        "munchyMonkFeverJa/peas2"
       ],
-      "name": "tenkomori - blow1",
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/peas6",
+      "id": "*/peasVoice3",
+      "name": "handful of peas - of",
       "deprecatedIDs": [
-        "munchyMonkWiiJa/peas6"
+        "munchyMonkWiiJa/peas3",
+        "munchyMonkFeverJa/peas3"
       ],
-      "name": "tenkomori - blow2",
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/peas7",
+      "id": "*/peasVoice4",
+      "name": "handful of peas - peas! - 5 peas",
       "deprecatedIDs": [
-        "munchyMonkWiiJa/peas7"
+        "munchyMonkWiiJa/peas4",
+        "munchyMonkFeverJa/peas4"
       ],
-      "name": "tenkomori - blow3",
-      "duration": 0.25
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/peas8",
+      "id": "*/peasCymbal9",
+      "name": "handful of peas - peas! - 9 peas",
       "deprecatedIDs": [
-        "munchyMonkWiiJa/peas8"
+        "munchyMonkWiiJa/peas4Bang",
+        "munchyMonkFeverJa/peas4Bang"
       ],
-      "name": "tenkomori - blow4",
-      "duration": 0.25
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/peas9",
-      "deprecatedIDs": [
-        "munchyMonkWiiJa/peas9"
-      ],
-      "name": "tenkomori - blow5",
-      "duration": 0.25
+      "id": "*/peasCymbal13",
+      "name": "handful of peas - peas! - 13 peas",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/peas10",
-      "deprecatedIDs": [
-        "munchyMonkWiiJa/peas10"
-      ],
-      "name": "tenkomori - blow6",
-      "duration": 0.25
+      "id": "*/peasBlowVoiceShort",
+      "name": "peas - blow - voice - short",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.0
     },
     {
       "type": "cue",
-      "id": "*/peas11",
-      "deprecatedIDs": [
-        "munchyMonkWiiJa/peas11"
-      ],
-      "name": "tenkomori - blow7",
-      "duration": 0.25
+      "id": "*/peasBlowVoiceLong",
+      "name": "peas - blow - voice - long",
+      "deprecatedIDs": [],
+      "subtext": "",
+      "duration": 1.5
     },
     {
       "type": "cue",
-      "id": "*/peas12",
+      "id": "*/peasBlow",
+      "name": "peas - blow",
       "deprecatedIDs": [
-        "munchyMonkWiiJa/peas12"
-      ],
-      "name": "tenkomori - blow8",
-      "duration": 0.25
-    },
-    {
-      "type": "cue",
-      "id": "*/peas13",
-      "deprecatedIDs": [
+        "munchyMonkFeverJa/peas5",
+        "munchyMonkFeverJa/peas6",
+        "munchyMonkFeverJa/peas7",
+        "munchyMonkFeverJa/peas8",
+        "munchyMonkFeverJa/peas9",
+        "munchyMonkFeverJa/peas10",
+        "munchyMonkFeverJa/peas11",
+        "munchyMonkFeverJa/peas12",
+        "munchyMonkFeverJa/peas13",
+        "munchyMonkWiiJa/peas5",
+        "munchyMonkWiiJa/peas6",
+        "munchyMonkWiiJa/peas7",
+        "munchyMonkWiiJa/peas8",
+        "munchyMonkWiiJa/peas9",
+        "munchyMonkWiiJa/peas10",
+        "munchyMonkWiiJa/peas11",
+        "munchyMonkWiiJa/peas12",
         "munchyMonkWiiJa/peas13"
       ],
-      "name": "tenkomori - blow9",
+      "subtext": "",
       "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/peasgulp",
+      "id": "*/peasGulp",
+      "name": "peas - gulp",
       "deprecatedIDs": [
-        "munchyMonkWiiJa/peasgulp"
+        "munchyMonkWiiJa/peasgulp",
+        "munchyMonkFeverJa/peasgulp"
       ],
-      "name": "tenkomori - gulp",
+      "subtext": "",
       "duration": 0.5
     },
     {
       "type": "pattern",
-      "id": "*_haiYa",
+      "id": "*_egg",
+      "name": "one egg!",
       "deprecatedIDs": [
+        "munchyMonkFeverJa_haiYa",
         "munchyMonkWiiJa_haiYa"
       ],
-      "name": "one egg!",
       "cues": [
         {
-          "id": "*/haiya1",
+          "id": "*/eggVoice1",
           "beat": 0.0
         },
         {
-          "id": "*/haiya2",
+          "id": "*/eggVoice2",
           "beat": 1.0
         },
         {
-          "id": "*/blow",
+          "id": "*/eggBlow",
           "beat": 2.0
         },
         {
-          "id": "*/gulp",
+          "id": "*/eggGulp",
           "beat": 2.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_tenkomori",
+      "id": "*_peas5",
+      "name": "handful of peas! - 5 peas",
       "deprecatedIDs": [
+        "munchyMonkFeverJa_tenkomori",
         "munchyMonkWiiJa_tenkomori"
       ],
-      "name": "handful of peas!",
       "cues": [
         {
-          "id": "*/peas1",
+          "id": "*/peasVoice1",
           "beat": 0.0
         },
         {
-          "id": "*/peas2",
+          "id": "*/peasVoice2",
           "beat": 0.5
         },
         {
-          "id": "*/peas3",
+          "id": "*/peasVoice3",
           "beat": 0.75
         },
         {
-          "id": "*/peas4",
+          "id": "*/peasVoice4",
           "beat": 1.0
         },
         {
-          "id": "*/peas5",
-          "beat": 2.0
+          "id": "*/peasBlowVoiceShort",
+          "beat": 2.0,
+          "track": 1
         },
         {
-          "id": "*/peas6",
-          "beat": 2.25
+          "id": "*/peasBlow",
+          "beat": 2.0,
+          "semitone": 1
         },
         {
-          "id": "*/peas7",
-          "beat": 2.5
+          "id": "*/peasBlow",
+          "beat": 2.25,
+          "semitone": 2
         },
         {
-          "id": "*/peas8",
-          "beat": 2.75
+          "id": "*/peasBlow",
+          "beat": 2.5,
+          "semitone": 3
         },
         {
-          "id": "*/peas9",
-          "beat": 3.0
+          "id": "*/peasBlow",
+          "beat": 2.75,
+          "semitone": 4
         },
         {
-          "id": "*/peasgulp",
+          "id": "*/peasBlow",
+          "beat": 3.0,
+          "semitone": 5
+        },
+        {
+          "id": "*/peasGulp",
           "beat": 3.5
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_tenkomoriLong",
+      "id": "*_peas9",
+      "name": "handful of peas! - 9 peas",
       "deprecatedIDs": [
+        "munchyMonkFeverJa_tenkomoriLong",
         "munchyMonkWiiJa_tenkomoriLong"
       ],
-      "name": "handful of peas! - long",
       "cues": [
         {
-          "id": "*/peas1",
+          "id": "*/peasVoice1",
           "beat": 0.0
         },
         {
-          "id": "*/peas2",
+          "id": "*/peasVoice2",
           "beat": 0.5
         },
         {
-          "id": "*/peas3",
+          "id": "*/peasVoice3",
           "beat": 0.75
         },
         {
-          "id": "*/peas4Bang",
+          "id": "*/peasCymbal9",
           "beat": 1.0
         },
         {
-          "id": "*/peas5",
-          "beat": 2.0
+          "id": "*/peasBlowVoiceLong",
+          "beat": 2.0,
+          "track": 1
         },
         {
-          "id": "*/peas6",
-          "beat": 2.25
+          "id": "*/peasBlow",
+          "beat": 2.0,
+          "semitone": 1
         },
         {
-          "id": "*/peas7",
-          "beat": 2.5
+          "id": "*/peasBlow",
+          "beat": 2.25,
+          "semitone": 2
         },
         {
-          "id": "*/peas8",
-          "beat": 2.75
+          "id": "*/peasBlow",
+          "beat": 2.5,
+          "semitone": 3
         },
         {
-          "id": "*/peas9",
-          "beat": 3.0
+          "id": "*/peasBlow",
+          "beat": 2.75,
+          "semitone": 4
         },
         {
-          "id": "*/peas10",
-          "beat": 3.25
+          "id": "*/peasBlow",
+          "beat": 3.0,
+          "semitone": 5
         },
         {
-          "id": "*/peas11",
-          "beat": 3.5
+          "id": "*/peasBlow",
+          "beat": 3.25,
+          "semitone": 6
         },
         {
-          "id": "*/peas12",
-          "beat": 3.75
+          "id": "*/peasBlow",
+          "beat": 3.5,
+          "semitone": 7
         },
         {
-          "id": "*/peas13",
-          "beat": 4.0
+          "id": "*/peasBlow",
+          "beat": 3.75,
+          "semitone": 8
         },
         {
-          "id": "*/peasgulp",
+          "id": "*/peasBlow",
+          "beat": 4.0,
+          "semitone": 9
+        },
+        {
+          "id": "*/peasGulp",
           "beat": 4.5
         }
-      ]
+      ],
+      "subtext": ""
+    },
+    {
+      "type": "pattern",
+      "id": "*_peas13",
+      "name": "handful of peas! - 13 peas",
+      "deprecatedIDs": [],
+      "cues": [
+        {
+          "id": "*/peasVoice1",
+          "beat": 0.0
+        },
+        {
+          "id": "*/peasVoice2",
+          "beat": 0.5
+        },
+        {
+          "id": "*/peasVoice3",
+          "beat": 0.75
+        },
+        {
+          "id": "*/peasCymbal13",
+          "beat": 1.0
+        },
+        {
+          "id": "*/peasBlowVoiceLong",
+          "beat": 2.0,
+          "track": 1
+        },
+        {
+          "id": "*/peasBlow",
+          "beat": 2.0,
+          "semitone": 1
+        },
+        {
+          "id": "*/peasBlow",
+          "beat": 2.25,
+          "semitone": 2
+        },
+        {
+          "id": "*/peasBlow",
+          "beat": 2.5,
+          "semitone": 3
+        },
+        {
+          "id": "*/peasBlow",
+          "beat": 2.75,
+          "semitone": 4
+        },
+        {
+          "id": "*/peasBlow",
+          "beat": 3.0,
+          "semitone": 5
+        },
+        {
+          "id": "*/peasBlow",
+          "beat": 3.25,
+          "semitone": 6
+        },
+        {
+          "id": "*/peasBlow",
+          "beat": 3.5,
+          "semitone": 7
+        },
+        {
+          "id": "*/peasBlow",
+          "beat": 3.75,
+          "semitone": 8
+        },
+        {
+          "id": "*/peasBlow",
+          "beat": 4.0,
+          "semitone": 9
+        },
+        {
+          "id": "*/peasBlow",
+          "beat": 4.25,
+          "semitone": 10
+        },
+        {
+          "id": "*/peasBlow",
+          "beat": 4.5,
+          "semitone": 11
+        },
+        {
+          "id": "*/peasBlow",
+          "beat": 4.75,
+          "semitone": 12
+        },
+        {
+          "id": "*/peasBlow",
+          "beat": 5.0,
+          "semitone": 13
+        },
+        {
+          "id": "*/peasGulp",
+          "beat": 5.5
+        }
+      ],
+      "subtext": ""
     }
   ]
 }
