@@ -1,151 +1,196 @@
 {
-  "series": "side",
   "id": "chameleon",
   "name": "Chameleon",
+  "series": "side",
   "objects": [
     {
       "type": "cue",
-      "id": "*/flyA1",
-      "deprecatedIDs": [],
-      "name": "fly - near - 1",
+      "id": "*/flyNearLoop",
+      "name": "fly - near - loop",
+      "deprecatedIDs": [
+        "chameleon/flyA1"
+      ],
+      "subtext": "",
       "duration": 2.5,
-      "baseBpm": 119,
-      "baseBpmRules": "onlyTimeStretch",
-      "loops": true
+      "stretchable": true,
+      "loops": true,
+      "loopStart": 2.20819,
+      "loopEnd": 2.44325
     },
     {
       "type": "cue",
-      "id": "*/flyA2",
-      "deprecatedIDs": [],
+      "id": "*/flyNear1",
+      "name": "fly - near - 1",
+      "deprecatedIDs": [
+        "chameleon/flyA2"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "baseBpm": 119.0,
+      "baseBpmRules": "onlyTimeStretch"
+    },
+    {
+      "type": "cue",
+      "id": "*/flyNear2",
       "name": "fly - near - 2",
+      "deprecatedIDs": [
+        "chameleon/flyA3"
+      ],
+      "subtext": "",
       "duration": 1.0,
-      "baseBpm": 119,
+      "baseBpm": 119.0,
       "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",
-      "id": "*/flyA3",
-      "deprecatedIDs": [],
+      "id": "*/flyNear3",
       "name": "fly - near - 3",
+      "deprecatedIDs": [
+        "chameleon/flyA4"
+      ],
+      "subtext": "",
       "duration": 1.0,
-      "baseBpm": 119,
+      "baseBpm": 119.0,
       "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",
-      "id": "*/flyA4",
-      "deprecatedIDs": [],
-      "name": "fly - near - 4",
-      "duration": 1.0,
-      "baseBpm": 119,
-      "baseBpmRules": "onlyTimeStretch"
-    },
-    {
-      "type": "cue",
-      "id": "*/flyA5",
-      "deprecatedIDs": [],
-      "name": "fly - far - eat",
-      "duration": 1.0
-    },
-    {
-      "type": "cue",
-      "id": "*/flyAB1",
-      "deprecatedIDs": [],
-      "name": "fly - far - 1",
+      "id": "*/flyFarLoop",
+      "name": "fly - far - loop",
+      "deprecatedIDs": [
+        "chameleon/flyAB1"
+      ],
+      "subtext": "",
       "duration": 4.0,
-      "baseBpm": 119,
-      "baseBpmRules": "onlyTimeStretch",
-      "loops": true
+      "stretchable": true,
+      "loops": true,
+      "loopStart": 2.62006,
+      "loopEnd": 4.26868
     },
     {
       "type": "cue",
-      "id": "*/flyAB2",
-      "deprecatedIDs": [],
+      "id": "*/flyFar1",
+      "name": "fly - far - 1",
+      "deprecatedIDs": [
+        "chameleon/flyAB2"
+      ],
+      "subtext": "",
+      "duration": 1.0,
+      "baseBpm": 119.0,
+      "baseBpmRules": "onlyTimeStretch"
+    },
+    {
+      "type": "cue",
+      "id": "*/flyFar2",
       "name": "fly - far - 2",
+      "deprecatedIDs": [
+        "chameleon/flyAB3"
+      ],
+      "subtext": "",
       "duration": 1.0,
-      "baseBpm": 119,
+      "baseBpm": 119.0,
       "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",
-      "id": "*/flyAB3",
-      "deprecatedIDs": [],
+      "id": "*/flyFar3",
       "name": "fly - far - 3",
+      "deprecatedIDs": [
+        "chameleon/flyAB4"
+      ],
+      "subtext": "",
       "duration": 1.0,
-      "baseBpm": 119,
+      "baseBpm": 119.0,
       "baseBpmRules": "onlyTimeStretch"
     },
     {
       "type": "cue",
-      "id": "*/flyAB4",
-      "deprecatedIDs": [],
-      "name": "fly - far - 4",
-      "duration": 1.0,
-      "baseBpm": 119,
-      "baseBpmRules": "onlyTimeStretch"
+      "id": "*/eatCatch",
+      "name": "fly - eat - catch",
+      "deprecatedIDs": [
+        "chameleon/flyA5",
+        "chameleon/flyAB5"
+      ],
+      "subtext": "",
+      "duration": 0.25
     },
     {
       "type": "cue",
-      "id": "*/flyAB5",
+      "id": "*/eatGulp",
+      "name": "fly - eat - gulp",
       "deprecatedIDs": [],
-      "name": "fly - far - eat",
-      "duration": 1.0
+      "subtext": "",
+      "duration": 0.75
     },
     {
       "type": "pattern",
-      "id": "*_flyA",
-      "deprecatedIDs": [],
+      "id": "*_flyNear",
       "name": "near fly",
+      "deprecatedIDs": [
+        "chameleon_flyA"
+      ],
       "cues": [
         {
-          "id": "*/flyA1",
+          "id": "*/flyNearLoop",
           "beat": 0.0
         },
         {
-          "id": "*/flyA2",
+          "id": "*/flyNear1",
           "beat": 2.5
         },
         {
-          "id": "*/flyA3",
+          "id": "*/flyNear2",
           "beat": 3.5
         },
         {
-          "id": "*/flyA4",
+          "id": "*/flyNear3",
           "beat": 4.5
         },
         {
-          "id": "*/flyA5",
+          "id": "*/eatCatch",
           "beat": 5.5
+        },
+        {
+          "id": "*/eatGulp",
+          "beat": 5.75
         }
-      ]
+      ],
+      "subtext": ""
     },
     {
       "type": "pattern",
-      "id": "*_flyAB",
-      "deprecatedIDs": [],
+      "id": "*_flyFar",
       "name": "far fly",
+      "deprecatedIDs": [
+        "chameleon_flyAB"
+      ],
       "cues": [
         {
-          "id": "*/flyAB1",
+          "id": "*/flyFarLoop",
           "beat": 0.0
         },
         {
-          "id": "*/flyAB2",
+          "id": "*/flyFar1",
           "beat": 4.0
         },
         {
-          "id": "*/flyAB3",
+          "id": "*/flyFar2",
           "beat": 5.0
         },
         {
-          "id": "*/flyAB4",
+          "id": "*/flyFar3",
           "beat": 6.0
         },
         {
-          "id": "*/flyAB5",
+          "id": "*/eatCatch",
           "beat": 7.0
+        },
+        {
+          "id": "*/eatGulp",
+          "beat": 7.25
         }
-      ]
+      ],
+      "subtext": ""
     }
   ]
 }
