@@ -12,7 +12,7 @@
       "name": "count-in",
       "deprecatedIDs": [
         "kungFuBall_countin",
-        "kungFuBall_countin"
+        "kungFuBall_countIn"
       ],
       "cues": [
         {
@@ -85,9 +85,7 @@
       "type": "keepTheBeat",
       "id": "*_kickRandomRight",
       "name": "kicking (starting right)",
-      "deprecatedIDs": [
-        "kungFuBall_kickRandom"
-      ],
+      "deprecatedIDs": [],
       "defaultDuration": 2.0,
       "cues": [
         {
@@ -139,9 +137,7 @@
       "type": "keepTheBeat",
       "id": "*_punchRandomRight",
       "name": "punching (starting right)",
-      "deprecatedIDs": [
-        "kungFuBall_punchRandom"
-      ],
+      "deprecatedIDs": [],
       "defaultDuration": 2.0,
       "cues": [
         {
