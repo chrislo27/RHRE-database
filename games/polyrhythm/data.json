@@ -1,6 +1,6 @@
 {
   "id": "polyrhythm",
-  "name": "Polyrhythm Mania",
+  "name": "Polyrhythm",
   "series": "tengoku",
   "searchHints": [
     "built to scale"
@@ -81,14 +81,6 @@
       "deprecatedIDs": [],
       "subtext": "",
       "duration": 3.0
-    },
-    {
-      "type": "cue",
-      "id": "*/challengeComplete",
-      "name": "challenge complete",
-      "deprecatedIDs": [],
-      "subtext": "",
-      "duration": 4.0
     }
   ]
 }
